@@ -4,6 +4,7 @@ from functools import partial
 import click
 from hfmirror.storage import LocalStorage, HuggingfaceStorage
 from hfmirror.sync import SyncTask
+from huggingface_hub import create_repo
 
 from sync.sync import GenshinDBResource
 from .utils import GLOBAL_CONTEXT_SETTINGS
@@ -38,7 +39,9 @@ def local(output_dir):
               help='Repository of genshin db data.', show_default=True)
 def huggingface(repository):
     source = GenshinDBResource()
-    storage = HuggingfaceStorage(repository, access_token=os.environ.get('HF_TOKEN'))
+    access_token = os.environ.get('HF_TOKEN')
+    create_repo(repository, token=access_token, repo_type='dataset', exist_ok=True)
+    storage = HuggingfaceStorage(repository, access_token=access_token)
 
     task = SyncTask(source, storage)
     task.sync()
