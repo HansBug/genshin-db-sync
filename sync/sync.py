@@ -23,7 +23,7 @@ class JsonDataSyncItem(SyncItem):
         with TemporaryDirectory() as td:
             json_file = os.path.join(td, 'data.json')
             with open(json_file, 'w', encoding='utf-8') as f:
-                json.dump(self.value, f, indent=4, ensure_ascii=False)
+                json.dump(self.value, f, indent=4, ensure_ascii=False, sort_keys=True)
 
             yield json_file
 
