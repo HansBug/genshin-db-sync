@@ -1,11 +1,11 @@
 {
     "items": {
-        "liyue": {
-            "id": 101,
-            "name": "Liyue",
-            "description": "Como o sol, é imponente; como a lua, é eterna.\nComo as montanhas, é resiliente; onde todas as coisas prosperam.",
-            "descriptionraw": "Como o sol, é imponente; como a lua, é eterna.\\nComo as montanhas, é resiliente; onde todas as coisas prosperam.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 3",
+        "inazuma": {
+            "id": 102,
+            "name": "Inazuma",
+            "description": "O relâmpago brilha por um instante, deixando para trás um solitário trovão.\nSonhos de loucura vêm e vão; nada neste mundo é constante.",
+            "descriptionraw": "O relâmpago brilha por um instante, deixando para trás um solitário trovão.\\nSonhos de loucura vêm e vão; nada neste mundo é constante.",
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 5",
             "rarity": 4
         },
         "sumeru": {
@@ -16,20 +16,20 @@
             "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 7",
             "rarity": 4
         },
+        "liyue": {
+            "id": 101,
+            "name": "Liyue",
+            "description": "Como o sol, é imponente; como a lua, é eterna.\nComo as montanhas, é resiliente; onde todas as coisas prosperam.",
+            "descriptionraw": "Como o sol, é imponente; como a lua, é eterna.\\nComo as montanhas, é resiliente; onde todas as coisas prosperam.",
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 3",
+            "rarity": 4
+        },
         "mondstadt": {
             "id": 100,
             "name": "Mondstadt",
             "description": "A brisa suspira feliz e incessante, soprando nas cordas uma melodia serena.\nEntre o vento e as flores uma conversa amena, que aterrissa no coração de uma límpida fonte.",
             "descriptionraw": "A brisa suspira feliz e incessante, soprando nas cordas uma melodia serena.\\nEntre o vento e as flores uma conversa amena, que aterrissa no coração de uma límpida fonte.",
             "source": "Aquisição Inicial",
-            "rarity": 4
-        },
-        "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
-            "description": "O relâmpago brilha por um instante, deixando para trás um solitário trovão.\nSonhos de loucura vêm e vão; nada neste mundo é constante.",
-            "descriptionraw": "O relâmpago brilha por um instante, deixando para trás um solitário trovão.\\nSonhos de loucura vêm e vão; nada neste mundo é constante.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 5",
             "rarity": 4
         }
     },

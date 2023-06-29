@@ -1,22 +1,160 @@
 {
     "items": {
-        "elementalreactionsrules": {
-            "id": 5,
-            "name": "Elementarreaktionen – Regel",
+        "takeaction": {
+            "id": 3,
+            "name": "Wie man Aktionen ausführt",
             "rules": [
                 {
-                    "title": "Elementarattribut",
-                    "titleraw": "Elementarattribut",
-                    "content": "Erleidet 1 Figur Kryo-, Hydro-, Pyro-, Elektro- oder Dendro-SCH, wird ihr das entsprechende Elementarattribut verliehen.\n(Anemo-SCH und Geo-SCH hiervon ausgeschlossen.)",
-                    "contentraw": "Erleidet 1 Figur {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-</color> oder {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-</color>SCH, wird ihr das entsprechende <color=#FFE14BFF>Elementarattribut</color> verliehen.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color> und {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color> hiervon ausgeschlossen.)",
-                    "filename_image": "UI_Gcg_InSide_12"
+                    "title": "Aktionen",
+                    "titleraw": "Aktionen",
+                    "content": "In der Zugphase können „Aktionen“ ausgeführt werden, die sich in „Kampfaktionen“ und „Schnellaktionen“ unterteilen.\nKampfaktion: Vollendest du 1 Kampfaktion, geht der Zug an deinen Gegner über. „Fähigkeit anwenden“, „Figur wechseln“ und „Runde beenden“ gelten als Kampfaktion.\nSchnellaktion: Vollendest du 1 Schnellaktion, kannst du noch weitere Aktionen ausführen. „Karte ausspielen“ und „Elementare Abstimmung“ gelten als Schnellaktion.",
+                    "contentraw": "In der Zugphase können „Aktionen“ ausgeführt werden, die sich in „Kampfaktionen“ und „Schnellaktionen“ unterteilen.\\n<color=#FFE14BFF>Kampfaktion</color>: Vollendest du 1 Kampfaktion, geht der Zug an deinen Gegner über. „Fähigkeit anwenden“, „Figur wechseln“ und „Runde beenden“ gelten als Kampfaktion.\\n<color=#FFE14BFF>Schnellaktion</color>: Vollendest du 1 Schnellaktion, kannst du noch weitere Aktionen ausführen. „Karte ausspielen“ und „Elementare Abstimmung“ gelten als Schnellaktion."
                 },
                 {
-                    "title": "Elementarreaktionen – Regel",
-                    "titleraw": "Elementarreaktionen – Regel",
-                    "content": "Ist das Ziel bereits von einem bestimmten Elementarattribut betroffen:\n1. Bestimmter Elementar-SCH an ihm kann Elementarreaktionen auslösen.\n2. Das Verleihen eines bestimmten Elementarattributs, ohne dabei Schaden zu verursachen, kann ebenfalls Elementarreaktionen auslösen. Bei Abrechnen der Effekte dieser Elementarreaktionen werden allerdings die SCH-Effekte ignoriert.",
-                    "contentraw": "Ist das Ziel bereits von einem bestimmten <color=#FFE14BFF>Elementarattribut</color> betroffen:\\n1. Bestimmter <color=#FFE14BFF>Elementar-SCH</color> an ihm kann Elementarreaktionen auslösen.\\n2. Das Verleihen eines bestimmten Elementarattributs, ohne dabei Schaden zu verursachen, kann ebenfalls Elementarreaktionen auslösen. Bei Abrechnen der Effekte dieser Elementarreaktionen werden allerdings die SCH-Effekte ignoriert.",
-                    "filename_image": "UI_Gcg_InSide_13"
+                    "title": "Kampfaktion – Fähigkeit anwenden",
+                    "titleraw": "Kampfaktion – Fähigkeit anwenden",
+                    "content": "Du kannst Elementarwürfel verbrauchen, damit deine aktive Figur die aktive Figur deines Gegners mit Fähigkeiten angreift.\nNach Anwenden jedes Standardangriffs oder jeder Elementarfähigkeit durch die aktive Figur, erhält sie 1 Pkt. Aufladung.\nSobald diese Figur vollständig aufgeladen ist, kann sie alle Aufladungspunkte verbrauchen, um die mächtige Spezialfähigkeit anzuwenden.",
+                    "contentraw": "Du kannst Elementarwürfel verbrauchen, damit deine aktive Figur die aktive Figur deines Gegners mit Fähigkeiten angreift.\\nNach Anwenden jedes Standardangriffs oder jeder Elementarfähigkeit durch die aktive Figur, erhält sie 1 Pkt. Aufladung.\\nSobald diese Figur vollständig aufgeladen ist, kann sie alle Aufladungspunkte verbrauchen, um die mächtige Spezialfähigkeit anzuwenden."
+                },
+                {
+                    "title": "Kampfaktion – Figur wechseln",
+                    "titleraw": "Kampfaktion – Figur wechseln",
+                    "content": "Verbrauche 1 beliebigen Elementarwürfel, um 1 deiner inaktiven Figuren zur aktiven Figur zu wechseln.",
+                    "contentraw": "Verbrauche 1 beliebigen Elementarwürfel, um 1 deiner inaktiven Figuren zur aktiven Figur zu wechseln."
+                },
+                {
+                    "title": "Schnellaktion – Karte ausspielen",
+                    "titleraw": "Schnellaktion – Karte ausspielen",
+                    "content": "Verbrauche entsprechende Elementarwürfel, um 1 Karte aus deiner Hand auszuspielen. Die Karten lassen sich wie folgt unterteilen:\nAusrüstungskarte: Rüste damit 1 Figur aus, um ihr Boni zu verleihen.\nUnterstützungskarte: Leg sie auf deinen Unterstützungsplatz, um fortlaufend Unterstützungseffekte zu erzeugen.\nEreigniskarte: Spiel sie aus, um all ihre Effekte auf einmal abzurechnen.",
+                    "contentraw": "Verbrauche entsprechende Elementarwürfel, um 1 Karte aus deiner Hand auszuspielen. Die Karten lassen sich wie folgt unterteilen:\\n<color=#FFE14BFF>Ausrüstungskarte</color>: Rüste damit 1 Figur aus, um ihr Boni zu verleihen.\\n<color=#FFE14BFF>Unterstützungskarte</color>: Leg sie auf deinen Unterstützungsplatz, um fortlaufend Unterstützungseffekte zu erzeugen.\\n<color=#FFE14BFF>Ereigniskarte</color>: Spiel sie aus, um all ihre Effekte auf einmal abzurechnen."
+                },
+                {
+                    "title": "Schnellaktion – Elementare Abstimmung",
+                    "titleraw": "Schnellaktion – Elementare Abstimmung",
+                    "content": "Wirf eine Karte aus deiner Hand ab und verwandle somit 1 Elementarwürfel in das Element deiner aktuell aktiven Figur.",
+                    "contentraw": "Wirf eine Karte aus deiner Hand ab und verwandle somit 1 Elementarwürfel in das Element deiner aktuell aktiven Figur."
+                },
+                {
+                    "title": "Kampfaktion – Runde beenden",
+                    "titleraw": "Kampfaktion – Runde beenden",
+                    "content": "Sobald man seine Runde beendet, verzichtet man auf weitere Aktionen in der laufenden Runde.\nDanach führt der Kartenbeschwörer, der das Ende seiner Runde noch nicht erklärt hat, weitere Aktionen aus, bis er seine Runde beendet.\nDer Kartenbeschwörer, der diese Runde zuerst beendet, erhält die Vorhand in der nächsten Runde, d. h. in der Zugphase der nächsten Runde ist er als Erster am Zug.\nNachdem beide Seiten ihre Runde beendet haben, endet die Zugphase und beginnt somit die Endphase der aktuellen Runde.",
+                    "contentraw": "Sobald man seine Runde beendet, verzichtet man auf weitere Aktionen in der laufenden Runde.\\nDanach führt der Kartenbeschwörer, der das Ende seiner Runde noch nicht erklärt hat, weitere Aktionen aus, bis er seine Runde beendet.\\nDer Kartenbeschwörer, der diese Runde zuerst beendet, erhält die Vorhand in der nächsten Runde, d. h. in der Zugphase der nächsten Runde ist er als Erster am Zug.\\nNachdem beide Seiten ihre Runde beendet haben, endet die Zugphase und beginnt somit die Endphase der aktuellen Runde."
+                }
+            ]
+        },
+        "specialentry": {
+            "id": 8,
+            "name": "Begriffserläuterungen",
+            "rules": [
+                {
+                    "title": "Gericht",
+                    "titleraw": "{SPRITE_PRESET#3101}Gericht",
+                    "content": "Sobald eine Gericht-Ereigniskarte auf eine Figur gewirkt hat, befindet sich die Figur in dem Zustand „Gesättigt“.\nDanach kann sie nicht mehr als ein Ziel von anderen Gericht-Ereigniskarten anvisiert oder von ihnen beeinflusst werden.\nDer Zustand „Gesättigt“ wird am Ende der Runde oder beim Ausscheiden der Figur entfernt.\nNachdem in einer Runde eine Gericht-Ereigniskarte mit einem Wiederbelebungseffekt verwendet worden ist, kann in dieser Runde keine andere Gericht-Ereigniskarte mit dem Wiederbelebungseffekt ausgespielt werden.",
+                    "contentraw": "Sobald eine {SPRITE_PRESET#3101}Gericht-Ereigniskarte auf eine Figur gewirkt hat, befindet sich die Figur in dem Zustand „Gesättigt“.\\nDanach kann sie nicht mehr als ein Ziel von anderen {SPRITE_PRESET#3101}Gericht-Ereigniskarten anvisiert oder von ihnen beeinflusst werden.\\nDer Zustand „Gesättigt“ wird am Ende der Runde oder beim Ausscheiden der Figur entfernt.\\nNachdem in einer Runde eine {SPRITE_PRESET#3101}Gericht-Ereigniskarte mit einem Wiederbelebungseffekt verwendet worden ist, kann in dieser Runde keine andere {SPRITE_PRESET#3101}Gericht-Ereigniskarte mit dem Wiederbelebungseffekt ausgespielt werden."
+                },
+                {
+                    "title": "Schild",
+                    "titleraw": "{SPRITE_PRESET#4007}Schild",
+                    "content": "Einige Effekte verleihen bestimmten Figuren Schild.\nDieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen.",
+                    "contentraw": "Einige Effekte verleihen bestimmten Figuren Schild.\\nDieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen."
+                },
+                {
+                    "title": "Einsatzmöglichkeit",
+                    "titleraw": "Einsatzmöglichkeit",
+                    "content": "Einige Karten oder Zustände haben eine begrenzte Einsatzmöglichkeit.\nJedes Mal, wenn der Effekt dieser Karte ausgelöst wird, wird 1 Einsatzmöglichkeit verbraucht.\nIst die Einsatzmöglichkeit dieser Karte aufgebraucht, wird sie sofort abgeworfen.",
+                    "contentraw": "Einige Karten oder Zustände haben eine begrenzte Einsatzmöglichkeit.\\nJedes Mal, wenn der Effekt dieser Karte ausgelöst wird, wird 1 Einsatzmöglichkeit verbraucht.\\nIst die Einsatzmöglichkeit dieser Karte aufgebraucht, wird sie sofort abgeworfen."
+                },
+                {
+                    "title": "Dauer (Runden)",
+                    "titleraw": "Dauer (Runden)",
+                    "content": "Einige Karten oder Zustände haben eine begrenzte Dauer (Runden).\nJedes Mal, wenn 1 Runde endet: Ihre Dauer (Runden) -1\nIst die Dauer (Runden) einer Karte abgelaufen, wird sie sofort abgeworfen.",
+                    "contentraw": "Einige Karten oder Zustände haben eine begrenzte Dauer (Runden).\\nJedes Mal, wenn 1 Runde endet: Ihre Dauer (Runden) -1\\nIst die Dauer (Runden) einer Karte abgelaufen, wird sie sofort abgeworfen."
+                },
+                {
+                    "title": "Durchdringender Schaden",
+                    "titleraw": "Durchdringender Schaden",
+                    "content": "Einige Effekte verursachen durchdringenden Schaden.\nDurchdringender Schaden kann nicht durch SCH-Boni erhöht werden, ist aber auch nicht durch Schilde abzuwehren.",
+                    "contentraw": "Einige Effekte verursachen durchdringenden Schaden.\\nDurchdringender Schaden kann nicht durch SCH-Boni erhöht werden, ist aber auch nicht durch Schilde abzuwehren."
+                },
+                {
+                    "title": "Kampfaktion (Aktionskarte)",
+                    "titleraw": "Kampfaktion (Aktionskarte)",
+                    "content": "Einige Aktionskarten folgen der Regel für Kampfaktionen.\nEine Karte, die dieser Regel folgt, aus der Hand zu spielen, gilt nicht als Schnellaktion, sondern als Kampfaktion.",
+                    "contentraw": "Einige Aktionskarten folgen der Regel für Kampfaktionen.\\nEine Karte, die dieser Regel folgt, aus der Hand zu spielen, gilt nicht als Schnellaktion, sondern als Kampfaktion."
+                },
+                {
+                    "title": "Heftiger Schlag",
+                    "titleraw": "Heftiger Schlag",
+                    "content": "Ist die Summe deiner verbliebenen Elementarwürfel vor deiner Aktion eine gerade Zahl, gilt der angewendete Standardangriff als heftiger Schlag.",
+                    "contentraw": "Ist die Summe deiner verbliebenen Elementarwürfel vor deiner Aktion eine gerade Zahl, gilt der angewendete Standardangriff als heftiger Schlag."
+                },
+                {
+                    "title": "Angriff aus dem Fall",
+                    "titleraw": "Angriff aus dem Fall",
+                    "content": "Wird eine Figur als aktive Figur eingewechselt, gilt ihre nächste Kampfaktion in der Runde, wenn sie ein Standardangriff ist, als Angriff aus dem Fall.",
+                    "contentraw": "Wird eine Figur als aktive Figur eingewechselt, gilt ihre nächste Kampfaktion in der Runde, wenn sie ein Standardangriff ist, als Angriff aus dem Fall."
+                }
+            ]
+        },
+        "roundflow": {
+            "id": 2,
+            "name": "Wie eine Runde verläuft",
+            "rules": [
+                {
+                    "title": "Wie eine Runde verläuft",
+                    "titleraw": "Wie eine Runde verläuft",
+                    "content": "Jede Runde verläuft wie folgt: Würfelphase > Zugphase > Endphase.",
+                    "contentraw": "Jede Runde verläuft wie folgt: Würfelphase > Zugphase > Endphase.",
+                    "filename_image": "UI_Gcg_InSide_11"
+                },
+                {
+                    "title": "Würfelphase",
+                    "titleraw": "Würfelphase",
+                    "content": "In der Würfelphase jeder Runde darfst du 8 Elementarwürfel werfen.\nAm Ende des Wurfs hast du 1-mal die Chance, so viele Würfel zu wählen, wie du neu werfen möchtest.\nJedes Würfelergebnis kann neben den 7 Elementarwürfeln (Kryo-, Hydro-, Pyro-, Elektro-, Anemo-, Geo- und Dendro-Würfel) auch Omni-Würfel enthalten, die man als beliebiges Element verbrauchen kann.\nMengenobergrenze der Elementarwürfel liegt bei 16. Sobald du diese Obergrenze erreicht hast, kannst du keine weiteren Würfel mehr erhalten.",
+                    "contentraw": "In der Würfelphase jeder Runde darfst du 8 Elementarwürfel werfen.\\nAm Ende des Wurfs hast du 1-mal die Chance, so viele Würfel zu wählen, wie du neu werfen möchtest.\\nJedes Würfelergebnis kann neben den 7 Elementarwürfeln (Kryo-, Hydro-, Pyro-, Elektro-, Anemo-, Geo- und Dendro-Würfel) auch Omni-Würfel enthalten, die man als beliebiges Element verbrauchen kann.\\nMengenobergrenze der Elementarwürfel liegt bei 16. Sobald du diese Obergrenze erreicht hast, kannst du keine weiteren Würfel mehr erhalten."
+                },
+                {
+                    "title": "Zugphase",
+                    "titleraw": "Zugphase",
+                    "content": "Beide Seiten führen abwechselnd Aktionen aus, beginnend mit dem Kartenbeschwörer, der die Vorhand hat. Eventuelle Aktionen wie folgt:\nFähigkeit anwenden: Wende Fähigkeiten deiner aktiven Figur an, indem du Elementarwürfel usw. verbrauchst.\nFigur wechseln: Wechsle deine aktive Figur, indem du 1 beliebigen Elementarwürfel verbrauchst.\nKarte ausspielen: Spiele eine oder mehrere Karten aus deiner Hand aus, indem du Elementarwürfel usw. verbrauchst.\nElementare Abstimmung: Ändere den Elementartyp von 1 deiner Elementarwürfel, indem du eine Karte aus deiner Hand ablegst.\nRunde beenden: Beende deine Runde für alle möglichen Aktionen. Der Kartenbeschwörer, der seine Runde zuerst beendet, erhält die Vorhand für die kommende Runde.",
+                    "contentraw": "Beide Seiten führen abwechselnd Aktionen aus, beginnend mit dem Kartenbeschwörer, der die Vorhand hat. Eventuelle Aktionen wie folgt:\\n<color=#FFE14BFF>Fähigkeit anwenden</color>: Wende Fähigkeiten deiner aktiven Figur an, indem du Elementarwürfel usw. verbrauchst.\\n<color=#FFE14BFF>Figur wechseln</color>: Wechsle deine aktive Figur, indem du 1 beliebigen Elementarwürfel verbrauchst.\\n<color=#FFE14BFF>Karte ausspielen</color>: Spiele eine oder mehrere Karten aus deiner Hand aus, indem du Elementarwürfel usw. verbrauchst.\\n<color=#FFE14BFF>Elementare Abstimmung</color>: Ändere den Elementartyp von 1 deiner Elementarwürfel, indem du eine Karte aus deiner Hand ablegst.\\n<color=#FFE14BFF>Runde beenden</color>: Beende deine Runde für alle möglichen Aktionen. Der Kartenbeschwörer, der seine Runde zuerst beendet, erhält die Vorhand für die kommende Runde."
+                },
+                {
+                    "title": "Endphase",
+                    "titleraw": "Endphase",
+                    "content": "Sobald beide Kartenbeschwörer in der Zugphase ihre Runde beenden, geht das Spiel in die Endphase über.\n1. Verschiedene Karteneffekte werden abgerechnet, die in der Endphase auszulösen sind, beginnend mit dem Kartenbeschwörer, der die Vorhand hat.\n2. Beide Kartenbeschwörer ziehen jeweils 2 Karten von ihren Nachziehstapeln.\n3. Die nächste Runde kann beginnen!",
+                    "contentraw": "Sobald beide Kartenbeschwörer in der Zugphase ihre Runde beenden, geht das Spiel in die Endphase über.\\n1. Verschiedene Karteneffekte werden abgerechnet, die in der Endphase auszulösen sind, beginnend mit dem Kartenbeschwörer, der die Vorhand hat.\\n2. Beide Kartenbeschwörer ziehen jeweils 2 Karten von ihren Nachziehstapeln.\\n3. Die nächste Runde kann beginnen!"
+                }
+            ]
+        },
+        "geniusinvokationtcg": {
+            "id": 1,
+            "name": "Geniale Beschwörung",
+            "rules": [
+                {
+                    "title": "Einführung",
+                    "titleraw": "Einführung",
+                    "content": "„Geniale Beschwörung“ ist ein temporeiches Kartenspiel voller Spannung.\nStell deine Decks aus Figuren- und Aktionskarten zusammen und trage epische Duelle mit deinen Gegnern aus!",
+                    "contentraw": "„Geniale Beschwörung“ ist ein temporeiches Kartenspiel voller Spannung.\\nStell deine Decks aus Figuren- und Aktionskarten zusammen und trage epische Duelle mit deinen Gegnern aus!",
+                    "filename_image": "UI_Gcg_InSide_01"
+                },
+                {
+                    "title": "Vorbereitung",
+                    "titleraw": "Vorbereitung",
+                    "content": "1. Beide Seiten ziehen 5 Karten, die ihre Starthand bilden. Jeder Kartenbeschwörer hat dann 1 Chance, eine beliebige Anzahl von Karten auf seiner Hand auszutauschen.\n2. Beide Kartenbeschwörer wählen 1 ihrer eigenen Figurenkarten als ihre aktive Figur.",
+                    "contentraw": "1. Beide Seiten ziehen 5 Karten, die ihre Starthand bilden. Jeder Kartenbeschwörer hat dann 1 Chance, eine beliebige Anzahl von Karten auf seiner Hand auszutauschen.\\n2. Beide Kartenbeschwörer wählen 1 ihrer eigenen Figurenkarten als ihre aktive Figur."
+                },
+                {
+                    "title": "Wie ein Duell verläuft",
+                    "titleraw": "Wie ein Duell verläuft",
+                    "content": "Sobald ein Duell beginnt, verläuft jede Runde wie folgt:\n1. Würfelphase: Beide Seiten erhalten jeweils 8 Elementarwürfel zum Werfen.\n2. Zugphase: Beide Seiten führen abwechselnd Aktionen aus, bis beide ihre Runde beenden.\n3. Endphase: Beide Seiten ziehen jeweils 2 Karten.",
+                    "contentraw": "Sobald ein Duell beginnt, verläuft jede Runde wie folgt:\\n1. Würfelphase: Beide Seiten erhalten jeweils 8 Elementarwürfel zum Werfen.\\n2. Zugphase: Beide Seiten führen abwechselnd Aktionen aus, bis beide ihre Runde beenden.\\n3. Endphase: Beide Seiten ziehen jeweils 2 Karten."
+                },
+                {
+                    "title": "Wie man gewinnt",
+                    "titleraw": "Wie man gewinnt",
+                    "content": "Benutz deine Figurenkarten zum Angreifen und schalte die Figuren deines Gegners aus!\nHast du alle Figuren deines Gegners ausgeschaltet, gehört der Sieg dir!",
+                    "contentraw": "Benutz deine Figurenkarten zum Angreifen und schalte die Figuren deines Gegners aus!\\nHast du alle Figuren deines Gegners ausgeschaltet, gehört der Sieg dir!"
                 }
             ]
         },
@@ -245,161 +383,23 @@
                 }
             ]
         },
-        "specialentry": {
-            "id": 8,
-            "name": "Begriffserläuterungen",
+        "elementalreactionsrules": {
+            "id": 5,
+            "name": "Elementarreaktionen – Regel",
             "rules": [
                 {
-                    "title": "Gericht",
-                    "titleraw": "{SPRITE_PRESET#3101}Gericht",
-                    "content": "Sobald eine Gericht-Ereigniskarte auf eine Figur gewirkt hat, befindet sich die Figur in dem Zustand „Gesättigt“.\nDanach kann sie nicht mehr als ein Ziel von anderen Gericht-Ereigniskarten anvisiert oder von ihnen beeinflusst werden.\nDer Zustand „Gesättigt“ wird am Ende der Runde oder beim Ausscheiden der Figur entfernt.\nNachdem in einer Runde eine Gericht-Ereigniskarte mit einem Wiederbelebungseffekt verwendet worden ist, kann in dieser Runde keine andere Gericht-Ereigniskarte mit dem Wiederbelebungseffekt ausgespielt werden.",
-                    "contentraw": "Sobald eine {SPRITE_PRESET#3101}Gericht-Ereigniskarte auf eine Figur gewirkt hat, befindet sich die Figur in dem Zustand „Gesättigt“.\\nDanach kann sie nicht mehr als ein Ziel von anderen {SPRITE_PRESET#3101}Gericht-Ereigniskarten anvisiert oder von ihnen beeinflusst werden.\\nDer Zustand „Gesättigt“ wird am Ende der Runde oder beim Ausscheiden der Figur entfernt.\\nNachdem in einer Runde eine {SPRITE_PRESET#3101}Gericht-Ereigniskarte mit einem Wiederbelebungseffekt verwendet worden ist, kann in dieser Runde keine andere {SPRITE_PRESET#3101}Gericht-Ereigniskarte mit dem Wiederbelebungseffekt ausgespielt werden."
+                    "title": "Elementarattribut",
+                    "titleraw": "Elementarattribut",
+                    "content": "Erleidet 1 Figur Kryo-, Hydro-, Pyro-, Elektro- oder Dendro-SCH, wird ihr das entsprechende Elementarattribut verliehen.\n(Anemo-SCH und Geo-SCH hiervon ausgeschlossen.)",
+                    "contentraw": "Erleidet 1 Figur {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-</color> oder {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-</color>SCH, wird ihr das entsprechende <color=#FFE14BFF>Elementarattribut</color> verliehen.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color> und {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color> hiervon ausgeschlossen.)",
+                    "filename_image": "UI_Gcg_InSide_12"
                 },
                 {
-                    "title": "Schild",
-                    "titleraw": "{SPRITE_PRESET#4007}Schild",
-                    "content": "Einige Effekte verleihen bestimmten Figuren Schild.\nDieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen.",
-                    "contentraw": "Einige Effekte verleihen bestimmten Figuren Schild.\\nDieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen."
-                },
-                {
-                    "title": "Einsatzmöglichkeit",
-                    "titleraw": "Einsatzmöglichkeit",
-                    "content": "Einige Karten oder Zustände haben eine begrenzte Einsatzmöglichkeit.\nJedes Mal, wenn der Effekt dieser Karte ausgelöst wird, wird 1 Einsatzmöglichkeit verbraucht.\nIst die Einsatzmöglichkeit dieser Karte aufgebraucht, wird sie sofort abgeworfen.",
-                    "contentraw": "Einige Karten oder Zustände haben eine begrenzte Einsatzmöglichkeit.\\nJedes Mal, wenn der Effekt dieser Karte ausgelöst wird, wird 1 Einsatzmöglichkeit verbraucht.\\nIst die Einsatzmöglichkeit dieser Karte aufgebraucht, wird sie sofort abgeworfen."
-                },
-                {
-                    "title": "Dauer (Runden)",
-                    "titleraw": "Dauer (Runden)",
-                    "content": "Einige Karten oder Zustände haben eine begrenzte Dauer (Runden).\nJedes Mal, wenn 1 Runde endet: Ihre Dauer (Runden) -1\nIst die Dauer (Runden) einer Karte abgelaufen, wird sie sofort abgeworfen.",
-                    "contentraw": "Einige Karten oder Zustände haben eine begrenzte Dauer (Runden).\\nJedes Mal, wenn 1 Runde endet: Ihre Dauer (Runden) -1\\nIst die Dauer (Runden) einer Karte abgelaufen, wird sie sofort abgeworfen."
-                },
-                {
-                    "title": "Durchdringender Schaden",
-                    "titleraw": "Durchdringender Schaden",
-                    "content": "Einige Effekte verursachen durchdringenden Schaden.\nDurchdringender Schaden kann nicht durch SCH-Boni erhöht werden, ist aber auch nicht durch Schilde abzuwehren.",
-                    "contentraw": "Einige Effekte verursachen durchdringenden Schaden.\\nDurchdringender Schaden kann nicht durch SCH-Boni erhöht werden, ist aber auch nicht durch Schilde abzuwehren."
-                },
-                {
-                    "title": "Kampfaktion (Aktionskarte)",
-                    "titleraw": "Kampfaktion (Aktionskarte)",
-                    "content": "Einige Aktionskarten folgen der Regel für Kampfaktionen.\nEine Karte, die dieser Regel folgt, aus der Hand zu spielen, gilt nicht als Schnellaktion, sondern als Kampfaktion.",
-                    "contentraw": "Einige Aktionskarten folgen der Regel für Kampfaktionen.\\nEine Karte, die dieser Regel folgt, aus der Hand zu spielen, gilt nicht als Schnellaktion, sondern als Kampfaktion."
-                },
-                {
-                    "title": "Heftiger Schlag",
-                    "titleraw": "Heftiger Schlag",
-                    "content": "Ist die Summe deiner verbliebenen Elementarwürfel vor deiner Aktion eine gerade Zahl, gilt der angewendete Standardangriff als heftiger Schlag.",
-                    "contentraw": "Ist die Summe deiner verbliebenen Elementarwürfel vor deiner Aktion eine gerade Zahl, gilt der angewendete Standardangriff als heftiger Schlag."
-                },
-                {
-                    "title": "Angriff aus dem Fall",
-                    "titleraw": "Angriff aus dem Fall",
-                    "content": "Wird eine Figur als aktive Figur eingewechselt, gilt ihre nächste Kampfaktion in der Runde, wenn sie ein Standardangriff ist, als Angriff aus dem Fall.",
-                    "contentraw": "Wird eine Figur als aktive Figur eingewechselt, gilt ihre nächste Kampfaktion in der Runde, wenn sie ein Standardangriff ist, als Angriff aus dem Fall."
-                }
-            ]
-        },
-        "takeaction": {
-            "id": 3,
-            "name": "Wie man Aktionen ausführt",
-            "rules": [
-                {
-                    "title": "Aktionen",
-                    "titleraw": "Aktionen",
-                    "content": "In der Zugphase können „Aktionen“ ausgeführt werden, die sich in „Kampfaktionen“ und „Schnellaktionen“ unterteilen.\nKampfaktion: Vollendest du 1 Kampfaktion, geht der Zug an deinen Gegner über. „Fähigkeit anwenden“, „Figur wechseln“ und „Runde beenden“ gelten als Kampfaktion.\nSchnellaktion: Vollendest du 1 Schnellaktion, kannst du noch weitere Aktionen ausführen. „Karte ausspielen“ und „Elementare Abstimmung“ gelten als Schnellaktion.",
-                    "contentraw": "In der Zugphase können „Aktionen“ ausgeführt werden, die sich in „Kampfaktionen“ und „Schnellaktionen“ unterteilen.\\n<color=#FFE14BFF>Kampfaktion</color>: Vollendest du 1 Kampfaktion, geht der Zug an deinen Gegner über. „Fähigkeit anwenden“, „Figur wechseln“ und „Runde beenden“ gelten als Kampfaktion.\\n<color=#FFE14BFF>Schnellaktion</color>: Vollendest du 1 Schnellaktion, kannst du noch weitere Aktionen ausführen. „Karte ausspielen“ und „Elementare Abstimmung“ gelten als Schnellaktion."
-                },
-                {
-                    "title": "Kampfaktion – Fähigkeit anwenden",
-                    "titleraw": "Kampfaktion – Fähigkeit anwenden",
-                    "content": "Du kannst Elementarwürfel verbrauchen, damit deine aktive Figur die aktive Figur deines Gegners mit Fähigkeiten angreift.\nNach Anwenden jedes Standardangriffs oder jeder Elementarfähigkeit durch die aktive Figur, erhält sie 1 Pkt. Aufladung.\nSobald diese Figur vollständig aufgeladen ist, kann sie alle Aufladungspunkte verbrauchen, um die mächtige Spezialfähigkeit anzuwenden.",
-                    "contentraw": "Du kannst Elementarwürfel verbrauchen, damit deine aktive Figur die aktive Figur deines Gegners mit Fähigkeiten angreift.\\nNach Anwenden jedes Standardangriffs oder jeder Elementarfähigkeit durch die aktive Figur, erhält sie 1 Pkt. Aufladung.\\nSobald diese Figur vollständig aufgeladen ist, kann sie alle Aufladungspunkte verbrauchen, um die mächtige Spezialfähigkeit anzuwenden."
-                },
-                {
-                    "title": "Kampfaktion – Figur wechseln",
-                    "titleraw": "Kampfaktion – Figur wechseln",
-                    "content": "Verbrauche 1 beliebigen Elementarwürfel, um 1 deiner inaktiven Figuren zur aktiven Figur zu wechseln.",
-                    "contentraw": "Verbrauche 1 beliebigen Elementarwürfel, um 1 deiner inaktiven Figuren zur aktiven Figur zu wechseln."
-                },
-                {
-                    "title": "Schnellaktion – Karte ausspielen",
-                    "titleraw": "Schnellaktion – Karte ausspielen",
-                    "content": "Verbrauche entsprechende Elementarwürfel, um 1 Karte aus deiner Hand auszuspielen. Die Karten lassen sich wie folgt unterteilen:\nAusrüstungskarte: Rüste damit 1 Figur aus, um ihr Boni zu verleihen.\nUnterstützungskarte: Leg sie auf deinen Unterstützungsplatz, um fortlaufend Unterstützungseffekte zu erzeugen.\nEreigniskarte: Spiel sie aus, um all ihre Effekte auf einmal abzurechnen.",
-                    "contentraw": "Verbrauche entsprechende Elementarwürfel, um 1 Karte aus deiner Hand auszuspielen. Die Karten lassen sich wie folgt unterteilen:\\n<color=#FFE14BFF>Ausrüstungskarte</color>: Rüste damit 1 Figur aus, um ihr Boni zu verleihen.\\n<color=#FFE14BFF>Unterstützungskarte</color>: Leg sie auf deinen Unterstützungsplatz, um fortlaufend Unterstützungseffekte zu erzeugen.\\n<color=#FFE14BFF>Ereigniskarte</color>: Spiel sie aus, um all ihre Effekte auf einmal abzurechnen."
-                },
-                {
-                    "title": "Schnellaktion – Elementare Abstimmung",
-                    "titleraw": "Schnellaktion – Elementare Abstimmung",
-                    "content": "Wirf eine Karte aus deiner Hand ab und verwandle somit 1 Elementarwürfel in das Element deiner aktuell aktiven Figur.",
-                    "contentraw": "Wirf eine Karte aus deiner Hand ab und verwandle somit 1 Elementarwürfel in das Element deiner aktuell aktiven Figur."
-                },
-                {
-                    "title": "Kampfaktion – Runde beenden",
-                    "titleraw": "Kampfaktion – Runde beenden",
-                    "content": "Sobald man seine Runde beendet, verzichtet man auf weitere Aktionen in der laufenden Runde.\nDanach führt der Kartenbeschwörer, der das Ende seiner Runde noch nicht erklärt hat, weitere Aktionen aus, bis er seine Runde beendet.\nDer Kartenbeschwörer, der diese Runde zuerst beendet, erhält die Vorhand in der nächsten Runde, d. h. in der Zugphase der nächsten Runde ist er als Erster am Zug.\nNachdem beide Seiten ihre Runde beendet haben, endet die Zugphase und beginnt somit die Endphase der aktuellen Runde.",
-                    "contentraw": "Sobald man seine Runde beendet, verzichtet man auf weitere Aktionen in der laufenden Runde.\\nDanach führt der Kartenbeschwörer, der das Ende seiner Runde noch nicht erklärt hat, weitere Aktionen aus, bis er seine Runde beendet.\\nDer Kartenbeschwörer, der diese Runde zuerst beendet, erhält die Vorhand in der nächsten Runde, d. h. in der Zugphase der nächsten Runde ist er als Erster am Zug.\\nNachdem beide Seiten ihre Runde beendet haben, endet die Zugphase und beginnt somit die Endphase der aktuellen Runde."
-                }
-            ]
-        },
-        "roundflow": {
-            "id": 2,
-            "name": "Wie eine Runde verläuft",
-            "rules": [
-                {
-                    "title": "Wie eine Runde verläuft",
-                    "titleraw": "Wie eine Runde verläuft",
-                    "content": "Jede Runde verläuft wie folgt: Würfelphase > Zugphase > Endphase.",
-                    "contentraw": "Jede Runde verläuft wie folgt: Würfelphase > Zugphase > Endphase.",
-                    "filename_image": "UI_Gcg_InSide_11"
-                },
-                {
-                    "title": "Würfelphase",
-                    "titleraw": "Würfelphase",
-                    "content": "In der Würfelphase jeder Runde darfst du 8 Elementarwürfel werfen.\nAm Ende des Wurfs hast du 1-mal die Chance, so viele Würfel zu wählen, wie du neu werfen möchtest.\nJedes Würfelergebnis kann neben den 7 Elementarwürfeln (Kryo-, Hydro-, Pyro-, Elektro-, Anemo-, Geo- und Dendro-Würfel) auch Omni-Würfel enthalten, die man als beliebiges Element verbrauchen kann.\nMengenobergrenze der Elementarwürfel liegt bei 16. Sobald du diese Obergrenze erreicht hast, kannst du keine weiteren Würfel mehr erhalten.",
-                    "contentraw": "In der Würfelphase jeder Runde darfst du 8 Elementarwürfel werfen.\\nAm Ende des Wurfs hast du 1-mal die Chance, so viele Würfel zu wählen, wie du neu werfen möchtest.\\nJedes Würfelergebnis kann neben den 7 Elementarwürfeln (Kryo-, Hydro-, Pyro-, Elektro-, Anemo-, Geo- und Dendro-Würfel) auch Omni-Würfel enthalten, die man als beliebiges Element verbrauchen kann.\\nMengenobergrenze der Elementarwürfel liegt bei 16. Sobald du diese Obergrenze erreicht hast, kannst du keine weiteren Würfel mehr erhalten."
-                },
-                {
-                    "title": "Zugphase",
-                    "titleraw": "Zugphase",
-                    "content": "Beide Seiten führen abwechselnd Aktionen aus, beginnend mit dem Kartenbeschwörer, der die Vorhand hat. Eventuelle Aktionen wie folgt:\nFähigkeit anwenden: Wende Fähigkeiten deiner aktiven Figur an, indem du Elementarwürfel usw. verbrauchst.\nFigur wechseln: Wechsle deine aktive Figur, indem du 1 beliebigen Elementarwürfel verbrauchst.\nKarte ausspielen: Spiele eine oder mehrere Karten aus deiner Hand aus, indem du Elementarwürfel usw. verbrauchst.\nElementare Abstimmung: Ändere den Elementartyp von 1 deiner Elementarwürfel, indem du eine Karte aus deiner Hand ablegst.\nRunde beenden: Beende deine Runde für alle möglichen Aktionen. Der Kartenbeschwörer, der seine Runde zuerst beendet, erhält die Vorhand für die kommende Runde.",
-                    "contentraw": "Beide Seiten führen abwechselnd Aktionen aus, beginnend mit dem Kartenbeschwörer, der die Vorhand hat. Eventuelle Aktionen wie folgt:\\n<color=#FFE14BFF>Fähigkeit anwenden</color>: Wende Fähigkeiten deiner aktiven Figur an, indem du Elementarwürfel usw. verbrauchst.\\n<color=#FFE14BFF>Figur wechseln</color>: Wechsle deine aktive Figur, indem du 1 beliebigen Elementarwürfel verbrauchst.\\n<color=#FFE14BFF>Karte ausspielen</color>: Spiele eine oder mehrere Karten aus deiner Hand aus, indem du Elementarwürfel usw. verbrauchst.\\n<color=#FFE14BFF>Elementare Abstimmung</color>: Ändere den Elementartyp von 1 deiner Elementarwürfel, indem du eine Karte aus deiner Hand ablegst.\\n<color=#FFE14BFF>Runde beenden</color>: Beende deine Runde für alle möglichen Aktionen. Der Kartenbeschwörer, der seine Runde zuerst beendet, erhält die Vorhand für die kommende Runde."
-                },
-                {
-                    "title": "Endphase",
-                    "titleraw": "Endphase",
-                    "content": "Sobald beide Kartenbeschwörer in der Zugphase ihre Runde beenden, geht das Spiel in die Endphase über.\n1. Verschiedene Karteneffekte werden abgerechnet, die in der Endphase auszulösen sind, beginnend mit dem Kartenbeschwörer, der die Vorhand hat.\n2. Beide Kartenbeschwörer ziehen jeweils 2 Karten von ihren Nachziehstapeln.\n3. Die nächste Runde kann beginnen!",
-                    "contentraw": "Sobald beide Kartenbeschwörer in der Zugphase ihre Runde beenden, geht das Spiel in die Endphase über.\\n1. Verschiedene Karteneffekte werden abgerechnet, die in der Endphase auszulösen sind, beginnend mit dem Kartenbeschwörer, der die Vorhand hat.\\n2. Beide Kartenbeschwörer ziehen jeweils 2 Karten von ihren Nachziehstapeln.\\n3. Die nächste Runde kann beginnen!"
-                }
-            ]
-        },
-        "geniusinvokationtcg": {
-            "id": 1,
-            "name": "Geniale Beschwörung",
-            "rules": [
-                {
-                    "title": "Einführung",
-                    "titleraw": "Einführung",
-                    "content": "„Geniale Beschwörung“ ist ein temporeiches Kartenspiel voller Spannung.\nStell deine Decks aus Figuren- und Aktionskarten zusammen und trage epische Duelle mit deinen Gegnern aus!",
-                    "contentraw": "„Geniale Beschwörung“ ist ein temporeiches Kartenspiel voller Spannung.\\nStell deine Decks aus Figuren- und Aktionskarten zusammen und trage epische Duelle mit deinen Gegnern aus!",
-                    "filename_image": "UI_Gcg_InSide_01"
-                },
-                {
-                    "title": "Vorbereitung",
-                    "titleraw": "Vorbereitung",
-                    "content": "1. Beide Seiten ziehen 5 Karten, die ihre Starthand bilden. Jeder Kartenbeschwörer hat dann 1 Chance, eine beliebige Anzahl von Karten auf seiner Hand auszutauschen.\n2. Beide Kartenbeschwörer wählen 1 ihrer eigenen Figurenkarten als ihre aktive Figur.",
-                    "contentraw": "1. Beide Seiten ziehen 5 Karten, die ihre Starthand bilden. Jeder Kartenbeschwörer hat dann 1 Chance, eine beliebige Anzahl von Karten auf seiner Hand auszutauschen.\\n2. Beide Kartenbeschwörer wählen 1 ihrer eigenen Figurenkarten als ihre aktive Figur."
-                },
-                {
-                    "title": "Wie ein Duell verläuft",
-                    "titleraw": "Wie ein Duell verläuft",
-                    "content": "Sobald ein Duell beginnt, verläuft jede Runde wie folgt:\n1. Würfelphase: Beide Seiten erhalten jeweils 8 Elementarwürfel zum Werfen.\n2. Zugphase: Beide Seiten führen abwechselnd Aktionen aus, bis beide ihre Runde beenden.\n3. Endphase: Beide Seiten ziehen jeweils 2 Karten.",
-                    "contentraw": "Sobald ein Duell beginnt, verläuft jede Runde wie folgt:\\n1. Würfelphase: Beide Seiten erhalten jeweils 8 Elementarwürfel zum Werfen.\\n2. Zugphase: Beide Seiten führen abwechselnd Aktionen aus, bis beide ihre Runde beenden.\\n3. Endphase: Beide Seiten ziehen jeweils 2 Karten."
-                },
-                {
-                    "title": "Wie man gewinnt",
-                    "titleraw": "Wie man gewinnt",
-                    "content": "Benutz deine Figurenkarten zum Angreifen und schalte die Figuren deines Gegners aus!\nHast du alle Figuren deines Gegners ausgeschaltet, gehört der Sieg dir!",
-                    "contentraw": "Benutz deine Figurenkarten zum Angreifen und schalte die Figuren deines Gegners aus!\\nHast du alle Figuren deines Gegners ausgeschaltet, gehört der Sieg dir!"
+                    "title": "Elementarreaktionen – Regel",
+                    "titleraw": "Elementarreaktionen – Regel",
+                    "content": "Ist das Ziel bereits von einem bestimmten Elementarattribut betroffen:\n1. Bestimmter Elementar-SCH an ihm kann Elementarreaktionen auslösen.\n2. Das Verleihen eines bestimmten Elementarattributs, ohne dabei Schaden zu verursachen, kann ebenfalls Elementarreaktionen auslösen. Bei Abrechnen der Effekte dieser Elementarreaktionen werden allerdings die SCH-Effekte ignoriert.",
+                    "contentraw": "Ist das Ziel bereits von einem bestimmten <color=#FFE14BFF>Elementarattribut</color> betroffen:\\n1. Bestimmter <color=#FFE14BFF>Elementar-SCH</color> an ihm kann Elementarreaktionen auslösen.\\n2. Das Verleihen eines bestimmten Elementarattributs, ohne dabei Schaden zu verursachen, kann ebenfalls Elementarreaktionen auslösen. Bei Abrechnen der Effekte dieser Elementarreaktionen werden allerdings die SCH-Effekte ignoriert.",
+                    "filename_image": "UI_Gcg_InSide_13"
                 }
             ]
         },

@@ -1,5 +1,80 @@
 {
     "items": {
+        "3": {
+            "id": 3,
+            "name": "3",
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "unlockdescription": "신규 카드 덱 저장 슬롯 해금\n신규 술집 대전 해금\n리월에 도전 가능한 대전 추가",
+            "unlockdescriptionraw": "신규 카드 덱 저장 슬롯 해금\\n신규 술집 대전 해금\\n리월에 도전 가능한 대전 추가",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "원석",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "대전 초대장",
+                    "count": 1
+                },
+                {
+                    "id": 339501,
+                    "name": "리월",
+                    "count": 1
+                }
+            ]
+        },
+        "4": {
+            "id": 4,
+            "name": "4",
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "unlockdescription": "초대 게시판에서 매칭 대전 가능\n신규 술집 대전 해금\n리월에 도전 가능한 대전 추가",
+            "unlockdescriptionraw": "초대 게시판에서 매칭 대전 가능\\n신규 술집 대전 해금\\n리월에 도전 가능한 대전 추가",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "원석",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "대전 초대장",
+                    "count": 1
+                },
+                {
+                    "id": 339002,
+                    "name": "리월",
+                    "count": 1
+                }
+            ]
+        },
+        "2": {
+            "id": 2,
+            "name": "2",
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "unlockdescription": "주간 손님 도전 해금\n몬드에 도전 가능한 대전 추가",
+            "unlockdescriptionraw": "주간 손님 도전 해금\\n몬드에 도전 가능한 대전 추가",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "원석",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "대전 초대장",
+                    "count": 1
+                },
+                {
+                    "id": 339001,
+                    "name": "몬드",
+                    "count": 1
+                }
+            ]
+        },
         "5": {
             "id": 5,
             "name": "5",
@@ -50,31 +125,6 @@
                 }
             ]
         },
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "신규 카드 덱 저장 슬롯 해금\n신규 술집 대전 해금\n리월에 도전 가능한 대전 추가",
-            "unlockdescriptionraw": "신규 카드 덱 저장 슬롯 해금\\n신규 술집 대전 해금\\n리월에 도전 가능한 대전 추가",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "원석",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "대전 초대장",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "리월",
-                    "count": 1
-                }
-            ]
-        },
         "6": {
             "id": 6,
             "name": "6",
@@ -96,56 +146,6 @@
                 {
                     "id": 339003,
                     "name": "이나즈마",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "신규 카드 덱 저장 슬롯 해금\n신규 술집 대전 해금\n수메르에 도전 가능한 대전 추가",
-            "unlockdescriptionraw": "신규 카드 덱 저장 슬롯 해금\\n신규 술집 대전 해금\\n수메르에 도전 가능한 대전 추가",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "원석",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "대전 초대장",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "수메르",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "초대 게시판에서 매칭 대전 가능\n신규 술집 대전 해금\n리월에 도전 가능한 대전 추가",
-            "unlockdescriptionraw": "초대 게시판에서 매칭 대전 가능\\n신규 술집 대전 해금\\n리월에 도전 가능한 대전 추가",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "원석",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "대전 초대장",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "리월",
                     "count": 1
                 }
             ]
@@ -175,55 +175,6 @@
                 }
             ]
         },
-        "10": {
-            "id": 10,
-            "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "신규 카드 덱 저장 슬롯 해금\n도전 가능한 대전 추가",
-            "unlockdescriptionraw": "신규 카드 덱 저장 슬롯 해금\\n도전 가능한 대전 추가",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "원석",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "공백의 환영 카드",
-                    "count": 1
-                },
-                {
-                    "id": 339009,
-                    "name": "레전드",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "주간 손님 도전 해금\n몬드에 도전 가능한 대전 추가",
-            "unlockdescriptionraw": "주간 손님 도전 해금\\n몬드에 도전 가능한 대전 추가",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "원석",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "대전 초대장",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "몬드",
-                    "count": 1
-                }
-            ]
-        },
         "9": {
             "id": 9,
             "name": "9",
@@ -245,6 +196,55 @@
                 {
                     "id": 107020,
                     "name": "대전 초대장",
+                    "count": 1
+                }
+            ]
+        },
+        "7": {
+            "id": 7,
+            "name": "7",
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "unlockdescription": "신규 카드 덱 저장 슬롯 해금\n신규 술집 대전 해금\n수메르에 도전 가능한 대전 추가",
+            "unlockdescriptionraw": "신규 카드 덱 저장 슬롯 해금\\n신규 술집 대전 해금\\n수메르에 도전 가능한 대전 추가",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "원석",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "대전 초대장",
+                    "count": 1
+                },
+                {
+                    "id": 339503,
+                    "name": "수메르",
+                    "count": 1
+                }
+            ]
+        },
+        "10": {
+            "id": 10,
+            "name": "10",
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
+            "unlockdescription": "신규 카드 덱 저장 슬롯 해금\n도전 가능한 대전 추가",
+            "unlockdescriptionraw": "신규 카드 덱 저장 슬롯 해금\\n도전 가능한 대전 추가",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "원석",
+                    "count": 60
+                },
+                {
+                    "id": 107019,
+                    "name": "공백의 환영 카드",
+                    "count": 1
+                },
+                {
+                    "id": 339009,
+                    "name": "레전드",
                     "count": 1
                 }
             ]

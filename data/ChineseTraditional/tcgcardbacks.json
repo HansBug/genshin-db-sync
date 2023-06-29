@@ -1,18 +1,26 @@
 {
     "items": {
-        "adept": {
-            "id": 110,
-            "name": "達人",
-            "description": "沒有解不開的難題，沒有辦不到的事。為{F#妳}{M#你}獻上喝彩！",
-            "descriptionraw": "#沒有解不開的難題，沒有辦不到的事。為{F#妳}{M#你}獻上喝彩！",
-            "source": "牌手手冊第四局中完成所有目標後獲得",
+        "inazuma": {
+            "id": 103,
+            "name": "稻妻",
+            "description": "出牌應在電光火石之間，只要出牌夠快，就能決勝須臾。",
+            "descriptionraw": "出牌應在電光火石之間，只要出牌夠快，就能決勝須臾。",
+            "source": "牌手等級提升至6的等級獎勵中獲得",
             "rarity": 3
         },
-        "dandelionseed": {
-            "id": 117,
-            "name": "蒲公英籽",
-            "description": "希望與等待總是相伴相隨。",
-            "descriptionraw": "希望與等待總是相伴相隨。",
+        "origin": {
+            "id": 100,
+            "name": "原初",
+            "description": "在晝與夜之間，在天與地之間，\n是種種幻想與希望的旅途。",
+            "descriptionraw": "在晝與夜之間，在天與地之間，\\n是種種幻想與希望的旅途。",
+            "source": "初始獲得",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "冰霧花花朵",
+            "description": "「體面地認輸，就是你的終點。」",
+            "descriptionraw": "「體面地認輸，就是你的終點。」",
             "source": "卡牌商店購買獲得",
             "rarity": 3
         },
@@ -24,35 +32,27 @@
             "source": "卡牌商店購買獲得",
             "rarity": 3
         },
-        "origin": {
-            "id": 100,
-            "name": "原初",
-            "description": "在晝與夜之間，在天與地之間，\n是種種幻想與希望的旅途。",
-            "descriptionraw": "在晝與夜之間，在天與地之間，\\n是種種幻想與希望的旅途。",
-            "source": "初始獲得",
-            "rarity": 3
-        },
-        "liyue": {
-            "id": 102,
-            "name": "璃月",
-            "description": "千里之行，始於足下。從構建堅實的牌組開始走上得勝之路吧。",
-            "descriptionraw": "千里之行，始於足下。從構建堅實的牌組開始走上得勝之路吧。",
-            "source": "牌手等級提升至4的等級獎勵中獲得",
-            "rarity": 3
-        },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "牌中秘寶",
-            "description": "寶藏的到手與使用，只在瞬息。而其中所納之物，卻次次不一。此刻，{F#妳}{M#你}的牌中，又藏了怎樣的寶物呢？",
-            "descriptionraw": "#寶藏的到手與使用，只在瞬息。而其中所納之物，卻次次不一。此刻，{F#妳}{M#你}的牌中，又藏了怎樣的寶物呢？",
+        "crystalchunk": {
+            "id": 111,
+            "name": "水晶塊",
+            "description": "適當的磨練能讓可造之才大放異彩。",
+            "descriptionraw": "適當的磨練能讓可造之才大放異彩。",
             "source": "卡牌商店購買獲得",
             "rarity": 3
         },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "魔晶塊",
-            "description": "時間為其賦予價值。",
-            "descriptionraw": "時間為其賦予價值。",
+        "adept": {
+            "id": 110,
+            "name": "達人",
+            "description": "沒有解不開的難題，沒有辦不到的事。為{F#妳}{M#你}獻上喝彩！",
+            "descriptionraw": "#沒有解不開的難題，沒有辦不到的事。為{F#妳}{M#你}獻上喝彩！",
+            "source": "牌手手冊第四局中完成所有目標後獲得",
+            "rarity": 3
+        },
+        "amethystlump": {
+            "id": 113,
+            "name": "紫晶塊",
+            "description": "因地制宜也是智慧的一種。",
+            "descriptionraw": "因地制宜也是智慧的一種。",
             "source": "卡牌商店購買獲得",
             "rarity": 3
         },
@@ -64,35 +64,11 @@
             "source": "牌手等級提升至8的等級獎勵中獲得",
             "rarity": 3
         },
-        "electrocrystal": {
-            "id": 116,
-            "name": "電氣水晶",
-            "description": "激將法，有用嗎？一點就炸的東西，可不只它一個。",
-            "descriptionraw": "激將法，有用嗎？一點就炸的東西，可不只它一個。",
-            "source": "卡牌商店購買獲得",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "烈焰花花蕊",
-            "description": "「我的牌手之魂在熊熊燃燒啊！」",
-            "descriptionraw": "「我的牌手之魂在熊熊燃燒啊！」",
-            "source": "卡牌商店購買獲得",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "蒙德",
-            "description": "打牌的第一要義是自由。\n應當自由地組牌、自由地選擇對手、自由地打出下一張手牌。\n…或許也可以自由地不打牌，自由地拿手牌去做一些自由的事？",
-            "descriptionraw": "打牌的第一要義是自由。\\n應當自由地組牌、自由地選擇對手、自由地打出下一張手牌。\\n…或許也可以自由地不打牌，自由地拿手牌去做一些自由的事？",
-            "source": "牌手等級提升至2的等級獎勵中獲得",
-            "rarity": 3
-        },
-        "amethystlump": {
-            "id": 113,
-            "name": "紫晶塊",
-            "description": "因地制宜也是智慧的一種。",
-            "descriptionraw": "因地制宜也是智慧的一種。",
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "魔晶塊",
+            "description": "時間為其賦予價值。",
+            "descriptionraw": "時間為其賦予價值。",
             "source": "卡牌商店購買獲得",
             "rarity": 3
         },
@@ -104,27 +80,27 @@
             "source": "卡牌商店購買獲得",
             "rarity": 3
         },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "冰霧花花朵",
-            "description": "「體面地認輸，就是你的終點。」",
-            "descriptionraw": "「體面地認輸，就是你的終點。」",
+        "liyue": {
+            "id": 102,
+            "name": "璃月",
+            "description": "千里之行，始於足下。從構建堅實的牌組開始走上得勝之路吧。",
+            "descriptionraw": "千里之行，始於足下。從構建堅實的牌組開始走上得勝之路吧。",
+            "source": "牌手等級提升至4的等級獎勵中獲得",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "烈焰花花蕊",
+            "description": "「我的牌手之魂在熊熊燃燒啊！」",
+            "descriptionraw": "「我的牌手之魂在熊熊燃燒啊！」",
             "source": "卡牌商店購買獲得",
             "rarity": 3
         },
-        "inazuma": {
-            "id": 103,
-            "name": "稻妻",
-            "description": "出牌應在電光火石之間，只要出牌夠快，就能決勝須臾。",
-            "descriptionraw": "出牌應在電光火石之間，只要出牌夠快，就能決勝須臾。",
-            "source": "牌手等級提升至6的等級獎勵中獲得",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "水晶塊",
-            "description": "適當的磨練能讓可造之才大放異彩。",
-            "descriptionraw": "適當的磨練能讓可造之才大放異彩。",
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "青金的流旋",
+            "description": "由著名畫師「白堊」訂製的特殊牌背。\n「如東風之龍一般，在這小小的戰場之上，更自由地伸展自己的鱗羽吧！」",
+            "descriptionraw": "由著名畫師「白堊」訂製的特殊牌背。\\n「如東風之龍一般，在這小小的戰場之上，更自由地伸展自己的鱗羽吧！」",
             "source": "卡牌商店購買獲得",
             "rarity": 3
         },
@@ -136,6 +112,30 @@
             "source": "卡牌商店購買獲得",
             "rarity": 3
         },
+        "electrocrystal": {
+            "id": 116,
+            "name": "電氣水晶",
+            "description": "激將法，有用嗎？一點就炸的東西，可不只它一個。",
+            "descriptionraw": "激將法，有用嗎？一點就炸的東西，可不只它一個。",
+            "source": "卡牌商店購買獲得",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "牌中秘寶",
+            "description": "寶藏的到手與使用，只在瞬息。而其中所納之物，卻次次不一。此刻，{F#妳}{M#你}的牌中，又藏了怎樣的寶物呢？",
+            "descriptionraw": "#寶藏的到手與使用，只在瞬息。而其中所納之物，卻次次不一。此刻，{F#妳}{M#你}的牌中，又藏了怎樣的寶物呢？",
+            "source": "卡牌商店購買獲得",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "蒙德",
+            "description": "打牌的第一要義是自由。\n應當自由地組牌、自由地選擇對手、自由地打出下一張手牌。\n…或許也可以自由地不打牌，自由地拿手牌去做一些自由的事？",
+            "descriptionraw": "打牌的第一要義是自由。\\n應當自由地組牌、自由地選擇對手、自由地打出下一張手牌。\\n…或許也可以自由地不打牌，自由地拿手牌去做一些自由的事？",
+            "source": "牌手等級提升至2的等級獎勵中獲得",
+            "rarity": 3
+        },
         "legend": {
             "id": 109,
             "name": "傳說",
@@ -144,11 +144,11 @@
             "source": "牌手等級提升至10的等級獎勵中獲得",
             "rarity": 3
         },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "青金的流旋",
-            "description": "由著名畫師「白堊」訂製的特殊牌背。\n「如東風之龍一般，在這小小的戰場之上，更自由地伸展自己的鱗羽吧！」",
-            "descriptionraw": "由著名畫師「白堊」訂製的特殊牌背。\\n「如東風之龍一般，在這小小的戰場之上，更自由地伸展自己的鱗羽吧！」",
+        "dandelionseed": {
+            "id": 117,
+            "name": "蒲公英籽",
+            "description": "希望與等待總是相伴相隨。",
+            "descriptionraw": "希望與等待總是相伴相隨。",
             "source": "卡牌商店購買獲得",
             "rarity": 3
         }

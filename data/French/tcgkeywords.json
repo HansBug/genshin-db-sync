@@ -1,144 +1,18 @@
 {
     "items": {
-        "clusterbloomarrow": {
-            "id": 1008,
-            "name": "Flèche fleuronnée",
-            "nameraw": "<color=#FFFFFFFF>Flèche fleuronnée</color>|s1:<color=#FFFFFFFF>Flèches fleuronnées</color>|s2:<color=#FFFFFFFF>flèche fleuronnée</color>|s3:<color=#FFFFFFFF>flèches fleuronnées</color>",
-            "description": "Phase finale : Inflige 1 pt de DGT Dendro.\nNombre d'utilisations : 1 (Peut être cumulé, 2 cumuls maximum)",
-            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color>.\\n<color=#FFFFFFFF>Nombre d'utilisations : 1</color> (Peut être cumulé, 2 cumuls maximum)"
+        "crowfeathercover": {
+            "id": 1003,
+            "name": "Couverture corvidée",
+            "nameraw": "<color=#FFFFFFFF>Couverture corvidée</color>|s1:<color=#FFFFFFFF>Couvertures corvidées</color>|s2:<color=#FFFFFFFF>couverture corvidée</color>|s3:<color=#FFFFFFFF>couvertures corvidées</color>",
+            "description": "DGT infligés par les compétences élémentaires et les déchaînements élémentaires du personnage affecté +1.\nNombre d'utilisations : 2",
+            "descriptionraw": "DGT infligés par les <color=#FFFFFFFF>compétences élémentaires</color> et les <color=#FFFFFFFF>déchaînements élémentaires</color> du personnage affecté +1.\\n<color=#FFFFFFFF>Nombre d'utilisations : 2</color>"
         },
-        "dendrorelatedreactions": {
-            "id": 217,
-            "name": "Réaction liée à l'élément Dendro",
-            "nameraw": "<color=#7EC236FF>Réaction liée à l'élément {SPRITE_PRESET#2107}Dendro</color>|s1:<color=#7EC236FF>Réactions liées à l'élément {SPRITE_PRESET#2107}Dendro</color>|s2:<color=#7EC236FF>réaction liée à l'élément {SPRITE_PRESET#2107}Dendro</color>|s3:<color=#7EC236FF>réactions liées à l'élément {SPRITE_PRESET#2107}Dendro</color>",
-            "description": "Fleurissement : DGT actuels +1 et crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2\nBrûlure : DGT actuels +1 et crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\nStimulation : DGT actuels +1 et crée un champ catalyseur qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1",
-            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Fleurissement</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Brûlure</color> : DGT actuels +1 et crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Stimulation</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>champ catalyseur</color> qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1"
-        },
-        "omnielement": {
-            "id": 411,
-            "name": "Omni",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color>",
-            "description": "L'élément Omni peut être considéré comme n'importe quel type d'élément et dépensé pour payer des coûts de toutes sortes.",
-            "descriptionraw": "L'élément {SPRITE_PRESET#1111}Omni peut être considéré comme n'importe quel type d'élément et dépensé pour payer des coûts de toutes sortes."
-        },
-        "dendroapplication": {
-            "id": 207,
-            "name": "Application Dendro",
-            "nameraw": "<color=#7EC236FF>Application {SPRITE_PRESET#2107}Dendro</color>|s1:<color=#7EC236FF>Applications {SPRITE_PRESET#2107}Dendro</color>|s2:<color=#7EC236FF>application {SPRITE_PRESET#2107}Dendro</color>|s3:<color=#7EC236FF>applications {SPRITE_PRESET#2107}Dendro</color>|s4:<color=#7EC236FF>Applique l'élément {SPRITE_PRESET#2107}Dendro</color>|s5:<color=#7EC236FF>applique l'élément {SPRITE_PRESET#2107}Dendro</color>",
-            "description": "Lorsque l'élément Dendro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\nFleurissement : Crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2\nBrûlure : Crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\nStimulation : Crée un champ catalyseur qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1",
-            "descriptionraw": "Lorsque l'élément {SPRITE_PRESET#2107}Dendro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Fleurissement</color> : Crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Brûlure</color> : Crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Stimulation</color> : Crée un <color=#FFFFFFFF>champ catalyseur</color> qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1"
-        },
-        "durationrounds": {
-            "id": 4,
-            "name": "Durée en manches",
-            "nameraw": "<color=#FFFFFFFF>Durée en manches</color>",
-            "description": "À chaque fin de manche, durée en manches -1.\nUne carte est immédiatement défaussée une fois la durée en manches épuisée.",
-            "descriptionraw": "À chaque fin de manche, <color=#FFFFFFFF>durée en manches</color> -1.\\nUne carte est immédiatement défaussée une fois la <color=#FFFFFFFF>durée en manches</color> épuisée."
-        },
-        "pyrorelatedreactions": {
-            "id": 213,
-            "name": "Réaction liée à l'élément Pyro",
-            "nameraw": "<color=#FF9999FF>Réaction liée à l'élément {SPRITE_PRESET#2103}Pyro</color>|s1:<color=#FF9999FF>Réactions liées à l'élément {SPRITE_PRESET#2103}Pyro</color>|s2:<color=#FF9999FF>réaction liée à l'élément {SPRITE_PRESET#2103}Pyro</color>|s3:<color=#FF9999FF>réactions liées à l'élément {SPRITE_PRESET#2103}Pyro</color>",
-            "description": "Fonte : DGT actuels +2\nÉvaporation : DGT actuels +2\nSurcharge : DGT actuels +2 et bascule de force la cible pour le personnage suivant\nBrûlure : DGT actuels +1 et crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\nCristallisation Pyro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nDispersion Pyro : Inflige 1 pt de DGT Pyro à tous les personnages adverses autres que la cible",
-            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fonte</color> : DGT actuels +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Évaporation</color> : DGT actuels +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Surcharge</color> : DGT actuels +2 et bascule de force la cible pour le personnage suivant\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Brûlure</color> : DGT actuels +1 et crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristallisation Pyro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Dispersion Pyro</color> : Inflige 1 pt de DGT Pyro à tous les personnages adverses autres que la cible"
-        },
-        "hydrorelatedreactions": {
-            "id": 212,
-            "name": "Réaction liée à l'élément Hydro",
-            "nameraw": "<color=#80C0FFFF>Réaction liée à l'élément {SPRITE_PRESET#2102}Hydro</color>|s1:<color=#80C0FFFF>Réactions liées à l'élément {SPRITE_PRESET#2102}Hydro</color>|s2:<color=#80C0FFFF>réaction liée à l'élément {SPRITE_PRESET#2102}Hydro</color>|s3:<color=#80C0FFFF>réactions liées à l'élément {SPRITE_PRESET#2102}Hydro</color>",
-            "description": "Évaporation : DGT actuels +2\nÉlectrocution : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\nGel : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\nFleurissement : Crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2\nCristallisation Hydro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nDispersion Hydro : Inflige 1 pt de DGT Hydro à tous les personnages adverses autres que la cible",
-            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Évaporation</color> : DGT actuels +2\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Électrocution</color> : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gel</color> : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Fleurissement</color> : Crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristallisation Hydro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Dispersion Hydro</color> : Inflige 1 pt de DGT Hydro à tous les personnages adverses autres que la cible"
-        },
-        "fatuiambusher": {
-            "id": 1004,
-            "name": "Fatui embusqué",
-            "nameraw": "<color=#FFFFFFFF>Fatui embusqué</color>",
-            "description": "Les Fatui embusqués déclenchent leurs effets après que les personnages du camp où ils se trouvent utilisent des capacités, infligeant ainsi des DGT au personnage actif de ce camp. (1 fois par manche)\nUn total de 4 types différents de Fatui embusqués peuvent apparaître :\nMage cryoluciole : Inflige 1 pt de DGT Cryo lors du déclenchement. Peut être utilisé 2 fois.\nSuivante miroir : Inflige 1 pt de DGT Hydro lors du déclenchement. Peut être utilisé 2 fois.\nMercenaire Pyro : Inflige 1 pt de DGT Pyro lors du déclenchement. Peut être utilisé 2 fois.\nFrappeur Électro : Inflige 1 pt de DGT Électro lors du déclenchement. Peut être utilisé 2 fois.",
-            "descriptionraw": "Les Fatui embusqués déclenchent leurs effets après que les personnages du camp où ils se trouvent utilisent des capacités, infligeant ainsi des DGT au personnage actif de ce camp. (1 fois par manche)\\nUn total de 4 types différents de Fatui embusqués peuvent apparaître :\\n<color=#FFFFFFFF>Mage cryoluciole</color> : Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> lors du déclenchement. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Suivante miroir</color> : Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> lors du déclenchement. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Mercenaire Pyro</color> : Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> lors du déclenchement. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Frappeur Électro</color> : Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> lors du déclenchement. Peut être utilisé 2 fois."
-        },
-        "cryodmg": {
-            "id": 101,
-            "name": "DGT Cryo",
-            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>",
-            "description": "Applique l'élément Cryo et peut déclencher les réactions élémentaires :\nFonte : DGT actuels +2\nSupraconduction : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\nGel : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)",
-            "descriptionraw": "Applique l'élément {SPRITE_PRESET#2101}Cryo et peut déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Fonte</color> : DGT actuels +2\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Supraconduction</color> : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Gel</color> : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)"
-        },
-        "anemo": {
-            "id": 305,
-            "name": "Anémo",
-            "nameraw": "{SPRITE_PRESET#1105}Anémo",
-            "description": "Dépensez un dé Anémo que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
-            "descriptionraw": "Dépensez un dé <color=#80FFD7FF>{SPRITE_PRESET#1105}Anémo</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
-        },
-        "geodmg": {
-            "id": 106,
-            "name": "DGT Géo",
-            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color>",
-            "description": "Réagit avec les éléments déjà appliqués pour déclencher les réactions élémentaires :\nCristallisation Cryo : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nCristallisation Hydro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nCristallisation Pyro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nCristallisation Électro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)",
-            "descriptionraw": "Réagit avec les éléments déjà appliqués pour déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cristallisation Cryo</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristallisation Hydro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristallisation Pyro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Cristallisation Électro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)"
-        },
-        "hydro": {
-            "id": 302,
-            "name": "Hydro",
-            "nameraw": "{SPRITE_PRESET#1102}Hydro",
-            "description": "Dépensez un dé Hydro que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
-            "descriptionraw": "Dépensez un dé <color=#80C0FFFF>{SPRITE_PRESET#1102}Hydro</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
-        },
-        "electroinfusion": {
-            "id": 1002,
-            "name": "Enchantement Électro",
-            "nameraw": "<color=#FFFFFFFF>Enchantement Électro|s1:Enchantements Électro|s2:enchantement Électro|s3:enchantements Électro</color>",
-            "description": "Les DGT physiques infligés par le personnage affecté sont convertis en DGT Électro.\nDurée en manches :2",
-            "descriptionraw": "Les {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> infligés par le personnage affecté sont convertis en {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.\\n<color=#FFFFFFFF>Durée en manches :</color>2"
-        },
-        "combataction": {
-            "id": 1,
-            "name": "Action de combat",
-            "nameraw": "<color=#FFFFFFFF>Action de combat</color>|s1:<color=#FFFFFFFF>Actions de combat</color>|s2:<color=#FFFFFFFF>action de combat</color>|s3:<color=#FFFFFFFF>actions de combat</color>",
-            "description": "Après que vous terminez 1 action de combat, c'est au tour de votre adversaire.\nJouer une carte de votre main contenant cette règle est considéré comme une action de combat, et non pas comme une action rapide.",
-            "descriptionraw": "Après que vous terminez 1 action de combat, c'est au tour de votre adversaire.\\n<color=#FFFFFFFF>Jouer une carte de votre main contenant cette règle est considéré comme une action de combat, et non pas comme une action rapide.</color>"
-        },
-        "superlativesuperstrength": {
-            "id": 1007,
-            "name": "Mégaforce superlative",
-            "nameraw": "<color=#FFFFFFFF>Mégaforce superlative</color>|s1:<color=#FFFFFFFF>Mégaforces superlatives</color>|s2:<color=#FFFFFFFF>mégaforce superlative</color>|s3:<color=#FFFFFFFF>mégaforces superlatives</color>",
-            "description": "Lorsque le personnage affecté utilise une attaque chargée, DGT infligés +1. Si le nombre d'utilisations est 2 ou plus, dépense 1 dé d'élément neutre en moins.\nNombre d'utilisations : 1 (Peut être cumulé, 3 cumuls maximum)",
-            "descriptionraw": "<color=#FFFFFFFF>Lorsque le personnage affecté utilise une <color=#FFFFFFFF>attaque chargée</color>, </color>DGT infligés +1. Si le <color=#FFFFFFFF>nombre d'utilisations</color> est 2 ou plus, dépense 1 dé d'<color=#FFFFFFFF>{SPRITE_PRESET#1109}élément neutre</color> en moins.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations : </color>1</color> (Peut être cumulé, 3 cumuls maximum)"
-        },
-        "elementalburst": {
-            "id": 501,
-            "name": "Déchaînement élémentaire",
-            "nameraw": "Déchaînement élémentaire",
-            "description": "Lorsque les charges d'un personnage sont au maximum, il peut consommer toutes ses charges pour utiliser un puissant déchaînement élémentaire.",
-            "descriptionraw": "Lorsque les {SPRITE_PRESET#1110}charges d'un personnage sont au maximum, il peut consommer toutes ses {SPRITE_PRESET#1110}charges pour utiliser un puissant déchaînement élémentaire."
-        },
-        "energy": {
-            "id": 310,
-            "name": "Charge",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Charge</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1110}Charges</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1110}charge</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1110}charges</color>",
-            "description": "Les personnages doivent consommer des charges pour utiliser leurs déchaînements élémentaires.\nLorsque les personnages utilisent une compétence élémentaire ou une attaque normale, ils gagnent 1 charge.",
-            "descriptionraw": "Les personnages doivent consommer des {SPRITE_PRESET#1110}charges pour utiliser leurs déchaînements élémentaires.\\nLorsque les personnages utilisent une compétence élémentaire ou une attaque normale, ils gagnent 1 {SPRITE_PRESET#1110}charge."
-        },
-        "shield": {
-            "id": 6,
-            "name": "Bouclier",
-            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Bouclier</color>|s1:{SPRITE_PRESET#4007}<color=#FFFFFFFF>Boucliers</color>|s2:{SPRITE_PRESET#4007}<color=#FFFFFFFF>bouclier</color>|s3:{SPRITE_PRESET#4007}<color=#FFFFFFFF>boucliers</color>",
-            "description": "Un bouclier qui absorbe les DGT reçus par le personnage qu'il protège.",
-            "descriptionraw": "Un bouclier qui absorbe les DGT reçus par le personnage qu'il protège."
-        },
-        "hydroapplication": {
-            "id": 202,
-            "name": "Application Hydro",
-            "nameraw": "<color=#80C0FFFF>Application {SPRITE_PRESET#2102}Hydro</color>|s1:<color=#80C0FFFF>Applications {SPRITE_PRESET#2102}Hydro</color>|s2:<color=#80C0FFFF>application {SPRITE_PRESET#2102}Hydro</color>|s3:<color=#80C0FFFF>applications {SPRITE_PRESET#2102}Hydro</color>|s4:<color=#80C0FFFF>Applique l'élément {SPRITE_PRESET#2102}Hydro</color>|s5:<color=#80C0FFFF>applique l'élément {SPRITE_PRESET#2102}Hydro</color>",
-            "description": "Lorsque l'élément Hydro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\nÉvaporation : Aucun effet\nÉlectrocution : Aucun effet\nGel : Immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\nFleurissement : Crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2",
-            "descriptionraw": "Lorsque l'élément {SPRITE_PRESET#2102}Hydro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Évaporation</color> : Aucun effet\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Électrocution</color> : Aucun effet\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gel</color> : Immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Fleurissement</color> : Crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2"
-        },
-        "matchingelement": {
-            "id": 308,
-            "name": "Élément identique",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Élément identique</color>",
-            "description": "Vous devez dépenser des dés élémentaires correspondant au nombre et à l'élément indiqués pour payer ce type de coût.\n(Un dé Omni peut être considéré comme n'importe quel élément)",
-            "descriptionraw": "Vous devez dépenser des dés élémentaires correspondant au nombre et à l'élément indiqués pour payer ce type de coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut être considéré comme n'importe quel élément)"
+        "cryo": {
+            "id": 301,
+            "name": "Cryo",
+            "nameraw": "{SPRITE_PRESET#1101}Cryo",
+            "description": "Dépensez un dé Cryo que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
+            "descriptionraw": "Dépensez un dé <color=#99FFFFFF>{SPRITE_PRESET#1101}Cryo</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
         },
         "dendro": {
             "id": 307,
@@ -147,12 +21,19 @@
             "description": "Dépensez un dé Dendro que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
             "descriptionraw": "Dépensez un dé <color=#7EC236FF>{SPRITE_PRESET#1107}Dendro</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
         },
-        "passiveskill": {
-            "id": 502,
-            "name": "Capacité passive",
-            "nameraw": "Capacité passive",
-            "description": "Ce type de capacité prend toujours effet et n'a pas besoin d'être activé.",
-            "descriptionraw": "Ce type de capacité prend toujours effet et n'a pas besoin d'être activé."
+        "pyrorelatedreactions": {
+            "id": 213,
+            "name": "Réaction liée à l'élément Pyro",
+            "nameraw": "<color=#FF9999FF>Réaction liée à l'élément {SPRITE_PRESET#2103}Pyro</color>|s1:<color=#FF9999FF>Réactions liées à l'élément {SPRITE_PRESET#2103}Pyro</color>|s2:<color=#FF9999FF>réaction liée à l'élément {SPRITE_PRESET#2103}Pyro</color>|s3:<color=#FF9999FF>réactions liées à l'élément {SPRITE_PRESET#2103}Pyro</color>",
+            "description": "Fonte : DGT actuels +2\nÉvaporation : DGT actuels +2\nSurcharge : DGT actuels +2 et bascule de force la cible pour le personnage suivant\nBrûlure : DGT actuels +1 et crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\nCristallisation Pyro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nDispersion Pyro : Inflige 1 pt de DGT Pyro à tous les personnages adverses autres que la cible",
+            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fonte</color> : DGT actuels +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Évaporation</color> : DGT actuels +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Surcharge</color> : DGT actuels +2 et bascule de force la cible pour le personnage suivant\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Brûlure</color> : DGT actuels +1 et crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristallisation Pyro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Dispersion Pyro</color> : Inflige 1 pt de DGT Pyro à tous les personnages adverses autres que la cible"
+        },
+        "randomhilichurlsummon": {
+            "id": 1001,
+            "name": "Invocation aléatoire de Brutocollinus",
+            "nameraw": "<color=#FFFFFFFF>Invocation aléatoire de Brutocollinus</color>|s1:<color=#FFFFFFFF>Invocations aléatoires de Brutocollinus</color>|s2:<color=#FFFFFFFF>invocation aléatoire de Brutocollinus</color>|s3:<color=#FFFFFFFF>invocations aléatoires de Brutocollinus</color>",
+            "description": "Un total de 4 types différents de Brutocollinus peuvent apparaître :\nArbalétrier Brutocollinus Cryo : Inflige 1 pt de DGT Cryo pendant la phase finale. Peut être utilisé 2 fois.\nBrutoshaman Hydro : Inflige 1 pt de DGT Hydro pendant la phase finale. Peut être utilisé 2 fois.\nBerserker Brutocollinus : Inflige 1 pt de DGT Pyro pendant la phase finale. Peut être utilisé 2 fois.\nArbalétrier Brutocollinus Électro : Inflige 1 pt de DGT Électro pendant la phase finale. Peut être utilisé 2 fois.",
+            "descriptionraw": "Un total de 4 types différents de Brutocollinus peuvent apparaître :\\n<color=#FFFFFFFF>Arbalétrier Brutocollinus Cryo</color> : Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> pendant la phase finale. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Brutoshaman Hydro</color> : Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> pendant la phase finale. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Berserker Brutocollinus</color> : Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> pendant la phase finale. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Arbalétrier Brutocollinus Électro</color> : Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> pendant la phase finale. Peut être utilisé 2 fois."
         },
         "characterclosesttoyourcurrentactivecharacter": {
             "id": 7,
@@ -168,75 +49,19 @@
             "description": "Avant votre phase d'action, si le total de vos dés élémentaires est un nombre pair, l'attaque normale utilisée est considérée comme une attaque chargée.",
             "descriptionraw": "Avant votre phase d'action, si le total de vos dés élémentaires est un nombre pair, l'attaque normale utilisée est considérée comme une attaque chargée."
         },
+        "anemodmg": {
+            "id": 105,
+            "name": "DGT Anémo",
+            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color>",
+            "description": "Réagit avec les éléments déjà appliqués pour déclencher les réactions élémentaires :\nDispersion Cryo : Inflige 1 pt de DGT Cryo à tous les personnages adverses autres que la cible\nDispersion Hydro : Inflige 1 pt de DGT Hydro à tous les personnages adverses autres que la cible\nDispersion Pyro : Inflige 1 pt de DGT Pyro à tous les personnages adverses autres que la cible\nDispersion Électro : Inflige 1 pt de DGT Électro à tous les personnages adverses autres que la cible",
+            "descriptionraw": "Réagit avec les éléments déjà appliqués pour déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Dispersion Cryo</color> : Inflige 1 pt de DGT Cryo à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Dispersion Hydro</color> : Inflige 1 pt de DGT Hydro à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Dispersion Pyro</color> : Inflige 1 pt de DGT Pyro à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Dispersion Électro</color> : Inflige 1 pt de DGT Électro à tous les personnages adverses autres que la cible"
+        },
         "prepareskill": {
             "id": 53,
             "name": "Préparation de capacité",
             "nameraw": "<color=#FFFFFFFF>Préparation de capacité</color>|s1:<color=#FFFFFFFF>prépare la capacité</color>|s2:<color=#FFFFFFFF>prépare séparément les capacités</color>",
             "description": "Certaines capacités ne peuvent pas être utilisées directement. Au lieu de cela, il est nécessaire de les préparer pendant un certain nombre de tours.\nLorsque c'est le tour d'un joueur et que son personnage actif est en train de préparer une capacité, le tour est sauté. Si la préparation est terminée, le personnage utilise directement la capacité à ce moment-là. (Les capacités nécessitant une préparation ne peuvent pas activer les effets déclenchés lorsque vous avez « utilisé une capacité ».)\nSeul le personnage actif peut préparer une capacité. Si un personnage actif en train de préparer une capacité passe en attente, la préparation est interrompue.",
             "descriptionraw": "Certaines capacités ne peuvent pas être utilisées directement. Au lieu de cela, il est nécessaire de les <color=#FFFFFFFF>préparer</color> pendant un certain nombre de tours.\\nLorsque c'est le tour d'un joueur et que son personnage actif est en train de <color=#FFFFFFFF>préparer</color> une capacité, le tour est sauté. Si la <color=#FFFFFFFF>préparation</color> est terminée, le personnage utilise directement la capacité à ce moment-là. (Les capacités nécessitant une <color=#FFFFFFFF>préparation</color> ne peuvent pas activer les effets déclenchés lorsque vous avez « utilisé une capacité ».)\\nSeul le personnage actif peut <color=#FFFFFFFF>préparer</color> une capacité. Si un personnage actif en train de <color=#FFFFFFFF>préparer</color> une capacité passe en attente, la <color=#FFFFFFFF>préparation</color> est interrompue."
-        },
-        "electro": {
-            "id": 304,
-            "name": "Électro",
-            "nameraw": "{SPRITE_PRESET#1104}Électro",
-            "description": "Dépensez un dé Électro que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
-            "descriptionraw": "Dépensez un dé <color=#FFACFFFF>{SPRITE_PRESET#1104}Électro</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
-        },
-        "physicaldmg": {
-            "id": 100,
-            "name": "DGT physiques",
-            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>",
-            "description": "Les DGT physiques n'appliquent aucun élément et ne peuvent pas non plus déclencher de réactions élémentaires.",
-            "descriptionraw": "Les DGT physiques n'appliquent aucun élément et ne peuvent pas non plus déclencher de réactions élémentaires."
-        },
-        "dendrodmg": {
-            "id": 107,
-            "name": "DGT Dendro",
-            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color>",
-            "description": "Applique l'élément Dendro et peut déclencher les réactions élémentaires :\nFleurissement : DGT actuels +1 et crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2\nBrûlure : DGT actuels +1 et crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\nStimulation : DGT actuels +1 et crée un champ catalyseur qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1",
-            "descriptionraw": "Applique l'élément {SPRITE_PRESET#2107}Dendro et peut déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Fleurissement</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Brûlure</color> : DGT actuels +1 et crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Stimulation</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>champ catalyseur</color> qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1"
-        },
-        "pyroapplication": {
-            "id": 203,
-            "name": "Application Pyro",
-            "nameraw": "<color=#FF9999FF>Application {SPRITE_PRESET#2103}Pyro</color>|s1:<color=#FF9999FF>Applications {SPRITE_PRESET#2103}Pyro</color>|s2:<color=#FF9999FF>application {SPRITE_PRESET#2103}Pyro</color>|s3:<color=#FF9999FF>applications{SPRITE_PRESET#2103}Pyro</color>|s4:<color=#FF9999FF>Applique l'élément {SPRITE_PRESET#2103}Pyro</color>|s5:<color=#FF9999FF>applique l'élément {SPRITE_PRESET#2103}Pyro</color>",
-            "description": "Lorsque l'élément Pyro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\nFonte : Aucun effet\nÉvaporation : Aucun effet\nSurcharge : Bascule de force la cible pour le personnage suivant\nBrûlure : Crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)",
-            "descriptionraw": "Lorsque l'élément {SPRITE_PRESET#2103}Pyro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fonte</color> : Aucun effet\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Évaporation</color> : Aucun effet\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Surcharge</color> : Bascule de force la cible pour le personnage suivant\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Brûlure</color> : Crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)"
-        },
-        "crowfeathercover": {
-            "id": 1003,
-            "name": "Couverture corvidée",
-            "nameraw": "<color=#FFFFFFFF>Couverture corvidée</color>|s1:<color=#FFFFFFFF>Couvertures corvidées</color>|s2:<color=#FFFFFFFF>couverture corvidée</color>|s3:<color=#FFFFFFFF>couvertures corvidées</color>",
-            "description": "DGT infligés par les compétences élémentaires et les déchaînements élémentaires du personnage affecté +1.\nNombre d'utilisations : 2",
-            "descriptionraw": "DGT infligés par les <color=#FFFFFFFF>compétences élémentaires</color> et les <color=#FFFFFFFF>déchaînements élémentaires</color> du personnage affecté +1.\\n<color=#FFFFFFFF>Nombre d'utilisations : 2</color>"
-        },
-        "piercingdmg": {
-            "id": 5,
-            "name": "DGT de perforation",
-            "nameraw": "<color=#FFFFFFFF>DGT de perforation</color>",
-            "description": "Les DGT de perforation ne peuvent être augmentés par aucun bonus, mais ne peuvent pas non plus être bloqués par l'utilisation de boucliers ou d'immunités aux DGT.",
-            "descriptionraw": "Les DGT de perforation ne peuvent être augmentés par aucun bonus, mais ne peuvent pas non plus être bloqués par l'utilisation de boucliers ou d'immunités aux DGT."
-        },
-        "immunitytodefeats1willnotbedefeated": {
-            "id": 54,
-            "name": "Élimination évitée",
-            "nameraw": "<color=#FFFFFFFF>Élimination évitée</color>|s1:<color=#FFFFFFFF>évite l'élimination</color>",
-            "description": "Certains effets accordent aux personnages une immunité contre la mort lorsque leurs PV tombent à zéro, les soignant alors pour une certaine quantité de PV.\nLorsque cela se produit, les personnages ne sont pas considérés comme ayant été éliminés. (Ainsi, les équipements et les états du personnage affecté ne sont pas défaussés, et ses charges ne sont pas supprimées.)",
-            "descriptionraw": "Certains effets accordent aux personnages une <color=#FFFFFFFF>immunité contre la mort</color> lorsque leurs PV tombent à zéro, les soignant alors pour une certaine quantité de PV.\\nLorsque cela se produit, les personnages ne sont pas considérés comme <color=#FFFFFFFF>ayant été éliminés</color>. (Ainsi, les équipements et les états du personnage affecté ne sont pas défaussés, et ses charges ne sont pas supprimées.)"
-        },
-        "pyro": {
-            "id": 303,
-            "name": "Pyro",
-            "nameraw": "{SPRITE_PRESET#1103}Pyro",
-            "description": "Dépensez un dé Pyro que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
-            "descriptionraw": "Dépensez un dé <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
-        },
-        "geo": {
-            "id": 306,
-            "name": "Géo",
-            "nameraw": "{SPRITE_PRESET#1106}Géo",
-            "description": "Dépensez un dé Géo que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
-            "descriptionraw": "Dépensez un dé <color=#FFE699FF>{SPRITE_PRESET#1106}Géo</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
         },
         "electroapplication": {
             "id": 204,
@@ -245,33 +70,40 @@
             "description": "Lorsque l'élément Électro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\nSurcharge : Bascule de force la cible pour le personnage suivant\nSupraconduction : Aucun effet\nÉlectrocution : Aucun effet\nStimulation : Crée un champ catalyseur qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1",
             "descriptionraw": "Lorsque l'élément {SPRITE_PRESET#2104}Électro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Surcharge</color> : Bascule de force la cible pour le personnage suivant\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Supraconduction</color> : Aucun effet\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Électrocution</color> : Aucun effet\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Stimulation</color> : Crée un <color=#FFFFFFFF>champ catalyseur</color> qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1"
         },
-        "anemodmg": {
-            "id": 105,
-            "name": "DGT Anémo",
-            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color>",
-            "description": "Réagit avec les éléments déjà appliqués pour déclencher les réactions élémentaires :\nDispersion Cryo : Inflige 1 pt de DGT Cryo à tous les personnages adverses autres que la cible\nDispersion Hydro : Inflige 1 pt de DGT Hydro à tous les personnages adverses autres que la cible\nDispersion Pyro : Inflige 1 pt de DGT Pyro à tous les personnages adverses autres que la cible\nDispersion Électro : Inflige 1 pt de DGT Électro à tous les personnages adverses autres que la cible",
-            "descriptionraw": "Réagit avec les éléments déjà appliqués pour déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Dispersion Cryo</color> : Inflige 1 pt de DGT Cryo à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Dispersion Hydro</color> : Inflige 1 pt de DGT Hydro à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Dispersion Pyro</color> : Inflige 1 pt de DGT Pyro à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Dispersion Électro</color> : Inflige 1 pt de DGT Électro à tous les personnages adverses autres que la cible"
+        "energy": {
+            "id": 310,
+            "name": "Charge",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Charge</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1110}Charges</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1110}charge</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1110}charges</color>",
+            "description": "Les personnages doivent consommer des charges pour utiliser leurs déchaînements élémentaires.\nLorsque les personnages utilisent une compétence élémentaire ou une attaque normale, ils gagnent 1 charge.",
+            "descriptionraw": "Les personnages doivent consommer des {SPRITE_PRESET#1110}charges pour utiliser leurs déchaînements élémentaires.\\nLorsque les personnages utilisent une compétence élémentaire ou une attaque normale, ils gagnent 1 {SPRITE_PRESET#1110}charge."
         },
-        "randomhilichurlsummon": {
-            "id": 1001,
-            "name": "Invocation aléatoire de Brutocollinus",
-            "nameraw": "<color=#FFFFFFFF>Invocation aléatoire de Brutocollinus</color>|s1:<color=#FFFFFFFF>Invocations aléatoires de Brutocollinus</color>|s2:<color=#FFFFFFFF>invocation aléatoire de Brutocollinus</color>|s3:<color=#FFFFFFFF>invocations aléatoires de Brutocollinus</color>",
-            "description": "Un total de 4 types différents de Brutocollinus peuvent apparaître :\nArbalétrier Brutocollinus Cryo : Inflige 1 pt de DGT Cryo pendant la phase finale. Peut être utilisé 2 fois.\nBrutoshaman Hydro : Inflige 1 pt de DGT Hydro pendant la phase finale. Peut être utilisé 2 fois.\nBerserker Brutocollinus : Inflige 1 pt de DGT Pyro pendant la phase finale. Peut être utilisé 2 fois.\nArbalétrier Brutocollinus Électro : Inflige 1 pt de DGT Électro pendant la phase finale. Peut être utilisé 2 fois.",
-            "descriptionraw": "Un total de 4 types différents de Brutocollinus peuvent apparaître :\\n<color=#FFFFFFFF>Arbalétrier Brutocollinus Cryo</color> : Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> pendant la phase finale. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Brutoshaman Hydro</color> : Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> pendant la phase finale. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Berserker Brutocollinus</color> : Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> pendant la phase finale. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Arbalétrier Brutocollinus Électro</color> : Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> pendant la phase finale. Peut être utilisé 2 fois."
+        "dendroapplication": {
+            "id": 207,
+            "name": "Application Dendro",
+            "nameraw": "<color=#7EC236FF>Application {SPRITE_PRESET#2107}Dendro</color>|s1:<color=#7EC236FF>Applications {SPRITE_PRESET#2107}Dendro</color>|s2:<color=#7EC236FF>application {SPRITE_PRESET#2107}Dendro</color>|s3:<color=#7EC236FF>applications {SPRITE_PRESET#2107}Dendro</color>|s4:<color=#7EC236FF>Applique l'élément {SPRITE_PRESET#2107}Dendro</color>|s5:<color=#7EC236FF>applique l'élément {SPRITE_PRESET#2107}Dendro</color>",
+            "description": "Lorsque l'élément Dendro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\nFleurissement : Crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2\nBrûlure : Crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\nStimulation : Crée un champ catalyseur qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1",
+            "descriptionraw": "Lorsque l'élément {SPRITE_PRESET#2107}Dendro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Fleurissement</color> : Crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Brûlure</color> : Crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Stimulation</color> : Crée un <color=#FFFFFFFF>champ catalyseur</color> qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1"
         },
-        "riptide": {
-            "id": 1005,
-            "name": "Contre-courant",
-            "nameraw": "<color=#FFFFFFFF>Contre-courant</color>",
-            "description": "Lorsque le personnage affecté est vaincu : Inflige l'effet Contre-courant au personnage actif du camp concerné.\nLorsque Tartaglia, en état de mêlée, attaque le personnage affecté : Inflige des DGT supplémentaires.\nDurée en manches : 2",
-            "descriptionraw": "<color=#FFFFFFFF>Lorsque le personnage affecté est vaincu : </color>Inflige l'effet Contre-courant au personnage actif du camp concerné.\\nLorsque <color=#FFFFFFFF>Tartaglia</color>, en <color=#FFFFFFFF>état de mêlée</color>, attaque le personnage affecté : Inflige des DGT supplémentaires.\\n<color=#FFFFFFFF>Durée en manches : 2</color>"
+        "anemo": {
+            "id": 305,
+            "name": "Anémo",
+            "nameraw": "{SPRITE_PRESET#1105}Anémo",
+            "description": "Dépensez un dé Anémo que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
+            "descriptionraw": "Dépensez un dé <color=#80FFD7FF>{SPRITE_PRESET#1105}Anémo</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
         },
-        "pyrodmg": {
-            "id": 103,
-            "name": "DGT Pyro",
-            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color>",
-            "description": "Applique l'élément Pyro et peut déclencher les réactions élémentaires :\nFonte : DGT actuels +2\nÉvaporation : DGT actuels +2\nSurcharge : DGT actuels +2 et bascule de force la cible pour le personnage suivant\nBrûlure : DGT actuels +1 et crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)",
-            "descriptionraw": "Applique l'élément {SPRITE_PRESET#2103}Pyro et peut déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fonte</color> : DGT actuels +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Évaporation</color> : DGT actuels +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Surcharge</color> : DGT actuels +2 et bascule de force la cible pour le personnage suivant\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Brûlure</color> : DGT actuels +1 et crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)"
+        "shield": {
+            "id": 6,
+            "name": "Bouclier",
+            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Bouclier</color>|s1:{SPRITE_PRESET#4007}<color=#FFFFFFFF>Boucliers</color>|s2:{SPRITE_PRESET#4007}<color=#FFFFFFFF>bouclier</color>|s3:{SPRITE_PRESET#4007}<color=#FFFFFFFF>boucliers</color>",
+            "description": "Un bouclier qui absorbe les DGT reçus par le personnage qu'il protège.",
+            "descriptionraw": "Un bouclier qui absorbe les DGT reçus par le personnage qu'il protège."
+        },
+        "piercingdmg": {
+            "id": 5,
+            "name": "DGT de perforation",
+            "nameraw": "<color=#FFFFFFFF>DGT de perforation</color>",
+            "description": "Les DGT de perforation ne peuvent être augmentés par aucun bonus, mais ne peuvent pas non plus être bloqués par l'utilisation de boucliers ou d'immunités aux DGT.",
+            "descriptionraw": "Les DGT de perforation ne peuvent être augmentés par aucun bonus, mais ne peuvent pas non plus être bloqués par l'utilisation de boucliers ou d'immunités aux DGT."
         },
         "fastaction": {
             "id": 2,
@@ -280,47 +112,19 @@
             "description": "Vous pouvez continuer d'effectuer des actions après avoir effectué 1 action rapide.\nCe n'est qu'après avoir effectué 1 action de combat que le tour passe à votre adversaire.",
             "descriptionraw": "Vous pouvez continuer d'effectuer des actions après avoir effectué 1 action rapide.\\nCe n'est qu'après avoir effectué 1 action de combat que le tour passe à votre adversaire."
         },
-        "usages": {
-            "id": 3,
-            "name": "Nombre d'utilisations",
-            "nameraw": "<color=#FFFFFFFF>Nombre d'utilisations</color>|s1:<color=#FFFFFFFF>Nombre d'utilisation</color>|s2:<color=#FFFFFFFF>nombre d'utilisations</color>|s3:<color=#FFFFFFFF>nombres d'utilisations</color>",
-            "description": "Après le déclenchement de l'effet de cette carte, 1 de ses utilisations est consommée.\nUne carte est immédiatement défaussée une fois toutes ses utilisations épuisées.",
-            "descriptionraw": "Après le déclenchement de l'effet de cette carte, 1 de ses <color=#FFFFFFFF>utilisations</color> est consommée.\\nUne carte est immédiatement défaussée une fois toutes ses <color=#FFFFFFFF>utilisations</color> épuisées."
+        "geo": {
+            "id": 306,
+            "name": "Géo",
+            "nameraw": "{SPRITE_PRESET#1106}Géo",
+            "description": "Dépensez un dé Géo que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
+            "descriptionraw": "Dépensez un dé <color=#FFE699FF>{SPRITE_PRESET#1106}Géo</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
         },
-        "plungingattack": {
-            "id": 52,
-            "name": "Attaque plongeante",
-            "nameraw": "<color=#FFFFFFFF>Attaque plongeante</color>|s1:<color=#FFFFFFFF>Attaques plongeantes</color>|s2:<color=#FFFFFFFF>attaque plongeante</color>|s3:<color=#FFFFFFFF>attaques plongeantes</color>",
-            "description": "Après avoir basculé un personnage en personnage actif, si sa prochaine action de combat dans la manche est une attaque normale, elle est considérée comme une attaque plongeante.",
-            "descriptionraw": "Après avoir basculé un personnage en personnage actif, si sa prochaine action de combat dans la manche est une attaque normale, elle est considérée comme une attaque plongeante."
-        },
-        "aegisofabyssalflame": {
-            "id": 1006,
-            "name": "Bouclier de feu abyssal",
-            "nameraw": "<color=#FFFFFFFF>Bouclier de feu abyssal</color>|s1:<color=#FFFFFFFF>Boucliers de feu abyssal</color>|s2:<color=#FFFFFFFF>bouclier de feu abyssal</color>|s3:<color=#FFFFFFFF>boucliers de feu abyssal</color>",
-            "description": "Accorde 3 pts de bouclier au personnage affecté.\nTant que le bouclier n'est pas épuisé, DGT Pyro infligés par le personnage affecté +1.",
-            "descriptionraw": "Accorde <color=#FFFFFFFF>3 pts de {SPRITE_PRESET#4007}<color=#FFFFFFFF>bouclier</color></color> au personnage affecté.\\nTant que le {SPRITE_PRESET#4007}<color=#FFFFFFFF>bouclier</color> n'est pas épuisé, {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> infligés par le personnage affecté +1."
-        },
-        "cryo": {
-            "id": 301,
-            "name": "Cryo",
-            "nameraw": "{SPRITE_PRESET#1101}Cryo",
-            "description": "Dépensez un dé Cryo que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
-            "descriptionraw": "Dépensez un dé <color=#99FFFFFF>{SPRITE_PRESET#1101}Cryo</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
-        },
-        "hydrodmg": {
-            "id": 102,
-            "name": "DGT Hydro",
-            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>",
-            "description": "Applique l'élément Hydro et peut déclencher les réactions élémentaires :\nÉvaporation : DGT actuels +2\nÉlectrocution : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\nGel : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\nFleurissement : DGT actuels +1 et crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2",
-            "descriptionraw": "Applique l'élément {SPRITE_PRESET#2102}Hydro et peut déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Évaporation</color> : DGT actuels +2\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Électrocution</color> : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gel</color> : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Fleurissement</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2"
-        },
-        "unalignedelement": {
-            "id": 309,
-            "name": "Élément neutre",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Élément neutre</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1109}Éléments neutres</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1109}élément neutre</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1109}éléments neutres</color>",
-            "description": "Vous pouvez dépenser des dés élémentaires de n'importe quel élément pour payer ce type de coût.",
-            "descriptionraw": "Vous pouvez dépenser des dés élémentaires de n'importe quel élément pour payer ce type de coût."
+        "elementalburst": {
+            "id": 501,
+            "name": "Déchaînement élémentaire",
+            "nameraw": "Déchaînement élémentaire",
+            "description": "Lorsque les charges d'un personnage sont au maximum, il peut consommer toutes ses charges pour utiliser un puissant déchaînement élémentaire.",
+            "descriptionraw": "Lorsque les {SPRITE_PRESET#1110}charges d'un personnage sont au maximum, il peut consommer toutes ses {SPRITE_PRESET#1110}charges pour utiliser un puissant déchaînement élémentaire."
         },
         "electrodmg": {
             "id": 104,
@@ -329,12 +133,33 @@
             "description": "Applique l'élément Électro et peut déclencher les réactions élémentaires :\nSurcharge : DGT actuels +2 et bascule de force la cible pour le personnage suivant\nSupraconduction : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\nÉlectrocution : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\nStimulation : DGT actuels +1 et crée un champ catalyseur qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1",
             "descriptionraw": "Applique l'élément {SPRITE_PRESET#2104}Électro et peut déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Surcharge</color> : DGT actuels +2 et bascule de force la cible pour le personnage suivant\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Supraconduction</color> : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Électrocution</color> : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Stimulation</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>champ catalyseur</color> qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1"
         },
-        "bloodblossom": {
-            "id": 1009,
-            "name": "Bourgeon de prune",
-            "nameraw": "<color=#FFFFFFFF>Bourgeon de prune</color>|s1:<color=#FFFFFFFF>Bourgeons de prune</color>|s2:<color=#FFFFFFFF>bourgeon de prune</color>|s3:<color=#FFFFFFFF>bourgeons de prune</color>",
-            "description": "Phase finale : Inflige 1 pt de DGT Pyro au personnage affecté.\nNombre d'utilisations : 1",
-            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> au personnage affecté.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations : </color>1</color>"
+        "physicaldmg": {
+            "id": 100,
+            "name": "DGT physiques",
+            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>",
+            "description": "Les DGT physiques n'appliquent aucun élément et ne peuvent pas non plus déclencher de réactions élémentaires.",
+            "descriptionraw": "Les DGT physiques n'appliquent aucun élément et ne peuvent pas non plus déclencher de réactions élémentaires."
+        },
+        "immunitytodefeats1willnotbedefeated": {
+            "id": 54,
+            "name": "Élimination évitée",
+            "nameraw": "<color=#FFFFFFFF>Élimination évitée</color>|s1:<color=#FFFFFFFF>évite l'élimination</color>",
+            "description": "Certains effets accordent aux personnages une immunité contre la mort lorsque leurs PV tombent à zéro, les soignant alors pour une certaine quantité de PV.\nLorsque cela se produit, les personnages ne sont pas considérés comme ayant été éliminés. (Ainsi, les équipements et les états du personnage affecté ne sont pas défaussés, et ses charges ne sont pas supprimées.)",
+            "descriptionraw": "Certains effets accordent aux personnages une <color=#FFFFFFFF>immunité contre la mort</color> lorsque leurs PV tombent à zéro, les soignant alors pour une certaine quantité de PV.\\nLorsque cela se produit, les personnages ne sont pas considérés comme <color=#FFFFFFFF>ayant été éliminés</color>. (Ainsi, les équipements et les états du personnage affecté ne sont pas défaussés, et ses charges ne sont pas supprimées.)"
+        },
+        "usages": {
+            "id": 3,
+            "name": "Nombre d'utilisations",
+            "nameraw": "<color=#FFFFFFFF>Nombre d'utilisations</color>|s1:<color=#FFFFFFFF>Nombre d'utilisation</color>|s2:<color=#FFFFFFFF>nombre d'utilisations</color>|s3:<color=#FFFFFFFF>nombres d'utilisations</color>",
+            "description": "Après le déclenchement de l'effet de cette carte, 1 de ses utilisations est consommée.\nUne carte est immédiatement défaussée une fois toutes ses utilisations épuisées.",
+            "descriptionraw": "Après le déclenchement de l'effet de cette carte, 1 de ses <color=#FFFFFFFF>utilisations</color> est consommée.\\nUne carte est immédiatement défaussée une fois toutes ses <color=#FFFFFFFF>utilisations</color> épuisées."
+        },
+        "hydrodmg": {
+            "id": 102,
+            "name": "DGT Hydro",
+            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>",
+            "description": "Applique l'élément Hydro et peut déclencher les réactions élémentaires :\nÉvaporation : DGT actuels +2\nÉlectrocution : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\nGel : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\nFleurissement : DGT actuels +1 et crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2",
+            "descriptionraw": "Applique l'élément {SPRITE_PRESET#2102}Hydro et peut déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Évaporation</color> : DGT actuels +2\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Électrocution</color> : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gel</color> : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Fleurissement</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2"
         },
         "cryoapplication": {
             "id": 201,
@@ -342,6 +167,181 @@
             "nameraw": "<color=#99FFFFFF>Application {SPRITE_PRESET#2101}Cryo</color>|s1:<color=#99FFFFFF>Applications {SPRITE_PRESET#2101}Cryo</color>|s2:<color=#99FFFFFF>application {SPRITE_PRESET#2101}Cryo</color>|s3:<color=#99FFFFFF>applications {SPRITE_PRESET#2101}Cryo</color>|s4:<color=#99FFFFFF>Applique l'élément {SPRITE_PRESET#2101}Cryo</color>|s5:<color=#99FFFFFF>applique l'élément {SPRITE_PRESET#2101}Cryo</color>",
             "description": "Lorsque l'élément Cryo est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\nFonte : Aucun effet\nSupraconduction : Aucun effet\nGel : Immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)",
             "descriptionraw": "Lorsque l'élément {SPRITE_PRESET#2101}Cryo est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Fonte</color> : Aucun effet\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Supraconduction</color> : Aucun effet\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Gel</color> : Immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)"
+        },
+        "unalignedelement": {
+            "id": 309,
+            "name": "Élément neutre",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Élément neutre</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1109}Éléments neutres</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1109}élément neutre</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1109}éléments neutres</color>",
+            "description": "Vous pouvez dépenser des dés élémentaires de n'importe quel élément pour payer ce type de coût.",
+            "descriptionraw": "Vous pouvez dépenser des dés élémentaires de n'importe quel élément pour payer ce type de coût."
+        },
+        "bloodblossom": {
+            "id": 1009,
+            "name": "Bourgeon de prune",
+            "nameraw": "<color=#FFFFFFFF>Bourgeon de prune</color>|s1:<color=#FFFFFFFF>Bourgeons de prune</color>|s2:<color=#FFFFFFFF>bourgeon de prune</color>|s3:<color=#FFFFFFFF>bourgeons de prune</color>",
+            "description": "Phase finale : Inflige 1 pt de DGT Pyro au personnage affecté.\nNombre d'utilisations : 1",
+            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> au personnage affecté.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations : </color>1</color>"
+        },
+        "clusterbloomarrow": {
+            "id": 1008,
+            "name": "Flèche fleuronnée",
+            "nameraw": "<color=#FFFFFFFF>Flèche fleuronnée</color>|s1:<color=#FFFFFFFF>Flèches fleuronnées</color>|s2:<color=#FFFFFFFF>flèche fleuronnée</color>|s3:<color=#FFFFFFFF>flèches fleuronnées</color>",
+            "description": "Phase finale : Inflige 1 pt de DGT Dendro.\nNombre d'utilisations : 1 (Peut être cumulé, 2 cumuls maximum)",
+            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color>.\\n<color=#FFFFFFFF>Nombre d'utilisations : 1</color> (Peut être cumulé, 2 cumuls maximum)"
+        },
+        "matchingelement": {
+            "id": 308,
+            "name": "Élément identique",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Élément identique</color>",
+            "description": "Vous devez dépenser des dés élémentaires correspondant au nombre et à l'élément indiqués pour payer ce type de coût.\n(Un dé Omni peut être considéré comme n'importe quel élément)",
+            "descriptionraw": "Vous devez dépenser des dés élémentaires correspondant au nombre et à l'élément indiqués pour payer ce type de coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut être considéré comme n'importe quel élément)"
+        },
+        "combataction": {
+            "id": 1,
+            "name": "Action de combat",
+            "nameraw": "<color=#FFFFFFFF>Action de combat</color>|s1:<color=#FFFFFFFF>Actions de combat</color>|s2:<color=#FFFFFFFF>action de combat</color>|s3:<color=#FFFFFFFF>actions de combat</color>",
+            "description": "Après que vous terminez 1 action de combat, c'est au tour de votre adversaire.\nJouer une carte de votre main contenant cette règle est considéré comme une action de combat, et non pas comme une action rapide.",
+            "descriptionraw": "Après que vous terminez 1 action de combat, c'est au tour de votre adversaire.\\n<color=#FFFFFFFF>Jouer une carte de votre main contenant cette règle est considéré comme une action de combat, et non pas comme une action rapide.</color>"
+        },
+        "hydrorelatedreactions": {
+            "id": 212,
+            "name": "Réaction liée à l'élément Hydro",
+            "nameraw": "<color=#80C0FFFF>Réaction liée à l'élément {SPRITE_PRESET#2102}Hydro</color>|s1:<color=#80C0FFFF>Réactions liées à l'élément {SPRITE_PRESET#2102}Hydro</color>|s2:<color=#80C0FFFF>réaction liée à l'élément {SPRITE_PRESET#2102}Hydro</color>|s3:<color=#80C0FFFF>réactions liées à l'élément {SPRITE_PRESET#2102}Hydro</color>",
+            "description": "Évaporation : DGT actuels +2\nÉlectrocution : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\nGel : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\nFleurissement : Crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2\nCristallisation Hydro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nDispersion Hydro : Inflige 1 pt de DGT Hydro à tous les personnages adverses autres que la cible",
+            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Évaporation</color> : DGT actuels +2\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Électrocution</color> : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gel</color> : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Fleurissement</color> : Crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristallisation Hydro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Dispersion Hydro</color> : Inflige 1 pt de DGT Hydro à tous les personnages adverses autres que la cible"
+        },
+        "riptide": {
+            "id": 1005,
+            "name": "Contre-courant",
+            "nameraw": "<color=#FFFFFFFF>Contre-courant</color>",
+            "description": "Lorsque le personnage affecté est vaincu : Inflige l'effet Contre-courant au personnage actif du camp concerné.\nLorsque Tartaglia, en état de mêlée, attaque le personnage affecté : Inflige des DGT supplémentaires.\nDurée en manches : 2",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque le personnage affecté est vaincu : </color>Inflige l'effet Contre-courant au personnage actif du camp concerné.\\nLorsque <color=#FFFFFFFF>Tartaglia</color>, en <color=#FFFFFFFF>état de mêlée</color>, attaque le personnage affecté : Inflige des DGT supplémentaires.\\n<color=#FFFFFFFF>Durée en manches : 2</color>"
+        },
+        "omnielement": {
+            "id": 411,
+            "name": "Omni",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color>",
+            "description": "L'élément Omni peut être considéré comme n'importe quel type d'élément et dépensé pour payer des coûts de toutes sortes.",
+            "descriptionraw": "L'élément {SPRITE_PRESET#1111}Omni peut être considéré comme n'importe quel type d'élément et dépensé pour payer des coûts de toutes sortes."
+        },
+        "plungingattack": {
+            "id": 52,
+            "name": "Attaque plongeante",
+            "nameraw": "<color=#FFFFFFFF>Attaque plongeante</color>|s1:<color=#FFFFFFFF>Attaques plongeantes</color>|s2:<color=#FFFFFFFF>attaque plongeante</color>|s3:<color=#FFFFFFFF>attaques plongeantes</color>",
+            "description": "Après avoir basculé un personnage en personnage actif, si sa prochaine action de combat dans la manche est une attaque normale, elle est considérée comme une attaque plongeante.",
+            "descriptionraw": "Après avoir basculé un personnage en personnage actif, si sa prochaine action de combat dans la manche est une attaque normale, elle est considérée comme une attaque plongeante."
+        },
+        "passiveskill": {
+            "id": 502,
+            "name": "Capacité passive",
+            "nameraw": "Capacité passive",
+            "description": "Ce type de capacité prend toujours effet et n'a pas besoin d'être activé.",
+            "descriptionraw": "Ce type de capacité prend toujours effet et n'a pas besoin d'être activé."
+        },
+        "electroinfusion": {
+            "id": 1002,
+            "name": "Enchantement Électro",
+            "nameraw": "<color=#FFFFFFFF>Enchantement Électro|s1:Enchantements Électro|s2:enchantement Électro|s3:enchantements Électro</color>",
+            "description": "Les DGT physiques infligés par le personnage affecté sont convertis en DGT Électro.\nDurée en manches :2",
+            "descriptionraw": "Les {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> infligés par le personnage affecté sont convertis en {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.\\n<color=#FFFFFFFF>Durée en manches :</color>2"
+        },
+        "pyrodmg": {
+            "id": 103,
+            "name": "DGT Pyro",
+            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color>",
+            "description": "Applique l'élément Pyro et peut déclencher les réactions élémentaires :\nFonte : DGT actuels +2\nÉvaporation : DGT actuels +2\nSurcharge : DGT actuels +2 et bascule de force la cible pour le personnage suivant\nBrûlure : DGT actuels +1 et crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)",
+            "descriptionraw": "Applique l'élément {SPRITE_PRESET#2103}Pyro et peut déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fonte</color> : DGT actuels +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Évaporation</color> : DGT actuels +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Surcharge</color> : DGT actuels +2 et bascule de force la cible pour le personnage suivant\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Brûlure</color> : DGT actuels +1 et crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)"
+        },
+        "pyroapplication": {
+            "id": 203,
+            "name": "Application Pyro",
+            "nameraw": "<color=#FF9999FF>Application {SPRITE_PRESET#2103}Pyro</color>|s1:<color=#FF9999FF>Applications {SPRITE_PRESET#2103}Pyro</color>|s2:<color=#FF9999FF>application {SPRITE_PRESET#2103}Pyro</color>|s3:<color=#FF9999FF>applications{SPRITE_PRESET#2103}Pyro</color>|s4:<color=#FF9999FF>Applique l'élément {SPRITE_PRESET#2103}Pyro</color>|s5:<color=#FF9999FF>applique l'élément {SPRITE_PRESET#2103}Pyro</color>",
+            "description": "Lorsque l'élément Pyro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\nFonte : Aucun effet\nÉvaporation : Aucun effet\nSurcharge : Bascule de force la cible pour le personnage suivant\nBrûlure : Crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)",
+            "descriptionraw": "Lorsque l'élément {SPRITE_PRESET#2103}Pyro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fonte</color> : Aucun effet\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Évaporation</color> : Aucun effet\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Surcharge</color> : Bascule de force la cible pour le personnage suivant\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Brûlure</color> : Crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)"
+        },
+        "hydroapplication": {
+            "id": 202,
+            "name": "Application Hydro",
+            "nameraw": "<color=#80C0FFFF>Application {SPRITE_PRESET#2102}Hydro</color>|s1:<color=#80C0FFFF>Applications {SPRITE_PRESET#2102}Hydro</color>|s2:<color=#80C0FFFF>application {SPRITE_PRESET#2102}Hydro</color>|s3:<color=#80C0FFFF>applications {SPRITE_PRESET#2102}Hydro</color>|s4:<color=#80C0FFFF>Applique l'élément {SPRITE_PRESET#2102}Hydro</color>|s5:<color=#80C0FFFF>applique l'élément {SPRITE_PRESET#2102}Hydro</color>",
+            "description": "Lorsque l'élément Hydro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\nÉvaporation : Aucun effet\nÉlectrocution : Aucun effet\nGel : Immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\nFleurissement : Crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2",
+            "descriptionraw": "Lorsque l'élément {SPRITE_PRESET#2102}Hydro est appliqué sans infliger de DGT, la réaction élémentaire déclenchée ignore les effets de DGT :\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Évaporation</color> : Aucun effet\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Électrocution</color> : Aucun effet\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gel</color> : Immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Fleurissement</color> : Crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2"
+        },
+        "pyro": {
+            "id": 303,
+            "name": "Pyro",
+            "nameraw": "{SPRITE_PRESET#1103}Pyro",
+            "description": "Dépensez un dé Pyro que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
+            "descriptionraw": "Dépensez un dé <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
+        },
+        "dendrorelatedreactions": {
+            "id": 217,
+            "name": "Réaction liée à l'élément Dendro",
+            "nameraw": "<color=#7EC236FF>Réaction liée à l'élément {SPRITE_PRESET#2107}Dendro</color>|s1:<color=#7EC236FF>Réactions liées à l'élément {SPRITE_PRESET#2107}Dendro</color>|s2:<color=#7EC236FF>réaction liée à l'élément {SPRITE_PRESET#2107}Dendro</color>|s3:<color=#7EC236FF>réactions liées à l'élément {SPRITE_PRESET#2107}Dendro</color>",
+            "description": "Fleurissement : DGT actuels +1 et crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2\nBrûlure : DGT actuels +1 et crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\nStimulation : DGT actuels +1 et crée un champ catalyseur qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1",
+            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Fleurissement</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Brûlure</color> : DGT actuels +1 et crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Stimulation</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>champ catalyseur</color> qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1"
+        },
+        "superlativesuperstrength": {
+            "id": 1007,
+            "name": "Mégaforce superlative",
+            "nameraw": "<color=#FFFFFFFF>Mégaforce superlative</color>|s1:<color=#FFFFFFFF>Mégaforces superlatives</color>|s2:<color=#FFFFFFFF>mégaforce superlative</color>|s3:<color=#FFFFFFFF>mégaforces superlatives</color>",
+            "description": "Lorsque le personnage affecté utilise une attaque chargée, DGT infligés +1. Si le nombre d'utilisations est 2 ou plus, dépense 1 dé d'élément neutre en moins.\nNombre d'utilisations : 1 (Peut être cumulé, 3 cumuls maximum)",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque le personnage affecté utilise une <color=#FFFFFFFF>attaque chargée</color>, </color>DGT infligés +1. Si le <color=#FFFFFFFF>nombre d'utilisations</color> est 2 ou plus, dépense 1 dé d'<color=#FFFFFFFF>{SPRITE_PRESET#1109}élément neutre</color> en moins.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations : </color>1</color> (Peut être cumulé, 3 cumuls maximum)"
+        },
+        "cryodmg": {
+            "id": 101,
+            "name": "DGT Cryo",
+            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>",
+            "description": "Applique l'élément Cryo et peut déclencher les réactions élémentaires :\nFonte : DGT actuels +2\nSupraconduction : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\nGel : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)",
+            "descriptionraw": "Applique l'élément {SPRITE_PRESET#2101}Cryo et peut déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Fonte</color> : DGT actuels +2\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Supraconduction</color> : DGT actuels +1 et inflige 1 pt de DGT de perforation à tous les personnages adverses autres que la cible\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Gel</color> : DGT actuels +1 et immobilise la cible pendant la manche actuelle (Peut être annulé en avance en subissant des DGT physiques ou Pyro, mais DGT +2)"
+        },
+        "durationrounds": {
+            "id": 4,
+            "name": "Durée en manches",
+            "nameraw": "<color=#FFFFFFFF>Durée en manches</color>",
+            "description": "À chaque fin de manche, durée en manches -1.\nUne carte est immédiatement défaussée une fois la durée en manches épuisée.",
+            "descriptionraw": "À chaque fin de manche, <color=#FFFFFFFF>durée en manches</color> -1.\\nUne carte est immédiatement défaussée une fois la <color=#FFFFFFFF>durée en manches</color> épuisée."
+        },
+        "aegisofabyssalflame": {
+            "id": 1006,
+            "name": "Bouclier de feu abyssal",
+            "nameraw": "<color=#FFFFFFFF>Bouclier de feu abyssal</color>|s1:<color=#FFFFFFFF>Boucliers de feu abyssal</color>|s2:<color=#FFFFFFFF>bouclier de feu abyssal</color>|s3:<color=#FFFFFFFF>boucliers de feu abyssal</color>",
+            "description": "Accorde 3 pts de bouclier au personnage affecté.\nTant que le bouclier n'est pas épuisé, DGT Pyro infligés par le personnage affecté +1.",
+            "descriptionraw": "Accorde <color=#FFFFFFFF>3 pts de {SPRITE_PRESET#4007}<color=#FFFFFFFF>bouclier</color></color> au personnage affecté.\\nTant que le {SPRITE_PRESET#4007}<color=#FFFFFFFF>bouclier</color> n'est pas épuisé, {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> infligés par le personnage affecté +1."
+        },
+        "electro": {
+            "id": 304,
+            "name": "Électro",
+            "nameraw": "{SPRITE_PRESET#1104}Électro",
+            "description": "Dépensez un dé Électro que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
+            "descriptionraw": "Dépensez un dé <color=#FFACFFFF>{SPRITE_PRESET#1104}Électro</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
+        },
+        "hydro": {
+            "id": 302,
+            "name": "Hydro",
+            "nameraw": "{SPRITE_PRESET#1102}Hydro",
+            "description": "Dépensez un dé Hydro que vous avez lancé pour payer ce coût.\n(Un dé Omni peut également être utilisé pour payer)",
+            "descriptionraw": "Dépensez un dé <color=#80C0FFFF>{SPRITE_PRESET#1102}Hydro</color> que vous avez lancé pour payer ce coût.\\n(Un dé {SPRITE_PRESET#1111}Omni peut également être utilisé pour payer)"
+        },
+        "fatuiambusher": {
+            "id": 1004,
+            "name": "Fatui embusqué",
+            "nameraw": "<color=#FFFFFFFF>Fatui embusqué</color>",
+            "description": "Les Fatui embusqués déclenchent leurs effets après que les personnages du camp où ils se trouvent utilisent des capacités, infligeant ainsi des DGT au personnage actif de ce camp. (1 fois par manche)\nUn total de 4 types différents de Fatui embusqués peuvent apparaître :\nMage cryoluciole : Inflige 1 pt de DGT Cryo lors du déclenchement. Peut être utilisé 2 fois.\nSuivante miroir : Inflige 1 pt de DGT Hydro lors du déclenchement. Peut être utilisé 2 fois.\nMercenaire Pyro : Inflige 1 pt de DGT Pyro lors du déclenchement. Peut être utilisé 2 fois.\nFrappeur Électro : Inflige 1 pt de DGT Électro lors du déclenchement. Peut être utilisé 2 fois.",
+            "descriptionraw": "Les Fatui embusqués déclenchent leurs effets après que les personnages du camp où ils se trouvent utilisent des capacités, infligeant ainsi des DGT au personnage actif de ce camp. (1 fois par manche)\\nUn total de 4 types différents de Fatui embusqués peuvent apparaître :\\n<color=#FFFFFFFF>Mage cryoluciole</color> : Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> lors du déclenchement. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Suivante miroir</color> : Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> lors du déclenchement. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Mercenaire Pyro</color> : Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> lors du déclenchement. Peut être utilisé 2 fois.\\n<color=#FFFFFFFF>Frappeur Électro</color> : Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> lors du déclenchement. Peut être utilisé 2 fois."
+        },
+        "dendrodmg": {
+            "id": 107,
+            "name": "DGT Dendro",
+            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color>",
+            "description": "Applique l'élément Dendro et peut déclencher les réactions élémentaires :\nFleurissement : DGT actuels +1 et crée un noyau Dendro qui augmente le prochain coup de DGT Pyro ou Électro de 2\nBrûlure : DGT actuels +1 et crée une flamme brûlante qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\nStimulation : DGT actuels +1 et crée un champ catalyseur qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1",
+            "descriptionraw": "Applique l'élément {SPRITE_PRESET#2107}Dendro et peut déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Fleurissement</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>noyau Dendro</color> qui augmente le prochain coup de DGT Pyro ou Électro de 2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Brûlure</color> : DGT actuels +1 et crée une <color=#FFFFFFFF>flamme brûlante</color> qui inflige 1 pt de DGT Pyro à la fin de la manche (Utilisable 1 fois, 2 cumuls maximum)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Stimulation</color> : DGT actuels +1 et crée un <color=#FFFFFFFF>champ catalyseur</color> qui augmente les 2 prochains coups de DGT Dendro ou Électro de 1"
+        },
+        "geodmg": {
+            "id": 106,
+            "name": "DGT Géo",
+            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color>",
+            "description": "Réagit avec les éléments déjà appliqués pour déclencher les réactions élémentaires :\nCristallisation Cryo : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nCristallisation Hydro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nCristallisation Pyro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\nCristallisation Électro : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)",
+            "descriptionraw": "Réagit avec les éléments déjà appliqués pour déclencher les réactions élémentaires :\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cristallisation Cryo</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristallisation Hydro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristallisation Pyro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Cristallisation Électro</color> : DGT actuels +1 et accorde 1 pt de bouclier à votre personnage actif (Peut être cumulé, 2 pts maximum)"
         }
     },
     "meta": {

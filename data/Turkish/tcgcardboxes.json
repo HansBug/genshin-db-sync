@@ -1,11 +1,11 @@
 {
     "items": {
-        "liyue": {
-            "id": 101,
-            "name": "Liyue",
-            "description": "Ay gibi sonsuz, yükselen güneş gibi kalıcı.\nHer şey toprakta, tepede, kayada gelişir, zenginleşir.",
-            "descriptionraw": "Ay gibi sonsuz, yükselen güneş gibi kalıcı.\\nHer şey toprakta, tepede, kayada gelişir, zenginleşir.",
-            "source": "Oyuncu Seviyesi 3'e ulaşmanın ödülü.",
+        "inazuma": {
+            "id": 102,
+            "name": "Inazuma",
+            "description": "Şimşek çakar kaybolur, ardında yalnız bir gök gürültüsü bırakır.\nDelilik rüyaları gelir geçer, hiçbir şey kalıcı değildir.",
+            "descriptionraw": "Şimşek çakar kaybolur, ardında yalnız bir gök gürültüsü bırakır.\\nDelilik rüyaları gelir geçer, hiçbir şey kalıcı değildir.",
+            "source": "Oyuncu Seviyesi 5'e ulaşmanın ödülü.",
             "rarity": 4
         },
         "sumeru": {
@@ -16,20 +16,20 @@
             "source": "Oyuncu Seviyesi 7'ye ulaşmanın ödülü.",
             "rarity": 4
         },
+        "liyue": {
+            "id": 101,
+            "name": "Liyue",
+            "description": "Ay gibi sonsuz, yükselen güneş gibi kalıcı.\nHer şey toprakta, tepede, kayada gelişir, zenginleşir.",
+            "descriptionraw": "Ay gibi sonsuz, yükselen güneş gibi kalıcı.\\nHer şey toprakta, tepede, kayada gelişir, zenginleşir.",
+            "source": "Oyuncu Seviyesi 3'e ulaşmanın ödülü.",
+            "rarity": 4
+        },
         "mondstadt": {
             "id": 100,
             "name": "Mondstadt",
             "description": "Esintinin sonu gelmeyen fısıltıları tellere vurup hoş melodiler yayar.\nRüzgarın ve çiçeklerin tutku dolu konuşmaları uçuşur gider ve berrak suların kalbine düşer.",
             "descriptionraw": "Esintinin sonu gelmeyen fısıltıları tellere vurup hoş melodiler yayar.\\nRüzgarın ve çiçeklerin tutku dolu konuşmaları uçuşur gider ve berrak suların kalbine düşer.",
             "source": "İlk defa elde et.",
-            "rarity": 4
-        },
-        "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
-            "description": "Şimşek çakar kaybolur, ardında yalnız bir gök gürültüsü bırakır.\nDelilik rüyaları gelir geçer, hiçbir şey kalıcı değildir.",
-            "descriptionraw": "Şimşek çakar kaybolur, ardında yalnız bir gök gürültüsü bırakır.\\nDelilik rüyaları gelir geçer, hiçbir şey kalıcı değildir.",
-            "source": "Oyuncu Seviyesi 5'e ulaşmanın ödülü.",
             "rarity": 4
         }
     },

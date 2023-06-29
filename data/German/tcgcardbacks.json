@@ -1,18 +1,26 @@
 {
     "items": {
-        "adept": {
-            "id": 110,
-            "name": "Profi",
-            "description": "Für dich gibt es keine Frage ohne Antworten, keine Dinge sind unmöglich. Wir bewundern dich!",
-            "descriptionraw": "Für dich gibt es keine Frage ohne Antworten, keine Dinge sind unmöglich. Wir bewundern dich!",
-            "source": "Nach Erreichen aller Ziele im Kartenbeschwörerhandbuch – Partie 4 zu erhalten",
+        "inazuma": {
+            "id": 103,
+            "name": "Inazuma",
+            "description": "Wenn du beim Kartenspielen blitzschnell Entscheidungen triffst, kannst du im Handumdrehen gewinnen.",
+            "descriptionraw": "Wenn du beim Kartenspielen blitzschnell Entscheidungen triffst, kannst du im Handumdrehen gewinnen.",
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 6 zu erhalten",
             "rarity": 3
         },
-        "dandelionseed": {
-            "id": 117,
-            "name": "Löwenzahnsamen",
-            "description": "Hoffnung und Geduld gehen immer Hand in Hand.",
-            "descriptionraw": "Hoffnung und Geduld gehen immer Hand in Hand.",
+        "origin": {
+            "id": 100,
+            "name": "Anbeginn",
+            "description": "Zwischen Tag und Nacht, zwischen Himmel und Erde,\ndort halten sich Träume und Hoffnungen auf.",
+            "descriptionraw": "Zwischen Tag und Nacht, zwischen Himmel und Erde,\\ndort halten sich Träume und Hoffnungen auf.",
+            "source": "Standardmäßig zu erhalten",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "Eisnebelblumenblüte",
+            "description": "„Würdevoll aufzugeben ist dein unvermeidliches Ende.“",
+            "descriptionraw": "„Würdevoll aufzugeben ist dein unvermeidliches Ende.“",
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         },
@@ -24,35 +32,27 @@
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         },
-        "origin": {
-            "id": 100,
-            "name": "Anbeginn",
-            "description": "Zwischen Tag und Nacht, zwischen Himmel und Erde,\ndort halten sich Träume und Hoffnungen auf.",
-            "descriptionraw": "Zwischen Tag und Nacht, zwischen Himmel und Erde,\\ndort halten sich Träume und Hoffnungen auf.",
-            "source": "Standardmäßig zu erhalten",
-            "rarity": 3
-        },
-        "liyue": {
-            "id": 102,
-            "name": "Liyue",
-            "description": "Auch der weiteste Weg beginnt mit einem ersten Schritt. Dein Weg zum Sieg beginnt mit dem Erstellen eines zuverlässigen Decks.",
-            "descriptionraw": "Auch der weiteste Weg beginnt mit einem ersten Schritt. Dein Weg zum Sieg beginnt mit dem Erstellen eines zuverlässigen Decks.",
-            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 4 zu erhalten",
-            "rarity": 3
-        },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "Schätze des Decks",
-            "description": "Schätze kommen und gehen im Handumdrehen, aber sie sind jedes Mal anders. Was für ein Schatz schlummert dieses Mal unter deinen Karten?",
-            "descriptionraw": "Schätze kommen und gehen im Handumdrehen, aber sie sind jedes Mal anders. Was für ein Schatz schlummert dieses Mal unter deinen Karten?",
+        "crystalchunk": {
+            "id": 111,
+            "name": "Brocken Kristall",
+            "description": "Mit dem richtigen Training kann dein Talent zum Vorschein kommen.",
+            "descriptionraw": "Mit dem richtigen Training kann dein Talent zum Vorschein kommen.",
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "Brocken magisches Kristall",
-            "description": "Der Wert ergibt sich aus der Zeit.",
-            "descriptionraw": "Der Wert ergibt sich aus der Zeit.",
+        "adept": {
+            "id": 110,
+            "name": "Profi",
+            "description": "Für dich gibt es keine Frage ohne Antworten, keine Dinge sind unmöglich. Wir bewundern dich!",
+            "descriptionraw": "Für dich gibt es keine Frage ohne Antworten, keine Dinge sind unmöglich. Wir bewundern dich!",
+            "source": "Nach Erreichen aller Ziele im Kartenbeschwörerhandbuch – Partie 4 zu erhalten",
+            "rarity": 3
+        },
+        "amethystlump": {
+            "id": 113,
+            "name": "Amethyst-Brocken",
+            "description": "Flexibilität ist auch eine Form von Weisheit.",
+            "descriptionraw": "Flexibilität ist auch eine Form von Weisheit.",
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         },
@@ -64,35 +64,11 @@
             "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 8 zu erhalten",
             "rarity": 3
         },
-        "electrocrystal": {
-            "id": 116,
-            "name": "Elektrisierter Kristall",
-            "description": "Wozu die ganze Provokation? Das hier ist nicht das Einzige, was jederzeit explodieren kann.",
-            "descriptionraw": "Wozu die ganze Provokation? Das hier ist nicht das Einzige, was jederzeit explodieren kann.",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "Flammenblumenstaubblatt",
-            "description": "„Meine Seele als Kartenbeschwörer glänzt wie die Sterne!“",
-            "descriptionraw": "„Meine Seele als Kartenbeschwörer glänzt wie die Sterne!“",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "Mondstadt",
-            "description": "Freiheit ist das Allerwichtigste beim Kartenspiel.\nFrei organisiert man sein Deck, frei wählt man seine Gegner, frei spielt man seine Karten aus.\n... Oder vielleicht kannst du dir auch die Freiheit nehmen, mit diesen Karten etwas anderes zu tun.",
-            "descriptionraw": "Freiheit ist das Allerwichtigste beim Kartenspiel.\\nFrei organisiert man sein Deck, frei wählt man seine Gegner, frei spielt man seine Karten aus.\\n... Oder vielleicht kannst du dir auch die Freiheit nehmen, mit diesen Karten etwas anderes zu tun.",
-            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 2 zu erhalten",
-            "rarity": 3
-        },
-        "amethystlump": {
-            "id": 113,
-            "name": "Amethyst-Brocken",
-            "description": "Flexibilität ist auch eine Form von Weisheit.",
-            "descriptionraw": "Flexibilität ist auch eine Form von Weisheit.",
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "Brocken magisches Kristall",
+            "description": "Der Wert ergibt sich aus der Zeit.",
+            "descriptionraw": "Der Wert ergibt sich aus der Zeit.",
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         },
@@ -104,27 +80,27 @@
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "Eisnebelblumenblüte",
-            "description": "„Würdevoll aufzugeben ist dein unvermeidliches Ende.“",
-            "descriptionraw": "„Würdevoll aufzugeben ist dein unvermeidliches Ende.“",
+        "liyue": {
+            "id": 102,
+            "name": "Liyue",
+            "description": "Auch der weiteste Weg beginnt mit einem ersten Schritt. Dein Weg zum Sieg beginnt mit dem Erstellen eines zuverlässigen Decks.",
+            "descriptionraw": "Auch der weiteste Weg beginnt mit einem ersten Schritt. Dein Weg zum Sieg beginnt mit dem Erstellen eines zuverlässigen Decks.",
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 4 zu erhalten",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "Flammenblumenstaubblatt",
+            "description": "„Meine Seele als Kartenbeschwörer glänzt wie die Sterne!“",
+            "descriptionraw": "„Meine Seele als Kartenbeschwörer glänzt wie die Sterne!“",
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         },
-        "inazuma": {
-            "id": 103,
-            "name": "Inazuma",
-            "description": "Wenn du beim Kartenspielen blitzschnell Entscheidungen triffst, kannst du im Handumdrehen gewinnen.",
-            "descriptionraw": "Wenn du beim Kartenspielen blitzschnell Entscheidungen triffst, kannst du im Handumdrehen gewinnen.",
-            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 6 zu erhalten",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "Brocken Kristall",
-            "description": "Mit dem richtigen Training kann dein Talent zum Vorschein kommen.",
-            "descriptionraw": "Mit dem richtigen Training kann dein Talent zum Vorschein kommen.",
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "Lasurit-Strudel",
+            "description": "Ein Kartenrücken, der speziell vom berühmten Maler „Calx“ entworfen wurde.\n„Breite deine Flügel aus auf diesem reduzierten Schlachtfeld, als wärst du der Drache des Ostens!“",
+            "descriptionraw": "Ein Kartenrücken, der speziell vom berühmten Maler „Calx“ entworfen wurde.\\n„Breite deine Flügel aus auf diesem reduzierten Schlachtfeld, als wärst du der Drache des Ostens!“",
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         },
@@ -136,6 +112,30 @@
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         },
+        "electrocrystal": {
+            "id": 116,
+            "name": "Elektrisierter Kristall",
+            "description": "Wozu die ganze Provokation? Das hier ist nicht das Einzige, was jederzeit explodieren kann.",
+            "descriptionraw": "Wozu die ganze Provokation? Das hier ist nicht das Einzige, was jederzeit explodieren kann.",
+            "source": "Beim Kartenhändler zu erstehen",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "Schätze des Decks",
+            "description": "Schätze kommen und gehen im Handumdrehen, aber sie sind jedes Mal anders. Was für ein Schatz schlummert dieses Mal unter deinen Karten?",
+            "descriptionraw": "Schätze kommen und gehen im Handumdrehen, aber sie sind jedes Mal anders. Was für ein Schatz schlummert dieses Mal unter deinen Karten?",
+            "source": "Beim Kartenhändler zu erstehen",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "Mondstadt",
+            "description": "Freiheit ist das Allerwichtigste beim Kartenspiel.\nFrei organisiert man sein Deck, frei wählt man seine Gegner, frei spielt man seine Karten aus.\n... Oder vielleicht kannst du dir auch die Freiheit nehmen, mit diesen Karten etwas anderes zu tun.",
+            "descriptionraw": "Freiheit ist das Allerwichtigste beim Kartenspiel.\\nFrei organisiert man sein Deck, frei wählt man seine Gegner, frei spielt man seine Karten aus.\\n... Oder vielleicht kannst du dir auch die Freiheit nehmen, mit diesen Karten etwas anderes zu tun.",
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 2 zu erhalten",
+            "rarity": 3
+        },
         "legend": {
             "id": 109,
             "name": "Legende",
@@ -144,11 +144,11 @@
             "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 10 zu erhalten",
             "rarity": 3
         },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "Lasurit-Strudel",
-            "description": "Ein Kartenrücken, der speziell vom berühmten Maler „Calx“ entworfen wurde.\n„Breite deine Flügel aus auf diesem reduzierten Schlachtfeld, als wärst du der Drache des Ostens!“",
-            "descriptionraw": "Ein Kartenrücken, der speziell vom berühmten Maler „Calx“ entworfen wurde.\\n„Breite deine Flügel aus auf diesem reduzierten Schlachtfeld, als wärst du der Drache des Ostens!“",
+        "dandelionseed": {
+            "id": 117,
+            "name": "Löwenzahnsamen",
+            "description": "Hoffnung und Geduld gehen immer Hand in Hand.",
+            "descriptionraw": "Hoffnung und Geduld gehen immer Hand in Hand.",
             "source": "Beim Kartenhändler zu erstehen",
             "rarity": 3
         }

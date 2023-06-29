@@ -1,22 +1,160 @@
 {
     "items": {
-        "elementalreactionsrules": {
-            "id": 5,
-            "name": "Réactions élémentaires : Règles",
+        "takeaction": {
+            "id": 3,
+            "name": "Prise d'action",
             "rules": [
                 {
-                    "title": "Applications élémentaires",
-                    "titleraw": "Applications élémentaires",
-                    "content": "Quand un personnage subit des DGT Cryo, Hydro, Pyro, Électro ou Dendro, il est affecté par l'élément correspondant.\n(Les DGT Anémo et Géo n'appliquent pas d'élément.)",
-                    "contentraw": "Quand un personnage subit des DGT {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Électro</color> ou {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>, il est <color=#FFE14BFF>affecté</color> par l'élément correspondant.\\n(Les DGT {SPRITE_PRESET#2105}<color=#80FFD7FF>Anémo</color> et {SPRITE_PRESET#2106}<color=#FFE699FF>Géo</color> n'appliquent pas d'élément.)",
-                    "filename_image": "UI_Gcg_InSide_12"
+                    "title": "Actions",
+                    "titleraw": "Actions",
+                    "content": "Pendant la phase d'action, les actions sont divisées en actions de combat et en actions rapides.\nActions de combat : après avoir terminé une action de combat, vous passez votre tour à l'adversaire. L'utilisation de capacités, le changement de personnage et l'annonce de fin de manche comptent comme des actions de combat.\nActions rapides : vous pouvez continuer votre tour après avoir terminé une action rapide. L'utilisation de carte et l'harmonisation élémentaire sont considérées comme des actions rapides.",
+                    "contentraw": "Pendant la phase d'action, les actions sont divisées en actions de combat et en actions rapides.\\n<color=#FFE14BFF>Actions de combat</color> : après avoir terminé une action de combat, vous passez votre tour à l'adversaire. L'utilisation de capacités, le changement de personnage et l'annonce de fin de manche comptent comme des actions de combat.\\n<color=#FFE14BFF>Actions rapides</color> : vous pouvez continuer votre tour après avoir terminé une action rapide. L'utilisation de carte et l'harmonisation élémentaire sont considérées comme des actions rapides."
                 },
                 {
-                    "title": "Règles des réactions élémentaires",
-                    "titleraw": "Règles des réactions élémentaires",
-                    "content": "Lorsqu'une cible est déjà affectée par une application élémentaire :\n(1) Lui infliger un certain type de DGT élémentaires déclenche une réaction élémentaire.\n(2) L'utilisation d'un effet n'infligeant pas de DGT afin d'appliquer un élément spécifique déclenche également une réaction élémentaire. Lors du calcul des effets de telles réactions élémentaires, tous les effets de DGT sont ignorés.",
-                    "contentraw": "Lorsqu'une cible est déjà affectée par une <color=#FFE14BFF>application élémentaire</color> :\\n(1) Lui infliger un certain type de <color=#FFE14BFF>DGT élémentaires</color> déclenche une réaction élémentaire.\\n(2) L'utilisation d'un effet n'infligeant pas de DGT afin d'appliquer un élément spécifique déclenche également une réaction élémentaire. Lors du calcul des effets de telles réactions élémentaires, tous les effets de DGT sont ignorés.",
-                    "filename_image": "UI_Gcg_InSide_13"
+                    "title": "Actions de combat : Utilisation de capacités",
+                    "titleraw": "Actions de combat : Utilisation de capacités",
+                    "content": "Vous devez utiliser vos dés élémentaires pour payer le coût correspondant, ce qui permet à votre personnage actif d'utiliser une capacité pour blesser le personnage actif adverse.\nChaque fois qu'un personnage utilise une attaque normale ou une compétence élémentaire, il gagne 1 charge.\nUne fois qu'un personnage atteint son maximum de charges, il peut les dépenser pour utiliser un puissant déchaînement élémentaire !",
+                    "contentraw": "Vous devez utiliser vos dés élémentaires pour payer le coût correspondant, ce qui permet à votre personnage actif d'utiliser une capacité pour blesser le personnage actif adverse.\\nChaque fois qu'un personnage utilise une attaque normale ou une compétence élémentaire, il gagne 1 charge.\\nUne fois qu'un personnage atteint son maximum de charges, il peut les dépenser pour utiliser un puissant déchaînement élémentaire !"
+                },
+                {
+                    "title": "Actions de combat : Changement de personnage",
+                    "titleraw": "Actions de combat : Changement de personnage",
+                    "content": "Vous pouvez dépenser 1 dé élémentaire de votre choix pour basculer un de vos personnages en attente en personnage actif.",
+                    "contentraw": "Vous pouvez dépenser 1 dé élémentaire de votre choix pour basculer un de vos personnages en attente en personnage actif."
+                },
+                {
+                    "title": "Actions rapides : Utilisation de carte",
+                    "titleraw": "Actions rapides : Utilisation de carte",
+                    "content": "Vous devez utiliser vos dés élémentaires pour payer le coût correspondant et jouer une carte. Ces cartes sont réparties dans les catégories suivantes :\nCartes d'équipement : équipez-les sur vos personnages pour leur appliquer un effet de renforcement.\nCartes de soutien : placez-les dans votre zone de soutien pour appliquer de façon continue des effets de soutien.\nCartes d'événement : jouez-les pour déclencher immédiatement tous leurs effets.",
+                    "contentraw": "Vous devez utiliser vos dés élémentaires pour payer le coût correspondant et jouer une carte. Ces cartes sont réparties dans les catégories suivantes :\\n<color=#FFE14BFF>Cartes d'équipement</color> : équipez-les sur vos personnages pour leur appliquer un effet de renforcement.\\n<color=#FFE14BFF>Cartes de soutien</color> : placez-les dans votre zone de soutien pour appliquer de façon continue des effets de soutien.\\n<color=#FFE14BFF>Cartes d'événement</color> : jouez-les pour déclencher immédiatement tous leurs effets."
+                },
+                {
+                    "title": "Actions rapides : Harmonisation élémentaire",
+                    "titleraw": "Actions rapides : Harmonisation élémentaire",
+                    "content": "Vous pouvez défausser une carte de votre main pour la convertir en un dé du même élément que votre personnage actif actuel.",
+                    "contentraw": "Vous pouvez défausser une carte de votre main pour la convertir en un dé du même élément que votre personnage actif actuel."
+                },
+                {
+                    "title": "Actions de combat : Annonce de fin de manche",
+                    "titleraw": "Actions de combat : Annonce de fin de manche",
+                    "content": "Vous pouvez renoncer à faire d'autres actions pendant la manche en cours en annonçant sa fin.\nLe premier joueur qui met fin à sa manche joue en premier lors de la manche suivante, ce qui signifie qu'il a l'initiative lors de la phase d'action de la prochaine manche.\nEnsuite, le joueur qui n'a pas encore annoncé la fin de sa manche continue d'effectuer ses actions.\nUne fois que les deux joueurs ont fait cette annonce, la phase d'action se termine et la phase finale de la manche commence.",
+                    "contentraw": "Vous pouvez renoncer à faire d'autres actions pendant la manche en cours en annonçant sa fin.\\nLe premier joueur qui met fin à sa manche joue en premier lors de la manche suivante, ce qui signifie qu'il a l'initiative lors de la phase d'action de la prochaine manche.\\nEnsuite, le joueur qui n'a pas encore annoncé la fin de sa manche continue d'effectuer ses actions.\\nUne fois que les deux joueurs ont fait cette annonce, la phase d'action se termine et la phase finale de la manche commence."
+                }
+            ]
+        },
+        "specialentry": {
+            "id": 8,
+            "name": "Entrée spéciale",
+            "rules": [
+                {
+                    "title": "Plat",
+                    "titleraw": "{SPRITE_PRESET#3101}Plat",
+                    "content": "Lorsqu'une carte d'événement de plat a pris effet sur un personnage, ce dernier entre dans l'état Satiété.\nLes personnages ainsi rassasiés ne peuvent pas être ciblés par une autre carte d'événement de plat, ni bénéficier des effets d'une autre carte d'événement de plat.\nL'état Satiété prend fin à la fin de la manche ou lorsque le personnage est éliminé.\nDe plus, après avoir joué une carte d'événement de plat avec un effet de résurrection, aucune autre carte d'événement de plat avec un tel effet ne peut être jouée.",
+                    "contentraw": "Lorsqu'une carte d'événement de {SPRITE_PRESET#3101}plat a pris effet sur un personnage, ce dernier entre dans l'état Satiété.\\nLes personnages ainsi rassasiés ne peuvent pas être ciblés par une autre carte d'événement de {SPRITE_PRESET#3101}plat, ni bénéficier des effets d'une autre carte d'événement de {SPRITE_PRESET#3101}plat.\\nL'état Satiété prend fin à la fin de la manche ou lorsque le personnage est éliminé.\\nDe plus, après avoir joué une carte d'événement de {SPRITE_PRESET#3101}plat avec un effet de résurrection, aucune autre carte d'événement de {SPRITE_PRESET#3101}plat avec un tel effet ne peut être jouée."
+                },
+                {
+                    "title": "Boucliers",
+                    "titleraw": "{SPRITE_PRESET#4007}Boucliers",
+                    "content": "Certains effets fournissent des boucliers qui peuvent protéger des personnages spécifiques.\nLorsqu'un personnage avec un bouclier subit des DGT, les points du bouclier sont diminués afin de bloquer tout ou partie des DGT.",
+                    "contentraw": "Certains effets fournissent des boucliers qui peuvent protéger des personnages spécifiques.\\nLorsqu'un personnage avec un bouclier subit des DGT, les points du bouclier sont diminués afin de bloquer tout ou partie des DGT."
+                },
+                {
+                    "title": "Nombre d'utilisations",
+                    "titleraw": "Nombre d'utilisations",
+                    "content": "Certaines cartes ont un nombre d'utilisations limité.\nChaque fois que l'effet d'une telle carte est déclenché, le nombre d'utilisations diminue de 1.\nLorsque les utilisations d'une carte sont épuisées, elle est immédiatement défaussée.",
+                    "contentraw": "Certaines cartes ont un nombre d'utilisations limité.\\nChaque fois que l'effet d'une telle carte est déclenché, le nombre d'utilisations diminue de 1.\\nLorsque les utilisations d'une carte sont épuisées, elle est immédiatement défaussée."
+                },
+                {
+                    "title": "Durée en manches",
+                    "titleraw": "Durée en manches",
+                    "content": "Certaines cartes ont une durée limitée.\nChaque phase finale, la durée en manches d'une telle carte diminue de 1.\nLorsque la durée d'une carte est épuisée, elle est immédiatement défaussée.",
+                    "contentraw": "Certaines cartes ont une durée limitée.\\nChaque phase finale, la durée en manches d'une telle carte diminue de 1.\\nLorsque la durée d'une carte est épuisée, elle est immédiatement défaussée."
+                },
+                {
+                    "title": "DGT de perforation",
+                    "titleraw": "DGT de perforation",
+                    "content": "Certains effets infligent des DGT de perforation.\nCes DGT ne peuvent être augmentés par aucun effet, mais ne peuvent pas non plus être bloqués par l'utilisation de boucliers.",
+                    "contentraw": "Certains effets infligent des DGT de perforation.\\nCes DGT ne peuvent être augmentés par aucun effet, mais ne peuvent pas non plus être bloqués par l'utilisation de boucliers."
+                },
+                {
+                    "title": "Actions de combat (Cartes d'action)",
+                    "titleraw": "Actions de combat (Cartes d'action)",
+                    "content": "Certaines cartes d'action suivent la règle des actions de combat.\nSi vous jouez une telle carte, l'action est considérée comme une action de combat au lieu d'une action rapide.",
+                    "contentraw": "Certaines cartes d'action suivent la règle des actions de combat.\\nSi vous jouez une telle carte, l'action est considérée comme une action de combat au lieu d'une action rapide."
+                },
+                {
+                    "title": "Attaque chargée",
+                    "titleraw": "Attaque chargée",
+                    "content": "Avant votre phase d'action, si le total de vos dés élémentaires est un nombre pair, l'attaque normale utilisée est considérée comme une attaque chargée.",
+                    "contentraw": "Avant votre phase d'action, si le total de vos dés élémentaires est un nombre pair, l'attaque normale utilisée est considérée comme une attaque chargée."
+                },
+                {
+                    "title": "Attaque plongeante",
+                    "titleraw": "Attaque plongeante",
+                    "content": "Après avoir basculé un personnage en personnage actif, si sa prochaine action de combat dans la manche est une attaque normale, elle est considérée comme une attaque plongeante.",
+                    "contentraw": "Après avoir basculé un personnage en personnage actif, si sa prochaine action de combat dans la manche est une attaque normale, elle est considérée comme une attaque plongeante."
+                }
+            ]
+        },
+        "roundflow": {
+            "id": 2,
+            "name": "Déroulement de manche",
+            "rules": [
+                {
+                    "title": "Déroulement de manche",
+                    "titleraw": "Déroulement de manche",
+                    "content": "Chaque manche se déroule comme suit : Phase de lancer > Phase d'action > Phase finale.",
+                    "contentraw": "Chaque manche se déroule comme suit : Phase de lancer > Phase d'action > Phase finale.",
+                    "filename_image": "UI_Gcg_InSide_11"
+                },
+                {
+                    "title": "Phase de lancer",
+                    "titleraw": "Phase de lancer",
+                    "content": "Pendant la phase de lancer de chaque manche, vous lancez 8 dés élémentaires.\nAprès avoir lancé ces dés, vous avez 1 opportunité de choisir n'importe quelle quantité de dés élémentaires pour les relancer.\nChaque dé élémentaire peut posséder l'un des 8 éléments suivants : Cryo, Hydro, Pyro, Électro, Anémo, Géo, Dendro et enfin Omni, ce dernier étant considéré et utilisé comme n'importe quel élément.\nLa limite de dés élémentaires est de 16, et vous ne pourrez plus en obtenir une fois cette limite atteinte.",
+                    "contentraw": "Pendant la phase de lancer de chaque manche, vous lancez 8 dés élémentaires.\\nAprès avoir lancé ces dés, vous avez 1 opportunité de choisir n'importe quelle quantité de dés élémentaires pour les relancer.\\nChaque dé élémentaire peut posséder l'un des 8 éléments suivants : Cryo, Hydro, Pyro, Électro, Anémo, Géo, Dendro et enfin Omni, ce dernier étant considéré et utilisé comme n'importe quel élément.\\nLa limite de dés élémentaires est de 16, et vous ne pourrez plus en obtenir une fois cette limite atteinte."
+                },
+                {
+                    "title": "Phase d'action",
+                    "titleraw": "Phase d'action",
+                    "content": "Les deux camps agissent à tour de rôle, en commençant par le joueur qui joue en premier. Les actions que vous pouvez entreprendre sont :\nUtilisation de capacité : payez le coût correspondant pour utiliser une capacité de votre personnage actif.\nChangement de personnage : payez 1 dé élémentaire de votre choix pour basculer votre personnage actif.\nUtilisation de carte : payez le coût correspondant pour jouer une carte de votre main.\nHarmonisation élémentaire : défaussez une carte de votre main pour changer l'élément d'un de vos dés.\nAnnonce de fin de manche : mettez fin à vos actions pour cette manche. De plus, le premier joueur à annoncer la fin de sa manche joue en premier lors de la prochaine manche.",
+                    "contentraw": "Les deux camps agissent à tour de rôle, en commençant par le joueur qui joue en premier. Les actions que vous pouvez entreprendre sont :\\n<color=#FFE14BFF>Utilisation de capacité</color> : payez le coût correspondant pour utiliser une capacité de votre personnage actif.\\n<color=#FFE14BFF>Changement de personnage</color> : payez 1 dé élémentaire de votre choix pour basculer votre personnage actif.\\n<color=#FFE14BFF>Utilisation de carte</color> : payez le coût correspondant pour jouer une carte de votre main.\\n<color=#FFE14BFF>Harmonisation élémentaire</color> : défaussez une carte de votre main pour changer l'élément d'un de vos dés.\\n<color=#FFE14BFF>Annonce de fin de manche</color> : mettez fin à vos actions pour cette manche. De plus, le premier joueur à annoncer la fin de sa manche joue en premier lors de la prochaine manche."
+                },
+                {
+                    "title": "Phase finale",
+                    "titleraw": "Phase finale",
+                    "content": "Une fois que tous les joueurs ont annoncé la fin de leur manche pendant la phase d'action, le jeu entre dans la phase finale.\n1. En commençant par le joueur qui joue en premier, les différents effets de carte déclenchés par la phase finale sont appliqués.\n2. Les deux joueurs tirent 2 cartes de leurs pioches.\n3. Et la prochaine manche commence !",
+                    "contentraw": "Une fois que tous les joueurs ont annoncé la fin de leur manche pendant la phase d'action, le jeu entre dans la phase finale.\\n1. En commençant par le joueur qui joue en premier, les différents effets de carte déclenchés par la phase finale sont appliqués.\\n2. Les deux joueurs tirent 2 cartes de leurs pioches.\\n3. Et la prochaine manche commence !"
+                }
+            ]
+        },
+        "geniusinvokationtcg": {
+            "id": 1,
+            "name": "Invocation des Sept : JCC",
+            "rules": [
+                {
+                    "title": "L'Invocation des Sept en bref",
+                    "titleraw": "L'Invocation des Sept en bref",
+                    "content": "L'Invocation des Sept est un jeu de duel de cartes au rythme effréné et palpitant.\nConstruisez vos decks en les basant sur des cartes de personnage et d'action, et engagez-vous dans d'intenses batailles contre vos adversaires !",
+                    "contentraw": "L'Invocation des Sept est un jeu de duel de cartes au rythme effréné et palpitant.\\nConstruisez vos decks en les basant sur des cartes de personnage et d'action, et engagez-vous dans d'intenses batailles contre vos adversaires !",
+                    "filename_image": "UI_Gcg_InSide_01"
+                },
+                {
+                    "title": "Préparations",
+                    "titleraw": "Préparations",
+                    "content": "(1) Les deux camps piochent 5 cartes pour former leur main. Chaque camp a ensuite une opportunité d'échanger n'importe quelle quantité de cartes en main.\n(2) Les deux camps peuvent choisir une de leurs cartes de personnage comme personnage actif.",
+                    "contentraw": "(1) Les deux camps piochent 5 cartes pour former leur main. Chaque camp a ensuite une opportunité d'échanger n'importe quelle quantité de cartes en main.\\n(2) Les deux camps peuvent choisir une de leurs cartes de personnage comme personnage actif."
+                },
+                {
+                    "title": "Déroulement de duel",
+                    "titleraw": "Déroulement de duel",
+                    "content": "Une fois un duel d'Invocation des Sept commencé, chaque manche se déroule comme suit :\n(1) Phase de lancer : chaque camp a 8 dés élémentaires à lancer.\n(2) Phase d'action : les camps agissent à tour de rôle jusqu'à ce qu'ils annoncent leur manche comme terminée.\n(3) Phase finale : les deux camps piochent 2 cartes.",
+                    "contentraw": "Une fois un duel d'Invocation des Sept commencé, chaque manche se déroule comme suit :\\n(1) Phase de lancer : chaque camp a 8 dés élémentaires à lancer.\\n(2) Phase d'action : les camps agissent à tour de rôle jusqu'à ce qu'ils annoncent leur manche comme terminée.\\n(3) Phase finale : les deux camps piochent 2 cartes."
+                },
+                {
+                    "title": "Conditions de victoire",
+                    "titleraw": "Conditions de victoire",
+                    "content": "Utilisez vos cartes de personnage pour attaquer et vaincre les cartes de personnage de votre adversaire !\nUne fois que vous les avez tous vaincus, la victoire est à vous !",
+                    "contentraw": "Utilisez vos cartes de personnage pour attaquer et vaincre les cartes de personnage de votre adversaire !\\nUne fois que vous les avez tous vaincus, la victoire est à vous !"
                 }
             ]
         },
@@ -245,161 +383,23 @@
                 }
             ]
         },
-        "specialentry": {
-            "id": 8,
-            "name": "Entrée spéciale",
+        "elementalreactionsrules": {
+            "id": 5,
+            "name": "Réactions élémentaires : Règles",
             "rules": [
                 {
-                    "title": "Plat",
-                    "titleraw": "{SPRITE_PRESET#3101}Plat",
-                    "content": "Lorsqu'une carte d'événement de plat a pris effet sur un personnage, ce dernier entre dans l'état Satiété.\nLes personnages ainsi rassasiés ne peuvent pas être ciblés par une autre carte d'événement de plat, ni bénéficier des effets d'une autre carte d'événement de plat.\nL'état Satiété prend fin à la fin de la manche ou lorsque le personnage est éliminé.\nDe plus, après avoir joué une carte d'événement de plat avec un effet de résurrection, aucune autre carte d'événement de plat avec un tel effet ne peut être jouée.",
-                    "contentraw": "Lorsqu'une carte d'événement de {SPRITE_PRESET#3101}plat a pris effet sur un personnage, ce dernier entre dans l'état Satiété.\\nLes personnages ainsi rassasiés ne peuvent pas être ciblés par une autre carte d'événement de {SPRITE_PRESET#3101}plat, ni bénéficier des effets d'une autre carte d'événement de {SPRITE_PRESET#3101}plat.\\nL'état Satiété prend fin à la fin de la manche ou lorsque le personnage est éliminé.\\nDe plus, après avoir joué une carte d'événement de {SPRITE_PRESET#3101}plat avec un effet de résurrection, aucune autre carte d'événement de {SPRITE_PRESET#3101}plat avec un tel effet ne peut être jouée."
+                    "title": "Applications élémentaires",
+                    "titleraw": "Applications élémentaires",
+                    "content": "Quand un personnage subit des DGT Cryo, Hydro, Pyro, Électro ou Dendro, il est affecté par l'élément correspondant.\n(Les DGT Anémo et Géo n'appliquent pas d'élément.)",
+                    "contentraw": "Quand un personnage subit des DGT {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Électro</color> ou {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>, il est <color=#FFE14BFF>affecté</color> par l'élément correspondant.\\n(Les DGT {SPRITE_PRESET#2105}<color=#80FFD7FF>Anémo</color> et {SPRITE_PRESET#2106}<color=#FFE699FF>Géo</color> n'appliquent pas d'élément.)",
+                    "filename_image": "UI_Gcg_InSide_12"
                 },
                 {
-                    "title": "Boucliers",
-                    "titleraw": "{SPRITE_PRESET#4007}Boucliers",
-                    "content": "Certains effets fournissent des boucliers qui peuvent protéger des personnages spécifiques.\nLorsqu'un personnage avec un bouclier subit des DGT, les points du bouclier sont diminués afin de bloquer tout ou partie des DGT.",
-                    "contentraw": "Certains effets fournissent des boucliers qui peuvent protéger des personnages spécifiques.\\nLorsqu'un personnage avec un bouclier subit des DGT, les points du bouclier sont diminués afin de bloquer tout ou partie des DGT."
-                },
-                {
-                    "title": "Nombre d'utilisations",
-                    "titleraw": "Nombre d'utilisations",
-                    "content": "Certaines cartes ont un nombre d'utilisations limité.\nChaque fois que l'effet d'une telle carte est déclenché, le nombre d'utilisations diminue de 1.\nLorsque les utilisations d'une carte sont épuisées, elle est immédiatement défaussée.",
-                    "contentraw": "Certaines cartes ont un nombre d'utilisations limité.\\nChaque fois que l'effet d'une telle carte est déclenché, le nombre d'utilisations diminue de 1.\\nLorsque les utilisations d'une carte sont épuisées, elle est immédiatement défaussée."
-                },
-                {
-                    "title": "Durée en manches",
-                    "titleraw": "Durée en manches",
-                    "content": "Certaines cartes ont une durée limitée.\nChaque phase finale, la durée en manches d'une telle carte diminue de 1.\nLorsque la durée d'une carte est épuisée, elle est immédiatement défaussée.",
-                    "contentraw": "Certaines cartes ont une durée limitée.\\nChaque phase finale, la durée en manches d'une telle carte diminue de 1.\\nLorsque la durée d'une carte est épuisée, elle est immédiatement défaussée."
-                },
-                {
-                    "title": "DGT de perforation",
-                    "titleraw": "DGT de perforation",
-                    "content": "Certains effets infligent des DGT de perforation.\nCes DGT ne peuvent être augmentés par aucun effet, mais ne peuvent pas non plus être bloqués par l'utilisation de boucliers.",
-                    "contentraw": "Certains effets infligent des DGT de perforation.\\nCes DGT ne peuvent être augmentés par aucun effet, mais ne peuvent pas non plus être bloqués par l'utilisation de boucliers."
-                },
-                {
-                    "title": "Actions de combat (Cartes d'action)",
-                    "titleraw": "Actions de combat (Cartes d'action)",
-                    "content": "Certaines cartes d'action suivent la règle des actions de combat.\nSi vous jouez une telle carte, l'action est considérée comme une action de combat au lieu d'une action rapide.",
-                    "contentraw": "Certaines cartes d'action suivent la règle des actions de combat.\\nSi vous jouez une telle carte, l'action est considérée comme une action de combat au lieu d'une action rapide."
-                },
-                {
-                    "title": "Attaque chargée",
-                    "titleraw": "Attaque chargée",
-                    "content": "Avant votre phase d'action, si le total de vos dés élémentaires est un nombre pair, l'attaque normale utilisée est considérée comme une attaque chargée.",
-                    "contentraw": "Avant votre phase d'action, si le total de vos dés élémentaires est un nombre pair, l'attaque normale utilisée est considérée comme une attaque chargée."
-                },
-                {
-                    "title": "Attaque plongeante",
-                    "titleraw": "Attaque plongeante",
-                    "content": "Après avoir basculé un personnage en personnage actif, si sa prochaine action de combat dans la manche est une attaque normale, elle est considérée comme une attaque plongeante.",
-                    "contentraw": "Après avoir basculé un personnage en personnage actif, si sa prochaine action de combat dans la manche est une attaque normale, elle est considérée comme une attaque plongeante."
-                }
-            ]
-        },
-        "takeaction": {
-            "id": 3,
-            "name": "Prise d'action",
-            "rules": [
-                {
-                    "title": "Actions",
-                    "titleraw": "Actions",
-                    "content": "Pendant la phase d'action, les actions sont divisées en actions de combat et en actions rapides.\nActions de combat : après avoir terminé une action de combat, vous passez votre tour à l'adversaire. L'utilisation de capacités, le changement de personnage et l'annonce de fin de manche comptent comme des actions de combat.\nActions rapides : vous pouvez continuer votre tour après avoir terminé une action rapide. L'utilisation de carte et l'harmonisation élémentaire sont considérées comme des actions rapides.",
-                    "contentraw": "Pendant la phase d'action, les actions sont divisées en actions de combat et en actions rapides.\\n<color=#FFE14BFF>Actions de combat</color> : après avoir terminé une action de combat, vous passez votre tour à l'adversaire. L'utilisation de capacités, le changement de personnage et l'annonce de fin de manche comptent comme des actions de combat.\\n<color=#FFE14BFF>Actions rapides</color> : vous pouvez continuer votre tour après avoir terminé une action rapide. L'utilisation de carte et l'harmonisation élémentaire sont considérées comme des actions rapides."
-                },
-                {
-                    "title": "Actions de combat : Utilisation de capacités",
-                    "titleraw": "Actions de combat : Utilisation de capacités",
-                    "content": "Vous devez utiliser vos dés élémentaires pour payer le coût correspondant, ce qui permet à votre personnage actif d'utiliser une capacité pour blesser le personnage actif adverse.\nChaque fois qu'un personnage utilise une attaque normale ou une compétence élémentaire, il gagne 1 charge.\nUne fois qu'un personnage atteint son maximum de charges, il peut les dépenser pour utiliser un puissant déchaînement élémentaire !",
-                    "contentraw": "Vous devez utiliser vos dés élémentaires pour payer le coût correspondant, ce qui permet à votre personnage actif d'utiliser une capacité pour blesser le personnage actif adverse.\\nChaque fois qu'un personnage utilise une attaque normale ou une compétence élémentaire, il gagne 1 charge.\\nUne fois qu'un personnage atteint son maximum de charges, il peut les dépenser pour utiliser un puissant déchaînement élémentaire !"
-                },
-                {
-                    "title": "Actions de combat : Changement de personnage",
-                    "titleraw": "Actions de combat : Changement de personnage",
-                    "content": "Vous pouvez dépenser 1 dé élémentaire de votre choix pour basculer un de vos personnages en attente en personnage actif.",
-                    "contentraw": "Vous pouvez dépenser 1 dé élémentaire de votre choix pour basculer un de vos personnages en attente en personnage actif."
-                },
-                {
-                    "title": "Actions rapides : Utilisation de carte",
-                    "titleraw": "Actions rapides : Utilisation de carte",
-                    "content": "Vous devez utiliser vos dés élémentaires pour payer le coût correspondant et jouer une carte. Ces cartes sont réparties dans les catégories suivantes :\nCartes d'équipement : équipez-les sur vos personnages pour leur appliquer un effet de renforcement.\nCartes de soutien : placez-les dans votre zone de soutien pour appliquer de façon continue des effets de soutien.\nCartes d'événement : jouez-les pour déclencher immédiatement tous leurs effets.",
-                    "contentraw": "Vous devez utiliser vos dés élémentaires pour payer le coût correspondant et jouer une carte. Ces cartes sont réparties dans les catégories suivantes :\\n<color=#FFE14BFF>Cartes d'équipement</color> : équipez-les sur vos personnages pour leur appliquer un effet de renforcement.\\n<color=#FFE14BFF>Cartes de soutien</color> : placez-les dans votre zone de soutien pour appliquer de façon continue des effets de soutien.\\n<color=#FFE14BFF>Cartes d'événement</color> : jouez-les pour déclencher immédiatement tous leurs effets."
-                },
-                {
-                    "title": "Actions rapides : Harmonisation élémentaire",
-                    "titleraw": "Actions rapides : Harmonisation élémentaire",
-                    "content": "Vous pouvez défausser une carte de votre main pour la convertir en un dé du même élément que votre personnage actif actuel.",
-                    "contentraw": "Vous pouvez défausser une carte de votre main pour la convertir en un dé du même élément que votre personnage actif actuel."
-                },
-                {
-                    "title": "Actions de combat : Annonce de fin de manche",
-                    "titleraw": "Actions de combat : Annonce de fin de manche",
-                    "content": "Vous pouvez renoncer à faire d'autres actions pendant la manche en cours en annonçant sa fin.\nLe premier joueur qui met fin à sa manche joue en premier lors de la manche suivante, ce qui signifie qu'il a l'initiative lors de la phase d'action de la prochaine manche.\nEnsuite, le joueur qui n'a pas encore annoncé la fin de sa manche continue d'effectuer ses actions.\nUne fois que les deux joueurs ont fait cette annonce, la phase d'action se termine et la phase finale de la manche commence.",
-                    "contentraw": "Vous pouvez renoncer à faire d'autres actions pendant la manche en cours en annonçant sa fin.\\nLe premier joueur qui met fin à sa manche joue en premier lors de la manche suivante, ce qui signifie qu'il a l'initiative lors de la phase d'action de la prochaine manche.\\nEnsuite, le joueur qui n'a pas encore annoncé la fin de sa manche continue d'effectuer ses actions.\\nUne fois que les deux joueurs ont fait cette annonce, la phase d'action se termine et la phase finale de la manche commence."
-                }
-            ]
-        },
-        "roundflow": {
-            "id": 2,
-            "name": "Déroulement de manche",
-            "rules": [
-                {
-                    "title": "Déroulement de manche",
-                    "titleraw": "Déroulement de manche",
-                    "content": "Chaque manche se déroule comme suit : Phase de lancer > Phase d'action > Phase finale.",
-                    "contentraw": "Chaque manche se déroule comme suit : Phase de lancer > Phase d'action > Phase finale.",
-                    "filename_image": "UI_Gcg_InSide_11"
-                },
-                {
-                    "title": "Phase de lancer",
-                    "titleraw": "Phase de lancer",
-                    "content": "Pendant la phase de lancer de chaque manche, vous lancez 8 dés élémentaires.\nAprès avoir lancé ces dés, vous avez 1 opportunité de choisir n'importe quelle quantité de dés élémentaires pour les relancer.\nChaque dé élémentaire peut posséder l'un des 8 éléments suivants : Cryo, Hydro, Pyro, Électro, Anémo, Géo, Dendro et enfin Omni, ce dernier étant considéré et utilisé comme n'importe quel élément.\nLa limite de dés élémentaires est de 16, et vous ne pourrez plus en obtenir une fois cette limite atteinte.",
-                    "contentraw": "Pendant la phase de lancer de chaque manche, vous lancez 8 dés élémentaires.\\nAprès avoir lancé ces dés, vous avez 1 opportunité de choisir n'importe quelle quantité de dés élémentaires pour les relancer.\\nChaque dé élémentaire peut posséder l'un des 8 éléments suivants : Cryo, Hydro, Pyro, Électro, Anémo, Géo, Dendro et enfin Omni, ce dernier étant considéré et utilisé comme n'importe quel élément.\\nLa limite de dés élémentaires est de 16, et vous ne pourrez plus en obtenir une fois cette limite atteinte."
-                },
-                {
-                    "title": "Phase d'action",
-                    "titleraw": "Phase d'action",
-                    "content": "Les deux camps agissent à tour de rôle, en commençant par le joueur qui joue en premier. Les actions que vous pouvez entreprendre sont :\nUtilisation de capacité : payez le coût correspondant pour utiliser une capacité de votre personnage actif.\nChangement de personnage : payez 1 dé élémentaire de votre choix pour basculer votre personnage actif.\nUtilisation de carte : payez le coût correspondant pour jouer une carte de votre main.\nHarmonisation élémentaire : défaussez une carte de votre main pour changer l'élément d'un de vos dés.\nAnnonce de fin de manche : mettez fin à vos actions pour cette manche. De plus, le premier joueur à annoncer la fin de sa manche joue en premier lors de la prochaine manche.",
-                    "contentraw": "Les deux camps agissent à tour de rôle, en commençant par le joueur qui joue en premier. Les actions que vous pouvez entreprendre sont :\\n<color=#FFE14BFF>Utilisation de capacité</color> : payez le coût correspondant pour utiliser une capacité de votre personnage actif.\\n<color=#FFE14BFF>Changement de personnage</color> : payez 1 dé élémentaire de votre choix pour basculer votre personnage actif.\\n<color=#FFE14BFF>Utilisation de carte</color> : payez le coût correspondant pour jouer une carte de votre main.\\n<color=#FFE14BFF>Harmonisation élémentaire</color> : défaussez une carte de votre main pour changer l'élément d'un de vos dés.\\n<color=#FFE14BFF>Annonce de fin de manche</color> : mettez fin à vos actions pour cette manche. De plus, le premier joueur à annoncer la fin de sa manche joue en premier lors de la prochaine manche."
-                },
-                {
-                    "title": "Phase finale",
-                    "titleraw": "Phase finale",
-                    "content": "Une fois que tous les joueurs ont annoncé la fin de leur manche pendant la phase d'action, le jeu entre dans la phase finale.\n1. En commençant par le joueur qui joue en premier, les différents effets de carte déclenchés par la phase finale sont appliqués.\n2. Les deux joueurs tirent 2 cartes de leurs pioches.\n3. Et la prochaine manche commence !",
-                    "contentraw": "Une fois que tous les joueurs ont annoncé la fin de leur manche pendant la phase d'action, le jeu entre dans la phase finale.\\n1. En commençant par le joueur qui joue en premier, les différents effets de carte déclenchés par la phase finale sont appliqués.\\n2. Les deux joueurs tirent 2 cartes de leurs pioches.\\n3. Et la prochaine manche commence !"
-                }
-            ]
-        },
-        "geniusinvokationtcg": {
-            "id": 1,
-            "name": "Invocation des Sept : JCC",
-            "rules": [
-                {
-                    "title": "L'Invocation des Sept en bref",
-                    "titleraw": "L'Invocation des Sept en bref",
-                    "content": "L'Invocation des Sept est un jeu de duel de cartes au rythme effréné et palpitant.\nConstruisez vos decks en les basant sur des cartes de personnage et d'action, et engagez-vous dans d'intenses batailles contre vos adversaires !",
-                    "contentraw": "L'Invocation des Sept est un jeu de duel de cartes au rythme effréné et palpitant.\\nConstruisez vos decks en les basant sur des cartes de personnage et d'action, et engagez-vous dans d'intenses batailles contre vos adversaires !",
-                    "filename_image": "UI_Gcg_InSide_01"
-                },
-                {
-                    "title": "Préparations",
-                    "titleraw": "Préparations",
-                    "content": "(1) Les deux camps piochent 5 cartes pour former leur main. Chaque camp a ensuite une opportunité d'échanger n'importe quelle quantité de cartes en main.\n(2) Les deux camps peuvent choisir une de leurs cartes de personnage comme personnage actif.",
-                    "contentraw": "(1) Les deux camps piochent 5 cartes pour former leur main. Chaque camp a ensuite une opportunité d'échanger n'importe quelle quantité de cartes en main.\\n(2) Les deux camps peuvent choisir une de leurs cartes de personnage comme personnage actif."
-                },
-                {
-                    "title": "Déroulement de duel",
-                    "titleraw": "Déroulement de duel",
-                    "content": "Une fois un duel d'Invocation des Sept commencé, chaque manche se déroule comme suit :\n(1) Phase de lancer : chaque camp a 8 dés élémentaires à lancer.\n(2) Phase d'action : les camps agissent à tour de rôle jusqu'à ce qu'ils annoncent leur manche comme terminée.\n(3) Phase finale : les deux camps piochent 2 cartes.",
-                    "contentraw": "Une fois un duel d'Invocation des Sept commencé, chaque manche se déroule comme suit :\\n(1) Phase de lancer : chaque camp a 8 dés élémentaires à lancer.\\n(2) Phase d'action : les camps agissent à tour de rôle jusqu'à ce qu'ils annoncent leur manche comme terminée.\\n(3) Phase finale : les deux camps piochent 2 cartes."
-                },
-                {
-                    "title": "Conditions de victoire",
-                    "titleraw": "Conditions de victoire",
-                    "content": "Utilisez vos cartes de personnage pour attaquer et vaincre les cartes de personnage de votre adversaire !\nUne fois que vous les avez tous vaincus, la victoire est à vous !",
-                    "contentraw": "Utilisez vos cartes de personnage pour attaquer et vaincre les cartes de personnage de votre adversaire !\\nUne fois que vous les avez tous vaincus, la victoire est à vous !"
+                    "title": "Règles des réactions élémentaires",
+                    "titleraw": "Règles des réactions élémentaires",
+                    "content": "Lorsqu'une cible est déjà affectée par une application élémentaire :\n(1) Lui infliger un certain type de DGT élémentaires déclenche une réaction élémentaire.\n(2) L'utilisation d'un effet n'infligeant pas de DGT afin d'appliquer un élément spécifique déclenche également une réaction élémentaire. Lors du calcul des effets de telles réactions élémentaires, tous les effets de DGT sont ignorés.",
+                    "contentraw": "Lorsqu'une cible est déjà affectée par une <color=#FFE14BFF>application élémentaire</color> :\\n(1) Lui infliger un certain type de <color=#FFE14BFF>DGT élémentaires</color> déclenche une réaction élémentaire.\\n(2) L'utilisation d'un effet n'infligeant pas de DGT afin d'appliquer un élément spécifique déclenche également une réaction élémentaire. Lors du calcul des effets de telles réactions élémentaires, tous les effets de DGT sont ignorés.",
+                    "filename_image": "UI_Gcg_InSide_13"
                 }
             ]
         },

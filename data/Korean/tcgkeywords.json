@@ -1,144 +1,18 @@
 {
     "items": {
-        "clusterbloomarrow": {
-            "id": 1008,
-            "name": "꽃을 품은 화살",
-            "nameraw": "<color=#FFFFFFFF>꽃을 품은 화살</color>",
-            "description": "종료 단계: 풀 원소 피해를 1pt 가한다.\n사용 가능 횟수: 1 (중첩 가능, 최대 중첩수: 2회)",
-            "descriptionraw": "<color=#FFFFFFFF>종료 단계:</color> {SPRITE_PRESET#2107}<color=#7EC236FF>풀 원소 피해</color>를 1pt 가한다.\\n<color=#FFFFFFFF>사용 가능 횟수: 1</color> (중첩 가능, 최대 중첩수: 2회)"
+        "crowfeathercover": {
+            "id": 1003,
+            "name": "빛나는 깃털의 수호",
+            "nameraw": "<color=#FFFFFFFF>빛나는 깃털의 수호</color>",
+            "description": "부착 캐릭터가 원소전투 스킬 및 원소폭발로 가하는 피해+1pt\n사용 가능 횟수: 2",
+            "descriptionraw": "부착 캐릭터가 <color=#FFFFFFFF>원소전투 스킬</color> 및 <color=#FFFFFFFF>원소폭발</color>로 가하는 피해+1pt\\n<color=#FFFFFFFF>사용 가능 횟수: 2</color>"
         },
-        "dendrorelatedreactions": {
-            "id": 217,
-            "name": "풀 원소 관련 반응",
-            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}풀 원소 관련 반응</color>",
-            "description": "개화: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.\n연소: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\n활성: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [격화 영역]을 생성한다.",
-            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>개화</color>: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>연소</color>: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>활성</color>: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [<color=#FFFFFFFF>격화 영역</color>]을 생성한다."
-        },
-        "omnielement": {
-            "id": 411,
-            "name": "만능 원소",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>",
-            "description": "만능 원소는 임의의 원소로 여겨지며 어떤 원소 타입에서든 사용할 수 있다.",
-            "descriptionraw": "{SPRITE_PRESET#1111}만능 원소는 임의의 원소로 여겨지며 어떤 원소 타입에서든 사용할 수 있다."
-        },
-        "dendroapplication": {
-            "id": 207,
-            "name": "풀 원소 부착",
-            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}풀 원소 부착</color>",
-            "description": "피해를 입히지 않고 풀 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\n개화: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.\n연소: 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\n활성: 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [격화 영역]을 생성한다.",
-            "descriptionraw": "피해를 입히지 않고 {SPRITE_PRESET#2107}풀 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>개화</color>: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>연소</color>: 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>활성</color>: 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [<color=#FFFFFFFF>격화 영역</color>]을 생성한다."
-        },
-        "durationrounds": {
-            "id": 4,
-            "name": "지속 턴",
-            "nameraw": "<color=#FFFFFFFF>지속 턴</color>",
-            "description": "턴이 종료 단계에 진입할 때마다 지속 턴이 1회씩 감소한다.\n지속 턴이 전부 소진되면 즉시 해당 패를 버린다.",
-            "descriptionraw": "턴이 종료 단계에 진입할 때마다 <color=#FFFFFFFF>지속 턴</color>이 1회씩 감소한다.\\n<color=#FFFFFFFF>지속 턴</color>이 전부 소진되면 즉시 해당 패를 버린다."
-        },
-        "pyrorelatedreactions": {
-            "id": 213,
-            "name": "불 원소 관련 반응",
-            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}불 원소 관련 반응</color>",
-            "description": "융해: 이번 피해+2pt\n증발: 이번 피해+2pt\n과부하: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\n연소: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\n결정(불): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n확산(불): 대상 이외의 모든 상대 캐릭터에게 불 원소 피해를 1pt 준다.",
-            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>융해</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>증발</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>과부하</color>: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>연소</color>: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>결정(불)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>확산(불)</color>: 대상 이외의 모든 상대 캐릭터에게 불 원소 피해를 1pt 준다."
-        },
-        "hydrorelatedreactions": {
-            "id": 212,
-            "name": "물 원소 관련 반응",
-            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}물 원소 관련 반응</color>",
-            "description": "증발: 이번 피해+2pt\n감전: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\n빙결: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받은 후 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\n개화: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.\n결정(물): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n확산(물): 대상 이외의 모든 상대 캐릭터에게 물 원소 피해를 1pt 준다.",
-            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>증발</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>감전</color>: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>빙결</color>: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받은 후 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>개화</color>: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>결정(물)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>확산(물)</color>: 대상 이외의 모든 상대 캐릭터에게 물 원소 피해를 1pt 준다."
-        },
-        "fatuiambusher": {
-            "id": 1004,
-            "name": "우인단 복병",
-            "nameraw": "<color=#FFFFFFFF>우인단 복병</color>",
-            "description": "「우인단 복병」은 자신이 소속된 진영의 캐릭터 카드가 스킬을 사용하면 발동해, 소속 진영 출전 캐릭터에게 피해를 가한다. (턴당 1회)\n등장할 수 있는 「우인단 복병」은 총 4가지다:\n얼음 치친 술사: 발동 시 얼음 원소 피해를 1pt 준다. (2회 사용 가능)\n거울의 여인: 발동 시 물 원소 피해를 1pt 준다. (2회 사용 가능)\n화승총 유격대: 발동 시 불 원소 피해를 1pt 준다. (2회 사용 가능)\n번개 해머 돌격대: 발동 시 번개 원소 피해를 1pt 준다. (2회 사용 가능)",
-            "descriptionraw": "「우인단 복병」은 자신이 소속된 진영의 캐릭터 카드가 스킬을 사용하면 발동해, 소속 진영 출전 캐릭터에게 피해를 가한다. (턴당 1회)\\n등장할 수 있는 「우인단 복병」은 총 4가지다:\\n<color=#FFFFFFFF>얼음 치친 술사</color>: 발동 시 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소 피해</color>를 1pt 준다. (2회 사용 가능)\\n<color=#FFFFFFFF>거울의 여인</color>: 발동 시 {SPRITE_PRESET#2102}<color=#80C0FFFF>물 원소 피해</color>를 1pt 준다. (2회 사용 가능)\\n<color=#FFFFFFFF>화승총 유격대</color>: 발동 시 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 1pt 준다. (2회 사용 가능)\\n<color=#FFFFFFFF>번개 해머 돌격대</color>: 발동 시 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소 피해</color>를 1pt 준다. (2회 사용 가능)"
-        },
-        "cryodmg": {
-            "id": 101,
-            "name": "얼음 원소 피해",
-            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소 피해</color>",
-            "description": "얼음 원소 부착 시 원소 반응이 발생할 수 있다.\n융해: 이번 피해+2pt\n초전도: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\n빙결: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)",
-            "descriptionraw": "{SPRITE_PRESET#2101}얼음 원소 부착 시 원소 반응이 발생할 수 있다.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>융해</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>초전도</color>: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>빙결</color>: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)"
-        },
-        "anemo": {
-            "id": 305,
-            "name": "바람 원소",
-            "nameraw": "{SPRITE_PRESET#1105}바람 원소",
-            "description": "굴려서 나온 바람 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
-            "descriptionraw": "굴려서 나온 <color=#80FFD7FF>{SPRITE_PRESET#1105}바람 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
-        },
-        "geodmg": {
-            "id": 106,
-            "name": "바위 원소 피해",
-            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소 피해</color>",
-            "description": "이미 부착된 원소와 원소 반응이 발생한다.\n결정(얼음): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n결정(물): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n결정(불): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n결정(번개): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)",
-            "descriptionraw": "이미 부착된 원소와 원소 반응이 발생한다.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>결정(얼음)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>결정(물)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>결정(불)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>결정(번개)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)"
-        },
-        "hydro": {
-            "id": 302,
-            "name": "물 원소",
-            "nameraw": "{SPRITE_PRESET#1102}물 원소",
-            "description": "굴려서 나온 물 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
-            "descriptionraw": "굴려서 나온 <color=#80C0FFFF>{SPRITE_PRESET#1102}물 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
-        },
-        "electroinfusion": {
-            "id": 1002,
-            "name": "번개 원소 부여",
-            "nameraw": "<color=#FFFFFFFF>번개 원소 부여</color>",
-            "description": "부착 캐릭터가 입힌 물리 피해가 번개 원소 피해로 전환된다.\n지속 턴: 2",
-            "descriptionraw": "부착 캐릭터가 입힌 {SPRITE_PRESET#2100}<color=#FFFFFFFF>물리 피해</color>가 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소 피해</color>로 전환된다.\\n<color=#FFFFFFFF>지속 턴</color>: 2"
-        },
-        "combataction": {
-            "id": 1,
-            "name": "전투 행동",
-            "nameraw": "<color=#FFFFFFFF>전투 행동</color>",
-            "description": "아군이 전투 행동을 1회 진행하면 행동 순서가 상대에게 넘어간다.\n해당 규칙에 속하는 카드는 사용 시 빠른 행동이 아닌 전투 행동으로 간주한다.",
-            "descriptionraw": "아군이 전투 행동을 1회 진행하면 행동 순서가 상대에게 넘어간다.\\n<color=#FFFFFFFF>해당 규칙에 속하는 카드는 사용 시 빠른 행동이 아닌 전투 행동으로 간주한다</color>."
-        },
-        "superlativesuperstrength": {
-            "id": 1007,
-            "name": "난신의 괴력",
-            "nameraw": "<color=#FFFFFFFF>난신의 괴력</color>",
-            "description": "부착 캐릭터가 강공격 시: 가하는 피해+1pt. 만약 사용 가능 횟수가 2 이상일 경우 소모하는 무색 원소가 1개 감소한다.\n사용 가능 횟수: 1 (중첩 가능, 최대 중첩수: 3회)",
-            "descriptionraw": "<color=#FFFFFFFF>부착 캐릭터가 <color=#FFFFFFFF>강공격</color> 시:</color> 가하는 피해+1pt. 만약 <color=#FFFFFFFF>사용 가능 횟수</color>가 2 이상일 경우 소모하는 <color=#FFFFFFFF>{SPRITE_PRESET#1109}무색 원소</color>가 1개 감소한다.\\n<color=#FFFFFFFF><color=#FFFFFFFF>사용 가능 횟수</color>: 1</color> (중첩 가능, 최대 중첩수: 3회)"
-        },
-        "elementalburst": {
-            "id": 501,
-            "name": "원소폭발",
-            "nameraw": "원소폭발",
-            "description": "캐릭터의 원소 에너지가 가득 차면 모든 원소 에너지를 소모하여 강력한 위력의 「원소폭발」을 사용할 수 있다.",
-            "descriptionraw": "캐릭터의 {SPRITE_PRESET#1110}원소 에너지가 가득 차면 모든 {SPRITE_PRESET#1110}원소 에너지를 소모하여 강력한 위력의 「원소폭발」을 사용할 수 있다."
-        },
-        "energy": {
-            "id": 310,
-            "name": "원소 에너지",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>",
-            "description": "캐릭터가 「원소폭발」을 사용하려면 원소 에너지를 소모해야 한다.\n캐릭터가 「원소전투 스킬」 또는 「일반 공격」을 사용하면 원소 에너지를 1pt 획득한다.",
-            "descriptionraw": "캐릭터가 「원소폭발」을 사용하려면 {SPRITE_PRESET#1110}원소 에너지를 소모해야 한다.\\n캐릭터가 「원소전투 스킬」 또는 「일반 공격」을 사용하면 {SPRITE_PRESET#1110}원소 에너지를 1pt 획득한다."
-        },
-        "shield": {
-            "id": 6,
-            "name": "보호막",
-            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>",
-            "description": "해당 보호막의 보호를 받는 캐릭터가 피격 시, 보호막을 소모해 피해를 상쇄한다.",
-            "descriptionraw": "해당 보호막의 보호를 받는 캐릭터가 피격 시, 보호막을 소모해 피해를 상쇄한다."
-        },
-        "hydroapplication": {
-            "id": 202,
-            "name": "물 원소 부착",
-            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}물 원소 부착</color>",
-            "description": "피해를 입히지 않고 물 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\n증발: 효과 없음.\n감전: 효과 없음.\n빙결: 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\n개화: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.",
-            "descriptionraw": "피해를 입히지 않고 {SPRITE_PRESET#2102}물 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>증발</color>: 효과 없음.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>감전</color>: 효과 없음.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>빙결</color>: 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>개화</color>: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다."
-        },
-        "matchingelement": {
-            "id": 308,
-            "name": "동일한 원소",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}동일한 원소</color>",
-            "description": "반드시 지정된 수량의 동일한 원소 타입 원소 주사위를 사용해야 한다.\n(만능 원소는 어떤 원소와도 동일한 원소인 것으로 간주한다)",
-            "descriptionraw": "반드시 지정된 수량의 동일한 원소 타입 원소 주사위를 사용해야 한다.\\n({SPRITE_PRESET#1111}만능 원소는 어떤 원소와도 동일한 원소인 것으로 간주한다)"
+        "cryo": {
+            "id": 301,
+            "name": "얼음 원소",
+            "nameraw": "{SPRITE_PRESET#1101}얼음 원소",
+            "description": "굴려서 나온 얼음 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
+            "descriptionraw": "굴려서 나온 <color=#99FFFFFF>{SPRITE_PRESET#1101}얼음 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
         },
         "dendro": {
             "id": 307,
@@ -147,12 +21,19 @@
             "description": "굴려서 나온 풀 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
             "descriptionraw": "굴려서 나온 <color=#7EC236FF>{SPRITE_PRESET#1107}풀 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
         },
-        "passiveskill": {
-            "id": 502,
-            "name": "패시브 스킬",
-            "nameraw": "패시브 스킬",
-            "description": "해당 스킬은 계속해서 적용되므로 직접 사용할 필요가 없다.",
-            "descriptionraw": "해당 스킬은 계속해서 적용되므로 직접 사용할 필요가 없다."
+        "pyrorelatedreactions": {
+            "id": 213,
+            "name": "불 원소 관련 반응",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}불 원소 관련 반응</color>",
+            "description": "융해: 이번 피해+2pt\n증발: 이번 피해+2pt\n과부하: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\n연소: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\n결정(불): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n확산(불): 대상 이외의 모든 상대 캐릭터에게 불 원소 피해를 1pt 준다.",
+            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>융해</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>증발</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>과부하</color>: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>연소</color>: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>결정(불)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>확산(불)</color>: 대상 이외의 모든 상대 캐릭터에게 불 원소 피해를 1pt 준다."
+        },
+        "randomhilichurlsummon": {
+            "id": 1001,
+            "name": "랜덤 「츄츄족」 소환물",
+            "nameraw": "<color=#FFFFFFFF>랜덤 「츄츄족」 소환물</color>",
+            "description": "출현할 수 있는 「츄츄족」 소환물 총 4종:\n츄츄 얼음 궁수: 종료 단계에서 얼음 원소 피해를 1pt 준다. 사용 가능 횟수: 2회\n물 츄츄 샤먼: 종료 단계에서 물 원소 피해를 1pt 준다. 사용 가능 횟수: 2회\n츄츄 돌격병: 종료 단계에서 불 원소 피해를 1pt 준다. 사용 가능 횟수: 2회\n츄츄 번개 궁수: 종료 단계에서 번개 원소 피해를 1pt 준다. 사용 가능 횟수: 2회",
+            "descriptionraw": "출현할 수 있는 「츄츄족」 소환물 총 4종:\\n<color=#FFFFFFFF>츄츄 얼음 궁수</color>: 종료 단계에서 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소 피해</color>를 1pt 준다. 사용 가능 횟수: 2회\\n<color=#FFFFFFFF>물 츄츄 샤먼</color>: 종료 단계에서 {SPRITE_PRESET#2102}<color=#80C0FFFF>물 원소 피해</color>를 1pt 준다. 사용 가능 횟수: 2회\\n<color=#FFFFFFFF>츄츄 돌격병</color>: 종료 단계에서 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 1pt 준다. 사용 가능 횟수: 2회\\n<color=#FFFFFFFF>츄츄 번개 궁수</color>: 종료 단계에서 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소 피해</color>를 1pt 준다. 사용 가능 횟수: 2회"
         },
         "characterclosesttoyourcurrentactivecharacter": {
             "id": 7,
@@ -168,75 +49,19 @@
             "description": "아군이 행동을 시작하기 전에 원소 주사위 총개수가 짝수인 경우, 발동한 「일반 공격」을 「강공격」으로 간주한다.",
             "descriptionraw": "아군이 행동을 시작하기 전에 원소 주사위 총개수가 짝수인 경우, 발동한 「일반 공격」을 「강공격」으로 간주한다."
         },
+        "anemodmg": {
+            "id": 105,
+            "name": "바람 원소 피해",
+            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>바람 원소 피해</color>",
+            "description": "이미 부착된 원소와 원소 반응이 발생한다.\n확산(얼음): 대상 이외의 모든 상대 캐릭터에게 얼음 원소 피해를 1pt 준다.\n확산(물): 대상 이외의 모든 상대 캐릭터에게 물 원소 피해를 1pt 준다.\n확산(불): 대상 이외의 모든 상대 캐릭터에게 불 원소 피해를 1pt 준다.\n확산(번개): 대상 이외의 모든 상대 캐릭터에게 번개 원소 피해를 1pt 준다.",
+            "descriptionraw": "이미 부착된 원소와 원소 반응이 발생한다.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>확산(얼음)</color>: 대상 이외의 모든 상대 캐릭터에게 얼음 원소 피해를 1pt 준다.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>확산(물)</color>: 대상 이외의 모든 상대 캐릭터에게 물 원소 피해를 1pt 준다.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>확산(불)</color>: 대상 이외의 모든 상대 캐릭터에게 불 원소 피해를 1pt 준다.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>확산(번개)</color>: 대상 이외의 모든 상대 캐릭터에게 번개 원소 피해를 1pt 준다."
+        },
         "prepareskill": {
             "id": 53,
             "name": "스킬 준비",
             "nameraw": "<color=#FFFFFFFF>스킬 준비</color>",
             "description": "일부 스킬은 바로 발동할 수 없고, 일정 횟수의 행동 순서 동안 준비를 해야 한다.\n한 플레이어의 행동 순서가 됐을 때, 만약 해당 플레이어의 「출전 캐릭터」가 현재 스킬을 준비 중이면 해당 플레이어의 행동을 건너뛴다. 스킬 준비를 끝냈을 경우, 캐릭터는 해당 스킬을 즉시 발동한다. (준비가 필요한 유형의 스킬은 「스킬 사용 후」 효과를 발동할 수 없다)\n오직 「출전 캐릭터」만 스킬을 준비할 수 있다. 만약 스킬을 준비 중인 「출전 캐릭터」가 교체되어 대기 상태가 되면, 스킬의 준비가 중단된다.",
             "descriptionraw": "일부 스킬은 바로 발동할 수 없고, 일정 횟수의 행동 순서 동안 <color=#FFFFFFFF>준비</color>를 해야 한다.\\n한 플레이어의 행동 순서가 됐을 때, 만약 해당 플레이어의 「출전 캐릭터」가 현재 스킬을 <color=#FFFFFFFF>준비</color> 중이면 해당 플레이어의 행동을 건너뛴다. 스킬 <color=#FFFFFFFF>준비</color>를 끝냈을 경우, 캐릭터는 해당 스킬을 즉시 발동한다. (<color=#FFFFFFFF>준비</color>가 필요한 유형의 스킬은 「스킬 사용 후」 효과를 발동할 수 없다)\\n오직 「출전 캐릭터」만 스킬을 <color=#FFFFFFFF>준비</color>할 수 있다. 만약 스킬을 <color=#FFFFFFFF>준비</color> 중인 「출전 캐릭터」가 교체되어 대기 상태가 되면, 스킬의 <color=#FFFFFFFF>준비</color>가 중단된다."
-        },
-        "electro": {
-            "id": 304,
-            "name": "번개 원소",
-            "nameraw": "{SPRITE_PRESET#1104}번개 원소",
-            "description": "굴려서 나온 번개 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
-            "descriptionraw": "굴려서 나온 <color=#FFACFFFF>{SPRITE_PRESET#1104}번개 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
-        },
-        "physicaldmg": {
-            "id": 100,
-            "name": "물리 피해",
-            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>물리 피해</color>",
-            "description": "물리 피해는 원소를 부착할 수 없고, 원소 반응이 발생하지 않는다.",
-            "descriptionraw": "물리 피해는 원소를 부착할 수 없고, 원소 반응이 발생하지 않는다."
-        },
-        "dendrodmg": {
-            "id": 107,
-            "name": "풀 원소 피해",
-            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>풀 원소 피해</color>",
-            "description": "풀 원소 부착 시 다음 원소 반응이 발생할 수 있다.\n개화: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.\n연소: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1회, 최대 중첩수: 2)\n활성: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [격화 영역]을 생성한다.",
-            "descriptionraw": "{SPRITE_PRESET#2107}풀 원소 부착 시 다음 원소 반응이 발생할 수 있다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>개화</color>: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>연소</color>: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1회, 최대 중첩수: 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>활성</color>: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [<color=#FFFFFFFF>격화 영역</color>]을 생성한다."
-        },
-        "pyroapplication": {
-            "id": 203,
-            "name": "불 원소 부착",
-            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}불 원소 부착</color>",
-            "description": "피해를 입히지 않고 불 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\n융해: 효과 없음.\n증발: 효과 없음.\n과부하: 대상이 다음 캐릭터로 강제 교체된다.\n연소: 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)",
-            "descriptionraw": "피해를 입히지 않고 {SPRITE_PRESET#2103}불 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>융해</color>: 효과 없음.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>증발</color>: 효과 없음.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>과부하</color>: 대상이 다음 캐릭터로 강제 교체된다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>연소</color>: 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)"
-        },
-        "crowfeathercover": {
-            "id": 1003,
-            "name": "빛나는 깃털의 수호",
-            "nameraw": "<color=#FFFFFFFF>빛나는 깃털의 수호</color>",
-            "description": "부착 캐릭터가 원소전투 스킬 및 원소폭발로 가하는 피해+1pt\n사용 가능 횟수: 2",
-            "descriptionraw": "부착 캐릭터가 <color=#FFFFFFFF>원소전투 스킬</color> 및 <color=#FFFFFFFF>원소폭발</color>로 가하는 피해+1pt\\n<color=#FFFFFFFF>사용 가능 횟수: 2</color>"
-        },
-        "piercingdmg": {
-            "id": 5,
-            "name": "관통 피해",
-            "nameraw": "<color=#FFFFFFFF>관통 피해</color>",
-            "description": "관통 피해는 피해 보너스를 획득할 수 없으나, 가하는 피해가 보호막 또는 피해 면역과 같은 효과에 의해 상쇄되지 않는다.",
-            "descriptionraw": "관통 피해는 피해 보너스를 획득할 수 없으나, 가하는 피해가 보호막 또는 피해 면역과 같은 효과에 의해 상쇄되지 않는다."
-        },
-        "immunitytodefeats1willnotbedefeated": {
-            "id": 54,
-            "name": "처치 면역",
-            "nameraw": "<color=#FFFFFFFF>처치 면역</color>",
-            "description": "일부 효과는 캐릭터의 HP가 0이 될 때, 해당 캐릭터에게 처치 면역 및 일정 HP 회복 효과를 부여한다.\n이때 캐릭터는 처치된 적 없는 것으로 간주한다. (따라서 캐릭터에 부착된 장비와 상태를 버리지 않고, 원소 에너지도 모두 사라지지 않는다)",
-            "descriptionraw": "일부 효과는 캐릭터의 HP가 0이 될 때, 해당 캐릭터에게 <color=#FFFFFFFF>처치 면역</color> 및 일정 HP 회복 효과를 부여한다.\\n이때 캐릭터는 <color=#FFFFFFFF>처치</color>된 적 없는 것으로 간주한다. (따라서 캐릭터에 부착된 장비와 상태를 버리지 않고, 원소 에너지도 모두 사라지지 않는다)"
-        },
-        "pyro": {
-            "id": 303,
-            "name": "불 원소",
-            "nameraw": "{SPRITE_PRESET#1103}불 원소",
-            "description": "굴려서 나온 불 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
-            "descriptionraw": "굴려서 나온 <color=#FF9999FF>{SPRITE_PRESET#1103}불 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
-        },
-        "geo": {
-            "id": 306,
-            "name": "바위 원소",
-            "nameraw": "{SPRITE_PRESET#1106}바위 원소",
-            "description": "굴려서 나온 바위 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
-            "descriptionraw": "굴려서 나온 <color=#FFE699FF>{SPRITE_PRESET#1106}바위 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
         },
         "electroapplication": {
             "id": 204,
@@ -245,33 +70,40 @@
             "description": "피해를 입히지 않고 번개 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\n과부하: 대상이 다음 캐릭터로 강제 교체된다.\n초전도: 효과 없음.\n감전: 효과 없음.\n활성: 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [격화 영역]을 생성한다.",
             "descriptionraw": "피해를 입히지 않고 {SPRITE_PRESET#2104}번개 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>과부하</color>: 대상이 다음 캐릭터로 강제 교체된다.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>초전도</color>: 효과 없음.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>감전</color>: 효과 없음.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>활성</color>: 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [<color=#FFFFFFFF>격화 영역</color>]을 생성한다."
         },
-        "anemodmg": {
-            "id": 105,
-            "name": "바람 원소 피해",
-            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>바람 원소 피해</color>",
-            "description": "이미 부착된 원소와 원소 반응이 발생한다.\n확산(얼음): 대상 이외의 모든 상대 캐릭터에게 얼음 원소 피해를 1pt 준다.\n확산(물): 대상 이외의 모든 상대 캐릭터에게 물 원소 피해를 1pt 준다.\n확산(불): 대상 이외의 모든 상대 캐릭터에게 불 원소 피해를 1pt 준다.\n확산(번개): 대상 이외의 모든 상대 캐릭터에게 번개 원소 피해를 1pt 준다.",
-            "descriptionraw": "이미 부착된 원소와 원소 반응이 발생한다.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>확산(얼음)</color>: 대상 이외의 모든 상대 캐릭터에게 얼음 원소 피해를 1pt 준다.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>확산(물)</color>: 대상 이외의 모든 상대 캐릭터에게 물 원소 피해를 1pt 준다.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>확산(불)</color>: 대상 이외의 모든 상대 캐릭터에게 불 원소 피해를 1pt 준다.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>확산(번개)</color>: 대상 이외의 모든 상대 캐릭터에게 번개 원소 피해를 1pt 준다."
+        "energy": {
+            "id": 310,
+            "name": "원소 에너지",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>",
+            "description": "캐릭터가 「원소폭발」을 사용하려면 원소 에너지를 소모해야 한다.\n캐릭터가 「원소전투 스킬」 또는 「일반 공격」을 사용하면 원소 에너지를 1pt 획득한다.",
+            "descriptionraw": "캐릭터가 「원소폭발」을 사용하려면 {SPRITE_PRESET#1110}원소 에너지를 소모해야 한다.\\n캐릭터가 「원소전투 스킬」 또는 「일반 공격」을 사용하면 {SPRITE_PRESET#1110}원소 에너지를 1pt 획득한다."
         },
-        "randomhilichurlsummon": {
-            "id": 1001,
-            "name": "랜덤 「츄츄족」 소환물",
-            "nameraw": "<color=#FFFFFFFF>랜덤 「츄츄족」 소환물</color>",
-            "description": "출현할 수 있는 「츄츄족」 소환물 총 4종:\n츄츄 얼음 궁수: 종료 단계에서 얼음 원소 피해를 1pt 준다. 사용 가능 횟수: 2회\n물 츄츄 샤먼: 종료 단계에서 물 원소 피해를 1pt 준다. 사용 가능 횟수: 2회\n츄츄 돌격병: 종료 단계에서 불 원소 피해를 1pt 준다. 사용 가능 횟수: 2회\n츄츄 번개 궁수: 종료 단계에서 번개 원소 피해를 1pt 준다. 사용 가능 횟수: 2회",
-            "descriptionraw": "출현할 수 있는 「츄츄족」 소환물 총 4종:\\n<color=#FFFFFFFF>츄츄 얼음 궁수</color>: 종료 단계에서 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소 피해</color>를 1pt 준다. 사용 가능 횟수: 2회\\n<color=#FFFFFFFF>물 츄츄 샤먼</color>: 종료 단계에서 {SPRITE_PRESET#2102}<color=#80C0FFFF>물 원소 피해</color>를 1pt 준다. 사용 가능 횟수: 2회\\n<color=#FFFFFFFF>츄츄 돌격병</color>: 종료 단계에서 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 1pt 준다. 사용 가능 횟수: 2회\\n<color=#FFFFFFFF>츄츄 번개 궁수</color>: 종료 단계에서 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소 피해</color>를 1pt 준다. 사용 가능 횟수: 2회"
+        "dendroapplication": {
+            "id": 207,
+            "name": "풀 원소 부착",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}풀 원소 부착</color>",
+            "description": "피해를 입히지 않고 풀 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\n개화: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.\n연소: 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\n활성: 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [격화 영역]을 생성한다.",
+            "descriptionraw": "피해를 입히지 않고 {SPRITE_PRESET#2107}풀 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>개화</color>: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>연소</color>: 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>활성</color>: 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [<color=#FFFFFFFF>격화 영역</color>]을 생성한다."
         },
-        "riptide": {
-            "id": 1005,
-            "name": "단류",
-            "nameraw": "<color=#FFFFFFFF>단류</color>",
-            "description": "부착 캐릭터가 처치된 후: 소속 진영의 출전 캐릭터에게 「단류」를 부착한다.\n(「근접 상태」의 타르탈리아가 부착 캐릭터를 공격하면 추가 피해를 가할 수 있다)\n지속 턴: 2",
-            "descriptionraw": "<color=#FFFFFFFF>부착 캐릭터가 처치된 후:</color> 소속 진영의 출전 캐릭터에게 「단류」를 부착한다.\\n(<color=#FFFFFFFF>「근접 상태」</color>의 <color=#FFFFFFFF>타르탈리아</color>가 부착 캐릭터를 공격하면 추가 피해를 가할 수 있다)\\n<color=#FFFFFFFF>지속 턴: 2</color>"
+        "anemo": {
+            "id": 305,
+            "name": "바람 원소",
+            "nameraw": "{SPRITE_PRESET#1105}바람 원소",
+            "description": "굴려서 나온 바람 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
+            "descriptionraw": "굴려서 나온 <color=#80FFD7FF>{SPRITE_PRESET#1105}바람 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
         },
-        "pyrodmg": {
-            "id": 103,
-            "name": "불 원소 피해",
-            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>",
-            "description": "불 원소 부착 시 원소 반응이 발생할 수 있다.\n융해: 이번 피해+2pt\n증발: 이번 피해+2pt\n과부하: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\n연소: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)",
-            "descriptionraw": "{SPRITE_PRESET#2103}불 원소 부착 시 원소 반응이 발생할 수 있다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>융해</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>증발</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>과부하</color>: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>연소</color>: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)"
+        "shield": {
+            "id": 6,
+            "name": "보호막",
+            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>",
+            "description": "해당 보호막의 보호를 받는 캐릭터가 피격 시, 보호막을 소모해 피해를 상쇄한다.",
+            "descriptionraw": "해당 보호막의 보호를 받는 캐릭터가 피격 시, 보호막을 소모해 피해를 상쇄한다."
+        },
+        "piercingdmg": {
+            "id": 5,
+            "name": "관통 피해",
+            "nameraw": "<color=#FFFFFFFF>관통 피해</color>",
+            "description": "관통 피해는 피해 보너스를 획득할 수 없으나, 가하는 피해가 보호막 또는 피해 면역과 같은 효과에 의해 상쇄되지 않는다.",
+            "descriptionraw": "관통 피해는 피해 보너스를 획득할 수 없으나, 가하는 피해가 보호막 또는 피해 면역과 같은 효과에 의해 상쇄되지 않는다."
         },
         "fastaction": {
             "id": 2,
@@ -280,47 +112,19 @@
             "description": "빠른 행동을 1회 진행하면 아군은 계속해서 다른 행동을 진행할 수 있다.\n전투 행동을 1회 진행해야만 행동 순서가 상대에게 넘어간다.",
             "descriptionraw": "빠른 행동을 1회 진행하면 아군은 계속해서 다른 행동을 진행할 수 있다.\\n전투 행동을 1회 진행해야만 행동 순서가 상대에게 넘어간다."
         },
-        "usages": {
-            "id": 3,
-            "name": "사용 가능 횟수",
-            "nameraw": "<color=#FFFFFFFF>사용 가능 횟수</color>",
-            "description": "해당 카드의 효과가 발동하면 사용 가능 횟수가 1회 차감된다.\n사용 가능 횟수가 전부 소진되면 즉시 해당 패를 버린다.",
-            "descriptionraw": "해당 카드의 효과가 발동하면 <color=#FFFFFFFF>사용 가능 횟수</color>가 1회 차감된다.\\n<color=#FFFFFFFF>사용 가능 횟수</color>가 전부 소진되면 즉시 해당 패를 버린다."
+        "geo": {
+            "id": 306,
+            "name": "바위 원소",
+            "nameraw": "{SPRITE_PRESET#1106}바위 원소",
+            "description": "굴려서 나온 바위 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
+            "descriptionraw": "굴려서 나온 <color=#FFE699FF>{SPRITE_PRESET#1106}바위 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
         },
-        "plungingattack": {
-            "id": 52,
-            "name": "낙하 공격",
-            "nameraw": "<color=#FFFFFFFF>낙하 공격</color>",
-            "description": "캐릭터가 「출전 캐릭터」로 교체된 후, 이번 턴 내의 다음 전투 행동이 「일반 공격」일 경우 「낙하 공격」으로 간주된다.",
-            "descriptionraw": "캐릭터가 「출전 캐릭터」로 교체된 후, 이번 턴 내의 다음 전투 행동이 「일반 공격」일 경우 「낙하 공격」으로 간주된다."
-        },
-        "aegisofabyssalflame": {
-            "id": 1006,
-            "name": "심연 불꽃의 가호",
-            "nameraw": "<color=#FFFFFFFF>심연 불꽃의 가호</color>",
-            "description": "부착 캐릭터에게 보호막을 3pt 제공한다.\n해당 보호막이 소진되기 전까지 부착 캐릭터가 가하는 불 원소 피해+1pt",
-            "descriptionraw": "부착 캐릭터에게 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>을 <color=#FFFFFFFF>3pt</color> 제공한다.\\n해당 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>이 소진되기 전까지 부착 캐릭터가 가하는 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>+1pt"
-        },
-        "cryo": {
-            "id": 301,
-            "name": "얼음 원소",
-            "nameraw": "{SPRITE_PRESET#1101}얼음 원소",
-            "description": "굴려서 나온 얼음 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
-            "descriptionraw": "굴려서 나온 <color=#99FFFFFF>{SPRITE_PRESET#1101}얼음 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
-        },
-        "hydrodmg": {
-            "id": 102,
-            "name": "물 원소 피해",
-            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>물 원소 피해</color>",
-            "description": "물 원소 부착 시 원소 반응이 발생할 수 있다.\n증발: 이번 피해+2pt\n감전: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\n빙결: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\n개화: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.",
-            "descriptionraw": "{SPRITE_PRESET#2102}물 원소 부착 시 원소 반응이 발생할 수 있다.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>증발</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>감전</color>: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>빙결</color>: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>개화</color>: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다."
-        },
-        "unalignedelement": {
-            "id": 309,
-            "name": "무색 원소",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}무색 원소</color>",
-            "description": "어떤 타입의 원소 주사위든 사용할 수 있다.",
-            "descriptionraw": "어떤 타입의 원소 주사위든 사용할 수 있다."
+        "elementalburst": {
+            "id": 501,
+            "name": "원소폭발",
+            "nameraw": "원소폭발",
+            "description": "캐릭터의 원소 에너지가 가득 차면 모든 원소 에너지를 소모하여 강력한 위력의 「원소폭발」을 사용할 수 있다.",
+            "descriptionraw": "캐릭터의 {SPRITE_PRESET#1110}원소 에너지가 가득 차면 모든 {SPRITE_PRESET#1110}원소 에너지를 소모하여 강력한 위력의 「원소폭발」을 사용할 수 있다."
         },
         "electrodmg": {
             "id": 104,
@@ -329,12 +133,33 @@
             "description": "번개 원소 부착 시 다음 원소 반응이 발생할 수 있다.\n과부하: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\n초전도: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\n감전: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\n활성: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [격화 영역]을 생성한다.",
             "descriptionraw": "{SPRITE_PRESET#2104}번개 원소 부착 시 다음 원소 반응이 발생할 수 있다.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>과부하</color>: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>초전도</color>: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>감전</color>: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>활성</color>: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [<color=#FFFFFFFF>격화 영역</color>]을 생성한다."
         },
-        "bloodblossom": {
-            "id": 1009,
-            "name": "혈매향",
-            "nameraw": "<color=#FFFFFFFF>혈매향</color>",
-            "description": "종료 단계: 부착 캐릭터에게 불 원소 피해를 1pt 가한다.\n사용 가능 횟수: 1",
-            "descriptionraw": "<color=#FFFFFFFF>종료 단계: </color>부착 캐릭터에게 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 1pt 가한다.\\n<color=#FFFFFFFF><color=#FFFFFFFF>사용 가능 횟수</color>: 1</color>"
+        "physicaldmg": {
+            "id": 100,
+            "name": "물리 피해",
+            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>물리 피해</color>",
+            "description": "물리 피해는 원소를 부착할 수 없고, 원소 반응이 발생하지 않는다.",
+            "descriptionraw": "물리 피해는 원소를 부착할 수 없고, 원소 반응이 발생하지 않는다."
+        },
+        "immunitytodefeats1willnotbedefeated": {
+            "id": 54,
+            "name": "처치 면역",
+            "nameraw": "<color=#FFFFFFFF>처치 면역</color>",
+            "description": "일부 효과는 캐릭터의 HP가 0이 될 때, 해당 캐릭터에게 처치 면역 및 일정 HP 회복 효과를 부여한다.\n이때 캐릭터는 처치된 적 없는 것으로 간주한다. (따라서 캐릭터에 부착된 장비와 상태를 버리지 않고, 원소 에너지도 모두 사라지지 않는다)",
+            "descriptionraw": "일부 효과는 캐릭터의 HP가 0이 될 때, 해당 캐릭터에게 <color=#FFFFFFFF>처치 면역</color> 및 일정 HP 회복 효과를 부여한다.\\n이때 캐릭터는 <color=#FFFFFFFF>처치</color>된 적 없는 것으로 간주한다. (따라서 캐릭터에 부착된 장비와 상태를 버리지 않고, 원소 에너지도 모두 사라지지 않는다)"
+        },
+        "usages": {
+            "id": 3,
+            "name": "사용 가능 횟수",
+            "nameraw": "<color=#FFFFFFFF>사용 가능 횟수</color>",
+            "description": "해당 카드의 효과가 발동하면 사용 가능 횟수가 1회 차감된다.\n사용 가능 횟수가 전부 소진되면 즉시 해당 패를 버린다.",
+            "descriptionraw": "해당 카드의 효과가 발동하면 <color=#FFFFFFFF>사용 가능 횟수</color>가 1회 차감된다.\\n<color=#FFFFFFFF>사용 가능 횟수</color>가 전부 소진되면 즉시 해당 패를 버린다."
+        },
+        "hydrodmg": {
+            "id": 102,
+            "name": "물 원소 피해",
+            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>물 원소 피해</color>",
+            "description": "물 원소 부착 시 원소 반응이 발생할 수 있다.\n증발: 이번 피해+2pt\n감전: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\n빙결: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\n개화: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.",
+            "descriptionraw": "{SPRITE_PRESET#2102}물 원소 부착 시 원소 반응이 발생할 수 있다.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>증발</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>감전</color>: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>빙결</color>: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>개화</color>: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다."
         },
         "cryoapplication": {
             "id": 201,
@@ -342,6 +167,181 @@
             "nameraw": "<color=#99FFFFFF>{SPRITE_PRESET#2101}얼음 원소 부착</color>",
             "description": "피해를 입히지 않고 얼음 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\n융해: 효과 없음.\n초전도: 효과 없음.\n빙결: 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제, 해당 피해로 받는 피해량이 2pt 추가된다)",
             "descriptionraw": "피해를 입히지 않고 {SPRITE_PRESET#2101}얼음 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>융해</color>: 효과 없음.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>초전도</color>: 효과 없음.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>빙결</color>: 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제, 해당 피해로 받는 피해량이 2pt 추가된다)"
+        },
+        "unalignedelement": {
+            "id": 309,
+            "name": "무색 원소",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}무색 원소</color>",
+            "description": "어떤 타입의 원소 주사위든 사용할 수 있다.",
+            "descriptionraw": "어떤 타입의 원소 주사위든 사용할 수 있다."
+        },
+        "bloodblossom": {
+            "id": 1009,
+            "name": "혈매향",
+            "nameraw": "<color=#FFFFFFFF>혈매향</color>",
+            "description": "종료 단계: 부착 캐릭터에게 불 원소 피해를 1pt 가한다.\n사용 가능 횟수: 1",
+            "descriptionraw": "<color=#FFFFFFFF>종료 단계: </color>부착 캐릭터에게 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 1pt 가한다.\\n<color=#FFFFFFFF><color=#FFFFFFFF>사용 가능 횟수</color>: 1</color>"
+        },
+        "clusterbloomarrow": {
+            "id": 1008,
+            "name": "꽃을 품은 화살",
+            "nameraw": "<color=#FFFFFFFF>꽃을 품은 화살</color>",
+            "description": "종료 단계: 풀 원소 피해를 1pt 가한다.\n사용 가능 횟수: 1 (중첩 가능, 최대 중첩수: 2회)",
+            "descriptionraw": "<color=#FFFFFFFF>종료 단계:</color> {SPRITE_PRESET#2107}<color=#7EC236FF>풀 원소 피해</color>를 1pt 가한다.\\n<color=#FFFFFFFF>사용 가능 횟수: 1</color> (중첩 가능, 최대 중첩수: 2회)"
+        },
+        "matchingelement": {
+            "id": 308,
+            "name": "동일한 원소",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}동일한 원소</color>",
+            "description": "반드시 지정된 수량의 동일한 원소 타입 원소 주사위를 사용해야 한다.\n(만능 원소는 어떤 원소와도 동일한 원소인 것으로 간주한다)",
+            "descriptionraw": "반드시 지정된 수량의 동일한 원소 타입 원소 주사위를 사용해야 한다.\\n({SPRITE_PRESET#1111}만능 원소는 어떤 원소와도 동일한 원소인 것으로 간주한다)"
+        },
+        "combataction": {
+            "id": 1,
+            "name": "전투 행동",
+            "nameraw": "<color=#FFFFFFFF>전투 행동</color>",
+            "description": "아군이 전투 행동을 1회 진행하면 행동 순서가 상대에게 넘어간다.\n해당 규칙에 속하는 카드는 사용 시 빠른 행동이 아닌 전투 행동으로 간주한다.",
+            "descriptionraw": "아군이 전투 행동을 1회 진행하면 행동 순서가 상대에게 넘어간다.\\n<color=#FFFFFFFF>해당 규칙에 속하는 카드는 사용 시 빠른 행동이 아닌 전투 행동으로 간주한다</color>."
+        },
+        "hydrorelatedreactions": {
+            "id": 212,
+            "name": "물 원소 관련 반응",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}물 원소 관련 반응</color>",
+            "description": "증발: 이번 피해+2pt\n감전: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\n빙결: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받은 후 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\n개화: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.\n결정(물): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n확산(물): 대상 이외의 모든 상대 캐릭터에게 물 원소 피해를 1pt 준다.",
+            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>증발</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>감전</color>: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>빙결</color>: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받은 후 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>개화</color>: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>결정(물)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>확산(물)</color>: 대상 이외의 모든 상대 캐릭터에게 물 원소 피해를 1pt 준다."
+        },
+        "riptide": {
+            "id": 1005,
+            "name": "단류",
+            "nameraw": "<color=#FFFFFFFF>단류</color>",
+            "description": "부착 캐릭터가 처치된 후: 소속 진영의 출전 캐릭터에게 「단류」를 부착한다.\n(「근접 상태」의 타르탈리아가 부착 캐릭터를 공격하면 추가 피해를 가할 수 있다)\n지속 턴: 2",
+            "descriptionraw": "<color=#FFFFFFFF>부착 캐릭터가 처치된 후:</color> 소속 진영의 출전 캐릭터에게 「단류」를 부착한다.\\n(<color=#FFFFFFFF>「근접 상태」</color>의 <color=#FFFFFFFF>타르탈리아</color>가 부착 캐릭터를 공격하면 추가 피해를 가할 수 있다)\\n<color=#FFFFFFFF>지속 턴: 2</color>"
+        },
+        "omnielement": {
+            "id": 411,
+            "name": "만능 원소",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>",
+            "description": "만능 원소는 임의의 원소로 여겨지며 어떤 원소 타입에서든 사용할 수 있다.",
+            "descriptionraw": "{SPRITE_PRESET#1111}만능 원소는 임의의 원소로 여겨지며 어떤 원소 타입에서든 사용할 수 있다."
+        },
+        "plungingattack": {
+            "id": 52,
+            "name": "낙하 공격",
+            "nameraw": "<color=#FFFFFFFF>낙하 공격</color>",
+            "description": "캐릭터가 「출전 캐릭터」로 교체된 후, 이번 턴 내의 다음 전투 행동이 「일반 공격」일 경우 「낙하 공격」으로 간주된다.",
+            "descriptionraw": "캐릭터가 「출전 캐릭터」로 교체된 후, 이번 턴 내의 다음 전투 행동이 「일반 공격」일 경우 「낙하 공격」으로 간주된다."
+        },
+        "passiveskill": {
+            "id": 502,
+            "name": "패시브 스킬",
+            "nameraw": "패시브 스킬",
+            "description": "해당 스킬은 계속해서 적용되므로 직접 사용할 필요가 없다.",
+            "descriptionraw": "해당 스킬은 계속해서 적용되므로 직접 사용할 필요가 없다."
+        },
+        "electroinfusion": {
+            "id": 1002,
+            "name": "번개 원소 부여",
+            "nameraw": "<color=#FFFFFFFF>번개 원소 부여</color>",
+            "description": "부착 캐릭터가 입힌 물리 피해가 번개 원소 피해로 전환된다.\n지속 턴: 2",
+            "descriptionraw": "부착 캐릭터가 입힌 {SPRITE_PRESET#2100}<color=#FFFFFFFF>물리 피해</color>가 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소 피해</color>로 전환된다.\\n<color=#FFFFFFFF>지속 턴</color>: 2"
+        },
+        "pyrodmg": {
+            "id": 103,
+            "name": "불 원소 피해",
+            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>",
+            "description": "불 원소 부착 시 원소 반응이 발생할 수 있다.\n융해: 이번 피해+2pt\n증발: 이번 피해+2pt\n과부하: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\n연소: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)",
+            "descriptionraw": "{SPRITE_PRESET#2103}불 원소 부착 시 원소 반응이 발생할 수 있다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>융해</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>증발</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>과부하</color>: 이번 피해+2pt, 대상이 다음 캐릭터로 강제 교체된다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>연소</color>: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)"
+        },
+        "pyroapplication": {
+            "id": 203,
+            "name": "불 원소 부착",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}불 원소 부착</color>",
+            "description": "피해를 입히지 않고 불 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\n융해: 효과 없음.\n증발: 효과 없음.\n과부하: 대상이 다음 캐릭터로 강제 교체된다.\n연소: 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)",
+            "descriptionraw": "피해를 입히지 않고 {SPRITE_PRESET#2103}불 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>융해</color>: 효과 없음.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>증발</color>: 효과 없음.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>과부하</color>: 대상이 다음 캐릭터로 강제 교체된다.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>연소</color>: 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)"
+        },
+        "hydroapplication": {
+            "id": 202,
+            "name": "물 원소 부착",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}물 원소 부착</color>",
+            "description": "피해를 입히지 않고 물 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\n증발: 효과 없음.\n감전: 효과 없음.\n빙결: 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\n개화: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.",
+            "descriptionraw": "피해를 입히지 않고 {SPRITE_PRESET#2102}물 원소를 부착하여 발생한 원소 반응은 피해 효과를 무시한다.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>증발</color>: 효과 없음.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>감전</color>: 효과 없음.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>빙결</color>: 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>개화</color>: 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다."
+        },
+        "pyro": {
+            "id": 303,
+            "name": "불 원소",
+            "nameraw": "{SPRITE_PRESET#1103}불 원소",
+            "description": "굴려서 나온 불 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
+            "descriptionraw": "굴려서 나온 <color=#FF9999FF>{SPRITE_PRESET#1103}불 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
+        },
+        "dendrorelatedreactions": {
+            "id": 217,
+            "name": "풀 원소 관련 반응",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}풀 원소 관련 반응</color>",
+            "description": "개화: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.\n연소: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\n활성: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [격화 영역]을 생성한다.",
+            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>개화</color>: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>연소</color>: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1, 최대 중첩수: 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>활성</color>: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [<color=#FFFFFFFF>격화 영역</color>]을 생성한다."
+        },
+        "superlativesuperstrength": {
+            "id": 1007,
+            "name": "난신의 괴력",
+            "nameraw": "<color=#FFFFFFFF>난신의 괴력</color>",
+            "description": "부착 캐릭터가 강공격 시: 가하는 피해+1pt. 만약 사용 가능 횟수가 2 이상일 경우 소모하는 무색 원소가 1개 감소한다.\n사용 가능 횟수: 1 (중첩 가능, 최대 중첩수: 3회)",
+            "descriptionraw": "<color=#FFFFFFFF>부착 캐릭터가 <color=#FFFFFFFF>강공격</color> 시:</color> 가하는 피해+1pt. 만약 <color=#FFFFFFFF>사용 가능 횟수</color>가 2 이상일 경우 소모하는 <color=#FFFFFFFF>{SPRITE_PRESET#1109}무색 원소</color>가 1개 감소한다.\\n<color=#FFFFFFFF><color=#FFFFFFFF>사용 가능 횟수</color>: 1</color> (중첩 가능, 최대 중첩수: 3회)"
+        },
+        "cryodmg": {
+            "id": 101,
+            "name": "얼음 원소 피해",
+            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소 피해</color>",
+            "description": "얼음 원소 부착 시 원소 반응이 발생할 수 있다.\n융해: 이번 피해+2pt\n초전도: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\n빙결: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)",
+            "descriptionraw": "{SPRITE_PRESET#2101}얼음 원소 부착 시 원소 반응이 발생할 수 있다.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>융해</color>: 이번 피해+2pt\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>초전도</color>: 이번 피해+1pt, 대상 이외의 모든 상대 캐릭터에게 관통 피해를 1pt 준다.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>빙결</color>: 이번 피해+1pt, 이번 턴에 대상을 행동 불가로 만든다. (물리 피해 또는 불 원소 피해를 받으면 조기 해제되지만, 해당 피해로 받는 피해량이 2pt 추가된다)"
+        },
+        "durationrounds": {
+            "id": 4,
+            "name": "지속 턴",
+            "nameraw": "<color=#FFFFFFFF>지속 턴</color>",
+            "description": "턴이 종료 단계에 진입할 때마다 지속 턴이 1회씩 감소한다.\n지속 턴이 전부 소진되면 즉시 해당 패를 버린다.",
+            "descriptionraw": "턴이 종료 단계에 진입할 때마다 <color=#FFFFFFFF>지속 턴</color>이 1회씩 감소한다.\\n<color=#FFFFFFFF>지속 턴</color>이 전부 소진되면 즉시 해당 패를 버린다."
+        },
+        "aegisofabyssalflame": {
+            "id": 1006,
+            "name": "심연 불꽃의 가호",
+            "nameraw": "<color=#FFFFFFFF>심연 불꽃의 가호</color>",
+            "description": "부착 캐릭터에게 보호막을 3pt 제공한다.\n해당 보호막이 소진되기 전까지 부착 캐릭터가 가하는 불 원소 피해+1pt",
+            "descriptionraw": "부착 캐릭터에게 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>을 <color=#FFFFFFFF>3pt</color> 제공한다.\\n해당 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>이 소진되기 전까지 부착 캐릭터가 가하는 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>+1pt"
+        },
+        "electro": {
+            "id": 304,
+            "name": "번개 원소",
+            "nameraw": "{SPRITE_PRESET#1104}번개 원소",
+            "description": "굴려서 나온 번개 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
+            "descriptionraw": "굴려서 나온 <color=#FFACFFFF>{SPRITE_PRESET#1104}번개 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
+        },
+        "hydro": {
+            "id": 302,
+            "name": "물 원소",
+            "nameraw": "{SPRITE_PRESET#1102}물 원소",
+            "description": "굴려서 나온 물 원소 주사위를 소모해 사용할 수 있다.\n(만능 원소 사용 가능)",
+            "descriptionraw": "굴려서 나온 <color=#80C0FFFF>{SPRITE_PRESET#1102}물 원소</color> 주사위를 소모해 사용할 수 있다.\\n({SPRITE_PRESET#1111}만능 원소 사용 가능)"
+        },
+        "fatuiambusher": {
+            "id": 1004,
+            "name": "우인단 복병",
+            "nameraw": "<color=#FFFFFFFF>우인단 복병</color>",
+            "description": "「우인단 복병」은 자신이 소속된 진영의 캐릭터 카드가 스킬을 사용하면 발동해, 소속 진영 출전 캐릭터에게 피해를 가한다. (턴당 1회)\n등장할 수 있는 「우인단 복병」은 총 4가지다:\n얼음 치친 술사: 발동 시 얼음 원소 피해를 1pt 준다. (2회 사용 가능)\n거울의 여인: 발동 시 물 원소 피해를 1pt 준다. (2회 사용 가능)\n화승총 유격대: 발동 시 불 원소 피해를 1pt 준다. (2회 사용 가능)\n번개 해머 돌격대: 발동 시 번개 원소 피해를 1pt 준다. (2회 사용 가능)",
+            "descriptionraw": "「우인단 복병」은 자신이 소속된 진영의 캐릭터 카드가 스킬을 사용하면 발동해, 소속 진영 출전 캐릭터에게 피해를 가한다. (턴당 1회)\\n등장할 수 있는 「우인단 복병」은 총 4가지다:\\n<color=#FFFFFFFF>얼음 치친 술사</color>: 발동 시 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소 피해</color>를 1pt 준다. (2회 사용 가능)\\n<color=#FFFFFFFF>거울의 여인</color>: 발동 시 {SPRITE_PRESET#2102}<color=#80C0FFFF>물 원소 피해</color>를 1pt 준다. (2회 사용 가능)\\n<color=#FFFFFFFF>화승총 유격대</color>: 발동 시 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 1pt 준다. (2회 사용 가능)\\n<color=#FFFFFFFF>번개 해머 돌격대</color>: 발동 시 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소 피해</color>를 1pt 준다. (2회 사용 가능)"
+        },
+        "dendrodmg": {
+            "id": 107,
+            "name": "풀 원소 피해",
+            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>풀 원소 피해</color>",
+            "description": "풀 원소 부착 시 다음 원소 반응이 발생할 수 있다.\n개화: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [풀 원핵]을 생성한다.\n연소: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [불타는 화염]을 생성한다. (사용 가능 횟수: 1회, 최대 중첩수: 2)\n활성: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [격화 영역]을 생성한다.",
+            "descriptionraw": "{SPRITE_PRESET#2107}풀 원소 부착 시 다음 원소 반응이 발생할 수 있다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>개화</color>: 이번 피해+1pt, 다음번 불 원소 또는 번개 원소 피해를 2pt 증가시키는 [<color=#FFFFFFFF>풀 원핵</color>]을 생성한다.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>연소</color>: 이번 피해+1pt, 턴 종료 시 불 원소 피해를 1pt 가하는 [<color=#FFFFFFFF>불타는 화염</color>]을 생성한다. (사용 가능 횟수: 1회, 최대 중첩수: 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>활성</color>: 이번 피해+1pt, 다음 2회의 풀 원소 또는 번개 원소 피해를 1pt 증가시키는 [<color=#FFFFFFFF>격화 영역</color>]을 생성한다."
+        },
+        "geodmg": {
+            "id": 106,
+            "name": "바위 원소 피해",
+            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소 피해</color>",
+            "description": "이미 부착된 원소와 원소 반응이 발생한다.\n결정(얼음): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n결정(물): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n결정(불): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\n결정(번개): 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)",
+            "descriptionraw": "이미 부착된 원소와 원소 반응이 발생한다.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>결정(얼음)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>결정(물)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>결정(불)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>결정(번개)</color>: 이번 피해+1pt, 아군 출전 캐릭터가 보호막을 1pt 획득한다. (중첩 가능, 최대 2pt)"
         }
     },
     "meta": {

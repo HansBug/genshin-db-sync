@@ -1,11 +1,11 @@
 {
     "items": {
-        "liyue": {
-            "id": 101,
-            "name": "Liyue",
-            "description": "Vững như mặt trăng, cao như mặt trời.\nĐất đá núi đồi, vạn vật thịnh vượng.",
-            "descriptionraw": "Vững như mặt trăng, cao như mặt trời.\\nĐất đá núi đồi, vạn vật thịnh vượng.",
-            "source": "Phần thưởng khi bài thủ đạt cấp 3",
+        "inazuma": {
+            "id": 102,
+            "name": "Inazuma",
+            "description": "Tia chớp lóe lên rồi vụt tắt, sấm sét cô độc giữa trời cao.\nGiấc mộng tương phùng rồi ly biệt, thế sự vô thường có ngờ đâu.",
+            "descriptionraw": "Tia chớp lóe lên rồi vụt tắt, sấm sét cô độc giữa trời cao.\\nGiấc mộng tương phùng rồi ly biệt, thế sự vô thường có ngờ đâu.",
+            "source": "Phần thưởng khi bài thủ đạt cấp 5",
             "rarity": 4
         },
         "sumeru": {
@@ -16,20 +16,20 @@
             "source": "Phần thưởng khi bài thủ đạt cấp 7",
             "rarity": 4
         },
+        "liyue": {
+            "id": 101,
+            "name": "Liyue",
+            "description": "Vững như mặt trăng, cao như mặt trời.\nĐất đá núi đồi, vạn vật thịnh vượng.",
+            "descriptionraw": "Vững như mặt trăng, cao như mặt trời.\\nĐất đá núi đồi, vạn vật thịnh vượng.",
+            "source": "Phần thưởng khi bài thủ đạt cấp 3",
+            "rarity": 4
+        },
         "mondstadt": {
             "id": 100,
             "name": "Mondstadt",
             "description": "Làn gió thì thầm không ngừng khảy nhẹ dây đàn, tạo nên khúc nhạc du dương.\nLời thì thầm của gió và hoa bị thổi tung, rồi rơi vào lòng suối trong veo.",
             "descriptionraw": "Làn gió thì thầm không ngừng khảy nhẹ dây đàn, tạo nên khúc nhạc du dương.\\nLời thì thầm của gió và hoa bị thổi tung, rồi rơi vào lòng suối trong veo.",
             "source": "Lần đầu nhận được",
-            "rarity": 4
-        },
-        "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
-            "description": "Tia chớp lóe lên rồi vụt tắt, sấm sét cô độc giữa trời cao.\nGiấc mộng tương phùng rồi ly biệt, thế sự vô thường có ngờ đâu.",
-            "descriptionraw": "Tia chớp lóe lên rồi vụt tắt, sấm sét cô độc giữa trời cao.\\nGiấc mộng tương phùng rồi ly biệt, thế sự vô thường có ngờ đâu.",
-            "source": "Phần thưởng khi bài thủ đạt cấp 5",
             "rarity": 4
         }
     },
