@@ -1,284 +1,308 @@
 {
     "items": {
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "New deck-saving slot(s) unlocked\nNew Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Liyue",
-            "unlockdescriptionraw": "New deck-saving slot(s) unlocked\\nNew Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Match Invitation Letter",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Matchmaking via the invitation board unlocked\nNew Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Liyue",
-            "unlockdescriptionraw": "Matchmaking via the invitation board unlocked\\nNew Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Match Invitation Letter",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Weekly Guest Challenges unlocked\nNew available player(s) to challenge in Mondstadt",
-            "unlockdescriptionraw": "Weekly Guest Challenges unlocked\\nNew available player(s) to challenge in Mondstadt",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Match Invitation Letter",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "Mondstadt",
-                    "count": 1
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "5",
-            "exp": 1450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "New deck-saving slot(s) unlocked\nNew Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Inazuma",
-            "unlockdescriptionraw": "New deck-saving slot(s) unlocked\\nNew Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Match Invitation Letter",
-                    "count": 1
-                },
-                {
-                    "id": 339502,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
         "1": {
-            "id": 1,
-            "name": "1",
             "exp": 300,
             "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Invitationals unlocked\nCo-Op Match unlocked\nCard Shop unlocked\nPlayer Manual unlocked\nNew available player(s) to challenge in Mondstadt",
-            "unlockdescriptionraw": "Invitationals unlocked\\nCo-Op Match unlocked\\nCard Shop unlocked\\nPlayer Manual unlocked\\nNew available player(s) to challenge in Mondstadt",
+            "id": 1,
+            "name": "1",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Primogem",
-                    "count": 60
+                    "name": "Primogem"
                 },
                 {
+                    "count": 1,
                     "id": 107020,
-                    "name": "Match Invitation Letter",
-                    "count": 1
+                    "name": "Match Invitation Letter"
                 },
                 {
+                    "count": 500,
                     "id": 107021,
-                    "name": "Lucky Coin",
-                    "count": 500
+                    "name": "Lucky Coin"
                 }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "6",
-            "exp": 1600,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "New Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Inazuma",
-            "unlockdescriptionraw": "New Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Match Invitation Letter",
-                    "count": 1
-                },
-                {
-                    "id": 339003,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "8",
-            "exp": 1900,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "New Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Sumeru",
-            "unlockdescriptionraw": "New Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Match Invitation Letter",
-                    "count": 1
-                },
-                {
-                    "id": 339004,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "9",
-            "exp": 2450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "New available player(s) to challenge in Sumeru",
-            "unlockdescriptionraw": "New available player(s) to challenge in Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "Blank Dynamic Card",
-                    "count": 1
-                },
-                {
-                    "id": 107020,
-                    "name": "Match Invitation Letter",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "New deck-saving slot(s) unlocked\nNew Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Sumeru",
-            "unlockdescriptionraw": "New deck-saving slot(s) unlocked\\nNew Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Match Invitation Letter",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
+            ],
+            "unlockdescription": "Invitationals unlocked\nCo-Op Match unlocked\nCard Shop unlocked\nPlayer Manual unlocked\nNew available player(s) to challenge in Mondstadt",
+            "unlockdescriptionraw": "Invitationals unlocked\\nCo-Op Match unlocked\\nCard Shop unlocked\\nPlayer Manual unlocked\\nNew available player(s) to challenge in Mondstadt"
         },
         "10": {
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
             "id": 10,
             "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "New deck-saving slot(s) unlocked\nNew available player(s) to challenge",
-            "unlockdescriptionraw": "New deck-saving slot(s) unlocked\\nNew available player(s) to challenge",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Primogem",
-                    "count": 60
+                    "name": "Primogem"
                 },
                 {
+                    "count": 1,
                     "id": 107019,
-                    "name": "Blank Dynamic Card",
-                    "count": 1
+                    "name": "Blank Dynamic Card"
                 },
                 {
+                    "count": 1,
                     "id": 339009,
-                    "name": "Legend",
-                    "count": 1
+                    "name": "Legend"
                 }
-            ]
+            ],
+            "unlockdescription": "New deck-saving slot(s) unlocked\nNew available player(s) to challenge",
+            "unlockdescriptionraw": "New deck-saving slot(s) unlocked\\nNew available player(s) to challenge"
+        },
+        "2": {
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "id": 2,
+            "name": "2",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Match Invitation Letter"
+                },
+                {
+                    "count": 1,
+                    "id": 339001,
+                    "name": "Mondstadt"
+                }
+            ],
+            "unlockdescription": "Weekly Guest Challenges unlocked\nNew available player(s) to challenge in Mondstadt",
+            "unlockdescriptionraw": "Weekly Guest Challenges unlocked\\nNew available player(s) to challenge in Mondstadt"
+        },
+        "3": {
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 3,
+            "name": "3",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Match Invitation Letter"
+                },
+                {
+                    "count": 1,
+                    "id": 339501,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "New deck-saving slot(s) unlocked\nNew Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Liyue",
+            "unlockdescriptionraw": "New deck-saving slot(s) unlocked\\nNew Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Liyue"
+        },
+        "4": {
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 4,
+            "name": "4",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Match Invitation Letter"
+                },
+                {
+                    "count": 1,
+                    "id": 339002,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Matchmaking via the invitation board unlocked\nNew Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Liyue",
+            "unlockdescriptionraw": "Matchmaking via the invitation board unlocked\\nNew Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Liyue"
+        },
+        "5": {
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 5,
+            "name": "5",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Match Invitation Letter"
+                },
+                {
+                    "count": 1,
+                    "id": 339502,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "New deck-saving slot(s) unlocked\nNew Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Inazuma",
+            "unlockdescriptionraw": "New deck-saving slot(s) unlocked\\nNew Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Inazuma"
+        },
+        "6": {
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 6,
+            "name": "6",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Match Invitation Letter"
+                },
+                {
+                    "count": 1,
+                    "id": 339003,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "New Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Inazuma",
+            "unlockdescriptionraw": "New Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Inazuma"
+        },
+        "7": {
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 7,
+            "name": "7",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Match Invitation Letter"
+                },
+                {
+                    "count": 1,
+                    "id": 339503,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "New deck-saving slot(s) unlocked\nNew Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Sumeru",
+            "unlockdescriptionraw": "New deck-saving slot(s) unlocked\\nNew Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Sumeru"
+        },
+        "8": {
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 8,
+            "name": "8",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Match Invitation Letter"
+                },
+                {
+                    "count": 1,
+                    "id": 339004,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "New Tavern Challenge(s) unlocked\nNew available player(s) to challenge in Sumeru",
+            "unlockdescriptionraw": "New Tavern Challenge(s) unlocked\\nNew available player(s) to challenge in Sumeru"
+        },
+        "9": {
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 9,
+            "name": "9",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107019,
+                    "name": "Blank Dynamic Card"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Match Invitation Letter"
+                }
+            ],
+            "unlockdescription": "New available player(s) to challenge in Sumeru",
+            "unlockdescriptionraw": "New available player(s) to challenge in Sumeru"
         }
     },
     "meta": {
-        "namemap": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
-        "names": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
         "aliases": {},
         "categories": {
+            "Blank Dynamic Card": [
+                "10",
+                "9"
+            ],
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
             "GCG_LEVEL_ICON_TYPE_NONE": [
                 "1",
+                "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "Inazuma": [
+                "5",
+                "6"
+            ],
+            "Legend": [
+                "10"
+            ],
+            "Liyue": [
+                "3",
+                "4"
+            ],
+            "Lucky Coin": [
+                "1"
+            ],
+            "Match Invitation Letter": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Mondstadt": [
                 "2"
             ],
             "Primogem": [
@@ -293,58 +317,34 @@
                 "8",
                 "9"
             ],
-            "Match Invitation Letter": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9"
-            ],
-            "Lucky Coin": [
-                "1"
-            ],
-            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
-                "10"
-            ],
-            "Blank Dynamic Card": [
-                "10",
-                "9"
-            ],
-            "Legend": [
-                "10"
-            ],
-            "Mondstadt": [
-                "2"
-            ],
-            "GCG_LEVEL_ICON_TYPE_COPPER": [
-                "3",
-                "4"
-            ],
-            "Liyue": [
-                "3",
-                "4"
-            ],
-            "GCG_LEVEL_ICON_TYPE_SILIVER": [
-                "5",
-                "6"
-            ],
-            "Inazuma": [
-                "5",
-                "6"
-            ],
-            "GCG_LEVEL_ICON_TYPE_GOLD": [
-                "7",
-                "8",
-                "9"
-            ],
             "Sumeru": [
                 "7",
                 "8"
             ]
+        },
+        "namemap": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
+        },
+        "names": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
         },
         "properties": {
             "icontype": [

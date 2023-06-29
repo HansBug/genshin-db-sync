@@ -1,285 +1,288 @@
 {
     "items": {
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Yeni deste depolama yuvaları açıldı.\nYeni Han Mücadeleleri açıldı.\nLiyue'de mücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Yeni deste depolama yuvaları açıldı.\\nYeni Han Mücadeleleri açıldı.\\nLiyue'de mücadele edilebilecek yeni oyuncular mevcut.",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Oyun Davet Mektubu",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Davet panosu ile eşleştirme açıldı.\nYeni Han Mücadeleleri açıldı.\nLiyue'de mücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Davet panosu ile eşleştirme açıldı.\\nYeni Han Mücadeleleri açıldı.\\nLiyue'de mücadele edilebilecek yeni oyuncular mevcut.",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Oyun Davet Mektubu",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Haftalık Misafir Mücadeleleri açıldı.\nMondstadt'ta mücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Haftalık Misafir Mücadeleleri açıldı.\\nMondstadt'ta mücadele edilebilecek yeni oyuncular mevcut.",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Oyun Davet Mektubu",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "Mondstadt",
-                    "count": 1
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "5",
-            "exp": 1450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Yeni deste depolama yuvaları açıldı.\nYeni Han Mücadeleleri açıldı.\nInazuma'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Yeni deste depolama yuvaları açıldı.\\nYeni Han Mücadeleleri açıldı.\\nInazuma'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Oyun Davet Mektubu",
-                    "count": 1
-                },
-                {
-                    "id": 339502,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
         "1": {
-            "id": 1,
-            "name": "1",
             "exp": 300,
             "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Davet etme açıldı.\nEşli Düello açıldı.\nKart Dükkanı açıldı.\nOyuncu Rehberi açıldı.\nMondstadt'ta mücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Davet etme açıldı.\\nEşli Düello açıldı.\\nKart Dükkanı açıldı.\\nOyuncu Rehberi açıldı.\\nMondstadt'ta mücadele edilebilecek yeni oyuncular mevcut.",
+            "id": 1,
+            "name": "1",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
+                    "name": "Köken Taşı"
                 },
                 {
+                    "count": 1,
                     "id": 107020,
-                    "name": "Oyun Davet Mektubu",
-                    "count": 1
+                    "name": "Oyun Davet Mektubu"
                 },
                 {
+                    "count": 500,
                     "id": 107021,
-                    "name": "Şans Parası",
-                    "count": 500
+                    "name": "Şans Parası"
                 }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "6",
-            "exp": 1600,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Yeni Han Mücadeleleri açıldı.\nInazuma'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Yeni Han Mücadeleleri açıldı.\\nInazuma'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Oyun Davet Mektubu",
-                    "count": 1
-                },
-                {
-                    "id": 339003,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "8",
-            "exp": 1900,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Yeni Han Mücadeleleri açıldı.\nSumeru'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Yeni Han Mücadeleleri açıldı.\\nSumeru'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Oyun Davet Mektubu",
-                    "count": 1
-                },
-                {
-                    "id": 339004,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "9",
-            "exp": 2450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Sumeru'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Sumeru'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "Boş Hologramlı Kart",
-                    "count": 1
-                },
-                {
-                    "id": 107020,
-                    "name": "Oyun Davet Mektubu",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Yeni deste depolama yuvaları açıldı.\nYeni Han Mücadeleleri açıldı.\nSumeru'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Yeni deste depolama yuvaları açıldı.\\nYeni Han Mücadeleleri açıldı.\\nSumeru'da mücadele edilebilecek yeni oyuncular mevcut.",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Oyun Davet Mektubu",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
+            ],
+            "unlockdescription": "Davet etme açıldı.\nEşli Düello açıldı.\nKart Dükkanı açıldı.\nOyuncu Rehberi açıldı.\nMondstadt'ta mücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Davet etme açıldı.\\nEşli Düello açıldı.\\nKart Dükkanı açıldı.\\nOyuncu Rehberi açıldı.\\nMondstadt'ta mücadele edilebilecek yeni oyuncular mevcut."
         },
         "10": {
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
             "id": 10,
             "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "Yeni deste depolama yuvaları açıldı.\nMücadele edilebilecek yeni oyuncular mevcut.",
-            "unlockdescriptionraw": "Yeni deste depolama yuvaları açıldı.\\nMücadele edilebilecek yeni oyuncular mevcut.",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Köken Taşı",
-                    "count": 60
+                    "name": "Köken Taşı"
                 },
                 {
+                    "count": 1,
                     "id": 107019,
-                    "name": "Boş Hologramlı Kart",
-                    "count": 1
+                    "name": "Boş Hologramlı Kart"
                 },
                 {
+                    "count": 1,
                     "id": 339009,
-                    "name": "Efsanevi",
-                    "count": 1
+                    "name": "Efsanevi"
                 }
-            ]
+            ],
+            "unlockdescription": "Yeni deste depolama yuvaları açıldı.\nMücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Yeni deste depolama yuvaları açıldı.\\nMücadele edilebilecek yeni oyuncular mevcut."
+        },
+        "2": {
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "id": 2,
+            "name": "2",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Köken Taşı"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Oyun Davet Mektubu"
+                },
+                {
+                    "count": 1,
+                    "id": 339001,
+                    "name": "Mondstadt"
+                }
+            ],
+            "unlockdescription": "Haftalık Misafir Mücadeleleri açıldı.\nMondstadt'ta mücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Haftalık Misafir Mücadeleleri açıldı.\\nMondstadt'ta mücadele edilebilecek yeni oyuncular mevcut."
+        },
+        "3": {
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 3,
+            "name": "3",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Köken Taşı"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Oyun Davet Mektubu"
+                },
+                {
+                    "count": 1,
+                    "id": 339501,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Yeni deste depolama yuvaları açıldı.\nYeni Han Mücadeleleri açıldı.\nLiyue'de mücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Yeni deste depolama yuvaları açıldı.\\nYeni Han Mücadeleleri açıldı.\\nLiyue'de mücadele edilebilecek yeni oyuncular mevcut."
+        },
+        "4": {
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 4,
+            "name": "4",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Köken Taşı"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Oyun Davet Mektubu"
+                },
+                {
+                    "count": 1,
+                    "id": 339002,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Davet panosu ile eşleştirme açıldı.\nYeni Han Mücadeleleri açıldı.\nLiyue'de mücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Davet panosu ile eşleştirme açıldı.\\nYeni Han Mücadeleleri açıldı.\\nLiyue'de mücadele edilebilecek yeni oyuncular mevcut."
+        },
+        "5": {
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 5,
+            "name": "5",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Köken Taşı"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Oyun Davet Mektubu"
+                },
+                {
+                    "count": 1,
+                    "id": 339502,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Yeni deste depolama yuvaları açıldı.\nYeni Han Mücadeleleri açıldı.\nInazuma'da mücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Yeni deste depolama yuvaları açıldı.\\nYeni Han Mücadeleleri açıldı.\\nInazuma'da mücadele edilebilecek yeni oyuncular mevcut."
+        },
+        "6": {
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 6,
+            "name": "6",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Köken Taşı"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Oyun Davet Mektubu"
+                },
+                {
+                    "count": 1,
+                    "id": 339003,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Yeni Han Mücadeleleri açıldı.\nInazuma'da mücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Yeni Han Mücadeleleri açıldı.\\nInazuma'da mücadele edilebilecek yeni oyuncular mevcut."
+        },
+        "7": {
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 7,
+            "name": "7",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Köken Taşı"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Oyun Davet Mektubu"
+                },
+                {
+                    "count": 1,
+                    "id": 339503,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Yeni deste depolama yuvaları açıldı.\nYeni Han Mücadeleleri açıldı.\nSumeru'da mücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Yeni deste depolama yuvaları açıldı.\\nYeni Han Mücadeleleri açıldı.\\nSumeru'da mücadele edilebilecek yeni oyuncular mevcut."
+        },
+        "8": {
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 8,
+            "name": "8",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Köken Taşı"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Oyun Davet Mektubu"
+                },
+                {
+                    "count": 1,
+                    "id": 339004,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Yeni Han Mücadeleleri açıldı.\nSumeru'da mücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Yeni Han Mücadeleleri açıldı.\\nSumeru'da mücadele edilebilecek yeni oyuncular mevcut."
+        },
+        "9": {
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 9,
+            "name": "9",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Köken Taşı"
+                },
+                {
+                    "count": 1,
+                    "id": 107019,
+                    "name": "Boş Hologramlı Kart"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Oyun Davet Mektubu"
+                }
+            ],
+            "unlockdescription": "Sumeru'da mücadele edilebilecek yeni oyuncular mevcut.",
+            "unlockdescriptionraw": "Sumeru'da mücadele edilebilecek yeni oyuncular mevcut."
         }
     },
     "meta": {
-        "namemap": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
-        "names": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
         "aliases": {},
         "categories": {
+            "Boş Hologramlı Kart": [
+                "10",
+                "9"
+            ],
+            "Efsanevi": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
             "GCG_LEVEL_ICON_TYPE_NONE": [
                 "1",
                 "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "Inazuma": [
+                "5",
+                "6"
             ],
             "Köken Taşı": [
                 "1",
@@ -293,6 +296,13 @@
                 "8",
                 "9"
             ],
+            "Liyue": [
+                "3",
+                "4"
+            ],
+            "Mondstadt": [
+                "2"
+            ],
             "Oyun Davet Mektubu": [
                 "1",
                 "2",
@@ -304,47 +314,37 @@
                 "8",
                 "9"
             ],
-            "Şans Parası": [
-                "1"
-            ],
-            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
-                "10"
-            ],
-            "Boş Hologramlı Kart": [
-                "10",
-                "9"
-            ],
-            "Efsanevi": [
-                "10"
-            ],
-            "Mondstadt": [
-                "2"
-            ],
-            "GCG_LEVEL_ICON_TYPE_COPPER": [
-                "3",
-                "4"
-            ],
-            "Liyue": [
-                "3",
-                "4"
-            ],
-            "GCG_LEVEL_ICON_TYPE_SILIVER": [
-                "5",
-                "6"
-            ],
-            "Inazuma": [
-                "5",
-                "6"
-            ],
-            "GCG_LEVEL_ICON_TYPE_GOLD": [
-                "7",
-                "8",
-                "9"
-            ],
             "Sumeru": [
                 "7",
                 "8"
+            ],
+            "Şans Parası": [
+                "1"
             ]
+        },
+        "namemap": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
+        },
+        "names": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
         },
         "properties": {
             "icontype": [

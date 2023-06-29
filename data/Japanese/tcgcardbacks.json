@@ -1,201 +1,159 @@
 {
     "items": {
-        "inazuma": {
-            "id": 103,
-            "name": "稲妻",
-            "description": "手札を出すのは電光石火の如く一瞬。手札を出すのが早ければ早いほど、須臾にして決着はつく。",
-            "descriptionraw": "手札を出すのは電光石火の如く一瞬。手札を出すのが早ければ早いほど、須臾にして決着はつく。",
-            "source": "プレイヤーランクを6まで上げるとランク報酬で獲得",
-            "rarity": 3
-        },
-        "origin": {
-            "id": 100,
-            "name": "原初",
-            "description": "昼夜の間に、天地の間に、\nそれは様々な幻想と希望を歩む旅路である。",
-            "descriptionraw": "昼夜の間に、天地の間に、\\nそれは様々な幻想と希望を歩む旅路である。",
-            "source": "初期獲得",
-            "rarity": 3
-        },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "霧氷花の花蕊",
-            "description": "「面子を保ったまま負けを認めるのが、あなたの結末だ。」",
-            "descriptionraw": "「面子を保ったまま負けを認めるのが、あなたの結末だ。」",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
-        "cecilia": {
-            "id": 118,
-            "name": "セシリアの花",
-            "description": "冷たい風と露を共にする者だけが、初生の曙を独占する資格を持つのだろうか？",
-            "descriptionraw": "冷たい風と露を共にする者だけが、初生の曙を独占する資格を持つのだろうか？",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "水晶の塊",
-            "description": "適切に鍛え上げることこそが、埋もれた原石に異彩を放たせる肝となる。",
-            "descriptionraw": "適切に鍛え上げることこそが、埋もれた原石に異彩を放たせる肝となる。",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
         "adept": {
-            "id": 110,
-            "name": "達人",
             "description": "解けない難題がなければ、できないこともない。あなたに祝杯を！",
             "descriptionraw": "解けない難題がなければ、できないこともない。あなたに祝杯を！",
-            "source": "プレイヤーハンドブックの第四局にあるすべての目標をクリアすると獲得",
-            "rarity": 3
+            "id": 110,
+            "name": "達人",
+            "rarity": 3,
+            "source": "プレイヤーハンドブックの第四局にあるすべての目標をクリアすると獲得"
         },
         "amethystlump": {
-            "id": 113,
-            "name": "紫水晶の塊",
             "description": "その土地に合わせて行動するのも知恵の一つである。",
             "descriptionraw": "その土地に合わせて行動するのも知恵の一つである。",
-            "source": "カードショップで購入",
-            "rarity": 3
+            "id": 113,
+            "name": "紫水晶の塊",
+            "rarity": 3,
+            "source": "カードショップで購入"
         },
-        "sumeru": {
-            "id": 104,
-            "name": "スメール",
-            "description": "一手、二手先を読むことは、初心者でもできること。手練れのプレイヤーなら五十手、百手先を読むことができるはず。\nこれくらい簡単だろう？",
-            "descriptionraw": "一手、二手先を読むことは、初心者でもできること。手練れのプレイヤーなら五十手、百手先を読むことができるはず。\\nこれくらい簡単だろう？",
-            "source": "プレイヤーランクを8まで上げるとランク報酬で獲得",
-            "rarity": 3
+        "cecilia": {
+            "description": "冷たい風と露を共にする者だけが、初生の曙を独占する資格を持つのだろうか？",
+            "descriptionraw": "冷たい風と露を共にする者だけが、初生の曙を独占する資格を持つのだろうか？",
+            "id": 118,
+            "name": "セシリアの花",
+            "rarity": 3,
+            "source": "カードショップで購入"
         },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "魔晶の塊",
-            "description": "時間がそれに価値を与える。",
-            "descriptionraw": "時間がそれに価値を与える。",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
-        "dendrobium": {
-            "id": 120,
-            "name": "血石華",
-            "description": "すべての闘争が、このテーブルの上にあるならば…",
-            "descriptionraw": "すべての闘争が、このテーブルの上にあるならば…",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
-        "liyue": {
-            "id": 102,
-            "name": "璃月",
-            "description": "千里の道も一歩から。盤石なデッキを組むことで勝利の道を歩もう。",
-            "descriptionraw": "千里の道も一歩から。盤石なデッキを組むことで勝利の道を歩もう。",
-            "source": "プレイヤーランクを4まで上げるとランク報酬で獲得",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "烈焔花の花蕊",
-            "description": "「我が燃え盛るプレイヤー魂よ！」",
-            "descriptionraw": "「我が燃え盛るプレイヤー魂よ！」",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "ラピスラズリワール",
-            "description": "有名な絵師「白亜」に特注したカードの裏面。\n「この小さな戦場で、東風の龍のようにその翼をより自由に羽ばたかせよう！」",
-            "descriptionraw": "有名な絵師「白亜」に特注したカードの裏面。\\n「この小さな戦場で、東風の龍のようにその翼をより自由に羽ばたかせよう！」",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
-        "glazelily": {
-            "id": 119,
-            "name": "琉璃百合",
-            "description": "人の世の旧事はすべて消え去り、ただ花の名前のみそこに残る。",
-            "descriptionraw": "人の世の旧事はすべて消え去り、ただ花の名前のみそこに残る。",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
-        "electrocrystal": {
-            "id": 116,
-            "name": "電気水晶",
-            "description": "発破をかけるのって、本当に効くの？炎で爆発するのはこれだけではない。",
-            "descriptionraw": "発破をかけるのって、本当に効くの？炎で爆発するのはこれだけではない。",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "札にある秘宝",
-            "description": "宝物の獲得と使用は一瞬のこと。しかし、中に収められた物はいずれも異なる。今この時、あなたのカードにはどんな宝物が隠されているのだろうか？",
-            "descriptionraw": "宝物の獲得と使用は一瞬のこと。しかし、中に収められた物はいずれも異なる。今この時、あなたのカードにはどんな宝物が隠されているのだろうか？",
-            "source": "カードショップで購入",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "モンド",
-            "description": "カードプレイでもっとも大切なのは自由である。\n自由にデッキを組んで、自由に相手を選んで、そして自由に次の手札を出す。\n…もしかしたら、自由にカードプレイせずに、自由に手札を持って自由なことをするのもいいかもしれない？",
-            "descriptionraw": "カードプレイでもっとも大切なのは自由である。\\n自由にデッキを組んで、自由に相手を選んで、そして自由に次の手札を出す。\\n…もしかしたら、自由にカードプレイせずに、自由に手札を持って自由なことをするのもいいかもしれない？",
-            "source": "プレイヤーランクを2まで上げるとランク報酬で獲得",
-            "rarity": 3
-        },
-        "legend": {
-            "id": 109,
-            "name": "レジェンド",
-            "description": "プレイヤーとしての道はかなり歩んできたが、目の前にはまだまだ長い道のりが待っている。",
-            "descriptionraw": "プレイヤーとしての道はかなり歩んできたが、目の前にはまだまだ長い道のりが待っている。",
-            "source": "プレイヤーランクを10まで上げるとランク報酬で獲得",
-            "rarity": 3
+        "crystalchunk": {
+            "description": "適切に鍛え上げることこそが、埋もれた原石に異彩を放たせる肝となる。",
+            "descriptionraw": "適切に鍛え上げることこそが、埋もれた原石に異彩を放たせる肝となる。",
+            "id": 111,
+            "name": "水晶の塊",
+            "rarity": 3,
+            "source": "カードショップで購入"
         },
         "dandelionseed": {
-            "id": 117,
-            "name": "蒲公英の種",
             "description": "「待つ」のはいつも希望と隣り合わせ。",
             "descriptionraw": "「待つ」のはいつも希望と隣り合わせ。",
-            "source": "カードショップで購入",
-            "rarity": 3
+            "id": 117,
+            "name": "蒲公英の種",
+            "rarity": 3,
+            "source": "カードショップで購入"
+        },
+        "dendrobium": {
+            "description": "すべての闘争が、このテーブルの上にあるならば…",
+            "descriptionraw": "すべての闘争が、このテーブルの上にあるならば…",
+            "id": 120,
+            "name": "血石華",
+            "rarity": 3,
+            "source": "カードショップで購入"
+        },
+        "electrocrystal": {
+            "description": "発破をかけるのって、本当に効くの？炎で爆発するのはこれだけではない。",
+            "descriptionraw": "発破をかけるのって、本当に効くの？炎で爆発するのはこれだけではない。",
+            "id": 116,
+            "name": "電気水晶",
+            "rarity": 3,
+            "source": "カードショップで購入"
+        },
+        "flamingflowerstamen": {
+            "description": "「我が燃え盛るプレイヤー魂よ！」",
+            "descriptionraw": "「我が燃え盛るプレイヤー魂よ！」",
+            "id": 114,
+            "name": "烈焔花の花蕊",
+            "rarity": 3,
+            "source": "カードショップで購入"
+        },
+        "glazelily": {
+            "description": "人の世の旧事はすべて消え去り、ただ花の名前のみそこに残る。",
+            "descriptionraw": "人の世の旧事はすべて消え去り、ただ花の名前のみそこに残る。",
+            "id": 119,
+            "name": "琉璃百合",
+            "rarity": 3,
+            "source": "カードショップで購入"
+        },
+        "inazuma": {
+            "description": "手札を出すのは電光石火の如く一瞬。手札を出すのが早ければ早いほど、須臾にして決着はつく。",
+            "descriptionraw": "手札を出すのは電光石火の如く一瞬。手札を出すのが早ければ早いほど、須臾にして決着はつく。",
+            "id": 103,
+            "name": "稲妻",
+            "rarity": 3,
+            "source": "プレイヤーランクを6まで上げるとランク報酬で獲得"
+        },
+        "lazuriteswirl": {
+            "description": "有名な絵師「白亜」に特注したカードの裏面。\n「この小さな戦場で、東風の龍のようにその翼をより自由に羽ばたかせよう！」",
+            "descriptionraw": "有名な絵師「白亜」に特注したカードの裏面。\\n「この小さな戦場で、東風の龍のようにその翼をより自由に羽ばたかせよう！」",
+            "id": 121,
+            "name": "ラピスラズリワール",
+            "rarity": 3,
+            "source": "カードショップで購入"
+        },
+        "legend": {
+            "description": "プレイヤーとしての道はかなり歩んできたが、目の前にはまだまだ長い道のりが待っている。",
+            "descriptionraw": "プレイヤーとしての道はかなり歩んできたが、目の前にはまだまだ長い道のりが待っている。",
+            "id": 109,
+            "name": "レジェンド",
+            "rarity": 3,
+            "source": "プレイヤーランクを10まで上げるとランク報酬で獲得"
+        },
+        "liyue": {
+            "description": "千里の道も一歩から。盤石なデッキを組むことで勝利の道を歩もう。",
+            "descriptionraw": "千里の道も一歩から。盤石なデッキを組むことで勝利の道を歩もう。",
+            "id": 102,
+            "name": "璃月",
+            "rarity": 3,
+            "source": "プレイヤーランクを4まで上げるとランク報酬で獲得"
+        },
+        "magicalcrystalchunk": {
+            "description": "時間がそれに価値を与える。",
+            "descriptionraw": "時間がそれに価値を与える。",
+            "id": 112,
+            "name": "魔晶の塊",
+            "rarity": 3,
+            "source": "カードショップで購入"
+        },
+        "mistflowercorolla": {
+            "description": "「面子を保ったまま負けを認めるのが、あなたの結末だ。」",
+            "descriptionraw": "「面子を保ったまま負けを認めるのが、あなたの結末だ。」",
+            "id": 115,
+            "name": "霧氷花の花蕊",
+            "rarity": 3,
+            "source": "カードショップで購入"
+        },
+        "mondstadt": {
+            "description": "カードプレイでもっとも大切なのは自由である。\n自由にデッキを組んで、自由に相手を選んで、そして自由に次の手札を出す。\n…もしかしたら、自由にカードプレイせずに、自由に手札を持って自由なことをするのもいいかもしれない？",
+            "descriptionraw": "カードプレイでもっとも大切なのは自由である。\\n自由にデッキを組んで、自由に相手を選んで、そして自由に次の手札を出す。\\n…もしかしたら、自由にカードプレイせずに、自由に手札を持って自由なことをするのもいいかもしれない？",
+            "id": 101,
+            "name": "モンド",
+            "rarity": 3,
+            "source": "プレイヤーランクを2まで上げるとランク報酬で獲得"
+        },
+        "origin": {
+            "description": "昼夜の間に、天地の間に、\nそれは様々な幻想と希望を歩む旅路である。",
+            "descriptionraw": "昼夜の間に、天地の間に、\\nそれは様々な幻想と希望を歩む旅路である。",
+            "id": 100,
+            "name": "原初",
+            "rarity": 3,
+            "source": "初期獲得"
+        },
+        "sumeru": {
+            "description": "一手、二手先を読むことは、初心者でもできること。手練れのプレイヤーなら五十手、百手先を読むことができるはず。\nこれくらい簡単だろう？",
+            "descriptionraw": "一手、二手先を読むことは、初心者でもできること。手練れのプレイヤーなら五十手、百手先を読むことができるはず。\\nこれくらい簡単だろう？",
+            "id": 104,
+            "name": "スメール",
+            "rarity": 3,
+            "source": "プレイヤーランクを8まで上げるとランク報酬で獲得"
+        },
+        "treasuresofthedeck": {
+            "description": "宝物の獲得と使用は一瞬のこと。しかし、中に収められた物はいずれも異なる。今この時、あなたのカードにはどんな宝物が隠されているのだろうか？",
+            "descriptionraw": "宝物の獲得と使用は一瞬のこと。しかし、中に収められた物はいずれも異なる。今この時、あなたのカードにはどんな宝物が隠されているのだろうか？",
+            "id": 122,
+            "name": "札にある秘宝",
+            "rarity": 3,
+            "source": "カードショップで購入"
         }
     },
     "meta": {
-        "namemap": {
-            "adept": "達人",
-            "amethystlump": "紫水晶の塊",
-            "cecilia": "セシリアの花",
-            "crystalchunk": "水晶の塊",
-            "dandelionseed": "蒲公英の種",
-            "dendrobium": "血石華",
-            "electrocrystal": "電気水晶",
-            "flamingflowerstamen": "烈焔花の花蕊",
-            "glazelily": "琉璃百合",
-            "inazuma": "稲妻",
-            "lazuriteswirl": "ラピスラズリワール",
-            "legend": "レジェンド",
-            "liyue": "璃月",
-            "magicalcrystalchunk": "魔晶の塊",
-            "mistflowercorolla": "霧氷花の花蕊",
-            "mondstadt": "モンド",
-            "origin": "原初",
-            "sumeru": "スメール",
-            "treasuresofthedeck": "札にある秘宝"
-        },
-        "names": {
-            "達人": "adept",
-            "紫水晶の塊": "amethystlump",
-            "セシリアの花": "cecilia",
-            "水晶の塊": "crystalchunk",
-            "蒲公英の種": "dandelionseed",
-            "血石華": "dendrobium",
-            "電気水晶": "electrocrystal",
-            "烈焔花の花蕊": "flamingflowerstamen",
-            "琉璃百合": "glazelily",
-            "稲妻": "inazuma",
-            "ラピスラズリワール": "lazuriteswirl",
-            "レジェンド": "legend",
-            "璃月": "liyue",
-            "魔晶の塊": "magicalcrystalchunk",
-            "霧氷花の花蕊": "mistflowercorolla",
-            "モンド": "mondstadt",
-            "原初": "origin",
-            "スメール": "sumeru",
-            "札にある秘宝": "treasuresofthedeck"
-        },
         "aliases": {},
         "categories": {
             "3": [
@@ -219,6 +177,48 @@
                 "sumeru",
                 "treasuresofthedeck"
             ]
+        },
+        "namemap": {
+            "adept": "達人",
+            "amethystlump": "紫水晶の塊",
+            "cecilia": "セシリアの花",
+            "crystalchunk": "水晶の塊",
+            "dandelionseed": "蒲公英の種",
+            "dendrobium": "血石華",
+            "electrocrystal": "電気水晶",
+            "flamingflowerstamen": "烈焔花の花蕊",
+            "glazelily": "琉璃百合",
+            "inazuma": "稲妻",
+            "lazuriteswirl": "ラピスラズリワール",
+            "legend": "レジェンド",
+            "liyue": "璃月",
+            "magicalcrystalchunk": "魔晶の塊",
+            "mistflowercorolla": "霧氷花の花蕊",
+            "mondstadt": "モンド",
+            "origin": "原初",
+            "sumeru": "スメール",
+            "treasuresofthedeck": "札にある秘宝"
+        },
+        "names": {
+            "スメール": "sumeru",
+            "セシリアの花": "cecilia",
+            "モンド": "mondstadt",
+            "ラピスラズリワール": "lazuriteswirl",
+            "レジェンド": "legend",
+            "原初": "origin",
+            "札にある秘宝": "treasuresofthedeck",
+            "水晶の塊": "crystalchunk",
+            "烈焔花の花蕊": "flamingflowerstamen",
+            "琉璃百合": "glazelily",
+            "璃月": "liyue",
+            "稲妻": "inazuma",
+            "紫水晶の塊": "amethystlump",
+            "蒲公英の種": "dandelionseed",
+            "血石華": "dendrobium",
+            "達人": "adept",
+            "電気水晶": "electrocrystal",
+            "霧氷花の花蕊": "mistflowercorolla",
+            "魔晶の塊": "magicalcrystalchunk"
         },
         "properties": {
             "rarity": [

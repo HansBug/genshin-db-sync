@@ -1,285 +1,309 @@
 {
     "items": {
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Nuevos espacios para guardar mazos desbloqueados\nNuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Liyue",
-            "unlockdescriptionraw": "Nuevos espacios para guardar mazos desbloqueados\\nNuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Protogema",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invitación de duelo",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Duelos contra jugadores a través del tablón de invitaciones desbloqueados\nNuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Liyue",
-            "unlockdescriptionraw": "Duelos contra jugadores a través del tablón de invitaciones desbloqueados\\nNuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Protogema",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invitación de duelo",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Duelos de visitantes semanales desbloqueados\nNuevos duelos disponibles en Mondstadt",
-            "unlockdescriptionraw": "Duelos de visitantes semanales desbloqueados\\nNuevos duelos disponibles en Mondstadt",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Protogema",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invitación de duelo",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "Mondstadt",
-                    "count": 1
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "5",
-            "exp": 1450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Nuevos espacios para guardar mazos desbloqueados\nNuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Inazuma",
-            "unlockdescriptionraw": "Nuevos espacios para guardar mazos desbloqueados\\nNuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Protogema",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invitación de duelo",
-                    "count": 1
-                },
-                {
-                    "id": 339502,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
         "1": {
-            "id": 1,
-            "name": "1",
             "exp": 300,
             "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Duelos por invitación desbloqueados\nDuelos multijugador en un mismo mundo desbloqueados\nTienda de cartas desbloqueada\nManual de jugador desbloqueado\nNuevos duelos disponibles en Mondstadt",
-            "unlockdescriptionraw": "Duelos por invitación desbloqueados\\nDuelos multijugador en un mismo mundo desbloqueados\\nTienda de cartas desbloqueada\\nManual de jugador desbloqueado\\nNuevos duelos disponibles en Mondstadt",
+            "id": 1,
+            "name": "1",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Protogema",
-                    "count": 60
+                    "name": "Protogema"
                 },
                 {
+                    "count": 1,
                     "id": 107020,
-                    "name": "Invitación de duelo",
-                    "count": 1
+                    "name": "Invitación de duelo"
                 },
                 {
+                    "count": 500,
                     "id": 107021,
-                    "name": "Moneda de la suerte",
-                    "count": 500
+                    "name": "Moneda de la suerte"
                 }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "6",
-            "exp": 1600,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Nuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Inazuma",
-            "unlockdescriptionraw": "Nuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Protogema",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invitación de duelo",
-                    "count": 1
-                },
-                {
-                    "id": 339003,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "8",
-            "exp": 1900,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Nuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Sumeru",
-            "unlockdescriptionraw": "Nuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Protogema",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invitación de duelo",
-                    "count": 1
-                },
-                {
-                    "id": 339004,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "9",
-            "exp": 2450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Nuevos duelos disponibles en Sumeru",
-            "unlockdescriptionraw": "Nuevos duelos disponibles en Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Protogema",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "Carta holográfica en blanco",
-                    "count": 1
-                },
-                {
-                    "id": 107020,
-                    "name": "Invitación de duelo",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Nuevos espacios para guardar mazos desbloqueados\nNuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Sumeru",
-            "unlockdescriptionraw": "Nuevos espacios para guardar mazos desbloqueados\\nNuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Protogema",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invitación de duelo",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
+            ],
+            "unlockdescription": "Duelos por invitación desbloqueados\nDuelos multijugador en un mismo mundo desbloqueados\nTienda de cartas desbloqueada\nManual de jugador desbloqueado\nNuevos duelos disponibles en Mondstadt",
+            "unlockdescriptionraw": "Duelos por invitación desbloqueados\\nDuelos multijugador en un mismo mundo desbloqueados\\nTienda de cartas desbloqueada\\nManual de jugador desbloqueado\\nNuevos duelos disponibles en Mondstadt"
         },
         "10": {
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
             "id": 10,
             "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "Nuevos espacios para guardar mazos desbloqueados\nNuevos duelos disponibles",
-            "unlockdescriptionraw": "Nuevos espacios para guardar mazos desbloqueados\\nNuevos duelos disponibles",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Protogema",
-                    "count": 60
+                    "name": "Protogema"
                 },
                 {
+                    "count": 1,
                     "id": 107019,
-                    "name": "Carta holográfica en blanco",
-                    "count": 1
+                    "name": "Carta holográfica en blanco"
                 },
                 {
+                    "count": 1,
                     "id": 339009,
-                    "name": "Leyenda",
-                    "count": 1
+                    "name": "Leyenda"
                 }
-            ]
+            ],
+            "unlockdescription": "Nuevos espacios para guardar mazos desbloqueados\nNuevos duelos disponibles",
+            "unlockdescriptionraw": "Nuevos espacios para guardar mazos desbloqueados\\nNuevos duelos disponibles"
+        },
+        "2": {
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "id": 2,
+            "name": "2",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Protogema"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invitación de duelo"
+                },
+                {
+                    "count": 1,
+                    "id": 339001,
+                    "name": "Mondstadt"
+                }
+            ],
+            "unlockdescription": "Duelos de visitantes semanales desbloqueados\nNuevos duelos disponibles en Mondstadt",
+            "unlockdescriptionraw": "Duelos de visitantes semanales desbloqueados\\nNuevos duelos disponibles en Mondstadt"
+        },
+        "3": {
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 3,
+            "name": "3",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Protogema"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invitación de duelo"
+                },
+                {
+                    "count": 1,
+                    "id": 339501,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Nuevos espacios para guardar mazos desbloqueados\nNuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Liyue",
+            "unlockdescriptionraw": "Nuevos espacios para guardar mazos desbloqueados\\nNuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Liyue"
+        },
+        "4": {
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 4,
+            "name": "4",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Protogema"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invitación de duelo"
+                },
+                {
+                    "count": 1,
+                    "id": 339002,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Duelos contra jugadores a través del tablón de invitaciones desbloqueados\nNuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Liyue",
+            "unlockdescriptionraw": "Duelos contra jugadores a través del tablón de invitaciones desbloqueados\\nNuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Liyue"
+        },
+        "5": {
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 5,
+            "name": "5",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Protogema"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invitación de duelo"
+                },
+                {
+                    "count": 1,
+                    "id": 339502,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Nuevos espacios para guardar mazos desbloqueados\nNuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Inazuma",
+            "unlockdescriptionraw": "Nuevos espacios para guardar mazos desbloqueados\\nNuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Inazuma"
+        },
+        "6": {
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 6,
+            "name": "6",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Protogema"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invitación de duelo"
+                },
+                {
+                    "count": 1,
+                    "id": 339003,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Nuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Inazuma",
+            "unlockdescriptionraw": "Nuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Inazuma"
+        },
+        "7": {
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 7,
+            "name": "7",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Protogema"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invitación de duelo"
+                },
+                {
+                    "count": 1,
+                    "id": 339503,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Nuevos espacios para guardar mazos desbloqueados\nNuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Sumeru",
+            "unlockdescriptionraw": "Nuevos espacios para guardar mazos desbloqueados\\nNuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Sumeru"
+        },
+        "8": {
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 8,
+            "name": "8",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Protogema"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invitación de duelo"
+                },
+                {
+                    "count": 1,
+                    "id": 339004,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Nuevos duelos tabernarios desbloqueados\nNuevos duelos disponibles en Sumeru",
+            "unlockdescriptionraw": "Nuevos duelos tabernarios desbloqueados\\nNuevos duelos disponibles en Sumeru"
+        },
+        "9": {
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 9,
+            "name": "9",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Protogema"
+                },
+                {
+                    "count": 1,
+                    "id": 107019,
+                    "name": "Carta holográfica en blanco"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invitación de duelo"
+                }
+            ],
+            "unlockdescription": "Nuevos duelos disponibles en Sumeru",
+            "unlockdescriptionraw": "Nuevos duelos disponibles en Sumeru"
         }
     },
     "meta": {
-        "namemap": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
-        "names": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
         "aliases": {},
         "categories": {
+            "Carta holográfica en blanco": [
+                "10",
+                "9"
+            ],
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
             "GCG_LEVEL_ICON_TYPE_NONE": [
                 "1",
                 "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "Inazuma": [
+                "5",
+                "6"
+            ],
+            "Invitación de duelo": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Leyenda": [
+                "10"
+            ],
+            "Liyue": [
+                "3",
+                "4"
+            ],
+            "Mondstadt": [
+                "2"
+            ],
+            "Moneda de la suerte": [
+                "1"
             ],
             "Protogema": [
                 "1",
@@ -293,58 +317,34 @@
                 "8",
                 "9"
             ],
-            "Invitación de duelo": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9"
-            ],
-            "Moneda de la suerte": [
-                "1"
-            ],
-            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
-                "10"
-            ],
-            "Carta holográfica en blanco": [
-                "10",
-                "9"
-            ],
-            "Leyenda": [
-                "10"
-            ],
-            "Mondstadt": [
-                "2"
-            ],
-            "GCG_LEVEL_ICON_TYPE_COPPER": [
-                "3",
-                "4"
-            ],
-            "Liyue": [
-                "3",
-                "4"
-            ],
-            "GCG_LEVEL_ICON_TYPE_SILIVER": [
-                "5",
-                "6"
-            ],
-            "Inazuma": [
-                "5",
-                "6"
-            ],
-            "GCG_LEVEL_ICON_TYPE_GOLD": [
-                "7",
-                "8",
-                "9"
-            ],
             "Sumeru": [
                 "7",
                 "8"
             ]
+        },
+        "namemap": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
+        },
+        "names": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
         },
         "properties": {
             "icontype": [

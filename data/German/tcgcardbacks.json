@@ -1,201 +1,159 @@
 {
     "items": {
-        "inazuma": {
-            "id": 103,
-            "name": "Inazuma",
-            "description": "Wenn du beim Kartenspielen blitzschnell Entscheidungen triffst, kannst du im Handumdrehen gewinnen.",
-            "descriptionraw": "Wenn du beim Kartenspielen blitzschnell Entscheidungen triffst, kannst du im Handumdrehen gewinnen.",
-            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 6 zu erhalten",
-            "rarity": 3
-        },
-        "origin": {
-            "id": 100,
-            "name": "Anbeginn",
-            "description": "Zwischen Tag und Nacht, zwischen Himmel und Erde,\ndort halten sich Träume und Hoffnungen auf.",
-            "descriptionraw": "Zwischen Tag und Nacht, zwischen Himmel und Erde,\\ndort halten sich Träume und Hoffnungen auf.",
-            "source": "Standardmäßig zu erhalten",
-            "rarity": 3
-        },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "Eisnebelblumenblüte",
-            "description": "„Würdevoll aufzugeben ist dein unvermeidliches Ende.“",
-            "descriptionraw": "„Würdevoll aufzugeben ist dein unvermeidliches Ende.“",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "cecilia": {
-            "id": 118,
-            "name": "Cecilia",
-            "description": "Sind nur diejenigen, die die Brise und den Tau begleiten, in der Lage, das erste Licht der Morgendämmerung zu genießen?",
-            "descriptionraw": "Sind nur diejenigen, die die Brise und den Tau begleiten, in der Lage, das erste Licht der Morgendämmerung zu genießen?",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "Brocken Kristall",
-            "description": "Mit dem richtigen Training kann dein Talent zum Vorschein kommen.",
-            "descriptionraw": "Mit dem richtigen Training kann dein Talent zum Vorschein kommen.",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
         "adept": {
-            "id": 110,
-            "name": "Profi",
             "description": "Für dich gibt es keine Frage ohne Antworten, keine Dinge sind unmöglich. Wir bewundern dich!",
             "descriptionraw": "Für dich gibt es keine Frage ohne Antworten, keine Dinge sind unmöglich. Wir bewundern dich!",
-            "source": "Nach Erreichen aller Ziele im Kartenbeschwörerhandbuch – Partie 4 zu erhalten",
-            "rarity": 3
+            "id": 110,
+            "name": "Profi",
+            "rarity": 3,
+            "source": "Nach Erreichen aller Ziele im Kartenbeschwörerhandbuch – Partie 4 zu erhalten"
         },
         "amethystlump": {
-            "id": 113,
-            "name": "Amethyst-Brocken",
             "description": "Flexibilität ist auch eine Form von Weisheit.",
             "descriptionraw": "Flexibilität ist auch eine Form von Weisheit.",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
+            "id": 113,
+            "name": "Amethyst-Brocken",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
         },
-        "sumeru": {
-            "id": 104,
-            "name": "Sumeru",
-            "description": "Ein oder zwei Schritte vorauszudenken, ist nur amateurhaft. Wirklich erfahrene Kartenbeschwörer können sogar fünfzig oder hundert Schritte vorausschauen.\nUnd das wäre doch ganz einfach, oder?",
-            "descriptionraw": "Ein oder zwei Schritte vorauszudenken, ist nur amateurhaft. Wirklich erfahrene Kartenbeschwörer können sogar fünfzig oder hundert Schritte vorausschauen.\\nUnd das wäre doch ganz einfach, oder?",
-            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 8 zu erhalten",
-            "rarity": 3
+        "cecilia": {
+            "description": "Sind nur diejenigen, die die Brise und den Tau begleiten, in der Lage, das erste Licht der Morgendämmerung zu genießen?",
+            "descriptionraw": "Sind nur diejenigen, die die Brise und den Tau begleiten, in der Lage, das erste Licht der Morgendämmerung zu genießen?",
+            "id": 118,
+            "name": "Cecilia",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
         },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "Brocken magisches Kristall",
-            "description": "Der Wert ergibt sich aus der Zeit.",
-            "descriptionraw": "Der Wert ergibt sich aus der Zeit.",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "dendrobium": {
-            "id": 120,
-            "name": "Dendrobium",
-            "description": "Wenn nur alle Schlachten auf der Tischplatte geschlagen werden könnten ...",
-            "descriptionraw": "Wenn nur alle Schlachten auf der Tischplatte geschlagen werden könnten ...",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "liyue": {
-            "id": 102,
-            "name": "Liyue",
-            "description": "Auch der weiteste Weg beginnt mit einem ersten Schritt. Dein Weg zum Sieg beginnt mit dem Erstellen eines zuverlässigen Decks.",
-            "descriptionraw": "Auch der weiteste Weg beginnt mit einem ersten Schritt. Dein Weg zum Sieg beginnt mit dem Erstellen eines zuverlässigen Decks.",
-            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 4 zu erhalten",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "Flammenblumenstaubblatt",
-            "description": "„Meine Seele als Kartenbeschwörer glänzt wie die Sterne!“",
-            "descriptionraw": "„Meine Seele als Kartenbeschwörer glänzt wie die Sterne!“",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "Lasurit-Strudel",
-            "description": "Ein Kartenrücken, der speziell vom berühmten Maler „Calx“ entworfen wurde.\n„Breite deine Flügel aus auf diesem reduzierten Schlachtfeld, als wärst du der Drache des Ostens!“",
-            "descriptionraw": "Ein Kartenrücken, der speziell vom berühmten Maler „Calx“ entworfen wurde.\\n„Breite deine Flügel aus auf diesem reduzierten Schlachtfeld, als wärst du der Drache des Ostens!“",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "glazelily": {
-            "id": 119,
-            "name": "Glaslilie",
-            "description": "Die alten Erzählungen der Sterblichen sind verklungen. Jetzt bleibt nur noch der duftende Name der Blumen.",
-            "descriptionraw": "Die alten Erzählungen der Sterblichen sind verklungen. Jetzt bleibt nur noch der duftende Name der Blumen.",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "electrocrystal": {
-            "id": 116,
-            "name": "Elektrisierter Kristall",
-            "description": "Wozu die ganze Provokation? Das hier ist nicht das Einzige, was jederzeit explodieren kann.",
-            "descriptionraw": "Wozu die ganze Provokation? Das hier ist nicht das Einzige, was jederzeit explodieren kann.",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "Schätze des Decks",
-            "description": "Schätze kommen und gehen im Handumdrehen, aber sie sind jedes Mal anders. Was für ein Schatz schlummert dieses Mal unter deinen Karten?",
-            "descriptionraw": "Schätze kommen und gehen im Handumdrehen, aber sie sind jedes Mal anders. Was für ein Schatz schlummert dieses Mal unter deinen Karten?",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "Mondstadt",
-            "description": "Freiheit ist das Allerwichtigste beim Kartenspiel.\nFrei organisiert man sein Deck, frei wählt man seine Gegner, frei spielt man seine Karten aus.\n... Oder vielleicht kannst du dir auch die Freiheit nehmen, mit diesen Karten etwas anderes zu tun.",
-            "descriptionraw": "Freiheit ist das Allerwichtigste beim Kartenspiel.\\nFrei organisiert man sein Deck, frei wählt man seine Gegner, frei spielt man seine Karten aus.\\n... Oder vielleicht kannst du dir auch die Freiheit nehmen, mit diesen Karten etwas anderes zu tun.",
-            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 2 zu erhalten",
-            "rarity": 3
-        },
-        "legend": {
-            "id": 109,
-            "name": "Legende",
-            "description": "Du hast es weit gebracht, um ein ausgezeichneter Kartenbeschwörer zu werden, doch bleibt immer noch ein weiter Weg zu gehen.",
-            "descriptionraw": "Du hast es weit gebracht, um ein ausgezeichneter Kartenbeschwörer zu werden, doch bleibt immer noch ein weiter Weg zu gehen.",
-            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 10 zu erhalten",
-            "rarity": 3
+        "crystalchunk": {
+            "description": "Mit dem richtigen Training kann dein Talent zum Vorschein kommen.",
+            "descriptionraw": "Mit dem richtigen Training kann dein Talent zum Vorschein kommen.",
+            "id": 111,
+            "name": "Brocken Kristall",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
         },
         "dandelionseed": {
-            "id": 117,
-            "name": "Löwenzahnsamen",
             "description": "Hoffnung und Geduld gehen immer Hand in Hand.",
             "descriptionraw": "Hoffnung und Geduld gehen immer Hand in Hand.",
-            "source": "Beim Kartenhändler zu erstehen",
-            "rarity": 3
+            "id": 117,
+            "name": "Löwenzahnsamen",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
+        },
+        "dendrobium": {
+            "description": "Wenn nur alle Schlachten auf der Tischplatte geschlagen werden könnten ...",
+            "descriptionraw": "Wenn nur alle Schlachten auf der Tischplatte geschlagen werden könnten ...",
+            "id": 120,
+            "name": "Dendrobium",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
+        },
+        "electrocrystal": {
+            "description": "Wozu die ganze Provokation? Das hier ist nicht das Einzige, was jederzeit explodieren kann.",
+            "descriptionraw": "Wozu die ganze Provokation? Das hier ist nicht das Einzige, was jederzeit explodieren kann.",
+            "id": 116,
+            "name": "Elektrisierter Kristall",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
+        },
+        "flamingflowerstamen": {
+            "description": "„Meine Seele als Kartenbeschwörer glänzt wie die Sterne!“",
+            "descriptionraw": "„Meine Seele als Kartenbeschwörer glänzt wie die Sterne!“",
+            "id": 114,
+            "name": "Flammenblumenstaubblatt",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
+        },
+        "glazelily": {
+            "description": "Die alten Erzählungen der Sterblichen sind verklungen. Jetzt bleibt nur noch der duftende Name der Blumen.",
+            "descriptionraw": "Die alten Erzählungen der Sterblichen sind verklungen. Jetzt bleibt nur noch der duftende Name der Blumen.",
+            "id": 119,
+            "name": "Glaslilie",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
+        },
+        "inazuma": {
+            "description": "Wenn du beim Kartenspielen blitzschnell Entscheidungen triffst, kannst du im Handumdrehen gewinnen.",
+            "descriptionraw": "Wenn du beim Kartenspielen blitzschnell Entscheidungen triffst, kannst du im Handumdrehen gewinnen.",
+            "id": 103,
+            "name": "Inazuma",
+            "rarity": 3,
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 6 zu erhalten"
+        },
+        "lazuriteswirl": {
+            "description": "Ein Kartenrücken, der speziell vom berühmten Maler „Calx“ entworfen wurde.\n„Breite deine Flügel aus auf diesem reduzierten Schlachtfeld, als wärst du der Drache des Ostens!“",
+            "descriptionraw": "Ein Kartenrücken, der speziell vom berühmten Maler „Calx“ entworfen wurde.\\n„Breite deine Flügel aus auf diesem reduzierten Schlachtfeld, als wärst du der Drache des Ostens!“",
+            "id": 121,
+            "name": "Lasurit-Strudel",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
+        },
+        "legend": {
+            "description": "Du hast es weit gebracht, um ein ausgezeichneter Kartenbeschwörer zu werden, doch bleibt immer noch ein weiter Weg zu gehen.",
+            "descriptionraw": "Du hast es weit gebracht, um ein ausgezeichneter Kartenbeschwörer zu werden, doch bleibt immer noch ein weiter Weg zu gehen.",
+            "id": 109,
+            "name": "Legende",
+            "rarity": 3,
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 10 zu erhalten"
+        },
+        "liyue": {
+            "description": "Auch der weiteste Weg beginnt mit einem ersten Schritt. Dein Weg zum Sieg beginnt mit dem Erstellen eines zuverlässigen Decks.",
+            "descriptionraw": "Auch der weiteste Weg beginnt mit einem ersten Schritt. Dein Weg zum Sieg beginnt mit dem Erstellen eines zuverlässigen Decks.",
+            "id": 102,
+            "name": "Liyue",
+            "rarity": 3,
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 4 zu erhalten"
+        },
+        "magicalcrystalchunk": {
+            "description": "Der Wert ergibt sich aus der Zeit.",
+            "descriptionraw": "Der Wert ergibt sich aus der Zeit.",
+            "id": 112,
+            "name": "Brocken magisches Kristall",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
+        },
+        "mistflowercorolla": {
+            "description": "„Würdevoll aufzugeben ist dein unvermeidliches Ende.“",
+            "descriptionraw": "„Würdevoll aufzugeben ist dein unvermeidliches Ende.“",
+            "id": 115,
+            "name": "Eisnebelblumenblüte",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
+        },
+        "mondstadt": {
+            "description": "Freiheit ist das Allerwichtigste beim Kartenspiel.\nFrei organisiert man sein Deck, frei wählt man seine Gegner, frei spielt man seine Karten aus.\n... Oder vielleicht kannst du dir auch die Freiheit nehmen, mit diesen Karten etwas anderes zu tun.",
+            "descriptionraw": "Freiheit ist das Allerwichtigste beim Kartenspiel.\\nFrei organisiert man sein Deck, frei wählt man seine Gegner, frei spielt man seine Karten aus.\\n... Oder vielleicht kannst du dir auch die Freiheit nehmen, mit diesen Karten etwas anderes zu tun.",
+            "id": 101,
+            "name": "Mondstadt",
+            "rarity": 3,
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 2 zu erhalten"
+        },
+        "origin": {
+            "description": "Zwischen Tag und Nacht, zwischen Himmel und Erde,\ndort halten sich Träume und Hoffnungen auf.",
+            "descriptionraw": "Zwischen Tag und Nacht, zwischen Himmel und Erde,\\ndort halten sich Träume und Hoffnungen auf.",
+            "id": 100,
+            "name": "Anbeginn",
+            "rarity": 3,
+            "source": "Standardmäßig zu erhalten"
+        },
+        "sumeru": {
+            "description": "Ein oder zwei Schritte vorauszudenken, ist nur amateurhaft. Wirklich erfahrene Kartenbeschwörer können sogar fünfzig oder hundert Schritte vorausschauen.\nUnd das wäre doch ganz einfach, oder?",
+            "descriptionraw": "Ein oder zwei Schritte vorauszudenken, ist nur amateurhaft. Wirklich erfahrene Kartenbeschwörer können sogar fünfzig oder hundert Schritte vorausschauen.\\nUnd das wäre doch ganz einfach, oder?",
+            "id": 104,
+            "name": "Sumeru",
+            "rarity": 3,
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 8 zu erhalten"
+        },
+        "treasuresofthedeck": {
+            "description": "Schätze kommen und gehen im Handumdrehen, aber sie sind jedes Mal anders. Was für ein Schatz schlummert dieses Mal unter deinen Karten?",
+            "descriptionraw": "Schätze kommen und gehen im Handumdrehen, aber sie sind jedes Mal anders. Was für ein Schatz schlummert dieses Mal unter deinen Karten?",
+            "id": 122,
+            "name": "Schätze des Decks",
+            "rarity": 3,
+            "source": "Beim Kartenhändler zu erstehen"
         }
     },
     "meta": {
-        "namemap": {
-            "adept": "Profi",
-            "amethystlump": "Amethyst-Brocken",
-            "cecilia": "Cecilia",
-            "crystalchunk": "Brocken Kristall",
-            "dandelionseed": "Löwenzahnsamen",
-            "dendrobium": "Dendrobium",
-            "electrocrystal": "Elektrisierter Kristall",
-            "flamingflowerstamen": "Flammenblumenstaubblatt",
-            "glazelily": "Glaslilie",
-            "inazuma": "Inazuma",
-            "lazuriteswirl": "Lasurit-Strudel",
-            "legend": "Legende",
-            "liyue": "Liyue",
-            "magicalcrystalchunk": "Brocken magisches Kristall",
-            "mistflowercorolla": "Eisnebelblumenblüte",
-            "mondstadt": "Mondstadt",
-            "origin": "Anbeginn",
-            "sumeru": "Sumeru",
-            "treasuresofthedeck": "Schätze des Decks"
-        },
-        "names": {
-            "Profi": "adept",
-            "Amethyst-Brocken": "amethystlump",
-            "Cecilia": "cecilia",
-            "Brocken Kristall": "crystalchunk",
-            "Löwenzahnsamen": "dandelionseed",
-            "Dendrobium": "dendrobium",
-            "Elektrisierter Kristall": "electrocrystal",
-            "Flammenblumenstaubblatt": "flamingflowerstamen",
-            "Glaslilie": "glazelily",
-            "Inazuma": "inazuma",
-            "Lasurit-Strudel": "lazuriteswirl",
-            "Legende": "legend",
-            "Liyue": "liyue",
-            "Brocken magisches Kristall": "magicalcrystalchunk",
-            "Eisnebelblumenblüte": "mistflowercorolla",
-            "Mondstadt": "mondstadt",
-            "Anbeginn": "origin",
-            "Sumeru": "sumeru",
-            "Schätze des Decks": "treasuresofthedeck"
-        },
         "aliases": {},
         "categories": {
             "3": [
@@ -219,6 +177,48 @@
                 "sumeru",
                 "treasuresofthedeck"
             ]
+        },
+        "namemap": {
+            "adept": "Profi",
+            "amethystlump": "Amethyst-Brocken",
+            "cecilia": "Cecilia",
+            "crystalchunk": "Brocken Kristall",
+            "dandelionseed": "Löwenzahnsamen",
+            "dendrobium": "Dendrobium",
+            "electrocrystal": "Elektrisierter Kristall",
+            "flamingflowerstamen": "Flammenblumenstaubblatt",
+            "glazelily": "Glaslilie",
+            "inazuma": "Inazuma",
+            "lazuriteswirl": "Lasurit-Strudel",
+            "legend": "Legende",
+            "liyue": "Liyue",
+            "magicalcrystalchunk": "Brocken magisches Kristall",
+            "mistflowercorolla": "Eisnebelblumenblüte",
+            "mondstadt": "Mondstadt",
+            "origin": "Anbeginn",
+            "sumeru": "Sumeru",
+            "treasuresofthedeck": "Schätze des Decks"
+        },
+        "names": {
+            "Amethyst-Brocken": "amethystlump",
+            "Anbeginn": "origin",
+            "Brocken Kristall": "crystalchunk",
+            "Brocken magisches Kristall": "magicalcrystalchunk",
+            "Cecilia": "cecilia",
+            "Dendrobium": "dendrobium",
+            "Eisnebelblumenblüte": "mistflowercorolla",
+            "Elektrisierter Kristall": "electrocrystal",
+            "Flammenblumenstaubblatt": "flamingflowerstamen",
+            "Glaslilie": "glazelily",
+            "Inazuma": "inazuma",
+            "Lasurit-Strudel": "lazuriteswirl",
+            "Legende": "legend",
+            "Liyue": "liyue",
+            "Löwenzahnsamen": "dandelionseed",
+            "Mondstadt": "mondstadt",
+            "Profi": "adept",
+            "Schätze des Decks": "treasuresofthedeck",
+            "Sumeru": "sumeru"
         },
         "properties": {
             "rarity": [

@@ -1,350 +1,352 @@
 {
     "items": {
-        "crowfeathercover": {
-            "id": 1003,
-            "name": "Kraft der Krähenfeder",
-            "nameraw": "<color=#FFFFFFFF>Kraft der Krähenfeder</color>",
-            "description": "SCH der Elementarfähigkeit und Spezialfähigkeit der hiermit ausgerüsteten Figur +1.\nEinsatzmöglichkeit: 2",
-            "descriptionraw": "SCH der <color=#FFFFFFFF>Elementarfähigkeit</color> und <color=#FFFFFFFF>Spezialfähigkeit</color> der hiermit ausgerüsteten Figur +1.\\n<color=#FFFFFFFF>Einsatzmöglichkeit: 2</color>"
-        },
-        "cryo": {
-            "id": 301,
-            "name": "Kryo",
-            "nameraw": "{SPRITE_PRESET#1101}Kryo",
-            "description": "Kostet Kryo-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
-            "descriptionraw": "Kostet <color=#99FFFFFF>{SPRITE_PRESET#1101}Kryo</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)"
-        },
-        "dendro": {
-            "id": 307,
-            "name": "Dendro",
-            "nameraw": "{SPRITE_PRESET#1107}Dendro",
-            "description": "Kostet Dendro-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
-            "descriptionraw": "Kostet <color=#7EC236FF>{SPRITE_PRESET#1107}Dendro</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)"
-        },
-        "pyrorelatedreactions": {
-            "id": 213,
-            "name": "Pyro-Reaktionen",
-            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Pyro-Reaktionen</color>",
-            "description": "Schmelzen: Diesmaliger SCH +2.\nVerdampfen: Diesmaliger SCH +2.\nÜberladen: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nIn Flammen: Diesmaliger SCH +1, erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\nKristallisation (Pyro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar).\nVerwirbelung (Pyro): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Pyro-SCH zu.",
-            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Schmelzen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verdampfen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Überladen</color>: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>In Flammen</color>: Diesmaliger SCH +1, erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Kristallisation (Pyro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verwirbelung (Pyro)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Pyro-SCH zu."
-        },
-        "randomhilichurlsummon": {
-            "id": 1001,
-            "name": "Zufällige Hilichurl-Beschwörung",
-            "nameraw": "<color=#FFFFFFFF>Zufällige Hilichurl-Beschwörung</color>|s1:<color=#FFFFFFFF>zufällige Hilichurl-Beschwörung</color>",
-            "description": "Insgesamt 4 Arten von Hilichurl-Beschwörungen:\nKryo-Hilichurl-Schütze: Verursacht in der Endphase 1 Pkt. Kryo-SCH, Einsatzmöglichkeit: 2\nHydro-Samachurl: Verursacht in der Endphase 1 Pkt. Hydro-SCH, Einsatzmöglichkeit: 2\nHilichurl-Berserker: Verursacht in der Endphase 1 Pkt. Pyro-SCH, Einsatzmöglichkeit: 2\nElektro-Hilichurl-Schütze: Verursacht in der Endphase 1 Pkt. Elektro-SCH, Einsatzmöglichkeit: 2",
-            "descriptionraw": "Insgesamt 4 Arten von Hilichurl-Beschwörungen:\\n<color=#FFFFFFFF>Kryo-Hilichurl-Schütze</color>: Verursacht in der Endphase 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, Einsatzmöglichkeit: 2\\n<color=#FFFFFFFF>Hydro-Samachurl</color>: Verursacht in der Endphase 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, Einsatzmöglichkeit: 2\\n<color=#FFFFFFFF>Hilichurl-Berserker</color>: Verursacht in der Endphase 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, Einsatzmöglichkeit: 2\\n<color=#FFFFFFFF>Elektro-Hilichurl-Schütze</color>: Verursacht in der Endphase 1 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, Einsatzmöglichkeit: 2"
-        },
-        "characterclosesttoyourcurrentactivecharacter": {
-            "id": 7,
-            "name": "Figur, die deiner aktiven Figur am nächsten ist",
-            "nameraw": "<color=#FFFFFFFF>Figur, die deiner aktiven Figur am nächsten ist</color>",
-            "description": "Gegnerische Figur, die deiner aktiven Figur „am nächsten“ ist, bezieht sich auf die Figur auf der Seite des Gegners, deren Position deiner aktiven Figur am nächsten ist.\nSind mehrere Figuren in der gleichen Entfernung zu deiner aktiven Figur, ist die Figur, die sich am weitesten vorne befindet, „am nächsten“.",
-            "descriptionraw": "Gegnerische Figur, die deiner aktiven Figur „am nächsten“ ist, bezieht sich auf die Figur auf der Seite des Gegners, deren Position deiner aktiven Figur am nächsten ist.\\nSind mehrere Figuren in der gleichen Entfernung zu deiner aktiven Figur, ist die Figur, die sich am weitesten vorne befindet, „am nächsten“."
-        },
-        "chargedattack": {
-            "id": 51,
-            "name": "Heftiger Schlag",
-            "nameraw": "<color=#FFFFFFFF>Heftiger Schlag</color>|s1:<color=#FFFFFFFF>heftige Schläge</color>",
-            "description": "Ist die Summe deiner verbliebenen Elementarwürfel vor deiner Aktion eine gerade Zahl, gilt der angewendete Standardangriff als heftiger Schlag.",
-            "descriptionraw": "Ist die Summe deiner verbliebenen Elementarwürfel vor deiner Aktion eine gerade Zahl, gilt der angewendete Standardangriff als heftiger Schlag."
-        },
-        "anemodmg": {
-            "id": 105,
-            "name": "Anemo-Schaden",
-            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-Schaden</color>|s1:{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>",
-            "description": "Löst Reaktionen mit dem bestehenden Elementarattribut aus:\nVerwirbelung (Kryo): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Kryo-SCH zu.\nVerwirbelung (Hydro): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Hydro-SCH zu.\nVerwirbelung (Pyro): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Pyro-SCH zu.\nVerwirbelung (Elektro): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Elektro-SCH zu.",
-            "descriptionraw": "Löst Reaktionen mit dem bestehenden Elementarattribut aus:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Verwirbelung (Kryo)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Kryo-SCH zu.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verwirbelung (Hydro)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Hydro-SCH zu.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verwirbelung (Pyro)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Pyro-SCH zu.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Verwirbelung (Elektro)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Elektro-SCH zu."
-        },
-        "prepareskill": {
-            "id": 53,
-            "name": "Vorbereiten der Fähigkeiten",
-            "nameraw": "<color=#FFFFFFFF>Vorbereiten der Fähigkeiten</color>|s1:<color=#FFFFFFFF>bereitet folgende Fähigkeit vor</color>",
-            "description": "Einige Fähigkeiten können nicht direkt angewendet werden. Sie benötigen eine bestimmte Anzahl von Zügen zum Vorbereiten.\nIst ein Kartenbeschwörer am Zug, während seine aktive Figur eine Fähigkeit vorbereitet, wird der aktuelle Zug dieses Kartenbeschwörers übersprungen; ist das Vorbereiten dieser Fähigkeit der Figur bereits abgeschlossen, wird sie sofort angewendet. (Diese Art von Fähigkeit, die vorbereitet werden muss, kann keinen Effekt auslösen, der „nach Anwenden einer Fähigkeit“ aktiv werden kann.)\nNur die aktive Figur kann Fähigkeiten vorbereiten; wenn sie aber beim Vorbereiten ihrer Fähigkeit ausgewechselt wird, wird das Vorbereiten ihrer Fähigkeit unterbrochen.",
-            "descriptionraw": "Einige Fähigkeiten können nicht direkt angewendet werden. Sie benötigen eine bestimmte Anzahl von Zügen zum <color=#FFFFFFFF>Vorbereiten</color>.\\nIst ein Kartenbeschwörer am Zug, während seine aktive Figur eine Fähigkeit <color=#FFFFFFFF>vorbereitet</color>, wird der aktuelle Zug dieses Kartenbeschwörers übersprungen; ist das <color=#FFFFFFFF>Vorbereiten</color> dieser Fähigkeit der Figur bereits abgeschlossen, wird sie sofort angewendet. (Diese Art von Fähigkeit, die <color=#FFFFFFFF>vorbereitet</color> werden muss, kann keinen Effekt auslösen, der „nach Anwenden einer Fähigkeit“ aktiv werden kann.)\\nNur die aktive Figur kann Fähigkeiten <color=#FFFFFFFF>vorbereiten</color>; wenn sie aber beim <color=#FFFFFFFF>Vorbereiten</color> ihrer Fähigkeit ausgewechselt wird, wird das <color=#FFFFFFFF>Vorbereiten</color> ihrer Fähigkeit unterbrochen."
-        },
-        "electroapplication": {
-            "id": 204,
-            "name": "Elektro-Attribut",
-            "nameraw": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Elektro-Attribut</color>",
-            "description": "Verleiht man Elektro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nÜberladen: Wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nSupraleiter: Kein Effekt.\nUnter Strom: Kein Effekt.\nUrwuchs: Erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
-            "descriptionraw": "Verleiht man {SPRITE_PRESET#2104}Elektro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Überladen</color>: Wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Supraleiter</color>: Kein Effekt.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Unter Strom</color>: Kein Effekt.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Urwuchs</color>: Erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht."
-        },
-        "energy": {
-            "id": 310,
-            "name": "Aufladung",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Aufladung</color>",
-            "description": "Spezialfähigkeit verbraucht auch Aufladung.\nWendet eine Figur Elementarfähigkeit oder Standardangriff an, erhält sie 1 Aufladungspunkt.",
-            "descriptionraw": "Spezialfähigkeit verbraucht auch {SPRITE_PRESET#1110}Aufladung.\\nWendet eine Figur Elementarfähigkeit oder Standardangriff an, erhält sie 1 {SPRITE_PRESET#1110}Aufladungspunkt."
-        },
-        "dendroapplication": {
-            "id": 207,
-            "name": "Dendro-Attribut",
-            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Dendro-Attribut</color>",
-            "description": "Verleiht man Dendro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nSprießen: Erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\nIn Flammen: Erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\nUrwuchs: Erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
-            "descriptionraw": "Verleiht man {SPRITE_PRESET#2107}Dendro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sprießen</color>: Erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>In Flammen</color>: Erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Urwuchs</color>: Erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht."
-        },
-        "anemo": {
-            "id": 305,
-            "name": "Anemo",
-            "nameraw": "{SPRITE_PRESET#1105}Anemo",
-            "description": "Kostet Anemo-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
-            "descriptionraw": "Kostet <color=#80FFD7FF>{SPRITE_PRESET#1105}Anemo</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)"
-        },
-        "shield": {
-            "id": 6,
-            "name": "Schild",
-            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Schild</color>",
-            "description": "Dieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen.",
-            "descriptionraw": "Dieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen."
-        },
-        "piercingdmg": {
-            "id": 5,
-            "name": "Durchdringender Schaden",
-            "nameraw": "<color=#FFFFFFFF>Durchdringender Schaden</color>|s1:<color=#FFFFFFFF>durchdringenden SCH</color>",
-            "description": "Durchdringender Schaden kann nicht durch SCH-Boni erhöht werden, kann aber auch nicht durch Schild oder SCH-Immunität abgewehrt werden.",
-            "descriptionraw": "Durchdringender Schaden kann nicht durch SCH-Boni erhöht werden, kann aber auch nicht durch Schild oder SCH-Immunität abgewehrt werden."
-        },
-        "fastaction": {
-            "id": 2,
-            "name": "Schnellaktion",
-            "nameraw": "<color=#FFFFFFFF>Schnellaktion</color>",
-            "description": "Nachdem du 1 „Schnellaktion“ beendet hast, kannst du noch mit anderen Aktionen fortfahren.\nNur nach 1 Kampfaktion geht der Zug auf deinen Gegner über.",
-            "descriptionraw": "Nachdem du 1 „Schnellaktion“ beendet hast, kannst du noch mit anderen Aktionen fortfahren.\\nNur nach 1 Kampfaktion geht der Zug auf deinen Gegner über."
-        },
-        "geo": {
-            "id": 306,
-            "name": "Geo",
-            "nameraw": "{SPRITE_PRESET#1106}Geo",
-            "description": "Kostet Geo-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
-            "descriptionraw": "Kostet <color=#FFE699FF>{SPRITE_PRESET#1106}Geo</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)"
-        },
-        "elementalburst": {
-            "id": 501,
-            "name": "Spezialfähigkeit",
-            "nameraw": "Spezialfähigkeit",
-            "description": "Sobald eine Figur vollständig aufgeladen ist, kann sie die Aufladung aufbrauchen, um die mächtige Spezialfähigkeit anzuwenden.",
-            "descriptionraw": "Sobald eine Figur vollständig {SPRITE_PRESET#1110}aufgeladen ist, kann sie die {SPRITE_PRESET#1110}Aufladung aufbrauchen, um die mächtige Spezialfähigkeit anzuwenden."
-        },
-        "electrodmg": {
-            "id": 104,
-            "name": "Elektro-Schaden",
-            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-Schaden</color>|s1:{SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>",
-            "description": "Verleiht Elektro-Attribut und kann folgende Elementarreaktionen auslösen:\nÜberladen: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nSupraleiter: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\nUnter Strom: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\nUrwuchs: Diesmaliger SCH +1, erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
-            "descriptionraw": "Verleiht {SPRITE_PRESET#2104}Elektro-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Überladen</color>: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Supraleiter</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Unter Strom</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Urwuchs</color>: Diesmaliger SCH +1, erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht."
-        },
-        "physicaldmg": {
-            "id": 100,
-            "name": "Physischer Schaden",
-            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Physischer Schaden</color>|s1:{SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>|s2:{SPRITE_PRESET#2100}<color=#FFFFFFFF>Phys. SCH</color>",
-            "description": "Physischer Schaden verleiht kein Elementarattribut und löst keine Elementarreaktionen aus.",
-            "descriptionraw": "Physischer Schaden verleiht kein Elementarattribut und löst keine Elementarreaktionen aus."
-        },
-        "immunitytodefeats1willnotbedefeated": {
-            "id": 54,
-            "name": "Vor Ausscheiden gefeit",
-            "nameraw": "<color=#FFFFFFFF>Vor Ausscheiden gefeit</color>|s1:<color=#FFFFFFFF>vor Ausscheiden gefeit</color>",
-            "description": "Bei einigen Effekten/Zuständen ist die Figur vor Ausscheiden gefeit, wenn ihre LP auf 0 fallen, und ihr werden gewisse LP wiederhergestellt.\nIn diesem Fall gilt die Figur nicht als ausgeschaltet. Deshalb werden ihre Ausrüstung und Zustände nicht entfernt und ihre Aufladung wird ebenfalls nicht zurückgesetzt.",
-            "descriptionraw": "Bei einigen Effekten/Zuständen ist die Figur <color=#FFFFFFFF>vor Ausscheiden gefeit</color>, wenn ihre LP auf 0 fallen, und ihr werden gewisse LP wiederhergestellt.\\nIn diesem Fall gilt die Figur nicht als <color=#FFFFFFFF>ausgeschaltet</color>. Deshalb werden ihre Ausrüstung und Zustände nicht entfernt und ihre Aufladung wird ebenfalls nicht zurückgesetzt."
-        },
-        "usages": {
-            "id": 3,
-            "name": "Einsatzmöglichkeit",
-            "nameraw": "<color=#FFFFFFFF>Einsatzmöglichkeit</color>",
-            "description": "Nach Auslösen des Effekts dieser Karte wird 1 Einsatzmöglichkeit verbraucht.\nDiese Karte wird sofort abgeworfen, sobald ihre Einsatzmöglichkeiten aufgebraucht werden.",
-            "descriptionraw": "Nach Auslösen des Effekts dieser Karte wird 1 <color=#FFFFFFFF>Einsatzmöglichkeit</color> verbraucht.\\nDiese Karte wird sofort abgeworfen, sobald ihre <color=#FFFFFFFF>Einsatzmöglichkeiten</color> aufgebraucht werden."
-        },
-        "hydrodmg": {
-            "id": 102,
-            "name": "Hydro-Schaden",
-            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-Schaden</color>|s1:{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>",
-            "description": "Verleiht Hydro-Attribut und kann folgende Elementarreaktionen auslösen:\nVerdampfen: Diesmaliger SCH +2.\nUnter Strom: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\nGefroren: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\nSprießen: Diesmaliger SCH +1, erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.",
-            "descriptionraw": "Verleiht {SPRITE_PRESET#2102}Hydro-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verdampfen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Unter Strom</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gefroren</color>: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sprießen</color>: Diesmaliger SCH +1, erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht."
-        },
-        "cryoapplication": {
-            "id": 201,
-            "name": "Kryo-Attribut",
-            "nameraw": "<color=#99FFFFFF>{SPRITE_PRESET#2101}Kryo-Attribut</color>",
-            "description": "Verleiht man Kryo-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nSchmelzen: Kein Effekt\nSupraleiter: Kein Effekt\nGefroren: Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand)",
-            "descriptionraw": "Verleiht man {SPRITE_PRESET#2101}Kryo-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Schmelzen</color>: Kein Effekt\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Supraleiter</color>: Kein Effekt\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Gefroren</color>: Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand)"
-        },
-        "unalignedelement": {
-            "id": 309,
-            "name": "Würfel (beliebig)",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Würfel (beliebig)</color>",
-            "description": "Dafür kann man Würfel beliebigen Elements verbrauchen.",
-            "descriptionraw": "Dafür kann man Würfel beliebigen Elements verbrauchen."
-        },
-        "bloodblossom": {
-            "id": 1009,
-            "name": "Blutblüten",
-            "nameraw": "<color=#FFFFFFFF>Blutblüten</color>",
-            "description": "Endphase: Fügt der davon betroffenen Figur 1 Pkt. Pyro-SCH zu.\nEinsatzmöglichkeit: 1",
-            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Fügt der davon betroffenen Figur 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color> zu.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 1</color>"
-        },
-        "clusterbloomarrow": {
-            "id": 1008,
-            "name": "Khanda-Blütenpfeil",
-            "nameraw": "<color=#FFFFFFFF>Khanda-Blütenpfeil</color>",
-            "description": "Endphase: Verursacht 1 Pkt. Dendro-SCH.\nEinsatzmöglichkeit: 1 (Max. 2-fach stapelbar)",
-            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Verursacht 1 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>.\\n<color=#FFFFFFFF>Einsatzmöglichkeit: 1</color> (Max. 2-fach stapelbar)"
-        },
-        "matchingelement": {
-            "id": 308,
-            "name": "Würfel (gleich)",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Würfel (gleich)</color>",
-            "description": "Kostet die angegebene Menge von Würfeln desselben Elements.\n(Dafür kann man auch Omni-Würfel als beliebige Elemente verbrauchen.)",
-            "descriptionraw": "Kostet die angegebene Menge von Würfeln desselben Elements.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel als beliebige Elemente verbrauchen.)"
-        },
-        "combataction": {
-            "id": 1,
-            "name": "Kampfaktion",
-            "nameraw": "<color=#FFFFFFFF>Kampfaktion</color>",
-            "description": "Nachdem du 1 Kampfaktion beendet hast, ist dein Gegner am Zug.\nEine Karte mit dieser Eigenschaft auszuspielen, zählt als eine Kampfaktion, gilt nicht als „Schnellaktion“.",
-            "descriptionraw": "Nachdem du 1 Kampfaktion beendet hast, ist dein Gegner am Zug.\\n<color=#FFFFFFFF>Eine Karte mit dieser Eigenschaft auszuspielen, zählt als eine Kampfaktion, gilt nicht als „Schnellaktion“</color>."
-        },
-        "hydrorelatedreactions": {
-            "id": 212,
-            "name": "Hydro-Reaktionen",
-            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Hydro-Reaktionen</color>",
-            "description": "Verdampfen: Diesmaliger SCH +2.\nUnter Strom: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\nGefroren: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\nSprießen: Erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\nKristallisation (Hydro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar).\nVerwirbelung (Hydro): Fügt allen gegnerischen Figuren außer dem Ziel 1 Pkt. Hydro-SCH zu.",
-            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verdampfen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Unter Strom</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gefroren</color>: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sprießen</color>: Erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Kristallisation (Hydro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verwirbelung (Hydro)</color>: Fügt allen gegnerischen Figuren außer dem Ziel 1 Pkt. Hydro-SCH zu."
-        },
-        "riptide": {
-            "id": 1005,
-            "name": "Versiegen",
-            "nameraw": "<color=#FFFFFFFF>Versiegen</color>",
-            "description": "Wird die hiervon betroffene Figur ausgeschaltet: Verleiht der aktiven Figur der hiervon betroffenen Seite „Versiegen“.\n(Greift Tartaglia im Nahkampfmodus die davon betroffene Figur an, verursacht er zusätzlichen SCH.)\nDauer (Runden): 2",
-            "descriptionraw": "<color=#FFFFFFFF>Wird die hiervon betroffene Figur ausgeschaltet:</color> Verleiht der aktiven Figur der hiervon betroffenen Seite „Versiegen“.\\n(Greift <color=#FFFFFFFF>Tartaglia</color> im <color=#FFFFFFFF>Nahkampfmodus</color> die davon betroffene Figur an, verursacht er zusätzlichen SCH.)\\n<color=#FFFFFFFF>Dauer (Runden): 2</color>"
-        },
-        "omnielement": {
-            "id": 411,
-            "name": "Omni-Würfel",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>",
-            "description": "Omni-Würfel kann man als beliebige Elementarwürfel verbrauchen.",
-            "descriptionraw": "{SPRITE_PRESET#1111}Omni-Würfel kann man als beliebige Elementarwürfel verbrauchen."
-        },
-        "plungingattack": {
-            "id": 52,
-            "name": "Angriff aus dem Fall",
-            "nameraw": "<color=#FFFFFFFF>Angriff aus dem Fall</color>",
-            "description": "Wird eine Figur als aktive Figur eingewechselt, gilt ihre nächste Kampfaktion in der Runde, wenn sie ein Standardangriff ist, als Angriff aus dem Fall.",
-            "descriptionraw": "Wird eine Figur als aktive Figur eingewechselt, gilt ihre nächste Kampfaktion in der Runde, wenn sie ein Standardangriff ist, als Angriff aus dem Fall."
-        },
-        "passiveskill": {
-            "id": 502,
-            "name": "Passive Fähigkeit",
-            "nameraw": "Passive Fähigkeit",
-            "description": "Diese Fähigkeit wirkt fortlaufend, man muss sie nicht aktiv anwenden.",
-            "descriptionraw": "Diese Fähigkeit wirkt fortlaufend, man muss sie nicht aktiv anwenden."
-        },
-        "electroinfusion": {
-            "id": 1002,
-            "name": "Elektro-Kraft",
-            "nameraw": "<color=#FFFFFFFF>Elektro-Kraft</color>",
-            "description": "Phys. SCH durch die Figur mit diesem Attribut wird nun Elektro-SCH\n Dauer (Runden): 2",
-            "descriptionraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Phys. SCH</color> durch die Figur mit diesem Attribut wird nun {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>\\n <color=#FFFFFFFF>Dauer (Runden)</color>: 2"
-        },
-        "pyrodmg": {
-            "id": 103,
-            "name": "Pyro-Schaden",
-            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-Schaden</color>|s1:{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>",
-            "description": "Verleiht Pyro-Attribut und kann folgende Elementarreaktionen auslösen:\nSchmelzen: Diesmaliger SCH +2.\nVerdampfen: Diesmaliger SCH +2.\nÜberladen: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nIn Flammen: Diesmaliger SCH +1, erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).",
-            "descriptionraw": "Verleiht {SPRITE_PRESET#2103}Pyro-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Schmelzen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verdampfen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Überladen</color>: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>In Flammen</color>: Diesmaliger SCH +1, erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar)."
-        },
-        "pyroapplication": {
-            "id": 203,
-            "name": "Pyro-Attribut",
-            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Pyro-Attribut</color>",
-            "description": "Verleiht man Pyro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nSchmelzen: Kein Effekt.\nVerdampfen: Kein Effekt.\nÜberladen: Wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nIn Flammen: Erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).",
-            "descriptionraw": "Verleiht man {SPRITE_PRESET#2103}Pyro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Schmelzen</color>: Kein Effekt.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verdampfen</color>: Kein Effekt.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Überladen</color>: Wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>In Flammen</color>: Erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar)."
-        },
-        "hydroapplication": {
-            "id": 202,
-            "name": "Hydro-Attribut",
-            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Hydro-Attribut</color>",
-            "description": "Verleiht man Hydro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nVerdampfen: Kein Effekt.\nUnter Strom: Kein Effekt.\nGefroren: Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\nSprießen: Erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.",
-            "descriptionraw": "Verleiht man {SPRITE_PRESET#2102}Hydro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verdampfen</color>: Kein Effekt.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Unter Strom</color>: Kein Effekt.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gefroren</color>: Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sprießen</color>: Erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht."
-        },
-        "pyro": {
-            "id": 303,
-            "name": "Pyro",
-            "nameraw": "{SPRITE_PRESET#1103}Pyro",
-            "description": "Kostet Pyro-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
-            "descriptionraw": "Kostet <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)"
-        },
-        "dendrorelatedreactions": {
-            "id": 217,
-            "name": "Dendro-Reaktionen",
-            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Dendro-Reaktionen</color>",
-            "description": "Sprießen: Diesmaliger SCH +1, erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\nIn Flammen: Diesmaliger SCH +1, erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\nUrwuchs: Diesmaliger SCH +1, erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
-            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sprießen</color>: Diesmaliger SCH +1, erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>In Flammen</color>: Diesmaliger SCH +1, erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Urwuchs</color>: Diesmaliger SCH +1, erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht."
-        },
-        "superlativesuperstrength": {
-            "id": 1007,
-            "name": "Superstarke Superkraft",
-            "nameraw": "<color=#FFFFFFFF>Superstarke Superkraft</color>",
-            "description": "Führt die hiermit ausgerüstete Figur heftige Schläge aus: Verursachter SCH +1. Liegt die Einsatzmöglichkeit bei 2 oder mehr, wird dabei 1 Würfel (beliebig) weniger verbraucht.\nEinsatzmöglichkeit: 1 (Max. 3-fach stapelbar)",
-            "descriptionraw": "<color=#FFFFFFFF>Führt die hiermit ausgerüstete Figur <color=#FFFFFFFF>heftige Schläge</color> aus:</color> Verursachter SCH +1. Liegt die <color=#FFFFFFFF>Einsatzmöglichkeit</color> bei 2 oder mehr, wird dabei 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Würfel (beliebig)</color> weniger verbraucht.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 1</color> (Max. 3-fach stapelbar)"
-        },
-        "cryodmg": {
-            "id": 101,
-            "name": "Kryo-Schaden",
-            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-Schaden</color>|s1:{SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>",
-            "description": "Verleiht Kryo-Attribut und kann folgende Elementarreaktionen auslösen:\nSchmelzen: Diesmaliger SCH +2\nSupraleiter: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu\nGefroren: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand)",
-            "descriptionraw": "Verleiht {SPRITE_PRESET#2101}Kryo-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Schmelzen</color>: Diesmaliger SCH +2\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Supraleiter</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Gefroren</color>: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand)"
-        },
-        "durationrounds": {
-            "id": 4,
-            "name": "Dauer (Runden)",
-            "nameraw": "<color=#FFFFFFFF>Dauer (Runden)</color>",
-            "description": "In jeder Endphase wird die Dauer (Runden) um 1 Runde reduziert.\nDiese Karte wird sofort abgeworfen, sobald ihre Dauer (Runden) abgelaufen ist.",
-            "descriptionraw": "In jeder Endphase wird die <color=#FFFFFFFF>Dauer (Runden)</color> um 1 Runde reduziert.\\nDiese Karte wird sofort abgeworfen, sobald ihre <color=#FFFFFFFF>Dauer (Runden)</color> abgelaufen ist."
-        },
         "aegisofabyssalflame": {
+            "description": "Verleiht der hiermit ausgerüsteten Figur 3 Pkt. Schild.\nPyro-SCH durch diese Figur +1, bevor dieser Schild aufgebraucht wird.",
+            "descriptionraw": "Verleiht der hiermit ausgerüsteten Figur <color=#FFFFFFFF>3 Pkt. {SPRITE_PRESET#4007}<color=#FFFFFFFF>Schild</color></color>.\\n{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color> durch diese Figur +1, bevor dieser {SPRITE_PRESET#4007}<color=#FFFFFFFF>Schild</color> aufgebraucht wird.",
             "id": 1006,
             "name": "Schutz der Abgrundflammen",
-            "nameraw": "<color=#FFFFFFFF>Schutz der Abgrundflammen</color>",
-            "description": "Verleiht der hiermit ausgerüsteten Figur 3 Pkt. Schild.\nPyro-SCH durch diese Figur +1, bevor dieser Schild aufgebraucht wird.",
-            "descriptionraw": "Verleiht der hiermit ausgerüsteten Figur <color=#FFFFFFFF>3 Pkt. {SPRITE_PRESET#4007}<color=#FFFFFFFF>Schild</color></color>.\\n{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color> durch diese Figur +1, bevor dieser {SPRITE_PRESET#4007}<color=#FFFFFFFF>Schild</color> aufgebraucht wird."
+            "nameraw": "<color=#FFFFFFFF>Schutz der Abgrundflammen</color>"
         },
-        "electro": {
-            "id": 304,
-            "name": "Elektro",
-            "nameraw": "{SPRITE_PRESET#1104}Elektro",
-            "description": "Kostet Elektro-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
-            "descriptionraw": "Kostet <color=#FFACFFFF>{SPRITE_PRESET#1104}Elektro</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)"
+        "anemo": {
+            "description": "Kostet Anemo-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
+            "descriptionraw": "Kostet <color=#80FFD7FF>{SPRITE_PRESET#1105}Anemo</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)",
+            "id": 305,
+            "name": "Anemo",
+            "nameraw": "{SPRITE_PRESET#1105}Anemo"
         },
-        "hydro": {
-            "id": 302,
-            "name": "Hydro",
-            "nameraw": "{SPRITE_PRESET#1102}Hydro",
-            "description": "Kostet Hydro-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
-            "descriptionraw": "Kostet <color=#80C0FFFF>{SPRITE_PRESET#1102}Hydro</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)"
+        "anemodmg": {
+            "description": "Löst Reaktionen mit dem bestehenden Elementarattribut aus:\nVerwirbelung (Kryo): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Kryo-SCH zu.\nVerwirbelung (Hydro): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Hydro-SCH zu.\nVerwirbelung (Pyro): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Pyro-SCH zu.\nVerwirbelung (Elektro): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Elektro-SCH zu.",
+            "descriptionraw": "Löst Reaktionen mit dem bestehenden Elementarattribut aus:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Verwirbelung (Kryo)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Kryo-SCH zu.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verwirbelung (Hydro)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Hydro-SCH zu.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verwirbelung (Pyro)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Pyro-SCH zu.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Verwirbelung (Elektro)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Elektro-SCH zu.",
+            "id": 105,
+            "name": "Anemo-Schaden",
+            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-Schaden</color>|s1:{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>"
         },
-        "fatuiambusher": {
-            "id": 1004,
-            "name": "Fatui-Wegelagerer",
-            "nameraw": "<color=#FFFFFFFF>Fatui-Wegelagerer</color>",
-            "description": "Ein Fatui-Wegelagerer wird, nachdem die Figuren der betroffenen Seite eine Fähigkeit angewendet haben, einen entsprechenden Effekt auslösen, der der aktiven Figur der betroffenen Seite SCH zufügt (1-mal pro Runde).\nInsgesamt 4 Arten von Fatui-Wegelagerern:\nKryo-Cicin-Zauberin: Verursacht beim Auslösen des Effekts 1 Pkt. Kryo-SCH, Einsatzmöglichkeit: 2.\nSpiegeljungfrau: Verursacht beim Auslösen des Effekts 1 Pkt. Hydro-SCH, Einsatzmöglichkeit: 2.\nPyro-Kanonen-Freischärler: Verursacht beim Auslösen des Effekts 1 Pkt. Pyro-SCH, Einsatzmöglichkeit: 2.\nElektro-Hammer-Stürmer: Verursacht beim Auslösen des Effekts 1 Pkt. Elektro-SCH, Einsatzmöglichkeit: 2.",
-            "descriptionraw": "Ein Fatui-Wegelagerer wird, nachdem die Figuren der betroffenen Seite eine Fähigkeit angewendet haben, einen entsprechenden Effekt auslösen, der der aktiven Figur der betroffenen Seite SCH zufügt (1-mal pro Runde).\\nInsgesamt 4 Arten von Fatui-Wegelagerern:\\n<color=#FFFFFFFF>Kryo-Cicin-Zauberin</color>: Verursacht beim Auslösen des Effekts 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, Einsatzmöglichkeit: 2.\\n<color=#FFFFFFFF>Spiegeljungfrau</color>: Verursacht beim Auslösen des Effekts 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, Einsatzmöglichkeit: 2.\\n<color=#FFFFFFFF>Pyro-Kanonen-Freischärler</color>: Verursacht beim Auslösen des Effekts 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, Einsatzmöglichkeit: 2.\\n<color=#FFFFFFFF>Elektro-Hammer-Stürmer</color>: Verursacht beim Auslösen des Effekts 1 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, Einsatzmöglichkeit: 2."
+        "bloodblossom": {
+            "description": "Endphase: Fügt der davon betroffenen Figur 1 Pkt. Pyro-SCH zu.\nEinsatzmöglichkeit: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Fügt der davon betroffenen Figur 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color> zu.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 1</color>",
+            "id": 1009,
+            "name": "Blutblüten",
+            "nameraw": "<color=#FFFFFFFF>Blutblüten</color>"
+        },
+        "characterclosesttoyourcurrentactivecharacter": {
+            "description": "Gegnerische Figur, die deiner aktiven Figur „am nächsten“ ist, bezieht sich auf die Figur auf der Seite des Gegners, deren Position deiner aktiven Figur am nächsten ist.\nSind mehrere Figuren in der gleichen Entfernung zu deiner aktiven Figur, ist die Figur, die sich am weitesten vorne befindet, „am nächsten“.",
+            "descriptionraw": "Gegnerische Figur, die deiner aktiven Figur „am nächsten“ ist, bezieht sich auf die Figur auf der Seite des Gegners, deren Position deiner aktiven Figur am nächsten ist.\\nSind mehrere Figuren in der gleichen Entfernung zu deiner aktiven Figur, ist die Figur, die sich am weitesten vorne befindet, „am nächsten“.",
+            "id": 7,
+            "name": "Figur, die deiner aktiven Figur am nächsten ist",
+            "nameraw": "<color=#FFFFFFFF>Figur, die deiner aktiven Figur am nächsten ist</color>"
+        },
+        "chargedattack": {
+            "description": "Ist die Summe deiner verbliebenen Elementarwürfel vor deiner Aktion eine gerade Zahl, gilt der angewendete Standardangriff als heftiger Schlag.",
+            "descriptionraw": "Ist die Summe deiner verbliebenen Elementarwürfel vor deiner Aktion eine gerade Zahl, gilt der angewendete Standardangriff als heftiger Schlag.",
+            "id": 51,
+            "name": "Heftiger Schlag",
+            "nameraw": "<color=#FFFFFFFF>Heftiger Schlag</color>|s1:<color=#FFFFFFFF>heftige Schläge</color>"
+        },
+        "clusterbloomarrow": {
+            "description": "Endphase: Verursacht 1 Pkt. Dendro-SCH.\nEinsatzmöglichkeit: 1 (Max. 2-fach stapelbar)",
+            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Verursacht 1 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>.\\n<color=#FFFFFFFF>Einsatzmöglichkeit: 1</color> (Max. 2-fach stapelbar)",
+            "id": 1008,
+            "name": "Khanda-Blütenpfeil",
+            "nameraw": "<color=#FFFFFFFF>Khanda-Blütenpfeil</color>"
+        },
+        "combataction": {
+            "description": "Nachdem du 1 Kampfaktion beendet hast, ist dein Gegner am Zug.\nEine Karte mit dieser Eigenschaft auszuspielen, zählt als eine Kampfaktion, gilt nicht als „Schnellaktion“.",
+            "descriptionraw": "Nachdem du 1 Kampfaktion beendet hast, ist dein Gegner am Zug.\\n<color=#FFFFFFFF>Eine Karte mit dieser Eigenschaft auszuspielen, zählt als eine Kampfaktion, gilt nicht als „Schnellaktion“</color>.",
+            "id": 1,
+            "name": "Kampfaktion",
+            "nameraw": "<color=#FFFFFFFF>Kampfaktion</color>"
+        },
+        "crowfeathercover": {
+            "description": "SCH der Elementarfähigkeit und Spezialfähigkeit der hiermit ausgerüsteten Figur +1.\nEinsatzmöglichkeit: 2",
+            "descriptionraw": "SCH der <color=#FFFFFFFF>Elementarfähigkeit</color> und <color=#FFFFFFFF>Spezialfähigkeit</color> der hiermit ausgerüsteten Figur +1.\\n<color=#FFFFFFFF>Einsatzmöglichkeit: 2</color>",
+            "id": 1003,
+            "name": "Kraft der Krähenfeder",
+            "nameraw": "<color=#FFFFFFFF>Kraft der Krähenfeder</color>"
+        },
+        "cryo": {
+            "description": "Kostet Kryo-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
+            "descriptionraw": "Kostet <color=#99FFFFFF>{SPRITE_PRESET#1101}Kryo</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)",
+            "id": 301,
+            "name": "Kryo",
+            "nameraw": "{SPRITE_PRESET#1101}Kryo"
+        },
+        "cryoapplication": {
+            "description": "Verleiht man Kryo-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nSchmelzen: Kein Effekt\nSupraleiter: Kein Effekt\nGefroren: Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand)",
+            "descriptionraw": "Verleiht man {SPRITE_PRESET#2101}Kryo-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Schmelzen</color>: Kein Effekt\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Supraleiter</color>: Kein Effekt\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Gefroren</color>: Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand)",
+            "id": 201,
+            "name": "Kryo-Attribut",
+            "nameraw": "<color=#99FFFFFF>{SPRITE_PRESET#2101}Kryo-Attribut</color>"
+        },
+        "cryodmg": {
+            "description": "Verleiht Kryo-Attribut und kann folgende Elementarreaktionen auslösen:\nSchmelzen: Diesmaliger SCH +2\nSupraleiter: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu\nGefroren: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand)",
+            "descriptionraw": "Verleiht {SPRITE_PRESET#2101}Kryo-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Schmelzen</color>: Diesmaliger SCH +2\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Supraleiter</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Gefroren</color>: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand)",
+            "id": 101,
+            "name": "Kryo-Schaden",
+            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-Schaden</color>|s1:{SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>"
+        },
+        "dendro": {
+            "description": "Kostet Dendro-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
+            "descriptionraw": "Kostet <color=#7EC236FF>{SPRITE_PRESET#1107}Dendro</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)",
+            "id": 307,
+            "name": "Dendro",
+            "nameraw": "{SPRITE_PRESET#1107}Dendro"
+        },
+        "dendroapplication": {
+            "description": "Verleiht man Dendro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nSprießen: Erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\nIn Flammen: Erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\nUrwuchs: Erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
+            "descriptionraw": "Verleiht man {SPRITE_PRESET#2107}Dendro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sprießen</color>: Erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>In Flammen</color>: Erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Urwuchs</color>: Erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
+            "id": 207,
+            "name": "Dendro-Attribut",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Dendro-Attribut</color>"
         },
         "dendrodmg": {
+            "description": "Verleiht Dendro-Attribut und kann folgende Elementarreaktionen auslösen:\nSprießen: Diesmaliger SCH +1, erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\nIn Flammen: Diesmaliger SCH +1, erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\nUrwuchs: Diesmaliger SCH +1, erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
+            "descriptionraw": "Verleiht {SPRITE_PRESET#2107}Dendro-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sprießen</color>: Diesmaliger SCH +1, erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>In Flammen</color>: Diesmaliger SCH +1, erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Urwuchs</color>: Diesmaliger SCH +1, erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
             "id": 107,
             "name": "Dendro-Schaden",
-            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-Schaden</color>|s1:{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>",
-            "description": "Verleiht Dendro-Attribut und kann folgende Elementarreaktionen auslösen:\nSprießen: Diesmaliger SCH +1, erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\nIn Flammen: Diesmaliger SCH +1, erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\nUrwuchs: Diesmaliger SCH +1, erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
-            "descriptionraw": "Verleiht {SPRITE_PRESET#2107}Dendro-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sprießen</color>: Diesmaliger SCH +1, erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>In Flammen</color>: Diesmaliger SCH +1, erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Urwuchs</color>: Diesmaliger SCH +1, erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht."
+            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-Schaden</color>|s1:{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>"
+        },
+        "dendrorelatedreactions": {
+            "description": "Sprießen: Diesmaliger SCH +1, erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\nIn Flammen: Diesmaliger SCH +1, erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\nUrwuchs: Diesmaliger SCH +1, erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
+            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sprießen</color>: Diesmaliger SCH +1, erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>In Flammen</color>: Diesmaliger SCH +1, erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Urwuchs</color>: Diesmaliger SCH +1, erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
+            "id": 217,
+            "name": "Dendro-Reaktionen",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Dendro-Reaktionen</color>"
+        },
+        "durationrounds": {
+            "description": "In jeder Endphase wird die Dauer (Runden) um 1 Runde reduziert.\nDiese Karte wird sofort abgeworfen, sobald ihre Dauer (Runden) abgelaufen ist.",
+            "descriptionraw": "In jeder Endphase wird die <color=#FFFFFFFF>Dauer (Runden)</color> um 1 Runde reduziert.\\nDiese Karte wird sofort abgeworfen, sobald ihre <color=#FFFFFFFF>Dauer (Runden)</color> abgelaufen ist.",
+            "id": 4,
+            "name": "Dauer (Runden)",
+            "nameraw": "<color=#FFFFFFFF>Dauer (Runden)</color>"
+        },
+        "electro": {
+            "description": "Kostet Elektro-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
+            "descriptionraw": "Kostet <color=#FFACFFFF>{SPRITE_PRESET#1104}Elektro</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)",
+            "id": 304,
+            "name": "Elektro",
+            "nameraw": "{SPRITE_PRESET#1104}Elektro"
+        },
+        "electroapplication": {
+            "description": "Verleiht man Elektro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nÜberladen: Wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nSupraleiter: Kein Effekt.\nUnter Strom: Kein Effekt.\nUrwuchs: Erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
+            "descriptionraw": "Verleiht man {SPRITE_PRESET#2104}Elektro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Überladen</color>: Wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Supraleiter</color>: Kein Effekt.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Unter Strom</color>: Kein Effekt.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Urwuchs</color>: Erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
+            "id": 204,
+            "name": "Elektro-Attribut",
+            "nameraw": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Elektro-Attribut</color>"
+        },
+        "electrodmg": {
+            "description": "Verleiht Elektro-Attribut und kann folgende Elementarreaktionen auslösen:\nÜberladen: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nSupraleiter: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\nUnter Strom: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\nUrwuchs: Diesmaliger SCH +1, erschafft ein Wildwuchsfeld, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
+            "descriptionraw": "Verleiht {SPRITE_PRESET#2104}Elektro-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Überladen</color>: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Supraleiter</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Unter Strom</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Urwuchs</color>: Diesmaliger SCH +1, erschafft ein <color=#FFFFFFFF>Wildwuchsfeld</color>, das die nächsten 2 Male Dendro-/Elektro-SCH um 1 Pkt. erhöht.",
+            "id": 104,
+            "name": "Elektro-Schaden",
+            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-Schaden</color>|s1:{SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>"
+        },
+        "electroinfusion": {
+            "description": "Phys. SCH durch die Figur mit diesem Attribut wird nun Elektro-SCH\n Dauer (Runden): 2",
+            "descriptionraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Phys. SCH</color> durch die Figur mit diesem Attribut wird nun {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>\\n <color=#FFFFFFFF>Dauer (Runden)</color>: 2",
+            "id": 1002,
+            "name": "Elektro-Kraft",
+            "nameraw": "<color=#FFFFFFFF>Elektro-Kraft</color>"
+        },
+        "elementalburst": {
+            "description": "Sobald eine Figur vollständig aufgeladen ist, kann sie die Aufladung aufbrauchen, um die mächtige Spezialfähigkeit anzuwenden.",
+            "descriptionraw": "Sobald eine Figur vollständig {SPRITE_PRESET#1110}aufgeladen ist, kann sie die {SPRITE_PRESET#1110}Aufladung aufbrauchen, um die mächtige Spezialfähigkeit anzuwenden.",
+            "id": 501,
+            "name": "Spezialfähigkeit",
+            "nameraw": "Spezialfähigkeit"
+        },
+        "energy": {
+            "description": "Spezialfähigkeit verbraucht auch Aufladung.\nWendet eine Figur Elementarfähigkeit oder Standardangriff an, erhält sie 1 Aufladungspunkt.",
+            "descriptionraw": "Spezialfähigkeit verbraucht auch {SPRITE_PRESET#1110}Aufladung.\\nWendet eine Figur Elementarfähigkeit oder Standardangriff an, erhält sie 1 {SPRITE_PRESET#1110}Aufladungspunkt.",
+            "id": 310,
+            "name": "Aufladung",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Aufladung</color>"
+        },
+        "fastaction": {
+            "description": "Nachdem du 1 „Schnellaktion“ beendet hast, kannst du noch mit anderen Aktionen fortfahren.\nNur nach 1 Kampfaktion geht der Zug auf deinen Gegner über.",
+            "descriptionraw": "Nachdem du 1 „Schnellaktion“ beendet hast, kannst du noch mit anderen Aktionen fortfahren.\\nNur nach 1 Kampfaktion geht der Zug auf deinen Gegner über.",
+            "id": 2,
+            "name": "Schnellaktion",
+            "nameraw": "<color=#FFFFFFFF>Schnellaktion</color>"
+        },
+        "fatuiambusher": {
+            "description": "Ein Fatui-Wegelagerer wird, nachdem die Figuren der betroffenen Seite eine Fähigkeit angewendet haben, einen entsprechenden Effekt auslösen, der der aktiven Figur der betroffenen Seite SCH zufügt (1-mal pro Runde).\nInsgesamt 4 Arten von Fatui-Wegelagerern:\nKryo-Cicin-Zauberin: Verursacht beim Auslösen des Effekts 1 Pkt. Kryo-SCH, Einsatzmöglichkeit: 2.\nSpiegeljungfrau: Verursacht beim Auslösen des Effekts 1 Pkt. Hydro-SCH, Einsatzmöglichkeit: 2.\nPyro-Kanonen-Freischärler: Verursacht beim Auslösen des Effekts 1 Pkt. Pyro-SCH, Einsatzmöglichkeit: 2.\nElektro-Hammer-Stürmer: Verursacht beim Auslösen des Effekts 1 Pkt. Elektro-SCH, Einsatzmöglichkeit: 2.",
+            "descriptionraw": "Ein Fatui-Wegelagerer wird, nachdem die Figuren der betroffenen Seite eine Fähigkeit angewendet haben, einen entsprechenden Effekt auslösen, der der aktiven Figur der betroffenen Seite SCH zufügt (1-mal pro Runde).\\nInsgesamt 4 Arten von Fatui-Wegelagerern:\\n<color=#FFFFFFFF>Kryo-Cicin-Zauberin</color>: Verursacht beim Auslösen des Effekts 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, Einsatzmöglichkeit: 2.\\n<color=#FFFFFFFF>Spiegeljungfrau</color>: Verursacht beim Auslösen des Effekts 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, Einsatzmöglichkeit: 2.\\n<color=#FFFFFFFF>Pyro-Kanonen-Freischärler</color>: Verursacht beim Auslösen des Effekts 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, Einsatzmöglichkeit: 2.\\n<color=#FFFFFFFF>Elektro-Hammer-Stürmer</color>: Verursacht beim Auslösen des Effekts 1 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, Einsatzmöglichkeit: 2.",
+            "id": 1004,
+            "name": "Fatui-Wegelagerer",
+            "nameraw": "<color=#FFFFFFFF>Fatui-Wegelagerer</color>"
+        },
+        "geo": {
+            "description": "Kostet Geo-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
+            "descriptionraw": "Kostet <color=#FFE699FF>{SPRITE_PRESET#1106}Geo</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)",
+            "id": 306,
+            "name": "Geo",
+            "nameraw": "{SPRITE_PRESET#1106}Geo"
         },
         "geodmg": {
+            "description": "Löst Reaktionen mit dem bestehenden Elementarattribut aus:\nKristallisation (Kryo): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\nKristallisation (Hydro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\nKristallisation (Pyro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\nKristallisation (Elektro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)",
+            "descriptionraw": "Löst Reaktionen mit dem bestehenden Elementarattribut aus:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Kristallisation (Kryo)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Kristallisation (Hydro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Kristallisation (Pyro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Kristallisation (Elektro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)",
             "id": 106,
             "name": "Geo-Schaden",
-            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo-Schaden</color>|s1:{SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>",
-            "description": "Löst Reaktionen mit dem bestehenden Elementarattribut aus:\nKristallisation (Kryo): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\nKristallisation (Hydro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\nKristallisation (Pyro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\nKristallisation (Elektro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)",
-            "descriptionraw": "Löst Reaktionen mit dem bestehenden Elementarattribut aus:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Kristallisation (Kryo)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Kristallisation (Hydro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Kristallisation (Pyro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Kristallisation (Elektro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar)"
+            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo-Schaden</color>|s1:{SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>"
+        },
+        "hydro": {
+            "description": "Kostet Hydro-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
+            "descriptionraw": "Kostet <color=#80C0FFFF>{SPRITE_PRESET#1102}Hydro</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)",
+            "id": 302,
+            "name": "Hydro",
+            "nameraw": "{SPRITE_PRESET#1102}Hydro"
+        },
+        "hydroapplication": {
+            "description": "Verleiht man Hydro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nVerdampfen: Kein Effekt.\nUnter Strom: Kein Effekt.\nGefroren: Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\nSprießen: Erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.",
+            "descriptionraw": "Verleiht man {SPRITE_PRESET#2102}Hydro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verdampfen</color>: Kein Effekt.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Unter Strom</color>: Kein Effekt.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gefroren</color>: Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sprießen</color>: Erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.",
+            "id": 202,
+            "name": "Hydro-Attribut",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Hydro-Attribut</color>"
+        },
+        "hydrodmg": {
+            "description": "Verleiht Hydro-Attribut und kann folgende Elementarreaktionen auslösen:\nVerdampfen: Diesmaliger SCH +2.\nUnter Strom: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\nGefroren: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\nSprießen: Diesmaliger SCH +1, erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.",
+            "descriptionraw": "Verleiht {SPRITE_PRESET#2102}Hydro-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verdampfen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Unter Strom</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gefroren</color>: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sprießen</color>: Diesmaliger SCH +1, erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.",
+            "id": 102,
+            "name": "Hydro-Schaden",
+            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-Schaden</color>|s1:{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>"
+        },
+        "hydrorelatedreactions": {
+            "description": "Verdampfen: Diesmaliger SCH +2.\nUnter Strom: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\nGefroren: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\nSprießen: Erschafft einen Dendro-Kern, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\nKristallisation (Hydro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar).\nVerwirbelung (Hydro): Fügt allen gegnerischen Figuren außer dem Ziel 1 Pkt. Hydro-SCH zu.",
+            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verdampfen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Unter Strom</color>: Diesmaliger SCH +1, fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. durchdringenden SCH zu.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Gefroren</color>: Diesmaliger SCH +1, Aktionen des Ziels in dieser Runde unmöglich (Phys. SCH und Pyro-SCH an dem Ziel +2, bricht zugleich seinen Gefroren-Zustand).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sprießen</color>: Erschafft einen <color=#FFFFFFFF>Dendro-Kern</color>, der das nächste Mal Pyro-/Elektro-SCH um 2 Pkt. erhöht.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Kristallisation (Hydro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verwirbelung (Hydro)</color>: Fügt allen gegnerischen Figuren außer dem Ziel 1 Pkt. Hydro-SCH zu.",
+            "id": 212,
+            "name": "Hydro-Reaktionen",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Hydro-Reaktionen</color>"
+        },
+        "immunitytodefeats1willnotbedefeated": {
+            "description": "Bei einigen Effekten/Zuständen ist die Figur vor Ausscheiden gefeit, wenn ihre LP auf 0 fallen, und ihr werden gewisse LP wiederhergestellt.\nIn diesem Fall gilt die Figur nicht als ausgeschaltet. Deshalb werden ihre Ausrüstung und Zustände nicht entfernt und ihre Aufladung wird ebenfalls nicht zurückgesetzt.",
+            "descriptionraw": "Bei einigen Effekten/Zuständen ist die Figur <color=#FFFFFFFF>vor Ausscheiden gefeit</color>, wenn ihre LP auf 0 fallen, und ihr werden gewisse LP wiederhergestellt.\\nIn diesem Fall gilt die Figur nicht als <color=#FFFFFFFF>ausgeschaltet</color>. Deshalb werden ihre Ausrüstung und Zustände nicht entfernt und ihre Aufladung wird ebenfalls nicht zurückgesetzt.",
+            "id": 54,
+            "name": "Vor Ausscheiden gefeit",
+            "nameraw": "<color=#FFFFFFFF>Vor Ausscheiden gefeit</color>|s1:<color=#FFFFFFFF>vor Ausscheiden gefeit</color>"
+        },
+        "matchingelement": {
+            "description": "Kostet die angegebene Menge von Würfeln desselben Elements.\n(Dafür kann man auch Omni-Würfel als beliebige Elemente verbrauchen.)",
+            "descriptionraw": "Kostet die angegebene Menge von Würfeln desselben Elements.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel als beliebige Elemente verbrauchen.)",
+            "id": 308,
+            "name": "Würfel (gleich)",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Würfel (gleich)</color>"
+        },
+        "omnielement": {
+            "description": "Omni-Würfel kann man als beliebige Elementarwürfel verbrauchen.",
+            "descriptionraw": "{SPRITE_PRESET#1111}Omni-Würfel kann man als beliebige Elementarwürfel verbrauchen.",
+            "id": 411,
+            "name": "Omni-Würfel",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>"
+        },
+        "passiveskill": {
+            "description": "Diese Fähigkeit wirkt fortlaufend, man muss sie nicht aktiv anwenden.",
+            "descriptionraw": "Diese Fähigkeit wirkt fortlaufend, man muss sie nicht aktiv anwenden.",
+            "id": 502,
+            "name": "Passive Fähigkeit",
+            "nameraw": "Passive Fähigkeit"
+        },
+        "physicaldmg": {
+            "description": "Physischer Schaden verleiht kein Elementarattribut und löst keine Elementarreaktionen aus.",
+            "descriptionraw": "Physischer Schaden verleiht kein Elementarattribut und löst keine Elementarreaktionen aus.",
+            "id": 100,
+            "name": "Physischer Schaden",
+            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Physischer Schaden</color>|s1:{SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>|s2:{SPRITE_PRESET#2100}<color=#FFFFFFFF>Phys. SCH</color>"
+        },
+        "piercingdmg": {
+            "description": "Durchdringender Schaden kann nicht durch SCH-Boni erhöht werden, kann aber auch nicht durch Schild oder SCH-Immunität abgewehrt werden.",
+            "descriptionraw": "Durchdringender Schaden kann nicht durch SCH-Boni erhöht werden, kann aber auch nicht durch Schild oder SCH-Immunität abgewehrt werden.",
+            "id": 5,
+            "name": "Durchdringender Schaden",
+            "nameraw": "<color=#FFFFFFFF>Durchdringender Schaden</color>|s1:<color=#FFFFFFFF>durchdringenden SCH</color>"
+        },
+        "plungingattack": {
+            "description": "Wird eine Figur als aktive Figur eingewechselt, gilt ihre nächste Kampfaktion in der Runde, wenn sie ein Standardangriff ist, als Angriff aus dem Fall.",
+            "descriptionraw": "Wird eine Figur als aktive Figur eingewechselt, gilt ihre nächste Kampfaktion in der Runde, wenn sie ein Standardangriff ist, als Angriff aus dem Fall.",
+            "id": 52,
+            "name": "Angriff aus dem Fall",
+            "nameraw": "<color=#FFFFFFFF>Angriff aus dem Fall</color>"
+        },
+        "prepareskill": {
+            "description": "Einige Fähigkeiten können nicht direkt angewendet werden. Sie benötigen eine bestimmte Anzahl von Zügen zum Vorbereiten.\nIst ein Kartenbeschwörer am Zug, während seine aktive Figur eine Fähigkeit vorbereitet, wird der aktuelle Zug dieses Kartenbeschwörers übersprungen; ist das Vorbereiten dieser Fähigkeit der Figur bereits abgeschlossen, wird sie sofort angewendet. (Diese Art von Fähigkeit, die vorbereitet werden muss, kann keinen Effekt auslösen, der „nach Anwenden einer Fähigkeit“ aktiv werden kann.)\nNur die aktive Figur kann Fähigkeiten vorbereiten; wenn sie aber beim Vorbereiten ihrer Fähigkeit ausgewechselt wird, wird das Vorbereiten ihrer Fähigkeit unterbrochen.",
+            "descriptionraw": "Einige Fähigkeiten können nicht direkt angewendet werden. Sie benötigen eine bestimmte Anzahl von Zügen zum <color=#FFFFFFFF>Vorbereiten</color>.\\nIst ein Kartenbeschwörer am Zug, während seine aktive Figur eine Fähigkeit <color=#FFFFFFFF>vorbereitet</color>, wird der aktuelle Zug dieses Kartenbeschwörers übersprungen; ist das <color=#FFFFFFFF>Vorbereiten</color> dieser Fähigkeit der Figur bereits abgeschlossen, wird sie sofort angewendet. (Diese Art von Fähigkeit, die <color=#FFFFFFFF>vorbereitet</color> werden muss, kann keinen Effekt auslösen, der „nach Anwenden einer Fähigkeit“ aktiv werden kann.)\\nNur die aktive Figur kann Fähigkeiten <color=#FFFFFFFF>vorbereiten</color>; wenn sie aber beim <color=#FFFFFFFF>Vorbereiten</color> ihrer Fähigkeit ausgewechselt wird, wird das <color=#FFFFFFFF>Vorbereiten</color> ihrer Fähigkeit unterbrochen.",
+            "id": 53,
+            "name": "Vorbereiten der Fähigkeiten",
+            "nameraw": "<color=#FFFFFFFF>Vorbereiten der Fähigkeiten</color>|s1:<color=#FFFFFFFF>bereitet folgende Fähigkeit vor</color>"
+        },
+        "pyro": {
+            "description": "Kostet Pyro-Würfel.\n(Dafür kann man auch Omni-Würfel verbrauchen.)",
+            "descriptionraw": "Kostet <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color>-Würfel.\\n(Dafür kann man auch {SPRITE_PRESET#1111}Omni-Würfel verbrauchen.)",
+            "id": 303,
+            "name": "Pyro",
+            "nameraw": "{SPRITE_PRESET#1103}Pyro"
+        },
+        "pyroapplication": {
+            "description": "Verleiht man Pyro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\nSchmelzen: Kein Effekt.\nVerdampfen: Kein Effekt.\nÜberladen: Wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nIn Flammen: Erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).",
+            "descriptionraw": "Verleiht man {SPRITE_PRESET#2103}Pyro-Attribut, ohne dabei Schaden verursacht zu haben, haben die ausgelösten Elementarreaktionen auch keinen Schadeneffekt:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Schmelzen</color>: Kein Effekt.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verdampfen</color>: Kein Effekt.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Überladen</color>: Wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>In Flammen</color>: Erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).",
+            "id": 203,
+            "name": "Pyro-Attribut",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Pyro-Attribut</color>"
+        },
+        "pyrodmg": {
+            "description": "Verleiht Pyro-Attribut und kann folgende Elementarreaktionen auslösen:\nSchmelzen: Diesmaliger SCH +2.\nVerdampfen: Diesmaliger SCH +2.\nÜberladen: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nIn Flammen: Diesmaliger SCH +1, erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).",
+            "descriptionraw": "Verleiht {SPRITE_PRESET#2103}Pyro-Attribut und kann folgende Elementarreaktionen auslösen:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Schmelzen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verdampfen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Überladen</color>: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>In Flammen</color>: Diesmaliger SCH +1, erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).",
+            "id": 103,
+            "name": "Pyro-Schaden",
+            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-Schaden</color>|s1:{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>"
+        },
+        "pyrorelatedreactions": {
+            "description": "Schmelzen: Diesmaliger SCH +2.\nVerdampfen: Diesmaliger SCH +2.\nÜberladen: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\nIn Flammen: Diesmaliger SCH +1, erschafft Loderndes Feuer, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\nKristallisation (Pyro): Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar).\nVerwirbelung (Pyro): Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Pyro-SCH zu.",
+            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Schmelzen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Verdampfen</color>: Diesmaliger SCH +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Überladen</color>: Diesmaliger SCH +2, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>In Flammen</color>: Diesmaliger SCH +1, erschafft <color=#FFFFFFFF>Loderndes Feuer</color>, das am Ende der Runde 1 Pkt. Pyro-SCH verursacht (Einsatzmöglichkeit: 1, 2-fach stapelbar).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Kristallisation (Pyro)</color>: Diesmaliger SCH +1, verleiht deiner aktiven Figur 1 Pkt. Schild (2-fach stapelbar).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Verwirbelung (Pyro)</color>: Fügt allen Figuren des Gegners außer deinem Ziel 1 Pkt. Pyro-SCH zu.",
+            "id": 213,
+            "name": "Pyro-Reaktionen",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Pyro-Reaktionen</color>"
+        },
+        "randomhilichurlsummon": {
+            "description": "Insgesamt 4 Arten von Hilichurl-Beschwörungen:\nKryo-Hilichurl-Schütze: Verursacht in der Endphase 1 Pkt. Kryo-SCH, Einsatzmöglichkeit: 2\nHydro-Samachurl: Verursacht in der Endphase 1 Pkt. Hydro-SCH, Einsatzmöglichkeit: 2\nHilichurl-Berserker: Verursacht in der Endphase 1 Pkt. Pyro-SCH, Einsatzmöglichkeit: 2\nElektro-Hilichurl-Schütze: Verursacht in der Endphase 1 Pkt. Elektro-SCH, Einsatzmöglichkeit: 2",
+            "descriptionraw": "Insgesamt 4 Arten von Hilichurl-Beschwörungen:\\n<color=#FFFFFFFF>Kryo-Hilichurl-Schütze</color>: Verursacht in der Endphase 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, Einsatzmöglichkeit: 2\\n<color=#FFFFFFFF>Hydro-Samachurl</color>: Verursacht in der Endphase 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, Einsatzmöglichkeit: 2\\n<color=#FFFFFFFF>Hilichurl-Berserker</color>: Verursacht in der Endphase 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, Einsatzmöglichkeit: 2\\n<color=#FFFFFFFF>Elektro-Hilichurl-Schütze</color>: Verursacht in der Endphase 1 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, Einsatzmöglichkeit: 2",
+            "id": 1001,
+            "name": "Zufällige Hilichurl-Beschwörung",
+            "nameraw": "<color=#FFFFFFFF>Zufällige Hilichurl-Beschwörung</color>|s1:<color=#FFFFFFFF>zufällige Hilichurl-Beschwörung</color>"
+        },
+        "riptide": {
+            "description": "Wird die hiervon betroffene Figur ausgeschaltet: Verleiht der aktiven Figur der hiervon betroffenen Seite „Versiegen“.\n(Greift Tartaglia im Nahkampfmodus die davon betroffene Figur an, verursacht er zusätzlichen SCH.)\nDauer (Runden): 2",
+            "descriptionraw": "<color=#FFFFFFFF>Wird die hiervon betroffene Figur ausgeschaltet:</color> Verleiht der aktiven Figur der hiervon betroffenen Seite „Versiegen“.\\n(Greift <color=#FFFFFFFF>Tartaglia</color> im <color=#FFFFFFFF>Nahkampfmodus</color> die davon betroffene Figur an, verursacht er zusätzlichen SCH.)\\n<color=#FFFFFFFF>Dauer (Runden): 2</color>",
+            "id": 1005,
+            "name": "Versiegen",
+            "nameraw": "<color=#FFFFFFFF>Versiegen</color>"
+        },
+        "shield": {
+            "description": "Dieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen.",
+            "descriptionraw": "Dieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen.",
+            "id": 6,
+            "name": "Schild",
+            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Schild</color>"
+        },
+        "superlativesuperstrength": {
+            "description": "Führt die hiermit ausgerüstete Figur heftige Schläge aus: Verursachter SCH +1. Liegt die Einsatzmöglichkeit bei 2 oder mehr, wird dabei 1 Würfel (beliebig) weniger verbraucht.\nEinsatzmöglichkeit: 1 (Max. 3-fach stapelbar)",
+            "descriptionraw": "<color=#FFFFFFFF>Führt die hiermit ausgerüstete Figur <color=#FFFFFFFF>heftige Schläge</color> aus:</color> Verursachter SCH +1. Liegt die <color=#FFFFFFFF>Einsatzmöglichkeit</color> bei 2 oder mehr, wird dabei 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Würfel (beliebig)</color> weniger verbraucht.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 1</color> (Max. 3-fach stapelbar)",
+            "id": 1007,
+            "name": "Superstarke Superkraft",
+            "nameraw": "<color=#FFFFFFFF>Superstarke Superkraft</color>"
+        },
+        "unalignedelement": {
+            "description": "Dafür kann man Würfel beliebigen Elements verbrauchen.",
+            "descriptionraw": "Dafür kann man Würfel beliebigen Elements verbrauchen.",
+            "id": 309,
+            "name": "Würfel (beliebig)",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Würfel (beliebig)</color>"
+        },
+        "usages": {
+            "description": "Nach Auslösen des Effekts dieser Karte wird 1 Einsatzmöglichkeit verbraucht.\nDiese Karte wird sofort abgeworfen, sobald ihre Einsatzmöglichkeiten aufgebraucht werden.",
+            "descriptionraw": "Nach Auslösen des Effekts dieser Karte wird 1 <color=#FFFFFFFF>Einsatzmöglichkeit</color> verbraucht.\\nDiese Karte wird sofort abgeworfen, sobald ihre <color=#FFFFFFFF>Einsatzmöglichkeiten</color> aufgebraucht werden.",
+            "id": 3,
+            "name": "Einsatzmöglichkeit",
+            "nameraw": "<color=#FFFFFFFF>Einsatzmöglichkeit</color>"
         }
     },
     "meta": {
+        "aliases": {},
+        "categories": {},
         "namemap": {
             "aegisofabyssalflame": "Schutz der Abgrundflammen",
             "anemo": "Anemo",
@@ -397,58 +399,56 @@
             "usages": "Einsatzmöglichkeit"
         },
         "names": {
-            "Schutz der Abgrundflammen": "aegisofabyssalflame",
             "Anemo": "anemo",
             "Anemo-Schaden": "anemodmg",
+            "Angriff aus dem Fall": "plungingattack",
+            "Aufladung": "energy",
             "Blutblüten": "bloodblossom",
+            "Dauer (Runden)": "durationrounds",
+            "Dendro": "dendro",
+            "Dendro-Attribut": "dendroapplication",
+            "Dendro-Reaktionen": "dendrorelatedreactions",
+            "Dendro-Schaden": "dendrodmg",
+            "Durchdringender Schaden": "piercingdmg",
+            "Einsatzmöglichkeit": "usages",
+            "Elektro": "electro",
+            "Elektro-Attribut": "electroapplication",
+            "Elektro-Kraft": "electroinfusion",
+            "Elektro-Schaden": "electrodmg",
+            "Fatui-Wegelagerer": "fatuiambusher",
             "Figur, die deiner aktiven Figur am nächsten ist": "characterclosesttoyourcurrentactivecharacter",
+            "Geo": "geo",
+            "Geo-Schaden": "geodmg",
             "Heftiger Schlag": "chargedattack",
-            "Khanda-Blütenpfeil": "clusterbloomarrow",
+            "Hydro": "hydro",
+            "Hydro-Attribut": "hydroapplication",
+            "Hydro-Reaktionen": "hydrorelatedreactions",
+            "Hydro-Schaden": "hydrodmg",
             "Kampfaktion": "combataction",
+            "Khanda-Blütenpfeil": "clusterbloomarrow",
             "Kraft der Krähenfeder": "crowfeathercover",
             "Kryo": "cryo",
             "Kryo-Attribut": "cryoapplication",
             "Kryo-Schaden": "cryodmg",
-            "Dendro": "dendro",
-            "Dendro-Attribut": "dendroapplication",
-            "Dendro-Schaden": "dendrodmg",
-            "Dendro-Reaktionen": "dendrorelatedreactions",
-            "Dauer (Runden)": "durationrounds",
-            "Elektro": "electro",
-            "Elektro-Attribut": "electroapplication",
-            "Elektro-Schaden": "electrodmg",
-            "Elektro-Kraft": "electroinfusion",
-            "Spezialfähigkeit": "elementalburst",
-            "Aufladung": "energy",
-            "Schnellaktion": "fastaction",
-            "Fatui-Wegelagerer": "fatuiambusher",
-            "Geo": "geo",
-            "Geo-Schaden": "geodmg",
-            "Hydro": "hydro",
-            "Hydro-Attribut": "hydroapplication",
-            "Hydro-Schaden": "hydrodmg",
-            "Hydro-Reaktionen": "hydrorelatedreactions",
-            "Vor Ausscheiden gefeit": "immunitytodefeats1willnotbedefeated",
-            "Würfel (gleich)": "matchingelement",
             "Omni-Würfel": "omnielement",
             "Passive Fähigkeit": "passiveskill",
             "Physischer Schaden": "physicaldmg",
-            "Durchdringender Schaden": "piercingdmg",
-            "Angriff aus dem Fall": "plungingattack",
-            "Vorbereiten der Fähigkeiten": "prepareskill",
             "Pyro": "pyro",
             "Pyro-Attribut": "pyroapplication",
-            "Pyro-Schaden": "pyrodmg",
             "Pyro-Reaktionen": "pyrorelatedreactions",
-            "Zufällige Hilichurl-Beschwörung": "randomhilichurlsummon",
-            "Versiegen": "riptide",
+            "Pyro-Schaden": "pyrodmg",
             "Schild": "shield",
+            "Schnellaktion": "fastaction",
+            "Schutz der Abgrundflammen": "aegisofabyssalflame",
+            "Spezialfähigkeit": "elementalburst",
             "Superstarke Superkraft": "superlativesuperstrength",
+            "Versiegen": "riptide",
+            "Vor Ausscheiden gefeit": "immunitytodefeats1willnotbedefeated",
+            "Vorbereiten der Fähigkeiten": "prepareskill",
             "Würfel (beliebig)": "unalignedelement",
-            "Einsatzmöglichkeit": "usages"
+            "Würfel (gleich)": "matchingelement",
+            "Zufällige Hilichurl-Beschwörung": "randomhilichurlsummon"
         },
-        "aliases": {},
-        "categories": {},
         "properties": {}
     }
 }

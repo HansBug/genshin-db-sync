@@ -1,285 +1,309 @@
 {
     "items": {
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Nuovi slot di salvataggio mazzi sbloccati\nNuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Liyue",
-            "unlockdescriptionraw": "Nuovi slot di salvataggio mazzi sbloccati\\nNuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invito alla partita",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Matchmaking tramite la bacheca degli inviti sbloccato\nNuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Liyue",
-            "unlockdescriptionraw": "Matchmaking tramite la bacheca degli inviti sbloccato\\nNuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invito alla partita",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Sfide ospite settimanali sbloccate\nDisponibili nuovi avversari a Mondstadt",
-            "unlockdescriptionraw": "Sfide ospite settimanali sbloccate\\nDisponibili nuovi avversari a Mondstadt",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invito alla partita",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "Mondstadt",
-                    "count": 1
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "5",
-            "exp": 1450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Nuovi slot di salvataggio mazzi sbloccati\nNuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Inazuma",
-            "unlockdescriptionraw": "Nuovi slot di salvataggio mazzi sbloccati\\nNuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invito alla partita",
-                    "count": 1
-                },
-                {
-                    "id": 339502,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
         "1": {
-            "id": 1,
-            "name": "1",
             "exp": 300,
             "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Partite su invito sbloccate\nPartite multigiocatore sbloccate\nNegozio di carte sbloccato\nManuale del giocatore sbloccato\nDisponibili nuovi avversari a Mondstadt",
-            "unlockdescriptionraw": "Partite su invito sbloccate\\nPartite multigiocatore sbloccate\\nNegozio di carte sbloccato\\nManuale del giocatore sbloccato\\nDisponibili nuovi avversari a Mondstadt",
+            "id": 1,
+            "name": "1",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
+                    "name": "Primogemma"
                 },
                 {
+                    "count": 1,
                     "id": 107020,
-                    "name": "Invito alla partita",
-                    "count": 1
+                    "name": "Invito alla partita"
                 },
                 {
+                    "count": 500,
                     "id": 107021,
-                    "name": "Moneta della fortuna",
-                    "count": 500
+                    "name": "Moneta della fortuna"
                 }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "6",
-            "exp": 1600,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Nuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Inazuma",
-            "unlockdescriptionraw": "Nuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invito alla partita",
-                    "count": 1
-                },
-                {
-                    "id": 339003,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "8",
-            "exp": 1900,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Nuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Sumeru",
-            "unlockdescriptionraw": "Nuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invito alla partita",
-                    "count": 1
-                },
-                {
-                    "id": 339004,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "9",
-            "exp": 2450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Disponibili nuovi avversari a Sumeru",
-            "unlockdescriptionraw": "Disponibili nuovi avversari a Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "Carta animata vuota",
-                    "count": 1
-                },
-                {
-                    "id": 107020,
-                    "name": "Invito alla partita",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Nuovi slot di salvataggio mazzi sbloccati\nNuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Sumeru",
-            "unlockdescriptionraw": "Nuovi slot di salvataggio mazzi sbloccati\\nNuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Invito alla partita",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
+            ],
+            "unlockdescription": "Partite su invito sbloccate\nPartite multigiocatore sbloccate\nNegozio di carte sbloccato\nManuale del giocatore sbloccato\nDisponibili nuovi avversari a Mondstadt",
+            "unlockdescriptionraw": "Partite su invito sbloccate\\nPartite multigiocatore sbloccate\\nNegozio di carte sbloccato\\nManuale del giocatore sbloccato\\nDisponibili nuovi avversari a Mondstadt"
         },
         "10": {
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
             "id": 10,
             "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "Nuovi slot di salvataggio mazzi sbloccati\nDisponibili nuovi avversari",
-            "unlockdescriptionraw": "Nuovi slot di salvataggio mazzi sbloccati\\nDisponibili nuovi avversari",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Primogemma",
-                    "count": 60
+                    "name": "Primogemma"
                 },
                 {
+                    "count": 1,
                     "id": 107019,
-                    "name": "Carta animata vuota",
-                    "count": 1
+                    "name": "Carta animata vuota"
                 },
                 {
+                    "count": 1,
                     "id": 339009,
-                    "name": "Leggendario",
-                    "count": 1
+                    "name": "Leggendario"
                 }
-            ]
+            ],
+            "unlockdescription": "Nuovi slot di salvataggio mazzi sbloccati\nDisponibili nuovi avversari",
+            "unlockdescriptionraw": "Nuovi slot di salvataggio mazzi sbloccati\\nDisponibili nuovi avversari"
+        },
+        "2": {
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "id": 2,
+            "name": "2",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogemma"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invito alla partita"
+                },
+                {
+                    "count": 1,
+                    "id": 339001,
+                    "name": "Mondstadt"
+                }
+            ],
+            "unlockdescription": "Sfide ospite settimanali sbloccate\nDisponibili nuovi avversari a Mondstadt",
+            "unlockdescriptionraw": "Sfide ospite settimanali sbloccate\\nDisponibili nuovi avversari a Mondstadt"
+        },
+        "3": {
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 3,
+            "name": "3",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogemma"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invito alla partita"
+                },
+                {
+                    "count": 1,
+                    "id": 339501,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Nuovi slot di salvataggio mazzi sbloccati\nNuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Liyue",
+            "unlockdescriptionraw": "Nuovi slot di salvataggio mazzi sbloccati\\nNuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Liyue"
+        },
+        "4": {
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 4,
+            "name": "4",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogemma"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invito alla partita"
+                },
+                {
+                    "count": 1,
+                    "id": 339002,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Matchmaking tramite la bacheca degli inviti sbloccato\nNuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Liyue",
+            "unlockdescriptionraw": "Matchmaking tramite la bacheca degli inviti sbloccato\\nNuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Liyue"
+        },
+        "5": {
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 5,
+            "name": "5",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogemma"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invito alla partita"
+                },
+                {
+                    "count": 1,
+                    "id": 339502,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Nuovi slot di salvataggio mazzi sbloccati\nNuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Inazuma",
+            "unlockdescriptionraw": "Nuovi slot di salvataggio mazzi sbloccati\\nNuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Inazuma"
+        },
+        "6": {
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 6,
+            "name": "6",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogemma"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invito alla partita"
+                },
+                {
+                    "count": 1,
+                    "id": 339003,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Nuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Inazuma",
+            "unlockdescriptionraw": "Nuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Inazuma"
+        },
+        "7": {
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 7,
+            "name": "7",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogemma"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invito alla partita"
+                },
+                {
+                    "count": 1,
+                    "id": 339503,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Nuovi slot di salvataggio mazzi sbloccati\nNuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Sumeru",
+            "unlockdescriptionraw": "Nuovi slot di salvataggio mazzi sbloccati\\nNuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Sumeru"
+        },
+        "8": {
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 8,
+            "name": "8",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogemma"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invito alla partita"
+                },
+                {
+                    "count": 1,
+                    "id": 339004,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Nuove sfide della taverna sbloccate\nDisponibili nuovi avversari a Sumeru",
+            "unlockdescriptionraw": "Nuove sfide della taverna sbloccate\\nDisponibili nuovi avversari a Sumeru"
+        },
+        "9": {
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 9,
+            "name": "9",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogemma"
+                },
+                {
+                    "count": 1,
+                    "id": 107019,
+                    "name": "Carta animata vuota"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Invito alla partita"
+                }
+            ],
+            "unlockdescription": "Disponibili nuovi avversari a Sumeru",
+            "unlockdescriptionraw": "Disponibili nuovi avversari a Sumeru"
         }
     },
     "meta": {
-        "namemap": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
-        "names": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
         "aliases": {},
         "categories": {
+            "Carta animata vuota": [
+                "10",
+                "9"
+            ],
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
             "GCG_LEVEL_ICON_TYPE_NONE": [
                 "1",
                 "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "Inazuma": [
+                "5",
+                "6"
+            ],
+            "Invito alla partita": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Leggendario": [
+                "10"
+            ],
+            "Liyue": [
+                "3",
+                "4"
+            ],
+            "Mondstadt": [
+                "2"
+            ],
+            "Moneta della fortuna": [
+                "1"
             ],
             "Primogemma": [
                 "1",
@@ -293,58 +317,34 @@
                 "8",
                 "9"
             ],
-            "Invito alla partita": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9"
-            ],
-            "Moneta della fortuna": [
-                "1"
-            ],
-            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
-                "10"
-            ],
-            "Carta animata vuota": [
-                "10",
-                "9"
-            ],
-            "Leggendario": [
-                "10"
-            ],
-            "Mondstadt": [
-                "2"
-            ],
-            "GCG_LEVEL_ICON_TYPE_COPPER": [
-                "3",
-                "4"
-            ],
-            "Liyue": [
-                "3",
-                "4"
-            ],
-            "GCG_LEVEL_ICON_TYPE_SILIVER": [
-                "5",
-                "6"
-            ],
-            "Inazuma": [
-                "5",
-                "6"
-            ],
-            "GCG_LEVEL_ICON_TYPE_GOLD": [
-                "7",
-                "8",
-                "9"
-            ],
             "Sumeru": [
                 "7",
                 "8"
             ]
+        },
+        "namemap": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
+        },
+        "names": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
         },
         "properties": {
             "icontype": [

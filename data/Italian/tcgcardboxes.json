@@ -1,39 +1,48 @@
 {
     "items": {
         "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
             "description": "Il fulmine lampeggia e poi va via, illuminando la solitudine del tuono.\nI sogni di follia vanno e vengono: tutto è transitorio.",
             "descriptionraw": "Il fulmine lampeggia e poi va via, illuminando la solitudine del tuono.\\nI sogni di follia vanno e vengono: tutto è transitorio.",
-            "source": "Ricompensa per aver raggiunto il livello giocatore 5",
-            "rarity": 4
-        },
-        "sumeru": {
-            "id": 103,
-            "name": "Sumeru",
-            "description": "O erba della saggezza, non piangere!\nPerfino il travaglio dei venti roventi deve finire.\nLe piogge benedette cadranno, e i fiori sbocceranno...\nDatemi ascolto! La canzone del giardino verdeggiante viene intonata nuovamente.",
-            "descriptionraw": "O erba della saggezza, non piangere!\\nPerfino il travaglio dei venti roventi deve finire.\\nLe piogge benedette cadranno, e i fiori sbocceranno...\\nDatemi ascolto! La canzone del giardino verdeggiante viene intonata nuovamente.",
-            "source": "Ricompensa per aver raggiunto il livello giocatore 7",
-            "rarity": 4
+            "id": 102,
+            "name": "Inazuma",
+            "rarity": 4,
+            "source": "Ricompensa per aver raggiunto il livello giocatore 5"
         },
         "liyue": {
-            "id": 101,
-            "name": "Liyue",
             "description": "Eterni come la luna, longevi come il sole che sorge.\nPer la terra, e la collina e il letto di rocce tutte le cose prospereranno.",
             "descriptionraw": "Eterni come la luna, longevi come il sole che sorge.\\nPer la terra, e la collina e il letto di rocce tutte le cose prospereranno.",
-            "source": "Ricompensa per aver raggiunto il livello giocatore 3",
-            "rarity": 4
+            "id": 101,
+            "name": "Liyue",
+            "rarity": 4,
+            "source": "Ricompensa per aver raggiunto il livello giocatore 3"
         },
         "mondstadt": {
-            "id": 100,
-            "name": "Mondstadt",
             "description": "Il sussurro senza fine del vento fa risuonare le corde, creando una musica adorabile.\nIl discorso passionale del vento e dei fiori viene spazzato via, scivolando nel cuore delle limpide sorgenti.",
             "descriptionraw": "Il sussurro senza fine del vento fa risuonare le corde, creando una musica adorabile.\\nIl discorso passionale del vento e dei fiori viene spazzato via, scivolando nel cuore delle limpide sorgenti.",
-            "source": "Ottieni per la prima volta",
-            "rarity": 4
+            "id": 100,
+            "name": "Mondstadt",
+            "rarity": 4,
+            "source": "Ottieni per la prima volta"
+        },
+        "sumeru": {
+            "description": "O erba della saggezza, non piangere!\nPerfino il travaglio dei venti roventi deve finire.\nLe piogge benedette cadranno, e i fiori sbocceranno...\nDatemi ascolto! La canzone del giardino verdeggiante viene intonata nuovamente.",
+            "descriptionraw": "O erba della saggezza, non piangere!\\nPerfino il travaglio dei venti roventi deve finire.\\nLe piogge benedette cadranno, e i fiori sbocceranno...\\nDatemi ascolto! La canzone del giardino verdeggiante viene intonata nuovamente.",
+            "id": 103,
+            "name": "Sumeru",
+            "rarity": 4,
+            "source": "Ricompensa per aver raggiunto il livello giocatore 7"
         }
     },
     "meta": {
+        "aliases": {},
+        "categories": {
+            "4": [
+                "inazuma",
+                "liyue",
+                "mondstadt",
+                "sumeru"
+            ]
+        },
         "namemap": {
             "inazuma": "Inazuma",
             "liyue": "Liyue",
@@ -45,15 +54,6 @@
             "Liyue": "liyue",
             "Mondstadt": "mondstadt",
             "Sumeru": "sumeru"
-        },
-        "aliases": {},
-        "categories": {
-            "4": [
-                "inazuma",
-                "liyue",
-                "mondstadt",
-                "sumeru"
-            ]
         },
         "properties": {
             "rarity": [

@@ -1,39 +1,48 @@
 {
     "items": {
         "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
             "description": "Lightning flashes, then passes, illuminating the solitude of thunder.\nDreams of madness come and go — all things are impermanent.",
             "descriptionraw": "Lightning flashes, then passes, illuminating the solitude of thunder.\\nDreams of madness come and go — all things are impermanent.",
-            "source": "Reward for reaching Player Level 5",
-            "rarity": 4
-        },
-        "sumeru": {
-            "id": 103,
-            "name": "Sumeru",
-            "description": "Oh grass of wisdom, weep not!\nEven the travail through searing winds must end.\nThe blessed rains will fall, and the flowers shall bloom...\nHearken! The song of the verdant garden is sung once more.",
-            "descriptionraw": "Oh grass of wisdom, weep not!\\nEven the travail through searing winds must end.\\nThe blessed rains will fall, and the flowers shall bloom...\\nHearken! The song of the verdant garden is sung once more.",
-            "source": "Reward for reaching Player Level 7",
-            "rarity": 4
+            "id": 102,
+            "name": "Inazuma",
+            "rarity": 4,
+            "source": "Reward for reaching Player Level 5"
         },
         "liyue": {
-            "id": 101,
-            "name": "Liyue",
             "description": "As eternal as the moon, as long-lasting as the rising sun.\nBy earth and hill and bedrock shall all things prosper.",
             "descriptionraw": "As eternal as the moon, as long-lasting as the rising sun.\\nBy earth and hill and bedrock shall all things prosper.",
-            "source": "Reward for reaching Player Level 3",
-            "rarity": 4
+            "id": 101,
+            "name": "Liyue",
+            "rarity": 4,
+            "source": "Reward for reaching Player Level 3"
         },
         "mondstadt": {
-            "id": 100,
-            "name": "Mondstadt",
             "description": "The ceaseless whisper of the breeze plays upon the strings, creating a lovely music.\nThe passionate talk of the wind and flowers is blown away, falling into the heart of the clear spring.",
             "descriptionraw": "The ceaseless whisper of the breeze plays upon the strings, creating a lovely music.\\nThe passionate talk of the wind and flowers is blown away, falling into the heart of the clear spring.",
-            "source": "Obtain for the first time",
-            "rarity": 4
+            "id": 100,
+            "name": "Mondstadt",
+            "rarity": 4,
+            "source": "Obtain for the first time"
+        },
+        "sumeru": {
+            "description": "Oh grass of wisdom, weep not!\nEven the travail through searing winds must end.\nThe blessed rains will fall, and the flowers shall bloom...\nHearken! The song of the verdant garden is sung once more.",
+            "descriptionraw": "Oh grass of wisdom, weep not!\\nEven the travail through searing winds must end.\\nThe blessed rains will fall, and the flowers shall bloom...\\nHearken! The song of the verdant garden is sung once more.",
+            "id": 103,
+            "name": "Sumeru",
+            "rarity": 4,
+            "source": "Reward for reaching Player Level 7"
         }
     },
     "meta": {
+        "aliases": {},
+        "categories": {
+            "4": [
+                "inazuma",
+                "liyue",
+                "mondstadt",
+                "sumeru"
+            ]
+        },
         "namemap": {
             "inazuma": "Inazuma",
             "liyue": "Liyue",
@@ -45,15 +54,6 @@
             "Liyue": "liyue",
             "Mondstadt": "mondstadt",
             "Sumeru": "sumeru"
-        },
-        "aliases": {},
-        "categories": {
-            "4": [
-                "inazuma",
-                "liyue",
-                "mondstadt",
-                "sumeru"
-            ]
         },
         "properties": {
             "rarity": [

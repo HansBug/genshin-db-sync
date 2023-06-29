@@ -1,285 +1,280 @@
 {
     "items": {
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "解鎖新的牌組儲存欄位\n解鎖新的酒館挑戰對局\n璃月新增可挑戰的對局",
-            "unlockdescriptionraw": "解鎖新的牌組儲存欄位\\n解鎖新的酒館挑戰對局\\n璃月新增可挑戰的對局",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "對局邀請函",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "璃月",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "可以在邀請板進行配對牌局\n解鎖新的酒館挑戰對局\n璃月新增可挑戰的對局",
-            "unlockdescriptionraw": "可以在邀請板進行配對牌局\\n解鎖新的酒館挑戰對局\\n璃月新增可挑戰的對局",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "對局邀請函",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "璃月",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "每週來客挑戰解鎖\n蒙德新增可挑戰的對局",
-            "unlockdescriptionraw": "每週來客挑戰解鎖\\n蒙德新增可挑戰的對局",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "對局邀請函",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "蒙德",
-                    "count": 1
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "5",
-            "exp": 1450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "解鎖新的牌組儲存欄位\n解鎖新的酒館挑戰對局\n稻妻新增可挑戰的對局",
-            "unlockdescriptionraw": "解鎖新的牌組儲存欄位\\n解鎖新的酒館挑戰對局\\n稻妻新增可挑戰的對局",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "對局邀請函",
-                    "count": 1
-                },
-                {
-                    "id": 339502,
-                    "name": "稻妻",
-                    "count": 1
-                }
-            ]
-        },
         "1": {
-            "id": 1,
-            "name": "1",
             "exp": 300,
             "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "邀約對局解鎖\n同一世界多人連線對局解鎖\n卡牌商店解鎖\n牌手手冊解鎖\n蒙德新增可挑戰的對局",
-            "unlockdescriptionraw": "邀約對局解鎖\\n同一世界多人連線對局解鎖\\n卡牌商店解鎖\\n牌手手冊解鎖\\n蒙德新增可挑戰的對局",
+            "id": 1,
+            "name": "1",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "原石",
-                    "count": 60
+                    "name": "原石"
                 },
                 {
+                    "count": 1,
                     "id": 107020,
-                    "name": "對局邀請函",
-                    "count": 1
+                    "name": "對局邀請函"
                 },
                 {
+                    "count": 500,
                     "id": 107021,
-                    "name": "幸運牌幣",
-                    "count": 500
+                    "name": "幸運牌幣"
                 }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "6",
-            "exp": 1600,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "解鎖新的酒館挑戰對局\n稻妻新增可挑戰的對局",
-            "unlockdescriptionraw": "解鎖新的酒館挑戰對局\\n稻妻新增可挑戰的對局",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "對局邀請函",
-                    "count": 1
-                },
-                {
-                    "id": 339003,
-                    "name": "稻妻",
-                    "count": 1
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "8",
-            "exp": 1900,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "解鎖新的酒館挑戰對局\n須彌新增可挑戰的對局",
-            "unlockdescriptionraw": "解鎖新的酒館挑戰對局\\n須彌新增可挑戰的對局",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "對局邀請函",
-                    "count": 1
-                },
-                {
-                    "id": 339004,
-                    "name": "須彌",
-                    "count": 1
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "9",
-            "exp": 2450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "須彌新增可挑戰的對局",
-            "unlockdescriptionraw": "須彌新增可挑戰的對局",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "空白的影幻牌",
-                    "count": 1
-                },
-                {
-                    "id": 107020,
-                    "name": "對局邀請函",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "解鎖新的牌組儲存欄位\n解鎖新的酒館挑戰對局\n須彌新增可挑戰的對局",
-            "unlockdescriptionraw": "解鎖新的牌組儲存欄位\\n解鎖新的酒館挑戰對局\\n須彌新增可挑戰的對局",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "對局邀請函",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "須彌",
-                    "count": 1
-                }
-            ]
+            ],
+            "unlockdescription": "邀約對局解鎖\n同一世界多人連線對局解鎖\n卡牌商店解鎖\n牌手手冊解鎖\n蒙德新增可挑戰的對局",
+            "unlockdescriptionraw": "邀約對局解鎖\\n同一世界多人連線對局解鎖\\n卡牌商店解鎖\\n牌手手冊解鎖\\n蒙德新增可挑戰的對局"
         },
         "10": {
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
             "id": 10,
             "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "解鎖新的牌組儲存欄位\n新增可挑戰的對局",
-            "unlockdescriptionraw": "解鎖新的牌組儲存欄位\\n新增可挑戰的對局",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "原石",
-                    "count": 60
+                    "name": "原石"
                 },
                 {
+                    "count": 1,
                     "id": 107019,
-                    "name": "空白的影幻牌",
-                    "count": 1
+                    "name": "空白的影幻牌"
                 },
                 {
+                    "count": 1,
                     "id": 339009,
-                    "name": "傳說",
-                    "count": 1
+                    "name": "傳說"
                 }
-            ]
+            ],
+            "unlockdescription": "解鎖新的牌組儲存欄位\n新增可挑戰的對局",
+            "unlockdescriptionraw": "解鎖新的牌組儲存欄位\\n新增可挑戰的對局"
+        },
+        "2": {
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "id": 2,
+            "name": "2",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "對局邀請函"
+                },
+                {
+                    "count": 1,
+                    "id": 339001,
+                    "name": "蒙德"
+                }
+            ],
+            "unlockdescription": "每週來客挑戰解鎖\n蒙德新增可挑戰的對局",
+            "unlockdescriptionraw": "每週來客挑戰解鎖\\n蒙德新增可挑戰的對局"
+        },
+        "3": {
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 3,
+            "name": "3",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "對局邀請函"
+                },
+                {
+                    "count": 1,
+                    "id": 339501,
+                    "name": "璃月"
+                }
+            ],
+            "unlockdescription": "解鎖新的牌組儲存欄位\n解鎖新的酒館挑戰對局\n璃月新增可挑戰的對局",
+            "unlockdescriptionraw": "解鎖新的牌組儲存欄位\\n解鎖新的酒館挑戰對局\\n璃月新增可挑戰的對局"
+        },
+        "4": {
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 4,
+            "name": "4",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "對局邀請函"
+                },
+                {
+                    "count": 1,
+                    "id": 339002,
+                    "name": "璃月"
+                }
+            ],
+            "unlockdescription": "可以在邀請板進行配對牌局\n解鎖新的酒館挑戰對局\n璃月新增可挑戰的對局",
+            "unlockdescriptionraw": "可以在邀請板進行配對牌局\\n解鎖新的酒館挑戰對局\\n璃月新增可挑戰的對局"
+        },
+        "5": {
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 5,
+            "name": "5",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "對局邀請函"
+                },
+                {
+                    "count": 1,
+                    "id": 339502,
+                    "name": "稻妻"
+                }
+            ],
+            "unlockdescription": "解鎖新的牌組儲存欄位\n解鎖新的酒館挑戰對局\n稻妻新增可挑戰的對局",
+            "unlockdescriptionraw": "解鎖新的牌組儲存欄位\\n解鎖新的酒館挑戰對局\\n稻妻新增可挑戰的對局"
+        },
+        "6": {
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 6,
+            "name": "6",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "對局邀請函"
+                },
+                {
+                    "count": 1,
+                    "id": 339003,
+                    "name": "稻妻"
+                }
+            ],
+            "unlockdescription": "解鎖新的酒館挑戰對局\n稻妻新增可挑戰的對局",
+            "unlockdescriptionraw": "解鎖新的酒館挑戰對局\\n稻妻新增可挑戰的對局"
+        },
+        "7": {
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 7,
+            "name": "7",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "對局邀請函"
+                },
+                {
+                    "count": 1,
+                    "id": 339503,
+                    "name": "須彌"
+                }
+            ],
+            "unlockdescription": "解鎖新的牌組儲存欄位\n解鎖新的酒館挑戰對局\n須彌新增可挑戰的對局",
+            "unlockdescriptionraw": "解鎖新的牌組儲存欄位\\n解鎖新的酒館挑戰對局\\n須彌新增可挑戰的對局"
+        },
+        "8": {
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 8,
+            "name": "8",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "對局邀請函"
+                },
+                {
+                    "count": 1,
+                    "id": 339004,
+                    "name": "須彌"
+                }
+            ],
+            "unlockdescription": "解鎖新的酒館挑戰對局\n須彌新增可挑戰的對局",
+            "unlockdescriptionraw": "解鎖新的酒館挑戰對局\\n須彌新增可挑戰的對局"
+        },
+        "9": {
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 9,
+            "name": "9",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107019,
+                    "name": "空白的影幻牌"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "對局邀請函"
+                }
+            ],
+            "unlockdescription": "須彌新增可挑戰的對局",
+            "unlockdescriptionraw": "須彌新增可挑戰的對局"
         }
     },
     "meta": {
-        "namemap": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
-        "names": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
         "aliases": {},
         "categories": {
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
             "GCG_LEVEL_ICON_TYPE_NONE": [
                 "1",
                 "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "傳說": [
+                "10"
             ],
             "原石": [
                 "1",
@@ -307,44 +302,49 @@
             "幸運牌幣": [
                 "1"
             ],
-            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
-                "10"
-            ],
-            "空白的影幻牌": [
-                "10",
-                "9"
-            ],
-            "傳說": [
-                "10"
-            ],
-            "蒙德": [
-                "2"
-            ],
-            "GCG_LEVEL_ICON_TYPE_COPPER": [
-                "3",
-                "4"
-            ],
             "璃月": [
                 "3",
                 "4"
-            ],
-            "GCG_LEVEL_ICON_TYPE_SILIVER": [
-                "5",
-                "6"
             ],
             "稻妻": [
                 "5",
                 "6"
             ],
-            "GCG_LEVEL_ICON_TYPE_GOLD": [
-                "7",
-                "8",
+            "空白的影幻牌": [
+                "10",
                 "9"
+            ],
+            "蒙德": [
+                "2"
             ],
             "須彌": [
                 "7",
                 "8"
             ]
+        },
+        "namemap": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
+        },
+        "names": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
         },
         "properties": {
             "icontype": [

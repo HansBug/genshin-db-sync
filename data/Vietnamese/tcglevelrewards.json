@@ -1,285 +1,295 @@
 {
     "items": {
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Mở khóa ô bài mới\nMở Khiêu Chiến Quán Rượu mới\nLiyue mở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Mở khóa ô bài mới\\nMở Khiêu Chiến Quán Rượu mới\\nLiyue mở thêm khiêu chiến mới",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Thư Mời Quyết Đấu",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Có thể ghép đấu tại Bảng Mời\nMở Khiêu Chiến Quán Rượu mới\nLiyue mở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Có thể ghép đấu tại Bảng Mời\\nMở Khiêu Chiến Quán Rượu mới\\nLiyue mở thêm khiêu chiến mới",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Thư Mời Quyết Đấu",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Mở khóa Khiêu Chiến Khách Mỗi Tuần\nMondstadt mở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Mở khóa Khiêu Chiến Khách Mỗi Tuần\\nMondstadt mở thêm khiêu chiến mới",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Thư Mời Quyết Đấu",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "Mondstadt",
-                    "count": 1
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "5",
-            "exp": 1450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Mở khóa ô bài mới\nMở Khiêu Chiến Quán Rượu mới\nInazuma mở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Mở khóa ô bài mới\\nMở Khiêu Chiến Quán Rượu mới\\nInazuma mở thêm khiêu chiến mới",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Thư Mời Quyết Đấu",
-                    "count": 1
-                },
-                {
-                    "id": 339502,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
         "1": {
-            "id": 1,
-            "name": "1",
             "exp": 300,
             "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Mở khóa Mời Quyết Đấu\nMở khóa Quyết Đấu Co-Op cùng thế giới\nMở khóa Cửa Hàng Thẻ Bài\nMở khóa Sổ Tay Bài Thủ\nMondstadt mở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Mở khóa Mời Quyết Đấu\\nMở khóa Quyết Đấu Co-Op cùng thế giới\\nMở khóa Cửa Hàng Thẻ Bài\\nMở khóa Sổ Tay Bài Thủ\\nMondstadt mở thêm khiêu chiến mới",
+            "id": 1,
+            "name": "1",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
+                    "name": "Nguyên Thạch"
                 },
                 {
+                    "count": 1,
                     "id": 107020,
-                    "name": "Thư Mời Quyết Đấu",
-                    "count": 1
+                    "name": "Thư Mời Quyết Đấu"
                 },
                 {
+                    "count": 500,
                     "id": 107021,
-                    "name": "Xu May Mắn",
-                    "count": 500
+                    "name": "Xu May Mắn"
                 }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "6",
-            "exp": 1600,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Mở Khiêu Chiến Quán Rượu mới\nInazuma mở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Mở Khiêu Chiến Quán Rượu mới\\nInazuma mở thêm khiêu chiến mới",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Thư Mời Quyết Đấu",
-                    "count": 1
-                },
-                {
-                    "id": 339003,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "8",
-            "exp": 1900,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Mở Khiêu Chiến Quán Rượu mới\nSumeru mở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Mở Khiêu Chiến Quán Rượu mới\\nSumeru mở thêm khiêu chiến mới",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Thư Mời Quyết Đấu",
-                    "count": 1
-                },
-                {
-                    "id": 339004,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "9",
-            "exp": 2450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Sumeru mở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Sumeru mở thêm khiêu chiến mới",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "Mặt Bài Kỳ Ảo Trống Rỗng",
-                    "count": 1
-                },
-                {
-                    "id": 107020,
-                    "name": "Thư Mời Quyết Đấu",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Mở khóa ô bài mới\nMở Khiêu Chiến Quán Rượu mới\nSumeru mở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Mở khóa ô bài mới\\nMở Khiêu Chiến Quán Rượu mới\\nSumeru mở thêm khiêu chiến mới",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Thư Mời Quyết Đấu",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
+            ],
+            "unlockdescription": "Mở khóa Mời Quyết Đấu\nMở khóa Quyết Đấu Co-Op cùng thế giới\nMở khóa Cửa Hàng Thẻ Bài\nMở khóa Sổ Tay Bài Thủ\nMondstadt mở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Mở khóa Mời Quyết Đấu\\nMở khóa Quyết Đấu Co-Op cùng thế giới\\nMở khóa Cửa Hàng Thẻ Bài\\nMở khóa Sổ Tay Bài Thủ\\nMondstadt mở thêm khiêu chiến mới"
         },
         "10": {
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
             "id": 10,
             "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "Mở khóa ô bài mới\nMở thêm khiêu chiến mới",
-            "unlockdescriptionraw": "Mở khóa ô bài mới\\nMở thêm khiêu chiến mới",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Nguyên Thạch",
-                    "count": 60
+                    "name": "Nguyên Thạch"
                 },
                 {
+                    "count": 1,
                     "id": 107019,
-                    "name": "Mặt Bài Kỳ Ảo Trống Rỗng",
-                    "count": 1
+                    "name": "Mặt Bài Kỳ Ảo Trống Rỗng"
                 },
                 {
+                    "count": 1,
                     "id": 339009,
-                    "name": "Huyền Thoại",
-                    "count": 1
+                    "name": "Huyền Thoại"
                 }
-            ]
+            ],
+            "unlockdescription": "Mở khóa ô bài mới\nMở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Mở khóa ô bài mới\\nMở thêm khiêu chiến mới"
+        },
+        "2": {
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "id": 2,
+            "name": "2",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Nguyên Thạch"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Thư Mời Quyết Đấu"
+                },
+                {
+                    "count": 1,
+                    "id": 339001,
+                    "name": "Mondstadt"
+                }
+            ],
+            "unlockdescription": "Mở khóa Khiêu Chiến Khách Mỗi Tuần\nMondstadt mở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Mở khóa Khiêu Chiến Khách Mỗi Tuần\\nMondstadt mở thêm khiêu chiến mới"
+        },
+        "3": {
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 3,
+            "name": "3",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Nguyên Thạch"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Thư Mời Quyết Đấu"
+                },
+                {
+                    "count": 1,
+                    "id": 339501,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Mở khóa ô bài mới\nMở Khiêu Chiến Quán Rượu mới\nLiyue mở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Mở khóa ô bài mới\\nMở Khiêu Chiến Quán Rượu mới\\nLiyue mở thêm khiêu chiến mới"
+        },
+        "4": {
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 4,
+            "name": "4",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Nguyên Thạch"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Thư Mời Quyết Đấu"
+                },
+                {
+                    "count": 1,
+                    "id": 339002,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Có thể ghép đấu tại Bảng Mời\nMở Khiêu Chiến Quán Rượu mới\nLiyue mở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Có thể ghép đấu tại Bảng Mời\\nMở Khiêu Chiến Quán Rượu mới\\nLiyue mở thêm khiêu chiến mới"
+        },
+        "5": {
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 5,
+            "name": "5",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Nguyên Thạch"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Thư Mời Quyết Đấu"
+                },
+                {
+                    "count": 1,
+                    "id": 339502,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Mở khóa ô bài mới\nMở Khiêu Chiến Quán Rượu mới\nInazuma mở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Mở khóa ô bài mới\\nMở Khiêu Chiến Quán Rượu mới\\nInazuma mở thêm khiêu chiến mới"
+        },
+        "6": {
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 6,
+            "name": "6",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Nguyên Thạch"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Thư Mời Quyết Đấu"
+                },
+                {
+                    "count": 1,
+                    "id": 339003,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Mở Khiêu Chiến Quán Rượu mới\nInazuma mở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Mở Khiêu Chiến Quán Rượu mới\\nInazuma mở thêm khiêu chiến mới"
+        },
+        "7": {
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 7,
+            "name": "7",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Nguyên Thạch"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Thư Mời Quyết Đấu"
+                },
+                {
+                    "count": 1,
+                    "id": 339503,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Mở khóa ô bài mới\nMở Khiêu Chiến Quán Rượu mới\nSumeru mở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Mở khóa ô bài mới\\nMở Khiêu Chiến Quán Rượu mới\\nSumeru mở thêm khiêu chiến mới"
+        },
+        "8": {
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 8,
+            "name": "8",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Nguyên Thạch"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Thư Mời Quyết Đấu"
+                },
+                {
+                    "count": 1,
+                    "id": 339004,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Mở Khiêu Chiến Quán Rượu mới\nSumeru mở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Mở Khiêu Chiến Quán Rượu mới\\nSumeru mở thêm khiêu chiến mới"
+        },
+        "9": {
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 9,
+            "name": "9",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Nguyên Thạch"
+                },
+                {
+                    "count": 1,
+                    "id": 107019,
+                    "name": "Mặt Bài Kỳ Ảo Trống Rỗng"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Thư Mời Quyết Đấu"
+                }
+            ],
+            "unlockdescription": "Sumeru mở thêm khiêu chiến mới",
+            "unlockdescriptionraw": "Sumeru mở thêm khiêu chiến mới"
         }
     },
     "meta": {
-        "namemap": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
-        "names": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
         "aliases": {},
         "categories": {
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
             "GCG_LEVEL_ICON_TYPE_NONE": [
                 "1",
                 "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "Huyền Thoại": [
+                "10"
+            ],
+            "Inazuma": [
+                "5",
+                "6"
+            ],
+            "Liyue": [
+                "3",
+                "4"
+            ],
+            "Mondstadt": [
+                "2"
+            ],
+            "Mặt Bài Kỳ Ảo Trống Rỗng": [
+                "10",
+                "9"
             ],
             "Nguyên Thạch": [
                 "1",
@@ -292,6 +302,10 @@
                 "7",
                 "8",
                 "9"
+            ],
+            "Sumeru": [
+                "7",
+                "8"
             ],
             "Thư Mời Quyết Đấu": [
                 "1",
@@ -306,45 +320,31 @@
             ],
             "Xu May Mắn": [
                 "1"
-            ],
-            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
-                "10"
-            ],
-            "Mặt Bài Kỳ Ảo Trống Rỗng": [
-                "10",
-                "9"
-            ],
-            "Huyền Thoại": [
-                "10"
-            ],
-            "Mondstadt": [
-                "2"
-            ],
-            "GCG_LEVEL_ICON_TYPE_COPPER": [
-                "3",
-                "4"
-            ],
-            "Liyue": [
-                "3",
-                "4"
-            ],
-            "GCG_LEVEL_ICON_TYPE_SILIVER": [
-                "5",
-                "6"
-            ],
-            "Inazuma": [
-                "5",
-                "6"
-            ],
-            "GCG_LEVEL_ICON_TYPE_GOLD": [
-                "7",
-                "8",
-                "9"
-            ],
-            "Sumeru": [
-                "7",
-                "8"
             ]
+        },
+        "namemap": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
+        },
+        "names": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
         },
         "properties": {
             "icontype": [

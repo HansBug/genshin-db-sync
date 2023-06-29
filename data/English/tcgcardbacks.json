@@ -1,159 +1,183 @@
 {
     "items": {
-        "inazuma": {
-            "id": 103,
-            "name": "Inazuma",
-            "description": "But an instant there is, for cards to be played. Play swiftly enough, and even transience itself shall fall before you.",
-            "descriptionraw": "But an instant there is, for cards to be played. Play swiftly enough, and even transience itself shall fall before you.",
-            "source": "Reward for reaching Player Level 6",
-            "rarity": 3
-        },
-        "origin": {
-            "id": 100,
-            "name": "Origin",
-            "description": "Betwixt day and night, between heaven and earth,\nThat is where hopes and dreams sojourn.",
-            "descriptionraw": "Betwixt day and night, between heaven and earth,\\nThat is where hopes and dreams sojourn.",
-            "source": "Obtain for the first time",
-            "rarity": 3
-        },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "Mist Flower Corolla",
-            "description": "\"To concede gracefully is your inevitable end.\"",
-            "descriptionraw": "\"To concede gracefully is your inevitable end.\"",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
-        "cecilia": {
-            "id": 118,
-            "name": "Cecilia",
-            "description": "Are those who have the breeze and the dew for company the only ones who may enjoy the dawn's first light?",
-            "descriptionraw": "Are those who have the breeze and the dew for company the only ones who may enjoy the dawn's first light?",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "Crystal Chunk",
-            "description": "If well-honed, suitable material can truly show its quality.",
-            "descriptionraw": "If well-honed, suitable material can truly show its quality.",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
         "adept": {
-            "id": 110,
-            "name": "Adept",
             "description": "There is no conundrum you cannot solve, nothing beyond your power to do. We salute you!",
             "descriptionraw": "There is no conundrum you cannot solve, nothing beyond your power to do. We salute you!",
-            "source": "Reward for completing all objectives in the 4th match of the TCG Player's Manual",
-            "rarity": 3
+            "id": 110,
+            "name": "Adept",
+            "rarity": 3,
+            "source": "Reward for completing all objectives in the 4th match of the TCG Player's Manual"
         },
         "amethystlump": {
-            "id": 113,
-            "name": "Amethyst Lump",
             "description": "Adapting to where you are is also a form of wisdom.",
             "descriptionraw": "Adapting to where you are is also a form of wisdom.",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
+            "id": 113,
+            "name": "Amethyst Lump",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
         },
-        "sumeru": {
-            "id": 104,
-            "name": "Sumeru",
-            "description": "To think one or two steps ahead is amateur work. Truly expert players can even see fifty or a hundred steps ahead.\nAnd it would be a simple matter, would it not?",
-            "descriptionraw": "To think one or two steps ahead is amateur work. Truly expert players can even see fifty or a hundred steps ahead.\\nAnd it would be a simple matter, would it not?",
-            "source": "Reward for reaching Player Level 8",
-            "rarity": 3
+        "cecilia": {
+            "description": "Are those who have the breeze and the dew for company the only ones who may enjoy the dawn's first light?",
+            "descriptionraw": "Are those who have the breeze and the dew for company the only ones who may enjoy the dawn's first light?",
+            "id": 118,
+            "name": "Cecilia",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
         },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "Magical Crystal Chunk",
-            "description": "Time gives this value.",
-            "descriptionraw": "Time gives this value.",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
-        "dendrobium": {
-            "id": 120,
-            "name": "Dendrobium",
-            "description": "If only all battles could be fought on the tabletop...",
-            "descriptionraw": "If only all battles could be fought on the tabletop...",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
-        "liyue": {
-            "id": 102,
-            "name": "Liyue",
-            "description": "Every journey must start with a first step. Build your deck with a steady hand, and steady shall the road to victory be.",
-            "descriptionraw": "Every journey must start with a first step. Build your deck with a steady hand, and steady shall the road to victory be.",
-            "source": "Reward for reaching Player Level 4",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "Flaming Flower Stamen",
-            "description": "\"My duelist's soul is aflame!\"",
-            "descriptionraw": "\"My duelist's soul is aflame!\"",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "Lazurite Swirl",
-            "description": "A special card back customized by the renowned artist Calx.\n\"Like the Dragon of the East, stretch your wings more freely on this battlefield of cards!\"",
-            "descriptionraw": "A special card back customized by the renowned artist Calx.\\n\"Like the Dragon of the East, stretch your wings more freely on this battlefield of cards!\"",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
-        "glazelily": {
-            "id": 119,
-            "name": "Glaze Lily",
-            "description": "The ancient tales of mortal realms have passed away. Now, only the fragrant name of the flowers remains.",
-            "descriptionraw": "The ancient tales of mortal realms have passed away. Now, only the fragrant name of the flowers remains.",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
-        "electrocrystal": {
-            "id": 116,
-            "name": "Electro Crystal",
-            "description": "Will aggressive methods be of any use? This is not the only thing balanced on a hair trigger!",
-            "descriptionraw": "Will aggressive methods be of any use? This is not the only thing balanced on a hair trigger!",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "Treasures of the Deck",
-            "description": "Treasures are gained and used only for the moment, and their contents are never quite the same. What treasures lie within your cards this time?",
-            "descriptionraw": "Treasures are gained and used only for the moment, and their contents are never quite the same. What treasures lie within your cards this time?",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "Mondstadt",
-            "description": "Freedom is the first principle of cards.\nFreely you organize your deck, freely you choose your opponents, and freely you play your hand.\n...Or perhaps you might use that freedom to not play at all, and do something else with the cards you have in hand.",
-            "descriptionraw": "Freedom is the first principle of cards.\\nFreely you organize your deck, freely you choose your opponents, and freely you play your hand.\\n...Or perhaps you might use that freedom to not play at all, and do something else with the cards you have in hand.",
-            "source": "Reward for reaching Player Level 2",
-            "rarity": 3
-        },
-        "legend": {
-            "id": 109,
-            "name": "Legend",
-            "description": "You have come far indeed to become a Legend, but the road ahead is still long.",
-            "descriptionraw": "You have come far indeed to become a Legend, but the road ahead is still long.",
-            "source": "Reward for reaching Player Level 10",
-            "rarity": 3
+        "crystalchunk": {
+            "description": "If well-honed, suitable material can truly show its quality.",
+            "descriptionraw": "If well-honed, suitable material can truly show its quality.",
+            "id": 111,
+            "name": "Crystal Chunk",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
         },
         "dandelionseed": {
-            "id": 117,
-            "name": "Dandelion Seed",
             "description": "Hope and patience are close companions.",
             "descriptionraw": "Hope and patience are close companions.",
-            "source": "Purchased at the Card Shop",
-            "rarity": 3
+            "id": 117,
+            "name": "Dandelion Seed",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
+        },
+        "dendrobium": {
+            "description": "If only all battles could be fought on the tabletop...",
+            "descriptionraw": "If only all battles could be fought on the tabletop...",
+            "id": 120,
+            "name": "Dendrobium",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
+        },
+        "electrocrystal": {
+            "description": "Will aggressive methods be of any use? This is not the only thing balanced on a hair trigger!",
+            "descriptionraw": "Will aggressive methods be of any use? This is not the only thing balanced on a hair trigger!",
+            "id": 116,
+            "name": "Electro Crystal",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
+        },
+        "flamingflowerstamen": {
+            "description": "\"My duelist's soul is aflame!\"",
+            "descriptionraw": "\"My duelist's soul is aflame!\"",
+            "id": 114,
+            "name": "Flaming Flower Stamen",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
+        },
+        "glazelily": {
+            "description": "The ancient tales of mortal realms have passed away. Now, only the fragrant name of the flowers remains.",
+            "descriptionraw": "The ancient tales of mortal realms have passed away. Now, only the fragrant name of the flowers remains.",
+            "id": 119,
+            "name": "Glaze Lily",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
+        },
+        "inazuma": {
+            "description": "But an instant there is, for cards to be played. Play swiftly enough, and even transience itself shall fall before you.",
+            "descriptionraw": "But an instant there is, for cards to be played. Play swiftly enough, and even transience itself shall fall before you.",
+            "id": 103,
+            "name": "Inazuma",
+            "rarity": 3,
+            "source": "Reward for reaching Player Level 6"
+        },
+        "lazuriteswirl": {
+            "description": "A special card back customized by the renowned artist Calx.\n\"Like the Dragon of the East, stretch your wings more freely on this battlefield of cards!\"",
+            "descriptionraw": "A special card back customized by the renowned artist Calx.\\n\"Like the Dragon of the East, stretch your wings more freely on this battlefield of cards!\"",
+            "id": 121,
+            "name": "Lazurite Swirl",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
+        },
+        "legend": {
+            "description": "You have come far indeed to become a Legend, but the road ahead is still long.",
+            "descriptionraw": "You have come far indeed to become a Legend, but the road ahead is still long.",
+            "id": 109,
+            "name": "Legend",
+            "rarity": 3,
+            "source": "Reward for reaching Player Level 10"
+        },
+        "liyue": {
+            "description": "Every journey must start with a first step. Build your deck with a steady hand, and steady shall the road to victory be.",
+            "descriptionraw": "Every journey must start with a first step. Build your deck with a steady hand, and steady shall the road to victory be.",
+            "id": 102,
+            "name": "Liyue",
+            "rarity": 3,
+            "source": "Reward for reaching Player Level 4"
+        },
+        "magicalcrystalchunk": {
+            "description": "Time gives this value.",
+            "descriptionraw": "Time gives this value.",
+            "id": 112,
+            "name": "Magical Crystal Chunk",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
+        },
+        "mistflowercorolla": {
+            "description": "\"To concede gracefully is your inevitable end.\"",
+            "descriptionraw": "\"To concede gracefully is your inevitable end.\"",
+            "id": 115,
+            "name": "Mist Flower Corolla",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
+        },
+        "mondstadt": {
+            "description": "Freedom is the first principle of cards.\nFreely you organize your deck, freely you choose your opponents, and freely you play your hand.\n...Or perhaps you might use that freedom to not play at all, and do something else with the cards you have in hand.",
+            "descriptionraw": "Freedom is the first principle of cards.\\nFreely you organize your deck, freely you choose your opponents, and freely you play your hand.\\n...Or perhaps you might use that freedom to not play at all, and do something else with the cards you have in hand.",
+            "id": 101,
+            "name": "Mondstadt",
+            "rarity": 3,
+            "source": "Reward for reaching Player Level 2"
+        },
+        "origin": {
+            "description": "Betwixt day and night, between heaven and earth,\nThat is where hopes and dreams sojourn.",
+            "descriptionraw": "Betwixt day and night, between heaven and earth,\\nThat is where hopes and dreams sojourn.",
+            "id": 100,
+            "name": "Origin",
+            "rarity": 3,
+            "source": "Obtain for the first time"
+        },
+        "sumeru": {
+            "description": "To think one or two steps ahead is amateur work. Truly expert players can even see fifty or a hundred steps ahead.\nAnd it would be a simple matter, would it not?",
+            "descriptionraw": "To think one or two steps ahead is amateur work. Truly expert players can even see fifty or a hundred steps ahead.\\nAnd it would be a simple matter, would it not?",
+            "id": 104,
+            "name": "Sumeru",
+            "rarity": 3,
+            "source": "Reward for reaching Player Level 8"
+        },
+        "treasuresofthedeck": {
+            "description": "Treasures are gained and used only for the moment, and their contents are never quite the same. What treasures lie within your cards this time?",
+            "descriptionraw": "Treasures are gained and used only for the moment, and their contents are never quite the same. What treasures lie within your cards this time?",
+            "id": 122,
+            "name": "Treasures of the Deck",
+            "rarity": 3,
+            "source": "Purchased at the Card Shop"
         }
     },
     "meta": {
+        "aliases": {},
+        "categories": {
+            "3": [
+                "adept",
+                "amethystlump",
+                "cecilia",
+                "crystalchunk",
+                "dandelionseed",
+                "dendrobium",
+                "electrocrystal",
+                "flamingflowerstamen",
+                "glazelily",
+                "inazuma",
+                "lazuriteswirl",
+                "legend",
+                "liyue",
+                "magicalcrystalchunk",
+                "mistflowercorolla",
+                "mondstadt",
+                "origin",
+                "sumeru",
+                "treasuresofthedeck"
+            ]
+        },
         "namemap": {
             "adept": "Adept",
             "amethystlump": "Amethyst Lump",
@@ -195,30 +219,6 @@
             "Origin": "origin",
             "Sumeru": "sumeru",
             "Treasures of the Deck": "treasuresofthedeck"
-        },
-        "aliases": {},
-        "categories": {
-            "3": [
-                "adept",
-                "amethystlump",
-                "cecilia",
-                "crystalchunk",
-                "dandelionseed",
-                "dendrobium",
-                "electrocrystal",
-                "flamingflowerstamen",
-                "glazelily",
-                "inazuma",
-                "lazuriteswirl",
-                "legend",
-                "liyue",
-                "magicalcrystalchunk",
-                "mistflowercorolla",
-                "mondstadt",
-                "origin",
-                "sumeru",
-                "treasuresofthedeck"
-            ]
         },
         "properties": {
             "rarity": [

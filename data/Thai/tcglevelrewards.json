@@ -1,284 +1,287 @@
 {
     "items": {
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "ปลดล็อกช่องบันทึกเด็คใหม่\nปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Liyue",
-            "unlockdescriptionraw": "ปลดล็อกช่องบันทึกเด็คใหม่\\nปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "จดหมายเชิญร่วมดูเอล",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "สามารถจับคู่ดูเอลได้ที่กระดานคำเชิญ\nปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Liyue",
-            "unlockdescriptionraw": "สามารถจับคู่ดูเอลได้ที่กระดานคำเชิญ\\nปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "จดหมายเชิญร่วมดูเอล",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "ปลดล็อกแขกที่มาท้าทายประจำสัปดาห์\nเพิ่มการดูเอลที่ท้าทายได้ใน Mondstadt",
-            "unlockdescriptionraw": "ปลดล็อกแขกที่มาท้าทายประจำสัปดาห์\\nเพิ่มการดูเอลที่ท้าทายได้ใน Mondstadt",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "จดหมายเชิญร่วมดูเอล",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "Mondstadt",
-                    "count": 1
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "5",
-            "exp": 1450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "ปลดล็อกช่องบันทึกเด็คใหม่\nปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Inazuma",
-            "unlockdescriptionraw": "ปลดล็อกช่องบันทึกเด็คใหม่\\nปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "จดหมายเชิญร่วมดูเอล",
-                    "count": 1
-                },
-                {
-                    "id": 339502,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
         "1": {
-            "id": 1,
-            "name": "1",
             "exp": 300,
             "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "ปลดล็อกการเชิญร่วมดูเอล\nปลดล็อกการดูเอลโหมดเล่นหลายคน\nปลดล็อกร้านขายการ์ด\nปลดล็อกคู่มือแนะนำผู้เล่น\nเพิ่มการดูเอลที่ท้าทายได้ใน Mondstadt",
-            "unlockdescriptionraw": "ปลดล็อกการเชิญร่วมดูเอล\\nปลดล็อกการดูเอลโหมดเล่นหลายคน\\nปลดล็อกร้านขายการ์ด\\nปลดล็อกคู่มือแนะนำผู้เล่น\\nเพิ่มการดูเอลที่ท้าทายได้ใน Mondstadt",
+            "id": 1,
+            "name": "1",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Primogem",
-                    "count": 60
+                    "name": "Primogem"
                 },
                 {
+                    "count": 1,
                     "id": 107020,
-                    "name": "จดหมายเชิญร่วมดูเอล",
-                    "count": 1
+                    "name": "จดหมายเชิญร่วมดูเอล"
                 },
                 {
+                    "count": 500,
                     "id": 107021,
-                    "name": "เหรียญนำโชค",
-                    "count": 500
+                    "name": "เหรียญนำโชค"
                 }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "6",
-            "exp": 1600,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "ปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Inazuma",
-            "unlockdescriptionraw": "ปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "จดหมายเชิญร่วมดูเอล",
-                    "count": 1
-                },
-                {
-                    "id": 339003,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "8",
-            "exp": 1900,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "ปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Sumeru",
-            "unlockdescriptionraw": "ปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "จดหมายเชิญร่วมดูเอล",
-                    "count": 1
-                },
-                {
-                    "id": 339004,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "9",
-            "exp": 2450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "เพิ่มการดูเอลที่ท้าทายได้ใน Sumeru",
-            "unlockdescriptionraw": "เพิ่มการดูเอลที่ท้าทายได้ใน Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "ปกไดนามิกว่างเปล่า",
-                    "count": 1
-                },
-                {
-                    "id": 107020,
-                    "name": "จดหมายเชิญร่วมดูเอล",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "ปลดล็อกช่องบันทึกเด็คใหม่\nปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Sumeru",
-            "unlockdescriptionraw": "ปลดล็อกช่องบันทึกเด็คใหม่\\nปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primogem",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "จดหมายเชิญร่วมดูเอล",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
+            ],
+            "unlockdescription": "ปลดล็อกการเชิญร่วมดูเอล\nปลดล็อกการดูเอลโหมดเล่นหลายคน\nปลดล็อกร้านขายการ์ด\nปลดล็อกคู่มือแนะนำผู้เล่น\nเพิ่มการดูเอลที่ท้าทายได้ใน Mondstadt",
+            "unlockdescriptionraw": "ปลดล็อกการเชิญร่วมดูเอล\\nปลดล็อกการดูเอลโหมดเล่นหลายคน\\nปลดล็อกร้านขายการ์ด\\nปลดล็อกคู่มือแนะนำผู้เล่น\\nเพิ่มการดูเอลที่ท้าทายได้ใน Mondstadt"
         },
         "10": {
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
             "id": 10,
             "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "ปลดล็อกช่องบันทึกเด็คใหม่\nเพิ่มการดูเอลที่ท้าทายได้",
-            "unlockdescriptionraw": "ปลดล็อกช่องบันทึกเด็คใหม่\\nเพิ่มการดูเอลที่ท้าทายได้",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Primogem",
-                    "count": 60
+                    "name": "Primogem"
                 },
                 {
+                    "count": 1,
                     "id": 107019,
-                    "name": "ปกไดนามิกว่างเปล่า",
-                    "count": 1
+                    "name": "ปกไดนามิกว่างเปล่า"
                 },
                 {
+                    "count": 1,
                     "id": 339009,
-                    "name": "ตำนาน",
-                    "count": 1
+                    "name": "ตำนาน"
                 }
-            ]
+            ],
+            "unlockdescription": "ปลดล็อกช่องบันทึกเด็คใหม่\nเพิ่มการดูเอลที่ท้าทายได้",
+            "unlockdescriptionraw": "ปลดล็อกช่องบันทึกเด็คใหม่\\nเพิ่มการดูเอลที่ท้าทายได้"
+        },
+        "2": {
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "id": 2,
+            "name": "2",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "จดหมายเชิญร่วมดูเอล"
+                },
+                {
+                    "count": 1,
+                    "id": 339001,
+                    "name": "Mondstadt"
+                }
+            ],
+            "unlockdescription": "ปลดล็อกแขกที่มาท้าทายประจำสัปดาห์\nเพิ่มการดูเอลที่ท้าทายได้ใน Mondstadt",
+            "unlockdescriptionraw": "ปลดล็อกแขกที่มาท้าทายประจำสัปดาห์\\nเพิ่มการดูเอลที่ท้าทายได้ใน Mondstadt"
+        },
+        "3": {
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 3,
+            "name": "3",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "จดหมายเชิญร่วมดูเอล"
+                },
+                {
+                    "count": 1,
+                    "id": 339501,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "ปลดล็อกช่องบันทึกเด็คใหม่\nปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Liyue",
+            "unlockdescriptionraw": "ปลดล็อกช่องบันทึกเด็คใหม่\\nปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Liyue"
+        },
+        "4": {
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 4,
+            "name": "4",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "จดหมายเชิญร่วมดูเอล"
+                },
+                {
+                    "count": 1,
+                    "id": 339002,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "สามารถจับคู่ดูเอลได้ที่กระดานคำเชิญ\nปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Liyue",
+            "unlockdescriptionraw": "สามารถจับคู่ดูเอลได้ที่กระดานคำเชิญ\\nปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Liyue"
+        },
+        "5": {
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 5,
+            "name": "5",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "จดหมายเชิญร่วมดูเอล"
+                },
+                {
+                    "count": 1,
+                    "id": 339502,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "ปลดล็อกช่องบันทึกเด็คใหม่\nปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Inazuma",
+            "unlockdescriptionraw": "ปลดล็อกช่องบันทึกเด็คใหม่\\nปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Inazuma"
+        },
+        "6": {
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 6,
+            "name": "6",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "จดหมายเชิญร่วมดูเอล"
+                },
+                {
+                    "count": 1,
+                    "id": 339003,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "ปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Inazuma",
+            "unlockdescriptionraw": "ปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Inazuma"
+        },
+        "7": {
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 7,
+            "name": "7",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "จดหมายเชิญร่วมดูเอล"
+                },
+                {
+                    "count": 1,
+                    "id": 339503,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "ปลดล็อกช่องบันทึกเด็คใหม่\nปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Sumeru",
+            "unlockdescriptionraw": "ปลดล็อกช่องบันทึกเด็คใหม่\\nปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Sumeru"
+        },
+        "8": {
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 8,
+            "name": "8",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "จดหมายเชิญร่วมดูเอล"
+                },
+                {
+                    "count": 1,
+                    "id": 339004,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "ปลดล็อกการดูเอลในร้านเหล้าใหม่\nเพิ่มการดูเอลที่ท้าทายได้ใน Sumeru",
+            "unlockdescriptionraw": "ปลดล็อกการดูเอลในร้านเหล้าใหม่\\nเพิ่มการดูเอลที่ท้าทายได้ใน Sumeru"
+        },
+        "9": {
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 9,
+            "name": "9",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primogem"
+                },
+                {
+                    "count": 1,
+                    "id": 107019,
+                    "name": "ปกไดนามิกว่างเปล่า"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "จดหมายเชิญร่วมดูเอล"
+                }
+            ],
+            "unlockdescription": "เพิ่มการดูเอลที่ท้าทายได้ใน Sumeru",
+            "unlockdescriptionraw": "เพิ่มการดูเอลที่ท้าทายได้ใน Sumeru"
         }
     },
     "meta": {
-        "namemap": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
-        "names": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
         "aliases": {},
         "categories": {
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
             "GCG_LEVEL_ICON_TYPE_NONE": [
                 "1",
+                "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "Inazuma": [
+                "5",
+                "6"
+            ],
+            "Liyue": [
+                "3",
+                "4"
+            ],
+            "Mondstadt": [
                 "2"
             ],
             "Primogem": [
@@ -293,6 +296,10 @@
                 "8",
                 "9"
             ],
+            "Sumeru": [
+                "7",
+                "8"
+            ],
             "จดหมายเชิญร่วมดูเอล": [
                 "1",
                 "2",
@@ -304,47 +311,40 @@
                 "8",
                 "9"
             ],
-            "เหรียญนำโชค": [
-                "1"
-            ],
-            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+            "ตำนาน": [
                 "10"
             ],
             "ปกไดนามิกว่างเปล่า": [
                 "10",
                 "9"
             ],
-            "ตำนาน": [
-                "10"
-            ],
-            "Mondstadt": [
-                "2"
-            ],
-            "GCG_LEVEL_ICON_TYPE_COPPER": [
-                "3",
-                "4"
-            ],
-            "Liyue": [
-                "3",
-                "4"
-            ],
-            "GCG_LEVEL_ICON_TYPE_SILIVER": [
-                "5",
-                "6"
-            ],
-            "Inazuma": [
-                "5",
-                "6"
-            ],
-            "GCG_LEVEL_ICON_TYPE_GOLD": [
-                "7",
-                "8",
-                "9"
-            ],
-            "Sumeru": [
-                "7",
-                "8"
+            "เหรียญนำโชค": [
+                "1"
             ]
+        },
+        "namemap": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
+        },
+        "names": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
         },
         "properties": {
             "icontype": [

@@ -1,350 +1,352 @@
 {
     "items": {
-        "crowfeathercover": {
-            "id": 1003,
-            "name": "Karga Tüyünün Himayesi",
-            "nameraw": "<color=#FFFFFFFF>Karga Tüyünün Himayesi</color>",
-            "description": "Bunu kuşanmış karakter fazladan 1 Element Becerisi ve Element Patlaması Hasarı verir.\nKullanım Hakkı: 2",
-            "descriptionraw": "Bunu kuşanmış karakter fazladan 1 <color=#FFFFFFFF>Element Becerisi</color> ve <color=#FFFFFFFF>Element Patlaması</color> Hasarı verir.\\n<color=#FFFFFFFF>Kullanım Hakkı: 2</color>"
-        },
-        "cryo": {
-            "id": 301,
-            "name": "Buz",
-            "nameraw": "{SPRITE_PRESET#1101}Buz",
-            "description": "Bu maliyeti bir Buz Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
-            "descriptionraw": "Bu maliyeti bir <color=#99FFFFFF>{SPRITE_PRESET#1101}Buz</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)"
-        },
-        "dendro": {
-            "id": 307,
-            "name": "Doğa",
-            "nameraw": "{SPRITE_PRESET#1107}Doğa",
-            "description": "Bu maliyeti bir Doğa Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
-            "descriptionraw": "Bu maliyeti bir <color=#7EC236FF>{SPRITE_PRESET#1107}Doğa</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)"
-        },
-        "pyrorelatedreactions": {
-            "id": 213,
-            "name": "Ateş ile İlgili Tepkimeler",
-            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Ateş ile İlgili Tepkimeler</color>",
-            "description": "Erime: Bu seferki Hasar 2 artar.\nBuharlaşma: Bu seferki Hasar 2 artar.\nYüksek Voltaj: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\nYanma: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\nAteş Kristalleşmesi: Bu seferki Hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (En fazla 2 puan birikebilir).\nAteş Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Ateş Hasarı verir.",
-            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Erime</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Buharlaşma</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Yüksek Voltaj</color>: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Yanma</color>: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ateş Kristalleşmesi</color>: Bu seferki Hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (En fazla 2 puan birikebilir).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ateş Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Ateş Hasarı verir."
-        },
-        "randomhilichurlsummon": {
-            "id": 1001,
-            "name": "Rastgele Dağ Yabanisi Minyonu",
-            "nameraw": "<color=#FFFFFFFF>Rastgele Dağ Yabanisi Minyonu</color>",
-            "description": "Toplam 4 farklı tür Dağ Yabanisi Minyonu vardır:\nNişancı Buz Dağ Yabanisi: Son Aşamada 1 Buz Hasarı verir. Kullanım Hakkı: 2.\nSu Dağ Şamanı: Son Aşamada 1 Su Hasarı verir. Kullanım Hakkı: 2.\nVahşi Savaşçı Dağ Yabanisi: Son Aşamada 1 Ateş Hasarı verir. Kullanım Hakkı: 2.\nNişancı Elektrik Dağ Yabanisi: Son Aşamada 1 Elektrik Hasarı verir. Kullanım Hakkı: 2.",
-            "descriptionraw": "Toplam 4 farklı tür Dağ Yabanisi Minyonu vardır:\\n<color=#FFFFFFFF>Nişancı Buz Dağ Yabanisi</color>: Son Aşamada 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir. Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Su Dağ Şamanı</color>: Son Aşamada 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir. Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Vahşi Savaşçı Dağ Yabanisi</color>: Son Aşamada 1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir. Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Nişancı Elektrik Dağ Yabanisi</color>: Son Aşamada 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir. Kullanım Hakkı: 2."
-        },
-        "characterclosesttoyourcurrentactivecharacter": {
-            "id": 7,
-            "name": "Aktif Karakterine En Yakın Karakter",
-            "nameraw": "<color=#FFFFFFFF>Aktif Karakterine En Yakın Karakter</color>",
-            "description": "Rakip \"aktif karakterine en yakın karakter\", konum olarak aktif karakterine en yakın olan rakip karakteri niteler.\nBu tanıma uyan birden fazla karakter varsa sırası daha önce olan karakter \"en yakın\" seçilir.",
-            "descriptionraw": "Rakip \"aktif karakterine en yakın karakter\", konum olarak aktif karakterine en yakın olan rakip karakteri niteler.\\nBu tanıma uyan birden fazla karakter varsa sırası daha önce olan karakter \"en yakın\" seçilir."
-        },
-        "chargedattack": {
-            "id": 51,
-            "name": "Yüklü Saldırı",
-            "nameraw": "<color=#FFFFFFFF>Yüklü Saldırı</color>",
-            "description": "Hamle Aşamasından önce toplam Element Zarı sayısı bir çift sayı olduğunda Normal Saldırı, Yüklü Saldırı olarak sayılır.",
-            "descriptionraw": "Hamle Aşamasından önce toplam Element Zarı sayısı bir çift sayı olduğunda Normal Saldırı, Yüklü Saldırı olarak sayılır."
-        },
-        "anemodmg": {
-            "id": 105,
-            "name": "Rüzgar Hasarı",
-            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color>",
-            "description": "Zaten uygulanmış olan Elementlerle tepkimeye girer:\nBuz Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Buz Hasarı verir.\nSu Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Su Hasarı verir.\nAteş Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Ateş Hasarı verir.\nElektrik Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Elektrik Hasarı verir.",
-            "descriptionraw": "Zaten uygulanmış olan Elementlerle tepkimeye girer:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Buz Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Buz Hasarı verir.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Su Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Su Hasarı verir.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ateş Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Ateş Hasarı verir.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Elektrik Hasarı verir."
-        },
-        "prepareskill": {
-            "id": 53,
-            "name": "Beceri Hazırlama",
-            "nameraw": "<color=#FFFFFFFF>Beceri Hazırlama</color>",
-            "description": "Bazı Beceriler doğrudan kullanılamaz ve birkaç tur boyunca hazırlanmaları gerekir.\nBir oyuncunun sırası geldiğinde eğer bu oyuncunun aktif karakteri o anda bir Beceri hazırlıyorsa bu oyuncunun sırası atlanır. Becerinin hazırlığı sona erdiğinde, karakter o anda Beceriyi doğrudan kullanır. (Hazırlık gerektiren Beceriler, \"bir Beceri kullanımı\" ile tetiklenen etkileri etkinleştiremez.)\nYalnızca aktif karakterler Becerileri hazırlayabilir ve bir Beceriyi hazırlayan aktif karakter bekleyen karakter durumuna geçerse yaptığı Beceri hazırlığı kesintiye uğrar.",
-            "descriptionraw": "Bazı Beceriler doğrudan kullanılamaz ve birkaç tur boyunca <color=#FFFFFFFF>hazırlanmaları</color> gerekir.\\nBir oyuncunun sırası geldiğinde eğer bu oyuncunun aktif karakteri o anda bir Beceri <color=#FFFFFFFF>hazırlıyorsa</color> bu oyuncunun sırası atlanır. Becerinin <color=#FFFFFFFF>hazırlığı</color> sona erdiğinde, karakter o anda Beceriyi doğrudan kullanır. (<color=#FFFFFFFF>Hazırlık</color> gerektiren Beceriler, \"bir Beceri kullanımı\" ile tetiklenen etkileri etkinleştiremez.)\\nYalnızca aktif karakterler Becerileri <color=#FFFFFFFF>hazırlayabilir</color> ve bir Beceriyi <color=#FFFFFFFF>hazırlayan</color> aktif karakter bekleyen karakter durumuna geçerse yaptığı Beceri <color=#FFFFFFFF>hazırlığı</color> kesintiye uğrar."
-        },
-        "electroapplication": {
-            "id": 204,
-            "name": "Elektrik Etkisi",
-            "nameraw": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Elektrik Etkisi</color>",
-            "description": "Herhangi bir Hasar vermeden Elektrik Etkisi uygulandığında meydana gelen Element Tepkimesi, Hasar etkilerini görmezden gelir:\nYüksek Voltaj: Hedef, bir sonraki karakterle zorla değiştirilir.\nSüper İletim: Etkisiz\nElektrik Yüklü: Etkisiz\nHızlanma: Sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
-            "descriptionraw": "Herhangi bir Hasar vermeden {SPRITE_PRESET#2104}Elektrik Etkisi uygulandığında meydana gelen Element Tepkimesi, Hasar etkilerini görmezden gelir:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yüksek Voltaj</color>: Hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Süper İletim</color>: Etkisiz\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Elektrik Yüklü</color>: Etkisiz\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Hızlanma</color>: Sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur."
-        },
-        "energy": {
-            "id": 310,
-            "name": "Enerji",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color>",
-            "description": "Karakterlerin Element Patlamasını kullanmaları için Enerji harcaması gerekir.\nKarakterler bir Element Becerisi veya Normal Saldırı kullandıklarında, 1 Enerji kazanırlar.",
-            "descriptionraw": "Karakterlerin Element Patlamasını kullanmaları için {SPRITE_PRESET#1110}Enerji harcaması gerekir.\\nKarakterler bir Element Becerisi veya Normal Saldırı kullandıklarında, 1 {SPRITE_PRESET#1110}Enerji kazanırlar."
-        },
-        "dendroapplication": {
-            "id": 207,
-            "name": "Doğa Etkisi",
-            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Doğa Etkisi</color>",
-            "description": "Herhangi bir Hasar vermeden Doğa Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\nÇiçeklenme: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.\nYanma: Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\nHızlanma: Sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
-            "descriptionraw": "Herhangi bir Hasar vermeden {SPRITE_PRESET#2107}Doğa Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Çiçeklenme</color>: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yanma</color>: Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Hızlanma</color>: Sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur."
-        },
-        "anemo": {
-            "id": 305,
-            "name": "Rüzgar",
-            "nameraw": "{SPRITE_PRESET#1105}Rüzgar",
-            "description": "Bu maliyeti bir Rüzgar Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
-            "descriptionraw": "Bu maliyeti bir <color=#80FFD7FF>{SPRITE_PRESET#1105}Rüzgar</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)"
-        },
-        "shield": {
-            "id": 6,
-            "name": "Kalkan",
-            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Kalkan</color>",
-            "description": "Bu Kalkan, onu kuşanan karakteri Hasardan korumak için harcanır.",
-            "descriptionraw": "Bu Kalkan, onu kuşanan karakteri Hasardan korumak için harcanır."
-        },
-        "piercingdmg": {
-            "id": 5,
-            "name": "Delme Hasarı",
-            "nameraw": "<color=#FFFFFFFF>Delme Hasarı</color>",
-            "description": "Delme Hasarı herhangi bir bonusla artırılamaz ama Kalkan veya Hasar Bağışıklığı kullanımına karşı da savunulamaz.",
-            "descriptionraw": "Delme Hasarı herhangi bir bonusla artırılamaz ama Kalkan veya Hasar Bağışıklığı kullanımına karşı da savunulamaz."
-        },
-        "fastaction": {
-            "id": 2,
-            "name": "Hızlı Hamle",
-            "nameraw": "<color=#FFFFFFFF>Hızlı Hamle</color>",
-            "description": "1 Hızlı Hamle yaptıktan sonra başka bir hamle ile devam edebilirsin.\nYalnızca 1 Savaş Hamlesi yaptıktan sonra sıra rakibine geçer.",
-            "descriptionraw": "1 Hızlı Hamle yaptıktan sonra başka bir hamle ile devam edebilirsin.\\nYalnızca 1 Savaş Hamlesi yaptıktan sonra sıra rakibine geçer."
-        },
-        "geo": {
-            "id": 306,
-            "name": "Toprak",
-            "nameraw": "{SPRITE_PRESET#1106}Toprak",
-            "description": "Bu maliyeti bir Toprak Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
-            "descriptionraw": "Bu maliyeti bir <color=#FFE699FF>{SPRITE_PRESET#1106}Toprak</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)"
-        },
-        "elementalburst": {
-            "id": 501,
-            "name": "Element Patlaması",
-            "nameraw": "Element Patlaması",
-            "description": "Karakterin Enerjisi üst sınıra ulaştığında tüm Enerjisini harcayarak güçlü bir Element Patlaması tetikleyebilirsin.",
-            "descriptionraw": "Karakterin {SPRITE_PRESET#1110}Enerjisi üst sınıra ulaştığında tüm {SPRITE_PRESET#1110}Enerjisini harcayarak güçlü bir Element Patlaması tetikleyebilirsin."
-        },
-        "electrodmg": {
-            "id": 104,
-            "name": "Elektrik Hasarı",
-            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color>",
-            "description": "Elektrik Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nYüksek Voltaj: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\nSüper İletim: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nElektrik Yüklü: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nHızlanma: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
-            "descriptionraw": "{SPRITE_PRESET#2104}Elektrik Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yüksek Voltaj</color>: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Süper İletim</color>: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Elektrik Yüklü</color>: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Hızlanma</color>: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur."
-        },
-        "physicaldmg": {
-            "id": 100,
-            "name": "Fiziksel Hasar",
-            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color>",
-            "description": "Fiziksel Hasar, herhangi bir Element uygulamaz veya Element Tepkimesi gerçekleştirmez.",
-            "descriptionraw": "Fiziksel Hasar, herhangi bir Element uygulamaz veya Element Tepkimesi gerçekleştirmez."
-        },
-        "immunitytodefeats1willnotbedefeated": {
-            "id": 54,
-            "name": "Yenilmez",
-            "nameraw": "<color=#FFFFFFFF>Yenilmez</color>|s1:<color=#FFFFFFFF>yenilemez</color>",
-            "description": "Bazı etkiler karakterlere ölümsüzlük vererek yenilmemelerini sağlar ve Canları 0 olduğunda onları belirli bir miktar iyileştirir.\nBu durumda karakterler yenilmiş olarak görülmez. (Dolayısıyla onlara ekli ekipman ve durumlar kaldırılmaz, enerjileri silinmez.)",
-            "descriptionraw": "Bazı etkiler karakterlere <color=#FFFFFFFF>ölümsüzlük vererek yenilmemelerini sağlar</color> ve Canları 0 olduğunda onları belirli bir miktar iyileştirir.\\nBu durumda karakterler <color=#FFFFFFFF>yenilmiş</color> olarak görülmez. (Dolayısıyla onlara ekli ekipman ve durumlar kaldırılmaz, enerjileri silinmez.)"
-        },
-        "usages": {
-            "id": 3,
-            "name": "Kullanım Hakkı",
-            "nameraw": "<color=#FFFFFFFF>Kullanım Hakkı</color>",
-            "description": "Bu kartın etkisi tetiklendikten sonra 1 Kullanım Hakkı harcanır.\nKullanım Hakkı 0 olduktan sonra bu kart hemen atılır.",
-            "descriptionraw": "Bu kartın etkisi tetiklendikten sonra 1 <color=#FFFFFFFF>Kullanım Hakkı</color> harcanır.\\n<color=#FFFFFFFF>Kullanım Hakkı</color> 0 olduktan sonra bu kart hemen atılır."
-        },
-        "hydrodmg": {
-            "id": 102,
-            "name": "Su Hasarı",
-            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color>",
-            "description": "Su Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nBuharlaşma: Bu seferki Hasar 2 artar.\nElektrik Yükleme: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nDonma: Bu seferki Hasar 1 artar ve hedef bu Turda hamle yapamaz.(Hedef fazladan 2 Fiziksel Hasar ve Ateş Hasarı alınca silinir.)\nÇiçeklenme: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.",
-            "descriptionraw": "{SPRITE_PRESET#2102}Su Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Buharlaşma</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Yükleme</color>: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Donma</color>: Bu seferki Hasar 1 artar ve hedef bu Turda hamle yapamaz.(Hedef fazladan 2 Fiziksel Hasar ve Ateş Hasarı alınca silinir.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Çiçeklenme</color>: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur."
-        },
-        "cryoapplication": {
-            "id": 201,
-            "name": "Buz Etkisi",
-            "nameraw": "<color=#99FFFFFF>{SPRITE_PRESET#2101}Buz Etkisi</color>",
-            "description": "Herhangi bir hasar vermeden Buz Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\nErime: Etkisiz\nSüper İletim: Etkisiz\nDonma: Hedef bu turda herhangi bir hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda 2 Hasar alır.)",
-            "descriptionraw": "Herhangi bir hasar vermeden {SPRITE_PRESET#2101}Buz Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Erime</color>: Etkisiz\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Süper İletim</color>: Etkisiz\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Donma</color>: Hedef bu turda herhangi bir hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda 2 Hasar alır.)"
-        },
-        "unalignedelement": {
-            "id": 309,
-            "name": "Nötr Element",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Nötr Element</color>",
-            "description": "Bu tür bir maliyeti ödemek için herhangi bir elementin Element Zarını kullanabilirsin.",
-            "descriptionraw": "Bu tür bir maliyeti ödemek için herhangi bir elementin Element Zarını kullanabilirsin."
-        },
-        "bloodblossom": {
-            "id": 1009,
-            "name": "Kan Çiçeği",
-            "nameraw": "<color=#FFFFFFFF>Kan Çiçeği</color>",
-            "description": "Son Aşama:Bu kartı kuşanan karaktere 1 Ateş Hasarı verir.\nKullanım Hakkı: 1",
-            "descriptionraw": "<color=#FFFFFFFF>Son Aşama:</color>Bu kartı kuşanan karaktere 1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 1</color>"
-        },
-        "clusterbloomarrow": {
-            "id": 1008,
-            "name": "Çiçeklenen Ok",
-            "nameraw": "<color=#FFFFFFFF>Çiçeklenen Ok</color>",
-            "description": "Son Aşama: 1 Doğa Hasarı verir.\nKullanım Hakkı: 1 (En fazla 2 kademe birikebilir.)",
-            "descriptionraw": "<color=#FFFFFFFF>Son Aşama:</color> 1 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir.\\n<color=#FFFFFFFF>Kullanım Hakkı: 1</color> (En fazla 2 kademe birikebilir.)"
-        },
-        "matchingelement": {
-            "id": 308,
-            "name": "Aynı Element",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Aynı Element</color>",
-            "description": "Bu tür bir maliyeti ödemek için burada belirtilen türde ve miktarda Element Zarı kullanman gerekir.\n(Kararsız Element Zarı, diğer herhangi bir element türü olarak kabul edilebilir.)",
-            "descriptionraw": "Bu tür bir maliyeti ödemek için burada belirtilen türde ve miktarda Element Zarı kullanman gerekir.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı, diğer herhangi bir element türü olarak kabul edilebilir.)"
-        },
-        "combataction": {
-            "id": 1,
-            "name": "Savaş Hamlesi",
-            "nameraw": "<color=#FFFFFFFF>Savaş Hamlesi</color>",
-            "description": "Sen 1 Savaş Hamlesi yaptıktan sonra, sıra rakibine geçer.\nBu kurala göre elindeki bir kartı oynamak, Hızlı Hamleden ziyade bir Savaş Hamlesidir.",
-            "descriptionraw": "Sen 1 Savaş Hamlesi yaptıktan sonra, sıra rakibine geçer.\\n<color=#FFFFFFFF>Bu kurala göre elindeki bir kartı oynamak, Hızlı Hamleden ziyade bir Savaş Hamlesidir.</color>"
-        },
-        "hydrorelatedreactions": {
-            "id": 212,
-            "name": "Su ile İlgili Tepkimeler",
-            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Su ile İlgili Tepkimeler</color>",
-            "description": "Buharlaşma: Bu seferki Hasar 2 artar.\nElektrik Yüklü: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nDonma: Bu seferki Hasar 1 artar, hedef bu Turda herhangi bir Hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda fazladan 2 Hasar alır.)Çiçeklenme: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.\nSu Kristalleşmesi: Bu seferki Hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır. (En fazla 2 puan birikebilir)\nSu Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Su Hasarı verir.",
-            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Buharlaşma</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Yüklü</color>: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Donma</color>: Bu seferki Hasar 1 artar, hedef bu Turda herhangi bir Hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda fazladan 2 Hasar alır.){SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Çiçeklenme</color>: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Su Kristalleşmesi</color>: Bu seferki Hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır. (En fazla 2 puan birikebilir)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Su Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Su Hasarı verir."
-        },
-        "riptide": {
-            "id": 1005,
-            "name": "Dalga",
-            "nameraw": "<color=#FFFFFFFF>Dalga</color>",
-            "description": "Bu kartı kuşanan karakter yenildiğinde  aktif karaktere Dalga etkisi uygulanır.\nTartaglia Yakın Saldırı Duruşundayken bu kartı kuşanan karaktere saldırı yaptığında fazladan Hasar verir.\nSüre (Tur): 2",
-            "descriptionraw": "<color=#FFFFFFFF>Bu kartı kuşanan karakter yenildiğinde </color> aktif karaktere Dalga etkisi uygulanır.\\n<color=#FFFFFFFF>Tartaglia</color> <color=#FFFFFFFF>Yakın Saldırı Duruşundayken</color> bu kartı kuşanan karaktere saldırı yaptığında fazladan Hasar verir.\\n<color=#FFFFFFFF>Süre (Tur): 2</color>"
-        },
-        "omnielement": {
-            "id": 411,
-            "name": "Kararsız Element",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color>",
-            "description": "Kararsız Element, diğer herhangi bir element türü olarak kabul edilebilir ve çeşitli türlerdeki maliyetleri ödemek için kullanılabilir.",
-            "descriptionraw": "{SPRITE_PRESET#1111}Kararsız Element, diğer herhangi bir element türü olarak kabul edilebilir ve çeşitli türlerdeki maliyetleri ödemek için kullanılabilir."
-        },
-        "plungingattack": {
-            "id": 52,
-            "name": "Havadan Saldırı",
-            "nameraw": "<color=#FFFFFFFF>Havadan Saldırı</color>",
-            "description": "Karakter, Aktif Karakter olarak değiştirildikten sonra bu Turdaki bir sonraki Savaş Hamlesi Normal Saldırı olursa bu, Havadan Saldırı olarak sayılır.",
-            "descriptionraw": "Karakter, Aktif Karakter olarak değiştirildikten sonra bu Turdaki bir sonraki Savaş Hamlesi Normal Saldırı olursa bu, Havadan Saldırı olarak sayılır."
-        },
-        "passiveskill": {
-            "id": 502,
-            "name": "Pasif Beceri",
-            "nameraw": "Pasif Beceri",
-            "description": "Bu Beceri sürekli etkindir ve etkinleştirilmesine gerek yoktur.",
-            "descriptionraw": "Bu Beceri sürekli etkindir ve etkinleştirilmesine gerek yoktur."
-        },
-        "electroinfusion": {
-            "id": 1002,
-            "name": "Elektrik Tesiri",
-            "nameraw": "<color=#FFFFFFFF>Elektrik Tesiri</color>",
-            "description": "Bu kartı kuşanan karakterin verdiği Fiziksel Hasar, Elektrik Hasarına dönüşür.\nTur Süresi: 2",
-            "descriptionraw": "Bu kartı kuşanan karakterin verdiği {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarına</color> dönüşür.\\n<color=#FFFFFFFF>Tur Süresi</color>: 2"
-        },
-        "pyrodmg": {
-            "id": 103,
-            "name": "Ateş Hasarı",
-            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color>",
-            "description": "Ateş Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nErime: Bu seferki Hasar 2 artar.\nBuharlaşma: Bu seferki Hasar 2 artar.\nYüksek Voltaj: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\nYanma: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur (Bir defa tetiklenir, 2 kademeye kadar birikir.)",
-            "descriptionraw": "{SPRITE_PRESET#2103}Ateş Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Erime</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Buharlaşma</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Yüksek Voltaj</color>: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Yanma</color>: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur (Bir defa tetiklenir, 2 kademeye kadar birikir.)"
-        },
-        "pyroapplication": {
-            "id": 203,
-            "name": "Ateş Etkisi",
-            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Ateş Etkisi</color>",
-            "description": "Herhangi bir Hasar vermeden Ateş Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\nErime: Etkisiz.\nBuharlaşma: Etkisiz.\nYüksek Voltaj: Hedef, bir sonraki karakterle zorla değiştirilir.\nYanma: Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)",
-            "descriptionraw": "Herhangi bir Hasar vermeden {SPRITE_PRESET#2103}Ateş Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Erime</color>: Etkisiz.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Buharlaşma</color>: Etkisiz.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Yüksek Voltaj</color>: Hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Yanma</color>: Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)"
-        },
-        "hydroapplication": {
-            "id": 202,
-            "name": "Su Etkisi",
-            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Su Etkisi</color>",
-            "description": "Herhangi bir Hasar vermeden Su Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\nBuharlaşma: Etkisiz\nElektrik Yüklü: Etkisiz\nDonma: Hedef bu Turda herhangi bir Hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda fazladan 2 Hasar alır.)\nÇiçeklenme : Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.",
-            "descriptionraw": "Herhangi bir Hasar vermeden {SPRITE_PRESET#2102}Su Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Buharlaşma</color>: Etkisiz\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Yüklü</color>: Etkisiz\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Donma</color>: Hedef bu Turda herhangi bir Hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda fazladan 2 Hasar alır.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Çiçeklenme </color>: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur."
-        },
-        "pyro": {
-            "id": 303,
-            "name": "Ateş",
-            "nameraw": "{SPRITE_PRESET#1103}Ateş",
-            "description": "Bu maliyeti bir Ateş Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
-            "descriptionraw": "Bu maliyeti bir <color=#FF9999FF>{SPRITE_PRESET#1103}Ateş</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)"
-        },
-        "dendrorelatedreactions": {
-            "id": 217,
-            "name": "Doğa ile İlgili Tepkimeler",
-            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Doğa ile İlgili Tepkimeler</color>",
-            "description": "Çiçeklenme: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.\nYanma: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\nHızlanma: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
-            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Çiçeklenme</color>: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yanma</color>: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Hızlanma</color>: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur."
-        },
-        "superlativesuperstrength": {
-            "id": 1007,
-            "name": "Doğaüstü Güç",
-            "nameraw": "<color=#FFFFFFFF>Doğaüstü Güç</color>",
-            "description": "Bunu kuşanmış karakter bir Yüklü Saldırı kullandığında fazladan 1 Hasar verir. Eğer Kullanım Hakkı 2'den az değilse bu becerinin Nötr Element maliyeti de 1 azalır.\nKullanım Hakkı: 1 (En fazla 3 kademe birikebilir.)",
-            "descriptionraw": "<color=#FFFFFFFF>Bunu kuşanmış karakter bir <color=#FFFFFFFF>Yüklü Saldırı</color> kullandığında</color> fazladan 1 Hasar verir. Eğer <color=#FFFFFFFF>Kullanım Hakkı</color> 2'den az değilse bu becerinin <color=#FFFFFFFF>{SPRITE_PRESET#1109}Nötr Element</color> maliyeti de 1 azalır.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 1</color> (En fazla 3 kademe birikebilir.)"
-        },
-        "cryodmg": {
-            "id": 101,
-            "name": "Buz Hasarı",
-            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color>",
-            "description": "Buz Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nErime: Bu seferki hasar 2 artar.\nSüper İletim: Bu seferki hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nDonma: Bu seferki hasar 1 artar ve hedef bu turda hamle yapamaz. (Hedef, Fiziksel Hasar ve Ateş Hasarı alınca kaldırılır, fazladan 2 Hasar alır.)",
-            "descriptionraw": "{SPRITE_PRESET#2101}Buz Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Erime</color>: Bu seferki hasar 2 artar.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Süper İletim</color>: Bu seferki hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Donma</color>: Bu seferki hasar 1 artar ve hedef bu turda hamle yapamaz. (Hedef, Fiziksel Hasar ve Ateş Hasarı alınca kaldırılır, fazladan 2 Hasar alır.)"
-        },
-        "durationrounds": {
-            "id": 4,
-            "name": "Tur Süresi",
-            "nameraw": "<color=#FFFFFFFF>Tur Süresi</color>",
-            "description": "Her turun Son Aşamasında Tur Süresi 1 azalır;\nTur Süresi tükendikten sonra bu kart hemen atılır.",
-            "descriptionraw": "Her turun Son Aşamasında <color=#FFFFFFFF>Tur Süresi</color> 1 azalır;\\n<color=#FFFFFFFF>Tur Süresi</color> tükendikten sonra bu kart hemen atılır."
-        },
         "aegisofabyssalflame": {
+            "description": "Bu kartı kuşanan karaktere 3 Kalkan puanı sağlar.\nBu Kalkan tüketilmeden önce bu kartı kuşanan karakterin verdiği Ateş Hasarı 1 artar.",
+            "descriptionraw": "Bu kartı kuşanan karaktere <color=#FFFFFFFF>3 {SPRITE_PRESET#4007}<color=#FFFFFFFF>Kalkan</color> puanı sağlar</color>.\\nBu {SPRITE_PRESET#4007}<color=#FFFFFFFF>Kalkan</color> tüketilmeden önce bu kartı kuşanan karakterin verdiği {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> 1 artar.",
             "id": 1006,
             "name": "Hiçlik Alevlerinin Kalkanı",
-            "nameraw": "<color=#FFFFFFFF>Hiçlik Alevlerinin Kalkanı</color>",
-            "description": "Bu kartı kuşanan karaktere 3 Kalkan puanı sağlar.\nBu Kalkan tüketilmeden önce bu kartı kuşanan karakterin verdiği Ateş Hasarı 1 artar.",
-            "descriptionraw": "Bu kartı kuşanan karaktere <color=#FFFFFFFF>3 {SPRITE_PRESET#4007}<color=#FFFFFFFF>Kalkan</color> puanı sağlar</color>.\\nBu {SPRITE_PRESET#4007}<color=#FFFFFFFF>Kalkan</color> tüketilmeden önce bu kartı kuşanan karakterin verdiği {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> 1 artar."
+            "nameraw": "<color=#FFFFFFFF>Hiçlik Alevlerinin Kalkanı</color>"
         },
-        "electro": {
-            "id": 304,
-            "name": "Elektrik",
-            "nameraw": "{SPRITE_PRESET#1104}Elektrik",
-            "description": "Bu maliyeti bir Elektrik Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
-            "descriptionraw": "Bu maliyeti bir <color=#FFACFFFF>{SPRITE_PRESET#1104}Elektrik</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)"
+        "anemo": {
+            "description": "Bu maliyeti bir Rüzgar Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "descriptionraw": "Bu maliyeti bir <color=#80FFD7FF>{SPRITE_PRESET#1105}Rüzgar</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "id": 305,
+            "name": "Rüzgar",
+            "nameraw": "{SPRITE_PRESET#1105}Rüzgar"
         },
-        "hydro": {
-            "id": 302,
-            "name": "Su",
-            "nameraw": "{SPRITE_PRESET#1102}Su",
-            "description": "Bu maliyeti bir Su Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
-            "descriptionraw": "Bu maliyeti bir <color=#80C0FFFF>{SPRITE_PRESET#1102}Su</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)"
+        "anemodmg": {
+            "description": "Zaten uygulanmış olan Elementlerle tepkimeye girer:\nBuz Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Buz Hasarı verir.\nSu Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Su Hasarı verir.\nAteş Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Ateş Hasarı verir.\nElektrik Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Elektrik Hasarı verir.",
+            "descriptionraw": "Zaten uygulanmış olan Elementlerle tepkimeye girer:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Buz Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Buz Hasarı verir.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Su Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Su Hasarı verir.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ateş Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Ateş Hasarı verir.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Elektrik Hasarı verir.",
+            "id": 105,
+            "name": "Rüzgar Hasarı",
+            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color>"
         },
-        "fatuiambusher": {
-            "id": 1004,
-            "name": "Fatui Suikastçısı",
-            "nameraw": "<color=#FFFFFFFF>Fatui Suikastçısı</color>",
-            "description": "Fatui Suikastçıları, bulundukları taraftaki karakterler Beceri kullandığında etkilerini tetikleyerek alanın o tarafındaki aktif karaktere Hasar verirler. (Her Turda bir defa)\nToplamda 4 çeşit Fatui Suikastçısı bulunur:\nBuz Cicin Büyücüsü: Tetiklendiğinde 1 Buz Hasarı verir, Kullanım Hakkı: 2.\nAynalı Rahibe: Tetiklendiğinde 1 Su Hasarı verir, Kullanım Hakkı: 2.\nDestek Ateş Nişancısı: Tetiklendiğinde 1 Ateş Hasarı verir, Kullanım Hakkı: 2.\nÖncü Elektrik Balyoz: Tetiklendiğinde 1 Elektrik Hasarı verir, Kullanım Hakkı: 2.",
-            "descriptionraw": "Fatui Suikastçıları, bulundukları taraftaki karakterler Beceri kullandığında etkilerini tetikleyerek alanın o tarafındaki aktif karaktere Hasar verirler. (Her Turda bir defa)\\nToplamda 4 çeşit Fatui Suikastçısı bulunur:\\n<color=#FFFFFFFF>Buz Cicin Büyücüsü</color>: Tetiklendiğinde 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir, Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Aynalı Rahibe</color>: Tetiklendiğinde 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir, Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Destek Ateş Nişancısı</color>: Tetiklendiğinde 1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir, Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Öncü Elektrik Balyoz</color>: Tetiklendiğinde 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir, Kullanım Hakkı: 2."
+        "bloodblossom": {
+            "description": "Son Aşama:Bu kartı kuşanan karaktere 1 Ateş Hasarı verir.\nKullanım Hakkı: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Son Aşama:</color>Bu kartı kuşanan karaktere 1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 1</color>",
+            "id": 1009,
+            "name": "Kan Çiçeği",
+            "nameraw": "<color=#FFFFFFFF>Kan Çiçeği</color>"
+        },
+        "characterclosesttoyourcurrentactivecharacter": {
+            "description": "Rakip \"aktif karakterine en yakın karakter\", konum olarak aktif karakterine en yakın olan rakip karakteri niteler.\nBu tanıma uyan birden fazla karakter varsa sırası daha önce olan karakter \"en yakın\" seçilir.",
+            "descriptionraw": "Rakip \"aktif karakterine en yakın karakter\", konum olarak aktif karakterine en yakın olan rakip karakteri niteler.\\nBu tanıma uyan birden fazla karakter varsa sırası daha önce olan karakter \"en yakın\" seçilir.",
+            "id": 7,
+            "name": "Aktif Karakterine En Yakın Karakter",
+            "nameraw": "<color=#FFFFFFFF>Aktif Karakterine En Yakın Karakter</color>"
+        },
+        "chargedattack": {
+            "description": "Hamle Aşamasından önce toplam Element Zarı sayısı bir çift sayı olduğunda Normal Saldırı, Yüklü Saldırı olarak sayılır.",
+            "descriptionraw": "Hamle Aşamasından önce toplam Element Zarı sayısı bir çift sayı olduğunda Normal Saldırı, Yüklü Saldırı olarak sayılır.",
+            "id": 51,
+            "name": "Yüklü Saldırı",
+            "nameraw": "<color=#FFFFFFFF>Yüklü Saldırı</color>"
+        },
+        "clusterbloomarrow": {
+            "description": "Son Aşama: 1 Doğa Hasarı verir.\nKullanım Hakkı: 1 (En fazla 2 kademe birikebilir.)",
+            "descriptionraw": "<color=#FFFFFFFF>Son Aşama:</color> 1 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir.\\n<color=#FFFFFFFF>Kullanım Hakkı: 1</color> (En fazla 2 kademe birikebilir.)",
+            "id": 1008,
+            "name": "Çiçeklenen Ok",
+            "nameraw": "<color=#FFFFFFFF>Çiçeklenen Ok</color>"
+        },
+        "combataction": {
+            "description": "Sen 1 Savaş Hamlesi yaptıktan sonra, sıra rakibine geçer.\nBu kurala göre elindeki bir kartı oynamak, Hızlı Hamleden ziyade bir Savaş Hamlesidir.",
+            "descriptionraw": "Sen 1 Savaş Hamlesi yaptıktan sonra, sıra rakibine geçer.\\n<color=#FFFFFFFF>Bu kurala göre elindeki bir kartı oynamak, Hızlı Hamleden ziyade bir Savaş Hamlesidir.</color>",
+            "id": 1,
+            "name": "Savaş Hamlesi",
+            "nameraw": "<color=#FFFFFFFF>Savaş Hamlesi</color>"
+        },
+        "crowfeathercover": {
+            "description": "Bunu kuşanmış karakter fazladan 1 Element Becerisi ve Element Patlaması Hasarı verir.\nKullanım Hakkı: 2",
+            "descriptionraw": "Bunu kuşanmış karakter fazladan 1 <color=#FFFFFFFF>Element Becerisi</color> ve <color=#FFFFFFFF>Element Patlaması</color> Hasarı verir.\\n<color=#FFFFFFFF>Kullanım Hakkı: 2</color>",
+            "id": 1003,
+            "name": "Karga Tüyünün Himayesi",
+            "nameraw": "<color=#FFFFFFFF>Karga Tüyünün Himayesi</color>"
+        },
+        "cryo": {
+            "description": "Bu maliyeti bir Buz Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "descriptionraw": "Bu maliyeti bir <color=#99FFFFFF>{SPRITE_PRESET#1101}Buz</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "id": 301,
+            "name": "Buz",
+            "nameraw": "{SPRITE_PRESET#1101}Buz"
+        },
+        "cryoapplication": {
+            "description": "Herhangi bir hasar vermeden Buz Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\nErime: Etkisiz\nSüper İletim: Etkisiz\nDonma: Hedef bu turda herhangi bir hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda 2 Hasar alır.)",
+            "descriptionraw": "Herhangi bir hasar vermeden {SPRITE_PRESET#2101}Buz Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Erime</color>: Etkisiz\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Süper İletim</color>: Etkisiz\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Donma</color>: Hedef bu turda herhangi bir hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda 2 Hasar alır.)",
+            "id": 201,
+            "name": "Buz Etkisi",
+            "nameraw": "<color=#99FFFFFF>{SPRITE_PRESET#2101}Buz Etkisi</color>"
+        },
+        "cryodmg": {
+            "description": "Buz Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nErime: Bu seferki hasar 2 artar.\nSüper İletim: Bu seferki hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nDonma: Bu seferki hasar 1 artar ve hedef bu turda hamle yapamaz. (Hedef, Fiziksel Hasar ve Ateş Hasarı alınca kaldırılır, fazladan 2 Hasar alır.)",
+            "descriptionraw": "{SPRITE_PRESET#2101}Buz Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Erime</color>: Bu seferki hasar 2 artar.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Süper İletim</color>: Bu seferki hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Donma</color>: Bu seferki hasar 1 artar ve hedef bu turda hamle yapamaz. (Hedef, Fiziksel Hasar ve Ateş Hasarı alınca kaldırılır, fazladan 2 Hasar alır.)",
+            "id": 101,
+            "name": "Buz Hasarı",
+            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color>"
+        },
+        "dendro": {
+            "description": "Bu maliyeti bir Doğa Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "descriptionraw": "Bu maliyeti bir <color=#7EC236FF>{SPRITE_PRESET#1107}Doğa</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "id": 307,
+            "name": "Doğa",
+            "nameraw": "{SPRITE_PRESET#1107}Doğa"
+        },
+        "dendroapplication": {
+            "description": "Herhangi bir Hasar vermeden Doğa Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\nÇiçeklenme: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.\nYanma: Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\nHızlanma: Sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
+            "descriptionraw": "Herhangi bir Hasar vermeden {SPRITE_PRESET#2107}Doğa Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Çiçeklenme</color>: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yanma</color>: Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Hızlanma</color>: Sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur.",
+            "id": 207,
+            "name": "Doğa Etkisi",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Doğa Etkisi</color>"
         },
         "dendrodmg": {
+            "description": "Doğa Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nÇiçeklenme: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.\nYanma: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\nHızlanma: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
+            "descriptionraw": "{SPRITE_PRESET#2107}Doğa Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Çiçeklenme</color>: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yanma</color>: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Hızlanma</color>: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur.",
             "id": 107,
             "name": "Doğa Hasarı",
-            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color>",
-            "description": "Doğa Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nÇiçeklenme: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.\nYanma: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\nHızlanma: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
-            "descriptionraw": "{SPRITE_PRESET#2107}Doğa Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Çiçeklenme</color>: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yanma</color>: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Hızlanma</color>: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur."
+            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color>"
+        },
+        "dendrorelatedreactions": {
+            "description": "Çiçeklenme: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.\nYanma: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\nHızlanma: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
+            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Çiçeklenme</color>: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yanma</color>: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Hızlanma</color>: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur.",
+            "id": 217,
+            "name": "Doğa ile İlgili Tepkimeler",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Doğa ile İlgili Tepkimeler</color>"
+        },
+        "durationrounds": {
+            "description": "Her turun Son Aşamasında Tur Süresi 1 azalır;\nTur Süresi tükendikten sonra bu kart hemen atılır.",
+            "descriptionraw": "Her turun Son Aşamasında <color=#FFFFFFFF>Tur Süresi</color> 1 azalır;\\n<color=#FFFFFFFF>Tur Süresi</color> tükendikten sonra bu kart hemen atılır.",
+            "id": 4,
+            "name": "Tur Süresi",
+            "nameraw": "<color=#FFFFFFFF>Tur Süresi</color>"
+        },
+        "electro": {
+            "description": "Bu maliyeti bir Elektrik Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "descriptionraw": "Bu maliyeti bir <color=#FFACFFFF>{SPRITE_PRESET#1104}Elektrik</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "id": 304,
+            "name": "Elektrik",
+            "nameraw": "{SPRITE_PRESET#1104}Elektrik"
+        },
+        "electroapplication": {
+            "description": "Herhangi bir Hasar vermeden Elektrik Etkisi uygulandığında meydana gelen Element Tepkimesi, Hasar etkilerini görmezden gelir:\nYüksek Voltaj: Hedef, bir sonraki karakterle zorla değiştirilir.\nSüper İletim: Etkisiz\nElektrik Yüklü: Etkisiz\nHızlanma: Sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
+            "descriptionraw": "Herhangi bir Hasar vermeden {SPRITE_PRESET#2104}Elektrik Etkisi uygulandığında meydana gelen Element Tepkimesi, Hasar etkilerini görmezden gelir:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yüksek Voltaj</color>: Hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Süper İletim</color>: Etkisiz\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Elektrik Yüklü</color>: Etkisiz\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Hızlanma</color>: Sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur.",
+            "id": 204,
+            "name": "Elektrik Etkisi",
+            "nameraw": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Elektrik Etkisi</color>"
+        },
+        "electrodmg": {
+            "description": "Elektrik Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nYüksek Voltaj: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\nSüper İletim: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nElektrik Yüklü: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nHızlanma: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [Dönüştürme Alanı] oluşturur.",
+            "descriptionraw": "{SPRITE_PRESET#2104}Elektrik Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Yüksek Voltaj</color>: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Süper İletim</color>: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Elektrik Yüklü</color>: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Hızlanma</color>: Bu seferki Hasar 1 artar ve sonraki 2 Doğa veya Elektrik Hasarını 1 artıran bir [<color=#FFFFFFFF>Dönüştürme Alanı</color>] oluşturur.",
+            "id": 104,
+            "name": "Elektrik Hasarı",
+            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color>"
+        },
+        "electroinfusion": {
+            "description": "Bu kartı kuşanan karakterin verdiği Fiziksel Hasar, Elektrik Hasarına dönüşür.\nTur Süresi: 2",
+            "descriptionraw": "Bu kartı kuşanan karakterin verdiği {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarına</color> dönüşür.\\n<color=#FFFFFFFF>Tur Süresi</color>: 2",
+            "id": 1002,
+            "name": "Elektrik Tesiri",
+            "nameraw": "<color=#FFFFFFFF>Elektrik Tesiri</color>"
+        },
+        "elementalburst": {
+            "description": "Karakterin Enerjisi üst sınıra ulaştığında tüm Enerjisini harcayarak güçlü bir Element Patlaması tetikleyebilirsin.",
+            "descriptionraw": "Karakterin {SPRITE_PRESET#1110}Enerjisi üst sınıra ulaştığında tüm {SPRITE_PRESET#1110}Enerjisini harcayarak güçlü bir Element Patlaması tetikleyebilirsin.",
+            "id": 501,
+            "name": "Element Patlaması",
+            "nameraw": "Element Patlaması"
+        },
+        "energy": {
+            "description": "Karakterlerin Element Patlamasını kullanmaları için Enerji harcaması gerekir.\nKarakterler bir Element Becerisi veya Normal Saldırı kullandıklarında, 1 Enerji kazanırlar.",
+            "descriptionraw": "Karakterlerin Element Patlamasını kullanmaları için {SPRITE_PRESET#1110}Enerji harcaması gerekir.\\nKarakterler bir Element Becerisi veya Normal Saldırı kullandıklarında, 1 {SPRITE_PRESET#1110}Enerji kazanırlar.",
+            "id": 310,
+            "name": "Enerji",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color>"
+        },
+        "fastaction": {
+            "description": "1 Hızlı Hamle yaptıktan sonra başka bir hamle ile devam edebilirsin.\nYalnızca 1 Savaş Hamlesi yaptıktan sonra sıra rakibine geçer.",
+            "descriptionraw": "1 Hızlı Hamle yaptıktan sonra başka bir hamle ile devam edebilirsin.\\nYalnızca 1 Savaş Hamlesi yaptıktan sonra sıra rakibine geçer.",
+            "id": 2,
+            "name": "Hızlı Hamle",
+            "nameraw": "<color=#FFFFFFFF>Hızlı Hamle</color>"
+        },
+        "fatuiambusher": {
+            "description": "Fatui Suikastçıları, bulundukları taraftaki karakterler Beceri kullandığında etkilerini tetikleyerek alanın o tarafındaki aktif karaktere Hasar verirler. (Her Turda bir defa)\nToplamda 4 çeşit Fatui Suikastçısı bulunur:\nBuz Cicin Büyücüsü: Tetiklendiğinde 1 Buz Hasarı verir, Kullanım Hakkı: 2.\nAynalı Rahibe: Tetiklendiğinde 1 Su Hasarı verir, Kullanım Hakkı: 2.\nDestek Ateş Nişancısı: Tetiklendiğinde 1 Ateş Hasarı verir, Kullanım Hakkı: 2.\nÖncü Elektrik Balyoz: Tetiklendiğinde 1 Elektrik Hasarı verir, Kullanım Hakkı: 2.",
+            "descriptionraw": "Fatui Suikastçıları, bulundukları taraftaki karakterler Beceri kullandığında etkilerini tetikleyerek alanın o tarafındaki aktif karaktere Hasar verirler. (Her Turda bir defa)\\nToplamda 4 çeşit Fatui Suikastçısı bulunur:\\n<color=#FFFFFFFF>Buz Cicin Büyücüsü</color>: Tetiklendiğinde 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir, Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Aynalı Rahibe</color>: Tetiklendiğinde 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir, Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Destek Ateş Nişancısı</color>: Tetiklendiğinde 1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir, Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Öncü Elektrik Balyoz</color>: Tetiklendiğinde 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir, Kullanım Hakkı: 2.",
+            "id": 1004,
+            "name": "Fatui Suikastçısı",
+            "nameraw": "<color=#FFFFFFFF>Fatui Suikastçısı</color>"
+        },
+        "geo": {
+            "description": "Bu maliyeti bir Toprak Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "descriptionraw": "Bu maliyeti bir <color=#FFE699FF>{SPRITE_PRESET#1106}Toprak</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "id": 306,
+            "name": "Toprak",
+            "nameraw": "{SPRITE_PRESET#1106}Toprak"
         },
         "geodmg": {
+            "description": "Zaten uygulanmış olan Elementlerle tepkimeye girer:\nBuz Kristalleşmesi: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\nSu Kristalleşmesi: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\nAteş Kristalleşmesi: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\nElektrik Kristalleşmesi: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).",
+            "descriptionraw": "Zaten uygulanmış olan Elementlerle tepkimeye girer:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Buz Kristalleşmesi</color>: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Su Kristalleşmesi</color>: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ateş Kristalleşmesi</color>: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Kristalleşmesi</color>: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).",
             "id": 106,
             "name": "Toprak Hasarı",
-            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color>",
-            "description": "Zaten uygulanmış olan Elementlerle tepkimeye girer:\nBuz Kristalleşmesi: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\nSu Kristalleşmesi: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\nAteş Kristalleşmesi: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\nElektrik Kristalleşmesi: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).",
-            "descriptionraw": "Zaten uygulanmış olan Elementlerle tepkimeye girer:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Buz Kristalleşmesi</color>: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Su Kristalleşmesi</color>: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ateş Kristalleşmesi</color>: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Kristalleşmesi</color>: Bu seferki hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (üst üste biriktirilebilir ve maksimum 2 puan)."
+            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color>"
+        },
+        "hydro": {
+            "description": "Bu maliyeti bir Su Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "descriptionraw": "Bu maliyeti bir <color=#80C0FFFF>{SPRITE_PRESET#1102}Su</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "id": 302,
+            "name": "Su",
+            "nameraw": "{SPRITE_PRESET#1102}Su"
+        },
+        "hydroapplication": {
+            "description": "Herhangi bir Hasar vermeden Su Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\nBuharlaşma: Etkisiz\nElektrik Yüklü: Etkisiz\nDonma: Hedef bu Turda herhangi bir Hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda fazladan 2 Hasar alır.)\nÇiçeklenme : Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.",
+            "descriptionraw": "Herhangi bir Hasar vermeden {SPRITE_PRESET#2102}Su Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Buharlaşma</color>: Etkisiz\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Yüklü</color>: Etkisiz\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Donma</color>: Hedef bu Turda herhangi bir Hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda fazladan 2 Hasar alır.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Çiçeklenme </color>: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.",
+            "id": 202,
+            "name": "Su Etkisi",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Su Etkisi</color>"
+        },
+        "hydrodmg": {
+            "description": "Su Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nBuharlaşma: Bu seferki Hasar 2 artar.\nElektrik Yükleme: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nDonma: Bu seferki Hasar 1 artar ve hedef bu Turda hamle yapamaz.(Hedef fazladan 2 Fiziksel Hasar ve Ateş Hasarı alınca silinir.)\nÇiçeklenme: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.",
+            "descriptionraw": "{SPRITE_PRESET#2102}Su Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Buharlaşma</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Yükleme</color>: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Donma</color>: Bu seferki Hasar 1 artar ve hedef bu Turda hamle yapamaz.(Hedef fazladan 2 Fiziksel Hasar ve Ateş Hasarı alınca silinir.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Çiçeklenme</color>: Bu seferki Hasar 1 artar ve bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.",
+            "id": 102,
+            "name": "Su Hasarı",
+            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color>"
+        },
+        "hydrorelatedreactions": {
+            "description": "Buharlaşma: Bu seferki Hasar 2 artar.\nElektrik Yüklü: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\nDonma: Bu seferki Hasar 1 artar, hedef bu Turda herhangi bir Hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda fazladan 2 Hasar alır.)Çiçeklenme: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [Doğa Çekirdeği] oluşturur.\nSu Kristalleşmesi: Bu seferki Hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır. (En fazla 2 puan birikebilir)\nSu Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Su Hasarı verir.",
+            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Buharlaşma</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Elektrik Yüklü</color>: Bu seferki Hasar 1 artar ve hedef dışındaki tüm rakip karakterlere 1 Delme Hasarı verir.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Donma</color>: Bu seferki Hasar 1 artar, hedef bu Turda herhangi bir Hamle yapamaz. (Hedef, Fiziksel Hasar veya Ateş Hasarı alınca önceden kaldırılabilir; bu durumda fazladan 2 Hasar alır.){SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Çiçeklenme</color>: Bir sonraki Ateş veya Elektrik Hasarını 2 artıran bir [<color=#FFFFFFFF>Doğa Çekirdeği</color>] oluşturur.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Su Kristalleşmesi</color>: Bu seferki Hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır. (En fazla 2 puan birikebilir)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Su Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Su Hasarı verir.",
+            "id": 212,
+            "name": "Su ile İlgili Tepkimeler",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Su ile İlgili Tepkimeler</color>"
+        },
+        "immunitytodefeats1willnotbedefeated": {
+            "description": "Bazı etkiler karakterlere ölümsüzlük vererek yenilmemelerini sağlar ve Canları 0 olduğunda onları belirli bir miktar iyileştirir.\nBu durumda karakterler yenilmiş olarak görülmez. (Dolayısıyla onlara ekli ekipman ve durumlar kaldırılmaz, enerjileri silinmez.)",
+            "descriptionraw": "Bazı etkiler karakterlere <color=#FFFFFFFF>ölümsüzlük vererek yenilmemelerini sağlar</color> ve Canları 0 olduğunda onları belirli bir miktar iyileştirir.\\nBu durumda karakterler <color=#FFFFFFFF>yenilmiş</color> olarak görülmez. (Dolayısıyla onlara ekli ekipman ve durumlar kaldırılmaz, enerjileri silinmez.)",
+            "id": 54,
+            "name": "Yenilmez",
+            "nameraw": "<color=#FFFFFFFF>Yenilmez</color>|s1:<color=#FFFFFFFF>yenilemez</color>"
+        },
+        "matchingelement": {
+            "description": "Bu tür bir maliyeti ödemek için burada belirtilen türde ve miktarda Element Zarı kullanman gerekir.\n(Kararsız Element Zarı, diğer herhangi bir element türü olarak kabul edilebilir.)",
+            "descriptionraw": "Bu tür bir maliyeti ödemek için burada belirtilen türde ve miktarda Element Zarı kullanman gerekir.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı, diğer herhangi bir element türü olarak kabul edilebilir.)",
+            "id": 308,
+            "name": "Aynı Element",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Aynı Element</color>"
+        },
+        "omnielement": {
+            "description": "Kararsız Element, diğer herhangi bir element türü olarak kabul edilebilir ve çeşitli türlerdeki maliyetleri ödemek için kullanılabilir.",
+            "descriptionraw": "{SPRITE_PRESET#1111}Kararsız Element, diğer herhangi bir element türü olarak kabul edilebilir ve çeşitli türlerdeki maliyetleri ödemek için kullanılabilir.",
+            "id": 411,
+            "name": "Kararsız Element",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color>"
+        },
+        "passiveskill": {
+            "description": "Bu Beceri sürekli etkindir ve etkinleştirilmesine gerek yoktur.",
+            "descriptionraw": "Bu Beceri sürekli etkindir ve etkinleştirilmesine gerek yoktur.",
+            "id": 502,
+            "name": "Pasif Beceri",
+            "nameraw": "Pasif Beceri"
+        },
+        "physicaldmg": {
+            "description": "Fiziksel Hasar, herhangi bir Element uygulamaz veya Element Tepkimesi gerçekleştirmez.",
+            "descriptionraw": "Fiziksel Hasar, herhangi bir Element uygulamaz veya Element Tepkimesi gerçekleştirmez.",
+            "id": 100,
+            "name": "Fiziksel Hasar",
+            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color>"
+        },
+        "piercingdmg": {
+            "description": "Delme Hasarı herhangi bir bonusla artırılamaz ama Kalkan veya Hasar Bağışıklığı kullanımına karşı da savunulamaz.",
+            "descriptionraw": "Delme Hasarı herhangi bir bonusla artırılamaz ama Kalkan veya Hasar Bağışıklığı kullanımına karşı da savunulamaz.",
+            "id": 5,
+            "name": "Delme Hasarı",
+            "nameraw": "<color=#FFFFFFFF>Delme Hasarı</color>"
+        },
+        "plungingattack": {
+            "description": "Karakter, Aktif Karakter olarak değiştirildikten sonra bu Turdaki bir sonraki Savaş Hamlesi Normal Saldırı olursa bu, Havadan Saldırı olarak sayılır.",
+            "descriptionraw": "Karakter, Aktif Karakter olarak değiştirildikten sonra bu Turdaki bir sonraki Savaş Hamlesi Normal Saldırı olursa bu, Havadan Saldırı olarak sayılır.",
+            "id": 52,
+            "name": "Havadan Saldırı",
+            "nameraw": "<color=#FFFFFFFF>Havadan Saldırı</color>"
+        },
+        "prepareskill": {
+            "description": "Bazı Beceriler doğrudan kullanılamaz ve birkaç tur boyunca hazırlanmaları gerekir.\nBir oyuncunun sırası geldiğinde eğer bu oyuncunun aktif karakteri o anda bir Beceri hazırlıyorsa bu oyuncunun sırası atlanır. Becerinin hazırlığı sona erdiğinde, karakter o anda Beceriyi doğrudan kullanır. (Hazırlık gerektiren Beceriler, \"bir Beceri kullanımı\" ile tetiklenen etkileri etkinleştiremez.)\nYalnızca aktif karakterler Becerileri hazırlayabilir ve bir Beceriyi hazırlayan aktif karakter bekleyen karakter durumuna geçerse yaptığı Beceri hazırlığı kesintiye uğrar.",
+            "descriptionraw": "Bazı Beceriler doğrudan kullanılamaz ve birkaç tur boyunca <color=#FFFFFFFF>hazırlanmaları</color> gerekir.\\nBir oyuncunun sırası geldiğinde eğer bu oyuncunun aktif karakteri o anda bir Beceri <color=#FFFFFFFF>hazırlıyorsa</color> bu oyuncunun sırası atlanır. Becerinin <color=#FFFFFFFF>hazırlığı</color> sona erdiğinde, karakter o anda Beceriyi doğrudan kullanır. (<color=#FFFFFFFF>Hazırlık</color> gerektiren Beceriler, \"bir Beceri kullanımı\" ile tetiklenen etkileri etkinleştiremez.)\\nYalnızca aktif karakterler Becerileri <color=#FFFFFFFF>hazırlayabilir</color> ve bir Beceriyi <color=#FFFFFFFF>hazırlayan</color> aktif karakter bekleyen karakter durumuna geçerse yaptığı Beceri <color=#FFFFFFFF>hazırlığı</color> kesintiye uğrar.",
+            "id": 53,
+            "name": "Beceri Hazırlama",
+            "nameraw": "<color=#FFFFFFFF>Beceri Hazırlama</color>"
+        },
+        "pyro": {
+            "description": "Bu maliyeti bir Ateş Zarı harcayarak öde.\n(Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "descriptionraw": "Bu maliyeti bir <color=#FF9999FF>{SPRITE_PRESET#1103}Ateş</color> Zarı harcayarak öde.\\n({SPRITE_PRESET#1111}Kararsız Element Zarı harcayarak da bu maliyet ödenebilir.)",
+            "id": 303,
+            "name": "Ateş",
+            "nameraw": "{SPRITE_PRESET#1103}Ateş"
+        },
+        "pyroapplication": {
+            "description": "Herhangi bir Hasar vermeden Ateş Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\nErime: Etkisiz.\nBuharlaşma: Etkisiz.\nYüksek Voltaj: Hedef, bir sonraki karakterle zorla değiştirilir.\nYanma: Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)",
+            "descriptionraw": "Herhangi bir Hasar vermeden {SPRITE_PRESET#2103}Ateş Etkisi uygulandığında tetiklenen Element Tepkimesi, Hasar verme ile ilgili etkileri yok sayar:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Erime</color>: Etkisiz.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Buharlaşma</color>: Etkisiz.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Yüksek Voltaj</color>: Hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Yanma</color>: Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)",
+            "id": 203,
+            "name": "Ateş Etkisi",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Ateş Etkisi</color>"
+        },
+        "pyrodmg": {
+            "description": "Ateş Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\nErime: Bu seferki Hasar 2 artar.\nBuharlaşma: Bu seferki Hasar 2 artar.\nYüksek Voltaj: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\nYanma: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur (Bir defa tetiklenir, 2 kademeye kadar birikir.)",
+            "descriptionraw": "{SPRITE_PRESET#2103}Ateş Etkisi uygular ve şu Element Tepkimelerini tetikleyebilir:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Erime</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Buharlaşma</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Yüksek Voltaj</color>: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Yanma</color>: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur (Bir defa tetiklenir, 2 kademeye kadar birikir.)",
+            "id": 103,
+            "name": "Ateş Hasarı",
+            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color>"
+        },
+        "pyrorelatedreactions": {
+            "description": "Erime: Bu seferki Hasar 2 artar.\nBuharlaşma: Bu seferki Hasar 2 artar.\nYüksek Voltaj: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\nYanma: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [Yakıcı Alev] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\nAteş Kristalleşmesi: Bu seferki Hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (En fazla 2 puan birikebilir).\nAteş Girdabı: Hedef dışındaki tüm rakip karakterlere 1 Ateş Hasarı verir.",
+            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Erime</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Buharlaşma</color>: Bu seferki Hasar 2 artar.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Yüksek Voltaj</color>: Bu seferki Hasar 2 artar ve hedef, bir sonraki karakterle zorla değiştirilir.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Yanma</color>: Bu seferki Hasar 1 artar ve Turun sonunda 1 Ateş Hasarı verecek olan bir [<color=#FFFFFFFF>Yakıcı Alev</color>] oluşturur. (Bir defa tetiklenir, 2 kademeye kadar birikir.)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ateş Kristalleşmesi</color>: Bu seferki Hasar 1 artar ve aktif karakterin 1 Kalkan puanı kazanır (En fazla 2 puan birikebilir).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ateş Girdabı</color>: Hedef dışındaki tüm rakip karakterlere 1 Ateş Hasarı verir.",
+            "id": 213,
+            "name": "Ateş ile İlgili Tepkimeler",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Ateş ile İlgili Tepkimeler</color>"
+        },
+        "randomhilichurlsummon": {
+            "description": "Toplam 4 farklı tür Dağ Yabanisi Minyonu vardır:\nNişancı Buz Dağ Yabanisi: Son Aşamada 1 Buz Hasarı verir. Kullanım Hakkı: 2.\nSu Dağ Şamanı: Son Aşamada 1 Su Hasarı verir. Kullanım Hakkı: 2.\nVahşi Savaşçı Dağ Yabanisi: Son Aşamada 1 Ateş Hasarı verir. Kullanım Hakkı: 2.\nNişancı Elektrik Dağ Yabanisi: Son Aşamada 1 Elektrik Hasarı verir. Kullanım Hakkı: 2.",
+            "descriptionraw": "Toplam 4 farklı tür Dağ Yabanisi Minyonu vardır:\\n<color=#FFFFFFFF>Nişancı Buz Dağ Yabanisi</color>: Son Aşamada 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir. Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Su Dağ Şamanı</color>: Son Aşamada 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir. Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Vahşi Savaşçı Dağ Yabanisi</color>: Son Aşamada 1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir. Kullanım Hakkı: 2.\\n<color=#FFFFFFFF>Nişancı Elektrik Dağ Yabanisi</color>: Son Aşamada 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir. Kullanım Hakkı: 2.",
+            "id": 1001,
+            "name": "Rastgele Dağ Yabanisi Minyonu",
+            "nameraw": "<color=#FFFFFFFF>Rastgele Dağ Yabanisi Minyonu</color>"
+        },
+        "riptide": {
+            "description": "Bu kartı kuşanan karakter yenildiğinde  aktif karaktere Dalga etkisi uygulanır.\nTartaglia Yakın Saldırı Duruşundayken bu kartı kuşanan karaktere saldırı yaptığında fazladan Hasar verir.\nSüre (Tur): 2",
+            "descriptionraw": "<color=#FFFFFFFF>Bu kartı kuşanan karakter yenildiğinde </color> aktif karaktere Dalga etkisi uygulanır.\\n<color=#FFFFFFFF>Tartaglia</color> <color=#FFFFFFFF>Yakın Saldırı Duruşundayken</color> bu kartı kuşanan karaktere saldırı yaptığında fazladan Hasar verir.\\n<color=#FFFFFFFF>Süre (Tur): 2</color>",
+            "id": 1005,
+            "name": "Dalga",
+            "nameraw": "<color=#FFFFFFFF>Dalga</color>"
+        },
+        "shield": {
+            "description": "Bu Kalkan, onu kuşanan karakteri Hasardan korumak için harcanır.",
+            "descriptionraw": "Bu Kalkan, onu kuşanan karakteri Hasardan korumak için harcanır.",
+            "id": 6,
+            "name": "Kalkan",
+            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Kalkan</color>"
+        },
+        "superlativesuperstrength": {
+            "description": "Bunu kuşanmış karakter bir Yüklü Saldırı kullandığında fazladan 1 Hasar verir. Eğer Kullanım Hakkı 2'den az değilse bu becerinin Nötr Element maliyeti de 1 azalır.\nKullanım Hakkı: 1 (En fazla 3 kademe birikebilir.)",
+            "descriptionraw": "<color=#FFFFFFFF>Bunu kuşanmış karakter bir <color=#FFFFFFFF>Yüklü Saldırı</color> kullandığında</color> fazladan 1 Hasar verir. Eğer <color=#FFFFFFFF>Kullanım Hakkı</color> 2'den az değilse bu becerinin <color=#FFFFFFFF>{SPRITE_PRESET#1109}Nötr Element</color> maliyeti de 1 azalır.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 1</color> (En fazla 3 kademe birikebilir.)",
+            "id": 1007,
+            "name": "Doğaüstü Güç",
+            "nameraw": "<color=#FFFFFFFF>Doğaüstü Güç</color>"
+        },
+        "unalignedelement": {
+            "description": "Bu tür bir maliyeti ödemek için herhangi bir elementin Element Zarını kullanabilirsin.",
+            "descriptionraw": "Bu tür bir maliyeti ödemek için herhangi bir elementin Element Zarını kullanabilirsin.",
+            "id": 309,
+            "name": "Nötr Element",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Nötr Element</color>"
+        },
+        "usages": {
+            "description": "Bu kartın etkisi tetiklendikten sonra 1 Kullanım Hakkı harcanır.\nKullanım Hakkı 0 olduktan sonra bu kart hemen atılır.",
+            "descriptionraw": "Bu kartın etkisi tetiklendikten sonra 1 <color=#FFFFFFFF>Kullanım Hakkı</color> harcanır.\\n<color=#FFFFFFFF>Kullanım Hakkı</color> 0 olduktan sonra bu kart hemen atılır.",
+            "id": 3,
+            "name": "Kullanım Hakkı",
+            "nameraw": "<color=#FFFFFFFF>Kullanım Hakkı</color>"
         }
     },
     "meta": {
+        "aliases": {},
+        "categories": {},
         "namemap": {
             "aegisofabyssalflame": "Hiçlik Alevlerinin Kalkanı",
             "anemo": "Rüzgar",
@@ -397,58 +399,56 @@
             "usages": "Kullanım Hakkı"
         },
         "names": {
-            "Hiçlik Alevlerinin Kalkanı": "aegisofabyssalflame",
-            "Rüzgar": "anemo",
-            "Rüzgar Hasarı": "anemodmg",
-            "Kan Çiçeği": "bloodblossom",
             "Aktif Karakterine En Yakın Karakter": "characterclosesttoyourcurrentactivecharacter",
-            "Yüklü Saldırı": "chargedattack",
-            "Çiçeklenen Ok": "clusterbloomarrow",
-            "Savaş Hamlesi": "combataction",
-            "Karga Tüyünün Himayesi": "crowfeathercover",
+            "Ateş": "pyro",
+            "Ateş Etkisi": "pyroapplication",
+            "Ateş Hasarı": "pyrodmg",
+            "Ateş ile İlgili Tepkimeler": "pyrorelatedreactions",
+            "Aynı Element": "matchingelement",
+            "Beceri Hazırlama": "prepareskill",
             "Buz": "cryo",
             "Buz Etkisi": "cryoapplication",
             "Buz Hasarı": "cryodmg",
+            "Dalga": "riptide",
+            "Delme Hasarı": "piercingdmg",
             "Doğa": "dendro",
             "Doğa Etkisi": "dendroapplication",
             "Doğa Hasarı": "dendrodmg",
             "Doğa ile İlgili Tepkimeler": "dendrorelatedreactions",
-            "Tur Süresi": "durationrounds",
+            "Doğaüstü Güç": "superlativesuperstrength",
             "Elektrik": "electro",
             "Elektrik Etkisi": "electroapplication",
             "Elektrik Hasarı": "electrodmg",
             "Elektrik Tesiri": "electroinfusion",
             "Element Patlaması": "elementalburst",
             "Enerji": "energy",
-            "Hızlı Hamle": "fastaction",
             "Fatui Suikastçısı": "fatuiambusher",
-            "Toprak": "geo",
-            "Toprak Hasarı": "geodmg",
+            "Fiziksel Hasar": "physicaldmg",
+            "Havadan Saldırı": "plungingattack",
+            "Hiçlik Alevlerinin Kalkanı": "aegisofabyssalflame",
+            "Hızlı Hamle": "fastaction",
+            "Kalkan": "shield",
+            "Kan Çiçeği": "bloodblossom",
+            "Kararsız Element": "omnielement",
+            "Karga Tüyünün Himayesi": "crowfeathercover",
+            "Kullanım Hakkı": "usages",
+            "Nötr Element": "unalignedelement",
+            "Pasif Beceri": "passiveskill",
+            "Rastgele Dağ Yabanisi Minyonu": "randomhilichurlsummon",
+            "Rüzgar": "anemo",
+            "Rüzgar Hasarı": "anemodmg",
+            "Savaş Hamlesi": "combataction",
             "Su": "hydro",
             "Su Etkisi": "hydroapplication",
             "Su Hasarı": "hydrodmg",
             "Su ile İlgili Tepkimeler": "hydrorelatedreactions",
+            "Toprak": "geo",
+            "Toprak Hasarı": "geodmg",
+            "Tur Süresi": "durationrounds",
             "Yenilmez": "immunitytodefeats1willnotbedefeated",
-            "Aynı Element": "matchingelement",
-            "Kararsız Element": "omnielement",
-            "Pasif Beceri": "passiveskill",
-            "Fiziksel Hasar": "physicaldmg",
-            "Delme Hasarı": "piercingdmg",
-            "Havadan Saldırı": "plungingattack",
-            "Beceri Hazırlama": "prepareskill",
-            "Ateş": "pyro",
-            "Ateş Etkisi": "pyroapplication",
-            "Ateş Hasarı": "pyrodmg",
-            "Ateş ile İlgili Tepkimeler": "pyrorelatedreactions",
-            "Rastgele Dağ Yabanisi Minyonu": "randomhilichurlsummon",
-            "Dalga": "riptide",
-            "Kalkan": "shield",
-            "Doğaüstü Güç": "superlativesuperstrength",
-            "Nötr Element": "unalignedelement",
-            "Kullanım Hakkı": "usages"
+            "Yüklü Saldırı": "chargedattack",
+            "Çiçeklenen Ok": "clusterbloomarrow"
         },
-        "aliases": {},
-        "categories": {},
         "properties": {}
     }
 }

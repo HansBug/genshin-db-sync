@@ -1,285 +1,290 @@
 {
     "items": {
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "新しいデッキの保存スロットを開放\n新しい酒場挑戦の対戦を開放\n璃月に挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "新しいデッキの保存スロットを開放\\n新しい酒場挑戦の対戦を開放\\n璃月に挑戦可能な対戦を新しく追加",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "対戦招待状",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "璃月",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "招待ボードでマッチングゲームが可能\n新しい酒場挑戦の対戦を開放\n璃月に挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "招待ボードでマッチングゲームが可能\\n新しい酒場挑戦の対戦を開放\\n璃月に挑戦可能な対戦を新しく追加",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "対戦招待状",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "璃月",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "ウィークリーゲスト挑戦を開放\nモンドに挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "ウィークリーゲスト挑戦を開放\\nモンドに挑戦可能な対戦を新しく追加",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "対戦招待状",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "モンド",
-                    "count": 1
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "5",
-            "exp": 1450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "新しいデッキの保存スロットを開放\n新しい酒場挑戦の対戦を開放\n稲妻に挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "新しいデッキの保存スロットを開放\\n新しい酒場挑戦の対戦を開放\\n稲妻に挑戦可能な対戦を新しく追加",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "対戦招待状",
-                    "count": 1
-                },
-                {
-                    "id": 339502,
-                    "name": "稲妻",
-                    "count": 1
-                }
-            ]
-        },
         "1": {
-            "id": 1,
-            "name": "1",
             "exp": 300,
             "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "招待対戦を開放\n同じ世界にいる人とのマルチ対戦を開放\nカードショップを開放\nプレイヤーハンドブックを開放\nモンドに挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "招待対戦を開放\\n同じ世界にいる人とのマルチ対戦を開放\\nカードショップを開放\\nプレイヤーハンドブックを開放\\nモンドに挑戦可能な対戦を新しく追加",
+            "id": 1,
+            "name": "1",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "原石",
-                    "count": 60
+                    "name": "原石"
                 },
                 {
+                    "count": 1,
                     "id": 107020,
-                    "name": "対戦招待状",
-                    "count": 1
+                    "name": "対戦招待状"
                 },
                 {
+                    "count": 500,
                     "id": 107021,
-                    "name": "ラッキーカードコイン",
-                    "count": 500
+                    "name": "ラッキーカードコイン"
                 }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "6",
-            "exp": 1600,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "新しい酒場挑戦の対戦を開放\n稲妻に挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "新しい酒場挑戦の対戦を開放\\n稲妻に挑戦可能な対戦を新しく追加",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "対戦招待状",
-                    "count": 1
-                },
-                {
-                    "id": 339003,
-                    "name": "稲妻",
-                    "count": 1
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "8",
-            "exp": 1900,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "新しい酒場挑戦の対戦を開放\nスメールに挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "新しい酒場挑戦の対戦を開放\\nスメールに挑戦可能な対戦を新しく追加",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "対戦招待状",
-                    "count": 1
-                },
-                {
-                    "id": 339004,
-                    "name": "スメール",
-                    "count": 1
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "9",
-            "exp": 2450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "スメールに挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "スメールに挑戦可能な対戦を新しく追加",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "空白の幻影カード",
-                    "count": 1
-                },
-                {
-                    "id": 107020,
-                    "name": "対戦招待状",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "新しいデッキの保存スロットを開放\n新しい酒場挑戦の対戦を開放\nスメールに挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "新しいデッキの保存スロットを開放\\n新しい酒場挑戦の対戦を開放\\nスメールに挑戦可能な対戦を新しく追加",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "原石",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "対戦招待状",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "スメール",
-                    "count": 1
-                }
-            ]
+            ],
+            "unlockdescription": "招待対戦を開放\n同じ世界にいる人とのマルチ対戦を開放\nカードショップを開放\nプレイヤーハンドブックを開放\nモンドに挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "招待対戦を開放\\n同じ世界にいる人とのマルチ対戦を開放\\nカードショップを開放\\nプレイヤーハンドブックを開放\\nモンドに挑戦可能な対戦を新しく追加"
         },
         "10": {
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
             "id": 10,
             "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "新しいデッキの保存スロットを開放\n挑戦可能な対戦を新しく追加",
-            "unlockdescriptionraw": "新しいデッキの保存スロットを開放\\n挑戦可能な対戦を新しく追加",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "原石",
-                    "count": 60
+                    "name": "原石"
                 },
                 {
+                    "count": 1,
                     "id": 107019,
-                    "name": "空白の幻影カード",
-                    "count": 1
+                    "name": "空白の幻影カード"
                 },
                 {
+                    "count": 1,
                     "id": 339009,
-                    "name": "レジェンド",
-                    "count": 1
+                    "name": "レジェンド"
                 }
-            ]
+            ],
+            "unlockdescription": "新しいデッキの保存スロットを開放\n挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "新しいデッキの保存スロットを開放\\n挑戦可能な対戦を新しく追加"
+        },
+        "2": {
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "id": 2,
+            "name": "2",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "対戦招待状"
+                },
+                {
+                    "count": 1,
+                    "id": 339001,
+                    "name": "モンド"
+                }
+            ],
+            "unlockdescription": "ウィークリーゲスト挑戦を開放\nモンドに挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "ウィークリーゲスト挑戦を開放\\nモンドに挑戦可能な対戦を新しく追加"
+        },
+        "3": {
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 3,
+            "name": "3",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "対戦招待状"
+                },
+                {
+                    "count": 1,
+                    "id": 339501,
+                    "name": "璃月"
+                }
+            ],
+            "unlockdescription": "新しいデッキの保存スロットを開放\n新しい酒場挑戦の対戦を開放\n璃月に挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "新しいデッキの保存スロットを開放\\n新しい酒場挑戦の対戦を開放\\n璃月に挑戦可能な対戦を新しく追加"
+        },
+        "4": {
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 4,
+            "name": "4",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "対戦招待状"
+                },
+                {
+                    "count": 1,
+                    "id": 339002,
+                    "name": "璃月"
+                }
+            ],
+            "unlockdescription": "招待ボードでマッチングゲームが可能\n新しい酒場挑戦の対戦を開放\n璃月に挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "招待ボードでマッチングゲームが可能\\n新しい酒場挑戦の対戦を開放\\n璃月に挑戦可能な対戦を新しく追加"
+        },
+        "5": {
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 5,
+            "name": "5",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "対戦招待状"
+                },
+                {
+                    "count": 1,
+                    "id": 339502,
+                    "name": "稲妻"
+                }
+            ],
+            "unlockdescription": "新しいデッキの保存スロットを開放\n新しい酒場挑戦の対戦を開放\n稲妻に挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "新しいデッキの保存スロットを開放\\n新しい酒場挑戦の対戦を開放\\n稲妻に挑戦可能な対戦を新しく追加"
+        },
+        "6": {
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 6,
+            "name": "6",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "対戦招待状"
+                },
+                {
+                    "count": 1,
+                    "id": 339003,
+                    "name": "稲妻"
+                }
+            ],
+            "unlockdescription": "新しい酒場挑戦の対戦を開放\n稲妻に挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "新しい酒場挑戦の対戦を開放\\n稲妻に挑戦可能な対戦を新しく追加"
+        },
+        "7": {
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 7,
+            "name": "7",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "対戦招待状"
+                },
+                {
+                    "count": 1,
+                    "id": 339503,
+                    "name": "スメール"
+                }
+            ],
+            "unlockdescription": "新しいデッキの保存スロットを開放\n新しい酒場挑戦の対戦を開放\nスメールに挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "新しいデッキの保存スロットを開放\\n新しい酒場挑戦の対戦を開放\\nスメールに挑戦可能な対戦を新しく追加"
+        },
+        "8": {
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 8,
+            "name": "8",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "対戦招待状"
+                },
+                {
+                    "count": 1,
+                    "id": 339004,
+                    "name": "スメール"
+                }
+            ],
+            "unlockdescription": "新しい酒場挑戦の対戦を開放\nスメールに挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "新しい酒場挑戦の対戦を開放\\nスメールに挑戦可能な対戦を新しく追加"
+        },
+        "9": {
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 9,
+            "name": "9",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "原石"
+                },
+                {
+                    "count": 1,
+                    "id": 107019,
+                    "name": "空白の幻影カード"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "対戦招待状"
+                }
+            ],
+            "unlockdescription": "スメールに挑戦可能な対戦を新しく追加",
+            "unlockdescriptionraw": "スメールに挑戦可能な対戦を新しく追加"
         }
     },
     "meta": {
-        "namemap": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
-        "names": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
         "aliases": {},
         "categories": {
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
             "GCG_LEVEL_ICON_TYPE_NONE": [
                 "1",
                 "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "スメール": [
+                "7",
+                "8"
+            ],
+            "モンド": [
+                "2"
+            ],
+            "ラッキーカードコイン": [
+                "1"
+            ],
+            "レジェンド": [
+                "10"
             ],
             "原石": [
                 "1",
@@ -304,47 +309,42 @@
                 "8",
                 "9"
             ],
-            "ラッキーカードコイン": [
-                "1"
-            ],
-            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
-                "10"
-            ],
-            "空白の幻影カード": [
-                "10",
-                "9"
-            ],
-            "レジェンド": [
-                "10"
-            ],
-            "モンド": [
-                "2"
-            ],
-            "GCG_LEVEL_ICON_TYPE_COPPER": [
-                "3",
-                "4"
-            ],
             "璃月": [
                 "3",
                 "4"
-            ],
-            "GCG_LEVEL_ICON_TYPE_SILIVER": [
-                "5",
-                "6"
             ],
             "稲妻": [
                 "5",
                 "6"
             ],
-            "GCG_LEVEL_ICON_TYPE_GOLD": [
-                "7",
-                "8",
+            "空白の幻影カード": [
+                "10",
                 "9"
-            ],
-            "スメール": [
-                "7",
-                "8"
             ]
+        },
+        "namemap": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
+        },
+        "names": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
         },
         "properties": {
             "icontype": [

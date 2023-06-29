@@ -1,201 +1,159 @@
 {
     "items": {
-        "inazuma": {
-            "id": 103,
-            "name": "Inazuma",
-            "description": "As cartas devem ser jogadas com a velocidade de um relâmpago. Caso você jogue rápido o suficiente, a vitória pode ser decidida em um instante.",
-            "descriptionraw": "As cartas devem ser jogadas com a velocidade de um relâmpago. Caso você jogue rápido o suficiente, a vitória pode ser decidida em um instante.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 6",
-            "rarity": 3
-        },
-        "origin": {
-            "id": 100,
-            "name": "Primordial",
-            "description": "Entre o dia e a noite, entre o céu e a terra,\né onde perambulam todas as fantasias e esperanças.",
-            "descriptionraw": "Entre o dia e a noite, entre o céu e a terra,\\né onde perambulam todas as fantasias e esperanças.",
-            "source": "Aquisição Inicial",
-            "rarity": 3
-        },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "Flor da Neblina",
-            "description": "\"Aceitar a derrota com dignidade é o seu fim inevitável.\"",
-            "descriptionraw": "\"Aceitar a derrota com dignidade é o seu fim inevitável.\"",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
-        "cecilia": {
-            "id": 118,
-            "name": "Cecília",
-            "description": "Será que apenas quem faz companhia para a brisa fresca e o orvalho é qualificado para desfrutar da aurora de um novo dia?",
-            "descriptionraw": "Será que apenas quem faz companhia para a brisa fresca e o orvalho é qualificado para desfrutar da aurora de um novo dia?",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "Pedaço de Cristal",
-            "description": "Com o tipo certo de treinamento, seu talento pode brilhar.",
-            "descriptionraw": "Com o tipo certo de treinamento, seu talento pode brilhar.",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
         "adept": {
-            "id": 110,
-            "name": "Proficiente",
             "description": "Para você, não existem perguntas sem respostas, nada é impossível. Parabéns!",
             "descriptionraw": "Para você, não existem perguntas sem respostas, nada é impossível. Parabéns!",
-            "source": "Recebida ao completar todos os objetivos da 4ª rodada do Guia do Jogador",
-            "rarity": 3
+            "id": 110,
+            "name": "Proficiente",
+            "rarity": 3,
+            "source": "Recebida ao completar todos os objetivos da 4ª rodada do Guia do Jogador"
         },
         "amethystlump": {
-            "id": 113,
-            "name": "Pedaço de Ametista",
             "description": "A capacidade de se adaptar onde quer que você esteja, também é uma forma de sabedoria.",
             "descriptionraw": "A capacidade de se adaptar onde quer que você esteja, também é uma forma de sabedoria.",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
+            "id": 113,
+            "name": "Pedaço de Ametista",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
         },
-        "sumeru": {
-            "id": 104,
-            "name": "Sumeru",
-            "description": "Prever uma ou duas jogadas à frente é coisa de iniciante. Jogadores experientes conseguem prever cinquenta, até cem jogadas.\nMas isso é bem simples, não é mesmo?",
-            "descriptionraw": "Prever uma ou duas jogadas à frente é coisa de iniciante. Jogadores experientes conseguem prever cinquenta, até cem jogadas.\\nMas isso é bem simples, não é mesmo?",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 8",
-            "rarity": 3
+        "cecilia": {
+            "description": "Será que apenas quem faz companhia para a brisa fresca e o orvalho é qualificado para desfrutar da aurora de um novo dia?",
+            "descriptionraw": "Será que apenas quem faz companhia para a brisa fresca e o orvalho é qualificado para desfrutar da aurora de um novo dia?",
+            "id": 118,
+            "name": "Cecília",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
         },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "Pedaço de Cristal Mágico",
-            "description": "O tempo irá concedê-lo valor.",
-            "descriptionraw": "O tempo irá concedê-lo valor.",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
-        "dendrobium": {
-            "id": 120,
-            "name": "Dendrobium",
-            "description": "Se todas as batalhas pudessem ser travadas na mesa...",
-            "descriptionraw": "Se todas as batalhas pudessem ser travadas na mesa...",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
-        "liyue": {
-            "id": 102,
-            "name": "Liyue",
-            "description": "A jornada de mil quilômetros começa com o primeiro passo. Já sua jornada para a vitória começa montando um deck confiável.",
-            "descriptionraw": "A jornada de mil quilômetros começa com o primeiro passo. Já sua jornada para a vitória começa montando um deck confiável.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 4",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "Flor-Flamejante",
-            "description": "\"Minha alma de duelista está em chamas!\"",
-            "descriptionraw": "\"Minha alma de duelista está em chamas!\"",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "Vórtice Lazuli",
-            "description": "Um verso de carta especialmente desenhado pelo famoso artista Calx.\n\"Exiba suas escamas e penas livremente neste campo de batalha reduzido como se você fosse o Dragão do Leste!\"",
-            "descriptionraw": "Um verso de carta especialmente desenhado pelo famoso artista Calx.\\n\"Exiba suas escamas e penas livremente neste campo de batalha reduzido como se você fosse o Dragão do Leste!\"",
-            "source": "Comprada na Loja de Cartas",
-            "rarity": 3
-        },
-        "glazelily": {
-            "id": 119,
-            "name": "Lírio de Vidro",
-            "description": "As velhas histórias do mundo mortal se foram todas. Permanece apenas o perfumado nome das flores.",
-            "descriptionraw": "As velhas histórias do mundo mortal se foram todas. Permanece apenas o perfumado nome das flores.",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
-        "electrocrystal": {
-            "id": 116,
-            "name": "Cristal Electro",
-            "description": "Psicologia reversa, será que serve mesmo? Não seria a única coisa prestes a explodir aqui.",
-            "descriptionraw": "Psicologia reversa, será que serve mesmo? Não seria a única coisa prestes a explodir aqui.",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "Tesouros das Cartas",
-            "description": "Tesouros são ganhos e usados apenas pelo momento e seus conteúdos nunca são os mesmos. Que tesouros se escondem em suas cartas desta vez?",
-            "descriptionraw": "Tesouros são ganhos e usados apenas pelo momento e seus conteúdos nunca são os mesmos. Que tesouros se escondem em suas cartas desta vez?",
-            "source": "Comprada na Loja de Cartas",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "Mondstadt",
-            "description": "Liberdade é o primeiro princípio das cartas.\nVocê deve montar seu deck livremente, escolher seus oponentes livremente e jogar suas cartas livremente.\n...ou talvez você possa usar essa liberdade para não jogar as cartas, e usá-las para algum outro propósito...?",
-            "descriptionraw": "Liberdade é o primeiro princípio das cartas.\\nVocê deve montar seu deck livremente, escolher seus oponentes livremente e jogar suas cartas livremente.\\n...ou talvez você possa usar essa liberdade para não jogar as cartas, e usá-las para algum outro propósito...?",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 2",
-            "rarity": 3
-        },
-        "legend": {
-            "id": 109,
-            "name": "Lenda",
-            "description": "Você já percorreu um longo caminho para se tornar um{F#a} Jogador{F#a} Mestre, mas o caminho à frente ainda é longo.",
-            "descriptionraw": "#Você já percorreu um longo caminho para se tornar um{F#a} Jogador{F#a} Mestre, mas o caminho à frente ainda é longo.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 10",
-            "rarity": 3
+        "crystalchunk": {
+            "description": "Com o tipo certo de treinamento, seu talento pode brilhar.",
+            "descriptionraw": "Com o tipo certo de treinamento, seu talento pode brilhar.",
+            "id": 111,
+            "name": "Pedaço de Cristal",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
         },
         "dandelionseed": {
-            "id": 117,
-            "name": "Sementes de Dandelion",
             "description": "A esperança e a paciência andam sempre de mãos dadas.",
             "descriptionraw": "A esperança e a paciência andam sempre de mãos dadas.",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
+            "id": 117,
+            "name": "Sementes de Dandelion",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
+        },
+        "dendrobium": {
+            "description": "Se todas as batalhas pudessem ser travadas na mesa...",
+            "descriptionraw": "Se todas as batalhas pudessem ser travadas na mesa...",
+            "id": 120,
+            "name": "Dendrobium",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
+        },
+        "electrocrystal": {
+            "description": "Psicologia reversa, será que serve mesmo? Não seria a única coisa prestes a explodir aqui.",
+            "descriptionraw": "Psicologia reversa, será que serve mesmo? Não seria a única coisa prestes a explodir aqui.",
+            "id": 116,
+            "name": "Cristal Electro",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
+        },
+        "flamingflowerstamen": {
+            "description": "\"Minha alma de duelista está em chamas!\"",
+            "descriptionraw": "\"Minha alma de duelista está em chamas!\"",
+            "id": 114,
+            "name": "Flor-Flamejante",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
+        },
+        "glazelily": {
+            "description": "As velhas histórias do mundo mortal se foram todas. Permanece apenas o perfumado nome das flores.",
+            "descriptionraw": "As velhas histórias do mundo mortal se foram todas. Permanece apenas o perfumado nome das flores.",
+            "id": 119,
+            "name": "Lírio de Vidro",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
+        },
+        "inazuma": {
+            "description": "As cartas devem ser jogadas com a velocidade de um relâmpago. Caso você jogue rápido o suficiente, a vitória pode ser decidida em um instante.",
+            "descriptionraw": "As cartas devem ser jogadas com a velocidade de um relâmpago. Caso você jogue rápido o suficiente, a vitória pode ser decidida em um instante.",
+            "id": 103,
+            "name": "Inazuma",
+            "rarity": 3,
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 6"
+        },
+        "lazuriteswirl": {
+            "description": "Um verso de carta especialmente desenhado pelo famoso artista Calx.\n\"Exiba suas escamas e penas livremente neste campo de batalha reduzido como se você fosse o Dragão do Leste!\"",
+            "descriptionraw": "Um verso de carta especialmente desenhado pelo famoso artista Calx.\\n\"Exiba suas escamas e penas livremente neste campo de batalha reduzido como se você fosse o Dragão do Leste!\"",
+            "id": 121,
+            "name": "Vórtice Lazuli",
+            "rarity": 3,
+            "source": "Comprada na Loja de Cartas"
+        },
+        "legend": {
+            "description": "Você já percorreu um longo caminho para se tornar um{F#a} Jogador{F#a} Mestre, mas o caminho à frente ainda é longo.",
+            "descriptionraw": "#Você já percorreu um longo caminho para se tornar um{F#a} Jogador{F#a} Mestre, mas o caminho à frente ainda é longo.",
+            "id": 109,
+            "name": "Lenda",
+            "rarity": 3,
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 10"
+        },
+        "liyue": {
+            "description": "A jornada de mil quilômetros começa com o primeiro passo. Já sua jornada para a vitória começa montando um deck confiável.",
+            "descriptionraw": "A jornada de mil quilômetros começa com o primeiro passo. Já sua jornada para a vitória começa montando um deck confiável.",
+            "id": 102,
+            "name": "Liyue",
+            "rarity": 3,
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 4"
+        },
+        "magicalcrystalchunk": {
+            "description": "O tempo irá concedê-lo valor.",
+            "descriptionraw": "O tempo irá concedê-lo valor.",
+            "id": 112,
+            "name": "Pedaço de Cristal Mágico",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
+        },
+        "mistflowercorolla": {
+            "description": "\"Aceitar a derrota com dignidade é o seu fim inevitável.\"",
+            "descriptionraw": "\"Aceitar a derrota com dignidade é o seu fim inevitável.\"",
+            "id": 115,
+            "name": "Flor da Neblina",
+            "rarity": 3,
+            "source": "Pode ser comprado na Loja de Cartas"
+        },
+        "mondstadt": {
+            "description": "Liberdade é o primeiro princípio das cartas.\nVocê deve montar seu deck livremente, escolher seus oponentes livremente e jogar suas cartas livremente.\n...ou talvez você possa usar essa liberdade para não jogar as cartas, e usá-las para algum outro propósito...?",
+            "descriptionraw": "Liberdade é o primeiro princípio das cartas.\\nVocê deve montar seu deck livremente, escolher seus oponentes livremente e jogar suas cartas livremente.\\n...ou talvez você possa usar essa liberdade para não jogar as cartas, e usá-las para algum outro propósito...?",
+            "id": 101,
+            "name": "Mondstadt",
+            "rarity": 3,
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 2"
+        },
+        "origin": {
+            "description": "Entre o dia e a noite, entre o céu e a terra,\né onde perambulam todas as fantasias e esperanças.",
+            "descriptionraw": "Entre o dia e a noite, entre o céu e a terra,\\né onde perambulam todas as fantasias e esperanças.",
+            "id": 100,
+            "name": "Primordial",
+            "rarity": 3,
+            "source": "Aquisição Inicial"
+        },
+        "sumeru": {
+            "description": "Prever uma ou duas jogadas à frente é coisa de iniciante. Jogadores experientes conseguem prever cinquenta, até cem jogadas.\nMas isso é bem simples, não é mesmo?",
+            "descriptionraw": "Prever uma ou duas jogadas à frente é coisa de iniciante. Jogadores experientes conseguem prever cinquenta, até cem jogadas.\\nMas isso é bem simples, não é mesmo?",
+            "id": 104,
+            "name": "Sumeru",
+            "rarity": 3,
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 8"
+        },
+        "treasuresofthedeck": {
+            "description": "Tesouros são ganhos e usados apenas pelo momento e seus conteúdos nunca são os mesmos. Que tesouros se escondem em suas cartas desta vez?",
+            "descriptionraw": "Tesouros são ganhos e usados apenas pelo momento e seus conteúdos nunca são os mesmos. Que tesouros se escondem em suas cartas desta vez?",
+            "id": 122,
+            "name": "Tesouros das Cartas",
+            "rarity": 3,
+            "source": "Comprada na Loja de Cartas"
         }
     },
     "meta": {
-        "namemap": {
-            "adept": "Proficiente",
-            "amethystlump": "Pedaço de Ametista",
-            "cecilia": "Cecília",
-            "crystalchunk": "Pedaço de Cristal",
-            "dandelionseed": "Sementes de Dandelion",
-            "dendrobium": "Dendrobium",
-            "electrocrystal": "Cristal Electro",
-            "flamingflowerstamen": "Flor-Flamejante",
-            "glazelily": "Lírio de Vidro",
-            "inazuma": "Inazuma",
-            "lazuriteswirl": "Vórtice Lazuli",
-            "legend": "Lenda",
-            "liyue": "Liyue",
-            "magicalcrystalchunk": "Pedaço de Cristal Mágico",
-            "mistflowercorolla": "Flor da Neblina",
-            "mondstadt": "Mondstadt",
-            "origin": "Primordial",
-            "sumeru": "Sumeru",
-            "treasuresofthedeck": "Tesouros das Cartas"
-        },
-        "names": {
-            "Proficiente": "adept",
-            "Pedaço de Ametista": "amethystlump",
-            "Cecília": "cecilia",
-            "Pedaço de Cristal": "crystalchunk",
-            "Sementes de Dandelion": "dandelionseed",
-            "Dendrobium": "dendrobium",
-            "Cristal Electro": "electrocrystal",
-            "Flor-Flamejante": "flamingflowerstamen",
-            "Lírio de Vidro": "glazelily",
-            "Inazuma": "inazuma",
-            "Vórtice Lazuli": "lazuriteswirl",
-            "Lenda": "legend",
-            "Liyue": "liyue",
-            "Pedaço de Cristal Mágico": "magicalcrystalchunk",
-            "Flor da Neblina": "mistflowercorolla",
-            "Mondstadt": "mondstadt",
-            "Primordial": "origin",
-            "Sumeru": "sumeru",
-            "Tesouros das Cartas": "treasuresofthedeck"
-        },
         "aliases": {},
         "categories": {
             "3": [
@@ -219,6 +177,48 @@
                 "sumeru",
                 "treasuresofthedeck"
             ]
+        },
+        "namemap": {
+            "adept": "Proficiente",
+            "amethystlump": "Pedaço de Ametista",
+            "cecilia": "Cecília",
+            "crystalchunk": "Pedaço de Cristal",
+            "dandelionseed": "Sementes de Dandelion",
+            "dendrobium": "Dendrobium",
+            "electrocrystal": "Cristal Electro",
+            "flamingflowerstamen": "Flor-Flamejante",
+            "glazelily": "Lírio de Vidro",
+            "inazuma": "Inazuma",
+            "lazuriteswirl": "Vórtice Lazuli",
+            "legend": "Lenda",
+            "liyue": "Liyue",
+            "magicalcrystalchunk": "Pedaço de Cristal Mágico",
+            "mistflowercorolla": "Flor da Neblina",
+            "mondstadt": "Mondstadt",
+            "origin": "Primordial",
+            "sumeru": "Sumeru",
+            "treasuresofthedeck": "Tesouros das Cartas"
+        },
+        "names": {
+            "Cecília": "cecilia",
+            "Cristal Electro": "electrocrystal",
+            "Dendrobium": "dendrobium",
+            "Flor da Neblina": "mistflowercorolla",
+            "Flor-Flamejante": "flamingflowerstamen",
+            "Inazuma": "inazuma",
+            "Lenda": "legend",
+            "Liyue": "liyue",
+            "Lírio de Vidro": "glazelily",
+            "Mondstadt": "mondstadt",
+            "Pedaço de Ametista": "amethystlump",
+            "Pedaço de Cristal": "crystalchunk",
+            "Pedaço de Cristal Mágico": "magicalcrystalchunk",
+            "Primordial": "origin",
+            "Proficiente": "adept",
+            "Sementes de Dandelion": "dandelionseed",
+            "Sumeru": "sumeru",
+            "Tesouros das Cartas": "treasuresofthedeck",
+            "Vórtice Lazuli": "lazuriteswirl"
         },
         "properties": {
             "rarity": [

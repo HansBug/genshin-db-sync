@@ -1,39 +1,48 @@
 {
     "items": {
         "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
             "description": "O relâmpago brilha por um instante, deixando para trás um solitário trovão.\nSonhos de loucura vêm e vão; nada neste mundo é constante.",
             "descriptionraw": "O relâmpago brilha por um instante, deixando para trás um solitário trovão.\\nSonhos de loucura vêm e vão; nada neste mundo é constante.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 5",
-            "rarity": 4
-        },
-        "sumeru": {
-            "id": 103,
-            "name": "Sumeru",
-            "description": "Oh sábia relva, não fique triste assim! \nEste vento ardente um dia chegará ao fim. \nGentil é a chuva que vai cair, mil flores irão florescer, \ne a melodia que traz o verde, vai poder voltar a cantar.",
-            "descriptionraw": "Oh sábia relva, não fique triste assim! \\nEste vento ardente um dia chegará ao fim. \\nGentil é a chuva que vai cair, mil flores irão florescer, \\ne a melodia que traz o verde, vai poder voltar a cantar.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 7",
-            "rarity": 4
+            "id": 102,
+            "name": "Inazuma",
+            "rarity": 4,
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 5"
         },
         "liyue": {
-            "id": 101,
-            "name": "Liyue",
             "description": "Como o sol, é imponente; como a lua, é eterna.\nComo as montanhas, é resiliente; onde todas as coisas prosperam.",
             "descriptionraw": "Como o sol, é imponente; como a lua, é eterna.\\nComo as montanhas, é resiliente; onde todas as coisas prosperam.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 3",
-            "rarity": 4
+            "id": 101,
+            "name": "Liyue",
+            "rarity": 4,
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 3"
         },
         "mondstadt": {
-            "id": 100,
-            "name": "Mondstadt",
             "description": "A brisa suspira feliz e incessante, soprando nas cordas uma melodia serena.\nEntre o vento e as flores uma conversa amena, que aterrissa no coração de uma límpida fonte.",
             "descriptionraw": "A brisa suspira feliz e incessante, soprando nas cordas uma melodia serena.\\nEntre o vento e as flores uma conversa amena, que aterrissa no coração de uma límpida fonte.",
-            "source": "Aquisição Inicial",
-            "rarity": 4
+            "id": 100,
+            "name": "Mondstadt",
+            "rarity": 4,
+            "source": "Aquisição Inicial"
+        },
+        "sumeru": {
+            "description": "Oh sábia relva, não fique triste assim! \nEste vento ardente um dia chegará ao fim. \nGentil é a chuva que vai cair, mil flores irão florescer, \ne a melodia que traz o verde, vai poder voltar a cantar.",
+            "descriptionraw": "Oh sábia relva, não fique triste assim! \\nEste vento ardente um dia chegará ao fim. \\nGentil é a chuva que vai cair, mil flores irão florescer, \\ne a melodia que traz o verde, vai poder voltar a cantar.",
+            "id": 103,
+            "name": "Sumeru",
+            "rarity": 4,
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 7"
         }
     },
     "meta": {
+        "aliases": {},
+        "categories": {
+            "4": [
+                "inazuma",
+                "liyue",
+                "mondstadt",
+                "sumeru"
+            ]
+        },
         "namemap": {
             "inazuma": "Inazuma",
             "liyue": "Liyue",
@@ -45,15 +54,6 @@
             "Liyue": "liyue",
             "Mondstadt": "mondstadt",
             "Sumeru": "sumeru"
-        },
-        "aliases": {},
-        "categories": {
-            "4": [
-                "inazuma",
-                "liyue",
-                "mondstadt",
-                "sumeru"
-            ]
         },
         "properties": {
             "rarity": [

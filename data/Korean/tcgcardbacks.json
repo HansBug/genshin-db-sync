@@ -1,201 +1,159 @@
 {
     "items": {
-        "inazuma": {
-            "id": 103,
-            "name": "이나즈마",
-            "description": "카드는 전광석화처럼 내야 하는 법. 그리고 그 순간, 승부는 결정이 난다",
-            "descriptionraw": "카드는 전광석화처럼 내야 하는 법. 그리고 그 순간, 승부는 결정이 난다",
-            "source": "플레이어 Lv.6 달성 후 레벨 보상에서 획득",
-            "rarity": 3
-        },
-        "origin": {
-            "id": 100,
-            "name": "태초",
-            "description": "어둠과 여명 사이, 대지와 하늘 사이\n그곳이 바로 희망과 꿈이 머무는 곳이다",
-            "descriptionraw": "어둠과 여명 사이, 대지와 하늘 사이\\n그곳이 바로 희망과 꿈이 머무는 곳이다",
-            "source": "기본 획득",
-            "rarity": 3
-        },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "서리꽃 꽃술",
-            "description": "「얌전히 패배를 인정하는 것, 그것이 네게 예정된 결말이다」",
-            "descriptionraw": "「얌전히 패배를 인정하는 것, 그것이 네게 예정된 결말이다」",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
-        "cecilia": {
-            "id": 118,
-            "name": "세실리아꽃",
-            "description": "서늘한 바람과 차가운 이슬을 택한 자만이 여명의 첫 빛줄기를 독차지할 수 있는 것일까?",
-            "descriptionraw": "서늘한 바람과 차가운 이슬을 택한 자만이 여명의 첫 빛줄기를 독차지할 수 있는 것일까?",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "수정덩이",
-            "description": "적절한 연마는 소재의 진가를 드러나게 한다",
-            "descriptionraw": "적절한 연마는 소재의 진가를 드러나게 한다",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
         "adept": {
-            "id": 110,
-            "name": "달인",
             "description": "풀리지 않는 난제란 없고, 불가능한 일은 존재하지 않는 법. 당신에게 갈채를 보낸다!",
             "descriptionraw": "풀리지 않는 난제란 없고, 불가능한 일은 존재하지 않는 법. 당신에게 갈채를 보낸다!",
-            "source": "플레이어 핸드북 4라운드의 모든 목표 달성 후 획득",
-            "rarity": 3
+            "id": 110,
+            "name": "달인",
+            "rarity": 3,
+            "source": "플레이어 핸드북 4라운드의 모든 목표 달성 후 획득"
         },
         "amethystlump": {
-            "id": 113,
-            "name": "자수정 덩이",
             "description": "적응하는 것, 그 또한 하나의 지혜다",
             "descriptionraw": "적응하는 것, 그 또한 하나의 지혜다",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
+            "id": 113,
+            "name": "자수정 덩이",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
         },
-        "sumeru": {
-            "id": 104,
-            "name": "수메르",
-            "description": "한두 수를 미리 읽는 것은 초보자도 가능한 일. 숙련된 플레이어라면 50수, 100수 앞까지도 읽어낼 수 있다.\n사실 그리 어려운 일은 아니다. 그렇지 않은가?",
-            "descriptionraw": "한두 수를 미리 읽는 것은 초보자도 가능한 일. 숙련된 플레이어라면 50수, 100수 앞까지도 읽어낼 수 있다.\\n사실 그리 어려운 일은 아니다. 그렇지 않은가?",
-            "source": "플레이어 Lv.8 달성 후 레벨 보상에서 획득",
-            "rarity": 3
+        "cecilia": {
+            "description": "서늘한 바람과 차가운 이슬을 택한 자만이 여명의 첫 빛줄기를 독차지할 수 있는 것일까?",
+            "descriptionraw": "서늘한 바람과 차가운 이슬을 택한 자만이 여명의 첫 빛줄기를 독차지할 수 있는 것일까?",
+            "id": 118,
+            "name": "세실리아꽃",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
         },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "마법 수정석 조각",
-            "description": "시간은 이것에 가치를 부여한다",
-            "descriptionraw": "시간은 이것에 가치를 부여한다",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
-        "dendrobium": {
-            "id": 120,
-            "name": "혈곡",
-            "description": "모든 싸움이 테이블 안에서만 벌어질 수 있다면…",
-            "descriptionraw": "모든 싸움이 테이블 안에서만 벌어질 수 있다면…",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
-        "liyue": {
-            "id": 102,
-            "name": "리월",
-            "description": "천 리 길도 한걸음부터다. 승리를 향해 나아가려면 견고한 덱을 짜는 것부터 시작해야 한다",
-            "descriptionraw": "천 리 길도 한걸음부터다. 승리를 향해 나아가려면 견고한 덱을 짜는 것부터 시작해야 한다",
-            "source": "플레이어 Lv.4 달성 후 레벨 보상에서 획득",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "화염꽃 꽃술",
-            "description": "「플레이어로서의 내 영혼이 불타오르고 있어!」",
-            "descriptionraw": "「플레이어로서의 내 영혼이 불타오르고 있어!」",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "청금색 소용돌이",
-            "description": "유명 일러스트레이터 「백악」이 제작한 특수한 카드 뒷면.\n「동풍의 용처럼 이 작은 전장에서 날개를 펼쳐라!」",
-            "descriptionraw": "유명 일러스트레이터 「백악」이 제작한 특수한 카드 뒷면.\\n「동풍의 용처럼 이 작은 전장에서 날개를 펼쳐라!」",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
-        "glazelily": {
-            "id": 119,
-            "name": "유리백합",
-            "description": "과거의 이야기는 모두 자취를 감췄고, 그곳에 남아있는 것은 오직 꽃의 이름뿐",
-            "descriptionraw": "과거의 이야기는 모두 자취를 감췄고, 그곳에 남아있는 것은 오직 꽃의 이름뿐",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
-        "electrocrystal": {
-            "id": 116,
-            "name": "전기 수정",
-            "description": "과연 자극 요법이 효과가 있을까? 불씨 하나에 폭발하는 건 이것뿐만이 아니다",
-            "descriptionraw": "과연 자극 요법이 효과가 있을까? 불씨 하나에 폭발하는 건 이것뿐만이 아니다",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "덱 속의 보물",
-            "description": "보물의 획득과 사용은 순식간에 이루어지지만, 그 속에 담긴 것은 매번 다르다. 지금 이 순간, 당신의 덱에는 어떤 보물이 숨겨져 있을까?",
-            "descriptionraw": "보물의 획득과 사용은 순식간에 이루어지지만, 그 속에 담긴 것은 매번 다르다. 지금 이 순간, 당신의 덱에는 어떤 보물이 숨겨져 있을까?",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "몬드",
-            "description": "카드 게임의 첫 번째 원칙은 자유로움이다.\n자유롭게 덱을 구성하고, 자유롭게 상대를 선택하고, 자유롭게 다음 카드를 뽑는 것이다.\n…어쩌면 그 자유를 사용해서 카드 게임 대신 다른 일을 할 수도 있고 말이다",
-            "descriptionraw": "카드 게임의 첫 번째 원칙은 자유로움이다.\\n자유롭게 덱을 구성하고, 자유롭게 상대를 선택하고, 자유롭게 다음 카드를 뽑는 것이다.\\n…어쩌면 그 자유를 사용해서 카드 게임 대신 다른 일을 할 수도 있고 말이다",
-            "source": "플레이어 Lv.2 달성 후 레벨 보상에서 획득",
-            "rarity": 3
-        },
-        "legend": {
-            "id": 109,
-            "name": "레전드",
-            "description": "플레이어로서 기나긴 길을 걸어왔지만, 아직도 가야 할 길은 많이 남아있다",
-            "descriptionraw": "플레이어로서 기나긴 길을 걸어왔지만, 아직도 가야 할 길은 많이 남아있다",
-            "source": "플레이어 Lv.10 달성 후 레벨 보상에서 획득",
-            "rarity": 3
+        "crystalchunk": {
+            "description": "적절한 연마는 소재의 진가를 드러나게 한다",
+            "descriptionraw": "적절한 연마는 소재의 진가를 드러나게 한다",
+            "id": 111,
+            "name": "수정덩이",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
         },
         "dandelionseed": {
-            "id": 117,
-            "name": "민들레 씨앗",
             "description": "희망과 기다림은 언제나 함께한다",
             "descriptionraw": "희망과 기다림은 언제나 함께한다",
-            "source": "카드 상점 구매 획득",
-            "rarity": 3
+            "id": 117,
+            "name": "민들레 씨앗",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
+        },
+        "dendrobium": {
+            "description": "모든 싸움이 테이블 안에서만 벌어질 수 있다면…",
+            "descriptionraw": "모든 싸움이 테이블 안에서만 벌어질 수 있다면…",
+            "id": 120,
+            "name": "혈곡",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
+        },
+        "electrocrystal": {
+            "description": "과연 자극 요법이 효과가 있을까? 불씨 하나에 폭발하는 건 이것뿐만이 아니다",
+            "descriptionraw": "과연 자극 요법이 효과가 있을까? 불씨 하나에 폭발하는 건 이것뿐만이 아니다",
+            "id": 116,
+            "name": "전기 수정",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
+        },
+        "flamingflowerstamen": {
+            "description": "「플레이어로서의 내 영혼이 불타오르고 있어!」",
+            "descriptionraw": "「플레이어로서의 내 영혼이 불타오르고 있어!」",
+            "id": 114,
+            "name": "화염꽃 꽃술",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
+        },
+        "glazelily": {
+            "description": "과거의 이야기는 모두 자취를 감췄고, 그곳에 남아있는 것은 오직 꽃의 이름뿐",
+            "descriptionraw": "과거의 이야기는 모두 자취를 감췄고, 그곳에 남아있는 것은 오직 꽃의 이름뿐",
+            "id": 119,
+            "name": "유리백합",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
+        },
+        "inazuma": {
+            "description": "카드는 전광석화처럼 내야 하는 법. 그리고 그 순간, 승부는 결정이 난다",
+            "descriptionraw": "카드는 전광석화처럼 내야 하는 법. 그리고 그 순간, 승부는 결정이 난다",
+            "id": 103,
+            "name": "이나즈마",
+            "rarity": 3,
+            "source": "플레이어 Lv.6 달성 후 레벨 보상에서 획득"
+        },
+        "lazuriteswirl": {
+            "description": "유명 일러스트레이터 「백악」이 제작한 특수한 카드 뒷면.\n「동풍의 용처럼 이 작은 전장에서 날개를 펼쳐라!」",
+            "descriptionraw": "유명 일러스트레이터 「백악」이 제작한 특수한 카드 뒷면.\\n「동풍의 용처럼 이 작은 전장에서 날개를 펼쳐라!」",
+            "id": 121,
+            "name": "청금색 소용돌이",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
+        },
+        "legend": {
+            "description": "플레이어로서 기나긴 길을 걸어왔지만, 아직도 가야 할 길은 많이 남아있다",
+            "descriptionraw": "플레이어로서 기나긴 길을 걸어왔지만, 아직도 가야 할 길은 많이 남아있다",
+            "id": 109,
+            "name": "레전드",
+            "rarity": 3,
+            "source": "플레이어 Lv.10 달성 후 레벨 보상에서 획득"
+        },
+        "liyue": {
+            "description": "천 리 길도 한걸음부터다. 승리를 향해 나아가려면 견고한 덱을 짜는 것부터 시작해야 한다",
+            "descriptionraw": "천 리 길도 한걸음부터다. 승리를 향해 나아가려면 견고한 덱을 짜는 것부터 시작해야 한다",
+            "id": 102,
+            "name": "리월",
+            "rarity": 3,
+            "source": "플레이어 Lv.4 달성 후 레벨 보상에서 획득"
+        },
+        "magicalcrystalchunk": {
+            "description": "시간은 이것에 가치를 부여한다",
+            "descriptionraw": "시간은 이것에 가치를 부여한다",
+            "id": 112,
+            "name": "마법 수정석 조각",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
+        },
+        "mistflowercorolla": {
+            "description": "「얌전히 패배를 인정하는 것, 그것이 네게 예정된 결말이다」",
+            "descriptionraw": "「얌전히 패배를 인정하는 것, 그것이 네게 예정된 결말이다」",
+            "id": 115,
+            "name": "서리꽃 꽃술",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
+        },
+        "mondstadt": {
+            "description": "카드 게임의 첫 번째 원칙은 자유로움이다.\n자유롭게 덱을 구성하고, 자유롭게 상대를 선택하고, 자유롭게 다음 카드를 뽑는 것이다.\n…어쩌면 그 자유를 사용해서 카드 게임 대신 다른 일을 할 수도 있고 말이다",
+            "descriptionraw": "카드 게임의 첫 번째 원칙은 자유로움이다.\\n자유롭게 덱을 구성하고, 자유롭게 상대를 선택하고, 자유롭게 다음 카드를 뽑는 것이다.\\n…어쩌면 그 자유를 사용해서 카드 게임 대신 다른 일을 할 수도 있고 말이다",
+            "id": 101,
+            "name": "몬드",
+            "rarity": 3,
+            "source": "플레이어 Lv.2 달성 후 레벨 보상에서 획득"
+        },
+        "origin": {
+            "description": "어둠과 여명 사이, 대지와 하늘 사이\n그곳이 바로 희망과 꿈이 머무는 곳이다",
+            "descriptionraw": "어둠과 여명 사이, 대지와 하늘 사이\\n그곳이 바로 희망과 꿈이 머무는 곳이다",
+            "id": 100,
+            "name": "태초",
+            "rarity": 3,
+            "source": "기본 획득"
+        },
+        "sumeru": {
+            "description": "한두 수를 미리 읽는 것은 초보자도 가능한 일. 숙련된 플레이어라면 50수, 100수 앞까지도 읽어낼 수 있다.\n사실 그리 어려운 일은 아니다. 그렇지 않은가?",
+            "descriptionraw": "한두 수를 미리 읽는 것은 초보자도 가능한 일. 숙련된 플레이어라면 50수, 100수 앞까지도 읽어낼 수 있다.\\n사실 그리 어려운 일은 아니다. 그렇지 않은가?",
+            "id": 104,
+            "name": "수메르",
+            "rarity": 3,
+            "source": "플레이어 Lv.8 달성 후 레벨 보상에서 획득"
+        },
+        "treasuresofthedeck": {
+            "description": "보물의 획득과 사용은 순식간에 이루어지지만, 그 속에 담긴 것은 매번 다르다. 지금 이 순간, 당신의 덱에는 어떤 보물이 숨겨져 있을까?",
+            "descriptionraw": "보물의 획득과 사용은 순식간에 이루어지지만, 그 속에 담긴 것은 매번 다르다. 지금 이 순간, 당신의 덱에는 어떤 보물이 숨겨져 있을까?",
+            "id": 122,
+            "name": "덱 속의 보물",
+            "rarity": 3,
+            "source": "카드 상점 구매 획득"
         }
     },
     "meta": {
-        "namemap": {
-            "adept": "달인",
-            "amethystlump": "자수정 덩이",
-            "cecilia": "세실리아꽃",
-            "crystalchunk": "수정덩이",
-            "dandelionseed": "민들레 씨앗",
-            "dendrobium": "혈곡",
-            "electrocrystal": "전기 수정",
-            "flamingflowerstamen": "화염꽃 꽃술",
-            "glazelily": "유리백합",
-            "inazuma": "이나즈마",
-            "lazuriteswirl": "청금색 소용돌이",
-            "legend": "레전드",
-            "liyue": "리월",
-            "magicalcrystalchunk": "마법 수정석 조각",
-            "mistflowercorolla": "서리꽃 꽃술",
-            "mondstadt": "몬드",
-            "origin": "태초",
-            "sumeru": "수메르",
-            "treasuresofthedeck": "덱 속의 보물"
-        },
-        "names": {
-            "달인": "adept",
-            "자수정 덩이": "amethystlump",
-            "세실리아꽃": "cecilia",
-            "수정덩이": "crystalchunk",
-            "민들레 씨앗": "dandelionseed",
-            "혈곡": "dendrobium",
-            "전기 수정": "electrocrystal",
-            "화염꽃 꽃술": "flamingflowerstamen",
-            "유리백합": "glazelily",
-            "이나즈마": "inazuma",
-            "청금색 소용돌이": "lazuriteswirl",
-            "레전드": "legend",
-            "리월": "liyue",
-            "마법 수정석 조각": "magicalcrystalchunk",
-            "서리꽃 꽃술": "mistflowercorolla",
-            "몬드": "mondstadt",
-            "태초": "origin",
-            "수메르": "sumeru",
-            "덱 속의 보물": "treasuresofthedeck"
-        },
         "aliases": {},
         "categories": {
             "3": [
@@ -219,6 +177,48 @@
                 "sumeru",
                 "treasuresofthedeck"
             ]
+        },
+        "namemap": {
+            "adept": "달인",
+            "amethystlump": "자수정 덩이",
+            "cecilia": "세실리아꽃",
+            "crystalchunk": "수정덩이",
+            "dandelionseed": "민들레 씨앗",
+            "dendrobium": "혈곡",
+            "electrocrystal": "전기 수정",
+            "flamingflowerstamen": "화염꽃 꽃술",
+            "glazelily": "유리백합",
+            "inazuma": "이나즈마",
+            "lazuriteswirl": "청금색 소용돌이",
+            "legend": "레전드",
+            "liyue": "리월",
+            "magicalcrystalchunk": "마법 수정석 조각",
+            "mistflowercorolla": "서리꽃 꽃술",
+            "mondstadt": "몬드",
+            "origin": "태초",
+            "sumeru": "수메르",
+            "treasuresofthedeck": "덱 속의 보물"
+        },
+        "names": {
+            "달인": "adept",
+            "덱 속의 보물": "treasuresofthedeck",
+            "레전드": "legend",
+            "리월": "liyue",
+            "마법 수정석 조각": "magicalcrystalchunk",
+            "몬드": "mondstadt",
+            "민들레 씨앗": "dandelionseed",
+            "서리꽃 꽃술": "mistflowercorolla",
+            "세실리아꽃": "cecilia",
+            "수메르": "sumeru",
+            "수정덩이": "crystalchunk",
+            "유리백합": "glazelily",
+            "이나즈마": "inazuma",
+            "자수정 덩이": "amethystlump",
+            "전기 수정": "electrocrystal",
+            "청금색 소용돌이": "lazuriteswirl",
+            "태초": "origin",
+            "혈곡": "dendrobium",
+            "화염꽃 꽃술": "flamingflowerstamen"
         },
         "properties": {
             "rarity": [

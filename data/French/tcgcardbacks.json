@@ -1,201 +1,159 @@
 {
     "items": {
-        "inazuma": {
-            "id": 103,
-            "name": "Inazuma",
-            "description": "Il suffit d'un instant pour qu'une carte soit jouée. Jouez d'une main agile, et la fugacité elle-même tombera devant vous.",
-            "descriptionraw": "Il suffit d'un instant pour qu'une carte soit jouée. Jouez d'une main agile, et la fugacité elle-même tombera devant vous.",
-            "source": "Récompense pour avoir atteint le Niv. de joueur 6",
-            "rarity": 3
-        },
-        "origin": {
-            "id": 100,
-            "name": "Origine",
-            "description": "Entre jour et nuit, entre ciel et terre,\nc'est là que séjournent espoirs et rêves.",
-            "descriptionraw": "Entre jour et nuit, entre ciel et terre,\\nc'est là que séjournent espoirs et rêves.",
-            "source": "Obtenu au départ",
-            "rarity": 3
-        },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "Corolle de fleur de brume",
-            "description": "« Concéder gracieusement est votre fin inévitable. »",
-            "descriptionraw": "« Concéder gracieusement est votre fin inévitable. »",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
-        "cecilia": {
-            "id": 118,
-            "name": "Cécilia",
-            "description": "Ceux qui ont la brise et la rosée pour compagnie sont-ils les seuls à profiter des premières lueurs de l'aube ?",
-            "descriptionraw": "Ceux qui ont la brise et la rosée pour compagnie sont-ils les seuls à profiter des premières lueurs de l'aube ?",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "Morceau de cristal",
-            "description": "Si correctement préparé, ce matériau peut vraiment montrer sa qualité.",
-            "descriptionraw": "Si correctement préparé, ce matériau peut vraiment montrer sa qualité.",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
         "adept": {
-            "id": 110,
-            "name": "Spécialiste",
             "description": "Plus aucune énigme que vous ne pouvez résoudre, plus rien hors de portée de votre talent. Nous vous saluons !",
             "descriptionraw": "Plus aucune énigme que vous ne pouvez résoudre, plus rien hors de portée de votre talent. Nous vous saluons !",
-            "source": "Récompense pour avoir accompli tous les objectifs de la 4e partie du guide de joueur",
-            "rarity": 3
+            "id": 110,
+            "name": "Spécialiste",
+            "rarity": 3,
+            "source": "Récompense pour avoir accompli tous les objectifs de la 4e partie du guide de joueur"
         },
         "amethystlump": {
-            "id": 113,
-            "name": "Morceau d'améthyste",
             "description": "Pouvoir s'adapter à l'endroit où l'on se trouve est aussi une forme de sagesse.",
             "descriptionraw": "Pouvoir s'adapter à l'endroit où l'on se trouve est aussi une forme de sagesse.",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
+            "id": 113,
+            "name": "Morceau d'améthyste",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
         },
-        "sumeru": {
-            "id": 104,
-            "name": "Sumeru",
-            "description": "Penser une ou deux étapes à l'avance est un travail d'amateur. Les vrais joueurs experts peuvent voir cinquante ou cent coups en amont.\nEt il ne s'agit que d'une formalité, n'est-ce pas ?",
-            "descriptionraw": "Penser une ou deux étapes à l'avance est un travail d'amateur. Les vrais joueurs experts peuvent voir cinquante ou cent coups en amont.\\nEt il ne s'agit que d'une formalité, n'est-ce pas ?",
-            "source": "Récompense pour avoir atteint le Niv. de joueur 8",
-            "rarity": 3
+        "cecilia": {
+            "description": "Ceux qui ont la brise et la rosée pour compagnie sont-ils les seuls à profiter des premières lueurs de l'aube ?",
+            "descriptionraw": "Ceux qui ont la brise et la rosée pour compagnie sont-ils les seuls à profiter des premières lueurs de l'aube ?",
+            "id": 118,
+            "name": "Cécilia",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
         },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "Éclat de cristal magique",
-            "description": "Le temps lui donne sa valeur.",
-            "descriptionraw": "Le temps lui donne sa valeur.",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
-        "dendrobium": {
-            "id": 120,
-            "name": "Dendrobium sanglant",
-            "description": "Si seulement toutes les batailles pouvaient se dérouler sur une table...",
-            "descriptionraw": "Si seulement toutes les batailles pouvaient se dérouler sur une table...",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
-        "liyue": {
-            "id": 102,
-            "name": "Liyue",
-            "description": "Chaque voyage doit commencer par un premier pas. Construisez votre deck d'une main sûre, et votre chemin vers la victoire sera certain.",
-            "descriptionraw": "Chaque voyage doit commencer par un premier pas. Construisez votre deck d'une main sûre, et votre chemin vers la victoire sera certain.",
-            "source": "Récompense pour avoir atteint le Niv. de joueur 4",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "Pistil de fleur enflammée",
-            "description": "« Mon âme de duelliste s'enflamme ! »",
-            "descriptionraw": "« Mon âme de duelliste s'enflamme ! »",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "Tourbillon lapis-lazuli",
-            "description": "Un dos de carte spécial personnalisé par le célèbre artiste Calx.\n« Tel le Dragon de l'Est, déployez vos ailes librement sur ce champ de bataille ! »",
-            "descriptionraw": "Un dos de carte spécial personnalisé par le célèbre artiste Calx.\\n« Tel le Dragon de l'Est, déployez vos ailes librement sur ce champ de bataille ! »",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
-        "glazelily": {
-            "id": 119,
-            "name": "Lys verni",
-            "description": "Les anciens contes des royaumes mortels ont disparu, et maintenant, seul le nom parfumé des fleurs reste.",
-            "descriptionraw": "Les anciens contes des royaumes mortels ont disparu, et maintenant, seul le nom parfumé des fleurs reste.",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
-        "electrocrystal": {
-            "id": 116,
-            "name": "Électrocristal",
-            "description": "Une méthode agressive est-elle utile ? Ce n'est pas la seule chose dont le revirement peut être brusque !",
-            "descriptionraw": "Une méthode agressive est-elle utile ? Ce n'est pas la seule chose dont le revirement peut être brusque !",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "Trésor parmi les cartes",
-            "description": "Un trésor n'est acquis et utilisé qu'à l'instant présent, et son contenu n'est jamais tout à fait le même. Quel trésor se trouve dans vos cartes cette fois-ci ?",
-            "descriptionraw": "Un trésor n'est acquis et utilisé qu'à l'instant présent, et son contenu n'est jamais tout à fait le même. Quel trésor se trouve dans vos cartes cette fois-ci ?",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "Mondstadt",
-            "description": "La liberté est le principe premier des cartes.\nLibrement, vous organisez votre deck ; librement, vous choisissez vos adversaires ; librement, vous jouez vos cartes.\n... Ou peut-être pourriez-vous utiliser cette liberté pour décider de ne pas jouer et faire autre chose avec les cartes que vous avez en main.",
-            "descriptionraw": "La liberté est le principe premier des cartes.\\nLibrement, vous organisez votre deck ; librement, vous choisissez vos adversaires ; librement, vous jouez vos cartes.\\n... Ou peut-être pourriez-vous utiliser cette liberté pour décider de ne pas jouer et faire autre chose avec les cartes que vous avez en main.",
-            "source": "Récompense pour avoir atteint le Niv. de joueur 2",
-            "rarity": 3
-        },
-        "legend": {
-            "id": 109,
-            "name": "Légende",
-            "description": "Long a été votre chemin pour devenir légendaire, mais longue est toujours la route qu'il vous reste à parcourir.",
-            "descriptionraw": "Long a été votre chemin pour devenir légendaire, mais longue est toujours la route qu'il vous reste à parcourir.",
-            "source": "Récompense pour avoir atteint le Niv. de joueur 10",
-            "rarity": 3
+        "crystalchunk": {
+            "description": "Si correctement préparé, ce matériau peut vraiment montrer sa qualité.",
+            "descriptionraw": "Si correctement préparé, ce matériau peut vraiment montrer sa qualité.",
+            "id": 111,
+            "name": "Morceau de cristal",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
         },
         "dandelionseed": {
-            "id": 117,
-            "name": "Graine de pissenlit",
             "description": "L'espoir et la patience sont de proches compagnons.",
             "descriptionraw": "L'espoir et la patience sont de proches compagnons.",
-            "source": "À acheter dans la boutique de cartes",
-            "rarity": 3
+            "id": 117,
+            "name": "Graine de pissenlit",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
+        },
+        "dendrobium": {
+            "description": "Si seulement toutes les batailles pouvaient se dérouler sur une table...",
+            "descriptionraw": "Si seulement toutes les batailles pouvaient se dérouler sur une table...",
+            "id": 120,
+            "name": "Dendrobium sanglant",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
+        },
+        "electrocrystal": {
+            "description": "Une méthode agressive est-elle utile ? Ce n'est pas la seule chose dont le revirement peut être brusque !",
+            "descriptionraw": "Une méthode agressive est-elle utile ? Ce n'est pas la seule chose dont le revirement peut être brusque !",
+            "id": 116,
+            "name": "Électrocristal",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
+        },
+        "flamingflowerstamen": {
+            "description": "« Mon âme de duelliste s'enflamme ! »",
+            "descriptionraw": "« Mon âme de duelliste s'enflamme ! »",
+            "id": 114,
+            "name": "Pistil de fleur enflammée",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
+        },
+        "glazelily": {
+            "description": "Les anciens contes des royaumes mortels ont disparu, et maintenant, seul le nom parfumé des fleurs reste.",
+            "descriptionraw": "Les anciens contes des royaumes mortels ont disparu, et maintenant, seul le nom parfumé des fleurs reste.",
+            "id": 119,
+            "name": "Lys verni",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
+        },
+        "inazuma": {
+            "description": "Il suffit d'un instant pour qu'une carte soit jouée. Jouez d'une main agile, et la fugacité elle-même tombera devant vous.",
+            "descriptionraw": "Il suffit d'un instant pour qu'une carte soit jouée. Jouez d'une main agile, et la fugacité elle-même tombera devant vous.",
+            "id": 103,
+            "name": "Inazuma",
+            "rarity": 3,
+            "source": "Récompense pour avoir atteint le Niv. de joueur 6"
+        },
+        "lazuriteswirl": {
+            "description": "Un dos de carte spécial personnalisé par le célèbre artiste Calx.\n« Tel le Dragon de l'Est, déployez vos ailes librement sur ce champ de bataille ! »",
+            "descriptionraw": "Un dos de carte spécial personnalisé par le célèbre artiste Calx.\\n« Tel le Dragon de l'Est, déployez vos ailes librement sur ce champ de bataille ! »",
+            "id": 121,
+            "name": "Tourbillon lapis-lazuli",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
+        },
+        "legend": {
+            "description": "Long a été votre chemin pour devenir légendaire, mais longue est toujours la route qu'il vous reste à parcourir.",
+            "descriptionraw": "Long a été votre chemin pour devenir légendaire, mais longue est toujours la route qu'il vous reste à parcourir.",
+            "id": 109,
+            "name": "Légende",
+            "rarity": 3,
+            "source": "Récompense pour avoir atteint le Niv. de joueur 10"
+        },
+        "liyue": {
+            "description": "Chaque voyage doit commencer par un premier pas. Construisez votre deck d'une main sûre, et votre chemin vers la victoire sera certain.",
+            "descriptionraw": "Chaque voyage doit commencer par un premier pas. Construisez votre deck d'une main sûre, et votre chemin vers la victoire sera certain.",
+            "id": 102,
+            "name": "Liyue",
+            "rarity": 3,
+            "source": "Récompense pour avoir atteint le Niv. de joueur 4"
+        },
+        "magicalcrystalchunk": {
+            "description": "Le temps lui donne sa valeur.",
+            "descriptionraw": "Le temps lui donne sa valeur.",
+            "id": 112,
+            "name": "Éclat de cristal magique",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
+        },
+        "mistflowercorolla": {
+            "description": "« Concéder gracieusement est votre fin inévitable. »",
+            "descriptionraw": "« Concéder gracieusement est votre fin inévitable. »",
+            "id": 115,
+            "name": "Corolle de fleur de brume",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
+        },
+        "mondstadt": {
+            "description": "La liberté est le principe premier des cartes.\nLibrement, vous organisez votre deck ; librement, vous choisissez vos adversaires ; librement, vous jouez vos cartes.\n... Ou peut-être pourriez-vous utiliser cette liberté pour décider de ne pas jouer et faire autre chose avec les cartes que vous avez en main.",
+            "descriptionraw": "La liberté est le principe premier des cartes.\\nLibrement, vous organisez votre deck ; librement, vous choisissez vos adversaires ; librement, vous jouez vos cartes.\\n... Ou peut-être pourriez-vous utiliser cette liberté pour décider de ne pas jouer et faire autre chose avec les cartes que vous avez en main.",
+            "id": 101,
+            "name": "Mondstadt",
+            "rarity": 3,
+            "source": "Récompense pour avoir atteint le Niv. de joueur 2"
+        },
+        "origin": {
+            "description": "Entre jour et nuit, entre ciel et terre,\nc'est là que séjournent espoirs et rêves.",
+            "descriptionraw": "Entre jour et nuit, entre ciel et terre,\\nc'est là que séjournent espoirs et rêves.",
+            "id": 100,
+            "name": "Origine",
+            "rarity": 3,
+            "source": "Obtenu au départ"
+        },
+        "sumeru": {
+            "description": "Penser une ou deux étapes à l'avance est un travail d'amateur. Les vrais joueurs experts peuvent voir cinquante ou cent coups en amont.\nEt il ne s'agit que d'une formalité, n'est-ce pas ?",
+            "descriptionraw": "Penser une ou deux étapes à l'avance est un travail d'amateur. Les vrais joueurs experts peuvent voir cinquante ou cent coups en amont.\\nEt il ne s'agit que d'une formalité, n'est-ce pas ?",
+            "id": 104,
+            "name": "Sumeru",
+            "rarity": 3,
+            "source": "Récompense pour avoir atteint le Niv. de joueur 8"
+        },
+        "treasuresofthedeck": {
+            "description": "Un trésor n'est acquis et utilisé qu'à l'instant présent, et son contenu n'est jamais tout à fait le même. Quel trésor se trouve dans vos cartes cette fois-ci ?",
+            "descriptionraw": "Un trésor n'est acquis et utilisé qu'à l'instant présent, et son contenu n'est jamais tout à fait le même. Quel trésor se trouve dans vos cartes cette fois-ci ?",
+            "id": 122,
+            "name": "Trésor parmi les cartes",
+            "rarity": 3,
+            "source": "À acheter dans la boutique de cartes"
         }
     },
     "meta": {
-        "namemap": {
-            "adept": "Spécialiste",
-            "amethystlump": "Morceau d'améthyste",
-            "cecilia": "Cécilia",
-            "crystalchunk": "Morceau de cristal",
-            "dandelionseed": "Graine de pissenlit",
-            "dendrobium": "Dendrobium sanglant",
-            "electrocrystal": "Électrocristal",
-            "flamingflowerstamen": "Pistil de fleur enflammée",
-            "glazelily": "Lys verni",
-            "inazuma": "Inazuma",
-            "lazuriteswirl": "Tourbillon lapis-lazuli",
-            "legend": "Légende",
-            "liyue": "Liyue",
-            "magicalcrystalchunk": "Éclat de cristal magique",
-            "mistflowercorolla": "Corolle de fleur de brume",
-            "mondstadt": "Mondstadt",
-            "origin": "Origine",
-            "sumeru": "Sumeru",
-            "treasuresofthedeck": "Trésor parmi les cartes"
-        },
-        "names": {
-            "Spécialiste": "adept",
-            "Morceau d'améthyste": "amethystlump",
-            "Cécilia": "cecilia",
-            "Morceau de cristal": "crystalchunk",
-            "Graine de pissenlit": "dandelionseed",
-            "Dendrobium sanglant": "dendrobium",
-            "Électrocristal": "electrocrystal",
-            "Pistil de fleur enflammée": "flamingflowerstamen",
-            "Lys verni": "glazelily",
-            "Inazuma": "inazuma",
-            "Tourbillon lapis-lazuli": "lazuriteswirl",
-            "Légende": "legend",
-            "Liyue": "liyue",
-            "Éclat de cristal magique": "magicalcrystalchunk",
-            "Corolle de fleur de brume": "mistflowercorolla",
-            "Mondstadt": "mondstadt",
-            "Origine": "origin",
-            "Sumeru": "sumeru",
-            "Trésor parmi les cartes": "treasuresofthedeck"
-        },
         "aliases": {},
         "categories": {
             "3": [
@@ -219,6 +177,48 @@
                 "sumeru",
                 "treasuresofthedeck"
             ]
+        },
+        "namemap": {
+            "adept": "Spécialiste",
+            "amethystlump": "Morceau d'améthyste",
+            "cecilia": "Cécilia",
+            "crystalchunk": "Morceau de cristal",
+            "dandelionseed": "Graine de pissenlit",
+            "dendrobium": "Dendrobium sanglant",
+            "electrocrystal": "Électrocristal",
+            "flamingflowerstamen": "Pistil de fleur enflammée",
+            "glazelily": "Lys verni",
+            "inazuma": "Inazuma",
+            "lazuriteswirl": "Tourbillon lapis-lazuli",
+            "legend": "Légende",
+            "liyue": "Liyue",
+            "magicalcrystalchunk": "Éclat de cristal magique",
+            "mistflowercorolla": "Corolle de fleur de brume",
+            "mondstadt": "Mondstadt",
+            "origin": "Origine",
+            "sumeru": "Sumeru",
+            "treasuresofthedeck": "Trésor parmi les cartes"
+        },
+        "names": {
+            "Corolle de fleur de brume": "mistflowercorolla",
+            "Cécilia": "cecilia",
+            "Dendrobium sanglant": "dendrobium",
+            "Graine de pissenlit": "dandelionseed",
+            "Inazuma": "inazuma",
+            "Liyue": "liyue",
+            "Lys verni": "glazelily",
+            "Légende": "legend",
+            "Mondstadt": "mondstadt",
+            "Morceau d'améthyste": "amethystlump",
+            "Morceau de cristal": "crystalchunk",
+            "Origine": "origin",
+            "Pistil de fleur enflammée": "flamingflowerstamen",
+            "Spécialiste": "adept",
+            "Sumeru": "sumeru",
+            "Tourbillon lapis-lazuli": "lazuriteswirl",
+            "Trésor parmi les cartes": "treasuresofthedeck",
+            "Éclat de cristal magique": "magicalcrystalchunk",
+            "Électrocristal": "electrocrystal"
         },
         "properties": {
             "rarity": [

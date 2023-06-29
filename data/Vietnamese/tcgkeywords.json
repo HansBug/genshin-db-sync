@@ -1,350 +1,352 @@
 {
     "items": {
-        "crowfeathercover": {
-            "id": 1003,
-            "name": "Lông Quạ Bao Phủ",
-            "nameraw": "<color=#FFFFFFFF>Lông Quạ Bao Phủ</color>",
-            "description": "Nhân vật áp dụng sẽ +1 sát thương do Kỹ Năng Nguyên Tố và Kỹ Năng Nộ gây ra.\nSố lần sử dụng: 2",
-            "descriptionraw": "Nhân vật áp dụng sẽ +1 sát thương do <color=#FFFFFFFF>Kỹ Năng Nguyên Tố</color> và <color=#FFFFFFFF>Kỹ Năng Nộ</color> gây ra.\\n<color=#FFFFFFFF>Số lần sử dụng: 2</color>"
-        },
-        "cryo": {
-            "id": 301,
-            "name": "Nguyên Tố Băng",
-            "nameraw": "{SPRITE_PRESET#1101}Nguyên Tố Băng",
-            "description": "Tốn xúc xắc Nguyên Tố Băng đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
-            "descriptionraw": "Tốn xúc xắc <color=#99FFFFFF>{SPRITE_PRESET#1101}Nguyên Tố Băng</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)"
-        },
-        "dendro": {
-            "id": 307,
-            "name": "Nguyên Tố Thảo",
-            "nameraw": "{SPRITE_PRESET#1107}Nguyên Tố Thảo",
-            "description": "Tốn xúc xắc Nguyên Tố Thảo đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
-            "descriptionraw": "Tốn xúc xắc <color=#7EC236FF>{SPRITE_PRESET#1107}Nguyên Tố Thảo</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)"
-        },
-        "pyrorelatedreactions": {
-            "id": 213,
-            "name": "Phản Ứng Nguyên Tố Hỏa",
-            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Phản Ứng Nguyên Tố Hỏa</color>",
-            "description": "Tan Chảy: Sát Thương +2\nBốc Hơi: Sát Thương +2\nQuá Tải: Sát Thương +2，mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\nThiêu Đốt：Sát Thương +1, tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\nKết Tinh (Hỏa): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKhuếch Tán (Hỏa): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Hỏa.",
-            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Tan Chảy</color>: Sát Thương +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bốc Hơi</color>: Sát Thương +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quá Tải</color>: Sát Thương +2，mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Thiêu Đốt</color>：Sát Thương +1, tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Kết Tinh (Hỏa)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Khuếch Tán (Hỏa)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Hỏa."
-        },
-        "randomhilichurlsummon": {
-            "id": 1001,
-            "name": "Vật triệu hồi \"Hilichurl\" ngẫu nhiên",
-            "nameraw": "<color=#FFFFFFFF>Vật triệu hồi \"Hilichurl\" ngẫu nhiên</color>",
-            "description": "Có khả năng xuất hiện 4 loại vật triệu hồi Hilichurl sau:\nHilichurl Băng Tiễn: Giai Đoạn Kết Thúc gây 1 điểm Sát Thương Nguyên Tố Băng, số lần sử dụng 2.\nPhù Thủy Hilichurl Thủy: Giai Đoạn Kết Thúc gây 1 điểm Sát Thương Nguyên Tố Thủy, số lần sử dụng 2.\nHilichurl Tiên Phong: Giai Đoạn Kết Thúc gây 1 điểm Sát Thương Nguyên Tố Hỏa, số lần sử dụng 2.\nHilichurl Lôi Tiễn: Giai Đoạn Kết Thúc gây 1 điểm Sát Thương Nguyên Tố Lôi, số lần sử dụng 2.",
-            "descriptionraw": "Có khả năng xuất hiện 4 loại vật triệu hồi Hilichurl sau:\\n<color=#FFFFFFFF>Hilichurl Băng Tiễn</color>: Giai Đoạn Kết Thúc gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, số lần sử dụng 2.\\n<color=#FFFFFFFF>Phù Thủy Hilichurl Thủy</color>: Giai Đoạn Kết Thúc gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, số lần sử dụng 2.\\n<color=#FFFFFFFF>Hilichurl Tiên Phong</color>: Giai Đoạn Kết Thúc gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, số lần sử dụng 2.\\n<color=#FFFFFFFF>Hilichurl Lôi Tiễn</color>: Giai Đoạn Kết Thúc gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, số lần sử dụng 2."
-        },
-        "characterclosesttoyourcurrentactivecharacter": {
-            "id": 7,
-            "name": "Nhân Vật Gần Với Nhân Vật Xuất Chiến Phe Ta Nhất",
-            "nameraw": "<color=#FFFFFFFF>Nhân Vật Gần Với Nhân Vật Xuất Chiến Phe Ta Nhất</color>",
-            "description": "Nhân vật trong trận của đối phương ở \"gần nhất\" với nhân vật xuất chiến phe ta, chính là chỉ nhân vật phe địch có vị trí gần nhất.\nNếu tồn tại nhiều nhân vật có vị trí gần nhất, thì nhân vật nào ở phía trước hơn sẽ được xem là \"gần nhất\".",
-            "descriptionraw": "Nhân vật trong trận của đối phương ở \"gần nhất\" với nhân vật xuất chiến phe ta, chính là chỉ nhân vật phe địch có vị trí gần nhất.\\nNếu tồn tại nhiều nhân vật có vị trí gần nhất, thì nhân vật nào ở phía trước hơn sẽ được xem là \"gần nhất\"."
-        },
-        "chargedattack": {
-            "id": 51,
-            "name": "Trọng Kích",
-            "nameraw": "<color=#FFFFFFFF>Trọng Kích</color>",
-            "description": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\".",
-            "descriptionraw": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\"."
-        },
-        "anemodmg": {
-            "id": 105,
-            "name": "Sát Thương Nguyên Tố Phong",
-            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>",
-            "description": "Sản sinh phản ứng nguyên tố với các ấn nguyên tố sau:\nKhuếch Tán (Băng): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Băng\nKhuếch Tán (Thủy): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Thủy\nKhuếch Tán (Hỏa): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Hỏa\nKhuếch Tán (Lôi): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Lôi",
-            "descriptionraw": "Sản sinh phản ứng nguyên tố với các ấn nguyên tố sau:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Khuếch Tán (Băng)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Băng\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Khuếch Tán (Thủy)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Thủy\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Khuếch Tán (Hỏa)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Hỏa\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Khuếch Tán (Lôi)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Lôi"
-        },
-        "prepareskill": {
-            "id": 53,
-            "name": "Chuẩn Bị Kỹ Năng",
-            "nameraw": "<color=#FFFFFFFF>Chuẩn Bị Kỹ Năng</color>",
-            "description": "Có một số kỹ năng không thể sử dụng trực tiếp, mà cần một số lượt hành động nhất định để tiến hành chuẩn bị.\nKhi đến lượt của một bài thủ hành động, nếu như \"nhân vật xuất chiến\" của bài thủ này đang chuẩn bị kỹ năng, thì sẽ bỏ qua lượt hành động của bài thủ; Nếu như đã chuẩn bị xong, nhân vật sẽ trực tiếp dùng kỹ năng đó vào lúc này. (Loại kỹ năng cần chuẩn bị này không thể kích hoạt hiệu quả \"sau khi sử dụng\".)\nChỉ có \"nhân vật xuất chiến\" mới có thể chuẩn bị kỹ năng; Nếu như \"nhân vật xuất chiến\" đang chuẩn bị kỹ năng mà bị cho rời trận, thì quá trình chuẩn bị của kỹ năng sẽ bị gián đoạn.",
-            "descriptionraw": "Có một số kỹ năng không thể sử dụng trực tiếp, mà cần một số lượt hành động nhất định để tiến hành <color=#FFFFFFFF>chuẩn bị</color>.\\nKhi đến lượt của một bài thủ hành động, nếu như \"nhân vật xuất chiến\" của bài thủ này đang <color=#FFFFFFFF>chuẩn bị</color> kỹ năng, thì sẽ bỏ qua lượt hành động của bài thủ; Nếu như đã <color=#FFFFFFFF>chuẩn bị</color> xong, nhân vật sẽ trực tiếp dùng kỹ năng đó vào lúc này. (Loại kỹ năng cần <color=#FFFFFFFF>chuẩn bị</color> này không thể kích hoạt hiệu quả \"sau khi sử dụng\".)\\nChỉ có \"nhân vật xuất chiến\" mới có thể <color=#FFFFFFFF>chuẩn bị</color> kỹ năng; Nếu như \"nhân vật xuất chiến\" đang <color=#FFFFFFFF>chuẩn bị</color> kỹ năng mà bị cho rời trận, thì quá trình <color=#FFFFFFFF>chuẩn bị</color> của kỹ năng sẽ bị gián đoạn."
-        },
-        "electroapplication": {
-            "id": 204,
-            "name": "Gán ấn Nguyên Tố Lôi",
-            "nameraw": "<color=#FFACFFFF>Gán ấn {SPRITE_PRESET#2104}Nguyên Tố Lôi</color>",
-            "description": "Khi gán ấn Nguyên Tố Lôi mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nQuá Tải: Mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\nSiêu Dẫn: Không có hiệu quả\nĐiện Cảm: Không có hiệu quả\nSinh Trưởng: Sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
-            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2104}Nguyên Tố Lôi mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quá Tải</color>: Mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Siêu Dẫn</color>: Không có hiệu quả\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Điện Cảm</color>: Không có hiệu quả\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sinh Trưởng</color>: Sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1"
-        },
-        "energy": {
-            "id": 310,
-            "name": "Năng Lượng",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Năng Lượng</color>",
-            "description": "Khi nhân vật dùng \"Kỹ Năng Nộ\" cần tiêu hao Năng Lượng.\nSau khi nhân vật sử dụng Kỹ Năng Nguyên Tố hoặc tấn công thường sẽ nhận 1 điểm Năng Lượng.",
-            "descriptionraw": "Khi nhân vật dùng \"Kỹ Năng Nộ\" cần tiêu hao {SPRITE_PRESET#1110}Năng Lượng.\\nSau khi nhân vật sử dụng Kỹ Năng Nguyên Tố hoặc tấn công thường sẽ nhận 1 điểm {SPRITE_PRESET#1110}Năng Lượng."
-        },
-        "dendroapplication": {
-            "id": 207,
-            "name": "Gán ấn Nguyên Tố Thảo",
-            "nameraw": "<color=#7EC236FF>Gán ấn {SPRITE_PRESET#2107}Nguyên Tố Thảo</color>",
-            "description": "Khi gán ấn Nguyên Tố Thảo mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nSum Suê: Sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2\nThiêu Đốt: Tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\nSinh Trưởng: Sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
-            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2107}Nguyên Tố Thảo mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sum Suê</color>: Sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Thiêu Đốt</color>: Tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sinh Trưởng</color>: Sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1"
-        },
-        "anemo": {
-            "id": 305,
-            "name": "Nguyên Tố Phong",
-            "nameraw": "{SPRITE_PRESET#1105}Nguyên Tố Phong",
-            "description": "Tốn xúc xắc Nguyên Tố Phong đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
-            "descriptionraw": "Tốn xúc xắc <color=#80FFD7FF>{SPRITE_PRESET#1105}Nguyên Tố Phong</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)"
-        },
-        "shield": {
-            "id": 6,
-            "name": "Khiên",
-            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Khiên</color>",
-            "description": "Nhân vật được Khiên bảo vệ khi chịu sát thương sẽ tiêu hao Khiên trước.",
-            "descriptionraw": "Nhân vật được Khiên bảo vệ khi chịu sát thương sẽ tiêu hao Khiên trước."
-        },
-        "piercingdmg": {
-            "id": 5,
-            "name": "Sát Thương Xuyên Thấu",
-            "nameraw": "<color=#FFFFFFFF>Sát Thương Xuyên Thấu</color>",
-            "description": "Sát Thương Xuyên Thấu sẽ không được nhận sát thương tăng thêm, nhưng sẽ bỏ qua hiệu quả khiên và miễn dịch sát thương.",
-            "descriptionraw": "Sát Thương Xuyên Thấu sẽ không được nhận sát thương tăng thêm, nhưng sẽ bỏ qua hiệu quả khiên và miễn dịch sát thương."
-        },
-        "fastaction": {
-            "id": 2,
-            "name": "Hành Động Nhanh",
-            "nameraw": "<color=#FFFFFFFF>Hành Động Nhanh</color>",
-            "description": "Sau khi Hành Động Nhanh một lần, phe ta có thể tiếp tục các hành động khác.\nChỉ khi chấp hành một lần Hành Động Chiến Đấu thì mới đến lượt đối phương hành động.",
-            "descriptionraw": "Sau khi Hành Động Nhanh một lần, phe ta có thể tiếp tục các hành động khác.\\nChỉ khi chấp hành một lần Hành Động Chiến Đấu thì mới đến lượt đối phương hành động."
-        },
-        "geo": {
-            "id": 306,
-            "name": "Nguyên Tố Nham",
-            "nameraw": "{SPRITE_PRESET#1106}Nguyên Tố Nham",
-            "description": "Tốn xúc xắc Nguyên Tố Nham đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
-            "descriptionraw": "Tốn xúc xắc <color=#FFE699FF>{SPRITE_PRESET#1106}Nguyên Tố Nham</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)"
-        },
-        "elementalburst": {
-            "id": 501,
-            "name": "Kỹ Năng Nộ",
-            "nameraw": "Kỹ Năng Nộ",
-            "description": "Năng Lượng của nhân vật khi đạt giới hạn, sẽ tiêu hao tất cả Năng Lượng để thi triển \"Kỹ Năng Nộ\".",
-            "descriptionraw": "{SPRITE_PRESET#1110}Năng Lượng của nhân vật khi đạt giới hạn, sẽ tiêu hao tất cả {SPRITE_PRESET#1110}Năng Lượng để thi triển \"Kỹ Năng Nộ\"."
-        },
-        "electrodmg": {
-            "id": 104,
-            "name": "Sát Thương Nguyên Tố Lôi",
-            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>",
-            "description": "Gán ấn Nguyên Tố Lôi，có thể tạo phản ứng nguyên tố:\nQuá Tải: Sát Thương +2, cưỡng chế khiến mục tiêu đổi thành nhân vật tiếp theo\nSiêu Dẫn: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nĐiện Cảm: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nSinh Trưởng: Sát Thương +1, sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
-            "descriptionraw": "Gán ấn {SPRITE_PRESET#2104}Nguyên Tố Lôi，có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quá Tải</color>: Sát Thương +2, cưỡng chế khiến mục tiêu đổi thành nhân vật tiếp theo\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Siêu Dẫn</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Điện Cảm</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sinh Trưởng</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1"
-        },
-        "physicaldmg": {
-            "id": 100,
-            "name": "Sát Thương Vật Lý",
-            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>",
-            "description": "Sát thương vật lý sẽ không gán ấn nguyên tố, cũng không xảy ra phản ứng nguyên tố.",
-            "descriptionraw": "Sát thương vật lý sẽ không gán ấn nguyên tố, cũng không xảy ra phản ứng nguyên tố."
-        },
-        "immunitytodefeats1willnotbedefeated": {
-            "id": 54,
-            "name": "không bị đánh bại",
-            "nameraw": "<color=#FFFFFFFF>không bị đánh bại</color>",
-            "description": "Một số hiệu quả sẽ khiến nhân vật khi HP giảm còn 0 sẽ không bị đánh bại, và chữa trị cho nhân vật một lượng HP nhất định.\nLúc này, nhân vật sẽ không bị xem là từng bị đánh bại. (Do vậy trạng thái và trang bị mà nhân vật áp dụng sẽ không bị hủy, năng lượng cũng không bị xóa sạch.)",
-            "descriptionraw": "Một số hiệu quả sẽ khiến nhân vật khi HP giảm còn 0 sẽ <color=#FFFFFFFF>không bị đánh bại</color>, và chữa trị cho nhân vật một lượng HP nhất định.\\nLúc này, nhân vật sẽ không bị xem là từng bị <color=#FFFFFFFF>đánh bại</color>. (Do vậy trạng thái và trang bị mà nhân vật áp dụng sẽ không bị hủy, năng lượng cũng không bị xóa sạch.)"
-        },
-        "usages": {
-            "id": 3,
-            "name": "Số Lần Khả Dụng",
-            "nameraw": "<color=#FFFFFFFF>Số Lần Khả Dụng</color>",
-            "description": "Sau khi hiệu quả của thẻ bài này kích hoạt, sẽ tiêu hao 1 lần Số Lần Khả Dụng;\nSố Lần Khả Dụng sau khi dùng hết sẽ tiêu hủy thẻ bài này.",
-            "descriptionraw": "Sau khi hiệu quả của thẻ bài này kích hoạt, sẽ tiêu hao 1 lần <color=#FFFFFFFF>Số Lần Khả Dụng</color>;\\n<color=#FFFFFFFF>Số Lần Khả Dụng</color> sau khi dùng hết sẽ tiêu hủy thẻ bài này."
-        },
-        "hydrodmg": {
-            "id": 102,
-            "name": "Sát Thương Nguyên Tố Thủy",
-            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>",
-            "description": "Gán ấn Nguyên Tố Thủy, có thể tạo phản ứng nguyên tố:\nBốc Hơi: Sát Thương +2\nĐiện Cảm: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nĐóng Băng: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\nSum Suê: Sát Thương +1, sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2",
-            "descriptionraw": "Gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy, có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Bốc Hơi</color>: Sát Thương +2\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Điện Cảm</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Đóng Băng</color>: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sum Suê</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2"
-        },
-        "cryoapplication": {
-            "id": 201,
-            "name": "Gán ấn Nguyên Tố Băng",
-            "nameraw": "<color=#99FFFFFF>Gán ấn {SPRITE_PRESET#2101}Nguyên Tố Băng</color>",
-            "description": "Khi gán ấn Nguyên Tố Băng mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nTan Chảy: Không có hiệu quả\nSiêu Dẫn: Không có hiệu quả\nĐóng Băng: Khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)",
-            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2101}Nguyên Tố Băng mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Tan Chảy</color>: Không có hiệu quả\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Siêu Dẫn</color>: Không có hiệu quả\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Đóng Băng</color>: Khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)"
-        },
-        "unalignedelement": {
-            "id": 309,
-            "name": "Nguyên Tố Không Màu",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Nguyên Tố Không Màu</color>",
-            "description": "Có thể dùng nhóm Xúc Xắc Nguyên Tố tùy ý để chi trả cho loại phí này.",
-            "descriptionraw": "Có thể dùng nhóm Xúc Xắc Nguyên Tố tùy ý để chi trả cho loại phí này."
-        },
-        "bloodblossom": {
-            "id": 1009,
-            "name": "Huyết Mai Hương",
-            "nameraw": "<color=#FFFFFFFF>Huyết Mai Hương</color>",
-            "description": "Giai Đoạn Kết Thúc: Gây 1 điểm Sát Thương Nguyên Tố Hỏa cho nhân vật áp dụng.\nSố lần sử dụng: 1",
-            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> cho nhân vật áp dụng.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số lần sử dụng</color>: 1</color>"
-        },
-        "clusterbloomarrow": {
-            "id": 1008,
-            "name": "Mũi Tên Bung Tỏa",
-            "nameraw": "<color=#FFFFFFFF>Mũi Tên Bung Tỏa</color>",
-            "description": "Giai Đoạn Kết Thúc: Gây 1 điểm Sát Thương Nguyên Tố Thảo.\nSố lần sử dụng: 1 (Có thể cộng dồn, tối đa dồn 2 lần)",
-            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>.\\n<color=#FFFFFFFF>Số lần sử dụng: 1</color> (Có thể cộng dồn, tối đa dồn 2 lần)"
-        },
-        "matchingelement": {
-            "id": 308,
-            "name": "Nguyên Tố Tương Đồng",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Nguyên Tố Tương Đồng</color>",
-            "description": "Cần dùng một lượng Xúc Xắc Nguyên Tố cùng loại để chi trả cho hành động này.\n(Xúc Xắc Vạn Năng tính chung tất cả nguyên tố.)",
-            "descriptionraw": "Cần dùng một lượng Xúc Xắc Nguyên Tố cùng loại để chi trả cho hành động này.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng tính chung tất cả nguyên tố.)"
-        },
-        "combataction": {
-            "id": 1,
-            "name": "Hành Động Chiến Đấu",
-            "nameraw": "<color=#FFFFFFFF>Hành Động Chiến Đấu</color>",
-            "description": "Phe ta sau một lần Hành Động Chiến Đấu sẽ đến lượt phe địch.\nĐánh ra thẻ bài có quy tắc này sẽ tính là Hành Động Chiến Đấu, không tính Hành Động Nhanh.",
-            "descriptionraw": "Phe ta sau một lần Hành Động Chiến Đấu sẽ đến lượt phe địch.\\n<color=#FFFFFFFF>Đánh ra thẻ bài có quy tắc này sẽ tính là Hành Động Chiến Đấu, không tính Hành Động Nhanh.</color>"
-        },
-        "hydrorelatedreactions": {
-            "id": 212,
-            "name": "Phản Ứng Nguyên Tố Thủy",
-            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Phản Ứng Nguyên Tố Thủy</color>",
-            "description": "Bốc Hơi: Sát Thương +2\nĐiện Cảm: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nĐóng Băng: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\nSum Suê: Sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2\nKết Tinh (Thủy): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKhuếch Tán (Thủy): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Thủy.",
-            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Bốc Hơi</color>: Sát Thương +2\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Điện Cảm</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Đóng Băng</color>: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sum Suê</color>: Sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Kết Tinh (Thủy)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Khuếch Tán (Thủy)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Thủy."
-        },
-        "riptide": {
-            "id": 1005,
-            "name": "Đoạn Lưu",
-            "nameraw": "<color=#FFFFFFFF>Đoạn Lưu</color>",
-            "description": "Sau khi nhân vật áp dụng bị đánh bại: Áp dụng Đoạn Lưu cho nhân vật xuất chiến của phe sở tại.\n(Khi Tartaglia đang trong trạng thái cận chiến tấn công nhân vật áp dụng, sẽ gây thêm sát thương.)\nSố Hiệp Duy Trì: 2",
-            "descriptionraw": "<color=#FFFFFFFF>Sau khi nhân vật áp dụng bị đánh bại:</color> Áp dụng Đoạn Lưu cho nhân vật xuất chiến của phe sở tại.\\n(Khi <color=#FFFFFFFF>Tartaglia</color> đang trong <color=#FFFFFFFF>trạng thái cận chiến</color> tấn công nhân vật áp dụng, sẽ gây thêm sát thương.)\\n<color=#FFFFFFFF>Số Hiệp Duy Trì: 2</color>"
-        },
-        "omnielement": {
-            "id": 411,
-            "name": "Nguyên Tố Vạn Năng",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>",
-            "description": "Nguyên Tố Vạn Năng tương ứng với tất cả nguyên tố, dùng để chi trả các loại phí khác nhau.",
-            "descriptionraw": "{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng tương ứng với tất cả nguyên tố, dùng để chi trả các loại phí khác nhau."
-        },
-        "plungingattack": {
-            "id": 52,
-            "name": "Tấn Công Khi Đáp",
-            "nameraw": "<color=#FFFFFFFF>Tấn Công Khi Đáp</color>",
-            "description": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\".",
-            "descriptionraw": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\"."
-        },
-        "passiveskill": {
-            "id": 502,
-            "name": "Kỹ Năng Bị Động",
-            "nameraw": "Kỹ Năng Bị Động",
-            "description": "Kỹ năng dạng này sẽ có hiệu lực liên tục, không cần chủ động sử dụng.",
-            "descriptionraw": "Kỹ năng dạng này sẽ có hiệu lực liên tục, không cần chủ động sử dụng."
-        },
-        "electroinfusion": {
-            "id": 1002,
-            "name": "Đính kèm nguyên tố Lôi",
-            "nameraw": "<color=#FFFFFFFF>Đính kèm nguyên tố Lôi</color>",
-            "description": "Sát thương vật lý do nhân vật áp dụng gây ra chuyển thành sát thương nguyên tố Lôi.\nSố hiệp duy trì: 2",
-            "descriptionraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát thương vật lý</color> do nhân vật áp dụng gây ra chuyển thành {SPRITE_PRESET#2104}<color=#FFACFFFF>sát thương nguyên tố Lôi</color>.\\n<color=#FFFFFFFF>Số hiệp duy trì</color>: 2"
-        },
-        "pyrodmg": {
-            "id": 103,
-            "name": "Sát Thương Nguyên Tố Hỏa",
-            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>",
-            "description": "Gán ấn Nguyên Tố Hỏa, có thể tạo phản ứng nguyên tố:\nTan Chảy: Sát Thương +2\nBốc Hơi: Sát Thương +2\nQuá Tải: Sát Thương +2, mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\nThiêu Đốt: Sát Thương +1, tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)",
-            "descriptionraw": "Gán ấn {SPRITE_PRESET#2103}Nguyên Tố Hỏa, có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Tan Chảy</color>: Sát Thương +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bốc Hơi</color>: Sát Thương +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quá Tải</color>: Sát Thương +2, mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Thiêu Đốt</color>: Sát Thương +1, tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)"
-        },
-        "pyroapplication": {
-            "id": 203,
-            "name": "Gán ấn Nguyên Tố Hỏa",
-            "nameraw": "<color=#FF9999FF>Gán ấn {SPRITE_PRESET#2103}Nguyên Tố Hỏa</color>",
-            "description": "Khi gán ấn Nguyên Tố Hỏa mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nTan Chảy: Không có hiệu quả\nBốc Hơi: Không có hiệu quả\nQuá Tải: Mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\nThiêu Đốt: Tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)",
-            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2103}Nguyên Tố Hỏa mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Tan Chảy</color>: Không có hiệu quả\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bốc Hơi</color>: Không có hiệu quả\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quá Tải</color>: Mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Thiêu Đốt</color>: Tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)"
-        },
-        "hydroapplication": {
-            "id": 202,
-            "name": "Gán ấn Nguyên Tố Thủy",
-            "nameraw": "<color=#80C0FFFF>Gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy</color>",
-            "description": "Khi gán ấn Nguyên Tố Thủy mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nBốc Hơi: Không có hiệu quả\nĐiện Cảm: Không có hiệu quả\nĐóng Băng: Khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\nSum Suê: Sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2",
-            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Bốc Hơi</color>: Không có hiệu quả\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Điện Cảm</color>: Không có hiệu quả\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Đóng Băng</color>: Khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sum Suê</color>: Sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2"
-        },
-        "pyro": {
-            "id": 303,
-            "name": "Nguyên Tố Hỏa",
-            "nameraw": "{SPRITE_PRESET#1103}Nguyên Tố Hỏa",
-            "description": "Tốn xúc xắc Nguyên Tố Hỏa đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
-            "descriptionraw": "Tốn xúc xắc <color=#FF9999FF>{SPRITE_PRESET#1103}Nguyên Tố Hỏa</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)"
-        },
-        "dendrorelatedreactions": {
-            "id": 217,
-            "name": "Phản Ứng Nguyên Tố Thảo",
-            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Phản Ứng Nguyên Tố Thảo</color>",
-            "description": "Sum Suê: Sát Thương +1, sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2\nThiêu Đốt: Sát Thương +1, tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\nSinh Trưởng：Sát Thương +1, sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
-            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sum Suê</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Thiêu Đốt</color>: Sát Thương +1, tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sinh Trưởng</color>：Sát Thương +1, sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1"
-        },
-        "superlativesuperstrength": {
-            "id": 1007,
-            "name": "Quỷ Lực Vô Song",
-            "nameraw": "<color=#FFFFFFFF>Quỷ Lực Vô Song</color>",
-            "description": "Khi nhân vật áp dụng tiến hành Trọng Kích: Sát thương gây ra +1. Nếu số lần có thể sử dụng tối thiểu là 2, sẽ giảm tiêu hao 1 Nguyên Tố Không Màu.\nSố lần sử dụng: 1 (Có thể cộng dồn, tối đa dồn 3 lần)",
-            "descriptionraw": "Khi <color=#FFFFFFFF>nhân vật áp dụng tiến hành <color=#FFFFFFFF>Trọng Kích</color>: </color>Sát thương gây ra +1. Nếu <color=#FFFFFFFF>số lần có thể sử dụng</color> tối thiểu là 2, sẽ giảm tiêu hao 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Nguyên Tố Không Màu</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số lần sử dụng</color>: 1</color> (Có thể cộng dồn, tối đa dồn 3 lần)"
-        },
-        "cryodmg": {
-            "id": 101,
-            "name": "Sát Thương Nguyên Tố Băng",
-            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>",
-            "description": "Gán ấn Nguyên Tố Băng, có thể tạo phản ứng nguyên tố:\nTan Chảy: Sát Thương +2\nSiêu Dẫn: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nĐóng Băng: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)",
-            "descriptionraw": "Gán ấn {SPRITE_PRESET#2101}Nguyên Tố Băng, có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Tan Chảy</color>: Sát Thương +2\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Siêu Dẫn</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Đóng Băng</color>: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)"
-        },
-        "durationrounds": {
-            "id": 4,
-            "name": "Số Hiệp Duy Trì",
-            "nameraw": "<color=#FFFFFFFF>Số Hiệp Duy Trì</color>",
-            "description": "Mỗi Giai Đoạn Kết Thúc, Số Hiệp Duy Trì -1.\nSố Hiệp Duy Trì khi dùng hết sẽ tiêu hủy thẻ bài này.",
-            "descriptionraw": "Mỗi Giai Đoạn Kết Thúc, <color=#FFFFFFFF>Số Hiệp Duy Trì</color> -1.\\n<color=#FFFFFFFF>Số Hiệp Duy Trì</color> khi dùng hết sẽ tiêu hủy thẻ bài này."
-        },
         "aegisofabyssalflame": {
+            "description": "Cung cấp 3 điểm Khiên cho nhân vật áp dụng.\nTrước khi Khiên này tiêu hao hết, sẽ +1 Sát Thương Nguyên Tố Hỏa do nhân vật áp dụng gây ra.",
+            "descriptionraw": "Cung cấp <color=#FFFFFFFF>3 điểm {SPRITE_PRESET#4007}<color=#FFFFFFFF>Khiên</color></color> cho nhân vật áp dụng.\\nTrước khi {SPRITE_PRESET#4007}<color=#FFFFFFFF>Khiên</color> này tiêu hao hết, sẽ +1 {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> do nhân vật áp dụng gây ra.",
             "id": 1006,
             "name": "Uyên Hỏa Bảo Hộ",
-            "nameraw": "<color=#FFFFFFFF>Uyên Hỏa Bảo Hộ</color>",
-            "description": "Cung cấp 3 điểm Khiên cho nhân vật áp dụng.\nTrước khi Khiên này tiêu hao hết, sẽ +1 Sát Thương Nguyên Tố Hỏa do nhân vật áp dụng gây ra.",
-            "descriptionraw": "Cung cấp <color=#FFFFFFFF>3 điểm {SPRITE_PRESET#4007}<color=#FFFFFFFF>Khiên</color></color> cho nhân vật áp dụng.\\nTrước khi {SPRITE_PRESET#4007}<color=#FFFFFFFF>Khiên</color> này tiêu hao hết, sẽ +1 {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> do nhân vật áp dụng gây ra."
+            "nameraw": "<color=#FFFFFFFF>Uyên Hỏa Bảo Hộ</color>"
         },
-        "electro": {
-            "id": 304,
-            "name": "Nguyên Tố Lôi",
-            "nameraw": "{SPRITE_PRESET#1104}Nguyên Tố Lôi",
-            "description": "Tốn xúc xắc Nguyên Tố Lôi đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
-            "descriptionraw": "Tốn xúc xắc <color=#FFACFFFF>{SPRITE_PRESET#1104}Nguyên Tố Lôi</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)"
+        "anemo": {
+            "description": "Tốn xúc xắc Nguyên Tố Phong đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
+            "descriptionraw": "Tốn xúc xắc <color=#80FFD7FF>{SPRITE_PRESET#1105}Nguyên Tố Phong</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)",
+            "id": 305,
+            "name": "Nguyên Tố Phong",
+            "nameraw": "{SPRITE_PRESET#1105}Nguyên Tố Phong"
         },
-        "hydro": {
-            "id": 302,
-            "name": "Nguyên Tố Thủy",
-            "nameraw": "{SPRITE_PRESET#1102}Nguyên Tố Thủy",
-            "description": "Tốn xúc xắc Nguyên Tố Thủy đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
-            "descriptionraw": "Tốn xúc xắc <color=#80C0FFFF>{SPRITE_PRESET#1102}Nguyên Tố Thủy</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)"
+        "anemodmg": {
+            "description": "Sản sinh phản ứng nguyên tố với các ấn nguyên tố sau:\nKhuếch Tán (Băng): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Băng\nKhuếch Tán (Thủy): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Thủy\nKhuếch Tán (Hỏa): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Hỏa\nKhuếch Tán (Lôi): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Lôi",
+            "descriptionraw": "Sản sinh phản ứng nguyên tố với các ấn nguyên tố sau:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Khuếch Tán (Băng)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Băng\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Khuếch Tán (Thủy)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Thủy\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Khuếch Tán (Hỏa)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Hỏa\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Khuếch Tán (Lôi)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Lôi",
+            "id": 105,
+            "name": "Sát Thương Nguyên Tố Phong",
+            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>"
         },
-        "fatuiambusher": {
-            "id": 1004,
-            "name": "Phục Binh Fatui",
-            "nameraw": "<color=#FFFFFFFF>Phục Binh Fatui</color>",
-            "description": "Phục Binh Fatui sẽ kích hoạt hiệu quả sau khi nhân vật ở phe sở tại của mình dùng kỹ năng, gây sát thương cho nhân vật xuất chiến của phe sở tại. (Mỗi hiệp 1 lần)\nCó khả năng xuất hiện 4 loại Phục Binh Fatui sau:\nThuật Sĩ Cicin Băng: Khi kích hoạt gây 1 điểm Sát Thương Nguyên Tố Băng, có thể dùng 2 lần.\nThiếu Nữ Kính: Khi kích hoạt gây 1 điểm Sát Thương Nguyên Tố Thủy, có thể dùng 2 lần.\nQuân Du Kích Hỏa: Khi kích hoạt gây 1 điểm Sát Thương Nguyên Tố Hỏa, có thể dùng 2 lần.\nQuân Tiên Phong Chùy Lôi: Khi kích hoạt gây 1 điểm Sát Thương Nguyên Tố Lôi, có thể dùng 2 lần.",
-            "descriptionraw": "Phục Binh Fatui sẽ kích hoạt hiệu quả sau khi nhân vật ở phe sở tại của mình dùng kỹ năng, gây sát thương cho nhân vật xuất chiến của phe sở tại. (Mỗi hiệp 1 lần)\\nCó khả năng xuất hiện 4 loại Phục Binh Fatui sau:\\n<color=#FFFFFFFF>Thuật Sĩ Cicin Băng</color>: Khi kích hoạt gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, có thể dùng 2 lần.\\n<color=#FFFFFFFF>Thiếu Nữ Kính</color>: Khi kích hoạt gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, có thể dùng 2 lần.\\n<color=#FFFFFFFF>Quân Du Kích Hỏa</color>: Khi kích hoạt gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, có thể dùng 2 lần.\\n<color=#FFFFFFFF>Quân Tiên Phong Chùy Lôi</color>: Khi kích hoạt gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, có thể dùng 2 lần."
+        "bloodblossom": {
+            "description": "Giai Đoạn Kết Thúc: Gây 1 điểm Sát Thương Nguyên Tố Hỏa cho nhân vật áp dụng.\nSố lần sử dụng: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> cho nhân vật áp dụng.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số lần sử dụng</color>: 1</color>",
+            "id": 1009,
+            "name": "Huyết Mai Hương",
+            "nameraw": "<color=#FFFFFFFF>Huyết Mai Hương</color>"
+        },
+        "characterclosesttoyourcurrentactivecharacter": {
+            "description": "Nhân vật trong trận của đối phương ở \"gần nhất\" với nhân vật xuất chiến phe ta, chính là chỉ nhân vật phe địch có vị trí gần nhất.\nNếu tồn tại nhiều nhân vật có vị trí gần nhất, thì nhân vật nào ở phía trước hơn sẽ được xem là \"gần nhất\".",
+            "descriptionraw": "Nhân vật trong trận của đối phương ở \"gần nhất\" với nhân vật xuất chiến phe ta, chính là chỉ nhân vật phe địch có vị trí gần nhất.\\nNếu tồn tại nhiều nhân vật có vị trí gần nhất, thì nhân vật nào ở phía trước hơn sẽ được xem là \"gần nhất\".",
+            "id": 7,
+            "name": "Nhân Vật Gần Với Nhân Vật Xuất Chiến Phe Ta Nhất",
+            "nameraw": "<color=#FFFFFFFF>Nhân Vật Gần Với Nhân Vật Xuất Chiến Phe Ta Nhất</color>"
+        },
+        "chargedattack": {
+            "description": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\".",
+            "descriptionraw": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\".",
+            "id": 51,
+            "name": "Trọng Kích",
+            "nameraw": "<color=#FFFFFFFF>Trọng Kích</color>"
+        },
+        "clusterbloomarrow": {
+            "description": "Giai Đoạn Kết Thúc: Gây 1 điểm Sát Thương Nguyên Tố Thảo.\nSố lần sử dụng: 1 (Có thể cộng dồn, tối đa dồn 2 lần)",
+            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>.\\n<color=#FFFFFFFF>Số lần sử dụng: 1</color> (Có thể cộng dồn, tối đa dồn 2 lần)",
+            "id": 1008,
+            "name": "Mũi Tên Bung Tỏa",
+            "nameraw": "<color=#FFFFFFFF>Mũi Tên Bung Tỏa</color>"
+        },
+        "combataction": {
+            "description": "Phe ta sau một lần Hành Động Chiến Đấu sẽ đến lượt phe địch.\nĐánh ra thẻ bài có quy tắc này sẽ tính là Hành Động Chiến Đấu, không tính Hành Động Nhanh.",
+            "descriptionraw": "Phe ta sau một lần Hành Động Chiến Đấu sẽ đến lượt phe địch.\\n<color=#FFFFFFFF>Đánh ra thẻ bài có quy tắc này sẽ tính là Hành Động Chiến Đấu, không tính Hành Động Nhanh.</color>",
+            "id": 1,
+            "name": "Hành Động Chiến Đấu",
+            "nameraw": "<color=#FFFFFFFF>Hành Động Chiến Đấu</color>"
+        },
+        "crowfeathercover": {
+            "description": "Nhân vật áp dụng sẽ +1 sát thương do Kỹ Năng Nguyên Tố và Kỹ Năng Nộ gây ra.\nSố lần sử dụng: 2",
+            "descriptionraw": "Nhân vật áp dụng sẽ +1 sát thương do <color=#FFFFFFFF>Kỹ Năng Nguyên Tố</color> và <color=#FFFFFFFF>Kỹ Năng Nộ</color> gây ra.\\n<color=#FFFFFFFF>Số lần sử dụng: 2</color>",
+            "id": 1003,
+            "name": "Lông Quạ Bao Phủ",
+            "nameraw": "<color=#FFFFFFFF>Lông Quạ Bao Phủ</color>"
+        },
+        "cryo": {
+            "description": "Tốn xúc xắc Nguyên Tố Băng đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
+            "descriptionraw": "Tốn xúc xắc <color=#99FFFFFF>{SPRITE_PRESET#1101}Nguyên Tố Băng</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)",
+            "id": 301,
+            "name": "Nguyên Tố Băng",
+            "nameraw": "{SPRITE_PRESET#1101}Nguyên Tố Băng"
+        },
+        "cryoapplication": {
+            "description": "Khi gán ấn Nguyên Tố Băng mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nTan Chảy: Không có hiệu quả\nSiêu Dẫn: Không có hiệu quả\nĐóng Băng: Khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)",
+            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2101}Nguyên Tố Băng mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Tan Chảy</color>: Không có hiệu quả\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Siêu Dẫn</color>: Không có hiệu quả\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Đóng Băng</color>: Khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)",
+            "id": 201,
+            "name": "Gán ấn Nguyên Tố Băng",
+            "nameraw": "<color=#99FFFFFF>Gán ấn {SPRITE_PRESET#2101}Nguyên Tố Băng</color>"
+        },
+        "cryodmg": {
+            "description": "Gán ấn Nguyên Tố Băng, có thể tạo phản ứng nguyên tố:\nTan Chảy: Sát Thương +2\nSiêu Dẫn: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nĐóng Băng: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)",
+            "descriptionraw": "Gán ấn {SPRITE_PRESET#2101}Nguyên Tố Băng, có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Tan Chảy</color>: Sát Thương +2\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Siêu Dẫn</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Đóng Băng</color>: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)",
+            "id": 101,
+            "name": "Sát Thương Nguyên Tố Băng",
+            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>"
+        },
+        "dendro": {
+            "description": "Tốn xúc xắc Nguyên Tố Thảo đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
+            "descriptionraw": "Tốn xúc xắc <color=#7EC236FF>{SPRITE_PRESET#1107}Nguyên Tố Thảo</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)",
+            "id": 307,
+            "name": "Nguyên Tố Thảo",
+            "nameraw": "{SPRITE_PRESET#1107}Nguyên Tố Thảo"
+        },
+        "dendroapplication": {
+            "description": "Khi gán ấn Nguyên Tố Thảo mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nSum Suê: Sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2\nThiêu Đốt: Tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\nSinh Trưởng: Sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
+            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2107}Nguyên Tố Thảo mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sum Suê</color>: Sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Thiêu Đốt</color>: Tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sinh Trưởng</color>: Sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1",
+            "id": 207,
+            "name": "Gán ấn Nguyên Tố Thảo",
+            "nameraw": "<color=#7EC236FF>Gán ấn {SPRITE_PRESET#2107}Nguyên Tố Thảo</color>"
         },
         "dendrodmg": {
+            "description": "Gán ấn Nguyên Tố Thảo，có thể tạo phản ứng nguyên tố:\nSum Suê: Sát Thương +1, sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2\nThiêu Đốt: Sát Thương +1, tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Số lần dùng là 1, tối đa cộng dồn đến 2)\nSinh Trưởng: Sát Thương +1, sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
+            "descriptionraw": "Gán ấn {SPRITE_PRESET#2107}Nguyên Tố Thảo，có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sum Suê</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Thiêu Đốt</color>: Sát Thương +1, tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Số lần dùng là 1, tối đa cộng dồn đến 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sinh Trưởng</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1",
             "id": 107,
             "name": "Sát Thương Nguyên Tố Thảo",
-            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>",
-            "description": "Gán ấn Nguyên Tố Thảo，có thể tạo phản ứng nguyên tố:\nSum Suê: Sát Thương +1, sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2\nThiêu Đốt: Sát Thương +1, tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Số lần dùng là 1, tối đa cộng dồn đến 2)\nSinh Trưởng: Sát Thương +1, sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
-            "descriptionraw": "Gán ấn {SPRITE_PRESET#2107}Nguyên Tố Thảo，có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sum Suê</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Thiêu Đốt</color>: Sát Thương +1, tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Số lần dùng là 1, tối đa cộng dồn đến 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sinh Trưởng</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1"
+            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>"
+        },
+        "dendrorelatedreactions": {
+            "description": "Sum Suê: Sát Thương +1, sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2\nThiêu Đốt: Sát Thương +1, tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\nSinh Trưởng：Sát Thương +1, sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
+            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Sum Suê</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Thiêu Đốt</color>: Sát Thương +1, tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sinh Trưởng</color>：Sát Thương +1, sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1",
+            "id": 217,
+            "name": "Phản Ứng Nguyên Tố Thảo",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Phản Ứng Nguyên Tố Thảo</color>"
+        },
+        "durationrounds": {
+            "description": "Mỗi Giai Đoạn Kết Thúc, Số Hiệp Duy Trì -1.\nSố Hiệp Duy Trì khi dùng hết sẽ tiêu hủy thẻ bài này.",
+            "descriptionraw": "Mỗi Giai Đoạn Kết Thúc, <color=#FFFFFFFF>Số Hiệp Duy Trì</color> -1.\\n<color=#FFFFFFFF>Số Hiệp Duy Trì</color> khi dùng hết sẽ tiêu hủy thẻ bài này.",
+            "id": 4,
+            "name": "Số Hiệp Duy Trì",
+            "nameraw": "<color=#FFFFFFFF>Số Hiệp Duy Trì</color>"
+        },
+        "electro": {
+            "description": "Tốn xúc xắc Nguyên Tố Lôi đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
+            "descriptionraw": "Tốn xúc xắc <color=#FFACFFFF>{SPRITE_PRESET#1104}Nguyên Tố Lôi</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)",
+            "id": 304,
+            "name": "Nguyên Tố Lôi",
+            "nameraw": "{SPRITE_PRESET#1104}Nguyên Tố Lôi"
+        },
+        "electroapplication": {
+            "description": "Khi gán ấn Nguyên Tố Lôi mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nQuá Tải: Mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\nSiêu Dẫn: Không có hiệu quả\nĐiện Cảm: Không có hiệu quả\nSinh Trưởng: Sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
+            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2104}Nguyên Tố Lôi mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quá Tải</color>: Mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Siêu Dẫn</color>: Không có hiệu quả\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Điện Cảm</color>: Không có hiệu quả\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sinh Trưởng</color>: Sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1",
+            "id": 204,
+            "name": "Gán ấn Nguyên Tố Lôi",
+            "nameraw": "<color=#FFACFFFF>Gán ấn {SPRITE_PRESET#2104}Nguyên Tố Lôi</color>"
+        },
+        "electrodmg": {
+            "description": "Gán ấn Nguyên Tố Lôi，có thể tạo phản ứng nguyên tố:\nQuá Tải: Sát Thương +2, cưỡng chế khiến mục tiêu đổi thành nhân vật tiếp theo\nSiêu Dẫn: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nĐiện Cảm: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nSinh Trưởng: Sát Thương +1, sinh ra [Khu Vực Xúc Tác] khiến sát thương Thảo/Lôi 2 lần sau +1",
+            "descriptionraw": "Gán ấn {SPRITE_PRESET#2104}Nguyên Tố Lôi，có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quá Tải</color>: Sát Thương +2, cưỡng chế khiến mục tiêu đổi thành nhân vật tiếp theo\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Siêu Dẫn</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Điện Cảm</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sinh Trưởng</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>] khiến sát thương Thảo/Lôi 2 lần sau +1",
+            "id": 104,
+            "name": "Sát Thương Nguyên Tố Lôi",
+            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>"
+        },
+        "electroinfusion": {
+            "description": "Sát thương vật lý do nhân vật áp dụng gây ra chuyển thành sát thương nguyên tố Lôi.\nSố hiệp duy trì: 2",
+            "descriptionraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát thương vật lý</color> do nhân vật áp dụng gây ra chuyển thành {SPRITE_PRESET#2104}<color=#FFACFFFF>sát thương nguyên tố Lôi</color>.\\n<color=#FFFFFFFF>Số hiệp duy trì</color>: 2",
+            "id": 1002,
+            "name": "Đính kèm nguyên tố Lôi",
+            "nameraw": "<color=#FFFFFFFF>Đính kèm nguyên tố Lôi</color>"
+        },
+        "elementalburst": {
+            "description": "Năng Lượng của nhân vật khi đạt giới hạn, sẽ tiêu hao tất cả Năng Lượng để thi triển \"Kỹ Năng Nộ\".",
+            "descriptionraw": "{SPRITE_PRESET#1110}Năng Lượng của nhân vật khi đạt giới hạn, sẽ tiêu hao tất cả {SPRITE_PRESET#1110}Năng Lượng để thi triển \"Kỹ Năng Nộ\".",
+            "id": 501,
+            "name": "Kỹ Năng Nộ",
+            "nameraw": "Kỹ Năng Nộ"
+        },
+        "energy": {
+            "description": "Khi nhân vật dùng \"Kỹ Năng Nộ\" cần tiêu hao Năng Lượng.\nSau khi nhân vật sử dụng Kỹ Năng Nguyên Tố hoặc tấn công thường sẽ nhận 1 điểm Năng Lượng.",
+            "descriptionraw": "Khi nhân vật dùng \"Kỹ Năng Nộ\" cần tiêu hao {SPRITE_PRESET#1110}Năng Lượng.\\nSau khi nhân vật sử dụng Kỹ Năng Nguyên Tố hoặc tấn công thường sẽ nhận 1 điểm {SPRITE_PRESET#1110}Năng Lượng.",
+            "id": 310,
+            "name": "Năng Lượng",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Năng Lượng</color>"
+        },
+        "fastaction": {
+            "description": "Sau khi Hành Động Nhanh một lần, phe ta có thể tiếp tục các hành động khác.\nChỉ khi chấp hành một lần Hành Động Chiến Đấu thì mới đến lượt đối phương hành động.",
+            "descriptionraw": "Sau khi Hành Động Nhanh một lần, phe ta có thể tiếp tục các hành động khác.\\nChỉ khi chấp hành một lần Hành Động Chiến Đấu thì mới đến lượt đối phương hành động.",
+            "id": 2,
+            "name": "Hành Động Nhanh",
+            "nameraw": "<color=#FFFFFFFF>Hành Động Nhanh</color>"
+        },
+        "fatuiambusher": {
+            "description": "Phục Binh Fatui sẽ kích hoạt hiệu quả sau khi nhân vật ở phe sở tại của mình dùng kỹ năng, gây sát thương cho nhân vật xuất chiến của phe sở tại. (Mỗi hiệp 1 lần)\nCó khả năng xuất hiện 4 loại Phục Binh Fatui sau:\nThuật Sĩ Cicin Băng: Khi kích hoạt gây 1 điểm Sát Thương Nguyên Tố Băng, có thể dùng 2 lần.\nThiếu Nữ Kính: Khi kích hoạt gây 1 điểm Sát Thương Nguyên Tố Thủy, có thể dùng 2 lần.\nQuân Du Kích Hỏa: Khi kích hoạt gây 1 điểm Sát Thương Nguyên Tố Hỏa, có thể dùng 2 lần.\nQuân Tiên Phong Chùy Lôi: Khi kích hoạt gây 1 điểm Sát Thương Nguyên Tố Lôi, có thể dùng 2 lần.",
+            "descriptionraw": "Phục Binh Fatui sẽ kích hoạt hiệu quả sau khi nhân vật ở phe sở tại của mình dùng kỹ năng, gây sát thương cho nhân vật xuất chiến của phe sở tại. (Mỗi hiệp 1 lần)\\nCó khả năng xuất hiện 4 loại Phục Binh Fatui sau:\\n<color=#FFFFFFFF>Thuật Sĩ Cicin Băng</color>: Khi kích hoạt gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, có thể dùng 2 lần.\\n<color=#FFFFFFFF>Thiếu Nữ Kính</color>: Khi kích hoạt gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, có thể dùng 2 lần.\\n<color=#FFFFFFFF>Quân Du Kích Hỏa</color>: Khi kích hoạt gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, có thể dùng 2 lần.\\n<color=#FFFFFFFF>Quân Tiên Phong Chùy Lôi</color>: Khi kích hoạt gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, có thể dùng 2 lần.",
+            "id": 1004,
+            "name": "Phục Binh Fatui",
+            "nameraw": "<color=#FFFFFFFF>Phục Binh Fatui</color>"
+        },
+        "geo": {
+            "description": "Tốn xúc xắc Nguyên Tố Nham đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
+            "descriptionraw": "Tốn xúc xắc <color=#FFE699FF>{SPRITE_PRESET#1106}Nguyên Tố Nham</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)",
+            "id": 306,
+            "name": "Nguyên Tố Nham",
+            "nameraw": "{SPRITE_PRESET#1106}Nguyên Tố Nham"
         },
         "geodmg": {
+            "description": "Sản sinh phản ứng nguyên tố với các ấn nguyên tố sau:\nKết Tinh (Băng): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKết Tinh (Thủy): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKết Tinh (Hỏa): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKết Tinh (Lôi): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)",
+            "descriptionraw": "Sản sinh phản ứng nguyên tố với các ấn nguyên tố sau:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Kết Tinh (Băng)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Kết Tinh (Thủy)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Kết Tinh (Hỏa)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Kết Tinh (Lôi)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)",
             "id": 106,
             "name": "Sát Thương Nguyên Tố Nham",
-            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>",
-            "description": "Sản sinh phản ứng nguyên tố với các ấn nguyên tố sau:\nKết Tinh (Băng): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKết Tinh (Thủy): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKết Tinh (Hỏa): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKết Tinh (Lôi): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)",
-            "descriptionraw": "Sản sinh phản ứng nguyên tố với các ấn nguyên tố sau:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Kết Tinh (Băng)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Kết Tinh (Thủy)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Kết Tinh (Hỏa)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Kết Tinh (Lôi)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)"
+            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>"
+        },
+        "hydro": {
+            "description": "Tốn xúc xắc Nguyên Tố Thủy đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
+            "descriptionraw": "Tốn xúc xắc <color=#80C0FFFF>{SPRITE_PRESET#1102}Nguyên Tố Thủy</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)",
+            "id": 302,
+            "name": "Nguyên Tố Thủy",
+            "nameraw": "{SPRITE_PRESET#1102}Nguyên Tố Thủy"
+        },
+        "hydroapplication": {
+            "description": "Khi gán ấn Nguyên Tố Thủy mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nBốc Hơi: Không có hiệu quả\nĐiện Cảm: Không có hiệu quả\nĐóng Băng: Khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\nSum Suê: Sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2",
+            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Bốc Hơi</color>: Không có hiệu quả\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Điện Cảm</color>: Không có hiệu quả\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Đóng Băng</color>: Khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sum Suê</color>: Sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2",
+            "id": 202,
+            "name": "Gán ấn Nguyên Tố Thủy",
+            "nameraw": "<color=#80C0FFFF>Gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy</color>"
+        },
+        "hydrodmg": {
+            "description": "Gán ấn Nguyên Tố Thủy, có thể tạo phản ứng nguyên tố:\nBốc Hơi: Sát Thương +2\nĐiện Cảm: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nĐóng Băng: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\nSum Suê: Sát Thương +1, sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2",
+            "descriptionraw": "Gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy, có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Bốc Hơi</color>: Sát Thương +2\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Điện Cảm</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Đóng Băng</color>: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sum Suê</color>: Sát Thương +1, sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2",
+            "id": 102,
+            "name": "Sát Thương Nguyên Tố Thủy",
+            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>"
+        },
+        "hydrorelatedreactions": {
+            "description": "Bốc Hơi: Sát Thương +2\nĐiện Cảm: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\nĐóng Băng: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\nSum Suê: Sinh ra [Hạt Nhân Thảo] khiến sát thương Hỏa/Lôi lần sau +2\nKết Tinh (Thủy): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKhuếch Tán (Thủy): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Thủy.",
+            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Bốc Hơi</color>: Sát Thương +2\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Điện Cảm</color>: Sát Thương +1, gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Xuyên Thấu\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Đóng Băng</color>: Sát Thương +1, khiến mục tiêu hiệp đó không thể hành động. (Khi chịu sát thương vật lý hoặc nguyên tố Hỏa sẽ giải trừ sớm, nhưng sát thương +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Sum Suê</color>: Sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>] khiến sát thương Hỏa/Lôi lần sau +2\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Kết Tinh (Thủy)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Khuếch Tán (Thủy)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Thủy.",
+            "id": 212,
+            "name": "Phản Ứng Nguyên Tố Thủy",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Phản Ứng Nguyên Tố Thủy</color>"
+        },
+        "immunitytodefeats1willnotbedefeated": {
+            "description": "Một số hiệu quả sẽ khiến nhân vật khi HP giảm còn 0 sẽ không bị đánh bại, và chữa trị cho nhân vật một lượng HP nhất định.\nLúc này, nhân vật sẽ không bị xem là từng bị đánh bại. (Do vậy trạng thái và trang bị mà nhân vật áp dụng sẽ không bị hủy, năng lượng cũng không bị xóa sạch.)",
+            "descriptionraw": "Một số hiệu quả sẽ khiến nhân vật khi HP giảm còn 0 sẽ <color=#FFFFFFFF>không bị đánh bại</color>, và chữa trị cho nhân vật một lượng HP nhất định.\\nLúc này, nhân vật sẽ không bị xem là từng bị <color=#FFFFFFFF>đánh bại</color>. (Do vậy trạng thái và trang bị mà nhân vật áp dụng sẽ không bị hủy, năng lượng cũng không bị xóa sạch.)",
+            "id": 54,
+            "name": "không bị đánh bại",
+            "nameraw": "<color=#FFFFFFFF>không bị đánh bại</color>"
+        },
+        "matchingelement": {
+            "description": "Cần dùng một lượng Xúc Xắc Nguyên Tố cùng loại để chi trả cho hành động này.\n(Xúc Xắc Vạn Năng tính chung tất cả nguyên tố.)",
+            "descriptionraw": "Cần dùng một lượng Xúc Xắc Nguyên Tố cùng loại để chi trả cho hành động này.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng tính chung tất cả nguyên tố.)",
+            "id": 308,
+            "name": "Nguyên Tố Tương Đồng",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Nguyên Tố Tương Đồng</color>"
+        },
+        "omnielement": {
+            "description": "Nguyên Tố Vạn Năng tương ứng với tất cả nguyên tố, dùng để chi trả các loại phí khác nhau.",
+            "descriptionraw": "{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng tương ứng với tất cả nguyên tố, dùng để chi trả các loại phí khác nhau.",
+            "id": 411,
+            "name": "Nguyên Tố Vạn Năng",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>"
+        },
+        "passiveskill": {
+            "description": "Kỹ năng dạng này sẽ có hiệu lực liên tục, không cần chủ động sử dụng.",
+            "descriptionraw": "Kỹ năng dạng này sẽ có hiệu lực liên tục, không cần chủ động sử dụng.",
+            "id": 502,
+            "name": "Kỹ Năng Bị Động",
+            "nameraw": "Kỹ Năng Bị Động"
+        },
+        "physicaldmg": {
+            "description": "Sát thương vật lý sẽ không gán ấn nguyên tố, cũng không xảy ra phản ứng nguyên tố.",
+            "descriptionraw": "Sát thương vật lý sẽ không gán ấn nguyên tố, cũng không xảy ra phản ứng nguyên tố.",
+            "id": 100,
+            "name": "Sát Thương Vật Lý",
+            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>"
+        },
+        "piercingdmg": {
+            "description": "Sát Thương Xuyên Thấu sẽ không được nhận sát thương tăng thêm, nhưng sẽ bỏ qua hiệu quả khiên và miễn dịch sát thương.",
+            "descriptionraw": "Sát Thương Xuyên Thấu sẽ không được nhận sát thương tăng thêm, nhưng sẽ bỏ qua hiệu quả khiên và miễn dịch sát thương.",
+            "id": 5,
+            "name": "Sát Thương Xuyên Thấu",
+            "nameraw": "<color=#FFFFFFFF>Sát Thương Xuyên Thấu</color>"
+        },
+        "plungingattack": {
+            "description": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\".",
+            "descriptionraw": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\".",
+            "id": 52,
+            "name": "Tấn Công Khi Đáp",
+            "nameraw": "<color=#FFFFFFFF>Tấn Công Khi Đáp</color>"
+        },
+        "prepareskill": {
+            "description": "Có một số kỹ năng không thể sử dụng trực tiếp, mà cần một số lượt hành động nhất định để tiến hành chuẩn bị.\nKhi đến lượt của một bài thủ hành động, nếu như \"nhân vật xuất chiến\" của bài thủ này đang chuẩn bị kỹ năng, thì sẽ bỏ qua lượt hành động của bài thủ; Nếu như đã chuẩn bị xong, nhân vật sẽ trực tiếp dùng kỹ năng đó vào lúc này. (Loại kỹ năng cần chuẩn bị này không thể kích hoạt hiệu quả \"sau khi sử dụng\".)\nChỉ có \"nhân vật xuất chiến\" mới có thể chuẩn bị kỹ năng; Nếu như \"nhân vật xuất chiến\" đang chuẩn bị kỹ năng mà bị cho rời trận, thì quá trình chuẩn bị của kỹ năng sẽ bị gián đoạn.",
+            "descriptionraw": "Có một số kỹ năng không thể sử dụng trực tiếp, mà cần một số lượt hành động nhất định để tiến hành <color=#FFFFFFFF>chuẩn bị</color>.\\nKhi đến lượt của một bài thủ hành động, nếu như \"nhân vật xuất chiến\" của bài thủ này đang <color=#FFFFFFFF>chuẩn bị</color> kỹ năng, thì sẽ bỏ qua lượt hành động của bài thủ; Nếu như đã <color=#FFFFFFFF>chuẩn bị</color> xong, nhân vật sẽ trực tiếp dùng kỹ năng đó vào lúc này. (Loại kỹ năng cần <color=#FFFFFFFF>chuẩn bị</color> này không thể kích hoạt hiệu quả \"sau khi sử dụng\".)\\nChỉ có \"nhân vật xuất chiến\" mới có thể <color=#FFFFFFFF>chuẩn bị</color> kỹ năng; Nếu như \"nhân vật xuất chiến\" đang <color=#FFFFFFFF>chuẩn bị</color> kỹ năng mà bị cho rời trận, thì quá trình <color=#FFFFFFFF>chuẩn bị</color> của kỹ năng sẽ bị gián đoạn.",
+            "id": 53,
+            "name": "Chuẩn Bị Kỹ Năng",
+            "nameraw": "<color=#FFFFFFFF>Chuẩn Bị Kỹ Năng</color>"
+        },
+        "pyro": {
+            "description": "Tốn xúc xắc Nguyên Tố Hỏa đã gieo ra để dùng.\n(Xúc Xắc Vạn Năng cũng được tính.)",
+            "descriptionraw": "Tốn xúc xắc <color=#FF9999FF>{SPRITE_PRESET#1103}Nguyên Tố Hỏa</color> đã gieo ra để dùng.\\n({SPRITE_PRESET#1111}Xúc Xắc Vạn Năng cũng được tính.)",
+            "id": 303,
+            "name": "Nguyên Tố Hỏa",
+            "nameraw": "{SPRITE_PRESET#1103}Nguyên Tố Hỏa"
+        },
+        "pyroapplication": {
+            "description": "Khi gán ấn Nguyên Tố Hỏa mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\nTan Chảy: Không có hiệu quả\nBốc Hơi: Không có hiệu quả\nQuá Tải: Mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\nThiêu Đốt: Tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)",
+            "descriptionraw": "Khi gán ấn {SPRITE_PRESET#2103}Nguyên Tố Hỏa mà không gây sát thương, phản ứng nguyên tố sẽ bỏ qua khả năng gây sát thương:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Tan Chảy</color>: Không có hiệu quả\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bốc Hơi</color>: Không có hiệu quả\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quá Tải</color>: Mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Thiêu Đốt</color>: Tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)",
+            "id": 203,
+            "name": "Gán ấn Nguyên Tố Hỏa",
+            "nameraw": "<color=#FF9999FF>Gán ấn {SPRITE_PRESET#2103}Nguyên Tố Hỏa</color>"
+        },
+        "pyrodmg": {
+            "description": "Gán ấn Nguyên Tố Hỏa, có thể tạo phản ứng nguyên tố:\nTan Chảy: Sát Thương +2\nBốc Hơi: Sát Thương +2\nQuá Tải: Sát Thương +2, mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\nThiêu Đốt: Sát Thương +1, tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)",
+            "descriptionraw": "Gán ấn {SPRITE_PRESET#2103}Nguyên Tố Hỏa, có thể tạo phản ứng nguyên tố:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Tan Chảy</color>: Sát Thương +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bốc Hơi</color>: Sát Thương +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quá Tải</color>: Sát Thương +2, mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Thiêu Đốt</color>: Sát Thương +1, tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)",
+            "id": 103,
+            "name": "Sát Thương Nguyên Tố Hỏa",
+            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>"
+        },
+        "pyrorelatedreactions": {
+            "description": "Tan Chảy: Sát Thương +2\nBốc Hơi: Sát Thương +2\nQuá Tải: Sát Thương +2，mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\nThiêu Đốt：Sát Thương +1, tạo thành [Lửa Thiêu Đốt] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\nKết Tinh (Hỏa): Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\nKhuếch Tán (Hỏa): Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Hỏa.",
+            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Tan Chảy</color>: Sát Thương +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bốc Hơi</color>: Sát Thương +2\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quá Tải</color>: Sát Thương +2，mục tiêu bị buộc phải đổi thành nhân vật kế tiếp\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Thiêu Đốt</color>：Sát Thương +1, tạo thành [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>] gây 1 điểm Sát Thương Hỏa khi kết thúc hiệp (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Kết Tinh (Hỏa)</color>: Sát Thương +1, nhân vật xuất chiến phe ta nhận được 1 điểm Khiên (Có thể cộng dồn, tối đa 2 điểm.)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Khuếch Tán (Hỏa)</color>: Gây cho tất cả kẻ địch ngoài mục tiêu 1 điểm Sát Thương Hỏa.",
+            "id": 213,
+            "name": "Phản Ứng Nguyên Tố Hỏa",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Phản Ứng Nguyên Tố Hỏa</color>"
+        },
+        "randomhilichurlsummon": {
+            "description": "Có khả năng xuất hiện 4 loại vật triệu hồi Hilichurl sau:\nHilichurl Băng Tiễn: Giai Đoạn Kết Thúc gây 1 điểm Sát Thương Nguyên Tố Băng, số lần sử dụng 2.\nPhù Thủy Hilichurl Thủy: Giai Đoạn Kết Thúc gây 1 điểm Sát Thương Nguyên Tố Thủy, số lần sử dụng 2.\nHilichurl Tiên Phong: Giai Đoạn Kết Thúc gây 1 điểm Sát Thương Nguyên Tố Hỏa, số lần sử dụng 2.\nHilichurl Lôi Tiễn: Giai Đoạn Kết Thúc gây 1 điểm Sát Thương Nguyên Tố Lôi, số lần sử dụng 2.",
+            "descriptionraw": "Có khả năng xuất hiện 4 loại vật triệu hồi Hilichurl sau:\\n<color=#FFFFFFFF>Hilichurl Băng Tiễn</color>: Giai Đoạn Kết Thúc gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, số lần sử dụng 2.\\n<color=#FFFFFFFF>Phù Thủy Hilichurl Thủy</color>: Giai Đoạn Kết Thúc gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, số lần sử dụng 2.\\n<color=#FFFFFFFF>Hilichurl Tiên Phong</color>: Giai Đoạn Kết Thúc gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, số lần sử dụng 2.\\n<color=#FFFFFFFF>Hilichurl Lôi Tiễn</color>: Giai Đoạn Kết Thúc gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, số lần sử dụng 2.",
+            "id": 1001,
+            "name": "Vật triệu hồi \"Hilichurl\" ngẫu nhiên",
+            "nameraw": "<color=#FFFFFFFF>Vật triệu hồi \"Hilichurl\" ngẫu nhiên</color>"
+        },
+        "riptide": {
+            "description": "Sau khi nhân vật áp dụng bị đánh bại: Áp dụng Đoạn Lưu cho nhân vật xuất chiến của phe sở tại.\n(Khi Tartaglia đang trong trạng thái cận chiến tấn công nhân vật áp dụng, sẽ gây thêm sát thương.)\nSố Hiệp Duy Trì: 2",
+            "descriptionraw": "<color=#FFFFFFFF>Sau khi nhân vật áp dụng bị đánh bại:</color> Áp dụng Đoạn Lưu cho nhân vật xuất chiến của phe sở tại.\\n(Khi <color=#FFFFFFFF>Tartaglia</color> đang trong <color=#FFFFFFFF>trạng thái cận chiến</color> tấn công nhân vật áp dụng, sẽ gây thêm sát thương.)\\n<color=#FFFFFFFF>Số Hiệp Duy Trì: 2</color>",
+            "id": 1005,
+            "name": "Đoạn Lưu",
+            "nameraw": "<color=#FFFFFFFF>Đoạn Lưu</color>"
+        },
+        "shield": {
+            "description": "Nhân vật được Khiên bảo vệ khi chịu sát thương sẽ tiêu hao Khiên trước.",
+            "descriptionraw": "Nhân vật được Khiên bảo vệ khi chịu sát thương sẽ tiêu hao Khiên trước.",
+            "id": 6,
+            "name": "Khiên",
+            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Khiên</color>"
+        },
+        "superlativesuperstrength": {
+            "description": "Khi nhân vật áp dụng tiến hành Trọng Kích: Sát thương gây ra +1. Nếu số lần có thể sử dụng tối thiểu là 2, sẽ giảm tiêu hao 1 Nguyên Tố Không Màu.\nSố lần sử dụng: 1 (Có thể cộng dồn, tối đa dồn 3 lần)",
+            "descriptionraw": "Khi <color=#FFFFFFFF>nhân vật áp dụng tiến hành <color=#FFFFFFFF>Trọng Kích</color>: </color>Sát thương gây ra +1. Nếu <color=#FFFFFFFF>số lần có thể sử dụng</color> tối thiểu là 2, sẽ giảm tiêu hao 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Nguyên Tố Không Màu</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số lần sử dụng</color>: 1</color> (Có thể cộng dồn, tối đa dồn 3 lần)",
+            "id": 1007,
+            "name": "Quỷ Lực Vô Song",
+            "nameraw": "<color=#FFFFFFFF>Quỷ Lực Vô Song</color>"
+        },
+        "unalignedelement": {
+            "description": "Có thể dùng nhóm Xúc Xắc Nguyên Tố tùy ý để chi trả cho loại phí này.",
+            "descriptionraw": "Có thể dùng nhóm Xúc Xắc Nguyên Tố tùy ý để chi trả cho loại phí này.",
+            "id": 309,
+            "name": "Nguyên Tố Không Màu",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Nguyên Tố Không Màu</color>"
+        },
+        "usages": {
+            "description": "Sau khi hiệu quả của thẻ bài này kích hoạt, sẽ tiêu hao 1 lần Số Lần Khả Dụng;\nSố Lần Khả Dụng sau khi dùng hết sẽ tiêu hủy thẻ bài này.",
+            "descriptionraw": "Sau khi hiệu quả của thẻ bài này kích hoạt, sẽ tiêu hao 1 lần <color=#FFFFFFFF>Số Lần Khả Dụng</color>;\\n<color=#FFFFFFFF>Số Lần Khả Dụng</color> sau khi dùng hết sẽ tiêu hủy thẻ bài này.",
+            "id": 3,
+            "name": "Số Lần Khả Dụng",
+            "nameraw": "<color=#FFFFFFFF>Số Lần Khả Dụng</color>"
         }
     },
     "meta": {
+        "aliases": {},
+        "categories": {},
         "namemap": {
             "aegisofabyssalflame": "Uyên Hỏa Bảo Hộ",
             "anemo": "Nguyên Tố Phong",
@@ -397,58 +399,56 @@
             "usages": "Số Lần Khả Dụng"
         },
         "names": {
-            "Uyên Hỏa Bảo Hộ": "aegisofabyssalflame",
-            "Nguyên Tố Phong": "anemo",
-            "Sát Thương Nguyên Tố Phong": "anemodmg",
-            "Huyết Mai Hương": "bloodblossom",
-            "Nhân Vật Gần Với Nhân Vật Xuất Chiến Phe Ta Nhất": "characterclosesttoyourcurrentactivecharacter",
-            "Trọng Kích": "chargedattack",
-            "Mũi Tên Bung Tỏa": "clusterbloomarrow",
-            "Hành Động Chiến Đấu": "combataction",
-            "Lông Quạ Bao Phủ": "crowfeathercover",
-            "Nguyên Tố Băng": "cryo",
+            "Chuẩn Bị Kỹ Năng": "prepareskill",
             "Gán ấn Nguyên Tố Băng": "cryoapplication",
-            "Sát Thương Nguyên Tố Băng": "cryodmg",
-            "Nguyên Tố Thảo": "dendro",
-            "Gán ấn Nguyên Tố Thảo": "dendroapplication",
-            "Sát Thương Nguyên Tố Thảo": "dendrodmg",
-            "Phản Ứng Nguyên Tố Thảo": "dendrorelatedreactions",
-            "Số Hiệp Duy Trì": "durationrounds",
-            "Nguyên Tố Lôi": "electro",
+            "Gán ấn Nguyên Tố Hỏa": "pyroapplication",
             "Gán ấn Nguyên Tố Lôi": "electroapplication",
-            "Sát Thương Nguyên Tố Lôi": "electrodmg",
-            "Đính kèm nguyên tố Lôi": "electroinfusion",
-            "Kỹ Năng Nộ": "elementalburst",
-            "Năng Lượng": "energy",
-            "Hành Động Nhanh": "fastaction",
-            "Phục Binh Fatui": "fatuiambusher",
-            "Nguyên Tố Nham": "geo",
-            "Sát Thương Nguyên Tố Nham": "geodmg",
-            "Nguyên Tố Thủy": "hydro",
+            "Gán ấn Nguyên Tố Thảo": "dendroapplication",
             "Gán ấn Nguyên Tố Thủy": "hydroapplication",
-            "Sát Thương Nguyên Tố Thủy": "hydrodmg",
-            "Phản Ứng Nguyên Tố Thủy": "hydrorelatedreactions",
-            "không bị đánh bại": "immunitytodefeats1willnotbedefeated",
+            "Huyết Mai Hương": "bloodblossom",
+            "Hành Động Chiến Đấu": "combataction",
+            "Hành Động Nhanh": "fastaction",
+            "Khiên": "shield",
+            "Kỹ Năng Bị Động": "passiveskill",
+            "Kỹ Năng Nộ": "elementalburst",
+            "Lông Quạ Bao Phủ": "crowfeathercover",
+            "Mũi Tên Bung Tỏa": "clusterbloomarrow",
+            "Nguyên Tố Băng": "cryo",
+            "Nguyên Tố Hỏa": "pyro",
+            "Nguyên Tố Không Màu": "unalignedelement",
+            "Nguyên Tố Lôi": "electro",
+            "Nguyên Tố Nham": "geo",
+            "Nguyên Tố Phong": "anemo",
+            "Nguyên Tố Thảo": "dendro",
+            "Nguyên Tố Thủy": "hydro",
             "Nguyên Tố Tương Đồng": "matchingelement",
             "Nguyên Tố Vạn Năng": "omnielement",
-            "Kỹ Năng Bị Động": "passiveskill",
+            "Nhân Vật Gần Với Nhân Vật Xuất Chiến Phe Ta Nhất": "characterclosesttoyourcurrentactivecharacter",
+            "Năng Lượng": "energy",
+            "Phản Ứng Nguyên Tố Hỏa": "pyrorelatedreactions",
+            "Phản Ứng Nguyên Tố Thảo": "dendrorelatedreactions",
+            "Phản Ứng Nguyên Tố Thủy": "hydrorelatedreactions",
+            "Phục Binh Fatui": "fatuiambusher",
+            "Quỷ Lực Vô Song": "superlativesuperstrength",
+            "Sát Thương Nguyên Tố Băng": "cryodmg",
+            "Sát Thương Nguyên Tố Hỏa": "pyrodmg",
+            "Sát Thương Nguyên Tố Lôi": "electrodmg",
+            "Sát Thương Nguyên Tố Nham": "geodmg",
+            "Sát Thương Nguyên Tố Phong": "anemodmg",
+            "Sát Thương Nguyên Tố Thảo": "dendrodmg",
+            "Sát Thương Nguyên Tố Thủy": "hydrodmg",
             "Sát Thương Vật Lý": "physicaldmg",
             "Sát Thương Xuyên Thấu": "piercingdmg",
+            "Số Hiệp Duy Trì": "durationrounds",
+            "Số Lần Khả Dụng": "usages",
+            "Trọng Kích": "chargedattack",
             "Tấn Công Khi Đáp": "plungingattack",
-            "Chuẩn Bị Kỹ Năng": "prepareskill",
-            "Nguyên Tố Hỏa": "pyro",
-            "Gán ấn Nguyên Tố Hỏa": "pyroapplication",
-            "Sát Thương Nguyên Tố Hỏa": "pyrodmg",
-            "Phản Ứng Nguyên Tố Hỏa": "pyrorelatedreactions",
+            "Uyên Hỏa Bảo Hộ": "aegisofabyssalflame",
             "Vật triệu hồi \"Hilichurl\" ngẫu nhiên": "randomhilichurlsummon",
+            "không bị đánh bại": "immunitytodefeats1willnotbedefeated",
             "Đoạn Lưu": "riptide",
-            "Khiên": "shield",
-            "Quỷ Lực Vô Song": "superlativesuperstrength",
-            "Nguyên Tố Không Màu": "unalignedelement",
-            "Số Lần Khả Dụng": "usages"
+            "Đính kèm nguyên tố Lôi": "electroinfusion"
         },
-        "aliases": {},
-        "categories": {},
         "properties": {}
     }
 }

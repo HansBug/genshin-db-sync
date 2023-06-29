@@ -1,284 +1,308 @@
 {
     "items": {
-        "3": {
-            "id": 3,
-            "name": "3",
-            "exp": 950,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Nouvel emplacement d'enregistrement de deck débloqué\nNouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Liyue",
-            "unlockdescriptionraw": "Nouvel emplacement d'enregistrement de deck débloqué\\nNouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Lettre d'invitation de partie",
-                    "count": 1
-                },
-                {
-                    "id": 339501,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "4",
-            "exp": 1300,
-            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
-            "unlockdescription": "Parties en matchmaking via le tableau d'invitations débloquées\nNouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Liyue",
-            "unlockdescriptionraw": "Parties en matchmaking via le tableau d'invitations débloquées\\nNouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Liyue",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Lettre d'invitation de partie",
-                    "count": 1
-                },
-                {
-                    "id": 339002,
-                    "name": "Liyue",
-                    "count": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "2",
-            "exp": 750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Défis de convive hebdomadaires débloqués\nNouveaux joueurs à défier à Mondstadt",
-            "unlockdescriptionraw": "Défis de convive hebdomadaires débloqués\\nNouveaux joueurs à défier à Mondstadt",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Lettre d'invitation de partie",
-                    "count": 1
-                },
-                {
-                    "id": 339001,
-                    "name": "Mondstadt",
-                    "count": 1
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "5",
-            "exp": 1450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Nouvel emplacement d'enregistrement de deck débloqué\nNouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Inazuma",
-            "unlockdescriptionraw": "Nouvel emplacement d'enregistrement de deck débloqué\\nNouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Lettre d'invitation de partie",
-                    "count": 1
-                },
-                {
-                    "id": 339502,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
         "1": {
-            "id": 1,
-            "name": "1",
             "exp": 300,
             "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
-            "unlockdescription": "Invitations de partie débloquées\nParties en multijoueur dans un même monde débloquées\nBoutique de cartes débloquée\nGuide de joueur débloqué\nNouveaux joueurs à défier à Mondstadt",
-            "unlockdescriptionraw": "Invitations de partie débloquées\\nParties en multijoueur dans un même monde débloquées\\nBoutique de cartes débloquée\\nGuide de joueur débloqué\\nNouveaux joueurs à défier à Mondstadt",
+            "id": 1,
+            "name": "1",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
+                    "name": "Primo-gemme"
                 },
                 {
+                    "count": 1,
                     "id": 107020,
-                    "name": "Lettre d'invitation de partie",
-                    "count": 1
+                    "name": "Lettre d'invitation de partie"
                 },
                 {
+                    "count": 500,
                     "id": 107021,
-                    "name": "Jeton de chance",
-                    "count": 500
+                    "name": "Jeton de chance"
                 }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "6",
-            "exp": 1600,
-            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
-            "unlockdescription": "Nouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Inazuma",
-            "unlockdescriptionraw": "Nouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Inazuma",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Lettre d'invitation de partie",
-                    "count": 1
-                },
-                {
-                    "id": 339003,
-                    "name": "Inazuma",
-                    "count": 1
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "8",
-            "exp": 1900,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Nouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Sumeru",
-            "unlockdescriptionraw": "Nouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Lettre d'invitation de partie",
-                    "count": 1
-                },
-                {
-                    "id": 339004,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "9",
-            "exp": 2450,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Nouveaux joueurs à défier à Sumeru",
-            "unlockdescriptionraw": "Nouveaux joueurs à défier à Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
-                },
-                {
-                    "id": 107019,
-                    "name": "Illustration dynamique vierge",
-                    "count": 1
-                },
-                {
-                    "id": 107020,
-                    "name": "Lettre d'invitation de partie",
-                    "count": 1
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "7",
-            "exp": 1750,
-            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
-            "unlockdescription": "Nouvel emplacement d'enregistrement de deck débloqué\nNouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Sumeru",
-            "unlockdescriptionraw": "Nouvel emplacement d'enregistrement de deck débloqué\\nNouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Sumeru",
-            "rewards": [
-                {
-                    "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
-                },
-                {
-                    "id": 107020,
-                    "name": "Lettre d'invitation de partie",
-                    "count": 1
-                },
-                {
-                    "id": 339503,
-                    "name": "Sumeru",
-                    "count": 1
-                }
-            ]
+            ],
+            "unlockdescription": "Invitations de partie débloquées\nParties en multijoueur dans un même monde débloquées\nBoutique de cartes débloquée\nGuide de joueur débloqué\nNouveaux joueurs à défier à Mondstadt",
+            "unlockdescriptionraw": "Invitations de partie débloquées\\nParties en multijoueur dans un même monde débloquées\\nBoutique de cartes débloquée\\nGuide de joueur débloqué\\nNouveaux joueurs à défier à Mondstadt"
         },
         "10": {
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
             "id": 10,
             "name": "10",
-            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
-            "unlockdescription": "Nouvel emplacement d'enregistrement de deck débloqué\nNouveaux joueurs à défier",
-            "unlockdescriptionraw": "Nouvel emplacement d'enregistrement de deck débloqué\\nNouveaux joueurs à défier",
             "rewards": [
                 {
+                    "count": 60,
                     "id": 201,
-                    "name": "Primo-gemme",
-                    "count": 60
+                    "name": "Primo-gemme"
                 },
                 {
+                    "count": 1,
                     "id": 107019,
-                    "name": "Illustration dynamique vierge",
-                    "count": 1
+                    "name": "Illustration dynamique vierge"
                 },
                 {
+                    "count": 1,
                     "id": 339009,
-                    "name": "Légende",
-                    "count": 1
+                    "name": "Légende"
                 }
-            ]
+            ],
+            "unlockdescription": "Nouvel emplacement d'enregistrement de deck débloqué\nNouveaux joueurs à défier",
+            "unlockdescriptionraw": "Nouvel emplacement d'enregistrement de deck débloqué\\nNouveaux joueurs à défier"
+        },
+        "2": {
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "id": 2,
+            "name": "2",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primo-gemme"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Lettre d'invitation de partie"
+                },
+                {
+                    "count": 1,
+                    "id": 339001,
+                    "name": "Mondstadt"
+                }
+            ],
+            "unlockdescription": "Défis de convive hebdomadaires débloqués\nNouveaux joueurs à défier à Mondstadt",
+            "unlockdescriptionraw": "Défis de convive hebdomadaires débloqués\\nNouveaux joueurs à défier à Mondstadt"
+        },
+        "3": {
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 3,
+            "name": "3",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primo-gemme"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Lettre d'invitation de partie"
+                },
+                {
+                    "count": 1,
+                    "id": 339501,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Nouvel emplacement d'enregistrement de deck débloqué\nNouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Liyue",
+            "unlockdescriptionraw": "Nouvel emplacement d'enregistrement de deck débloqué\\nNouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Liyue"
+        },
+        "4": {
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "id": 4,
+            "name": "4",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primo-gemme"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Lettre d'invitation de partie"
+                },
+                {
+                    "count": 1,
+                    "id": 339002,
+                    "name": "Liyue"
+                }
+            ],
+            "unlockdescription": "Parties en matchmaking via le tableau d'invitations débloquées\nNouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Liyue",
+            "unlockdescriptionraw": "Parties en matchmaking via le tableau d'invitations débloquées\\nNouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Liyue"
+        },
+        "5": {
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 5,
+            "name": "5",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primo-gemme"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Lettre d'invitation de partie"
+                },
+                {
+                    "count": 1,
+                    "id": 339502,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Nouvel emplacement d'enregistrement de deck débloqué\nNouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Inazuma",
+            "unlockdescriptionraw": "Nouvel emplacement d'enregistrement de deck débloqué\\nNouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Inazuma"
+        },
+        "6": {
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "id": 6,
+            "name": "6",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primo-gemme"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Lettre d'invitation de partie"
+                },
+                {
+                    "count": 1,
+                    "id": 339003,
+                    "name": "Inazuma"
+                }
+            ],
+            "unlockdescription": "Nouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Inazuma",
+            "unlockdescriptionraw": "Nouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Inazuma"
+        },
+        "7": {
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 7,
+            "name": "7",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primo-gemme"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Lettre d'invitation de partie"
+                },
+                {
+                    "count": 1,
+                    "id": 339503,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Nouvel emplacement d'enregistrement de deck débloqué\nNouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Sumeru",
+            "unlockdescriptionraw": "Nouvel emplacement d'enregistrement de deck débloqué\\nNouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Sumeru"
+        },
+        "8": {
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 8,
+            "name": "8",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primo-gemme"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Lettre d'invitation de partie"
+                },
+                {
+                    "count": 1,
+                    "id": 339004,
+                    "name": "Sumeru"
+                }
+            ],
+            "unlockdescription": "Nouvelles parties de défi de taverne débloquées\nNouveaux joueurs à défier à Sumeru",
+            "unlockdescriptionraw": "Nouvelles parties de défi de taverne débloquées\\nNouveaux joueurs à défier à Sumeru"
+        },
+        "9": {
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "id": 9,
+            "name": "9",
+            "rewards": [
+                {
+                    "count": 60,
+                    "id": 201,
+                    "name": "Primo-gemme"
+                },
+                {
+                    "count": 1,
+                    "id": 107019,
+                    "name": "Illustration dynamique vierge"
+                },
+                {
+                    "count": 1,
+                    "id": 107020,
+                    "name": "Lettre d'invitation de partie"
+                }
+            ],
+            "unlockdescription": "Nouveaux joueurs à défier à Sumeru",
+            "unlockdescriptionraw": "Nouveaux joueurs à défier à Sumeru"
         }
     },
     "meta": {
-        "namemap": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
-        "names": {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-            "4": "4",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10"
-        },
         "aliases": {},
         "categories": {
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
             "GCG_LEVEL_ICON_TYPE_NONE": [
                 "1",
+                "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "Illustration dynamique vierge": [
+                "10",
+                "9"
+            ],
+            "Inazuma": [
+                "5",
+                "6"
+            ],
+            "Jeton de chance": [
+                "1"
+            ],
+            "Lettre d'invitation de partie": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Liyue": [
+                "3",
+                "4"
+            ],
+            "Légende": [
+                "10"
+            ],
+            "Mondstadt": [
                 "2"
             ],
             "Primo-gemme": [
@@ -293,58 +317,34 @@
                 "8",
                 "9"
             ],
-            "Lettre d'invitation de partie": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9"
-            ],
-            "Jeton de chance": [
-                "1"
-            ],
-            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
-                "10"
-            ],
-            "Illustration dynamique vierge": [
-                "10",
-                "9"
-            ],
-            "Légende": [
-                "10"
-            ],
-            "Mondstadt": [
-                "2"
-            ],
-            "GCG_LEVEL_ICON_TYPE_COPPER": [
-                "3",
-                "4"
-            ],
-            "Liyue": [
-                "3",
-                "4"
-            ],
-            "GCG_LEVEL_ICON_TYPE_SILIVER": [
-                "5",
-                "6"
-            ],
-            "Inazuma": [
-                "5",
-                "6"
-            ],
-            "GCG_LEVEL_ICON_TYPE_GOLD": [
-                "7",
-                "8",
-                "9"
-            ],
             "Sumeru": [
                 "7",
                 "8"
             ]
+        },
+        "namemap": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
+        },
+        "names": {
+            "1": "1",
+            "10": "10",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9"
         },
         "properties": {
             "icontype": [

@@ -1,39 +1,48 @@
 {
     "items": {
         "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
             "description": "Truenos que son fugaces para una Narukami en soledad.\nSueños perecederos en un mundo de transitoriedad.",
             "descriptionraw": "Truenos que son fugaces para una Narukami en soledad.\\nSueños perecederos en un mundo de transitoriedad.",
-            "source": "Recompensa al alcanzar el Nivel de jugador 5",
-            "rarity": 4
-        },
-        "sumeru": {
-            "id": 103,
-            "name": "Sumeru",
-            "description": "¡No sientas tristeza, oh, sabia vegetación!\nPues hay un final en el camino del viento abrasador.\nLa lluvia caerá, las flores se abrirán.\n¡Escucha a los verdes jardines su melodía entonar!",
-            "descriptionraw": "¡No sientas tristeza, oh, sabia vegetación!\\nPues hay un final en el camino del viento abrasador.\\nLa lluvia caerá, las flores se abrirán.\\n¡Escucha a los verdes jardines su melodía entonar!",
-            "source": "Recompensa al alcanzar el Nivel de jugador 7",
-            "rarity": 4
+            "id": 102,
+            "name": "Inazuma",
+            "rarity": 4,
+            "source": "Recompensa al alcanzar el Nivel de jugador 5"
         },
         "liyue": {
-            "id": 101,
-            "name": "Liyue",
             "description": "Eterna como la luna, elevada como el sol.\nMontañas como ninguna, prosperidad sin parangón.",
             "descriptionraw": "Eterna como la luna, elevada como el sol.\\nMontañas como ninguna, prosperidad sin parangón.",
-            "source": "Recompensa al alcanzar el Nivel de jugador 3",
-            "rarity": 4
+            "id": 101,
+            "name": "Liyue",
+            "rarity": 4,
+            "source": "Recompensa al alcanzar el Nivel de jugador 3"
         },
         "mondstadt": {
-            "id": 100,
-            "name": "Mondstadt",
             "description": "Una brisa que sopla sin cesar, un aire que tañe una melodía.\nViento y flores con pasión quieren charlar, y caen hasta el fondo de los manantiales con armonía.",
             "descriptionraw": "Una brisa que sopla sin cesar, un aire que tañe una melodía.\\nViento y flores con pasión quieren charlar, y caen hasta el fondo de los manantiales con armonía.",
-            "source": "Obtenido al inicio",
-            "rarity": 4
+            "id": 100,
+            "name": "Mondstadt",
+            "rarity": 4,
+            "source": "Obtenido al inicio"
+        },
+        "sumeru": {
+            "description": "¡No sientas tristeza, oh, sabia vegetación!\nPues hay un final en el camino del viento abrasador.\nLa lluvia caerá, las flores se abrirán.\n¡Escucha a los verdes jardines su melodía entonar!",
+            "descriptionraw": "¡No sientas tristeza, oh, sabia vegetación!\\nPues hay un final en el camino del viento abrasador.\\nLa lluvia caerá, las flores se abrirán.\\n¡Escucha a los verdes jardines su melodía entonar!",
+            "id": 103,
+            "name": "Sumeru",
+            "rarity": 4,
+            "source": "Recompensa al alcanzar el Nivel de jugador 7"
         }
     },
     "meta": {
+        "aliases": {},
+        "categories": {
+            "4": [
+                "inazuma",
+                "liyue",
+                "mondstadt",
+                "sumeru"
+            ]
+        },
         "namemap": {
             "inazuma": "Inazuma",
             "liyue": "Liyue",
@@ -45,15 +54,6 @@
             "Liyue": "liyue",
             "Mondstadt": "mondstadt",
             "Sumeru": "sumeru"
-        },
-        "aliases": {},
-        "categories": {
-            "4": [
-                "inazuma",
-                "liyue",
-                "mondstadt",
-                "sumeru"
-            ]
         },
         "properties": {
             "rarity": [

@@ -1,350 +1,352 @@
 {
     "items": {
-        "crowfeathercover": {
-            "id": 1003,
-            "name": "Amparo plumífero",
-            "nameraw": "<color=#FFFFFFFF>Amparo plumífero</color>|s1:<color=#FFFFFFFF>amparo plumífero</color>",
-            "description": "Cuando el personaje que obtiene este efecto ejecuta una Habilidad Elemental o una Habilidad Definitiva, inflige daño +1.\nNúmero de usos: 2.",
-            "descriptionraw": "Cuando el personaje que obtiene este efecto ejecuta una <color=#FFFFFFFF>Habilidad Elemental</color> o una <color=#FFFFFFFF>Habilidad Definitiva</color>, inflige daño +1.\\n<color=#FFFFFFFF>Número de usos: 2</color>."
-        },
-        "cryo": {
-            "id": 301,
-            "name": "Cryo",
-            "nameraw": "{SPRITE_PRESET#1101}Cryo",
-            "description": "Gasta 1 dado Cryo para pagar su coste.\nTambién se puede pagar con un omnidado.",
-            "descriptionraw": "Gasta 1 <color=#99FFFFFF>{SPRITE_PRESET#1101}dado Cryo</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado."
-        },
-        "dendro": {
-            "id": 307,
-            "name": "Dendro",
-            "nameraw": "{SPRITE_PRESET#1107}Dendro",
-            "description": "Gasta 1 dado Dendro para pagar su coste.\nTambién se puede pagar con un omnidado.",
-            "descriptionraw": "Gasta 1 <color=#7EC236FF>{SPRITE_PRESET#1107}dado Dendro</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado."
-        },
-        "pyrorelatedreactions": {
-            "id": 213,
-            "name": "Reacciones Elementales Pyro",
-            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Reacciones Elementales Pyro</color>|s1:<color=#FF9999FF>{SPRITE_PRESET#2103}Reacción Elemental Pyro</color>",
-            "description": "Derretido: daño actual +2.\nVaporización: daño actual +2.\nSobrecarga: daño actual +2. El objetivo se cambia al siguiente personaje.\nQuemadura: daño actual +1. Al finalizar la ronda crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\nCristalización Pyro: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nTorbellino Pyro: inflige 1 pt. de Daño Pyro al resto de los enemigos.",
-            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Derretido</color>: daño actual +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporización</color>: daño actual +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sobrecarga</color>: daño actual +2. El objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quemadura</color>: daño actual +1. Al finalizar la ronda crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristalización Pyro</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Torbellino Pyro</color>: inflige 1 pt. de Daño Pyro al resto de los enemigos."
-        },
-        "randomhilichurlsummon": {
-            "id": 1001,
-            "name": "Invocación de Hilichurl aleatoria",
-            "nameraw": "<color=#FFFFFFFF>Invocación de Hilichurl aleatoria</color>|s1:<color=#FFFFFFFF>invocación de Hilichurl aleatoria</color>",
-            "description": "Hay 4 tipos de invocaciones de Hilichurls que pueden aparecer:\nHilichurl Ballestero Cryo: inflige 1 pt. de Daño Cryo en la fase final. Número de usos: 2.\nSamachurl Hydro: inflige 1 pt. de Daño Hydro en la fase final. Número de usos: 2.\nHilichurl Berserker: inflige 1 pt. de Daño Pyro en la fase final. Número de usos: 2.\nHilichurl Ballestero Electro: inflige 1 pt. de Daño Electro en la fase final. Número de usos: 2.",
-            "descriptionraw": "Hay 4 tipos de invocaciones de Hilichurls que pueden aparecer:\\n<color=#FFFFFFFF>Hilichurl Ballestero Cryo</color>: inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> en la fase final. Número de usos: 2.\\n<color=#FFFFFFFF>Samachurl Hydro</color>: inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> en la fase final. Número de usos: 2.\\n<color=#FFFFFFFF>Hilichurl Berserker</color>: inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> en la fase final. Número de usos: 2.\\n<color=#FFFFFFFF>Hilichurl Ballestero Electro</color>: inflige 1 pt. de <color=#FFACFFFF>Daño Electro</color> en la fase final. Número de usos: 2."
-        },
-        "characterclosesttoyourcurrentactivecharacter": {
-            "id": 7,
-            "name": "Personaje más cercano a tu personaje en combate",
-            "nameraw": "<color=#FFFFFFFF>Personaje más cercano a tu personaje en combate</color>|s1:<color=#FFFFFFFF>personaje más cercano a tu personaje en combate</color>|s2:<color=#FFFFFFFF>Personajes más cercanos a tu personaje en combate</color>|s3:<color=#FFFFFFFF>personajes más cercanos a tu personaje en combate</color>",
-            "description": "El personaje enemigo más cercano a tu personaje en combate se refiere al personaje enemigo cuya posición se encuentra más cercana a la del tuyo.\nSi existen varios personajes a la misma distancia, el personaje más cercano será el que esté en una posición más adelantada.",
-            "descriptionraw": "El personaje enemigo más cercano a tu personaje en combate se refiere al personaje enemigo cuya posición se encuentra más cercana a la del tuyo.\\nSi existen varios personajes a la misma distancia, el personaje más cercano será el que esté en una posición más adelantada."
-        },
-        "chargedattack": {
-            "id": 51,
-            "name": "Ataque Cargado",
-            "nameraw": "<color=#FFFFFFFF>Ataque Cargado</color>",
-            "description": "Antes de que actúes, si el número de dados elementales es par, el Ataque Normal se considerará Ataque Cargado.",
-            "descriptionraw": "Antes de que actúes, si el número de dados elementales es par, el Ataque Normal se considerará Ataque Cargado."
-        },
-        "anemodmg": {
-            "id": 105,
-            "name": "Daño Anemo",
-            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color>",
-            "description": "Reacciona con elementos previamente aplicados para provocar las siguientes Reacciones Elementales:\nTorbellino Cryo: inflige 1 pt. de Daño Cryo al resto de los enemigos.\nTorbellino Hydro: inflige 1 pt. de Daño Hydro al resto de los enemigos.\nTorbellino Pyro: inflige 1 pt. de Daño Pyro al resto de los enemigos.\nTorbellino Electro: inflige 1 pt. de Daño Electro al resto de los enemigos.",
-            "descriptionraw": "Reacciona con elementos previamente aplicados para provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Torbellino Cryo</color>: inflige 1 pt. de Daño Cryo al resto de los enemigos.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Torbellino Hydro</color>: inflige 1 pt. de Daño Hydro al resto de los enemigos.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Torbellino Pyro</color>: inflige 1 pt. de Daño Pyro al resto de los enemigos.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Torbellino Electro</color>: inflige 1 pt. de Daño Electro al resto de los enemigos."
-        },
-        "prepareskill": {
-            "id": 53,
-            "name": "Preparación de habilidad",
-            "nameraw": "<color=#FFFFFFFF>Preparación de habilidad</color>|s1:<color=#FFFFFFFF>prepara la habilidad</color>|s2:<color=#FFFFFFFF>prepara las habilidades</color>",
-            "description": "No todas las habilidades pueden usarse de forma directa. Algunas requieren un cierto número de turnos de preparación.\nAl llegar el turno de un jugador cuyo personaje está preparando la habilidad, se saltará el turno de dicho jugador. Si la habilidad está completamente preparada, el personaje ejecutará dicha habilidad inmediatamente. Las habilidades que necesitan preparación no pueden activar ningún efecto tras ser usadas.\nSolo el personaje en combate puede preparar su habilidad. Si dicho personaje en combate es reemplazado por otro durante la preparación de su habilidad, esta se interrumpirá.",
-            "descriptionraw": "No todas las habilidades pueden usarse de forma directa. Algunas requieren un cierto número de turnos de <color=#FFFFFFFF>preparación</color>.\\nAl llegar el turno de un jugador cuyo personaje está <color=#FFFFFFFF>preparando</color> la habilidad, se saltará el turno de dicho jugador. Si la habilidad está <color=#FFFFFFFF>completamente preparada</color>, el personaje ejecutará dicha habilidad inmediatamente. Las habilidades que necesitan <color=#FFFFFFFF>preparación</color> no pueden activar ningún efecto tras ser usadas.\\nSolo el personaje en combate puede <color=#FFFFFFFF>preparar</color> su habilidad. Si dicho personaje en combate es reemplazado por otro durante la <color=#FFFFFFFF>preparación</color> de su habilidad, esta se interrumpirá."
-        },
-        "electroapplication": {
-            "id": 204,
-            "name": "Aplicación Electro",
-            "nameraw": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Aplicación Electro</color>|s1:<color=#FFACFFFF>{SPRITE_PRESET#2104}aplicación Electro</color>",
-            "description": "Al aplicar Electro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\nSobrecarga: el objetivo se cambia al siguiente personaje.\nSuperconductor: sin efecto.\nElectrocargado: sin efecto.\nAceleración: crea un campo catalítico que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
-            "descriptionraw": "Al aplicar {SPRITE_PRESET#2104}Electro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Sobrecarga</color>: el objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconductor</color>: sin efecto.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electrocargado</color>: sin efecto.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Aceleración</color>: crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro."
-        },
-        "energy": {
-            "id": 310,
-            "name": "Energía",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Energía</color>",
-            "description": "El personaje debe consumir Energía para utilizar su Habilidad Definitiva.\nAl utilizar una Habilidad Elemental o un Ataque Normal, el personaje obtendrá 1 pt. de Energía.",
-            "descriptionraw": "El personaje debe consumir {SPRITE_PRESET#1110}Energía para utilizar su Habilidad Definitiva.\\nAl utilizar una Habilidad Elemental o un Ataque Normal, el personaje obtendrá 1 pt. de {SPRITE_PRESET#1110}Energía."
-        },
-        "dendroapplication": {
-            "id": 207,
-            "name": "Aplicación Dendro",
-            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Aplicación Dendro</color>|s1:<color=#7EC236FF>{SPRITE_PRESET#2107}aplicación Dendro</color>",
-            "description": "Al aplicar Dendro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\nFlorecimiento: crea un núcleo Dendro que inflige daño +2 con el próximo daño Pyro o Electro.\nQuemadura: al finalizar la ronda crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\nAceleración: crea un campo catalítico que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
-            "descriptionraw": "Al aplicar {SPRITE_PRESET#2107}Dendro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Florecimiento</color>: crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo daño Pyro o Electro.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quemadura</color>: al finalizar la ronda crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Aceleración</color>: crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro."
-        },
-        "anemo": {
-            "id": 305,
-            "name": "Anemo",
-            "nameraw": "{SPRITE_PRESET#1105}Anemo",
-            "description": "Gasta 1 dado Anemo para pagar su coste.\nTambién se puede pagar con un omnidado.",
-            "descriptionraw": "Gasta 1 <color=#80FFD7FF>{SPRITE_PRESET#1105}dado Anemo</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado."
-        },
-        "shield": {
-            "id": 6,
-            "name": "Escudo",
-            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudo</color>|s1:{SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudos</color>|s2:{SPRITE_PRESET#4007}<color=#FFFFFFFF>escudo</color>|s3:{SPRITE_PRESET#4007}<color=#FFFFFFFF>escudos</color>",
-            "description": "Este escudo se consumirá para bloquear el daño infligido contra el personaje que esté protegido por él.",
-            "descriptionraw": "Este escudo se consumirá para bloquear el daño infligido contra el personaje que esté protegido por él."
-        },
-        "piercingdmg": {
-            "id": 5,
-            "name": "Daño Penetrante",
-            "nameraw": "<color=#FFFFFFFF>Daño Penetrante</color>",
-            "description": "El Daño Penetrante no puede recibir bono de daño, y tampoco puede ser bloqueado por medio de escudos o inmunidad al daño.",
-            "descriptionraw": "El Daño Penetrante no puede recibir bono de daño, y tampoco puede ser bloqueado por medio de escudos o inmunidad al daño."
-        },
-        "fastaction": {
-            "id": 2,
-            "name": "Acción rápida",
-            "nameraw": "<color=#FFFFFFFF>Acción rápida</color>|s1:<color=#FFFFFFFF>Acciones rápidas</color>|s2:<color=#FFFFFFFF>acción rápida</color>|s3:<color=#FFFFFFFF>acciones rápidas</color>",
-            "description": "Después de llevar a cabo 1 acción rápida, puedes continuar con otras acciones.\nSolo pasará a ser el turno del adversario cuando hayas llevado a cabo 1 acción de combate.",
-            "descriptionraw": "Después de llevar a cabo 1 acción rápida, puedes continuar con otras acciones.\\nSolo pasará a ser el turno del adversario cuando hayas llevado a cabo 1 acción de combate."
-        },
-        "geo": {
-            "id": 306,
-            "name": "Geo",
-            "nameraw": "{SPRITE_PRESET#1106}Geo",
-            "description": "Gasta 1 dado Geo para pagar su coste.\nTambién se puede pagar con un omnidado.",
-            "descriptionraw": "Gasta 1 <color=#FFE699FF>{SPRITE_PRESET#1106}dado Geo</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado."
-        },
-        "elementalburst": {
-            "id": 501,
-            "name": "Habilidad Definitiva",
-            "nameraw": "Habilidad Definitiva",
-            "description": "Cuando la Energía del personaje está al máximo, puede consumirla por completo para lanzar una poderosa Habilidad Definitiva.",
-            "descriptionraw": "Cuando la {SPRITE_PRESET#1110}Energía del personaje está al máximo, puede consumirla por completo para lanzar una poderosa Habilidad Definitiva."
-        },
-        "electrodmg": {
-            "id": 104,
-            "name": "Daño Electro",
-            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>",
-            "description": "Aplica Electro y puede provocar las siguientes Reacciones Elementales:\nSobrecarga: daño actual +2. El objetivo se cambia al siguiente personaje.\nSuperconductor: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nElectrocargado: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nAceleración: daño actual +1. Crea un campo catalítico que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
-            "descriptionraw": "Aplica {SPRITE_PRESET#2104}Electro y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Sobrecarga</color>: daño actual +2. El objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconductor</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electrocargado</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Aceleración</color>: daño actual +1. Crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro."
-        },
-        "physicaldmg": {
-            "id": 100,
-            "name": "Daño Físico",
-            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>",
-            "description": "El Daño Físico no aplica ningún elemento ni puede provocar Reacciones Elementales.",
-            "descriptionraw": "El Daño Físico no aplica ningún elemento ni puede provocar Reacciones Elementales."
-        },
-        "immunitytodefeats1willnotbedefeated": {
-            "id": 54,
-            "name": "Prevención de derrota",
-            "nameraw": "<color=#FFFFFFFF>Prevención de derrota</color>|s1:<color=#FFFFFFFF>previene ser derrotado</color>|s2:<color=#FFFFFFFF>previenen ser derrotados</color>",
-            "description": "Algunos efectos harán que, cuando la Vida del personaje descienda a 0, prevenga ser derrotado y se cure una cantidad determinada de Vida.\nCuando esto ocurra, no se considerará que el personaje ha sido derrotado (los equipamientos y los estados del personaje no serán eliminados, y la Energía no se vaciará).",
-            "descriptionraw": "Algunos efectos harán que, cuando la Vida del personaje descienda a 0, <color=#FFFFFFFF>prevenga ser derrotado</color> y se cure una cantidad determinada de Vida.\\nCuando esto ocurra, no se considerará que el personaje ha sido <color=#FFFFFFFF>derrotado</color> (los equipamientos y los estados del personaje no serán eliminados, y la Energía no se vaciará)."
-        },
-        "usages": {
-            "id": 3,
-            "name": "Usos",
-            "nameraw": "<color=#FFFFFFFF>Usos</color>|s1:<color=#FFFFFFFF>Uso</color>|s2:<color=#FFFFFFFF>uso</color>|s3:<color=#FFFFFFFF>usos</color>",
-            "description": "Cuando esta carta surte efecto, consumirá 1 uso.\nEsta carta será descartada al consumir todos los usos.",
-            "descriptionraw": "Cuando esta carta surte efecto, consumirá 1 <color=#FFFFFFFF>uso</color>.\\nEsta carta será descartada al consumir todos los <color=#FFFFFFFF>usos</color>."
-        },
-        "hydrodmg": {
-            "id": 102,
-            "name": "Daño Hydro",
-            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>",
-            "description": "Aplica Hydro y puede provocar las siguientes Reacciones Elementales:\nVaporización: daño actual +2.\nElectrocargado: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nCongelado: daño actual +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\nFlorecimiento: daño actual +1. Crea un núcleo Dendro que inflige daño +2 con el próximo Daño Pyro o Electro.",
-            "descriptionraw": "Aplica {SPRITE_PRESET#2102}Hydro y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporización</color>: daño actual +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electrocargado</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelado</color>: daño actual +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Florecimiento</color>: daño actual +1. Crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo Daño Pyro o Electro."
-        },
-        "cryoapplication": {
-            "id": 201,
-            "name": "Aplicación Cryo",
-            "nameraw": "<color=#99FFFFFF>{SPRITE_PRESET#2101}Aplicación Cryo</color>|s1:<color=#99FFFFFF>{SPRITE_PRESET#2101}aplicación Cryo</color>",
-            "description": "Al aplicar Cryo sin infligir daño, las Reacciones Elementales ignorarán los efectos que generen daño:\nDerretido: sin efecto.\nSuperconductor: sin efecto.\nCongelado: el objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).",
-            "descriptionraw": "Al aplicar {SPRITE_PRESET#2101}Cryo sin infligir daño, las Reacciones Elementales ignorarán los efectos que generen daño:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Derretido</color>: sin efecto.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Superconductor</color>: sin efecto.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Congelado</color>: el objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2)."
-        },
-        "unalignedelement": {
-            "id": 309,
-            "name": "Dado indefinido",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Dado indefinido</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1109}Dados indefinidos</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1109}dado indefinido</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1109}dados indefinidos</color>",
-            "description": "Puedes usar el dado elemental de cualquier elemento para pagar su coste.",
-            "descriptionraw": "Puedes usar el dado elemental de cualquier elemento para pagar su coste."
-        },
-        "bloodblossom": {
-            "id": 1009,
-            "name": "Pétalos sangrientos",
-            "nameraw": "<color=#FFFFFFFF>Pétalos sangrientos</color>|s1:<color=#FFFFFFFF>pétalos sangrientos</color>",
-            "description": "Fase final: inflige 1 pt. de Daño Pyro al personaje afectado.\nNúmero de usos: 1.",
-            "descriptionraw": "<color=#FFFFFFFF>Fase final:</color> inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> al personaje afectado.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Número de usos: </color>1</color>."
-        },
-        "clusterbloomarrow": {
-            "id": 1008,
-            "name": "Flechas de inflorescencia",
-            "nameraw": "<color=#FFFFFFFF>Flechas de inflorescencia</color>|s1:<color=#FFFFFFFF>flechas de inflorescencia</color>",
-            "description": "Fase final: inflige 1 pt. de Daño Dendro.\nNúmero de usos: 1 (acumulable hasta 2 veces).",
-            "descriptionraw": "<color=#FFFFFFFF>Fase final:</color> inflige 1 pt. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color>.\\n<color=#FFFFFFFF>Número de usos: 1</color> (acumulable hasta 2 veces)."
-        },
-        "matchingelement": {
-            "id": 308,
-            "name": "Dados unielementales",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Dados unielementales</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1108}dados unielementales</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1108}Dado unielemental</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1108}dado unielemental</color>",
-            "description": "Debes usar el número especificado de dados unielementales para pagar su coste.\nLos omnidados pueden funcionar como si fueran cualquier elemento.",
-            "descriptionraw": "Debes usar el número especificado de dados unielementales para pagar su coste.\\nLos {SPRITE_PRESET#1111}omnidados pueden funcionar como si fueran cualquier elemento."
-        },
-        "combataction": {
-            "id": 1,
-            "name": "Acción de combate",
-            "nameraw": "<color=#FFFFFFFF>Acción de combate</color>|s1:<color=#FFFFFFFF>Acciones de combate</color>|s2:<color=#FFFFFFFF>acción de combate</color>|s3:<color=#FFFFFFFF>acciones de combate</color>",
-            "description": "Después de llevar a cabo 1 acción de combate, será el turno del adversario.\nJugar una carta que contenga esta regla se considera una acción de combate, no una acción rápida.",
-            "descriptionraw": "Después de llevar a cabo 1 acción de combate, será el turno del adversario.\\n<color=#FFFFFFFF>Jugar una carta que contenga esta regla se considera una acción de combate, no una acción rápida.</color>"
-        },
-        "hydrorelatedreactions": {
-            "id": 212,
-            "name": "Reacciones Elementales Hydro",
-            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Reacciones Elementales Hydro</color>|s1:<color=#80C0FFFF>{SPRITE_PRESET#2102}Reacción Elemental Hydro</color>",
-            "description": "Vaporización: daño actual +2.\nElectrocargado: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nCongelado: daño +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\nFlorecimiento: crea un núcleo Dendro que inflige daño +2 con el próximo Daño Pyro o Electro.\nCristalización Hydro: tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nTorbellino Hydro: inflige 1 pt. de Daño Hydro al resto de los enemigos.",
-            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporización</color>: daño actual +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electrocargado</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelado</color>: daño +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Florecimiento</color>: crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo Daño Pyro o Electro.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristalización Hydro</color>: tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Torbellino Hydro</color>: inflige 1 pt. de Daño Hydro al resto de los enemigos."
-        },
-        "riptide": {
-            "id": 1005,
-            "name": "Obstrucción del flujo",
-            "nameraw": "<color=#FFFFFFFF>Obstrucción del flujo</color>|s1:<color=#FFFFFFFF>obstrucción del flujo</color>",
-            "description": "Cuando el personaje afectado es derrotado, aplica el efecto de obstrucción del flujo al personaje en combate del equipo.\nCuando Tartaglia ataque al personaje bajo dicho efecto, infligirá daño adicional.\nDuración de rondas: 2.",
-            "descriptionraw": "<color=#FFFFFFFF>Cuando el personaje afectado es derrotado</color>, aplica el efecto de obstrucción del flujo al personaje en combate del equipo.\\nCuando <color=#FFFFFFFF>Tartaglia</color> ataque al personaje bajo dicho efecto, infligirá daño adicional.\\n<color=#FFFFFFFF>Duración de rondas: 2</color>."
-        },
-        "omnielement": {
-            "id": 411,
-            "name": "Omnidado",
-            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnidado</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnidados</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidado</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidados</color>",
-            "description": "El omnidado se considera un dado de cualquier elemento, y puede utilizarse para pagar toda clase de costes.",
-            "descriptionraw": "El {SPRITE_PRESET#1111}omnidado se considera un dado de cualquier elemento, y puede utilizarse para pagar toda clase de costes."
-        },
-        "plungingattack": {
-            "id": 52,
-            "name": "Ataque Descendente",
-            "nameraw": "<color=#FFFFFFFF>Ataque Descendente</color>",
-            "description": "Cuando un personaje pasa a ser el personaje en combate, si su próxima acción en esta ronda es un Ataque Normal, se considerará Ataque Descendente.",
-            "descriptionraw": "Cuando un personaje pasa a ser el personaje en combate, si su próxima acción en esta ronda es un Ataque Normal, se considerará Ataque Descendente."
-        },
-        "passiveskill": {
-            "id": 502,
-            "name": "Habilidad pasiva",
-            "nameraw": "Habilidad pasiva",
-            "description": "Los efectos de esta Habilidad son constantes y no necesitan ser activados.",
-            "descriptionraw": "Los efectos de esta Habilidad son constantes y no necesitan ser activados."
-        },
-        "electroinfusion": {
-            "id": 1002,
-            "name": "Imbuimiento Electro",
-            "nameraw": "<color=#FFFFFFFF>Imbuimiento Electro</color>|s1:<color=#FFFFFFFF>imbuimiento Electro</color>",
-            "description": "El Daño Físico del personaje que obtiene este efecto se convierte en Daño Electro.\nDuración de rondas: 2.",
-            "descriptionraw": "El {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> del personaje que obtiene este efecto se convierte en {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.\\n<color=#FFFFFFFF>Duración de rondas</color>: 2."
-        },
-        "pyrodmg": {
-            "id": 103,
-            "name": "Daño Pyro",
-            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>",
-            "description": "Aplica Pyro y puede provocar las siguientes Reacciones Elementales:\nDerretido: daño actual +2.\nVaporización: daño actual +2.\nSobrecarga: daño actual +2. El objetivo se cambia al siguiente personaje.\nQuemadura: daño actual +1. Al finalizar la ronda crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.",
-            "descriptionraw": "Aplica {SPRITE_PRESET#2103}Pyro y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Derretido</color>: daño actual +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporización</color>: daño actual +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sobrecarga</color>: daño actual +2. El objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quemadura</color>: daño actual +1. Al finalizar la ronda crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces."
-        },
-        "pyroapplication": {
-            "id": 203,
-            "name": "Aplicación Pyro",
-            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Aplicación Pyro</color>|s1:<color=#FF9999FF>{SPRITE_PRESET#2103}aplicación Pyro</color>",
-            "description": "Al aplicar Pyro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\nDerretido: sin efecto.\nVaporización: sin efecto.\nSobrecarga: el objetivo se cambia al siguiente personaje.\nQuemadura: al finalizar la ronda crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.",
-            "descriptionraw": "Al aplicar {SPRITE_PRESET#2103}Pyro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Derretido</color>: sin efecto.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporización</color>: sin efecto.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sobrecarga</color>: el objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quemadura</color>: al finalizar la ronda crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces."
-        },
-        "hydroapplication": {
-            "id": 202,
-            "name": "Aplicación Hydro",
-            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Aplicación Hydro</color>|s1:<color=#80C0FFFF>{SPRITE_PRESET#2102}aplicación Hydro</color>",
-            "description": "Al aplicar Hydro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\nVaporización: sin efecto.\nElectrocargado: sin efecto.\nCongelado: el objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\nFlorecimiento: crea un núcleo Dendro que inflige daño +2 con el próximo Daño Pyro o Electro.",
-            "descriptionraw": "Al aplicar {SPRITE_PRESET#2102}Hydro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporización</color>: sin efecto.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electrocargado</color>: sin efecto.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelado</color>: el objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Florecimiento</color>: crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo Daño Pyro o Electro."
-        },
-        "pyro": {
-            "id": 303,
-            "name": "Pyro",
-            "nameraw": "{SPRITE_PRESET#1103}Pyro",
-            "description": "Gasta 1 dado Pyro para pagar su coste.\nTambién se puede pagar con un omnidado.",
-            "descriptionraw": "Gasta 1 <color=#FF9999FF>{SPRITE_PRESET#1103}dado Pyro</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado."
-        },
-        "dendrorelatedreactions": {
-            "id": 217,
-            "name": "Reacciones Elementales Dendro",
-            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Reacciones Elementales Dendro</color>|s1:<color=#7EC236FF>{SPRITE_PRESET#2107}Reacción Elemental Dendro</color>",
-            "description": "Florecimiento: daño actual +1. Crea un núcleo Dendro que inflige daño +2 con el próximo daño Pyro o Electro.\nQuemadura: daño actual +1. Al finalizar la ronda, crea una llama ardiente que inflige 1 pt. de Daño Pyro. Puede tener solo 1 uso y acumularse un máximo de 2 veces.\nAceleración: daño actual +1. Crea un campo catalítico que inflige daño +1 con los dos próximos golpes de daño Dendro o Electro.",
-            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Florecimiento</color>: daño actual +1. Crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo daño Pyro o Electro.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quemadura</color>: daño actual +1. Al finalizar la ronda, crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Puede tener solo 1 uso y acumularse un máximo de 2 veces.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Aceleración</color>: daño actual +1. Crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de daño Dendro o Electro."
-        },
-        "superlativesuperstrength": {
-            "id": 1007,
-            "name": "Fuerza sobrenatural",
-            "nameraw": "<color=#FFFFFFFF>Fuerza sobrenatural</color>|s1:<color=#FFFFFFFF>fuerza sobrenatural</color>",
-            "description": "Cuando un personaje bajo este estado ejecuta un Ataque Cargado, inflige daño +1. Si el número de usos es por lo menos 2, gasta un dado indefinido menos.\nNúmero de usos: 1 (acumulable hasta 3 veces).",
-            "descriptionraw": "<color=#FFFFFFFF>Cuando un personaje bajo este estado ejecuta un <color=#FFFFFFFF>Ataque Cargado</color>, </color>inflige daño +1. Si el número de <color=#FFFFFFFF>usos</color> es por lo menos 2, gasta un <color=#FFFFFFFF>{SPRITE_PRESET#1109}dado indefinido</color> menos.\\n<color=#FFFFFFFF>Número de usos: 1</color> (acumulable hasta 3 veces)."
-        },
-        "cryodmg": {
-            "id": 101,
-            "name": "Daño Cryo",
-            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>",
-            "description": "Aplica Cryo y puede provocar las siguientes Reacciones Elementales:\nDerretido: daño actual +2.\nSuperconductor: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nCongelado: daño actual +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).",
-            "descriptionraw": "Aplica {SPRITE_PRESET#2101}Cryo y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Derretido</color>: daño actual +2.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Superconductor</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Congelado</color>: daño actual +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2)."
-        },
-        "durationrounds": {
-            "id": 4,
-            "name": "Duración de rondas",
-            "nameraw": "<color=#FFFFFFFF>Duración de rondas</color>|s1:<color=#FFFFFFFF>duración de rondas</color>",
-            "description": "Al entrar a la fase final de cada ronda, su duración se reducirá 1 ronda.\nEsta carta será descartada inmediatamente al agotar su duración de rondas.",
-            "descriptionraw": "Al entrar a la fase final de cada ronda, su <color=#FFFFFFFF>duración</color> se reducirá 1 ronda.\\nEsta carta será descartada inmediatamente al agotar su <color=#FFFFFFFF>duración de rondas</color>."
-        },
         "aegisofabyssalflame": {
+            "description": "Otorga 3 pts. de escudo al personaje que obtiene este efecto.\nAntes de que dicho escudo se consuma, el personaje afectado inflige Daño Pyro +1.",
+            "descriptionraw": "Otorga <color=#FFFFFFFF>3 pts. de {SPRITE_PRESET#4007}<color=#FFFFFFFF>escudo</color></color> al personaje que obtiene este efecto.\\nAntes de que dicho {SPRITE_PRESET#4007}<color=#FFFFFFFF>escudo</color> se consuma, el personaje afectado inflige {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> +1.",
             "id": 1006,
             "name": "Escudo de llamas abismales",
-            "nameraw": "<color=#FFFFFFFF>Escudo de llamas abismales</color>|s1:<color=#FFFFFFFF>escudo de llamas abismales</color>",
-            "description": "Otorga 3 pts. de escudo al personaje que obtiene este efecto.\nAntes de que dicho escudo se consuma, el personaje afectado inflige Daño Pyro +1.",
-            "descriptionraw": "Otorga <color=#FFFFFFFF>3 pts. de {SPRITE_PRESET#4007}<color=#FFFFFFFF>escudo</color></color> al personaje que obtiene este efecto.\\nAntes de que dicho {SPRITE_PRESET#4007}<color=#FFFFFFFF>escudo</color> se consuma, el personaje afectado inflige {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> +1."
+            "nameraw": "<color=#FFFFFFFF>Escudo de llamas abismales</color>|s1:<color=#FFFFFFFF>escudo de llamas abismales</color>"
         },
-        "electro": {
-            "id": 304,
-            "name": "Electro",
-            "nameraw": "{SPRITE_PRESET#1104}Electro",
-            "description": "Gasta 1 dado Electro para pagar su coste.\nTambién se puede pagar con un omnidado.",
-            "descriptionraw": "Gasta 1 <color=#FFACFFFF>{SPRITE_PRESET#1104}dado Electro</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado."
+        "anemo": {
+            "description": "Gasta 1 dado Anemo para pagar su coste.\nTambién se puede pagar con un omnidado.",
+            "descriptionraw": "Gasta 1 <color=#80FFD7FF>{SPRITE_PRESET#1105}dado Anemo</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado.",
+            "id": 305,
+            "name": "Anemo",
+            "nameraw": "{SPRITE_PRESET#1105}Anemo"
         },
-        "hydro": {
-            "id": 302,
-            "name": "Hydro",
-            "nameraw": "{SPRITE_PRESET#1102}Hydro",
-            "description": "Gasta 1 dado Hydro para pagar su coste.\nTambién se puede pagar con un omnidado.",
-            "descriptionraw": "Gasta 1 <color=#80C0FFFF>{SPRITE_PRESET#1102}dado Hydro</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado."
+        "anemodmg": {
+            "description": "Reacciona con elementos previamente aplicados para provocar las siguientes Reacciones Elementales:\nTorbellino Cryo: inflige 1 pt. de Daño Cryo al resto de los enemigos.\nTorbellino Hydro: inflige 1 pt. de Daño Hydro al resto de los enemigos.\nTorbellino Pyro: inflige 1 pt. de Daño Pyro al resto de los enemigos.\nTorbellino Electro: inflige 1 pt. de Daño Electro al resto de los enemigos.",
+            "descriptionraw": "Reacciona con elementos previamente aplicados para provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Torbellino Cryo</color>: inflige 1 pt. de Daño Cryo al resto de los enemigos.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Torbellino Hydro</color>: inflige 1 pt. de Daño Hydro al resto de los enemigos.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Torbellino Pyro</color>: inflige 1 pt. de Daño Pyro al resto de los enemigos.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Torbellino Electro</color>: inflige 1 pt. de Daño Electro al resto de los enemigos.",
+            "id": 105,
+            "name": "Daño Anemo",
+            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color>"
         },
-        "fatuiambusher": {
-            "id": 1004,
-            "name": "Fatui Emboscadores",
-            "nameraw": "<color=#FFFFFFFF>Fatui Emboscadores</color>|s1:<color=#FFFFFFFF>Fatui Emboscador</color>",
-            "description": "Los Fatui Emboscadores activarán sus efectos cuando los personajes del equipo utilicen una habilidad, e infligirán daño al personaje en combate de ese equipo (1 vez por ronda).\nHay 4 tipos de Emboscadores Fatui que pueden aparecer:\nMaga de Cicin Cryo: inflige 1 pt. de Daño Cryo. Número de usos: 2.\nDoncella del Espejo: inflige 1 pt. de Daño Hydro. Número de usos: 2.\nGuerrillero con Cañón Pyro: inflige 1 pt. de Daño Pyro. Número de usos: 2.\nElectromartillador de Vanguardia: inflige 1 pt. de Daño Electro. Número de usos: 2.",
-            "descriptionraw": "Los Fatui Emboscadores activarán sus efectos cuando los personajes del equipo utilicen una habilidad, e infligirán daño al personaje en combate de ese equipo (1 vez por ronda).\\nHay 4 tipos de Emboscadores Fatui que pueden aparecer:\\n<color=#FFFFFFFF>Maga de Cicin Cryo:</color> inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>. Número de usos: 2.\\n<color=#FFFFFFFF>Doncella del Espejo:</color> inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>. Número de usos: 2.\\n<color=#FFFFFFFF>Guerrillero con Cañón Pyro:</color> inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>. Número de usos: 2.\\n<color=#FFFFFFFF>Electromartillador de Vanguardia:</color> inflige 1 pt. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>. Número de usos: 2."
+        "bloodblossom": {
+            "description": "Fase final: inflige 1 pt. de Daño Pyro al personaje afectado.\nNúmero de usos: 1.",
+            "descriptionraw": "<color=#FFFFFFFF>Fase final:</color> inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> al personaje afectado.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Número de usos: </color>1</color>.",
+            "id": 1009,
+            "name": "Pétalos sangrientos",
+            "nameraw": "<color=#FFFFFFFF>Pétalos sangrientos</color>|s1:<color=#FFFFFFFF>pétalos sangrientos</color>"
+        },
+        "characterclosesttoyourcurrentactivecharacter": {
+            "description": "El personaje enemigo más cercano a tu personaje en combate se refiere al personaje enemigo cuya posición se encuentra más cercana a la del tuyo.\nSi existen varios personajes a la misma distancia, el personaje más cercano será el que esté en una posición más adelantada.",
+            "descriptionraw": "El personaje enemigo más cercano a tu personaje en combate se refiere al personaje enemigo cuya posición se encuentra más cercana a la del tuyo.\\nSi existen varios personajes a la misma distancia, el personaje más cercano será el que esté en una posición más adelantada.",
+            "id": 7,
+            "name": "Personaje más cercano a tu personaje en combate",
+            "nameraw": "<color=#FFFFFFFF>Personaje más cercano a tu personaje en combate</color>|s1:<color=#FFFFFFFF>personaje más cercano a tu personaje en combate</color>|s2:<color=#FFFFFFFF>Personajes más cercanos a tu personaje en combate</color>|s3:<color=#FFFFFFFF>personajes más cercanos a tu personaje en combate</color>"
+        },
+        "chargedattack": {
+            "description": "Antes de que actúes, si el número de dados elementales es par, el Ataque Normal se considerará Ataque Cargado.",
+            "descriptionraw": "Antes de que actúes, si el número de dados elementales es par, el Ataque Normal se considerará Ataque Cargado.",
+            "id": 51,
+            "name": "Ataque Cargado",
+            "nameraw": "<color=#FFFFFFFF>Ataque Cargado</color>"
+        },
+        "clusterbloomarrow": {
+            "description": "Fase final: inflige 1 pt. de Daño Dendro.\nNúmero de usos: 1 (acumulable hasta 2 veces).",
+            "descriptionraw": "<color=#FFFFFFFF>Fase final:</color> inflige 1 pt. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color>.\\n<color=#FFFFFFFF>Número de usos: 1</color> (acumulable hasta 2 veces).",
+            "id": 1008,
+            "name": "Flechas de inflorescencia",
+            "nameraw": "<color=#FFFFFFFF>Flechas de inflorescencia</color>|s1:<color=#FFFFFFFF>flechas de inflorescencia</color>"
+        },
+        "combataction": {
+            "description": "Después de llevar a cabo 1 acción de combate, será el turno del adversario.\nJugar una carta que contenga esta regla se considera una acción de combate, no una acción rápida.",
+            "descriptionraw": "Después de llevar a cabo 1 acción de combate, será el turno del adversario.\\n<color=#FFFFFFFF>Jugar una carta que contenga esta regla se considera una acción de combate, no una acción rápida.</color>",
+            "id": 1,
+            "name": "Acción de combate",
+            "nameraw": "<color=#FFFFFFFF>Acción de combate</color>|s1:<color=#FFFFFFFF>Acciones de combate</color>|s2:<color=#FFFFFFFF>acción de combate</color>|s3:<color=#FFFFFFFF>acciones de combate</color>"
+        },
+        "crowfeathercover": {
+            "description": "Cuando el personaje que obtiene este efecto ejecuta una Habilidad Elemental o una Habilidad Definitiva, inflige daño +1.\nNúmero de usos: 2.",
+            "descriptionraw": "Cuando el personaje que obtiene este efecto ejecuta una <color=#FFFFFFFF>Habilidad Elemental</color> o una <color=#FFFFFFFF>Habilidad Definitiva</color>, inflige daño +1.\\n<color=#FFFFFFFF>Número de usos: 2</color>.",
+            "id": 1003,
+            "name": "Amparo plumífero",
+            "nameraw": "<color=#FFFFFFFF>Amparo plumífero</color>|s1:<color=#FFFFFFFF>amparo plumífero</color>"
+        },
+        "cryo": {
+            "description": "Gasta 1 dado Cryo para pagar su coste.\nTambién se puede pagar con un omnidado.",
+            "descriptionraw": "Gasta 1 <color=#99FFFFFF>{SPRITE_PRESET#1101}dado Cryo</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado.",
+            "id": 301,
+            "name": "Cryo",
+            "nameraw": "{SPRITE_PRESET#1101}Cryo"
+        },
+        "cryoapplication": {
+            "description": "Al aplicar Cryo sin infligir daño, las Reacciones Elementales ignorarán los efectos que generen daño:\nDerretido: sin efecto.\nSuperconductor: sin efecto.\nCongelado: el objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).",
+            "descriptionraw": "Al aplicar {SPRITE_PRESET#2101}Cryo sin infligir daño, las Reacciones Elementales ignorarán los efectos que generen daño:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Derretido</color>: sin efecto.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Superconductor</color>: sin efecto.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Congelado</color>: el objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).",
+            "id": 201,
+            "name": "Aplicación Cryo",
+            "nameraw": "<color=#99FFFFFF>{SPRITE_PRESET#2101}Aplicación Cryo</color>|s1:<color=#99FFFFFF>{SPRITE_PRESET#2101}aplicación Cryo</color>"
+        },
+        "cryodmg": {
+            "description": "Aplica Cryo y puede provocar las siguientes Reacciones Elementales:\nDerretido: daño actual +2.\nSuperconductor: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nCongelado: daño actual +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).",
+            "descriptionraw": "Aplica {SPRITE_PRESET#2101}Cryo y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Derretido</color>: daño actual +2.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Superconductor</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Congelado</color>: daño actual +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).",
+            "id": 101,
+            "name": "Daño Cryo",
+            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>"
+        },
+        "dendro": {
+            "description": "Gasta 1 dado Dendro para pagar su coste.\nTambién se puede pagar con un omnidado.",
+            "descriptionraw": "Gasta 1 <color=#7EC236FF>{SPRITE_PRESET#1107}dado Dendro</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado.",
+            "id": 307,
+            "name": "Dendro",
+            "nameraw": "{SPRITE_PRESET#1107}Dendro"
+        },
+        "dendroapplication": {
+            "description": "Al aplicar Dendro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\nFlorecimiento: crea un núcleo Dendro que inflige daño +2 con el próximo daño Pyro o Electro.\nQuemadura: al finalizar la ronda crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\nAceleración: crea un campo catalítico que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
+            "descriptionraw": "Al aplicar {SPRITE_PRESET#2107}Dendro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Florecimiento</color>: crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo daño Pyro o Electro.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quemadura</color>: al finalizar la ronda crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Aceleración</color>: crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
+            "id": 207,
+            "name": "Aplicación Dendro",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Aplicación Dendro</color>|s1:<color=#7EC236FF>{SPRITE_PRESET#2107}aplicación Dendro</color>"
         },
         "dendrodmg": {
+            "description": "Aplica Dendro y puede provocar las siguientes Reacciones Elementales:\nFlorecimiento: daño actual +1. Crea un núcleo Dendro que inflige daño +2 con el próximo Daño Pyro o Electro.\nQuemadura: daño actual +1. Al finalizar la ronda, crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\nAceleración: daño actual +1. Crea un campo catalítico que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
+            "descriptionraw": "Aplica {SPRITE_PRESET#2107}Dendro y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Florecimiento</color>: daño actual +1. Crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo Daño Pyro o Electro.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quemadura</color>: daño actual +1. Al finalizar la ronda, crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Aceleración</color>: daño actual +1. Crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
             "id": 107,
             "name": "Daño Dendro",
-            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color>",
-            "description": "Aplica Dendro y puede provocar las siguientes Reacciones Elementales:\nFlorecimiento: daño actual +1. Crea un núcleo Dendro que inflige daño +2 con el próximo Daño Pyro o Electro.\nQuemadura: daño actual +1. Al finalizar la ronda, crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\nAceleración: daño actual +1. Crea un campo catalítico que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
-            "descriptionraw": "Aplica {SPRITE_PRESET#2107}Dendro y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Florecimiento</color>: daño actual +1. Crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo Daño Pyro o Electro.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quemadura</color>: daño actual +1. Al finalizar la ronda, crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Aceleración</color>: daño actual +1. Crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro."
+            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color>"
+        },
+        "dendrorelatedreactions": {
+            "description": "Florecimiento: daño actual +1. Crea un núcleo Dendro que inflige daño +2 con el próximo daño Pyro o Electro.\nQuemadura: daño actual +1. Al finalizar la ronda, crea una llama ardiente que inflige 1 pt. de Daño Pyro. Puede tener solo 1 uso y acumularse un máximo de 2 veces.\nAceleración: daño actual +1. Crea un campo catalítico que inflige daño +1 con los dos próximos golpes de daño Dendro o Electro.",
+            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Florecimiento</color>: daño actual +1. Crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo daño Pyro o Electro.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Quemadura</color>: daño actual +1. Al finalizar la ronda, crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Puede tener solo 1 uso y acumularse un máximo de 2 veces.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Aceleración</color>: daño actual +1. Crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de daño Dendro o Electro.",
+            "id": 217,
+            "name": "Reacciones Elementales Dendro",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Reacciones Elementales Dendro</color>|s1:<color=#7EC236FF>{SPRITE_PRESET#2107}Reacción Elemental Dendro</color>"
+        },
+        "durationrounds": {
+            "description": "Al entrar a la fase final de cada ronda, su duración se reducirá 1 ronda.\nEsta carta será descartada inmediatamente al agotar su duración de rondas.",
+            "descriptionraw": "Al entrar a la fase final de cada ronda, su <color=#FFFFFFFF>duración</color> se reducirá 1 ronda.\\nEsta carta será descartada inmediatamente al agotar su <color=#FFFFFFFF>duración de rondas</color>.",
+            "id": 4,
+            "name": "Duración de rondas",
+            "nameraw": "<color=#FFFFFFFF>Duración de rondas</color>|s1:<color=#FFFFFFFF>duración de rondas</color>"
+        },
+        "electro": {
+            "description": "Gasta 1 dado Electro para pagar su coste.\nTambién se puede pagar con un omnidado.",
+            "descriptionraw": "Gasta 1 <color=#FFACFFFF>{SPRITE_PRESET#1104}dado Electro</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado.",
+            "id": 304,
+            "name": "Electro",
+            "nameraw": "{SPRITE_PRESET#1104}Electro"
+        },
+        "electroapplication": {
+            "description": "Al aplicar Electro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\nSobrecarga: el objetivo se cambia al siguiente personaje.\nSuperconductor: sin efecto.\nElectrocargado: sin efecto.\nAceleración: crea un campo catalítico que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
+            "descriptionraw": "Al aplicar {SPRITE_PRESET#2104}Electro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Sobrecarga</color>: el objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconductor</color>: sin efecto.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electrocargado</color>: sin efecto.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Aceleración</color>: crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
+            "id": 204,
+            "name": "Aplicación Electro",
+            "nameraw": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Aplicación Electro</color>|s1:<color=#FFACFFFF>{SPRITE_PRESET#2104}aplicación Electro</color>"
+        },
+        "electrodmg": {
+            "description": "Aplica Electro y puede provocar las siguientes Reacciones Elementales:\nSobrecarga: daño actual +2. El objetivo se cambia al siguiente personaje.\nSuperconductor: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nElectrocargado: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nAceleración: daño actual +1. Crea un campo catalítico que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
+            "descriptionraw": "Aplica {SPRITE_PRESET#2104}Electro y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Sobrecarga</color>: daño actual +2. El objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconductor</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electrocargado</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Aceleración</color>: daño actual +1. Crea un <color=#FFFFFFFF>campo catalítico</color> que inflige daño +1 con los dos próximos golpes de Daño Dendro o Electro.",
+            "id": 104,
+            "name": "Daño Electro",
+            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>"
+        },
+        "electroinfusion": {
+            "description": "El Daño Físico del personaje que obtiene este efecto se convierte en Daño Electro.\nDuración de rondas: 2.",
+            "descriptionraw": "El {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> del personaje que obtiene este efecto se convierte en {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.\\n<color=#FFFFFFFF>Duración de rondas</color>: 2.",
+            "id": 1002,
+            "name": "Imbuimiento Electro",
+            "nameraw": "<color=#FFFFFFFF>Imbuimiento Electro</color>|s1:<color=#FFFFFFFF>imbuimiento Electro</color>"
+        },
+        "elementalburst": {
+            "description": "Cuando la Energía del personaje está al máximo, puede consumirla por completo para lanzar una poderosa Habilidad Definitiva.",
+            "descriptionraw": "Cuando la {SPRITE_PRESET#1110}Energía del personaje está al máximo, puede consumirla por completo para lanzar una poderosa Habilidad Definitiva.",
+            "id": 501,
+            "name": "Habilidad Definitiva",
+            "nameraw": "Habilidad Definitiva"
+        },
+        "energy": {
+            "description": "El personaje debe consumir Energía para utilizar su Habilidad Definitiva.\nAl utilizar una Habilidad Elemental o un Ataque Normal, el personaje obtendrá 1 pt. de Energía.",
+            "descriptionraw": "El personaje debe consumir {SPRITE_PRESET#1110}Energía para utilizar su Habilidad Definitiva.\\nAl utilizar una Habilidad Elemental o un Ataque Normal, el personaje obtendrá 1 pt. de {SPRITE_PRESET#1110}Energía.",
+            "id": 310,
+            "name": "Energía",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Energía</color>"
+        },
+        "fastaction": {
+            "description": "Después de llevar a cabo 1 acción rápida, puedes continuar con otras acciones.\nSolo pasará a ser el turno del adversario cuando hayas llevado a cabo 1 acción de combate.",
+            "descriptionraw": "Después de llevar a cabo 1 acción rápida, puedes continuar con otras acciones.\\nSolo pasará a ser el turno del adversario cuando hayas llevado a cabo 1 acción de combate.",
+            "id": 2,
+            "name": "Acción rápida",
+            "nameraw": "<color=#FFFFFFFF>Acción rápida</color>|s1:<color=#FFFFFFFF>Acciones rápidas</color>|s2:<color=#FFFFFFFF>acción rápida</color>|s3:<color=#FFFFFFFF>acciones rápidas</color>"
+        },
+        "fatuiambusher": {
+            "description": "Los Fatui Emboscadores activarán sus efectos cuando los personajes del equipo utilicen una habilidad, e infligirán daño al personaje en combate de ese equipo (1 vez por ronda).\nHay 4 tipos de Emboscadores Fatui que pueden aparecer:\nMaga de Cicin Cryo: inflige 1 pt. de Daño Cryo. Número de usos: 2.\nDoncella del Espejo: inflige 1 pt. de Daño Hydro. Número de usos: 2.\nGuerrillero con Cañón Pyro: inflige 1 pt. de Daño Pyro. Número de usos: 2.\nElectromartillador de Vanguardia: inflige 1 pt. de Daño Electro. Número de usos: 2.",
+            "descriptionraw": "Los Fatui Emboscadores activarán sus efectos cuando los personajes del equipo utilicen una habilidad, e infligirán daño al personaje en combate de ese equipo (1 vez por ronda).\\nHay 4 tipos de Emboscadores Fatui que pueden aparecer:\\n<color=#FFFFFFFF>Maga de Cicin Cryo:</color> inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>. Número de usos: 2.\\n<color=#FFFFFFFF>Doncella del Espejo:</color> inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>. Número de usos: 2.\\n<color=#FFFFFFFF>Guerrillero con Cañón Pyro:</color> inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>. Número de usos: 2.\\n<color=#FFFFFFFF>Electromartillador de Vanguardia:</color> inflige 1 pt. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>. Número de usos: 2.",
+            "id": 1004,
+            "name": "Fatui Emboscadores",
+            "nameraw": "<color=#FFFFFFFF>Fatui Emboscadores</color>|s1:<color=#FFFFFFFF>Fatui Emboscador</color>"
+        },
+        "geo": {
+            "description": "Gasta 1 dado Geo para pagar su coste.\nTambién se puede pagar con un omnidado.",
+            "descriptionraw": "Gasta 1 <color=#FFE699FF>{SPRITE_PRESET#1106}dado Geo</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado.",
+            "id": 306,
+            "name": "Geo",
+            "nameraw": "{SPRITE_PRESET#1106}Geo"
         },
         "geodmg": {
+            "description": "Reacciona con elementos previamente aplicados para provocar las siguientes Reacciones Elementales:\nCristalización Cryo: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nCristalización Hydro: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nCristalización Pyro: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nCristalización Electro: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).",
+            "descriptionraw": "Reacciona con elementos previamente aplicados para provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cristalización Cryo</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristalización Hydro</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristalización Pyro</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Cristalización Electro</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).",
             "id": 106,
             "name": "Daño Geo",
-            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color>",
-            "description": "Reacciona con elementos previamente aplicados para provocar las siguientes Reacciones Elementales:\nCristalización Cryo: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nCristalización Hydro: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nCristalización Pyro: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nCristalización Electro: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).",
-            "descriptionraw": "Reacciona con elementos previamente aplicados para provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cristalización Cryo</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristalización Hydro</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristalización Pyro</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Cristalización Electro</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.)."
+            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color>"
+        },
+        "hydro": {
+            "description": "Gasta 1 dado Hydro para pagar su coste.\nTambién se puede pagar con un omnidado.",
+            "descriptionraw": "Gasta 1 <color=#80C0FFFF>{SPRITE_PRESET#1102}dado Hydro</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado.",
+            "id": 302,
+            "name": "Hydro",
+            "nameraw": "{SPRITE_PRESET#1102}Hydro"
+        },
+        "hydroapplication": {
+            "description": "Al aplicar Hydro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\nVaporización: sin efecto.\nElectrocargado: sin efecto.\nCongelado: el objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\nFlorecimiento: crea un núcleo Dendro que inflige daño +2 con el próximo Daño Pyro o Electro.",
+            "descriptionraw": "Al aplicar {SPRITE_PRESET#2102}Hydro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporización</color>: sin efecto.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electrocargado</color>: sin efecto.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelado</color>: el objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Florecimiento</color>: crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo Daño Pyro o Electro.",
+            "id": 202,
+            "name": "Aplicación Hydro",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Aplicación Hydro</color>|s1:<color=#80C0FFFF>{SPRITE_PRESET#2102}aplicación Hydro</color>"
+        },
+        "hydrodmg": {
+            "description": "Aplica Hydro y puede provocar las siguientes Reacciones Elementales:\nVaporización: daño actual +2.\nElectrocargado: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nCongelado: daño actual +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\nFlorecimiento: daño actual +1. Crea un núcleo Dendro que inflige daño +2 con el próximo Daño Pyro o Electro.",
+            "descriptionraw": "Aplica {SPRITE_PRESET#2102}Hydro y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporización</color>: daño actual +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electrocargado</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelado</color>: daño actual +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Florecimiento</color>: daño actual +1. Crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo Daño Pyro o Electro.",
+            "id": 102,
+            "name": "Daño Hydro",
+            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>"
+        },
+        "hydrorelatedreactions": {
+            "description": "Vaporización: daño actual +2.\nElectrocargado: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\nCongelado: daño +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\nFlorecimiento: crea un núcleo Dendro que inflige daño +2 con el próximo Daño Pyro o Electro.\nCristalización Hydro: tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nTorbellino Hydro: inflige 1 pt. de Daño Hydro al resto de los enemigos.",
+            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporización</color>: daño actual +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electrocargado</color>: daño actual +1. Inflige 1 pt. de Daño Penetrante al resto de los enemigos.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelado</color>: daño +1. El objetivo no puede llevar a cabo acciones en esta ronda (puede disiparse con antelación si recibe Daño Físico o Daño Pyro, pero recibirá daño +2).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Florecimiento</color>: crea un <color=#FFFFFFFF>núcleo Dendro</color> que inflige daño +2 con el próximo Daño Pyro o Electro.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristalización Hydro</color>: tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Torbellino Hydro</color>: inflige 1 pt. de Daño Hydro al resto de los enemigos.",
+            "id": 212,
+            "name": "Reacciones Elementales Hydro",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Reacciones Elementales Hydro</color>|s1:<color=#80C0FFFF>{SPRITE_PRESET#2102}Reacción Elemental Hydro</color>"
+        },
+        "immunitytodefeats1willnotbedefeated": {
+            "description": "Algunos efectos harán que, cuando la Vida del personaje descienda a 0, prevenga ser derrotado y se cure una cantidad determinada de Vida.\nCuando esto ocurra, no se considerará que el personaje ha sido derrotado (los equipamientos y los estados del personaje no serán eliminados, y la Energía no se vaciará).",
+            "descriptionraw": "Algunos efectos harán que, cuando la Vida del personaje descienda a 0, <color=#FFFFFFFF>prevenga ser derrotado</color> y se cure una cantidad determinada de Vida.\\nCuando esto ocurra, no se considerará que el personaje ha sido <color=#FFFFFFFF>derrotado</color> (los equipamientos y los estados del personaje no serán eliminados, y la Energía no se vaciará).",
+            "id": 54,
+            "name": "Prevención de derrota",
+            "nameraw": "<color=#FFFFFFFF>Prevención de derrota</color>|s1:<color=#FFFFFFFF>previene ser derrotado</color>|s2:<color=#FFFFFFFF>previenen ser derrotados</color>"
+        },
+        "matchingelement": {
+            "description": "Debes usar el número especificado de dados unielementales para pagar su coste.\nLos omnidados pueden funcionar como si fueran cualquier elemento.",
+            "descriptionraw": "Debes usar el número especificado de dados unielementales para pagar su coste.\\nLos {SPRITE_PRESET#1111}omnidados pueden funcionar como si fueran cualquier elemento.",
+            "id": 308,
+            "name": "Dados unielementales",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Dados unielementales</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1108}dados unielementales</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1108}Dado unielemental</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1108}dado unielemental</color>"
+        },
+        "omnielement": {
+            "description": "El omnidado se considera un dado de cualquier elemento, y puede utilizarse para pagar toda clase de costes.",
+            "descriptionraw": "El {SPRITE_PRESET#1111}omnidado se considera un dado de cualquier elemento, y puede utilizarse para pagar toda clase de costes.",
+            "id": 411,
+            "name": "Omnidado",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnidado</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnidados</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidado</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidados</color>"
+        },
+        "passiveskill": {
+            "description": "Los efectos de esta Habilidad son constantes y no necesitan ser activados.",
+            "descriptionraw": "Los efectos de esta Habilidad son constantes y no necesitan ser activados.",
+            "id": 502,
+            "name": "Habilidad pasiva",
+            "nameraw": "Habilidad pasiva"
+        },
+        "physicaldmg": {
+            "description": "El Daño Físico no aplica ningún elemento ni puede provocar Reacciones Elementales.",
+            "descriptionraw": "El Daño Físico no aplica ningún elemento ni puede provocar Reacciones Elementales.",
+            "id": 100,
+            "name": "Daño Físico",
+            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>"
+        },
+        "piercingdmg": {
+            "description": "El Daño Penetrante no puede recibir bono de daño, y tampoco puede ser bloqueado por medio de escudos o inmunidad al daño.",
+            "descriptionraw": "El Daño Penetrante no puede recibir bono de daño, y tampoco puede ser bloqueado por medio de escudos o inmunidad al daño.",
+            "id": 5,
+            "name": "Daño Penetrante",
+            "nameraw": "<color=#FFFFFFFF>Daño Penetrante</color>"
+        },
+        "plungingattack": {
+            "description": "Cuando un personaje pasa a ser el personaje en combate, si su próxima acción en esta ronda es un Ataque Normal, se considerará Ataque Descendente.",
+            "descriptionraw": "Cuando un personaje pasa a ser el personaje en combate, si su próxima acción en esta ronda es un Ataque Normal, se considerará Ataque Descendente.",
+            "id": 52,
+            "name": "Ataque Descendente",
+            "nameraw": "<color=#FFFFFFFF>Ataque Descendente</color>"
+        },
+        "prepareskill": {
+            "description": "No todas las habilidades pueden usarse de forma directa. Algunas requieren un cierto número de turnos de preparación.\nAl llegar el turno de un jugador cuyo personaje está preparando la habilidad, se saltará el turno de dicho jugador. Si la habilidad está completamente preparada, el personaje ejecutará dicha habilidad inmediatamente. Las habilidades que necesitan preparación no pueden activar ningún efecto tras ser usadas.\nSolo el personaje en combate puede preparar su habilidad. Si dicho personaje en combate es reemplazado por otro durante la preparación de su habilidad, esta se interrumpirá.",
+            "descriptionraw": "No todas las habilidades pueden usarse de forma directa. Algunas requieren un cierto número de turnos de <color=#FFFFFFFF>preparación</color>.\\nAl llegar el turno de un jugador cuyo personaje está <color=#FFFFFFFF>preparando</color> la habilidad, se saltará el turno de dicho jugador. Si la habilidad está <color=#FFFFFFFF>completamente preparada</color>, el personaje ejecutará dicha habilidad inmediatamente. Las habilidades que necesitan <color=#FFFFFFFF>preparación</color> no pueden activar ningún efecto tras ser usadas.\\nSolo el personaje en combate puede <color=#FFFFFFFF>preparar</color> su habilidad. Si dicho personaje en combate es reemplazado por otro durante la <color=#FFFFFFFF>preparación</color> de su habilidad, esta se interrumpirá.",
+            "id": 53,
+            "name": "Preparación de habilidad",
+            "nameraw": "<color=#FFFFFFFF>Preparación de habilidad</color>|s1:<color=#FFFFFFFF>prepara la habilidad</color>|s2:<color=#FFFFFFFF>prepara las habilidades</color>"
+        },
+        "pyro": {
+            "description": "Gasta 1 dado Pyro para pagar su coste.\nTambién se puede pagar con un omnidado.",
+            "descriptionraw": "Gasta 1 <color=#FF9999FF>{SPRITE_PRESET#1103}dado Pyro</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado.",
+            "id": 303,
+            "name": "Pyro",
+            "nameraw": "{SPRITE_PRESET#1103}Pyro"
+        },
+        "pyroapplication": {
+            "description": "Al aplicar Pyro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\nDerretido: sin efecto.\nVaporización: sin efecto.\nSobrecarga: el objetivo se cambia al siguiente personaje.\nQuemadura: al finalizar la ronda crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.",
+            "descriptionraw": "Al aplicar {SPRITE_PRESET#2103}Pyro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Derretido</color>: sin efecto.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporización</color>: sin efecto.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sobrecarga</color>: el objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quemadura</color>: al finalizar la ronda crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.",
+            "id": 203,
+            "name": "Aplicación Pyro",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Aplicación Pyro</color>|s1:<color=#FF9999FF>{SPRITE_PRESET#2103}aplicación Pyro</color>"
+        },
+        "pyrodmg": {
+            "description": "Aplica Pyro y puede provocar las siguientes Reacciones Elementales:\nDerretido: daño actual +2.\nVaporización: daño actual +2.\nSobrecarga: daño actual +2. El objetivo se cambia al siguiente personaje.\nQuemadura: daño actual +1. Al finalizar la ronda crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.",
+            "descriptionraw": "Aplica {SPRITE_PRESET#2103}Pyro y puede provocar las siguientes Reacciones Elementales:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Derretido</color>: daño actual +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporización</color>: daño actual +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sobrecarga</color>: daño actual +2. El objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quemadura</color>: daño actual +1. Al finalizar la ronda crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.",
+            "id": 103,
+            "name": "Daño Pyro",
+            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>"
+        },
+        "pyrorelatedreactions": {
+            "description": "Derretido: daño actual +2.\nVaporización: daño actual +2.\nSobrecarga: daño actual +2. El objetivo se cambia al siguiente personaje.\nQuemadura: daño actual +1. Al finalizar la ronda crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\nCristalización Pyro: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\nTorbellino Pyro: inflige 1 pt. de Daño Pyro al resto de los enemigos.",
+            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Derretido</color>: daño actual +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporización</color>: daño actual +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sobrecarga</color>: daño actual +2. El objetivo se cambia al siguiente personaje.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quemadura</color>: daño actual +1. Al finalizar la ronda crea una <color=#FFFFFFFF>llama ardiente</color> que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristalización Pyro</color>: daño actual +1. Tu personaje en combate obtiene 1 pt. de escudo (acumulable hasta 2 pts.).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Torbellino Pyro</color>: inflige 1 pt. de Daño Pyro al resto de los enemigos.",
+            "id": 213,
+            "name": "Reacciones Elementales Pyro",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Reacciones Elementales Pyro</color>|s1:<color=#FF9999FF>{SPRITE_PRESET#2103}Reacción Elemental Pyro</color>"
+        },
+        "randomhilichurlsummon": {
+            "description": "Hay 4 tipos de invocaciones de Hilichurls que pueden aparecer:\nHilichurl Ballestero Cryo: inflige 1 pt. de Daño Cryo en la fase final. Número de usos: 2.\nSamachurl Hydro: inflige 1 pt. de Daño Hydro en la fase final. Número de usos: 2.\nHilichurl Berserker: inflige 1 pt. de Daño Pyro en la fase final. Número de usos: 2.\nHilichurl Ballestero Electro: inflige 1 pt. de Daño Electro en la fase final. Número de usos: 2.",
+            "descriptionraw": "Hay 4 tipos de invocaciones de Hilichurls que pueden aparecer:\\n<color=#FFFFFFFF>Hilichurl Ballestero Cryo</color>: inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> en la fase final. Número de usos: 2.\\n<color=#FFFFFFFF>Samachurl Hydro</color>: inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> en la fase final. Número de usos: 2.\\n<color=#FFFFFFFF>Hilichurl Berserker</color>: inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> en la fase final. Número de usos: 2.\\n<color=#FFFFFFFF>Hilichurl Ballestero Electro</color>: inflige 1 pt. de <color=#FFACFFFF>Daño Electro</color> en la fase final. Número de usos: 2.",
+            "id": 1001,
+            "name": "Invocación de Hilichurl aleatoria",
+            "nameraw": "<color=#FFFFFFFF>Invocación de Hilichurl aleatoria</color>|s1:<color=#FFFFFFFF>invocación de Hilichurl aleatoria</color>"
+        },
+        "riptide": {
+            "description": "Cuando el personaje afectado es derrotado, aplica el efecto de obstrucción del flujo al personaje en combate del equipo.\nCuando Tartaglia ataque al personaje bajo dicho efecto, infligirá daño adicional.\nDuración de rondas: 2.",
+            "descriptionraw": "<color=#FFFFFFFF>Cuando el personaje afectado es derrotado</color>, aplica el efecto de obstrucción del flujo al personaje en combate del equipo.\\nCuando <color=#FFFFFFFF>Tartaglia</color> ataque al personaje bajo dicho efecto, infligirá daño adicional.\\n<color=#FFFFFFFF>Duración de rondas: 2</color>.",
+            "id": 1005,
+            "name": "Obstrucción del flujo",
+            "nameraw": "<color=#FFFFFFFF>Obstrucción del flujo</color>|s1:<color=#FFFFFFFF>obstrucción del flujo</color>"
+        },
+        "shield": {
+            "description": "Este escudo se consumirá para bloquear el daño infligido contra el personaje que esté protegido por él.",
+            "descriptionraw": "Este escudo se consumirá para bloquear el daño infligido contra el personaje que esté protegido por él.",
+            "id": 6,
+            "name": "Escudo",
+            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudo</color>|s1:{SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudos</color>|s2:{SPRITE_PRESET#4007}<color=#FFFFFFFF>escudo</color>|s3:{SPRITE_PRESET#4007}<color=#FFFFFFFF>escudos</color>"
+        },
+        "superlativesuperstrength": {
+            "description": "Cuando un personaje bajo este estado ejecuta un Ataque Cargado, inflige daño +1. Si el número de usos es por lo menos 2, gasta un dado indefinido menos.\nNúmero de usos: 1 (acumulable hasta 3 veces).",
+            "descriptionraw": "<color=#FFFFFFFF>Cuando un personaje bajo este estado ejecuta un <color=#FFFFFFFF>Ataque Cargado</color>, </color>inflige daño +1. Si el número de <color=#FFFFFFFF>usos</color> es por lo menos 2, gasta un <color=#FFFFFFFF>{SPRITE_PRESET#1109}dado indefinido</color> menos.\\n<color=#FFFFFFFF>Número de usos: 1</color> (acumulable hasta 3 veces).",
+            "id": 1007,
+            "name": "Fuerza sobrenatural",
+            "nameraw": "<color=#FFFFFFFF>Fuerza sobrenatural</color>|s1:<color=#FFFFFFFF>fuerza sobrenatural</color>"
+        },
+        "unalignedelement": {
+            "description": "Puedes usar el dado elemental de cualquier elemento para pagar su coste.",
+            "descriptionraw": "Puedes usar el dado elemental de cualquier elemento para pagar su coste.",
+            "id": 309,
+            "name": "Dado indefinido",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Dado indefinido</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1109}Dados indefinidos</color>|s2:<color=#FFFFFFFF>{SPRITE_PRESET#1109}dado indefinido</color>|s3:<color=#FFFFFFFF>{SPRITE_PRESET#1109}dados indefinidos</color>"
+        },
+        "usages": {
+            "description": "Cuando esta carta surte efecto, consumirá 1 uso.\nEsta carta será descartada al consumir todos los usos.",
+            "descriptionraw": "Cuando esta carta surte efecto, consumirá 1 <color=#FFFFFFFF>uso</color>.\\nEsta carta será descartada al consumir todos los <color=#FFFFFFFF>usos</color>.",
+            "id": 3,
+            "name": "Usos",
+            "nameraw": "<color=#FFFFFFFF>Usos</color>|s1:<color=#FFFFFFFF>Uso</color>|s2:<color=#FFFFFFFF>uso</color>|s3:<color=#FFFFFFFF>usos</color>"
         }
     },
     "meta": {
+        "aliases": {},
+        "categories": {},
         "namemap": {
             "aegisofabyssalflame": "Escudo de llamas abismales",
             "anemo": "Anemo",
@@ -397,58 +399,56 @@
             "usages": "Usos"
         },
         "names": {
-            "Escudo de llamas abismales": "aegisofabyssalflame",
-            "Anemo": "anemo",
-            "Daño Anemo": "anemodmg",
-            "Pétalos sangrientos": "bloodblossom",
-            "Personaje más cercano a tu personaje en combate": "characterclosesttoyourcurrentactivecharacter",
-            "Ataque Cargado": "chargedattack",
-            "Flechas de inflorescencia": "clusterbloomarrow",
             "Acción de combate": "combataction",
+            "Acción rápida": "fastaction",
             "Amparo plumífero": "crowfeathercover",
-            "Cryo": "cryo",
+            "Anemo": "anemo",
             "Aplicación Cryo": "cryoapplication",
-            "Daño Cryo": "cryodmg",
-            "Dendro": "dendro",
             "Aplicación Dendro": "dendroapplication",
+            "Aplicación Electro": "electroapplication",
+            "Aplicación Hydro": "hydroapplication",
+            "Aplicación Pyro": "pyroapplication",
+            "Ataque Cargado": "chargedattack",
+            "Ataque Descendente": "plungingattack",
+            "Cryo": "cryo",
+            "Dado indefinido": "unalignedelement",
+            "Dados unielementales": "matchingelement",
+            "Daño Anemo": "anemodmg",
+            "Daño Cryo": "cryodmg",
             "Daño Dendro": "dendrodmg",
-            "Reacciones Elementales Dendro": "dendrorelatedreactions",
+            "Daño Electro": "electrodmg",
+            "Daño Físico": "physicaldmg",
+            "Daño Geo": "geodmg",
+            "Daño Hydro": "hydrodmg",
+            "Daño Penetrante": "piercingdmg",
+            "Daño Pyro": "pyrodmg",
+            "Dendro": "dendro",
             "Duración de rondas": "durationrounds",
             "Electro": "electro",
-            "Aplicación Electro": "electroapplication",
-            "Daño Electro": "electrodmg",
-            "Imbuimiento Electro": "electroinfusion",
-            "Habilidad Definitiva": "elementalburst",
             "Energía": "energy",
-            "Acción rápida": "fastaction",
+            "Escudo": "shield",
+            "Escudo de llamas abismales": "aegisofabyssalflame",
             "Fatui Emboscadores": "fatuiambusher",
+            "Flechas de inflorescencia": "clusterbloomarrow",
+            "Fuerza sobrenatural": "superlativesuperstrength",
             "Geo": "geo",
-            "Daño Geo": "geodmg",
-            "Hydro": "hydro",
-            "Aplicación Hydro": "hydroapplication",
-            "Daño Hydro": "hydrodmg",
-            "Reacciones Elementales Hydro": "hydrorelatedreactions",
-            "Prevención de derrota": "immunitytodefeats1willnotbedefeated",
-            "Dados unielementales": "matchingelement",
-            "Omnidado": "omnielement",
+            "Habilidad Definitiva": "elementalburst",
             "Habilidad pasiva": "passiveskill",
-            "Daño Físico": "physicaldmg",
-            "Daño Penetrante": "piercingdmg",
-            "Ataque Descendente": "plungingattack",
-            "Preparación de habilidad": "prepareskill",
-            "Pyro": "pyro",
-            "Aplicación Pyro": "pyroapplication",
-            "Daño Pyro": "pyrodmg",
-            "Reacciones Elementales Pyro": "pyrorelatedreactions",
+            "Hydro": "hydro",
+            "Imbuimiento Electro": "electroinfusion",
             "Invocación de Hilichurl aleatoria": "randomhilichurlsummon",
             "Obstrucción del flujo": "riptide",
-            "Escudo": "shield",
-            "Fuerza sobrenatural": "superlativesuperstrength",
-            "Dado indefinido": "unalignedelement",
+            "Omnidado": "omnielement",
+            "Personaje más cercano a tu personaje en combate": "characterclosesttoyourcurrentactivecharacter",
+            "Preparación de habilidad": "prepareskill",
+            "Prevención de derrota": "immunitytodefeats1willnotbedefeated",
+            "Pyro": "pyro",
+            "Pétalos sangrientos": "bloodblossom",
+            "Reacciones Elementales Dendro": "dendrorelatedreactions",
+            "Reacciones Elementales Hydro": "hydrorelatedreactions",
+            "Reacciones Elementales Pyro": "pyrorelatedreactions",
             "Usos": "usages"
         },
-        "aliases": {},
-        "categories": {},
         "properties": {}
     }
 }
