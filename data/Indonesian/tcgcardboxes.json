@@ -1,11 +1,11 @@
 {
     "items": {
-        "liyue": {
-            "id": 101,
-            "name": "Liyue",
-            "description": "Abadi layaknya bulan, sekekal matahari terbit.\nDemi bumi, bukit, dan seluruh bebatuan, segala sesuatu akan makmur.",
-            "descriptionraw": "Abadi layaknya bulan, sekekal matahari terbit.\\nDemi bumi, bukit, dan seluruh bebatuan, segala sesuatu akan makmur.",
-            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 3",
+        "inazuma": {
+            "id": 102,
+            "name": "Inazuma",
+            "description": "Petir menyambar, lalu berlalu, menerangi keheningan guntur.\nMimpi tentang kegilaan datang dan pergi — tidak ada yang kekal di dunia ini.",
+            "descriptionraw": "Petir menyambar, lalu berlalu, menerangi keheningan guntur.\\nMimpi tentang kegilaan datang dan pergi — tidak ada yang kekal di dunia ini.",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 5",
             "rarity": 4
         },
         "sumeru": {
@@ -16,20 +16,20 @@
             "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 7",
             "rarity": 4
         },
+        "liyue": {
+            "id": 101,
+            "name": "Liyue",
+            "description": "Abadi layaknya bulan, sekekal matahari terbit.\nDemi bumi, bukit, dan seluruh bebatuan, segala sesuatu akan makmur.",
+            "descriptionraw": "Abadi layaknya bulan, sekekal matahari terbit.\\nDemi bumi, bukit, dan seluruh bebatuan, segala sesuatu akan makmur.",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 3",
+            "rarity": 4
+        },
         "mondstadt": {
             "id": 100,
             "name": "Mondstadt",
             "description": "Bisikan angin sepoi-sepoi yang tak henti-hentinya, senar mulai dipetik, menciptakan musik yang indah.\nPercakapan penuh gairah tentang angin dan bunga tertiup jauh, jatuh ke dalam hati musim semi yang jernih.",
             "descriptionraw": "Bisikan angin sepoi-sepoi yang tak henti-hentinya, senar mulai dipetik, menciptakan musik yang indah.\\nPercakapan penuh gairah tentang angin dan bunga tertiup jauh, jatuh ke dalam hati musim semi yang jernih.",
             "source": "Dapatkan untuk pertama kalinya",
-            "rarity": 4
-        },
-        "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
-            "description": "Petir menyambar, lalu berlalu, menerangi keheningan guntur.\nMimpi tentang kegilaan datang dan pergi — tidak ada yang kekal di dunia ini.",
-            "descriptionraw": "Petir menyambar, lalu berlalu, menerangi keheningan guntur.\\nMimpi tentang kegilaan datang dan pergi — tidak ada yang kekal di dunia ini.",
-            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 5",
             "rarity": 4
         }
     },

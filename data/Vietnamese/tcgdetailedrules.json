@@ -1,22 +1,160 @@
 {
     "items": {
-        "elementalreactionsrules": {
-            "id": 5,
-            "name": "Quy Tắc Phản Ứng Nguyên Tố",
+        "takeaction": {
+            "id": 3,
+            "name": "Hành Động",
             "rules": [
                 {
-                    "title": "Gán Ấn Nguyên Tố",
-                    "titleraw": "Gán Ấn Nguyên Tố",
-                    "content": "Khi nhân vật chịu sát thương nguyên tố Băng, Thủy, Hỏa, Lôi, Thảo, sẽ bị gán ấn nguyên tố tương ứng.\n(Sát Thương Nguyên Tố Phong và Sát Thương Nguyên Tố Nham không thể gán ấn nguyên tố.)",
-                    "contentraw": "Khi nhân vật chịu sát thương nguyên tố {SPRITE_PRESET#2101}<color=#99FFFFFF>Băng</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Thủy</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Hỏa</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Lôi</color>, {SPRITE_PRESET#2107}<color=#7EC236FF>Thảo</color>, sẽ bị <color=#FFE14BFF>gán ấn</color> nguyên tố tương ứng.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color> và {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color> không thể gán ấn nguyên tố.)",
-                    "filename_image": "UI_Gcg_InSide_12"
+                    "title": "Hành Động",
+                    "titleraw": "Hành Động",
+                    "content": "Trong Giai Đoạn Hành Động, các hành động được chia làm Hành Động Chiến Đấu và Hành Động Nhanh.\nHành Động Chiến Đấu: Sau khi hoàn thành 1 Hành Động Chiến Đấu, sẽ đến lượt đối phương hành động. Dùng kỹ năng, đổi nhân vật, tuyên bố kết thúc đều là Hành Động Chiến Đấu.\nHành Động Nhanh: Sau khi hoàn thành 1 Hành Động Nhanh, phe ta có thể tiếp tục hành động. Ra bài và Điều Tiết Nguyên Tố là Hành Động Nhanh.",
+                    "contentraw": "Trong Giai Đoạn Hành Động, các hành động được chia làm Hành Động Chiến Đấu và Hành Động Nhanh.\\n<color=#FFE14BFF>Hành Động Chiến Đấu</color>: Sau khi hoàn thành 1 Hành Động Chiến Đấu, sẽ đến lượt đối phương hành động. Dùng kỹ năng, đổi nhân vật, tuyên bố kết thúc đều là Hành Động Chiến Đấu.\\n<color=#FFE14BFF>Hành Động Nhanh</color>: Sau khi hoàn thành 1 Hành Động Nhanh, phe ta có thể tiếp tục hành động. Ra bài và Điều Tiết Nguyên Tố là Hành Động Nhanh."
                 },
                 {
-                    "title": "Quy Tắc Phản Ứng Nguyên Tố",
-                    "titleraw": "Quy Tắc Phản Ứng Nguyên Tố",
-                    "content": "Đối với mục tiêu đã bị Gán Ấn Nguyên Tố:\n(1) Khi tạo thành sát thương nguyên tố loại nhất định, sẽ kích hoạt phản ứng nguyên tố.\n(2) Khi dùng hình thức phi sát thương để thi triển gán ấn nguyên tố loại nhất định cũng sẽ kích hoạt phản ứng nguyên tố. Khi tổng kết hiệu quả loại phản ứng nguyên tố này, sẽ bỏ qua mọi hiệu quả sát thương.",
-                    "contentraw": "Đối với mục tiêu đã bị <color=#FFE14BFF>Gán Ấn Nguyên Tố</color>:\\n(1) Khi tạo thành <color=#FFE14BFF>sát thương nguyên tố</color> loại nhất định, sẽ kích hoạt phản ứng nguyên tố.\\n(2) Khi dùng hình thức phi sát thương để thi triển gán ấn nguyên tố loại nhất định cũng sẽ kích hoạt phản ứng nguyên tố. Khi tổng kết hiệu quả loại phản ứng nguyên tố này, sẽ bỏ qua mọi hiệu quả sát thương.",
-                    "filename_image": "UI_Gcg_InSide_13"
+                    "title": "Hành Động Chiến Đấu - Dùng Kỹ Năng",
+                    "titleraw": "Hành Động Chiến Đấu - Dùng Kỹ Năng",
+                    "content": "Tiêu hao Xúc Xắc Nguyên Tố chi trả chi phí cần thiết, để nhân vật xuất chiến phe ta dùng kỹ năng tấn công nhân vật xuất chiến của đối phương.\nSau mỗi lần nhân vật dùng tấn công thường hoặc Kỹ Năng Nguyên Tố, sẽ nhận 1 điểm Năng Lượng.\nSau khi nhân vật đầy Năng Lượng, có thể tiêu hao toàn bộ Năng Lượng để dùng Kỹ Năng Nộ uy lực mạnh mẽ!",
+                    "contentraw": "Tiêu hao Xúc Xắc Nguyên Tố chi trả chi phí cần thiết, để nhân vật xuất chiến phe ta dùng kỹ năng tấn công nhân vật xuất chiến của đối phương.\\nSau mỗi lần nhân vật dùng tấn công thường hoặc Kỹ Năng Nguyên Tố, sẽ nhận 1 điểm Năng Lượng.\\nSau khi nhân vật đầy Năng Lượng, có thể tiêu hao toàn bộ Năng Lượng để dùng Kỹ Năng Nộ uy lực mạnh mẽ!"
+                },
+                {
+                    "title": "Hành Động Chiến Đấu - Đổi Nhân Vật",
+                    "titleraw": "Hành Động Chiến Đấu - Đổi Nhân Vật",
+                    "content": "Tiêu hao 1 Xúc Xắc Nguyên Tố loại bất kỳ để đổi nhân vật dự bị phe ta thành nhân vật xuất chiến.",
+                    "contentraw": "Tiêu hao 1 Xúc Xắc Nguyên Tố loại bất kỳ để đổi nhân vật dự bị phe ta thành nhân vật xuất chiến."
+                },
+                {
+                    "title": "Hành Động Nhanh - Ra Bài",
+                    "titleraw": "Hành Động Nhanh - Ra Bài",
+                    "content": "Tiêu hao Xúc Xắc Nguyên Tố để đánh ra 1 thẻ bài. Thẻ bài gồm các loại sau:\nThẻ Trang Bị: Trang bị trên người một nhân vật để cung cấp hiệu quả cường hóa nhân vật này.\nThẻ Hỗ Trợ: Đặt ở Khu Chi Viện phe ta, duy trì phát huy hiệu quả hỗ trợ.\nThẻ Sự Kiện: Sau khi đánh ra sẽ tổng kết mọi hiệu quả trong một lần.",
+                    "contentraw": "Tiêu hao Xúc Xắc Nguyên Tố để đánh ra 1 thẻ bài. Thẻ bài gồm các loại sau:\\n<color=#FFE14BFF>Thẻ Trang Bị</color>: Trang bị trên người một nhân vật để cung cấp hiệu quả cường hóa nhân vật này.\\n<color=#FFE14BFF>Thẻ Hỗ Trợ</color>: Đặt ở Khu Chi Viện phe ta, duy trì phát huy hiệu quả hỗ trợ.\\n<color=#FFE14BFF>Thẻ Sự Kiện</color>: Sau khi đánh ra sẽ tổng kết mọi hiệu quả trong một lần."
+                },
+                {
+                    "title": "Hành Động Nhanh - Điều Tiết Nguyên Tố",
+                    "titleraw": "Hành Động Nhanh - Điều Tiết Nguyên Tố",
+                    "content": "Vứt bỏ 1 thẻ bài để chuyển 1 Xúc Xắc Nguyên Tố thành loại nguyên tố của nhân vật xuất chiến hiện tại của phe ta.",
+                    "contentraw": "Vứt bỏ 1 thẻ bài để chuyển 1 Xúc Xắc Nguyên Tố thành loại nguyên tố của nhân vật xuất chiến hiện tại của phe ta."
+                },
+                {
+                    "title": "Hành Động Chiến Đấu - Tuyên Bố Kết Thúc",
+                    "titleraw": "Hành Động Chiến Đấu - Tuyên Bố Kết Thúc",
+                    "content": "Từ bỏ hành động hiệp này, tuyên bố kết thúc hiệp.\nBài thủ tuyên bố kết thúc trước sẽ trở thành bài thủ đi trước, trong Giai Đoạn Hành Động ở hiệp sau sẽ được ưu tiên hành động trước.\nBài thủ chưa tuyên bố kết thúc hiệp có thể tiếp tục hành động cho đến khi tuyên bố kết thúc.\nSau khi hai phe tuyên bố kết thúc hiệp, sẽ kết thúc Giai Đoạn Hành Động và bước vào Giai Đoạn Kết Thúc.",
+                    "contentraw": "Từ bỏ hành động hiệp này, tuyên bố kết thúc hiệp.\\nBài thủ tuyên bố kết thúc trước sẽ trở thành bài thủ đi trước, trong Giai Đoạn Hành Động ở hiệp sau sẽ được ưu tiên hành động trước.\\nBài thủ chưa tuyên bố kết thúc hiệp có thể tiếp tục hành động cho đến khi tuyên bố kết thúc.\\nSau khi hai phe tuyên bố kết thúc hiệp, sẽ kết thúc Giai Đoạn Hành Động và bước vào Giai Đoạn Kết Thúc."
+                }
+            ]
+        },
+        "specialentry": {
+            "id": 8,
+            "name": "Mục Đặc Biệt",
+            "rules": [
+                {
+                    "title": "Món Ăn",
+                    "titleraw": "{SPRITE_PRESET#3101}Món Ăn",
+                    "content": "Khi Thẻ Sự Kiện Món Ăn có hiệu lực với nhân vật, nhân vật sẽ vào trạng thái No Bụng.\nNhân vật trong trạng thái No Bụng, không thể trở thành mục tiêu của Thẻ Sự Kiện Món Ăn khác, cũng không bị ảnh hưởng bởi hiệu quả của Thẻ Sự Kiện Món Ăn khác.\nTrạng thái No Bụng sẽ xóa khi kết thúc hiệp hoặc nhân vật bị đánh bại.\nNgoài ra, sau khi đánh ra Thẻ Sự Kiện Món Ăn có hiệu quả \"Hồi Sinh\", trong hiệp này không thể đánh ra Thẻ Sự Kiện Món Ăn có hiệu quả \"Hồi Sinh\" nữa.",
+                    "contentraw": "Khi Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn có hiệu lực với nhân vật, nhân vật sẽ vào trạng thái No Bụng.\\nNhân vật trong trạng thái No Bụng, không thể trở thành mục tiêu của Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn khác, cũng không bị ảnh hưởng bởi hiệu quả của Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn khác.\\nTrạng thái No Bụng sẽ xóa khi kết thúc hiệp hoặc nhân vật bị đánh bại.\\nNgoài ra, sau khi đánh ra Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn có hiệu quả \"Hồi Sinh\", trong hiệp này không thể đánh ra Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn có hiệu quả \"Hồi Sinh\" nữa."
+                },
+                {
+                    "title": "Khiên",
+                    "titleraw": "{SPRITE_PRESET#4007}Khiên",
+                    "content": "Một số hiệu quả sẽ tạo ra khiên để bảo vệ nhân vật nhất định.\nNhân vật được khiên bảo vệ khi chịu sát thương, sẽ tiêu hao điểm khiên để giảm bớt sát thương.",
+                    "contentraw": "Một số hiệu quả sẽ tạo ra khiên để bảo vệ nhân vật nhất định.\\nNhân vật được khiên bảo vệ khi chịu sát thương, sẽ tiêu hao điểm khiên để giảm bớt sát thương."
+                },
+                {
+                    "title": "Số Lần Sử Dụng",
+                    "titleraw": "Số Lần Sử Dụng",
+                    "content": "Một số thẻ bài hoặc trạng thái có giới hạn số lần sử dụng.\nMỗi lần kích hoạt hiệu quả thẻ bài này sẽ tiêu hao 1 lần sử dụng.\nSau khi hết lượt dùng sẽ lập tức hủy bỏ thẻ bài này.",
+                    "contentraw": "Một số thẻ bài hoặc trạng thái có giới hạn số lần sử dụng.\\nMỗi lần kích hoạt hiệu quả thẻ bài này sẽ tiêu hao 1 lần sử dụng.\\nSau khi hết lượt dùng sẽ lập tức hủy bỏ thẻ bài này."
+                },
+                {
+                    "title": "Số Hiệp Duy Trì",
+                    "titleraw": "Số Hiệp Duy Trì",
+                    "content": "Một số thẻ bài hoặc trạng thái có giới hạn số hiệp duy trì.\nMỗi Giai Đoạn Kết Thúc đều sẽ giảm 1 hiệp duy trì.\nSau khi hết số hiệp duy trì sẽ lập tức hủy bỏ thẻ bài này.",
+                    "contentraw": "Một số thẻ bài hoặc trạng thái có giới hạn số hiệp duy trì.\\nMỗi Giai Đoạn Kết Thúc đều sẽ giảm 1 hiệp duy trì.\\nSau khi hết số hiệp duy trì sẽ lập tức hủy bỏ thẻ bài này."
+                },
+                {
+                    "title": "Sát Thương Xuyên Thấu",
+                    "titleraw": "Sát Thương Xuyên Thấu",
+                    "content": "Một số hiệu quả sẽ tạo ra Sát Thương Xuyên Thấu.\nSát thương xuyên thấu sẽ không nhận buff sát thương từ hiệu quả khác, và cũng không chịu ảnh hưởng của hiệu quả khiên.",
+                    "contentraw": "Một số hiệu quả sẽ tạo ra Sát Thương Xuyên Thấu.\\nSát thương xuyên thấu sẽ không nhận buff sát thương từ hiệu quả khác, và cũng không chịu ảnh hưởng của hiệu quả khiên."
+                },
+                {
+                    "title": "Hành Động Chiến Đấu - Thẻ Hành Động",
+                    "titleraw": "Hành Động Chiến Đấu - Thẻ Hành Động",
+                    "content": "Một số Thẻ Hành Động sẽ có quy tắc Hành Động Chiến Đấu.\nĐánh ra thẻ bài có quy tắc này, sẽ được xem là tiến hành Hành Động Chiến Đấu, chứ không phải Hành Động Nhanh thông thường.",
+                    "contentraw": "Một số Thẻ Hành Động sẽ có quy tắc Hành Động Chiến Đấu.\\nĐánh ra thẻ bài có quy tắc này, sẽ được xem là tiến hành Hành Động Chiến Đấu, chứ không phải Hành Động Nhanh thông thường."
+                },
+                {
+                    "title": "Trọng Kích",
+                    "titleraw": "Trọng Kích",
+                    "content": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\".",
+                    "contentraw": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\"."
+                },
+                {
+                    "title": "Tấn Công Khi Đáp",
+                    "titleraw": "Tấn Công Khi Đáp",
+                    "content": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\".",
+                    "contentraw": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\"."
+                }
+            ]
+        },
+        "roundflow": {
+            "id": 2,
+            "name": "Quy Trình Hiệp Đấu",
+            "rules": [
+                {
+                    "title": "Quy Trình Hiệp Đấu",
+                    "titleraw": "Quy Trình Hiệp Đấu",
+                    "content": "Mỗi hiệp đều tiến hành theo thứ tự Giai Đoạn Gieo Xúc Xắc > Giai Đoạn Hành Động > Giai Đoạn Kết Thúc.",
+                    "contentraw": "Mỗi hiệp đều tiến hành theo thứ tự Giai Đoạn Gieo Xúc Xắc > Giai Đoạn Hành Động > Giai Đoạn Kết Thúc.",
+                    "filename_image": "UI_Gcg_InSide_11"
+                },
+                {
+                    "title": "Giai Đoạn Gieo Xúc Xắc",
+                    "titleraw": "Giai Đoạn Gieo Xúc Xắc",
+                    "content": "Giai Đoạn Gieo Xúc Xắc trong mỗi hiệp, bạn sẽ gieo 8 Xúc Xắc Nguyên Tố.\nSau khi gieo, bạn còn có 1 cơ hội chọn Xúc Xắc Nguyên Tố số lượng bất kỳ để gieo lại.\nMỗi Xúc Xắc Nguyên Tố đều có 7 loại nguyên tố Băng, Thủy, Hỏa, Lôi, Phong, Nham, Thảo và Nguyên Tố Vạn Năng có thể dùng như bất kỳ loại nguyên tố nào.\nSố lượng Xúc Xắc Nguyên Tố tối đa là 16, sau khi đạt đến giới hạn này, bạn sẽ không thể nhận thêm Xúc Xắc Nguyên Tố.",
+                    "contentraw": "Giai Đoạn Gieo Xúc Xắc trong mỗi hiệp, bạn sẽ gieo 8 Xúc Xắc Nguyên Tố.\\nSau khi gieo, bạn còn có 1 cơ hội chọn Xúc Xắc Nguyên Tố số lượng bất kỳ để gieo lại.\\nMỗi Xúc Xắc Nguyên Tố đều có 7 loại nguyên tố Băng, Thủy, Hỏa, Lôi, Phong, Nham, Thảo và Nguyên Tố Vạn Năng có thể dùng như bất kỳ loại nguyên tố nào.\\nSố lượng Xúc Xắc Nguyên Tố tối đa là 16, sau khi đạt đến giới hạn này, bạn sẽ không thể nhận thêm Xúc Xắc Nguyên Tố."
+                },
+                {
+                    "title": "Giai Đoạn Hành Động",
+                    "titleraw": "Giai Đoạn Hành Động",
+                    "content": "Bắt đầu từ bài thủ đi trước, hai bên lần lượt hành động. Các hành động bao gồm:\n[Dùng Kỹ Năng] Chi trả chi phí cần thiết để dùng kỹ năng của nhân vật xuất chiến.\n[Đổi Nhân Vật] Tiêu hao 1 Xúc Xắc Nguyên Tố bất kỳ để đổi nhân vật xuất chiến.\n[Ra Bài] Chi trả chi phí cần thiết để ra bài.\n[Điều Tiết Nguyên Tố] Bỏ đi 1 thẻ bài để thay đổi chủng loại 1 Xúc Xắc Nguyên Tố.\n[Tuyên Bố Kết Thúc] Kết thúc hành động hiệp này. Bài thủ tuyên bố kết thúc trước trong mỗi hiệp, sẽ trở thành bài thủ đi trước.",
+                    "contentraw": "Bắt đầu từ bài thủ đi trước, hai bên lần lượt hành động. Các hành động bao gồm:\\n<color=#FFE14BFF>[Dùng Kỹ Năng]</color> Chi trả chi phí cần thiết để dùng kỹ năng của nhân vật xuất chiến.\\n<color=#FFE14BFF>[Đổi Nhân Vật]</color> Tiêu hao 1 Xúc Xắc Nguyên Tố bất kỳ để đổi nhân vật xuất chiến.\\n<color=#FFE14BFF>[Ra Bài]</color> Chi trả chi phí cần thiết để ra bài.\\n<color=#FFE14BFF>[Điều Tiết Nguyên Tố]</color> Bỏ đi 1 thẻ bài để thay đổi chủng loại 1 Xúc Xắc Nguyên Tố.\\n<color=#FFE14BFF>[Tuyên Bố Kết Thúc]</color> Kết thúc hành động hiệp này. Bài thủ tuyên bố kết thúc trước trong mỗi hiệp, sẽ trở thành bài thủ đi trước."
+                },
+                {
+                    "title": "Giai Đoạn Kết Thúc",
+                    "titleraw": "Giai Đoạn Kết Thúc",
+                    "content": "Trong Giai Đoạn Hành Động, sau khi tất cả bài thủ đều tuyên bố kết thúc hiệp, sẽ vào Giai Đoạn Kết Thúc.\n1. Bắt đầu từ bài thủ đi trước, xử lý hiệu quả thẻ bài kích hoạt trong Giai Đoạn Kết Thúc.\n2. Mỗi bài thủ sẽ rút 2 thẻ bài từ trong bộ bài của mình.\n3. Bắt đầu hiệp mới!",
+                    "contentraw": "Trong Giai Đoạn Hành Động, sau khi tất cả bài thủ đều tuyên bố kết thúc hiệp, sẽ vào Giai Đoạn Kết Thúc.\\n1. Bắt đầu từ bài thủ đi trước, xử lý hiệu quả thẻ bài kích hoạt trong Giai Đoạn Kết Thúc.\\n2. Mỗi bài thủ sẽ rút 2 thẻ bài từ trong bộ bài của mình.\\n3. Bắt đầu hiệp mới!"
+                }
+            ]
+        },
+        "geniusinvokationtcg": {
+            "id": 1,
+            "name": "Thất Thánh Triệu Hồi",
+            "rules": [
+                {
+                    "title": "Giới Thiệu \"Thất Thánh Triệu Hồi\"",
+                    "titleraw": "Giới Thiệu \"Thất Thánh Triệu Hồi\"",
+                    "content": "\"Thất Thánh Triệu Hồi\" là một trò chơi quyết đấu thẻ bài có tiết tấu nhanh và đối kháng kịch liệt.\nThiết lập bộ bài bao gồm Thẻ Nhân Vật và Thẻ Hành Động, rồi bắt đầu trận chiến kịch liệt với đối thủ!",
+                    "contentraw": "\"Thất Thánh Triệu Hồi\" là một trò chơi quyết đấu thẻ bài có tiết tấu nhanh và đối kháng kịch liệt.\\nThiết lập bộ bài bao gồm Thẻ Nhân Vật và Thẻ Hành Động, rồi bắt đầu trận chiến kịch liệt với đối thủ!",
+                    "filename_image": "UI_Gcg_InSide_01"
+                },
+                {
+                    "title": "Chuẩn Bị",
+                    "titleraw": "Chuẩn Bị",
+                    "content": "(1) Bài thủ hai phe mỗi bên rút 5 thẻ bài khởi đầu, mỗi bên đều có 1 lần cơ hội đổi bài số lượng bất kỳ.\n(2) Mỗi phe chọn cho mình 1 Thẻ Nhân Vật để làm nhân vật xuất chiến.",
+                    "contentraw": "(1) Bài thủ hai phe mỗi bên rút 5 thẻ bài khởi đầu, mỗi bên đều có 1 lần cơ hội đổi bài số lượng bất kỳ.\\n(2) Mỗi phe chọn cho mình 1 Thẻ Nhân Vật để làm nhân vật xuất chiến."
+                },
+                {
+                    "title": "Quy Trình Chiến Đấu",
+                    "titleraw": "Quy Trình Chiến Đấu",
+                    "content": "Sau khi bắt đầu trận đấu \"Thất Thánh Triệu Hồi\", mỗi hiệp sẽ tiến hành theo thứ tự sau:\n(1) Giai Đoạn Gieo Xúc Xắc, hai phe có 8 Xúc Xắc Nguyên Tố để gieo.\n(2) Giai Đoạn Hành Động thì hai phe lần lượt hành động, cho đến khi tuyên bố kết thúc hiệp.\n(3) Giai Đoạn Kết Thúc mỗi phe rút 2 thẻ bài.",
+                    "contentraw": "Sau khi bắt đầu trận đấu \"Thất Thánh Triệu Hồi\", mỗi hiệp sẽ tiến hành theo thứ tự sau:\\n(1) Giai Đoạn Gieo Xúc Xắc, hai phe có 8 Xúc Xắc Nguyên Tố để gieo.\\n(2) Giai Đoạn Hành Động thì hai phe lần lượt hành động, cho đến khi tuyên bố kết thúc hiệp.\\n(3) Giai Đoạn Kết Thúc mỗi phe rút 2 thẻ bài."
+                },
+                {
+                    "title": "Điều Kiện Chiến Thắng",
+                    "titleraw": "Điều Kiện Chiến Thắng",
+                    "content": "Dùng Thẻ Nhân Vật của bạn phát động tấn công, đánh bại Thẻ Nhân Vật của đối phương!\nĐánh bại tất cả Thẻ Nhân Vật của đối phương sẽ giành chiến thắng!",
+                    "contentraw": "Dùng Thẻ Nhân Vật của bạn phát động tấn công, đánh bại Thẻ Nhân Vật của đối phương!\\nĐánh bại tất cả Thẻ Nhân Vật của đối phương sẽ giành chiến thắng!"
                 }
             ]
         },
@@ -245,161 +383,23 @@
                 }
             ]
         },
-        "specialentry": {
-            "id": 8,
-            "name": "Mục Đặc Biệt",
+        "elementalreactionsrules": {
+            "id": 5,
+            "name": "Quy Tắc Phản Ứng Nguyên Tố",
             "rules": [
                 {
-                    "title": "Món Ăn",
-                    "titleraw": "{SPRITE_PRESET#3101}Món Ăn",
-                    "content": "Khi Thẻ Sự Kiện Món Ăn có hiệu lực với nhân vật, nhân vật sẽ vào trạng thái No Bụng.\nNhân vật trong trạng thái No Bụng, không thể trở thành mục tiêu của Thẻ Sự Kiện Món Ăn khác, cũng không bị ảnh hưởng bởi hiệu quả của Thẻ Sự Kiện Món Ăn khác.\nTrạng thái No Bụng sẽ xóa khi kết thúc hiệp hoặc nhân vật bị đánh bại.\nNgoài ra, sau khi đánh ra Thẻ Sự Kiện Món Ăn có hiệu quả \"Hồi Sinh\", trong hiệp này không thể đánh ra Thẻ Sự Kiện Món Ăn có hiệu quả \"Hồi Sinh\" nữa.",
-                    "contentraw": "Khi Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn có hiệu lực với nhân vật, nhân vật sẽ vào trạng thái No Bụng.\\nNhân vật trong trạng thái No Bụng, không thể trở thành mục tiêu của Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn khác, cũng không bị ảnh hưởng bởi hiệu quả của Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn khác.\\nTrạng thái No Bụng sẽ xóa khi kết thúc hiệp hoặc nhân vật bị đánh bại.\\nNgoài ra, sau khi đánh ra Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn có hiệu quả \"Hồi Sinh\", trong hiệp này không thể đánh ra Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn có hiệu quả \"Hồi Sinh\" nữa."
+                    "title": "Gán Ấn Nguyên Tố",
+                    "titleraw": "Gán Ấn Nguyên Tố",
+                    "content": "Khi nhân vật chịu sát thương nguyên tố Băng, Thủy, Hỏa, Lôi, Thảo, sẽ bị gán ấn nguyên tố tương ứng.\n(Sát Thương Nguyên Tố Phong và Sát Thương Nguyên Tố Nham không thể gán ấn nguyên tố.)",
+                    "contentraw": "Khi nhân vật chịu sát thương nguyên tố {SPRITE_PRESET#2101}<color=#99FFFFFF>Băng</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Thủy</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Hỏa</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Lôi</color>, {SPRITE_PRESET#2107}<color=#7EC236FF>Thảo</color>, sẽ bị <color=#FFE14BFF>gán ấn</color> nguyên tố tương ứng.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color> và {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color> không thể gán ấn nguyên tố.)",
+                    "filename_image": "UI_Gcg_InSide_12"
                 },
                 {
-                    "title": "Khiên",
-                    "titleraw": "{SPRITE_PRESET#4007}Khiên",
-                    "content": "Một số hiệu quả sẽ tạo ra khiên để bảo vệ nhân vật nhất định.\nNhân vật được khiên bảo vệ khi chịu sát thương, sẽ tiêu hao điểm khiên để giảm bớt sát thương.",
-                    "contentraw": "Một số hiệu quả sẽ tạo ra khiên để bảo vệ nhân vật nhất định.\\nNhân vật được khiên bảo vệ khi chịu sát thương, sẽ tiêu hao điểm khiên để giảm bớt sát thương."
-                },
-                {
-                    "title": "Số Lần Sử Dụng",
-                    "titleraw": "Số Lần Sử Dụng",
-                    "content": "Một số thẻ bài hoặc trạng thái có giới hạn số lần sử dụng.\nMỗi lần kích hoạt hiệu quả thẻ bài này sẽ tiêu hao 1 lần sử dụng.\nSau khi hết lượt dùng sẽ lập tức hủy bỏ thẻ bài này.",
-                    "contentraw": "Một số thẻ bài hoặc trạng thái có giới hạn số lần sử dụng.\\nMỗi lần kích hoạt hiệu quả thẻ bài này sẽ tiêu hao 1 lần sử dụng.\\nSau khi hết lượt dùng sẽ lập tức hủy bỏ thẻ bài này."
-                },
-                {
-                    "title": "Số Hiệp Duy Trì",
-                    "titleraw": "Số Hiệp Duy Trì",
-                    "content": "Một số thẻ bài hoặc trạng thái có giới hạn số hiệp duy trì.\nMỗi Giai Đoạn Kết Thúc đều sẽ giảm 1 hiệp duy trì.\nSau khi hết số hiệp duy trì sẽ lập tức hủy bỏ thẻ bài này.",
-                    "contentraw": "Một số thẻ bài hoặc trạng thái có giới hạn số hiệp duy trì.\\nMỗi Giai Đoạn Kết Thúc đều sẽ giảm 1 hiệp duy trì.\\nSau khi hết số hiệp duy trì sẽ lập tức hủy bỏ thẻ bài này."
-                },
-                {
-                    "title": "Sát Thương Xuyên Thấu",
-                    "titleraw": "Sát Thương Xuyên Thấu",
-                    "content": "Một số hiệu quả sẽ tạo ra Sát Thương Xuyên Thấu.\nSát thương xuyên thấu sẽ không nhận buff sát thương từ hiệu quả khác, và cũng không chịu ảnh hưởng của hiệu quả khiên.",
-                    "contentraw": "Một số hiệu quả sẽ tạo ra Sát Thương Xuyên Thấu.\\nSát thương xuyên thấu sẽ không nhận buff sát thương từ hiệu quả khác, và cũng không chịu ảnh hưởng của hiệu quả khiên."
-                },
-                {
-                    "title": "Hành Động Chiến Đấu - Thẻ Hành Động",
-                    "titleraw": "Hành Động Chiến Đấu - Thẻ Hành Động",
-                    "content": "Một số Thẻ Hành Động sẽ có quy tắc Hành Động Chiến Đấu.\nĐánh ra thẻ bài có quy tắc này, sẽ được xem là tiến hành Hành Động Chiến Đấu, chứ không phải Hành Động Nhanh thông thường.",
-                    "contentraw": "Một số Thẻ Hành Động sẽ có quy tắc Hành Động Chiến Đấu.\\nĐánh ra thẻ bài có quy tắc này, sẽ được xem là tiến hành Hành Động Chiến Đấu, chứ không phải Hành Động Nhanh thông thường."
-                },
-                {
-                    "title": "Trọng Kích",
-                    "titleraw": "Trọng Kích",
-                    "content": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\".",
-                    "contentraw": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\"."
-                },
-                {
-                    "title": "Tấn Công Khi Đáp",
-                    "titleraw": "Tấn Công Khi Đáp",
-                    "content": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\".",
-                    "contentraw": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\"."
-                }
-            ]
-        },
-        "takeaction": {
-            "id": 3,
-            "name": "Hành Động",
-            "rules": [
-                {
-                    "title": "Hành Động",
-                    "titleraw": "Hành Động",
-                    "content": "Trong Giai Đoạn Hành Động, các hành động được chia làm Hành Động Chiến Đấu và Hành Động Nhanh.\nHành Động Chiến Đấu: Sau khi hoàn thành 1 Hành Động Chiến Đấu, sẽ đến lượt đối phương hành động. Dùng kỹ năng, đổi nhân vật, tuyên bố kết thúc đều là Hành Động Chiến Đấu.\nHành Động Nhanh: Sau khi hoàn thành 1 Hành Động Nhanh, phe ta có thể tiếp tục hành động. Ra bài và Điều Tiết Nguyên Tố là Hành Động Nhanh.",
-                    "contentraw": "Trong Giai Đoạn Hành Động, các hành động được chia làm Hành Động Chiến Đấu và Hành Động Nhanh.\\n<color=#FFE14BFF>Hành Động Chiến Đấu</color>: Sau khi hoàn thành 1 Hành Động Chiến Đấu, sẽ đến lượt đối phương hành động. Dùng kỹ năng, đổi nhân vật, tuyên bố kết thúc đều là Hành Động Chiến Đấu.\\n<color=#FFE14BFF>Hành Động Nhanh</color>: Sau khi hoàn thành 1 Hành Động Nhanh, phe ta có thể tiếp tục hành động. Ra bài và Điều Tiết Nguyên Tố là Hành Động Nhanh."
-                },
-                {
-                    "title": "Hành Động Chiến Đấu - Dùng Kỹ Năng",
-                    "titleraw": "Hành Động Chiến Đấu - Dùng Kỹ Năng",
-                    "content": "Tiêu hao Xúc Xắc Nguyên Tố chi trả chi phí cần thiết, để nhân vật xuất chiến phe ta dùng kỹ năng tấn công nhân vật xuất chiến của đối phương.\nSau mỗi lần nhân vật dùng tấn công thường hoặc Kỹ Năng Nguyên Tố, sẽ nhận 1 điểm Năng Lượng.\nSau khi nhân vật đầy Năng Lượng, có thể tiêu hao toàn bộ Năng Lượng để dùng Kỹ Năng Nộ uy lực mạnh mẽ!",
-                    "contentraw": "Tiêu hao Xúc Xắc Nguyên Tố chi trả chi phí cần thiết, để nhân vật xuất chiến phe ta dùng kỹ năng tấn công nhân vật xuất chiến của đối phương.\\nSau mỗi lần nhân vật dùng tấn công thường hoặc Kỹ Năng Nguyên Tố, sẽ nhận 1 điểm Năng Lượng.\\nSau khi nhân vật đầy Năng Lượng, có thể tiêu hao toàn bộ Năng Lượng để dùng Kỹ Năng Nộ uy lực mạnh mẽ!"
-                },
-                {
-                    "title": "Hành Động Chiến Đấu - Đổi Nhân Vật",
-                    "titleraw": "Hành Động Chiến Đấu - Đổi Nhân Vật",
-                    "content": "Tiêu hao 1 Xúc Xắc Nguyên Tố loại bất kỳ để đổi nhân vật dự bị phe ta thành nhân vật xuất chiến.",
-                    "contentraw": "Tiêu hao 1 Xúc Xắc Nguyên Tố loại bất kỳ để đổi nhân vật dự bị phe ta thành nhân vật xuất chiến."
-                },
-                {
-                    "title": "Hành Động Nhanh - Ra Bài",
-                    "titleraw": "Hành Động Nhanh - Ra Bài",
-                    "content": "Tiêu hao Xúc Xắc Nguyên Tố để đánh ra 1 thẻ bài. Thẻ bài gồm các loại sau:\nThẻ Trang Bị: Trang bị trên người một nhân vật để cung cấp hiệu quả cường hóa nhân vật này.\nThẻ Hỗ Trợ: Đặt ở Khu Chi Viện phe ta, duy trì phát huy hiệu quả hỗ trợ.\nThẻ Sự Kiện: Sau khi đánh ra sẽ tổng kết mọi hiệu quả trong một lần.",
-                    "contentraw": "Tiêu hao Xúc Xắc Nguyên Tố để đánh ra 1 thẻ bài. Thẻ bài gồm các loại sau:\\n<color=#FFE14BFF>Thẻ Trang Bị</color>: Trang bị trên người một nhân vật để cung cấp hiệu quả cường hóa nhân vật này.\\n<color=#FFE14BFF>Thẻ Hỗ Trợ</color>: Đặt ở Khu Chi Viện phe ta, duy trì phát huy hiệu quả hỗ trợ.\\n<color=#FFE14BFF>Thẻ Sự Kiện</color>: Sau khi đánh ra sẽ tổng kết mọi hiệu quả trong một lần."
-                },
-                {
-                    "title": "Hành Động Nhanh - Điều Tiết Nguyên Tố",
-                    "titleraw": "Hành Động Nhanh - Điều Tiết Nguyên Tố",
-                    "content": "Vứt bỏ 1 thẻ bài để chuyển 1 Xúc Xắc Nguyên Tố thành loại nguyên tố của nhân vật xuất chiến hiện tại của phe ta.",
-                    "contentraw": "Vứt bỏ 1 thẻ bài để chuyển 1 Xúc Xắc Nguyên Tố thành loại nguyên tố của nhân vật xuất chiến hiện tại của phe ta."
-                },
-                {
-                    "title": "Hành Động Chiến Đấu - Tuyên Bố Kết Thúc",
-                    "titleraw": "Hành Động Chiến Đấu - Tuyên Bố Kết Thúc",
-                    "content": "Từ bỏ hành động hiệp này, tuyên bố kết thúc hiệp.\nBài thủ tuyên bố kết thúc trước sẽ trở thành bài thủ đi trước, trong Giai Đoạn Hành Động ở hiệp sau sẽ được ưu tiên hành động trước.\nBài thủ chưa tuyên bố kết thúc hiệp có thể tiếp tục hành động cho đến khi tuyên bố kết thúc.\nSau khi hai phe tuyên bố kết thúc hiệp, sẽ kết thúc Giai Đoạn Hành Động và bước vào Giai Đoạn Kết Thúc.",
-                    "contentraw": "Từ bỏ hành động hiệp này, tuyên bố kết thúc hiệp.\\nBài thủ tuyên bố kết thúc trước sẽ trở thành bài thủ đi trước, trong Giai Đoạn Hành Động ở hiệp sau sẽ được ưu tiên hành động trước.\\nBài thủ chưa tuyên bố kết thúc hiệp có thể tiếp tục hành động cho đến khi tuyên bố kết thúc.\\nSau khi hai phe tuyên bố kết thúc hiệp, sẽ kết thúc Giai Đoạn Hành Động và bước vào Giai Đoạn Kết Thúc."
-                }
-            ]
-        },
-        "roundflow": {
-            "id": 2,
-            "name": "Quy Trình Hiệp Đấu",
-            "rules": [
-                {
-                    "title": "Quy Trình Hiệp Đấu",
-                    "titleraw": "Quy Trình Hiệp Đấu",
-                    "content": "Mỗi hiệp đều tiến hành theo thứ tự Giai Đoạn Gieo Xúc Xắc > Giai Đoạn Hành Động > Giai Đoạn Kết Thúc.",
-                    "contentraw": "Mỗi hiệp đều tiến hành theo thứ tự Giai Đoạn Gieo Xúc Xắc > Giai Đoạn Hành Động > Giai Đoạn Kết Thúc.",
-                    "filename_image": "UI_Gcg_InSide_11"
-                },
-                {
-                    "title": "Giai Đoạn Gieo Xúc Xắc",
-                    "titleraw": "Giai Đoạn Gieo Xúc Xắc",
-                    "content": "Giai Đoạn Gieo Xúc Xắc trong mỗi hiệp, bạn sẽ gieo 8 Xúc Xắc Nguyên Tố.\nSau khi gieo, bạn còn có 1 cơ hội chọn Xúc Xắc Nguyên Tố số lượng bất kỳ để gieo lại.\nMỗi Xúc Xắc Nguyên Tố đều có 7 loại nguyên tố Băng, Thủy, Hỏa, Lôi, Phong, Nham, Thảo và Nguyên Tố Vạn Năng có thể dùng như bất kỳ loại nguyên tố nào.\nSố lượng Xúc Xắc Nguyên Tố tối đa là 16, sau khi đạt đến giới hạn này, bạn sẽ không thể nhận thêm Xúc Xắc Nguyên Tố.",
-                    "contentraw": "Giai Đoạn Gieo Xúc Xắc trong mỗi hiệp, bạn sẽ gieo 8 Xúc Xắc Nguyên Tố.\\nSau khi gieo, bạn còn có 1 cơ hội chọn Xúc Xắc Nguyên Tố số lượng bất kỳ để gieo lại.\\nMỗi Xúc Xắc Nguyên Tố đều có 7 loại nguyên tố Băng, Thủy, Hỏa, Lôi, Phong, Nham, Thảo và Nguyên Tố Vạn Năng có thể dùng như bất kỳ loại nguyên tố nào.\\nSố lượng Xúc Xắc Nguyên Tố tối đa là 16, sau khi đạt đến giới hạn này, bạn sẽ không thể nhận thêm Xúc Xắc Nguyên Tố."
-                },
-                {
-                    "title": "Giai Đoạn Hành Động",
-                    "titleraw": "Giai Đoạn Hành Động",
-                    "content": "Bắt đầu từ bài thủ đi trước, hai bên lần lượt hành động. Các hành động bao gồm:\n[Dùng Kỹ Năng] Chi trả chi phí cần thiết để dùng kỹ năng của nhân vật xuất chiến.\n[Đổi Nhân Vật] Tiêu hao 1 Xúc Xắc Nguyên Tố bất kỳ để đổi nhân vật xuất chiến.\n[Ra Bài] Chi trả chi phí cần thiết để ra bài.\n[Điều Tiết Nguyên Tố] Bỏ đi 1 thẻ bài để thay đổi chủng loại 1 Xúc Xắc Nguyên Tố.\n[Tuyên Bố Kết Thúc] Kết thúc hành động hiệp này. Bài thủ tuyên bố kết thúc trước trong mỗi hiệp, sẽ trở thành bài thủ đi trước.",
-                    "contentraw": "Bắt đầu từ bài thủ đi trước, hai bên lần lượt hành động. Các hành động bao gồm:\\n<color=#FFE14BFF>[Dùng Kỹ Năng]</color> Chi trả chi phí cần thiết để dùng kỹ năng của nhân vật xuất chiến.\\n<color=#FFE14BFF>[Đổi Nhân Vật]</color> Tiêu hao 1 Xúc Xắc Nguyên Tố bất kỳ để đổi nhân vật xuất chiến.\\n<color=#FFE14BFF>[Ra Bài]</color> Chi trả chi phí cần thiết để ra bài.\\n<color=#FFE14BFF>[Điều Tiết Nguyên Tố]</color> Bỏ đi 1 thẻ bài để thay đổi chủng loại 1 Xúc Xắc Nguyên Tố.\\n<color=#FFE14BFF>[Tuyên Bố Kết Thúc]</color> Kết thúc hành động hiệp này. Bài thủ tuyên bố kết thúc trước trong mỗi hiệp, sẽ trở thành bài thủ đi trước."
-                },
-                {
-                    "title": "Giai Đoạn Kết Thúc",
-                    "titleraw": "Giai Đoạn Kết Thúc",
-                    "content": "Trong Giai Đoạn Hành Động, sau khi tất cả bài thủ đều tuyên bố kết thúc hiệp, sẽ vào Giai Đoạn Kết Thúc.\n1. Bắt đầu từ bài thủ đi trước, xử lý hiệu quả thẻ bài kích hoạt trong Giai Đoạn Kết Thúc.\n2. Mỗi bài thủ sẽ rút 2 thẻ bài từ trong bộ bài của mình.\n3. Bắt đầu hiệp mới!",
-                    "contentraw": "Trong Giai Đoạn Hành Động, sau khi tất cả bài thủ đều tuyên bố kết thúc hiệp, sẽ vào Giai Đoạn Kết Thúc.\\n1. Bắt đầu từ bài thủ đi trước, xử lý hiệu quả thẻ bài kích hoạt trong Giai Đoạn Kết Thúc.\\n2. Mỗi bài thủ sẽ rút 2 thẻ bài từ trong bộ bài của mình.\\n3. Bắt đầu hiệp mới!"
-                }
-            ]
-        },
-        "geniusinvokationtcg": {
-            "id": 1,
-            "name": "Thất Thánh Triệu Hồi",
-            "rules": [
-                {
-                    "title": "Giới Thiệu \"Thất Thánh Triệu Hồi\"",
-                    "titleraw": "Giới Thiệu \"Thất Thánh Triệu Hồi\"",
-                    "content": "\"Thất Thánh Triệu Hồi\" là một trò chơi quyết đấu thẻ bài có tiết tấu nhanh và đối kháng kịch liệt.\nThiết lập bộ bài bao gồm Thẻ Nhân Vật và Thẻ Hành Động, rồi bắt đầu trận chiến kịch liệt với đối thủ!",
-                    "contentraw": "\"Thất Thánh Triệu Hồi\" là một trò chơi quyết đấu thẻ bài có tiết tấu nhanh và đối kháng kịch liệt.\\nThiết lập bộ bài bao gồm Thẻ Nhân Vật và Thẻ Hành Động, rồi bắt đầu trận chiến kịch liệt với đối thủ!",
-                    "filename_image": "UI_Gcg_InSide_01"
-                },
-                {
-                    "title": "Chuẩn Bị",
-                    "titleraw": "Chuẩn Bị",
-                    "content": "(1) Bài thủ hai phe mỗi bên rút 5 thẻ bài khởi đầu, mỗi bên đều có 1 lần cơ hội đổi bài số lượng bất kỳ.\n(2) Mỗi phe chọn cho mình 1 Thẻ Nhân Vật để làm nhân vật xuất chiến.",
-                    "contentraw": "(1) Bài thủ hai phe mỗi bên rút 5 thẻ bài khởi đầu, mỗi bên đều có 1 lần cơ hội đổi bài số lượng bất kỳ.\\n(2) Mỗi phe chọn cho mình 1 Thẻ Nhân Vật để làm nhân vật xuất chiến."
-                },
-                {
-                    "title": "Quy Trình Chiến Đấu",
-                    "titleraw": "Quy Trình Chiến Đấu",
-                    "content": "Sau khi bắt đầu trận đấu \"Thất Thánh Triệu Hồi\", mỗi hiệp sẽ tiến hành theo thứ tự sau:\n(1) Giai Đoạn Gieo Xúc Xắc, hai phe có 8 Xúc Xắc Nguyên Tố để gieo.\n(2) Giai Đoạn Hành Động thì hai phe lần lượt hành động, cho đến khi tuyên bố kết thúc hiệp.\n(3) Giai Đoạn Kết Thúc mỗi phe rút 2 thẻ bài.",
-                    "contentraw": "Sau khi bắt đầu trận đấu \"Thất Thánh Triệu Hồi\", mỗi hiệp sẽ tiến hành theo thứ tự sau:\\n(1) Giai Đoạn Gieo Xúc Xắc, hai phe có 8 Xúc Xắc Nguyên Tố để gieo.\\n(2) Giai Đoạn Hành Động thì hai phe lần lượt hành động, cho đến khi tuyên bố kết thúc hiệp.\\n(3) Giai Đoạn Kết Thúc mỗi phe rút 2 thẻ bài."
-                },
-                {
-                    "title": "Điều Kiện Chiến Thắng",
-                    "titleraw": "Điều Kiện Chiến Thắng",
-                    "content": "Dùng Thẻ Nhân Vật của bạn phát động tấn công, đánh bại Thẻ Nhân Vật của đối phương!\nĐánh bại tất cả Thẻ Nhân Vật của đối phương sẽ giành chiến thắng!",
-                    "contentraw": "Dùng Thẻ Nhân Vật của bạn phát động tấn công, đánh bại Thẻ Nhân Vật của đối phương!\\nĐánh bại tất cả Thẻ Nhân Vật của đối phương sẽ giành chiến thắng!"
+                    "title": "Quy Tắc Phản Ứng Nguyên Tố",
+                    "titleraw": "Quy Tắc Phản Ứng Nguyên Tố",
+                    "content": "Đối với mục tiêu đã bị Gán Ấn Nguyên Tố:\n(1) Khi tạo thành sát thương nguyên tố loại nhất định, sẽ kích hoạt phản ứng nguyên tố.\n(2) Khi dùng hình thức phi sát thương để thi triển gán ấn nguyên tố loại nhất định cũng sẽ kích hoạt phản ứng nguyên tố. Khi tổng kết hiệu quả loại phản ứng nguyên tố này, sẽ bỏ qua mọi hiệu quả sát thương.",
+                    "contentraw": "Đối với mục tiêu đã bị <color=#FFE14BFF>Gán Ấn Nguyên Tố</color>:\\n(1) Khi tạo thành <color=#FFE14BFF>sát thương nguyên tố</color> loại nhất định, sẽ kích hoạt phản ứng nguyên tố.\\n(2) Khi dùng hình thức phi sát thương để thi triển gán ấn nguyên tố loại nhất định cũng sẽ kích hoạt phản ứng nguyên tố. Khi tổng kết hiệu quả loại phản ứng nguyên tố này, sẽ bỏ qua mọi hiệu quả sát thương.",
+                    "filename_image": "UI_Gcg_InSide_13"
                 }
             ]
         },

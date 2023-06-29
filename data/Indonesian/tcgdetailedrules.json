@@ -1,22 +1,160 @@
 {
     "items": {
-        "elementalreactionsrules": {
-            "id": 5,
-            "name": "Reaksi Elemental: Aturan",
+        "takeaction": {
+            "id": 3,
+            "name": "Lakukan Aksi",
             "rules": [
                 {
-                    "title": "Efek Elemental",
-                    "titleraw": "Efek Elemental",
-                    "content": "Saat Karakter menerima Cryo, Hydro, Pyro, Electro, atau Dendro DMG, mereka akan terpengaruh oleh elemen yang bersangkutan.\n(Anemo DMG dan Geo DMG tidak dapat memberikan efek elemental dengan cara ini.)",
-                    "contentraw": "Saat Karakter menerima {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>, atau {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> DMG, mereka akan <color=#FFE14BFF>terpengaruh</color> oleh elemen yang bersangkutan.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color> dan {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color> tidak dapat memberikan efek elemental dengan cara ini.)",
-                    "filename_image": "UI_Gcg_InSide_12"
+                    "title": "Aksi",
+                    "titleraw": "Aksi",
+                    "content": "Aksi yang dapat dilakukan selama Tahap Aksi, dibagi menjadi Aksi Tempur dan Aksi Cepat.\nAksi Tempur: Setelah menyelesaikan 1 Aksi Tempur, giliranmu akan diteruskan ke lawan. Menggunakan Skill, bertukar Karakter, dan menyatakan akhir Ronde dihitung sebagai Aksi Tempur.\nAksi Cepat: Kamu dapat melanjutkan giliran setelah menyelesaikan Aksi Cepat. Memainkan kartu dan Harmonisasi Elemen dianggap sebagai Aksi Cepat.",
+                    "contentraw": "Aksi yang dapat dilakukan selama Tahap Aksi, dibagi menjadi Aksi Tempur dan Aksi Cepat.\\n<color=#FFE14BFF>Aksi Tempur</color>: Setelah menyelesaikan 1 Aksi Tempur, giliranmu akan diteruskan ke lawan. Menggunakan Skill, bertukar Karakter, dan menyatakan akhir Ronde dihitung sebagai Aksi Tempur.\\n<color=#FFE14BFF>Aksi Cepat</color>: Kamu dapat melanjutkan giliran setelah menyelesaikan Aksi Cepat. Memainkan kartu dan Harmonisasi Elemen dianggap sebagai Aksi Cepat."
                 },
                 {
-                    "title": "Aturan-Aturan Reaksi Elemental",
-                    "titleraw": "Aturan-Aturan Reaksi Elemental",
-                    "content": "Ketika target telah Terpengaruh Efek Elemen:\n1. Mengakibatkan DMG Elemental jenis tertentu akan memicu Reaksi Elemental.\n2. Menggunakan efek yang bukan DMG untuk memberikan pengaruh efek elemen tertentu juga akan memicu Reaksi Elemental. Saat menghitung efek dari Reaksi Elemental tersebut, semua efek tipe DMG akan diabaikan.",
-                    "contentraw": "Ketika target telah <color=#FFE14BFF>Terpengaruh Efek Elemen</color>:\\n1. Mengakibatkan <color=#FFE14BFF>DMG Elemental</color> jenis tertentu akan memicu Reaksi Elemental.\\n2. Menggunakan efek yang bukan DMG untuk memberikan pengaruh efek elemen tertentu juga akan memicu Reaksi Elemental. Saat menghitung efek dari Reaksi Elemental tersebut, semua efek tipe DMG akan diabaikan.",
-                    "filename_image": "UI_Gcg_InSide_13"
+                    "title": "Aksi Tempur - Gunakan Skill",
+                    "titleraw": "Aksi Tempur - Gunakan Skill",
+                    "content": "Gunakan Dadu Elemental-mu untuk membayar biaya yang bersangkutan, yang bisa membuat Karakter Aktifmu menggunakan Skill untuk menyerang Karakter Aktif lawan.\nSetiap kali setelah Karakter menggunakan Normal Attack atau Elemental Skill, mereka akan mendapatkan 1 Energy.\nSetelah Energy Karakter mencapai batas maksimum, mereka dapat menghabiskan semuanya sekaligus untuk menggunakan Elemental Burst yang kuat!",
+                    "contentraw": "Gunakan Dadu Elemental-mu untuk membayar biaya yang bersangkutan, yang bisa membuat Karakter Aktifmu menggunakan Skill untuk menyerang Karakter Aktif lawan.\\nSetiap kali setelah Karakter menggunakan Normal Attack atau Elemental Skill, mereka akan mendapatkan 1 Energy.\\nSetelah Energy Karakter mencapai batas maksimum, mereka dapat menghabiskan semuanya sekaligus untuk menggunakan Elemental Burst yang kuat!"
+                },
+                {
+                    "title": "Aksi Tempur - Tukar Karakter",
+                    "titleraw": "Aksi Tempur - Tukar Karakter",
+                    "content": "Habiskan 1 Dadu Elemental pilihanmu untuk mengganti salah satu Karaktermu yang standby menjadi Aktif.",
+                    "contentraw": "Habiskan 1 Dadu Elemental pilihanmu untuk mengganti salah satu Karaktermu yang standby menjadi Aktif."
+                },
+                {
+                    "title": "Aksi Cepat - Mainkan Kartu",
+                    "titleraw": "Aksi Cepat - Mainkan Kartu",
+                    "content": "Gunakan Dadu Elemental untuk membayar biaya yang bersangkutan dan memainkan kartu. Kartu yang dimainkan dibagi ke dalam kategori berikut:\nKartu Equipment: Kartu ini dikenakan pada Karakter untuk menerapkan efek yang meningkatkan Karakter ini.\nKartu Pendukung: Tempatkan ini di Zona Pendukung-mu untuk terus menerapkan efek pendukung.\nKartu Peristiwa: Mainkan ini untuk segera memicu semua efeknya.",
+                    "contentraw": "Gunakan Dadu Elemental untuk membayar biaya yang bersangkutan dan memainkan kartu. Kartu yang dimainkan dibagi ke dalam kategori berikut:\\n<color=#FFE14BFF>Kartu Equipment</color>: Kartu ini dikenakan pada Karakter untuk menerapkan efek yang meningkatkan Karakter ini.\\n<color=#FFE14BFF>Kartu Pendukung</color>: Tempatkan ini di Zona Pendukung-mu untuk terus menerapkan efek pendukung.\\n<color=#FFE14BFF>Kartu Peristiwa</color>: Mainkan ini untuk segera memicu semua efeknya."
+                },
+                {
+                    "title": "Aksi Cepat - Harmonisasi Elemen",
+                    "titleraw": "Aksi Cepat - Harmonisasi Elemen",
+                    "content": "Buang 1 kartu dari Tanganmu untuk mengubah 1 Dadu Elemental menjadi Tipe Elemen dari Karakter Aktifmu.",
+                    "contentraw": "Buang 1 kartu dari Tanganmu untuk mengubah 1 Dadu Elemental menjadi Tipe Elemen dari Karakter Aktifmu."
+                },
+                {
+                    "title": "Aksi Tempur - Nyatakan Akhir Ronde",
+                    "titleraw": "Aksi Tempur - Nyatakan Akhir Ronde",
+                    "content": "Berhenti untuk melakukan Aksi lebih lanjut dan menyatakan berakhirnya Ronde.\nPemain yang duluan mengakhiri Ronde akan melangkah terlebih dulu di Ronde berikutnya, ini berarti bahwa mereka akan memiliki inisiatif sepanjang Tahap Aksi di Ronde berikutnya.\nSetelah ini, pemain yang belum menyatakan berakhirnya Ronde akan terus melakukan Aksi.\nSetelah kedua pemain sudah membuat pernyataannya, maka Tahap Aksi akan berakhir dan Tahap Selesai Ronde ini akan dimulai.",
+                    "contentraw": "Berhenti untuk melakukan Aksi lebih lanjut dan menyatakan berakhirnya Ronde.\\nPemain yang duluan mengakhiri Ronde akan melangkah terlebih dulu di Ronde berikutnya, ini berarti bahwa mereka akan memiliki inisiatif sepanjang Tahap Aksi di Ronde berikutnya.\\nSetelah ini, pemain yang belum menyatakan berakhirnya Ronde akan terus melakukan Aksi.\\nSetelah kedua pemain sudah membuat pernyataannya, maka Tahap Aksi akan berakhir dan Tahap Selesai Ronde ini akan dimulai."
+                }
+            ]
+        },
+        "specialentry": {
+            "id": 8,
+            "name": "Istilah Khusus",
+            "rules": [
+                {
+                    "title": "Makanan",
+                    "titleraw": "{SPRITE_PRESET#3101}Makanan",
+                    "content": "Saat Kartu Peristiwa Makanan diaktifkan kepada Karakter tertentu, Karakter akan mendapatkan status \"Satiated\".\nKarakter yang memiliki status \"Satiated\" tidak dapat menjadi target dari Kartu Peristiwa Makanan lain dan juga tidak dapat menerima efek dari Kartu Peristiwa Makanan lain.\nStatus \"Satiated\" akan terhapus saat Ronde berakhir atau Karakter gugur.\nSelain itu, setelah memainkan Kartu Peristiwa Makanan yang dapat menghidupkan Karakter kembali, kamu tidak dapat memainkan Kartu Peristiwa Makanan yang dapat menghidupkan Karakter sekali lagi pada Ronde tersebut.",
+                    "contentraw": "Saat Kartu Peristiwa {SPRITE_PRESET#3101}Makanan diaktifkan kepada Karakter tertentu, Karakter akan mendapatkan status \"Satiated\".\\nKarakter yang memiliki status \"Satiated\" tidak dapat menjadi target dari Kartu Peristiwa {SPRITE_PRESET#3101}Makanan lain dan juga tidak dapat menerima efek dari Kartu Peristiwa {SPRITE_PRESET#3101}Makanan lain.\\nStatus \"Satiated\" akan terhapus saat Ronde berakhir atau Karakter gugur.\\nSelain itu, setelah memainkan Kartu Peristiwa {SPRITE_PRESET#3101}Makanan yang dapat menghidupkan Karakter kembali, kamu tidak dapat memainkan Kartu Peristiwa {SPRITE_PRESET#3101}Makanan yang dapat menghidupkan Karakter sekali lagi pada Ronde tersebut."
+                },
+                {
+                    "title": "Perisai",
+                    "titleraw": "{SPRITE_PRESET#4007}Perisai",
+                    "content": "Beberapa efek dapat memberikan Perisai yang dapat melindungi Karakter tertentu.\nSaat Karakter dengan Perisai menerima DMG, nilai Perisai akan digunakan untuk menahan DMG tersebut.",
+                    "contentraw": "Beberapa efek dapat memberikan Perisai yang dapat melindungi Karakter tertentu.\\nSaat Karakter dengan Perisai menerima DMG, nilai Perisai akan digunakan untuk menahan DMG tersebut."
+                },
+                {
+                    "title": "Penggunaan",
+                    "titleraw": "Penggunaan",
+                    "content": "Beberapa kartu memiliki Penggunaan terbatas.\nSetiap kali efek kartu ini dipicu, 1 Penggunaan-nya akan terkonsumsi.\nKetika Penggunaan kartu habis, kartu akan langsung dibuang.",
+                    "contentraw": "Beberapa kartu memiliki Penggunaan terbatas.\\nSetiap kali efek kartu ini dipicu, 1 Penggunaan-nya akan terkonsumsi.\\nKetika Penggunaan kartu habis, kartu akan langsung dibuang."
+                },
+                {
+                    "title": "Durasi (Ronde)",
+                    "titleraw": "Durasi (Ronde)",
+                    "content": "Beberapa kartu memiliki Durasi yang terbatas.\nSetiap Tahap Selesai, 1 Ronde akan dihapus dari Durasi ini.\nSaat Durasi kartu habis, segera buang kartunya.",
+                    "contentraw": "Beberapa kartu memiliki Durasi yang terbatas.\\nSetiap Tahap Selesai, 1 Ronde akan dihapus dari Durasi ini.\\nSaat Durasi kartu habis, segera buang kartunya."
+                },
+                {
+                    "title": "Piercing DMG",
+                    "titleraw": "Piercing DMG",
+                    "content": "Beberapa efek dapat mengakibatkan Piercing DMG.\nDMG seperti itu tidak dapat ditingkatkan oleh efek apa pun dan tidak dapat juga ditahan oleh Perisai apa pun.",
+                    "contentraw": "Beberapa efek dapat mengakibatkan Piercing DMG.\\nDMG seperti itu tidak dapat ditingkatkan oleh efek apa pun dan tidak dapat juga ditahan oleh Perisai apa pun."
+                },
+                {
+                    "title": "Aksi Tempur (Kartu Aksi)",
+                    "titleraw": "Aksi Tempur (Kartu Aksi)",
+                    "content": "Beberapa Kartu Aksi memiliki aturan Aksi Tempur.\nKalau kamu memainkan kartu seperti itu, Aksi itu akan dilihat sebagai melakukan Aksi Tempur, dan bukan Aksi Cepat.",
+                    "contentraw": "Beberapa Kartu Aksi memiliki aturan Aksi Tempur.\\nKalau kamu memainkan kartu seperti itu, Aksi itu akan dilihat sebagai melakukan Aksi Tempur, dan bukan Aksi Cepat."
+                },
+                {
+                    "title": "Charged Attack",
+                    "titleraw": "Charged Attack",
+                    "content": "Jika total Dadu Elemental berjumlah genap sebelum Tahap Aksi giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack.",
+                    "contentraw": "Jika total Dadu Elemental berjumlah genap sebelum Tahap Aksi giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack."
+                },
+                {
+                    "title": "Plunging Attack",
+                    "titleraw": "Plunging Attack",
+                    "content": "Setelah bertukar Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, maka serangan itu akan dianggap sebagai Plunging Attack.",
+                    "contentraw": "Setelah bertukar Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, maka serangan itu akan dianggap sebagai Plunging Attack."
+                }
+            ]
+        },
+        "roundflow": {
+            "id": 2,
+            "name": "Aliran Ronde",
+            "rules": [
+                {
+                    "title": "Aliran Ronde",
+                    "titleraw": "Aliran Ronde",
+                    "content": "Setiap Ronde akan berlangsung seperti berikut: Tahap Melempar > Tahap Aksi > Tahap Selesai.",
+                    "contentraw": "Setiap Ronde akan berlangsung seperti berikut: Tahap Melempar > Tahap Aksi > Tahap Selesai.",
+                    "filename_image": "UI_Gcg_InSide_11"
+                },
+                {
+                    "title": "Tahap Melempar",
+                    "titleraw": "Tahap Melempar",
+                    "content": "Selama Tahap Melempar setiap Ronde-nya, pemain akan melempar 8 Dadu Elemental.\nSetelah melempar Dadu ini, pemain akan memiliki 1 kesempatan untuk memilih sejumlah Dadu Elemental dan \"melemparnya kembali\".\nSetiap Dadu Elemental dapat memiliki salah satu dari 7 jenis elemen berikut: Cryo, Hydro, Pyro, Electro, Anemo, Geo, dan Dendro, serta \"Elemen Omni\", yang dapat dianggap dan digunakan sebagai Elemen dasar apa pun.\nJumlah maksimum \"Dadu Elemental\" adalah 16. Setelahnya, pemain tidak dapat memperolehnya lagi.",
+                    "contentraw": "Selama Tahap Melempar setiap Ronde-nya, pemain akan melempar 8 Dadu Elemental.\\nSetelah melempar Dadu ini, pemain akan memiliki 1 kesempatan untuk memilih sejumlah Dadu Elemental dan \"melemparnya kembali\".\\nSetiap Dadu Elemental dapat memiliki salah satu dari 7 jenis elemen berikut: Cryo, Hydro, Pyro, Electro, Anemo, Geo, dan Dendro, serta \"Elemen Omni\", yang dapat dianggap dan digunakan sebagai Elemen dasar apa pun.\\nJumlah maksimum \"Dadu Elemental\" adalah 16. Setelahnya, pemain tidak dapat memperolehnya lagi."
+                },
+                {
+                    "title": "Tahap Aksi",
+                    "titleraw": "Tahap Aksi",
+                    "content": "Kedua pemain akan melakukan Aksi secara bergiliran, dimulai dari pemain yang melangkah duluan. Aksi yang bisa kamu lakukan:\nMenggunakan Skill: Bayar biaya yang dibutuhkan dan gunakan Skill Karakter Aktifmu.\nTukar Karakter: Bayar 1 Dadu Elemental apa saja untuk bertukar ke Karakter Aktif.\nMemainkan Kartu: Bayar biaya yang dibutuhkan dan mainkan kartu dari tanganmu.\nHarmonisasi Elemen: Buang kartu dari tanganmu dan ubah Tipe Elemen dari salah satu Dadu Elemental milikmu.\nMenyatakan Akhir Ronde: Akhiri aksimu di Ronde ini. Pemain yang duluan menyatakan berakhirnya Ronde akan melangkah duluan di Ronde berikutnya.",
+                    "contentraw": "Kedua pemain akan melakukan Aksi secara bergiliran, dimulai dari pemain yang melangkah duluan. Aksi yang bisa kamu lakukan:\\n<color=#FFE14BFF>Menggunakan Skill</color>: Bayar biaya yang dibutuhkan dan gunakan Skill Karakter Aktifmu.\\n<color=#FFE14BFF>Tukar Karakter</color>: Bayar 1 Dadu Elemental apa saja untuk bertukar ke Karakter Aktif.\\n<color=#FFE14BFF>Memainkan Kartu</color>: Bayar biaya yang dibutuhkan dan mainkan kartu dari tanganmu.\\n<color=#FFE14BFF>Harmonisasi Elemen</color>: Buang kartu dari tanganmu dan ubah Tipe Elemen dari salah satu Dadu Elemental milikmu.\\n<color=#FFE14BFF>Menyatakan Akhir Ronde</color>: Akhiri aksimu di Ronde ini. Pemain yang duluan menyatakan berakhirnya Ronde akan melangkah duluan di Ronde berikutnya."
+                },
+                {
+                    "title": "Tahap Selesai",
+                    "titleraw": "Tahap Selesai",
+                    "content": "Setelah kedua pemain menyatakan akhir Ronde mereka pada saat Tahap Aksi, permainan memasuki Tahap Selesai.\n1. Dimulai dengan pemain yang memulainya pertama, selesaikan berbagai efek kartu yang dipicu oleh Tahap Selesai.\n2. Kedua pemain akan mengambil 2 kartu dari Tumpukan Kartu mereka.\n3. Ayo mulai babak berikutnya!",
+                    "contentraw": "Setelah kedua pemain menyatakan akhir Ronde mereka pada saat Tahap Aksi, permainan memasuki Tahap Selesai.\\n1. Dimulai dengan pemain yang memulainya pertama, selesaikan berbagai efek kartu yang dipicu oleh Tahap Selesai.\\n2. Kedua pemain akan mengambil 2 kartu dari Tumpukan Kartu mereka.\\n3. Ayo mulai babak berikutnya!"
+                }
+            ]
+        },
+        "geniusinvokationtcg": {
+            "id": 1,
+            "name": "Genius Invokation TCG",
+            "rules": [
+                {
+                    "title": "Dasar-Dasar \"Genius Invokation TCG\"",
+                    "titleraw": "Dasar-Dasar \"Genius Invokation TCG\"",
+                    "content": "\"Genius Invokation TCG\" adalah permainan duel kartu di atas meja yang serba cepat dan mendebarkan.\nSusunlah Dek-mu dengan perpaduan \"Kartu Karakter\" dan \"Kartu Aksi\" yang saling mendukung. Terjunlah ke dalam pertandingan yang sengit dengan lawanmu!",
+                    "contentraw": "\"Genius Invokation TCG\" adalah permainan duel kartu di atas meja yang serba cepat dan mendebarkan.\\nSusunlah Dek-mu dengan perpaduan \"Kartu Karakter\" dan \"Kartu Aksi\" yang saling mendukung. Terjunlah ke dalam pertandingan yang sengit dengan lawanmu!",
+                    "filename_image": "UI_Gcg_InSide_01"
+                },
+                {
+                    "title": "Bersiap untuk Duel",
+                    "titleraw": "Bersiap untuk Duel",
+                    "content": "1. Kedua pemain mengambil 5 kartu, yang akan membangun kartu di Tangan mereka. Setelah itu, kedua pemain akan mendapatkan 1 kesempatan untuk menukar sejumlah kartu di Tangan mereka.\n2. Kedua belah pihak dapat memilih 1 dari Kartu Karakter mereka sendiri untuk menjadi Karakter Aktif mereka.",
+                    "contentraw": "1. Kedua pemain mengambil 5 kartu, yang akan membangun kartu di Tangan mereka. Setelah itu, kedua pemain akan mendapatkan 1 kesempatan untuk menukar sejumlah kartu di Tangan mereka.\\n2. Kedua belah pihak dapat memilih 1 dari Kartu Karakter mereka sendiri untuk menjadi Karakter Aktif mereka."
+                },
+                {
+                    "title": "Aliran Duel",
+                    "titleraw": "Aliran Duel",
+                    "content": "Setelah duel \"Genius Invokation TCG\" dimulai, setiap Ronde akan berlangsung sebagai berikut:\n1. \"Tahap Melempar\": Kedua pemain akan mendapatkan 8 Dadu Elemental untuk dilempar.\n2. \"Tahap Aksi\": Kedua pemain bergiliran untuk melakukan Aksi sampai keduanya menyatakan bahwa Ronde mereka telah berakhir.\n3. \"Tahap Selesai\": Kedua pemain mengambil 2 kartu.",
+                    "contentraw": "Setelah duel \"Genius Invokation TCG\" dimulai, setiap Ronde akan berlangsung sebagai berikut:\\n1. \"Tahap Melempar\": Kedua pemain akan mendapatkan 8 Dadu Elemental untuk dilempar.\\n2. \"Tahap Aksi\": Kedua pemain bergiliran untuk melakukan Aksi sampai keduanya menyatakan bahwa Ronde mereka telah berakhir.\\n3. \"Tahap Selesai\": Kedua pemain mengambil 2 kartu."
+                },
+                {
+                    "title": "Syarat Menang",
+                    "titleraw": "Syarat Menang",
+                    "content": "Gunakan Kartu Karakter-mu untuk menyerang dan mengalahkan Kartu Karakter lawan!\nSetelah semuanya dikalahkan, kemenangan akan menjadi milikmu!",
+                    "contentraw": "Gunakan Kartu Karakter-mu untuk menyerang dan mengalahkan Kartu Karakter lawan!\\nSetelah semuanya dikalahkan, kemenangan akan menjadi milikmu!"
                 }
             ]
         },
@@ -245,161 +383,23 @@
                 }
             ]
         },
-        "specialentry": {
-            "id": 8,
-            "name": "Istilah Khusus",
+        "elementalreactionsrules": {
+            "id": 5,
+            "name": "Reaksi Elemental: Aturan",
             "rules": [
                 {
-                    "title": "Makanan",
-                    "titleraw": "{SPRITE_PRESET#3101}Makanan",
-                    "content": "Saat Kartu Peristiwa Makanan diaktifkan kepada Karakter tertentu, Karakter akan mendapatkan status \"Satiated\".\nKarakter yang memiliki status \"Satiated\" tidak dapat menjadi target dari Kartu Peristiwa Makanan lain dan juga tidak dapat menerima efek dari Kartu Peristiwa Makanan lain.\nStatus \"Satiated\" akan terhapus saat Ronde berakhir atau Karakter gugur.\nSelain itu, setelah memainkan Kartu Peristiwa Makanan yang dapat menghidupkan Karakter kembali, kamu tidak dapat memainkan Kartu Peristiwa Makanan yang dapat menghidupkan Karakter sekali lagi pada Ronde tersebut.",
-                    "contentraw": "Saat Kartu Peristiwa {SPRITE_PRESET#3101}Makanan diaktifkan kepada Karakter tertentu, Karakter akan mendapatkan status \"Satiated\".\\nKarakter yang memiliki status \"Satiated\" tidak dapat menjadi target dari Kartu Peristiwa {SPRITE_PRESET#3101}Makanan lain dan juga tidak dapat menerima efek dari Kartu Peristiwa {SPRITE_PRESET#3101}Makanan lain.\\nStatus \"Satiated\" akan terhapus saat Ronde berakhir atau Karakter gugur.\\nSelain itu, setelah memainkan Kartu Peristiwa {SPRITE_PRESET#3101}Makanan yang dapat menghidupkan Karakter kembali, kamu tidak dapat memainkan Kartu Peristiwa {SPRITE_PRESET#3101}Makanan yang dapat menghidupkan Karakter sekali lagi pada Ronde tersebut."
+                    "title": "Efek Elemental",
+                    "titleraw": "Efek Elemental",
+                    "content": "Saat Karakter menerima Cryo, Hydro, Pyro, Electro, atau Dendro DMG, mereka akan terpengaruh oleh elemen yang bersangkutan.\n(Anemo DMG dan Geo DMG tidak dapat memberikan efek elemental dengan cara ini.)",
+                    "contentraw": "Saat Karakter menerima {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>, atau {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> DMG, mereka akan <color=#FFE14BFF>terpengaruh</color> oleh elemen yang bersangkutan.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color> dan {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color> tidak dapat memberikan efek elemental dengan cara ini.)",
+                    "filename_image": "UI_Gcg_InSide_12"
                 },
                 {
-                    "title": "Perisai",
-                    "titleraw": "{SPRITE_PRESET#4007}Perisai",
-                    "content": "Beberapa efek dapat memberikan Perisai yang dapat melindungi Karakter tertentu.\nSaat Karakter dengan Perisai menerima DMG, nilai Perisai akan digunakan untuk menahan DMG tersebut.",
-                    "contentraw": "Beberapa efek dapat memberikan Perisai yang dapat melindungi Karakter tertentu.\\nSaat Karakter dengan Perisai menerima DMG, nilai Perisai akan digunakan untuk menahan DMG tersebut."
-                },
-                {
-                    "title": "Penggunaan",
-                    "titleraw": "Penggunaan",
-                    "content": "Beberapa kartu memiliki Penggunaan terbatas.\nSetiap kali efek kartu ini dipicu, 1 Penggunaan-nya akan terkonsumsi.\nKetika Penggunaan kartu habis, kartu akan langsung dibuang.",
-                    "contentraw": "Beberapa kartu memiliki Penggunaan terbatas.\\nSetiap kali efek kartu ini dipicu, 1 Penggunaan-nya akan terkonsumsi.\\nKetika Penggunaan kartu habis, kartu akan langsung dibuang."
-                },
-                {
-                    "title": "Durasi (Ronde)",
-                    "titleraw": "Durasi (Ronde)",
-                    "content": "Beberapa kartu memiliki Durasi yang terbatas.\nSetiap Tahap Selesai, 1 Ronde akan dihapus dari Durasi ini.\nSaat Durasi kartu habis, segera buang kartunya.",
-                    "contentraw": "Beberapa kartu memiliki Durasi yang terbatas.\\nSetiap Tahap Selesai, 1 Ronde akan dihapus dari Durasi ini.\\nSaat Durasi kartu habis, segera buang kartunya."
-                },
-                {
-                    "title": "Piercing DMG",
-                    "titleraw": "Piercing DMG",
-                    "content": "Beberapa efek dapat mengakibatkan Piercing DMG.\nDMG seperti itu tidak dapat ditingkatkan oleh efek apa pun dan tidak dapat juga ditahan oleh Perisai apa pun.",
-                    "contentraw": "Beberapa efek dapat mengakibatkan Piercing DMG.\\nDMG seperti itu tidak dapat ditingkatkan oleh efek apa pun dan tidak dapat juga ditahan oleh Perisai apa pun."
-                },
-                {
-                    "title": "Aksi Tempur (Kartu Aksi)",
-                    "titleraw": "Aksi Tempur (Kartu Aksi)",
-                    "content": "Beberapa Kartu Aksi memiliki aturan Aksi Tempur.\nKalau kamu memainkan kartu seperti itu, Aksi itu akan dilihat sebagai melakukan Aksi Tempur, dan bukan Aksi Cepat.",
-                    "contentraw": "Beberapa Kartu Aksi memiliki aturan Aksi Tempur.\\nKalau kamu memainkan kartu seperti itu, Aksi itu akan dilihat sebagai melakukan Aksi Tempur, dan bukan Aksi Cepat."
-                },
-                {
-                    "title": "Charged Attack",
-                    "titleraw": "Charged Attack",
-                    "content": "Jika total Dadu Elemental berjumlah genap sebelum Tahap Aksi giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack.",
-                    "contentraw": "Jika total Dadu Elemental berjumlah genap sebelum Tahap Aksi giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack."
-                },
-                {
-                    "title": "Plunging Attack",
-                    "titleraw": "Plunging Attack",
-                    "content": "Setelah bertukar Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, maka serangan itu akan dianggap sebagai Plunging Attack.",
-                    "contentraw": "Setelah bertukar Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, maka serangan itu akan dianggap sebagai Plunging Attack."
-                }
-            ]
-        },
-        "takeaction": {
-            "id": 3,
-            "name": "Lakukan Aksi",
-            "rules": [
-                {
-                    "title": "Aksi",
-                    "titleraw": "Aksi",
-                    "content": "Aksi yang dapat dilakukan selama Tahap Aksi, dibagi menjadi Aksi Tempur dan Aksi Cepat.\nAksi Tempur: Setelah menyelesaikan 1 Aksi Tempur, giliranmu akan diteruskan ke lawan. Menggunakan Skill, bertukar Karakter, dan menyatakan akhir Ronde dihitung sebagai Aksi Tempur.\nAksi Cepat: Kamu dapat melanjutkan giliran setelah menyelesaikan Aksi Cepat. Memainkan kartu dan Harmonisasi Elemen dianggap sebagai Aksi Cepat.",
-                    "contentraw": "Aksi yang dapat dilakukan selama Tahap Aksi, dibagi menjadi Aksi Tempur dan Aksi Cepat.\\n<color=#FFE14BFF>Aksi Tempur</color>: Setelah menyelesaikan 1 Aksi Tempur, giliranmu akan diteruskan ke lawan. Menggunakan Skill, bertukar Karakter, dan menyatakan akhir Ronde dihitung sebagai Aksi Tempur.\\n<color=#FFE14BFF>Aksi Cepat</color>: Kamu dapat melanjutkan giliran setelah menyelesaikan Aksi Cepat. Memainkan kartu dan Harmonisasi Elemen dianggap sebagai Aksi Cepat."
-                },
-                {
-                    "title": "Aksi Tempur - Gunakan Skill",
-                    "titleraw": "Aksi Tempur - Gunakan Skill",
-                    "content": "Gunakan Dadu Elemental-mu untuk membayar biaya yang bersangkutan, yang bisa membuat Karakter Aktifmu menggunakan Skill untuk menyerang Karakter Aktif lawan.\nSetiap kali setelah Karakter menggunakan Normal Attack atau Elemental Skill, mereka akan mendapatkan 1 Energy.\nSetelah Energy Karakter mencapai batas maksimum, mereka dapat menghabiskan semuanya sekaligus untuk menggunakan Elemental Burst yang kuat!",
-                    "contentraw": "Gunakan Dadu Elemental-mu untuk membayar biaya yang bersangkutan, yang bisa membuat Karakter Aktifmu menggunakan Skill untuk menyerang Karakter Aktif lawan.\\nSetiap kali setelah Karakter menggunakan Normal Attack atau Elemental Skill, mereka akan mendapatkan 1 Energy.\\nSetelah Energy Karakter mencapai batas maksimum, mereka dapat menghabiskan semuanya sekaligus untuk menggunakan Elemental Burst yang kuat!"
-                },
-                {
-                    "title": "Aksi Tempur - Tukar Karakter",
-                    "titleraw": "Aksi Tempur - Tukar Karakter",
-                    "content": "Habiskan 1 Dadu Elemental pilihanmu untuk mengganti salah satu Karaktermu yang standby menjadi Aktif.",
-                    "contentraw": "Habiskan 1 Dadu Elemental pilihanmu untuk mengganti salah satu Karaktermu yang standby menjadi Aktif."
-                },
-                {
-                    "title": "Aksi Cepat - Mainkan Kartu",
-                    "titleraw": "Aksi Cepat - Mainkan Kartu",
-                    "content": "Gunakan Dadu Elemental untuk membayar biaya yang bersangkutan dan memainkan kartu. Kartu yang dimainkan dibagi ke dalam kategori berikut:\nKartu Equipment: Kartu ini dikenakan pada Karakter untuk menerapkan efek yang meningkatkan Karakter ini.\nKartu Pendukung: Tempatkan ini di Zona Pendukung-mu untuk terus menerapkan efek pendukung.\nKartu Peristiwa: Mainkan ini untuk segera memicu semua efeknya.",
-                    "contentraw": "Gunakan Dadu Elemental untuk membayar biaya yang bersangkutan dan memainkan kartu. Kartu yang dimainkan dibagi ke dalam kategori berikut:\\n<color=#FFE14BFF>Kartu Equipment</color>: Kartu ini dikenakan pada Karakter untuk menerapkan efek yang meningkatkan Karakter ini.\\n<color=#FFE14BFF>Kartu Pendukung</color>: Tempatkan ini di Zona Pendukung-mu untuk terus menerapkan efek pendukung.\\n<color=#FFE14BFF>Kartu Peristiwa</color>: Mainkan ini untuk segera memicu semua efeknya."
-                },
-                {
-                    "title": "Aksi Cepat - Harmonisasi Elemen",
-                    "titleraw": "Aksi Cepat - Harmonisasi Elemen",
-                    "content": "Buang 1 kartu dari Tanganmu untuk mengubah 1 Dadu Elemental menjadi Tipe Elemen dari Karakter Aktifmu.",
-                    "contentraw": "Buang 1 kartu dari Tanganmu untuk mengubah 1 Dadu Elemental menjadi Tipe Elemen dari Karakter Aktifmu."
-                },
-                {
-                    "title": "Aksi Tempur - Nyatakan Akhir Ronde",
-                    "titleraw": "Aksi Tempur - Nyatakan Akhir Ronde",
-                    "content": "Berhenti untuk melakukan Aksi lebih lanjut dan menyatakan berakhirnya Ronde.\nPemain yang duluan mengakhiri Ronde akan melangkah terlebih dulu di Ronde berikutnya, ini berarti bahwa mereka akan memiliki inisiatif sepanjang Tahap Aksi di Ronde berikutnya.\nSetelah ini, pemain yang belum menyatakan berakhirnya Ronde akan terus melakukan Aksi.\nSetelah kedua pemain sudah membuat pernyataannya, maka Tahap Aksi akan berakhir dan Tahap Selesai Ronde ini akan dimulai.",
-                    "contentraw": "Berhenti untuk melakukan Aksi lebih lanjut dan menyatakan berakhirnya Ronde.\\nPemain yang duluan mengakhiri Ronde akan melangkah terlebih dulu di Ronde berikutnya, ini berarti bahwa mereka akan memiliki inisiatif sepanjang Tahap Aksi di Ronde berikutnya.\\nSetelah ini, pemain yang belum menyatakan berakhirnya Ronde akan terus melakukan Aksi.\\nSetelah kedua pemain sudah membuat pernyataannya, maka Tahap Aksi akan berakhir dan Tahap Selesai Ronde ini akan dimulai."
-                }
-            ]
-        },
-        "roundflow": {
-            "id": 2,
-            "name": "Aliran Ronde",
-            "rules": [
-                {
-                    "title": "Aliran Ronde",
-                    "titleraw": "Aliran Ronde",
-                    "content": "Setiap Ronde akan berlangsung seperti berikut: Tahap Melempar > Tahap Aksi > Tahap Selesai.",
-                    "contentraw": "Setiap Ronde akan berlangsung seperti berikut: Tahap Melempar > Tahap Aksi > Tahap Selesai.",
-                    "filename_image": "UI_Gcg_InSide_11"
-                },
-                {
-                    "title": "Tahap Melempar",
-                    "titleraw": "Tahap Melempar",
-                    "content": "Selama Tahap Melempar setiap Ronde-nya, pemain akan melempar 8 Dadu Elemental.\nSetelah melempar Dadu ini, pemain akan memiliki 1 kesempatan untuk memilih sejumlah Dadu Elemental dan \"melemparnya kembali\".\nSetiap Dadu Elemental dapat memiliki salah satu dari 7 jenis elemen berikut: Cryo, Hydro, Pyro, Electro, Anemo, Geo, dan Dendro, serta \"Elemen Omni\", yang dapat dianggap dan digunakan sebagai Elemen dasar apa pun.\nJumlah maksimum \"Dadu Elemental\" adalah 16. Setelahnya, pemain tidak dapat memperolehnya lagi.",
-                    "contentraw": "Selama Tahap Melempar setiap Ronde-nya, pemain akan melempar 8 Dadu Elemental.\\nSetelah melempar Dadu ini, pemain akan memiliki 1 kesempatan untuk memilih sejumlah Dadu Elemental dan \"melemparnya kembali\".\\nSetiap Dadu Elemental dapat memiliki salah satu dari 7 jenis elemen berikut: Cryo, Hydro, Pyro, Electro, Anemo, Geo, dan Dendro, serta \"Elemen Omni\", yang dapat dianggap dan digunakan sebagai Elemen dasar apa pun.\\nJumlah maksimum \"Dadu Elemental\" adalah 16. Setelahnya, pemain tidak dapat memperolehnya lagi."
-                },
-                {
-                    "title": "Tahap Aksi",
-                    "titleraw": "Tahap Aksi",
-                    "content": "Kedua pemain akan melakukan Aksi secara bergiliran, dimulai dari pemain yang melangkah duluan. Aksi yang bisa kamu lakukan:\nMenggunakan Skill: Bayar biaya yang dibutuhkan dan gunakan Skill Karakter Aktifmu.\nTukar Karakter: Bayar 1 Dadu Elemental apa saja untuk bertukar ke Karakter Aktif.\nMemainkan Kartu: Bayar biaya yang dibutuhkan dan mainkan kartu dari tanganmu.\nHarmonisasi Elemen: Buang kartu dari tanganmu dan ubah Tipe Elemen dari salah satu Dadu Elemental milikmu.\nMenyatakan Akhir Ronde: Akhiri aksimu di Ronde ini. Pemain yang duluan menyatakan berakhirnya Ronde akan melangkah duluan di Ronde berikutnya.",
-                    "contentraw": "Kedua pemain akan melakukan Aksi secara bergiliran, dimulai dari pemain yang melangkah duluan. Aksi yang bisa kamu lakukan:\\n<color=#FFE14BFF>Menggunakan Skill</color>: Bayar biaya yang dibutuhkan dan gunakan Skill Karakter Aktifmu.\\n<color=#FFE14BFF>Tukar Karakter</color>: Bayar 1 Dadu Elemental apa saja untuk bertukar ke Karakter Aktif.\\n<color=#FFE14BFF>Memainkan Kartu</color>: Bayar biaya yang dibutuhkan dan mainkan kartu dari tanganmu.\\n<color=#FFE14BFF>Harmonisasi Elemen</color>: Buang kartu dari tanganmu dan ubah Tipe Elemen dari salah satu Dadu Elemental milikmu.\\n<color=#FFE14BFF>Menyatakan Akhir Ronde</color>: Akhiri aksimu di Ronde ini. Pemain yang duluan menyatakan berakhirnya Ronde akan melangkah duluan di Ronde berikutnya."
-                },
-                {
-                    "title": "Tahap Selesai",
-                    "titleraw": "Tahap Selesai",
-                    "content": "Setelah kedua pemain menyatakan akhir Ronde mereka pada saat Tahap Aksi, permainan memasuki Tahap Selesai.\n1. Dimulai dengan pemain yang memulainya pertama, selesaikan berbagai efek kartu yang dipicu oleh Tahap Selesai.\n2. Kedua pemain akan mengambil 2 kartu dari Tumpukan Kartu mereka.\n3. Ayo mulai babak berikutnya!",
-                    "contentraw": "Setelah kedua pemain menyatakan akhir Ronde mereka pada saat Tahap Aksi, permainan memasuki Tahap Selesai.\\n1. Dimulai dengan pemain yang memulainya pertama, selesaikan berbagai efek kartu yang dipicu oleh Tahap Selesai.\\n2. Kedua pemain akan mengambil 2 kartu dari Tumpukan Kartu mereka.\\n3. Ayo mulai babak berikutnya!"
-                }
-            ]
-        },
-        "geniusinvokationtcg": {
-            "id": 1,
-            "name": "Genius Invokation TCG",
-            "rules": [
-                {
-                    "title": "Dasar-Dasar \"Genius Invokation TCG\"",
-                    "titleraw": "Dasar-Dasar \"Genius Invokation TCG\"",
-                    "content": "\"Genius Invokation TCG\" adalah permainan duel kartu di atas meja yang serba cepat dan mendebarkan.\nSusunlah Dek-mu dengan perpaduan \"Kartu Karakter\" dan \"Kartu Aksi\" yang saling mendukung. Terjunlah ke dalam pertandingan yang sengit dengan lawanmu!",
-                    "contentraw": "\"Genius Invokation TCG\" adalah permainan duel kartu di atas meja yang serba cepat dan mendebarkan.\\nSusunlah Dek-mu dengan perpaduan \"Kartu Karakter\" dan \"Kartu Aksi\" yang saling mendukung. Terjunlah ke dalam pertandingan yang sengit dengan lawanmu!",
-                    "filename_image": "UI_Gcg_InSide_01"
-                },
-                {
-                    "title": "Bersiap untuk Duel",
-                    "titleraw": "Bersiap untuk Duel",
-                    "content": "1. Kedua pemain mengambil 5 kartu, yang akan membangun kartu di Tangan mereka. Setelah itu, kedua pemain akan mendapatkan 1 kesempatan untuk menukar sejumlah kartu di Tangan mereka.\n2. Kedua belah pihak dapat memilih 1 dari Kartu Karakter mereka sendiri untuk menjadi Karakter Aktif mereka.",
-                    "contentraw": "1. Kedua pemain mengambil 5 kartu, yang akan membangun kartu di Tangan mereka. Setelah itu, kedua pemain akan mendapatkan 1 kesempatan untuk menukar sejumlah kartu di Tangan mereka.\\n2. Kedua belah pihak dapat memilih 1 dari Kartu Karakter mereka sendiri untuk menjadi Karakter Aktif mereka."
-                },
-                {
-                    "title": "Aliran Duel",
-                    "titleraw": "Aliran Duel",
-                    "content": "Setelah duel \"Genius Invokation TCG\" dimulai, setiap Ronde akan berlangsung sebagai berikut:\n1. \"Tahap Melempar\": Kedua pemain akan mendapatkan 8 Dadu Elemental untuk dilempar.\n2. \"Tahap Aksi\": Kedua pemain bergiliran untuk melakukan Aksi sampai keduanya menyatakan bahwa Ronde mereka telah berakhir.\n3. \"Tahap Selesai\": Kedua pemain mengambil 2 kartu.",
-                    "contentraw": "Setelah duel \"Genius Invokation TCG\" dimulai, setiap Ronde akan berlangsung sebagai berikut:\\n1. \"Tahap Melempar\": Kedua pemain akan mendapatkan 8 Dadu Elemental untuk dilempar.\\n2. \"Tahap Aksi\": Kedua pemain bergiliran untuk melakukan Aksi sampai keduanya menyatakan bahwa Ronde mereka telah berakhir.\\n3. \"Tahap Selesai\": Kedua pemain mengambil 2 kartu."
-                },
-                {
-                    "title": "Syarat Menang",
-                    "titleraw": "Syarat Menang",
-                    "content": "Gunakan Kartu Karakter-mu untuk menyerang dan mengalahkan Kartu Karakter lawan!\nSetelah semuanya dikalahkan, kemenangan akan menjadi milikmu!",
-                    "contentraw": "Gunakan Kartu Karakter-mu untuk menyerang dan mengalahkan Kartu Karakter lawan!\\nSetelah semuanya dikalahkan, kemenangan akan menjadi milikmu!"
+                    "title": "Aturan-Aturan Reaksi Elemental",
+                    "titleraw": "Aturan-Aturan Reaksi Elemental",
+                    "content": "Ketika target telah Terpengaruh Efek Elemen:\n1. Mengakibatkan DMG Elemental jenis tertentu akan memicu Reaksi Elemental.\n2. Menggunakan efek yang bukan DMG untuk memberikan pengaruh efek elemen tertentu juga akan memicu Reaksi Elemental. Saat menghitung efek dari Reaksi Elemental tersebut, semua efek tipe DMG akan diabaikan.",
+                    "contentraw": "Ketika target telah <color=#FFE14BFF>Terpengaruh Efek Elemen</color>:\\n1. Mengakibatkan <color=#FFE14BFF>DMG Elemental</color> jenis tertentu akan memicu Reaksi Elemental.\\n2. Menggunakan efek yang bukan DMG untuk memberikan pengaruh efek elemen tertentu juga akan memicu Reaksi Elemental. Saat menghitung efek dari Reaksi Elemental tersebut, semua efek tipe DMG akan diabaikan.",
+                    "filename_image": "UI_Gcg_InSide_13"
                 }
             ]
         },

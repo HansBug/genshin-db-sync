@@ -1,22 +1,160 @@
 {
     "items": {
-        "elementalreactionsrules": {
-            "id": 5,
-            "name": "Elemental Reactions: Rules",
+        "takeaction": {
+            "id": 3,
+            "name": "Take Action",
             "rules": [
                 {
-                    "title": "Elemental Application",
-                    "titleraw": "Elemental Application",
-                    "content": "When characters take Cryo, Hydro, Pyro, Electro, or Dendro DMG, they will have the corresponding Element applied to them.\n(Anemo DMG and Geo DMG cannot apply Elements in this way.)",
-                    "contentraw": "When characters take {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>, or {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> DMG, they will have the corresponding Element <color=#FFE14BFF>applied</color> to them.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color> and {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color> cannot apply Elements in this way.)",
-                    "filename_image": "UI_Gcg_InSide_12"
+                    "title": "Actions",
+                    "titleraw": "Actions",
+                    "content": "During the Action Phase, actions are divided into Combat Actions and Fast Actions.\nCombat Actions: After you complete 1 Combat Action, you will pass your turn to your opponent. Using Skills, switching characters, and declaring Round end count as Combat Actions.\nFast Actions: You can continue your turn after completing a Fast Action. Playing a card and Elemental Tuning are considered Fast Actions.",
+                    "contentraw": "During the Action Phase, actions are divided into Combat Actions and Fast Actions.\\n<color=#FFE14BFF>Combat Actions</color>: After you complete 1 Combat Action, you will pass your turn to your opponent. Using Skills, switching characters, and declaring Round end count as Combat Actions.\\n<color=#FFE14BFF>Fast Actions</color>: You can continue your turn after completing a Fast Action. Playing a card and Elemental Tuning are considered Fast Actions."
                 },
                 {
-                    "title": "Elemental Reaction Rules",
-                    "titleraw": "Elemental Reaction Rules",
-                    "content": "When the target has already had an Elemental Application:\n(1) Dealing a specific type of Elemental DMG will trigger an Elemental Reaction.\n(2) Using non-DMG effects to perform specific Elemental Applications will also trigger an Elemental Reaction. When calculating the effects of such Elemental Reactions, all DMG-dealing effects will be ignored.",
-                    "contentraw": "When the target has already had an <color=#FFE14BFF>Elemental Application</color>:\\n(1) Dealing a specific type of <color=#FFE14BFF>Elemental DMG</color> will trigger an Elemental Reaction.\\n(2) Using non-DMG effects to perform specific Elemental Applications will also trigger an Elemental Reaction. When calculating the effects of such Elemental Reactions, all DMG-dealing effects will be ignored.",
-                    "filename_image": "UI_Gcg_InSide_13"
+                    "title": "Combat Action - Use Skill",
+                    "titleraw": "Combat Action - Use Skill",
+                    "content": "Use your Elemental Dice to pay the relevant cost, which will allow your active character to use a Skill to damage the opposing active character.\nEach time a character uses a Normal Attack or an Elemental Skill, they will gain 1 Energy.\nOnce a character maxes out on Energy, they can spend all of it to use a powerful Elemental Burst!",
+                    "contentraw": "Use your Elemental Dice to pay the relevant cost, which will allow your active character to use a Skill to damage the opposing active character.\\nEach time a character uses a Normal Attack or an Elemental Skill, they will gain 1 Energy.\\nOnce a character maxes out on Energy, they can spend all of it to use a powerful Elemental Burst!"
+                },
+                {
+                    "title": "Combat Action - Switch Characters",
+                    "titleraw": "Combat Action - Switch Characters",
+                    "content": "Spend 1 Elemental Die of your choice to switch one of your characters on standby to be your active character.",
+                    "contentraw": "Spend 1 Elemental Die of your choice to switch one of your characters on standby to be your active character."
+                },
+                {
+                    "title": "Fast Action - Play Card",
+                    "titleraw": "Fast Action - Play Card",
+                    "content": "Use Elemental Dice to pay the relevant cost and play a card. Played cards are divided into the following categories:\nEquipment Cards: These are equipped on characters to apply an effect that buffs this character.\nSupport Cards: Place these in your Support Zone to continuously apply supporting effects.\nEvent Cards: Play these to immediately trigger all their effects.",
+                    "contentraw": "Use Elemental Dice to pay the relevant cost and play a card. Played cards are divided into the following categories:\\n<color=#FFE14BFF>Equipment Cards</color>: These are equipped on characters to apply an effect that buffs this character.\\n<color=#FFE14BFF>Support Cards</color>: Place these in your Support Zone to continuously apply supporting effects.\\n<color=#FFE14BFF>Event Cards</color>: Play these to immediately trigger all their effects."
+                },
+                {
+                    "title": "Fast Action - Elemental Tuning",
+                    "titleraw": "Fast Action - Elemental Tuning",
+                    "content": "Discard 1 card from your Hand to convert 1 Elemental Die to the Elemental Type of your current active character.",
+                    "contentraw": "Discard 1 card from your Hand to convert 1 Elemental Die to the Elemental Type of your current active character."
+                },
+                {
+                    "title": "Combat Action - Declare Round End",
+                    "titleraw": "Combat Action - Declare Round End",
+                    "content": "Give up on making further actions this Round and declare its end.\nThe player who ends their Round first will go first next Round, meaning that they will have the initiative during the next Round's Action Phase.\nAfter this, the player who has yet to declare the end of their Round will continue to take Actions.\nAfter both players have made this declaration, the Action Phase will end and this Round's End Phase will begin.",
+                    "contentraw": "Give up on making further actions this Round and declare its end.\\nThe player who ends their Round first will go first next Round, meaning that they will have the initiative during the next Round's Action Phase.\\nAfter this, the player who has yet to declare the end of their Round will continue to take Actions.\\nAfter both players have made this declaration, the Action Phase will end and this Round's End Phase will begin."
+                }
+            ]
+        },
+        "specialentry": {
+            "id": 8,
+            "name": "Special Entry",
+            "rules": [
+                {
+                    "title": "Food",
+                    "titleraw": "{SPRITE_PRESET#3101}Food",
+                    "content": "After playing the Food Event Card, the character will enter the Satiated state.\nCharacters in the Satiated state cannot be targeted by other Food Event Cards nor experience any effects from said Food Event Cards.\nThe Satiated state will be removed at the end of the Round or if the character is defeated.\nAside from this, when Food Event Cards with the Revival effect are played, no other Food Event Cards bearing the Revival effect can be used in the Round.",
+                    "contentraw": "After playing the {SPRITE_PRESET#3101}Food Event Card, the character will enter the Satiated state.\\nCharacters in the Satiated state cannot be targeted by other {SPRITE_PRESET#3101}Food Event Cards nor experience any effects from said {SPRITE_PRESET#3101}Food Event Cards.\\nThe Satiated state will be removed at the end of the Round or if the character is defeated.\\nAside from this, when {SPRITE_PRESET#3101}Food Event Cards with the Revival effect are played, no other {SPRITE_PRESET#3101}Food Event Cards bearing the Revival effect can be used in the Round."
+                },
+                {
+                    "title": "Shield",
+                    "titleraw": "{SPRITE_PRESET#4007}Shield",
+                    "content": "Some effects will provide Shields that can protect specific characters.\nWhen characters with Shields receive DMG, the Shield points will be deducted to block some DMG, if not all.",
+                    "contentraw": "Some effects will provide Shields that can protect specific characters.\\nWhen characters with Shields receive DMG, the Shield points will be deducted to block some DMG, if not all."
+                },
+                {
+                    "title": "Usage",
+                    "titleraw": "Usage",
+                    "content": "Some cards have limited Usages.\nEach time the effect of such a card is triggered, 1 Usage will be consumed.\nOnce a card has 0 Usages remaining, it will be discarded immediately.",
+                    "contentraw": "Some cards have limited Usages.\\nEach time the effect of such a card is triggered, 1 Usage will be consumed.\\nOnce a card has 0 Usages remaining, it will be discarded immediately."
+                },
+                {
+                    "title": "Duration (Rounds)",
+                    "titleraw": "Duration (Rounds)",
+                    "content": "Some cards have limited Duration.\nEach End Phase, 1 Round will be removed from such a card's Duration.\nWhen a card's Duration runs out, it will be discarded immediately.",
+                    "contentraw": "Some cards have limited Duration.\\nEach End Phase, 1 Round will be removed from such a card's Duration.\\nWhen a card's Duration runs out, it will be discarded immediately."
+                },
+                {
+                    "title": "Piercing DMG",
+                    "titleraw": "Piercing DMG",
+                    "content": "Some effects will deal Piercing DMG.\nSuch DMG cannot be boosted by any effects, but they will not be blocked by any Shields either.",
+                    "contentraw": "Some effects will deal Piercing DMG.\\nSuch DMG cannot be boosted by any effects, but they will not be blocked by any Shields either."
+                },
+                {
+                    "title": "Combat Action (Action Card)",
+                    "titleraw": "Combat Action (Action Card)",
+                    "content": "Some Action Cards follow the Combat Action rule.\nIf you play such a card, that action will be viewed as conducting a Combat Action instead of a Fast Action.",
+                    "contentraw": "Some Action Cards follow the Combat Action rule.\\nIf you play such a card, that action will be viewed as conducting a Combat Action instead of a Fast Action."
+                },
+                {
+                    "title": "Charged Attack",
+                    "titleraw": "Charged Attack",
+                    "content": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack.",
+                    "contentraw": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
+                },
+                {
+                    "title": "Plunging Attack",
+                    "titleraw": "Plunging Attack",
+                    "content": "After the character is switched in to be the Active Character, should their next Combat Action within this Round be a Normal Attack, it will be considered a Plunging Attack for the instance.",
+                    "contentraw": "After the character is switched in to be the Active Character, should their next Combat Action within this Round be a Normal Attack, it will be considered a Plunging Attack for the instance."
+                }
+            ]
+        },
+        "roundflow": {
+            "id": 2,
+            "name": "Round Flow",
+            "rules": [
+                {
+                    "title": "Round Flow",
+                    "titleraw": "Round Flow",
+                    "content": "Each Round will proceed as follows: Roll Phase > Action Phase > End Phase.",
+                    "contentraw": "Each Round will proceed as follows: Roll Phase > Action Phase > End Phase.",
+                    "filename_image": "UI_Gcg_InSide_11"
+                },
+                {
+                    "title": "Roll Phase",
+                    "titleraw": "Roll Phase",
+                    "content": "During each Round's Roll Phase, you will roll 8 Elemental Dice.\nAfter throwing these dice, you will have 1 chance to choose any number of Elemental Dice and reroll them.\nEach Elemental Die can have any one of the following 8 elemental attributes: Cryo, Hydro, Pyro, Electro, Anemo, Geo, and Dendro, as well as the Omni Element, which can be regarded and used as any basic Element.\nThe maximum number of Elemental Dice you can have is 16. You will not be able to obtain more once you reach this number.",
+                    "contentraw": "During each Round's Roll Phase, you will roll 8 Elemental Dice.\\nAfter throwing these dice, you will have 1 chance to choose any number of Elemental Dice and reroll them.\\nEach Elemental Die can have any one of the following 8 elemental attributes: Cryo, Hydro, Pyro, Electro, Anemo, Geo, and Dendro, as well as the Omni Element, which can be regarded and used as any basic Element.\\nThe maximum number of Elemental Dice you can have is 16. You will not be able to obtain more once you reach this number."
+                },
+                {
+                    "title": "Action Phase",
+                    "titleraw": "Action Phase",
+                    "content": "The two sides will take turns to take action, starting from the player who goes first. The actions you can undertake are:\nUse Skill: Pay the relevant cost and use your active character's Skill(s).\nSwitch Characters: Pay 1 Elemental Die of your choice to switch your active character.\nPlay Card: Pay the relevant cost and play card(s) from your Hand.\nElemental Tuning: Discard a card from your Hand and change the Elemental Type of 1 of your Elemental Die.\nDeclare Round End: End your actions for this Round. The first player to declare the end of their Round will go first during the next Round.",
+                    "contentraw": "The two sides will take turns to take action, starting from the player who goes first. The actions you can undertake are:\\n<color=#FFE14BFF>Use Skill</color>: Pay the relevant cost and use your active character's Skill(s).\\n<color=#FFE14BFF>Switch Characters</color>: Pay 1 Elemental Die of your choice to switch your active character.\\n<color=#FFE14BFF>Play Card</color>: Pay the relevant cost and play card(s) from your Hand.\\n<color=#FFE14BFF>Elemental Tuning</color>: Discard a card from your Hand and change the Elemental Type of 1 of your Elemental Die.\\n<color=#FFE14BFF>Declare Round End</color>: End your actions for this Round. The first player to declare the end of their Round will go first during the next Round."
+                },
+                {
+                    "title": "End Phase",
+                    "titleraw": "End Phase",
+                    "content": "Once both players have declared the end of their Round during the Action Phase, the game enters the End Phase.\n1. Starting with the player who goes first, settle the various card effects triggered by \"End Phase.\"\n2. Both players will draw 2 cards from their Draw Piles.\n3. Let the next Round begin!",
+                    "contentraw": "Once both players have declared the end of their Round during the Action Phase, the game enters the End Phase.\\n1. Starting with the player who goes first, settle the various card effects triggered by \"End Phase.\"\\n2. Both players will draw 2 cards from their Draw Piles.\\n3. Let the next Round begin!"
+                }
+            ]
+        },
+        "geniusinvokationtcg": {
+            "id": 1,
+            "name": "Genius Invokation TCG",
+            "rules": [
+                {
+                    "title": "Genius Invokation TCG Basics",
+                    "titleraw": "Genius Invokation TCG Basics",
+                    "content": "Genius Invokation TCG is a tightly-paced, heart-stopping tabletop card dueling game.\nBuild your decks by basing them around Character and Action Cards, and engage in intense battles against your opponents!",
+                    "contentraw": "Genius Invokation TCG is a tightly-paced, heart-stopping tabletop card dueling game.\\nBuild your decks by basing them around Character and Action Cards, and engage in intense battles against your opponents!",
+                    "filename_image": "UI_Gcg_InSide_01"
+                },
+                {
+                    "title": "Prepare to Duel",
+                    "titleraw": "Prepare to Duel",
+                    "content": "(1) Both sides will draw 5 cards, which will form their Hand. After that, both sides will get 1 chance to switch out any number of cards in their Hand.\n(2) Both sides get to choose 1 of their own Character Cards to be their active character.",
+                    "contentraw": "(1) Both sides will draw 5 cards, which will form their Hand. After that, both sides will get 1 chance to switch out any number of cards in their Hand.\\n(2) Both sides get to choose 1 of their own Character Cards to be their active character."
+                },
+                {
+                    "title": "Duel Flow",
+                    "titleraw": "Duel Flow",
+                    "content": "After a Genius Invokation TCG duel starts, each Round will proceed as follows:\n(1) Roll Phase: Both sides will get 8 Elemental Dice to roll.\n(2) Action Phase: Both sides take turns to act until both declare that their Round is over.\n(3) End Phase: Both sides draw 2 cards.",
+                    "contentraw": "After a Genius Invokation TCG duel starts, each Round will proceed as follows:\\n(1) Roll Phase: Both sides will get 8 Elemental Dice to roll.\\n(2) Action Phase: Both sides take turns to act until both declare that their Round is over.\\n(3) End Phase: Both sides draw 2 cards."
+                },
+                {
+                    "title": "Victory Conditions",
+                    "titleraw": "Victory Conditions",
+                    "content": "Use your Character Cards to attack and defeat your opponent's Character Cards!\nOnce you have defeated them all, victory shall be yours!",
+                    "contentraw": "Use your Character Cards to attack and defeat your opponent's Character Cards!\\nOnce you have defeated them all, victory shall be yours!"
                 }
             ]
         },
@@ -245,161 +383,23 @@
                 }
             ]
         },
-        "specialentry": {
-            "id": 8,
-            "name": "Special Entry",
+        "elementalreactionsrules": {
+            "id": 5,
+            "name": "Elemental Reactions: Rules",
             "rules": [
                 {
-                    "title": "Food",
-                    "titleraw": "{SPRITE_PRESET#3101}Food",
-                    "content": "After playing the Food Event Card, the character will enter the Satiated state.\nCharacters in the Satiated state cannot be targeted by other Food Event Cards nor experience any effects from said Food Event Cards.\nThe Satiated state will be removed at the end of the Round or if the character is defeated.\nAside from this, when Food Event Cards with the Revival effect are played, no other Food Event Cards bearing the Revival effect can be used in the Round.",
-                    "contentraw": "After playing the {SPRITE_PRESET#3101}Food Event Card, the character will enter the Satiated state.\\nCharacters in the Satiated state cannot be targeted by other {SPRITE_PRESET#3101}Food Event Cards nor experience any effects from said {SPRITE_PRESET#3101}Food Event Cards.\\nThe Satiated state will be removed at the end of the Round or if the character is defeated.\\nAside from this, when {SPRITE_PRESET#3101}Food Event Cards with the Revival effect are played, no other {SPRITE_PRESET#3101}Food Event Cards bearing the Revival effect can be used in the Round."
+                    "title": "Elemental Application",
+                    "titleraw": "Elemental Application",
+                    "content": "When characters take Cryo, Hydro, Pyro, Electro, or Dendro DMG, they will have the corresponding Element applied to them.\n(Anemo DMG and Geo DMG cannot apply Elements in this way.)",
+                    "contentraw": "When characters take {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>, or {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> DMG, they will have the corresponding Element <color=#FFE14BFF>applied</color> to them.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color> and {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color> cannot apply Elements in this way.)",
+                    "filename_image": "UI_Gcg_InSide_12"
                 },
                 {
-                    "title": "Shield",
-                    "titleraw": "{SPRITE_PRESET#4007}Shield",
-                    "content": "Some effects will provide Shields that can protect specific characters.\nWhen characters with Shields receive DMG, the Shield points will be deducted to block some DMG, if not all.",
-                    "contentraw": "Some effects will provide Shields that can protect specific characters.\\nWhen characters with Shields receive DMG, the Shield points will be deducted to block some DMG, if not all."
-                },
-                {
-                    "title": "Usage",
-                    "titleraw": "Usage",
-                    "content": "Some cards have limited Usages.\nEach time the effect of such a card is triggered, 1 Usage will be consumed.\nOnce a card has 0 Usages remaining, it will be discarded immediately.",
-                    "contentraw": "Some cards have limited Usages.\\nEach time the effect of such a card is triggered, 1 Usage will be consumed.\\nOnce a card has 0 Usages remaining, it will be discarded immediately."
-                },
-                {
-                    "title": "Duration (Rounds)",
-                    "titleraw": "Duration (Rounds)",
-                    "content": "Some cards have limited Duration.\nEach End Phase, 1 Round will be removed from such a card's Duration.\nWhen a card's Duration runs out, it will be discarded immediately.",
-                    "contentraw": "Some cards have limited Duration.\\nEach End Phase, 1 Round will be removed from such a card's Duration.\\nWhen a card's Duration runs out, it will be discarded immediately."
-                },
-                {
-                    "title": "Piercing DMG",
-                    "titleraw": "Piercing DMG",
-                    "content": "Some effects will deal Piercing DMG.\nSuch DMG cannot be boosted by any effects, but they will not be blocked by any Shields either.",
-                    "contentraw": "Some effects will deal Piercing DMG.\\nSuch DMG cannot be boosted by any effects, but they will not be blocked by any Shields either."
-                },
-                {
-                    "title": "Combat Action (Action Card)",
-                    "titleraw": "Combat Action (Action Card)",
-                    "content": "Some Action Cards follow the Combat Action rule.\nIf you play such a card, that action will be viewed as conducting a Combat Action instead of a Fast Action.",
-                    "contentraw": "Some Action Cards follow the Combat Action rule.\\nIf you play such a card, that action will be viewed as conducting a Combat Action instead of a Fast Action."
-                },
-                {
-                    "title": "Charged Attack",
-                    "titleraw": "Charged Attack",
-                    "content": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack.",
-                    "contentraw": "Before your Action Phase, should the total number of your Elemental Dice be even, your Normal Attack will be considered a Charged Attack."
-                },
-                {
-                    "title": "Plunging Attack",
-                    "titleraw": "Plunging Attack",
-                    "content": "After the character is switched in to be the Active Character, should their next Combat Action within this Round be a Normal Attack, it will be considered a Plunging Attack for the instance.",
-                    "contentraw": "After the character is switched in to be the Active Character, should their next Combat Action within this Round be a Normal Attack, it will be considered a Plunging Attack for the instance."
-                }
-            ]
-        },
-        "takeaction": {
-            "id": 3,
-            "name": "Take Action",
-            "rules": [
-                {
-                    "title": "Actions",
-                    "titleraw": "Actions",
-                    "content": "During the Action Phase, actions are divided into Combat Actions and Fast Actions.\nCombat Actions: After you complete 1 Combat Action, you will pass your turn to your opponent. Using Skills, switching characters, and declaring Round end count as Combat Actions.\nFast Actions: You can continue your turn after completing a Fast Action. Playing a card and Elemental Tuning are considered Fast Actions.",
-                    "contentraw": "During the Action Phase, actions are divided into Combat Actions and Fast Actions.\\n<color=#FFE14BFF>Combat Actions</color>: After you complete 1 Combat Action, you will pass your turn to your opponent. Using Skills, switching characters, and declaring Round end count as Combat Actions.\\n<color=#FFE14BFF>Fast Actions</color>: You can continue your turn after completing a Fast Action. Playing a card and Elemental Tuning are considered Fast Actions."
-                },
-                {
-                    "title": "Combat Action - Use Skill",
-                    "titleraw": "Combat Action - Use Skill",
-                    "content": "Use your Elemental Dice to pay the relevant cost, which will allow your active character to use a Skill to damage the opposing active character.\nEach time a character uses a Normal Attack or an Elemental Skill, they will gain 1 Energy.\nOnce a character maxes out on Energy, they can spend all of it to use a powerful Elemental Burst!",
-                    "contentraw": "Use your Elemental Dice to pay the relevant cost, which will allow your active character to use a Skill to damage the opposing active character.\\nEach time a character uses a Normal Attack or an Elemental Skill, they will gain 1 Energy.\\nOnce a character maxes out on Energy, they can spend all of it to use a powerful Elemental Burst!"
-                },
-                {
-                    "title": "Combat Action - Switch Characters",
-                    "titleraw": "Combat Action - Switch Characters",
-                    "content": "Spend 1 Elemental Die of your choice to switch one of your characters on standby to be your active character.",
-                    "contentraw": "Spend 1 Elemental Die of your choice to switch one of your characters on standby to be your active character."
-                },
-                {
-                    "title": "Fast Action - Play Card",
-                    "titleraw": "Fast Action - Play Card",
-                    "content": "Use Elemental Dice to pay the relevant cost and play a card. Played cards are divided into the following categories:\nEquipment Cards: These are equipped on characters to apply an effect that buffs this character.\nSupport Cards: Place these in your Support Zone to continuously apply supporting effects.\nEvent Cards: Play these to immediately trigger all their effects.",
-                    "contentraw": "Use Elemental Dice to pay the relevant cost and play a card. Played cards are divided into the following categories:\\n<color=#FFE14BFF>Equipment Cards</color>: These are equipped on characters to apply an effect that buffs this character.\\n<color=#FFE14BFF>Support Cards</color>: Place these in your Support Zone to continuously apply supporting effects.\\n<color=#FFE14BFF>Event Cards</color>: Play these to immediately trigger all their effects."
-                },
-                {
-                    "title": "Fast Action - Elemental Tuning",
-                    "titleraw": "Fast Action - Elemental Tuning",
-                    "content": "Discard 1 card from your Hand to convert 1 Elemental Die to the Elemental Type of your current active character.",
-                    "contentraw": "Discard 1 card from your Hand to convert 1 Elemental Die to the Elemental Type of your current active character."
-                },
-                {
-                    "title": "Combat Action - Declare Round End",
-                    "titleraw": "Combat Action - Declare Round End",
-                    "content": "Give up on making further actions this Round and declare its end.\nThe player who ends their Round first will go first next Round, meaning that they will have the initiative during the next Round's Action Phase.\nAfter this, the player who has yet to declare the end of their Round will continue to take Actions.\nAfter both players have made this declaration, the Action Phase will end and this Round's End Phase will begin.",
-                    "contentraw": "Give up on making further actions this Round and declare its end.\\nThe player who ends their Round first will go first next Round, meaning that they will have the initiative during the next Round's Action Phase.\\nAfter this, the player who has yet to declare the end of their Round will continue to take Actions.\\nAfter both players have made this declaration, the Action Phase will end and this Round's End Phase will begin."
-                }
-            ]
-        },
-        "roundflow": {
-            "id": 2,
-            "name": "Round Flow",
-            "rules": [
-                {
-                    "title": "Round Flow",
-                    "titleraw": "Round Flow",
-                    "content": "Each Round will proceed as follows: Roll Phase > Action Phase > End Phase.",
-                    "contentraw": "Each Round will proceed as follows: Roll Phase > Action Phase > End Phase.",
-                    "filename_image": "UI_Gcg_InSide_11"
-                },
-                {
-                    "title": "Roll Phase",
-                    "titleraw": "Roll Phase",
-                    "content": "During each Round's Roll Phase, you will roll 8 Elemental Dice.\nAfter throwing these dice, you will have 1 chance to choose any number of Elemental Dice and reroll them.\nEach Elemental Die can have any one of the following 8 elemental attributes: Cryo, Hydro, Pyro, Electro, Anemo, Geo, and Dendro, as well as the Omni Element, which can be regarded and used as any basic Element.\nThe maximum number of Elemental Dice you can have is 16. You will not be able to obtain more once you reach this number.",
-                    "contentraw": "During each Round's Roll Phase, you will roll 8 Elemental Dice.\\nAfter throwing these dice, you will have 1 chance to choose any number of Elemental Dice and reroll them.\\nEach Elemental Die can have any one of the following 8 elemental attributes: Cryo, Hydro, Pyro, Electro, Anemo, Geo, and Dendro, as well as the Omni Element, which can be regarded and used as any basic Element.\\nThe maximum number of Elemental Dice you can have is 16. You will not be able to obtain more once you reach this number."
-                },
-                {
-                    "title": "Action Phase",
-                    "titleraw": "Action Phase",
-                    "content": "The two sides will take turns to take action, starting from the player who goes first. The actions you can undertake are:\nUse Skill: Pay the relevant cost and use your active character's Skill(s).\nSwitch Characters: Pay 1 Elemental Die of your choice to switch your active character.\nPlay Card: Pay the relevant cost and play card(s) from your Hand.\nElemental Tuning: Discard a card from your Hand and change the Elemental Type of 1 of your Elemental Die.\nDeclare Round End: End your actions for this Round. The first player to declare the end of their Round will go first during the next Round.",
-                    "contentraw": "The two sides will take turns to take action, starting from the player who goes first. The actions you can undertake are:\\n<color=#FFE14BFF>Use Skill</color>: Pay the relevant cost and use your active character's Skill(s).\\n<color=#FFE14BFF>Switch Characters</color>: Pay 1 Elemental Die of your choice to switch your active character.\\n<color=#FFE14BFF>Play Card</color>: Pay the relevant cost and play card(s) from your Hand.\\n<color=#FFE14BFF>Elemental Tuning</color>: Discard a card from your Hand and change the Elemental Type of 1 of your Elemental Die.\\n<color=#FFE14BFF>Declare Round End</color>: End your actions for this Round. The first player to declare the end of their Round will go first during the next Round."
-                },
-                {
-                    "title": "End Phase",
-                    "titleraw": "End Phase",
-                    "content": "Once both players have declared the end of their Round during the Action Phase, the game enters the End Phase.\n1. Starting with the player who goes first, settle the various card effects triggered by \"End Phase.\"\n2. Both players will draw 2 cards from their Draw Piles.\n3. Let the next Round begin!",
-                    "contentraw": "Once both players have declared the end of their Round during the Action Phase, the game enters the End Phase.\\n1. Starting with the player who goes first, settle the various card effects triggered by \"End Phase.\"\\n2. Both players will draw 2 cards from their Draw Piles.\\n3. Let the next Round begin!"
-                }
-            ]
-        },
-        "geniusinvokationtcg": {
-            "id": 1,
-            "name": "Genius Invokation TCG",
-            "rules": [
-                {
-                    "title": "Genius Invokation TCG Basics",
-                    "titleraw": "Genius Invokation TCG Basics",
-                    "content": "Genius Invokation TCG is a tightly-paced, heart-stopping tabletop card dueling game.\nBuild your decks by basing them around Character and Action Cards, and engage in intense battles against your opponents!",
-                    "contentraw": "Genius Invokation TCG is a tightly-paced, heart-stopping tabletop card dueling game.\\nBuild your decks by basing them around Character and Action Cards, and engage in intense battles against your opponents!",
-                    "filename_image": "UI_Gcg_InSide_01"
-                },
-                {
-                    "title": "Prepare to Duel",
-                    "titleraw": "Prepare to Duel",
-                    "content": "(1) Both sides will draw 5 cards, which will form their Hand. After that, both sides will get 1 chance to switch out any number of cards in their Hand.\n(2) Both sides get to choose 1 of their own Character Cards to be their active character.",
-                    "contentraw": "(1) Both sides will draw 5 cards, which will form their Hand. After that, both sides will get 1 chance to switch out any number of cards in their Hand.\\n(2) Both sides get to choose 1 of their own Character Cards to be their active character."
-                },
-                {
-                    "title": "Duel Flow",
-                    "titleraw": "Duel Flow",
-                    "content": "After a Genius Invokation TCG duel starts, each Round will proceed as follows:\n(1) Roll Phase: Both sides will get 8 Elemental Dice to roll.\n(2) Action Phase: Both sides take turns to act until both declare that their Round is over.\n(3) End Phase: Both sides draw 2 cards.",
-                    "contentraw": "After a Genius Invokation TCG duel starts, each Round will proceed as follows:\\n(1) Roll Phase: Both sides will get 8 Elemental Dice to roll.\\n(2) Action Phase: Both sides take turns to act until both declare that their Round is over.\\n(3) End Phase: Both sides draw 2 cards."
-                },
-                {
-                    "title": "Victory Conditions",
-                    "titleraw": "Victory Conditions",
-                    "content": "Use your Character Cards to attack and defeat your opponent's Character Cards!\nOnce you have defeated them all, victory shall be yours!",
-                    "contentraw": "Use your Character Cards to attack and defeat your opponent's Character Cards!\\nOnce you have defeated them all, victory shall be yours!"
+                    "title": "Elemental Reaction Rules",
+                    "titleraw": "Elemental Reaction Rules",
+                    "content": "When the target has already had an Elemental Application:\n(1) Dealing a specific type of Elemental DMG will trigger an Elemental Reaction.\n(2) Using non-DMG effects to perform specific Elemental Applications will also trigger an Elemental Reaction. When calculating the effects of such Elemental Reactions, all DMG-dealing effects will be ignored.",
+                    "contentraw": "When the target has already had an <color=#FFE14BFF>Elemental Application</color>:\\n(1) Dealing a specific type of <color=#FFE14BFF>Elemental DMG</color> will trigger an Elemental Reaction.\\n(2) Using non-DMG effects to perform specific Elemental Applications will also trigger an Elemental Reaction. When calculating the effects of such Elemental Reactions, all DMG-dealing effects will be ignored.",
+                    "filename_image": "UI_Gcg_InSide_13"
                 }
             ]
         },

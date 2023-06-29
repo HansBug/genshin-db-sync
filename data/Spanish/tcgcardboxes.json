@@ -1,11 +1,11 @@
 {
     "items": {
-        "liyue": {
-            "id": 101,
-            "name": "Liyue",
-            "description": "Eterna como la luna, elevada como el sol.\nMontañas como ninguna, prosperidad sin parangón.",
-            "descriptionraw": "Eterna como la luna, elevada como el sol.\\nMontañas como ninguna, prosperidad sin parangón.",
-            "source": "Recompensa al alcanzar el Nivel de jugador 3",
+        "inazuma": {
+            "id": 102,
+            "name": "Inazuma",
+            "description": "Truenos que son fugaces para una Narukami en soledad.\nSueños perecederos en un mundo de transitoriedad.",
+            "descriptionraw": "Truenos que son fugaces para una Narukami en soledad.\\nSueños perecederos en un mundo de transitoriedad.",
+            "source": "Recompensa al alcanzar el Nivel de jugador 5",
             "rarity": 4
         },
         "sumeru": {
@@ -16,20 +16,20 @@
             "source": "Recompensa al alcanzar el Nivel de jugador 7",
             "rarity": 4
         },
+        "liyue": {
+            "id": 101,
+            "name": "Liyue",
+            "description": "Eterna como la luna, elevada como el sol.\nMontañas como ninguna, prosperidad sin parangón.",
+            "descriptionraw": "Eterna como la luna, elevada como el sol.\\nMontañas como ninguna, prosperidad sin parangón.",
+            "source": "Recompensa al alcanzar el Nivel de jugador 3",
+            "rarity": 4
+        },
         "mondstadt": {
             "id": 100,
             "name": "Mondstadt",
             "description": "Una brisa que sopla sin cesar, un aire que tañe una melodía.\nViento y flores con pasión quieren charlar, y caen hasta el fondo de los manantiales con armonía.",
             "descriptionraw": "Una brisa que sopla sin cesar, un aire que tañe una melodía.\\nViento y flores con pasión quieren charlar, y caen hasta el fondo de los manantiales con armonía.",
             "source": "Obtenido al inicio",
-            "rarity": 4
-        },
-        "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
-            "description": "Truenos que son fugaces para una Narukami en soledad.\nSueños perecederos en un mundo de transitoriedad.",
-            "descriptionraw": "Truenos que son fugaces para una Narukami en soledad.\\nSueños perecederos en un mundo de transitoriedad.",
-            "source": "Recompensa al alcanzar el Nivel de jugador 5",
             "rarity": 4
         }
     },

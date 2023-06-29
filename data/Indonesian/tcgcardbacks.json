@@ -1,18 +1,26 @@
 {
     "items": {
-        "adept": {
-            "id": 110,
-            "name": "Expert",
-            "description": "Tidak ada teka-teki yang tidak dapat kamu pecahkan, tidak ada sesuatu yang tidak bisa dilewati olehmu. Kami salut!",
-            "descriptionraw": "Tidak ada teka-teki yang tidak dapat kamu pecahkan, tidak ada sesuatu yang tidak bisa dilewati olehmu. Kami salut!",
-            "source": "Didapatkan setelah menyelesaikan semua target pada Panduan Pemain Pertandingan Keempat",
+        "inazuma": {
+            "id": 103,
+            "name": "Inazuma",
+            "description": "Secepat kilat, itulah yang dibutuhkan dalam memainkan kartu. Kalau kamu bermain cukup cepat, maka kamu bisa memenangkan momen-momen yang menentukan.",
+            "descriptionraw": "Secepat kilat, itulah yang dibutuhkan dalam memainkan kartu. Kalau kamu bermain cukup cepat, maka kamu bisa memenangkan momen-momen yang menentukan.",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 6",
             "rarity": 3
         },
-        "dandelionseed": {
-            "id": 117,
-            "name": "Dandelion Seed",
-            "description": "Harapan dan kesabaran adalah dua hal yang berjalan beriringan.",
-            "descriptionraw": "Harapan dan kesabaran adalah dua hal yang berjalan beriringan.",
+        "origin": {
+            "id": 100,
+            "name": "Origin",
+            "description": "Antara siang dan malam, antara langit dan bumi,\nDi situlah harapan dan impian tinggal.",
+            "descriptionraw": "Antara siang dan malam, antara langit dan bumi,\\nDi situlah harapan dan impian tinggal.",
+            "source": "Dapatkan untuk pertama kalinya",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "Mist Flower Corolla",
+            "description": "\"Menyerah dengan anggun adalah akhir yang tak terelakkan.\"",
+            "descriptionraw": "\"Menyerah dengan anggun adalah akhir yang tak terelakkan.\"",
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         },
@@ -24,35 +32,27 @@
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         },
-        "origin": {
-            "id": 100,
-            "name": "Origin",
-            "description": "Antara siang dan malam, antara langit dan bumi,\nDi situlah harapan dan impian tinggal.",
-            "descriptionraw": "Antara siang dan malam, antara langit dan bumi,\\nDi situlah harapan dan impian tinggal.",
-            "source": "Dapatkan untuk pertama kalinya",
-            "rarity": 3
-        },
-        "liyue": {
-            "id": 102,
-            "name": "Liyue",
-            "description": "Setiap perjalanan harus dimulai dengan langkah pertama. Bangun Dek-mu dengan kartu yang mantap, dan jalan menuju kemenangan akan semakin mantap juga.",
-            "descriptionraw": "Setiap perjalanan harus dimulai dengan langkah pertama. Bangun Dek-mu dengan kartu yang mantap, dan jalan menuju kemenangan akan semakin mantap juga.",
-            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 4",
-            "rarity": 3
-        },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "Treasures of the Deck",
-            "description": "Harta karun yang didapatkan, hanya dapat digunakan untuk sementara dan tidak bersifat kekal. Isinya pun selalu berbeda, tidak pernah sama. Kali ini, harta karun tersembunyi apa yang ada di dalam kartu-kartumu?",
-            "descriptionraw": "Harta karun yang didapatkan, hanya dapat digunakan untuk sementara dan tidak bersifat kekal. Isinya pun selalu berbeda, tidak pernah sama. Kali ini, harta karun tersembunyi apa yang ada di dalam kartu-kartumu?",
+        "crystalchunk": {
+            "id": 111,
+            "name": "Crystal Chunk",
+            "description": "Jika diasah terus, bahan yang cocok juga bisa menunjukkan kualitasnya.",
+            "descriptionraw": "Jika diasah terus, bahan yang cocok juga bisa menunjukkan kualitasnya.",
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "Magical Crystal Chunk",
-            "description": "Waktulah yang akan memberikan nilainya.",
-            "descriptionraw": "Waktulah yang akan memberikan nilainya.",
+        "adept": {
+            "id": 110,
+            "name": "Expert",
+            "description": "Tidak ada teka-teki yang tidak dapat kamu pecahkan, tidak ada sesuatu yang tidak bisa dilewati olehmu. Kami salut!",
+            "descriptionraw": "Tidak ada teka-teki yang tidak dapat kamu pecahkan, tidak ada sesuatu yang tidak bisa dilewati olehmu. Kami salut!",
+            "source": "Didapatkan setelah menyelesaikan semua target pada Panduan Pemain Pertandingan Keempat",
+            "rarity": 3
+        },
+        "amethystlump": {
+            "id": 113,
+            "name": "Amethyst Lump",
+            "description": "Beradaptasi dengan tempatmu berada juga salah satu bentuk kebijaksanaan.",
+            "descriptionraw": "Beradaptasi dengan tempatmu berada juga salah satu bentuk kebijaksanaan.",
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         },
@@ -64,35 +64,11 @@
             "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 8",
             "rarity": 3
         },
-        "electrocrystal": {
-            "id": 116,
-            "name": "Electro Crystal",
-            "description": "Apakah metode agresif akan berguna? Hal yang mudah terpicu bukan cuma dia satu-satunya loh!",
-            "descriptionraw": "Apakah metode agresif akan berguna? Hal yang mudah terpicu bukan cuma dia satu-satunya loh!",
-            "source": "Dibeli di Toko Kartu",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "Flaming Flower Stamen",
-            "description": "\"Jiwa duelisku bergetar!\"",
-            "descriptionraw": "\"Jiwa duelisku bergetar!\"",
-            "source": "Dibeli di Toko Kartu",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "Mondstadt",
-            "description": "Kebebasan adalah prinsip pertama dari kartu.\nKamu bebas mengatur dek, bebas memilih lawan, dan bebas memainkan kartu di tangan.\nAtau mungkin kamu bisa menggunakan kebebasan itu untuk tidak bermain sama sekali, dan melakukan hal lain dengan kartu yang ada di tanganmu.",
-            "descriptionraw": "Kebebasan adalah prinsip pertama dari kartu.\\nKamu bebas mengatur dek, bebas memilih lawan, dan bebas memainkan kartu di tangan.\\nAtau mungkin kamu bisa menggunakan kebebasan itu untuk tidak bermain sama sekali, dan melakukan hal lain dengan kartu yang ada di tanganmu.",
-            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 2",
-            "rarity": 3
-        },
-        "amethystlump": {
-            "id": 113,
-            "name": "Amethyst Lump",
-            "description": "Beradaptasi dengan tempatmu berada juga salah satu bentuk kebijaksanaan.",
-            "descriptionraw": "Beradaptasi dengan tempatmu berada juga salah satu bentuk kebijaksanaan.",
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "Magical Crystal Chunk",
+            "description": "Waktulah yang akan memberikan nilainya.",
+            "descriptionraw": "Waktulah yang akan memberikan nilainya.",
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         },
@@ -104,27 +80,27 @@
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "Mist Flower Corolla",
-            "description": "\"Menyerah dengan anggun adalah akhir yang tak terelakkan.\"",
-            "descriptionraw": "\"Menyerah dengan anggun adalah akhir yang tak terelakkan.\"",
+        "liyue": {
+            "id": 102,
+            "name": "Liyue",
+            "description": "Setiap perjalanan harus dimulai dengan langkah pertama. Bangun Dek-mu dengan kartu yang mantap, dan jalan menuju kemenangan akan semakin mantap juga.",
+            "descriptionraw": "Setiap perjalanan harus dimulai dengan langkah pertama. Bangun Dek-mu dengan kartu yang mantap, dan jalan menuju kemenangan akan semakin mantap juga.",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 4",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "Flaming Flower Stamen",
+            "description": "\"Jiwa duelisku bergetar!\"",
+            "descriptionraw": "\"Jiwa duelisku bergetar!\"",
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         },
-        "inazuma": {
-            "id": 103,
-            "name": "Inazuma",
-            "description": "Secepat kilat, itulah yang dibutuhkan dalam memainkan kartu. Kalau kamu bermain cukup cepat, maka kamu bisa memenangkan momen-momen yang menentukan.",
-            "descriptionraw": "Secepat kilat, itulah yang dibutuhkan dalam memainkan kartu. Kalau kamu bermain cukup cepat, maka kamu bisa memenangkan momen-momen yang menentukan.",
-            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 6",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "Crystal Chunk",
-            "description": "Jika diasah terus, bahan yang cocok juga bisa menunjukkan kualitasnya.",
-            "descriptionraw": "Jika diasah terus, bahan yang cocok juga bisa menunjukkan kualitasnya.",
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "Lazurite Swirl",
+            "description": "Punggung Kartu spesial yang dilukis secara khusus oleh pelukis ternama, Calx.\n\"Bagaikan Dragon of the East, dengan bebas membentangkan sayapnya di dalam medan pertempuran kecil ini!\"",
+            "descriptionraw": "Punggung Kartu spesial yang dilukis secara khusus oleh pelukis ternama, Calx.\\n\"Bagaikan Dragon of the East, dengan bebas membentangkan sayapnya di dalam medan pertempuran kecil ini!\"",
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         },
@@ -136,6 +112,30 @@
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         },
+        "electrocrystal": {
+            "id": 116,
+            "name": "Electro Crystal",
+            "description": "Apakah metode agresif akan berguna? Hal yang mudah terpicu bukan cuma dia satu-satunya loh!",
+            "descriptionraw": "Apakah metode agresif akan berguna? Hal yang mudah terpicu bukan cuma dia satu-satunya loh!",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "Treasures of the Deck",
+            "description": "Harta karun yang didapatkan, hanya dapat digunakan untuk sementara dan tidak bersifat kekal. Isinya pun selalu berbeda, tidak pernah sama. Kali ini, harta karun tersembunyi apa yang ada di dalam kartu-kartumu?",
+            "descriptionraw": "Harta karun yang didapatkan, hanya dapat digunakan untuk sementara dan tidak bersifat kekal. Isinya pun selalu berbeda, tidak pernah sama. Kali ini, harta karun tersembunyi apa yang ada di dalam kartu-kartumu?",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "Mondstadt",
+            "description": "Kebebasan adalah prinsip pertama dari kartu.\nKamu bebas mengatur dek, bebas memilih lawan, dan bebas memainkan kartu di tangan.\nAtau mungkin kamu bisa menggunakan kebebasan itu untuk tidak bermain sama sekali, dan melakukan hal lain dengan kartu yang ada di tanganmu.",
+            "descriptionraw": "Kebebasan adalah prinsip pertama dari kartu.\\nKamu bebas mengatur dek, bebas memilih lawan, dan bebas memainkan kartu di tangan.\\nAtau mungkin kamu bisa menggunakan kebebasan itu untuk tidak bermain sama sekali, dan melakukan hal lain dengan kartu yang ada di tanganmu.",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 2",
+            "rarity": 3
+        },
         "legend": {
             "id": 109,
             "name": "Legendaris",
@@ -144,11 +144,11 @@
             "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 10",
             "rarity": 3
         },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "Lazurite Swirl",
-            "description": "Punggung Kartu spesial yang dilukis secara khusus oleh pelukis ternama, Calx.\n\"Bagaikan Dragon of the East, dengan bebas membentangkan sayapnya di dalam medan pertempuran kecil ini!\"",
-            "descriptionraw": "Punggung Kartu spesial yang dilukis secara khusus oleh pelukis ternama, Calx.\\n\"Bagaikan Dragon of the East, dengan bebas membentangkan sayapnya di dalam medan pertempuran kecil ini!\"",
+        "dandelionseed": {
+            "id": 117,
+            "name": "Dandelion Seed",
+            "description": "Harapan dan kesabaran adalah dua hal yang berjalan beriringan.",
+            "descriptionraw": "Harapan dan kesabaran adalah dua hal yang berjalan beriringan.",
             "source": "Dibeli di Toko Kartu",
             "rarity": 3
         }

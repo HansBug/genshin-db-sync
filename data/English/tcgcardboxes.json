@@ -1,11 +1,11 @@
 {
     "items": {
-        "liyue": {
-            "id": 101,
-            "name": "Liyue",
-            "description": "As eternal as the moon, as long-lasting as the rising sun.\nBy earth and hill and bedrock shall all things prosper.",
-            "descriptionraw": "As eternal as the moon, as long-lasting as the rising sun.\\nBy earth and hill and bedrock shall all things prosper.",
-            "source": "Reward for reaching Player Level 3",
+        "inazuma": {
+            "id": 102,
+            "name": "Inazuma",
+            "description": "Lightning flashes, then passes, illuminating the solitude of thunder.\nDreams of madness come and go — all things are impermanent.",
+            "descriptionraw": "Lightning flashes, then passes, illuminating the solitude of thunder.\\nDreams of madness come and go — all things are impermanent.",
+            "source": "Reward for reaching Player Level 5",
             "rarity": 4
         },
         "sumeru": {
@@ -16,20 +16,20 @@
             "source": "Reward for reaching Player Level 7",
             "rarity": 4
         },
+        "liyue": {
+            "id": 101,
+            "name": "Liyue",
+            "description": "As eternal as the moon, as long-lasting as the rising sun.\nBy earth and hill and bedrock shall all things prosper.",
+            "descriptionraw": "As eternal as the moon, as long-lasting as the rising sun.\\nBy earth and hill and bedrock shall all things prosper.",
+            "source": "Reward for reaching Player Level 3",
+            "rarity": 4
+        },
         "mondstadt": {
             "id": 100,
             "name": "Mondstadt",
             "description": "The ceaseless whisper of the breeze plays upon the strings, creating a lovely music.\nThe passionate talk of the wind and flowers is blown away, falling into the heart of the clear spring.",
             "descriptionraw": "The ceaseless whisper of the breeze plays upon the strings, creating a lovely music.\\nThe passionate talk of the wind and flowers is blown away, falling into the heart of the clear spring.",
             "source": "Obtain for the first time",
-            "rarity": 4
-        },
-        "inazuma": {
-            "id": 102,
-            "name": "Inazuma",
-            "description": "Lightning flashes, then passes, illuminating the solitude of thunder.\nDreams of madness come and go — all things are impermanent.",
-            "descriptionraw": "Lightning flashes, then passes, illuminating the solitude of thunder.\\nDreams of madness come and go — all things are impermanent.",
-            "source": "Reward for reaching Player Level 5",
             "rarity": 4
         }
     },

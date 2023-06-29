@@ -1,18 +1,26 @@
 {
     "items": {
-        "adept": {
-            "id": 110,
-            "name": "Proficiente",
-            "description": "Para você, não existem perguntas sem respostas, nada é impossível. Parabéns!",
-            "descriptionraw": "Para você, não existem perguntas sem respostas, nada é impossível. Parabéns!",
-            "source": "Recebida ao completar todos os objetivos da 4ª rodada do Guia do Jogador",
+        "inazuma": {
+            "id": 103,
+            "name": "Inazuma",
+            "description": "As cartas devem ser jogadas com a velocidade de um relâmpago. Caso você jogue rápido o suficiente, a vitória pode ser decidida em um instante.",
+            "descriptionraw": "As cartas devem ser jogadas com a velocidade de um relâmpago. Caso você jogue rápido o suficiente, a vitória pode ser decidida em um instante.",
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 6",
             "rarity": 3
         },
-        "dandelionseed": {
-            "id": 117,
-            "name": "Sementes de Dandelion",
-            "description": "A esperança e a paciência andam sempre de mãos dadas.",
-            "descriptionraw": "A esperança e a paciência andam sempre de mãos dadas.",
+        "origin": {
+            "id": 100,
+            "name": "Primordial",
+            "description": "Entre o dia e a noite, entre o céu e a terra,\né onde perambulam todas as fantasias e esperanças.",
+            "descriptionraw": "Entre o dia e a noite, entre o céu e a terra,\\né onde perambulam todas as fantasias e esperanças.",
+            "source": "Aquisição Inicial",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "Flor da Neblina",
+            "description": "\"Aceitar a derrota com dignidade é o seu fim inevitável.\"",
+            "descriptionraw": "\"Aceitar a derrota com dignidade é o seu fim inevitável.\"",
             "source": "Pode ser comprado na Loja de Cartas",
             "rarity": 3
         },
@@ -24,35 +32,27 @@
             "source": "Pode ser comprado na Loja de Cartas",
             "rarity": 3
         },
-        "origin": {
-            "id": 100,
-            "name": "Primordial",
-            "description": "Entre o dia e a noite, entre o céu e a terra,\né onde perambulam todas as fantasias e esperanças.",
-            "descriptionraw": "Entre o dia e a noite, entre o céu e a terra,\\né onde perambulam todas as fantasias e esperanças.",
-            "source": "Aquisição Inicial",
+        "crystalchunk": {
+            "id": 111,
+            "name": "Pedaço de Cristal",
+            "description": "Com o tipo certo de treinamento, seu talento pode brilhar.",
+            "descriptionraw": "Com o tipo certo de treinamento, seu talento pode brilhar.",
+            "source": "Pode ser comprado na Loja de Cartas",
             "rarity": 3
         },
-        "liyue": {
-            "id": 102,
-            "name": "Liyue",
-            "description": "A jornada de mil quilômetros começa com o primeiro passo. Já sua jornada para a vitória começa montando um deck confiável.",
-            "descriptionraw": "A jornada de mil quilômetros começa com o primeiro passo. Já sua jornada para a vitória começa montando um deck confiável.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 4",
+        "adept": {
+            "id": 110,
+            "name": "Proficiente",
+            "description": "Para você, não existem perguntas sem respostas, nada é impossível. Parabéns!",
+            "descriptionraw": "Para você, não existem perguntas sem respostas, nada é impossível. Parabéns!",
+            "source": "Recebida ao completar todos os objetivos da 4ª rodada do Guia do Jogador",
             "rarity": 3
         },
-        "treasuresofthedeck": {
-            "id": 122,
-            "name": "Tesouros das Cartas",
-            "description": "Tesouros são ganhos e usados apenas pelo momento e seus conteúdos nunca são os mesmos. Que tesouros se escondem em suas cartas desta vez?",
-            "descriptionraw": "Tesouros são ganhos e usados apenas pelo momento e seus conteúdos nunca são os mesmos. Que tesouros se escondem em suas cartas desta vez?",
-            "source": "Comprada na Loja de Cartas",
-            "rarity": 3
-        },
-        "magicalcrystalchunk": {
-            "id": 112,
-            "name": "Pedaço de Cristal Mágico",
-            "description": "O tempo irá concedê-lo valor.",
-            "descriptionraw": "O tempo irá concedê-lo valor.",
+        "amethystlump": {
+            "id": 113,
+            "name": "Pedaço de Ametista",
+            "description": "A capacidade de se adaptar onde quer que você esteja, também é uma forma de sabedoria.",
+            "descriptionraw": "A capacidade de se adaptar onde quer que você esteja, também é uma forma de sabedoria.",
             "source": "Pode ser comprado na Loja de Cartas",
             "rarity": 3
         },
@@ -64,35 +64,11 @@
             "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 8",
             "rarity": 3
         },
-        "electrocrystal": {
-            "id": 116,
-            "name": "Cristal Electro",
-            "description": "Psicologia reversa, será que serve mesmo? Não seria a única coisa prestes a explodir aqui.",
-            "descriptionraw": "Psicologia reversa, será que serve mesmo? Não seria a única coisa prestes a explodir aqui.",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
-        "flamingflowerstamen": {
-            "id": 114,
-            "name": "Flor-Flamejante",
-            "description": "\"Minha alma de duelista está em chamas!\"",
-            "descriptionraw": "\"Minha alma de duelista está em chamas!\"",
-            "source": "Pode ser comprado na Loja de Cartas",
-            "rarity": 3
-        },
-        "mondstadt": {
-            "id": 101,
-            "name": "Mondstadt",
-            "description": "Liberdade é o primeiro princípio das cartas.\nVocê deve montar seu deck livremente, escolher seus oponentes livremente e jogar suas cartas livremente.\n...ou talvez você possa usar essa liberdade para não jogar as cartas, e usá-las para algum outro propósito...?",
-            "descriptionraw": "Liberdade é o primeiro princípio das cartas.\\nVocê deve montar seu deck livremente, escolher seus oponentes livremente e jogar suas cartas livremente.\\n...ou talvez você possa usar essa liberdade para não jogar as cartas, e usá-las para algum outro propósito...?",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 2",
-            "rarity": 3
-        },
-        "amethystlump": {
-            "id": 113,
-            "name": "Pedaço de Ametista",
-            "description": "A capacidade de se adaptar onde quer que você esteja, também é uma forma de sabedoria.",
-            "descriptionraw": "A capacidade de se adaptar onde quer que você esteja, também é uma forma de sabedoria.",
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "Pedaço de Cristal Mágico",
+            "description": "O tempo irá concedê-lo valor.",
+            "descriptionraw": "O tempo irá concedê-lo valor.",
             "source": "Pode ser comprado na Loja de Cartas",
             "rarity": 3
         },
@@ -104,28 +80,28 @@
             "source": "Pode ser comprado na Loja de Cartas",
             "rarity": 3
         },
-        "mistflowercorolla": {
-            "id": 115,
-            "name": "Flor da Neblina",
-            "description": "\"Aceitar a derrota com dignidade é o seu fim inevitável.\"",
-            "descriptionraw": "\"Aceitar a derrota com dignidade é o seu fim inevitável.\"",
+        "liyue": {
+            "id": 102,
+            "name": "Liyue",
+            "description": "A jornada de mil quilômetros começa com o primeiro passo. Já sua jornada para a vitória começa montando um deck confiável.",
+            "descriptionraw": "A jornada de mil quilômetros começa com o primeiro passo. Já sua jornada para a vitória começa montando um deck confiável.",
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 4",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "Flor-Flamejante",
+            "description": "\"Minha alma de duelista está em chamas!\"",
+            "descriptionraw": "\"Minha alma de duelista está em chamas!\"",
             "source": "Pode ser comprado na Loja de Cartas",
             "rarity": 3
         },
-        "inazuma": {
-            "id": 103,
-            "name": "Inazuma",
-            "description": "As cartas devem ser jogadas com a velocidade de um relâmpago. Caso você jogue rápido o suficiente, a vitória pode ser decidida em um instante.",
-            "descriptionraw": "As cartas devem ser jogadas com a velocidade de um relâmpago. Caso você jogue rápido o suficiente, a vitória pode ser decidida em um instante.",
-            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 6",
-            "rarity": 3
-        },
-        "crystalchunk": {
-            "id": 111,
-            "name": "Pedaço de Cristal",
-            "description": "Com o tipo certo de treinamento, seu talento pode brilhar.",
-            "descriptionraw": "Com o tipo certo de treinamento, seu talento pode brilhar.",
-            "source": "Pode ser comprado na Loja de Cartas",
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "Vórtice Lazuli",
+            "description": "Um verso de carta especialmente desenhado pelo famoso artista Calx.\n\"Exiba suas escamas e penas livremente neste campo de batalha reduzido como se você fosse o Dragão do Leste!\"",
+            "descriptionraw": "Um verso de carta especialmente desenhado pelo famoso artista Calx.\\n\"Exiba suas escamas e penas livremente neste campo de batalha reduzido como se você fosse o Dragão do Leste!\"",
+            "source": "Comprada na Loja de Cartas",
             "rarity": 3
         },
         "glazelily": {
@@ -136,6 +112,30 @@
             "source": "Pode ser comprado na Loja de Cartas",
             "rarity": 3
         },
+        "electrocrystal": {
+            "id": 116,
+            "name": "Cristal Electro",
+            "description": "Psicologia reversa, será que serve mesmo? Não seria a única coisa prestes a explodir aqui.",
+            "descriptionraw": "Psicologia reversa, será que serve mesmo? Não seria a única coisa prestes a explodir aqui.",
+            "source": "Pode ser comprado na Loja de Cartas",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "Tesouros das Cartas",
+            "description": "Tesouros são ganhos e usados apenas pelo momento e seus conteúdos nunca são os mesmos. Que tesouros se escondem em suas cartas desta vez?",
+            "descriptionraw": "Tesouros são ganhos e usados apenas pelo momento e seus conteúdos nunca são os mesmos. Que tesouros se escondem em suas cartas desta vez?",
+            "source": "Comprada na Loja de Cartas",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "Mondstadt",
+            "description": "Liberdade é o primeiro princípio das cartas.\nVocê deve montar seu deck livremente, escolher seus oponentes livremente e jogar suas cartas livremente.\n...ou talvez você possa usar essa liberdade para não jogar as cartas, e usá-las para algum outro propósito...?",
+            "descriptionraw": "Liberdade é o primeiro princípio das cartas.\\nVocê deve montar seu deck livremente, escolher seus oponentes livremente e jogar suas cartas livremente.\\n...ou talvez você possa usar essa liberdade para não jogar as cartas, e usá-las para algum outro propósito...?",
+            "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 2",
+            "rarity": 3
+        },
         "legend": {
             "id": 109,
             "name": "Lenda",
@@ -144,12 +144,12 @@
             "source": "Recebida como recompensa ao aumentar o Nível de Jogador para 10",
             "rarity": 3
         },
-        "lazuriteswirl": {
-            "id": 121,
-            "name": "Vórtice Lazuli",
-            "description": "Um verso de carta especialmente desenhado pelo famoso artista Calx.\n\"Exiba suas escamas e penas livremente neste campo de batalha reduzido como se você fosse o Dragão do Leste!\"",
-            "descriptionraw": "Um verso de carta especialmente desenhado pelo famoso artista Calx.\\n\"Exiba suas escamas e penas livremente neste campo de batalha reduzido como se você fosse o Dragão do Leste!\"",
-            "source": "Comprada na Loja de Cartas",
+        "dandelionseed": {
+            "id": 117,
+            "name": "Sementes de Dandelion",
+            "description": "A esperança e a paciência andam sempre de mãos dadas.",
+            "descriptionraw": "A esperança e a paciência andam sempre de mãos dadas.",
+            "source": "Pode ser comprado na Loja de Cartas",
             "rarity": 3
         }
     },

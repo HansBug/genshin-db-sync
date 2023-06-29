@@ -1,22 +1,160 @@
 {
     "items": {
-        "elementalreactionsrules": {
-            "id": 5,
-            "name": "Regole delle reazioni elementali",
+        "takeaction": {
+            "id": 3,
+            "name": "Agisci",
             "rules": [
                 {
-                    "title": "Applicazione elementale",
-                    "titleraw": "Applicazione elementale",
-                    "content": "Quando i personaggi subiscono DAN da Cryo, Hydro, Pyro, Electro o Dendro, verranno affetti dall'elemento corrispondente.\nI DAN da Anemo e i DAN da Geo non possono applicare gli elementi in questo modo.",
-                    "contentraw": "Quando i personaggi subiscono DAN da {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color> o {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>, verranno <color=#FFE14BFF>affetti</color> dall'elemento corrispondente.\\nI {SPRITE_PRESET#2105}<color=#80FFD7FF>DAN da Anemo</color> e i {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color> non possono applicare gli elementi in questo modo.",
-                    "filename_image": "UI_Gcg_InSide_12"
+                    "title": "Azioni",
+                    "titleraw": "Azioni",
+                    "content": "Durante la fase di azione, le azioni possono essere rapide o di combattimento.\nAzioni di combattimento: usare un'azione di combattimento farà terminare il tuo turno. Usare le abilità, cambiare personaggio e dichiarare la fine del turno sono tutte azioni di combattimento.\nAzioni rapide: usare le azioni rapide non farà terminare il tuo turno. Giocare una carta e usare l'Armonia elementale sono azioni rapide.",
+                    "contentraw": "Durante la fase di azione, le azioni possono essere rapide o di combattimento.\\n<color=#FFE14BFF>Azioni di combattimento</color>: usare un'azione di combattimento farà terminare il tuo turno. Usare le abilità, cambiare personaggio e dichiarare la fine del turno sono tutte azioni di combattimento.\\n<color=#FFE14BFF>Azioni rapide</color>: usare le azioni rapide non farà terminare il tuo turno. Giocare una carta e usare l'Armonia elementale sono azioni rapide."
                 },
                 {
-                    "title": "Regole delle reazioni elementali",
-                    "titleraw": "Regole delle reazioni elementali",
-                    "content": "Se il bersaglio è già affetto da un elemento:\n(1) Infliggere un certo tipo di DAN elementali innescherà una reazione elementale.\n(2) Anche l'applicazione di un determinato elemento senza infliggere danni produrrà una reazione elementale. Quando si contano gli effetti di tali reazioni elementali, tutti gli effetti che causano danni vengono ignorati.",
-                    "contentraw": "Se il bersaglio è già <color=#FFE14BFF>affetto da un elemento</color>:\\n(1) Infliggere un certo tipo di <color=#FFE14BFF>DAN elementali</color> innescherà una reazione elementale.\\n(2) Anche l'applicazione di un determinato elemento senza infliggere danni produrrà una reazione elementale. Quando si contano gli effetti di tali reazioni elementali, tutti gli effetti che causano danni vengono ignorati.",
-                    "filename_image": "UI_Gcg_InSide_13"
+                    "title": "Azione di combattimento: Utilizza abilità",
+                    "titleraw": "Azione di combattimento: Utilizza abilità",
+                    "content": "Permetti al tuo personaggio attivo di usare un'abilità e infliggere danni al personaggio attivo dell'avversario pagandone il costo in dadi elementali.\nIl personaggio otterrà 1 punto di energia per ogni attacco normale o abilità elementale usata.\nUna volta raggiunto il massimo, potrà spendere tutta l'energia per usare un potente Tripudio elementale!",
+                    "contentraw": "Permetti al tuo personaggio attivo di usare un'abilità e infliggere danni al personaggio attivo dell'avversario pagandone il costo in dadi elementali.\\nIl personaggio otterrà 1 punto di energia per ogni attacco normale o abilità elementale usata.\\nUna volta raggiunto il massimo, potrà spendere tutta l'energia per usare un potente Tripudio elementale!"
+                },
+                {
+                    "title": "Azione di combattimento: Cambia personaggio",
+                    "titleraw": "Azione di combattimento: Cambia personaggio",
+                    "content": "Consuma 1 dado elementale di qualsiasi tipo per cambiare il personaggio attivo.",
+                    "contentraw": "Consuma 1 dado elementale di qualsiasi tipo per cambiare il personaggio attivo."
+                },
+                {
+                    "title": "Azione rapida: Gioca una carta",
+                    "titleraw": "Azione rapida: Gioca una carta",
+                    "content": "Per giocare una carta, pagane il costo in dadi elementali. Le carte possono appartenere alle seguenti categorie:\nCarte equipaggiamento: equipaggia un personaggio con una di queste carte per dargli effetti positivi.\nCarte di supporto: posizionale nella zona di supporto per applicare effetti di supporto continui.\nCarte evento: giocale per innescare subito tutti i loro effetti.",
+                    "contentraw": "Per giocare una carta, pagane il costo in dadi elementali. Le carte possono appartenere alle seguenti categorie:\\n<color=#FFE14BFF>Carte equipaggiamento</color>: equipaggia un personaggio con una di queste carte per dargli effetti positivi.\\n<color=#FFE14BFF>Carte di supporto</color>: posizionale nella zona di supporto per applicare effetti di supporto continui.\\n<color=#FFE14BFF>Carte evento</color>: giocale per innescare subito tutti i loro effetti."
+                },
+                {
+                    "title": "Azione rapida: Armonia elementale",
+                    "titleraw": "Azione rapida: Armonia elementale",
+                    "content": "Scarta 1 carta dalla tua mano per convertire 1 dado elementale nell'elemento del tuo personaggio attivo.",
+                    "contentraw": "Scarta 1 carta dalla tua mano per convertire 1 dado elementale nell'elemento del tuo personaggio attivo."
+                },
+                {
+                    "title": "Azione di combattimento: dichiara la fine del turno",
+                    "titleraw": "Azione di combattimento: dichiara la fine del turno",
+                    "content": "Dichiarando la fine del turno, rinunci a effettuare altre azioni\nIl primo giocatore a finire il turno sarà il primo a iniziare quello successivo, e potrà quindi aprire la fase di azione del turno seguente.\nIl giocatore che non ha ancora dichiarato la fine del proprio turno potrà, invece, continuare ad agire.\nLa fase di azione terminerà quando entrambi i giocatori avranno dichiarato la fine del proprio turno, dando inizio alla fase finale del turno.",
+                    "contentraw": "Dichiarando la fine del turno, rinunci a effettuare altre azioni\\nIl primo giocatore a finire il turno sarà il primo a iniziare quello successivo, e potrà quindi aprire la fase di azione del turno seguente.\\nIl giocatore che non ha ancora dichiarato la fine del proprio turno potrà, invece, continuare ad agire.\\nLa fase di azione terminerà quando entrambi i giocatori avranno dichiarato la fine del proprio turno, dando inizio alla fase finale del turno."
+                }
+            ]
+        },
+        "specialentry": {
+            "id": 8,
+            "name": "Accesso speciale",
+            "rules": [
+                {
+                    "title": "Cibo",
+                    "titleraw": "{SPRITE_PRESET#3101}Cibo",
+                    "content": "Dopo aver giocato la carta event cibo, il personaggio entrerà nello stato di sazietà.\nI personaggi nello stato di sazietà non possono essere presi di mira da altre carte evento cibo, né risentire di alcun effetto proveniente da dette carte evento cibo.\nLo stato di sazietà verrà rimosso alla fine del turno oppure se il personaggio viene sconfitto.\nA parte questo, quando le carte evento cibo con l'effetto di rinascita vengono giocate, nessun'altra carta evento cibo possedente l'effetto rinascita può essere usata nel turno.Dopo aver giocato la carta event cibo, il personaggio entrerà nello stato di sazietà.\nI personaggi nello stato di sazietà non possono essere presi di mira da altre carte evento cibo, né risentire di alcun effetto proveniente da dette carte evento cibo.\nLo stato di sazietà verrà rimosso alla fine del turno oppure se il personaggio viene sconfitto.\nA parte questo, quando le carte evento cibo con l'effetto di rinascita vengono giocate, nessun'altra carta evento cibo possedente l'effetto rinascita può essere usata nel turno.",
+                    "contentraw": "Dopo aver giocato la {SPRITE_PRESET#3101}carta event cibo, il personaggio entrerà nello stato di sazietà.\\nI personaggi nello stato di sazietà non possono essere presi di mira da altre {SPRITE_PRESET#3101}carte evento cibo, né risentire di alcun effetto proveniente da dette {SPRITE_PRESET#3101}carte evento cibo.\\nLo stato di sazietà verrà rimosso alla fine del turno oppure se il personaggio viene sconfitto.\\nA parte questo, quando le {SPRITE_PRESET#3101}carte evento cibo con l'effetto di rinascita vengono giocate, nessun'altra {SPRITE_PRESET#3101}carta evento cibo possedente l'effetto rinascita può essere usata nel turno.Dopo aver giocato la {SPRITE_PRESET#3101}carta event cibo, il personaggio entrerà nello stato di sazietà.\\nI personaggi nello stato di sazietà non possono essere presi di mira da altre {SPRITE_PRESET#3101}carte evento cibo, né risentire di alcun effetto proveniente da dette {SPRITE_PRESET#3101}carte evento cibo.\\nLo stato di sazietà verrà rimosso alla fine del turno oppure se il personaggio viene sconfitto.\\nA parte questo, quando le {SPRITE_PRESET#3101}carte evento cibo con l'effetto di rinascita vengono giocate, nessun'altra {SPRITE_PRESET#3101}carta evento cibo possedente l'effetto rinascita può essere usata nel turno."
+                },
+                {
+                    "title": "Scudo",
+                    "titleraw": "{SPRITE_PRESET#4007}Scudo",
+                    "content": "Alcuni effetti forniscono degli scudi che proteggono certi personaggi.\nQuando un personaggio protetto da uno scudo subisce dei DAN, il valore dello scudo verrà usato per bloccarli.",
+                    "contentraw": "Alcuni effetti forniscono degli scudi che proteggono certi personaggi.\\nQuando un personaggio protetto da uno scudo subisce dei DAN, il valore dello scudo verrà usato per bloccarli."
+                },
+                {
+                    "title": "Utilizzi",
+                    "titleraw": "Utilizzi",
+                    "content": "Alcune carte o stati hanno Utilizzi limitati.\nOgni volta che ne viene innescato l'effetto, viene consumato 1 Utilizzo.\nVerranno rimosse non appena i loro Utilizzi si sono esauriti.",
+                    "contentraw": "Alcune carte o stati hanno Utilizzi limitati.\\nOgni volta che ne viene innescato l'effetto, viene consumato 1 Utilizzo.\\nVerranno rimosse non appena i loro Utilizzi si sono esauriti."
+                },
+                {
+                    "title": "Durata (in turni)",
+                    "titleraw": "Durata (in turni)",
+                    "content": "Alcune carte o stati hanno durata limitata.\nDurante ogni fase finale, 1 turno verrà rimosso dalla durata di queste carte.\nVerranno rimosse non appena la loro durata si esaurisce.",
+                    "contentraw": "Alcune carte o stati hanno durata limitata.\\nDurante ogni fase finale, 1 turno verrà rimosso dalla durata di queste carte.\\nVerranno rimosse non appena la loro durata si esaurisce."
+                },
+                {
+                    "title": "DAN da perforazione",
+                    "titleraw": "DAN da perforazione",
+                    "content": "Alcuni effetti infliggono DAN da perforazione.\nSebbene nessun effetto possa potenziare questo tipo di DAN, nessuno scudo potrà fermarli.",
+                    "contentraw": "Alcuni effetti infliggono DAN da perforazione.\\nSebbene nessun effetto possa potenziare questo tipo di DAN, nessuno scudo potrà fermarli."
+                },
+                {
+                    "title": "Azione di combattimento (carta azione)",
+                    "titleraw": "Azione di combattimento (carta azione)",
+                    "content": "Alcune carte azione seguono la regola dell'azione di combattimento.\nGiocandole, l'azione non sarà rapida, ma di combattimento.",
+                    "contentraw": "Alcune carte azione seguono la regola dell'azione di combattimento.\\nGiocandole, l'azione non sarà rapida, ma di combattimento."
+                },
+                {
+                    "title": "Attacco caricato",
+                    "titleraw": "Attacco caricato",
+                    "content": "Prima della tua fase di azione, se il numero totale dei tuoi dadi elementali è pari, il tuo attacco normale verrà considerato come un attacco caricato.",
+                    "contentraw": "Prima della tua fase di azione, se il numero totale dei tuoi dadi elementali è pari, il tuo attacco normale verrà considerato come un attacco caricato."
+                },
+                {
+                    "title": "Attacco in picchiata",
+                    "titleraw": "Attacco in picchiata",
+                    "content": "Dopo che un personaggio diventa attivo, se la sua azione di combattimento successiva durante questo turno è un attacco normale, quest'ultimo viene considerato un attacco in picchiata.",
+                    "contentraw": "Dopo che un personaggio diventa attivo, se la sua azione di combattimento successiva durante questo turno è un attacco normale, quest'ultimo viene considerato un attacco in picchiata."
+                }
+            ]
+        },
+        "roundflow": {
+            "id": 2,
+            "name": "Svolgimento del turno",
+            "rules": [
+                {
+                    "title": "Svolgimento del turno",
+                    "titleraw": "Svolgimento del turno",
+                    "content": "Ogni turno si svolge così: fase di lancio > fase di azione > fase finale.",
+                    "contentraw": "Ogni turno si svolge così: fase di lancio > fase di azione > fase finale.",
+                    "filename_image": "UI_Gcg_InSide_11"
+                },
+                {
+                    "title": "Fase di lancio",
+                    "titleraw": "Fase di lancio",
+                    "content": "Durante la fase di lancio, lancerai 8 dadi elementali.\nPoi, avrai una possibilità di lanciare nuovamente tutti i dadi elementali che desideri.\nI dadi possono avere uno dei seguenti 8 attributi elementali: Cryo, Hydro, Pyro, Electro, Anemo, Geo, Dendro oppure Omnielemento, quest'ultimo equivalente a un qualsiasi elemento.\nPuoi avere fino a un massimo di 16 dadi elementali. Una volta raggiunto tale numero, non potrai ottenerne altri.",
+                    "contentraw": "Durante la fase di lancio, lancerai 8 dadi elementali.\\nPoi, avrai una possibilità di lanciare nuovamente tutti i dadi elementali che desideri.\\nI dadi possono avere uno dei seguenti 8 attributi elementali: Cryo, Hydro, Pyro, Electro, Anemo, Geo, Dendro oppure Omnielemento, quest'ultimo equivalente a un qualsiasi elemento.\\nPuoi avere fino a un massimo di 16 dadi elementali. Una volta raggiunto tale numero, non potrai ottenerne altri."
+                },
+                {
+                    "title": "Fase di azione",
+                    "titleraw": "Fase di azione",
+                    "content": "Le due squadre agiscono una per volta e nell'ordine prestabilito. Le azioni possibili sono le seguenti.\nUtilizza abilità: usa le abilità del tuo personaggio attivo pagandone il costo.\nCambia personaggio: consuma 1 dado elementale a tua scelta per cambiare il personaggio attivo.\nGioca una carta: gioca le carte della tua mano pagandone il costo.\nArmonia elementale: scarta una carta della mano e cambia il tipo elementale di 1 dado elementale.\nDichiara la fine del turno: con quest'azione concluderai il tuo turno. Il primo giocatore che dichiara la fine del turno sarà il primo a iniziare quello successivo.",
+                    "contentraw": "Le due squadre agiscono una per volta e nell'ordine prestabilito. Le azioni possibili sono le seguenti.\\n<color=#FFE14BFF>Utilizza abilità</color>: usa le abilità del tuo personaggio attivo pagandone il costo.\\n<color=#FFE14BFF>Cambia personaggio</color>: consuma 1 dado elementale a tua scelta per cambiare il personaggio attivo.\\n<color=#FFE14BFF>Gioca una carta</color>: gioca le carte della tua mano pagandone il costo.\\n<color=#FFE14BFF>Armonia elementale</color>: scarta una carta della mano e cambia il tipo elementale di 1 dado elementale.\\n<color=#FFE14BFF>Dichiara la fine del turno</color>: con quest'azione concluderai il tuo turno. Il primo giocatore che dichiara la fine del turno sarà il primo a iniziare quello successivo."
+                },
+                {
+                    "title": "Fase finale",
+                    "titleraw": "Fase finale",
+                    "content": "Non appena entrambi i giocatori avranno dichiarato la fine del proprio turno durante la fase di azione, inizia la fase finale.\n1. A partire dal primo giocatore vengono stabiliti gli effetti delle carte innescati dalla fase finale.\n2. Entrambi i giocatori pescano 2 carte dalle rispettive pile delle carte.\n3. Che il turno successivo abbia inizio!",
+                    "contentraw": "Non appena entrambi i giocatori avranno dichiarato la fine del proprio turno durante la fase di azione, inizia la fase finale.\\n1. A partire dal primo giocatore vengono stabiliti gli effetti delle carte innescati dalla fase finale.\\n2. Entrambi i giocatori pescano 2 carte dalle rispettive pile delle carte.\\n3. Che il turno successivo abbia inizio!"
+                }
+            ]
+        },
+        "geniusinvokationtcg": {
+            "id": 1,
+            "name": "GCC Invokazione del genio",
+            "rules": [
+                {
+                    "title": "GCC Invokazione del genio: Nozioni di base",
+                    "titleraw": "GCC Invokazione del genio: Nozioni di base",
+                    "content": "Invokazione del genio è un gioco di carte da tavolo mozzafiato ed entusiasmante.\nBasa i tuoi mazzi su carte azione e carte personaggio, e affronta i tuoi avversari in scontri molto accesi!",
+                    "contentraw": "Invokazione del genio è un gioco di carte da tavolo mozzafiato ed entusiasmante.\\nBasa i tuoi mazzi su carte azione e carte personaggio, e affronta i tuoi avversari in scontri molto accesi!",
+                    "filename_image": "UI_Gcg_InSide_01"
+                },
+                {
+                    "title": "Preparazione al duello",
+                    "titleraw": "Preparazione al duello",
+                    "content": "(1) Entrambi i giocatori pescano 5 carte, che andranno a formare la propria mano. Poi, ciascun giocatore avrà una possibilità di cambiare tutte le carte della mano che desidera.\n(2) Entrambi i giocatori possono scegliere 1 carta personaggio da schierare come personaggio attivo.",
+                    "contentraw": "(1) Entrambi i giocatori pescano 5 carte, che andranno a formare la propria mano. Poi, ciascun giocatore avrà una possibilità di cambiare tutte le carte della mano che desidera.\\n(2) Entrambi i giocatori possono scegliere 1 carta personaggio da schierare come personaggio attivo."
+                },
+                {
+                    "title": "Svolgimento del duello",
+                    "titleraw": "Svolgimento del duello",
+                    "content": "Una volta iniziato, ogni duello del GCC Invokazione del genio si svolge come segue.\n(1) Fase di lancio: entrambe le squadre possono lanciare 8 dadi elementali.\n(2) Fase di azione: una per volta, le squadre agiscono finché non dichiarano concluso il proprio turno.\n(3) Fase finale: entrambe le squadre pescano 2 carte.",
+                    "contentraw": "Una volta iniziato, ogni duello del GCC Invokazione del genio si svolge come segue.\\n(1) Fase di lancio: entrambe le squadre possono lanciare 8 dadi elementali.\\n(2) Fase di azione: una per volta, le squadre agiscono finché non dichiarano concluso il proprio turno.\\n(3) Fase finale: entrambe le squadre pescano 2 carte."
+                },
+                {
+                    "title": "Condizioni di vittoria",
+                    "titleraw": "Condizioni di vittoria",
+                    "content": "Usa le tue carte personaggio per attaccare quelle dell'avversario!\nSconfiggile tutte per vincere!",
+                    "contentraw": "Usa le tue carte personaggio per attaccare quelle dell'avversario!\\nSconfiggile tutte per vincere!"
                 }
             ]
         },
@@ -245,161 +383,23 @@
                 }
             ]
         },
-        "specialentry": {
-            "id": 8,
-            "name": "Accesso speciale",
+        "elementalreactionsrules": {
+            "id": 5,
+            "name": "Regole delle reazioni elementali",
             "rules": [
                 {
-                    "title": "Cibo",
-                    "titleraw": "{SPRITE_PRESET#3101}Cibo",
-                    "content": "Dopo aver giocato la carta event cibo, il personaggio entrerà nello stato di sazietà.\nI personaggi nello stato di sazietà non possono essere presi di mira da altre carte evento cibo, né risentire di alcun effetto proveniente da dette carte evento cibo.\nLo stato di sazietà verrà rimosso alla fine del turno oppure se il personaggio viene sconfitto.\nA parte questo, quando le carte evento cibo con l'effetto di rinascita vengono giocate, nessun'altra carta evento cibo possedente l'effetto rinascita può essere usata nel turno.Dopo aver giocato la carta event cibo, il personaggio entrerà nello stato di sazietà.\nI personaggi nello stato di sazietà non possono essere presi di mira da altre carte evento cibo, né risentire di alcun effetto proveniente da dette carte evento cibo.\nLo stato di sazietà verrà rimosso alla fine del turno oppure se il personaggio viene sconfitto.\nA parte questo, quando le carte evento cibo con l'effetto di rinascita vengono giocate, nessun'altra carta evento cibo possedente l'effetto rinascita può essere usata nel turno.",
-                    "contentraw": "Dopo aver giocato la {SPRITE_PRESET#3101}carta event cibo, il personaggio entrerà nello stato di sazietà.\\nI personaggi nello stato di sazietà non possono essere presi di mira da altre {SPRITE_PRESET#3101}carte evento cibo, né risentire di alcun effetto proveniente da dette {SPRITE_PRESET#3101}carte evento cibo.\\nLo stato di sazietà verrà rimosso alla fine del turno oppure se il personaggio viene sconfitto.\\nA parte questo, quando le {SPRITE_PRESET#3101}carte evento cibo con l'effetto di rinascita vengono giocate, nessun'altra {SPRITE_PRESET#3101}carta evento cibo possedente l'effetto rinascita può essere usata nel turno.Dopo aver giocato la {SPRITE_PRESET#3101}carta event cibo, il personaggio entrerà nello stato di sazietà.\\nI personaggi nello stato di sazietà non possono essere presi di mira da altre {SPRITE_PRESET#3101}carte evento cibo, né risentire di alcun effetto proveniente da dette {SPRITE_PRESET#3101}carte evento cibo.\\nLo stato di sazietà verrà rimosso alla fine del turno oppure se il personaggio viene sconfitto.\\nA parte questo, quando le {SPRITE_PRESET#3101}carte evento cibo con l'effetto di rinascita vengono giocate, nessun'altra {SPRITE_PRESET#3101}carta evento cibo possedente l'effetto rinascita può essere usata nel turno."
+                    "title": "Applicazione elementale",
+                    "titleraw": "Applicazione elementale",
+                    "content": "Quando i personaggi subiscono DAN da Cryo, Hydro, Pyro, Electro o Dendro, verranno affetti dall'elemento corrispondente.\nI DAN da Anemo e i DAN da Geo non possono applicare gli elementi in questo modo.",
+                    "contentraw": "Quando i personaggi subiscono DAN da {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color> o {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>, verranno <color=#FFE14BFF>affetti</color> dall'elemento corrispondente.\\nI {SPRITE_PRESET#2105}<color=#80FFD7FF>DAN da Anemo</color> e i {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color> non possono applicare gli elementi in questo modo.",
+                    "filename_image": "UI_Gcg_InSide_12"
                 },
                 {
-                    "title": "Scudo",
-                    "titleraw": "{SPRITE_PRESET#4007}Scudo",
-                    "content": "Alcuni effetti forniscono degli scudi che proteggono certi personaggi.\nQuando un personaggio protetto da uno scudo subisce dei DAN, il valore dello scudo verrà usato per bloccarli.",
-                    "contentraw": "Alcuni effetti forniscono degli scudi che proteggono certi personaggi.\\nQuando un personaggio protetto da uno scudo subisce dei DAN, il valore dello scudo verrà usato per bloccarli."
-                },
-                {
-                    "title": "Utilizzi",
-                    "titleraw": "Utilizzi",
-                    "content": "Alcune carte o stati hanno Utilizzi limitati.\nOgni volta che ne viene innescato l'effetto, viene consumato 1 Utilizzo.\nVerranno rimosse non appena i loro Utilizzi si sono esauriti.",
-                    "contentraw": "Alcune carte o stati hanno Utilizzi limitati.\\nOgni volta che ne viene innescato l'effetto, viene consumato 1 Utilizzo.\\nVerranno rimosse non appena i loro Utilizzi si sono esauriti."
-                },
-                {
-                    "title": "Durata (in turni)",
-                    "titleraw": "Durata (in turni)",
-                    "content": "Alcune carte o stati hanno durata limitata.\nDurante ogni fase finale, 1 turno verrà rimosso dalla durata di queste carte.\nVerranno rimosse non appena la loro durata si esaurisce.",
-                    "contentraw": "Alcune carte o stati hanno durata limitata.\\nDurante ogni fase finale, 1 turno verrà rimosso dalla durata di queste carte.\\nVerranno rimosse non appena la loro durata si esaurisce."
-                },
-                {
-                    "title": "DAN da perforazione",
-                    "titleraw": "DAN da perforazione",
-                    "content": "Alcuni effetti infliggono DAN da perforazione.\nSebbene nessun effetto possa potenziare questo tipo di DAN, nessuno scudo potrà fermarli.",
-                    "contentraw": "Alcuni effetti infliggono DAN da perforazione.\\nSebbene nessun effetto possa potenziare questo tipo di DAN, nessuno scudo potrà fermarli."
-                },
-                {
-                    "title": "Azione di combattimento (carta azione)",
-                    "titleraw": "Azione di combattimento (carta azione)",
-                    "content": "Alcune carte azione seguono la regola dell'azione di combattimento.\nGiocandole, l'azione non sarà rapida, ma di combattimento.",
-                    "contentraw": "Alcune carte azione seguono la regola dell'azione di combattimento.\\nGiocandole, l'azione non sarà rapida, ma di combattimento."
-                },
-                {
-                    "title": "Attacco caricato",
-                    "titleraw": "Attacco caricato",
-                    "content": "Prima della tua fase di azione, se il numero totale dei tuoi dadi elementali è pari, il tuo attacco normale verrà considerato come un attacco caricato.",
-                    "contentraw": "Prima della tua fase di azione, se il numero totale dei tuoi dadi elementali è pari, il tuo attacco normale verrà considerato come un attacco caricato."
-                },
-                {
-                    "title": "Attacco in picchiata",
-                    "titleraw": "Attacco in picchiata",
-                    "content": "Dopo che un personaggio diventa attivo, se la sua azione di combattimento successiva durante questo turno è un attacco normale, quest'ultimo viene considerato un attacco in picchiata.",
-                    "contentraw": "Dopo che un personaggio diventa attivo, se la sua azione di combattimento successiva durante questo turno è un attacco normale, quest'ultimo viene considerato un attacco in picchiata."
-                }
-            ]
-        },
-        "takeaction": {
-            "id": 3,
-            "name": "Agisci",
-            "rules": [
-                {
-                    "title": "Azioni",
-                    "titleraw": "Azioni",
-                    "content": "Durante la fase di azione, le azioni possono essere rapide o di combattimento.\nAzioni di combattimento: usare un'azione di combattimento farà terminare il tuo turno. Usare le abilità, cambiare personaggio e dichiarare la fine del turno sono tutte azioni di combattimento.\nAzioni rapide: usare le azioni rapide non farà terminare il tuo turno. Giocare una carta e usare l'Armonia elementale sono azioni rapide.",
-                    "contentraw": "Durante la fase di azione, le azioni possono essere rapide o di combattimento.\\n<color=#FFE14BFF>Azioni di combattimento</color>: usare un'azione di combattimento farà terminare il tuo turno. Usare le abilità, cambiare personaggio e dichiarare la fine del turno sono tutte azioni di combattimento.\\n<color=#FFE14BFF>Azioni rapide</color>: usare le azioni rapide non farà terminare il tuo turno. Giocare una carta e usare l'Armonia elementale sono azioni rapide."
-                },
-                {
-                    "title": "Azione di combattimento: Utilizza abilità",
-                    "titleraw": "Azione di combattimento: Utilizza abilità",
-                    "content": "Permetti al tuo personaggio attivo di usare un'abilità e infliggere danni al personaggio attivo dell'avversario pagandone il costo in dadi elementali.\nIl personaggio otterrà 1 punto di energia per ogni attacco normale o abilità elementale usata.\nUna volta raggiunto il massimo, potrà spendere tutta l'energia per usare un potente Tripudio elementale!",
-                    "contentraw": "Permetti al tuo personaggio attivo di usare un'abilità e infliggere danni al personaggio attivo dell'avversario pagandone il costo in dadi elementali.\\nIl personaggio otterrà 1 punto di energia per ogni attacco normale o abilità elementale usata.\\nUna volta raggiunto il massimo, potrà spendere tutta l'energia per usare un potente Tripudio elementale!"
-                },
-                {
-                    "title": "Azione di combattimento: Cambia personaggio",
-                    "titleraw": "Azione di combattimento: Cambia personaggio",
-                    "content": "Consuma 1 dado elementale di qualsiasi tipo per cambiare il personaggio attivo.",
-                    "contentraw": "Consuma 1 dado elementale di qualsiasi tipo per cambiare il personaggio attivo."
-                },
-                {
-                    "title": "Azione rapida: Gioca una carta",
-                    "titleraw": "Azione rapida: Gioca una carta",
-                    "content": "Per giocare una carta, pagane il costo in dadi elementali. Le carte possono appartenere alle seguenti categorie:\nCarte equipaggiamento: equipaggia un personaggio con una di queste carte per dargli effetti positivi.\nCarte di supporto: posizionale nella zona di supporto per applicare effetti di supporto continui.\nCarte evento: giocale per innescare subito tutti i loro effetti.",
-                    "contentraw": "Per giocare una carta, pagane il costo in dadi elementali. Le carte possono appartenere alle seguenti categorie:\\n<color=#FFE14BFF>Carte equipaggiamento</color>: equipaggia un personaggio con una di queste carte per dargli effetti positivi.\\n<color=#FFE14BFF>Carte di supporto</color>: posizionale nella zona di supporto per applicare effetti di supporto continui.\\n<color=#FFE14BFF>Carte evento</color>: giocale per innescare subito tutti i loro effetti."
-                },
-                {
-                    "title": "Azione rapida: Armonia elementale",
-                    "titleraw": "Azione rapida: Armonia elementale",
-                    "content": "Scarta 1 carta dalla tua mano per convertire 1 dado elementale nell'elemento del tuo personaggio attivo.",
-                    "contentraw": "Scarta 1 carta dalla tua mano per convertire 1 dado elementale nell'elemento del tuo personaggio attivo."
-                },
-                {
-                    "title": "Azione di combattimento: dichiara la fine del turno",
-                    "titleraw": "Azione di combattimento: dichiara la fine del turno",
-                    "content": "Dichiarando la fine del turno, rinunci a effettuare altre azioni\nIl primo giocatore a finire il turno sarà il primo a iniziare quello successivo, e potrà quindi aprire la fase di azione del turno seguente.\nIl giocatore che non ha ancora dichiarato la fine del proprio turno potrà, invece, continuare ad agire.\nLa fase di azione terminerà quando entrambi i giocatori avranno dichiarato la fine del proprio turno, dando inizio alla fase finale del turno.",
-                    "contentraw": "Dichiarando la fine del turno, rinunci a effettuare altre azioni\\nIl primo giocatore a finire il turno sarà il primo a iniziare quello successivo, e potrà quindi aprire la fase di azione del turno seguente.\\nIl giocatore che non ha ancora dichiarato la fine del proprio turno potrà, invece, continuare ad agire.\\nLa fase di azione terminerà quando entrambi i giocatori avranno dichiarato la fine del proprio turno, dando inizio alla fase finale del turno."
-                }
-            ]
-        },
-        "roundflow": {
-            "id": 2,
-            "name": "Svolgimento del turno",
-            "rules": [
-                {
-                    "title": "Svolgimento del turno",
-                    "titleraw": "Svolgimento del turno",
-                    "content": "Ogni turno si svolge così: fase di lancio > fase di azione > fase finale.",
-                    "contentraw": "Ogni turno si svolge così: fase di lancio > fase di azione > fase finale.",
-                    "filename_image": "UI_Gcg_InSide_11"
-                },
-                {
-                    "title": "Fase di lancio",
-                    "titleraw": "Fase di lancio",
-                    "content": "Durante la fase di lancio, lancerai 8 dadi elementali.\nPoi, avrai una possibilità di lanciare nuovamente tutti i dadi elementali che desideri.\nI dadi possono avere uno dei seguenti 8 attributi elementali: Cryo, Hydro, Pyro, Electro, Anemo, Geo, Dendro oppure Omnielemento, quest'ultimo equivalente a un qualsiasi elemento.\nPuoi avere fino a un massimo di 16 dadi elementali. Una volta raggiunto tale numero, non potrai ottenerne altri.",
-                    "contentraw": "Durante la fase di lancio, lancerai 8 dadi elementali.\\nPoi, avrai una possibilità di lanciare nuovamente tutti i dadi elementali che desideri.\\nI dadi possono avere uno dei seguenti 8 attributi elementali: Cryo, Hydro, Pyro, Electro, Anemo, Geo, Dendro oppure Omnielemento, quest'ultimo equivalente a un qualsiasi elemento.\\nPuoi avere fino a un massimo di 16 dadi elementali. Una volta raggiunto tale numero, non potrai ottenerne altri."
-                },
-                {
-                    "title": "Fase di azione",
-                    "titleraw": "Fase di azione",
-                    "content": "Le due squadre agiscono una per volta e nell'ordine prestabilito. Le azioni possibili sono le seguenti.\nUtilizza abilità: usa le abilità del tuo personaggio attivo pagandone il costo.\nCambia personaggio: consuma 1 dado elementale a tua scelta per cambiare il personaggio attivo.\nGioca una carta: gioca le carte della tua mano pagandone il costo.\nArmonia elementale: scarta una carta della mano e cambia il tipo elementale di 1 dado elementale.\nDichiara la fine del turno: con quest'azione concluderai il tuo turno. Il primo giocatore che dichiara la fine del turno sarà il primo a iniziare quello successivo.",
-                    "contentraw": "Le due squadre agiscono una per volta e nell'ordine prestabilito. Le azioni possibili sono le seguenti.\\n<color=#FFE14BFF>Utilizza abilità</color>: usa le abilità del tuo personaggio attivo pagandone il costo.\\n<color=#FFE14BFF>Cambia personaggio</color>: consuma 1 dado elementale a tua scelta per cambiare il personaggio attivo.\\n<color=#FFE14BFF>Gioca una carta</color>: gioca le carte della tua mano pagandone il costo.\\n<color=#FFE14BFF>Armonia elementale</color>: scarta una carta della mano e cambia il tipo elementale di 1 dado elementale.\\n<color=#FFE14BFF>Dichiara la fine del turno</color>: con quest'azione concluderai il tuo turno. Il primo giocatore che dichiara la fine del turno sarà il primo a iniziare quello successivo."
-                },
-                {
-                    "title": "Fase finale",
-                    "titleraw": "Fase finale",
-                    "content": "Non appena entrambi i giocatori avranno dichiarato la fine del proprio turno durante la fase di azione, inizia la fase finale.\n1. A partire dal primo giocatore vengono stabiliti gli effetti delle carte innescati dalla fase finale.\n2. Entrambi i giocatori pescano 2 carte dalle rispettive pile delle carte.\n3. Che il turno successivo abbia inizio!",
-                    "contentraw": "Non appena entrambi i giocatori avranno dichiarato la fine del proprio turno durante la fase di azione, inizia la fase finale.\\n1. A partire dal primo giocatore vengono stabiliti gli effetti delle carte innescati dalla fase finale.\\n2. Entrambi i giocatori pescano 2 carte dalle rispettive pile delle carte.\\n3. Che il turno successivo abbia inizio!"
-                }
-            ]
-        },
-        "geniusinvokationtcg": {
-            "id": 1,
-            "name": "GCC Invokazione del genio",
-            "rules": [
-                {
-                    "title": "GCC Invokazione del genio: Nozioni di base",
-                    "titleraw": "GCC Invokazione del genio: Nozioni di base",
-                    "content": "Invokazione del genio è un gioco di carte da tavolo mozzafiato ed entusiasmante.\nBasa i tuoi mazzi su carte azione e carte personaggio, e affronta i tuoi avversari in scontri molto accesi!",
-                    "contentraw": "Invokazione del genio è un gioco di carte da tavolo mozzafiato ed entusiasmante.\\nBasa i tuoi mazzi su carte azione e carte personaggio, e affronta i tuoi avversari in scontri molto accesi!",
-                    "filename_image": "UI_Gcg_InSide_01"
-                },
-                {
-                    "title": "Preparazione al duello",
-                    "titleraw": "Preparazione al duello",
-                    "content": "(1) Entrambi i giocatori pescano 5 carte, che andranno a formare la propria mano. Poi, ciascun giocatore avrà una possibilità di cambiare tutte le carte della mano che desidera.\n(2) Entrambi i giocatori possono scegliere 1 carta personaggio da schierare come personaggio attivo.",
-                    "contentraw": "(1) Entrambi i giocatori pescano 5 carte, che andranno a formare la propria mano. Poi, ciascun giocatore avrà una possibilità di cambiare tutte le carte della mano che desidera.\\n(2) Entrambi i giocatori possono scegliere 1 carta personaggio da schierare come personaggio attivo."
-                },
-                {
-                    "title": "Svolgimento del duello",
-                    "titleraw": "Svolgimento del duello",
-                    "content": "Una volta iniziato, ogni duello del GCC Invokazione del genio si svolge come segue.\n(1) Fase di lancio: entrambe le squadre possono lanciare 8 dadi elementali.\n(2) Fase di azione: una per volta, le squadre agiscono finché non dichiarano concluso il proprio turno.\n(3) Fase finale: entrambe le squadre pescano 2 carte.",
-                    "contentraw": "Una volta iniziato, ogni duello del GCC Invokazione del genio si svolge come segue.\\n(1) Fase di lancio: entrambe le squadre possono lanciare 8 dadi elementali.\\n(2) Fase di azione: una per volta, le squadre agiscono finché non dichiarano concluso il proprio turno.\\n(3) Fase finale: entrambe le squadre pescano 2 carte."
-                },
-                {
-                    "title": "Condizioni di vittoria",
-                    "titleraw": "Condizioni di vittoria",
-                    "content": "Usa le tue carte personaggio per attaccare quelle dell'avversario!\nSconfiggile tutte per vincere!",
-                    "contentraw": "Usa le tue carte personaggio per attaccare quelle dell'avversario!\\nSconfiggile tutte per vincere!"
+                    "title": "Regole delle reazioni elementali",
+                    "titleraw": "Regole delle reazioni elementali",
+                    "content": "Se il bersaglio è già affetto da un elemento:\n(1) Infliggere un certo tipo di DAN elementali innescherà una reazione elementale.\n(2) Anche l'applicazione di un determinato elemento senza infliggere danni produrrà una reazione elementale. Quando si contano gli effetti di tali reazioni elementali, tutti gli effetti che causano danni vengono ignorati.",
+                    "contentraw": "Se il bersaglio è già <color=#FFE14BFF>affetto da un elemento</color>:\\n(1) Infliggere un certo tipo di <color=#FFE14BFF>DAN elementali</color> innescherà una reazione elementale.\\n(2) Anche l'applicazione di un determinato elemento senza infliggere danni produrrà una reazione elementale. Quando si contano gli effetti di tali reazioni elementali, tutti gli effetti che causano danni vengono ignorati.",
+                    "filename_image": "UI_Gcg_InSide_13"
                 }
             ]
         },
