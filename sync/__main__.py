@@ -4,7 +4,7 @@ from functools import partial
 import click
 from hfmirror.storage import LocalStorage, HuggingfaceStorage
 from hfmirror.sync import SyncTask
-from huggingface_hub import create_repo
+from huggingface_hub import HfApi
 
 from sync.sync import GenshinDBResource
 from .utils import GLOBAL_CONTEXT_SETTINGS
@@ -35,13 +35,13 @@ def local(output_dir):
 
 @cli.command('huggingface', help='Sync genshin db data to huggingface directory.',
              context_settings={**GLOBAL_CONTEXT_SETTINGS})
-@click.option('--repository', '-r', 'repository', type=str, default='hansbug/genshin-db-sync',
+@click.option('--repository', '-r', 'repository', type=str, default='HansBug/genshin-db-sync',
               help='Repository of genshin db data.', show_default=True)
 def huggingface(repository):
     source = GenshinDBResource()
-    access_token = os.environ.get('HF_TOKEN')
-    create_repo(repository, token=access_token, repo_type='dataset', exist_ok=True)
-    storage = HuggingfaceStorage(repository, access_token=access_token)
+    client = HfApi(token=os.environ.get('HF_TOKEN'))
+    client.create_repo(repository, repo_type='dataset', exist_ok=True)
+    storage = HuggingfaceStorage(repository, hf_client=client)
 
     task = SyncTask(source, storage)
     task.sync()
