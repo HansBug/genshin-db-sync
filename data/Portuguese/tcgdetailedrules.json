@@ -1,0 +1,468 @@
+{
+    "items": {
+        "elementalreactionsrules": {
+            "id": 5,
+            "name": "Reações Elementais - Regras",
+            "rules": [
+                {
+                    "title": "Afinidade Elemental",
+                    "titleraw": "Afinidade Elemental",
+                    "content": "Quando o personagem recebe Dano Elemental Cryo, Hydro, Pyro, Electro, ou Dendro, ele será afetado pelo elemento correspondente.\n(Dano Anemo e Dano Geo não podem aplicar Elementos da mesma maneira.)",
+                    "contentraw": "Quando o personagem recebe Dano Elemental {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>, ou {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>, ele será <color=#FFE14BFF>afetado</color> pelo elemento correspondente.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color> e {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color> não podem aplicar Elementos da mesma maneira.)",
+                    "filename_image": "UI_Gcg_InSide_12"
+                },
+                {
+                    "title": "Reações Elementais - Regras",
+                    "titleraw": "Reações Elementais - Regras",
+                    "content": "Quando o alvo já está afetado com alguma Aplicação Elemental:\n(1) Causar um tipo específico de Dano Elemental pode desencadear uma Reação Elemental.\n(2) Usando efeitos que não causem Dano para afetar o alvo com um Elemento específico também pode desencadear uma Reação Elemental. Quando os efeitos dessas Reações Elementais são contabilizados, todos os efeitos de Dano serão ignorados.",
+                    "contentraw": "Quando o alvo já está afetado com alguma <color=#FFE14BFF>Aplicação Elemental</color>:\\n(1) Causar um tipo específico de <color=#FFE14BFF>Dano Elemental</color> pode desencadear uma Reação Elemental.\\n(2) Usando efeitos que não causem Dano para afetar o alvo com um Elemento específico também pode desencadear uma Reação Elemental. Quando os efeitos dessas Reações Elementais são contabilizados, todos os efeitos de Dano serão ignorados.",
+                    "filename_image": "UI_Gcg_InSide_13"
+                }
+            ]
+        },
+        "gamearea": {
+            "id": 4,
+            "name": "Área do Jogo",
+            "rules": [
+                {
+                    "title": "",
+                    "titleraw": "",
+                    "content": "Em uma partida de Chamado Sagrado dos Sete, as cartas são colocadas nas seguintes regiões:",
+                    "contentraw": "Em uma partida de Chamado Sagrado dos Sete, as cartas são colocadas nas seguintes regiões:",
+                    "filename_image": "UI_Gcg_InSide_14"
+                },
+                {
+                    "title": "I. Área dos Personagens",
+                    "titleraw": "I. Área dos Personagens",
+                    "content": "Após o começo do jogo, todas as Cartas de Personagem serão colocadas na Área de Personagens.\n(1) A Vida do personagem aparece no canto superior esquerdo da Carta de Personagem. A Vida é reduzida de acordo com o Dano recebido pelo personagem, e quando a Vida atinge 0, o personagem é derrotado.\n(2) A Carga do personagem é demonstrada do lado direito da Carta de Personagem. Quando a carga do personagem atinge seu limite máximo, ele pode liberar seu poderoso Supremo!\n(3) Cada jogador terá um Personagem em Combate. Somente o Personagem em Combate pode usar Habilidades, e ao mesmo tempo, somente o Personagem em Combate pode ser afetado por Ataques de Habilidade do oponente. A Carta de Personagem é disposta mais à frente para destacar seu papel.\n(4) Personagens que não estão em combate são chamados de Personagens Inativos. Ações de troca podem ser feitas para fazer deles o Personagem em Combate.\n(5) Se o Personagem em Combate for derrotado, o jogador deve escolher um dos Personagens Inativos para substituí-lo.",
+                    "contentraw": "Após o começo do jogo, todas as Cartas de Personagem serão colocadas na Área de Personagens.\\n(1) A Vida do personagem aparece no canto superior esquerdo da Carta de Personagem. A Vida é reduzida de acordo com o Dano recebido pelo personagem, e quando a Vida atinge 0, o personagem é derrotado.\\n(2) A Carga do personagem é demonstrada do lado direito da Carta de Personagem. Quando a carga do personagem atinge seu limite máximo, ele pode liberar seu poderoso Supremo!\\n(3) Cada jogador terá um Personagem em Combate. Somente o Personagem em Combate pode usar Habilidades, e ao mesmo tempo, somente o Personagem em Combate pode ser afetado por Ataques de Habilidade do oponente. A Carta de Personagem é disposta mais à frente para destacar seu papel.\\n(4) Personagens que não estão em combate são chamados de Personagens Inativos. Ações de troca podem ser feitas para fazer deles o Personagem em Combate.\\n(5) Se o Personagem em Combate for derrotado, o jogador deve escolher um dos Personagens Inativos para substituí-lo."
+                },
+                {
+                    "title": "II. Acessórios de Personagem",
+                    "titleraw": "II. Acessórios de Personagem",
+                    "content": "Cada Carta de Personagem pode ter cartas de Equipamento, Estados e Estados de Combate aplicados à ela.\n(1) Quando uma Carta de Equipamento é jogada em um personagem ela fica anexada à ele. Cada personagem pode ter no máximo 1 Arma e 1 Artefato, mas pode ter um número ilimitado de outros tipos de Equipamentos anexados a si.\n(2) Algumas Habilidades de Personagem criam Estados que podem ser anexados a Cartas de Personagem.\n(3) Algumas Habilidades de Personagem criam Estados de Combate que podem ser anexados aos Personagens em Combate. Quando o Personagem em Combate é trocado por outro que estava inativo até então, o Estado de Combate será passado para o novo Personagem em Combate.",
+                    "contentraw": "Cada Carta de Personagem pode ter cartas de Equipamento, Estados e Estados de Combate aplicados à ela.\\n(1) Quando uma Carta de Equipamento é jogada em um personagem ela fica anexada à ele. Cada personagem pode ter no máximo 1 Arma e 1 Artefato, mas pode ter um número ilimitado de outros tipos de Equipamentos anexados a si.\\n(2) Algumas Habilidades de Personagem criam Estados que podem ser anexados a Cartas de Personagem.\\n(3) Algumas Habilidades de Personagem criam Estados de Combate que podem ser anexados aos Personagens em Combate. Quando o Personagem em Combate é trocado por outro que estava inativo até então, o Estado de Combate será passado para o novo Personagem em Combate."
+                },
+                {
+                    "title": "III. Área de Suporte",
+                    "titleraw": "III. Área de Suporte",
+                    "content": "Quando uma Carta de Suporte é jogada, ela deve ser colocada na Área de Suporte.\nA Área de Suporte pode ter no máximo 4 Cartas de Suporte simultaneamente. Quando a Área estiver cheia e o jogador quiser jogar uma nova Carta de Suporte, ele deve escolher uma carta de sua Área de Suporte para ser descartada.\n(Quando múltiplos efeitos de Cartas de Suporte estão sendo contabilizados, eles devem seguir a ordem em que estão colocados na Área de Suporte.)",
+                    "contentraw": "Quando uma Carta de Suporte é jogada, ela deve ser colocada na Área de Suporte.\\nA Área de Suporte pode ter no máximo 4 Cartas de Suporte simultaneamente. Quando a Área estiver cheia e o jogador quiser jogar uma nova Carta de Suporte, ele deve escolher uma carta de sua Área de Suporte para ser descartada.\\n(Quando múltiplos efeitos de Cartas de Suporte estão sendo contabilizados, eles devem seguir a ordem em que estão colocados na Área de Suporte.)"
+                },
+                {
+                    "title": "IV. Área de Invocação",
+                    "titleraw": "IV. Área de Invocação",
+                    "content": "Algumas Habilidades de personagem podem criar Invocações na Área de Invocação. A Área de Invocação pode ter no máximo 4 Invocações simultaneamente. Quando a Área estiver cheia, o jogador é impossibilitado de criar mais Invocações.\n(Quando múltiplos efeitos de Invocações estão sendo contabilizados, eles devem seguir a ordem em que estão colocados na Área de Invocação.)",
+                    "contentraw": "Algumas Habilidades de personagem podem criar Invocações na Área de Invocação. A Área de Invocação pode ter no máximo 4 Invocações simultaneamente. Quando a Área estiver cheia, o jogador é impossibilitado de criar mais Invocações.\\n(Quando múltiplos efeitos de Invocações estão sendo contabilizados, eles devem seguir a ordem em que estão colocados na Área de Invocação.)"
+                },
+                {
+                    "title": "V. Pilha de Cartas",
+                    "titleraw": "V. Pilha de Cartas",
+                    "content": "Antes do início da partida, todas as Cartas de Ação do Deck são separadas e embaralhadas para formar a Pilha.\nAo retirar cartas, o jogador irá tirar Cartas de Ação do topo da Pilha e então adicioná-las a sua Mão. Se a Pilha não tiver mais nenhuma carta sobrando, então nenhuma nova carta será adicionada para sua Mão.",
+                    "contentraw": "Antes do início da partida, todas as Cartas de Ação do Deck são separadas e embaralhadas para formar a Pilha.\\nAo retirar cartas, o jogador irá tirar Cartas de Ação do topo da Pilha e então adicioná-las a sua Mão. Se a Pilha não tiver mais nenhuma carta sobrando, então nenhuma nova carta será adicionada para sua Mão."
+                },
+                {
+                    "title": "VI. Mão",
+                    "titleraw": "VI. Mão",
+                    "content": "Após o começo da partida, você deve comprar 5 cartas de sua Pilha para formar sua Mão.\nApós o fim de cada turno, ambos os lados comprarão 2 cartas.\nSomente Cartas de Ação de sua Mão podem ser jogadas ou utilizadas em Sincronia Elemental.\nSua Mão pode ter no máximo 10 cartas, qualquer carta comprada após atingir esse limite será descartada.",
+                    "contentraw": "Após o começo da partida, você deve comprar 5 cartas de sua Pilha para formar sua Mão.\\nApós o fim de cada turno, ambos os lados comprarão 2 cartas.\\nSomente Cartas de Ação de sua Mão podem ser jogadas ou utilizadas em Sincronia Elemental.\\nSua Mão pode ter no máximo 10 cartas, qualquer carta comprada após atingir esse limite será descartada."
+                }
+            ]
+        },
+        "elementalreactionseffects": {
+            "id": 6,
+            "name": "Reações Elementais - Efeitos",
+            "rules": [
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_CRYO",
+                        "elementtwo": "GCG_ELEMENT_PYRO"
+                    },
+                    "title": "Fusão",
+                    "titleraw": "Fusão",
+                    "content": "Dano Atual +2",
+                    "contentraw": "Dano Atual +2"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_HYDRO",
+                        "elementtwo": "GCG_ELEMENT_PYRO"
+                    },
+                    "title": "Vaporização",
+                    "titleraw": "Vaporização",
+                    "content": "Dano Atual +2",
+                    "contentraw": "Dano Atual +2"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_PYRO"
+                    },
+                    "title": "Sobrecarga",
+                    "titleraw": "Sobrecarga",
+                    "content": "Adiciona 2 pontos ao Dano Atual; Caso o alvo seja o Personagem em Combate, é forçado a trocar para o próximo personagem",
+                    "contentraw": "Adiciona 2 pontos ao Dano Atual; Caso o alvo seja o Personagem em Combate, é forçado a trocar para o próximo personagem"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_CRYO"
+                    },
+                    "title": "Supercondutor",
+                    "titleraw": "Supercondutor",
+                    "content": "Adiciona 1 ponto ao Dano Atual, causa 1 ponto de Dano Perfurante a todos os personagens do inimigo, exceto o alvo.",
+                    "contentraw": "Adiciona 1 ponto ao Dano Atual, causa 1 ponto de Dano Perfurante a todos os personagens do inimigo, exceto o alvo."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_HYDRO"
+                    },
+                    "title": "Eletricamente Carregado",
+                    "titleraw": "Eletricamente Carregado",
+                    "content": "Adiciona 1 ponto ao Dano Atual, causa 1 ponto de Dano Perfurante a todos os personagens do inimigo, exceto o alvo.",
+                    "contentraw": "Adiciona 1 ponto ao Dano Atual, causa 1 ponto de Dano Perfurante a todos os personagens do inimigo, exceto o alvo."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_CRYO",
+                        "elementtwo": "GCG_ELEMENT_HYDRO"
+                    },
+                    "title": "Congelado",
+                    "titleraw": "Congelado",
+                    "content": "Adiciona 1 ponto ao Dano Atual, afeta o personagem alvo com o Estado [Congelado]:\nO personagem fica impossibilitado de usar habilidades (este estado dura até o final do turno);\nQuando o Personagem recebe Dano Pyro ou Dano Físico, o Dano causado é aumentado em 2 pontos, e esse estado é removido.",
+                    "contentraw": "Adiciona 1 ponto ao Dano Atual, afeta o personagem alvo com o Estado <color=#FFFFFFFF>[Congelado]</color>:\\nO personagem fica <color=#FFFFFFFF>impossibilitado de usar habilidades</color> (este estado dura até o final do turno);\\nQuando o Personagem recebe {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color> ou {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, o Dano causado é aumentado em 2 pontos, e esse estado é removido."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_CRYO",
+                        "elementtwo": "GCG_ELEMENT_ANEMO"
+                    },
+                    "title": "Redemoinho",
+                    "titleraw": "Redemoinho",
+                    "content": "Causa 1 ponto de Dano Cryo a todos os personagens inimigos, exceto o alvo.",
+                    "contentraw": "Causa 1 ponto de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color> a todos os personagens inimigos, exceto o alvo."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_HYDRO",
+                        "elementtwo": "GCG_ELEMENT_ANEMO"
+                    },
+                    "title": "Redemoinho",
+                    "titleraw": "Redemoinho",
+                    "content": "Causa 1 ponto de Dano Hydro a todos os personagens inimigos, exceto o alvo.",
+                    "contentraw": "Causa 1 ponto de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color> a todos os personagens inimigos, exceto o alvo."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_PYRO",
+                        "elementtwo": "GCG_ELEMENT_ANEMO"
+                    },
+                    "title": "Redemoinho",
+                    "titleraw": "Redemoinho",
+                    "content": "Causa 1 ponto de Dano Pyro a todos os personagens inimigos, exceto o alvo.",
+                    "contentraw": "Causa 1 ponto de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color> a todos os personagens inimigos, exceto o alvo."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_ANEMO"
+                    },
+                    "title": "Redemoinho",
+                    "titleraw": "Redemoinho",
+                    "content": "Causa 1 ponto de Dano Electro a todos os personagens inimigos, exceto o alvo.",
+                    "contentraw": "Causa 1 ponto de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color> a todos os personagens inimigos, exceto o alvo."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_CRYO",
+                        "elementtwo": "GCG_ELEMENT_GEO"
+                    },
+                    "title": "Cristalização",
+                    "titleraw": "Cristalização",
+                    "content": "Dano atual aumenta em 1 ponto, dá 1 ponto de Escudo, protegendo seu Personagem em Combate (o Escudo pode acumular em até 2 pontos).",
+                    "contentraw": "Dano atual aumenta em 1 ponto, dá 1 ponto de {SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudo</color>, protegendo seu Personagem em Combate (o Escudo pode acumular em até 2 pontos)."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_HYDRO",
+                        "elementtwo": "GCG_ELEMENT_GEO"
+                    },
+                    "title": "Cristalização",
+                    "titleraw": "Cristalização",
+                    "content": "Dano atual aumenta em 1 ponto, dá 1 ponto de Escudo, protegendo seu Personagem em Combate (o Escudo pode acumular em até 2 pontos).",
+                    "contentraw": "Dano atual aumenta em 1 ponto, dá 1 ponto de {SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudo</color>, protegendo seu Personagem em Combate (o Escudo pode acumular em até 2 pontos)."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_PYRO",
+                        "elementtwo": "GCG_ELEMENT_GEO"
+                    },
+                    "title": "Cristalização",
+                    "titleraw": "Cristalização",
+                    "content": "Dano atual aumenta em 1 ponto, dá 1 ponto de Escudo, protegendo seu Personagem em Combate (o Escudo pode acumular em até 2 pontos).",
+                    "contentraw": "Dano atual aumenta em 1 ponto, dá 1 ponto de {SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudo</color>, protegendo seu Personagem em Combate (o Escudo pode acumular em até 2 pontos)."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_GEO"
+                    },
+                    "title": "Cristalização",
+                    "titleraw": "Cristalização",
+                    "content": "Dano atual aumenta em 1 ponto, dá 1 ponto de Escudo, protegendo seu Personagem em Combate (o Escudo pode acumular em até 2 pontos).",
+                    "contentraw": "Dano atual aumenta em 1 ponto, dá 1 ponto de {SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudo</color>, protegendo seu Personagem em Combate (o Escudo pode acumular em até 2 pontos)."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_PYRO",
+                        "elementtwo": "GCG_ELEMENT_DENDRO"
+                    },
+                    "title": "Queimadura",
+                    "titleraw": "Queimadura",
+                    "content": "Adiciona 1 ponto ao Dano atual, cria [Chamas Ardentes]:\nFase Final: Causa 1 ponto de Dano Pyro. (Usos: 1, pode acumular até 2)",
+                    "contentraw": "Adiciona 1 ponto ao Dano atual, cria [<color=#FFFFFFFF>Chamas Ardentes</color>]:\\nFase Final: Causa 1 ponto de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>. (Usos: 1, pode acumular até 2)"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_HYDRO",
+                        "elementtwo": "GCG_ELEMENT_DENDRO"
+                    },
+                    "title": "Florescimento",
+                    "titleraw": "Florescimento",
+                    "content": "Aumenta o Dano Atual em 1 ponto, cria um [Núcleo Dendro]:\nQuando seu Personagem em Combate causa Dano Pyro ou Dano Electro, o Dano causado é aumentado em 2 pontos. (Usos: 1)",
+                    "contentraw": "Aumenta o Dano Atual em 1 ponto, cria um [<color=#FFFFFFFF>Núcleo Dendro</color>]:\\nQuando seu Personagem em Combate causa {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color> ou {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, o Dano causado é aumentado em 2 pontos. (Usos: 1)"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_DENDRO"
+                    },
+                    "title": "Aceleração",
+                    "titleraw": "Aceleração",
+                    "content": "Aumenta o Dano atual em 1 ponto, cria uma [Área de Catalisação]:\nQuando seu Personagem em Combate causa Dano Electro ou Dano Dendro, aumenta o Dano causado em 1 ponto. (Usos: 2)",
+                    "contentraw": "Aumenta o Dano atual em 1 ponto, cria uma [<color=#FFFFFFFF>Área de Catalisação</color>]:\\nQuando seu Personagem em Combate causa {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color> ou {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>, aumenta o Dano causado em 1 ponto. (Usos: 2)"
+                }
+            ]
+        },
+        "specialentry": {
+            "id": 8,
+            "name": "Entrada Especial",
+            "rules": [
+                {
+                    "title": "Prato",
+                    "titleraw": "{SPRITE_PRESET#3101}Prato",
+                    "content": "Quando o efeito de uma Carta de Evento de \"Prato\" acabar, o personagem entrará no estado \"Barriga Cheia\".\nPersonagens nesse estado não poderão ser alvo de outras Cartas de Evento de \"Prato\", e não poderão ser afetados pelos efeitos de outras Cartas de Eventos de \"Pratos\".\nO efeito \"Barriga Cheia\" será eliminado quando o Turno acabar ou quando o personagem for derrotado.\nAlém disso, ao jogar uma Carta de Evento \"Prato\" com o efeito de Reviver, não será possível jogar outras Cartas de Evento \"Prato\" com efeito reviver no mesmo Turno.",
+                    "contentraw": "Quando o efeito de uma Carta de Evento de \"{SPRITE_PRESET#3101}Prato\" acabar, o personagem entrará no estado \"Barriga Cheia\".\\nPersonagens nesse estado não poderão ser alvo de outras Cartas de Evento de \"{SPRITE_PRESET#3101}Prato\", e não poderão ser afetados pelos efeitos de outras Cartas de Eventos de \"{SPRITE_PRESET#3101}Pratos\".\\nO efeito \"Barriga Cheia\" será eliminado quando o Turno acabar ou quando o personagem for derrotado.\\nAlém disso, ao jogar uma Carta de Evento \"{SPRITE_PRESET#3101}Prato\" com o efeito de Reviver, não será possível jogar outras Cartas de Evento \"{SPRITE_PRESET#3101}Prato\" com efeito reviver no mesmo Turno."
+                },
+                {
+                    "title": "Escudo",
+                    "titleraw": "{SPRITE_PRESET#4007}Escudo",
+                    "content": "Alguns efeitos geram um \"Escudo\" que protege um personagem em específico.\nQuando o personagem protegido pelo Escudo recebe Dano, o valor do Dano é reduzido dos pontos de Escudo.",
+                    "contentraw": "Alguns efeitos geram um \"Escudo\" que protege um personagem em específico.\\nQuando o personagem protegido pelo Escudo recebe Dano, o valor do Dano é reduzido dos pontos de Escudo."
+                },
+                {
+                    "title": "Usos",
+                    "titleraw": "Usos",
+                    "content": "Algumas Cartas ou Estados têm limite de \"Usos\".\nEm cada vez que o efeito dessa carta é utilizado, seu número de \"Usos\" é reduzido em 1 ponto.\nQuando o número de \"Usos\" é consumido por completo, a carta é descartada imediatamente.",
+                    "contentraw": "Algumas Cartas ou Estados têm limite de \"Usos\".\\nEm cada vez que o efeito dessa carta é utilizado, seu número de \"Usos\" é reduzido em 1 ponto.\\nQuando o número de \"Usos\" é consumido por completo, a carta é descartada imediatamente."
+                },
+                {
+                    "title": "Duração (Turnos)",
+                    "titleraw": "Duração (Turnos)",
+                    "content": "Algumas Cartas ou Estados têm limite de \"Duração (Turnos)\".\nEm cada Fase Final, o número de \"Duração (Turnos)\" é reduzido em 1 ponto.\nQuando \"Duração (Turnos)\" é consumido por completo, a carta é descartada imediatamente.",
+                    "contentraw": "Algumas Cartas ou Estados têm limite de \"Duração (Turnos)\".\\nEm cada Fase Final, o número de \"Duração (Turnos)\" é reduzido em 1 ponto.\\nQuando \"Duração (Turnos)\" é consumido por completo, a carta é descartada imediatamente."
+                },
+                {
+                    "title": "Dano Perfurante",
+                    "titleraw": "Dano Perfurante",
+                    "content": "Alguns efeitos podem causar Dano Perfurante.\nO Dano Perfurante não pode receber Bônus de Dano, mas também não pode ser reduzido pelo efeito de Escudos e similares.",
+                    "contentraw": "Alguns efeitos podem causar Dano Perfurante.\\nO Dano Perfurante não pode receber Bônus de Dano, mas também não pode ser reduzido pelo efeito de Escudos e similares."
+                },
+                {
+                    "title": "Ação de Combate (Carta de Ação)",
+                    "titleraw": "Ação de Combate (Carta de Ação)",
+                    "content": "Algumas Cartas de Ação podem ter regras de \"Ação de Combate\".\nQuando jogadas, cartas com essas regras são consideradas como \"Ação de Combate\" ao invés de \"Ação Rápida\".",
+                    "contentraw": "Algumas Cartas de Ação podem ter regras de \"Ação de Combate\".\\nQuando jogadas, cartas com essas regras são consideradas como \"Ação de Combate\" ao invés de \"Ação Rápida\"."
+                },
+                {
+                    "title": "Ataque Carregado",
+                    "titleraw": "Ataque Carregado",
+                    "content": "Antes da sua Fase de Ação, caso o número total de seus Dados Elementais seja par, seu Ataque Normal será considerado um Ataque Carregado.",
+                    "contentraw": "Antes da sua Fase de Ação, caso o número total de seus Dados Elementais seja par, seu Ataque Normal será considerado um Ataque Carregado."
+                },
+                {
+                    "title": "Ataque Imersivo",
+                    "titleraw": "Ataque Imersivo",
+                    "content": "Após o personagem se tornar \"Personagem em Combate\", se a próxima Ação de Combate neste turno for um \"Ataque Normal\", o mesmo será considerado um \"Ataque Imersivo\".",
+                    "contentraw": "Após o personagem se tornar \"Personagem em Combate\", se a próxima Ação de Combate neste turno for um \"Ataque Normal\", o mesmo será considerado um \"Ataque Imersivo\"."
+                }
+            ]
+        },
+        "takeaction": {
+            "id": 3,
+            "name": "Executar Ação",
+            "rules": [
+                {
+                    "title": "Ação",
+                    "titleraw": "Ação",
+                    "content": "Durante a Fase de Ação, as ações são divididas entre Ações de Combate e Ações Rápidas.\nAções de Combate: Após completar 1 Ação de Combate, você passa a vez para seu oponente. Usar Habilidades, trocar de personagens e declarar o fim do seu turno contam como Ações de Combate.\nAções Rápidas: Você pode continuar seu turno após completar uma Ação Rápida. Jogar uma carta e Sincronias Elementais são consideradas como Ações Rápidas.",
+                    "contentraw": "Durante a Fase de Ação, as ações são divididas entre Ações de Combate e Ações Rápidas.\\n<color=#FFE14BFF>Ações de Combate</color>: Após completar 1 Ação de Combate, você passa a vez para seu oponente. Usar Habilidades, trocar de personagens e declarar o fim do seu turno contam como Ações de Combate.\\n<color=#FFE14BFF>Ações Rápidas</color>: Você pode continuar seu turno após completar uma Ação Rápida. Jogar uma carta e Sincronias Elementais são consideradas como Ações Rápidas."
+                },
+                {
+                    "title": "Ação de Combate - Usar Habilidade",
+                    "titleraw": "Ação de Combate - Usar Habilidade",
+                    "content": "Use seus Dados Elementais para pagar o custo necessário, o que permitirá que seu Personagem em Combate use uma habilidade para causar dano no Personagem em Combate do oponente.\nCada vez que um personagem usa um Ataque Normal ou uma Habilidade Elemental, ele recebe 1 ponto de Carga.\nAssim que a carga do personagem atinge o limite máximo, ele pode consumir todos seus pontos de Carga para liberar o seu poderoso Supremo!",
+                    "contentraw": "Use seus Dados Elementais para pagar o custo necessário, o que permitirá que seu Personagem em Combate use uma habilidade para causar dano no Personagem em Combate do oponente.\\nCada vez que um personagem usa um Ataque Normal ou uma Habilidade Elemental, ele recebe 1 ponto de Carga.\\nAssim que a carga do personagem atinge o limite máximo, ele pode consumir todos seus pontos de Carga para liberar o seu poderoso Supremo!"
+                },
+                {
+                    "title": "Ação de Combate - Trocar Personagem",
+                    "titleraw": "Ação de Combate - Trocar Personagem",
+                    "content": "Consuma 1 Dado Elemental de qualquer tipo para mudar o estado de um de seus Personagens Inativos para Personagem em Combate",
+                    "contentraw": "Consuma 1 Dado Elemental de qualquer tipo para mudar o estado de um de seus Personagens Inativos para Personagem em Combate"
+                },
+                {
+                    "title": "Ação Rápida - Usar Carta",
+                    "titleraw": "Ação Rápida - Usar Carta",
+                    "content": "Use Dados Elementais para pagar o custo especificado e jogar uma carta. Cartas jogadas são divididas nas seguintes categorias:\nCartas de Equipamento: Essas cartas são equipadas nos personagens e aplicam efeitos que o fortalecem.\nCartas de suporte: São colocadas na Área de Suporte para aplicar efeito contínuo de suporte durante o jogo.\nCartas de Evento: São cartas que aplicam seu efeito apenas no momento em que são jogadas.",
+                    "contentraw": "Use Dados Elementais para pagar o custo especificado e jogar uma carta. Cartas jogadas são divididas nas seguintes categorias:\\n<color=#FFE14BFF>Cartas de Equipamento</color>: Essas cartas são equipadas nos personagens e aplicam efeitos que o fortalecem.\\n<color=#FFE14BFF>Cartas de suporte</color>: São colocadas na Área de Suporte para aplicar efeito contínuo de suporte durante o jogo.\\n<color=#FFE14BFF>Cartas de Evento</color>: São cartas que aplicam seu efeito apenas no momento em que são jogadas."
+                },
+                {
+                    "title": "Ação Rápida - Sincronia Elemental",
+                    "titleraw": "Ação Rápida - Sincronia Elemental",
+                    "content": "Descarte uma carta de sua mão, converta um Dado Elemental para o Elemento do seu Personagem em Combate atual.",
+                    "contentraw": "Descarte uma carta de sua mão, converta um Dado Elemental para o Elemento do seu Personagem em Combate atual."
+                },
+                {
+                    "title": "Ação de Combate - Encerrar Turno",
+                    "titleraw": "Ação de Combate - Encerrar Turno",
+                    "content": "Desiste de qualquer futura ação neste turno, declarando seu fim.\nO jogador que terminar seu turno primeiro será o primeiro a jogar no próximo turno, o que significa que será dele a iniciativa na próxima Fase de Ação.\nDepois disso, o jogador que ainda não declarou o fim de seu turno pode continuar com suas ações.\nApós ambos os jogadores declararem o fim de seu turno, a Fase de Ação é terminada, dando início à Fase Final deste turno.",
+                    "contentraw": "Desiste de qualquer futura ação neste turno, declarando seu fim.\\nO jogador que terminar seu turno primeiro será o primeiro a jogar no próximo turno, o que significa que será dele a iniciativa na próxima Fase de Ação.\\nDepois disso, o jogador que ainda não declarou o fim de seu turno pode continuar com suas ações.\\nApós ambos os jogadores declararem o fim de seu turno, a Fase de Ação é terminada, dando início à Fase Final deste turno."
+                }
+            ]
+        },
+        "roundflow": {
+            "id": 2,
+            "name": "Progresso do Turno",
+            "rules": [
+                {
+                    "title": "Progresso do Turno",
+                    "titleraw": "Progresso do Turno",
+                    "content": "Todos os turnos acontecem seguindo a ordem de \"Fase de Rolagem\", \"Fase de Ação\" e \"Fase Final\".",
+                    "contentraw": "Todos os turnos acontecem seguindo a ordem de \"Fase de Rolagem\", \"Fase de Ação\" e \"Fase Final\".",
+                    "filename_image": "UI_Gcg_InSide_11"
+                },
+                {
+                    "title": "Fase de Rolagem",
+                    "titleraw": "Fase de Rolagem",
+                    "content": "Durante a Fase de Rolagem de cada turno, são rolados 8 Dados Elementais.\nApós ter rolado esses dados, o jogador terá 1 chance de escolher um número qualquer de Dados Elementais para rolar novamente.\nCada Dado Elemental pode ter uma das seguintes 7 Energias Elementais: Cryo, Hydro, Pyro, Electro, Anemo, Geo, e Dendro, assim como o Elemento Omni, que pode ser considerado e usado como qualquer outro Elemento.\nO número máximo de Dados Elementais é 16, após atingir este limite, o jogador não poderá obter mais Dados Elementais.",
+                    "contentraw": "Durante a Fase de Rolagem de cada turno, são rolados 8 Dados Elementais.\\nApós ter rolado esses dados, o jogador terá 1 chance de escolher um número qualquer de Dados Elementais para rolar novamente.\\nCada Dado Elemental pode ter uma das seguintes 7 Energias Elementais: Cryo, Hydro, Pyro, Electro, Anemo, Geo, e Dendro, assim como o Elemento Omni, que pode ser considerado e usado como qualquer outro Elemento.\\nO número máximo de Dados Elementais é 16, após atingir este limite, o jogador não poderá obter mais Dados Elementais."
+                },
+                {
+                    "title": "Fase de Ação",
+                    "titleraw": "Fase de Ação",
+                    "content": "Os jogadores farão suas ações alternadamente, começando do jogador que for primeiro. As ações que podem ser executadas são:\nUsar Habilidade: Pague o custo correspondente para usar uma Habilidade de seu personagem.\nTrocar de Personagem: Consome 1 Dado Elemental de sua escolha para trocar seu Personagem em Combate.\nJogar Carta: Consome o custo correspondente para jogar uma carta de sua mão e a coloca em campo.\nSincronia Elemental: Descarta uma carta da sua mão e muda o Tipo Elemental de um de seus Dados Elementais.\nDeclarar Fim do Turno: Finaliza suas ações neste turno. O primeiro jogador a declarar o fim de seu turno será o primeiro jogador a fazer suas ações no próximo turno.",
+                    "contentraw": "Os jogadores farão suas ações alternadamente, começando do jogador que for primeiro. As ações que podem ser executadas são:\\n<color=#FFE14BFF>Usar Habilidade</color>: Pague o custo correspondente para usar uma Habilidade de seu personagem.\\n<color=#FFE14BFF>Trocar de Personagem</color>: Consome 1 Dado Elemental de sua escolha para trocar seu Personagem em Combate.\\n<color=#FFE14BFF>Jogar Carta</color>: Consome o custo correspondente para jogar uma carta de sua mão e a coloca em campo.\\n<color=#FFE14BFF>Sincronia Elemental</color>: Descarta uma carta da sua mão e muda o Tipo Elemental de um de seus Dados Elementais.\\n<color=#FFE14BFF>Declarar Fim do Turno</color>: Finaliza suas ações neste turno. O primeiro jogador a declarar o fim de seu turno será o primeiro jogador a fazer suas ações no próximo turno."
+                },
+                {
+                    "title": "Fase Final",
+                    "titleraw": "Fase Final",
+                    "content": "Assim que ambos os jogadores declararem o fim de seu turno durante a Fase de Ação, a partida entra na Fase Final.\n1. Começando a partir do jogador que joga primeiro, contabilize os efeitos de cartas desencadeados pela \"Fase Final\".\n2. Ambos os jogadores comprarão 2 cartas de suas Pilhas.\n3. Começa um novo turno!",
+                    "contentraw": "Assim que ambos os jogadores declararem o fim de seu turno durante a Fase de Ação, a partida entra na Fase Final.\\n1. Começando a partir do jogador que joga primeiro, contabilize os efeitos de cartas desencadeados pela \"Fase Final\".\\n2. Ambos os jogadores comprarão 2 cartas de suas Pilhas.\\n3. Começa um novo turno!"
+                }
+            ]
+        },
+        "geniusinvokationtcg": {
+            "id": 1,
+            "name": "\"Chamado Sagrado dos Sete\"",
+            "rules": [
+                {
+                    "title": "Chamado Sagrado dos Sete - Introdução",
+                    "titleraw": "Chamado Sagrado dos Sete - Introdução",
+                    "content": "\"Chamado Sagrado dos Sete\" é um rápido e intenso jogo de duelo de cartas.\nConstrua um Deck com \"Cartas de Personagem\" e \"Cartas de Ação\", e comece já uma batalha feroz com seu oponente!",
+                    "contentraw": "\"Chamado Sagrado dos Sete\" é um rápido e intenso jogo de duelo de cartas.\\nConstrua um Deck com \"Cartas de Personagem\" e \"Cartas de Ação\", e comece já uma batalha feroz com seu oponente!",
+                    "filename_image": "UI_Gcg_InSide_01"
+                },
+                {
+                    "title": "Preparando o Jogo",
+                    "titleraw": "Preparando o Jogo",
+                    "content": "(1) Cada jogador compra 5 cartas para sua mão inicial. Logo após, ambos os jogadores têm uma chance de trocar qualquer número de cartas de sua mão.\n(2) Ambos os jogadores devem escolher uma de suas Cartas de Personagem para se tornar seu Personagem em Combate.",
+                    "contentraw": "(1) Cada jogador compra 5 cartas para sua mão inicial. Logo após, ambos os jogadores têm uma chance de trocar qualquer número de cartas de sua mão.\\n(2) Ambos os jogadores devem escolher uma de suas Cartas de Personagem para se tornar seu Personagem em Combate."
+                },
+                {
+                    "title": "Progresso da Partida",
+                    "titleraw": "Progresso da Partida",
+                    "content": "Após o início de uma partida de Chamado Sagrado dos Sete, cada turno segue essa ordem:\n(1) Fase de rolagem: Ambos os lados recebem 8 Dados Elementais para a rolagem.\n(2) Fase de Ação: Ambos os lados fazem suas ações alternadamente até o momento em que ambos declaram o fim de seu turno.\n(3) Fase Final: Ambos os lados compram 2 cartas.",
+                    "contentraw": "Após o início de uma partida de Chamado Sagrado dos Sete, cada turno segue essa ordem:\\n(1) Fase de rolagem: Ambos os lados recebem 8 Dados Elementais para a rolagem.\\n(2) Fase de Ação: Ambos os lados fazem suas ações alternadamente até o momento em que ambos declaram o fim de seu turno.\\n(3) Fase Final: Ambos os lados compram 2 cartas."
+                },
+                {
+                    "title": "Condições para a Vitória",
+                    "titleraw": "Condições para a Vitória",
+                    "content": "Use sua Carta de Personagem para atacar e derrotar a Carta de Personagem do oponente!\nA vitória é conquistada após ter derrotado todas as Cartas de Personagem do oponente!",
+                    "contentraw": "Use sua Carta de Personagem para atacar e derrotar a Carta de Personagem do oponente!\\nA vitória é conquistada após ter derrotado todas as Cartas de Personagem do oponente!"
+                }
+            ]
+        },
+        "otherrules": {
+            "id": 7,
+            "name": "Outras Regras",
+            "rules": [
+                {
+                    "title": "Elementos Correspondentes",
+                    "titleraw": "{SPRITE_PRESET#1108}Elementos Correspondentes",
+                    "content": "Quando você joga Cartas de Ação que tenham Custo, você deve pagar um número equivalente de Dados Elementais correspondentes.\n(Dados Omni podem ser considerados como qualquer elemento.)",
+                    "contentraw": "Quando você joga Cartas de Ação que tenham {SPRITE_PRESET#1108}Custo, você deve pagar um número equivalente de Dados Elementais correspondentes.\\n({SPRITE_PRESET#1111}Dados Omni podem ser considerados como qualquer elemento.)"
+                },
+                {
+                    "title": "Elemento Indefinido",
+                    "titleraw": "{SPRITE_PRESET#1109}Elemento Indefinido",
+                    "content": "Quando é necessário pagar um Custo para jogar uma Carta de Ação, esse custo não tem limitações quanto ao tipo de Dados Elementais.",
+                    "contentraw": "Quando é necessário pagar um {SPRITE_PRESET#1109}Custo para jogar uma Carta de Ação, esse custo não tem limitações quanto ao tipo de Dados Elementais."
+                },
+                {
+                    "title": "Derrotado",
+                    "titleraw": "Derrotado",
+                    "content": "Quando a Vida de um personagem atinge 0, o personagem será considerado derrotado antes que sua Habilidade ou efeito seja concluído.\nNeste momento, o equipamento do personagem e os efeitos serão descartados e a sua Carga será removida.",
+                    "contentraw": "Quando a Vida de um personagem atinge 0, o personagem será considerado derrotado antes que sua Habilidade ou efeito seja concluído.\\nNeste momento, o equipamento do personagem e os efeitos serão descartados e a sua Carga será removida."
+                },
+                {
+                    "title": "Eliminação evitada",
+                    "titleraw": "Eliminação evitada",
+                    "content": "Alguns efeitos farão com que o personagem evite ser derrotado e cure uma determinada quantidade de Vida quando a Vida do personagem cair para 0.\nQuando isso ocorrer, o personagem não será considerado derrotado (o equipamento e os estados do personagem não serão afetados e a Energia não será gasta).",
+                    "contentraw": "Alguns efeitos farão com que o personagem evite ser derrotado e cure uma determinada quantidade de Vida quando a Vida do personagem cair para 0.\\nQuando isso ocorrer, o personagem não será considerado derrotado (o equipamento e os estados do personagem não serão afetados e a Energia não será gasta)."
+                },
+                {
+                    "title": "Ordenar por Cálculo",
+                    "titleraw": "Ordenar por Cálculo",
+                    "content": "Quando vários efeitos são resolvidos de uma vez, eles serão organizados por prioridade da seguinte forma:\n1. Todos os efeitos do jogador atual serão resolvidos primeiro, seguidos pelos efeitos do oponente.\n2. No caso de efeitos provenientes do mesmo jogador, eles serão resolvidos na seguinte ordem: efeitos de carta de personagem, efeitos de equipamento e estado, efeitos de estado de combate, efeitos de invocações e efeitos de carta de suporte.\n3. No caso de efeitos que venham do mesmo jogador e que pertençam à mesma categoria, eles serão resolvidos do primeiro ao último a entrar no combate.",
+                    "contentraw": "Quando vários efeitos são resolvidos de uma vez, eles serão organizados por prioridade da seguinte forma:\\n1. Todos os efeitos do jogador atual serão resolvidos primeiro, seguidos pelos efeitos do oponente.\\n2. No caso de efeitos provenientes do mesmo jogador, eles serão resolvidos na seguinte ordem: efeitos de carta de personagem, efeitos de equipamento e estado, efeitos de estado de combate, efeitos de invocações e efeitos de carta de suporte.\\n3. No caso de efeitos que venham do mesmo jogador e que pertençam à mesma categoria, eles serão resolvidos do primeiro ao último a entrar no combate."
+                }
+            ]
+        }
+    },
+    "meta": {
+        "namemap": {
+            "elementalreactionseffects": "Reações Elementais - Efeitos",
+            "elementalreactionsrules": "Reações Elementais - Regras",
+            "gamearea": "Área do Jogo",
+            "geniusinvokationtcg": "\"Chamado Sagrado dos Sete\"",
+            "otherrules": "Outras Regras",
+            "roundflow": "Progresso do Turno",
+            "specialentry": "Entrada Especial",
+            "takeaction": "Executar Ação"
+        },
+        "names": {
+            "Reações Elementais - Efeitos": "elementalreactionseffects",
+            "Reações Elementais - Regras": "elementalreactionsrules",
+            "Área do Jogo": "gamearea",
+            "\"Chamado Sagrado dos Sete\"": "geniusinvokationtcg",
+            "Outras Regras": "otherrules",
+            "Progresso do Turno": "roundflow",
+            "Entrada Especial": "specialentry",
+            "Executar Ação": "takeaction"
+        },
+        "aliases": {},
+        "categories": {},
+        "properties": {}
+    }
+}

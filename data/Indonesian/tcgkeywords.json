@@ -1,0 +1,454 @@
+{
+    "items": {
+        "clusterbloomarrow": {
+            "id": 1008,
+            "name": "Clusterbloom Arrow",
+            "nameraw": "<color=#FFFFFFFF>Clusterbloom Arrow</color>",
+            "description": "Tahap Selesai: Mengakibatkan 1 poin Dendro DMG.\nPenggunaan: 1 (Dapat ditumpuk, maksimum 2 tumpuk)",
+            "descriptionraw": "<color=#FFFFFFFF>Tahap Selesai: </color>Mengakibatkan 1 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>.\\n<color=#FFFFFFFF>Penggunaan: 1</color> (Dapat ditumpuk, maksimum 2 tumpuk)"
+        },
+        "dendrorelatedreactions": {
+            "id": 217,
+            "name": "Reaksi Terkait Dendro",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Reaksi Terkait Dendro</color>",
+            "description": "Bloom: DMG +1 poin untuk kasus ini, menciptakan [Dendro Core] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya\nBurning: DMG +1 poin untuk kasus ini, menciptakan [Burning Flame] yang mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)\nQuicken: DMG +1 poin untuk kasus ini, menciptakan [Catalyzing Field] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya",
+            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bloom</color>: DMG +1 poin untuk kasus ini, menciptakan [<color=#FFFFFFFF>Dendro Core</color>] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Burning</color>: DMG +1 poin untuk kasus ini, menciptakan [<color=#FFFFFFFF>Burning Flame</color>] yang mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quicken</color>: DMG +1 poin untuk kasus ini, menciptakan [<color=#FFFFFFFF>Catalyzing Field</color>] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya"
+        },
+        "omnielement": {
+            "id": 411,
+            "name": "Elemen Omni",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color>",
+            "description": "Elemen Omni dapat dianggap sebagai elemen apa pun, dan dapat digunakan untuk membayar berbagai jenis biaya.",
+            "descriptionraw": "{SPRITE_PRESET#1111}Elemen Omni dapat dianggap sebagai elemen apa pun, dan dapat digunakan untuk membayar berbagai jenis biaya."
+        },
+        "dendroapplication": {
+            "id": 207,
+            "name": "memberikan efek Dendro",
+            "nameraw": "<color=#7EC236FF>memberikan efek {SPRITE_PRESET#2107}Dendro</color>",
+            "description": "Saat Dendro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\nBloom: Menciptakan [Dendro Core] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya\nBurning: Membuat [Burning Flame] yang akan mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)\nQuicken: Menciptakan [Catalyzing Field] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya",
+            "descriptionraw": "Saat {SPRITE_PRESET#2107}Dendro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bloom</color>: Menciptakan [<color=#FFFFFFFF>Dendro Core</color>] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Burning</color>: Membuat [<color=#FFFFFFFF>Burning Flame</color>] yang akan mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quicken</color>: Menciptakan [<color=#FFFFFFFF>Catalyzing Field</color>] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya"
+        },
+        "durationrounds": {
+            "id": 4,
+            "name": "Durasi (Ronde)",
+            "nameraw": "<color=#FFFFFFFF>Durasi (Ronde)</color>",
+            "description": "Setiap kali kamu mencapai Tahap Selesai Ronde, Durasi (Ronde) -1.\nKartu ini akan langsung dibuang setelah Durasi (Ronde) habis .",
+            "descriptionraw": "Setiap kali kamu mencapai Tahap Selesai Ronde, <color=#FFFFFFFF>Durasi (Ronde)</color> -1.\\nKartu ini akan langsung dibuang setelah <color=#FFFFFFFF>Durasi (Ronde)</color> habis ."
+        },
+        "pyrorelatedreactions": {
+            "id": 213,
+            "name": "Reaksi Terkait Pyro",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Reaksi Terkait Pyro</color>",
+            "description": "Melt: DMG +2 poin untuk kasus ini\nVaporize: DMG +2 poin untuk kasus ini\nOverloaded: DMG +2 poin untuk kasus ini, target berganti ke Karakter selanjutnya secara paksa\nBurning: DMG +1 poin untuk kasus ini, menciptakan [Burning Flame] yang mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)\nPyro Crystallize: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\nPyro Swirl: Mengakibatkan 1 poin Pyro DMG kepada seluruh Karakter lawan selain daripada target",
+            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: DMG +2 poin untuk kasus ini\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: DMG +2 poin untuk kasus ini\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: DMG +2 poin untuk kasus ini, target berganti ke Karakter selanjutnya secara paksa\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: DMG +1 poin untuk kasus ini, menciptakan [<color=#FFFFFFFF>Burning Flame</color>] yang mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Mengakibatkan 1 poin Pyro DMG kepada seluruh Karakter lawan selain daripada target"
+        },
+        "hydrorelatedreactions": {
+            "id": 212,
+            "name": "Reaksi Terkait Hydro",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Reaksi Terkait Hydro</color>",
+            "description": "Vaporize: DMG +2 poin untuk kasus ini\nElectro-Charged: DMG +1 poin untuk kasus ini, mengakibatkan 1 poin Piercing DMG kepada seluruh Karakter lawan selain daripada target\nFrozen: DMG +1 poin untuk kasus ini, target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)\nBloom: Menciptakan [Dendro Core] yang memberikan +2 poin DMG untuk kasus Pyro DMG atau Electro DMG selanjutnya\nHydro Crystallize: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\nHydro Swirl: Mengakibatkan 1 poin Hydro DMG kepada seluruh Karakter lawan selain daripada target",
+            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 poin untuk kasus ini\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 poin untuk kasus ini, mengakibatkan 1 poin Piercing DMG kepada seluruh Karakter lawan selain daripada target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 poin untuk kasus ini, target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: Menciptakan [<color=#FFFFFFFF>Dendro Core</color>] yang memberikan +2 poin DMG untuk kasus Pyro DMG atau Electro DMG selanjutnya\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Mengakibatkan 1 poin Hydro DMG kepada seluruh Karakter lawan selain daripada target"
+        },
+        "fatuiambusher": {
+            "id": 1004,
+            "name": "Fatui Ambusher",
+            "nameraw": "<color=#FFFFFFFF>Fatui Ambusher</color>",
+            "description": "\"Fatui Ambusher\" akan memicu efek setelah Karakter di timnya sendiri menggunakan Skill, mengakibatkan DMG pada Karakter aktif di timnya sendiri. (Sekali setiap Ronde)\nTerdapat total sebanyak 4 jenis \"Fatui Ambusher\" yang mungkin muncul:\nCryo Cicin Mage: Mengakibatkan 1 poin Cryo DMG pada saat terpicu, dapat digunakan 2 kali.\nMirror Maiden: Mengakibatkan 1 poin Hydro DMG pada saat terpicu, dapat digunakan 2 kali.\nPyroslinger Bracer: Mengakibatkan 1 poin Pyro DMG pada saat terpicu, dapat digunakan 2 kali.\nElectrohammer Vanguard: Mengakibatkan 1 poin Electro DMG pada saat terpicu, dapat digunakan 2 kali.",
+            "descriptionraw": "\"Fatui Ambusher\" akan memicu efek setelah Karakter di timnya sendiri menggunakan Skill, mengakibatkan DMG pada Karakter aktif di timnya sendiri. (Sekali setiap Ronde)\\nTerdapat total sebanyak 4 jenis \"Fatui Ambusher\" yang mungkin muncul:\\n<color=#FFFFFFFF>Cryo Cicin Mage</color>: Mengakibatkan 1 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> pada saat terpicu, dapat digunakan 2 kali.\\n<color=#FFFFFFFF>Mirror Maiden</color>: Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color> pada saat terpicu, dapat digunakan 2 kali.\\n<color=#FFFFFFFF>Pyroslinger Bracer</color>: Mengakibatkan 1 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> pada saat terpicu, dapat digunakan 2 kali.\\n<color=#FFFFFFFF>Electrohammer Vanguard</color>: Mengakibatkan 1 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> pada saat terpicu, dapat digunakan 2 kali."
+        },
+        "cryodmg": {
+            "id": 101,
+            "name": "Cryo DMG",
+            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>",
+            "description": "Memberikan Cryo dan dapat memicu Reaksi Elemental berikut:\nMelt: DMG +2 poin untuk kasus ini\nSuperconduct: DMG +1 poin untuk kasus ini, mengakibatkan 1 Piercing DMG kepada seluruh Karakter lawan selain daripada target\nFrozen: DMG +1 poin untuk kasus ini, target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)",
+            "descriptionraw": "Memberikan {SPRITE_PRESET#2101}Cryo dan dapat memicu Reaksi Elemental berikut:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Melt</color>: DMG +2 poin untuk kasus ini\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Superconduct</color>: DMG +1 poin untuk kasus ini, mengakibatkan 1 Piercing DMG kepada seluruh Karakter lawan selain daripada target\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Frozen</color>: DMG +1 poin untuk kasus ini, target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)"
+        },
+        "anemo": {
+            "id": 305,
+            "name": "Anemo",
+            "nameraw": "{SPRITE_PRESET#1105}Anemo",
+            "description": "Habiskan Dadu Anemo yang sudah kamu lempar untuk membayar biaya ini.\n(Dadu Omni juga bisa digunakan untuk membayarnya.)",
+            "descriptionraw": "Habiskan Dadu <color=#80FFD7FF>{SPRITE_PRESET#1105}Anemo</color> yang sudah kamu lempar untuk membayar biaya ini.\\n({SPRITE_PRESET#1111}Dadu Omni juga bisa digunakan untuk membayarnya.)"
+        },
+        "geodmg": {
+            "id": 106,
+            "name": "Geo DMG",
+            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
+            "description": "Bereaksi dengan Elemen jika sudah diberikan:\nCryo Crystallize: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\nHydro Crystallize: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\nPyro Crystallize: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\nElectro Crystallize: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)",
+            "descriptionraw": "Bereaksi dengan Elemen jika sudah diberikan:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 poin untuk kasus ini, Karakter aktifmu memperoleh 1 poin Perisai (Dapat ditumpuk, maksimum 2 poin)"
+        },
+        "hydro": {
+            "id": 302,
+            "name": "Hydro",
+            "nameraw": "{SPRITE_PRESET#1102}Hydro",
+            "description": "Habiskan Dadu Hydro yang sudah kamu lempar untuk membayar biaya ini.\n(Dadu Omni juga bisa digunakan untuk membayarnya.)",
+            "descriptionraw": "Habiskan Dadu <color=#80C0FFFF>{SPRITE_PRESET#1102}Hydro</color> yang sudah kamu lempar untuk membayar biaya ini.\\n({SPRITE_PRESET#1111}Dadu Omni juga bisa digunakan untuk membayarnya.)"
+        },
+        "electroinfusion": {
+            "id": 1002,
+            "name": "Electro Elemental Infusion",
+            "nameraw": "<color=#FFFFFFFF>Electro Elemental Infusion</color>",
+            "description": "Physical DMG Karakter yang terpengaruh akan berubah menjadi Electro DMG.\nDurasi (Ronde): 2",
+            "descriptionraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> Karakter yang terpengaruh akan berubah menjadi {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.\\n<color=#FFFFFFFF>Durasi (Ronde)</color>: 2"
+        },
+        "combataction": {
+            "id": 1,
+            "name": "Aksi Tempur",
+            "nameraw": "<color=#FFFFFFFF>Aksi Tempur</color>",
+            "description": "Setelah kamu menyelesaikan 1 Aksi Tempur, selanjutnya adalah giliran lawanmu.\nMemainkan 1 kartu dari tanganmu dengan aturan ini berarti Aksi Tempur, dan bukan Aksi Cepat.",
+            "descriptionraw": "Setelah kamu menyelesaikan 1 Aksi Tempur, selanjutnya adalah giliran lawanmu.\\n<color=#FFFFFFFF>Memainkan 1 kartu dari tanganmu dengan aturan ini berarti Aksi Tempur, dan bukan Aksi Cepat.</color>"
+        },
+        "superlativesuperstrength": {
+            "id": 1007,
+            "name": "Superlative Superstrength",
+            "nameraw": "<color=#FFFFFFFF>Superlative Superstrength</color>",
+            "description": "Saat Karakter yang terpengaruh melancarkan Charged Attack: Mengakibatkan DMG +1. Jika jumlah Penggunaan tersisa 2 atau lebih, maka akan menghabiskan 1 Elemen Tidak Selaras lebih sedikit.\nPenggunaan: 1 (Dapat ditumpuk, maksimum 3 tumpuk)",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Karakter yang terpengaruh melancarkan <color=#FFFFFFFF>Charged Attack</color>: </color>Mengakibatkan DMG +1. Jika jumlah <color=#FFFFFFFF>Penggunaan</color> tersisa 2 atau lebih, maka akan menghabiskan 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Elemen Tidak Selaras</color> lebih sedikit.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 1</color> (Dapat ditumpuk, maksimum 3 tumpuk)"
+        },
+        "elementalburst": {
+            "id": 501,
+            "name": "Elemental Burst",
+            "nameraw": "Elemental Burst",
+            "description": "Saat Energy Karakter mencapai batasnya, kamu dapat mengonsumsi seluruh Energy itu untuk menggunakan \"Elemental Burst\" yang kuat.",
+            "descriptionraw": "Saat {SPRITE_PRESET#1110}Energy Karakter mencapai batasnya, kamu dapat mengonsumsi seluruh {SPRITE_PRESET#1110}Energy itu untuk menggunakan \"Elemental Burst\" yang kuat."
+        },
+        "energy": {
+            "id": 310,
+            "name": "Energy",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color>",
+            "description": "Karakter harus mengonsumsi Energy untuk menggunakan Elemental Burst-nya.\nSaat Karakter menggunakan Elemental Skill atau Normal Attack, mereka akan memperoleh 1 poin Energy.",
+            "descriptionraw": "Karakter harus mengonsumsi {SPRITE_PRESET#1110}Energy untuk menggunakan Elemental Burst-nya.\\nSaat Karakter menggunakan Elemental Skill atau Normal Attack, mereka akan memperoleh 1 poin {SPRITE_PRESET#1110}Energy."
+        },
+        "shield": {
+            "id": 6,
+            "name": "Perisai",
+            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Perisai</color>",
+            "description": "Saat Karakter pengguna Perisai ini menerima DMG, Perisai akan terkonsumsi untuk mengimbangi DMG tersebut.",
+            "descriptionraw": "Saat Karakter pengguna Perisai ini menerima DMG, Perisai akan terkonsumsi untuk mengimbangi DMG tersebut."
+        },
+        "hydroapplication": {
+            "id": 202,
+            "name": "memberikan efek Hydro",
+            "nameraw": "<color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color>",
+            "description": "Saat Hydro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\nVaporize: Tidak berefek\nElectro-Charged: Tidak berefek\nFrozen: target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)\nBloom: menciptakan [Dendro Core] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya",
+            "descriptionraw": "Saat {SPRITE_PRESET#2102}Hydro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: Tidak berefek\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: Tidak berefek\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: menciptakan [<color=#FFFFFFFF>Dendro Core</color>] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya"
+        },
+        "matchingelement": {
+            "id": 308,
+            "name": "Elemen Sama",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Elemen Sama</color>",
+            "description": "Kamu harus menggunakan Dadu Elemental yang cocok dengan jumlah dan elemen yang ditampilkan di sini untuk membayar jenis biaya ini.\n(Dadu Elemen Omni dapat dianggap sebagai Elemen apa pun.)",
+            "descriptionraw": "Kamu harus menggunakan Dadu Elemental yang cocok dengan jumlah dan elemen yang ditampilkan di sini untuk membayar jenis biaya ini.\\n({SPRITE_PRESET#1111}Dadu Elemen Omni dapat dianggap sebagai Elemen apa pun.)"
+        },
+        "dendro": {
+            "id": 307,
+            "name": "Dendro",
+            "nameraw": "{SPRITE_PRESET#1107}Dendro",
+            "description": "Habiskan Dadu Dendro yang sudah kamu lempar untuk membayar biaya ini.\n(Dadu Omni juga bisa digunakan untuk membayarnya.)",
+            "descriptionraw": "Habiskan Dadu <color=#7EC236FF>{SPRITE_PRESET#1107}Dendro</color> yang sudah kamu lempar untuk membayar biaya ini.\\n({SPRITE_PRESET#1111}Dadu Omni juga bisa digunakan untuk membayarnya.)"
+        },
+        "passiveskill": {
+            "id": 502,
+            "name": "Passive Skill",
+            "nameraw": "Passive Skill",
+            "description": "Skill ini terus berlaku dan tidak perlu diaktifkan.",
+            "descriptionraw": "Skill ini terus berlaku dan tidak perlu diaktifkan."
+        },
+        "characterclosesttoyourcurrentactivecharacter": {
+            "id": 7,
+            "name": "Karakter Terdekat dengan Karakter Aktifmu",
+            "nameraw": "<color=#FFFFFFFF>Karakter Terdekat dengan Karakter Aktifmu</color>",
+            "description": "\"Karakter (lawan) Terdekat dengan Karakter aktifmu\" adalah Karakter lawan yang posisinya paling dekat dengan Karakter aktifmu.\nJika terdapat lebih dari satu Karakter dalam kondisi tersebut, maka Karakter dengan posisi paling depan yang akan dianggap sebagai \"terdekat\".",
+            "descriptionraw": "\"Karakter (lawan) Terdekat dengan Karakter aktifmu\" adalah Karakter lawan yang posisinya paling dekat dengan Karakter aktifmu.\\nJika terdapat lebih dari satu Karakter dalam kondisi tersebut, maka Karakter dengan posisi paling depan yang akan dianggap sebagai \"terdekat\"."
+        },
+        "chargedattack": {
+            "id": 51,
+            "name": "Charged Attack",
+            "nameraw": "<color=#FFFFFFFF>Charged Attack</color>",
+            "description": "Jika total Dadu Elemental berjumlah genap sebelum Tahap Aksi giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack.",
+            "descriptionraw": "Jika total Dadu Elemental berjumlah genap sebelum Tahap Aksi giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack."
+        },
+        "prepareskill": {
+            "id": 53,
+            "name": "Mempersiapkan Skill",
+            "nameraw": "<color=#FFFFFFFF>Mempersiapkan Skill</color>",
+            "description": "Sebagian Skill tidak dapat langsung digunakan dan memerlukan persiapan yang harus diselesaikan dalam jumlah ronde yang ditentukan.\nJika Karakter Aktif yang digunakan sedang menjalankan persiapan ketika giliran Pemain dimulai, maka akan segera melewati Tahap Aksi Pemain tersebut. Ketika persiapan Skill sudah selesai, Karakter akan langsung melancarkan Skill tersebut.(Skill yang memerlukan persiapan tidak dapat memicu efek yang dipicu oleh Skill.)\nHanya Karakter Aktif yang dapat melakukan persiapan Skill. Jika Karakter Aktif yang sedang menjalankan persiapan Skill diganti, maka persiapan Skill akan terhenti.",
+            "descriptionraw": "Sebagian Skill tidak dapat langsung digunakan dan memerlukan <color=#FFFFFFFF>persiapan</color> yang harus diselesaikan dalam jumlah ronde yang ditentukan.\\nJika Karakter Aktif yang digunakan sedang menjalankan <color=#FFFFFFFF>persiapan</color> ketika giliran Pemain dimulai, maka akan segera melewati Tahap Aksi Pemain tersebut. Ketika <color=#FFFFFFFF>persiapan</color> Skill sudah selesai, Karakter akan langsung melancarkan Skill tersebut.(Skill yang memerlukan <color=#FFFFFFFF>persiapan</color> tidak dapat memicu efek yang dipicu oleh Skill.)\\nHanya Karakter Aktif yang dapat melakukan <color=#FFFFFFFF>persiapan</color> Skill. Jika Karakter Aktif yang sedang menjalankan <color=#FFFFFFFF>persiapan</color> Skill diganti, maka <color=#FFFFFFFF>persiapan</color> Skill akan terhenti."
+        },
+        "electro": {
+            "id": 304,
+            "name": "Electro",
+            "nameraw": "{SPRITE_PRESET#1104}Electro",
+            "description": "Habiskan Dadu Electro yang sudah kamu lempar untuk membayar biaya ini.\n(Dadu Omni juga bisa digunakan untuk membayarnya.)",
+            "descriptionraw": "Habiskan Dadu <color=#FFACFFFF>{SPRITE_PRESET#1104}Electro</color> yang sudah kamu lempar untuk membayar biaya ini.\\n({SPRITE_PRESET#1111}Dadu Omni juga bisa digunakan untuk membayarnya.)"
+        },
+        "physicaldmg": {
+            "id": 100,
+            "name": "Physical DMG",
+            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>",
+            "description": "Physical DMG tidak dapat memberikan elemen apa pun dan memicu Reaksi Elemental.",
+            "descriptionraw": "Physical DMG tidak dapat memberikan elemen apa pun dan memicu Reaksi Elemental."
+        },
+        "dendrodmg": {
+            "id": 107,
+            "name": "Dendro DMG",
+            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>",
+            "description": "Memberikan Dendro dan dapat memicu Reaksi Elemental berikut:\nBloom: DMG +1 poin untuk kasus ini, menciptakan [Dendro Core] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya\nBurning: DMG +1 poin untuk kasus ini, membuat [Burning Flame] yang akan mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)\nQuicken: DMG +1 poin untuk kasus ini, menciptakan [Catalyzing Field] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya",
+            "descriptionraw": "Memberikan {SPRITE_PRESET#2107}Dendro dan dapat memicu Reaksi Elemental berikut:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bloom</color>: DMG +1 poin untuk kasus ini, menciptakan [<color=#FFFFFFFF>Dendro Core</color>] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Burning</color>: DMG +1 poin untuk kasus ini, membuat [<color=#FFFFFFFF>Burning Flame</color>] yang akan mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quicken</color>: DMG +1 poin untuk kasus ini, menciptakan [<color=#FFFFFFFF>Catalyzing Field</color>] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya"
+        },
+        "pyroapplication": {
+            "id": 203,
+            "name": "memberikan efek Pyro",
+            "nameraw": "<color=#FF9999FF>memberikan efek {SPRITE_PRESET#2103}Pyro</color>",
+            "description": "Saat Pyro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\nMelt: Tidak berefek\nVaporize: Tidak berefek\nOverloaded: Target berganti ke Karakter selanjutnya secara paksa\nBurning: Menciptakan [Burning Flame] yang akan mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)",
+            "descriptionraw": "Saat {SPRITE_PRESET#2103}Pyro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: Tidak berefek\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: Tidak berefek\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: Target berganti ke Karakter selanjutnya secara paksa\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: Menciptakan [<color=#FFFFFFFF>Burning Flame</color>] yang akan mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)"
+        },
+        "crowfeathercover": {
+            "id": 1003,
+            "name": "Crowfeather Cover",
+            "nameraw": "<color=#FFFFFFFF>Crowfeather Cover</color>",
+            "description": "Saat Karakter yang terpengaruh melancarkan Elemental Skill dan Elemental Burst, DMG +1.\nJumlah penggunaan: 2",
+            "descriptionraw": "Saat Karakter yang terpengaruh melancarkan <color=#FFFFFFFF>Elemental Skill</color> dan <color=#FFFFFFFF>Elemental Burst</color>, DMG +1.\\n<color=#FFFFFFFF>Jumlah penggunaan: 2</color>"
+        },
+        "piercingdmg": {
+            "id": 5,
+            "name": "Piercing DMG",
+            "nameraw": "<color=#FFFFFFFF>Piercing DMG</color>",
+            "description": "Piercing DMG tidak dapat dipengaruhi oleh Bonus DMG apa pun, namun tidak dapat dilawan oleh efek seperti Perisai dan kekebalan DMG.",
+            "descriptionraw": "Piercing DMG tidak dapat dipengaruhi oleh Bonus DMG apa pun, namun tidak dapat dilawan oleh efek seperti Perisai dan kekebalan DMG."
+        },
+        "immunitytodefeats1willnotbedefeated": {
+            "id": 54,
+            "name": "tidak gugur",
+            "nameraw": "<color=#FFFFFFFF>tidak gugur</color>",
+            "description": "Sebagian efek dapat menyelamatkan Karakter agar tidak gugur saat HP Karakter mencapai 0 poin, serta memulihkan Karakter tersebut hingga jumlah HP tertentu.\nDengan begitu, Karakter tidak akan dianggap telah/pernah gugur. (Maka, equipment dan status yang dimiliki Karakter tidak akan terhapus, Energy yang dimiliki juga tidak akan terhapus.)",
+            "descriptionraw": "Sebagian efek dapat menyelamatkan Karakter agar <color=#FFFFFFFF>tidak gugur</color> saat HP Karakter mencapai 0 poin, serta memulihkan Karakter tersebut hingga jumlah HP tertentu.\\nDengan begitu, Karakter tidak akan dianggap telah/pernah <color=#FFFFFFFF>gugur</color>. (Maka, equipment dan status yang dimiliki Karakter tidak akan terhapus, Energy yang dimiliki juga tidak akan terhapus.)"
+        },
+        "pyro": {
+            "id": 303,
+            "name": "Pyro",
+            "nameraw": "{SPRITE_PRESET#1103}Pyro",
+            "description": "Habiskan Dadu Pyro yang sudah kamu lempar untuk membayar biaya ini.\n(Dadu Omni juga bisa digunakan untuk membayarnya.)",
+            "descriptionraw": "Habiskan Dadu <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color> yang sudah kamu lempar untuk membayar biaya ini.\\n({SPRITE_PRESET#1111}Dadu Omni juga bisa digunakan untuk membayarnya.)"
+        },
+        "geo": {
+            "id": 306,
+            "name": "Geo",
+            "nameraw": "{SPRITE_PRESET#1106}Geo",
+            "description": "Habiskan Dadu Geo yang sudah kamu lempar untuk membayar biaya ini.\n(Dadu Omni juga bisa digunakan untuk membayarnya.)",
+            "descriptionraw": "Habiskan Dadu <color=#FFE699FF>{SPRITE_PRESET#1106}Geo</color> yang sudah kamu lempar untuk membayar biaya ini.\\n({SPRITE_PRESET#1111}Dadu Omni juga bisa digunakan untuk membayarnya.)"
+        },
+        "electroapplication": {
+            "id": 204,
+            "name": "memberikan efek Electro",
+            "nameraw": "<color=#FFACFFFF>memberikan efek {SPRITE_PRESET#2104}Electro</color>",
+            "description": "Saat Electro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\nOverloaded: Target berganti ke Karakter selanjutnya secara paksa\nSuperconduct: Tidak berefek\nElectro-Charged: Tidak berefek\nQuicken: Menciptakan [Catalyzing Field] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya",
+            "descriptionraw": "Saat {SPRITE_PRESET#2104}Electro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Overloaded</color>: Target berganti ke Karakter selanjutnya secara paksa\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduct</color>: Tidak berefek\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electro-Charged</color>: Tidak berefek\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quicken</color>: Menciptakan [<color=#FFFFFFFF>Catalyzing Field</color>] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya"
+        },
+        "anemodmg": {
+            "id": 105,
+            "name": "Anemo DMG",
+            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>",
+            "description": "Bereaksi dengan Elemen jika sudah diberikan:\nCryo Swirl: Mengakibatkan 1 poin Cryo DMG kepada seluruh Karakter lawan selain daripada target\nHydro Swirl: Mengakibatkan 1 poin Hydro DMG kepada seluruh Karakter lawan selain daripada target\nPyro Swirl: Mengakibatkan 1 poin Pyro DMG kepada seluruh Karakter lawan selain daripada target\nElectro Swirl: Mengakibatkan 1 poin Electro DMG kepada seluruh Karakter lawan selain daripada target",
+            "descriptionraw": "Bereaksi dengan Elemen jika sudah diberikan:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Swirl</color>: Mengakibatkan 1 poin Cryo DMG kepada seluruh Karakter lawan selain daripada target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Swirl</color>: Mengakibatkan 1 poin Hydro DMG kepada seluruh Karakter lawan selain daripada target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Swirl</color>: Mengakibatkan 1 poin Pyro DMG kepada seluruh Karakter lawan selain daripada target\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Swirl</color>: Mengakibatkan 1 poin Electro DMG kepada seluruh Karakter lawan selain daripada target"
+        },
+        "randomhilichurlsummon": {
+            "id": 1001,
+            "name": "Hilichurl Panggilan Acak",
+            "nameraw": "<color=#FFFFFFFF>Hilichurl Panggilan Acak</color>",
+            "description": "Terdapat total sebanyak 4 jenis Panggilan \"Hilichurl\":\nCryo Hilichurl Shooter: Mengakibatkan 1 poin Cryo DMG saat Tahap Selesai, dapat digunakan: 2 kali.\nHydro Samachurl: Mengakibatkan 1 poin Hydro DMG saat Tahap Selesai, dapat digunakan: 2 kali.\nHilichurl Berserker: Mengakibatkan 1 poin Pyro DMG saat Tahap Selesai, dapat digunakan: 2 kali.\nElectro Hilichurl Shooter: Mengakibatkan 1 poin Electro DMG saat Tahap Selesai, dapat digunakan: 2 kali.",
+            "descriptionraw": "Terdapat total sebanyak 4 jenis Panggilan \"Hilichurl\":\\n<color=#FFFFFFFF>Cryo Hilichurl Shooter</color>: Mengakibatkan 1 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> saat Tahap Selesai, dapat digunakan: 2 kali.\\n<color=#FFFFFFFF>Hydro Samachurl</color>: Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color> saat Tahap Selesai, dapat digunakan: 2 kali.\\n<color=#FFFFFFFF>Hilichurl Berserker</color>: Mengakibatkan 1 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> saat Tahap Selesai, dapat digunakan: 2 kali.\\n<color=#FFFFFFFF>Electro Hilichurl Shooter</color>: Mengakibatkan 1 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> saat Tahap Selesai, dapat digunakan: 2 kali."
+        },
+        "riptide": {
+            "id": 1005,
+            "name": "Riptide",
+            "nameraw": "<color=#FFFFFFFF>Riptide</color>",
+            "description": "Setelah Karakter gugur: Memberikan status \"Riptide\" kepada Karakter aktifmu.\n(Saat Tartaglia yang berada dalam status Melee Stance menyerang Karakter yang terpengaruh, akan mengakibatkan DMG tambahan.)\nDurasi (Ronde): 2",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter gugur: </color>Memberikan status \"Riptide\" kepada Karakter aktifmu.\\n(Saat <color=#FFFFFFFF>Tartaglia</color> yang berada dalam status <color=#FFFFFFFF>Melee Stance</color> menyerang Karakter yang terpengaruh, akan mengakibatkan DMG tambahan.)\\n<color=#FFFFFFFF>Durasi (Ronde): 2</color>"
+        },
+        "pyrodmg": {
+            "id": 103,
+            "name": "Pyro DMG",
+            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
+            "description": "Memberikan Pyro dan dapat memicu Reaksi Elemental berikut:\nMelt: DMG +2 poin untuk kasus ini\nVaporize: DMG +2 poin untuk kasus ini\nOverloaded: DMG +2 poin untuk kasus ini, target berganti ke Karakter selanjutnya secara paksa\nBurning: DMG +1 poin untuk kasus ini, menciptakan [Burning Flame] yang mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)",
+            "descriptionraw": "Memberikan {SPRITE_PRESET#2103}Pyro dan dapat memicu Reaksi Elemental berikut:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Melt</color>: DMG +2 poin untuk kasus ini\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporize</color>: DMG +2 poin untuk kasus ini\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Overloaded</color>: DMG +2 poin untuk kasus ini, target berganti ke Karakter selanjutnya secara paksa\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Burning</color>: DMG +1 poin untuk kasus ini, menciptakan [<color=#FFFFFFFF>Burning Flame</color>] yang mengakibatkan 1 poin Pyro DMG di akhir Ronde (Jumlah penggunaan 1 kali, maksimum 2 tumpukan)"
+        },
+        "fastaction": {
+            "id": 2,
+            "name": "Aksi Cepat",
+            "nameraw": "<color=#FFFFFFFF>Aksi Cepat</color>",
+            "description": "Kamu dapat melakukan aksi lainnya walaupun sudah melakukan 1 Aksi Cepat.\nLawanmu mendapatkan gilirannya setelah kamu melakukan 1 Aksi Tempur.",
+            "descriptionraw": "Kamu dapat melakukan aksi lainnya walaupun sudah melakukan 1 Aksi Cepat.\\nLawanmu mendapatkan gilirannya setelah kamu melakukan 1 Aksi Tempur."
+        },
+        "usages": {
+            "id": 3,
+            "name": "Penggunaan",
+            "nameraw": "<color=#FFFFFFFF>Penggunaan</color>",
+            "description": "Setelah efek kartu ini dipicu, 1 Penggunaan-nya akan dikonsumsi.\nKartu ini akan langsung dibuang setelah semua Penggunaan telah dikonsumsi.",
+            "descriptionraw": "Setelah efek kartu ini dipicu, 1 <color=#FFFFFFFF>Penggunaan</color>-nya akan dikonsumsi.\\nKartu ini akan langsung dibuang setelah semua <color=#FFFFFFFF>Penggunaan</color> telah dikonsumsi."
+        },
+        "plungingattack": {
+            "id": 52,
+            "name": "Plunging Attack",
+            "nameraw": "<color=#FFFFFFFF>Plunging Attack</color>",
+            "description": "Setelah berganti ke Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, itu akan dianggap sebagai Plunging Attack.",
+            "descriptionraw": "Setelah berganti ke Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, itu akan dianggap sebagai Plunging Attack."
+        },
+        "aegisofabyssalflame": {
+            "id": 1006,
+            "name": "Aegis of Abyssal Flame",
+            "nameraw": "<color=#FFFFFFFF>Aegis of Abyssal Flame</color>",
+            "description": "Memberikan 3 poin Perisai kepada Karakter yang mengenakannya.\nSebelum Perisai ini habis, Pyro DMG yang diakibatkan oleh Karakter yang mengenakannya +1.",
+            "descriptionraw": "Memberikan <color=#FFFFFFFF>3 poin {SPRITE_PRESET#4007}<color=#FFFFFFFF>Perisai</color></color> kepada Karakter yang mengenakannya.\\nSebelum {SPRITE_PRESET#4007}<color=#FFFFFFFF>Perisai</color> ini habis, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> yang diakibatkan oleh Karakter yang mengenakannya +1."
+        },
+        "cryo": {
+            "id": 301,
+            "name": "Cryo",
+            "nameraw": "{SPRITE_PRESET#1101}Cryo",
+            "description": "Habiskan Dadu Cryo yang sudah kamu lempar untuk membayar biaya ini.\n(Dadu Omni juga bisa digunakan untuk membayarnya.)",
+            "descriptionraw": "Habiskan Dadu <color=#99FFFFFF>{SPRITE_PRESET#1101}Cryo</color> yang sudah kamu lempar untuk membayar biaya ini.\\n({SPRITE_PRESET#1111}Dadu Omni juga bisa digunakan untuk membayarnya.)"
+        },
+        "hydrodmg": {
+            "id": 102,
+            "name": "Hydro DMG",
+            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
+            "description": "Memberikan Hydro dan dapat memicu Reaksi Elemental berikut:\nVaporize: DMG +2 poin untuk kasus ini\nElectro-Charged: DMG +1 poin untuk kasus ini, mengakibatkan 1 poin Piercing DMG kepada seluruh Karakter lawan selain daripada target\nFrozen: DMG +1 poin untuk kasus ini, target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)\nBloom: DMG +1 poin untuk kasus ini, menciptakan sebuah [Dendro Core] yang memberikan +2 poin DMG untuk kasus Pyro/Electro DMG-mu selanjutnya",
+            "descriptionraw": "Memberikan {SPRITE_PRESET#2102}Hydro dan dapat memicu Reaksi Elemental berikut:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 poin untuk kasus ini\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 poin untuk kasus ini, mengakibatkan 1 poin Piercing DMG kepada seluruh Karakter lawan selain daripada target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 poin untuk kasus ini, target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 poin untuk kasus ini, menciptakan sebuah [<color=#FFFFFFFF>Dendro Core</color>] yang memberikan +2 poin DMG untuk kasus Pyro/Electro DMG-mu selanjutnya"
+        },
+        "unalignedelement": {
+            "id": 309,
+            "name": "Elemen Tidak Selaras",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Elemen Tidak Selaras</color>",
+            "description": "Kamu dapat menggunakan Dadu Elemental apa pun untuk membayar jenis biaya ini.",
+            "descriptionraw": "Kamu dapat menggunakan Dadu Elemental apa pun untuk membayar jenis biaya ini."
+        },
+        "electrodmg": {
+            "id": 104,
+            "name": "Electro DMG",
+            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>",
+            "description": "Memberikan Electro dan dapat memicu Reaksi Elemental berikut:\nOverloaded: DMG +2 poin untuk kasus ini, target berganti ke Karakter selanjutnya secara paksa\nSuperconduct: DMG +1 poin untuk kasus ini, mengakibatkan 1 poin Piercing DMG kepada seluruh Karakter lawan selain daripada target\nElectro-Charged: DMG +1 poin untuk kasus ini, mengakibatkan 1 poin Piercing DMG kepada seluruh Karakter lawan selain daripada target\nQuicken: DMG +1 poin untuk kasus ini, menciptakan [Catalyzing Field] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya",
+            "descriptionraw": "Memberikan {SPRITE_PRESET#2104}Electro dan dapat memicu Reaksi Elemental berikut:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Overloaded</color>: DMG +2 poin untuk kasus ini, target berganti ke Karakter selanjutnya secara paksa\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduct</color>: DMG +1 poin untuk kasus ini, mengakibatkan 1 poin Piercing DMG kepada seluruh Karakter lawan selain daripada target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 poin untuk kasus ini, mengakibatkan 1 poin Piercing DMG kepada seluruh Karakter lawan selain daripada target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quicken</color>: DMG +1 poin untuk kasus ini, menciptakan [<color=#FFFFFFFF>Catalyzing Field</color>] yang memberikan +1 poin DMG ke 2 kasus Dendro DMG atau Electro DMG berikutnya"
+        },
+        "bloodblossom": {
+            "id": 1009,
+            "name": "Blood Blossom",
+            "nameraw": "<color=#FFFFFFFF>Blood Blossom</color>",
+            "description": "Tahap Selesai: Mengakibatkan 1 poin Pyro DMG terhadap Karakter yang terpengaruh.\nPenggunaan: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Tahap Selesai: </color>Mengakibatkan 1 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> terhadap Karakter yang terpengaruh.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 1</color>"
+        },
+        "cryoapplication": {
+            "id": 201,
+            "name": "memberikan efek Cryo",
+            "nameraw": "<color=#99FFFFFF>memberikan efek {SPRITE_PRESET#2101}Cryo</color>",
+            "description": "Saat Cryo diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\nMelt: Tidak berefek\nSuperconduct: Tidak berefek\nFrozen: target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)",
+            "descriptionraw": "Saat {SPRITE_PRESET#2101}Cryo diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Melt</color>: Tidak berefek\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Superconduct</color>: Tidak berefek\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Frozen</color>: target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)"
+        }
+    },
+    "meta": {
+        "namemap": {
+            "aegisofabyssalflame": "Aegis of Abyssal Flame",
+            "anemo": "Anemo",
+            "anemodmg": "Anemo DMG",
+            "bloodblossom": "Blood Blossom",
+            "characterclosesttoyourcurrentactivecharacter": "Karakter Terdekat dengan Karakter Aktifmu",
+            "chargedattack": "Charged Attack",
+            "clusterbloomarrow": "Clusterbloom Arrow",
+            "combataction": "Aksi Tempur",
+            "crowfeathercover": "Crowfeather Cover",
+            "cryo": "Cryo",
+            "cryoapplication": "memberikan efek Cryo",
+            "cryodmg": "Cryo DMG",
+            "dendro": "Dendro",
+            "dendroapplication": "memberikan efek Dendro",
+            "dendrodmg": "Dendro DMG",
+            "dendrorelatedreactions": "Reaksi Terkait Dendro",
+            "durationrounds": "Durasi (Ronde)",
+            "electro": "Electro",
+            "electroapplication": "memberikan efek Electro",
+            "electrodmg": "Electro DMG",
+            "electroinfusion": "Electro Elemental Infusion",
+            "elementalburst": "Elemental Burst",
+            "energy": "Energy",
+            "fastaction": "Aksi Cepat",
+            "fatuiambusher": "Fatui Ambusher",
+            "geo": "Geo",
+            "geodmg": "Geo DMG",
+            "hydro": "Hydro",
+            "hydroapplication": "memberikan efek Hydro",
+            "hydrodmg": "Hydro DMG",
+            "hydrorelatedreactions": "Reaksi Terkait Hydro",
+            "immunitytodefeats1willnotbedefeated": "tidak gugur",
+            "matchingelement": "Elemen Sama",
+            "omnielement": "Elemen Omni",
+            "passiveskill": "Passive Skill",
+            "physicaldmg": "Physical DMG",
+            "piercingdmg": "Piercing DMG",
+            "plungingattack": "Plunging Attack",
+            "prepareskill": "Mempersiapkan Skill",
+            "pyro": "Pyro",
+            "pyroapplication": "memberikan efek Pyro",
+            "pyrodmg": "Pyro DMG",
+            "pyrorelatedreactions": "Reaksi Terkait Pyro",
+            "randomhilichurlsummon": "Hilichurl Panggilan Acak",
+            "riptide": "Riptide",
+            "shield": "Perisai",
+            "superlativesuperstrength": "Superlative Superstrength",
+            "unalignedelement": "Elemen Tidak Selaras",
+            "usages": "Penggunaan"
+        },
+        "names": {
+            "Aegis of Abyssal Flame": "aegisofabyssalflame",
+            "Anemo": "anemo",
+            "Anemo DMG": "anemodmg",
+            "Blood Blossom": "bloodblossom",
+            "Karakter Terdekat dengan Karakter Aktifmu": "characterclosesttoyourcurrentactivecharacter",
+            "Charged Attack": "chargedattack",
+            "Clusterbloom Arrow": "clusterbloomarrow",
+            "Aksi Tempur": "combataction",
+            "Crowfeather Cover": "crowfeathercover",
+            "Cryo": "cryo",
+            "memberikan efek Cryo": "cryoapplication",
+            "Cryo DMG": "cryodmg",
+            "Dendro": "dendro",
+            "memberikan efek Dendro": "dendroapplication",
+            "Dendro DMG": "dendrodmg",
+            "Reaksi Terkait Dendro": "dendrorelatedreactions",
+            "Durasi (Ronde)": "durationrounds",
+            "Electro": "electro",
+            "memberikan efek Electro": "electroapplication",
+            "Electro DMG": "electrodmg",
+            "Electro Elemental Infusion": "electroinfusion",
+            "Elemental Burst": "elementalburst",
+            "Energy": "energy",
+            "Aksi Cepat": "fastaction",
+            "Fatui Ambusher": "fatuiambusher",
+            "Geo": "geo",
+            "Geo DMG": "geodmg",
+            "Hydro": "hydro",
+            "memberikan efek Hydro": "hydroapplication",
+            "Hydro DMG": "hydrodmg",
+            "Reaksi Terkait Hydro": "hydrorelatedreactions",
+            "tidak gugur": "immunitytodefeats1willnotbedefeated",
+            "Elemen Sama": "matchingelement",
+            "Elemen Omni": "omnielement",
+            "Passive Skill": "passiveskill",
+            "Physical DMG": "physicaldmg",
+            "Piercing DMG": "piercingdmg",
+            "Plunging Attack": "plungingattack",
+            "Mempersiapkan Skill": "prepareskill",
+            "Pyro": "pyro",
+            "memberikan efek Pyro": "pyroapplication",
+            "Pyro DMG": "pyrodmg",
+            "Reaksi Terkait Pyro": "pyrorelatedreactions",
+            "Hilichurl Panggilan Acak": "randomhilichurlsummon",
+            "Riptide": "riptide",
+            "Perisai": "shield",
+            "Superlative Superstrength": "superlativesuperstrength",
+            "Elemen Tidak Selaras": "unalignedelement",
+            "Penggunaan": "usages"
+        },
+        "aliases": {},
+        "categories": {},
+        "properties": {}
+    }
+}

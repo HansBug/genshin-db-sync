@@ -1,0 +1,229 @@
+{
+    "items": {
+        "adept": {
+            "id": 110,
+            "name": "Lão Luyện",
+            "description": "Không có vấn đề nào là không thể giải quyết, không có chuyện gì là không thể làm. Chúc mừng bạn!",
+            "descriptionraw": "Không có vấn đề nào là không thể giải quyết, không có chuyện gì là không thể làm. Chúc mừng bạn!",
+            "source": "Nhận được khi hoàn thành tất cả các mục tiêu trong vòng 4 của Sổ Tay Bài Thủ",
+            "rarity": 3
+        },
+        "dandelionseed": {
+            "id": 117,
+            "name": "Hạt Bồ Công Anh",
+            "description": "Hy vọng và chờ đợi luôn song hành với nhau.",
+            "descriptionraw": "Hy vọng và chờ đợi luôn song hành với nhau.",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "cecilia": {
+            "id": 118,
+            "name": "Hoa Cecilia",
+            "description": "Chỉ những người đồng hành cùng sương gió mới đủ tư cách tận hưởng ánh bình minh đầu tiên...",
+            "descriptionraw": "Chỉ những người đồng hành cùng sương gió mới đủ tư cách tận hưởng ánh bình minh đầu tiên...",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "origin": {
+            "id": 100,
+            "name": "Nguyên Sơ",
+            "description": "Giữa ngày và đêm, giữa trời và đất,\nLà một chuyến hành trình của ảo tưởng và hy vọng.",
+            "descriptionraw": "Giữa ngày và đêm, giữa trời và đất,\\nLà một chuyến hành trình của ảo tưởng và hy vọng.",
+            "source": "Lần đầu nhận được",
+            "rarity": 3
+        },
+        "liyue": {
+            "id": 102,
+            "name": "Liyue",
+            "description": "Mọi chuyến hành trình đều phải bắt đầu với một bước đầu tiên. Hãy bắt đầu hành trình chiến thắng của mình bằng cách xây dựng bộ bài vững chắc.",
+            "descriptionraw": "Mọi chuyến hành trình đều phải bắt đầu với một bước đầu tiên. Hãy bắt đầu hành trình chiến thắng của mình bằng cách xây dựng bộ bài vững chắc.",
+            "source": "Phần thưởng khi bài thủ đạt cấp 4",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "Báu Vật Trong Bài",
+            "description": "Kho báu đến tay và sử dụng, chỉ trong tích tắc. Nhưng thứ ở bên trong đó thì không lần nào giống nhau. Lúc này đây, trong bộ bài của bạn, lại ẩn giấu báu vật gì đây?",
+            "descriptionraw": "Kho báu đến tay và sử dụng, chỉ trong tích tắc. Nhưng thứ ở bên trong đó thì không lần nào giống nhau. Lúc này đây, trong bộ bài của bạn, lại ẩn giấu báu vật gì đây?",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "Mảnh Ma Tinh",
+            "description": "Thời gian mang lại giá trị cho nó.",
+            "descriptionraw": "Thời gian mang lại giá trị cho nó.",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "sumeru": {
+            "id": 104,
+            "name": "Sumeru",
+            "description": "Ngay cả những người mới bắt đầu cũng có thể dự đoán một hoặc hai ván bài, và những bài thủ có kinh nghiệm sẽ có thể dự đoán năm mươi hoặc một trăm ván bài.\nNó thực sự khá đơn giản, phải không?",
+            "descriptionraw": "Ngay cả những người mới bắt đầu cũng có thể dự đoán một hoặc hai ván bài, và những bài thủ có kinh nghiệm sẽ có thể dự đoán năm mươi hoặc một trăm ván bài.\\nNó thực sự khá đơn giản, phải không?",
+            "source": "Phần thưởng khi bài thủ đạt cấp 8",
+            "rarity": 3
+        },
+        "electrocrystal": {
+            "id": 116,
+            "name": "Pha Lê Điện",
+            "description": "Chiêu khích tướng có ích không? Nó không phải là thứ duy nhất châm ngòi là nổ.",
+            "descriptionraw": "Chiêu khích tướng có ích không? Nó không phải là thứ duy nhất châm ngòi là nổ.",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "Nhụy Hoa Liệt Hỏa",
+            "description": "\"Tâm hồn bài thủ của tôi đang bùng cháy!\"",
+            "descriptionraw": "\"Tâm hồn bài thủ của tôi đang bùng cháy!\"",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "Mondstadt",
+            "description": "Nguyên tắc đầu tiên của chơi bài là tự do.\nTự do sắp xếp bộ bài của mình, tự do chọn đối thủ và tự do đánh ra thẻ bài mình muốn.\n...Cũng có thể tự do không chơi bài, và làm điều gì đó khác với những thẻ bài có trong tay?",
+            "descriptionraw": "Nguyên tắc đầu tiên của chơi bài là tự do.\\nTự do sắp xếp bộ bài của mình, tự do chọn đối thủ và tự do đánh ra thẻ bài mình muốn.\\n...Cũng có thể tự do không chơi bài, và làm điều gì đó khác với những thẻ bài có trong tay?",
+            "source": "Phần thưởng khi bài thủ đạt cấp 2",
+            "rarity": 3
+        },
+        "amethystlump": {
+            "id": 113,
+            "name": "Miếng Tử Tinh",
+            "description": "Thích ứng với nơi ở cũng là một dạng trí tuệ.",
+            "descriptionraw": "Thích ứng với nơi ở cũng là một dạng trí tuệ.",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "dendrobium": {
+            "id": 120,
+            "name": "Hoa Lan Máu",
+            "description": "Nếu tất cả mọi tranh đấu đều dừng lại trên bàn đấu...",
+            "descriptionraw": "Nếu tất cả mọi tranh đấu đều dừng lại trên bàn đấu...",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "Đóa Hoa Băng Vụ",
+            "description": "\"Nhận thua một cách đàng hoàng chính là kết thúc của ngươi.\"",
+            "descriptionraw": "\"Nhận thua một cách đàng hoàng chính là kết thúc của ngươi.\"",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "inazuma": {
+            "id": 103,
+            "name": "Inazuma",
+            "description": "Ra bài phải nằm giữa tia chớp và đá lửa, chỉ cần ra bài đủ nhanh thì sẽ có thể giành chiến thắng.",
+            "descriptionraw": "Ra bài phải nằm giữa tia chớp và đá lửa, chỉ cần ra bài đủ nhanh thì sẽ có thể giành chiến thắng.",
+            "source": "Phần thưởng khi bài thủ đạt cấp 6",
+            "rarity": 3
+        },
+        "crystalchunk": {
+            "id": 111,
+            "name": "Mảnh Pha Lê",
+            "description": "Nếu được rèn luyện tốt, có thể làm cho tài năng được tỏa sáng.",
+            "descriptionraw": "Nếu được rèn luyện tốt, có thể làm cho tài năng được tỏa sáng.",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "glazelily": {
+            "id": 119,
+            "name": "Bách Hợp Lưu Ly",
+            "description": "Tất cả những gì đã cũ trên đời đều đã tiêu tan, chỉ còn lại tên gọi của những loài hoa.",
+            "descriptionraw": "Tất cả những gì đã cũ trên đời đều đã tiêu tan, chỉ còn lại tên gọi của những loài hoa.",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        },
+        "legend": {
+            "id": 109,
+            "name": "Huyền Thoại",
+            "description": "Con đường trở thành bài thủ đã qua một chặng đường dài, nhưng vẫn còn một chặng đường dài phía trước.",
+            "descriptionraw": "Con đường trở thành bài thủ đã qua một chặng đường dài, nhưng vẫn còn một chặng đường dài phía trước.",
+            "source": "Phần thưởng khi bài thủ đạt cấp 10",
+            "rarity": 3
+        },
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "Thanh Kim Lưu Chuyển",
+            "description": "Lưng bài đặc biệt do họa sĩ \"Vôi Trắng\" nổi tiếng thiết kế.\n\"Hãy giống như Rồng Đông Phong, tự do dang đôi cánh rộng của mình trên chiến trường nhỏ bé này đi!\"",
+            "descriptionraw": "Lưng bài đặc biệt do họa sĩ \"Vôi Trắng\" nổi tiếng thiết kế.\\n\"Hãy giống như Rồng Đông Phong, tự do dang đôi cánh rộng của mình trên chiến trường nhỏ bé này đi!\"",
+            "source": "Mua tại Cửa Hàng Thẻ Bài",
+            "rarity": 3
+        }
+    },
+    "meta": {
+        "namemap": {
+            "adept": "Lão Luyện",
+            "amethystlump": "Miếng Tử Tinh",
+            "cecilia": "Hoa Cecilia",
+            "crystalchunk": "Mảnh Pha Lê",
+            "dandelionseed": "Hạt Bồ Công Anh",
+            "dendrobium": "Hoa Lan Máu",
+            "electrocrystal": "Pha Lê Điện",
+            "flamingflowerstamen": "Nhụy Hoa Liệt Hỏa",
+            "glazelily": "Bách Hợp Lưu Ly",
+            "inazuma": "Inazuma",
+            "lazuriteswirl": "Thanh Kim Lưu Chuyển",
+            "legend": "Huyền Thoại",
+            "liyue": "Liyue",
+            "magicalcrystalchunk": "Mảnh Ma Tinh",
+            "mistflowercorolla": "Đóa Hoa Băng Vụ",
+            "mondstadt": "Mondstadt",
+            "origin": "Nguyên Sơ",
+            "sumeru": "Sumeru",
+            "treasuresofthedeck": "Báu Vật Trong Bài"
+        },
+        "names": {
+            "Lão Luyện": "adept",
+            "Miếng Tử Tinh": "amethystlump",
+            "Hoa Cecilia": "cecilia",
+            "Mảnh Pha Lê": "crystalchunk",
+            "Hạt Bồ Công Anh": "dandelionseed",
+            "Hoa Lan Máu": "dendrobium",
+            "Pha Lê Điện": "electrocrystal",
+            "Nhụy Hoa Liệt Hỏa": "flamingflowerstamen",
+            "Bách Hợp Lưu Ly": "glazelily",
+            "Inazuma": "inazuma",
+            "Thanh Kim Lưu Chuyển": "lazuriteswirl",
+            "Huyền Thoại": "legend",
+            "Liyue": "liyue",
+            "Mảnh Ma Tinh": "magicalcrystalchunk",
+            "Đóa Hoa Băng Vụ": "mistflowercorolla",
+            "Mondstadt": "mondstadt",
+            "Nguyên Sơ": "origin",
+            "Sumeru": "sumeru",
+            "Báu Vật Trong Bài": "treasuresofthedeck"
+        },
+        "aliases": {},
+        "categories": {
+            "3": [
+                "adept",
+                "amethystlump",
+                "cecilia",
+                "crystalchunk",
+                "dandelionseed",
+                "dendrobium",
+                "electrocrystal",
+                "flamingflowerstamen",
+                "glazelily",
+                "inazuma",
+                "lazuriteswirl",
+                "legend",
+                "liyue",
+                "magicalcrystalchunk",
+                "mistflowercorolla",
+                "mondstadt",
+                "origin",
+                "sumeru",
+                "treasuresofthedeck"
+            ]
+        },
+        "properties": {
+            "rarity": [
+                3
+            ]
+        }
+    }
+}

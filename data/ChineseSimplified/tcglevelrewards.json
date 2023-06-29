@@ -1,0 +1,370 @@
+{
+    "items": {
+        "5": {
+            "id": 5,
+            "name": "5",
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "unlockdescription": "解锁新的牌组储存栏位\n解锁新的酒馆挑战对局\n稻妻新增可挑战的对局",
+            "unlockdescriptionraw": "解锁新的牌组储存栏位\\n解锁新的酒馆挑战对局\\n稻妻新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "对局邀请函",
+                    "count": 1
+                },
+                {
+                    "id": 339502,
+                    "name": "稻妻",
+                    "count": 1
+                }
+            ]
+        },
+        "1": {
+            "id": 1,
+            "name": "1",
+            "exp": 300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "unlockdescription": "邀约对局解锁\n同一世界联机对局解锁\n卡牌商店解锁\n牌手手册解锁\n蒙德新增可挑战的对局",
+            "unlockdescriptionraw": "邀约对局解锁\\n同一世界联机对局解锁\\n卡牌商店解锁\\n牌手手册解锁\\n蒙德新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "对局邀请函",
+                    "count": 1
+                },
+                {
+                    "id": 107021,
+                    "name": "幸运牌币",
+                    "count": 500
+                }
+            ]
+        },
+        "3": {
+            "id": 3,
+            "name": "3",
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "unlockdescription": "解锁新的牌组储存栏位\n解锁新的酒馆挑战对局\n璃月新增可挑战的对局",
+            "unlockdescriptionraw": "解锁新的牌组储存栏位\\n解锁新的酒馆挑战对局\\n璃月新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "对局邀请函",
+                    "count": 1
+                },
+                {
+                    "id": 339501,
+                    "name": "璃月",
+                    "count": 1
+                }
+            ]
+        },
+        "6": {
+            "id": 6,
+            "name": "6",
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "unlockdescription": "解锁新的酒馆挑战对局\n稻妻新增可挑战的对局",
+            "unlockdescriptionraw": "解锁新的酒馆挑战对局\\n稻妻新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "对局邀请函",
+                    "count": 1
+                },
+                {
+                    "id": 339003,
+                    "name": "稻妻",
+                    "count": 1
+                }
+            ]
+        },
+        "7": {
+            "id": 7,
+            "name": "7",
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "unlockdescription": "解锁新的牌组储存栏位\n解锁新的酒馆挑战对局\n须弥新增可挑战的对局",
+            "unlockdescriptionraw": "解锁新的牌组储存栏位\\n解锁新的酒馆挑战对局\\n须弥新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "对局邀请函",
+                    "count": 1
+                },
+                {
+                    "id": 339503,
+                    "name": "须弥",
+                    "count": 1
+                }
+            ]
+        },
+        "4": {
+            "id": 4,
+            "name": "4",
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "unlockdescription": "可以在邀请板进行匹配牌局\n解锁新的酒馆挑战对局\n璃月新增可挑战的对局",
+            "unlockdescriptionraw": "可以在邀请板进行匹配牌局\\n解锁新的酒馆挑战对局\\n璃月新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "对局邀请函",
+                    "count": 1
+                },
+                {
+                    "id": 339002,
+                    "name": "璃月",
+                    "count": 1
+                }
+            ]
+        },
+        "8": {
+            "id": 8,
+            "name": "8",
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "unlockdescription": "解锁新的酒馆挑战对局\n须弥新增可挑战的对局",
+            "unlockdescriptionraw": "解锁新的酒馆挑战对局\\n须弥新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "对局邀请函",
+                    "count": 1
+                },
+                {
+                    "id": 339004,
+                    "name": "须弥",
+                    "count": 1
+                }
+            ]
+        },
+        "10": {
+            "id": 10,
+            "name": "10",
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
+            "unlockdescription": "解锁新的牌组储存栏位\n新增可挑战的对局",
+            "unlockdescriptionraw": "解锁新的牌组储存栏位\\n新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107019,
+                    "name": "空白的影幻牌",
+                    "count": 1
+                },
+                {
+                    "id": 339009,
+                    "name": "传说",
+                    "count": 1
+                }
+            ]
+        },
+        "2": {
+            "id": 2,
+            "name": "2",
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "unlockdescription": "每周来客挑战解锁\n蒙德新增可挑战的对局",
+            "unlockdescriptionraw": "每周来客挑战解锁\\n蒙德新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "对局邀请函",
+                    "count": 1
+                },
+                {
+                    "id": 339001,
+                    "name": "蒙德",
+                    "count": 1
+                }
+            ]
+        },
+        "9": {
+            "id": 9,
+            "name": "9",
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "unlockdescription": "须弥新增可挑战的对局",
+            "unlockdescriptionraw": "须弥新增可挑战的对局",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "原石",
+                    "count": 60
+                },
+                {
+                    "id": 107019,
+                    "name": "空白的影幻牌",
+                    "count": 1
+                },
+                {
+                    "id": 107020,
+                    "name": "对局邀请函",
+                    "count": 1
+                }
+            ]
+        }
+    },
+    "meta": {
+        "namemap": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+        },
+        "names": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+        },
+        "aliases": {},
+        "categories": {
+            "GCG_LEVEL_ICON_TYPE_NONE": [
+                "1",
+                "2"
+            ],
+            "原石": [
+                "1",
+                "10",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "对局邀请函": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "幸运牌币": [
+                "1"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "空白的影幻牌": [
+                "10",
+                "9"
+            ],
+            "传说": [
+                "10"
+            ],
+            "蒙德": [
+                "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "璃月": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "稻妻": [
+                "5",
+                "6"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
+            "须弥": [
+                "7",
+                "8"
+            ]
+        },
+        "properties": {
+            "icontype": [
+                "GCG_LEVEL_ICON_TYPE_NONE",
+                "GCG_LEVEL_ICON_TYPE_PLATINUM",
+                "GCG_LEVEL_ICON_TYPE_COPPER",
+                "GCG_LEVEL_ICON_TYPE_SILIVER",
+                "GCG_LEVEL_ICON_TYPE_GOLD"
+            ],
+            "rewards[].name": [
+                "原石",
+                "对局邀请函",
+                "幸运牌币",
+                "空白的影幻牌",
+                "传说",
+                "蒙德",
+                "璃月",
+                "稻妻",
+                "须弥"
+            ]
+        }
+    }
+}

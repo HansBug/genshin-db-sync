@@ -1,0 +1,64 @@
+{
+    "items": {
+        "liyue": {
+            "id": 101,
+            "name": "璃月",
+            "description": "如月之恒，如日之升。\n地山磐石，品物咸亨。",
+            "descriptionraw": "如月之恒，如日之升。\\n地山磐石，品物咸亨。",
+            "source": "牌手等级提升至3的等级奖励中获得",
+            "rarity": 4
+        },
+        "sumeru": {
+            "id": 103,
+            "name": "须弥",
+            "description": "慧草啊，不要悲伤！\n炽风的苦旅也有尽头。\n慈雨会降下，百花会绽放…\n听啊，听那染绿乡园的曲调又被唱响。",
+            "descriptionraw": "慧草啊，不要悲伤！\\n炽风的苦旅也有尽头。\\n慈雨会降下，百花会绽放…\\n听啊，听那染绿乡园的曲调又被唱响。",
+            "source": "牌手等级提升至7的等级奖励中获得",
+            "rarity": 4
+        },
+        "mondstadt": {
+            "id": 100,
+            "name": "蒙德",
+            "description": "不止的青风的吹息，拨弄弦琴奏响幽音，\n风花多情的絮谈也被吹散，翩然跌落清泉的心底。",
+            "descriptionraw": "不止的青风的吹息，拨弄弦琴奏响幽音，\\n风花多情的絮谈也被吹散，翩然跌落清泉的心底。",
+            "source": "初始获得",
+            "rarity": 4
+        },
+        "inazuma": {
+            "id": 102,
+            "name": "稻妻",
+            "description": "紫电须臾逝，鸣神独彷徨。\n痴梦逢又别，世事皆无常。",
+            "descriptionraw": "紫电须臾逝，鸣神独彷徨。\\n痴梦逢又别，世事皆无常。",
+            "source": "牌手等级提升至5的等级奖励中获得",
+            "rarity": 4
+        }
+    },
+    "meta": {
+        "namemap": {
+            "inazuma": "稻妻",
+            "liyue": "璃月",
+            "mondstadt": "蒙德",
+            "sumeru": "须弥"
+        },
+        "names": {
+            "稻妻": "inazuma",
+            "璃月": "liyue",
+            "蒙德": "mondstadt",
+            "须弥": "sumeru"
+        },
+        "aliases": {},
+        "categories": {
+            "4": [
+                "inazuma",
+                "liyue",
+                "mondstadt",
+                "sumeru"
+            ]
+        },
+        "properties": {
+            "rarity": [
+                4
+            ]
+        }
+    }
+}

@@ -1,0 +1,454 @@
+{
+    "items": {
+        "clusterbloomarrow": {
+            "id": 1008,
+            "name": "Flechas Florescentes",
+            "nameraw": "<color=#FFFFFFFF>Flechas Florescentes</color>",
+            "description": "Fase Final: Causa 1 de Dano Dendro.\nUsos: 1 (Acumulável, pode ser acumulado até 2 vezes)",
+            "descriptionraw": "<color=#FFFFFFFF>Fase Final:</color> Causa 1 de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>.\\n<color=#FFFFFFFF>Usos: 1</color> (Acumulável, pode ser acumulado até 2 vezes)"
+        },
+        "dendrorelatedreactions": {
+            "id": 217,
+            "name": "Reações Dendro",
+            "nameraw": "<color=#7EC236FF>Reações {SPRITE_PRESET#2107}Dendro</color>",
+            "description": "Florescimento: Adiciona 1 ponto ao Dano atual, cria \"Núcleo Dendro\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro\nQueimaduras: Adiciona 1 ponto ao Dano atual, cria \"Chamas Ardentes\" que causam 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)\nAceleração: Adiciona 1 ponto ao Dano atual, cria \"Área de Catalisação\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro",
+            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Florescimento</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Núcleo Dendro</color>\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Queimaduras</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Chamas Ardentes</color>\" que causam 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Aceleração</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Área de Catalisação</color>\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro"
+        },
+        "omnielement": {
+            "id": 411,
+            "name": "Elemento Omni",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemento Omni</color>",
+            "description": "Elemento Omni pode ser considerado como qualquer outro tipo de Elemento, e pode ser usado para pagar por diversos tipos diferentes de custos.",
+            "descriptionraw": "{SPRITE_PRESET#1111}Elemento Omni pode ser considerado como qualquer outro tipo de Elemento, e pode ser usado para pagar por diversos tipos diferentes de custos."
+        },
+        "dendroapplication": {
+            "id": 207,
+            "name": "Aplicação Dendro",
+            "nameraw": "<color=#7EC236FF>Aplicação {SPRITE_PRESET#2107}Dendro</color>",
+            "description": "Quando o alvo é afetado por Dendro sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causem Dano:\nFlorescimento: Cria \"Núcleo Dendro\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro\nQueimaduras: Cria \"Chamas Ardentes\" que causam 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)\nAceleração: Cria \"Área de Catalisação\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro",
+            "descriptionraw": "Quando o alvo é afetado por {SPRITE_PRESET#2107}Dendro sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causem Dano:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Florescimento</color>: Cria \"<color=#FFFFFFFF>Núcleo Dendro</color>\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Queimaduras</color>: Cria \"<color=#FFFFFFFF>Chamas Ardentes</color>\" que causam 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Aceleração</color>: Cria \"<color=#FFFFFFFF>Área de Catalisação</color>\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro"
+        },
+        "durationrounds": {
+            "id": 4,
+            "name": "Duração (Turnos)",
+            "nameraw": "<color=#FFFFFFFF>Duração (Turnos)</color>",
+            "description": "Na Fase Final de cada turno, Duração (Turnos) será reduzido em 1;\nQuando a Duração (Turnos) for esgotada, a carta será automaticamente descartada.",
+            "descriptionraw": "Na Fase Final de cada turno, <color=#FFFFFFFF>Duração (Turnos)</color> será reduzido em 1;\\nQuando a <color=#FFFFFFFF>Duração (Turnos)</color> for esgotada, a carta será automaticamente descartada."
+        },
+        "pyrorelatedreactions": {
+            "id": 213,
+            "name": "Reações Pyro",
+            "nameraw": "<color=#FF9999FF>Reações {SPRITE_PRESET#2103}Pyro</color>",
+            "description": "Fusão: Adiciona 2 pontos ao Dano atual\nVaporização: Adiciona 2 pontos ao Dano atual\nSobrecarga: Adiciona 2 pontos ao Dano atual, o alvo é forçado a trocar para o próximo personagem\nQueimaduras: Adiciona 1 ponto ao Dano atual, cria \"Chamas Ardentes\" que causa 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)\nCristalização (Pyro): Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\nRedemoinho (Pyro): Causa 1 ponto de Dano Pyro a todos os personagens inimigos exceto o alvo.",
+            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fusão</color>: Adiciona 2 pontos ao Dano atual\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporização</color>: Adiciona 2 pontos ao Dano atual\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sobrecarga</color>: Adiciona 2 pontos ao Dano atual, o alvo é forçado a trocar para o próximo personagem\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Queimaduras</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Chamas Ardentes</color>\" que causa 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristalização (Pyro)</color>: Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Redemoinho (Pyro)</color>: Causa 1 ponto de Dano Pyro a todos os personagens inimigos exceto o alvo."
+        },
+        "hydrorelatedreactions": {
+            "id": 212,
+            "name": "Reações Hydro",
+            "nameraw": "<color=#80C0FFFF>Reações {SPRITE_PRESET#2102}Hydro</color>",
+            "description": "Vaporização: Adiciona 2 pontos ao Dano atual\nEletricamente Carregado: Adiciona 1 ponto ao Dano atual e causa 1 ponto de Dano Perfurante em todos os personagens do inimigo, exceto o alvo.\nCongelado: Adiciona 1 ponto ao Dano atual, o alvo não pode se mover neste turno (Será removido ao receber Dano Físico ou Dano Pyro, mas aumenta o Dano em 2 pontos)\nFlorescimento: Cria \"Núcleo Dendro\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro\nCristalização (Hydro): Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\nRedemoinho (Hydro): Causa 1 ponto de Dano Hydro a todos os personagens inimigos exceto o alvo.",
+            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporização</color>: Adiciona 2 pontos ao Dano atual\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Eletricamente Carregado</color>: Adiciona 1 ponto ao Dano atual e causa 1 ponto de Dano Perfurante em todos os personagens do inimigo, exceto o alvo.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelado</color>: Adiciona 1 ponto ao Dano atual, o alvo não pode se mover neste turno (Será removido ao receber Dano Físico ou Dano Pyro, mas aumenta o Dano em 2 pontos)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Florescimento</color>: Cria \"<color=#FFFFFFFF>Núcleo Dendro</color>\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristalização (Hydro)</color>: Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Redemoinho (Hydro)</color>: Causa 1 ponto de Dano Hydro a todos os personagens inimigos exceto o alvo."
+        },
+        "fatuiambusher": {
+            "id": 1004,
+            "name": "Emboscador Fatui",
+            "nameraw": "<color=#FFFFFFFF>Emboscador Fatui</color>",
+            "description": "Emboscadores Fatui ativarão seus efeitos após personagens no lado do campo em que estão usarem Habilidades e causarão Dano ao personagem em combate neste lado do campo. (Uma vez por Turno)\nHá 4 tipos de Emboscadores Fatui no total:\nFeiticeira Cicin Cryo: Causa 1 de Dano Cryo quando ativada, 2 Usos.\nDama do Espelho: Causa 1 de Dano Hydro quando ativada, 2 Usos.\nGuerrilheiro de Canhão Pyro: Causa 1 de Dano Pyro quando ativado, 2 Usos.\nVanguarda de Martelo Electro: Causa 1 de Dano Electro quando ativado, 2 Usos.",
+            "descriptionraw": "Emboscadores Fatui ativarão seus efeitos após personagens no lado do campo em que estão usarem Habilidades e causarão Dano ao personagem em combate neste lado do campo. (Uma vez por Turno)\\nHá 4 tipos de Emboscadores Fatui no total:\\n<color=#FFFFFFFF>Feiticeira Cicin Cryo</color>: Causa 1 de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color> quando ativada, 2 Usos.\\n<color=#FFFFFFFF>Dama do Espelho</color>: Causa 1 de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color> quando ativada, 2 Usos.\\n<color=#FFFFFFFF>Guerrilheiro de Canhão Pyro</color>: Causa 1 de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color> quando ativado, 2 Usos.\\n<color=#FFFFFFFF>Vanguarda de Martelo Electro</color>: Causa 1 de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color> quando ativado, 2 Usos."
+        },
+        "cryodmg": {
+            "id": 101,
+            "name": "Dano Cryo",
+            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>",
+            "description": "Afeta o alvo com Cryo, podendo desencadear as Reações Elementais:\nFusão: Adiciona 2 pontos ao Dano atual\nSupercondutor: Adiciona 1 ponto ao Dano atual, causa 1 ponto de Dano Perfurante a todos os personagens inimigos, exceto o alvo\nCongelado: Adiciona 1 ponto ao Dano atual, o alvo não pode se mover neste turno (Será removido ao receber Dano Físico ou Dano Pyro, mas aumenta o Dano em 2 pontos)",
+            "descriptionraw": "Afeta o alvo com {SPRITE_PRESET#2101}Cryo, podendo desencadear as Reações Elementais:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Fusão</color>: Adiciona 2 pontos ao Dano atual\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Supercondutor</color>: Adiciona 1 ponto ao Dano atual, causa 1 ponto de Dano Perfurante a todos os personagens inimigos, exceto o alvo\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Congelado</color>: Adiciona 1 ponto ao Dano atual, o alvo não pode se mover neste turno (Será removido ao receber Dano Físico ou Dano Pyro, mas aumenta o Dano em 2 pontos)"
+        },
+        "anemo": {
+            "id": 305,
+            "name": "Anemo",
+            "nameraw": "{SPRITE_PRESET#1105}Anemo",
+            "description": "Consome DadosAnemo que você rolou para pagar esse custo.\n(um Dado Omni também pode ser usado)",
+            "descriptionraw": "Consome Dados<color=#80FFD7FF>{SPRITE_PRESET#1105}Anemo</color> que você rolou para pagar esse custo.\\n(um {SPRITE_PRESET#1111}Dado Omni também pode ser usado)"
+        },
+        "geodmg": {
+            "id": 106,
+            "name": "Dano Geo",
+            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>",
+            "description": "Gera Reações Elementais em alvos já afetados:\nCristalização (Cryo): Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\nCristalização (Hydro): Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\nCristalização (Pyro): Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\nCristalização (Electro): Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).",
+            "descriptionraw": "Gera Reações Elementais em alvos já afetados:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cristalização (Cryo)</color>: Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristalização (Hydro)</color>: Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristalização (Pyro)</color>: Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Cristalização (Electro)</color>: Adiciona 1 ponto ao Dano atual, seu Personagem em Combate ganha 1 ponto de Escudo (pode acumular até 2)."
+        },
+        "hydro": {
+            "id": 302,
+            "name": "Hydro",
+            "nameraw": "{SPRITE_PRESET#1102}Hydro",
+            "description": "Consome Dados Hydro que você rolou para pagar esse custo.\n(um Dado Omni também pode ser usado)",
+            "descriptionraw": "Consome Dados <color=#80C0FFFF>{SPRITE_PRESET#1102}Hydro</color> que você rolou para pagar esse custo.\\n(um {SPRITE_PRESET#1111}Dado Omni também pode ser usado)"
+        },
+        "electroinfusion": {
+            "id": 1002,
+            "name": "Encantamento Electro",
+            "nameraw": "<color=#FFFFFFFF>Encantamento Electro</color>",
+            "description": "O Dano Físico causado pelo personagem afetado é convertido em Dano Electro.\nDuração (Turnos): 2",
+            "descriptionraw": "O {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color> causado pelo personagem afetado é convertido em {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>.\\n<color=#FFFFFFFF>Duração (Turnos)</color>: 2"
+        },
+        "combataction": {
+            "id": 1,
+            "name": "Ações de Combate",
+            "nameraw": "<color=#FFFFFFFF>Ações de Combate</color>",
+            "description": "Após terminar 1 Ação de Combate, será o turno de seu oponente.\nJogar uma carta de sua mão com esta regra também é uma Ação de Combate, ao invés de uma Ação Rápida.",
+            "descriptionraw": "Após terminar 1 Ação de Combate, será o turno de seu oponente.\\n<color=#FFFFFFFF>Jogar uma carta de sua mão com esta regra também é uma Ação de Combate, ao invés de uma Ação Rápida.</color>"
+        },
+        "superlativesuperstrength": {
+            "id": 1007,
+            "name": "Superforça Superlativa",
+            "nameraw": "<color=#FFFFFFFF>Superforça Superlativa</color>",
+            "description": "Quando o personagem afetado realiza um Ataque Carregado: Causa +1 de Dano. Se tiver menos que 2 Usos, usará 1 Elemento Indefinido a menos.\nUsos: 1 (Acumulável, pode ser acumulado até 3 vezes)",
+            "descriptionraw": "<color=#FFFFFFFF>Quando o personagem afetado realiza um <color=#FFFFFFFF>Ataque Carregado</color>:</color> Causa +1 de Dano. Se tiver menos que 2 <color=#FFFFFFFF>Usos</color>, usará 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Elemento Indefinido</color> a menos.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usos</color>: 1</color> (Acumulável, pode ser acumulado até 3 vezes)"
+        },
+        "elementalburst": {
+            "id": 501,
+            "name": "Supremo",
+            "nameraw": "Supremo",
+            "description": "Quando a Carga do personagem atinge o máximo, você pode consumir essa Carga para usar seu poderoso Supremo.",
+            "descriptionraw": "Quando a {SPRITE_PRESET#1110}Carga do personagem atinge o máximo, você pode consumir essa {SPRITE_PRESET#1110}Carga para usar seu poderoso Supremo."
+        },
+        "energy": {
+            "id": 310,
+            "name": "Carga",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Carga</color>",
+            "description": "Para usar seu Supremo, os personagens necessitam consumir Carga.\nPara cada Habilidade Elemental ou Ataque Normal executados pelo personagem, 1 ponto de Carga é adicionado.",
+            "descriptionraw": "Para usar seu Supremo, os personagens necessitam consumir {SPRITE_PRESET#1110}Carga.\\nPara cada Habilidade Elemental ou Ataque Normal executados pelo personagem, 1 ponto de {SPRITE_PRESET#1110}Carga é adicionado."
+        },
+        "shield": {
+            "id": 6,
+            "name": "Escudo",
+            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudo</color>",
+            "description": "Este Escudo será consumido para que o personagem que equipá-lo se proteja de Dano.",
+            "descriptionraw": "Este Escudo será consumido para que o personagem que equipá-lo se proteja de Dano."
+        },
+        "hydroapplication": {
+            "id": 202,
+            "name": "Aplicação Hydro",
+            "nameraw": "<color=#80C0FFFF>Aplicação {SPRITE_PRESET#2102}Hydro</color>",
+            "description": "Quando o alvo é afetado por Hydro sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causam Dano:\nVaporização: Sem efeito\nEletricamente Carregado: Sem efeito\nCongelado: O alvo não pode se mover neste turno (Será removido ao receber Dano Físico ou Dano Pyro, mas aumenta o Dano em 2 pontos)\nFlorescimento: Cria \"Núcleo Dendro\" que causa +2 de Dano no próximo ataque Pyro ou Electro",
+            "descriptionraw": "Quando o alvo é afetado por {SPRITE_PRESET#2102}Hydro sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causam Dano:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporização</color>: Sem efeito\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Eletricamente Carregado</color>: Sem efeito\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelado</color>: O alvo não pode se mover neste turno (Será removido ao receber Dano Físico ou Dano Pyro, mas aumenta o Dano em 2 pontos)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Florescimento</color>: Cria \"<color=#FFFFFFFF>Núcleo Dendro</color>\" que causa +2 de Dano no próximo ataque Pyro ou Electro"
+        },
+        "matchingelement": {
+            "id": 308,
+            "name": "Elementos Correspondentes",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Elementos Correspondentes</color>",
+            "description": "Consome Dados Elementais equivalentes ao número e Elemento descritos para pagar esse custo.\n(Dados Omni podem ser considerados como qualquer elemento)",
+            "descriptionraw": "Consome Dados Elementais equivalentes ao número e Elemento descritos para pagar esse custo.\\n({SPRITE_PRESET#1111}Dados Omni podem ser considerados como qualquer elemento)"
+        },
+        "dendro": {
+            "id": 307,
+            "name": "Dendro",
+            "nameraw": "{SPRITE_PRESET#1107}Dendro",
+            "description": "Consome Dados Dendro que você rolou para pagar esse custo.\n(um Dado Omni também pode ser usado)",
+            "descriptionraw": "Consome Dados <color=#7EC236FF>{SPRITE_PRESET#1107}Dendro</color> que você rolou para pagar esse custo.\\n(um {SPRITE_PRESET#1111}Dado Omni também pode ser usado)"
+        },
+        "passiveskill": {
+            "id": 502,
+            "name": "Habilidade Passiva",
+            "nameraw": "Habilidade Passiva",
+            "description": "Essa habilidade está em efeito constante e não precisa ser ativada.",
+            "descriptionraw": "Essa habilidade está em efeito constante e não precisa ser ativada."
+        },
+        "characterclosesttoyourcurrentactivecharacter": {
+            "id": 7,
+            "name": "Personagem mais próximo do seu personagem ativo atual",
+            "nameraw": "<color=#FFFFFFFF>Personagem mais próximo do seu personagem ativo atual</color>",
+            "description": "O \"personagem na área de jogo adversária que estiver mais próximo ao seu personagem em combate\" é o personagem adversário cuja posição é a mais próxima àquela de seu personagem em combate.\nSe múltiplos personagens assim existirem, aquele com a posição mais adiante será visto como o \"mais próximo\".",
+            "descriptionraw": "O \"personagem na área de jogo adversária que estiver mais próximo ao seu personagem em combate\" é o personagem adversário cuja posição é a mais próxima àquela de seu personagem em combate.\\nSe múltiplos personagens assim existirem, aquele com a posição mais adiante será visto como o \"mais próximo\"."
+        },
+        "chargedattack": {
+            "id": 51,
+            "name": "Ataque Carregado",
+            "nameraw": "<color=#FFFFFFFF>Ataque Carregado</color>",
+            "description": "Antes da sua Fase de Ação, caso o número total de seus Dados Elementais seja par, seu Ataque Normal será considerado um Ataque Carregado.",
+            "descriptionraw": "Antes da sua Fase de Ação, caso o número total de seus Dados Elementais seja par, seu Ataque Normal será considerado um Ataque Carregado."
+        },
+        "prepareskill": {
+            "id": 53,
+            "name": "Preparar Habilidade",
+            "nameraw": "<color=#FFFFFFFF>Preparar Habilidade</color>",
+            "description": "Algumas habilidades não podem ser usadas diretamente. Elas requerem um certo número de rodadas de ação para serem preparadas.\nQuando for a vez de um jogador executar suas ações, se o Personagem em Combate do jogador estiver preparando sua habilidade, as ações desse jogador devem ser puladas; se a habilidade já estiver preparada, o personagem usará esta habilidade imediatamente. (Habilidades que requerem preparo não podem ativar o efeito após o uso.)\nSomente o Personagem em Combate pode preparar sua habilidade; se o Personagem em Combate que está preparando sua habilidade for trocado por outro, a preparação de sua habilidade será interrompida.",
+            "descriptionraw": "Algumas habilidades não podem ser usadas diretamente. Elas requerem um certo número de rodadas de ação para serem <color=#FFFFFFFF>preparadas</color>.\\nQuando for a vez de um jogador executar suas ações, se o Personagem em Combate do jogador estiver <color=#FFFFFFFF>preparando</color> sua habilidade, as ações desse jogador devem ser puladas; se a habilidade já estiver <color=#FFFFFFFF>preparada</color>, o personagem usará esta habilidade imediatamente. (Habilidades que requerem <color=#FFFFFFFF>preparo</color> não podem ativar o efeito após o uso.)\\nSomente o Personagem em Combate pode <color=#FFFFFFFF>preparar</color> sua habilidade; se o Personagem em Combate que está <color=#FFFFFFFF>preparando</color> sua habilidade for trocado por outro, a <color=#FFFFFFFF>preparação</color> de sua habilidade será interrompida."
+        },
+        "electro": {
+            "id": 304,
+            "name": "Electro",
+            "nameraw": "{SPRITE_PRESET#1104}Electro",
+            "description": "Consome Dados Electro que você rolou para pagar esse custo.\n(um Dado Omni também pode ser usado)",
+            "descriptionraw": "Consome Dados <color=#FFACFFFF>{SPRITE_PRESET#1104}Electro</color> que você rolou para pagar esse custo.\\n(um {SPRITE_PRESET#1111}Dado Omni também pode ser usado)"
+        },
+        "physicaldmg": {
+            "id": 100,
+            "name": "Dano Físico",
+            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>",
+            "description": "Dano Físico não tem efeito Elemental e também não provoca Reações Elementais.",
+            "descriptionraw": "Dano Físico não tem efeito Elemental e também não provoca Reações Elementais."
+        },
+        "dendrodmg": {
+            "id": 107,
+            "name": "Dano Dendro",
+            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>",
+            "description": "Afeta o alvo com Dendro, podendo desencadear as Reações Elementais:\nFlorescimento: Adiciona 1 ponto ao Dano atual, cria \"Núcleo Dendro\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro\nQueimaduras: Adiciona 1 ponto ao Dano atual, cria \"Chamas Ardentes\" que causam 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)\nAceleração: Adiciona 1 ponto ao Dano atual, cria \"Área de Catalisação\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro",
+            "descriptionraw": "Afeta o alvo com {SPRITE_PRESET#2107}Dendro, podendo desencadear as Reações Elementais:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Florescimento</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Núcleo Dendro</color>\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Queimaduras</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Chamas Ardentes</color>\" que causam 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Aceleração</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Área de Catalisação</color>\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro"
+        },
+        "pyroapplication": {
+            "id": 203,
+            "name": "Aplicação Pyro",
+            "nameraw": "<color=#FF9999FF>Aplicação {SPRITE_PRESET#2103}Pyro</color>",
+            "description": "Quando o alvo é afetado por Pyro sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causem Dano:\nFusão: Sem efeito\nVaporização: Sem efeito\nSobrecarga: O alvo é forçado a trocar para o próximo personagem\nQueimaduras: Cria \"Chamas Ardentes\" que causa 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)",
+            "descriptionraw": "Quando o alvo é afetado por {SPRITE_PRESET#2103}Pyro sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causem Dano:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fusão</color>: Sem efeito\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporização</color>: Sem efeito\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sobrecarga</color>: O alvo é forçado a trocar para o próximo personagem\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Queimaduras</color>: Cria \"<color=#FFFFFFFF>Chamas Ardentes</color>\" que causa 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)"
+        },
+        "crowfeathercover": {
+            "id": 1003,
+            "name": "Proteção da Pena do Corvo",
+            "nameraw": "<color=#FFFFFFFF>Proteção da Pena do Corvo</color>",
+            "description": "O Dano causado pela Habilidade Elemental e pelo Supremo do personagem afetado é aumentado em 1 ponto.\nUsos: 2",
+            "descriptionraw": "O Dano causado pela <color=#FFFFFFFF>Habilidade Elemental</color> e pelo <color=#FFFFFFFF>Supremo</color> do personagem afetado é aumentado em 1 ponto.\\n<color=#FFFFFFFF>Usos: 2</color>"
+        },
+        "piercingdmg": {
+            "id": 5,
+            "name": "Dano Perfurante",
+            "nameraw": "<color=#FFFFFFFF>Dano Perfurante</color>",
+            "description": "O Dano Perfurante não pode receber Bônus de Dano, mas também não pode ser reduzido por Escudos, Imunidade a dano e similares.",
+            "descriptionraw": "O Dano Perfurante não pode receber Bônus de Dano, mas também não pode ser reduzido por Escudos, Imunidade a dano e similares."
+        },
+        "immunitytodefeats1willnotbedefeated": {
+            "id": 54,
+            "name": "Eliminação evitada",
+            "nameraw": "<color=#FFFFFFFF>Eliminação evitada</color>",
+            "description": "Alguns efeitos farão com que o personagem evite ser derrotado e cure uma determinada quantidade de Vida quando a Vida do personagem cair para 0.\nQuando isso ocorrer, o personagem não será considerado derrotado (o equipamento e os estados do personagem não serão afetados e a Energia não será gasta).",
+            "descriptionraw": "Alguns efeitos farão com que o personagem <color=#FFFFFFFF>evite ser derrotado</color> e cure uma determinada quantidade de Vida quando a Vida do personagem cair para 0.\\nQuando isso ocorrer, o personagem não será considerado <color=#FFFFFFFF>derrotado</color> (o equipamento e os estados do personagem não serão afetados e a Energia não será gasta)."
+        },
+        "pyro": {
+            "id": 303,
+            "name": "Pyro",
+            "nameraw": "{SPRITE_PRESET#1103}Pyro",
+            "description": "Consome Dados Pyro que você rolou para pagar esse custo.\n(um Dado Omni também pode ser usado)",
+            "descriptionraw": "Consome Dados <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color> que você rolou para pagar esse custo.\\n(um {SPRITE_PRESET#1111}Dado Omni também pode ser usado)"
+        },
+        "geo": {
+            "id": 306,
+            "name": "Geo",
+            "nameraw": "{SPRITE_PRESET#1106}Geo",
+            "description": "Consome Dados Geo que você rolou para pagar esse custo.\n(um Dado Omni também pode ser usado)",
+            "descriptionraw": "Consome Dados <color=#FFE699FF>{SPRITE_PRESET#1106}Geo</color> que você rolou para pagar esse custo.\\n(um {SPRITE_PRESET#1111}Dado Omni também pode ser usado)"
+        },
+        "electroapplication": {
+            "id": 204,
+            "name": "Aplicação Electro",
+            "nameraw": "<color=#FFACFFFF>Aplicação {SPRITE_PRESET#2104}Electro</color>",
+            "description": "Quando o alvo é afetado por Electro sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causem Dano:\nSobrecarga: O alvo é forçado a trocar para o próximo personagem\nSupercondutor: Sem efeito\nEletricamente Carregado: Sem efeito\nAceleração: Cria \"Área de Catalisação\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro",
+            "descriptionraw": "Quando o alvo é afetado por {SPRITE_PRESET#2104}Electro sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causem Dano:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Sobrecarga</color>: O alvo é forçado a trocar para o próximo personagem\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Supercondutor</color>: Sem efeito\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Eletricamente Carregado</color>: Sem efeito\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Aceleração</color>: Cria \"<color=#FFFFFFFF>Área de Catalisação</color>\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro"
+        },
+        "anemodmg": {
+            "id": 105,
+            "name": "Dano Anemo",
+            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>",
+            "description": "Gera Reações Elementais em alvos já afetados:\nRedemoinho (Cryo): Causa 1 ponto de Dano Cryo a todos os personagens inimigos, exceto o alvo\nRedemoinho (Hydro): Causa 1 ponto de Dano Hydro a todos os personagens inimigos, exceto o alvo\nRedemoinho (Pyro): Causa 1 ponto de Dano Pyro a todos os personagens inimigos, exceto o alvo\nRedemoinho (Electro): Causa 1 ponto de Dano Electro a todos os personagens inimigos, exceto o alvo",
+            "descriptionraw": "Gera Reações Elementais em alvos já afetados:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Redemoinho (Cryo)</color>: Causa 1 ponto de Dano Cryo a todos os personagens inimigos, exceto o alvo\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Redemoinho (Hydro)</color>: Causa 1 ponto de Dano Hydro a todos os personagens inimigos, exceto o alvo\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Redemoinho (Pyro)</color>: Causa 1 ponto de Dano Pyro a todos os personagens inimigos, exceto o alvo\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Redemoinho (Electro)</color>: Causa 1 ponto de Dano Electro a todos os personagens inimigos, exceto o alvo"
+        },
+        "randomhilichurlsummon": {
+            "id": 1001,
+            "name": "Invocação Aleatória de Hilichurl",
+            "nameraw": "<color=#FFFFFFFF>Invocação Aleatória de Hilichurl</color>",
+            "description": "Existem 4 tipos de Invocações Hilichurl ao todo:\nHilichurl Atirador Cryo: Causa 1 ponto de  Dano Cryo na Fase Final. Usos: 2\nHydro Samachurl: Causa 1 ponto de  Dano Hydro na Fase Final. Usos: 2\nHilichurl Berserker: Causa 1 ponto de  Dano Pyro na Fase Final. Usos: 2\nHilichurl Atirador Electro Causa 1 ponto de  Dano Electro na Fase final. Usos: 2",
+            "descriptionraw": "Existem 4 tipos de Invocações Hilichurl ao todo:\\n<color=#FFFFFFFF>Hilichurl Atirador Cryo</color>: Causa 1 ponto de {SPRITE_PRESET#2101} <color=#99FFFFFF>Dano Cryo</color> na Fase Final. Usos: 2\\n<color=#FFFFFFFF>Hydro Samachurl</color>: Causa 1 ponto de {SPRITE_PRESET#2102} <color=#80C0FFFF>Dano Hydro</color> na Fase Final. Usos: 2\\n<color=#FFFFFFFF>Hilichurl Berserker</color>: Causa 1 ponto de {SPRITE_PRESET#2103} <color=#FF9999FF>Dano Pyro</color> na Fase Final. Usos: 2\\n<color=#FFFFFFFF>Hilichurl Atirador Electro</color> Causa 1 ponto de {SPRITE_PRESET#2104} <color=#FFACFFFF>Dano Electro</color> na Fase final. Usos: 2"
+        },
+        "riptide": {
+            "id": 1005,
+            "name": "Interceptação de Fluxo",
+            "nameraw": "<color=#FFFFFFFF>Interceptação de Fluxo</color>",
+            "description": "Quando o personagem afetado é derrotado: aplica Interceptação de Fluxo ao Personagem em Combate.\n(Quando Tartaglia na Posição Corpo-a-Corpo ataca um inimigo afetado, causará Dano adicional.)\nDuração (Turnos): 2",
+            "descriptionraw": "<color=#FFFFFFFF>Quando o personagem afetado é derrotado:</color> aplica Interceptação de Fluxo ao Personagem em Combate.\\n(Quando <color=#FFFFFFFF>Tartaglia</color> na <color=#FFFFFFFF>Posição Corpo-a-Corpo</color> ataca um inimigo afetado, causará Dano adicional.)\\n<color=#FFFFFFFF>Duração (Turnos): 2</color>"
+        },
+        "pyrodmg": {
+            "id": 103,
+            "name": "Dano Pyro",
+            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>",
+            "description": "Afeta o alvo com Pyro, podendo desencadear as Reações Elementais:\nFusão: Adiciona 2 pontos ao Dano atual\nVaporização: Adiciona 2 pontos ao Dano atual\nSobrecarga: Adiciona 2 pontos ao Dano atual, o alvo é forçado a trocar para o próximo personagem\nQueimaduras: Adiciona 1 ponto ao Dano atual, cria \"Chamas Ardentes\" que causa 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)",
+            "descriptionraw": "Afeta o alvo com {SPRITE_PRESET#2103}Pyro, podendo desencadear as Reações Elementais:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fusão</color>: Adiciona 2 pontos ao Dano atual\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporização</color>: Adiciona 2 pontos ao Dano atual\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sobrecarga</color>: Adiciona 2 pontos ao Dano atual, o alvo é forçado a trocar para o próximo personagem\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Queimaduras</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Chamas Ardentes</color>\" que causa 1 ponto de Dano Pyro ao fim do turno (Usos: 1, pode acumular até 2)"
+        },
+        "fastaction": {
+            "id": 2,
+            "name": "Ações Rápidas",
+            "nameraw": "<color=#FFFFFFFF>Ações Rápidas</color>",
+            "description": "Você pode prosseguir executando outras ações após executar uma Ação Rápida.\nO turno só passa para o seu oponente após a execução de uma Ação de Combate.",
+            "descriptionraw": "Você pode prosseguir executando outras ações após executar uma Ação Rápida.\\nO turno só passa para o seu oponente após a execução de uma Ação de Combate."
+        },
+        "usages": {
+            "id": 3,
+            "name": "Usos",
+            "nameraw": "<color=#FFFFFFFF>Usos</color>",
+            "description": "Quando o efeito desta carta é desencadeado, o número de Usos será consumido em 1;\nApós todos os Usos serem consumidos, a carta será automaticamente descartada.",
+            "descriptionraw": "Quando o efeito desta carta é desencadeado, o número de <color=#FFFFFFFF>Usos</color> será consumido em 1;\\nApós todos os <color=#FFFFFFFF>Usos</color> serem consumidos, a carta será automaticamente descartada."
+        },
+        "plungingattack": {
+            "id": 52,
+            "name": "Ataque Imersivo",
+            "nameraw": "<color=#FFFFFFFF>Ataque Imersivo</color>",
+            "description": "Após o personagem se tornar \"Personagem em Combate\", se a próxima Ação de Combate neste turno for um \"Ataque Normal\", o mesmo será considerado como um \"Ataque Imersivo\".",
+            "descriptionraw": "Após o personagem se tornar \"Personagem em Combate\", se a próxima Ação de Combate neste turno for um \"Ataque Normal\", o mesmo será considerado como um \"Ataque Imersivo\"."
+        },
+        "aegisofabyssalflame": {
+            "id": 1006,
+            "name": "Égide das Chamas Abismais",
+            "nameraw": "<color=#FFFFFFFF>Égide das Chamas Abismais</color>",
+            "description": "Concede ao personagem afetado um Escudo com 3 pontos.\nAntes do Escudo acabar, o personagem afetado causará +1 de Dano Pyro.",
+            "descriptionraw": "Concede ao personagem afetado um {SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudo</color> com <color=#FFFFFFFF>3 pontos</color>.\\nAntes do {SPRITE_PRESET#4007}<color=#FFFFFFFF>Escudo</color> acabar, o personagem afetado causará +1 de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>."
+        },
+        "cryo": {
+            "id": 301,
+            "name": "Cryo",
+            "nameraw": "{SPRITE_PRESET#1101}Cryo",
+            "description": "Consome Dados Cryo que você rolou para pagar esse custo.\n(um Dado Omni também pode ser usado)",
+            "descriptionraw": "Consome Dados <color=#99FFFFFF>{SPRITE_PRESET#1101}Cryo</color> que você rolou para pagar esse custo.\\n(um {SPRITE_PRESET#1111}Dado Omni também pode ser usado)"
+        },
+        "hydrodmg": {
+            "id": 102,
+            "name": "Dano Hydro",
+            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>",
+            "description": "Afeta o alvo com Hydro, podendo desencadear as Reações Elementais:\nVaporização: Adiciona 2 pontos ao Dano atual\nEletricamente Carregado: Adiciona 1 ponto ao Dano atual, causa 1 ponto de Dano Perfurante a todos os personagens inimigos, exceto o alvo\nCongelado: Adiciona 1 ponto ao Dano atual, o alvo não pode se mover neste turno (Será removido ao receber Dano Físico ou Dano Pyro, mas aumenta o Dano em 2 pontos)\nFlorescimento: Adiciona 1 ponto ao Dano atual, cria \"Núcleo Dendro\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro",
+            "descriptionraw": "Afeta o alvo com {SPRITE_PRESET#2102}Hydro, podendo desencadear as Reações Elementais:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporização</color>: Adiciona 2 pontos ao Dano atual\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Eletricamente Carregado</color>: Adiciona 1 ponto ao Dano atual, causa 1 ponto de Dano Perfurante a todos os personagens inimigos, exceto o alvo\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelado</color>: Adiciona 1 ponto ao Dano atual, o alvo não pode se mover neste turno (Será removido ao receber Dano Físico ou Dano Pyro, mas aumenta o Dano em 2 pontos)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Florescimento</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Núcleo Dendro</color>\" que causa 2 pontos extras de Dano no próximo ataque Pyro ou Electro"
+        },
+        "unalignedelement": {
+            "id": 309,
+            "name": "Elemento Indefinido",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}Elemento Indefinido</color>",
+            "description": "Você pode usar quaisquer Dados Elementais para pagar esse custo.",
+            "descriptionraw": "Você pode usar quaisquer Dados Elementais para pagar esse custo."
+        },
+        "electrodmg": {
+            "id": 104,
+            "name": "Dano Electro",
+            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>",
+            "description": "Afeta o alvo com Electro, podendo desencadear as Reações Elementais:\nSobrecarga: Adiciona 2 pontos ao Dano atual, o alvo é forçado a trocar para o próximo personagem\nSupercondutor: Adiciona 1 ponto ao Dano atual, causa 1 ponto de Dano Perfurante a todos os personagens inimigos, exceto o alvo\nEletricamente Carregado: Adiciona 1 ponto ao Dano atual, causa 1 ponto de Dano Perfurante a todos os personagens inimigos, exceto o alvo\nAceleração: Adiciona 1 ponto ao Dano atual, cria \"Área de Catalisação\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro",
+            "descriptionraw": "Afeta o alvo com {SPRITE_PRESET#2104}Electro, podendo desencadear as Reações Elementais:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Sobrecarga</color>: Adiciona 2 pontos ao Dano atual, o alvo é forçado a trocar para o próximo personagem\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Supercondutor</color>: Adiciona 1 ponto ao Dano atual, causa 1 ponto de Dano Perfurante a todos os personagens inimigos, exceto o alvo\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Eletricamente Carregado</color>: Adiciona 1 ponto ao Dano atual, causa 1 ponto de Dano Perfurante a todos os personagens inimigos, exceto o alvo\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Aceleração</color>: Adiciona 1 ponto ao Dano atual, cria \"<color=#FFFFFFFF>Área de Catalisação</color>\" que causa 1 ponto extra de Dano nos próximos 2 ataques com Dano Dendro ou Electro"
+        },
+        "bloodblossom": {
+            "id": 1009,
+            "name": "Pétalas Sangrentas",
+            "nameraw": "<color=#FFFFFFFF>Pétalas Sangrentas</color>",
+            "description": "Fase Final: causa 1 de Dano Pyro ao personagem afetado.\nUsos: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Fase Final:</color> causa 1 de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color> ao personagem afetado.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usos</color>: 1</color>"
+        },
+        "cryoapplication": {
+            "id": 201,
+            "name": "Aplicação Cryo",
+            "nameraw": "<color=#99FFFFFF>Aplicação {SPRITE_PRESET#2101}Cryo</color>",
+            "description": "Quando o alvo é afetado com Cryo sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causam Dano:\nFusão: Sem efeito\nSupercondutor: Sem efeito\nCongelado: O alvo não poderá se mover neste turno (será removido ao receber Dano Físico ou Dano Pyro, mas causará 2 pontos de Dano)",
+            "descriptionraw": "Quando o alvo é afetado com {SPRITE_PRESET#2101}Cryo sem causar Dano, a Reação Elemental desencadeada ignorará os efeitos que causam Dano:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Fusão</color>: Sem efeito\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Supercondutor</color>: Sem efeito\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Congelado</color>: O alvo não poderá se mover neste turno (será removido ao receber Dano Físico ou Dano Pyro, mas causará 2 pontos de Dano)"
+        }
+    },
+    "meta": {
+        "namemap": {
+            "aegisofabyssalflame": "Égide das Chamas Abismais",
+            "anemo": "Anemo",
+            "anemodmg": "Dano Anemo",
+            "bloodblossom": "Pétalas Sangrentas",
+            "characterclosesttoyourcurrentactivecharacter": "Personagem mais próximo do seu personagem ativo atual",
+            "chargedattack": "Ataque Carregado",
+            "clusterbloomarrow": "Flechas Florescentes",
+            "combataction": "Ações de Combate",
+            "crowfeathercover": "Proteção da Pena do Corvo",
+            "cryo": "Cryo",
+            "cryoapplication": "Aplicação Cryo",
+            "cryodmg": "Dano Cryo",
+            "dendro": "Dendro",
+            "dendroapplication": "Aplicação Dendro",
+            "dendrodmg": "Dano Dendro",
+            "dendrorelatedreactions": "Reações Dendro",
+            "durationrounds": "Duração (Turnos)",
+            "electro": "Electro",
+            "electroapplication": "Aplicação Electro",
+            "electrodmg": "Dano Electro",
+            "electroinfusion": "Encantamento Electro",
+            "elementalburst": "Supremo",
+            "energy": "Carga",
+            "fastaction": "Ações Rápidas",
+            "fatuiambusher": "Emboscador Fatui",
+            "geo": "Geo",
+            "geodmg": "Dano Geo",
+            "hydro": "Hydro",
+            "hydroapplication": "Aplicação Hydro",
+            "hydrodmg": "Dano Hydro",
+            "hydrorelatedreactions": "Reações Hydro",
+            "immunitytodefeats1willnotbedefeated": "Eliminação evitada",
+            "matchingelement": "Elementos Correspondentes",
+            "omnielement": "Elemento Omni",
+            "passiveskill": "Habilidade Passiva",
+            "physicaldmg": "Dano Físico",
+            "piercingdmg": "Dano Perfurante",
+            "plungingattack": "Ataque Imersivo",
+            "prepareskill": "Preparar Habilidade",
+            "pyro": "Pyro",
+            "pyroapplication": "Aplicação Pyro",
+            "pyrodmg": "Dano Pyro",
+            "pyrorelatedreactions": "Reações Pyro",
+            "randomhilichurlsummon": "Invocação Aleatória de Hilichurl",
+            "riptide": "Interceptação de Fluxo",
+            "shield": "Escudo",
+            "superlativesuperstrength": "Superforça Superlativa",
+            "unalignedelement": "Elemento Indefinido",
+            "usages": "Usos"
+        },
+        "names": {
+            "Égide das Chamas Abismais": "aegisofabyssalflame",
+            "Anemo": "anemo",
+            "Dano Anemo": "anemodmg",
+            "Pétalas Sangrentas": "bloodblossom",
+            "Personagem mais próximo do seu personagem ativo atual": "characterclosesttoyourcurrentactivecharacter",
+            "Ataque Carregado": "chargedattack",
+            "Flechas Florescentes": "clusterbloomarrow",
+            "Ações de Combate": "combataction",
+            "Proteção da Pena do Corvo": "crowfeathercover",
+            "Cryo": "cryo",
+            "Aplicação Cryo": "cryoapplication",
+            "Dano Cryo": "cryodmg",
+            "Dendro": "dendro",
+            "Aplicação Dendro": "dendroapplication",
+            "Dano Dendro": "dendrodmg",
+            "Reações Dendro": "dendrorelatedreactions",
+            "Duração (Turnos)": "durationrounds",
+            "Electro": "electro",
+            "Aplicação Electro": "electroapplication",
+            "Dano Electro": "electrodmg",
+            "Encantamento Electro": "electroinfusion",
+            "Supremo": "elementalburst",
+            "Carga": "energy",
+            "Ações Rápidas": "fastaction",
+            "Emboscador Fatui": "fatuiambusher",
+            "Geo": "geo",
+            "Dano Geo": "geodmg",
+            "Hydro": "hydro",
+            "Aplicação Hydro": "hydroapplication",
+            "Dano Hydro": "hydrodmg",
+            "Reações Hydro": "hydrorelatedreactions",
+            "Eliminação evitada": "immunitytodefeats1willnotbedefeated",
+            "Elementos Correspondentes": "matchingelement",
+            "Elemento Omni": "omnielement",
+            "Habilidade Passiva": "passiveskill",
+            "Dano Físico": "physicaldmg",
+            "Dano Perfurante": "piercingdmg",
+            "Ataque Imersivo": "plungingattack",
+            "Preparar Habilidade": "prepareskill",
+            "Pyro": "pyro",
+            "Aplicação Pyro": "pyroapplication",
+            "Dano Pyro": "pyrodmg",
+            "Reações Pyro": "pyrorelatedreactions",
+            "Invocação Aleatória de Hilichurl": "randomhilichurlsummon",
+            "Interceptação de Fluxo": "riptide",
+            "Escudo": "shield",
+            "Superforça Superlativa": "superlativesuperstrength",
+            "Elemento Indefinido": "unalignedelement",
+            "Usos": "usages"
+        },
+        "aliases": {},
+        "categories": {},
+        "properties": {}
+    }
+}

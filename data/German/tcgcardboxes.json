@@ -1,0 +1,64 @@
+{
+    "items": {
+        "liyue": {
+            "id": 101,
+            "name": "Liyue",
+            "description": "So altehrwürdig wie Mond, so majestätisch wie Sonne.\nHier soll alles prosperieren, und so beständig wie Berge.",
+            "descriptionraw": "So altehrwürdig wie Mond, so majestätisch wie Sonne.\\nHier soll alles prosperieren, und so beständig wie Berge.",
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 3 zu erhalten",
+            "rarity": 4
+        },
+        "sumeru": {
+            "id": 103,
+            "name": "Sumeru",
+            "description": "O Gras der Weisheit, weine nicht!\nSelbst die Bitterkeit der feurigen Winde muss ein Ende haben.\nDer gesegnete Regen wird fallen und die Blumen werden blühen ...\nHöre! Die Melodie vom grünenden Garten wird nochmal gesungen.",
+            "descriptionraw": "O Gras der Weisheit, weine nicht!\\nSelbst die Bitterkeit der feurigen Winde muss ein Ende haben.\\nDer gesegnete Regen wird fallen und die Blumen werden blühen ...\\nHöre! Die Melodie vom grünenden Garten wird nochmal gesungen.",
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 7 zu erhalten",
+            "rarity": 4
+        },
+        "mondstadt": {
+            "id": 100,
+            "name": "Mondstadt",
+            "description": "Der Wind streichelt die Saiten einer alten Leier: eine zarte Melodie fließt hervor ...\nDas Geflüster der Blumen kräuselt den Weiher. Verweht wird ihr quelliger Chor.",
+            "descriptionraw": "Der Wind streichelt die Saiten einer alten Leier: eine zarte Melodie fließt hervor ...\\nDas Geflüster der Blumen kräuselt den Weiher. Verweht wird ihr quelliger Chor.",
+            "source": "Standardmäßig zu erhalten",
+            "rarity": 4
+        },
+        "inazuma": {
+            "id": 102,
+            "name": "Inazuma",
+            "description": "Das lila Licht blitzt auf und erhellt flüchtig die Narukami und ihre Einsamkeit.\nVerrückte Träume kommen und gehen. Nichts überstand den Wandel der Zeit.",
+            "descriptionraw": "Das lila Licht blitzt auf und erhellt flüchtig die Narukami und ihre Einsamkeit.\\nVerrückte Träume kommen und gehen. Nichts überstand den Wandel der Zeit.",
+            "source": "Als Belohnung fürs Erreichen der Kartenbeschwörerstufe 5 zu erhalten",
+            "rarity": 4
+        }
+    },
+    "meta": {
+        "namemap": {
+            "inazuma": "Inazuma",
+            "liyue": "Liyue",
+            "mondstadt": "Mondstadt",
+            "sumeru": "Sumeru"
+        },
+        "names": {
+            "Inazuma": "inazuma",
+            "Liyue": "liyue",
+            "Mondstadt": "mondstadt",
+            "Sumeru": "sumeru"
+        },
+        "aliases": {},
+        "categories": {
+            "4": [
+                "inazuma",
+                "liyue",
+                "mondstadt",
+                "sumeru"
+            ]
+        },
+        "properties": {
+            "rarity": [
+                4
+            ]
+        }
+    }
+}

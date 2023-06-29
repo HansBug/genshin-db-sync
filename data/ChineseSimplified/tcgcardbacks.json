@@ -1,0 +1,229 @@
+{
+    "items": {
+        "adept": {
+            "id": 110,
+            "name": "达人",
+            "description": "没有解不开的难题，没有办不到的事。为你献上喝彩！",
+            "descriptionraw": "没有解不开的难题，没有办不到的事。为你献上喝彩！",
+            "source": "牌手手册第四局中完成所有目标后获得",
+            "rarity": 3
+        },
+        "dandelionseed": {
+            "id": 117,
+            "name": "蒲公英籽",
+            "description": "希望与等待总是相伴相随。",
+            "descriptionraw": "希望与等待总是相伴相随。",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "cecilia": {
+            "id": 118,
+            "name": "塞西莉亚花",
+            "description": "与清风冷露为伴者，才有资格将初生曙光独享？",
+            "descriptionraw": "与清风冷露为伴者，才有资格将初生曙光独享？",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "origin": {
+            "id": 100,
+            "name": "原初",
+            "description": "在昼与夜之间，在天与地之间，\n是种种幻想与希望的旅途。",
+            "descriptionraw": "在昼与夜之间，在天与地之间，\\n是种种幻想与希望的旅途。",
+            "source": "初始获得",
+            "rarity": 3
+        },
+        "liyue": {
+            "id": 102,
+            "name": "璃月",
+            "description": "千里之行，始于足下。从构建坚实的牌组开始走上得胜之路吧。",
+            "descriptionraw": "千里之行，始于足下。从构建坚实的牌组开始走上得胜之路吧。",
+            "source": "牌手等级提升至4的等级奖励中获得",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "牌中秘宝",
+            "description": "宝藏的到手与使用，只在瞬息。而其中所纳之物，却次次不一。此刻，你的牌中，又藏了怎样的宝物呢？",
+            "descriptionraw": "宝藏的到手与使用，只在瞬息。而其中所纳之物，却次次不一。此刻，你的牌中，又藏了怎样的宝物呢？",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "魔晶块",
+            "description": "时间为其赋予价值。",
+            "descriptionraw": "时间为其赋予价值。",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "sumeru": {
+            "id": 104,
+            "name": "须弥",
+            "description": "预判一手两手就算是初学者也能做到，资深的牌手应当能预判五十手、一百手。\n这其实很简单，对吧？",
+            "descriptionraw": "预判一手两手就算是初学者也能做到，资深的牌手应当能预判五十手、一百手。\\n这其实很简单，对吧？",
+            "source": "牌手等级提升至8的等级奖励中获得",
+            "rarity": 3
+        },
+        "electrocrystal": {
+            "id": 116,
+            "name": "电气水晶",
+            "description": "激将法，有用吗？一点就炸的东西，可不止它一个。",
+            "descriptionraw": "激将法，有用吗？一点就炸的东西，可不止它一个。",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "烈焰花花蕊",
+            "description": "「我的牌手之魂在熊熊燃烧啊！」",
+            "descriptionraw": "「我的牌手之魂在熊熊燃烧啊！」",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "蒙德",
+            "description": "打牌的第一要义是自由。\n应当自由地组牌，自由地选择对手，自由地打出下一张手牌。\n…或许也可以自由地不打牌，自由地拿手牌去做一些自由的事？",
+            "descriptionraw": "打牌的第一要义是自由。\\n应当自由地组牌，自由地选择对手，自由地打出下一张手牌。\\n…或许也可以自由地不打牌，自由地拿手牌去做一些自由的事？",
+            "source": "牌手等级提升至2的等级奖励中获得",
+            "rarity": 3
+        },
+        "amethystlump": {
+            "id": 113,
+            "name": "紫晶块",
+            "description": "因地制宜也是智慧的一种。",
+            "descriptionraw": "因地制宜也是智慧的一种。",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "dendrobium": {
+            "id": 120,
+            "name": "血斛",
+            "description": "如果所有的争斗都停留在牌桌之上…",
+            "descriptionraw": "如果所有的争斗都停留在牌桌之上…",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "冰雾花花朵",
+            "description": "「体面地认输，就是你的终点。」",
+            "descriptionraw": "「体面地认输，就是你的终点。」",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "inazuma": {
+            "id": 103,
+            "name": "稻妻",
+            "description": "出牌应在电光火石之间，只要出牌够快，就能决胜须臾。",
+            "descriptionraw": "出牌应在电光火石之间，只要出牌够快，就能决胜须臾。",
+            "source": "牌手等级提升至6的等级奖励中获得",
+            "rarity": 3
+        },
+        "crystalchunk": {
+            "id": 111,
+            "name": "水晶块",
+            "description": "适当的磨练能让可造之才大放异彩。",
+            "descriptionraw": "适当的磨练能让可造之才大放异彩。",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "glazelily": {
+            "id": 119,
+            "name": "琉璃百合",
+            "description": "人间旧事俱已消散，唯有花之芳名犹存。",
+            "descriptionraw": "人间旧事俱已消散，唯有花之芳名犹存。",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        },
+        "legend": {
+            "id": 109,
+            "name": "传说",
+            "description": "作为牌手的路已经走了许多，但是前面仍有许多路要走。",
+            "descriptionraw": "作为牌手的路已经走了许多，但是前面仍有许多路要走。",
+            "source": "牌手等级提升至10的等级奖励中获得",
+            "rarity": 3
+        },
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "青金的流旋",
+            "description": "由著名画师「白垩」定制的特殊牌背。\n「如东风之龙一般，在这小小的战场之上，更自由地伸展自己的鳞羽吧！」",
+            "descriptionraw": "由著名画师「白垩」定制的特殊牌背。\\n「如东风之龙一般，在这小小的战场之上，更自由地伸展自己的鳞羽吧！」",
+            "source": "卡牌商店购买获得",
+            "rarity": 3
+        }
+    },
+    "meta": {
+        "namemap": {
+            "adept": "达人",
+            "amethystlump": "紫晶块",
+            "cecilia": "塞西莉亚花",
+            "crystalchunk": "水晶块",
+            "dandelionseed": "蒲公英籽",
+            "dendrobium": "血斛",
+            "electrocrystal": "电气水晶",
+            "flamingflowerstamen": "烈焰花花蕊",
+            "glazelily": "琉璃百合",
+            "inazuma": "稻妻",
+            "lazuriteswirl": "青金的流旋",
+            "legend": "传说",
+            "liyue": "璃月",
+            "magicalcrystalchunk": "魔晶块",
+            "mistflowercorolla": "冰雾花花朵",
+            "mondstadt": "蒙德",
+            "origin": "原初",
+            "sumeru": "须弥",
+            "treasuresofthedeck": "牌中秘宝"
+        },
+        "names": {
+            "达人": "adept",
+            "紫晶块": "amethystlump",
+            "塞西莉亚花": "cecilia",
+            "水晶块": "crystalchunk",
+            "蒲公英籽": "dandelionseed",
+            "血斛": "dendrobium",
+            "电气水晶": "electrocrystal",
+            "烈焰花花蕊": "flamingflowerstamen",
+            "琉璃百合": "glazelily",
+            "稻妻": "inazuma",
+            "青金的流旋": "lazuriteswirl",
+            "传说": "legend",
+            "璃月": "liyue",
+            "魔晶块": "magicalcrystalchunk",
+            "冰雾花花朵": "mistflowercorolla",
+            "蒙德": "mondstadt",
+            "原初": "origin",
+            "须弥": "sumeru",
+            "牌中秘宝": "treasuresofthedeck"
+        },
+        "aliases": {},
+        "categories": {
+            "3": [
+                "adept",
+                "amethystlump",
+                "cecilia",
+                "crystalchunk",
+                "dandelionseed",
+                "dendrobium",
+                "electrocrystal",
+                "flamingflowerstamen",
+                "glazelily",
+                "inazuma",
+                "lazuriteswirl",
+                "legend",
+                "liyue",
+                "magicalcrystalchunk",
+                "mistflowercorolla",
+                "mondstadt",
+                "origin",
+                "sumeru",
+                "treasuresofthedeck"
+            ]
+        },
+        "properties": {
+            "rarity": [
+                3
+            ]
+        }
+    }
+}

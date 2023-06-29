@@ -1,0 +1,229 @@
+{
+    "items": {
+        "adept": {
+            "id": 110,
+            "name": "Esperto",
+            "description": "Non esiste enigma che tu non possa risolvere, nulla oltre il tuo potere che tu non possa fare. Ti rendiamo omaggio!",
+            "descriptionraw": "Non esiste enigma che tu non possa risolvere, nulla oltre il tuo potere che tu non possa fare. Ti rendiamo omaggio!",
+            "source": "Ricompensa per aver completato tutti gli obiettivi nella 4ª partita del Manuale del giocatore del GCC",
+            "rarity": 3
+        },
+        "dandelionseed": {
+            "id": 117,
+            "name": "Seme di dente di leone",
+            "description": "La speranza e la pazienza sono unite da un forte legame.",
+            "descriptionraw": "La speranza e la pazienza sono unite da un forte legame.",
+            "source": "Acquistato al Negozio di carte",
+            "rarity": 3
+        },
+        "cecilia": {
+            "id": 118,
+            "name": "Cecilia",
+            "description": "Solo chi gode della compagnia della brezza e della rugiada può apprezzare le prime luci dell'alba?",
+            "descriptionraw": "Solo chi gode della compagnia della brezza e della rugiada può apprezzare le prime luci dell'alba?",
+            "source": "Acquistata al Negozio di carte",
+            "rarity": 3
+        },
+        "origin": {
+            "id": 100,
+            "name": "Origine",
+            "description": "Tra il giorno e la notte, tra il cielo e la terra,\nè qui che dimorano le speranze e i sogni.",
+            "descriptionraw": "Tra il giorno e la notte, tra il cielo e la terra,\\nè qui che dimorano le speranze e i sogni.",
+            "source": "Ottieni per la prima volta",
+            "rarity": 3
+        },
+        "liyue": {
+            "id": 102,
+            "name": "Liyue",
+            "description": "Ogni viaggio inizia con un primo passo. Costruisci il tuo mazzo con una mano sicura, e sicura sarà la strada verso la vittoria.",
+            "descriptionraw": "Ogni viaggio inizia con un primo passo. Costruisci il tuo mazzo con una mano sicura, e sicura sarà la strada verso la vittoria.",
+            "source": "Ricompensa per aver raggiunto il livello giocatore 4",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "Tesori del mazzo",
+            "description": "I tesori si ottengono e si usano momentaneamente, e il loro contenuto non è mai lo stesso. Quali tesori giacciono tra le tue carte questa volta?",
+            "descriptionraw": "I tesori si ottengono e si usano momentaneamente, e il loro contenuto non è mai lo stesso. Quali tesori giacciono tra le tue carte questa volta?",
+            "source": "Acquistati al Negozio di carte",
+            "rarity": 3
+        },
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "Pezzo di cristallo magico",
+            "description": "Il tempo ne aumenta il valore.",
+            "descriptionraw": "Il tempo ne aumenta il valore.",
+            "source": "Acquistato al Negozio di carte",
+            "rarity": 3
+        },
+        "sumeru": {
+            "id": 104,
+            "name": "Sumeru",
+            "description": "Intuire un paio di mosse è cosa da dilettanti. I giocatori esperti possono intuirne persino cinquanta o cento.\nNon è poi così difficile, vero?",
+            "descriptionraw": "Intuire un paio di mosse è cosa da dilettanti. I giocatori esperti possono intuirne persino cinquanta o cento.\\nNon è poi così difficile, vero?",
+            "source": "Ricompensa per aver raggiunto il livello giocatore 8",
+            "rarity": 3
+        },
+        "electrocrystal": {
+            "id": 116,
+            "name": "Cristallo di Electro",
+            "description": "I metodi aggressivi serviranno? La situazione potrebbe sfuggire di mano!",
+            "descriptionraw": "I metodi aggressivi serviranno? La situazione potrebbe sfuggire di mano!",
+            "source": "Acquistato al Negozio di carte",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "Pistillo di Fiorardente",
+            "description": "\"La mia anima di duellante arde!\"",
+            "descriptionraw": "\"La mia anima di duellante arde!\"",
+            "source": "Acquistato al Negozio di carte",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "Mondstadt",
+            "description": "La libertà è il primo principio delle carte.\nOrganizza liberamente il tuo mazzo, scegli liberamente i tuoi avversari e gioca liberamente la tua mano.\n...O forse potresti usare quella libertà per non giocare affatto, e usare le carte della tua mano per fare qualcos'altro.",
+            "descriptionraw": "La libertà è il primo principio delle carte.\\nOrganizza liberamente il tuo mazzo, scegli liberamente i tuoi avversari e gioca liberamente la tua mano.\\n...O forse potresti usare quella libertà per non giocare affatto, e usare le carte della tua mano per fare qualcos'altro.",
+            "source": "Ricompensa per aver raggiunto il livello giocatore 2",
+            "rarity": 3
+        },
+        "amethystlump": {
+            "id": 113,
+            "name": "Pezzo d'ametista",
+            "description": "Anche adattarsi all'ambiente è una forma di saggezza.",
+            "descriptionraw": "Anche adattarsi all'ambiente è una forma di saggezza.",
+            "source": "Acquistato al Negozio di carte",
+            "rarity": 3
+        },
+        "dendrobium": {
+            "id": 120,
+            "name": "Dendrobium",
+            "description": "Se solo tutte le battaglie si potessero combattere su un tavolo...",
+            "descriptionraw": "Se solo tutte le battaglie si potessero combattere su un tavolo...",
+            "source": "Acquistato al Negozio di carte",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "Corolla di Fiordinebbia",
+            "description": "\"Concedere con grazia è una conclusione inevitabile.\"",
+            "descriptionraw": "\"Concedere con grazia è una conclusione inevitabile.\"",
+            "source": "Acquistata al Negozio di carte",
+            "rarity": 3
+        },
+        "inazuma": {
+            "id": 103,
+            "name": "Inazuma",
+            "description": "Se giocherai le tue carte con rapidità, potrai vincere in un batter d'occhio.",
+            "descriptionraw": "Se giocherai le tue carte con rapidità, potrai vincere in un batter d'occhio.",
+            "source": "Ricompensa per aver raggiunto il livello giocatore 6",
+            "rarity": 3
+        },
+        "crystalchunk": {
+            "id": 111,
+            "name": "Pezzo di cristallo",
+            "description": "Se ben lavorato, un materiale può mostrare la sua qualità.",
+            "descriptionraw": "Se ben lavorato, un materiale può mostrare la sua qualità.",
+            "source": "Acquistato al Negozio di carte",
+            "rarity": 3
+        },
+        "glazelily": {
+            "id": 119,
+            "name": "Splendigiglio",
+            "description": "I racconti antichi sui regni mortali sono svaniti. Ora resta solo il nome fragrante dei fiori.",
+            "descriptionraw": "I racconti antichi sui regni mortali sono svaniti. Ora resta solo il nome fragrante dei fiori.",
+            "source": "Acquistato al Negozio di carte",
+            "rarity": 3
+        },
+        "legend": {
+            "id": 109,
+            "name": "Leggendario",
+            "description": "Hai fatto molta strada per diventare u{F#na}{M#n} giocat{F#rice}{M#ore} leggendari{F#a}{M#o}, ma ne hai ancora molta da fare.",
+            "descriptionraw": "#Hai fatto molta strada per diventare u{F#na}{M#n} giocat{F#rice}{M#ore} leggendari{F#a}{M#o}, ma ne hai ancora molta da fare.",
+            "source": "Ricompensa per aver raggiunto il livello giocatore 10",
+            "rarity": 3
+        },
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "Turbinio di lazurite",
+            "description": "Un retro per carte speciale personalizzato dal celebre artista Calx.\n\"Come il Drago d'Oriente, dispiega le ali in libertà su questa battaglia di carte!\"",
+            "descriptionraw": "Un retro per carte speciale personalizzato dal celebre artista Calx.\\n\"Come il Drago d'Oriente, dispiega le ali in libertà su questa battaglia di carte!\"",
+            "source": "Acquistato al Negozio di carte",
+            "rarity": 3
+        }
+    },
+    "meta": {
+        "namemap": {
+            "adept": "Esperto",
+            "amethystlump": "Pezzo d'ametista",
+            "cecilia": "Cecilia",
+            "crystalchunk": "Pezzo di cristallo",
+            "dandelionseed": "Seme di dente di leone",
+            "dendrobium": "Dendrobium",
+            "electrocrystal": "Cristallo di Electro",
+            "flamingflowerstamen": "Pistillo di Fiorardente",
+            "glazelily": "Splendigiglio",
+            "inazuma": "Inazuma",
+            "lazuriteswirl": "Turbinio di lazurite",
+            "legend": "Leggendario",
+            "liyue": "Liyue",
+            "magicalcrystalchunk": "Pezzo di cristallo magico",
+            "mistflowercorolla": "Corolla di Fiordinebbia",
+            "mondstadt": "Mondstadt",
+            "origin": "Origine",
+            "sumeru": "Sumeru",
+            "treasuresofthedeck": "Tesori del mazzo"
+        },
+        "names": {
+            "Esperto": "adept",
+            "Pezzo d'ametista": "amethystlump",
+            "Cecilia": "cecilia",
+            "Pezzo di cristallo": "crystalchunk",
+            "Seme di dente di leone": "dandelionseed",
+            "Dendrobium": "dendrobium",
+            "Cristallo di Electro": "electrocrystal",
+            "Pistillo di Fiorardente": "flamingflowerstamen",
+            "Splendigiglio": "glazelily",
+            "Inazuma": "inazuma",
+            "Turbinio di lazurite": "lazuriteswirl",
+            "Leggendario": "legend",
+            "Liyue": "liyue",
+            "Pezzo di cristallo magico": "magicalcrystalchunk",
+            "Corolla di Fiordinebbia": "mistflowercorolla",
+            "Mondstadt": "mondstadt",
+            "Origine": "origin",
+            "Sumeru": "sumeru",
+            "Tesori del mazzo": "treasuresofthedeck"
+        },
+        "aliases": {},
+        "categories": {
+            "3": [
+                "adept",
+                "amethystlump",
+                "cecilia",
+                "crystalchunk",
+                "dandelionseed",
+                "dendrobium",
+                "electrocrystal",
+                "flamingflowerstamen",
+                "glazelily",
+                "inazuma",
+                "lazuriteswirl",
+                "legend",
+                "liyue",
+                "magicalcrystalchunk",
+                "mistflowercorolla",
+                "mondstadt",
+                "origin",
+                "sumeru",
+                "treasuresofthedeck"
+            ]
+        },
+        "properties": {
+            "rarity": [
+                3
+            ]
+        }
+    }
+}

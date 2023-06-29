@@ -1,0 +1,67 @@
+{
+    "path": "Russian",
+    "metadata": {},
+    "files": [
+        {
+            "name": "tcgactioncards.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        },
+        {
+            "name": "tcgcardbacks.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        },
+        {
+            "name": "tcgcardboxes.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        },
+        {
+            "name": "tcgcharactercards.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        },
+        {
+            "name": "tcgdetailedrules.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        },
+        {
+            "name": "tcgenemycards.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        },
+        {
+            "name": "tcgkeywords.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        },
+        {
+            "name": "tcglevelrewards.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        },
+        {
+            "name": "tcgstatuseffects.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        },
+        {
+            "name": "tcgsummons.json",
+            "type": "json",
+            "mark": {},
+            "metadata": {}
+        }
+    ],
+    "folders": []
+}

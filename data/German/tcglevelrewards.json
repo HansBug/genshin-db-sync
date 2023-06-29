@@ -1,0 +1,370 @@
+{
+    "items": {
+        "5": {
+            "id": 5,
+            "name": "5",
+            "exp": 1450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "unlockdescription": "Platz für neues Deck freigeschaltet\nNeue Tavernen-Herausforderung(en) freigeschaltet\nNeue Duell-Herausforderung(en) in Inazuma verfügbar",
+            "unlockdescriptionraw": "Platz für neues Deck freigeschaltet\\nNeue Tavernen-Herausforderung(en) freigeschaltet\\nNeue Duell-Herausforderung(en) in Inazuma verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "Duelleinladung",
+                    "count": 1
+                },
+                {
+                    "id": 339502,
+                    "name": "Inazuma",
+                    "count": 1
+                }
+            ]
+        },
+        "1": {
+            "id": 1,
+            "name": "1",
+            "exp": 300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "unlockdescription": "Einladungsduell freigeschaltet\nPvP-Duell in derselben offenen Welt freigeschaltet\nKartenhändler freigeschaltet\nKartenbeschwörerhandbuch freigeschaltet\nNeue Duell-Herausforderung(en) in Mondstadt verfügbar",
+            "unlockdescriptionraw": "Einladungsduell freigeschaltet\\nPvP-Duell in derselben offenen Welt freigeschaltet\\nKartenhändler freigeschaltet\\nKartenbeschwörerhandbuch freigeschaltet\\nNeue Duell-Herausforderung(en) in Mondstadt verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "Duelleinladung",
+                    "count": 1
+                },
+                {
+                    "id": 107021,
+                    "name": "Glücksmünze",
+                    "count": 500
+                }
+            ]
+        },
+        "3": {
+            "id": 3,
+            "name": "3",
+            "exp": 950,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "unlockdescription": "Platz für neues Deck freigeschaltet\nNeue Tavernen-Herausforderung(en) freigeschaltet\nNeue Duell-Herausforderung(en) in Liyue verfügbar",
+            "unlockdescriptionraw": "Platz für neues Deck freigeschaltet\\nNeue Tavernen-Herausforderung(en) freigeschaltet\\nNeue Duell-Herausforderung(en) in Liyue verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "Duelleinladung",
+                    "count": 1
+                },
+                {
+                    "id": 339501,
+                    "name": "Liyue",
+                    "count": 1
+                }
+            ]
+        },
+        "6": {
+            "id": 6,
+            "name": "6",
+            "exp": 1600,
+            "icontype": "GCG_LEVEL_ICON_TYPE_SILIVER",
+            "unlockdescription": "Neue Tavernen-Herausforderung(en) freigeschaltet\nNeue Duell-Herausforderung(en) in Inazuma verfügbar",
+            "unlockdescriptionraw": "Neue Tavernen-Herausforderung(en) freigeschaltet\\nNeue Duell-Herausforderung(en) in Inazuma verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "Duelleinladung",
+                    "count": 1
+                },
+                {
+                    "id": 339003,
+                    "name": "Inazuma",
+                    "count": 1
+                }
+            ]
+        },
+        "7": {
+            "id": 7,
+            "name": "7",
+            "exp": 1750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "unlockdescription": "Platz für neues Deck freigeschaltet\nNeue Tavernen-Herausforderung(en) freigeschaltet\nNeue Duell-Herausforderung(en) in Sumeru verfügbar",
+            "unlockdescriptionraw": "Platz für neues Deck freigeschaltet\\nNeue Tavernen-Herausforderung(en) freigeschaltet\\nNeue Duell-Herausforderung(en) in Sumeru verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "Duelleinladung",
+                    "count": 1
+                },
+                {
+                    "id": 339503,
+                    "name": "Sumeru",
+                    "count": 1
+                }
+            ]
+        },
+        "4": {
+            "id": 4,
+            "name": "4",
+            "exp": 1300,
+            "icontype": "GCG_LEVEL_ICON_TYPE_COPPER",
+            "unlockdescription": "Mehrspielermodus via Duell-Einladungstafel möglich\nNeue Tavernen-Herausforderung(en) freigeschaltet\nNeue Duell-Herausforderung(en) in Liyue verfügbar",
+            "unlockdescriptionraw": "Mehrspielermodus via Duell-Einladungstafel möglich\\nNeue Tavernen-Herausforderung(en) freigeschaltet\\nNeue Duell-Herausforderung(en) in Liyue verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "Duelleinladung",
+                    "count": 1
+                },
+                {
+                    "id": 339002,
+                    "name": "Liyue",
+                    "count": 1
+                }
+            ]
+        },
+        "8": {
+            "id": 8,
+            "name": "8",
+            "exp": 1900,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "unlockdescription": "Neue Tavernen-Herausforderung(en) freigeschaltet\nNeue Duell-Herausforderung(en) in Sumeru verfügbar",
+            "unlockdescriptionraw": "Neue Tavernen-Herausforderung(en) freigeschaltet\\nNeue Duell-Herausforderung(en) in Sumeru verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "Duelleinladung",
+                    "count": 1
+                },
+                {
+                    "id": 339004,
+                    "name": "Sumeru",
+                    "count": 1
+                }
+            ]
+        },
+        "10": {
+            "id": 10,
+            "name": "10",
+            "icontype": "GCG_LEVEL_ICON_TYPE_PLATINUM",
+            "unlockdescription": "Platz für neues Deck freigeschaltet\nNeue Duell-Herausforderung(en) verfügbar",
+            "unlockdescriptionraw": "Platz für neues Deck freigeschaltet\\nNeue Duell-Herausforderung(en) verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107019,
+                    "name": "Leere dynamische Karte",
+                    "count": 1
+                },
+                {
+                    "id": 339009,
+                    "name": "Legende",
+                    "count": 1
+                }
+            ]
+        },
+        "2": {
+            "id": 2,
+            "name": "2",
+            "exp": 750,
+            "icontype": "GCG_LEVEL_ICON_TYPE_NONE",
+            "unlockdescription": "Wöchentliche Gastherausforderung freigeschaltet\nNeue Duell-Herausforderung(en) in Mondstadt verfügbar",
+            "unlockdescriptionraw": "Wöchentliche Gastherausforderung freigeschaltet\\nNeue Duell-Herausforderung(en) in Mondstadt verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107020,
+                    "name": "Duelleinladung",
+                    "count": 1
+                },
+                {
+                    "id": 339001,
+                    "name": "Mondstadt",
+                    "count": 1
+                }
+            ]
+        },
+        "9": {
+            "id": 9,
+            "name": "9",
+            "exp": 2450,
+            "icontype": "GCG_LEVEL_ICON_TYPE_GOLD",
+            "unlockdescription": "Neue Duell-Herausforderung(en) in Sumeru verfügbar",
+            "unlockdescriptionraw": "Neue Duell-Herausforderung(en) in Sumeru verfügbar",
+            "rewards": [
+                {
+                    "id": 201,
+                    "name": "Urgestein",
+                    "count": 60
+                },
+                {
+                    "id": 107019,
+                    "name": "Leere dynamische Karte",
+                    "count": 1
+                },
+                {
+                    "id": 107020,
+                    "name": "Duelleinladung",
+                    "count": 1
+                }
+            ]
+        }
+    },
+    "meta": {
+        "namemap": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+        },
+        "names": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+        },
+        "aliases": {},
+        "categories": {
+            "GCG_LEVEL_ICON_TYPE_NONE": [
+                "1",
+                "2"
+            ],
+            "Urgestein": [
+                "1",
+                "10",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Duelleinladung": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "Glücksmünze": [
+                "1"
+            ],
+            "GCG_LEVEL_ICON_TYPE_PLATINUM": [
+                "10"
+            ],
+            "Leere dynamische Karte": [
+                "10",
+                "9"
+            ],
+            "Legende": [
+                "10"
+            ],
+            "Mondstadt": [
+                "2"
+            ],
+            "GCG_LEVEL_ICON_TYPE_COPPER": [
+                "3",
+                "4"
+            ],
+            "Liyue": [
+                "3",
+                "4"
+            ],
+            "GCG_LEVEL_ICON_TYPE_SILIVER": [
+                "5",
+                "6"
+            ],
+            "Inazuma": [
+                "5",
+                "6"
+            ],
+            "GCG_LEVEL_ICON_TYPE_GOLD": [
+                "7",
+                "8",
+                "9"
+            ],
+            "Sumeru": [
+                "7",
+                "8"
+            ]
+        },
+        "properties": {
+            "icontype": [
+                "GCG_LEVEL_ICON_TYPE_NONE",
+                "GCG_LEVEL_ICON_TYPE_PLATINUM",
+                "GCG_LEVEL_ICON_TYPE_COPPER",
+                "GCG_LEVEL_ICON_TYPE_SILIVER",
+                "GCG_LEVEL_ICON_TYPE_GOLD"
+            ],
+            "rewards[].name": [
+                "Urgestein",
+                "Duelleinladung",
+                "Glücksmünze",
+                "Leere dynamische Karte",
+                "Legende",
+                "Mondstadt",
+                "Liyue",
+                "Inazuma",
+                "Sumeru"
+            ]
+        }
+    }
+}

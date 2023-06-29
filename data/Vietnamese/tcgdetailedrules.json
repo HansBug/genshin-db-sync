@@ -1,0 +1,468 @@
+{
+    "items": {
+        "elementalreactionsrules": {
+            "id": 5,
+            "name": "Quy Tắc Phản Ứng Nguyên Tố",
+            "rules": [
+                {
+                    "title": "Gán Ấn Nguyên Tố",
+                    "titleraw": "Gán Ấn Nguyên Tố",
+                    "content": "Khi nhân vật chịu sát thương nguyên tố Băng, Thủy, Hỏa, Lôi, Thảo, sẽ bị gán ấn nguyên tố tương ứng.\n(Sát Thương Nguyên Tố Phong và Sát Thương Nguyên Tố Nham không thể gán ấn nguyên tố.)",
+                    "contentraw": "Khi nhân vật chịu sát thương nguyên tố {SPRITE_PRESET#2101}<color=#99FFFFFF>Băng</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Thủy</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Hỏa</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Lôi</color>, {SPRITE_PRESET#2107}<color=#7EC236FF>Thảo</color>, sẽ bị <color=#FFE14BFF>gán ấn</color> nguyên tố tương ứng.\\n({SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color> và {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color> không thể gán ấn nguyên tố.)",
+                    "filename_image": "UI_Gcg_InSide_12"
+                },
+                {
+                    "title": "Quy Tắc Phản Ứng Nguyên Tố",
+                    "titleraw": "Quy Tắc Phản Ứng Nguyên Tố",
+                    "content": "Đối với mục tiêu đã bị Gán Ấn Nguyên Tố:\n(1) Khi tạo thành sát thương nguyên tố loại nhất định, sẽ kích hoạt phản ứng nguyên tố.\n(2) Khi dùng hình thức phi sát thương để thi triển gán ấn nguyên tố loại nhất định cũng sẽ kích hoạt phản ứng nguyên tố. Khi tổng kết hiệu quả loại phản ứng nguyên tố này, sẽ bỏ qua mọi hiệu quả sát thương.",
+                    "contentraw": "Đối với mục tiêu đã bị <color=#FFE14BFF>Gán Ấn Nguyên Tố</color>:\\n(1) Khi tạo thành <color=#FFE14BFF>sát thương nguyên tố</color> loại nhất định, sẽ kích hoạt phản ứng nguyên tố.\\n(2) Khi dùng hình thức phi sát thương để thi triển gán ấn nguyên tố loại nhất định cũng sẽ kích hoạt phản ứng nguyên tố. Khi tổng kết hiệu quả loại phản ứng nguyên tố này, sẽ bỏ qua mọi hiệu quả sát thương.",
+                    "filename_image": "UI_Gcg_InSide_13"
+                }
+            ]
+        },
+        "gamearea": {
+            "id": 4,
+            "name": "Khu Vực Trò Chơi",
+            "rules": [
+                {
+                    "title": "",
+                    "titleraw": "",
+                    "content": "Trong trận đấu \"Thất Thánh Triệu Hồi\", thẻ bài sẽ được đặt ở khu vực như sau:",
+                    "contentraw": "Trong trận đấu \"Thất Thánh Triệu Hồi\", thẻ bài sẽ được đặt ở khu vực như sau:",
+                    "filename_image": "UI_Gcg_InSide_14"
+                },
+                {
+                    "title": "I. Khu Nhân Vật",
+                    "titleraw": "I. Khu Nhân Vật",
+                    "content": "Sau khi bắt đầu, tất cả Thẻ Nhân Vật trong bộ bài được đặt ở Khu Nhân Vật.\n(1) Góc trên bên trái Thẻ Nhân Vật hiển thị HP nhân vật. HP sẽ giảm khi nhân vật chịu sát thương, khi HP là 0 thì nhân vật sẽ bị đánh bại.\n(2) Bên phải Thẻ Nhân Vật hiển thị Năng Lượng nhân vật. Sau khi nhân vật đầy Năng Lượng, có thể dùng Kỹ Năng Nộ uy lực mạnh mẽ!\n(3) Mỗi bài thủ đều có 1 nhân vật xuất chiến. Chỉ nhân vật xuất chiến mới được dùng kỹ năng, và chỉ nhân vật xuất chiến mới bị kỹ năng của đối phương tấn công. Thẻ Nhân Vật trở thành nhân vật xuất chiến, sẽ được đặt ra phía trước để thể hiện.\n(4) Các nhân vật khác chưa xuất chiến được gọi là nhân vật dự bị. Có thể đổi nhân vật để chuyển thành nhân vật xuất chiến.\n(5) Nếu nhân vật xuất chiến bị đánh bại thì bài thủ cần chọn 1 nhân vật dự bị trở thành nhân vật xuất chiến mới.",
+                    "contentraw": "Sau khi bắt đầu, tất cả Thẻ Nhân Vật trong bộ bài được đặt ở Khu Nhân Vật.\\n(1) Góc trên bên trái Thẻ Nhân Vật hiển thị HP nhân vật. HP sẽ giảm khi nhân vật chịu sát thương, khi HP là 0 thì nhân vật sẽ bị đánh bại.\\n(2) Bên phải Thẻ Nhân Vật hiển thị Năng Lượng nhân vật. Sau khi nhân vật đầy Năng Lượng, có thể dùng Kỹ Năng Nộ uy lực mạnh mẽ!\\n(3) Mỗi bài thủ đều có 1 nhân vật xuất chiến. Chỉ nhân vật xuất chiến mới được dùng kỹ năng, và chỉ nhân vật xuất chiến mới bị kỹ năng của đối phương tấn công. Thẻ Nhân Vật trở thành nhân vật xuất chiến, sẽ được đặt ra phía trước để thể hiện.\\n(4) Các nhân vật khác chưa xuất chiến được gọi là nhân vật dự bị. Có thể đổi nhân vật để chuyển thành nhân vật xuất chiến.\\n(5) Nếu nhân vật xuất chiến bị đánh bại thì bài thủ cần chọn 1 nhân vật dự bị trở thành nhân vật xuất chiến mới."
+                },
+                {
+                    "title": "II. Áp Dụng Lên Nhân Vật",
+                    "titleraw": "II. Áp Dụng Lên Nhân Vật",
+                    "content": "Mỗi Thẻ Nhân Vật đều có thể áp dụng Thẻ Trang Bị, Trạng Thái, Hiệu Ứng Xuất Chiến.\n(1) Thẻ Trang Bị sau khi đánh ra cho nhân vật sẽ áp dụng lên Thẻ Nhân Vật. Mỗi nhân vật tối đa trang bị 1 Vũ Khí, 1 Thánh Di Vật và trang bị khác bất kỳ.\n(2) Một số kỹ năng nhân vật sẽ tạo ra trạng thái và áp dụng lên Thẻ Nhân Vật.\n(3) Một số kỹ năng nhân vật sẽ tạo ra Hiệu Ứng Xuất Chiến và áp dụng lên nhân vật xuất chiến. Khi nhân vật xuất chiến bị đổi thành nhân vật dự bị, Hiệu Ứng Xuất Chiến sẽ di chuyển sang nhân vật xuất chiến mới.",
+                    "contentraw": "Mỗi Thẻ Nhân Vật đều có thể áp dụng Thẻ Trang Bị, Trạng Thái, Hiệu Ứng Xuất Chiến.\\n(1) Thẻ Trang Bị sau khi đánh ra cho nhân vật sẽ áp dụng lên Thẻ Nhân Vật. Mỗi nhân vật tối đa trang bị 1 Vũ Khí, 1 Thánh Di Vật và trang bị khác bất kỳ.\\n(2) Một số kỹ năng nhân vật sẽ tạo ra trạng thái và áp dụng lên Thẻ Nhân Vật.\\n(3) Một số kỹ năng nhân vật sẽ tạo ra Hiệu Ứng Xuất Chiến và áp dụng lên nhân vật xuất chiến. Khi nhân vật xuất chiến bị đổi thành nhân vật dự bị, Hiệu Ứng Xuất Chiến sẽ di chuyển sang nhân vật xuất chiến mới."
+                },
+                {
+                    "title": "III. Khu Chi Viện",
+                    "titleraw": "III. Khu Chi Viện",
+                    "content": "Sau khi đánh ra Thẻ Hỗ Trợ sẽ đặt vào Khu Chi Viện.\nKhu Chi Viện tối đa đặt 4 Thẻ Hỗ Trợ. Khi đã đầy, nếu đánh ra thêm Thẻ Hỗ Trợ mới thì cần phải chọn 1 Thẻ Hỗ Trợ trong Khu Chi Viện để bỏ đi.\n(Khi tổng kết cùng lúc hiệu quả của nhiều Thẻ Hỗ Trợ, sẽ tổng kết lần lượt theo thứ tự trong Khu Chi Viện.)",
+                    "contentraw": "Sau khi đánh ra Thẻ Hỗ Trợ sẽ đặt vào Khu Chi Viện.\\nKhu Chi Viện tối đa đặt 4 Thẻ Hỗ Trợ. Khi đã đầy, nếu đánh ra thêm Thẻ Hỗ Trợ mới thì cần phải chọn 1 Thẻ Hỗ Trợ trong Khu Chi Viện để bỏ đi.\\n(Khi tổng kết cùng lúc hiệu quả của nhiều Thẻ Hỗ Trợ, sẽ tổng kết lần lượt theo thứ tự trong Khu Chi Viện.)"
+                },
+                {
+                    "title": "IV. Khu Vật Triệu Hồi",
+                    "titleraw": "IV. Khu Vật Triệu Hồi",
+                    "content": "Một số kỹ năng nhân vật sẽ sinh ra vật triệu hồi tại Khu Vật Triệu Hồi.\nKhu Vật Triệu Hồi tối đa đặt 4 vật triệu hồi. Sau khi đầy sẽ không thể sinh ra vật triệu hồi mới.\n(Khi tổng kết hiệu quả nhiều vật triệu hồi cùng lúc, sẽ căn cứ theo thứ tự trong Khu Vật Triệu Hồi để tổng kết.)",
+                    "contentraw": "Một số kỹ năng nhân vật sẽ sinh ra vật triệu hồi tại Khu Vật Triệu Hồi.\\nKhu Vật Triệu Hồi tối đa đặt 4 vật triệu hồi. Sau khi đầy sẽ không thể sinh ra vật triệu hồi mới.\\n(Khi tổng kết hiệu quả nhiều vật triệu hồi cùng lúc, sẽ căn cứ theo thứ tự trong Khu Vật Triệu Hồi để tổng kết.)"
+                },
+                {
+                    "title": "V. Xấp Bài",
+                    "titleraw": "V. Xấp Bài",
+                    "content": "Trước khi bắt đầu trò chơi, sẽ xào tất cả Thẻ Hành Động trong bộ bài để hình thành xấp bài.\nKhi rút bài, sẽ bắt đầu rút Thẻ Hành Động phía trên cùng của xấp bài. Lúc này nếu xấp bài đã hết thẻ bài, thì bài thủ sẽ không nhận được thẻ bài.",
+                    "contentraw": "Trước khi bắt đầu trò chơi, sẽ xào tất cả Thẻ Hành Động trong bộ bài để hình thành xấp bài.\\nKhi rút bài, sẽ bắt đầu rút Thẻ Hành Động phía trên cùng của xấp bài. Lúc này nếu xấp bài đã hết thẻ bài, thì bài thủ sẽ không nhận được thẻ bài."
+                },
+                {
+                    "title": "VI. Thẻ Bài",
+                    "titleraw": "VI. Thẻ Bài",
+                    "content": "Sau khi bắt đầu trò chơi, rút 5 thẻ từ xấp bài để làm thẻ bài khởi đầu.\nKhi kết thúc mỗi hiệp, mỗi phe rút 2 thẻ bài.\nChỉ có Thẻ Hành Động trong tay mới được đánh ra và dùng cho Điều Tiết Nguyên Tố.\nThẻ bài có giới hạn là 10 thẻ. Sau khi đạt giới hạn, nếu rút thêm thẻ bài sẽ tự động hủy bỏ.",
+                    "contentraw": "Sau khi bắt đầu trò chơi, rút 5 thẻ từ xấp bài để làm thẻ bài khởi đầu.\\nKhi kết thúc mỗi hiệp, mỗi phe rút 2 thẻ bài.\\nChỉ có Thẻ Hành Động trong tay mới được đánh ra và dùng cho Điều Tiết Nguyên Tố.\\nThẻ bài có giới hạn là 10 thẻ. Sau khi đạt giới hạn, nếu rút thêm thẻ bài sẽ tự động hủy bỏ."
+                }
+            ]
+        },
+        "elementalreactionseffects": {
+            "id": 6,
+            "name": "Hiệu Quả Phản Ứng Nguyên Tố",
+            "rules": [
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_CRYO",
+                        "elementtwo": "GCG_ELEMENT_PYRO"
+                    },
+                    "title": "Tan Chảy",
+                    "titleraw": "Tan Chảy",
+                    "content": "Sát thương này +2",
+                    "contentraw": "Sát thương này +2"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_HYDRO",
+                        "elementtwo": "GCG_ELEMENT_PYRO"
+                    },
+                    "title": "Bốc Hơi",
+                    "titleraw": "Bốc Hơi",
+                    "content": "Sát thương này +2",
+                    "contentraw": "Sát thương này +2"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_PYRO"
+                    },
+                    "title": "Quá Tải",
+                    "titleraw": "Quá Tải",
+                    "content": "Sát thương này +2; Nếu mục tiêu là \"nhân vật xuất chiến\" sẽ cưỡng chế đổi sang nhân vật kế tiếp",
+                    "contentraw": "Sát thương này +2; Nếu mục tiêu là \"nhân vật xuất chiến\" sẽ cưỡng chế đổi sang nhân vật kế tiếp"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_CRYO"
+                    },
+                    "title": "Siêu Dẫn",
+                    "titleraw": "Siêu Dẫn",
+                    "content": "Sát thương này +1, gây 1 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật phe địch trừ mục tiêu",
+                    "contentraw": "Sát thương này +1, gây 1 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật phe địch trừ mục tiêu"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_HYDRO"
+                    },
+                    "title": "Điện Cảm",
+                    "titleraw": "Điện Cảm",
+                    "content": "Sát thương này +1, gây 1 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật phe địch trừ mục tiêu",
+                    "contentraw": "Sát thương này +1, gây 1 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật phe địch trừ mục tiêu"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_CRYO",
+                        "elementtwo": "GCG_ELEMENT_HYDRO"
+                    },
+                    "title": "Đóng Băng",
+                    "titleraw": "Đóng Băng",
+                    "content": "Sát thương này +1, khiến nhân vật mục tiêu bị trạng thái Đóng Băng:\nNhân vật không thể dùng kỹ năng (trạng thái này duy trì cho đến khi kết thúc hiệp);\nKhi nhân vật chịu Sát Thương Nguyên Tố Hỏa hoặc Sát Thương Vật Lý sẽ +2 sát thương, và xóa trạng thái này.",
+                    "contentraw": "Sát thương này +1, khiến nhân vật mục tiêu bị trạng thái <color=#FFFFFFFF>Đóng Băng</color>:\\nNhân vật <color=#FFFFFFFF>không thể dùng kỹ năng</color> (trạng thái này duy trì cho đến khi kết thúc hiệp);\\nKhi nhân vật chịu {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> hoặc {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color> sẽ +2 sát thương, và xóa trạng thái này."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_CRYO",
+                        "elementtwo": "GCG_ELEMENT_ANEMO"
+                    },
+                    "title": "Khuếch Tán",
+                    "titleraw": "Khuếch Tán",
+                    "content": "Gây 1 điểm Sát Thương Nguyên Tố Băng cho tất cả nhân vật phe địch trừ mục tiêu",
+                    "contentraw": "Gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color> cho tất cả nhân vật phe địch trừ mục tiêu"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_HYDRO",
+                        "elementtwo": "GCG_ELEMENT_ANEMO"
+                    },
+                    "title": "Khuếch Tán",
+                    "titleraw": "Khuếch Tán",
+                    "content": "Gây 1 điểm Sát Thương Nguyên Tố Thủy cho tất cả nhân vật phe địch trừ mục tiêu",
+                    "contentraw": "Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color> cho tất cả nhân vật phe địch trừ mục tiêu"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_PYRO",
+                        "elementtwo": "GCG_ELEMENT_ANEMO"
+                    },
+                    "title": "Khuếch Tán",
+                    "titleraw": "Khuếch Tán",
+                    "content": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa cho tất cả nhân vật phe địch trừ mục tiêu",
+                    "contentraw": "Gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> cho tất cả nhân vật phe địch trừ mục tiêu"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_ANEMO"
+                    },
+                    "title": "Khuếch Tán",
+                    "titleraw": "Khuếch Tán",
+                    "content": "Gây 1 điểm Sát Thương Nguyên Tố Lôi cho tất cả nhân vật phe địch trừ mục tiêu",
+                    "contentraw": "Gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color> cho tất cả nhân vật phe địch trừ mục tiêu"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_CRYO",
+                        "elementtwo": "GCG_ELEMENT_GEO"
+                    },
+                    "title": "Kết Tinh",
+                    "titleraw": "Kết Tinh",
+                    "content": "Sát thương này +1, cung cấp 1 điểm  Khiên, bảo vệ nhân vật xuất chiến phe ta (Khiên có thể cộng dồn, tối đa 2 điểm).",
+                    "contentraw": "Sát thương này +1, cung cấp 1 điểm {SPRITE_PRESET#4007} <color=#FFFFFFFF>Khiên</color>, bảo vệ nhân vật xuất chiến phe ta (Khiên có thể cộng dồn, tối đa 2 điểm)."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_HYDRO",
+                        "elementtwo": "GCG_ELEMENT_GEO"
+                    },
+                    "title": "Kết Tinh",
+                    "titleraw": "Kết Tinh",
+                    "content": "Sát thương này +1, cung cấp 1 điểm  Khiên, bảo vệ nhân vật xuất chiến phe ta (Khiên có thể cộng dồn, tối đa 2 điểm).",
+                    "contentraw": "Sát thương này +1, cung cấp 1 điểm {SPRITE_PRESET#4007} <color=#FFFFFFFF>Khiên</color>, bảo vệ nhân vật xuất chiến phe ta (Khiên có thể cộng dồn, tối đa 2 điểm)."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_PYRO",
+                        "elementtwo": "GCG_ELEMENT_GEO"
+                    },
+                    "title": "Kết Tinh",
+                    "titleraw": "Kết Tinh",
+                    "content": "Sát thương này +1, cung cấp 1 điểm  Khiên, bảo vệ nhân vật xuất chiến phe ta (Khiên có thể cộng dồn, tối đa 2 điểm).",
+                    "contentraw": "Sát thương này +1, cung cấp 1 điểm {SPRITE_PRESET#4007} <color=#FFFFFFFF>Khiên</color>, bảo vệ nhân vật xuất chiến phe ta (Khiên có thể cộng dồn, tối đa 2 điểm)."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_GEO"
+                    },
+                    "title": "Kết Tinh",
+                    "titleraw": "Kết Tinh",
+                    "content": "Sát thương này +1, cung cấp 1 điểm  Khiên, bảo vệ nhân vật xuất chiến phe ta (Khiên có thể cộng dồn, tối đa 2 điểm).",
+                    "contentraw": "Sát thương này +1, cung cấp 1 điểm {SPRITE_PRESET#4007} <color=#FFFFFFFF>Khiên</color>, bảo vệ nhân vật xuất chiến phe ta (Khiên có thể cộng dồn, tối đa 2 điểm)."
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_PYRO",
+                        "elementtwo": "GCG_ELEMENT_DENDRO"
+                    },
+                    "title": "Thiêu Đốt",
+                    "titleraw": "Thiêu Đốt",
+                    "content": "Sát thương này +1, sinh ra [Lửa Thiêu Đốt]:\nGiai Đoạn Kết Thúc: Gây 1 điểm  Sát Thương Nguyên Tố Hỏa. (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)",
+                    "contentraw": "Sát thương này +1, sinh ra [<color=#FFFFFFFF>Lửa Thiêu Đốt</color>]:\\nGiai Đoạn Kết Thúc: Gây 1 điểm {SPRITE_PRESET#2103} <color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>. (Có thể dùng 1 lần, tối đa cộng dồn 2 lần)"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_HYDRO",
+                        "elementtwo": "GCG_ELEMENT_DENDRO"
+                    },
+                    "title": "Sum Suê",
+                    "titleraw": "Sum Suê",
+                    "content": "Sát thương này +1, sinh ra [Hạt Nhân Thảo]:\nKhi phe ta gây  Sát Thương Nguyên Tố Hỏa hoặc  Sát Thương Nguyên Tố Lôi cho nhân vật xuất chiến phe địch, sẽ +2 sát thương. (Có thể dùng 1 lần)",
+                    "contentraw": "Sát thương này +1, sinh ra [<color=#FFFFFFFF>Hạt Nhân Thảo</color>]:\\nKhi phe ta gây {SPRITE_PRESET#2103} <color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> hoặc {SPRITE_PRESET#2104} <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color> cho nhân vật xuất chiến phe địch, sẽ +2 sát thương. (Có thể dùng 1 lần)"
+                },
+                {
+                    "reaction": {
+                        "elementone": "GCG_ELEMENT_ELECTRO",
+                        "elementtwo": "GCG_ELEMENT_DENDRO"
+                    },
+                    "title": "Sinh Trưởng",
+                    "titleraw": "Sinh Trưởng",
+                    "content": "Sát thương này +1, sinh ra [Khu Vực Xúc Tác]:\nKhi phe ta gây  Sát Thương Nguyên Tố Lôi hoặc Sát Thương Nguyên Tố Thảo cho nhân vật xuất chiến phe địch, sẽ +1 sát thương. (Có thể dùng 2 lần)",
+                    "contentraw": "Sát thương này +1, sinh ra [<color=#FFFFFFFF>Khu Vực Xúc Tác</color>]:\\nKhi phe ta gây {SPRITE_PRESET#2104} <color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color> hoặc {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color> cho nhân vật xuất chiến phe địch, sẽ +1 sát thương. (Có thể dùng 2 lần)"
+                }
+            ]
+        },
+        "specialentry": {
+            "id": 8,
+            "name": "Mục Đặc Biệt",
+            "rules": [
+                {
+                    "title": "Món Ăn",
+                    "titleraw": "{SPRITE_PRESET#3101}Món Ăn",
+                    "content": "Khi Thẻ Sự Kiện Món Ăn có hiệu lực với nhân vật, nhân vật sẽ vào trạng thái No Bụng.\nNhân vật trong trạng thái No Bụng, không thể trở thành mục tiêu của Thẻ Sự Kiện Món Ăn khác, cũng không bị ảnh hưởng bởi hiệu quả của Thẻ Sự Kiện Món Ăn khác.\nTrạng thái No Bụng sẽ xóa khi kết thúc hiệp hoặc nhân vật bị đánh bại.\nNgoài ra, sau khi đánh ra Thẻ Sự Kiện Món Ăn có hiệu quả \"Hồi Sinh\", trong hiệp này không thể đánh ra Thẻ Sự Kiện Món Ăn có hiệu quả \"Hồi Sinh\" nữa.",
+                    "contentraw": "Khi Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn có hiệu lực với nhân vật, nhân vật sẽ vào trạng thái No Bụng.\\nNhân vật trong trạng thái No Bụng, không thể trở thành mục tiêu của Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn khác, cũng không bị ảnh hưởng bởi hiệu quả của Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn khác.\\nTrạng thái No Bụng sẽ xóa khi kết thúc hiệp hoặc nhân vật bị đánh bại.\\nNgoài ra, sau khi đánh ra Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn có hiệu quả \"Hồi Sinh\", trong hiệp này không thể đánh ra Thẻ Sự Kiện {SPRITE_PRESET#3101}Món Ăn có hiệu quả \"Hồi Sinh\" nữa."
+                },
+                {
+                    "title": "Khiên",
+                    "titleraw": "{SPRITE_PRESET#4007}Khiên",
+                    "content": "Một số hiệu quả sẽ tạo ra khiên để bảo vệ nhân vật nhất định.\nNhân vật được khiên bảo vệ khi chịu sát thương, sẽ tiêu hao điểm khiên để giảm bớt sát thương.",
+                    "contentraw": "Một số hiệu quả sẽ tạo ra khiên để bảo vệ nhân vật nhất định.\\nNhân vật được khiên bảo vệ khi chịu sát thương, sẽ tiêu hao điểm khiên để giảm bớt sát thương."
+                },
+                {
+                    "title": "Số Lần Sử Dụng",
+                    "titleraw": "Số Lần Sử Dụng",
+                    "content": "Một số thẻ bài hoặc trạng thái có giới hạn số lần sử dụng.\nMỗi lần kích hoạt hiệu quả thẻ bài này sẽ tiêu hao 1 lần sử dụng.\nSau khi hết lượt dùng sẽ lập tức hủy bỏ thẻ bài này.",
+                    "contentraw": "Một số thẻ bài hoặc trạng thái có giới hạn số lần sử dụng.\\nMỗi lần kích hoạt hiệu quả thẻ bài này sẽ tiêu hao 1 lần sử dụng.\\nSau khi hết lượt dùng sẽ lập tức hủy bỏ thẻ bài này."
+                },
+                {
+                    "title": "Số Hiệp Duy Trì",
+                    "titleraw": "Số Hiệp Duy Trì",
+                    "content": "Một số thẻ bài hoặc trạng thái có giới hạn số hiệp duy trì.\nMỗi Giai Đoạn Kết Thúc đều sẽ giảm 1 hiệp duy trì.\nSau khi hết số hiệp duy trì sẽ lập tức hủy bỏ thẻ bài này.",
+                    "contentraw": "Một số thẻ bài hoặc trạng thái có giới hạn số hiệp duy trì.\\nMỗi Giai Đoạn Kết Thúc đều sẽ giảm 1 hiệp duy trì.\\nSau khi hết số hiệp duy trì sẽ lập tức hủy bỏ thẻ bài này."
+                },
+                {
+                    "title": "Sát Thương Xuyên Thấu",
+                    "titleraw": "Sát Thương Xuyên Thấu",
+                    "content": "Một số hiệu quả sẽ tạo ra Sát Thương Xuyên Thấu.\nSát thương xuyên thấu sẽ không nhận buff sát thương từ hiệu quả khác, và cũng không chịu ảnh hưởng của hiệu quả khiên.",
+                    "contentraw": "Một số hiệu quả sẽ tạo ra Sát Thương Xuyên Thấu.\\nSát thương xuyên thấu sẽ không nhận buff sát thương từ hiệu quả khác, và cũng không chịu ảnh hưởng của hiệu quả khiên."
+                },
+                {
+                    "title": "Hành Động Chiến Đấu - Thẻ Hành Động",
+                    "titleraw": "Hành Động Chiến Đấu - Thẻ Hành Động",
+                    "content": "Một số Thẻ Hành Động sẽ có quy tắc Hành Động Chiến Đấu.\nĐánh ra thẻ bài có quy tắc này, sẽ được xem là tiến hành Hành Động Chiến Đấu, chứ không phải Hành Động Nhanh thông thường.",
+                    "contentraw": "Một số Thẻ Hành Động sẽ có quy tắc Hành Động Chiến Đấu.\\nĐánh ra thẻ bài có quy tắc này, sẽ được xem là tiến hành Hành Động Chiến Đấu, chứ không phải Hành Động Nhanh thông thường."
+                },
+                {
+                    "title": "Trọng Kích",
+                    "titleraw": "Trọng Kích",
+                    "content": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\".",
+                    "contentraw": "Trước khi phe ta hành động, nếu tổng số xúc xắc là số chẵn, thì \"Tấn Công Thường\" sẽ được xem là \"Trọng Kích\"."
+                },
+                {
+                    "title": "Tấn Công Khi Đáp",
+                    "titleraw": "Tấn Công Khi Đáp",
+                    "content": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\".",
+                    "contentraw": "Sau khi nhân vật được đổi thành \"Nhân Vật Xuất Chiến\", hành động chiến đấu tiếp theo trong hiệp này nếu là \"Tấn Công Thường\" sẽ được xem như \"Tấn Công Khi Đáp\"."
+                }
+            ]
+        },
+        "takeaction": {
+            "id": 3,
+            "name": "Hành Động",
+            "rules": [
+                {
+                    "title": "Hành Động",
+                    "titleraw": "Hành Động",
+                    "content": "Trong Giai Đoạn Hành Động, các hành động được chia làm Hành Động Chiến Đấu và Hành Động Nhanh.\nHành Động Chiến Đấu: Sau khi hoàn thành 1 Hành Động Chiến Đấu, sẽ đến lượt đối phương hành động. Dùng kỹ năng, đổi nhân vật, tuyên bố kết thúc đều là Hành Động Chiến Đấu.\nHành Động Nhanh: Sau khi hoàn thành 1 Hành Động Nhanh, phe ta có thể tiếp tục hành động. Ra bài và Điều Tiết Nguyên Tố là Hành Động Nhanh.",
+                    "contentraw": "Trong Giai Đoạn Hành Động, các hành động được chia làm Hành Động Chiến Đấu và Hành Động Nhanh.\\n<color=#FFE14BFF>Hành Động Chiến Đấu</color>: Sau khi hoàn thành 1 Hành Động Chiến Đấu, sẽ đến lượt đối phương hành động. Dùng kỹ năng, đổi nhân vật, tuyên bố kết thúc đều là Hành Động Chiến Đấu.\\n<color=#FFE14BFF>Hành Động Nhanh</color>: Sau khi hoàn thành 1 Hành Động Nhanh, phe ta có thể tiếp tục hành động. Ra bài và Điều Tiết Nguyên Tố là Hành Động Nhanh."
+                },
+                {
+                    "title": "Hành Động Chiến Đấu - Dùng Kỹ Năng",
+                    "titleraw": "Hành Động Chiến Đấu - Dùng Kỹ Năng",
+                    "content": "Tiêu hao Xúc Xắc Nguyên Tố chi trả chi phí cần thiết, để nhân vật xuất chiến phe ta dùng kỹ năng tấn công nhân vật xuất chiến của đối phương.\nSau mỗi lần nhân vật dùng tấn công thường hoặc Kỹ Năng Nguyên Tố, sẽ nhận 1 điểm Năng Lượng.\nSau khi nhân vật đầy Năng Lượng, có thể tiêu hao toàn bộ Năng Lượng để dùng Kỹ Năng Nộ uy lực mạnh mẽ!",
+                    "contentraw": "Tiêu hao Xúc Xắc Nguyên Tố chi trả chi phí cần thiết, để nhân vật xuất chiến phe ta dùng kỹ năng tấn công nhân vật xuất chiến của đối phương.\\nSau mỗi lần nhân vật dùng tấn công thường hoặc Kỹ Năng Nguyên Tố, sẽ nhận 1 điểm Năng Lượng.\\nSau khi nhân vật đầy Năng Lượng, có thể tiêu hao toàn bộ Năng Lượng để dùng Kỹ Năng Nộ uy lực mạnh mẽ!"
+                },
+                {
+                    "title": "Hành Động Chiến Đấu - Đổi Nhân Vật",
+                    "titleraw": "Hành Động Chiến Đấu - Đổi Nhân Vật",
+                    "content": "Tiêu hao 1 Xúc Xắc Nguyên Tố loại bất kỳ để đổi nhân vật dự bị phe ta thành nhân vật xuất chiến.",
+                    "contentraw": "Tiêu hao 1 Xúc Xắc Nguyên Tố loại bất kỳ để đổi nhân vật dự bị phe ta thành nhân vật xuất chiến."
+                },
+                {
+                    "title": "Hành Động Nhanh - Ra Bài",
+                    "titleraw": "Hành Động Nhanh - Ra Bài",
+                    "content": "Tiêu hao Xúc Xắc Nguyên Tố để đánh ra 1 thẻ bài. Thẻ bài gồm các loại sau:\nThẻ Trang Bị: Trang bị trên người một nhân vật để cung cấp hiệu quả cường hóa nhân vật này.\nThẻ Hỗ Trợ: Đặt ở Khu Chi Viện phe ta, duy trì phát huy hiệu quả hỗ trợ.\nThẻ Sự Kiện: Sau khi đánh ra sẽ tổng kết mọi hiệu quả trong một lần.",
+                    "contentraw": "Tiêu hao Xúc Xắc Nguyên Tố để đánh ra 1 thẻ bài. Thẻ bài gồm các loại sau:\\n<color=#FFE14BFF>Thẻ Trang Bị</color>: Trang bị trên người một nhân vật để cung cấp hiệu quả cường hóa nhân vật này.\\n<color=#FFE14BFF>Thẻ Hỗ Trợ</color>: Đặt ở Khu Chi Viện phe ta, duy trì phát huy hiệu quả hỗ trợ.\\n<color=#FFE14BFF>Thẻ Sự Kiện</color>: Sau khi đánh ra sẽ tổng kết mọi hiệu quả trong một lần."
+                },
+                {
+                    "title": "Hành Động Nhanh - Điều Tiết Nguyên Tố",
+                    "titleraw": "Hành Động Nhanh - Điều Tiết Nguyên Tố",
+                    "content": "Vứt bỏ 1 thẻ bài để chuyển 1 Xúc Xắc Nguyên Tố thành loại nguyên tố của nhân vật xuất chiến hiện tại của phe ta.",
+                    "contentraw": "Vứt bỏ 1 thẻ bài để chuyển 1 Xúc Xắc Nguyên Tố thành loại nguyên tố của nhân vật xuất chiến hiện tại của phe ta."
+                },
+                {
+                    "title": "Hành Động Chiến Đấu - Tuyên Bố Kết Thúc",
+                    "titleraw": "Hành Động Chiến Đấu - Tuyên Bố Kết Thúc",
+                    "content": "Từ bỏ hành động hiệp này, tuyên bố kết thúc hiệp.\nBài thủ tuyên bố kết thúc trước sẽ trở thành bài thủ đi trước, trong Giai Đoạn Hành Động ở hiệp sau sẽ được ưu tiên hành động trước.\nBài thủ chưa tuyên bố kết thúc hiệp có thể tiếp tục hành động cho đến khi tuyên bố kết thúc.\nSau khi hai phe tuyên bố kết thúc hiệp, sẽ kết thúc Giai Đoạn Hành Động và bước vào Giai Đoạn Kết Thúc.",
+                    "contentraw": "Từ bỏ hành động hiệp này, tuyên bố kết thúc hiệp.\\nBài thủ tuyên bố kết thúc trước sẽ trở thành bài thủ đi trước, trong Giai Đoạn Hành Động ở hiệp sau sẽ được ưu tiên hành động trước.\\nBài thủ chưa tuyên bố kết thúc hiệp có thể tiếp tục hành động cho đến khi tuyên bố kết thúc.\\nSau khi hai phe tuyên bố kết thúc hiệp, sẽ kết thúc Giai Đoạn Hành Động và bước vào Giai Đoạn Kết Thúc."
+                }
+            ]
+        },
+        "roundflow": {
+            "id": 2,
+            "name": "Quy Trình Hiệp Đấu",
+            "rules": [
+                {
+                    "title": "Quy Trình Hiệp Đấu",
+                    "titleraw": "Quy Trình Hiệp Đấu",
+                    "content": "Mỗi hiệp đều tiến hành theo thứ tự Giai Đoạn Gieo Xúc Xắc > Giai Đoạn Hành Động > Giai Đoạn Kết Thúc.",
+                    "contentraw": "Mỗi hiệp đều tiến hành theo thứ tự Giai Đoạn Gieo Xúc Xắc > Giai Đoạn Hành Động > Giai Đoạn Kết Thúc.",
+                    "filename_image": "UI_Gcg_InSide_11"
+                },
+                {
+                    "title": "Giai Đoạn Gieo Xúc Xắc",
+                    "titleraw": "Giai Đoạn Gieo Xúc Xắc",
+                    "content": "Giai Đoạn Gieo Xúc Xắc trong mỗi hiệp, bạn sẽ gieo 8 Xúc Xắc Nguyên Tố.\nSau khi gieo, bạn còn có 1 cơ hội chọn Xúc Xắc Nguyên Tố số lượng bất kỳ để gieo lại.\nMỗi Xúc Xắc Nguyên Tố đều có 7 loại nguyên tố Băng, Thủy, Hỏa, Lôi, Phong, Nham, Thảo và Nguyên Tố Vạn Năng có thể dùng như bất kỳ loại nguyên tố nào.\nSố lượng Xúc Xắc Nguyên Tố tối đa là 16, sau khi đạt đến giới hạn này, bạn sẽ không thể nhận thêm Xúc Xắc Nguyên Tố.",
+                    "contentraw": "Giai Đoạn Gieo Xúc Xắc trong mỗi hiệp, bạn sẽ gieo 8 Xúc Xắc Nguyên Tố.\\nSau khi gieo, bạn còn có 1 cơ hội chọn Xúc Xắc Nguyên Tố số lượng bất kỳ để gieo lại.\\nMỗi Xúc Xắc Nguyên Tố đều có 7 loại nguyên tố Băng, Thủy, Hỏa, Lôi, Phong, Nham, Thảo và Nguyên Tố Vạn Năng có thể dùng như bất kỳ loại nguyên tố nào.\\nSố lượng Xúc Xắc Nguyên Tố tối đa là 16, sau khi đạt đến giới hạn này, bạn sẽ không thể nhận thêm Xúc Xắc Nguyên Tố."
+                },
+                {
+                    "title": "Giai Đoạn Hành Động",
+                    "titleraw": "Giai Đoạn Hành Động",
+                    "content": "Bắt đầu từ bài thủ đi trước, hai bên lần lượt hành động. Các hành động bao gồm:\n[Dùng Kỹ Năng] Chi trả chi phí cần thiết để dùng kỹ năng của nhân vật xuất chiến.\n[Đổi Nhân Vật] Tiêu hao 1 Xúc Xắc Nguyên Tố bất kỳ để đổi nhân vật xuất chiến.\n[Ra Bài] Chi trả chi phí cần thiết để ra bài.\n[Điều Tiết Nguyên Tố] Bỏ đi 1 thẻ bài để thay đổi chủng loại 1 Xúc Xắc Nguyên Tố.\n[Tuyên Bố Kết Thúc] Kết thúc hành động hiệp này. Bài thủ tuyên bố kết thúc trước trong mỗi hiệp, sẽ trở thành bài thủ đi trước.",
+                    "contentraw": "Bắt đầu từ bài thủ đi trước, hai bên lần lượt hành động. Các hành động bao gồm:\\n<color=#FFE14BFF>[Dùng Kỹ Năng]</color> Chi trả chi phí cần thiết để dùng kỹ năng của nhân vật xuất chiến.\\n<color=#FFE14BFF>[Đổi Nhân Vật]</color> Tiêu hao 1 Xúc Xắc Nguyên Tố bất kỳ để đổi nhân vật xuất chiến.\\n<color=#FFE14BFF>[Ra Bài]</color> Chi trả chi phí cần thiết để ra bài.\\n<color=#FFE14BFF>[Điều Tiết Nguyên Tố]</color> Bỏ đi 1 thẻ bài để thay đổi chủng loại 1 Xúc Xắc Nguyên Tố.\\n<color=#FFE14BFF>[Tuyên Bố Kết Thúc]</color> Kết thúc hành động hiệp này. Bài thủ tuyên bố kết thúc trước trong mỗi hiệp, sẽ trở thành bài thủ đi trước."
+                },
+                {
+                    "title": "Giai Đoạn Kết Thúc",
+                    "titleraw": "Giai Đoạn Kết Thúc",
+                    "content": "Trong Giai Đoạn Hành Động, sau khi tất cả bài thủ đều tuyên bố kết thúc hiệp, sẽ vào Giai Đoạn Kết Thúc.\n1. Bắt đầu từ bài thủ đi trước, xử lý hiệu quả thẻ bài kích hoạt trong Giai Đoạn Kết Thúc.\n2. Mỗi bài thủ sẽ rút 2 thẻ bài từ trong bộ bài của mình.\n3. Bắt đầu hiệp mới!",
+                    "contentraw": "Trong Giai Đoạn Hành Động, sau khi tất cả bài thủ đều tuyên bố kết thúc hiệp, sẽ vào Giai Đoạn Kết Thúc.\\n1. Bắt đầu từ bài thủ đi trước, xử lý hiệu quả thẻ bài kích hoạt trong Giai Đoạn Kết Thúc.\\n2. Mỗi bài thủ sẽ rút 2 thẻ bài từ trong bộ bài của mình.\\n3. Bắt đầu hiệp mới!"
+                }
+            ]
+        },
+        "geniusinvokationtcg": {
+            "id": 1,
+            "name": "Thất Thánh Triệu Hồi",
+            "rules": [
+                {
+                    "title": "Giới Thiệu \"Thất Thánh Triệu Hồi\"",
+                    "titleraw": "Giới Thiệu \"Thất Thánh Triệu Hồi\"",
+                    "content": "\"Thất Thánh Triệu Hồi\" là một trò chơi quyết đấu thẻ bài có tiết tấu nhanh và đối kháng kịch liệt.\nThiết lập bộ bài bao gồm Thẻ Nhân Vật và Thẻ Hành Động, rồi bắt đầu trận chiến kịch liệt với đối thủ!",
+                    "contentraw": "\"Thất Thánh Triệu Hồi\" là một trò chơi quyết đấu thẻ bài có tiết tấu nhanh và đối kháng kịch liệt.\\nThiết lập bộ bài bao gồm Thẻ Nhân Vật và Thẻ Hành Động, rồi bắt đầu trận chiến kịch liệt với đối thủ!",
+                    "filename_image": "UI_Gcg_InSide_01"
+                },
+                {
+                    "title": "Chuẩn Bị",
+                    "titleraw": "Chuẩn Bị",
+                    "content": "(1) Bài thủ hai phe mỗi bên rút 5 thẻ bài khởi đầu, mỗi bên đều có 1 lần cơ hội đổi bài số lượng bất kỳ.\n(2) Mỗi phe chọn cho mình 1 Thẻ Nhân Vật để làm nhân vật xuất chiến.",
+                    "contentraw": "(1) Bài thủ hai phe mỗi bên rút 5 thẻ bài khởi đầu, mỗi bên đều có 1 lần cơ hội đổi bài số lượng bất kỳ.\\n(2) Mỗi phe chọn cho mình 1 Thẻ Nhân Vật để làm nhân vật xuất chiến."
+                },
+                {
+                    "title": "Quy Trình Chiến Đấu",
+                    "titleraw": "Quy Trình Chiến Đấu",
+                    "content": "Sau khi bắt đầu trận đấu \"Thất Thánh Triệu Hồi\", mỗi hiệp sẽ tiến hành theo thứ tự sau:\n(1) Giai Đoạn Gieo Xúc Xắc, hai phe có 8 Xúc Xắc Nguyên Tố để gieo.\n(2) Giai Đoạn Hành Động thì hai phe lần lượt hành động, cho đến khi tuyên bố kết thúc hiệp.\n(3) Giai Đoạn Kết Thúc mỗi phe rút 2 thẻ bài.",
+                    "contentraw": "Sau khi bắt đầu trận đấu \"Thất Thánh Triệu Hồi\", mỗi hiệp sẽ tiến hành theo thứ tự sau:\\n(1) Giai Đoạn Gieo Xúc Xắc, hai phe có 8 Xúc Xắc Nguyên Tố để gieo.\\n(2) Giai Đoạn Hành Động thì hai phe lần lượt hành động, cho đến khi tuyên bố kết thúc hiệp.\\n(3) Giai Đoạn Kết Thúc mỗi phe rút 2 thẻ bài."
+                },
+                {
+                    "title": "Điều Kiện Chiến Thắng",
+                    "titleraw": "Điều Kiện Chiến Thắng",
+                    "content": "Dùng Thẻ Nhân Vật của bạn phát động tấn công, đánh bại Thẻ Nhân Vật của đối phương!\nĐánh bại tất cả Thẻ Nhân Vật của đối phương sẽ giành chiến thắng!",
+                    "contentraw": "Dùng Thẻ Nhân Vật của bạn phát động tấn công, đánh bại Thẻ Nhân Vật của đối phương!\\nĐánh bại tất cả Thẻ Nhân Vật của đối phương sẽ giành chiến thắng!"
+                }
+            ]
+        },
+        "otherrules": {
+            "id": 7,
+            "name": "Quy Tắc Khác",
+            "rules": [
+                {
+                    "title": "Nguyên Tố Tương Đồng",
+                    "titleraw": "{SPRITE_PRESET#1108}Nguyên Tố Tương Đồng",
+                    "content": "Khi đánh ra Thẻ Hành Động cần tốn , cần tiêu hao Xúc Xắc Nguyên Tố loại tương đồng với số lượng chỉ định.\n(Nguyên Tố Vạn Năng được xem như tương đồng với bất kỳ nguyên tố nào.)",
+                    "contentraw": "Khi đánh ra Thẻ Hành Động cần tốn {SPRITE_PRESET#1108}, cần tiêu hao Xúc Xắc Nguyên Tố loại tương đồng với số lượng chỉ định.\\n({SPRITE_PRESET#1111}Nguyên Tố Vạn Năng được xem như tương đồng với bất kỳ nguyên tố nào.)"
+                },
+                {
+                    "title": "Nguyên Tố Không Màu",
+                    "titleraw": "{SPRITE_PRESET#1109}Nguyên Tố Không Màu",
+                    "content": "Khi đánh ra Thẻ Hành Động cần tốn , cần tiêu hao Xúc Xắc Nguyên Tố số lượng nhất định, không giới hạn loại Xúc Xắc Nguyên Tố.",
+                    "contentraw": "Khi đánh ra Thẻ Hành Động cần tốn {SPRITE_PRESET#1109}, cần tiêu hao Xúc Xắc Nguyên Tố số lượng nhất định, không giới hạn loại Xúc Xắc Nguyên Tố."
+                },
+                {
+                    "title": "Đánh Bại",
+                    "titleraw": "Đánh Bại",
+                    "content": "Khi HP của nhân vật giảm còn 0, thì sau khi hoàn thành tổng kết hiệu quả hoặc kỹ năng, nhân vật sẽ bị \"đánh bại\".\nLúc này, trang bị hoặc trạng thái trên người nhân vật đều sẽ bị hủy, năng lượng bị xóa sạch.",
+                    "contentraw": "Khi HP của nhân vật giảm còn 0, thì sau khi hoàn thành tổng kết hiệu quả hoặc kỹ năng, nhân vật sẽ bị \"đánh bại\".\\nLúc này, trang bị hoặc trạng thái trên người nhân vật đều sẽ bị hủy, năng lượng bị xóa sạch."
+                },
+                {
+                    "title": "Không Bị Đánh Bại",
+                    "titleraw": "Không Bị Đánh Bại",
+                    "content": "Một số hiệu quả sẽ khiến nhân vật khi HP giảm còn 0 sẽ \"Không Bị Đánh Bại\", và chữa trị cho nhân vật một lượng HP nhất định.\nLúc này, nhân vật sẽ không bị xem là từng bị \"đánh bại\". (Do vậy trạng thái và trang bị mà nhân vật áp dụng sẽ không bị hủy, năng lượng cũng không bị xóa sạch.)",
+                    "contentraw": "Một số hiệu quả sẽ khiến nhân vật khi HP giảm còn 0 sẽ \"Không Bị Đánh Bại\", và chữa trị cho nhân vật một lượng HP nhất định.\\nLúc này, nhân vật sẽ không bị xem là từng bị \"đánh bại\". (Do vậy trạng thái và trang bị mà nhân vật áp dụng sẽ không bị hủy, năng lượng cũng không bị xóa sạch.)"
+                },
+                {
+                    "title": "Thứ Tự Tổng Kết",
+                    "titleraw": "Thứ Tự Tổng Kết",
+                    "content": "Khi hiệu quả của nhiều thẻ bài cần tổng kết trong cùng một thời gian, sẽ căn cứ theo quy tắc bên dưới để xếp thứ tự tiến hành:\n1. Tổng kết hiệu quả tất cả thẻ bài của bài thủ hiện tại trước, mới tổng kết hiệu quả thẻ bài của bài thủ đối phương.\n2. Hiệu quả thẻ bài của cùng một bài thủ sẽ tổng kết theo thứ tự sau: Thẻ nhân vật, trang bị nhân vật và trạng thái, trạng thái xuất chiến phe, vật triệu hồi, thẻ hỗ trợ.\n3. Hiệu quả của cùng loại thẻ bài của cùng một bài thủ, sẽ tổng kết theo thứ tự vào trận.",
+                    "contentraw": "Khi hiệu quả của nhiều thẻ bài cần tổng kết trong cùng một thời gian, sẽ căn cứ theo quy tắc bên dưới để xếp thứ tự tiến hành:\\n1. Tổng kết hiệu quả tất cả thẻ bài của bài thủ hiện tại trước, mới tổng kết hiệu quả thẻ bài của bài thủ đối phương.\\n2. Hiệu quả thẻ bài của cùng một bài thủ sẽ tổng kết theo thứ tự sau: Thẻ nhân vật, trang bị nhân vật và trạng thái, trạng thái xuất chiến phe, vật triệu hồi, thẻ hỗ trợ.\\n3. Hiệu quả của cùng loại thẻ bài của cùng một bài thủ, sẽ tổng kết theo thứ tự vào trận."
+                }
+            ]
+        }
+    },
+    "meta": {
+        "namemap": {
+            "elementalreactionseffects": "Hiệu Quả Phản Ứng Nguyên Tố",
+            "elementalreactionsrules": "Quy Tắc Phản Ứng Nguyên Tố",
+            "gamearea": "Khu Vực Trò Chơi",
+            "geniusinvokationtcg": "Thất Thánh Triệu Hồi",
+            "otherrules": "Quy Tắc Khác",
+            "roundflow": "Quy Trình Hiệp Đấu",
+            "specialentry": "Mục Đặc Biệt",
+            "takeaction": "Hành Động"
+        },
+        "names": {
+            "Hiệu Quả Phản Ứng Nguyên Tố": "elementalreactionseffects",
+            "Quy Tắc Phản Ứng Nguyên Tố": "elementalreactionsrules",
+            "Khu Vực Trò Chơi": "gamearea",
+            "Thất Thánh Triệu Hồi": "geniusinvokationtcg",
+            "Quy Tắc Khác": "otherrules",
+            "Quy Trình Hiệp Đấu": "roundflow",
+            "Mục Đặc Biệt": "specialentry",
+            "Hành Động": "takeaction"
+        },
+        "aliases": {},
+        "categories": {},
+        "properties": {}
+    }
+}

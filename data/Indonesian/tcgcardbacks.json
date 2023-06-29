@@ -1,0 +1,229 @@
+{
+    "items": {
+        "adept": {
+            "id": 110,
+            "name": "Expert",
+            "description": "Tidak ada teka-teki yang tidak dapat kamu pecahkan, tidak ada sesuatu yang tidak bisa dilewati olehmu. Kami salut!",
+            "descriptionraw": "Tidak ada teka-teki yang tidak dapat kamu pecahkan, tidak ada sesuatu yang tidak bisa dilewati olehmu. Kami salut!",
+            "source": "Didapatkan setelah menyelesaikan semua target pada Panduan Pemain Pertandingan Keempat",
+            "rarity": 3
+        },
+        "dandelionseed": {
+            "id": 117,
+            "name": "Dandelion Seed",
+            "description": "Harapan dan kesabaran adalah dua hal yang berjalan beriringan.",
+            "descriptionraw": "Harapan dan kesabaran adalah dua hal yang berjalan beriringan.",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "cecilia": {
+            "id": 118,
+            "name": "Cecilia",
+            "description": "Apakah hanya mereka yang memiliki angin dan embun adalah satu-satunya yang dapat menikmati cahaya pertama fajar?",
+            "descriptionraw": "Apakah hanya mereka yang memiliki angin dan embun adalah satu-satunya yang dapat menikmati cahaya pertama fajar?",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "origin": {
+            "id": 100,
+            "name": "Origin",
+            "description": "Antara siang dan malam, antara langit dan bumi,\nDi situlah harapan dan impian tinggal.",
+            "descriptionraw": "Antara siang dan malam, antara langit dan bumi,\\nDi situlah harapan dan impian tinggal.",
+            "source": "Dapatkan untuk pertama kalinya",
+            "rarity": 3
+        },
+        "liyue": {
+            "id": 102,
+            "name": "Liyue",
+            "description": "Setiap perjalanan harus dimulai dengan langkah pertama. Bangun Dek-mu dengan kartu yang mantap, dan jalan menuju kemenangan akan semakin mantap juga.",
+            "descriptionraw": "Setiap perjalanan harus dimulai dengan langkah pertama. Bangun Dek-mu dengan kartu yang mantap, dan jalan menuju kemenangan akan semakin mantap juga.",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 4",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "Treasures of the Deck",
+            "description": "Harta karun yang didapatkan, hanya dapat digunakan untuk sementara dan tidak bersifat kekal. Isinya pun selalu berbeda, tidak pernah sama. Kali ini, harta karun tersembunyi apa yang ada di dalam kartu-kartumu?",
+            "descriptionraw": "Harta karun yang didapatkan, hanya dapat digunakan untuk sementara dan tidak bersifat kekal. Isinya pun selalu berbeda, tidak pernah sama. Kali ini, harta karun tersembunyi apa yang ada di dalam kartu-kartumu?",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "Magical Crystal Chunk",
+            "description": "Waktulah yang akan memberikan nilainya.",
+            "descriptionraw": "Waktulah yang akan memberikan nilainya.",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "sumeru": {
+            "id": 104,
+            "name": "Sumeru",
+            "description": "Berpikir satu dua langkah ke depan itu sih amatir namanya. Pemain jagoan biasanya melihat sampai 50 atau 100 langkah ke depan.\nItu sih hal mudah, ya kan?",
+            "descriptionraw": "Berpikir satu dua langkah ke depan itu sih amatir namanya. Pemain jagoan biasanya melihat sampai 50 atau 100 langkah ke depan.\\nItu sih hal mudah, ya kan?",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 8",
+            "rarity": 3
+        },
+        "electrocrystal": {
+            "id": 116,
+            "name": "Electro Crystal",
+            "description": "Apakah metode agresif akan berguna? Hal yang mudah terpicu bukan cuma dia satu-satunya loh!",
+            "descriptionraw": "Apakah metode agresif akan berguna? Hal yang mudah terpicu bukan cuma dia satu-satunya loh!",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "Flaming Flower Stamen",
+            "description": "\"Jiwa duelisku bergetar!\"",
+            "descriptionraw": "\"Jiwa duelisku bergetar!\"",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "Mondstadt",
+            "description": "Kebebasan adalah prinsip pertama dari kartu.\nKamu bebas mengatur dek, bebas memilih lawan, dan bebas memainkan kartu di tangan.\nAtau mungkin kamu bisa menggunakan kebebasan itu untuk tidak bermain sama sekali, dan melakukan hal lain dengan kartu yang ada di tanganmu.",
+            "descriptionraw": "Kebebasan adalah prinsip pertama dari kartu.\\nKamu bebas mengatur dek, bebas memilih lawan, dan bebas memainkan kartu di tangan.\\nAtau mungkin kamu bisa menggunakan kebebasan itu untuk tidak bermain sama sekali, dan melakukan hal lain dengan kartu yang ada di tanganmu.",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 2",
+            "rarity": 3
+        },
+        "amethystlump": {
+            "id": 113,
+            "name": "Amethyst Lump",
+            "description": "Beradaptasi dengan tempatmu berada juga salah satu bentuk kebijaksanaan.",
+            "descriptionraw": "Beradaptasi dengan tempatmu berada juga salah satu bentuk kebijaksanaan.",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "dendrobium": {
+            "id": 120,
+            "name": "Dendrobium",
+            "description": "Andai saja semua pertarungan dapat diselesaikan di atas meja ....",
+            "descriptionraw": "Andai saja semua pertarungan dapat diselesaikan di atas meja ....",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "Mist Flower Corolla",
+            "description": "\"Menyerah dengan anggun adalah akhir yang tak terelakkan.\"",
+            "descriptionraw": "\"Menyerah dengan anggun adalah akhir yang tak terelakkan.\"",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "inazuma": {
+            "id": 103,
+            "name": "Inazuma",
+            "description": "Secepat kilat, itulah yang dibutuhkan dalam memainkan kartu. Kalau kamu bermain cukup cepat, maka kamu bisa memenangkan momen-momen yang menentukan.",
+            "descriptionraw": "Secepat kilat, itulah yang dibutuhkan dalam memainkan kartu. Kalau kamu bermain cukup cepat, maka kamu bisa memenangkan momen-momen yang menentukan.",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 6",
+            "rarity": 3
+        },
+        "crystalchunk": {
+            "id": 111,
+            "name": "Crystal Chunk",
+            "description": "Jika diasah terus, bahan yang cocok juga bisa menunjukkan kualitasnya.",
+            "descriptionraw": "Jika diasah terus, bahan yang cocok juga bisa menunjukkan kualitasnya.",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "glazelily": {
+            "id": 119,
+            "name": "Glaze Lily",
+            "description": "Kisah-kisah kuno tentang alam fana telah berlalu. Sekarang, hanya nama bunga-bunga harum yang tersisa.",
+            "descriptionraw": "Kisah-kisah kuno tentang alam fana telah berlalu. Sekarang, hanya nama bunga-bunga harum yang tersisa.",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        },
+        "legend": {
+            "id": 109,
+            "name": "Legendaris",
+            "description": "Kamu sudah berjalan sejauh ini sebagai seorang pemain, tapi perjalananmu masih panjang.",
+            "descriptionraw": "Kamu sudah berjalan sejauh ini sebagai seorang pemain, tapi perjalananmu masih panjang.",
+            "source": "Didapatkan dari hadiah level meningkatkan Level Pemain ke Lv. 10",
+            "rarity": 3
+        },
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "Lazurite Swirl",
+            "description": "Punggung Kartu spesial yang dilukis secara khusus oleh pelukis ternama, Calx.\n\"Bagaikan Dragon of the East, dengan bebas membentangkan sayapnya di dalam medan pertempuran kecil ini!\"",
+            "descriptionraw": "Punggung Kartu spesial yang dilukis secara khusus oleh pelukis ternama, Calx.\\n\"Bagaikan Dragon of the East, dengan bebas membentangkan sayapnya di dalam medan pertempuran kecil ini!\"",
+            "source": "Dibeli di Toko Kartu",
+            "rarity": 3
+        }
+    },
+    "meta": {
+        "namemap": {
+            "adept": "Expert",
+            "amethystlump": "Amethyst Lump",
+            "cecilia": "Cecilia",
+            "crystalchunk": "Crystal Chunk",
+            "dandelionseed": "Dandelion Seed",
+            "dendrobium": "Dendrobium",
+            "electrocrystal": "Electro Crystal",
+            "flamingflowerstamen": "Flaming Flower Stamen",
+            "glazelily": "Glaze Lily",
+            "inazuma": "Inazuma",
+            "lazuriteswirl": "Lazurite Swirl",
+            "legend": "Legendaris",
+            "liyue": "Liyue",
+            "magicalcrystalchunk": "Magical Crystal Chunk",
+            "mistflowercorolla": "Mist Flower Corolla",
+            "mondstadt": "Mondstadt",
+            "origin": "Origin",
+            "sumeru": "Sumeru",
+            "treasuresofthedeck": "Treasures of the Deck"
+        },
+        "names": {
+            "Expert": "adept",
+            "Amethyst Lump": "amethystlump",
+            "Cecilia": "cecilia",
+            "Crystal Chunk": "crystalchunk",
+            "Dandelion Seed": "dandelionseed",
+            "Dendrobium": "dendrobium",
+            "Electro Crystal": "electrocrystal",
+            "Flaming Flower Stamen": "flamingflowerstamen",
+            "Glaze Lily": "glazelily",
+            "Inazuma": "inazuma",
+            "Lazurite Swirl": "lazuriteswirl",
+            "Legendaris": "legend",
+            "Liyue": "liyue",
+            "Magical Crystal Chunk": "magicalcrystalchunk",
+            "Mist Flower Corolla": "mistflowercorolla",
+            "Mondstadt": "mondstadt",
+            "Origin": "origin",
+            "Sumeru": "sumeru",
+            "Treasures of the Deck": "treasuresofthedeck"
+        },
+        "aliases": {},
+        "categories": {
+            "3": [
+                "adept",
+                "amethystlump",
+                "cecilia",
+                "crystalchunk",
+                "dandelionseed",
+                "dendrobium",
+                "electrocrystal",
+                "flamingflowerstamen",
+                "glazelily",
+                "inazuma",
+                "lazuriteswirl",
+                "legend",
+                "liyue",
+                "magicalcrystalchunk",
+                "mistflowercorolla",
+                "mondstadt",
+                "origin",
+                "sumeru",
+                "treasuresofthedeck"
+            ]
+        },
+        "properties": {
+            "rarity": [
+                3
+            ]
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "items": {
+        "liyue": {
+            "id": 101,
+            "name": "Liyue",
+            "description": "Éternelle comme la lune, durable comme le soleil.\nPar la terre, la colline et le roc, toutes choses prospéreront.",
+            "descriptionraw": "Éternelle comme la lune, durable comme le soleil.\\nPar la terre, la colline et le roc, toutes choses prospéreront.",
+            "source": "Récompense pour avoir atteint le Niv. de joueur 3",
+            "rarity": 4
+        },
+        "sumeru": {
+            "id": 103,
+            "name": "Sumeru",
+            "description": "Ô herbe de la sagesse, ne pleure pas !\nMême l'amertume des vents brûlants doit prendre fin.\nLes pluies bénies tomberont et les fleurs s'épanouiront...\nÉcoute ! La chanson du jardin verdoyant est chantée une fois de plus.",
+            "descriptionraw": "Ô herbe de la sagesse, ne pleure pas !\\nMême l'amertume des vents brûlants doit prendre fin.\\nLes pluies bénies tomberont et les fleurs s'épanouiront...\\nÉcoute ! La chanson du jardin verdoyant est chantée une fois de plus.",
+            "source": "Récompense pour avoir atteint le Niv. de joueur 7",
+            "rarity": 4
+        },
+        "mondstadt": {
+            "id": 100,
+            "name": "Mondstadt",
+            "description": "Le murmure incessant de la brise joue sur les cordes, créant une belle mélodie.\nLa conversation passionnée du vent et des fleurs est soufflée, tombant au cœur de la source claire.",
+            "descriptionraw": "Le murmure incessant de la brise joue sur les cordes, créant une belle mélodie.\\nLa conversation passionnée du vent et des fleurs est soufflée, tombant au cœur de la source claire.",
+            "source": "Obtenu au départ",
+            "rarity": 4
+        },
+        "inazuma": {
+            "id": 102,
+            "name": "Inazuma",
+            "description": "Les éclairs brillent, puis passent, illuminant la solitude du tonnerre.\nLes rêves de folie vont et viennent ; tout est impermanent.",
+            "descriptionraw": "Les éclairs brillent, puis passent, illuminant la solitude du tonnerre.\\nLes rêves de folie vont et viennent ; tout est impermanent.",
+            "source": "Récompense pour avoir atteint le Niv. de joueur 5",
+            "rarity": 4
+        }
+    },
+    "meta": {
+        "namemap": {
+            "inazuma": "Inazuma",
+            "liyue": "Liyue",
+            "mondstadt": "Mondstadt",
+            "sumeru": "Sumeru"
+        },
+        "names": {
+            "Inazuma": "inazuma",
+            "Liyue": "liyue",
+            "Mondstadt": "mondstadt",
+            "Sumeru": "sumeru"
+        },
+        "aliases": {},
+        "categories": {
+            "4": [
+                "inazuma",
+                "liyue",
+                "mondstadt",
+                "sumeru"
+            ]
+        },
+        "properties": {
+            "rarity": [
+                4
+            ]
+        }
+    }
+}

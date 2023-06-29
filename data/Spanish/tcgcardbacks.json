@@ -1,0 +1,229 @@
+{
+    "items": {
+        "adept": {
+            "id": 110,
+            "name": "Especialista",
+            "description": "No hay dificultad que no puedas superar, ni nada que escape de tu poder. ¡Elogiad{F#a}{M#o} seas!",
+            "descriptionraw": "#No hay dificultad que no puedas superar, ni nada que escape de tu poder. ¡Elogiad{F#a}{M#o} seas!",
+            "source": "Obtenido al completar todos los duelos de la cuarta fase del Manual del jugador",
+            "rarity": 3
+        },
+        "dandelionseed": {
+            "id": 117,
+            "name": "Semilla de diente de león",
+            "description": "La esperanza y la paciencia van de la mano.",
+            "descriptionraw": "La esperanza y la paciencia van de la mano.",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "cecilia": {
+            "id": 118,
+            "name": "Cecilia",
+            "description": "¿Acaso los únicos que disfrutan de la primera luz del alba son aquellos que tienen la brisa y el rocío por compañía?",
+            "descriptionraw": "¿Acaso los únicos que disfrutan de la primera luz del alba son aquellos que tienen la brisa y el rocío por compañía?",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "origin": {
+            "id": 100,
+            "name": "Origen",
+            "description": "La travesía de un sinfín de fantasías y deseos en ese punto medio entre el día y la noche, entre el cielo y la tierra.",
+            "descriptionraw": "La travesía de un sinfín de fantasías y deseos en ese punto medio entre el día y la noche, entre el cielo y la tierra.",
+            "source": "Obtenido al inicio",
+            "rarity": 3
+        },
+        "liyue": {
+            "id": 102,
+            "name": "Liyue",
+            "description": "Todo viaje comienza con un primer paso. Construye un mazo con mano segura y emprende tu camino a la victoria.",
+            "descriptionraw": "Todo viaje comienza con un primer paso. Construye un mazo con mano segura y emprende tu camino a la victoria.",
+            "source": "Recompensa al alcanzar el Nivel de jugador 4",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "Tesoro entre las cartas",
+            "description": "Los tesoros van y vienen en un abrir y cerrar de ojos, pero son distintos en cada ocasión. ¿Qué clase de tesoro se esconde esta vez entre las cartas?",
+            "descriptionraw": "Los tesoros van y vienen en un abrir y cerrar de ojos, pero son distintos en cada ocasión. ¿Qué clase de tesoro se esconde esta vez entre las cartas?",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "Pedazo de cristal mágico",
+            "description": "El tiempo determina su valor.",
+            "descriptionraw": "El tiempo determina su valor.",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "sumeru": {
+            "id": 104,
+            "name": "Sumeru",
+            "description": "Es de novatos ir solo uno o dos pasos por delante. Un verdadero experto planea cincuenta o cien pasos con antelación.\nJuego de niños, ¿no crees?",
+            "descriptionraw": "Es de novatos ir solo uno o dos pasos por delante. Un verdadero experto planea cincuenta o cien pasos con antelación.\\nJuego de niños, ¿no crees?",
+            "source": "Recompensa al alcanzar el Nivel de jugador 8",
+            "rarity": 3
+        },
+        "electrocrystal": {
+            "id": 116,
+            "name": "Electrocristal",
+            "description": "¿De qué sirve tanta agresión? ¡No es lo único que pende de un hilo!",
+            "descriptionraw": "¿De qué sirve tanta agresión? ¡No es lo único que pende de un hilo!",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "Pistilo de flor llameante",
+            "description": "“¡Mi alma de jugado{F#ra}{M#r} arde en llamas!”.",
+            "descriptionraw": "#“¡Mi alma de jugado{F#ra}{M#r} arde en llamas!”.",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "Mondstadt",
+            "description": "La libertad es el principio fundamental de las cartas.\nPuedes organizar tu mazo, retar a oponentes y jugar tus cartas con total libertad.\n... O puedes escoger no jugar y usar las cartas para otro fin.",
+            "descriptionraw": "La libertad es el principio fundamental de las cartas.\\nPuedes organizar tu mazo, retar a oponentes y jugar tus cartas con total libertad.\\n... O puedes escoger no jugar y usar las cartas para otro fin.",
+            "source": "Recompensa al alcanzar el Nivel de jugador 2",
+            "rarity": 3
+        },
+        "amethystlump": {
+            "id": 113,
+            "name": "Pedazo de amatista",
+            "description": "Adaptarse al entorno es una forma de sabiduría.",
+            "descriptionraw": "Adaptarse al entorno es una forma de sabiduría.",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "dendrobium": {
+            "id": 120,
+            "name": "Dendrobio",
+            "description": "Si todas las batallas pudieran pelearse en un tablero...",
+            "descriptionraw": "Si todas las batallas pudieran pelearse en un tablero...",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "Pistilo de flor helada",
+            "description": "“Tu destino es perder con dignidad”.",
+            "descriptionraw": "“Tu destino es perder con dignidad”.",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "inazuma": {
+            "id": 103,
+            "name": "Inazuma",
+            "description": "El juego de cartas dura solo un instante. Juega tu mazo con habilidad y ve más allá de la intrascendencia.",
+            "descriptionraw": "El juego de cartas dura solo un instante. Juega tu mazo con habilidad y ve más allá de la intrascendencia.",
+            "source": "Recompensa al alcanzar el Nivel de jugador 6",
+            "rarity": 3
+        },
+        "crystalchunk": {
+            "id": 111,
+            "name": "Pedazo de cristal",
+            "description": "Si es templado de la forma correcta, el material adecuado puede sacar a relucir su verdadero brillo.",
+            "descriptionraw": "Si es templado de la forma correcta, el material adecuado puede sacar a relucir su verdadero brillo.",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "glazelily": {
+            "id": 119,
+            "name": "Lirio de cristal",
+            "description": "Los relatos antiguos del mundo mortal han desaparecido. Solo queda el fragante nombre de las flores.",
+            "descriptionraw": "Los relatos antiguos del mundo mortal han desaparecido. Solo queda el fragante nombre de las flores.",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        },
+        "legend": {
+            "id": 109,
+            "name": "Leyenda",
+            "description": "Has llegado muy lejos en tu camino como {F#jugadora}{M#jugador}, pero aún falta mucho por recorrer.",
+            "descriptionraw": "#Has llegado muy lejos en tu camino como {F#jugadora}{M#jugador}, pero aún falta mucho por recorrer.",
+            "source": "Recompensa al alcanzar el Nivel de jugador 10",
+            "rarity": 3
+        },
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "Vórtice azurita",
+            "description": "Un dorso diseñado por el famoso pintor Calx.\n“¡Muestra tus alas libremente en este campo de batalla como si fueras el Dragón del Este!”.",
+            "descriptionraw": "Un dorso diseñado por el famoso pintor Calx.\\n“¡Muestra tus alas libremente en este campo de batalla como si fueras el Dragón del Este!”.",
+            "source": "Se compra en la Tienda de cartas",
+            "rarity": 3
+        }
+    },
+    "meta": {
+        "namemap": {
+            "adept": "Especialista",
+            "amethystlump": "Pedazo de amatista",
+            "cecilia": "Cecilia",
+            "crystalchunk": "Pedazo de cristal",
+            "dandelionseed": "Semilla de diente de león",
+            "dendrobium": "Dendrobio",
+            "electrocrystal": "Electrocristal",
+            "flamingflowerstamen": "Pistilo de flor llameante",
+            "glazelily": "Lirio de cristal",
+            "inazuma": "Inazuma",
+            "lazuriteswirl": "Vórtice azurita",
+            "legend": "Leyenda",
+            "liyue": "Liyue",
+            "magicalcrystalchunk": "Pedazo de cristal mágico",
+            "mistflowercorolla": "Pistilo de flor helada",
+            "mondstadt": "Mondstadt",
+            "origin": "Origen",
+            "sumeru": "Sumeru",
+            "treasuresofthedeck": "Tesoro entre las cartas"
+        },
+        "names": {
+            "Especialista": "adept",
+            "Pedazo de amatista": "amethystlump",
+            "Cecilia": "cecilia",
+            "Pedazo de cristal": "crystalchunk",
+            "Semilla de diente de león": "dandelionseed",
+            "Dendrobio": "dendrobium",
+            "Electrocristal": "electrocrystal",
+            "Pistilo de flor llameante": "flamingflowerstamen",
+            "Lirio de cristal": "glazelily",
+            "Inazuma": "inazuma",
+            "Vórtice azurita": "lazuriteswirl",
+            "Leyenda": "legend",
+            "Liyue": "liyue",
+            "Pedazo de cristal mágico": "magicalcrystalchunk",
+            "Pistilo de flor helada": "mistflowercorolla",
+            "Mondstadt": "mondstadt",
+            "Origen": "origin",
+            "Sumeru": "sumeru",
+            "Tesoro entre las cartas": "treasuresofthedeck"
+        },
+        "aliases": {},
+        "categories": {
+            "3": [
+                "adept",
+                "amethystlump",
+                "cecilia",
+                "crystalchunk",
+                "dandelionseed",
+                "dendrobium",
+                "electrocrystal",
+                "flamingflowerstamen",
+                "glazelily",
+                "inazuma",
+                "lazuriteswirl",
+                "legend",
+                "liyue",
+                "magicalcrystalchunk",
+                "mistflowercorolla",
+                "mondstadt",
+                "origin",
+                "sumeru",
+                "treasuresofthedeck"
+            ]
+        },
+        "properties": {
+            "rarity": [
+                3
+            ]
+        }
+    }
+}

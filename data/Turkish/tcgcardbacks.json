@@ -1,0 +1,229 @@
+{
+    "items": {
+        "adept": {
+            "id": 110,
+            "name": "Uzman",
+            "description": "Çözemeyeceğin hiçbir bilmece, gücünün ötesinde hiçbir şey yok. Seni selamlıyoruz!",
+            "descriptionraw": "Çözemeyeceğin hiçbir bilmece, gücünün ötesinde hiçbir şey yok. Seni selamlıyoruz!",
+            "source": "Kart Oyuncusunun Rehberinde 4. düellodaki tüm hedefleri tamamlama ödülü.",
+            "rarity": 3
+        },
+        "dandelionseed": {
+            "id": 117,
+            "name": "Karahindiba Tohumu",
+            "description": "Umut ve sabır yakın arkadaşlardır.",
+            "descriptionraw": "Umut ve sabır yakın arkadaşlardır.",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "cecilia": {
+            "id": 118,
+            "name": "Sesilya",
+            "description": "Şafağın ilk ışıklarının tadının çıkarabilenler yalnızca esintinin ve çiyin eşlik ettikleri mi?",
+            "descriptionraw": "Şafağın ilk ışıklarının tadının çıkarabilenler yalnızca esintinin ve çiyin eşlik ettikleri mi?",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "origin": {
+            "id": 100,
+            "name": "Köken",
+            "description": "Gece ile gündüzün, gök ve yerin arasında,\nUmutlar ve hayaller buluşur.",
+            "descriptionraw": "Gece ile gündüzün, gök ve yerin arasında,\\nUmutlar ve hayaller buluşur.",
+            "source": "İlk defa elde et.",
+            "rarity": 3
+        },
+        "liyue": {
+            "id": 102,
+            "name": "Liyue",
+            "description": "Her yolculuğun bir ilk adımı vardır. Desteni dengeli bir şekilde düzenlersen zafere giden yol da bir o kadar dengeli olur.",
+            "descriptionraw": "Her yolculuğun bir ilk adımı vardır. Desteni dengeli bir şekilde düzenlersen zafere giden yol da bir o kadar dengeli olur.",
+            "source": "Oyuncu Seviyesi 4'e ulaşmanın ödülü.",
+            "rarity": 3
+        },
+        "treasuresofthedeck": {
+            "id": 122,
+            "name": "Destenin Hazineleri",
+            "description": "Hazineler bir anda kazanılır, bir anda harcanır... İçerdikleri ise her daim değişir. Kartlarında bu sefer hangi hazineler seni bekliyor?",
+            "descriptionraw": "Hazineler bir anda kazanılır, bir anda harcanır... İçerdikleri ise her daim değişir. Kartlarında bu sefer hangi hazineler seni bekliyor?",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "magicalcrystalchunk": {
+            "id": 112,
+            "name": "Büyülü Kristal Parçası",
+            "description": "Değerini zaman belirler.",
+            "descriptionraw": "Değerini zaman belirler.",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "sumeru": {
+            "id": 104,
+            "name": "Sumeru",
+            "description": "Bir iki adım ileriyi düşünmek acemiliktir. Gerçekten uzman olan oyuncular elli adım ileriyi görebilirler.\nOldukça basit olur, değil mi?",
+            "descriptionraw": "Bir iki adım ileriyi düşünmek acemiliktir. Gerçekten uzman olan oyuncular elli adım ileriyi görebilirler.\\nOldukça basit olur, değil mi?",
+            "source": "Oyuncu Seviyesi 8'e ulaşmanın ödülü.",
+            "rarity": 3
+        },
+        "electrocrystal": {
+            "id": 116,
+            "name": "Elektrik Kristali",
+            "description": "Agresif yöntemler işe yarar mı? Her an tepki verecek tek şey bu değil!",
+            "descriptionraw": "Agresif yöntemler işe yarar mı? Her an tepki verecek tek şey bu değil!",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "flamingflowerstamen": {
+            "id": 114,
+            "name": "Alev Çiçeği Tomurcuğu",
+            "description": "\"Düellocu ruhum yanıyor!\"",
+            "descriptionraw": "\"Düellocu ruhum yanıyor!\"",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "mondstadt": {
+            "id": 101,
+            "name": "Mondstadt",
+            "description": "Özgürlük, kartların ilk ilkesidir.\nDesteni özgürce düzenle, özgürce rakiplerini seç ve özgürce elini oyna.\n... Veya bu özgürlüğü hiç oynamamak için kullan ve elindeki kartlarla başka bir şey yap.",
+            "descriptionraw": "Özgürlük, kartların ilk ilkesidir.\\nDesteni özgürce düzenle, özgürce rakiplerini seç ve özgürce elini oyna.\\n... Veya bu özgürlüğü hiç oynamamak için kullan ve elindeki kartlarla başka bir şey yap.",
+            "source": "Oyuncu Seviyesi 2'ye ulaşmanın ödülü.",
+            "rarity": 3
+        },
+        "amethystlump": {
+            "id": 113,
+            "name": "Ametist Parçası",
+            "description": "Olduğun yere uyum sağlamak da bir tür bilgeliktir.",
+            "descriptionraw": "Olduğun yere uyum sağlamak da bir tür bilgeliktir.",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "dendrobium": {
+            "id": 120,
+            "name": "Kan Çiçeği",
+            "description": "Keşke tüm savaşlar masa başında yapılsa...",
+            "descriptionraw": "Keşke tüm savaşlar masa başında yapılsa...",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "mistflowercorolla": {
+            "id": 115,
+            "name": "Sis Çiçeği Tepeciği",
+            "description": "\"Yenilgiyi zarafetle kabullenmek kaçınılmaz sonun.\"",
+            "descriptionraw": "\"Yenilgiyi zarafetle kabullenmek kaçınılmaz sonun.\"",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "inazuma": {
+            "id": 103,
+            "name": "Inazuma",
+            "description": "Kartlarını hızlı oyna, zafer sana daha da yakın olacak.",
+            "descriptionraw": "Kartlarını hızlı oyna, zafer sana daha da yakın olacak.",
+            "source": "Oyuncu Seviyesi 6'ya ulaşmanın ödülü.",
+            "rarity": 3
+        },
+        "crystalchunk": {
+            "id": 111,
+            "name": "Kristal Parçası",
+            "description": "İyi işlenirse doğru malzeme kalitesini gösterir.",
+            "descriptionraw": "İyi işlenirse doğru malzeme kalitesini gösterir.",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "glazelily": {
+            "id": 119,
+            "name": "Parlak Zambak",
+            "description": "Ölümlüler diyarının kadim hikayeleri geldi geçti. Şimdi geriye yalnızca çiçeklerin kokulu isimleri kaldı.",
+            "descriptionraw": "Ölümlüler diyarının kadim hikayeleri geldi geçti. Şimdi geriye yalnızca çiçeklerin kokulu isimleri kaldı.",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        },
+        "legend": {
+            "id": 109,
+            "name": "Efsanevi",
+            "description": "Bir Efsane olmak için çok çabaladın ama önünde hâlâ uzun bir yol var.",
+            "descriptionraw": "Bir Efsane olmak için çok çabaladın ama önünde hâlâ uzun bir yol var.",
+            "source": "Oyuncu Seviyesi 10'a ulaşmanın ödülü.",
+            "rarity": 3
+        },
+        "lazuriteswirl": {
+            "id": 121,
+            "name": "Lazurit Girdabı",
+            "description": "Ünlü sanatçı Calx tarafından kişiselleştirilmiş özel bir kart deseni.\n\"Doğu'nun Ejderi gibi, bu kart savaşı alanında kanatlarını daha özgürce aç!\"",
+            "descriptionraw": "Ünlü sanatçı Calx tarafından kişiselleştirilmiş özel bir kart deseni.\\n\"Doğu'nun Ejderi gibi, bu kart savaşı alanında kanatlarını daha özgürce aç!\"",
+            "source": "Kart Dükkanından satın alarak elde edilir.",
+            "rarity": 3
+        }
+    },
+    "meta": {
+        "namemap": {
+            "adept": "Uzman",
+            "amethystlump": "Ametist Parçası",
+            "cecilia": "Sesilya",
+            "crystalchunk": "Kristal Parçası",
+            "dandelionseed": "Karahindiba Tohumu",
+            "dendrobium": "Kan Çiçeği",
+            "electrocrystal": "Elektrik Kristali",
+            "flamingflowerstamen": "Alev Çiçeği Tomurcuğu",
+            "glazelily": "Parlak Zambak",
+            "inazuma": "Inazuma",
+            "lazuriteswirl": "Lazurit Girdabı",
+            "legend": "Efsanevi",
+            "liyue": "Liyue",
+            "magicalcrystalchunk": "Büyülü Kristal Parçası",
+            "mistflowercorolla": "Sis Çiçeği Tepeciği",
+            "mondstadt": "Mondstadt",
+            "origin": "Köken",
+            "sumeru": "Sumeru",
+            "treasuresofthedeck": "Destenin Hazineleri"
+        },
+        "names": {
+            "Uzman": "adept",
+            "Ametist Parçası": "amethystlump",
+            "Sesilya": "cecilia",
+            "Kristal Parçası": "crystalchunk",
+            "Karahindiba Tohumu": "dandelionseed",
+            "Kan Çiçeği": "dendrobium",
+            "Elektrik Kristali": "electrocrystal",
+            "Alev Çiçeği Tomurcuğu": "flamingflowerstamen",
+            "Parlak Zambak": "glazelily",
+            "Inazuma": "inazuma",
+            "Lazurit Girdabı": "lazuriteswirl",
+            "Efsanevi": "legend",
+            "Liyue": "liyue",
+            "Büyülü Kristal Parçası": "magicalcrystalchunk",
+            "Sis Çiçeği Tepeciği": "mistflowercorolla",
+            "Mondstadt": "mondstadt",
+            "Köken": "origin",
+            "Sumeru": "sumeru",
+            "Destenin Hazineleri": "treasuresofthedeck"
+        },
+        "aliases": {},
+        "categories": {
+            "3": [
+                "adept",
+                "amethystlump",
+                "cecilia",
+                "crystalchunk",
+                "dandelionseed",
+                "dendrobium",
+                "electrocrystal",
+                "flamingflowerstamen",
+                "glazelily",
+                "inazuma",
+                "lazuriteswirl",
+                "legend",
+                "liyue",
+                "magicalcrystalchunk",
+                "mistflowercorolla",
+                "mondstadt",
+                "origin",
+                "sumeru",
+                "treasuresofthedeck"
+            ]
+        },
+        "properties": {
+            "rarity": [
+                3
+            ]
+        }
+    }
+}

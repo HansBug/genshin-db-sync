@@ -1,0 +1,454 @@
+{
+    "items": {
+        "clusterbloomarrow": {
+            "id": 1008,
+            "name": "Frecce a grappolo",
+            "nameraw": "<color=#FFFFFFFF>Frecce a grappolo</color>",
+            "description": "Fase finale: infligge 1 DAN da Dendro.\nUtilizzi: 1 (cumulabile fino a un massimo di 2 volte).",
+            "descriptionraw": "<color=#FFFFFFFF>Fase finale:</color> infligge 1 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>.\\n<color=#FFFFFFFF>Utilizzi: 1</color> (cumulabile fino a un massimo di 2 volte)."
+        },
+        "dendrorelatedreactions": {
+            "id": 217,
+            "name": "Reazioni di Dendro",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Reazioni di Dendro</color>",
+            "description": "Fioritura: DAN inflitti +1, crea un nucleo di Dendro che infligge DAN +2 la prossima volta in cui vengono inflitti DAN da Pyro o Electro.\nUstione: DAN inflitti +1, crea una Fiammardente che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).\nVivificazione: DAN inflitti +1, crea un Campo catalizzante che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte.",
+            "descriptionraw": "{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Fioritura</color>: DAN inflitti +1, crea un <color=#FFFFFFFF>nucleo di Dendro</color> che infligge DAN +2 la prossima volta in cui vengono inflitti DAN da Pyro o Electro.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ustione</color>: DAN inflitti +1, crea una <color=#FFFFFFFF>Fiammardente</color> che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Vivificazione</color>: DAN inflitti +1, crea un <color=#FFFFFFFF>Campo catalizzante</color> che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte."
+        },
+        "omnielement": {
+            "id": 411,
+            "name": "Omnielemento",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnielemento</color>",
+            "description": "L'Omnielemento può equivalere a qualsiasi tipo di elemento ed essere usato per pagare costi di ogni tipo.",
+            "descriptionraw": "L'{SPRITE_PRESET#1111}Omnielemento può equivalere a qualsiasi tipo di elemento ed essere usato per pagare costi di ogni tipo."
+        },
+        "dendroapplication": {
+            "id": 207,
+            "name": "Applicazione di Dendro",
+            "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Applicazione di Dendro</color>",
+            "description": "Quando Dendro viene applicato senza infliggere DAN, la reazione elementale innescata ignorerà gli effetti che infliggono DAN:\nFioritura: crea un nucleo di Dendro che infligge DAN +2 la prossima volta che vengono inflitti DAN da Pyro o Electro.\nUstione: crea una Fiammardente che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).\nVivificazione: crea un Campo catalizzante che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte.",
+            "descriptionraw": "Quando {SPRITE_PRESET#2107}Dendro viene applicato senza infliggere DAN, la reazione elementale innescata ignorerà gli effetti che infliggono DAN:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Fioritura</color>: crea un <color=#FFFFFFFF>nucleo di Dendro</color> che infligge DAN +2 la prossima volta che vengono inflitti DAN da Pyro o Electro.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ustione</color>: crea una <color=#FFFFFFFF>Fiammardente</color> che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Vivificazione</color>: crea un <color=#FFFFFFFF>Campo catalizzante</color> che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte."
+        },
+        "durationrounds": {
+            "id": 4,
+            "name": "Durata (in turni)",
+            "nameraw": "<color=#FFFFFFFF>Durata (in turni)</color>",
+            "description": "Ogni volta che raggiungi la fase finale, la durata (in turni) verrà ridotta di 1.\nQuando la durata (in turni) sarà esaurita, questa carta verrà eliminata.",
+            "descriptionraw": "Ogni volta che raggiungi la fase finale, la <color=#FFFFFFFF>durata (in turni)</color> verrà ridotta di 1.\\nQuando la <color=#FFFFFFFF>durata (in turni)</color> sarà esaurita, questa carta verrà eliminata."
+        },
+        "pyrorelatedreactions": {
+            "id": 213,
+            "name": "Reazioni di Pyro",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Reazioni di Pyro</color>",
+            "description": "Fusione: DAN inflitti +2.\nVaporizzazione: DAN inflitti +2.\nSovraccarico: DAN inflitti +2 ora, scambia il bersaglio con il prossimo personaggio.\nUstione: DAN inflitti +1, crea una Fiammardente che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).\nCristallizzazione di Pyro: DAN inflitti +1, il tuo personaggio attivo ottiene 1 punto di scudo (cumulabile fino a un massimo di 2 punti).\nTurbinio di Pyro: infligge 1 DAN da Pyro a tutti i personaggi nemici tranne al bersaglio.",
+            "descriptionraw": "{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fusione</color>: DAN inflitti +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporizzazione</color>: DAN inflitti +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sovraccarico</color>: DAN inflitti +2 ora, scambia il bersaglio con il prossimo personaggio.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Ustione</color>: DAN inflitti +1, crea una <color=#FFFFFFFF>Fiammardente</color> che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristallizzazione di Pyro</color>: DAN inflitti +1, il tuo personaggio attivo ottiene 1 punto di scudo (cumulabile fino a un massimo di 2 punti).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Turbinio di Pyro</color>: infligge 1 DAN da Pyro a tutti i personaggi nemici tranne al bersaglio."
+        },
+        "hydrorelatedreactions": {
+            "id": 212,
+            "name": "Reazioni di Hydro",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Reazioni di Hydro</color>",
+            "description": "Vaporizzazione: DAN inflitti +2.\nElectrocarica: DAN inflitti +1 e infligge 1 DAN da perforazione a tutti i personaggi avversari tranne al bersaglio.\nCongelamento: DAN inflitti +1, impedisce al bersaglio di eseguire azioni durante il turno corrente (può essere rimosso in anticipo se riceve DAN fisici o da Pyro, nel caso subisce DAN +2).\nFioritura: crea un nucleo di Dendro che infligge DAN +2 la prossima volta che vengono inflitti DAN da Pyro o Electro.\nCristallizzazione di Hydro: DAN inflitti +1, il tuo personaggio attivo ottiene un punto di scudo (cumulabile fino a un massimo di 2 punti).\nTurbinio di Hydro: infligge 1 DAN da Hydro a tutti i personaggi nemici tranne al bersaglio.",
+            "descriptionraw": "{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporizzazione</color>: DAN inflitti +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electrocarica</color>: DAN inflitti +1 e infligge 1 DAN da perforazione a tutti i personaggi avversari tranne al bersaglio.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelamento</color>: DAN inflitti +1, impedisce al bersaglio di eseguire azioni durante il turno corrente (può essere rimosso in anticipo se riceve DAN fisici o da Pyro, nel caso subisce DAN +2).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Fioritura</color>: crea un <color=#FFFFFFFF>nucleo di Dendro</color> che infligge DAN +2 la prossima volta che vengono inflitti DAN da Pyro o Electro.\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristallizzazione di Hydro</color>: DAN inflitti +1, il tuo personaggio attivo ottiene un punto di scudo (cumulabile fino a un massimo di 2 punti).\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Turbinio di Hydro</color>: infligge 1 DAN da Hydro a tutti i personaggi nemici tranne al bersaglio."
+        },
+        "fatuiambusher": {
+            "id": 1004,
+            "name": "Aggressore dei Fatui",
+            "nameraw": "<color=#FFFFFFFF>Aggressore dei Fatui</color>",
+            "description": "Gli aggressori dei Fatui innescano il loro effetto dopo che i personaggi sul loro lato del campo usano un'abilità, e infliggono DAN al personaggio attivo su quel lato del campo (una volta per turno).\nIn totale ci sono 4 tipi di aggressori dei Fatui:\nMaga Cicin di Cryo: infligge 1 DAN da Cryo quando viene innescata, può essere usata 2 volte.\nSacerdotessa degli specchi: infligge 1 DAN da Hydro quando viene innescata, può essere usata 2 volte.\nFante Pyrocacciatore: infligge 1 DAN da Pyro quando viene innescato, può essere usato 2 volte.\nElectromartello d'assalto: infligge 1 DAN da Electro quando viene innescato, può essere usato 2 volte.",
+            "descriptionraw": "Gli aggressori dei Fatui innescano il loro effetto dopo che i personaggi sul loro lato del campo usano un'abilità, e infliggono DAN al personaggio attivo su quel lato del campo (una volta per turno).\\nIn totale ci sono 4 tipi di aggressori dei Fatui:\\n<color=#FFFFFFFF>Maga Cicin di Cryo</color>: infligge 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color> quando viene innescata, può essere usata 2 volte.\\n<color=#FFFFFFFF>Sacerdotessa degli specchi</color>: infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color> quando viene innescata, può essere usata 2 volte.\\n<color=#FFFFFFFF>Fante Pyrocacciatore</color>: infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color> quando viene innescato, può essere usato 2 volte.\\n<color=#FFFFFFFF>Electromartello d'assalto</color>: infligge 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color> quando viene innescato, può essere usato 2 volte."
+        },
+        "cryodmg": {
+            "id": 101,
+            "name": "DAN da Cryo",
+            "nameraw": "{SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>",
+            "description": "Applica Cryo e può innescare le seguenti reazioni elementali:\nFusione: DAN inflitti +2.\nSuperconduzione: DAN inflitti +1, infligge 1 DAN da perforazione a tutti i personaggi nemici tranne al bersaglio.\nCongelamento: DAN inflitti +1, impedisce al bersaglio di eseguire azioni durante il turno corrente (può essere rimosso in anticipo se riceve danni fisici o da Pyro, nel caso subisce DAN +2).",
+            "descriptionraw": "Applica {SPRITE_PRESET#2101}Cryo e può innescare le seguenti reazioni elementali:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Fusione</color>: DAN inflitti +2.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Superconduzione</color>: DAN inflitti +1, infligge 1 DAN da perforazione a tutti i personaggi nemici tranne al bersaglio.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Congelamento</color>: DAN inflitti +1, impedisce al bersaglio di eseguire azioni durante il turno corrente (può essere rimosso in anticipo se riceve danni fisici o da Pyro, nel caso subisce DAN +2)."
+        },
+        "anemo": {
+            "id": 305,
+            "name": "Anemo",
+            "nameraw": "{SPRITE_PRESET#1105}Anemo",
+            "description": "Consuma un dado di tipo Anemo lanciato per pagare il costo.\n(È possibile usare anche un Omnidado per pagare.)",
+            "descriptionraw": "Consuma un dado di tipo <color=#80FFD7FF>{SPRITE_PRESET#1105}Anemo</color> lanciato per pagare il costo.\\n({SPRITE_PRESET#1111}È possibile usare anche un Omnidado per pagare.)"
+        },
+        "geodmg": {
+            "id": 106,
+            "name": "DAN da Geo",
+            "nameraw": "{SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>",
+            "description": "Innesca delle reazioni con gli elementi già applicati:\nCristallizzazione di Cryo: DAN inflitti +1, il tuo personaggio attivo ottiene 1 punto di scudo (cumulabile fino a un massimo di 2 punti).\nCristallizzazione di Hydro: DAN inflitti +1, il tuo personaggio attivo ottiene un punto di scudo (cumulabile fino a un massimo di 2 punti).\nCristallizzazione di Pyro: DAN inflitti +1, il tuo personaggio attivo ottiene 1 punto di scudo (cumulabile fino a un massimo di 2 punti).\nCristallizzazione di Electro DAN inflitti +1, il tuo personaggio attivo ottiene 1 punto di scudo (cumulabile fino a un massimo di 2 punti).",
+            "descriptionraw": "Innesca delle reazioni con gli elementi già applicati:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cristallizzazione di Cryo</color>: DAN inflitti +1, il tuo personaggio attivo ottiene 1 punto di scudo (cumulabile fino a un massimo di 2 punti).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Cristallizzazione di Hydro</color>: DAN inflitti +1, il tuo personaggio attivo ottiene un punto di scudo (cumulabile fino a un massimo di 2 punti).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Cristallizzazione di Pyro</color>: DAN inflitti +1, il tuo personaggio attivo ottiene 1 punto di scudo (cumulabile fino a un massimo di 2 punti).\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Cristallizzazione di Electro</color> DAN inflitti +1, il tuo personaggio attivo ottiene 1 punto di scudo (cumulabile fino a un massimo di 2 punti)."
+        },
+        "hydro": {
+            "id": 302,
+            "name": "Hydro",
+            "nameraw": "{SPRITE_PRESET#1102}Hydro",
+            "description": "Consuma un dado di tipo Hydro lanciato per pagare il costo.\n(È possibile usare anche un Omnidado per pagare.)",
+            "descriptionraw": "Consuma un dado di tipo <color=#80C0FFFF>{SPRITE_PRESET#1102}Hydro</color> lanciato per pagare il costo.\\n({SPRITE_PRESET#1111}È possibile usare anche un Omnidado per pagare.)"
+        },
+        "electroinfusion": {
+            "id": 1002,
+            "name": "Infusione di Electro",
+            "nameraw": "<color=#FFFFFFFF>Infusione di Electro</color>",
+            "description": "Quando il personaggio a cui è associata infligge DAN fisico, si converte in DAN da Electro.\nDurata (in turni): 2",
+            "descriptionraw": "Quando il personaggio a cui è associata infligge {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisico</color>, si converte in {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.\\n<color=#FFFFFFFF>Durata (in turni)</color>: 2"
+        },
+        "combataction": {
+            "id": 1,
+            "name": "Azione di combattimento",
+            "nameraw": "<color=#FFFFFFFF>Azione di combattimento</color>",
+            "description": "Una volta completata un'azione di combattimento, il turno passerà all'avversario.\nGiocare una carta della tua mano con questa regola significa eseguire un'azione di combattimento, anziché un'azione rapida.",
+            "descriptionraw": "Una volta completata un'azione di combattimento, il turno passerà all'avversario.\\n<color=#FFFFFFFF>Giocare una carta della tua mano con questa regola significa eseguire un'azione di combattimento, anziché un'azione rapida.</color>"
+        },
+        "superlativesuperstrength": {
+            "id": 1007,
+            "name": "Superforza superlativa",
+            "nameraw": "<color=#FFFFFFFF>Superforza superlativa</color>",
+            "description": "Quando il personaggio associato usa un attacco caricato: infligge DAN +1. Se gli Utilizzi sono almeno 2, questa abilità consuma 1 elemento indefinito in meno.\nUtilizzi: 1 (cumulabile fino a un massimo di 3 volte).",
+            "descriptionraw": "Quando il personaggio associato usa un <color=#FFFFFFFF>attacco caricato</color>: infligge DAN +1. Se gli <color=#FFFFFFFF>Utilizzi</color> sono almeno 2, questa abilità consuma 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}elemento indefinito</color> in meno.\\n<color=#FFFFFFFF>Utilizzi</color>: 1 (cumulabile fino a un massimo di 3 volte)."
+        },
+        "elementalburst": {
+            "id": 501,
+            "name": "Tripudio elementale",
+            "nameraw": "Tripudio elementale",
+            "description": "Quando l'energia di un personaggio arriva al massimo, puoi consumarla per usare un potente Tripudio elementale.",
+            "descriptionraw": "Quando l'{SPRITE_PRESET#1110}energia di un personaggio arriva al massimo, puoi consumarla per usare un potente Tripudio elementale."
+        },
+        "energy": {
+            "id": 310,
+            "name": "Energia",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1110}Energia</color>",
+            "description": "I personaggi devono consumare punti di energia per usare i loro Tripudi elementali.\nQuando usano un'abilità elementale o un attacco normale, otterranno 1 punto di energia.",
+            "descriptionraw": "I personaggi devono consumare punti di {SPRITE_PRESET#1110}energia per usare i loro Tripudi elementali.\\nQuando usano un'abilità elementale o un attacco normale, otterranno 1 punto di {SPRITE_PRESET#1110}energia."
+        },
+        "shield": {
+            "id": 6,
+            "name": "scudo",
+            "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>scudo</color>",
+            "description": "Questo scudo verrà consumato per proteggere il personaggio che lo equipaggia dai DAN.",
+            "descriptionraw": "Questo scudo verrà consumato per proteggere il personaggio che lo equipaggia dai DAN."
+        },
+        "hydroapplication": {
+            "id": 202,
+            "name": "Applicazione di Hydro",
+            "nameraw": "<color=#80C0FFFF>{SPRITE_PRESET#2102}Applicazione di Hydro</color>",
+            "description": "Quando Hydro viene applicato senza infliggere DAN, la reazione elementale innescata ignorerà gli effetti che infliggono DAN:\nVaporizzazione: nessun effetto\nElectrocarica: nessun effetto.\nCongelamento: impedisce al bersaglio di eseguire azioni in questo turno (può essere rimosso in anticipo se riceve danni fisici o da Pyro, nel caso subisce DAN +2).\nFioritura: crea un nucleo di Dendro che infligge DAN +2 la prossima volta che vengono inflitti DAN da Pyro o Electro.",
+            "descriptionraw": "Quando {SPRITE_PRESET#2102}Hydro viene applicato senza infliggere DAN, la reazione elementale innescata ignorerà gli effetti che infliggono DAN:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporizzazione</color>: nessun effetto\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electrocarica</color>: nessun effetto.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelamento</color>: impedisce al bersaglio di eseguire azioni in questo turno (può essere rimosso in anticipo se riceve danni fisici o da Pyro, nel caso subisce DAN +2).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Fioritura</color>: crea un <color=#FFFFFFFF>nucleo di Dendro</color> che infligge DAN +2 la prossima volta che vengono inflitti DAN da Pyro o Electro."
+        },
+        "matchingelement": {
+            "id": 308,
+            "name": "Elementi corrispondenti",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1108}Elementi corrispondenti</color>",
+            "description": "Devi usare dei dadi elementali che corrispondano al numero e all'elemento specificati qui per pagare il costo.\n(Un Omnidado può equivalere a qualsiasi elemento.)",
+            "descriptionraw": "Devi usare dei dadi elementali che corrispondano al numero e all'elemento specificati qui per pagare il costo.\\n({SPRITE_PRESET#1111}Un Omnidado può equivalere a qualsiasi elemento.)"
+        },
+        "dendro": {
+            "id": 307,
+            "name": "Dendro",
+            "nameraw": "{SPRITE_PRESET#1107}Dendro",
+            "description": "Consuma un dado di tipo Dendro lanciato per pagare il costo.\n(È possibile usare anche un Omnidado per pagare.)",
+            "descriptionraw": "Consuma un dado di tipo <color=#7EC236FF>{SPRITE_PRESET#1107}Dendro</color> lanciato per pagare il costo.\\n({SPRITE_PRESET#1111}È possibile usare anche un Omnidado per pagare.)"
+        },
+        "passiveskill": {
+            "id": 502,
+            "name": "Abilità passiva",
+            "nameraw": "Abilità passiva",
+            "description": "Questa abilità ha sempre effetto e non ha bisogno di essere attivata.",
+            "descriptionraw": "Questa abilità ha sempre effetto e non ha bisogno di essere attivata."
+        },
+        "characterclosesttoyourcurrentactivecharacter": {
+            "id": 7,
+            "name": "Personaggio avversario più vicino al tuo personaggio attivo",
+            "nameraw": "<color=#FFFFFFFF>Personaggio avversario più vicino al tuo personaggio attivo</color>",
+            "description": "Si intende il personaggio avversario la cui posizione è più vicina a quella del tuo personaggio attivo.\nSe ne esiste più di uno, quello con la posizione più avanzata verrà identificato come il \"più vicino\".",
+            "descriptionraw": "Si intende il personaggio avversario la cui posizione è più vicina a quella del tuo personaggio attivo.\\nSe ne esiste più di uno, quello con la posizione più avanzata verrà identificato come il \"più vicino\"."
+        },
+        "chargedattack": {
+            "id": 51,
+            "name": "Attacco caricato",
+            "nameraw": "<color=#FFFFFFFF>Attacco caricato</color>",
+            "description": "Prima della tua fase di azione, se il numero totale dei tuoi dadi elementali è pari, il tuo attacco normale verrà considerato come un attacco caricato.",
+            "descriptionraw": "Prima della tua fase di azione, se il numero totale dei tuoi dadi elementali è pari, il tuo attacco normale verrà considerato come un attacco caricato."
+        },
+        "prepareskill": {
+            "id": 53,
+            "name": "Prepara abilità",
+            "nameraw": "<color=#FFFFFFFF>Prepara abilità</color>",
+            "description": "Alcune abilità non possono essere usate direttamente, devono invece essere preparate per un certo numero di turni.\nQuando è il turno di un giocatore e il suo personaggio attivo sta preparando un'abilità, il giocatore salterà il turno. Se l'abilità ha terminato la preparazione, il personaggio userà direttamente l'abilità in quel momento (le abilità che richiedono preparazione non possono attivare gli effetti innescati dall'uso di queste).\nSolo i personaggi attivi possono preparare le abilità, e se un personaggio attivo che sta preparando un'abilità diventa inattivo, la sua preparazione verrà interrotta.",
+            "descriptionraw": "Alcune abilità non possono essere usate direttamente, devono invece essere <color=#FFFFFFFF>preparate</color> per un certo numero di turni.\\nQuando è il turno di un giocatore e il suo personaggio attivo sta <color=#FFFFFFFF>preparando</color> un'abilità, il giocatore salterà il turno. Se l'abilità ha terminato la <color=#FFFFFFFF>preparazione</color>, il personaggio userà direttamente l'abilità in quel momento (le abilità che richiedono <color=#FFFFFFFF>preparazione</color> non possono attivare gli effetti innescati dall'uso di queste).\\nSolo i personaggi attivi possono <color=#FFFFFFFF>preparare</color> le abilità, e se un personaggio attivo che sta <color=#FFFFFFFF>preparando</color> un'abilità diventa inattivo, la sua <color=#FFFFFFFF>preparazione</color> verrà interrotta."
+        },
+        "electro": {
+            "id": 304,
+            "name": "Electro",
+            "nameraw": "{SPRITE_PRESET#1104}Electro",
+            "description": "Consuma un dado di tipo Electro lanciato per pagare il costo.\n(È possibile usare anche un Omnidado per pagare.)",
+            "descriptionraw": "Consuma un dado di tipo <color=#FFACFFFF>{SPRITE_PRESET#1104}Electro</color> lanciato per pagare il costo.\\n({SPRITE_PRESET#1111}È possibile usare anche un Omnidado per pagare.)"
+        },
+        "physicaldmg": {
+            "id": 100,
+            "name": "DAN fisici",
+            "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>",
+            "description": "I DAN fisici non applicano alcun elemento né innescano reazioni elementali.",
+            "descriptionraw": "I DAN fisici non applicano alcun elemento né innescano reazioni elementali."
+        },
+        "dendrodmg": {
+            "id": 107,
+            "name": "DAN da Dendro",
+            "nameraw": "{SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>",
+            "description": "Applica Dendro e può innescare le seguenti reazioni elementali:\nFioritura: DAN inflitti +1, crea un nucleo di Dendro che infligge DAN +2 la prossima volta in cui vengono inflitti DAN da Pyro o Electro.\nUstione: DAN inflitti +1, crea una Fiammardente che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).\nVivificazione: DAN +1 inflitti ora, crea un Campo catalizzante che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte.",
+            "descriptionraw": "Applica {SPRITE_PRESET#2107}Dendro e può innescare le seguenti reazioni elementali:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Fioritura</color>: DAN inflitti +1, crea un <color=#FFFFFFFF>nucleo di Dendro</color> che infligge DAN +2 la prossima volta in cui vengono inflitti DAN da Pyro o Electro.\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Ustione</color>: DAN inflitti +1, crea una <color=#FFFFFFFF>Fiammardente</color> che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Vivificazione</color>: DAN +1 inflitti ora, crea un <color=#FFFFFFFF>Campo catalizzante</color> che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte."
+        },
+        "pyroapplication": {
+            "id": 203,
+            "name": "Applicazione di Pyro",
+            "nameraw": "<color=#FF9999FF>{SPRITE_PRESET#2103}Applicazione di Pyro</color>",
+            "description": "Quando Pyro viene applicato senza infliggere DAN, la reazione elementale innescata ignorerà gli effetti che infliggono DAN:\nFusione: nessun effetto.\nVaporizzazione: nessun effetto.\nSovraccarico: scambia il bersaglio con il personaggio successivo.\nUstione: crea una Fiammardente che infliggerà 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).",
+            "descriptionraw": "Quando {SPRITE_PRESET#2103}Pyro viene applicato senza infliggere DAN, la reazione elementale innescata ignorerà gli effetti che infliggono DAN:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fusione</color>: nessun effetto.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporizzazione</color>: nessun effetto.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sovraccarico</color>: scambia il bersaglio con il personaggio successivo.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Ustione</color>: crea una <color=#FFFFFFFF>Fiammardente</color> che infliggerà 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte)."
+        },
+        "crowfeathercover": {
+            "id": 1003,
+            "name": "Copertura della Piuma corvina",
+            "nameraw": "<color=#FFFFFFFF>Copertura della Piuma corvina</color>",
+            "description": "Il personaggio associato a questa carta infligge DAN da abilità elementale e da Tripudio elementale +1.\nUtilizzi: 2",
+            "descriptionraw": "Il personaggio associato a questa carta infligge DAN da <color=#FFFFFFFF>abilità elementale</color> e da <color=#FFFFFFFF>Tripudio elementale</color> +1.\\n<color=#FFFFFFFF>Utilizzi: 2</color>"
+        },
+        "piercingdmg": {
+            "id": 5,
+            "name": "DAN da perforazione",
+            "nameraw": "<color=#FFFFFFFF>DAN da perforazione</color>",
+            "description": "I DAN da perforazione non possono ricevere bonus, ma non possono essere ridotti usando degli scudi, immunità ai DAN o altri effetti.",
+            "descriptionraw": "I DAN da perforazione non possono ricevere bonus, ma non possono essere ridotti usando degli scudi, immunità ai DAN o altri effetti."
+        },
+        "immunitytodefeats1willnotbedefeated": {
+            "id": 54,
+            "name": "Immunità alla sconfitta",
+            "nameraw": "<color=#FFFFFFFF>Immunità alla sconfitta</color>|s1:<color=#FFFFFFFF>Resilienza</color>",
+            "description": "Alcuni effetti concederanno ai personaggi un' immunità alla sconfitta quando i loro PS arrivano a 0, e ripristineranno una certa quantità in seguito.\nQuando ciò avviene, i personaggi non verranno considerati come sconfitti. (Pertanto, il loro equipaggiamento associato e gli status non verranno rimossi, e la loro energia non verrà eliminata.)",
+            "descriptionraw": "Alcuni effetti concederanno ai personaggi un' <color=#FFFFFFFF>immunità alla sconfitta</color> quando i loro PS arrivano a 0, e ripristineranno una certa quantità in seguito.\\nQuando ciò avviene, i personaggi non verranno considerati come <color=#FFFFFFFF>sconfitti.</color> (Pertanto, il loro equipaggiamento associato e gli status non verranno rimossi, e la loro energia non verrà eliminata.)"
+        },
+        "pyro": {
+            "id": 303,
+            "name": "Pyro",
+            "nameraw": "{SPRITE_PRESET#1103}Pyro",
+            "description": "Consuma un dado di tipo Pyro lanciato per pagare il costo.\n(È possibile usare anche un Omnidado per pagare.)",
+            "descriptionraw": "Consuma un dado di tipo <color=#FF9999FF>{SPRITE_PRESET#1103}Pyro</color> lanciato per pagare il costo.\\n({SPRITE_PRESET#1111}È possibile usare anche un Omnidado per pagare.)"
+        },
+        "geo": {
+            "id": 306,
+            "name": "Geo",
+            "nameraw": "{SPRITE_PRESET#1106}Geo",
+            "description": "Consuma un dado di tipo Geo lanciato per pagare il costo.\n(È possibile usare anche un Omnidado per pagare.)",
+            "descriptionraw": "Consuma un dado di tipo <color=#FFE699FF>{SPRITE_PRESET#1106}Geo</color> lanciato per pagare il costo.\\n({SPRITE_PRESET#1111}È possibile usare anche un Omnidado per pagare.)"
+        },
+        "electroapplication": {
+            "id": 204,
+            "name": "Applicazione di Electro",
+            "nameraw": "<color=#FFACFFFF>{SPRITE_PRESET#2104}Applicazione di Electro</color>",
+            "description": "Quando si applica Electro senza infliggere danno, le reazioni elementali che si innescano possono ignorare gli effetti che causano danno:\nSovraccarico: il bersaglio è obbligato a passare al prossimo personaggio\nSuperconduzione: nessun effetto.\nElectrocarica：nessun effetto.\nVivificazione：crea un Campo catalizzante che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte.",
+            "descriptionraw": "Quando si applica {SPRITE_PRESET#2104}Electro senza infliggere danno, le reazioni elementali che si innescano possono ignorare gli effetti che causano danno:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Sovraccarico</color>: il bersaglio è obbligato a passare al prossimo personaggio\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduzione</color>: nessun effetto.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electrocarica</color>：nessun effetto.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Vivificazione</color>：crea un <color=#FFFFFFFF>Campo catalizzante</color> che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte."
+        },
+        "anemodmg": {
+            "id": 105,
+            "name": "DAN da Anemo",
+            "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>DAN da Anemo</color>",
+            "description": "Innesca delle reazioni con gli elementi già applicati:\nTurbinio di Cryo: infligge 1 DAN da Cryo a tutti i personaggi nemici tranne al bersaglio.\nTurbinio di Hydro: infligge 1 DAN da Hydro a tutti i personaggi nemici tranne al bersaglio.\nTurbinio di Pyro: infligge 1 DAN da Pyro a tutti i personaggi nemici tranne al bersaglio.\nTurbinio di Electro: infligge 1 DAN da Electro a tutti i personaggi nemici tranne al bersaglio.",
+            "descriptionraw": "Innesca delle reazioni con gli elementi già applicati:\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Turbinio di Cryo</color>: infligge 1 DAN da Cryo a tutti i personaggi nemici tranne al bersaglio.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Turbinio di Hydro</color>: infligge 1 DAN da Hydro a tutti i personaggi nemici tranne al bersaglio.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Turbinio di Pyro</color>: infligge 1 DAN da Pyro a tutti i personaggi nemici tranne al bersaglio.\\n{SPRITE_PRESET#2105}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Turbinio di Electro</color>: infligge 1 DAN da Electro a tutti i personaggi nemici tranne al bersaglio."
+        },
+        "randomhilichurlsummon": {
+            "id": 1001,
+            "name": "Hilichurl casuale",
+            "nameraw": "<color=#FFFFFFFF>Hilichurl casuale</color>",
+            "description": "Possono apparire fino a 4 tipi diversi di Hilichurl:\nHilichurl balestriere di Cryo: infligge 1 DAN da Cryo durante la fase finale. Utilizzi: 2.\nSciamachurl di Hydro: infligge 1 $DAN da Hydro durante la fase finale. Utilizzi: 2.\nHilichurl berserker: infligge 1 DAN da Pyro durante la fase finale. Utilizzi: 2.\nHilichurl balestriere di Electro: infligge 1 DAN da Electro durante la fase finale. Utilizzi: 2.",
+            "descriptionraw": "Possono apparire fino a 4 tipi diversi di Hilichurl:\\n<color=#FFFFFFFF>Hilichurl balestriere di Cryo</color>: infligge 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color> durante la fase finale. Utilizzi: 2.\\n<color=#FFFFFFFF>Sciamachurl di Hydro</color>: infligge 1 ${SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color> durante la fase finale. Utilizzi: 2.\\n<color=#FFFFFFFF>Hilichurl berserker</color>: infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color> durante la fase finale. Utilizzi: 2.\\n<color=#FFFFFFFF>Hilichurl balestriere di Electro</color>: infligge 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color> durante la fase finale. Utilizzi: 2."
+        },
+        "riptide": {
+            "id": 1005,
+            "name": "Risacca",
+            "nameraw": "<color=#FFFFFFFF>Risacca</color>",
+            "description": "Quando il personaggio a cui è associata viene sconfitto: applica Risacca al personaggio attivo.\nQuando Tartaglia è in Posizione da mischia, infligge ulteriori DAN quando attacca il personaggio a cui è associata questa carta.\nDurata (round): 2",
+            "descriptionraw": "<color=#FFFFFFFF>Quando il personaggio a cui è associata viene sconfitto:</color> applica Risacca al personaggio attivo.\\nQuando <color=#FFFFFFFF>Tartaglia</color> è in <color=#FFFFFFFF>Posizione da mischia</color>, infligge ulteriori DAN quando attacca il personaggio a cui è associata questa carta.\\n<color=#FFFFFFFF>Durata (round): 2</color>"
+        },
+        "pyrodmg": {
+            "id": 103,
+            "name": "DAN da Pyro",
+            "nameraw": "{SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>",
+            "description": "Applica Pyro e può innescare le seguenti reazioni elementali:\nFusione: DAN inflitti +2.\nVaporizzazione: DAN inflitti +2.\nSovraccarico: DAN inflitti +2, scambia il bersaglio con il personaggio successivo.\nUstione: DAN inflitti +1, crea una Fiammardente che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte).",
+            "descriptionraw": "Applica {SPRITE_PRESET#2103}Pyro e può innescare le seguenti reazioni elementali:\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Fusione</color>: DAN inflitti +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Vaporizzazione</color>: DAN inflitti +2.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Sovraccarico</color>: DAN inflitti +2, scambia il bersaglio con il personaggio successivo.\\n{SPRITE_PRESET#2103}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Ustione</color>: DAN inflitti +1, crea una <color=#FFFFFFFF>Fiammardente</color> che infligge 1 DAN da Pyro alla fine del turno (ha effetto 1 volta, cumulabile fino a 2 volte)."
+        },
+        "fastaction": {
+            "id": 2,
+            "name": "Azione rapida",
+            "nameraw": "<color=#FFFFFFFF>Azione rapida</color>",
+            "description": "Dopo aver eseguito un'azione rapida, puoi proseguire con altre azioni.\nBisogna cedere il turno solo dopo un'azione di combattimento.",
+            "descriptionraw": "Dopo aver eseguito un'azione rapida, puoi proseguire con altre azioni.\\nBisogna cedere il turno solo dopo un'azione di combattimento."
+        },
+        "usages": {
+            "id": 3,
+            "name": "Utilizzi",
+            "nameraw": "<color=#FFFFFFFF>Utilizzi</color>",
+            "description": "Dopo che l'effetto di questa carta è stato innescato, viene consumato 1 Utilizzo.\nQuando tutti gli Utilizzi saranno stati consumati, la carta verrà eliminata.",
+            "descriptionraw": "Dopo che l'effetto di questa carta è stato innescato, viene consumato 1 <color=#FFFFFFFF>Utilizzo</color>.\\nQuando tutti gli <color=#FFFFFFFF>Utilizzi</color> saranno stati consumati, la carta verrà eliminata."
+        },
+        "plungingattack": {
+            "id": 52,
+            "name": "Attacco in picchiata",
+            "nameraw": "<color=#FFFFFFFF>Attacco in picchiata</color>",
+            "description": "Dopo che un personaggio diventa attivo, se la sua azione di combattimento successiva durante questo turno è un attacco normale, quest'ultimo viene considerato un attacco in picchiata.",
+            "descriptionraw": "Dopo che un personaggio diventa attivo, se la sua azione di combattimento successiva durante questo turno è un attacco normale, quest'ultimo viene considerato un attacco in picchiata."
+        },
+        "aegisofabyssalflame": {
+            "id": 1006,
+            "name": "Egida della fiamma abissale",
+            "nameraw": "<color=#FFFFFFFF>Egida della fiamma abissale</color>",
+            "description": "Conferisci 3 punti di  scudo al personaggio associato.\nPrima che lo scudo si esaurisca, il personaggio associato infligge DAN da Pyro +1.",
+            "descriptionraw": "Conferisci <color=#FFFFFFFF>3 punti di {SPRITE_PRESET#4007} <color=#FFFFFFFF>scudo</color></color> al personaggio associato.\\nPrima che lo {SPRITE_PRESET#4007}<color=#FFFFFFFF>scudo</color> si esaurisca, il personaggio associato infligge {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color> +1."
+        },
+        "cryo": {
+            "id": 301,
+            "name": "Cryo",
+            "nameraw": "{SPRITE_PRESET#1101}Cryo",
+            "description": "Consuma un dado di tipo Cryo lanciato per pagare il costo.\n(È possibile usare anche un Omnidado per pagare.)",
+            "descriptionraw": "Consuma un dado di tipo <color=#99FFFFFF>{SPRITE_PRESET#1101}Cryo</color> lanciato per pagare il costo.\\n({SPRITE_PRESET#1111}È possibile usare anche un Omnidado per pagare.)"
+        },
+        "hydrodmg": {
+            "id": 102,
+            "name": "DAN da Hydro",
+            "nameraw": "{SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>",
+            "description": "Applica Hydro e può innescare le seguenti reazioni elementali:\nVaporizzazione: DAN inflitti +2.\nElectrocarica: DAN inflitti +1, infligge 1 DAN da perforazione a tutti i personaggi nemici tranne al bersaglio.\nCongelamento: DAN inflitti +1, impedisce al bersaglio di eseguire azioni durante il turno corrente (può essere rimosso in anticipo se riceve DAN fisici o da Pyro, nel caso subisce DAN +2).\nFioritura: DAN inflitti +1, crea un nucleo di Dendro che infligge DAN +2 la prossima volta che vengono inflitti danni da Pyro o Electro.",
+            "descriptionraw": "Applica {SPRITE_PRESET#2102}Hydro e può innescare le seguenti reazioni elementali:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporizzazione</color>: DAN inflitti +2.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electrocarica</color>: DAN inflitti +1, infligge 1 DAN da perforazione a tutti i personaggi nemici tranne al bersaglio.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Congelamento</color>: DAN inflitti +1, impedisce al bersaglio di eseguire azioni durante il turno corrente (può essere rimosso in anticipo se riceve DAN fisici o da Pyro, nel caso subisce DAN +2).\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Fioritura</color>: DAN inflitti +1, crea un <color=#FFFFFFFF>nucleo di Dendro</color> che infligge DAN +2 la prossima volta che vengono inflitti danni da Pyro o Electro."
+        },
+        "unalignedelement": {
+            "id": 309,
+            "name": "elemento indefinito",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1109}elemento indefinito</color>",
+            "description": "Puoi usare dadi elementali di qualsiasi tipo per pagare questo tipo di costo.",
+            "descriptionraw": "Puoi usare dadi elementali di qualsiasi tipo per pagare questo tipo di costo."
+        },
+        "electrodmg": {
+            "id": 104,
+            "name": "DAN da Electro",
+            "nameraw": "{SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>",
+            "description": "Applica Electro e può innescare le seguenti reazioni elementali:\nSovraccarico: DAN inflitti +2, scambia il bersaglio con il personaggio successivo.\nSuperconduzione: DAN inflitti +1, infligge 1 DAN da perforazione a tutti i personaggi nemici tranne al bersaglio.\nElectrocarica: DAN inflitti +1, infligge 1 DAN da perforazione a tutti i personaggi nemici tranne al bersaglio.\nVivificazione: DAN inflitti +1, crea un Campo catalizzante che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte.",
+            "descriptionraw": "Applica {SPRITE_PRESET#2104}Electro e può innescare le seguenti reazioni elementali:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Sovraccarico</color>: DAN inflitti +2, scambia il bersaglio con il personaggio successivo.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduzione</color>: DAN inflitti +1, infligge 1 DAN da perforazione a tutti i personaggi nemici tranne al bersaglio.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electrocarica</color>: DAN inflitti +1, infligge 1 DAN da perforazione a tutti i personaggi nemici tranne al bersaglio.\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Vivificazione</color>: DAN inflitti +1, crea un <color=#FFFFFFFF>Campo catalizzante</color> che aumenta di 1 i DAN da Dendro o Electro inflitti per le prossime 2 volte."
+        },
+        "bloodblossom": {
+            "id": 1009,
+            "name": "Bocciolo di sangue",
+            "nameraw": "<color=#FFFFFFFF>Bocciolo di sangue</color>",
+            "description": "Fase finale: infliggi 1 DAN da Pyro al personaggio a cui è associata questa carta.\nUtilizzi: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Fase finale:</color> infliggi 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color> al personaggio a cui è associata questa carta.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Utilizzi: </color>1</color>"
+        },
+        "cryoapplication": {
+            "id": 201,
+            "name": "Applicazione di Cryo",
+            "nameraw": "<color=#99FFFFFF>{SPRITE_PRESET#2101}Applicazione di Cryo</color>",
+            "description": "Quando Cryo viene applicato senza infliggere DAN, la reazione elementale innescata ignorerà gli effetti che infliggono DAN:\nFusione: nessun effetto.\nSuperconduzione: nessun effetto.\nCongelamento: impedisce al bersaglio di eseguire azioni durante il turno corrente (può essere rimosso in anticipo se riceve danni fisici o da Pyro, nel caso subisce DAN +2).",
+            "descriptionraw": "Quando {SPRITE_PRESET#2101}Cryo viene applicato senza infliggere DAN, la reazione elementale innescata ignorerà gli effetti che infliggono DAN:\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Fusione</color>: nessun effetto.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Superconduzione</color>: nessun effetto.\\n{SPRITE_PRESET#2101}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Congelamento</color>: impedisce al bersaglio di eseguire azioni durante il turno corrente (può essere rimosso in anticipo se riceve danni fisici o da Pyro, nel caso subisce DAN +2)."
+        }
+    },
+    "meta": {
+        "namemap": {
+            "aegisofabyssalflame": "Egida della fiamma abissale",
+            "anemo": "Anemo",
+            "anemodmg": "DAN da Anemo",
+            "bloodblossom": "Bocciolo di sangue",
+            "characterclosesttoyourcurrentactivecharacter": "Personaggio avversario più vicino al tuo personaggio attivo",
+            "chargedattack": "Attacco caricato",
+            "clusterbloomarrow": "Frecce a grappolo",
+            "combataction": "Azione di combattimento",
+            "crowfeathercover": "Copertura della Piuma corvina",
+            "cryo": "Cryo",
+            "cryoapplication": "Applicazione di Cryo",
+            "cryodmg": "DAN da Cryo",
+            "dendro": "Dendro",
+            "dendroapplication": "Applicazione di Dendro",
+            "dendrodmg": "DAN da Dendro",
+            "dendrorelatedreactions": "Reazioni di Dendro",
+            "durationrounds": "Durata (in turni)",
+            "electro": "Electro",
+            "electroapplication": "Applicazione di Electro",
+            "electrodmg": "DAN da Electro",
+            "electroinfusion": "Infusione di Electro",
+            "elementalburst": "Tripudio elementale",
+            "energy": "Energia",
+            "fastaction": "Azione rapida",
+            "fatuiambusher": "Aggressore dei Fatui",
+            "geo": "Geo",
+            "geodmg": "DAN da Geo",
+            "hydro": "Hydro",
+            "hydroapplication": "Applicazione di Hydro",
+            "hydrodmg": "DAN da Hydro",
+            "hydrorelatedreactions": "Reazioni di Hydro",
+            "immunitytodefeats1willnotbedefeated": "Immunità alla sconfitta",
+            "matchingelement": "Elementi corrispondenti",
+            "omnielement": "Omnielemento",
+            "passiveskill": "Abilità passiva",
+            "physicaldmg": "DAN fisici",
+            "piercingdmg": "DAN da perforazione",
+            "plungingattack": "Attacco in picchiata",
+            "prepareskill": "Prepara abilità",
+            "pyro": "Pyro",
+            "pyroapplication": "Applicazione di Pyro",
+            "pyrodmg": "DAN da Pyro",
+            "pyrorelatedreactions": "Reazioni di Pyro",
+            "randomhilichurlsummon": "Hilichurl casuale",
+            "riptide": "Risacca",
+            "shield": "scudo",
+            "superlativesuperstrength": "Superforza superlativa",
+            "unalignedelement": "elemento indefinito",
+            "usages": "Utilizzi"
+        },
+        "names": {
+            "Egida della fiamma abissale": "aegisofabyssalflame",
+            "Anemo": "anemo",
+            "DAN da Anemo": "anemodmg",
+            "Bocciolo di sangue": "bloodblossom",
+            "Personaggio avversario più vicino al tuo personaggio attivo": "characterclosesttoyourcurrentactivecharacter",
+            "Attacco caricato": "chargedattack",
+            "Frecce a grappolo": "clusterbloomarrow",
+            "Azione di combattimento": "combataction",
+            "Copertura della Piuma corvina": "crowfeathercover",
+            "Cryo": "cryo",
+            "Applicazione di Cryo": "cryoapplication",
+            "DAN da Cryo": "cryodmg",
+            "Dendro": "dendro",
+            "Applicazione di Dendro": "dendroapplication",
+            "DAN da Dendro": "dendrodmg",
+            "Reazioni di Dendro": "dendrorelatedreactions",
+            "Durata (in turni)": "durationrounds",
+            "Electro": "electro",
+            "Applicazione di Electro": "electroapplication",
+            "DAN da Electro": "electrodmg",
+            "Infusione di Electro": "electroinfusion",
+            "Tripudio elementale": "elementalburst",
+            "Energia": "energy",
+            "Azione rapida": "fastaction",
+            "Aggressore dei Fatui": "fatuiambusher",
+            "Geo": "geo",
+            "DAN da Geo": "geodmg",
+            "Hydro": "hydro",
+            "Applicazione di Hydro": "hydroapplication",
+            "DAN da Hydro": "hydrodmg",
+            "Reazioni di Hydro": "hydrorelatedreactions",
+            "Immunità alla sconfitta": "immunitytodefeats1willnotbedefeated",
+            "Elementi corrispondenti": "matchingelement",
+            "Omnielemento": "omnielement",
+            "Abilità passiva": "passiveskill",
+            "DAN fisici": "physicaldmg",
+            "DAN da perforazione": "piercingdmg",
+            "Attacco in picchiata": "plungingattack",
+            "Prepara abilità": "prepareskill",
+            "Pyro": "pyro",
+            "Applicazione di Pyro": "pyroapplication",
+            "DAN da Pyro": "pyrodmg",
+            "Reazioni di Pyro": "pyrorelatedreactions",
+            "Hilichurl casuale": "randomhilichurlsummon",
+            "Risacca": "riptide",
+            "scudo": "shield",
+            "Superforza superlativa": "superlativesuperstrength",
+            "elemento indefinito": "unalignedelement",
+            "Utilizzi": "usages"
+        },
+        "aliases": {},
+        "categories": {},
+        "properties": {}
+    }
+}
