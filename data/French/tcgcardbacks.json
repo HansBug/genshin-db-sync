@@ -78,7 +78,7 @@
             "id": 103,
             "name": "Inazuma",
             "rarity": 3,
-            "source": "Récompense pour avoir atteint le Niv. de joueur 6"
+            "source": "Récompense pour avoir atteint un Niv. de joueur de 6"
         },
         "lazuriteswirl": {
             "description": "Un dos de carte spécial personnalisé par le célèbre artiste Calx.\n« Tel le Dragon de l'Est, déployez vos ailes librement sur ce champ de bataille ! »",
@@ -94,7 +94,7 @@
             "id": 109,
             "name": "Légende",
             "rarity": 3,
-            "source": "Récompense pour avoir atteint le Niv. de joueur 10"
+            "source": "Récompense pour avoir atteint un Niv. de joueur de 10"
         },
         "liyue": {
             "description": "Chaque voyage doit commencer par un premier pas. Construisez votre deck d'une main sûre, et votre chemin vers la victoire sera certain.",
@@ -102,7 +102,7 @@
             "id": 102,
             "name": "Liyue",
             "rarity": 3,
-            "source": "Récompense pour avoir atteint le Niv. de joueur 4"
+            "source": "Récompense pour avoir atteint un Niv. de joueur de 4"
         },
         "magicalcrystalchunk": {
             "description": "Le temps lui donne sa valeur.",
@@ -126,7 +126,7 @@
             "id": 101,
             "name": "Mondstadt",
             "rarity": 3,
-            "source": "Récompense pour avoir atteint le Niv. de joueur 2"
+            "source": "Récompense pour avoir atteint un Niv. de joueur de 2"
         },
         "origin": {
             "description": "Entre jour et nuit, entre ciel et terre,\nc'est là que séjournent espoirs et rêves.",
@@ -142,7 +142,7 @@
             "id": 104,
             "name": "Sumeru",
             "rarity": 3,
-            "source": "Récompense pour avoir atteint le Niv. de joueur 8"
+            "source": "Récompense pour avoir atteint un Niv. de joueur de 8"
         },
         "treasuresofthedeck": {
             "description": "Un trésor n'est acquis et utilisé qu'à l'instant présent, et son contenu n'est jamais tout à fait le même. Quel trésor se trouve dans vos cartes cette fois-ci ?",

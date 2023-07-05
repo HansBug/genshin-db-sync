@@ -120,9 +120,9 @@
         "amosbow": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시 추가로 2pt의 피해를 가한다. (턴당 1회)\n「활」 캐릭터만 장착 가능. 캐릭터는 (「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시</color> 추가로 2pt의 피해를 가한다. (턴당 1회)\\n<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 (「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시</color> 추가로 2pt의 피해를 가한다. (턴당 1회)\\n<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 (「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 가하는 피해+1pt\n캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시 추가로 2pt의 피해를 가한다. (턴당 1회)\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시</color> 추가로 2pt의 피해를 가한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시</color> 추가로 2pt의 피해를 가한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311204,
             "name": "아모스의 활",
             "playcost": [
@@ -140,6 +140,29 @@
             "tagstext": [
                 "무기",
                 "활"
+            ]
+        },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "이벤트 카드",
+            "description": "아군 캐릭터 중 「무기」나 「성유물」을 장착한 캐릭터가 있을 경우 사용 가능: 이번 턴에서 아군이 다음번에 「무기」 또는 「성유물」 장비 카드 사용 시 원소 주사위 소모 개수-2\n(「비기」 카드는 한 번의 대전에서 한 장만 사용 가능하며, 해당 카드는 시작 카드에 반드시 포함된다)",
+            "descriptionraw": "<color=#FFFFFFFF>아군 캐릭터 중 「{SPRITE_PRESET#3003}무기」나 「{SPRITE_PRESET#3004}성유물」을 장착한 캐릭터가 있을 경우 사용 가능:</color> 이번 턴에서 아군이 다음번에 「{SPRITE_PRESET#3003}무기」 또는 「{SPRITE_PRESET#3004}성유물」 장비 카드 사용 시 원소 주사위 소모 개수-2\\n(「{SPRITE_PRESET#3007}비기」 카드는 한 번의 대전에서 한 장만 사용 가능하며, 해당 카드는 시작 카드에 반드시 포함된다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군 캐릭터 중 「{SPRITE_PRESET#3003}무기」나 「{SPRITE_PRESET#3004}성유물」을 장착한 캐릭터가 있을 경우 사용 가능:</color> 이번 턴에서 아군이 다음번에 「{SPRITE_PRESET#3003}무기」 또는 「{SPRITE_PRESET#3004}성유물」 장비 카드 사용 시 원소 주사위 소모 개수-2\\n(「{SPRITE_PRESET#3007}비기」 카드는 한 번의 대전에서 한 장만 사용 가능하며, 해당 카드는 시작 카드에 반드시 포함된다)",
+            "id": 330001,
+            "name": "과거의 정원",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "「허물만 남은 어둠 속 덧없는 삶, 아득한 꿈에서 깨어날 때가 아닌가?」",
+            "storytitle": "과거의 정원",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "비기"
             ]
         },
         "aquilafavonia": {
@@ -336,9 +359,9 @@
         "bunnytriggered": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 엠버일 때 해당 카드를 장착할 수 있다.\n엠버가 해당 카드를 장착하면 즉시 폭탄 인형을 1회 사용한다.\n엠버가 일반 공격 후: 토끼 백작이 필드에 여전히 존재할 경우 토끼 백작을 폭파시켜 불 원소 피해를 3pt 가한다.\n(카드 덱에 엠버가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1304]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1304]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S13042]</color>을 1회 사용한다.\\n$[A1304]가 <color=#FFFFFFFF>일반 공격</color> 후: <color=#FFFFFFFF>$[C113041]</color>이 필드에 여전히 존재할 경우 <color=#FFFFFFFF>$[C113041]</color>을 폭파시켜 $[K103]를 3pt 가한다.\\n(카드 덱에 $[A1304]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>엠버</color>일 때 해당 카드를 장착할 수 있다.\\n엠버가 해당 카드를 장착하면 즉시 <color=#FFD780FF>폭탄 인형</color>을 1회 사용한다.\\n엠버가 <color=#FFFFFFFF>일반 공격</color> 후: <color=#FFFFFFFF>토끼 백작</color>이 필드에 여전히 존재할 경우 <color=#FFFFFFFF>토끼 백작</color>을 폭파시켜 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 3pt 가한다.\\n(카드 덱에 엠버가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 엠버일 때 해당 카드를 장착할 수 있다.\n엠버가 해당 카드를 장착하면 즉시 폭탄 인형을 1회 사용한다.\n엠버가 일반 공격 후: 해당 카드와 토끼 백작이 필드에 여전히 존재할 경우 토끼 백작을 폭파시켜 불 원소 피해를 3pt 가한다.\n(카드 덱에 엠버가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1304]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1304]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S13042]</color>을 1회 사용한다.\\n$[A1304]가 <color=#FFFFFFFF>일반 공격</color> 후: 해당 카드와 <color=#FFFFFFFF>$[C113041]</color>이 필드에 여전히 존재할 경우 <color=#FFFFFFFF>$[C113041]</color>을 폭파시켜 $[K103]를 3pt 가한다.\\n(카드 덱에 $[A1304]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>엠버</color>일 때 해당 카드를 장착할 수 있다.\\n엠버가 해당 카드를 장착하면 즉시 <color=#FFD780FF>폭탄 인형</color>을 1회 사용한다.\\n엠버가 <color=#FFFFFFFF>일반 공격</color> 후: 해당 카드와 <color=#FFFFFFFF>토끼 백작</color>이 필드에 여전히 존재할 경우 <color=#FFFFFFFF>토끼 백작</color>을 폭파시켜 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 3pt 가한다.\\n(카드 덱에 엠버가 있어야만 카드 덱에 추가 가능)",
             "id": 213041,
             "name": "일촉즉발",
             "playcost": [
@@ -615,6 +638,29 @@
             "tagstext": [
                 "특성",
                 "전투 행동"
+            ]
+        },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "이벤트 카드",
+            "description": "아군의 남은 원소 주사위 개수가 0일 경우 사용 가능: 각각 다른 타입의 일반 원소 주사위를 2개 생성한다.\n(「비기」 카드는 한 번의 대전에서 한 장만 사용 가능하며, 해당 카드는 시작 카드에 반드시 포함된다)",
+            "descriptionraw": "<color=#FFFFFFFF>아군의 남은 원소 주사위 개수가 0일 경우 사용 가능:</color> 각각 다른 타입의 일반 원소 주사위를 2개 생성한다.\\n(「{SPRITE_PRESET#3007}비기」 카드는 한 번의 대전에서 한 장만 사용 가능하며, 해당 카드는 시작 카드에 반드시 포함된다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군의 남은 원소 주사위 개수가 0일 경우 사용 가능:</color> 각각 다른 타입의 일반 원소 주사위를 2개 생성한다.\\n(「{SPRITE_PRESET#3007}비기」 카드는 한 번의 대전에서 한 장만 사용 가능하며, 해당 카드는 시작 카드에 반드시 포함된다)",
+            "id": 330002,
+            "name": "반암의 계약",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "「암왕제군은 그에게 세상을 볼 수 있는 두 눈을 줬고, 그와 규칙을 정했다. 그 뒤로 그 용은 늘 암왕제군 옆을 지키며 수많은 전쟁에 함께했다…」",
+            "storytitle": "반암의 계약",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "비기"
             ]
         },
         "crimsonwitchofflames": {
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "장비 카드",
+            "description": "캐릭터가 가하는 피해+1pt\n필드 입장 시: 카드를 2장 드로우한다.\n(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 카드를 2장 드로우한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 카드를 2장 드로우한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "id": 311105,
+            "name": "충만의 열매",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "「아무리 씁쓸한 이야기라 할지라도 그 안에는 용기와 힘이 담겨 있어… 금발의 착한 나라와 우리의 모험 이야기는, 착한 나라를 대신해서 숲을 지켜줄 거야」",
+            "storytitle": "만월의 상·충만의 열매",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "무기",
+                "법구"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "상대 캐릭터 처치 후: 부착 캐릭터가 「출전 캐릭터」일 경우 만능 원소를 2개 생성한다.\n(캐릭터는 「성유물」을 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>상대 캐릭터 처치 후:</color> 부착 캐릭터가 「출전 캐릭터」일 경우 $[K411]를 2개 생성한다.\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>상대 캐릭터 처치 후:</color> 부착 캐릭터가 「출전 캐릭터」일 경우 <color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>를 2개 생성한다.\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
+            "description": "상대 캐릭터 처치 후: 부착 캐릭터가 「출전 캐릭터」일 경우 만능 원소를 2개 생성한다. (대전 중 3회 한정)\n(캐릭터는 「성유물」을 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>상대 캐릭터 처치 후:</color> 부착 캐릭터가 「출전 캐릭터」일 경우 $[K411]를 2개 생성한다. (대전 중 3회 한정)\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>상대 캐릭터 처치 후:</color> 부착 캐릭터가 「출전 캐릭터」일 경우 <color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>를 2개 생성한다. (대전 중 3회 한정)\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
             "id": 312004,
             "name": "노름꾼의 귀걸이",
             "playcost": [
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 노엘일 때 해당 카드를 장착할 수 있다.\n노엘이 해당 카드를 장착하면 즉시 호심경을 1회 사용한다.\n해당 카드를 장착한 노엘이 바위 갑주를 생성하면 노엘이 일반 공격 발동 후 모든 아군 캐릭터의 HP가 1pt 치유된다. (턴당 1회)\n(카드 덱에 노엘이 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1602]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1602]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S16022]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1602]이 <color=#FFFFFFFF>$[C116021]</color>를 생성하면 $[A1602]이 <color=#FFFFFFFF>일반 공격</color> 발동 후 모든 아군 캐릭터의 HP가 1pt 치유된다. (턴당 1회)\\n(카드 덱에 $[A1602]이 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>노엘</color>일 때 해당 카드를 장착할 수 있다.\\n노엘이 해당 카드를 장착하면 즉시 <color=#FFD780FF>호심경</color>을 1회 사용한다.\\n해당 카드를 장착한 노엘이 <color=#FFFFFFFF>바위 갑주</color>를 생성하면 노엘이 <color=#FFFFFFFF>일반 공격</color> 발동 후 모든 아군 캐릭터의 HP가 1pt 치유된다. (턴당 1회)\\n(카드 덱에 노엘이 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 노엘일 때 해당 카드를 장착할 수 있다.\n노엘이 해당 카드를 장착하면 즉시 호심경을 1회 사용한다.\n노엘이 일반 공격 후: 해당 카드와 바위 갑주가 여전히 필드에 있을 경우, 모든 아군 캐릭터의 HP를 1pt 치유한다. (턴당 1회)\n(카드 덱에 노엘이 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1602]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1602]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S16022]</color>을 1회 사용한다.\\n$[A1602]이 <color=#FFFFFFFF>일반 공격</color> 후: 해당 카드와 <color=#FFFFFFFF>$[C116021]</color>가 여전히 필드에 있을 경우, 모든 아군 캐릭터의 HP를 1pt 치유한다. (턴당 1회)\\n(카드 덱에 $[A1602]이 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>노엘</color>일 때 해당 카드를 장착할 수 있다.\\n노엘이 해당 카드를 장착하면 즉시 <color=#FFD780FF>호심경</color>을 1회 사용한다.\\n노엘이 <color=#FFFFFFFF>일반 공격</color> 후: 해당 카드와 <color=#FFFFFFFF>바위 갑주</color>가 여전히 필드에 있을 경우, 모든 아군 캐릭터의 HP를 1pt 치유한다. (턴당 1회)\\n(카드 덱에 노엘이 있어야만 카드 덱에 추가 가능)",
             "id": 216021,
             "name": "지원은 저한테 맡기세요",
             "playcost": [
@@ -2541,6 +2612,54 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "아군이 강공격 발동 시: 가하는 피해+1pt. 결산 후, 카드 1장을 드로우한다.",
+            "descriptionraw": "<color=#FFFFFFFF>아군이 $[K51] 발동 시:</color> 가하는 피해+1pt. 결산 후, 카드 1장을 드로우한다.",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군이 <color=#FFFFFFFF>강공격</color> 발동 시:</color> 가하는 피해+1pt. 결산 후, 카드 1장을 드로우한다.",
+            "id": 423020,
+            "name": "노련한 부적술·장비 보수",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "「무기」와 「성유물」을 동시에 장착한 아군 캐릭터가 스킬 사용 시: 원소 주사위 소모 개수-3 (턴당 1회)",
+            "descriptionraw": "<color=#FFFFFFFF>「{SPRITE_PRESET#3003}무기」와 「{SPRITE_PRESET#3004}성유물」을 동시에 장착한 아군 캐릭터가 스킬 사용 시:</color> 원소 주사위 소모 개수-3 (턴당 1회)",
+            "descriptionreplaced": "<color=#FFFFFFFF>「{SPRITE_PRESET#3003}무기」와 「{SPRITE_PRESET#3004}성유물」을 동시에 장착한 아군 캐릭터가 스킬 사용 시:</color> 원소 주사위 소모 개수-3 (턴당 1회)",
+            "id": 423021,
+            "name": "노련한 부적술·전투 준비",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "적 캐릭터 처치 시: 모든 적 캐릭터에게 관통 피해를 1pt 가한다.",
+            "descriptionraw": "<color=#FFFFFFFF>적 캐릭터 처치 시:</color> 모든 적 캐릭터에게 $[K5]를 1pt 가한다.",
+            "descriptionreplaced": "<color=#FFFFFFFF>적 캐릭터 처치 시:</color> 모든 적 캐릭터에게 <color=#FFFFFFFF>관통 피해</color>를 1pt 가한다.",
+            "id": 423022,
+            "name": "노련한 부적술·참패",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "적 캐릭터가 원소 반응 피해를 받은 후: 만능 원소를 1개 생성한다. (턴당 최대 3회 발동)",
+            "descriptionraw": "<color=#FFFFFFFF>적 캐릭터가 원소 반응 피해를 받은 후:</color> $[K411]를 1개 생성한다. (턴당 최대 3회 발동)",
+            "descriptionreplaced": "<color=#FFFFFFFF>적 캐릭터가 원소 반응 피해를 받은 후:</color> <color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>를 1개 생성한다. (턴당 최대 3회 발동)",
+            "id": 423023,
+            "name": "노련한 부적술·추격병",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "아군이 총 코스트가 최소 3인 「무기」 또는 「성유물」 장비 카드 사용 시: 원소 주사위 소모 개수-3 (턴당 1회)",
+            "descriptionraw": "<color=#FFFFFFFF>아군이 총 코스트가 최소 3인 「{SPRITE_PRESET#3003}무기」 또는 「{SPRITE_PRESET#3004}성유물」 장비 카드 사용 시:</color> 원소 주사위 소모 개수-3 (턴당 1회)",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군이 총 코스트가 최소 3인 「{SPRITE_PRESET#3003}무기」 또는 「{SPRITE_PRESET#3004}성유물」 장비 카드 사용 시:</color> 원소 주사위 소모 개수-3 (턴당 1회)",
+            "id": 423019,
+            "name": "노련한 부적술·장기 전략",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>상대 캐릭터 처치 후: </color><color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>를 1개 생성하고 카드를 1장 드로우한다.",
             "id": 423007,
             "name": "노련한 부적술·진격",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "아군 캐릭터가 스킬 사용 후: 상대 필드에 캐릭터 원소 타입의 「부비트랩」을 1개 생성한다. 적 증원 캐릭터 입장 후, 「부비트랩」은 해당 캐릭터에게 상응하는 원소 피해를 1pt 가한다.",
+            "descriptionraw": "<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 상대 필드에 캐릭터 원소 타입의 「부비트랩」을 1개 생성한다. 적 증원 캐릭터 입장 후, 「부비트랩」은 해당 캐릭터에게 상응하는 원소 피해를 1pt 가한다.",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 상대 필드에 캐릭터 원소 타입의 「부비트랩」을 1개 생성한다. 적 증원 캐릭터 입장 후, 「부비트랩」은 해당 캐릭터에게 상응하는 원소 피해를 1pt 가한다.",
+            "id": 423024,
+            "name": "노련한 부적술·기책",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "적 캐릭터 처치 시: 아군이 카드 1장을 드로우하며, 현재 아군 출전 캐릭터가 이번 대전에서 가하는 피해+1pt (최대 3pt까지 중첩 가능)",
+            "descriptionraw": "<color=#FFFFFFFF>적 캐릭터 처치 시:</color> 아군이 카드 1장을 드로우하며, 현재 아군 출전 캐릭터가 이번 대전에서 가하는 피해+1pt (최대 3pt까지 중첩 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>적 캐릭터 처치 시:</color> 아군이 카드 1장을 드로우하며, 현재 아군 출전 캐릭터가 이번 대전에서 가하는 피해+1pt (최대 3pt까지 중첩 가능)",
+            "id": 423018,
+            "name": "노련한 부적술·승기 잡기",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "아군이 「무기」 카드 사용 시: 원소 주사위 소모 개수-1\n아군 필드에 「무기」를 장착한 캐릭터가 존재하면 1명당 추가로 원소 주사위 소모 개수-1 (턴당 1회)",
+            "descriptionraw": "<color=#FFFFFFFF>아군이 「{SPRITE_PRESET#3003}무기」 카드 사용 시:</color> 원소 주사위 소모 개수-1\\n아군 필드에 「{SPRITE_PRESET#3003}무기」를 장착한 캐릭터가 존재하면 1명당 추가로 원소 주사위 소모 개수-1 (턴당 1회)",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군이 「{SPRITE_PRESET#3003}무기」 카드 사용 시:</color> 원소 주사위 소모 개수-1\\n아군 필드에 「{SPRITE_PRESET#3003}무기」를 장착한 캐릭터가 존재하면 1명당 추가로 원소 주사위 소모 개수-1 (턴당 1회)",
+            "id": 322018,
+            "name": "장 씨",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "날카로운 검이 되기까지, 철은 타오르는 좌절을 수없이 거쳐야 한다",
+            "storytitle": "보검은 단련 없이 날이 서지 않는다·장 씨",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "동료"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -3025,6 +3203,32 @@
                 "전투 행동"
             ]
         },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "장비 카드",
+            "description": "전투 행동: 아군 출전 캐릭터가 카에데하라 카즈하일 때 해당 카드를 장착할 수 있다.\n카에데하라 카즈하가 해당 카드를 장착하면 즉시 치하야부루를 1회 사용한다.\n해당 카드를 장착한 카에데하라 카즈하가 확산 반응 발동 후: 아군 캐릭터와 소환물이 가하는 다음 2회의 확산된 원소 타입 피해+1pt (원소 타입마다 별도 카운트)\n(카드 덱에 카에데하라 카즈하가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1505]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1505]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S15052]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1505]가 확산 반응 발동 후: 아군 캐릭터와 소환물이 가하는 다음 2회의 확산된 원소 타입 피해+1pt (원소 타입마다 별도 카운트)\\n(카드 덱에 $[A1505]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>카에데하라 카즈하</color>일 때 해당 카드를 장착할 수 있다.\\n카에데하라 카즈하가 해당 카드를 장착하면 즉시 <color=#FFD780FF>치하야부루</color>를 1회 사용한다.\\n해당 카드를 장착한 카에데하라 카즈하가 확산 반응 발동 후: 아군 캐릭터와 소환물이 가하는 다음 2회의 확산된 원소 타입 피해+1pt (원소 타입마다 별도 카운트)\\n(카드 덱에 카에데하라 카즈하가 있어야만 카드 덱에 추가 가능)",
+            "id": 215051,
+            "name": "바람 속 시 낭송",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "캣테일 술집에서 카에데하라 카즈하를 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
+            "storytext": "카드 대전 속에도 고상함이 숨어있는 것 같아.\n최소한… 서로가 모두 「후회 없는 한 수」를 두니까",
+            "storytitle": "카에데하라 카즈하·바람 속 시 낭송",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "특성",
+                "전투 행동"
+            ]
+        },
         "poundingsurprise": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "아이템"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "이벤트 카드",
+            "description": "아군이 다음번에 「무기」 또는 「성유물」 카드 사용 시: 원소 주사위 소모 개수-1",
+            "descriptionraw": "<color=#FFFFFFFF>아군이 다음번에 「{SPRITE_PRESET#3003}무기」 또는 「{SPRITE_PRESET#3004}성유물」 카드 사용 시:</color> 원소 주사위 소모 개수-1",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군이 다음번에 「{SPRITE_PRESET#3003}무기」 또는 「{SPRITE_PRESET#3004}성유물」 카드 사용 시:</color> 원소 주사위 소모 개수-1",
+            "id": 332021,
+            "name": "위대한 꿈의 멜로디",
+            "playcost": [],
+            "storytext": "「우리의 꿈, 우리의 세계로 가는 거야」\n「선하고 용감하며 정직한 이야기를 써내려 가자」",
+            "storytitle": "위대한 꿈의 멜로디",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "장비 카드",
+            "description": "전투 행동: 아군 출전 캐릭터가 연비일 때 해당 카드를 장착할 수 있다.\n연비가 해당 카드를 장착하면 즉시 봉랍 인장을 1회 사용한다.\n해당 카드를 장착한 연비가 강공격 발동 시: HP가 6pt 이하인 적에게 가하는 피해+1pt\n(카드 덱에 연비가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1308]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1308]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S13081]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1308]가 $[K51] 발동 시: HP가 6pt 이하인 적에게 가하는 피해+1pt\\n(카드 덱에 $[A1308]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>연비</color>일 때 해당 카드를 장착할 수 있다.\\n연비가 해당 카드를 장착하면 즉시 <color=#FFD780FF>봉랍 인장</color>을 1회 사용한다.\\n해당 카드를 장착한 연비가 <color=#FFFFFFFF>강공격</color> 발동 시: HP가 6pt 이하인 적에게 가하는 피해+1pt\\n(카드 덱에 연비가 있어야만 카드 덱에 추가 가능)",
+            "id": 213081,
+            "name": "최종 해석권",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "캣테일 술집에서 연비를 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
+            "storytext": "「카드 게임이야 당연히… 법에 저촉하지 않는 선에서 하고 싶은 대로 하는 거지」",
+            "storytitle": "연비·최종 해석권",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "특성",
+                "전투 행동"
             ]
         },
         "sacrificialbow": {
@@ -4020,6 +4268,36 @@
             "tags": [],
             "tagstext": []
         },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "장비 카드",
+            "description": "전투 행동: 아군 출전 캐릭터가 캔디스일 때 해당 카드를 장착할 수 있다.\n캔디스가 해당 카드를 장착하면 즉시 성스러운 의식·회색빛 새의 물결을 1회 사용한다.\n해당 카드를 장착한 캔디스가 생성한 적색 왕관의 축복은 다음과 같은 추가 효과를 보유한다. 아군 캐릭터가 일반 공격 후: 물 원소 피해를 1pt 준다. (턴당 1회)\n(카드 덱에 캔디스가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1207]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1207]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S12073]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1207]가 생성한 <color=#FFFFFFFF>$[C112072]</color>은 다음과 같은 추가 효과를 보유한다. <color=#FFFFFFFF>아군 캐릭터가 일반 공격 후:</color> $[K102]를 1pt 준다. (턴당 1회)\\n(카드 덱에 $[A1207]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>캔디스</color>일 때 해당 카드를 장착할 수 있다.\\n캔디스가 해당 카드를 장착하면 즉시 <color=#FFD780FF>성스러운 의식·회색빛 새의 물결</color>을 1회 사용한다.\\n해당 카드를 장착한 캔디스가 생성한 <color=#FFFFFFFF>적색 왕관의 축복</color>은 다음과 같은 추가 효과를 보유한다. <color=#FFFFFFFF>아군 캐릭터가 일반 공격 후:</color> {SPRITE_PRESET#2102}<color=#80C0FFFF>물 원소 피해</color>를 1pt 준다. (턴당 1회)\\n(카드 덱에 캔디스가 있어야만 카드 덱에 추가 가능)",
+            "id": 212071,
+            "name": "범람하는 조석",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "캣테일 술집에서 캔디스를 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
+            "storytext": "카드 게임의 규율을 지키지 않는 자는…\n모든 카드 게임 애호가의 적이다",
+            "storytitle": "캔디스·범람하는 조석",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "특성",
+                "전투 행동"
+            ]
+        },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
@@ -4783,9 +5061,9 @@
         "witheringcorrosion": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "시작 시 「생명의 촛불」을 4pt 보유한다.\n아군 캐릭터가 스킬 사용 후: 「생명의 촛불」이 1pt 감소한다.\n「생명의 촛불」이 0pt가 되면 상대 플레이어는 대전에서 패배한다.",
-            "descriptionraw": "시작 시 「생명의 촛불」을 4pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불」이 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불」이 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
-            "descriptionreplaced": "시작 시 「생명의 촛불」을 4pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불」이 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불」이 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
+            "description": "시작 시 「생명의 촛불 카운트」를 4pt 보유한다.\n아군 캐릭터가 스킬 사용 후: 「생명의 촛불 카운트」가 1pt 감소한다.\n「생명의 촛불 카운트」가 0pt가 되면 상대 플레이어는 대전에서 패배한다.",
+            "descriptionraw": "시작 시 「생명의 촛불 카운트」를 4pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불 카운트」가 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불 카운트」가 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
+            "descriptionreplaced": "시작 시 「생명의 촛불 카운트」를 4pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불 카운트」가 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불 카운트」가 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
             "id": 422007,
             "name": "죽음의 땅의 침식",
             "playcost": [],
@@ -4795,9 +5073,9 @@
         "witheringcorrosion-01": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "시작 시 「생명의 촛불」을 5pt 보유한다.\n아군 캐릭터가 스킬 사용 후: 「생명의 촛불」이 1pt 감소한다.\n「생명의 촛불」이 0pt가 되면 상대 플레이어는 대전에서 패배한다.",
-            "descriptionraw": "시작 시 「생명의 촛불」을 5pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불」이 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불」이 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
-            "descriptionreplaced": "시작 시 「생명의 촛불」을 5pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불」이 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불」이 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
+            "description": "시작 시 「생명의 촛불 카운트」를 5pt 보유한다.\n아군 캐릭터가 스킬 사용 후: 「생명의 촛불 카운트」가 1pt 감소한다.\n「생명의 촛불 카운트」가 0pt가 되면 상대 플레이어는 대전에서 패배한다.",
+            "descriptionraw": "시작 시 「생명의 촛불 카운트」를 5pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불 카운트」가 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불 카운트」가 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
+            "descriptionreplaced": "시작 시 「생명의 촛불 카운트」를 5pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불 카운트」가 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불 카운트」가 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
             "id": 422008,
             "name": "죽음의 땅의 침식",
             "playcost": [],
@@ -4807,9 +5085,9 @@
         "witheringcorrosion-02": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "시작 시 「생명의 촛불」을 4pt 보유한다.\n아군 캐릭터가 스킬 사용 후: 「생명의 촛불」이 1pt 감소한다.\n「생명의 촛불」이 0pt가 되면 상대 플레이어는 대전에서 패배한다.",
-            "descriptionraw": "시작 시 「생명의 촛불」을 4pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불」이 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불」이 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
-            "descriptionreplaced": "시작 시 「생명의 촛불」을 4pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불」이 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불」이 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
+            "description": "시작 시 「생명의 촛불 카운트」를 4pt 보유한다.\n아군 캐릭터가 스킬 사용 후: 「생명의 촛불 카운트」가 1pt 감소한다.\n「생명의 촛불 카운트」가 0pt가 되면 상대 플레이어는 대전에서 패배한다.",
+            "descriptionraw": "시작 시 「생명의 촛불 카운트」를 4pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불 카운트」가 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불 카운트」가 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
+            "descriptionreplaced": "시작 시 「생명의 촛불 카운트」를 4pt 보유한다.\\n<color=#FFFFFFFF>아군 캐릭터가 스킬 사용 후:</color> 「생명의 촛불 카운트」가 1pt 감소한다.\\n<color=#FFFFFFFF>「생명의 촛불 카운트」가 0pt가 되면 상대 플레이어는 대전에서 패배한다.</color>",
             "id": 422009,
             "name": "죽음의 땅의 침식",
             "playcost": [],
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "선도장",
             "adventurersbandana": "모험가의 머리띠",
             "amosbow": "아모스의 활",
+            "ancientcourtyard": "과거의 정원",
             "aquilafavonia": "매의 검",
             "aratakiichiban": "아라타키 제일",
             "archaicpetra": "유구한 반암",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "얼음 치친의 서늘한 빛",
             "coldbloodedstrike": "냉혈의 검",
             "conquerorofevilguardianyaksha": "항마·호법야차",
+            "covenantofrock": "반암의 계약",
             "crimsonwitchofflames": "불타오르는 화염의 마녀",
             "crossfire": "교차 화력",
             "dawnwinery": "다운 와이너리",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "되돌아오는 잎새",
             "flowingflame": "유화의 화상",
             "friendshipeternal": "영원한 우정",
+            "fruitoffulfillment": "충만의 열매",
             "gamblersearrings": "노름꾼의 귀걸이",
             "generalsancienthelm": "장수의 투구",
             "giantmutationstone": "거대 이변의 돌",
@@ -5699,6 +6019,10 @@
             "magicguide": "마도 서론",
             "maskofsolitudebasalt": "부동현석의 상",
             "masterofweaponry": "무예 마스터리",
+            "masterytalismanarmsandarmorhoned": "노련한 부적술·장비 보수",
+            "masterytalismanbattleready": "노련한 부적술·전투 준비",
+            "masterytalismancascadingdefeat": "노련한 부적술·참패",
+            "masterytalismanchaoticbanners": "노련한 부적술·추격병",
             "masterytalismancoldwar": "노련한 부적술·서리 전장",
             "masterytalismancyclecharge": "노련한 부적술·차륜전",
             "masterytalismandecisivebattle": "노련한 부적술·결전 태세",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "노련한 부적술·연속 폭파",
             "masterytalismanimmovable": "노련한 부적술·철옹성",
             "masterytalismanintelligenceupdate": "노련한 부적술·정보 공유",
+            "masterytalismanplanninglongterm": "노련한 부적술·장기 전략",
             "masterytalismanpracticemakesperfect": "노련한 부적술·숙련",
             "masterytalismanpresstheattack": "노련한 부적술·진격",
+            "masterytalismansuddenambush": "노련한 부적술·기책",
             "masterytalismansurgingvigor": "노련한 부적술·활력 충만",
             "masterytalismantheelementsentwined": "노련한 부적술·원소 연결",
+            "masterytalismanvictoriousrepute": "노련한 부적술·승기 잡기",
+            "masterzhang": "장 씨",
             "mintymeatrolls": "민트 고기말이",
             "mirrorcage": "거울의 속박",
             "mondstadthashbrown": "몬드 감자전",
@@ -5726,6 +6054,7 @@
             "paimon": "페이몬",
             "parametrictransformer": "매개 변수 변환기",
             "plungingstrike": "낙하 베기",
+            "poeticsoffuubutsu": "바람 속 시 낭송",
             "poundingsurprise": "펑펑 선물",
             "proliferatingspores": "포자 증식",
             "prophecyofsubmersion": "침몰한 예언",
@@ -5733,6 +6062,8 @@
             "rana": "라나",
             "ravenbow": "까마귀깃 활",
             "redfeatherfan": "붉은 깃털 부채",
+            "rhythmofthegreatdream": "위대한 꿈의 멜로디",
+            "rightoffinalinterpretation": "최종 해석권",
             "sacrificialbow": "제례활",
             "sacrificialfragments": "제례의 악장",
             "sacrificialgreatsword": "제례 대검",
@@ -5767,6 +6098,7 @@
             "thebell": "시간의 검",
             "thebestesttravelcompanion": "최고의 파트너!",
             "thelegendofvennessa": "바네사 전기",
+            "theoverflow": "범람하는 조석",
             "thescentremained": "장막의 잔향",
             "theseedofstoredknowledge": "지혜를 머금은 씨앗",
             "theshrinessacredshade": "히모로기의 그늘",
@@ -5814,6 +6146,7 @@
             "거울의 속박": "mirrorcage",
             "건곤일척": "tossup",
             "견고한 천암": "tenacityofthemillelith",
+            "과거의 정원": "ancientcourtyard",
             "관홍의 창": "vortexvanquisher",
             "광휘의 계절": "gloriousseason",
             "교관의 모자": "instructorscap",
@@ -5831,15 +6164,22 @@
             "널 저세상으로 데려다줄게": "sendoff",
             "노련한 부적술·결전 태세": "masterytalismandecisivebattle",
             "노련한 부적술·공수 겸비": "masterytalismandualprongedapproach",
+            "노련한 부적술·기책": "masterytalismansuddenambush",
             "노련한 부적술·대나무 숲": "masterytalismandensevegetation",
             "노련한 부적술·서리 전장": "masterytalismancoldwar",
             "노련한 부적술·숙련": "masterytalismanpracticemakesperfect",
+            "노련한 부적술·승기 잡기": "masterytalismanvictoriousrepute",
             "노련한 부적술·연속 폭파": "masterytalismanextendedexplosion",
             "노련한 부적술·원소 연결": "masterytalismantheelementsentwined",
+            "노련한 부적술·장기 전략": "masterytalismanplanninglongterm",
+            "노련한 부적술·장비 보수": "masterytalismanarmsandarmorhoned",
+            "노련한 부적술·전투 준비": "masterytalismanbattleready",
             "노련한 부적술·정보 공유": "masterytalismanintelligenceupdate",
             "노련한 부적술·진격": "masterytalismanpresstheattack",
             "노련한 부적술·차륜전": "masterytalismancyclecharge",
+            "노련한 부적술·참패": "masterytalismancascadingdefeat",
             "노련한 부적술·철옹성": "masterytalismanimmovable",
+            "노련한 부적술·추격병": "masterytalismanchaoticbanners",
             "노련한 부적술·활력 충만": "masterytalismansurgingvigor",
             "노름꾼의 귀걸이": "gamblersearrings",
             "뇌설": "lightningstiletto",
@@ -5874,8 +6214,10 @@
             "바그너": "wagner",
             "바나라나": "vanarana",
             "바네사 전기": "thelegendofvennessa",
+            "바람 속 시 낭송": "poeticsoffuubutsu",
             "바람과 자유": "windandfreedom",
             "바위와 계약": "stoneandcontracts",
+            "반암의 계약": "covenantofrock",
             "백술창": "whitetassel",
             "백악의 술법": "calxsarts",
             "백철 대검": "whiteirongreatsword",
@@ -5885,6 +6227,7 @@
             "번개를 부르는 모자": "thundersummonerscrown",
             "번개와 영원": "thunderandeternity",
             "번개의 자태": "thunderingpoise",
+            "범람하는 조석": "theoverflow",
             "별을 삼킨 까마귀": "stellarpredator",
             "별하늘의 징조": "starsigns",
             "보물 찾는 선령": "treasureseekingseelie",
@@ -5945,6 +6288,7 @@
             "원소 구슬·지속": "elementalorbenduring",
             "원소 구슬·충만": "elementalorbplentiful",
             "월계수 왕관": "laurelcoronet",
+            "위대한 꿈의 멜로디": "rhythmofthegreatdream",
             "유구한 반암": "archaicpetra",
             "유배자의 머리장식": "exilescirclet",
             "유소": "liusu",
@@ -5952,6 +6296,7 @@
             "이 몸은 아직 지지 않았어!": "ihaventlostyet",
             "이변의 돌": "mutationstone",
             "일촉즉발": "bunnytriggered",
+            "장 씨": "masterzhang",
             "장막의 잔향": "thescentremained",
             "장수의 투구": "generalsancienthelm",
             "재건: 바위 투구": "stonehidereforged",
@@ -6007,7 +6352,9 @@
             "청록색 그림자": "viridescentvenerer",
             "청록색 사냥꾼의 모자": "viridescentvenerersdiadem",
             "최고의 파트너!": "thebestesttravelcompanion",
+            "최종 해석권": "rightoffinalinterpretation",
             "추억의 시메나와": "shimenawasreminiscence",
+            "충만의 열매": "fruitoffulfillment",
             "츄츄족 화살 타워": "hilichurlarrowtower",
             "침몰한 예언": "prophecyofsubmersion",
             "캐서린": "katheryne",
@@ -6048,6 +6395,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6062,6 +6410,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

@@ -21,6 +21,13 @@
             "name": "Rüzgar Hasarı",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color>"
         },
+        "arcaneedict": {
+            "description": "Her oyuncu bir düello boyunca yalnızca 1 Saklı Destan kartı oynayabilir.\nBir Saklı Destan kartı, yalnızca Saklı Ferman mevcutsa oynanabilir. Bir Saklı Destan kartı oynandıktan sonra mevcut düellonun Saklı Ferman kullanımı tüketilecektir.",
+            "descriptionraw": "Her oyuncu bir düello boyunca yalnızca 1 {SPRITE_PRESET#3007}Saklı Destan kartı oynayabilir.\\nBir {SPRITE_PRESET#3007}Saklı Destan kartı, yalnızca {SPRITE_PRESET#1112}Saklı Ferman mevcutsa oynanabilir. Bir {SPRITE_PRESET#3007}Saklı Destan kartı oynandıktan sonra mevcut düellonun {SPRITE_PRESET#1112}Saklı Ferman kullanımı tüketilecektir.",
+            "id": 311,
+            "name": "Saklı Ferman",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}Saklı Ferman</color>"
+        },
         "bloodblossom": {
             "description": "Son Aşama:Bu kartı kuşanan karaktere 1 Ateş Hasarı verir.\nKullanım Hakkı: 1",
             "descriptionraw": "<color=#FFFFFFFF>Son Aşama:</color>Bu kartı kuşanan karaktere 1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 1</color>",
@@ -266,7 +273,7 @@
             "name": "Havadan Saldırı",
             "nameraw": "<color=#FFFFFFFF>Havadan Saldırı</color>"
         },
-        "prepareskill": {
+        "prepareskills1prepares": {
             "description": "Bazı Beceriler doğrudan kullanılamaz ve birkaç tur boyunca hazırlanmaları gerekir.\nBir oyuncunun sırası geldiğinde eğer bu oyuncunun aktif karakteri o anda bir Beceri hazırlıyorsa bu oyuncunun sırası atlanır. Becerinin hazırlığı sona erdiğinde, karakter o anda Beceriyi doğrudan kullanır. (Hazırlık gerektiren Beceriler, \"bir Beceri kullanımı\" ile tetiklenen etkileri etkinleştiremez.)\nYalnızca aktif karakterler Becerileri hazırlayabilir ve bir Beceriyi hazırlayan aktif karakter bekleyen karakter durumuna geçerse yaptığı Beceri hazırlığı kesintiye uğrar.",
             "descriptionraw": "Bazı Beceriler doğrudan kullanılamaz ve birkaç tur boyunca <color=#FFFFFFFF>hazırlanmaları</color> gerekir.\\nBir oyuncunun sırası geldiğinde eğer bu oyuncunun aktif karakteri o anda bir Beceri <color=#FFFFFFFF>hazırlıyorsa</color> bu oyuncunun sırası atlanır. Becerinin <color=#FFFFFFFF>hazırlığı</color> sona erdiğinde, karakter o anda Beceriyi doğrudan kullanır. (<color=#FFFFFFFF>Hazırlık</color> gerektiren Beceriler, \"bir Beceri kullanımı\" ile tetiklenen etkileri etkinleştiremez.)\\nYalnızca aktif karakterler Becerileri <color=#FFFFFFFF>hazırlayabilir</color> ve bir Beceriyi <color=#FFFFFFFF>hazırlayan</color> aktif karakter bekleyen karakter durumuna geçerse yaptığı Beceri <color=#FFFFFFFF>hazırlığı</color> kesintiye uğrar.",
             "id": 53,
@@ -315,6 +322,13 @@
             "name": "Dalga",
             "nameraw": "<color=#FFFFFFFF>Dalga</color>"
         },
+        "scarletseal": {
+            "description": "Bir karakter Yüklü Saldırı kullandığında verilen Hasar 2 artar.\nKullanım Hakkı: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Bir karakter <color=#FFFFFFFF>Yüklü Saldırı kullandığında</color></color> verilen Hasar 2 artar.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı:</color> 1</color>",
+            "id": 1010,
+            "name": "Kızıl Mühür",
+            "nameraw": "<color=#FFFFFFFF>Kızıl Mühür</color>"
+        },
         "shield": {
             "description": "Bu Kalkan, onu kuşanan karakteri Hasardan korumak için harcanır.",
             "descriptionraw": "Bu Kalkan, onu kuşanan karakteri Hasardan korumak için harcanır.",
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "Hiçlik Alevlerinin Kalkanı",
             "anemo": "Rüzgar",
             "anemodmg": "Rüzgar Hasarı",
+            "arcaneedict": "Saklı Ferman",
             "bloodblossom": "Kan Çiçeği",
             "characterclosesttoyourcurrentactivecharacter": "Aktif Karakterine En Yakın Karakter",
             "chargedattack": "Yüklü Saldırı",
@@ -386,13 +401,14 @@
             "physicaldmg": "Fiziksel Hasar",
             "piercingdmg": "Delme Hasarı",
             "plungingattack": "Havadan Saldırı",
-            "prepareskill": "Beceri Hazırlama",
+            "prepareskills1prepares": "Beceri Hazırlama",
             "pyro": "Ateş",
             "pyroapplication": "Ateş Etkisi",
             "pyrodmg": "Ateş Hasarı",
             "pyrorelatedreactions": "Ateş ile İlgili Tepkimeler",
             "randomhilichurlsummon": "Rastgele Dağ Yabanisi Minyonu",
             "riptide": "Dalga",
+            "scarletseal": "Kızıl Mühür",
             "shield": "Kalkan",
             "superlativesuperstrength": "Doğaüstü Güç",
             "unalignedelement": "Nötr Element",
@@ -405,7 +421,7 @@
             "Ateş Hasarı": "pyrodmg",
             "Ateş ile İlgili Tepkimeler": "pyrorelatedreactions",
             "Aynı Element": "matchingelement",
-            "Beceri Hazırlama": "prepareskill",
+            "Beceri Hazırlama": "prepareskills1prepares",
             "Buz": "cryo",
             "Buz Etkisi": "cryoapplication",
             "Buz Hasarı": "cryodmg",
@@ -432,11 +448,13 @@
             "Kararsız Element": "omnielement",
             "Karga Tüyünün Himayesi": "crowfeathercover",
             "Kullanım Hakkı": "usages",
+            "Kızıl Mühür": "scarletseal",
             "Nötr Element": "unalignedelement",
             "Pasif Beceri": "passiveskill",
             "Rastgele Dağ Yabanisi Minyonu": "randomhilichurlsummon",
             "Rüzgar": "anemo",
             "Rüzgar Hasarı": "anemodmg",
+            "Saklı Ferman": "arcaneedict",
             "Savaş Hamlesi": "combataction",
             "Su": "hydro",
             "Su Etkisi": "hydroapplication",

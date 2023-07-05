@@ -142,6 +142,29 @@
                 "弓"
             ]
         },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "イベントカード",
+            "description": "味方にすでに「武器」、または「聖遺物」を装備しているキャラがいる時、使用可能：本ラウンドで、味方が次に装備カードの「武器」、または「聖遺物」を使用する時、必要な元素サイコロの数-2。\n（「秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "descriptionraw": "<color=#FFFFFFFF>味方にすでに「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を装備しているキャラがいる時、使用可能</color>：本ラウンドで、味方が次に装備カードの「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を使用する時、必要な元素サイコロの数-2。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方にすでに「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を装備しているキャラがいる時、使用可能</color>：本ラウンドで、味方が次に装備カードの「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を使用する時、必要な元素サイコロの数-2。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "id": 330001,
+            "name": "旧時の庭園",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "「浮世に隠れし空蝉、此れ渺然たる夢に非ずや。」",
+            "storytitle": "旧時の庭園",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "秘伝"
+            ]
+        },
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "装備カード",
@@ -615,6 +638,29 @@
             "tagstext": [
                 "天賦",
                 "戦闘アクション"
+            ]
+        },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "イベントカード",
+            "description": "味方の残り元素サイコロの数が0の場合のみ使用可能：元素タイプの異なる基本元素サイコロを2個生成する。\n（「秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "descriptionraw": "<color=#FFFFFFFF>味方の残り元素サイコロの数が0の場合のみ使用可能</color>：元素タイプの異なる基本元素サイコロを2個生成する。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方の残り元素サイコロの数が0の場合のみ使用可能</color>：元素タイプの異なる基本元素サイコロを2個生成する。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "id": 330002,
+            "name": "磐岩の誓約",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "「岩王帝君が彼に世を見る両目を与え、契約を交わした。その後、その龍はいついかなる時も岩王帝君のそばに仕え、一緒に戦ってきた…」",
+            "storytitle": "磐岩の誓約",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "秘伝"
             ]
         },
         "crimsonwitchofflames": {
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "キャラの与えるダメージ+1。\n登場時：手札を2枚引く。\n（「法器」キャラのみ装備可能。キャラが装備できる「武器」は最大1つまで）",
+            "descriptionraw": "<color=#FFFFFFFF>キャラの与えるダメージ+1</color>。\\n<color=#FFFFFFFF>登場時：</color>手札を2枚引く。\\n（<color=#FFFFFFFF>「{SPRITE_PRESET#3201}法器」キャラ</color>のみ装備可能。キャラが装備できる「{SPRITE_PRESET#3003}武器」は最大1つまで）",
+            "descriptionreplaced": "<color=#FFFFFFFF>キャラの与えるダメージ+1</color>。\\n<color=#FFFFFFFF>登場時：</color>手札を2枚引く。\\n（<color=#FFFFFFFF>「{SPRITE_PRESET#3201}法器」キャラ</color>のみ装備可能。キャラが装備できる「{SPRITE_PRESET#3003}武器」は最大1つまで）",
+            "id": 311105,
+            "name": "満悦の実",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "「どんなに苦い物語でも、その中には勇気と力が込められている...金髪のいいナラが共に冒険してきた物語は、いいナラの代わりに森を守ってくれる。」",
+            "storytitle": "満月の相·満悦の実",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "武器",
+                "法器"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "装備カード",
-            "description": "相手のキャラを倒した後：装備キャラが「出撃キャラ」の場合、万能元素を2個生成する。\n（キャラが装備できる「聖遺物」は最大1つまで）",
-            "descriptionraw": "<color=#FFFFFFFF>相手のキャラを倒した後：</color>装備キャラが「出撃キャラ」の場合、$[K411]を2個生成する。\\n（キャラが装備できる「{SPRITE_PRESET#3004}聖遺物」は最大1つまで）",
-            "descriptionreplaced": "<color=#FFFFFFFF>相手のキャラを倒した後：</color>装備キャラが「出撃キャラ」の場合、<color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>を2個生成する。\\n（キャラが装備できる「{SPRITE_PRESET#3004}聖遺物」は最大1つまで）",
+            "description": "相手のキャラを倒した後：装備キャラが「出撃キャラ」の場合、万能元素を2個生成する。（各対戦ごとに3回まで）\n（キャラが装備できる「聖遺物」は最大1つまで）",
+            "descriptionraw": "<color=#FFFFFFFF>相手のキャラを倒した後：</color>装備キャラが「出撃キャラ」の場合、$[K411]を2個生成する。（各対戦ごとに3回まで）\\n（キャラが装備できる「{SPRITE_PRESET#3004}聖遺物」は最大1つまで）",
+            "descriptionreplaced": "<color=#FFFFFFFF>相手のキャラを倒した後：</color>装備キャラが「出撃キャラ」の場合、<color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>を2個生成する。（各対戦ごとに3回まで）\\n（キャラが装備できる「{SPRITE_PRESET#3004}聖遺物」は最大1つまで）",
             "id": 312004,
             "name": "博徒のピアス",
             "playcost": [
@@ -1634,9 +1705,9 @@
         "heavystrike": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "イベントカード",
-            "description": "本ラウンドで、現在の味方の出撃キャラが次に発動する「通常攻撃」の与えるダメージ+1。\n今回の「通常攻撃」が重撃の時、ダメージがさらに+1。",
-            "descriptionraw": "本ラウンドで、現在の味方の出撃キャラが次に発動する<color=#FFFFFFFF>「通常攻撃」</color>の与えるダメージ+1。\\n<color=#FFFFFFFF>今回の「通常攻撃」が$[K51]の時</color>、ダメージがさらに+1。",
-            "descriptionreplaced": "本ラウンドで、現在の味方の出撃キャラが次に発動する<color=#FFFFFFFF>「通常攻撃」</color>の与えるダメージ+1。\\n<color=#FFFFFFFF>今回の「通常攻撃」が<color=#FFFFFFFF>重撃</color>の時</color>、ダメージがさらに+1。",
+            "description": "本ラウンドで、現在の味方の出撃キャラが次に発動する「通常攻撃」の与えるダメージ+1。\nその「通常攻撃」が重撃の時、ダメージがさらに+1。",
+            "descriptionraw": "本ラウンドで、現在の味方の出撃キャラが次に発動する<color=#FFFFFFFF>「通常攻撃」</color>の与えるダメージ+1。\\n<color=#FFFFFFFF>その「通常攻撃」が$[K51]の時</color>、ダメージがさらに+1。",
+            "descriptionreplaced": "本ラウンドで、現在の味方の出撃キャラが次に発動する<color=#FFFFFFFF>「通常攻撃」</color>の与えるダメージ+1。\\n<color=#FFFFFFFF>その「通常攻撃」が<color=#FFFFFFFF>重撃</color>の時</color>、ダメージがさらに+1。",
             "id": 332018,
             "name": "重攻撃",
             "playcost": [
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "装備カード",
-            "description": "戦闘アクション：味方の出撃キャラがノエルの時、このカードを装備できる。\nノエルがこのカードを装備した後、直ちに護心鎧を1回発動する。\nこのカードを装備したノエルの生成した護身の岩鎧は、ノエルが通常攻撃を発動した後、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）\n（このカードはデッキにノエルが含まれている場合のみ、デッキに追加できる）",
-            "descriptionraw": "$[K1]：味方の出撃キャラが<color=#FFFFFFFF>$[A1602]</color>の時、このカードを装備できる。\\n$[A1602]がこのカードを装備した後、直ちに<color=#FFD780FF>$[S16022]</color>を1回発動する。\\nこのカードを装備した$[A1602]の生成した<color=#FFFFFFFF>$[C116021]</color>は、$[A1602]が<color=#FFFFFFFF>通常攻撃</color>を発動した後、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）\\n（このカードはデッキに$[A1602]が含まれている場合のみ、デッキに追加できる）",
-            "descriptionreplaced": "<color=#FFFFFFFF>戦闘アクション</color>：味方の出撃キャラが<color=#FFFFFFFF>ノエル</color>の時、このカードを装備できる。\\nノエルがこのカードを装備した後、直ちに<color=#FFD780FF>護心鎧</color>を1回発動する。\\nこのカードを装備したノエルの生成した<color=#FFFFFFFF>護身の岩鎧</color>は、ノエルが<color=#FFFFFFFF>通常攻撃</color>を発動した後、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）\\n（このカードはデッキにノエルが含まれている場合のみ、デッキに追加できる）",
+            "description": "戦闘アクション：味方の出撃キャラがノエルの時、このカードを装備できる。\nノエルがこのカードを装備した後、直ちに護心鎧を1回発動する。\nノエルが通常攻撃を発動した後、このカードと護身の岩鎧がフィールドに存在する場合、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）\n（このカードはデッキにノエルが含まれている場合のみ、デッキに追加できる）",
+            "descriptionraw": "$[K1]：味方の出撃キャラが<color=#FFFFFFFF>$[A1602]</color>の時、このカードを装備できる。\\n$[A1602]がこのカードを装備した後、直ちに<color=#FFD780FF>$[S16022]</color>を1回発動する。\\n$[A1602]が<color=#FFFFFFFF>通常攻撃</color>を発動した後、このカードと<color=#FFFFFFFF>$[C116021]</color>がフィールドに存在する場合、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）\\n（このカードはデッキに$[A1602]が含まれている場合のみ、デッキに追加できる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>戦闘アクション</color>：味方の出撃キャラが<color=#FFFFFFFF>ノエル</color>の時、このカードを装備できる。\\nノエルがこのカードを装備した後、直ちに<color=#FFD780FF>護心鎧</color>を1回発動する。\\nノエルが<color=#FFFFFFFF>通常攻撃</color>を発動した後、このカードと<color=#FFFFFFFF>護身の岩鎧</color>がフィールドに存在する場合、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）\\n（このカードはデッキにノエルが含まれている場合のみ、デッキに追加できる）",
             "id": 216021,
             "name": "支援はお任せください",
             "playcost": [
@@ -2541,6 +2612,54 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "味方キャラが重撃を行う時、与えるダメージ+1。処理完了後、味方が手札を1枚引く。",
+            "descriptionraw": "<color=#FFFFFFFF>味方キャラが$[K51]を行う時</color>、与えるダメージ+1。処理完了後、味方が手札を1枚引く。",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方キャラが<color=#FFFFFFFF>重撃</color>を行う時</color>、与えるダメージ+1。処理完了後、味方が手札を1枚引く。",
+            "id": 423020,
+            "name": "機巧符呪·堅甲利兵",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "「武器」と「聖遺物」を同時に装備している味方キャラがスキルを発動する際、必要な元素サイコロの数-3。（各ラウンドで1回のみ）",
+            "descriptionraw": "<color=#FFFFFFFF>「{SPRITE_PRESET#3003}武器」と「{SPRITE_PRESET#3004}聖遺物」を同時に装備している味方キャラがスキルを発動する際</color>、必要な元素サイコロの数-3。（各ラウンドで1回のみ）",
+            "descriptionreplaced": "<color=#FFFFFFFF>「{SPRITE_PRESET#3003}武器」と「{SPRITE_PRESET#3004}聖遺物」を同時に装備している味方キャラがスキルを発動する際</color>、必要な元素サイコロの数-3。（各ラウンドで1回のみ）",
+            "id": 423021,
+            "name": "機巧符呪·戦闘態勢",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "相手のキャラが戦闘不能になった時、相手のキャラ全員に貫通ダメージを1与える。",
+            "descriptionraw": "<color=#FFFFFFFF>相手のキャラが戦闘不能になった時</color>、相手のキャラ全員に$[K5]を1与える。",
+            "descriptionreplaced": "<color=#FFFFFFFF>相手のキャラが戦闘不能になった時</color>、相手のキャラ全員に<color=#FFFFFFFF>貫通ダメージ</color>を1与える。",
+            "id": 423022,
+            "name": "機巧符呪·三軍暴骨",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "相手のキャラが元素反応によるダメージを受けた後、万能元素を1個生成する。（各ラウンド最大3回まで）",
+            "descriptionraw": "<color=#FFFFFFFF>相手のキャラが元素反応によるダメージを受けた後</color>、$[K411]を1個生成する。（各ラウンド最大3回まで）",
+            "descriptionreplaced": "<color=#FFFFFFFF>相手のキャラが元素反応によるダメージを受けた後</color>、<color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>を1個生成する。（各ラウンド最大3回まで）",
+            "id": 423023,
+            "name": "機巧符呪·轍乱旗靡",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "支援カード",
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "味方が総コスト3以上の「武器」、または「聖遺物」装備カードを使用する時、必要な元素サイコロの数-3。（各ラウンドで1回のみ）",
+            "descriptionraw": "<color=#FFFFFFFF>味方が総コスト3以上の「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」装備カードを使用する時</color>、必要な元素サイコロの数-3。（各ラウンドで1回のみ）",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方が総コスト3以上の「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」装備カードを使用する時</color>、必要な元素サイコロの数-3。（各ラウンドで1回のみ）",
+            "id": 423019,
+            "name": "機巧符呪·長策固執",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "支援カード",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>相手のキャラを倒した後：</color><color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>を1個生成し、手札を1枚引く。",
             "id": 423007,
             "name": "機巧符呪·直往邁進",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "味方のキャラがスキルを発動した後、相手のフィールドに自身の元素タイプの「奇策詭雷」を1個生成する。「奇策詭雷」は相手の増援キャラが登場した後、そのキャラに対応する元素ダメージを1与える。",
+            "descriptionraw": "<color=#FFFFFFFF>味方のキャラがスキルを発動した後</color>、相手のフィールドに自身の元素タイプの「奇策詭雷」を1個生成する。「奇策詭雷」は相手の増援キャラが登場した後、そのキャラに対応する元素ダメージを1与える。",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方のキャラがスキルを発動した後</color>、相手のフィールドに自身の元素タイプの「奇策詭雷」を1個生成する。「奇策詭雷」は相手の増援キャラが登場した後、そのキャラに対応する元素ダメージを1与える。",
+            "id": 423024,
+            "name": "機巧符呪·奇策妙計",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "相手のキャラが戦闘不能になった時、味方が手札を1枚引き、味方の現在の出撃キャラは本対戦で与えるダメージ+1。（最大+3まで重ねられる）",
+            "descriptionraw": "<color=#FFFFFFFF>相手のキャラが戦闘不能になった時</color>、味方が手札を1枚引き、味方の現在の出撃キャラは本対戦で与えるダメージ+1。（最大+3まで重ねられる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>相手のキャラが戦闘不能になった時</color>、味方が手札を1枚引き、味方の現在の出撃キャラは本対戦で与えるダメージ+1。（最大+3まで重ねられる）",
+            "id": 423018,
+            "name": "機巧符呪·制覇威明",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "味方が手札から「武器」のカードを使用する時、必要な元素サイコロの数-1。味方のフィールドに「武器」を装備したキャラが1体いるごとに、必要な元素サイコロの数が追加で-1。（各ラウンドで1回のみ）",
+            "descriptionraw": "<color=#FFFFFFFF>味方が手札から「{SPRITE_PRESET#3003}武器」のカードを使用する時</color>、必要な元素サイコロの数-1。味方のフィールドに「{SPRITE_PRESET#3003}武器」を装備したキャラが1体いるごとに、必要な元素サイコロの数が追加で-1。（各ラウンドで1回のみ）",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方が手札から「{SPRITE_PRESET#3003}武器」のカードを使用する時</color>、必要な元素サイコロの数-1。味方のフィールドに「{SPRITE_PRESET#3003}武器」を装備したキャラが1体いるごとに、必要な元素サイコロの数が追加で-1。（各ラウンドで1回のみ）",
+            "id": 322018,
+            "name": "章",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "鋭い剣になる前に、鉄塊はいつも色んな挫折を乗り越えなければならない。",
+            "storytitle": "百鍛千練からの宝剣·章",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "仲間"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -3025,6 +3203,32 @@
                 "戦闘アクション"
             ]
         },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "戦闘アクション：味方の出撃キャラが楓原万葉の時、このカードを装備できる。\n楓原万葉がこのカードを装備した後、直ちに千早振るを1回発動する。\nこのカードを装備した楓原万葉が拡散反応を起こした後、味方のキャラおよび召喚物が次の2回で与える、拡散された元素タイプのダメージ+1。（元素タイプごとに別々に回数を計算する）\n（このカードはデッキに楓原万葉が含まれている場合のみ、デッキに追加できる）",
+            "descriptionraw": "$[K1]：味方の出撃キャラが<color=#FFFFFFFF>$[A1505]</color>の時、このカードを装備できる。\\n$[A1505]がこのカードを装備した後、直ちに<color=#FFD780FF>$[S15052]</color>を1回発動する。\\nこのカードを装備した$[A1505]が拡散反応を起こした後、味方のキャラおよび召喚物が次の2回で与える、拡散された元素タイプのダメージ+1。（元素タイプごとに別々に回数を計算する）\\n（このカードはデッキに$[A1505]が含まれている場合のみ、デッキに追加できる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>戦闘アクション</color>：味方の出撃キャラが<color=#FFFFFFFF>楓原万葉</color>の時、このカードを装備できる。\\n楓原万葉がこのカードを装備した後、直ちに<color=#FFD780FF>千早振る</color>を1回発動する。\\nこのカードを装備した楓原万葉が拡散反応を起こした後、味方のキャラおよび召喚物が次の2回で与える、拡散された元素タイプのダメージ+1。（元素タイプごとに別々に回数を計算する）\\n（このカードはデッキに楓原万葉が含まれている場合のみ、デッキに追加できる）",
+            "id": 215051,
+            "name": "風物の詩吟",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "キャッツテールで楓原万葉を招待して対戦し、対応する挑戦目標をクリアすることで獲得",
+            "storytext": "対局の中にも、風雅の礼は潜んでいる。\n少なくとも…対局では双方ともに自分の一手に「悔いはない」。",
+            "storytitle": "楓原万葉·風物の詩吟",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "天賦",
+                "戦闘アクション"
+            ]
+        },
         "poundingsurprise": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "装備カード",
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "アイテム"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "イベントカード",
+            "description": "味方が次に手札から「武器」、または「聖遺物」のカードを使用する時、必要な元素サイコロの数-1。",
+            "descriptionraw": "<color=#FFFFFFFF>味方が次に手札から「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」のカードを使用する時</color>、必要な元素サイコロの数-1。",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方が次に手札から「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」のカードを使用する時</color>、必要な元素サイコロの数-1。",
+            "id": 332021,
+            "name": "大夢のメロディー",
+            "playcost": [],
+            "storytext": "「ボクたちの夢、ボクたちの世界に入れる。」\n「善良、勇敢、誠実の物語を書く。」",
+            "storytitle": "大夢のメロディー",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "戦闘アクション：味方の出撃キャラが煙緋の時、このカードを装備できる。\n煙緋がこのカードを装備した後、直ちに封蝋の印を1回発動する。\nこのカードを装備した煙緋が重撃を行う時、HPが6以下の相手キャラへの与えるダメージ+1。\n（このカードはデッキに煙緋が含まれている場合のみ、デッキに追加できる）",
+            "descriptionraw": "$[K1]：味方の出撃キャラが<color=#FFFFFFFF>$[A1308]</color>の時、このカードを装備できる。\\n$[A1308]がこのカードを装備した後、直ちに<color=#FFD780FF>$[S13081]</color>を1回発動する。\\nこのカードを装備した$[A1308]が$[K51]を行う時、HPが6以下の相手キャラへの与えるダメージ+1。\\n（このカードはデッキに$[A1308]が含まれている場合のみ、デッキに追加できる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>戦闘アクション</color>：味方の出撃キャラが<color=#FFFFFFFF>煙緋</color>の時、このカードを装備できる。\\n煙緋がこのカードを装備した後、直ちに<color=#FFD780FF>封蝋の印</color>を1回発動する。\\nこのカードを装備した煙緋が<color=#FFFFFFFF>重撃</color>を行う時、HPが6以下の相手キャラへの与えるダメージ+1。\\n（このカードはデッキに煙緋が含まれている場合のみ、デッキに追加できる）",
+            "id": 213081,
+            "name": "最終解釈権",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "キャッツテールで煙緋を招待して対戦し、対応する挑戦目標をクリアすることで獲得",
+            "storytext": "「札遊びに関してはもちろん…法律に禁止されていない限りはしてよし。」",
+            "storytitle": "煙緋·最終解釈権",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "天賦",
+                "戦闘アクション"
             ]
         },
         "sacrificialbow": {
@@ -4019,6 +4267,36 @@
             "storytitle": "自由の希望を諦めるな！",
             "tags": [],
             "tagstext": []
+        },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "戦闘アクション：味方の出撃キャラがキャンディスの時、このカードを装備できる。\nキャンディスがこのカードを装備した後、直ちに聖儀·灰鴒の呼び潮を1回発動する。\nこのカードを装備したキャンディスの生成した赤冠より授かりし祝福は追加で以下の効果を持つ。味方のキャラが通常攻撃を発動した後、水元素ダメージを1与える。（各ラウンドで1回のみ）\n（このカードはデッキにキャンディスが含まれている場合のみ、デッキに追加できる）",
+            "descriptionraw": "$[K1]：味方の出撃キャラが<color=#FFFFFFFF>$[A1207]</color>の時、このカードを装備できる。\\n$[A1207]がこのカードを装備した後、直ちに<color=#FFD780FF>$[S12073]</color>を1回発動する。\\nこのカードを装備した$[A1207]の生成した<color=#FFFFFFFF>$[C112072]</color>は追加で以下の効果を持つ。<color=#FFFFFFFF>味方のキャラが通常攻撃を発動した後</color>、$[K102]を1与える。（各ラウンドで1回のみ）\\n（このカードはデッキに$[A1207]が含まれている場合のみ、デッキに追加できる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>戦闘アクション</color>：味方の出撃キャラが<color=#FFFFFFFF>キャンディス</color>の時、このカードを装備できる。\\nキャンディスがこのカードを装備した後、直ちに<color=#FFD780FF>聖儀·灰鴒の呼び潮</color>を1回発動する。\\nこのカードを装備したキャンディスの生成した<color=#FFFFFFFF>赤冠より授かりし祝福</color>は追加で以下の効果を持つ。<color=#FFFFFFFF>味方のキャラが通常攻撃を発動した後</color>、{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を1与える。（各ラウンドで1回のみ）\\n（このカードはデッキにキャンディスが含まれている場合のみ、デッキに追加できる）",
+            "id": 212071,
+            "name": "満溢の潮汐",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "キャッツテールでキャンディスを招待して対戦し、対応する挑戦目標をクリアすることで獲得",
+            "storytext": "カードゲームにおける掟を守らぬ者は…\nカードゲームを愛するすべての者の敵である。",
+            "storytitle": "キャンディス·満溢の潮汐",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "天賦",
+                "戦闘アクション"
+            ]
         },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "仙跳牆",
             "adventurersbandana": "冒険者のバンダナ",
             "amosbow": "アモスの弓",
+            "ancientcourtyard": "旧時の庭園",
             "aquilafavonia": "風鷹剣",
             "aratakiichiban": "荒瀧第一",
             "archaicpetra": "悠久の磐岩",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "氷蛍寒光",
             "coldbloodedstrike": "冷血の剣",
             "conquerorofevilguardianyaksha": "降魔·護法夜叉",
+            "covenantofrock": "磐岩の誓約",
             "crimsonwitchofflames": "燃え盛る炎の魔女",
             "crossfire": "交差する炎",
             "dawnwinery": "アカツキワイナリー",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "フライリーフワインダー",
             "flowingflame": "流火焼灼",
             "friendshipeternal": "永遠なる友情",
+            "fruitoffulfillment": "満悦の実",
             "gamblersearrings": "博徒のピアス",
             "generalsancienthelm": "将帥の兜",
             "giantmutationstone": "大型異変の石",
@@ -5699,6 +6019,10 @@
             "magicguide": "魔導緒論",
             "maskofsolitudebasalt": "不動玄石の相",
             "masterofweaponry": "武芸マスター",
+            "masterytalismanarmsandarmorhoned": "機巧符呪·堅甲利兵",
+            "masterytalismanbattleready": "機巧符呪·戦闘態勢",
+            "masterytalismancascadingdefeat": "機巧符呪·三軍暴骨",
+            "masterytalismanchaoticbanners": "機巧符呪·轍乱旗靡",
             "masterytalismancoldwar": "機巧符呪·輝く兵戈",
             "masterytalismancyclecharge": "機巧符呪·輪転戦法",
             "masterytalismandecisivebattle": "機巧符呪·決戦陣形",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "機巧符呪·連続爆発",
             "masterytalismanimmovable": "機巧符呪·巍然屹立",
             "masterytalismanintelligenceupdate": "機巧符呪·情報共有",
+            "masterytalismanplanninglongterm": "機巧符呪·長策固執",
             "masterytalismanpracticemakesperfect": "機巧符呪·経験豊富",
             "masterytalismanpresstheattack": "機巧符呪·直往邁進",
+            "masterytalismansuddenambush": "機巧符呪·奇策妙計",
             "masterytalismansurgingvigor": "機巧符呪·活気充満",
             "masterytalismantheelementsentwined": "機巧符呪·元素連結",
+            "masterytalismanvictoriousrepute": "機巧符呪·制覇威明",
+            "masterzhang": "章",
             "mintymeatrolls": "ミントの獣肉巻き",
             "mirrorcage": "鏡の檻",
             "mondstadthashbrown": "モンド風ハッシュドポテト",
@@ -5726,6 +6054,7 @@
             "paimon": "パイモン",
             "parametrictransformer": "参量物質変化器",
             "plungingstrike": "落下斬り",
+            "poeticsoffuubutsu": "風物の詩吟",
             "poundingsurprise": "こんこんプレゼント",
             "proliferatingspores": "胞子増殖",
             "prophecyofsubmersion": "沈没の預言",
@@ -5733,6 +6062,8 @@
             "rana": "ラナ",
             "ravenbow": "鴉羽の弓",
             "redfeatherfan": "赤羽団扇",
+            "rhythmofthegreatdream": "大夢のメロディー",
+            "rightoffinalinterpretation": "最終解釈権",
             "sacrificialbow": "祭礼の弓",
             "sacrificialfragments": "祭礼の断片",
             "sacrificialgreatsword": "祭礼の大剣",
@@ -5767,6 +6098,7 @@
             "thebell": "鐘の剣",
             "thebestesttravelcompanion": "最高の仲間！",
             "thelegendofvennessa": "ヴァネッサの物語",
+            "theoverflow": "満溢の潮汐",
             "thescentremained": "すだれの残香",
             "theseedofstoredknowledge": "心識蘊蔵の種",
             "theshrinessacredshade": "神籬之御蔭",
@@ -5908,6 +6240,7 @@
             "地脈異常·高熱": "leylinedisorderhightemperature",
             "地脈鎮石·戦線支点": "leylinemonolithfrontlinefulcrum",
             "大型異変の石": "giantmutationstone",
+            "大夢のメロディー": "rhythmofthegreatdream",
             "天守閣": "tenshukaku",
             "天空の傲": "skywardpride",
             "天空の刃": "skywardblade",
@@ -5930,16 +6263,23 @@
             "支援はお任せください": "igotyourback",
             "教官の帽子": "instructorscap",
             "旅道の剣": "travelershandysword",
+            "旧時の庭園": "ancientcourtyard",
             "旭東": "xudong",
             "星喰いの鴉": "stellarpredator",
             "星天の兆": "starsigns",
+            "最終解釈権": "rightoffinalinterpretation",
             "最高の仲間！": "thebestesttravelcompanion",
             "月桂の宝冠": "laurelcoronet",
             "望舒旅館": "wangshuinn",
             "権謀術数": "strategize",
+            "機巧符呪·三軍暴骨": "masterytalismancascadingdefeat",
             "機巧符呪·元素連結": "masterytalismantheelementsentwined",
+            "機巧符呪·制覇威明": "masterytalismanvictoriousrepute",
+            "機巧符呪·堅甲利兵": "masterytalismanarmsandarmorhoned",
+            "機巧符呪·奇策妙計": "masterytalismansuddenambush",
             "機巧符呪·巍然屹立": "masterytalismanimmovable",
             "機巧符呪·情報共有": "masterytalismanintelligenceupdate",
+            "機巧符呪·戦闘態勢": "masterytalismanbattleready",
             "機巧符呪·攻守兼備": "masterytalismandualprongedapproach",
             "機巧符呪·決戦陣形": "masterytalismandecisivebattle",
             "機巧符呪·活気充満": "masterytalismansurgingvigor",
@@ -5948,7 +6288,9 @@
             "機巧符呪·経験豊富": "masterytalismanpracticemakesperfect",
             "機巧符呪·輝く兵戈": "masterytalismancoldwar",
             "機巧符呪·輪転戦法": "masterytalismancyclecharge",
+            "機巧符呪·轍乱旗靡": "masterytalismanchaoticbanners",
             "機巧符呪·連続爆発": "masterytalismanextendedexplosion",
+            "機巧符呪·長策固執": "masterytalismanplanninglongterm",
             "武芸マスター": "masterofweaponry",
             "死域の侵蝕": "witheringcorrosion-01",
             "氷蛍寒光": "cicinscoldglare",
@@ -5963,6 +6305,8 @@
             "淵の災い·復水放流": "abyssalmayhemhydrospout",
             "混元熵增論": "chaoticentropy",
             "満天の霹靂": "lightningstorm",
+            "満悦の実": "fruitoffulfillment",
+            "満溢の潮汐": "theoverflow",
             "無常の面": "capriciousvisage",
             "焦げた魔女の帽子": "witchsscorchinghat",
             "燃え盛る炎の魔女": "crimsonwitchofflames",
@@ -5977,6 +6321,7 @@
             "百川奔流": "streamingsurge",
             "目には目を": "paidinfull",
             "破天の槍": "vortexvanquisher",
+            "磐岩の誓約": "covenantofrock",
             "神宝遷宮祝詞": "blessingofthedivinerelicsinstallation",
             "神籬之御蔭": "theshrinessacredshade",
             "祭礼の剣": "sacrificialsword",
@@ -5984,6 +6329,7 @@
             "祭礼の弓": "sacrificialbow",
             "祭礼の断片": "sacrificialfragments",
             "立本": "liben",
+            "章": "masterzhang",
             "終焉を嘆く詩": "elegyfortheend",
             "絶縁の旗印": "emblemofseveredfate",
             "絶雲のお焦げ": "jueyunguoba",
@@ -6027,6 +6373,7 @@
             "雷を呼ぶ冠": "thundersummonerscrown",
             "雷楔": "lightningstiletto",
             "風と自由": "windandfreedom",
+            "風物の詩吟": "poeticsoffuubutsu",
             "風鷹剣": "aquilafavonia",
             "騎士団図書館": "knightsoffavoniuslibrary",
             "魔導緒論": "magicguide",
@@ -6047,6 +6394,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6061,6 +6409,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

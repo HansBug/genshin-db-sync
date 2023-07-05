@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 1 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 23021,
                     "name": "Flame of Salvation",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 3 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 23022,
                     "name": "Searing Precept",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 3 หน่วย และเรียก Darkfire Furnace",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และเรียก Darkfire Furnace",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C123021]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 3 หน่วย และเรียก <color=#FFFFFFFF>Darkfire Furnace</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และเรียก <color=#FFFFFFFF>Darkfire Furnace</color>",
                     "id": 23023,
                     "name": "Ominous Star",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 2 หน่วย และจะสร้างความเสียหายทะลวง 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และจะสร้างความเสียหายทะลวง 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และจะสร้าง<color=#FFFFFFFF>$[K5]</color> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 2 หน่วย และจะสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color></color> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และจะสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color></color> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
                     "id": 13043,
                     "name": "Fiery Rain",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "สร้างความเสียหายหิน 1 หน่วย เรียก Ushi และตัวละครนี้จะได้รับ Superlative Superstrength",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย เรียก Ushi และตัวละครนี้จะได้รับ Superlative Superstrength",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย เรียก <color=#FFFFFFFF>$[C116051]</color> และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C116054]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 1 หน่วย เรียก <color=#FFFFFFFF>Ushi</color> และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Superlative Superstrength</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย เรียก <color=#FFFFFFFF>Ushi</color> และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Superlative Superstrength</color>",
                     "id": 16052,
                     "name": "Masatsu Zetsugi: Akaushi Burst!",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "สร้างความเสียหายหิน 5 หน่วย และตัวละครนี้จะได้รับ Raging Oni King",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 5 หน่วย และตัวละครนี้จะได้รับ Raging Oni King",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C116053]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 5 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Raging Oni King</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 5 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Raging Oni King</color>",
                     "id": 16053,
                     "name": "Royal Descent: Behold, Itto the Evil!",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "จะสร้างความเสียหายน้ำ 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 1 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 12011,
                     "name": "Whisper of Water",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 1 หน่วย และเรียก Melody Loop",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และเรียก Melody Loop",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C112011]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Melody Loop</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Melody Loop</color>",
                     "id": 12012,
                     "name": "Let the Show Begin♪",
                     "playcost": [
@@ -369,17 +369,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 3 หน่วย และสร้าง Thunderbeast's Targe",
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และสร้าง Thunderbeast's Targe",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C114053]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 3 หน่วย และสร้าง <color=#FFFFFFFF>Thunderbeast's Targe</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Thunderbeast's Targe</color>",
                     "id": 14053,
                     "name": "Stormbreaker",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_ELECTRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -390,11 +390,11 @@
                     "typetag": "GCG_SKILL_TAG_Q"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "(ต้องใช้เวลาเตรียม 1 เทิร์น)\nสร้างความเสียหายไฟฟ้า 2 หน่วย",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "(ต้องใช้เวลาเตรียม 1 เทิร์น)\nสร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "(ต้องใช้เวลาเตรียม 1 เทิร์น)\\nสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "(ต้องใช้เวลาเตรียม 1 เทิร์น)\\nสร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 2 หน่วย",
+                    "descriptionreplaced": "(ต้องใช้เวลาเตรียม 1 เทิร์น)\\nสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 14054,
                     "name": "Wavestrider",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "จะสร้างความเสียหายไฟ 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 3 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 13032,
                     "name": "Passion Overload",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 2 หน่วย และสร้าง Inspiration Field",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และสร้าง Inspiration Field",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C113031]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Inspiration Field</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Inspiration Field</color>",
                     "id": 13033,
                     "name": "Fantastic Voyage",
                     "playcost": [
@@ -494,6 +494,96 @@
                 "ธาตุไฟ",
                 "ดาบ",
                 "Mondstadt"
+            ]
+        },
+        "candace": {
+            "hp": 10,
+            "id": 1207,
+            "maxenergy": 2,
+            "name": "Candace",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย",
+                    "id": 12071,
+                    "name": "Gleaming Spear - Guardian Stance",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "โจมตีปกติ",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "ตัวละครนี้จะได้รับ Heron Shield และการเตรียมสกิล: Heron Strike",
+                    "descriptionraw": "ตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C112071]</color> และการ$[K53]: <color=#FFFFFFFF>$[S12074]</color>",
+                    "descriptionreplaced": "ตัวละครนี้จะได้รับ <color=#FFFFFFFF>Heron Shield</color> และการ<color=#FFFFFFFF>เตรียมสกิล</color>: <color=#FFFFFFFF>Heron Strike</color>",
+                    "id": 12072,
+                    "name": "Sacred Rite: Heron's Sanctum",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "สกิลธาตุ",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และสร้าง Prayer of the Crimson Crown",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C112072]</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Prayer of the Crimson Crown</color>",
+                    "id": 12073,
+                    "name": "Sacred Rite: Wagtail's Tide",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "ท่าไม้ตาย",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "(ต้องใช้เวลาเตรียม 1 เทิร์น)\nสร้างความเสียหายกายภาพ 3 หน่วย",
+                    "descriptionraw": "(ต้องใช้เวลาเตรียม 1 เทิร์น)\\nสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
+                    "descriptionreplaced": "(ต้องใช้เวลาเตรียม 1 เทิร์น)\\nสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
+                    "id": 12074,
+                    "name": "Heron Strike",
+                    "playcost": [],
+                    "type": "สกิลธาตุ",
+                    "typetag": "GCG_SKILL_TAG_E"
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Candace ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+            "storytext": "ทรายสีชาดประกายทอง ผู้สาบานเพื่อการปกป้อง",
+            "storytitle": "บุหลันดั้นปฏิญาณ - Candace",
+            "tags": [
+                "GCG_TAG_ELEMENT_HYDRO",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU"
+            ],
+            "tagstext": [
+                "ธาตุน้ำ",
+                "หอก",
+                "Sumeru"
             ]
         },
         "chongyun": {
@@ -525,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 3 หน่วย และสร้าง Chonghua Frost Field",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และสร้าง Chonghua Frost Field",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C111041]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 3 หน่วย และสร้าง <color=#FFFFFFFF>Chonghua Frost Field</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และสร้าง <color=#FFFFFFFF>Chonghua Frost Field</color>",
                     "id": 11042,
                     "name": "Chonghua's Layered Frost",
                     "playcost": [
@@ -542,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "จะสร้างความเสียหายน้ำแข็ง 7 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 7 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 7 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 7 หน่วย",
                     "id": 11043,
                     "name": "Cloud-Parting Star",
                     "playcost": [
@@ -605,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "จะสร้างความเสียหายไม้ 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 3 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 17012,
                     "name": "Floral Brush",
                     "playcost": [
@@ -622,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "สร้างความเสียหายไม้ 2 หน่วย และเรียก Cuilein-Anbar",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และเรียก Cuilein-Anbar",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C117011]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 2 หน่วย และเรียก <color=#FFFFFFFF>Cuilein-Anbar</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และเรียก <color=#FFFFFFFF>Cuilein-Anbar</color>",
                     "id": 17013,
                     "name": "Trump-Card Kitty",
                     "playcost": [
@@ -685,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "จะสร้างความเสียหายไฟฟ้า 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 3 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 14042,
                     "name": "Secret Rite: Chasmic Soulfarer",
                     "playcost": [
@@ -702,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 4 หน่วย\nระดับการ [ประทับร่าง] ของ Pactsworn Pathclearer +2",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย\nระดับการ [ประทับร่าง] ของ Pactsworn Pathclearer +2",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย\\nระดับการ [ประทับร่าง] ของ <color=#FFFFFFFF>$[C114041]</color> +2",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 4 หน่วย\\nระดับการ [ประทับร่าง] ของ <color=#FFFFFFFF>Pactsworn Pathclearer</color> +2",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย\\nระดับการ [ประทับร่าง] ของ <color=#FFFFFFFF>Pactsworn Pathclearer</color> +2",
                     "id": 14043,
                     "name": "Sacred Rite: Wolf's Swiftness",
                     "playcost": [
@@ -775,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 3 หน่วย โดยที่ในแต่ละเทิร์น เมื่อใช้สกิลนี้เป็นครั้งที่สาม ความเสียหาย +2",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย โดยที่ในแต่ละเทิร์น เมื่อใช้สกิลนี้เป็นครั้งที่สาม ความเสียหาย +2",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย โดยที่ในแต่ละเทิร์น เมื่อใช้สกิลนี้เป็นครั้งที่สาม ความเสียหาย +2",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 3 หน่วย โดยที่ในแต่ละเทิร์น เมื่อใช้สกิลนี้เป็นครั้งที่สาม ความเสียหาย +2",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย โดยที่ในแต่ละเทิร์น เมื่อใช้สกิลนี้เป็นครั้งที่สาม ความเสียหาย +2",
                     "id": 13012,
                     "name": "Searing Onslaught",
                     "playcost": [
@@ -792,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 8 หน่วย และตัวละครนี้จะได้รับ Pyro Infusion",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 8 หน่วย และตัวละครนี้จะได้รับ Pyro Infusion",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C113011]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 8 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Pyro Infusion</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 8 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Pyro Infusion</color>",
                     "id": 13013,
                     "name": "Dawn",
                     "playcost": [
@@ -855,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 2 หน่วย และสร้าง Cat-Claw Shield",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และสร้าง Cat-Claw Shield",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C111021]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Cat-Claw Shield</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Cat-Claw Shield</color>",
                     "id": 11022,
                     "name": "Icy Paws",
                     "playcost": [
@@ -872,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 1 หน่วย รักษาตัวละครนี้ 2 หน่วย และเรียก Drunken Mist",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย รักษาตัวละครนี้ 2 หน่วย และเรียก Drunken Mist",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย รักษาตัวละครนี้ 2 หน่วย และเรียก <color=#FFFFFFFF>$[C111023]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 1 หน่วย รักษาตัวละครนี้ 2 หน่วย และเรียก <color=#FFFFFFFF>Drunken Mist</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย รักษาตัวละครนี้ 2 หน่วย และเรียก <color=#FFFFFFFF>Drunken Mist</color>",
                     "id": 11023,
                     "name": "Signature Mix",
                     "playcost": [
@@ -914,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 1 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 24011,
                     "name": "Electro Crystal Projection",
                     "playcost": [
@@ -935,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 2 หน่วย จากนั้นจะแยกกันเตรียมสกิล Rock-Paper-Scissors Combo: Scissor และ Rock-Paper-Scissors Combo: Paper",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย จากนั้นจะแยกกันเตรียมสกิล Rock-Paper-Scissors Combo: Scissor และ Rock-Paper-Scissors Combo: Paper",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย จากนั้นจะแยกกัน$[K53] <color=#FFFFFFFF>$[S24015]</color> และ <color=#FFFFFFFF>$[S24016]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 2 หน่วย จากนั้นจะแยกกัน<color=#FFFFFFFF>เตรียมสกิล</color> <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Scissor</color> และ <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Paper</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย จากนั้นจะแยกกัน<color=#FFFFFFFF>เตรียมสกิล</color> <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Scissor</color> และ <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Paper</color>",
                     "id": 24012,
                     "name": "Rock-Paper-Scissors Combo",
                     "playcost": [
@@ -952,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 2 หน่วย และเรียก Chains of Warding Thunder",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และเรียก Chains of Warding Thunder",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C124013]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 2 หน่วย และเรียก <color=#FFFFFFFF>Chains of Warding Thunder</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และเรียก <color=#FFFFFFFF>Chains of Warding Thunder</color>",
                     "id": 24013,
                     "name": "Lightning Lockdown",
                     "playcost": [
@@ -983,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 2 หน่วย จากนั้นจะเตรียมสกิล: Rock-Paper-Scissors Combo: Paper",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย จากนั้นจะเตรียมสกิล: Rock-Paper-Scissors Combo: Paper",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย จากนั้นจะ$[K53]: <color=#FFFFFFFF>$[S24016]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 2 หน่วย จากนั้นจะ<color=#FFFFFFFF>เตรียมสกิล</color>: <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Paper</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย จากนั้นจะ<color=#FFFFFFFF>เตรียมสกิล</color>: <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Paper</color>",
                     "id": 24015,
                     "name": "Rock-Paper-Scissors Combo: Scissor",
                     "playcost": [],
@@ -995,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 3 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 24016,
                     "name": "Rock-Paper-Scissors Combo: Paper",
                     "playcost": [],
@@ -1049,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 2 หน่วย และหากตัวละครนี้ยังไม่ได้รับ Grimheart จะทำให้ได้รับ Grimheart",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และหากตัวละครนี้ยังไม่ได้รับ Grimheart จะทำให้ได้รับ Grimheart",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และหากตัวละครนี้ยังไม่ได้รับ <color=#FFFFFFFF>$[C111061]</color> จะทำให้ได้รับ <color=#FFFFFFFF>$[C111061]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 2 หน่วย และหากตัวละครนี้ยังไม่ได้รับ <color=#FFFFFFFF>Grimheart</color> จะทำให้ได้รับ <color=#FFFFFFFF>Grimheart</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และหากตัวละครนี้ยังไม่ได้รับ <color=#FFFFFFFF>Grimheart</color> จะทำให้ได้รับ <color=#FFFFFFFF>Grimheart</color>",
                     "id": 11062,
                     "name": "Icetide Vortex",
                     "playcost": [
@@ -1066,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 2 หน่วย และเรียก Lightfall Sword",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และเรียก Lightfall Sword",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C111062]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 2 หน่วย และเรียก <color=#FFFFFFFF>Lightfall Sword</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และเรียก <color=#FFFFFFFF>Lightfall Sword</color>",
                     "id": 11063,
                     "name": "Glacial Illumination",
                     "playcost": [
@@ -1108,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 1 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 21011,
                     "name": "Cicin Icicle",
                     "playcost": [
@@ -1129,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 1 หน่วย และเรียก Cryo Cicin",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และเรียก Cryo Cicin",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C121011]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Cryo Cicin</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Cryo Cicin</color>",
                     "id": 21012,
                     "name": "Misty Summons",
                     "playcost": [
@@ -1146,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 5 หน่วย ทำให้ตัวละครนี้ติดสถานะธาตุน้ำแข็ง และสร้าง Flowing Cicin Shield",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 5 หน่วย ทำให้ตัวละครนี้ติดสถานะธาตุน้ำแข็ง และสร้าง Flowing Cicin Shield",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย ทำให้ตัวละครนี้$[K201] และสร้าง <color=#FFFFFFFF>$[C121012]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 5 หน่วย ทำให้ตัวละครนี้<color=#99FFFFFF>ติดสถานะ{SPRITE_PRESET#2101}ธาตุน้ำแข็ง</color> และสร้าง <color=#FFFFFFFF>Flowing Cicin Shield</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 5 หน่วย ทำให้ตัวละครนี้<color=#99FFFFFF>ติดสถานะ{SPRITE_PRESET#2101}ธาตุน้ำแข็ง</color> และสร้าง <color=#FFFFFFFF>Flowing Cicin Shield</color>",
                     "id": 21013,
                     "name": "Blizzard, Branch, Blossom",
                     "playcost": [
@@ -1209,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 1 หน่วย และตัวละครนี้จะได้รับ Stealth",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และตัวละครนี้จะได้รับ Stealth",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C123011]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 1 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Stealth</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Stealth</color>",
                     "id": 23012,
                     "name": "Prowl",
                     "playcost": [
@@ -1226,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "จะสร้างความเสียหายไฟ 5 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 5 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 5 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 5 หน่วย",
                     "id": 23013,
                     "name": "Blade Ablaze",
                     "playcost": [
@@ -1299,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 1 หน่วย และเรียก Oz",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และเรียก Oz",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C114011]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Oz</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Oz</color>",
                     "id": 14012,
                     "name": "Nightrider",
                     "playcost": [
@@ -1316,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 4 หน่วย และจะสร้างความเสียหายทะลวง 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และจะสร้างความเสียหายทะลวง 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และจะสร้าง<color=#FFFFFFFF>$[K5]</color> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 4 หน่วย และจะสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color></color> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และจะสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color></color> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
                     "id": 14013,
                     "name": "Midnight Phantasmagoria",
                     "playcost": [
@@ -1379,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 1 หน่วย และสร้าง Ice Lotus",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และสร้าง Ice Lotus",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C111012]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 1 หน่วย และสร้าง <color=#FFFFFFFF>Ice Lotus</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และสร้าง <color=#FFFFFFFF>Ice Lotus</color>",
                     "id": 11012,
                     "name": "Trail of the Qilin",
                     "playcost": [
@@ -1396,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 2 หน่วย และสร้างความเสียหายทะลวง 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และสร้างความเสียหายทะลวง 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง<color=#FFFFFFFF>$[K5] 2 หน่วย</color> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 2 หน่วย และสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color> 2 หน่วย</color> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color> 2 หน่วย</color> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู",
                     "id": 11013,
                     "name": "Frostflake Arrow",
                     "playcost": [
@@ -1413,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 2 หน่วย สร้างความเสียหายทะลวง 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก Sacred Cryo Pearl",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย สร้างความเสียหายทะลวง 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก Sacred Cryo Pearl",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย สร้าง<color=#FFFFFFFF>$[K5] 1 หน่วย</color> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก <color=#FFFFFFFF>$[C111011]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 2 หน่วย สร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color> 1 หน่วย</color> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก <color=#FFFFFFFF>Sacred Cryo Pearl</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย สร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color> 1 หน่วย</color> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก <color=#FFFFFFFF>Sacred Cryo Pearl</color>",
                     "id": 11014,
                     "name": "Celestial Shower",
                     "playcost": [
@@ -1491,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 4 หน่วย และรักษาตัวเอง 2 หน่วย โดยหากตัวละครนี้ มีค่าพลังชีวิตไม่เกิน 6 หน่วย ความเสียหายและการรักษาที่สร้างจะ +1",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และรักษาตัวเอง 2 หน่วย โดยหากตัวละครนี้ มีค่าพลังชีวิตไม่เกิน 6 หน่วย ความเสียหายและการรักษาที่สร้างจะ +1",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และรักษาตัวเอง 2 หน่วย โดยหากตัวละครนี้ มีค่าพลังชีวิตไม่เกิน 6 หน่วย ความเสียหายและการรักษาที่สร้างจะ +1",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 4 หน่วย และรักษาตัวเอง 2 หน่วย โดยหากตัวละครนี้ มีค่าพลังชีวิตไม่เกิน 6 หน่วย ความเสียหายและการรักษาที่สร้างจะ +1",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และรักษาตัวเอง 2 หน่วย โดยหากตัวละครนี้ มีค่าพลังชีวิตไม่เกิน 6 หน่วย ความเสียหายและการรักษาที่สร้างจะ +1",
                     "id": 13073,
                     "name": "Spirit Soother",
                     "playcost": [
@@ -1554,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "จะสร้างความเสียหายไม้ 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 3 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 27012,
                     "name": "Volatile Spore Cloud",
                     "playcost": [
@@ -1571,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "สร้างความเสียหายไม้ 4 หน่วย และใช้ Radical Vitality ทุกชั้นที่มี โดยที่แต่ละชั้น จะทำให้ความเสียหายนี้ +1",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และใช้ Radical Vitality ทุกชั้นที่มี โดยที่แต่ละชั้น จะทำให้ความเสียหายนี้ +1",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และใช้ <color=#FFFFFFFF>$[C127011]</color> ทุกชั้นที่มี โดยที่แต่ละชั้น จะทำให้ความเสียหายนี้ +1",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 4 หน่วย และใช้ <color=#FFFFFFFF>Radical Vitality</color> ทุกชั้นที่มี โดยที่แต่ละชั้น จะทำให้ความเสียหายนี้ +1",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และใช้ <color=#FFFFFFFF>Radical Vitality</color> ทุกชั้นที่มี โดยที่แต่ละชั้น จะทำให้ความเสียหายนี้ +1",
                     "id": 27013,
                     "name": "Feather Spreading",
                     "playcost": [
@@ -1644,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "สร้างความเสียหายลม 3 หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครถัดไป",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครถัดไป",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครถัดไป",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color> 3 หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครถัดไป",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครถัดไป",
                     "id": 15022,
                     "name": "Gale Blade",
                     "playcost": [
@@ -1693,6 +1783,96 @@
                 "Mondstadt"
             ]
         },
+        "kaedeharakazuha": {
+            "hp": 10,
+            "id": 1505,
+            "maxenergy": 2,
+            "name": "Kaedehara Kazuha",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย",
+                    "id": 15051,
+                    "name": "Garyuu Bladework",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "โจมตีปกติ",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และตัวละครนี้ได้รับ Midare Ranzan\nหากสกิลนี้ ทำให้เกิดการกระจาย จะทำให้ Midare Ranzan เปลี่ยนเป็นธาตุที่ถูกกระจาย\nหลังจบสกิล: ฝ่ายเราจะเปลี่ยนเป็นตัวละครถัดไป",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>$[C115051]</color>\\nหากสกิลนี้ ทำให้เกิดการกระจาย จะทำให้ <color=#FFFFFFFF>$[C115051]</color> เปลี่ยนเป็นธาตุที่ถูกกระจาย\\n<color=#FFFFFFFF>หลังจบสกิล:</color> ฝ่ายเราจะเปลี่ยนเป็นตัวละครถัดไป",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>Midare Ranzan</color>\\nหากสกิลนี้ ทำให้เกิดการกระจาย จะทำให้ <color=#FFFFFFFF>Midare Ranzan</color> เปลี่ยนเป็นธาตุที่ถูกกระจาย\\n<color=#FFFFFFFF>หลังจบสกิล:</color> ฝ่ายเราจะเปลี่ยนเป็นตัวละครถัดไป",
+                    "id": 15052,
+                    "name": "Chihayaburu",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "สกิลธาตุ",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และเรียก Autumn Whirlwind",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C115052]</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และเรียก <color=#FFFFFFFF>Autumn Whirlwind</color>",
+                    "id": 15053,
+                    "name": "Kazuha Slash",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "ท่าไม้ตาย",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "description": "",
+                    "descriptionraw": "",
+                    "descriptionreplaced": "",
+                    "id": 15054,
+                    "name": "Chihayaburu",
+                    "playcost": [],
+                    "type": "สกิลติดตัว",
+                    "typetag": "GCG_SKILL_TAG_PASSIVE"
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Kaedehara Kazuha ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+            "storytext": "ชมสกุณาและบุปผาเพลิดเพลิน ยามเดินกลางสายลมและแสงศศิธรที่ทอดยาว",
+            "storytitle": "ใบไม้แดงแห่งกระแสคลื่น - Kaedehara Kazuha",
+            "tags": [
+                "GCG_TAG_ELEMENT_ANEMO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_INAZUMA"
+            ],
+            "tagstext": [
+                "ธาตุลม",
+                "ดาบ",
+                "Inazuma"
+            ]
+        },
         "kaeya": {
             "hp": 10,
             "id": 1103,
@@ -1722,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "จะสร้างความเสียหายน้ำแข็ง 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 3 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 11032,
                     "name": "Frostgnaw",
                     "playcost": [
@@ -1739,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 1 หน่วย และสร้าง Icicle",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และสร้าง Icicle",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C111031]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 1 หน่วย และสร้าง <color=#FFFFFFFF>Icicle</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และสร้าง <color=#FFFFFFFF>Icicle</color>",
                     "id": 11033,
                     "name": "Glacial Waltz",
                     "playcost": [
@@ -1802,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "จะสร้างความเสียหายน้ำแข็ง 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 3 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 11052,
                     "name": "Kamisato Art: Hyouka",
                     "playcost": [
@@ -1819,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 4 หน่วย และเรียก Frostflake Seki no To",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และเรียก Frostflake Seki no To",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C111051]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 4 หน่วย และเรียก <color=#FFFFFFFF>Frostflake Seki no To</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และเรียก <color=#FFFFFFFF>Frostflake Seki no To</color>",
                     "id": 11053,
                     "name": "Kamisato Art: Soumetsu",
                     "playcost": [
@@ -1892,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 2 หน่วย และตัวละครนี้ได้รับ Takimeguri Kanka",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และตัวละครนี้ได้รับ Takimeguri Kanka",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>$[C112061]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 2 หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>Takimeguri Kanka</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>Takimeguri Kanka</color>",
                     "id": 12062,
                     "name": "Kamisato Art: Kyouka",
                     "playcost": [
@@ -1909,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 3 หน่วย และเรียก Garden of Purity",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และเรียก Garden of Purity",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C112062]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 3 หน่วย และเรียก <color=#FFFFFFFF>Garden of Purity</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และเรียก <color=#FFFFFFFF>Garden of Purity</color>",
                     "id": 12063,
                     "name": "Kamisato Art: Suiyuu",
                     "playcost": [
@@ -1972,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 3 หน่วย และสร้างการ์ด Lightning Stiletto",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และสร้างการ์ด Lightning Stiletto",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้างการ์ด <color=#FFFFFFFF>$[C114031]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 3 หน่วย และสร้างการ์ด <color=#FFFFFFFF>Lightning Stiletto</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และสร้างการ์ด <color=#FFFFFFFF>Lightning Stiletto</color>",
                     "id": 14032,
                     "name": "Stellar Restoration",
                     "playcost": [
@@ -1989,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 4 หน่วย และสร้างความเสียหายทะลวง 3 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และสร้างความเสียหายทะลวง 3 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง<color=#FFFFFFFF>$[K5] 3 หน่วย</color> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 4 หน่วย และสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color> 3 หน่วย</color> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color> 3 หน่วย</color> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
                     "id": 14033,
                     "name": "Starward Sword",
                     "playcost": [
@@ -2031,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 1 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 13061,
                     "name": "Kaboom!",
                     "playcost": [
@@ -2052,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 3 หน่วย และตัวละครนี้ได้รับ Explosive Spark",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และตัวละครนี้ได้รับ Explosive Spark",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>$[C113061]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 3 หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>Explosive Spark</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>Explosive Spark</color>",
                     "id": 13062,
                     "name": "Jumpy Dumpty",
                     "playcost": [
@@ -2069,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 3 หน่วย และทำให้เกิด Sparks 'n' Splash ในสนามของฝ่ายตรงข้าม",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และทำให้เกิด Sparks 'n' Splash ในสนามของฝ่ายตรงข้าม",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และทำให้เกิด <color=#FFFFFFFF>$[C113063]</color> ในสนามของฝ่ายตรงข้าม",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 3 หน่วย และทำให้เกิด <color=#FFFFFFFF>Sparks 'n' Splash</color> ในสนามของฝ่ายตรงข้าม",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และทำให้เกิด <color=#FFFFFFFF>Sparks 'n' Splash</color> ในสนามของฝ่ายตรงข้าม",
                     "id": 13063,
                     "name": "Sparks 'n' Splash",
                     "playcost": [
@@ -2132,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 1 หน่วย และเรียก Tengu Juurai: Ambush",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และเรียก Tengu Juurai: Ambush",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C114061]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Tengu Juurai: Ambush</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Tengu Juurai: Ambush</color>",
                     "id": 14062,
                     "name": "Tengu Stormcall",
                     "playcost": [
@@ -2149,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 1 หน่วย และเรียก Tengu Juurai: Stormcluster",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และเรียก Tengu Juurai: Stormcluster",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C114062]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Tengu Juurai: Stormcluster</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Tengu Juurai: Stormcluster</color>",
                     "id": 14063,
                     "name": "Subjugation: Koukou Sendou",
                     "playcost": [
@@ -2242,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "สร้างความเสียหายลม 4 หน่วย และทำให้เกิดเอฟเฟกต์ของสิ่งอัญเชิญ Shadowsword ทั้งหมดของฝ่ายเรา (ไม่ลดจำนวนครั้งที่สามารถใช้ได้)",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และทำให้เกิดเอฟเฟกต์ของสิ่งอัญเชิญ Shadowsword ทั้งหมดของฝ่ายเรา (ไม่ลดจำนวนครั้งที่สามารถใช้ได้)",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และทำให้เกิดเอฟเฟกต์ของสิ่งอัญเชิญ <color=#FFFFFFFF>Shadowsword</color> ทั้งหมดของฝ่ายเรา (ไม่ลดจำนวนครั้งที่สามารถใช้ได้)",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color> 4 หน่วย และทำให้เกิดเอฟเฟกต์ของสิ่งอัญเชิญ <color=#FFFFFFFF>Shadowsword</color> ทั้งหมดของฝ่ายเรา (ไม่ลดจำนวนครั้งที่สามารถใช้ได้)",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และทำให้เกิดเอฟเฟกต์ของสิ่งอัญเชิญ <color=#FFFFFFFF>Shadowsword</color> ทั้งหมดของฝ่ายเรา (ไม่ลดจำนวนครั้งที่สามารถใช้ได้)",
                     "id": 25014,
                     "name": "Pseudo Tengu Sweeper",
                     "playcost": [
@@ -2284,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "จะสร้างความเสียหายน้ำ 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 1 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 22021,
                     "name": "Water Ball",
                     "playcost": [
@@ -2305,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Refraction",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Refraction",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>$[C122021]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>Refraction</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>Refraction</color>",
                     "id": 22022,
                     "name": "Influx Blast",
                     "playcost": [
@@ -2322,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "จะสร้างความเสียหายน้ำ 5 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 5 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 5 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 5 หน่วย",
                     "id": 22023,
                     "name": "Rippled Reflection",
                     "playcost": [
@@ -2364,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "จะสร้างความเสียหายน้ำ 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 1 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 12031,
                     "name": "Ripple of Fate",
                     "playcost": [
@@ -2385,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 1 หน่วย และเรียก Reflection",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และเรียก Reflection",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C112031]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Reflection</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Reflection</color>",
                     "id": 12032,
                     "name": "Mirror Reflection of Doom",
                     "playcost": [
@@ -2402,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 4 หน่วย และสร้าง Illusory Bubble",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และสร้าง Illusory Bubble",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C112032]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 4 หน่วย และสร้าง <color=#FFFFFFFF>Illusory Bubble</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และสร้าง <color=#FFFFFFFF>Illusory Bubble</color>",
                     "id": 12033,
                     "name": "Stellaris Phantasm",
                     "playcost": [
@@ -2454,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "สร้างความเสียหายไม้ 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 1 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 17031,
                     "name": "Akara",
                     "playcost": [
@@ -2475,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "สร้างความเสียหายไม้ 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Seed of Skandha; หากก่อนได้รับ ตัวละครเป้าหมายมี Seed of Skandha อยู่แล้ว จะเปลี่ยนเป็นตัวละครฝ่ายศัตรูทั้งหมดได้รับ Seed of Skandha แทน",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Seed of Skandha; หากก่อนได้รับ ตัวละครเป้าหมายมี Seed of Skandha อยู่แล้ว จะเปลี่ยนเป็นตัวละครฝ่ายศัตรูทั้งหมดได้รับ Seed of Skandha แทน",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>$[C117031]</color>; หากก่อนได้รับ ตัวละครเป้าหมายมี <color=#FFFFFFFF>$[C117031]</color> อยู่แล้ว จะเปลี่ยนเป็นตัวละครฝ่ายศัตรูทั้งหมดได้รับ <color=#FFFFFFFF>$[C117031]</color> แทน",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>Seed of Skandha</color>; หากก่อนได้รับ ตัวละครเป้าหมายมี <color=#FFFFFFFF>Seed of Skandha</color> อยู่แล้ว จะเปลี่ยนเป็นตัวละครฝ่ายศัตรูทั้งหมดได้รับ <color=#FFFFFFFF>Seed of Skandha</color> แทน",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>Seed of Skandha</color>; หากก่อนได้รับ ตัวละครเป้าหมายมี <color=#FFFFFFFF>Seed of Skandha</color> อยู่แล้ว จะเปลี่ยนเป็นตัวละครฝ่ายศัตรูทั้งหมดได้รับ <color=#FFFFFFFF>Seed of Skandha</color> แทน",
                     "id": 17032,
                     "name": "All Schemes to Know",
                     "playcost": [
@@ -2492,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "สร้างความเสียหายไม้ 3 หน่วย และตัวละครฝ่ายศัตรูทั้งหมด จะได้รับ Seed of Skandha",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และตัวละครฝ่ายศัตรูทั้งหมด จะได้รับ Seed of Skandha",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครฝ่ายศัตรูทั้งหมด จะได้รับ <color=#FFFFFFFF>$[C117031]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 3 หน่วย และตัวละครฝ่ายศัตรูทั้งหมด จะได้รับ <color=#FFFFFFFF>Seed of Skandha</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และตัวละครฝ่ายศัตรูทั้งหมด จะได้รับ <color=#FFFFFFFF>Seed of Skandha</color>",
                     "id": 17033,
                     "name": "All Schemes to Know: Tathata",
                     "playcost": [
@@ -2509,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "สร้างความเสียหายไม้ 4 หน่วย และสร้าง Shrine of Maya",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และสร้าง Shrine of Maya",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C117032]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 4 หน่วย และสร้าง <color=#FFFFFFFF>Shrine of Maya</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และสร้าง <color=#FFFFFFFF>Shrine of Maya</color>",
                     "id": 17034,
                     "name": "Illusory Heart",
                     "playcost": [
@@ -2551,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "จะสร้างความเสียหายหิน 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 1 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 16011,
                     "name": "Sparkling Scatter",
                     "playcost": [
@@ -2572,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "สร้างความเสียหายหิน 2 หน่วย และสร้าง Jade Screen",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และสร้าง Jade Screen",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C116011]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Jade Screen</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Jade Screen</color>",
                     "id": 16012,
                     "name": "Jade Screen",
                     "playcost": [
@@ -2589,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "สร้างความเสียหายหิน 6 หน่วย; หากมี Jade Screen อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 6 หน่วย; หากมี Jade Screen อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย; หากมี <color=#FFFFFFFF>$[C116011]</color> อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 6 หน่วย; หากมี <color=#FFFFFFFF>Jade Screen</color> อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 6 หน่วย; หากมี <color=#FFFFFFFF>Jade Screen</color> อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
                     "id": 16013,
                     "name": "Starshatter",
                     "playcost": [
@@ -2652,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "สร้างความเสียหายหิน 1 หน่วย และสร้าง Full Plate",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และสร้าง Full Plate",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C116021]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 1 หน่วย และสร้าง <color=#FFFFFFFF>Full Plate</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และสร้าง <color=#FFFFFFFF>Full Plate</color>",
                     "id": 16022,
                     "name": "Breastplate",
                     "playcost": [
@@ -2669,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "สร้างความเสียหายหิน 4 หน่วย และตัวละครนี้จะได้รับ Sweeping Time",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และตัวละครนี้จะได้รับ Sweeping Time",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C116022]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 4 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Sweeping Time</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Sweeping Time</color>",
                     "id": 16023,
                     "name": "Sweeping Time",
                     "playcost": [
@@ -2747,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 3 หน่วย และตัวละครอื่นของฝ่ายเราได้รับพลังงาน 2 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และตัวละครอื่นของฝ่ายเราได้รับพลังงาน 2 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครอื่นของฝ่ายเราได้รับ$[K310] 2 หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 3 หน่วย และตัวละครอื่นของฝ่ายเราได้รับ<color=#FFFFFFFF>{SPRITE_PRESET#1110}พลังงาน</color> 2 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และตัวละครอื่นของฝ่ายเราได้รับ<color=#FFFFFFFF>{SPRITE_PRESET#1110}พลังงาน</color> 2 หน่วย",
                     "id": 14073,
                     "name": "Secret Art: Musou Shinsetsu",
                     "playcost": [
@@ -2794,7 +2974,7 @@
         "razor": {
             "hp": 10,
             "id": 1402,
-            "maxenergy": 3,
+            "maxenergy": 2,
             "name": "Razor",
             "skills": [
                 {
@@ -2820,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "จะสร้างความเสียหายไฟฟ้า 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 3 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 14022,
                     "name": "Claw and Thunder",
                     "playcost": [
@@ -2836,11 +3016,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 5 หน่วย และตัวละครนี้จะได้รับ The Wolf Within",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และตัวละครนี้จะได้รับ The Wolf Within",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C114021]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 5 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>The Wolf Within</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>The Wolf Within</color>",
                     "id": 14023,
                     "name": "Lightning Fang",
                     "playcost": [
@@ -2850,7 +3030,7 @@
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
-                            "count": 3
+                            "count": 2
                         }
                     ],
                     "type": "ท่าไม้ตาย",
@@ -2879,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "จะสร้างความเสียหายน้ำ 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 1 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 22011,
                     "name": "Surge",
                     "playcost": [
@@ -2930,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 2 หน่วย; สิ่งอัญเชิญทุก 1 ชิ้น ของฝ่ายเรา จะทำให้ความเสียหายนี้ +2",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย; สิ่งอัญเชิญทุก 1 ชิ้น ของฝ่ายเรา จะทำให้ความเสียหายนี้ +2",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย; สิ่งอัญเชิญทุก 1 ชิ้น ของฝ่ายเรา จะทำให้ความเสียหายนี้ +2",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 2 หน่วย; สิ่งอัญเชิญทุก 1 ชิ้น ของฝ่ายเรา จะทำให้ความเสียหายนี้ +2",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย; สิ่งอัญเชิญทุก 1 ชิ้น ของฝ่ายเรา จะทำให้ความเสียหายนี้ +2",
                     "id": 22014,
                     "name": "Tide and Torrent",
                     "playcost": [
@@ -2972,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 1 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 12051,
                     "name": "The Shape of Water",
                     "playcost": [
@@ -3008,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 2 หน่วย รักษาตัวละครทั้งหมดของฝ่ายเรา 1 หน่วย และตัวละครนี้จะได้รับ Ceremonial Garment",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย รักษาตัวละครทั้งหมดของฝ่ายเรา 1 หน่วย และตัวละครนี้จะได้รับ Ceremonial Garment",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย รักษาตัวละครทั้งหมดของฝ่ายเรา 1 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C112052]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 2 หน่วย รักษาตัวละครทั้งหมดของฝ่ายเรา 1 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Ceremonial Garment</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย รักษาตัวละครทั้งหมดของฝ่ายเรา 1 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Ceremonial Garment</color>",
                     "id": 12053,
                     "name": "Nereid's Ascension",
                     "playcost": [
@@ -3071,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 2 หน่วย และสร้าง Icy Quill",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และสร้าง Icy Quill",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C111071]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Icy Quill</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Icy Quill</color>",
                     "id": 11072,
                     "name": "Spring Spirit Summoning",
                     "playcost": [
@@ -3088,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "สร้างความเสียหายน้ำแข็ง 1 หน่วย และเรียก Talisman Spirit",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และเรียก Talisman Spirit",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C111073]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Talisman Spirit</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Talisman Spirit</color>",
                     "id": 11073,
                     "name": "Divine Maiden's Deliverance",
                     "playcost": [
@@ -3222,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "จะสร้างความเสียหายลม 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "จะสร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "จะสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color> 1 หน่วย",
+                    "descriptionreplaced": "จะสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 15011,
                     "name": "Wind Spirit Creation",
                     "playcost": [
@@ -3243,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "สร้างความเสียหายลม 3 หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครก่อนหน้า",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครก่อนหน้า",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครก่อนหน้า",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color> 3 หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครก่อนหน้า",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครก่อนหน้า",
                     "id": 15012,
                     "name": "Astable Anemohypostasis Creation - 6308",
                     "playcost": [
@@ -3260,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "สร้างความเสียหายลม 1 หน่วย และเรียก Large Wind Spirit",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และเรียก Large Wind Spirit",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C115011]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Large Wind Spirit</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Large Wind Spirit</color>",
                     "id": 15013,
                     "name": "Forbidden Creation - Isomer 75 / Type II",
                     "playcost": [
@@ -3323,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "เปลี่ยนเป็นรูปแบบการต่อสู้ระยะประชิด และสร้างความเสียหายน้ำ 2 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "เปลี่ยนเป็นรูปแบบการต่อสู้ระยะประชิด และสร้างความเสียหายกายภาพ 2 หน่วย",
                     "descriptionraw": "เปลี่ยนเป็น<color=#FFFFFFFF>$[C112042]</color> และสร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "เปลี่ยนเป็น<color=#FFFFFFFF>รูปแบบการต่อสู้ระยะประชิด</color> และสร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 2 หน่วย",
+                    "descriptionreplaced": "เปลี่ยนเป็น<color=#FFFFFFFF>รูปแบบการต่อสู้ระยะประชิด</color> และสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย",
                     "id": 12042,
                     "name": "Foul Legacy: Raging Tide",
                     "playcost": [
@@ -3340,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "ใช้การโจมตีที่แตกต่างกันไป โดยขึ้นกับสถานะที่ Tartaglia อยู่ในขณะนั้น:\nรูปแบบการต่อสู้ระยะไกล - Flash of Havoc: สร้างความเสียหายน้ำ 4 หน่วย ฟื้นฟูพลังงาน 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Riptide\nรูปแบบการต่อสู้ระยะประชิด - Light of Obliteration: สร้างความเสียหายน้ำ 7 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "ใช้การโจมตีที่แตกต่างกันไป โดยขึ้นกับสถานะที่ Tartaglia อยู่ในขณะนั้น:\nรูปแบบการต่อสู้ระยะไกล - Flash of Havoc: สร้างความเสียหายกายภาพ 4 หน่วย ฟื้นฟูพลังงาน 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Riptide\nรูปแบบการต่อสู้ระยะประชิด - Light of Obliteration: สร้างความเสียหายกายภาพ 7 หน่วย",
                     "descriptionraw": "ใช้การโจมตีที่แตกต่างกันไป โดยขึ้นกับสถานะที่ <color=#FFFFFFFF>$[A1204]</color> อยู่ในขณะนั้น:\\n<color=#FFFFFFFF>รูปแบบการต่อสู้ระยะไกล - Flash of Havoc:</color> สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE_4] หน่วย ฟื้นฟู$[K310] 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>$[C112043]</color>\\n<color=#FFFFFFFF>รูปแบบการต่อสู้ระยะประชิด - Light of Obliteration:</color> สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "ใช้การโจมตีที่แตกต่างกันไป โดยขึ้นกับสถานะที่ <color=#FFFFFFFF>Tartaglia</color> อยู่ในขณะนั้น:\\n<color=#FFFFFFFF>รูปแบบการต่อสู้ระยะไกล - Flash of Havoc:</color> สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 4 หน่วย ฟื้นฟู<color=#FFFFFFFF>{SPRITE_PRESET#1110}พลังงาน</color> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>Riptide</color>\\n<color=#FFFFFFFF>รูปแบบการต่อสู้ระยะประชิด - Light of Obliteration:</color> สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 7 หน่วย",
+                    "descriptionreplaced": "ใช้การโจมตีที่แตกต่างกันไป โดยขึ้นกับสถานะที่ <color=#FFFFFFFF>Tartaglia</color> อยู่ในขณะนั้น:\\n<color=#FFFFFFFF>รูปแบบการต่อสู้ระยะไกล - Flash of Havoc:</color> สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย ฟื้นฟู<color=#FFFFFFFF>{SPRITE_PRESET#1110}พลังงาน</color> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>Riptide</color>\\n<color=#FFFFFFFF>รูปแบบการต่อสู้ระยะประชิด - Light of Obliteration:</color> สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 7 หน่วย",
                     "id": 12043,
                     "name": "Havoc: Obliteration",
                     "playcost": [
@@ -3433,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "สร้างความเสียหายไม้ 2 หน่วย และตัวละครนี้จะได้รับ Vijnana Suffusion",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และตัวละครนี้จะได้รับ Vijnana Suffusion",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C117021]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 2 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Vijnana Suffusion</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Vijnana Suffusion</color>",
                     "id": 17022,
                     "name": "Vijnana-Phala Mine",
                     "playcost": [
@@ -3450,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "สร้างความเสียหายไม้ 4 หน่วย และจะสร้างความเสียหายทะลวง 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และจะสร้างความเสียหายทะลวง 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และจะสร้าง<color=#FFFFFFFF>$[K5]</color> 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2107}<color=#7EC236FF>ความเสียหายไม้</color> 4 หน่วย และจะสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color></color> 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และจะสร้าง<color=#FFFFFFFF><color=#FFFFFFFF>ความเสียหายทะลวง</color></color> 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
                     "id": 17023,
                     "name": "Fashioner's Tanglevine Shaft",
                     "playcost": [
@@ -3513,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "สร้างความเสียหายลม 2 หน่วย และสร้าง Stormzone",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และสร้าง Stormzone",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C115031]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Stormzone</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Stormzone</color>",
                     "id": 15032,
                     "name": "Skyward Sonnet",
                     "playcost": [
@@ -3530,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "สร้างความเสียหายลม 2 หน่วย และเรียก Stormeye",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย และเรียก Stormeye",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C115034]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color> 2 หน่วย และเรียก <color=#FFFFFFFF>Stormeye</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย และเรียก <color=#FFFFFFFF>Stormeye</color>",
                     "id": 15033,
                     "name": "Wind's Grand Ode",
                     "playcost": [
@@ -3607,11 +3787,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 2 หน่วย และสร้าง Pyronado",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และสร้าง Pyronado",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C113022]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 2 หน่วย และสร้าง <color=#FFFFFFFF>Pyronado</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และสร้าง <color=#FFFFFFFF>Pyronado</color>",
                     "id": 13023,
                     "name": "Pyronado",
                     "playcost": [
@@ -3671,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "สร้างความเสียหายลม 3 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color> 3 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย",
                     "id": 15042,
                     "name": "Lemniscatic Wind Cycling",
                     "playcost": [
@@ -3688,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "สร้างความเสียหายลม 4 หน่วย และตัวละครนี้ได้รับ Yaksha's Mask",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และตัวละครนี้ได้รับ Yaksha's Mask",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>$[C115041]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color> 4 หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>Yaksha's Mask</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และตัวละครนี้ได้รับ <color=#FFFFFFFF>Yaksha's Mask</color>",
                     "id": 15043,
                     "name": "Bane of All Evil",
                     "playcost": [
@@ -3751,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 2 หน่วย ทำให้ตัวละครนี้ติดสถานะธาตุน้ำ และสร้าง Rain Sword",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย ทำให้ตัวละครนี้ติดสถานะธาตุน้ำ และสร้าง Rain Sword",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย ทำให้ตัวละครนี้$[K202] และสร้าง <color=#FFFFFFFF>$[C112021]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 2 หน่วย ทำให้ตัวละครนี้<color=#80C0FFFF>ติดสถานะ{SPRITE_PRESET#2102}ธาตุน้ำ</color> และสร้าง <color=#FFFFFFFF>Rain Sword</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย ทำให้ตัวละครนี้<color=#80C0FFFF>ติดสถานะ{SPRITE_PRESET#2102}ธาตุน้ำ</color> และสร้าง <color=#FFFFFFFF>Rain Sword</color>",
                     "id": 12022,
                     "name": "Fatal Rainscreen",
                     "playcost": [
@@ -3768,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "สร้างความเสียหายน้ำ 1 หน่วย ทำให้ตัวละครนี้ติดสถานะธาตุน้ำ และสร้าง Rainbow Bladework",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย ทำให้ตัวละครนี้ติดสถานะธาตุน้ำ และสร้าง Rainbow Bladework",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย ทำให้ตัวละครนี้$[K202] และสร้าง <color=#FFFFFFFF>$[C112022]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 1 หน่วย ทำให้ตัวละครนี้<color=#80C0FFFF>ติดสถานะ{SPRITE_PRESET#2102}ธาตุน้ำ</color> และสร้าง <color=#FFFFFFFF>Rainbow Bladework</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย ทำให้ตัวละครนี้<color=#80C0FFFF>ติดสถานะ{SPRITE_PRESET#2102}ธาตุน้ำ</color> และสร้าง <color=#FFFFFFFF>Rainbow Bladework</color>",
                     "id": 12023,
                     "name": "Raincutter",
                     "playcost": [
@@ -3810,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 1 หน่วย",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 1 หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
                     "id": 14081,
                     "name": "Spiritfox Sin-Eater",
                     "playcost": [
@@ -3846,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "สร้างความเสียหายไฟฟ้า 4 หน่วย; หากในสนามของฝ่ายเรามี Sesshou Sakura จะสลายมัน และสร้าง Tenko Thunderbolt",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย; หากในสนามของฝ่ายเรามี Sesshou Sakura จะสลายมัน และสร้าง Tenko Thunderbolt",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย; หากในสนามของฝ่ายเรามี <color=#FFFFFFFF>$[C114081]</color> จะสลายมัน และสร้าง <color=#FFFFFFFF>$[C114083]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 4 หน่วย; หากในสนามของฝ่ายเรามี <color=#FFFFFFFF>Sesshou Sakura</color> จะสลายมัน และสร้าง <color=#FFFFFFFF>Tenko Thunderbolt</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย; หากในสนามของฝ่ายเรามี <color=#FFFFFFFF>Sesshou Sakura</color> จะสลายมัน และสร้าง <color=#FFFFFFFF>Tenko Thunderbolt</color>",
                     "id": 14083,
                     "name": "Great Secret Art: Tenko Kenshin",
                     "playcost": [
@@ -3878,6 +4058,86 @@
                 "ธาตุไฟฟ้า",
                 "สื่อเวท",
                 "Inazuma"
+            ]
+        },
+        "yanfei": {
+            "hp": 10,
+            "id": 1308,
+            "maxenergy": 2,
+            "name": "Yanfei",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย",
+                    "id": 13081,
+                    "name": "Seal of Approval",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "โจมตีปกติ",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และตัวละครนี้จะได้รับ Scarlet Seal",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C113081]</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Scarlet Seal</color>",
+                    "id": 13082,
+                    "name": "Signed Edict",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "สกิลธาตุ",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และตัวละครนี้จะได้รับ Scarlet Seal และ Brilliance",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>$[C113081]</color> และ <color=#FFFFFFFF>$[C113082]</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และตัวละครนี้จะได้รับ <color=#FFFFFFFF>Scarlet Seal</color> และ <color=#FFFFFFFF>Brilliance</color>",
+                    "id": 13083,
+                    "name": "Done Deal",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "ท่าไม้ตาย",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Yanfei ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+            "storytext": "อย่าได้ปฏิบัติตามกฎโบราณหรือกฎที่ตายตัว",
+            "storytitle": "ความไร้เดียงสาอันแสนแยบยล - Yanfei",
+            "tags": [
+                "GCG_TAG_ELEMENT_PYRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "ธาตุไฟ",
+                "สื่อเวท",
+                "Liyue"
             ]
         },
         "yoimiya": {
@@ -3923,17 +4183,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "สร้างความเสียหายไฟ 4 หน่วย และสร้าง Aurous Blaze",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย และสร้าง Aurous Blaze",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C113052]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 4 หน่วย และสร้าง <color=#FFFFFFFF>Aurous Blaze</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย และสร้าง <color=#FFFFFFFF>Aurous Blaze</color>",
                     "id": 13053,
                     "name": "Ryuukin Saxifrage",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_PYRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -3987,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "สร้างความเสียหายหิน 1 หน่วย และเรียก Stone Stele",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 1 หน่วย และเรียก Stone Stele",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C116031]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Stone Stele</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 1 หน่วย และเรียก <color=#FFFFFFFF>Stone Stele</color>",
                     "id": 16032,
                     "name": "Dominus Lapidis",
                     "playcost": [
@@ -4004,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "สร้างความเสียหายหิน 3 หน่วย เรียก Stone Stele และทำให้เกิด Jade Shield",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 3 หน่วย เรียก Stone Stele และทำให้เกิด Jade Shield",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย เรียก <color=#FFFFFFFF>$[C116031]</color> และทำให้เกิด <color=#FFFFFFFF>$[C116032]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 3 หน่วย เรียก <color=#FFFFFFFF>Stone Stele</color> และทำให้เกิด <color=#FFFFFFFF>Jade Shield</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 3 หน่วย เรียก <color=#FFFFFFFF>Stone Stele</color> และทำให้เกิด <color=#FFFFFFFF>Jade Shield</color>",
                     "id": 16033,
                     "name": "Dominus Lapidis: Striking Stone",
                     "playcost": [
@@ -4021,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "สร้างความเสียหายหิน 4 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Petrification",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 4 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Petrification",
                     "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>$[C116033]</color>",
-                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 4 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>Petrification</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 4 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <color=#FFFFFFFF>Petrification</color>",
                     "id": 16034,
                     "name": "Planet Befall",
                     "playcost": [
@@ -4065,6 +4325,7 @@
                 "barbara",
                 "beidou",
                 "bennett",
+                "candace",
                 "chongyun",
                 "collei",
                 "cyno",
@@ -4078,6 +4339,7 @@
                 "hutao",
                 "jadeplumeterrorshroom",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4103,6 +4365,7 @@
                 "xiao",
                 "xingqiu",
                 "yaemiko",
+                "yanfei",
                 "yoimiya",
                 "zhongli"
             ],
@@ -4110,18 +4373,21 @@
                 "abysslectorfathomlessflames",
                 "amber",
                 "bennett",
+                "candace",
                 "collei",
                 "cyno",
                 "electrohypostasis",
                 "eula",
                 "fatuipyroagent",
                 "jadeplumeterrorshroom",
+                "kaedeharakazuha",
                 "kaeya",
                 "kujousara",
                 "mirrormaiden",
                 "nahida",
                 "noelle",
                 "raidenshogun",
+                "razor",
                 "sangonomiyakokomi",
                 "shenhe",
                 "stonehidelawachurl",
@@ -4131,7 +4397,8 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "3": [
                 "aratakiitto",
@@ -4152,7 +4419,6 @@
                 "maguukenki",
                 "mona",
                 "ningguang",
-                "razor",
                 "rhodeiaofloch",
                 "tartaglia",
                 "yoimiya",
@@ -4184,6 +4450,7 @@
             ],
             "GCG_TAG_ELEMENT_ANEMO": [
                 "jean",
+                "kaedeharakazuha",
                 "maguukenki",
                 "sucrose",
                 "venti",
@@ -4225,6 +4492,7 @@
             ],
             "GCG_TAG_ELEMENT_HYDRO": [
                 "barbara",
+                "candace",
                 "kamisatoayato",
                 "mirrormaiden",
                 "mona",
@@ -4242,10 +4510,12 @@
                 "hutao",
                 "klee",
                 "xiangling",
+                "yanfei",
                 "yoimiya"
             ],
             "GCG_TAG_NATION_INAZUMA": [
                 "aratakiitto",
+                "kaedeharakazuha",
                 "kamisatoayaka",
                 "kamisatoayato",
                 "kujousara",
@@ -4265,6 +4535,7 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
+                "yanfei",
                 "zhongli"
             ],
             "GCG_TAG_NATION_MONDSTADT": [
@@ -4285,6 +4556,7 @@
                 "venti"
             ],
             "GCG_TAG_NATION_SUMERU": [
+                "candace",
                 "collei",
                 "cyno",
                 "nahida",
@@ -4310,7 +4582,8 @@
                 "ningguang",
                 "sangonomiyakokomi",
                 "sucrose",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "GCG_TAG_WEAPON_CLAYMORE": [
                 "aratakiitto",
@@ -4333,6 +4606,7 @@
                 "stonehidelawachurl"
             ],
             "GCG_TAG_WEAPON_POLE": [
+                "candace",
                 "cyno",
                 "hutao",
                 "raidenshogun",
@@ -4344,6 +4618,7 @@
             "GCG_TAG_WEAPON_SWORD": [
                 "bennett",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4358,6 +4633,7 @@
             "barbara": "Barbara",
             "beidou": "Beidou",
             "bennett": "Bennett",
+            "candace": "Candace",
             "chongyun": "Chongyun",
             "collei": "Collei",
             "cyno": "Cyno",
@@ -4372,6 +4648,7 @@
             "hutao": "Hu Tao",
             "jadeplumeterrorshroom": "Jadeplume Terrorshroom",
             "jean": "Jean",
+            "kaedeharakazuha": "Kaedehara Kazuha",
             "kaeya": "Kaeya",
             "kamisatoayaka": "Kamisato Ayaka",
             "kamisatoayato": "Kamisato Ayato",
@@ -4398,6 +4675,7 @@
             "xiao": "Xiao",
             "xingqiu": "Xingqiu",
             "yaemiko": "Yae Miko",
+            "yanfei": "Yanfei",
             "yoimiya": "Yoimiya",
             "zhongli": "Zhongli"
         },
@@ -4408,6 +4686,7 @@
             "Barbara": "barbara",
             "Beidou": "beidou",
             "Bennett": "bennett",
+            "Candace": "candace",
             "Chongyun": "chongyun",
             "Collei": "collei",
             "Cyno": "cyno",
@@ -4423,6 +4702,7 @@
             "Hu Tao": "hutao",
             "Jadeplume Terrorshroom": "jadeplumeterrorshroom",
             "Jean": "jean",
+            "Kaedehara Kazuha": "kaedeharakazuha",
             "Kaeya": "kaeya",
             "Kamisato Ayaka": "kamisatoayaka",
             "Kamisato Ayato": "kamisatoayato",
@@ -4448,6 +4728,7 @@
             "Xiao": "xiao",
             "Xingqiu": "xingqiu",
             "Yae Miko": "yaemiko",
+            "Yanfei": "yanfei",
             "Yoimiya": "yoimiya",
             "Zhongli": "zhongli"
         },
@@ -4475,10 +4756,10 @@
                 "GCG_TAG_ELEMENT_ELECTRO",
                 "GCG_TAG_NATION_LIYUE",
                 "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU",
                 "GCG_TAG_ELEMENT_CRYO",
                 "GCG_TAG_ELEMENT_DENDRO",
-                "GCG_TAG_NATION_SUMERU",
-                "GCG_TAG_WEAPON_POLE",
                 "GCG_TAG_CAMP_FATUI",
                 "GCG_TAG_ELEMENT_ANEMO",
                 "GCG_TAG_CAMP_HILICHURL"

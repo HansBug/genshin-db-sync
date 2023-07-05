@@ -360,6 +360,12 @@
                     "titleraw": "{SPRITE_PRESET#4007}Khiên"
                 },
                 {
+                    "content": "Trong một ván đấu, mỗi một bài thủ chỉ được dùng 1 thẻ bài Bí Truyền.\nThẻ Bí Truyền sẽ có trong những lá bài ban đầu trong tay bạn. (Khi số lượng thẻ Bí Truyền trong bộ bài nhiều hơn số thẻ bài khởi đầu, thì Thẻ Bí Truyền sẽ xuất hiện ngẫu nhiên trong nhóm bài khởi đầu.)",
+                    "contentraw": "Trong một ván đấu, mỗi một bài thủ chỉ được dùng 1 thẻ bài {SPRITE_PRESET#3007}Bí Truyền.\\nThẻ {SPRITE_PRESET#3007}Bí Truyền sẽ có trong những lá bài ban đầu trong tay bạn. (Khi số lượng thẻ {SPRITE_PRESET#3007}Bí Truyền trong bộ bài nhiều hơn số thẻ bài khởi đầu, thì Thẻ Bí Truyền sẽ xuất hiện ngẫu nhiên trong nhóm bài khởi đầu.)",
+                    "title": "Bí Truyền",
+                    "titleraw": "{SPRITE_PRESET#3007}Bí Truyền"
+                },
+                {
                     "content": "Một số thẻ bài hoặc trạng thái có giới hạn số lần sử dụng.\nMỗi lần kích hoạt hiệu quả thẻ bài này sẽ tiêu hao 1 lần sử dụng.\nSau khi hết lượt dùng sẽ lập tức hủy bỏ thẻ bài này.",
                     "contentraw": "Một số thẻ bài hoặc trạng thái có giới hạn số lần sử dụng.\\nMỗi lần kích hoạt hiệu quả thẻ bài này sẽ tiêu hao 1 lần sử dụng.\\nSau khi hết lượt dùng sẽ lập tức hủy bỏ thẻ bài này.",
                     "title": "Số Lần Sử Dụng",

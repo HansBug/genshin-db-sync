@@ -1,5 +1,18 @@
 {
     "items": {
+        "autumnwhirlwind": {
+            "cardtypetext": "Beschwörung",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Endphase: Verursacht 1 Pkt. Anemo-SCH.\nEinsatzmöglichkeit: 3\n\nNach Auslösen der Reaktion Verwirbelung durch deine Figuren oder Beschwörungen: Wandelt den Elementartyp und -SCH dieser Karte zum von der Verwirbelung betroffenen Element um. (Nur 1-mal auslösbar, bevor diese Beschwörung das Spielfeld verlässt.)",
+            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Verursacht 1 Pkt. $[K105|s1].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Nach Auslösen der Reaktion Verwirbelung durch deine Figuren oder Beschwörungen:</color> Wandelt den Elementartyp und -SCH dieser Karte zum von der Verwirbelung betroffenen Element um. (Nur 1-mal auslösbar, bevor diese Beschwörung das Spielfeld verlässt.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Endphase:</color> Verursacht 1 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 3</color>\\n\\n<color=#FFFFFFFF>Nach Auslösen der Reaktion Verwirbelung durch deine Figuren oder Beschwörungen:</color> Wandelt den Elementartyp und -SCH dieser Karte zum von der Verwirbelung betroffenen Element um. (Nur 1-mal auslösbar, bevor diese Beschwörung das Spielfeld verlässt.)",
+            "hinttype": "GCG_HINT_ANEMO",
+            "id": 115052,
+            "name": "Wirbelndes Herbstfeld",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "bakekurage": {
             "cardtypetext": "Beschwörung",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -267,9 +280,9 @@
         "largewindspirit-01": {
             "cardtypetext": "Beschwörung",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "Endphase: Verursacht 2 Pkt. Anemo-SCH.\nEinsatzmöglichkeit: 3\n\nNach Auslösen der Reaktion Verwirbelung durch deine Figuren oder Beschwörungen: Wandelt den Elementartyp und -SCH dieser Karte zum von der Verwirbelung betroffenen Element um. (Nur 1-mal auslösbar, bevor diese Beschwörung das Spielfeld verlässt.)",
-            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Verursacht 2 Pkt. $[K105|s1].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Nach Auslösen der Reaktion Verwirbelung durch deine Figuren oder Beschwörungen:</color> Wandelt den Elementartyp und -SCH dieser Karte zum von der Verwirbelung betroffenen Element um. (Nur 1-mal auslösbar, bevor diese Beschwörung das Spielfeld verlässt.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Endphase:</color> Verursacht 2 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 3</color>\\n\\n<color=#FFFFFFFF>Nach Auslösen der Reaktion Verwirbelung durch deine Figuren oder Beschwörungen:</color> Wandelt den Elementartyp und -SCH dieser Karte zum von der Verwirbelung betroffenen Element um. (Nur 1-mal auslösbar, bevor diese Beschwörung das Spielfeld verlässt.)",
+            "description": "Endphase: Verursacht 2 Pkt. Anemo-SCH.\nEinsatzmöglichkeit: 3\n\nNach Auslösen der Reaktion Verwirbelung durch deine Figuren oder Beschwörungen: Wandelt den Elementartyp und -SCH dieser Karte zum von der Verwirbelung betroffenen Element um. (Nur 1-mal auslösbar, bevor diese Beschwörung das Spielfeld verlässt.)\nIst diese Beschwörung auf dem Spielfeld: Wenn der Elementartyp dieser Karte schon umgewandelt wurde, wird der entsprechende Elementar-SCH durch deine Figuren um 1 Pkt. erhöht.",
+            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Verursacht 2 Pkt. $[K105|s1].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Nach Auslösen der Reaktion Verwirbelung durch deine Figuren oder Beschwörungen:</color> Wandelt den Elementartyp und -SCH dieser Karte zum von der Verwirbelung betroffenen Element um. (Nur 1-mal auslösbar, bevor diese Beschwörung das Spielfeld verlässt.)\\n<color=#FFFFFFFF>Ist diese Beschwörung auf dem Spielfeld:</color> Wenn der Elementartyp dieser Karte schon umgewandelt wurde, wird der entsprechende Elementar-SCH durch deine Figuren um 1 Pkt. erhöht.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Endphase:</color> Verursacht 2 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 3</color>\\n\\n<color=#FFFFFFFF>Nach Auslösen der Reaktion Verwirbelung durch deine Figuren oder Beschwörungen:</color> Wandelt den Elementartyp und -SCH dieser Karte zum von der Verwirbelung betroffenen Element um. (Nur 1-mal auslösbar, bevor diese Beschwörung das Spielfeld verlässt.)\\n<color=#FFFFFFFF>Ist diese Beschwörung auf dem Spielfeld:</color> Wenn der Elementartyp dieser Karte schon umgewandelt wurde, wird der entsprechende Elementar-SCH durch deine Figuren um 1 Pkt. erhöht.",
             "hinttype": "GCG_HINT_ANEMO",
             "id": 115012,
             "name": "Große Windseele",
@@ -280,9 +293,9 @@
         "lightfallsword": {
             "cardtypetext": "Beschwörung",
             "countingtype": "GCG_TOKEN_COUNTER",
-            "description": "Beim Anwenden des Standardangriffs oder der Elementarfähigkeit von Eula: Verleiht dieser Karte 2 Energie-Stapelungen, aber Eula erhält keine Aufladung.\nEndphase: Diese Karte wird abgeworfen, verursacht dabei 2 Pkt. phys. SCH. Jede Energie-Stapelung erhöht diesen SCH um 1 Pkt.\n(Effekte auf Einsatzmöglichkeit dieser Karte wirken auf ihre Energie-Stapelungen.)",
-            "descriptionraw": "<color=#FFFFFFFF>Beim Anwenden des Standardangriffs oder der Elementarfähigkeit von $[A1106]:</color> Verleiht dieser Karte 2 Energie-Stapelungen, aber $[A1106] erhält keine Aufladung.\\n<color=#FFFFFFFF>Endphase:</color> Diese Karte wird abgeworfen, verursacht dabei 2 Pkt. $[K100|s1]. Jede Energie-Stapelung erhöht diesen SCH um 1 Pkt.\\n(Effekte auf $[K3] dieser Karte wirken auf ihre <color=#FFFFFFFF>Energie-Stapelungen</color>.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Beim Anwenden des Standardangriffs oder der Elementarfähigkeit von Eula:</color> Verleiht dieser Karte 2 Energie-Stapelungen, aber Eula erhält keine Aufladung.\\n<color=#FFFFFFFF>Endphase:</color> Diese Karte wird abgeworfen, verursacht dabei 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>. Jede Energie-Stapelung erhöht diesen SCH um 1 Pkt.\\n(Effekte auf <color=#FFFFFFFF>Einsatzmöglichkeit</color> dieser Karte wirken auf ihre <color=#FFFFFFFF>Energie-Stapelungen</color>.)",
+            "description": "Beim Anwenden des Standardangriffs oder der Elementarfähigkeit von Eula: Verleiht dieser Karte 2 Energie-Stapelungen, aber Eula erhält keine Aufladung.\nEndphase: Diese Karte wird abgeworfen, verursacht dabei 3 Pkt. phys. SCH. Jede Energie-Stapelung erhöht diesen SCH um 1 Pkt.\n(Effekte auf die Einsatzmöglichkeit dieser Karte wirken auf ihre Energie-Stapelungen.)",
+            "descriptionraw": "<color=#FFFFFFFF>Beim Anwenden des Standardangriffs oder der Elementarfähigkeit von $[A1106]:</color> Verleiht dieser Karte 2 Energie-Stapelungen, aber $[A1106] erhält keine Aufladung.\\n<color=#FFFFFFFF>Endphase:</color> Diese Karte wird abgeworfen, verursacht dabei 3 Pkt. $[K100|s1]. Jede Energie-Stapelung erhöht diesen SCH um 1 Pkt.\\n(Effekte auf die $[K3] dieser Karte wirken auf ihre <color=#FFFFFFFF>Energie-Stapelungen</color>.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Beim Anwenden des Standardangriffs oder der Elementarfähigkeit von Eula:</color> Verleiht dieser Karte 2 Energie-Stapelungen, aber Eula erhält keine Aufladung.\\n<color=#FFFFFFFF>Endphase:</color> Diese Karte wird abgeworfen, verursacht dabei 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>. Jede Energie-Stapelung erhöht diesen SCH um 1 Pkt.\\n(Effekte auf die <color=#FFFFFFFF>Einsatzmöglichkeit</color> dieser Karte wirken auf ihre <color=#FFFFFFFF>Energie-Stapelungen</color>.)",
             "hinttype": "GCG_HINT_VOID",
             "id": 111062,
             "name": "Schwert des Lichtfalls",
@@ -542,6 +555,7 @@
         "aliases": {},
         "categories": {
             "GCG_HINT_ANEMO": [
+                "autumnwhirlwind",
                 "dandelionfield",
                 "largewindspirit-01",
                 "largewindspirit",
@@ -616,6 +630,7 @@
                 "lightfallsword"
             ],
             "GCG_TOKEN_ICON_HOURGLASS": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -654,6 +669,7 @@
                 "whirlwind"
             ],
             "GCG_TOKEN_LIFE": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -699,6 +715,7 @@
             ]
         },
         "namemap": {
+            "autumnwhirlwind": "Wirbelndes Herbstfeld",
             "bakekurage": "Bakekurage",
             "baronbunny": "Graf von Hoppel",
             "burningflame": "Loderndes Feuer",
@@ -780,6 +797,7 @@
             "Trugbild": "reflection",
             "Unheilvolles Auge der Blitzstrafe": "eyeofstormyjudgment",
             "Ushi": "ushi",
+            "Wirbelndes Herbstfeld": "autumnwhirlwind",
             "Zentrum des Sturms": "stormeye"
         },
         "properties": {
@@ -789,12 +807,12 @@
                 "GCG_TOKEN_COUNTER"
             ],
             "hinttype": [
+                "GCG_HINT_ANEMO",
                 "GCG_HINT_HYDRO",
                 "GCG_HINT_PYRO",
                 "GCG_HINT_ELECTRO",
                 "GCG_HINT_DENDRO",
                 "GCG_HINT_CRYO",
-                "GCG_HINT_ANEMO",
                 "GCG_HINT_HEAL",
                 "GCG_HINT_VOID",
                 "GCG_HINT_GEO"

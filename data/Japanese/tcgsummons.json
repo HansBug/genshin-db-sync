@@ -1,5 +1,18 @@
 {
     "items": {
+        "autumnwhirlwind": {
+            "cardtypetext": "召喚物",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "エンドフェーズ：風元素ダメージを1与える。\n使用可能回数：3\n\n味方のキャラまたは召喚物が拡散反応を起こした後、このカードの元素タイプは変わり、拡散された元素タイプのダメージを与えるようになる。（退場するまでの間、1回のみ変化可能）",
+            "descriptionraw": "<color=#FFFFFFFF>エンドフェーズ：</color>$[K105]を1与える。\\n<color=#FFFFFFFF>$[K3]：3</color>\\n\\n<color=#FFFFFFFF>味方のキャラまたは召喚物が拡散反応を起こした後</color>、このカードの元素タイプは変わり、拡散された元素タイプのダメージを与えるようになる。（退場するまでの間、1回のみ変化可能）",
+            "descriptionreplaced": "<color=#FFFFFFFF>エンドフェーズ：</color>{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を1与える。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>：3</color>\\n\\n<color=#FFFFFFFF>味方のキャラまたは召喚物が拡散反応を起こした後</color>、このカードの元素タイプは変わり、拡散された元素タイプのダメージを与えるようになる。（退場するまでの間、1回のみ変化可能）",
+            "hinttype": "GCG_HINT_ANEMO",
+            "id": 115052,
+            "name": "流風秋野",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "bakekurage": {
             "cardtypetext": "召喚物",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -267,9 +280,9 @@
         "largewindspirit-01": {
             "cardtypetext": "召喚物",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "エンドフェーズ：風元素ダメージを2与える。\n使用可能回数：3\n\n味方のキャラまたは召喚物が拡散反応を起こした後、このカードの元素タイプは変わり、拡散された元素タイプのダメージを与えるようになる。（退場するまでの間、1回のみ変化可能）",
-            "descriptionraw": "<color=#FFFFFFFF>エンドフェーズ：</color>$[K105]を2与える。\\n<color=#FFFFFFFF>$[K3]：3</color>\\n\\n<color=#FFFFFFFF>味方のキャラまたは召喚物が拡散反応を起こした後</color>、このカードの元素タイプは変わり、拡散された元素タイプのダメージを与えるようになる。（退場するまでの間、1回のみ変化可能）",
-            "descriptionreplaced": "<color=#FFFFFFFF>エンドフェーズ：</color>{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を2与える。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>：3</color>\\n\\n<color=#FFFFFFFF>味方のキャラまたは召喚物が拡散反応を起こした後</color>、このカードの元素タイプは変わり、拡散された元素タイプのダメージを与えるようになる。（退場するまでの間、1回のみ変化可能）",
+            "description": "エンドフェーズ：風元素ダメージを2与える。\n使用可能回数：3\n\n味方のキャラまたは召喚物が拡散反応を起こした後、このカードの元素タイプは変わり、拡散された元素タイプのダメージを与えるようになる。（退場するまでの間、1回のみ変化可能）\nこの召喚物がフィールドに存在する時、このカードの元素タイプがすでに変わっている場合、味方が与える該当元素タイプのダメージ+1。",
+            "descriptionraw": "<color=#FFFFFFFF>エンドフェーズ：</color>$[K105]を2与える。\\n<color=#FFFFFFFF>$[K3]：3</color>\\n\\n<color=#FFFFFFFF>味方のキャラまたは召喚物が拡散反応を起こした後</color>、このカードの元素タイプは変わり、拡散された元素タイプのダメージを与えるようになる。（退場するまでの間、1回のみ変化可能）\\n<color=#FFFFFFFF>この召喚物がフィールドに存在する時</color>、このカードの元素タイプがすでに変わっている場合、味方が与える該当元素タイプのダメージ+1。",
+            "descriptionreplaced": "<color=#FFFFFFFF>エンドフェーズ：</color>{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を2与える。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>：3</color>\\n\\n<color=#FFFFFFFF>味方のキャラまたは召喚物が拡散反応を起こした後</color>、このカードの元素タイプは変わり、拡散された元素タイプのダメージを与えるようになる。（退場するまでの間、1回のみ変化可能）\\n<color=#FFFFFFFF>この召喚物がフィールドに存在する時</color>、このカードの元素タイプがすでに変わっている場合、味方が与える該当元素タイプのダメージ+1。",
             "hinttype": "GCG_HINT_ANEMO",
             "id": 115012,
             "name": "大型風霊",
@@ -280,9 +293,9 @@
         "lightfallsword": {
             "cardtypetext": "召喚物",
             "countingtype": "GCG_TOKEN_COUNTER",
-            "description": "エウルアが「通常攻撃」または「元素スキル」を発動すると、このカードに「エネルギー量」を2層重ねる。ただし、エウルアはチャージを獲得できない。\nエンドフェーズ：このカードを破棄し、物理ダメージを2与える。「エネルギー量」1層につき、このダメージ+1。\n（このカードの「使用可能回数」に影響を与える効果は代わりに「エネルギー量」に影響を与えるようになる。）",
-            "descriptionraw": "<color=#FFFFFFFF>$[A1106]が「通常攻撃」または「元素スキル」を発動すると</color>、このカードに「エネルギー量」を2層重ねる。ただし、$[A1106]はチャージを獲得できない。\\n<color=#FFFFFFFF>エンドフェーズ：</color>このカードを破棄し、$[K100]を2与える。「エネルギー量」1層につき、このダメージ+1。\\n（このカードの「$[K3]」に影響を与える効果は代わりに「<color=#FFFFFFFF>エネルギー量</color>」に影響を与えるようになる。）",
-            "descriptionreplaced": "<color=#FFFFFFFF>エウルアが「通常攻撃」または「元素スキル」を発動すると</color>、このカードに「エネルギー量」を2層重ねる。ただし、エウルアはチャージを獲得できない。\\n<color=#FFFFFFFF>エンドフェーズ：</color>このカードを破棄し、{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与える。「エネルギー量」1層につき、このダメージ+1。\\n（このカードの「<color=#FFFFFFFF>使用可能回数</color>」に影響を与える効果は代わりに「<color=#FFFFFFFF>エネルギー量</color>」に影響を与えるようになる。）",
+            "description": "エウルアが「通常攻撃」または「元素スキル」を発動すると、このカードに「エネルギー量」を2層重ねる。ただし、エウルアはチャージを獲得できない。\nエンドフェーズ：このカードを破棄し、物理ダメージを3与える。「エネルギー量」1層につき、このダメージ+1。\n（このカードの「使用可能回数」に影響を与える効果は代わりに「エネルギー量」に影響を与えるようになる。）",
+            "descriptionraw": "<color=#FFFFFFFF>$[A1106]が「通常攻撃」または「元素スキル」を発動すると</color>、このカードに「エネルギー量」を2層重ねる。ただし、$[A1106]はチャージを獲得できない。\\n<color=#FFFFFFFF>エンドフェーズ：</color>このカードを破棄し、$[K100]を3与える。「エネルギー量」1層につき、このダメージ+1。\\n（このカードの「$[K3]」に影響を与える効果は代わりに「<color=#FFFFFFFF>エネルギー量</color>」に影響を与えるようになる。）",
+            "descriptionreplaced": "<color=#FFFFFFFF>エウルアが「通常攻撃」または「元素スキル」を発動すると</color>、このカードに「エネルギー量」を2層重ねる。ただし、エウルアはチャージを獲得できない。\\n<color=#FFFFFFFF>エンドフェーズ：</color>このカードを破棄し、{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。「エネルギー量」1層につき、このダメージ+1。\\n（このカードの「<color=#FFFFFFFF>使用可能回数</color>」に影響を与える効果は代わりに「<color=#FFFFFFFF>エネルギー量</color>」に影響を与えるようになる。）",
             "hinttype": "GCG_HINT_VOID",
             "id": 111062,
             "name": "光臨の剣",
@@ -542,6 +555,7 @@
         "aliases": {},
         "categories": {
             "GCG_HINT_ANEMO": [
+                "autumnwhirlwind",
                 "dandelionfield",
                 "largewindspirit-01",
                 "largewindspirit",
@@ -616,6 +630,7 @@
                 "lightfallsword"
             ],
             "GCG_TOKEN_ICON_HOURGLASS": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -654,6 +669,7 @@
                 "whirlwind"
             ],
             "GCG_TOKEN_LIFE": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -699,6 +715,7 @@
             ]
         },
         "namemap": {
+            "autumnwhirlwind": "流風秋野",
             "bakekurage": "化海月",
             "baronbunny": "ウサギ伯爵",
             "burningflame": "燃焼烈焔",
@@ -766,6 +783,7 @@
             "氷蛍": "cryocicins",
             "氷霊珠": "sacredcryopearl",
             "治療の雨": "healingrain",
+            "流風秋野": "autumnwhirlwind",
             "清浄之園囿": "gardenofpurity",
             "燃焼烈焔": "burningflame",
             "籙霊": "talismanspirit",
@@ -789,12 +807,12 @@
                 "GCG_TOKEN_COUNTER"
             ],
             "hinttype": [
+                "GCG_HINT_ANEMO",
                 "GCG_HINT_HYDRO",
                 "GCG_HINT_PYRO",
                 "GCG_HINT_ELECTRO",
                 "GCG_HINT_DENDRO",
                 "GCG_HINT_CRYO",
-                "GCG_HINT_ANEMO",
                 "GCG_HINT_HEAL",
                 "GCG_HINT_VOID",
                 "GCG_HINT_GEO"

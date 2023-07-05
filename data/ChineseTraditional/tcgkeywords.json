@@ -21,6 +21,13 @@
             "name": "風元素傷害",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素傷害</color>"
         },
+        "arcaneedict": {
+            "description": "在一場對局中，每位牌手只能使用一張「秘傳」卡牌。\n只有在「秘傳揭令」仍存在時，才能打出「秘傳」卡牌。打出「秘傳」卡牌後，會消耗掉目前對局的「秘傳揭令」使用機會。",
+            "descriptionraw": "在一場對局中，每位牌手只能使用一張「{SPRITE_PRESET#3007}秘傳」卡牌。\\n只有在「{SPRITE_PRESET#1112}秘傳揭令」仍存在時，才能打出「{SPRITE_PRESET#3007}秘傳」卡牌。打出「{SPRITE_PRESET#3007}秘傳」卡牌後，會消耗掉目前對局的「{SPRITE_PRESET#1112}秘傳揭令」使用機會。",
+            "id": 311,
+            "name": "秘傳揭令",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}秘傳揭令</color>"
+        },
         "bloodblossom": {
             "description": "結束階段：對所附屬角色造成1點火元素傷害。\n可用次數：1",
             "descriptionraw": "<color=#FFFFFFFF>結束階段：</color>對所附屬角色造成1點{SPRITE_PRESET#2103}<color=#FF9999FF>火元素傷害</color>。\\n<color=#FFFFFFFF><color=#FFFFFFFF>可用次數</color>：1</color>",
@@ -266,7 +273,7 @@
             "name": "下落攻擊",
             "nameraw": "<color=#FFFFFFFF>下落攻擊</color>"
         },
-        "prepareskill": {
+        "prepareskills1prepares": {
             "description": "有些技能無法被直接使用，而是需要一定次數的行動輪來進行準備。 \n輪到一位牌手行動時，如果該牌手的「出戰角色」正在準備技能，則跳過該牌手的行動；如果技能已經完成準備，角色將會在此時直接使用此技能。（此類需要準備的技能，無法觸發「使用技能後」效果。）\n只有「出戰角色」才能準備技能；如果正在準備技能的「出戰角色」被切換到後台，技能的準備就會被打斷。",
             "descriptionraw": "有些技能無法被直接使用，而是需要一定次數的行動輪來進行<color=#FFFFFFFF>準備</color>。 \\n輪到一位牌手行動時，如果該牌手的「出戰角色」正在<color=#FFFFFFFF>準備</color>技能，則跳過該牌手的行動；如果技能已經完成<color=#FFFFFFFF>準備</color>，角色將會在此時直接使用此技能。（此類需要<color=#FFFFFFFF>準備</color>的技能，無法觸發「使用技能後」效果。）\\n只有「出戰角色」才能<color=#FFFFFFFF>準備</color>技能；如果正在<color=#FFFFFFFF>準備</color>技能的「出戰角色」被切換到後台，技能的<color=#FFFFFFFF>準備</color>就會被打斷。",
             "id": 53,
@@ -315,6 +322,13 @@
             "name": "斷流",
             "nameraw": "<color=#FFFFFFFF>斷流</color>"
         },
+        "scarletseal": {
+            "description": "角色進行重擊時：造成的傷害+2。\n可用次數：1",
+            "descriptionraw": "<color=#FFFFFFFF>角色進行<color=#FFFFFFFF>重擊</color>時：</color>造成的傷害+2。\\n<color=#FFFFFFFF><color=#FFFFFFFF>可用次數</color>：1</color>",
+            "id": 1010,
+            "name": "丹火印",
+            "nameraw": "<color=#FFFFFFFF>丹火印</color>"
+        },
         "shield": {
             "description": "此護盾所保護的角色受到傷害時，將會消耗護盾來抵消傷害。",
             "descriptionraw": "此護盾所保護的角色受到傷害時，將會消耗護盾來抵消傷害。",
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "淵火加護",
             "anemo": "風元素",
             "anemodmg": "風元素傷害",
+            "arcaneedict": "秘傳揭令",
             "bloodblossom": "血梅香",
             "characterclosesttoyourcurrentactivecharacter": "距離我方出戰角色最近的角色",
             "chargedattack": "重擊",
@@ -386,13 +401,14 @@
             "physicaldmg": "物理傷害",
             "piercingdmg": "穿透傷害",
             "plungingattack": "下落攻擊",
-            "prepareskill": "準備技能",
+            "prepareskills1prepares": "準備技能",
             "pyro": "火元素",
             "pyroapplication": "附著火元素",
             "pyrodmg": "火元素傷害",
             "pyrorelatedreactions": "火元素相關反應",
             "randomhilichurlsummon": "隨機「丘丘人」召喚物",
             "riptide": "斷流",
+            "scarletseal": "丹火印",
             "shield": "護盾",
             "superlativesuperstrength": "亂神之怪力",
             "unalignedelement": "無色元素",
@@ -400,6 +416,7 @@
         },
         "names": {
             "下落攻擊": "plungingattack",
+            "丹火印": "scarletseal",
             "亂神之怪力": "superlativesuperstrength",
             "元素爆發": "elementalburst",
             "充能": "energy",
@@ -418,13 +435,14 @@
             "水元素傷害": "hydrodmg",
             "水元素相關反應": "hydrorelatedreactions",
             "淵火加護": "aegisofabyssalflame",
-            "準備技能": "prepareskill",
+            "準備技能": "prepareskills1prepares",
             "火元素": "pyro",
             "火元素傷害": "pyrodmg",
             "火元素相關反應": "pyrorelatedreactions",
             "無色元素": "unalignedelement",
             "物理傷害": "physicaldmg",
             "相同元素": "matchingelement",
+            "秘傳揭令": "arcaneedict",
             "穿透傷害": "piercingdmg",
             "草元素": "dendro",
             "草元素傷害": "dendrodmg",

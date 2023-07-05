@@ -21,6 +21,13 @@
             "name": "Anemo DMG",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>"
         },
+        "arcaneedict": {
+            "description": "Each player can only use 1 Arcane Legend card per match.\nAn Arcane Legend card can only be played should an Arcane Edict still be present. After an Arcane Legend card is played, the current match's Arcane Edict use will be consumed.",
+            "descriptionraw": "Each player can only use 1 {SPRITE_PRESET#3007}Arcane Legend card per match.\\nAn {SPRITE_PRESET#3007}Arcane Legend card can only be played should an {SPRITE_PRESET#1112}Arcane Edict still be present. After an {SPRITE_PRESET#3007}Arcane Legend card is played, the current match's {SPRITE_PRESET#1112}Arcane Edict use will be consumed.",
+            "id": 311,
+            "name": "Arcane Edict",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}Arcane Edict</color>"
+        },
         "bloodblossom": {
             "description": "End Phase: Deal 1 Pyro DMG to the character to which this is attached.\nUsage(s):1",
             "descriptionraw": "<color=#FFFFFFFF>End Phase:</color> Deal 1 {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> to the character to which this is attached.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>:1</color>",
@@ -266,12 +273,12 @@
             "name": "Plunging Attack",
             "nameraw": "<color=#FFFFFFFF>Plunging Attack</color>"
         },
-        "prepareskill": {
+        "prepareskills1prepares": {
             "description": "Some Skills cannot be used directly. Instead, they need to be prepared over a certain number of turns.\nWhen it is a certain player's turn, and this player's active character is currently preparing a Skill, this player's turn will be skipped. If the Skill has finished being prepared, the character will directly use that Skill at this time. (Skills that require preparing cannot activate effects triggered by \"using a Skill\")\nOnly active characters can prepare Skills, and if an active character who is preparing a Skill gets switched off-field, their preparation will be interrupted.",
             "descriptionraw": "Some Skills cannot be used directly. Instead, they need to be <color=#FFFFFFFF>prepared</color> over a certain number of turns.\\nWhen it is a certain player's turn, and this player's active character is currently <color=#FFFFFFFF>preparing</color> a Skill, this player's turn will be skipped. If the Skill has finished being <color=#FFFFFFFF>prepared</color>, the character will directly use that Skill at this time. (Skills that require <color=#FFFFFFFF>preparing</color> cannot activate effects triggered by \"using a Skill\")\\nOnly active characters can <color=#FFFFFFFF>prepare</color> Skills, and if an active character who is <color=#FFFFFFFF>preparing</color> a Skill gets switched off-field, their <color=#FFFFFFFF>preparation</color> will be interrupted.",
             "id": 53,
             "name": "Prepare Skill",
-            "nameraw": "<color=#FFFFFFFF>Prepare Skill</color>"
+            "nameraw": "<color=#FFFFFFFF>Prepare Skill</color>|s1: <color=#FFFFFFFF>prepares</color>"
         },
         "pyro": {
             "description": "Spend the Pyro Dice you have rolled to pay for this cost.\n(Omni Dice may also be used to pay for this.)",
@@ -315,6 +322,13 @@
             "name": "Riptide",
             "nameraw": "<color=#FFFFFFFF>Riptide</color>"
         },
+        "scarletseal": {
+            "description": "When the character uses a Charged Attack: DMG dealt +2.\nUsage(s): 1",
+            "descriptionraw": "<color=#FFFFFFFF>When the character uses a <color=#FFFFFFFF>Charged Attack</color>:</color> DMG dealt +2.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 1</color>",
+            "id": 1010,
+            "name": "Scarlet Seal",
+            "nameraw": "<color=#FFFFFFFF>Scarlet Seal</color>"
+        },
         "shield": {
             "description": "This Shield will be consumed to protect the character who equips it from DMG.",
             "descriptionraw": "This Shield will be consumed to protect the character who equips it from DMG.",
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "Aegis of Abyssal Flame",
             "anemo": "Anemo",
             "anemodmg": "Anemo DMG",
+            "arcaneedict": "Arcane Edict",
             "bloodblossom": "Blood Blossom",
             "characterclosesttoyourcurrentactivecharacter": "Character Closest to Your Current Active Character",
             "chargedattack": "Charged Attack",
@@ -386,13 +401,14 @@
             "physicaldmg": "Physical DMG",
             "piercingdmg": "Piercing DMG",
             "plungingattack": "Plunging Attack",
-            "prepareskill": "Prepare Skill",
+            "prepareskills1prepares": "Prepare Skill",
             "pyro": "Pyro",
             "pyroapplication": "Pyro Application",
             "pyrodmg": "Pyro DMG",
             "pyrorelatedreactions": "Pyro-Related Reactions",
             "randomhilichurlsummon": "Random Hilichurl Summon",
             "riptide": "Riptide",
+            "scarletseal": "Scarlet Seal",
             "shield": "Shield",
             "superlativesuperstrength": "Superlative Superstrength",
             "unalignedelement": "Unaligned Element",
@@ -402,6 +418,7 @@
             "Aegis of Abyssal Flame": "aegisofabyssalflame",
             "Anemo": "anemo",
             "Anemo DMG": "anemodmg",
+            "Arcane Edict": "arcaneedict",
             "Blood Blossom": "bloodblossom",
             "Character Closest to Your Current Active Character": "characterclosesttoyourcurrentactivecharacter",
             "Charged Attack": "chargedattack",
@@ -437,13 +454,14 @@
             "Physical DMG": "physicaldmg",
             "Piercing DMG": "piercingdmg",
             "Plunging Attack": "plungingattack",
-            "Prepare Skill": "prepareskill",
+            "Prepare Skill": "prepareskills1prepares",
             "Pyro": "pyro",
             "Pyro Application": "pyroapplication",
             "Pyro DMG": "pyrodmg",
             "Pyro-Related Reactions": "pyrorelatedreactions",
             "Random Hilichurl Summon": "randomhilichurlsummon",
             "Riptide": "riptide",
+            "Scarlet Seal": "scarletseal",
             "Shield": "shield",
             "Superlative Superstrength": "superlativesuperstrength",
             "Unaligned Element": "unalignedelement",

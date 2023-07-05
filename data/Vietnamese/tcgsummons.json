@@ -1,5 +1,18 @@
 {
     "items": {
+        "autumnwhirlwind": {
+            "cardtypetext": "Vật Triệu Hồi",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Giai Đoạn Kết Thúc: Gây 1 điểm Sát Thương Nguyên Tố Phong.\nSố Lần Khả Dụng: 3\n\nSau khi nhân vật phe ta hoặc vật triệu hồi kích hoạt phản ứng Khuếch Tán: Thay đổi loại sát thương của thẻ bài này thành loại nguyên tố bị Khuếch Tán. (Chỉ 1 lần trước khi rời trận)",
+            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm $[K105].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Sau khi nhân vật phe ta hoặc vật triệu hồi kích hoạt phản ứng Khuếch Tán:</color> Thay đổi loại sát thương của thẻ bài này thành loại nguyên tố bị Khuếch Tán. (Chỉ 1 lần trước khi rời trận)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số Lần Khả Dụng</color>: 3</color>\\n\\n<color=#FFFFFFFF>Sau khi nhân vật phe ta hoặc vật triệu hồi kích hoạt phản ứng Khuếch Tán:</color> Thay đổi loại sát thương của thẻ bài này thành loại nguyên tố bị Khuếch Tán. (Chỉ 1 lần trước khi rời trận)",
+            "hinttype": "GCG_HINT_ANEMO",
+            "id": 115052,
+            "name": "Một Khắc Gió Thu",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "bakekurage": {
             "cardtypetext": "Vật Triệu Hồi",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -267,9 +280,9 @@
         "largewindspirit-01": {
             "cardtypetext": "Vật Triệu Hồi",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "Giai Đoạn Kết Thúc: Gây 2 điểm Sát Thương Nguyên Tố Phong.\nSố Lần Khả Dụng: 3\n\nSau khi nhân vật phe ta hoặc vật triệu hồi kích hoạt phản ứng Khuếch Tán: Thay đổi loại hình nguyên tố của thẻ bài này, đổi thành sát thương loại nguyên tố bị Khuếch Tán. (Chỉ 1 lần trước khi rời trận)",
-            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 2 điểm $[K105].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Sau khi nhân vật phe ta hoặc vật triệu hồi kích hoạt phản ứng Khuếch Tán:</color> Thay đổi loại hình nguyên tố của thẻ bài này, đổi thành sát thương loại nguyên tố bị Khuếch Tán. (Chỉ 1 lần trước khi rời trận)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 2 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số Lần Khả Dụng</color>: 3</color>\\n\\n<color=#FFFFFFFF>Sau khi nhân vật phe ta hoặc vật triệu hồi kích hoạt phản ứng Khuếch Tán:</color> Thay đổi loại hình nguyên tố của thẻ bài này, đổi thành sát thương loại nguyên tố bị Khuếch Tán. (Chỉ 1 lần trước khi rời trận)",
+            "description": "Giai Đoạn Kết Thúc: Gây 2 điểm Sát Thương Nguyên Tố Phong.\nSố Lần Khả Dụng: 3\n\nSau khi nhân vật phe ta hoặc vật triệu hồi kích hoạt phản ứng Khuếch Tán: Thay đổi loại sát thương của thẻ bài này thành loại nguyên tố bị Khuếch Tán. (Chỉ 1 lần trước khi rời trận)\nKhi vật triệu hồi này trong trận: Nếu loại nguyên tố của thẻ bài này đã thay đổi, sẽ +1 sát thương loại nguyên tố này do phe ta gây ra.",
+            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 2 điểm $[K105].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Sau khi nhân vật phe ta hoặc vật triệu hồi kích hoạt phản ứng Khuếch Tán:</color> Thay đổi loại sát thương của thẻ bài này thành loại nguyên tố bị Khuếch Tán. (Chỉ 1 lần trước khi rời trận)\\n<color=#FFFFFFFF>Khi vật triệu hồi này trong trận:</color> Nếu loại nguyên tố của thẻ bài này đã thay đổi, sẽ +1 sát thương loại nguyên tố này do phe ta gây ra.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 2 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số Lần Khả Dụng</color>: 3</color>\\n\\n<color=#FFFFFFFF>Sau khi nhân vật phe ta hoặc vật triệu hồi kích hoạt phản ứng Khuếch Tán:</color> Thay đổi loại sát thương của thẻ bài này thành loại nguyên tố bị Khuếch Tán. (Chỉ 1 lần trước khi rời trận)\\n<color=#FFFFFFFF>Khi vật triệu hồi này trong trận:</color> Nếu loại nguyên tố của thẻ bài này đã thay đổi, sẽ +1 sát thương loại nguyên tố này do phe ta gây ra.",
             "hinttype": "GCG_HINT_ANEMO",
             "id": 115012,
             "name": "Phong Linh Cỡ Lớn",
@@ -280,9 +293,9 @@
         "lightfallsword": {
             "cardtypetext": "Vật Triệu Hồi",
             "countingtype": "GCG_TOKEN_COUNTER",
-            "description": "Khi Eula dùng Tấn Công Thường hoặc Kỹ Năng Nguyên Tố: Thẻ bài này tích lũy 2 điểm \"Số Tầng Năng Lượng\", nhưng Eula sẽ không nhận được Năng Lượng.\nGiai Đoạn Kết Thúc: Hủy bỏ thẻ bài này, gây 2 điểm Sát Thương Vật Lý; mỗi 1 điểm \"Số Tầng Năng Lượng\" sẽ +1 sát thương này.\n(Hiệu quả ảnh hưởng đến Số Lần Khả Dụng của thẻ bài này sẽ tính vào Số Tầng Năng Lượng.)",
-            "descriptionraw": "<color=#FFFFFFFF>Khi $[A1106] dùng Tấn Công Thường hoặc Kỹ Năng Nguyên Tố:</color> Thẻ bài này tích lũy 2 điểm \"Số Tầng Năng Lượng\", nhưng $[A1106] sẽ không nhận được Năng Lượng.\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Hủy bỏ thẻ bài này, gây 2 điểm $[K100]; mỗi 1 điểm \"Số Tầng Năng Lượng\" sẽ +1 sát thương này.\\n(Hiệu quả ảnh hưởng đến $[K3] của thẻ bài này sẽ tính vào <color=#FFFFFFFF>Số Tầng Năng Lượng</color>.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Khi Eula dùng Tấn Công Thường hoặc Kỹ Năng Nguyên Tố:</color> Thẻ bài này tích lũy 2 điểm \"Số Tầng Năng Lượng\", nhưng Eula sẽ không nhận được Năng Lượng.\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Hủy bỏ thẻ bài này, gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>; mỗi 1 điểm \"Số Tầng Năng Lượng\" sẽ +1 sát thương này.\\n(Hiệu quả ảnh hưởng đến <color=#FFFFFFFF>Số Lần Khả Dụng</color> của thẻ bài này sẽ tính vào <color=#FFFFFFFF>Số Tầng Năng Lượng</color>.)",
+            "description": "Khi Eula dùng Tấn Công Thường hoặc Kỹ Năng Nguyên Tố: Thẻ bài này tích lũy 2 điểm \"Số Tầng Năng Lượng\", nhưng Eula sẽ không nhận được Năng Lượng.\nGiai Đoạn Kết Thúc: Hủy bỏ thẻ bài này, gây 3 điểm Sát Thương Vật Lý; mỗi 1 điểm \"Số Tầng Năng Lượng\" sẽ +1 sát thương này.\n(Hiệu quả ảnh hưởng đến Số Lần Khả Dụng của thẻ bài này sẽ tính vào Số Tầng Năng Lượng.)",
+            "descriptionraw": "<color=#FFFFFFFF>Khi $[A1106] dùng Tấn Công Thường hoặc Kỹ Năng Nguyên Tố:</color> Thẻ bài này tích lũy 2 điểm \"Số Tầng Năng Lượng\", nhưng $[A1106] sẽ không nhận được Năng Lượng.\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Hủy bỏ thẻ bài này, gây 3 điểm $[K100]; mỗi 1 điểm \"Số Tầng Năng Lượng\" sẽ +1 sát thương này.\\n(Hiệu quả ảnh hưởng đến $[K3] của thẻ bài này sẽ tính vào <color=#FFFFFFFF>Số Tầng Năng Lượng</color>.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi Eula dùng Tấn Công Thường hoặc Kỹ Năng Nguyên Tố:</color> Thẻ bài này tích lũy 2 điểm \"Số Tầng Năng Lượng\", nhưng Eula sẽ không nhận được Năng Lượng.\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Hủy bỏ thẻ bài này, gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>; mỗi 1 điểm \"Số Tầng Năng Lượng\" sẽ +1 sát thương này.\\n(Hiệu quả ảnh hưởng đến <color=#FFFFFFFF>Số Lần Khả Dụng</color> của thẻ bài này sẽ tính vào <color=#FFFFFFFF>Số Tầng Năng Lượng</color>.)",
             "hinttype": "GCG_HINT_VOID",
             "id": 111062,
             "name": "Kiếm Ánh Sáng",
@@ -542,6 +555,7 @@
         "aliases": {},
         "categories": {
             "GCG_HINT_ANEMO": [
+                "autumnwhirlwind",
                 "dandelionfield",
                 "largewindspirit-01",
                 "largewindspirit",
@@ -616,6 +630,7 @@
                 "lightfallsword"
             ],
             "GCG_TOKEN_ICON_HOURGLASS": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -654,6 +669,7 @@
                 "whirlwind"
             ],
             "GCG_TOKEN_LIFE": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -699,6 +715,7 @@
             ]
         },
         "namemap": {
+            "autumnwhirlwind": "Một Khắc Gió Thu",
             "bakekurage": "Bake-Kurage",
             "baronbunny": "Bá Tước Thỏ",
             "burningflame": "Lửa Thiêu Đốt",
@@ -768,6 +785,7 @@
             "Mũi Tên Bung Tỏa": "clusterbloomarrow",
             "Mưa Trị Liệu": "healingrain",
             "Mắt Bão": "stormeye",
+            "Một Khắc Gió Thu": "autumnwhirlwind",
             "Oz": "oz-01",
             "Phong Linh Cỡ Lớn": "largewindspirit-01",
             "Phù Thủy Hilichurl Thủy": "hydrosamachurl",
@@ -789,12 +807,12 @@
                 "GCG_TOKEN_COUNTER"
             ],
             "hinttype": [
+                "GCG_HINT_ANEMO",
                 "GCG_HINT_HYDRO",
                 "GCG_HINT_PYRO",
                 "GCG_HINT_ELECTRO",
                 "GCG_HINT_DENDRO",
                 "GCG_HINT_CRYO",
-                "GCG_HINT_ANEMO",
                 "GCG_HINT_HEAL",
                 "GCG_HINT_VOID",
                 "GCG_HINT_GEO"

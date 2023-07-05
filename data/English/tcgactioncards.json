@@ -142,6 +142,29 @@
                 "Bow"
             ]
         },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Event Card",
+            "description": "You must have a character who has already equipped a Weapon or Artifact: The next time you play a Weapon or Artifact card in this Round: Spend 2 less Elemental Dice.\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+            "descriptionraw": "<color=#FFFFFFFF>You must have a character who has already equipped a {SPRITE_PRESET#3003}Weapon or {SPRITE_PRESET#3004}Artifact: The next time you play a {SPRITE_PRESET#3003}Weapon or {SPRITE_PRESET#3004}Artifact card in this Round:</color> Spend 2 less Elemental Dice.\\n(Only one {SPRITE_PRESET#3007}\"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>You must have a character who has already equipped a {SPRITE_PRESET#3003}Weapon or {SPRITE_PRESET#3004}Artifact: The next time you play a {SPRITE_PRESET#3003}Weapon or {SPRITE_PRESET#3004}Artifact card in this Round:</color> Spend 2 less Elemental Dice.\\n(Only one {SPRITE_PRESET#3007}\"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+            "id": 330001,
+            "name": "Ancient Courtyard",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Is mortal life not an empty shell, as unto a dream?\"",
+            "storytitle": "Ancient Courtyard",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Arcane Legend"
+            ]
+        },
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
@@ -617,6 +640,29 @@
                 "Combat Action"
             ]
         },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Event Card",
+            "description": "Can only be played when you have 0 Elemental Dice left: Generate 2 different basic Elemental Dice.\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+            "descriptionraw": "<color=#FFFFFFFF>Can only be played when you have 0 Elemental Dice left:</color> Generate 2 different basic Elemental Dice.\\n(Only one {SPRITE_PRESET#3007}\"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Can only be played when you have 0 Elemental Dice left:</color> Generate 2 different basic Elemental Dice.\\n(Only one {SPRITE_PRESET#3007}\"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+            "id": 330002,
+            "name": "Covenant of Rock",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Rex Lapis bestowed him with a pair of eyes to see the world, and came to an agreement with him. The dragon then accompanied the Lord of Geo, fighting campaigns alongside him in the four corners of the world...\"",
+            "storytitle": "Covenant of Rock",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Arcane Legend"
+            ]
+        },
         "crimsonwitchofflames": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
@@ -976,9 +1022,9 @@
         "elementalresonancesprawlinggreenery": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Event Card",
-            "description": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\nYour Burning Flame, Dendro Core, and Catalyzing Field gain +1 Usage(s).\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)",
-            "descriptionraw": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\\nYour <color=#FFFFFFFF>$[C115], $[C116], and $[C117]</color> gain +1 $[K3].\\n(You must have at least 2 {SPRITE_PRESET#2107}<color=#99FF88FF>Dendro</color> characters in your deck to add this card to your deck.)",
-            "descriptionreplaced": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\\nYour <color=#FFFFFFFF>Burning Flame, Dendro Core, and Catalyzing Field</color> gain +1 <color=#FFFFFFFF>Usage(s)</color>.\\n(You must have at least 2 {SPRITE_PRESET#2107}<color=#99FF88FF>Dendro</color> characters in your deck to add this card to your deck.)",
+            "description": "During this round, the next Elemental Reaction you trigger deals +2 DMG.\nYour Burning Flame, Dendro Core, and Catalyzing Field gain +1 Usage(s).\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)",
+            "descriptionraw": "During this round, the next Elemental Reaction you trigger deals +2 DMG.\\nYour <color=#FFFFFFFF>$[C115], $[C116], and $[C117]</color> gain +1 $[K3].\\n(You must have at least 2 {SPRITE_PRESET#2107}<color=#99FF88FF>Dendro</color> characters in your deck to add this card to your deck.)",
+            "descriptionreplaced": "During this round, the next Elemental Reaction you trigger deals +2 DMG.\\nYour <color=#FFFFFFFF>Burning Flame, Dendro Core, and Catalyzing Field</color> gain +1 <color=#FFFFFFFF>Usage(s)</color>.\\n(You must have at least 2 {SPRITE_PRESET#2107}<color=#99FF88FF>Dendro</color> characters in your deck to add this card to your deck.)",
             "id": 331702,
             "name": "Elemental Resonance: Sprawling Greenery",
             "playcost": [
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "Character deals +1 DMG.\nWhen played: Draw 2 cards.\n(Can only be equipped by Catalyst characters. Characters can equip at most 1 Weapon)",
+            "descriptionraw": "<color=#FFFFFFFF>Character deals +1 DMG</color>.\\n<color=#FFFFFFFF>When played:</color> Draw 2 cards.\\n(Can only be equipped by <color=#FFFFFFFF>{SPRITE_PRESET#3201}Catalyst characters</color>. Characters can equip at most 1 {SPRITE_PRESET#3003}Weapon)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Character deals +1 DMG</color>.\\n<color=#FFFFFFFF>When played:</color> Draw 2 cards.\\n(Can only be equipped by <color=#FFFFFFFF>{SPRITE_PRESET#3201}Catalyst characters</color>. Characters can equip at most 1 {SPRITE_PRESET#3003}Weapon)",
+            "id": 311105,
+            "name": "Fruit of Fulfillment",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "\"Even the most bitter of stories contain courage and strength... The story of the good Golden Nara's adventures with us will help good Nara defend the forest.\"",
+            "storytitle": "Moon's Fullness: Fruit of Fulfillment",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "Weapon",
+                "Catalyst"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
-            "description": "After an opposing character is defeated: If the character this card is attached to is the active character, create Omni Element ×2.\n(A character can equip a maximum of 1 Artifact)",
-            "descriptionraw": "<color=#FFFFFFFF>After an opposing character is defeated:</color> If the character this card is attached to is the active character, create $[K411] ×2.\\n(A character can equip a maximum of 1 {SPRITE_PRESET#3004}Artifact)",
-            "descriptionreplaced": "<color=#FFFFFFFF>After an opposing character is defeated:</color> If the character this card is attached to is the active character, create <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color> ×2.\\n(A character can equip a maximum of 1 {SPRITE_PRESET#3004}Artifact)",
+            "description": "After an opposing character is defeated: If the character this card is attached to is the active character, create Omni Element ×2. (Can happen 3 times per match)\n(A character can equip a maximum of 1 Artifact)",
+            "descriptionraw": "<color=#FFFFFFFF>After an opposing character is defeated:</color> If the character this card is attached to is the active character, create $[K411] ×2. (Can happen 3 times per match)\\n(A character can equip a maximum of 1 {SPRITE_PRESET#3004}Artifact)",
+            "descriptionreplaced": "<color=#FFFFFFFF>After an opposing character is defeated:</color> If the character this card is attached to is the active character, create <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color> ×2. (Can happen 3 times per match)\\n(A character can equip a maximum of 1 {SPRITE_PRESET#3004}Artifact)",
             "id": 312004,
             "name": "Gambler's Earrings",
             "playcost": [
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
-            "description": "Combat Action: When your active character is Noelle, equip this card.\nAfter Noelle equips this card, immediately use Breastplate once.\nWhen your Noelle, who has this card equipped, creates a Full Plate, it will heal all your characters for 1 HP after Noelle uses a Normal Attack. (Once per Round)\n(You must have Noelle in your deck to add this card to your deck.)",
-            "descriptionraw": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1602]</color>, equip this card.\\nAfter $[A1602] equips this card, immediately use <color=#FFD780FF>$[S16022]</color> once.\\nWhen your $[A1602], who has this card equipped, creates a <color=#FFFFFFFF>$[C116021]</color>, it will heal all your characters for 1 HP after $[A1602] uses a <color=#FFFFFFFF>Normal Attack</color>. (Once per Round)\\n(You must have $[A1602] in your deck to add this card to your deck.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Combat Action</color>: When your active character is <color=#FFFFFFFF>Noelle</color>, equip this card.\\nAfter Noelle equips this card, immediately use <color=#FFD780FF>Breastplate</color> once.\\nWhen your Noelle, who has this card equipped, creates a <color=#FFFFFFFF>Full Plate</color>, it will heal all your characters for 1 HP after Noelle uses a <color=#FFFFFFFF>Normal Attack</color>. (Once per Round)\\n(You must have Noelle in your deck to add this card to your deck.)",
+            "description": "Combat Action: When your active character is Noelle, equip this card.\nAfter Noelle equips this card, immediately use Breastplate once.\nAfter Noelle uses a Normal Attack: If this card and Full Plate are both still in play, heal all your characters for 1 HP. (Once per Round)\n(You must have Noelle in your deck to add this card to your deck.)",
+            "descriptionraw": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1602]</color>, equip this card.\\nAfter $[A1602] equips this card, immediately use <color=#FFD780FF>$[S16022]</color> once.\\nAfter <color=#FFFFFFFF>$[A1602] uses a Normal Attack:</color> If this card and <color=#FFFFFFFF>$[C116021]</color> are both still in play, heal all your characters for 1 HP. (Once per Round)\\n(You must have $[A1602] in your deck to add this card to your deck.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Combat Action</color>: When your active character is <color=#FFFFFFFF>Noelle</color>, equip this card.\\nAfter Noelle equips this card, immediately use <color=#FFD780FF>Breastplate</color> once.\\nAfter <color=#FFFFFFFF>Noelle uses a Normal Attack:</color> If this card and <color=#FFFFFFFF>Full Plate</color> are both still in play, heal all your characters for 1 HP. (Once per Round)\\n(You must have Noelle in your deck to add this card to your deck.)",
             "id": 216021,
             "name": "I Got Your Back",
             "playcost": [
@@ -2541,6 +2612,54 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "When your character uses a Charged Attack: DMG dealt +1. Draw 1 card after finalization.",
+            "descriptionraw": "<color=#FFFFFFFF>When your character uses a $[K51]: </color>DMG dealt +1. Draw 1 card after finalization.",
+            "descriptionreplaced": "<color=#FFFFFFFF>When your character uses a <color=#FFFFFFFF>Charged Attack</color>: </color>DMG dealt +1. Draw 1 card after finalization.",
+            "id": 423020,
+            "name": "Mastery Talisman: Arms and Armor Honed",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "When your character equipped with both a Weapon and an Artifact uses a Skill: Spend 3 less Elemental Dice. (Once per Round)",
+            "descriptionraw": "<color=#FFFFFFFF>When your character equipped with both a {SPRITE_PRESET#3003}Weapon and an {SPRITE_PRESET#3004}Artifact uses a Skill:</color> Spend 3 less Elemental Dice. (Once per Round)",
+            "descriptionreplaced": "<color=#FFFFFFFF>When your character equipped with both a {SPRITE_PRESET#3003}Weapon and an {SPRITE_PRESET#3004}Artifact uses a Skill:</color> Spend 3 less Elemental Dice. (Once per Round)",
+            "id": 423021,
+            "name": "Mastery Talisman: Battle-Ready",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "When an opposing character is defeated: Deal 1 Piercing DMG to all opposing characters.",
+            "descriptionraw": "<color=#FFFFFFFF>When an opposing character is defeated:</color> Deal 1 $[K5] to all opposing characters.",
+            "descriptionreplaced": "<color=#FFFFFFFF>When an opposing character is defeated:</color> Deal 1 <color=#FFFFFFFF>Piercing DMG</color> to all opposing characters.",
+            "id": 423022,
+            "name": "Mastery Talisman: Cascading Defeat",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "After an opposing character takes Elemental Reaction damage: Create Omni Element ×1. (Can be triggered up to 3 times per Round)",
+            "descriptionraw": "<color=#FFFFFFFF>After an opposing character takes Elemental Reaction damage:</color> Create $[K411] ×1. (Can be triggered up to 3 times per Round)",
+            "descriptionreplaced": "<color=#FFFFFFFF>After an opposing character takes Elemental Reaction damage:</color> Create <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color> ×1. (Can be triggered up to 3 times per Round)",
+            "id": 423023,
+            "name": "Mastery Talisman: Chaotic Banners",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Support Card",
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "When a Weapon or Artifact Equipment card with a cost of at least 3 is played: Spend 3 less Elemental Dice. (Once per Round)",
+            "descriptionraw": "<color=#FFFFFFFF>When a {SPRITE_PRESET#3003}Weapon or {SPRITE_PRESET#3004}Artifact Equipment card with a cost of at least 3 is played:</color> Spend 3 less Elemental Dice. (Once per Round)",
+            "descriptionreplaced": "<color=#FFFFFFFF>When a {SPRITE_PRESET#3003}Weapon or {SPRITE_PRESET#3004}Artifact Equipment card with a cost of at least 3 is played:</color> Spend 3 less Elemental Dice. (Once per Round)",
+            "id": 423019,
+            "name": "Mastery Talisman: Planning Long-Term",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Support Card",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>After an opposing character is defeated:</color> Create 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color> and draw 1 card.",
             "id": 423007,
             "name": "Mastery Talisman: Press the Attack",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "After your character uses a Skill: Create an Ambuscade Mine of your character's Element on the opposing side of the field. The Ambuscade Mine will deal 1 DMG of that corresponding element to opposing reinforcements after they enter play.",
+            "descriptionraw": "<color=#FFFFFFFF>After your character uses a Skill:</color> Create an Ambuscade Mine of your character's Element on the opposing side of the field. The Ambuscade Mine will deal 1 DMG of that corresponding element to opposing reinforcements after they enter play.",
+            "descriptionreplaced": "<color=#FFFFFFFF>After your character uses a Skill:</color> Create an Ambuscade Mine of your character's Element on the opposing side of the field. The Ambuscade Mine will deal 1 DMG of that corresponding element to opposing reinforcements after they enter play.",
+            "id": 423024,
+            "name": "Mastery Talisman: Sudden Ambush",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "When an opposing character is defeated: Draw 1 card. +1 to the DMG of the current active character in this match. (Can stack. Max 3 Stacks.)",
+            "descriptionraw": "<color=#FFFFFFFF>When an opposing character is defeated:</color> Draw 1 card. +1 to the DMG of the current active character in this match. (Can stack. Max 3 Stacks.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>When an opposing character is defeated:</color> Draw 1 card. +1 to the DMG of the current active character in this match. (Can stack. Max 3 Stacks.)",
+            "id": 423018,
+            "name": "Mastery Talisman: Victorious Repute",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "When playing a Weapon card: Spend 1 less Elemental Die. On top of that, for each of your characters already equipped with a Weapon on the field, you spend 1 less Elemental Die. (Once per Round.)",
+            "descriptionraw": "<color=#FFFFFFFF>When playing a {SPRITE_PRESET#3003}Weapon card:</color> Spend 1 less Elemental Die. On top of that, for each of your characters already equipped with a {SPRITE_PRESET#3003}Weapon on the field, you spend 1 less Elemental Die. (Once per Round.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>When playing a {SPRITE_PRESET#3003}Weapon card:</color> Spend 1 less Elemental Die. On top of that, for each of your characters already equipped with a {SPRITE_PRESET#3003}Weapon on the field, you spend 1 less Elemental Die. (Once per Round.)",
+            "id": 322018,
+            "name": "Master Zhang",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Much burning frustration must transpire before a hunk of metal may become a keen blade.",
+            "storytitle": "Arsenal Forge: Master Zhang",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Companion"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -3025,6 +3203,32 @@
                 "Combat Action"
             ]
         },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "Combat Action: When Kaedehara Kazuha is your active character, equip this card.\nAfter Kaedehara Kazuha equips this card, he will immediately use Chihayaburu once.\nAfter Kaedehara Kazuha triggers Swirl with this card equipped: For the next 2 instances, your Characters and Summons will deal +1 DMG for the Elemental Type Swirled. (Each Elemental Type is counted independently)\n(You must have Kaedehara Kazuha in your deck to add this card to your deck.)",
+            "descriptionraw": "$[K1]: When <color=#FFFFFFFF>$[A1505]</color> is your active character, equip this card.\\nAfter $[A1505] equips this card, he will immediately use <color=#FFD780FF>$[S15052]</color> once.\\nAfter $[A1505] triggers Swirl with this card equipped: For the next 2 instances, your Characters and Summons will deal +1 DMG for the Elemental Type Swirled. (Each Elemental Type is counted independently)\\n(You must have $[A1505] in your deck to add this card to your deck.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Combat Action</color>: When <color=#FFFFFFFF>Kaedehara Kazuha</color> is your active character, equip this card.\\nAfter Kaedehara Kazuha equips this card, he will immediately use <color=#FFD780FF>Chihayaburu</color> once.\\nAfter Kaedehara Kazuha triggers Swirl with this card equipped: For the next 2 instances, your Characters and Summons will deal +1 DMG for the Elemental Type Swirled. (Each Elemental Type is counted independently)\\n(You must have Kaedehara Kazuha in your deck to add this card to your deck.)",
+            "id": 215051,
+            "name": "Poetics of Fuubutsu",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "Reward for inviting Kaedehara Kazuha to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
+            "storytext": "There is something elegant about this match.\nIf nothing else, both sides may concede defeat without regrets.",
+            "storytitle": "Kaedehara Kazuha: Poetics of Fuubutsu",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
+                "Combat Action"
+            ]
+        },
         "poundingsurprise": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "Item"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Event Card",
+            "description": "The next time you play a Weapon or Artifact card: Spend 1 less Elemental Die.",
+            "descriptionraw": "<color=#FFFFFFFF>The next time you play a {SPRITE_PRESET#3003}Weapon or {SPRITE_PRESET#3004}Artifact card:</color> Spend 1 less Elemental Die.",
+            "descriptionreplaced": "<color=#FFFFFFFF>The next time you play a {SPRITE_PRESET#3003}Weapon or {SPRITE_PRESET#3004}Artifact card:</color> Spend 1 less Elemental Die.",
+            "id": 332021,
+            "name": "Rhythm of the Great Dream",
+            "playcost": [],
+            "storytext": "\"Enter our dreams, our world.\"\n\"Write of deeds good, brave, and honest.\"",
+            "storytitle": "Rhythm of the Great Dream",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "Combat Action: When Yanfei is your active character, equip this card.\nAfter Yanfei equips this card, she will immediately use Seal of Approval once.\nWhen Yanfei uses a Charged Attack with this card equipped: Deal +1 DMG to enemies with 6 or less HP.\n(You must have Yanfei in your deck to add this card to your deck.)",
+            "descriptionraw": "$[K1]: When <color=#FFFFFFFF>$[A1308]</color> is your active character, equip this card.\\nAfter $[A1308] equips this card, she will immediately use <color=#FFD780FF>$[S13081]</color> once.\\nWhen $[A1308] uses a $[K51] with this card equipped: Deal +1 DMG to enemies with 6 or less HP.\\n(You must have $[A1308] in your deck to add this card to your deck.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Combat Action</color>: When <color=#FFFFFFFF>Yanfei</color> is your active character, equip this card.\\nAfter Yanfei equips this card, she will immediately use <color=#FFD780FF>Seal of Approval</color> once.\\nWhen Yanfei uses a <color=#FFFFFFFF>Charged Attack</color> with this card equipped: Deal +1 DMG to enemies with 6 or less HP.\\n(You must have Yanfei in your deck to add this card to your deck.)",
+            "id": 213081,
+            "name": "Right of Final Interpretation",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "Reward for inviting Yanfei to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
+            "storytext": "\"When it comes to cards... Well, anything is permissible, so long as the rules don't forbid it.\"",
+            "storytitle": "Yanfei: Right of Final Interpretation",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
+                "Combat Action"
             ]
         },
         "sacrificialbow": {
@@ -4019,6 +4267,36 @@
             "storytitle": "Dream of Freedom Unrelinquished",
             "tags": [],
             "tagstext": []
+        },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "Combat Action: When Candace is your active character, equip this card.\nAfter Candace equips this card, she will immediately use Sacred Rite: Wagtail's Tide once.\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 Hydro DMG. (Once per Round)\n(You must have Candace in your deck to add this card to your deck.)",
+            "descriptionraw": "$[K1]: When <color=#FFFFFFFF>$[A1207]</color> is your active character, equip this card.\\nAfter $[A1207] equips this card, she will immediately use <color=#FFD780FF>$[S12073]</color> once.\\nWhen this card is equipped by $[A1207], her <color=#FFFFFFFF>$[C112072]</color> has the following extra effect: <color=#FFFFFFFF>After your character uses a Normal Attack: </color>Deals 1 $[K102]. (Once per Round)\\n(You must have $[A1207] in your deck to add this card to your deck.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Combat Action</color>: When <color=#FFFFFFFF>Candace</color> is your active character, equip this card.\\nAfter Candace equips this card, she will immediately use <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> once.\\nWhen this card is equipped by Candace, her <color=#FFFFFFFF>Prayer of the Crimson Crown</color> has the following extra effect: <color=#FFFFFFFF>After your character uses a Normal Attack: </color>Deals 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>. (Once per Round)\\n(You must have Candace in your deck to add this card to your deck.)",
+            "id": 212071,
+            "name": "The Overflow",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "Reward for inviting Candace to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
+            "storytext": "Those who do not respect the regulations at cards...\nAre the enemy of all who love the game.",
+            "storytitle": "Candace: The Overflow",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
+                "Combat Action"
+            ]
         },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "Adeptus' Temptation",
             "adventurersbandana": "Adventurer's Bandana",
             "amosbow": "Amos' Bow",
+            "ancientcourtyard": "Ancient Courtyard",
             "aquilafavonia": "Aquila Favonia",
             "aratakiichiban": "Arataki Ichiban",
             "archaicpetra": "Archaic Petra",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "Cicin's Cold Glare",
             "coldbloodedstrike": "Cold-Blooded Strike",
             "conquerorofevilguardianyaksha": "Conqueror of Evil: Guardian Yaksha",
+            "covenantofrock": "Covenant of Rock",
             "crimsonwitchofflames": "Crimson Witch of Flames",
             "crossfire": "Crossfire",
             "dawnwinery": "Dawn Winery",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "Floral Sidewinder",
             "flowingflame": "Flowing Flame",
             "friendshipeternal": "Friendship Eternal",
+            "fruitoffulfillment": "Fruit of Fulfillment",
             "gamblersearrings": "Gambler's Earrings",
             "generalsancienthelm": "General's Ancient Helm",
             "giantmutationstone": "Giant Mutation Stone",
@@ -5699,6 +6019,10 @@
             "magicguide": "Magic Guide",
             "maskofsolitudebasalt": "Mask of Solitude Basalt",
             "masterofweaponry": "Master of Weaponry",
+            "masterytalismanarmsandarmorhoned": "Mastery Talisman: Arms and Armor Honed",
+            "masterytalismanbattleready": "Mastery Talisman: Battle-Ready",
+            "masterytalismancascadingdefeat": "Mastery Talisman: Cascading Defeat",
+            "masterytalismanchaoticbanners": "Mastery Talisman: Chaotic Banners",
             "masterytalismancoldwar": "Mastery Talisman: Cold War",
             "masterytalismancyclecharge": "Mastery Talisman: Cycle Charge",
             "masterytalismandecisivebattle": "Mastery Talisman: Decisive Battle",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "Mastery Talisman: Extended Explosion",
             "masterytalismanimmovable": "Mastery Talisman: Immovable",
             "masterytalismanintelligenceupdate": "Mastery Talisman: Intelligence Update",
+            "masterytalismanplanninglongterm": "Mastery Talisman: Planning Long-Term",
             "masterytalismanpracticemakesperfect": "Mastery Talisman: Practice Makes Perfect",
             "masterytalismanpresstheattack": "Mastery Talisman: Press the Attack",
+            "masterytalismansuddenambush": "Mastery Talisman: Sudden Ambush",
             "masterytalismansurgingvigor": "Mastery Talisman: Surging Vigor",
             "masterytalismantheelementsentwined": "Mastery Talisman: The Elements Entwined",
+            "masterytalismanvictoriousrepute": "Mastery Talisman: Victorious Repute",
+            "masterzhang": "Master Zhang",
             "mintymeatrolls": "Minty Meat Rolls",
             "mirrorcage": "Mirror Cage",
             "mondstadthashbrown": "Mondstadt Hash Brown",
@@ -5726,6 +6054,7 @@
             "paimon": "Paimon",
             "parametrictransformer": "Parametric Transformer",
             "plungingstrike": "Plunging Strike",
+            "poeticsoffuubutsu": "Poetics of Fuubutsu",
             "poundingsurprise": "Pounding Surprise",
             "proliferatingspores": "Proliferating Spores",
             "prophecyofsubmersion": "Prophecy of Submersion",
@@ -5733,6 +6062,8 @@
             "rana": "Rana",
             "ravenbow": "Raven Bow",
             "redfeatherfan": "Red Feather Fan",
+            "rhythmofthegreatdream": "Rhythm of the Great Dream",
+            "rightoffinalinterpretation": "Right of Final Interpretation",
             "sacrificialbow": "Sacrificial Bow",
             "sacrificialfragments": "Sacrificial Fragments",
             "sacrificialgreatsword": "Sacrificial Greatsword",
@@ -5767,6 +6098,7 @@
             "thebell": "The Bell",
             "thebestesttravelcompanion": "The Bestest Travel Companion!",
             "thelegendofvennessa": "The Legend of Vennessa",
+            "theoverflow": "The Overflow",
             "thescentremained": "The Scent Remained",
             "theseedofstoredknowledge": "The Seed of Stored Knowledge",
             "theshrinessacredshade": "The Shrine's Sacred Shade",
@@ -5814,6 +6146,7 @@
             "Adeptus' Temptation": "adeptustemptation",
             "Adventurer's Bandana": "adventurersbandana",
             "Amos' Bow": "amosbow",
+            "Ancient Courtyard": "ancientcourtyard",
             "Aquila Favonia": "aquilafavonia",
             "Arataki Ichiban": "aratakiichiban",
             "Archaic Petra": "archaicpetra",
@@ -5833,6 +6166,7 @@
             "Cicin's Cold Glare": "cicinscoldglare",
             "Cold-Blooded Strike": "coldbloodedstrike",
             "Conqueror of Evil: Guardian Yaksha": "conquerorofevilguardianyaksha",
+            "Covenant of Rock": "covenantofrock",
             "Crimson Witch of Flames": "crimsonwitchofflames",
             "Crossfire": "crossfire",
             "Dawn Winery": "dawnwinery",
@@ -5871,6 +6205,7 @@
             "Floral Sidewinder": "floralsidewinder",
             "Flowing Flame": "flowingflame",
             "Friendship Eternal": "friendshipeternal",
+            "Fruit of Fulfillment": "fruitoffulfillment",
             "Gambler's Earrings": "gamblersearrings",
             "General's Ancient Helm": "generalsancienthelm",
             "Giant Mutation Stone": "giantmutationstone",
@@ -5930,7 +6265,12 @@
             "Lucky Dog's Silver Circlet": "luckydogssilvercirclet",
             "Magic Guide": "magicguide",
             "Mask of Solitude Basalt": "maskofsolitudebasalt",
+            "Master Zhang": "masterzhang",
             "Master of Weaponry": "masterofweaponry",
+            "Mastery Talisman: Arms and Armor Honed": "masterytalismanarmsandarmorhoned",
+            "Mastery Talisman: Battle-Ready": "masterytalismanbattleready",
+            "Mastery Talisman: Cascading Defeat": "masterytalismancascadingdefeat",
+            "Mastery Talisman: Chaotic Banners": "masterytalismanchaoticbanners",
             "Mastery Talisman: Cold War": "masterytalismancoldwar",
             "Mastery Talisman: Cycle Charge": "masterytalismancyclecharge",
             "Mastery Talisman: Decisive Battle": "masterytalismandecisivebattle",
@@ -5939,10 +6279,13 @@
             "Mastery Talisman: Extended Explosion": "masterytalismanextendedexplosion",
             "Mastery Talisman: Immovable": "masterytalismanimmovable",
             "Mastery Talisman: Intelligence Update": "masterytalismanintelligenceupdate",
+            "Mastery Talisman: Planning Long-Term": "masterytalismanplanninglongterm",
             "Mastery Talisman: Practice Makes Perfect": "masterytalismanpracticemakesperfect",
             "Mastery Talisman: Press the Attack": "masterytalismanpresstheattack",
+            "Mastery Talisman: Sudden Ambush": "masterytalismansuddenambush",
             "Mastery Talisman: Surging Vigor": "masterytalismansurgingvigor",
             "Mastery Talisman: The Elements Entwined": "masterytalismantheelementsentwined",
+            "Mastery Talisman: Victorious Repute": "masterytalismanvictoriousrepute",
             "Minty Meat Rolls": "mintymeatrolls",
             "Mirror Cage": "mirrorcage",
             "Mondstadt Hash Brown": "mondstadthashbrown",
@@ -5958,6 +6301,7 @@
             "Paimon": "paimon",
             "Parametric Transformer": "parametrictransformer",
             "Plunging Strike": "plungingstrike",
+            "Poetics of Fuubutsu": "poeticsoffuubutsu",
             "Pounding Surprise": "poundingsurprise",
             "Proliferating Spores": "proliferatingspores",
             "Prophecy of Submersion": "prophecyofsubmersion",
@@ -5965,6 +6309,8 @@
             "Rana": "rana",
             "Raven Bow": "ravenbow",
             "Red Feather Fan": "redfeatherfan",
+            "Rhythm of the Great Dream": "rhythmofthegreatdream",
+            "Right of Final Interpretation": "rightoffinalinterpretation",
             "Sacrificial Bow": "sacrificialbow",
             "Sacrificial Fragments": "sacrificialfragments",
             "Sacrificial Greatsword": "sacrificialgreatsword",
@@ -5999,6 +6345,7 @@
             "The Bell": "thebell",
             "The Bestest Travel Companion!": "thebestesttravelcompanion",
             "The Legend of Vennessa": "thelegendofvennessa",
+            "The Overflow": "theoverflow",
             "The Scent Remained": "thescentremained",
             "The Seed of Stored Knowledge": "theseedofstoredknowledge",
             "The Shrine's Sacred Shade": "theshrinessacredshade",
@@ -6047,6 +6394,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6061,6 +6409,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

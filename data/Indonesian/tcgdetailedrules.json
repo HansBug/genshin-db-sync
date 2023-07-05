@@ -55,8 +55,8 @@
                     "titleraw": "Electro-Charged"
                 },
                 {
-                    "content": "Mengakibatkan +1 DMG untuk kasus ini. Karakter target terpengaruh status Frozen:\nKarakter tidak dapat menggunakan Skill (berlangsung hingga akhir Ronde).\nSaat menerima Pyro atau Physical DMG, Karakter menerima +2 DMG dan menghilangkan status ini.",
-                    "contentraw": "Mengakibatkan +1 DMG untuk kasus ini. Karakter target terpengaruh status <color=#FFFFFFFF>Frozen</color>:\\nKarakter <color=#FFFFFFFF>tidak dapat menggunakan Skill</color> (berlangsung hingga akhir Ronde).\\nSaat menerima {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color> atau {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, Karakter menerima +2 DMG dan menghilangkan status ini.",
+                    "content": "Mengakibatkan +1 DMG untuk kasus ini. Karakter target terpengaruh status Frozen:\nKarakter tidak dapat menggunakan Skill (berlangsung hingga akhir Ronde).\nSaat menerima Pyro atau Physical DMG, Karakter menerima DMG +2 dan menghilangkan status ini.",
+                    "contentraw": "Mengakibatkan +1 DMG untuk kasus ini. Karakter target terpengaruh status <color=#FFFFFFFF>Frozen</color>:\\nKarakter <color=#FFFFFFFF>tidak dapat menggunakan Skill</color> (berlangsung hingga akhir Ronde).\\nSaat menerima {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color> atau {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, Karakter menerima DMG +2 dan menghilangkan status ini.",
                     "reaction": {
                         "elementone": "GCG_ELEMENT_CRYO",
                         "elementtwo": "GCG_ELEMENT_HYDRO"
@@ -358,6 +358,12 @@
                     "contentraw": "Beberapa efek dapat memberikan Perisai yang dapat melindungi Karakter tertentu.\\nSaat Karakter dengan Perisai menerima DMG, nilai Perisai akan digunakan untuk menahan DMG tersebut.",
                     "title": "Perisai",
                     "titleraw": "{SPRITE_PRESET#4007}Perisai"
+                },
+                {
+                    "content": "Selama duel berlangsung, setiap Pemain hanya dapat memainkan satu kartu Arcana.\nKartu Arcana pasti akan ada di antara kartu Aksi awal milikmu. (Jika jumlah kartu Arcana di dalam Dek lebih banyak daripada jumlah kartu Aksi awal, maka kartu Arcana akan muncul dalam kartu Aksi awal secara acak.)",
+                    "contentraw": "Selama duel berlangsung, setiap Pemain hanya dapat memainkan satu kartu {SPRITE_PRESET#3007}Arcana.\\nKartu {SPRITE_PRESET#3007}Arcana pasti akan ada di antara kartu Aksi awal milikmu. (Jika jumlah kartu {SPRITE_PRESET#3007}Arcana di dalam Dek lebih banyak daripada jumlah kartu Aksi awal, maka kartu Arcana akan muncul dalam kartu Aksi awal secara acak.)",
+                    "title": "Arcana",
+                    "titleraw": "{SPRITE_PRESET#3007}Arcana"
                 },
                 {
                     "content": "Beberapa kartu memiliki Penggunaan terbatas.\nSetiap kali efek kartu ini dipicu, 1 Penggunaan-nya akan terkonsumsi.\nKetika Penggunaan kartu habis, kartu akan langsung dibuang.",

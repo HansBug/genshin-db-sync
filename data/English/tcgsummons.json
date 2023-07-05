@@ -1,5 +1,18 @@
 {
     "items": {
+        "autumnwhirlwind": {
+            "cardtypetext": "Summon",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "End Phase: Deal 1 Anemo DMG.\nUsage(s): 3\n\nAfter your Characters or Summons trigger a Swirl reaction: Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
+            "descriptionraw": "<color=#FFFFFFFF>End Phase:</color> Deal 1 $[K105].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>After your Characters or Summons trigger a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
+            "descriptionreplaced": "<color=#FFFFFFFF>End Phase:</color> Deal 1 {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 3</color>\\n\\n<color=#FFFFFFFF>After your Characters or Summons trigger a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
+            "hinttype": "GCG_HINT_ANEMO",
+            "id": 115052,
+            "name": "Autumn Whirlwind",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "bakekurage": {
             "cardtypetext": "Summon",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -267,9 +280,9 @@
         "largewindspirit-01": {
             "cardtypetext": "Summon",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "End Phase: Deal 2 Anemo DMG.\nUsage(s): 3\n\nAfter your character or Summon triggers a Swirl reaction: Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
-            "descriptionraw": "<color=#FFFFFFFF>End Phase:</color> Deal 2 $[K105].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>After your character or Summon triggers a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
-            "descriptionreplaced": "<color=#FFFFFFFF>End Phase:</color> Deal 2 {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 3</color>\\n\\n<color=#FFFFFFFF>After your character or Summon triggers a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
+            "description": "End Phase: Deal 2 Anemo DMG.\nUsage(s): 3\n\nAfter your Characters or Summons trigger a Swirl reaction: Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)\nWhen this Summon is in play:If this card's Elemental Type has changed, it will deal +1 DMG of that Element.",
+            "descriptionraw": "<color=#FFFFFFFF>End Phase:</color> Deal 2 $[K105].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>After your Characters or Summons trigger a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)\\n<color=#FFFFFFFF>When this Summon is in play:</color>If this card's Elemental Type has changed, it will deal +1 DMG of that Element.",
+            "descriptionreplaced": "<color=#FFFFFFFF>End Phase:</color> Deal 2 {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 3</color>\\n\\n<color=#FFFFFFFF>After your Characters or Summons trigger a Swirl reaction:</color> Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)\\n<color=#FFFFFFFF>When this Summon is in play:</color>If this card's Elemental Type has changed, it will deal +1 DMG of that Element.",
             "hinttype": "GCG_HINT_ANEMO",
             "id": 115012,
             "name": "Large Wind Spirit",
@@ -280,9 +293,9 @@
         "lightfallsword": {
             "cardtypetext": "Summon",
             "countingtype": "GCG_TOKEN_COUNTER",
-            "description": "When Eula uses a Normal Attack or Elemental Skill, this card will accumulate 2 Zeal stacks, but Eula will not gain Energy.\nEnd Phase: Discard this card and deal 2 Physical DMG. Each Zeal stack adds 1 DMG to this damage instance.\n(Effects on this card's Usage(s) will apply to Zeal.)",
-            "descriptionraw": "<color=#FFFFFFFF>When $[A1106] uses a Normal Attack or Elemental Skill</color>, this card will accumulate 2 Zeal stacks, but $[A1106] will not gain Energy.\\n<color=#FFFFFFFF>End Phase:</color> Discard this card and deal 2 $[K100]. Each Zeal stack adds 1 DMG to this damage instance.\\n(Effects on this card's $[K3] will apply to <color=#FFFFFFFF>Zeal</color>.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>When Eula uses a Normal Attack or Elemental Skill</color>, this card will accumulate 2 Zeal stacks, but Eula will not gain Energy.\\n<color=#FFFFFFFF>End Phase:</color> Discard this card and deal 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Each Zeal stack adds 1 DMG to this damage instance.\\n(Effects on this card's <color=#FFFFFFFF>Usage(s)</color> will apply to <color=#FFFFFFFF>Zeal</color>.)",
+            "description": "When Eula uses a Normal Attack or Elemental Skill, this card will accumulate 2 Zeal stacks, but Eula will not gain Energy.\nEnd Phase: Discard this card and deal 3 Physical DMG. Each Zeal stack adds 1 DMG to this damage instance.\n(Effects on this card's Usage(s) will apply to Zeal.)",
+            "descriptionraw": "<color=#FFFFFFFF>When $[A1106] uses a Normal Attack or Elemental Skill</color>, this card will accumulate 2 Zeal stacks, but $[A1106] will not gain Energy.\\n<color=#FFFFFFFF>End Phase:</color> Discard this card and deal 3 $[K100]. Each Zeal stack adds 1 DMG to this damage instance.\\n(Effects on this card's $[K3] will apply to <color=#FFFFFFFF>Zeal</color>.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>When Eula uses a Normal Attack or Elemental Skill</color>, this card will accumulate 2 Zeal stacks, but Eula will not gain Energy.\\n<color=#FFFFFFFF>End Phase:</color> Discard this card and deal 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Each Zeal stack adds 1 DMG to this damage instance.\\n(Effects on this card's <color=#FFFFFFFF>Usage(s)</color> will apply to <color=#FFFFFFFF>Zeal</color>.)",
             "hinttype": "GCG_HINT_VOID",
             "id": 111062,
             "name": "Lightfall Sword",
@@ -542,6 +555,7 @@
         "aliases": {},
         "categories": {
             "GCG_HINT_ANEMO": [
+                "autumnwhirlwind",
                 "dandelionfield",
                 "largewindspirit-01",
                 "largewindspirit",
@@ -616,6 +630,7 @@
                 "lightfallsword"
             ],
             "GCG_TOKEN_ICON_HOURGLASS": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -654,6 +669,7 @@
                 "whirlwind"
             ],
             "GCG_TOKEN_LIFE": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -699,6 +715,7 @@
             ]
         },
         "namemap": {
+            "autumnwhirlwind": "Autumn Whirlwind",
             "bakekurage": "Bake-Kurage",
             "baronbunny": "Baron Bunny",
             "burningflame": "Burning Flame",
@@ -742,6 +759,7 @@
             "whirlwind": "Whirlwind"
         },
         "names": {
+            "Autumn Whirlwind": "autumnwhirlwind",
             "Bake-Kurage": "bakekurage",
             "Baron Bunny": "baronbunny",
             "Burning Flame": "burningflame",
@@ -789,12 +807,12 @@
                 "GCG_TOKEN_COUNTER"
             ],
             "hinttype": [
+                "GCG_HINT_ANEMO",
                 "GCG_HINT_HYDRO",
                 "GCG_HINT_PYRO",
                 "GCG_HINT_ELECTRO",
                 "GCG_HINT_DENDRO",
                 "GCG_HINT_CRYO",
-                "GCG_HINT_ANEMO",
                 "GCG_HINT_HEAL",
                 "GCG_HINT_VOID",
                 "GCG_HINT_GEO"

@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 1 poin Pyro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 23021,
                     "name": "Flame of Salvation",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 3 poin Pyro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 23022,
                     "name": "Searing Precept",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 3 poin Pyro DMG dan memanggil Darkfire Furnace.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG dan memanggil Darkfire Furnace.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C123021]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> dan memanggil <color=#FFFFFFFF>Darkfire Furnace</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Darkfire Furnace</color>.",
                     "id": 23023,
                     "name": "Ominous Star",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 2 poin Pyro DMG kepada target dan 2 poin Piercing DMG kepada semua Karakter standby lawan.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG kepada target dan 2 poin Piercing DMG kepada semua Karakter standby lawan.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] kepada target dan 2 poin <color=#FFFFFFFF>$[K5]</color> kepada semua Karakter standby lawan.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> kepada target dan 2 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> kepada semua Karakter standby lawan.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> kepada target dan 2 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> kepada semua Karakter standby lawan.",
                     "id": 13043,
                     "name": "Fiery Rain",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 1 poin Geo DMG dan memanggil Ushi. Karakter ini memperoleh status Superlative Superstrength.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Ushi. Karakter ini memperoleh status Superlative Superstrength.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C116051]</color>. Karakter ini memperoleh status <color=#FFFFFFFF>$[C116054]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color> dan memanggil <color=#FFFFFFFF>Ushi</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Superlative Superstrength</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Ushi</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Superlative Superstrength</color>.",
                     "id": 16052,
                     "name": "Masatsu Zetsugi: Akaushi Burst!",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 5 poin Geo DMG. Karakter ini memperoleh status Raging Oni King.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 5 poin Physical DMG. Karakter ini memperoleh status Raging Oni King.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C116053]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 5 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Raging Oni King</color>.",
+                    "descriptionreplaced": "Mengakibatkan 5 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Raging Oni King</color>.",
                     "id": 16053,
                     "name": "Royal Descent: Behold, Itto the Evil!",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 1 poin Hydro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 12011,
                     "name": "Whisper of Water",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 1 poin Hydro DMG dan memanggil Melody Loop.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Melody Loop.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C112011]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color> dan memanggil <color=#FFFFFFFF>Melody Loop</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Melody Loop</color>.",
                     "id": 12012,
                     "name": "Let the Show Begin♪",
                     "playcost": [
@@ -354,9 +354,9 @@
                     "typetag": "GCG_SKILL_TAG_A"
                 },
                 {
-                    "description": "Karakter ini memperoleh status Tidecaller: Surf Embrace dan Mempersiapkan Skill: Wavestrider.",
-                    "descriptionraw": "Karakter ini memperoleh status <color=#FFFFFFFF>$[C114051]</color> dan $[K53]: <color=#FFFFFFFF>$[S14054]</color>.",
-                    "descriptionreplaced": "Karakter ini memperoleh status <color=#FFFFFFFF>Tidecaller: Surf Embrace</color> dan <color=#FFFFFFFF>Mempersiapkan Skill</color>: <color=#FFFFFFFF>Wavestrider</color>.",
+                    "description": "Karakter ini memperoleh status Tidecaller: Surf Embrace dan mempersiapkan Skill: Wavestrider.",
+                    "descriptionraw": "Karakter ini memperoleh status <color=#FFFFFFFF>$[C114051]</color> dan $[K53|s1]: <color=#FFFFFFFF>$[S14054]</color>.",
+                    "descriptionreplaced": "Karakter ini memperoleh status <color=#FFFFFFFF>Tidecaller: Surf Embrace</color> dan <color=#FFFFFFFF>mempersiapkan Skill</color>: <color=#FFFFFFFF>Wavestrider</color>.",
                     "id": 14052,
                     "name": "Tidecaller",
                     "playcost": [
@@ -369,17 +369,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 3 poin Electro DMG dan menciptakan Thunderbeast's Targe.",
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan menciptakan Thunderbeast's Targe.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C114053]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> dan menciptakan <color=#FFFFFFFF>Thunderbeast's Targe</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Thunderbeast's Targe</color>.",
                     "id": 14053,
                     "name": "Stormbreaker",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_ELECTRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -390,11 +390,11 @@
                     "typetag": "GCG_SKILL_TAG_Q"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Butuh persiapan selama 1 tahap aksi.\nMengakibatkan 2 poin Electro DMG.",
-                    "descriptionraw": "Butuh persiapan selama 1 tahap aksi.\\nMengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Butuh persiapan selama 1 tahap aksi.\\nMengakibatkan 2 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Persiapkan selama 1 giliran.\nMengakibatkan 3 poin Physical DMG.",
+                    "descriptionraw": "Persiapkan selama 1 giliran.\\nMengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Persiapkan selama 1 giliran.\\nMengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 14054,
                     "name": "Wavestrider",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 3 poin Pyro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 13032,
                     "name": "Passion Overload",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 2 poin Pyro DMG dan menciptakan Inspiration Field.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan menciptakan Inspiration Field.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C113031]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> dan menciptakan <color=#FFFFFFFF>Inspiration Field</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Inspiration Field</color>.",
                     "id": 13033,
                     "name": "Fantastic Voyage",
                     "playcost": [
@@ -494,6 +494,96 @@
                 "Pyro",
                 "Sword",
                 "Mondstadt"
+            ]
+        },
+        "candace": {
+            "hp": 10,
+            "id": 1207,
+            "maxenergy": 2,
+            "name": "Candace",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
+                    "id": 12071,
+                    "name": "Gleaming Spear - Guardian Stance",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Attack",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Karakter ini memperoleh status Heron Shield dan mempersiapkan Skill: Heron Strike.",
+                    "descriptionraw": "Karakter ini memperoleh status <color=#FFFFFFFF>$[C112071]</color> dan $[K53|s1]: <color=#FFFFFFFF>$[S12074]</color>.",
+                    "descriptionreplaced": "Karakter ini memperoleh status <color=#FFFFFFFF>Heron Shield</color> dan <color=#FFFFFFFF>mempersiapkan Skill</color>: <color=#FFFFFFFF>Heron Strike</color>.",
+                    "id": 12072,
+                    "name": "Sacred Rite: Heron's Sanctum",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Elemental Skill",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan menciptakan Prayer of the Crimson Crown.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C112072]</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Prayer of the Crimson Crown</color>.",
+                    "id": 12073,
+                    "name": "Sacred Rite: Wagtail's Tide",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Elemental Burst",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Persiapkan selama 1 giliran.\nMengakibatkan 3 poin Physical DMG.",
+                    "descriptionraw": "Persiapkan selama 1 giliran.\\nMengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Persiapkan selama 1 giliran.\\nMengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
+                    "id": 12074,
+                    "name": "Heron Strike",
+                    "playcost": [],
+                    "type": "Elemental Skill",
+                    "typetag": "GCG_SKILL_TAG_E"
+                }
+            ],
+            "source": "Didapatkan setelah mengundang Candace ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+            "storytext": "Dari pasir merah dan emas yang berkilauan, sumpahnya untuk melindungi tetap berdiri kokoh.",
+            "storytitle": "\"Golden Vow\" Candace",
+            "tags": [
+                "GCG_TAG_ELEMENT_HYDRO",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU"
+            ],
+            "tagstext": [
+                "Hydro",
+                "Polearm",
+                "Sumeru"
             ]
         },
         "chongyun": {
@@ -525,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 3 poin Cryo DMG dan menciptakan Chonghua Frost Field.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG dan menciptakan Chonghua Frost Field.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C111041]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan menciptakan <color=#FFFFFFFF>Chonghua Frost Field</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Chonghua Frost Field</color>.",
                     "id": 11042,
                     "name": "Chonghua's Layered Frost",
                     "playcost": [
@@ -542,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 7 poin Cryo DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 7 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 7 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 7 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 11043,
                     "name": "Cloud-Parting Star",
                     "playcost": [
@@ -605,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 3 poin Dendro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 17012,
                     "name": "Floral Brush",
                     "playcost": [
@@ -622,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 2 poin Dendro DMG dan memanggil Cuilein-Anbar.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan memanggil Cuilein-Anbar.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C117011]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color> dan memanggil <color=#FFFFFFFF>Cuilein-Anbar</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Cuilein-Anbar</color>.",
                     "id": 17013,
                     "name": "Trump-Card Kitty",
                     "playcost": [
@@ -685,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 3 poin Electro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 14042,
                     "name": "Secret Rite: Chasmic Soulfarer",
                     "playcost": [
@@ -702,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 4 poin Electro DMG.\n Level [Indwelling] Pactsworn Pathclearer +2.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG.\n Level [Indwelling] Pactsworn Pathclearer +2.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].\\n Level [Indwelling] <color=#FFFFFFFF>$[C114041]</color> +2.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.\\n Level [Indwelling] <color=#FFFFFFFF>Pactsworn Pathclearer</color> +2.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.\\n Level [Indwelling] <color=#FFFFFFFF>Pactsworn Pathclearer</color> +2.",
                     "id": 14043,
                     "name": "Sacred Rite: Wolf's Swiftness",
                     "playcost": [
@@ -775,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 3 poin Pyro DMG. Untuk penggunaan ketiga kali dari Skill ini pada setiap Ronde, mengakibatkan +2 poin DMG.",
-                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Untuk penggunaan ketiga kali dari Skill ini pada setiap Ronde, mengakibatkan +2 poin DMG.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>. Untuk penggunaan ketiga kali dari Skill ini pada setiap Ronde, mengakibatkan +2 poin DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG. Penggunaan ketiga kali dari Skill ini pada setiap Ronde akan mengakibatkan DMG +2.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Penggunaan ketiga kali dari Skill ini pada setiap Ronde akan mengakibatkan DMG +2.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Penggunaan ketiga kali dari Skill ini pada setiap Ronde akan mengakibatkan DMG +2.",
                     "id": 13012,
                     "name": "Searing Onslaught",
                     "playcost": [
@@ -792,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 8 poin Pyro DMG.\nKarakter ini memperoleh status Pyro Elemental Infusion.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 8 poin Physical DMG.\nKarakter ini memperoleh status Pyro Elemental Infusion.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].\\nKarakter ini memperoleh status <color=#FFFFFFFF>$[C113011]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 8 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>.\\nKarakter ini memperoleh status <color=#FFFFFFFF>Pyro Elemental Infusion</color>.",
+                    "descriptionreplaced": "Mengakibatkan 8 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.\\nKarakter ini memperoleh status <color=#FFFFFFFF>Pyro Elemental Infusion</color>.",
                     "id": 13013,
                     "name": "Dawn",
                     "playcost": [
@@ -855,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 2 poin Cryo DMG dan menciptakan Cat-Claw Shield.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan menciptakan Cat-Claw Shield.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C111021]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan menciptakan <color=#FFFFFFFF>Cat-Claw Shield</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Cat-Claw Shield</color>.",
                     "id": 11022,
                     "name": "Icy Paws",
                     "playcost": [
@@ -872,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 1 poin Cryo DMG, memulihkan 2 poin HP Karakter ini, dan memanggil Drunken Mist.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG, memulihkan 2 poin HP Karakter ini, dan memanggil Drunken Mist.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], memulihkan 2 poin HP Karakter ini, dan memanggil <color=#FFFFFFFF>$[C111023]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>, memulihkan 2 poin HP Karakter ini, dan memanggil <color=#FFFFFFFF>Drunken Mist</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, memulihkan 2 poin HP Karakter ini, dan memanggil <color=#FFFFFFFF>Drunken Mist</color>.",
                     "id": 11023,
                     "name": "Signature Mix",
                     "playcost": [
@@ -914,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 1 poin Electro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 24011,
                     "name": "Electro Crystal Projection",
                     "playcost": [
@@ -935,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 2 poin Electro DMG, lalu Mempersiapkan Skill: Rock-Paper-Scissors Combo: Scissors dan Rock-Paper-Scissors Combo: Paper secara terpisah.",
-                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], lalu $[K53]: <color=#FFFFFFFF>$[S24015]</color> dan <color=#FFFFFFFF>$[S24016]</color> secara terpisah.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>, lalu <color=#FFFFFFFF>Mempersiapkan Skill</color>: <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Scissors</color> dan <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Paper</color> secara terpisah.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG, lalu mempersiapkan Skill: Rock-Paper-Scissors Combo: Scissors dan Rock-Paper-Scissors Combo: Paper secara terpisah.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], lalu $[K53|s1]: <color=#FFFFFFFF>$[S24015]</color> dan <color=#FFFFFFFF>$[S24016]</color> secara terpisah.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, lalu <color=#FFFFFFFF>mempersiapkan Skill</color>: <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Scissors</color> dan <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Paper</color> secara terpisah.",
                     "id": 24012,
                     "name": "Rock-Paper-Scissors Combo",
                     "playcost": [
@@ -952,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 2 poin Electro DMG dan memanggil Chains of Warding Thunder.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan memanggil Chains of Warding Thunder.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C124013]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> dan memanggil <color=#FFFFFFFF>Chains of Warding Thunder</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Chains of Warding Thunder</color>.",
                     "id": 24013,
                     "name": "Lightning Lockdown",
                     "playcost": [
@@ -983,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 2 poin Electro DMG, lalu Mempersiapkan Skill: Rock-Paper-Scissors Combo: Paper.",
-                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], lalu $[K53]: <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>, lalu <color=#FFFFFFFF>Mempersiapkan Skill</color>: <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Paper</color>.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG, lalu mempersiapkan Skill: Rock-Paper-Scissors Combo: Paper.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], lalu $[K53|s1]: <color=#FFFFFFFF>$[S24016]</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, lalu <color=#FFFFFFFF>mempersiapkan Skill</color>: <color=#FFFFFFFF>Rock-Paper-Scissors Combo: Paper</color>.",
                     "id": 24015,
                     "name": "Rock-Paper-Scissors Combo: Scissors",
                     "playcost": [],
@@ -995,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 3 poin Electro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 24016,
                     "name": "Rock-Paper-Scissors Combo: Paper",
                     "playcost": [],
@@ -1049,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 2 poin Cryo DMG. Memberikan status Grimheart pada Karakter ini jika belum memiliki status Grimheart.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG. Memberikan status Grimheart pada Karakter ini jika belum memiliki status Grimheart.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Memberikan status <color=#FFFFFFFF>$[C111061]</color> pada Karakter ini jika belum memiliki status <color=#FFFFFFFF>$[C111061]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>. Memberikan status <color=#FFFFFFFF>Grimheart</color> pada Karakter ini jika belum memiliki status <color=#FFFFFFFF>Grimheart</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Memberikan status <color=#FFFFFFFF>Grimheart</color> pada Karakter ini jika belum memiliki status <color=#FFFFFFFF>Grimheart</color>.",
                     "id": 11062,
                     "name": "Icetide Vortex",
                     "playcost": [
@@ -1066,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 2 poin Cryo DMG dan memanggil Lightfall Sword.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan memanggil Lightfall Sword.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C111062]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan memanggil <color=#FFFFFFFF>Lightfall Sword</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Lightfall Sword</color>.",
                     "id": 11063,
                     "name": "Glacial Illumination",
                     "playcost": [
@@ -1108,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 1 poin Cryo DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 21011,
                     "name": "Cicin Icicle",
                     "playcost": [
@@ -1129,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 1 poin Cryo DMG dan memanggil Cryo Cicin.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Cryo Cicin.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C121011]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan memanggil <color=#FFFFFFFF>Cryo Cicin</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Cryo Cicin</color>.",
                     "id": 21012,
                     "name": "Misty Summons",
                     "playcost": [
@@ -1146,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 5 poin Cryo DMG, memberikan efek Cryo pada Karakter ini, dan menciptakan Flowing Cicin Shield.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 5 poin Physical DMG, memberikan efek Cryo pada Karakter ini, dan menciptakan Flowing Cicin Shield.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], $[K201] pada Karakter ini, dan menciptakan <color=#FFFFFFFF>$[C121012]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 5 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>, <color=#99FFFFFF>memberikan efek {SPRITE_PRESET#2101}Cryo</color> pada Karakter ini, dan menciptakan <color=#FFFFFFFF>Flowing Cicin Shield</color>.",
+                    "descriptionreplaced": "Mengakibatkan 5 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, <color=#99FFFFFF>memberikan efek {SPRITE_PRESET#2101}Cryo</color> pada Karakter ini, dan menciptakan <color=#FFFFFFFF>Flowing Cicin Shield</color>.",
                     "id": 21013,
                     "name": "Blizzard, Branch, Blossom",
                     "playcost": [
@@ -1209,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 1 poin Pyro DMG. Karakter ini memperoleh status Stealth.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG. Karakter ini memperoleh status Stealth.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C123011]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Stealth</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Stealth</color>.",
                     "id": 23012,
                     "name": "Prowl",
                     "playcost": [
@@ -1226,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 5 poin Pyro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 5 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 5 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 5 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 23013,
                     "name": "Blade Ablaze",
                     "playcost": [
@@ -1299,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 1 poin Electro DMG dan memanggil Oz.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Oz.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C114011]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> dan memanggil <color=#FFFFFFFF>Oz</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Oz</color>.",
                     "id": 14012,
                     "name": "Nightrider",
                     "playcost": [
@@ -1316,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 4 poin Electro DMG, mengakibatkan 2 poin Piercing DMG ke seluruh Karakter standby lawan.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG, mengakibatkan 2 poin Piercing DMG ke seluruh Karakter standby lawan.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], mengakibatkan 2 poin <color=#FFFFFFFF>$[K5]</color> ke seluruh Karakter standby lawan.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>, mengakibatkan 2 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby lawan.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, mengakibatkan 2 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby lawan.",
                     "id": 14013,
                     "name": "Midnight Phantasmagoria",
                     "playcost": [
@@ -1379,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 1 poin Cryo DMG dan menciptakan Ice Lotus.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan menciptakan Ice Lotus.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C111012]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan menciptakan <color=#FFFFFFFF>Ice Lotus</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Ice Lotus</color>.",
                     "id": 11012,
                     "name": "Trail of the Qilin",
                     "playcost": [
@@ -1396,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 2 poin Cryo DMG, mengakibatkan 2 poin Piercing DMG ke seluruh Karakter standby.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG, mengakibatkan 2 poin Piercing DMG ke seluruh Karakter standby.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], mengakibatkan <color=#FFFFFFFF>2 poin $[K5]</color> ke seluruh Karakter standby.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>, mengakibatkan <color=#FFFFFFFF>2 poin <color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, mengakibatkan <color=#FFFFFFFF>2 poin <color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby.",
                     "id": 11013,
                     "name": "Frostflake Arrow",
                     "playcost": [
@@ -1413,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 2 poin Cryo DMG, mengakibatkan 1 poin Piercing DMG ke seluruh Karakter standby lawan, memanggil 1 Sacred Cryo Pearl.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG, mengakibatkan 1 poin Piercing DMG ke seluruh Karakter standby lawan, memanggil 1 Sacred Cryo Pearl.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], mengakibatkan 1 poin <color=#FFFFFFFF>$[K5]</color> ke seluruh Karakter standby lawan, memanggil 1 <color=#FFFFFFFF>$[C111011]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>, mengakibatkan 1 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby lawan, memanggil 1 <color=#FFFFFFFF>Sacred Cryo Pearl</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, mengakibatkan 1 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby lawan, memanggil 1 <color=#FFFFFFFF>Sacred Cryo Pearl</color>.",
                     "id": 11014,
                     "name": "Celestial Shower",
                     "playcost": [
@@ -1491,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 4 poin Pyro DMG dan memulihkan diri sendiri 2 poin HP. Saat Karakter memiliki 6 poin HP atau lebih sedikit, akan mengakibatkan 1 poin DMG tambahan dan memulihkan 1 poin HP tambahan.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG dan memulihkan diri sendiri 2 poin HP. Saat Karakter memiliki 6 poin HP atau lebih sedikit, akan mengakibatkan 1 poin DMG tambahan dan memulihkan 1 poin HP tambahan.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memulihkan diri sendiri 2 poin HP. Saat Karakter memiliki 6 poin HP atau lebih sedikit, akan mengakibatkan 1 poin DMG tambahan dan memulihkan 1 poin HP tambahan.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> dan memulihkan diri sendiri 2 poin HP. Saat Karakter memiliki 6 poin HP atau lebih sedikit, akan mengakibatkan 1 poin DMG tambahan dan memulihkan 1 poin HP tambahan.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memulihkan diri sendiri 2 poin HP. Saat Karakter memiliki 6 poin HP atau lebih sedikit, akan mengakibatkan 1 poin DMG tambahan dan memulihkan 1 poin HP tambahan.",
                     "id": 13073,
                     "name": "Spirit Soother",
                     "playcost": [
@@ -1554,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 3 poin Dendro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 27012,
                     "name": "Volatile Spore Cloud",
                     "playcost": [
@@ -1571,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 4 poin Dendro DMG, lalu mengonsumsi semua lapisan Radical Vitality. Untuk setiap lapisan yang terkonsumsi, kasus ini mengakibatkan +1 DMG.",
-                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], lalu mengonsumsi semua lapisan <color=#FFFFFFFF>$[C127011]</color>. Untuk setiap lapisan yang terkonsumsi, kasus ini mengakibatkan +1 DMG.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>, lalu mengonsumsi semua lapisan <color=#FFFFFFFF>Radical Vitality</color>. Untuk setiap lapisan yang terkonsumsi, kasus ini mengakibatkan +1 DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG, lalu mengonsumsi semua lapisan Radical Vitality. Untuk setiap lapisan yang terkonsumsi, kasus ini mengakibatkan DMG +1.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], lalu mengonsumsi semua lapisan <color=#FFFFFFFF>$[C127011]</color>. Untuk setiap lapisan yang terkonsumsi, kasus ini mengakibatkan DMG +1.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, lalu mengonsumsi semua lapisan <color=#FFFFFFFF>Radical Vitality</color>. Untuk setiap lapisan yang terkonsumsi, kasus ini mengakibatkan DMG +1.",
                     "id": 27013,
                     "name": "Feather Spreading",
                     "playcost": [
@@ -1644,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Mengakibatkan 3 poin Anemo DMG, target berganti ke Karakter selanjutnya secara paksa.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG, target berganti ke Karakter selanjutnya secara paksa.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], target berganti ke Karakter selanjutnya secara paksa.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>, target berganti ke Karakter selanjutnya secara paksa.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, target berganti ke Karakter selanjutnya secara paksa.",
                     "id": 15022,
                     "name": "Gale Blade",
                     "playcost": [
@@ -1693,6 +1783,96 @@
                 "Mondstadt"
             ]
         },
+        "kaedeharakazuha": {
+            "hp": 10,
+            "id": 1505,
+            "maxenergy": 2,
+            "name": "Kaedehara Kazuha",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
+                    "id": 15051,
+                    "name": "Garyuu Bladework",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Attack",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG. Karakter ini memperoleh status Midare Ranzan.\nJika Skill ini memicu reaksi Swirl, maka Midare Ranzan akan berubah sesuai dengan elemen yang memicu reaksi Swirl.\nSetelah penghitungan Skill ini selesai: Karakter aktifmu bertukar ke Karakter standby selanjutnya.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C115051]</color>.\\nJika Skill ini memicu reaksi Swirl, maka <color=#FFFFFFFF>$[C115051]</color> akan berubah sesuai dengan elemen yang memicu reaksi Swirl.\\n<color=#FFFFFFFF>Setelah penghitungan Skill ini selesai: </color>Karakter aktifmu bertukar ke Karakter standby selanjutnya.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Midare Ranzan</color>.\\nJika Skill ini memicu reaksi Swirl, maka <color=#FFFFFFFF>Midare Ranzan</color> akan berubah sesuai dengan elemen yang memicu reaksi Swirl.\\n<color=#FFFFFFFF>Setelah penghitungan Skill ini selesai: </color>Karakter aktifmu bertukar ke Karakter standby selanjutnya.",
+                    "id": 15052,
+                    "name": "Chihayaburu",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Elemental Skill",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG dan memanggil Autumn Whirlwind.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C115052]</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Autumn Whirlwind</color>.",
+                    "id": 15053,
+                    "name": "Kazuha Slash",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Elemental Burst",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "description": "",
+                    "descriptionraw": "",
+                    "descriptionreplaced": "",
+                    "id": 15054,
+                    "name": "Chihayaburu",
+                    "playcost": [],
+                    "type": "Passive Skill",
+                    "typetag": "GCG_SKILL_TAG_PASSIVE"
+                }
+            ],
+            "source": "Didapatkan setelah mengundang Kaedehara Kazuha ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+            "storytext": "Terpesona pada Bunga dan Kicauan Burung, Dia Mulai Perjalanan dengan Tuntunan Rembulan dan Angin.",
+            "storytitle": "\"Scarlet Leaves Pursue Wild Waves\" Kaedehara Kazuha",
+            "tags": [
+                "GCG_TAG_ELEMENT_ANEMO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_INAZUMA"
+            ],
+            "tagstext": [
+                "Anemo",
+                "Sword",
+                "Inazuma"
+            ]
+        },
         "kaeya": {
             "hp": 10,
             "id": 1103,
@@ -1722,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 3 poin Cryo DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 11032,
                     "name": "Frostgnaw",
                     "playcost": [
@@ -1739,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 1 poin Cryo DMG dan menciptakan Icicle.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan menciptakan Icicle.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C111031]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan menciptakan <color=#FFFFFFFF>Icicle</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Icicle</color>.",
                     "id": 11033,
                     "name": "Glacial Waltz",
                     "playcost": [
@@ -1802,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 3 poin Cryo DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 11052,
                     "name": "Kamisato Art: Hyouka",
                     "playcost": [
@@ -1819,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 4 poin Cryo DMG dan memanggil Frostflake Seki no To.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG dan memanggil Frostflake Seki no To.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C111051]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan memanggil <color=#FFFFFFFF>Frostflake Seki no To</color>.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Frostflake Seki no To</color>.",
                     "id": 11053,
                     "name": "Kamisato Art: Soumetsu",
                     "playcost": [
@@ -1892,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 2 poin Hydro DMG. Karakter ini memperoleh status Takimeguri Kanka.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG. Karakter ini memperoleh status Takimeguri Kanka.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C112061]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Takimeguri Kanka</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Takimeguri Kanka</color>.",
                     "id": 12062,
                     "name": "Kamisato Art: Kyouka",
                     "playcost": [
@@ -1909,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 3 poin Hydro DMG dan memanggil Garden of Purity.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG dan memanggil Garden of Purity.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C112062]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color> dan memanggil <color=#FFFFFFFF>Garden of Purity</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Garden of Purity</color>.",
                     "id": 12063,
                     "name": "Kamisato Art: Suiyuu",
                     "playcost": [
@@ -1972,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 3 poin Electro DMG dan menciptakan Lightning Stiletto.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG dan menciptakan Lightning Stiletto.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C114031]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> dan menciptakan <color=#FFFFFFFF>Lightning Stiletto</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Lightning Stiletto</color>.",
                     "id": 14032,
                     "name": "Stellar Restoration",
                     "playcost": [
@@ -1989,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 4 poin Electro DMG, mengakibatkan 3 poin Piercing DMG ke seluruh Karakter standby lawan.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG, mengakibatkan 3 poin Piercing DMG ke seluruh Karakter standby lawan.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], mengakibatkan 3 poin <color=#FFFFFFFF>$[K5]</color> ke seluruh Karakter standby lawan.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>, mengakibatkan 3 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby lawan.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, mengakibatkan 3 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby lawan.",
                     "id": 14033,
                     "name": "Starward Sword",
                     "playcost": [
@@ -2031,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 1 poin Pyro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 13061,
                     "name": "Kaboom!",
                     "playcost": [
@@ -2052,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 3 poin Pyro DMG.\nKarakter ini memperoleh status Explosive Spark.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.\nKarakter ini memperoleh status Explosive Spark.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].\\nKarakter ini memperoleh status <color=#FFFFFFFF>$[C113061]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>.\\nKarakter ini memperoleh status <color=#FFFFFFFF>Explosive Spark</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.\\nKarakter ini memperoleh status <color=#FFFFFFFF>Explosive Spark</color>.",
                     "id": 13062,
                     "name": "Jumpy Dumpty",
                     "playcost": [
@@ -2069,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 3 poin Pyro DMG dan menciptakan Sparks 'n' Splash di area bermain lawan.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG dan menciptakan Sparks 'n' Splash di area bermain lawan.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C113063]</color> di area bermain lawan.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> dan menciptakan <color=#FFFFFFFF>Sparks 'n' Splash</color> di area bermain lawan.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Sparks 'n' Splash</color> di area bermain lawan.",
                     "id": 13063,
                     "name": "Sparks 'n' Splash",
                     "playcost": [
@@ -2132,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 1 poin Electro DMG dan memanggil Tengu Juurai: Ambush.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Tengu Juurai: Ambush.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C114061]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> dan memanggil <color=#FFFFFFFF>Tengu Juurai: Ambush</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Tengu Juurai: Ambush</color>.",
                     "id": 14062,
                     "name": "Tengu Stormcall",
                     "playcost": [
@@ -2149,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 1 poin Electro DMG dan memanggil Tengu Juurai: Stormcluster.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Tengu Juurai: Stormcluster.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C114062]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> dan memanggil <color=#FFFFFFFF>Tengu Juurai: Stormcluster</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Tengu Juurai: Stormcluster</color>.",
                     "id": 14063,
                     "name": "Subjugation: Koukou Sendou",
                     "playcost": [
@@ -2242,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Mengakibatkan 4 poin Anemo DMG dan memicu efek dari semua Panggilan Shadowsword milikmu (Penggunaannya tidak terkonsumsi)",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG dan memicu efek dari semua Panggilan Shadowsword milikmu (Penggunaannya tidak terkonsumsi)",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memicu efek dari semua Panggilan <color=#FFFFFFFF>Shadowsword</color> milikmu (Penggunaannya tidak terkonsumsi)",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color> dan memicu efek dari semua Panggilan <color=#FFFFFFFF>Shadowsword</color> milikmu (Penggunaannya tidak terkonsumsi)",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memicu efek dari semua Panggilan <color=#FFFFFFFF>Shadowsword</color> milikmu (Penggunaannya tidak terkonsumsi)",
                     "id": 25014,
                     "name": "Pseudo Tengu Sweeper",
                     "playcost": [
@@ -2284,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 1 poin Hydro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 22021,
                     "name": "Water Ball",
                     "playcost": [
@@ -2305,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 2 poin Hydro DMG. Karakter target menerima Refraction.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG. Karakter target menerima Refraction.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter target menerima <color=#FFFFFFFF>$[C122021]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>. Karakter target menerima <color=#FFFFFFFF>Refraction</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter target menerima <color=#FFFFFFFF>Refraction</color>.",
                     "id": 22022,
                     "name": "Influx Blast",
                     "playcost": [
@@ -2322,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 5 poin Hydro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 5 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 5 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 5 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 22023,
                     "name": "Rippled Reflection",
                     "playcost": [
@@ -2364,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 1 poin Hydro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 12031,
                     "name": "Ripple of Fate",
                     "playcost": [
@@ -2385,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 1 poin Hydro DMG dan memanggil Reflection.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Reflection.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C112031]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color> dan memanggil <color=#FFFFFFFF>Reflection</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Reflection</color>.",
                     "id": 12032,
                     "name": "Mirror Reflection of Doom",
                     "playcost": [
@@ -2402,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 4 poin Hydro DMG dan menciptakan Illusory Bubble.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG dan menciptakan Illusory Bubble.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C112032]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color> dan menciptakan <color=#FFFFFFFF>Illusory Bubble</color>.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Illusory Bubble</color>.",
                     "id": 12033,
                     "name": "Stellaris Phantasm",
                     "playcost": [
@@ -2454,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 1 poin Dendro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 17031,
                     "name": "Akara",
                     "playcost": [
@@ -2475,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 2 poin Dendro DMG. Memberikan status Seed of Skandha kepada Karakter target; Jika Karakter tersebut sudah memiliki status Seed of Skandha, maka akan memberikan status Seed of Skandha kepada semua Karakter lawan.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG. Memberikan status Seed of Skandha kepada Karakter target; Jika Karakter tersebut sudah memiliki status Seed of Skandha, maka akan memberikan status Seed of Skandha kepada semua Karakter lawan.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Memberikan status <color=#FFFFFFFF>$[C117031]</color> kepada Karakter target; Jika Karakter tersebut sudah memiliki status <color=#FFFFFFFF>$[C117031]</color>, maka akan memberikan status <color=#FFFFFFFF>$[C117031]</color> kepada semua Karakter lawan.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>. Memberikan status <color=#FFFFFFFF>Seed of Skandha</color> kepada Karakter target; Jika Karakter tersebut sudah memiliki status <color=#FFFFFFFF>Seed of Skandha</color>, maka akan memberikan status <color=#FFFFFFFF>Seed of Skandha</color> kepada semua Karakter lawan.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Memberikan status <color=#FFFFFFFF>Seed of Skandha</color> kepada Karakter target; Jika Karakter tersebut sudah memiliki status <color=#FFFFFFFF>Seed of Skandha</color>, maka akan memberikan status <color=#FFFFFFFF>Seed of Skandha</color> kepada semua Karakter lawan.",
                     "id": 17032,
                     "name": "All Schemes to Know",
                     "playcost": [
@@ -2492,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 3 poin Dendro DMG.\nSemua Karakter musuh memperoleh status Seed of Skandha.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.\nSemua Karakter musuh memperoleh status Seed of Skandha.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].\\nSemua Karakter musuh memperoleh status <color=#FFFFFFFF>$[C117031]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>.\\nSemua Karakter musuh memperoleh status <color=#FFFFFFFF>Seed of Skandha</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.\\nSemua Karakter musuh memperoleh status <color=#FFFFFFFF>Seed of Skandha</color>.",
                     "id": 17033,
                     "name": "All Schemes to Know: Tathata",
                     "playcost": [
@@ -2509,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 4 poin Dendro DMG dan menciptakan Shrine of Maya.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG dan menciptakan Shrine of Maya.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C117032]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color> dan menciptakan <color=#FFFFFFFF>Shrine of Maya</color>.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Shrine of Maya</color>.",
                     "id": 17034,
                     "name": "Illusory Heart",
                     "playcost": [
@@ -2551,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 1 poin Geo DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 16011,
                     "name": "Sparkling Scatter",
                     "playcost": [
@@ -2572,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 2 poin Geo DMG dan menciptakan Jade Screen.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan menciptakan Jade Screen.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C116011]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color> dan menciptakan <color=#FFFFFFFF>Jade Screen</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Jade Screen</color>.",
                     "id": 16012,
                     "name": "Jade Screen",
                     "playcost": [
@@ -2589,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 6 poin Geo DMG. Jika Jade Screen sedang berada di arena, mengakibatkan +2 poin DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 6 poin Physical DMG. Jika Jade Screen sedang berada di arena, mengakibatkan +2 poin DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Jika <color=#FFFFFFFF>$[C116011]</color> sedang berada di arena, mengakibatkan +2 poin DMG.",
-                    "descriptionreplaced": "Mengakibatkan 6 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>. Jika <color=#FFFFFFFF>Jade Screen</color> sedang berada di arena, mengakibatkan +2 poin DMG.",
+                    "descriptionreplaced": "Mengakibatkan 6 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Jika <color=#FFFFFFFF>Jade Screen</color> sedang berada di arena, mengakibatkan +2 poin DMG.",
                     "id": 16013,
                     "name": "Starshatter",
                     "playcost": [
@@ -2652,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 1 poin Geo DMG dan menciptakan Full Plate.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan menciptakan Full Plate.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C116021]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color> dan menciptakan <color=#FFFFFFFF>Full Plate</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Full Plate</color>.",
                     "id": 16022,
                     "name": "Breastplate",
                     "playcost": [
@@ -2669,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 4 poin Geo DMG. Karakter ini memperoleh status Sweeping Time.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG. Karakter ini memperoleh status Sweeping Time.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C116022]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Sweeping Time</color>.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Sweeping Time</color>.",
                     "id": 16023,
                     "name": "Sweeping Time",
                     "playcost": [
@@ -2747,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 3 poin Electro DMG.\nSemua Karakter lain milikmu memperoleh 2 poin Energy.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.\nSemua Karakter lain milikmu memperoleh 2 poin Energy.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].\\nSemua Karakter lain milikmu memperoleh 2 poin $[K310].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.\\nSemua Karakter lain milikmu memperoleh 2 poin <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.\\nSemua Karakter lain milikmu memperoleh 2 poin <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color>.",
                     "id": 14073,
                     "name": "Secret Art: Musou Shinsetsu",
                     "playcost": [
@@ -2794,7 +2974,7 @@
         "razor": {
             "hp": 10,
             "id": 1402,
-            "maxenergy": 3,
+            "maxenergy": 2,
             "name": "Razor",
             "skills": [
                 {
@@ -2820,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 3 poin Electro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 14022,
                     "name": "Claw and Thunder",
                     "playcost": [
@@ -2836,11 +3016,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 5 poin Electro DMG. Karakter ini memperoleh status The Wolf Within.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG. Karakter ini memperoleh status The Wolf Within.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C114021]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 5 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>The Wolf Within</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>The Wolf Within</color>.",
                     "id": 14023,
                     "name": "Lightning Fang",
                     "playcost": [
@@ -2850,7 +3030,7 @@
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
-                            "count": 3
+                            "count": 2
                         }
                     ],
                     "type": "Elemental Burst",
@@ -2879,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 1 poin Hydro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 22011,
                     "name": "Surge",
                     "playcost": [
@@ -2930,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 2 poin Hydro DMG. Untuk setiap Panggilan yang ada di pihakmu, mengakibatkan +2 poin DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG. Untuk setiap Panggilan yang ada di pihakmu, mengakibatkan +2 poin DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Untuk setiap Panggilan yang ada di pihakmu, mengakibatkan +2 poin DMG.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>. Untuk setiap Panggilan yang ada di pihakmu, mengakibatkan +2 poin DMG.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Untuk setiap Panggilan yang ada di pihakmu, mengakibatkan +2 poin DMG.",
                     "id": 22014,
                     "name": "Tide and Torrent",
                     "playcost": [
@@ -2972,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 1 poin Hydro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 12051,
                     "name": "The Shape of Water",
                     "playcost": [
@@ -2993,7 +3173,7 @@
                 },
                 {
                     "description": "Karakter ini memberikan efek Hydro kepada diri sendiri dan memanggil Bake-Kurage.",
-                    "descriptionraw": "Karakter ini $[K202] kepada diri sendiri dan memanggil <color=#FFFFFFFF>$[C112051]</color>.",
+                    "descriptionraw": "Karakter ini $[K202|s1] kepada diri sendiri dan memanggil <color=#FFFFFFFF>$[C112051]</color>.",
                     "descriptionreplaced": "Karakter ini <color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color> kepada diri sendiri dan memanggil <color=#FFFFFFFF>Bake-Kurage</color>.",
                     "id": 12052,
                     "name": "Kurage's Oath",
@@ -3008,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 2 poin Hydro DMG dan memulihkan HP seluruh Karakter di dalam tim sebesar 1 poin. Karakter ini memperoleh status Ceremonial Garment.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan memulihkan HP seluruh Karakter di dalam tim sebesar 1 poin. Karakter ini memperoleh status Ceremonial Garment.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memulihkan HP seluruh Karakter di dalam tim sebesar 1 poin. Karakter ini memperoleh status <color=#FFFFFFFF>$[C112052]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color> dan memulihkan HP seluruh Karakter di dalam tim sebesar 1 poin. Karakter ini memperoleh status <color=#FFFFFFFF>Ceremonial Garment</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memulihkan HP seluruh Karakter di dalam tim sebesar 1 poin. Karakter ini memperoleh status <color=#FFFFFFFF>Ceremonial Garment</color>.",
                     "id": 12053,
                     "name": "Nereid's Ascension",
                     "playcost": [
@@ -3071,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 2 poin Cryo DMG dan memperoleh status Icy Quill.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan memperoleh status Icy Quill.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memperoleh status <color=#FFFFFFFF>$[C111071]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan memperoleh status <color=#FFFFFFFF>Icy Quill</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memperoleh status <color=#FFFFFFFF>Icy Quill</color>.",
                     "id": 11072,
                     "name": "Spring Spirit Summoning",
                     "playcost": [
@@ -3088,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Mengakibatkan 1 poin Cryo DMG dan memanggil Talisman Spirit.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Talisman Spirit.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C111073]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan memanggil <color=#FFFFFFFF>Talisman Spirit</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Talisman Spirit</color>.",
                     "id": 11073,
                     "name": "Divine Maiden's Deliverance",
                     "playcost": [
@@ -3222,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Mengakibatkan 1 poin Anemo DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 15011,
                     "name": "Wind Spirit Creation",
                     "playcost": [
@@ -3243,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Mengakibatkan 3 poin Anemo DMG, target berganti ke Karakter sebelumnya secara paksa.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG, target berganti ke Karakter sebelumnya secara paksa.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], target berganti ke Karakter sebelumnya secara paksa.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>, target berganti ke Karakter sebelumnya secara paksa.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, target berganti ke Karakter sebelumnya secara paksa.",
                     "id": 15012,
                     "name": "Astable Anemohypostasis Creation - 6308",
                     "playcost": [
@@ -3260,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Mengakibatkan 1 poin Anemo DMG dan memanggil Large Wind Spirit.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Large Wind Spirit.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C115011]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color> dan memanggil <color=#FFFFFFFF>Large Wind Spirit</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Large Wind Spirit</color>.",
                     "id": 15013,
                     "name": "Forbidden Creation - Isomer 75 / Type II",
                     "playcost": [
@@ -3323,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Beralih ke Melee Stance, lalu mengakibatkan 2 poin Hydro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Beralih ke Melee Stance, lalu mengakibatkan 2 poin Physical DMG.",
                     "descriptionraw": "Beralih ke <color=#FFFFFFFF>$[C112042]</color>, lalu mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Beralih ke <color=#FFFFFFFF>Melee Stance</color>, lalu mengakibatkan 2 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>.",
+                    "descriptionreplaced": "Beralih ke <color=#FFFFFFFF>Melee Stance</color>, lalu mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 12042,
                     "name": "Foul Legacy: Raging Tide",
                     "playcost": [
@@ -3340,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Melancarkan serangan yang berbeda berdasarkan status Tartaglia yang sedang aktif:\nRanged Stance - Flash of Havoc: Mengakibatkan 4 poin Hydro DMG, mengembalikan 2 poin Energy, dan memberikan status Riptide kepada Karakter target.\nMelee Stance - Light of Obliteration: Mengakibatkan 7 poin Hydro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Melancarkan serangan yang berbeda berdasarkan status Tartaglia yang sedang aktif:\nRanged Stance - Flash of Havoc: Mengakibatkan 4 poin Physical DMG, mengembalikan 2 poin Energy, dan memberikan status Riptide kepada Karakter target.\nMelee Stance - Light of Obliteration: Mengakibatkan 7 poin Physical DMG.",
                     "descriptionraw": "Melancarkan serangan yang berbeda berdasarkan status <color=#FFFFFFFF>$[A1204]</color> yang sedang aktif:\\n<color=#FFFFFFFF>Ranged Stance - Flash of Havoc:</color> Mengakibatkan $[D__KEY__DAMAGE_4] poin $[D__KEY__ELEMENT], mengembalikan 2 poin $[K310], dan memberikan status <color=#FFFFFFFF>$[C112043]</color> kepada Karakter target.\\n<color=#FFFFFFFF>Melee Stance - Light of Obliteration:</color> Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Melancarkan serangan yang berbeda berdasarkan status <color=#FFFFFFFF>Tartaglia</color> yang sedang aktif:\\n<color=#FFFFFFFF>Ranged Stance - Flash of Havoc:</color> Mengakibatkan 4 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>, mengembalikan 2 poin <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color>, dan memberikan status <color=#FFFFFFFF>Riptide</color> kepada Karakter target.\\n<color=#FFFFFFFF>Melee Stance - Light of Obliteration:</color> Mengakibatkan 7 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>.",
+                    "descriptionreplaced": "Melancarkan serangan yang berbeda berdasarkan status <color=#FFFFFFFF>Tartaglia</color> yang sedang aktif:\\n<color=#FFFFFFFF>Ranged Stance - Flash of Havoc:</color> Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, mengembalikan 2 poin <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color>, dan memberikan status <color=#FFFFFFFF>Riptide</color> kepada Karakter target.\\n<color=#FFFFFFFF>Melee Stance - Light of Obliteration:</color> Mengakibatkan 7 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 12043,
                     "name": "Havoc: Obliteration",
                     "playcost": [
@@ -3433,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 2 poin Dendro DMG. Karakter ini memperoleh status Vijnana Suffusion.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG. Karakter ini memperoleh status Vijnana Suffusion.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C117021]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Vijnana Suffusion</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Vijnana Suffusion</color>.",
                     "id": 17022,
                     "name": "Vijnana-Phala Mine",
                     "playcost": [
@@ -3450,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Mengakibatkan 4 poin Dendro DMG, mengakibatkan 1 poin Piercing DMG ke seluruh Karakter standby lawan.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG, mengakibatkan 1 poin Piercing DMG ke seluruh Karakter standby lawan.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], mengakibatkan 1 poin <color=#FFFFFFFF>$[K5]</color> ke seluruh Karakter standby lawan.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>, mengakibatkan 1 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby lawan.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, mengakibatkan 1 poin <color=#FFFFFFFF><color=#FFFFFFFF>Piercing DMG</color></color> ke seluruh Karakter standby lawan.",
                     "id": 17023,
                     "name": "Fashioner's Tanglevine Shaft",
                     "playcost": [
@@ -3513,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Mengakibatkan 2 poin Anemo DMG dan menciptakan Stormzone.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan menciptakan Stormzone.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C115031]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color> dan menciptakan <color=#FFFFFFFF>Stormzone</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Stormzone</color>.",
                     "id": 15032,
                     "name": "Skyward Sonnet",
                     "playcost": [
@@ -3530,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Mengakibatkan 2 poin Anemo DMG dan memanggil Stormeye.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG dan memanggil Stormeye.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C115034]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color> dan memanggil <color=#FFFFFFFF>Stormeye</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Stormeye</color>.",
                     "id": 15033,
                     "name": "Wind's Grand Ode",
                     "playcost": [
@@ -3607,11 +3787,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 2 poin Pyro DMG dan menciptakan Pyronado.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG dan menciptakan Pyronado.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C113022]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> dan menciptakan <color=#FFFFFFFF>Pyronado</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Pyronado</color>.",
                     "id": 13023,
                     "name": "Pyronado",
                     "playcost": [
@@ -3671,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Mengakibatkan 3 poin Anemo DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 15042,
                     "name": "Lemniscatic Wind Cycling",
                     "playcost": [
@@ -3688,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Mengakibatkan 4 poin Anemo DMG. Karakter ini memperoleh status Yaksha's Mask.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG. Karakter ini memperoleh status Yaksha's Mask.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C115041]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Yaksha's Mask</color>.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Yaksha's Mask</color>.",
                     "id": 15043,
                     "name": "Bane of All Evil",
                     "playcost": [
@@ -3751,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 2 poin Hydro DMG, memberikan efek Hydro pada Karakter ini, dan menciptakan Rain Sword.",
-                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], $[K202] pada Karakter ini, dan menciptakan <color=#FFFFFFFF>$[C112021]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>, <color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color> pada Karakter ini, dan menciptakan <color=#FFFFFFFF>Rain Sword</color>.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG, memberikan efek Hydro kepada diri sendiri, dan menciptakan Rain Sword.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], $[K202|s1] kepada diri sendiri, dan menciptakan <color=#FFFFFFFF>$[C112021]</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, <color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color> kepada diri sendiri, dan menciptakan <color=#FFFFFFFF>Rain Sword</color>.",
                     "id": 12022,
                     "name": "Fatal Rainscreen",
                     "playcost": [
@@ -3768,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Mengakibatkan 1 poin Hydro DMG, memberikan efek Hydro pada Karakter ini, dan menciptakan Rainbow Bladework.",
-                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], $[K202] pada Karakter ini, dan menciptakan <color=#FFFFFFFF>$[C112022]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>, <color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color> pada Karakter ini, dan menciptakan <color=#FFFFFFFF>Rainbow Bladework</color>.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG, memberikan efek Hydro kepada diri sendiri, dan menciptakan Rainbow Bladework.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], $[K202|s1] kepada diri sendiri, dan menciptakan <color=#FFFFFFFF>$[C112022]</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, <color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color> kepada diri sendiri, dan menciptakan <color=#FFFFFFFF>Rainbow Bladework</color>.",
                     "id": 12023,
                     "name": "Raincutter",
                     "playcost": [
@@ -3810,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 1 poin Electro DMG.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
                     "id": 14081,
                     "name": "Spiritfox Sin-Eater",
                     "playcost": [
@@ -3846,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Mengakibatkan 4 poin Electro DMG; Jika kamu punya Sesshou Sakura di arena, maka akan dihancurkan lalu menciptakan Tenko Thunderbolt.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG; Jika kamu punya Sesshou Sakura di arena, maka akan dihancurkan lalu menciptakan Tenko Thunderbolt.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]; Jika kamu punya <color=#FFFFFFFF>$[C114081]</color> di arena, maka akan dihancurkan lalu menciptakan <color=#FFFFFFFF>$[C114083]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>; Jika kamu punya <color=#FFFFFFFF>Sesshou Sakura</color> di arena, maka akan dihancurkan lalu menciptakan <color=#FFFFFFFF>Tenko Thunderbolt</color>.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>; Jika kamu punya <color=#FFFFFFFF>Sesshou Sakura</color> di arena, maka akan dihancurkan lalu menciptakan <color=#FFFFFFFF>Tenko Thunderbolt</color>.",
                     "id": 14083,
                     "name": "Great Secret Art: Tenko Kenshin",
                     "playcost": [
@@ -3878,6 +4058,86 @@
                 "Electro",
                 "Catalyst",
                 "Inazuma"
+            ]
+        },
+        "yanfei": {
+            "hp": 10,
+            "id": 1308,
+            "maxenergy": 2,
+            "name": "Yanfei",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
+                    "id": 13081,
+                    "name": "Seal of Approval",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Attack",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG. Karakter ini memperoleh status Scarlet Seal.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C113081]</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Scarlet Seal</color>.",
+                    "id": 13082,
+                    "name": "Signed Edict",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Elemental Skill",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG. Karakter ini memperoleh status Scarlet Seal dan Brilliance.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Karakter ini memperoleh status <color=#FFFFFFFF>$[C113081]</color> dan <color=#FFFFFFFF>$[C113082]</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Karakter ini memperoleh status <color=#FFFFFFFF>Scarlet Seal</color> dan <color=#FFFFFFFF>Brilliance</color>.",
+                    "id": 13083,
+                    "name": "Done Deal",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Elemental Burst",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Didapatkan setelah mengundang Yanfei ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+            "storytext": "Jangan meniru masa lalu, karena tiada hukum yang berlaku sepanjang waktu.",
+            "storytitle": "\"Wise Innocence\" Yanfei",
+            "tags": [
+                "GCG_TAG_ELEMENT_PYRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Pyro",
+                "Catalyst",
+                "Liyue"
             ]
         },
         "yoimiya": {
@@ -3923,17 +4183,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Mengakibatkan 4 poin Pyro DMG dan menciptakan Aurous Blaze.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG dan menciptakan Aurous Blaze.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C113052]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> dan menciptakan <color=#FFFFFFFF>Aurous Blaze</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan menciptakan <color=#FFFFFFFF>Aurous Blaze</color>.",
                     "id": 13053,
                     "name": "Ryuukin Saxifrage",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_PYRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -3987,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 1 poin Geo DMG dan memanggil Stone Stele.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 1 poin Physical DMG dan memanggil Stone Stele.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C116031]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color> dan memanggil <color=#FFFFFFFF>Stone Stele</color>.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> dan memanggil <color=#FFFFFFFF>Stone Stele</color>.",
                     "id": 16032,
                     "name": "Dominus Lapidis",
                     "playcost": [
@@ -4004,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 3 poin Geo DMG, memanggil Stone Stele, dan menciptakan Jade Shield.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 3 poin Physical DMG, memanggil Stone Stele, dan menciptakan Jade Shield.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], memanggil <color=#FFFFFFFF>$[C116031]</color>, dan menciptakan <color=#FFFFFFFF>$[C116032]</color>.",
-                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>, memanggil <color=#FFFFFFFF>Stone Stele</color>, dan menciptakan <color=#FFFFFFFF>Jade Shield</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>, memanggil <color=#FFFFFFFF>Stone Stele</color>, dan menciptakan <color=#FFFFFFFF>Jade Shield</color>.",
                     "id": 16033,
                     "name": "Dominus Lapidis: Striking Stone",
                     "playcost": [
@@ -4021,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Mengakibatkan 4 poin Geo DMG. Memberikan status Petrification kepada Karakter target.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 4 poin Physical DMG. Memberikan status Petrification kepada Karakter target.",
                     "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Memberikan status <color=#FFFFFFFF>$[C116033]</color> kepada Karakter target.",
-                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>. Memberikan status <color=#FFFFFFFF>Petrification</color> kepada Karakter target.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>. Memberikan status <color=#FFFFFFFF>Petrification</color> kepada Karakter target.",
                     "id": 16034,
                     "name": "Planet Befall",
                     "playcost": [
@@ -4065,6 +4325,7 @@
                 "barbara",
                 "beidou",
                 "bennett",
+                "candace",
                 "chongyun",
                 "collei",
                 "cyno",
@@ -4078,6 +4339,7 @@
                 "hutao",
                 "jadeplumeterrorshroom",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4103,6 +4365,7 @@
                 "xiao",
                 "xingqiu",
                 "yaemiko",
+                "yanfei",
                 "yoimiya",
                 "zhongli"
             ],
@@ -4110,18 +4373,21 @@
                 "abysslectorfathomlessflames",
                 "amber",
                 "bennett",
+                "candace",
                 "collei",
                 "cyno",
                 "electrohypostasis",
                 "eula",
                 "fatuipyroagent",
                 "jadeplumeterrorshroom",
+                "kaedeharakazuha",
                 "kaeya",
                 "kujousara",
                 "mirrormaiden",
                 "nahida",
                 "noelle",
                 "raidenshogun",
+                "razor",
                 "sangonomiyakokomi",
                 "shenhe",
                 "stonehidelawachurl",
@@ -4131,7 +4397,8 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "3": [
                 "aratakiitto",
@@ -4152,7 +4419,6 @@
                 "maguukenki",
                 "mona",
                 "ningguang",
-                "razor",
                 "rhodeiaofloch",
                 "tartaglia",
                 "yoimiya",
@@ -4184,6 +4450,7 @@
             ],
             "GCG_TAG_ELEMENT_ANEMO": [
                 "jean",
+                "kaedeharakazuha",
                 "maguukenki",
                 "sucrose",
                 "venti",
@@ -4225,6 +4492,7 @@
             ],
             "GCG_TAG_ELEMENT_HYDRO": [
                 "barbara",
+                "candace",
                 "kamisatoayato",
                 "mirrormaiden",
                 "mona",
@@ -4242,10 +4510,12 @@
                 "hutao",
                 "klee",
                 "xiangling",
+                "yanfei",
                 "yoimiya"
             ],
             "GCG_TAG_NATION_INAZUMA": [
                 "aratakiitto",
+                "kaedeharakazuha",
                 "kamisatoayaka",
                 "kamisatoayato",
                 "kujousara",
@@ -4265,6 +4535,7 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
+                "yanfei",
                 "zhongli"
             ],
             "GCG_TAG_NATION_MONDSTADT": [
@@ -4285,6 +4556,7 @@
                 "venti"
             ],
             "GCG_TAG_NATION_SUMERU": [
+                "candace",
                 "collei",
                 "cyno",
                 "nahida",
@@ -4310,7 +4582,8 @@
                 "ningguang",
                 "sangonomiyakokomi",
                 "sucrose",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "GCG_TAG_WEAPON_CLAYMORE": [
                 "aratakiitto",
@@ -4333,6 +4606,7 @@
                 "stonehidelawachurl"
             ],
             "GCG_TAG_WEAPON_POLE": [
+                "candace",
                 "cyno",
                 "hutao",
                 "raidenshogun",
@@ -4344,6 +4618,7 @@
             "GCG_TAG_WEAPON_SWORD": [
                 "bennett",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4358,6 +4633,7 @@
             "barbara": "Barbara",
             "beidou": "Beidou",
             "bennett": "Bennett",
+            "candace": "Candace",
             "chongyun": "Chongyun",
             "collei": "Collei",
             "cyno": "Cyno",
@@ -4372,6 +4648,7 @@
             "hutao": "Hu Tao",
             "jadeplumeterrorshroom": "Jadeplume Terrorshroom",
             "jean": "Jean",
+            "kaedeharakazuha": "Kaedehara Kazuha",
             "kaeya": "Kaeya",
             "kamisatoayaka": "Kamisato Ayaka",
             "kamisatoayato": "Kamisato Ayato",
@@ -4398,6 +4675,7 @@
             "xiao": "Xiao",
             "xingqiu": "Xingqiu",
             "yaemiko": "Yae Miko",
+            "yanfei": "Yanfei",
             "yoimiya": "Yoimiya",
             "zhongli": "Zhongli"
         },
@@ -4408,6 +4686,7 @@
             "Barbara": "barbara",
             "Beidou": "beidou",
             "Bennett": "bennett",
+            "Candace": "candace",
             "Chongyun": "chongyun",
             "Collei": "collei",
             "Cyno": "cyno",
@@ -4422,6 +4701,7 @@
             "Hu Tao": "hutao",
             "Jadeplume Terrorshroom": "jadeplumeterrorshroom",
             "Jean": "jean",
+            "Kaedehara Kazuha": "kaedeharakazuha",
             "Kaeya": "kaeya",
             "Kamisato Ayaka": "kamisatoayaka",
             "Kamisato Ayato": "kamisatoayato",
@@ -4448,6 +4728,7 @@
             "Xiao": "xiao",
             "Xingqiu": "xingqiu",
             "Yae Miko": "yaemiko",
+            "Yanfei": "yanfei",
             "Yoimiya": "yoimiya",
             "Zhongli": "zhongli"
         },
@@ -4475,10 +4756,10 @@
                 "GCG_TAG_ELEMENT_ELECTRO",
                 "GCG_TAG_NATION_LIYUE",
                 "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU",
                 "GCG_TAG_ELEMENT_CRYO",
                 "GCG_TAG_ELEMENT_DENDRO",
-                "GCG_TAG_NATION_SUMERU",
-                "GCG_TAG_WEAPON_POLE",
                 "GCG_TAG_CAMP_FATUI",
                 "GCG_TAG_ELEMENT_ANEMO",
                 "GCG_TAG_CAMP_HILICHURL"

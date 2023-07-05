@@ -21,6 +21,13 @@
             "name": "Anemo DMG",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo DMG</color>"
         },
+        "arcaneedict": {
+            "description": "Selama duel berlangsung, setiap Pemain hanya dapat memainkan satu kartu Arcana.\nPemain hanya dapat memainkan kartu Arcana lagi jika Dekret masih berada di dalam arena. Setelah memainkan kartu Arcana, kesempatan menggunakan Dekret pada duel tersebut juga akan dihapus.",
+            "descriptionraw": "Selama duel berlangsung, setiap Pemain hanya dapat memainkan satu kartu {SPRITE_PRESET#3007}Arcana.\\nPemain hanya dapat memainkan kartu {SPRITE_PRESET#3007}Arcana lagi jika {SPRITE_PRESET#1112}Dekret masih berada di dalam arena. Setelah memainkan kartu {SPRITE_PRESET#3007}Arcana, kesempatan menggunakan {SPRITE_PRESET#1112}Dekret pada duel tersebut juga akan dihapus.",
+            "id": 311,
+            "name": "Dekret",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}Dekret</color>"
+        },
         "bloodblossom": {
             "description": "Tahap Selesai: Mengakibatkan 1 poin Pyro DMG terhadap Karakter yang terpengaruh.\nPenggunaan: 1",
             "descriptionraw": "<color=#FFFFFFFF>Tahap Selesai: </color>Mengakibatkan 1 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> terhadap Karakter yang terpengaruh.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 1</color>",
@@ -36,8 +43,8 @@
             "nameraw": "<color=#FFFFFFFF>Karakter Terdekat dengan Karakter Aktifmu</color>"
         },
         "chargedattack": {
-            "description": "Jika total Dadu Elemental berjumlah genap sebelum Tahap Aksi giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack.",
-            "descriptionraw": "Jika total Dadu Elemental berjumlah genap sebelum Tahap Aksi giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack.",
+            "description": "Jika total Dadu Elemental berjumlah genap sebelum Aksi Tempur giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack.",
+            "descriptionraw": "Jika total Dadu Elemental berjumlah genap sebelum Aksi Tempur giliranmu dimulai, maka Normal Attack yang digunakan akan dianggap sebagai Charged Attack.",
             "id": 51,
             "name": "Charged Attack",
             "nameraw": "<color=#FFFFFFFF>Charged Attack</color>"
@@ -113,8 +120,8 @@
             "nameraw": "<color=#7EC236FF>{SPRITE_PRESET#2107}Reaksi Terkait Dendro</color>"
         },
         "durationrounds": {
-            "description": "Setiap kali kamu mencapai Tahap Selesai Ronde, Durasi (Ronde) -1.\nKartu ini akan langsung dibuang setelah Durasi (Ronde) habis .",
-            "descriptionraw": "Setiap kali kamu mencapai Tahap Selesai Ronde, <color=#FFFFFFFF>Durasi (Ronde)</color> -1.\\nKartu ini akan langsung dibuang setelah <color=#FFFFFFFF>Durasi (Ronde)</color> habis .",
+            "description": "Setiap kali kamu mencapai Tahap Selesai di setiap Ronde, Durasi (Ronde) -1.\nKartu ini akan langsung dibuang setelah Durasi (Ronde) habis .",
+            "descriptionraw": "Setiap kali kamu mencapai Tahap Selesai di setiap Ronde, <color=#FFFFFFFF>Durasi (Ronde)</color> -1.\\nKartu ini akan langsung dibuang setelah <color=#FFFFFFFF>Durasi (Ronde)</color> habis .",
             "id": 4,
             "name": "Durasi (Ronde)",
             "nameraw": "<color=#FFFFFFFF>Durasi (Ronde)</color>"
@@ -197,11 +204,11 @@
             "nameraw": "{SPRITE_PRESET#1102}Hydro"
         },
         "hydroapplication": {
-            "description": "Saat Hydro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\nVaporize: Tidak berefek\nElectro-Charged: Tidak berefek\nFrozen: target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)\nBloom: menciptakan [Dendro Core] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya",
-            "descriptionraw": "Saat {SPRITE_PRESET#2102}Hydro diberikan tanpa mengakibatkan DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek mengakibatkan DMG:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: Tidak berefek\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: Tidak berefek\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: menciptakan [<color=#FFFFFFFF>Dendro Core</color>] yang memberikan +2 poin DMG ke kasus Pyro DMG atau Electro DMG berikutnya",
+            "description": "Saat menerima efek Hydro tanpa menerima DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek yang mengakibatkan DMG:\nVaporize: Tidak berefek\nElectro-Charged: Tidak berefek\nFrozen: Target tidak dapat melangkah di Ronde ini (Dapat dihapus jika target menerima Physical DMG atau Pyro DMG yang mengakibatkan DMG +2)\nBloom: menciptakan [Dendro Core] yang mengakibatkan DMG +2 untuk serangan Pyro DMG atau Electro DMG berikutnya",
+            "descriptionraw": "Saat menerima efek {SPRITE_PRESET#2102}Hydro tanpa menerima DMG apa pun, Reaksi Elemental yang terpicu akan mengabaikan efek yang mengakibatkan DMG:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: Tidak berefek\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: Tidak berefek\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: Target tidak dapat melangkah di Ronde ini (Dapat dihapus jika target menerima Physical DMG atau Pyro DMG yang mengakibatkan DMG +2)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: menciptakan [<color=#FFFFFFFF>Dendro Core</color>] yang mengakibatkan DMG +2 untuk serangan Pyro DMG atau Electro DMG berikutnya",
             "id": 202,
-            "name": "memberikan efek Hydro",
-            "nameraw": "<color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color>"
+            "name": "Memberikan efek Hydro",
+            "nameraw": "<color=#80C0FFFF>Memberikan efek {SPRITE_PRESET#2102}Hydro</color>|s1:<color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color>"
         },
         "hydrodmg": {
             "description": "Memberikan Hydro dan dapat memicu Reaksi Elemental berikut:\nVaporize: DMG +2 poin untuk kasus ini\nElectro-Charged: DMG +1 poin untuk kasus ini, mengakibatkan 1 poin Piercing DMG kepada seluruh Karakter lawan selain daripada target\nFrozen: DMG +1 poin untuk kasus ini, target tidak dapat melangkah di Ronde ini (Dapat dihapus di muka setelah target menerima Physical DMG atau Pyro DMG, namun DMG +2)\nBloom: DMG +1 poin untuk kasus ini, menciptakan sebuah [Dendro Core] yang memberikan +2 poin DMG untuk kasus Pyro/Electro DMG-mu selanjutnya",
@@ -253,25 +260,25 @@
             "nameraw": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>"
         },
         "piercingdmg": {
-            "description": "Piercing DMG tidak dapat dipengaruhi oleh Bonus DMG apa pun, namun tidak dapat dilawan oleh efek seperti Perisai dan kekebalan DMG.",
-            "descriptionraw": "Piercing DMG tidak dapat dipengaruhi oleh Bonus DMG apa pun, namun tidak dapat dilawan oleh efek seperti Perisai dan kekebalan DMG.",
+            "description": "Piercing DMG tidak dapat dipengaruhi oleh Bonus DMG apa pun, namun tidak dapat ditahan oleh efek seperti Perisai atau kekebalan DMG.",
+            "descriptionraw": "Piercing DMG tidak dapat dipengaruhi oleh Bonus DMG apa pun, namun tidak dapat ditahan oleh efek seperti Perisai atau kekebalan DMG.",
             "id": 5,
             "name": "Piercing DMG",
             "nameraw": "<color=#FFFFFFFF>Piercing DMG</color>"
         },
         "plungingattack": {
-            "description": "Setelah berganti ke Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, itu akan dianggap sebagai Plunging Attack.",
-            "descriptionraw": "Setelah berganti ke Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, itu akan dianggap sebagai Plunging Attack.",
+            "description": "Setelah berganti ke Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, maka akan dianggap sebagai Plunging Attack.",
+            "descriptionraw": "Setelah berganti ke Karakter Aktif, jika Aksi Tempur berikutnya di Ronde ini adalah Normal Attack, maka akan dianggap sebagai Plunging Attack.",
             "id": 52,
             "name": "Plunging Attack",
             "nameraw": "<color=#FFFFFFFF>Plunging Attack</color>"
         },
-        "prepareskill": {
-            "description": "Sebagian Skill tidak dapat langsung digunakan dan memerlukan persiapan yang harus diselesaikan dalam jumlah ronde yang ditentukan.\nJika Karakter Aktif yang digunakan sedang menjalankan persiapan ketika giliran Pemain dimulai, maka akan segera melewati Tahap Aksi Pemain tersebut. Ketika persiapan Skill sudah selesai, Karakter akan langsung melancarkan Skill tersebut.(Skill yang memerlukan persiapan tidak dapat memicu efek yang dipicu oleh Skill.)\nHanya Karakter Aktif yang dapat melakukan persiapan Skill. Jika Karakter Aktif yang sedang menjalankan persiapan Skill diganti, maka persiapan Skill akan terhenti.",
-            "descriptionraw": "Sebagian Skill tidak dapat langsung digunakan dan memerlukan <color=#FFFFFFFF>persiapan</color> yang harus diselesaikan dalam jumlah ronde yang ditentukan.\\nJika Karakter Aktif yang digunakan sedang menjalankan <color=#FFFFFFFF>persiapan</color> ketika giliran Pemain dimulai, maka akan segera melewati Tahap Aksi Pemain tersebut. Ketika <color=#FFFFFFFF>persiapan</color> Skill sudah selesai, Karakter akan langsung melancarkan Skill tersebut.(Skill yang memerlukan <color=#FFFFFFFF>persiapan</color> tidak dapat memicu efek yang dipicu oleh Skill.)\\nHanya Karakter Aktif yang dapat melakukan <color=#FFFFFFFF>persiapan</color> Skill. Jika Karakter Aktif yang sedang menjalankan <color=#FFFFFFFF>persiapan</color> Skill diganti, maka <color=#FFFFFFFF>persiapan</color> Skill akan terhenti.",
+        "prepareskills1prepares": {
+            "description": "Sebagian Skill tidak dapat langsung dilancarkan, tetapi memerlukan persiapan yang harus dijalani dalam jumlah giliran yang ditentukan.\nJika Karakter Aktif yang digunakan sedang menjalankan persiapan ketika giliran Pemain dimulai, maka giliran Tahap Aksi Pemain tersebut akan segera dilewati. Ketika persiapan Skill sudah selesai, Karakter akan langsung melancarkan Skill tersebut. (Skill yang memerlukan persiapan tidak dapat memicu efek yang dipicu oleh Skill.)\nHanya Karakter Aktif yang dapat melakukan persiapan Skill. Jika Karakter Aktif yang sedang menjalankan persiapan Skill diganti, maka persiapan Skill akan terhenti.",
+            "descriptionraw": "Sebagian Skill tidak dapat langsung dilancarkan, tetapi memerlukan <color=#FFFFFFFF>persiapan</color> yang harus dijalani dalam jumlah giliran yang ditentukan.\\nJika Karakter Aktif yang digunakan sedang menjalankan <color=#FFFFFFFF>persiapan</color> ketika giliran Pemain dimulai, maka giliran Tahap Aksi Pemain tersebut akan segera dilewati. Ketika <color=#FFFFFFFF>persiapan</color> Skill sudah selesai, Karakter akan langsung melancarkan Skill tersebut. (Skill yang memerlukan <color=#FFFFFFFF>persiapan</color> tidak dapat memicu efek yang dipicu oleh Skill.)\\nHanya Karakter Aktif yang dapat melakukan <color=#FFFFFFFF>persiapan</color> Skill. Jika Karakter Aktif yang sedang menjalankan <color=#FFFFFFFF>persiapan</color> Skill diganti, maka <color=#FFFFFFFF>persiapan</color> Skill akan terhenti.",
             "id": 53,
             "name": "Mempersiapkan Skill",
-            "nameraw": "<color=#FFFFFFFF>Mempersiapkan Skill</color>"
+            "nameraw": "<color=#FFFFFFFF>Mempersiapkan Skill</color>|s1:<color=#FFFFFFFF>mempersiapkan Skill</color>"
         },
         "pyro": {
             "description": "Habiskan Dadu Pyro yang sudah kamu lempar untuk membayar biaya ini.\n(Dadu Omni juga bisa digunakan untuk membayarnya.)",
@@ -315,9 +322,16 @@
             "name": "Riptide",
             "nameraw": "<color=#FFFFFFFF>Riptide</color>"
         },
+        "scarletseal": {
+            "description": "Saat Karakter melancarkan Charged Attack: Mengakibatkan DMG +2.\nPenggunaan: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Karakter melancarkan <color=#FFFFFFFF>Charged Attack</color>: </color>Mengakibatkan DMG +2.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 1</color>",
+            "id": 1010,
+            "name": "Scarlet Seal",
+            "nameraw": "<color=#FFFFFFFF>Scarlet Seal</color>"
+        },
         "shield": {
-            "description": "Saat Karakter pengguna Perisai ini menerima DMG, Perisai akan terkonsumsi untuk mengimbangi DMG tersebut.",
-            "descriptionraw": "Saat Karakter pengguna Perisai ini menerima DMG, Perisai akan terkonsumsi untuk mengimbangi DMG tersebut.",
+            "description": "Saat Karakter yang dilindungi Perisai menerima DMG, Perisai akan terkonsumsi untuk menahan DMG yang diterima.",
+            "descriptionraw": "Saat Karakter yang dilindungi Perisai menerima DMG, Perisai akan terkonsumsi untuk menahan DMG yang diterima.",
             "id": 6,
             "name": "Perisai",
             "nameraw": "{SPRITE_PRESET#4007}<color=#FFFFFFFF>Perisai</color>"
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "Aegis of Abyssal Flame",
             "anemo": "Anemo",
             "anemodmg": "Anemo DMG",
+            "arcaneedict": "Dekret",
             "bloodblossom": "Blood Blossom",
             "characterclosesttoyourcurrentactivecharacter": "Karakter Terdekat dengan Karakter Aktifmu",
             "chargedattack": "Charged Attack",
@@ -376,7 +391,7 @@
             "geo": "Geo",
             "geodmg": "Geo DMG",
             "hydro": "Hydro",
-            "hydroapplication": "memberikan efek Hydro",
+            "hydroapplication": "Memberikan efek Hydro",
             "hydrodmg": "Hydro DMG",
             "hydrorelatedreactions": "Reaksi Terkait Hydro",
             "immunitytodefeats1willnotbedefeated": "tidak gugur",
@@ -386,13 +401,14 @@
             "physicaldmg": "Physical DMG",
             "piercingdmg": "Piercing DMG",
             "plungingattack": "Plunging Attack",
-            "prepareskill": "Mempersiapkan Skill",
+            "prepareskills1prepares": "Mempersiapkan Skill",
             "pyro": "Pyro",
             "pyroapplication": "memberikan efek Pyro",
             "pyrodmg": "Pyro DMG",
             "pyrorelatedreactions": "Reaksi Terkait Pyro",
             "randomhilichurlsummon": "Hilichurl Panggilan Acak",
             "riptide": "Riptide",
+            "scarletseal": "Scarlet Seal",
             "shield": "Perisai",
             "superlativesuperstrength": "Superlative Superstrength",
             "unalignedelement": "Elemen Tidak Selaras",
@@ -410,6 +426,7 @@
             "Crowfeather Cover": "crowfeathercover",
             "Cryo": "cryo",
             "Cryo DMG": "cryodmg",
+            "Dekret": "arcaneedict",
             "Dendro": "dendro",
             "Dendro DMG": "dendrodmg",
             "Durasi (Ronde)": "durationrounds",
@@ -428,7 +445,8 @@
             "Hydro": "hydro",
             "Hydro DMG": "hydrodmg",
             "Karakter Terdekat dengan Karakter Aktifmu": "characterclosesttoyourcurrentactivecharacter",
-            "Mempersiapkan Skill": "prepareskill",
+            "Memberikan efek Hydro": "hydroapplication",
+            "Mempersiapkan Skill": "prepareskills1prepares",
             "Passive Skill": "passiveskill",
             "Penggunaan": "usages",
             "Perisai": "shield",
@@ -441,11 +459,11 @@
             "Reaksi Terkait Hydro": "hydrorelatedreactions",
             "Reaksi Terkait Pyro": "pyrorelatedreactions",
             "Riptide": "riptide",
+            "Scarlet Seal": "scarletseal",
             "Superlative Superstrength": "superlativesuperstrength",
             "memberikan efek Cryo": "cryoapplication",
             "memberikan efek Dendro": "dendroapplication",
             "memberikan efek Electro": "electroapplication",
-            "memberikan efek Hydro": "hydroapplication",
             "memberikan efek Pyro": "pyroapplication",
             "tidak gugur": "immunitytodefeats1willnotbedefeated"
         },

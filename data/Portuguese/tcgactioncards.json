@@ -142,6 +142,29 @@
                 "Arco"
             ]
         },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carta de Evento",
+            "description": "Você deve ter um personagem que já equipou uma Arma ou Artefato: Na próxima vez que você equipar uma Arma ou Artefato nesta Rodada: Usa 2 Dados Elementais a menos.\n(Apenas uma carta Lenda Arcana pode ser jogada em toda a partida. Esta carta estará na sua mão inicial.)",
+            "descriptionraw": "<color=#FFFFFFFF>Você deve ter um personagem que já equipou uma {SPRITE_PRESET#3003}Arma ou {SPRITE_PRESET#3004}Artefato: Na próxima vez que você equipar uma {SPRITE_PRESET#3003}Arma ou {SPRITE_PRESET#3004}Artefato nesta Rodada:</color> Usa 2 Dados Elementais a menos.\\n(Apenas uma carta {SPRITE_PRESET#3007}Lenda Arcana pode ser jogada em toda a partida. Esta carta estará na sua mão inicial.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Você deve ter um personagem que já equipou uma {SPRITE_PRESET#3003}Arma ou {SPRITE_PRESET#3004}Artefato: Na próxima vez que você equipar uma {SPRITE_PRESET#3003}Arma ou {SPRITE_PRESET#3004}Artefato nesta Rodada:</color> Usa 2 Dados Elementais a menos.\\n(Apenas uma carta {SPRITE_PRESET#3007}Lenda Arcana pode ser jogada em toda a partida. Esta carta estará na sua mão inicial.)",
+            "id": 330001,
+            "name": "Pátio Antigo",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"A vida mortal não é uma casca vazia, assim como um sonho?\"",
+            "storytitle": "Pátio Antigo",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Lenda Arcana"
+            ]
+        },
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de Equipamento",
@@ -615,6 +638,29 @@
             "tagstext": [
                 "Talento",
                 "Ação de Combate"
+            ]
+        },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carta de Evento",
+            "description": "Pode apenas ser jogada quando você não tiver nenhum Dado Elemental restante: Gera 2 Dados Elementais diferentes.\n(Apenas uma carta Lenda Arcana pode ser jogada em toda a partida. Esta carta estará na sua mão inicial.)",
+            "descriptionraw": "<color=#FFFFFFFF>Pode apenas ser jogada quando você não tiver nenhum Dado Elemental restante:</color> Gera 2 Dados Elementais diferentes.\\n(Apenas uma carta {SPRITE_PRESET#3007}Lenda Arcana pode ser jogada em toda a partida. Esta carta estará na sua mão inicial.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Pode apenas ser jogada quando você não tiver nenhum Dado Elemental restante:</color> Gera 2 Dados Elementais diferentes.\\n(Apenas uma carta {SPRITE_PRESET#3007}Lenda Arcana pode ser jogada em toda a partida. Esta carta estará na sua mão inicial.)",
+            "id": 330002,
+            "name": "Aliança Rochosa",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Rex Lapis concedeu a ele um par de olhos para ver o mundo e chegou a um acordo com ele. O dragão então acompanhou o Senhor do Geo, lutando em campanhas ao lado dele nos quatro cantos do mundo...\"",
+            "storytitle": "Aliança Rochosa",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Lenda Arcana"
             ]
         },
         "crimsonwitchofflames": {
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de Equipamento",
+            "description": "Este personagem causa +1 de Dano.\nAo entrar em campo: Saque 2 cartas.\n(Pode ser equipada apenas por personagens usuários de Catalisador. Cada personagem pode equipar até 1 Arma)",
+            "descriptionraw": "<color=#FFFFFFFF>Este personagem causa +1 de Dano</color>.\\n<color=#FFFFFFFF>Ao entrar em campo:</color> Saque 2 cartas.\\n(Pode ser equipada apenas por <color=#FFFFFFFF>personagens usuários de {SPRITE_PRESET#3201}Catalisador</color>. Cada personagem pode equipar até 1 {SPRITE_PRESET#3003}Arma)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Este personagem causa +1 de Dano</color>.\\n<color=#FFFFFFFF>Ao entrar em campo:</color> Saque 2 cartas.\\n(Pode ser equipada apenas por <color=#FFFFFFFF>personagens usuários de {SPRITE_PRESET#3201}Catalisador</color>. Cada personagem pode equipar até 1 {SPRITE_PRESET#3003}Arma)",
+            "id": 311105,
+            "name": "Fruto da Abundância",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "\"Até as histórias mais amargas contém coragem e força... a história das aventuras {M#do bom Nara Dourado}{F#da boa Nara Dourada} com a gente vai ajudar {M#o bom}{F#a boa} Nara a defender a floresta.\"",
+            "storytitle": "Plenitude Lunar - Fruto da Abundância",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "Arma",
+                "Catalisador"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de Equipamento",
-            "description": "Após o Personagem em Combate derrota um personagem do oponente: Cria 2 Dados Elemento Omni.\n(Cada personagem pode equipar no máximo 1 Artefato)",
-            "descriptionraw": "<color=#FFFFFFFF>Após o Personagem em Combate derrota um personagem do oponente:</color> Cria 2 Dados $[K411].\\n(Cada personagem pode equipar no máximo 1 {SPRITE_PRESET#3004}Artefato)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Após o Personagem em Combate derrota um personagem do oponente:</color> Cria 2 Dados <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemento Omni</color>.\\n(Cada personagem pode equipar no máximo 1 {SPRITE_PRESET#3004}Artefato)",
+            "description": "Após um personagem adversário ser derrotado: Se o personagem com o efeito desta carta for o Personagem em Combate, cria 2 Elemento Omni. (Pode acontecer 3 vezes por partida)\n(Um personagem pode equipar até 1 Artefato)",
+            "descriptionraw": "<color=#FFFFFFFF>Após um personagem adversário ser derrotado:</color> Se o personagem com o efeito desta carta for o Personagem em Combate, cria 2 $[K411]. (Pode acontecer 3 vezes por partida)\\n(Um personagem pode equipar até 1 {SPRITE_PRESET#3004}Artefato)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Após um personagem adversário ser derrotado:</color> Se o personagem com o efeito desta carta for o Personagem em Combate, cria 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemento Omni</color>. (Pode acontecer 3 vezes por partida)\\n(Um personagem pode equipar até 1 {SPRITE_PRESET#3004}Artefato)",
             "id": 312004,
             "name": "Brincos de Apostador",
             "playcost": [
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de Equipamento",
-            "description": "Ações de Combate: Equipe esta carta quando seu Personagem em Combate for Noelle.\nApós equipar esta carta, Noelle instantaneamente usará Guardião do Coração uma vez.\nQuando Noelle usar Armadura Protetora com esta carta equipada, após Noelle usar Ataque Normal, cura 1 ponto de Vida de todos os seus personagens. (1 vez por turno)\n(Essa carta só pode ser colocada em Decks que incluam Noelle)",
-            "descriptionraw": "$[K1]: Equipe esta carta quando seu Personagem em Combate for <color=#FFFFFFFF>$[A1602]</color>.\\nApós equipar esta carta, $[A1602] instantaneamente usará <color=#FFD780FF>$[S16022]</color> uma vez.\\nQuando $[A1602] usar <color=#FFFFFFFF>$[C116021]</color> com esta carta equipada, após $[A1602] usar <color=#FFFFFFFF>Ataque Normal</color>, cura 1 ponto de Vida de todos os seus personagens. (1 vez por turno)\\n(Essa carta só pode ser colocada em Decks que incluam $[A1602])",
-            "descriptionreplaced": "<color=#FFFFFFFF>Ações de Combate</color>: Equipe esta carta quando seu Personagem em Combate for <color=#FFFFFFFF>Noelle</color>.\\nApós equipar esta carta, Noelle instantaneamente usará <color=#FFD780FF>Guardião do Coração</color> uma vez.\\nQuando Noelle usar <color=#FFFFFFFF>Armadura Protetora</color> com esta carta equipada, após Noelle usar <color=#FFFFFFFF>Ataque Normal</color>, cura 1 ponto de Vida de todos os seus personagens. (1 vez por turno)\\n(Essa carta só pode ser colocada em Decks que incluam Noelle)",
+            "description": "Ações de Combate: Equipe esta carta quando seu Personagem em Combate for Noelle.\nApós equipar esta carta, Noelle instantaneamente usará Guardião do Coração uma vez.\nApós Noelle usar Ataque Normal: Se esta carta e Armadura Protetora ainda estiverem em campo, cura 1 ponto de Vida de todos os seus personagens. (1 vez por turno)\n(Essa carta só pode ser colocada em Decks que incluam Noelle)",
+            "descriptionraw": "$[K1]: Equipe esta carta quando seu Personagem em Combate for <color=#FFFFFFFF>$[A1602]</color>.\\nApós equipar esta carta, $[A1602] instantaneamente usará <color=#FFD780FF>$[S16022]</color> uma vez.\\nApós $[A1602] usar <color=#FFFFFFFF>Ataque Normal</color>: Se esta carta e <color=#FFFFFFFF>$[C116021]</color> ainda estiverem em campo, cura 1 ponto de Vida de todos os seus personagens. (1 vez por turno)\\n(Essa carta só pode ser colocada em Decks que incluam $[A1602])",
+            "descriptionreplaced": "<color=#FFFFFFFF>Ações de Combate</color>: Equipe esta carta quando seu Personagem em Combate for <color=#FFFFFFFF>Noelle</color>.\\nApós equipar esta carta, Noelle instantaneamente usará <color=#FFD780FF>Guardião do Coração</color> uma vez.\\nApós Noelle usar <color=#FFFFFFFF>Ataque Normal</color>: Se esta carta e <color=#FFFFFFFF>Armadura Protetora</color> ainda estiverem em campo, cura 1 ponto de Vida de todos os seus personagens. (1 vez por turno)\\n(Essa carta só pode ser colocada em Decks que incluam Noelle)",
             "id": 216021,
             "name": "Estou na sua Retaguarda",
             "playcost": [
@@ -2541,6 +2612,54 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de Suporte",
+            "description": "Quando seu personagem usa um Ataque Carregado: +1 de Dano causado. Saque 1 carta após a finalização.",
+            "descriptionraw": "<color=#FFFFFFFF>Quando seu personagem usa um $[K51]: </color>+1 de Dano causado. Saque 1 carta após a finalização.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando seu personagem usa um <color=#FFFFFFFF>Ataque Carregado</color>: </color>+1 de Dano causado. Saque 1 carta após a finalização.",
+            "id": 423020,
+            "name": "Talismã da Maestria - Armas e Armadura Aperfeiçoada",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de Suporte",
+            "description": "Quando seu personagem equipado com uma Arma e um Artefato usa uma Habilidade: Use 3 Dados Elementais a menos. (Uma vez por Turno)",
+            "descriptionraw": "<color=#FFFFFFFF>Quando seu personagem equipado com uma {SPRITE_PRESET#3003}Arma e um {SPRITE_PRESET#3004}Artefato usa uma Habilidade:</color> Use 3 Dados Elementais a menos. (Uma vez por Turno)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando seu personagem equipado com uma {SPRITE_PRESET#3003}Arma e um {SPRITE_PRESET#3004}Artefato usa uma Habilidade:</color> Use 3 Dados Elementais a menos. (Uma vez por Turno)",
+            "id": 423021,
+            "name": "Talismã da Maestria - Pronto para a Batalha",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de Suporte",
+            "description": "Quando um personagem adversário é derrotado: Causa 1 de Dano Perfurante a todos os personagens adversários.",
+            "descriptionraw": "<color=#FFFFFFFF>Quando um personagem adversário é derrotado:</color> Causa 1 de $[K5] a todos os personagens adversários.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando um personagem adversário é derrotado:</color> Causa 1 de <color=#FFFFFFFF>Dano Perfurante</color> a todos os personagens adversários.",
+            "id": 423022,
+            "name": "Talismã da Maestria - Derrota em Cascata",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de Suporte",
+            "description": "Após um personagem adversário receber dano de uma Reação Elemental: Crie 1 Elemento Omni. (Pode ser ativada até 3 vezes por Turno)",
+            "descriptionraw": "<color=#FFFFFFFF>Após um personagem adversário receber dano de uma Reação Elemental:</color> Crie 1 $[K411]. (Pode ser ativada até 3 vezes por Turno)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Após um personagem adversário receber dano de uma Reação Elemental:</color> Crie 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemento Omni</color>. (Pode ser ativada até 3 vezes por Turno)",
+            "id": 423023,
+            "name": "Talismã da Maestria - Bandeiras Caóticas",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carta de Suporte",
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de Suporte",
+            "description": "Quando uma Carta de Arma ou Artefato com um custo de pelo menos 3 for jogada: Use 3 Dados Elementais a menos. (Uma vez por Turno)",
+            "descriptionraw": "<color=#FFFFFFFF>Quando uma Carta de {SPRITE_PRESET#3003}Arma ou {SPRITE_PRESET#3004}Artefato com um custo de pelo menos 3 for jogada:</color> Use 3 Dados Elementais a menos. (Uma vez por Turno)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando uma Carta de {SPRITE_PRESET#3003}Arma ou {SPRITE_PRESET#3004}Artefato com um custo de pelo menos 3 for jogada:</color> Use 3 Dados Elementais a menos. (Uma vez por Turno)",
+            "id": 423019,
+            "name": "Talismã da Maestria - Planejamento Extensivo",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carta de Suporte",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Após um personagem adversário ser derrotado:</color> Crie 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemento Omni</color> e saque 1 carta.",
             "id": 423007,
             "name": "Talismã da Maestria - Avanço Triunfante",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de Suporte",
+            "description": "Após seu personagem usar uma habilidade: Cria uma Mina de Emboscada do elemento do personagem no lado adversário do campo. A Mina de Emboscada causará 1 de Dano daquele elemento correspondente após os reforços adversários entrarem em jogo.",
+            "descriptionraw": "<color=#FFFFFFFF>Após seu personagem usar uma habilidade:</color> Cria uma Mina de Emboscada do elemento do personagem no lado adversário do campo. A Mina de Emboscada causará 1 de Dano daquele elemento correspondente após os reforços adversários entrarem em jogo.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Após seu personagem usar uma habilidade:</color> Cria uma Mina de Emboscada do elemento do personagem no lado adversário do campo. A Mina de Emboscada causará 1 de Dano daquele elemento correspondente após os reforços adversários entrarem em jogo.",
+            "id": 423024,
+            "name": "Talismã da Maestria - Emboscada Inesperada",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de Suporte",
+            "description": "Quando um personagem adversário for derrotado: Saque 1 carta. Seu Personagem em Combate atual causa +1 de Dano durante esta partida. Máximo de acúmulo de +3 de Dano.",
+            "descriptionraw": "<color=#FFFFFFFF>Quando um personagem adversário for derrotado:</color> Saque 1 carta. Seu Personagem em Combate atual causa +1 de Dano durante esta partida. Máximo de acúmulo de +3 de Dano.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando um personagem adversário for derrotado:</color> Saque 1 carta. Seu Personagem em Combate atual causa +1 de Dano durante esta partida. Máximo de acúmulo de +3 de Dano.",
+            "id": 423018,
+            "name": "Talismã da Maestria - Renome Vitorioso",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de Suporte",
+            "description": "Quando você jogar uma Arma da sua mão: Use 1 Dado Elemental a menos. Para cada personagem já equipado com uma Arma no campo, você usa 1 Dado Elemental a menos. (Uma vez por Turno.)",
+            "descriptionraw": "<color=#FFFFFFFF>Quando você jogar uma {SPRITE_PRESET#3003}Arma da sua mão:</color> Use 1 Dado Elemental a menos. Para cada personagem já equipado com uma {SPRITE_PRESET#3003}Arma no campo, você usa 1 Dado Elemental a menos. (Uma vez por Turno.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando você jogar uma {SPRITE_PRESET#3003}Arma da sua mão:</color> Use 1 Dado Elemental a menos. Para cada personagem já equipado com uma {SPRITE_PRESET#3003}Arma no campo, você usa 1 Dado Elemental a menos. (Uma vez por Turno.)",
+            "id": 322018,
+            "name": "Mestre Zhang",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Muita frustração ardente deve transpirar antes que um pedaço de metal possa se tornar uma lâmina afiada.",
+            "storytitle": "Forja do Arsenal - Mestre Zhang",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Companheiro"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -3025,6 +3203,32 @@
                 "Ação de Combate"
             ]
         },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de Equipamento",
+            "description": "Ações de Combate: Quando Kaedehara Kazuha for seu Personagem em Combate, equipe esta carta.\nApós Kaedehara Kazuha equipar esta carta, ele imediatamente usará Chihayaburu uma vez.\nQuando Kaedehara Kazuha desencadeia Redemoinho com esta carta equipada: Por 2 Rodadas, seus personagens e invocações causarão +1 de Dano do Tipo Elemental resultante do Redemoinho. (Cada Tipo Elemental tem uma duração independente)\n(Você deve ter Kaedehara Kazuha em seu deck para adicionar esta carta a ele.)",
+            "descriptionraw": "$[K1]: Quando <color=#FFFFFFFF>$[A1505]</color> for seu Personagem em Combate, equipe esta carta.\\nApós $[A1505] equipar esta carta, ele imediatamente usará <color=#FFD780FF>$[S15052]</color> uma vez.\\nQuando $[A1505] desencadeia Redemoinho com esta carta equipada: Por 2 Rodadas, seus personagens e invocações causarão +1 de Dano do Tipo Elemental resultante do Redemoinho. (Cada Tipo Elemental tem uma duração independente)\\n(Você deve ter $[A1505] em seu deck para adicionar esta carta a ele.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Ações de Combate</color>: Quando <color=#FFFFFFFF>Kaedehara Kazuha</color> for seu Personagem em Combate, equipe esta carta.\\nApós Kaedehara Kazuha equipar esta carta, ele imediatamente usará <color=#FFD780FF>Chihayaburu</color> uma vez.\\nQuando Kaedehara Kazuha desencadeia Redemoinho com esta carta equipada: Por 2 Rodadas, seus personagens e invocações causarão +1 de Dano do Tipo Elemental resultante do Redemoinho. (Cada Tipo Elemental tem uma duração independente)\\n(Você deve ter Kaedehara Kazuha em seu deck para adicionar esta carta a ele.)",
+            "id": 215051,
+            "name": "Poesia de Fuubutsu",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "Recompensa por desafiar Kaedehara Kazuha para um duelo na Cauda do Gato e conquistar todos os objetivos de desafio correspondentes",
+            "storytext": "Há um toque elegante nessa partida.\nSe nada mais, ambos os lados podem reconhecer a derrota sem arrependimentos.",
+            "storytitle": "Kaedehara Kazuha - Poesia de Fuubutsu",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
+                "Ação de Combate"
+            ]
+        },
         "poundingsurprise": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de Equipamento",
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "Ítem"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carta de Evento",
+            "description": "Na próxima vez que você jogar uma Arma ou Artefato da sua mão: Use 1 Dado Elemental a menos.",
+            "descriptionraw": "<color=#FFFFFFFF>Na próxima vez que você jogar uma {SPRITE_PRESET#3003}Arma ou {SPRITE_PRESET#3004}Artefato da sua mão:</color> Use 1 Dado Elemental a menos.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Na próxima vez que você jogar uma {SPRITE_PRESET#3003}Arma ou {SPRITE_PRESET#3004}Artefato da sua mão:</color> Use 1 Dado Elemental a menos.",
+            "id": 332021,
+            "name": "Melodia do Sonho",
+            "playcost": [],
+            "storytext": "\"Entre em nossos sonhos, nosso mundo.\"\n\"Escreva ações bondosos, corajosos e honestos.\"",
+            "storytitle": "Melodia do Sonho",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de Equipamento",
+            "description": "Ações de Combate: Quando Yanfei for seu Personagem em Combate, equipe esta carta.\nApós Yanfei equipar esta carta, usa imediatamente Selo Ardente uma vez.\nQuando Yanfei realizar um Ataque Carregado com esta carta equipada: Causa +1 de Dano a inimigos com 6 ou menos de Vida.\n(Você deve ter Yanfei em seu deck para adicionar esta carta a ele.)",
+            "descriptionraw": "$[K1]: Quando <color=#FFFFFFFF>$[A1308]</color> for seu Personagem em Combate, equipe esta carta.\\nApós $[A1308] equipar esta carta, usa imediatamente <color=#FFD780FF>$[S13081]</color> uma vez.\\nQuando $[A1308] realizar um $[K51] com esta carta equipada: Causa +1 de Dano a inimigos com 6 ou menos de Vida.\\n(Você deve ter $[A1308] em seu deck para adicionar esta carta a ele.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Ações de Combate</color>: Quando <color=#FFFFFFFF>Yanfei</color> for seu Personagem em Combate, equipe esta carta.\\nApós Yanfei equipar esta carta, usa imediatamente <color=#FFD780FF>Selo Ardente</color> uma vez.\\nQuando Yanfei realizar um <color=#FFFFFFFF>Ataque Carregado</color> com esta carta equipada: Causa +1 de Dano a inimigos com 6 ou menos de Vida.\\n(Você deve ter Yanfei em seu deck para adicionar esta carta a ele.)",
+            "id": 213081,
+            "name": "Direito de Interpretação Final",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "Recompensa por desafiar Yanfei para um duelo na Cauda do Gato e conquistar todos os objetivos de desafio correspondentes",
+            "storytext": "\"Quanto à questão das cartas, é possível afirmar que todas as ações são permitidas, desde que não infrinjam as regras estabelecidas.\"",
+            "storytitle": "Yanfei - Direito de Interpretação Final",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
+                "Ação de Combate"
             ]
         },
         "sacrificialbow": {
@@ -4019,6 +4267,36 @@
             "storytitle": "Desejo Inabalável",
             "tags": [],
             "tagstext": []
+        },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de Equipamento",
+            "description": "Ações de Combate: Quando Candace for seu Personagem em Combate, equipe esta carta.\nApós Candace equipar esta carta, usa imediatamente Ritual Sagrado: Maré dos Alvéolas uma vez.\nQuando esta carta for equipada por Candace, a Súplica da Coroa Escarlate dela tem o seguinte efeito extra: Após seu personagem usar um Ataque Normal: Causa 1 de Dano Hydro. (Uma vez por Turno)\n(Você deve ter Candace em seu deck para equipar esta carta a ele.)",
+            "descriptionraw": "$[K1]: Quando <color=#FFFFFFFF>$[A1207]</color> for seu Personagem em Combate, equipe esta carta.\\nApós $[A1207] equipar esta carta, usa imediatamente <color=#FFD780FF>$[S12073]</color> uma vez.\\nQuando esta carta for equipada por $[A1207], a <color=#FFFFFFFF>$[C112072]</color> dela tem o seguinte efeito extra: <color=#FFFFFFFF>Após seu personagem usar um Ataque Normal: </color>Causa 1 de $[K102]. (Uma vez por Turno)\\n(Você deve ter $[A1207] em seu deck para equipar esta carta a ele.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Ações de Combate</color>: Quando <color=#FFFFFFFF>Candace</color> for seu Personagem em Combate, equipe esta carta.\\nApós Candace equipar esta carta, usa imediatamente <color=#FFD780FF>Ritual Sagrado: Maré dos Alvéolas</color> uma vez.\\nQuando esta carta for equipada por Candace, a <color=#FFFFFFFF>Súplica da Coroa Escarlate</color> dela tem o seguinte efeito extra: <color=#FFFFFFFF>Após seu personagem usar um Ataque Normal: </color>Causa 1 de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>. (Uma vez por Turno)\\n(Você deve ter Candace em seu deck para equipar esta carta a ele.)",
+            "id": 212071,
+            "name": "Inundação",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "Recompensa por desafiar Candace para um duelo na Cauda do Gato e conquistar todos os objetivos de desafio correspondentes",
+            "storytext": "Aqueles que não respeitam os regulamentos das cartas...\nSão inimigos de todos que amam o jogo.",
+            "storytitle": "Candace - Inundação",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
+                "Ação de Combate"
+            ]
         },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "Tentação de Adeptus",
             "adventurersbandana": "Bandana de Aventureiro",
             "amosbow": "Arco de Amos",
+            "ancientcourtyard": "Pátio Antigo",
             "aquilafavonia": "Falcão",
             "aratakiichiban": "Arataki Ichiban",
             "archaicpetra": "Pedra Arcaica",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "Olhar Gelado Cicin",
             "coldbloodedstrike": "Espada do Sangue Frio",
             "conquerorofevilguardianyaksha": "Conquistador do Mal - Guardião Yaksha",
+            "covenantofrock": "Aliança Rochosa",
             "crimsonwitchofflames": "A Bruxa das Chamas Carmesim",
             "crossfire": "Fogo Cruzado",
             "dawnwinery": "Adega do Alvorecer",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "Retorno Floral",
             "flowingflame": "Chamas Fluidas",
             "friendshipeternal": "Amizade Eterna",
+            "fruitoffulfillment": "Fruto da Abundância",
             "gamblersearrings": "Brincos de Apostador",
             "generalsancienthelm": "Capacete do Comandante",
             "giantmutationstone": "Pedras da Transmutação Gigantes",
@@ -5699,6 +6019,10 @@
             "magicguide": "Guia de Magia",
             "maskofsolitudebasalt": "Imagem de uma Pedra Imóvel",
             "masterofweaponry": "Mestre do Armamento",
+            "masterytalismanarmsandarmorhoned": "Talismã da Maestria - Armas e Armadura Aperfeiçoada",
+            "masterytalismanbattleready": "Talismã da Maestria - Pronto para a Batalha",
+            "masterytalismancascadingdefeat": "Talismã da Maestria - Derrota em Cascata",
+            "masterytalismanchaoticbanners": "Talismã da Maestria - Bandeiras Caóticas",
             "masterytalismancoldwar": "Talismã da Maestria - Guerra Fria",
             "masterytalismancyclecharge": "Talismã da Maestria - Estratégia Cíclica",
             "masterytalismandecisivebattle": "Talismã da Maestria - Batalha Decisiva",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "Talismã da Maestria - Explosão Estendida",
             "masterytalismanimmovable": "Talismã da Maestria - Imóvel",
             "masterytalismanintelligenceupdate": "Talismã da Maestria - Atualização de Informações",
+            "masterytalismanplanninglongterm": "Talismã da Maestria - Planejamento Extensivo",
             "masterytalismanpracticemakesperfect": "Talismã da Maestria - Prática Leva à Perfeição",
             "masterytalismanpresstheattack": "Talismã da Maestria - Avanço Triunfante",
+            "masterytalismansuddenambush": "Talismã da Maestria - Emboscada Inesperada",
             "masterytalismansurgingvigor": "Talismã da Maestria - Vigor Emergente",
             "masterytalismantheelementsentwined": "Talismã da Maestria - Elementos Entrelaçados",
+            "masterytalismanvictoriousrepute": "Talismã da Maestria - Renome Vitorioso",
+            "masterzhang": "Mestre Zhang",
             "mintymeatrolls": "Enroladinho de Carne com Menta",
             "mirrorcage": "Gaiola de Espelhos",
             "mondstadthashbrown": "Bolinho de Batata de Mondstadt",
@@ -5726,6 +6054,7 @@
             "paimon": "Paimon",
             "parametrictransformer": "Transformador Paramétrico",
             "plungingstrike": "Ataque Imersivo",
+            "poeticsoffuubutsu": "Poesia de Fuubutsu",
             "poundingsurprise": "Presente Explosivo",
             "proliferatingspores": "Crescimento de Esporos",
             "prophecyofsubmersion": "Profecia da Submersão",
@@ -5733,6 +6062,8 @@
             "rana": "Rana",
             "ravenbow": "Arco de Corvo",
             "redfeatherfan": "Abanador de Penas Vermelhas",
+            "rhythmofthegreatdream": "Melodia do Sonho",
+            "rightoffinalinterpretation": "Direito de Interpretação Final",
             "sacrificialbow": "Arco do Sacrifício",
             "sacrificialfragments": "Memórias de Sacrifício",
             "sacrificialgreatsword": "Espadão do Sacrifício",
@@ -5767,6 +6098,7 @@
             "thebell": "O Sino",
             "thebestesttravelcompanion": "A Melhor Companheira!",
             "thelegendofvennessa": "A Lenda de Vennessa",
+            "theoverflow": "Inundação",
             "thescentremained": "O Aroma Remanescente",
             "theseedofstoredknowledge": "Semente do Conhecimento",
             "theshrinessacredshade": "Sombra Sagrada",
@@ -5816,6 +6148,7 @@
             "Adega do Alvorecer": "dawnwinery",
             "Ainda não fui derrotado!": "ihaventlostyet",
             "Albergue Wangshu": "wangshuinn",
+            "Aliança Rochosa": "covenantofrock",
             "Além-Vida Cinábrio": "vermillionhereafter",
             "Amizade Eterna": "friendshipeternal",
             "Arataki Ichiban": "aratakiichiban",
@@ -5886,6 +6219,7 @@
             "Desordem das Linhas Ley - Videiras": "leylinedisorderovergrowth",
             "Despertamento": "awakening",
             "Diadema Láurea": "laurelcoronet",
+            "Direito de Interpretação Final": "rightoffinalinterpretation",
             "Domínio da Terra": "dominanceofearth",
             "Dunyarzad": "dunyarzad",
             "Eco do Inverno": "brokenrimesecho",
@@ -5908,6 +6242,7 @@
             "Frango Assado Tandoori": "tandooriroastchicken",
             "Frango Assado com Mel": "sweetmadame",
             "Frango Defumado do Norte": "northernsmokedchicken",
+            "Fruto da Abundância": "fruitoffulfillment",
             "Gaiola de Espelhos": "mirrorcage",
             "Garoto Kujirai": "kidkujirai",
             "Garra de Gato Tremendo de Frio": "shakennotpurred",
@@ -5922,6 +6257,7 @@
             "Herói Invernal": "blizzardstrayer",
             "Hora da Troca": "changingshifts",
             "Imagem de uma Pedra Imóvel": "maskofsolitudebasalt",
+            "Inundação": "theoverflow",
             "Julgamento das Plumas": "featherfalljudgment",
             "Juramento da Justiça": "guardiansoath",
             "Katheryne": "katheryne",
@@ -5932,9 +6268,11 @@
             "Liben": "liben",
             "Liusu": "liusu",
             "Luz do Cortador de Grama": "engulfinglightning",
+            "Melodia do Sonho": "rhythmofthegreatdream",
             "Memórias da Floresta": "deepwoodmemories",
             "Memórias de Sacrifício": "sacrificialfragments",
             "Mestra Estrategista": "strategize",
+            "Mestre Zhang": "masterzhang",
             "Mestre do Armamento": "masterofweaponry",
             "Meu Mundo": "sinofpride",
             "Millelith Firmes": "tenacityofthemillelith",
@@ -5958,6 +6296,7 @@
             "Perfuradora Prismática": "vortexvanquisher",
             "Pizza de Cogumelos": "mushroompizza",
             "Planta e Sabedoria": "natureandwisdom",
+            "Poesia de Fuubutsu": "poeticsoffuubutsu",
             "Porto de Liyue": "liyueharborwharf",
             "Postura Eletrizante": "thunderingpoise",
             "Prato de Sashimi": "sashimiplatter",
@@ -5967,6 +6306,7 @@
             "Prisma Absorvente": "absorbingprism",
             "Profecia da Submersão": "prophecyofsubmersion",
             "Profundezas do Coração": "heartofdepth",
+            "Pátio Antigo": "ancientcourtyard",
             "Quepe de Capitão Manchado de Vinho": "winestainedtricorne",
             "Rana": "rana",
             "Recuperar Tudo": "paidinfull",
@@ -6000,15 +6340,22 @@
             "Sombra Verde": "viridescentvenerer",
             "Sonhos Flutuantes das Mil Noites": "athousandfloatingdreams",
             "Talismã da Maestria - Abordagem Dupla": "masterytalismandualprongedapproach",
+            "Talismã da Maestria - Armas e Armadura Aperfeiçoada": "masterytalismanarmsandarmorhoned",
             "Talismã da Maestria - Atualização de Informações": "masterytalismanintelligenceupdate",
             "Talismã da Maestria - Avanço Triunfante": "masterytalismanpresstheattack",
+            "Talismã da Maestria - Bandeiras Caóticas": "masterytalismanchaoticbanners",
             "Talismã da Maestria - Batalha Decisiva": "masterytalismandecisivebattle",
+            "Talismã da Maestria - Derrota em Cascata": "masterytalismancascadingdefeat",
             "Talismã da Maestria - Elementos Entrelaçados": "masterytalismantheelementsentwined",
+            "Talismã da Maestria - Emboscada Inesperada": "masterytalismansuddenambush",
             "Talismã da Maestria - Estratégia Cíclica": "masterytalismancyclecharge",
             "Talismã da Maestria - Explosão Estendida": "masterytalismanextendedexplosion",
             "Talismã da Maestria - Guerra Fria": "masterytalismancoldwar",
             "Talismã da Maestria - Imóvel": "masterytalismanimmovable",
+            "Talismã da Maestria - Planejamento Extensivo": "masterytalismanplanninglongterm",
+            "Talismã da Maestria - Pronto para a Batalha": "masterytalismanbattleready",
             "Talismã da Maestria - Prática Leva à Perfeição": "masterytalismanpracticemakesperfect",
+            "Talismã da Maestria - Renome Vitorioso": "masterytalismanvictoriousrepute",
             "Talismã da Maestria - Vegetação Densa": "masterytalismandensevegetation",
             "Talismã da Maestria - Vigor Emergente": "masterytalismansurgingvigor",
             "Temporada Gloriosa": "gloriousseason",
@@ -6047,6 +6394,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6061,6 +6409,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

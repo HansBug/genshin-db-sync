@@ -1,5 +1,18 @@
 {
     "items": {
+        "autumnwhirlwind": {
+            "cardtypetext": "Invocações",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Fase Final: Causa 1 de Dano Anemo.\nUsos: 3\n\nApós seu personagem ou Invocação desencadear uma reação Redemoinho: Converte o Tipo Elemental desta carta e muda seu Dano causado para o Tipo Elemental espalhado pelo Redemoinho. (Pode ser convertido apenas uma vez antes de sair do campo)",
+            "descriptionraw": "<color=#FFFFFFFF>Fase Final:</color> Causa 1 de $[K105].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Após seu personagem ou Invocação desencadear uma reação Redemoinho:</color> Converte o Tipo Elemental desta carta e muda seu Dano causado para o Tipo Elemental espalhado pelo Redemoinho. (Pode ser convertido apenas uma vez antes de sair do campo)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Fase Final:</color> Causa 1 de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usos</color>: 3</color>\\n\\n<color=#FFFFFFFF>Após seu personagem ou Invocação desencadear uma reação Redemoinho:</color> Converte o Tipo Elemental desta carta e muda seu Dano causado para o Tipo Elemental espalhado pelo Redemoinho. (Pode ser convertido apenas uma vez antes de sair do campo)",
+            "hinttype": "GCG_HINT_ANEMO",
+            "id": 115052,
+            "name": "Redemoinho do Outono",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "bakekurage": {
             "cardtypetext": "Invocações",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -267,9 +280,9 @@
         "largewindspirit-01": {
             "cardtypetext": "Invocações",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "Fase Final: Causa 2 de Dano Anemo.\nUsos: 3\n\nApós seu personagem ou Invocação desencadear uma reação Redemoinho: Converte o Tipo Elemental desta carta e muda seu Dano causado para o Tipo Elemental espalhado pelo Redemoinho. (Pode ser convertido apenas uma vez antes de sair do campo)",
-            "descriptionraw": "<color=#FFFFFFFF>Fase Final:</color> Causa 2 de $[K105].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Após seu personagem ou Invocação desencadear uma reação Redemoinho:</color> Converte o Tipo Elemental desta carta e muda seu Dano causado para o Tipo Elemental espalhado pelo Redemoinho. (Pode ser convertido apenas uma vez antes de sair do campo)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Fase Final:</color> Causa 2 de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usos</color>: 3</color>\\n\\n<color=#FFFFFFFF>Após seu personagem ou Invocação desencadear uma reação Redemoinho:</color> Converte o Tipo Elemental desta carta e muda seu Dano causado para o Tipo Elemental espalhado pelo Redemoinho. (Pode ser convertido apenas uma vez antes de sair do campo)",
+            "description": "Fase Final: Causa 2 de Dano Anemo.\nUsos: 3\n\nApós seu personagem ou Invocação desencadear uma reação Redemoinho: Converte o Tipo Elemental desta carta e muda seu Dano causado para o Tipo Elemental espalhado pelo Redemoinho. (Pode ser convertido apenas uma vez antes de sair do campo)\nQuando esta invocação está em jogo: Se o Tipo Elemental desta carta mudou, causará +1 de Dano deste Elemento.",
+            "descriptionraw": "<color=#FFFFFFFF>Fase Final:</color> Causa 2 de $[K105].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Após seu personagem ou Invocação desencadear uma reação Redemoinho:</color> Converte o Tipo Elemental desta carta e muda seu Dano causado para o Tipo Elemental espalhado pelo Redemoinho. (Pode ser convertido apenas uma vez antes de sair do campo)\\n<color=#FFFFFFFF>Quando esta invocação está em jogo:</color> Se o Tipo Elemental desta carta mudou, causará +1 de Dano deste Elemento.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Fase Final:</color> Causa 2 de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usos</color>: 3</color>\\n\\n<color=#FFFFFFFF>Após seu personagem ou Invocação desencadear uma reação Redemoinho:</color> Converte o Tipo Elemental desta carta e muda seu Dano causado para o Tipo Elemental espalhado pelo Redemoinho. (Pode ser convertido apenas uma vez antes de sair do campo)\\n<color=#FFFFFFFF>Quando esta invocação está em jogo:</color> Se o Tipo Elemental desta carta mudou, causará +1 de Dano deste Elemento.",
             "hinttype": "GCG_HINT_ANEMO",
             "id": 115012,
             "name": "Grande Espírito do Vento",
@@ -280,9 +293,9 @@
         "lightfallsword": {
             "cardtypetext": "Invocações",
             "countingtype": "GCG_TOKEN_COUNTER",
-            "description": "Quando Eula usa um Ataque Normal ou Habilidade Elemental, esta carta acumula 2 cargas de energia, mas Eula não ganha energia em si.\nFase Final:  esta carta é descartada para infligir 2 pontos de Dano Físico. Para cada carga de energia armazenada, causa +1 de dano.\nEfeitos que afetam o número de Usos nesta carta serão aplicados a cargas de energia armazenada.",
-            "descriptionraw": "<color=#FFFFFFFF>Quando $[A1106] usa um Ataque Normal ou Habilidade Elemental</color>, esta carta acumula 2 cargas de energia, mas $[A1106] não ganha energia em si.\\n<color=#FFFFFFFF>Fase Final: </color> esta carta é descartada para infligir 2 pontos de $[K100]. Para cada carga de energia armazenada, causa +1 de dano.\\nEfeitos que afetam o número de $[K3] nesta carta serão aplicados a <color=#FFFFFFFF>cargas de energia armazenada</color>.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Quando Eula usa um Ataque Normal ou Habilidade Elemental</color>, esta carta acumula 2 cargas de energia, mas Eula não ganha energia em si.\\n<color=#FFFFFFFF>Fase Final: </color> esta carta é descartada para infligir 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>. Para cada carga de energia armazenada, causa +1 de dano.\\nEfeitos que afetam o número de <color=#FFFFFFFF>Usos</color> nesta carta serão aplicados a <color=#FFFFFFFF>cargas de energia armazenada</color>.",
+            "description": "Quando Eula usa um Ataque Normal ou Habilidade Elemental, esta carta acumula 2 cargas de energia, mas Eula não ganha energia em si.\nFase Final:  esta carta é descartada para infligir 3 pontos de Dano Físico. Para cada 1 ponto de carga armazenado, causa +1 de dano.\nEfeitos que afetam o número de Usos nesta carta serão aplicados a cargas de energia armazenada.",
+            "descriptionraw": "<color=#FFFFFFFF>Quando $[A1106] usa um Ataque Normal ou Habilidade Elemental</color>, esta carta acumula 2 cargas de energia, mas $[A1106] não ganha energia em si.\\n<color=#FFFFFFFF>Fase Final: </color> esta carta é descartada para infligir 3 pontos de $[K100]. Para cada 1 ponto de carga armazenado, causa +1 de dano.\\nEfeitos que afetam o número de $[K3] nesta carta serão aplicados a <color=#FFFFFFFF>cargas de energia armazenada</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando Eula usa um Ataque Normal ou Habilidade Elemental</color>, esta carta acumula 2 cargas de energia, mas Eula não ganha energia em si.\\n<color=#FFFFFFFF>Fase Final: </color> esta carta é descartada para infligir 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>. Para cada 1 ponto de carga armazenado, causa +1 de dano.\\nEfeitos que afetam o número de <color=#FFFFFFFF>Usos</color> nesta carta serão aplicados a <color=#FFFFFFFF>cargas de energia armazenada</color>.",
             "hinttype": "GCG_HINT_VOID",
             "id": 111062,
             "name": "Espada Luminosa",
@@ -542,6 +555,7 @@
         "aliases": {},
         "categories": {
             "GCG_HINT_ANEMO": [
+                "autumnwhirlwind",
                 "dandelionfield",
                 "largewindspirit-01",
                 "largewindspirit",
@@ -616,6 +630,7 @@
                 "lightfallsword"
             ],
             "GCG_TOKEN_ICON_HOURGLASS": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -654,6 +669,7 @@
                 "whirlwind"
             ],
             "GCG_TOKEN_LIFE": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -699,6 +715,7 @@
             ]
         },
         "namemap": {
+            "autumnwhirlwind": "Redemoinho do Outono",
             "bakekurage": "Bake-Kurage",
             "baronbunny": "Barão Coelho",
             "burningflame": "Chamas Ardentes",
@@ -773,6 +790,7 @@
             "Olho da Tempestade": "stormeye",
             "Olho do Julgamento Tempestuoso": "eyeofstormyjudgment",
             "Oz": "oz-01",
+            "Redemoinho do Outono": "autumnwhirlwind",
             "Samachurl Hydro": "hydrosamachurl",
             "Sesshou Sakura": "sesshousakura",
             "Sombra Vazia": "reflection",
@@ -789,12 +807,12 @@
                 "GCG_TOKEN_COUNTER"
             ],
             "hinttype": [
+                "GCG_HINT_ANEMO",
                 "GCG_HINT_HYDRO",
                 "GCG_HINT_PYRO",
                 "GCG_HINT_ELECTRO",
                 "GCG_HINT_DENDRO",
                 "GCG_HINT_CRYO",
-                "GCG_HINT_ANEMO",
                 "GCG_HINT_HEAL",
                 "GCG_HINT_VOID",
                 "GCG_HINT_GEO"

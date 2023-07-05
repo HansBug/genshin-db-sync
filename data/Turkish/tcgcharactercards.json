@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "1 Ateş Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 23021,
                     "name": "Kurtuluşun Alevleri",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "3 Ateş Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 23022,
                     "name": "Yakan Kaide",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "3 Ateş Hasarı verir ve 1 Karanlık Ateş çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve 1 Karanlık Ateş çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C123021]</color> çağırır.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve 1 <color=#FFFFFFFF>Karanlık Ateş</color> çağırır.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Karanlık Ateş</color> çağırır.",
                     "id": 23023,
                     "name": "Uğursuz Yıldız",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "2 Ateş Hasarı verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve rakibin hazırdaki karakterlerine 2 <color=#FFFFFFFF>$[K5]</color> verir.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve rakibin hazırdaki karakterlerine 2 <color=#FFFFFFFF><color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve rakibin hazırdaki karakterlerine 2 <color=#FFFFFFFF><color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
                     "id": 13043,
                     "name": "Ateş Yağmuru",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "1 Toprak Hasarı verir. Ushi çağırır. Bu karakter Doğaüstü Güç kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir. Ushi çağırır. Bu karakter Doğaüstü Güç kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. <color=#FFFFFFFF>$[C116051]</color> çağırır. Bu karakter <color=#FFFFFFFF>$[C116054]</color> kazanır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir. <color=#FFFFFFFF>Ushi</color> çağırır. Bu karakter <color=#FFFFFFFF>Doğaüstü Güç</color> kazanır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir. <color=#FFFFFFFF>Ushi</color> çağırır. Bu karakter <color=#FFFFFFFF>Doğaüstü Güç</color> kazanır.",
                     "id": 16052,
                     "name": "Masatsu Zetsugi: Akaushi Patlaması!",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "5 Toprak Hasarı verir ve bu karakter Kızgın Oni Kralı kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "5 Fiziksel Hasar verir ve bu karakter Kızgın Oni Kralı kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <color=#FFFFFFFF>$[C116053]</color> kazanır.",
-                    "descriptionreplaced": "5 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir ve bu karakter <color=#FFFFFFFF>Kızgın Oni Kralı</color> kazanır.",
+                    "descriptionreplaced": "5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter <color=#FFFFFFFF>Kızgın Oni Kralı</color> kazanır.",
                     "id": 16053,
                     "name": "Belalı Oni Kral: Itto, Dünyaya Karşı!",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "1 Su Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 12011,
                     "name": "Suyun Fısıltısı",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "1 Su Hasarı verir ve 1 Melodi Döngüsü çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Melodi Döngüsü çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C112011]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir ve 1 <color=#FFFFFFFF>Melodi Döngüsü</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Melodi Döngüsü</color> çağırır.",
                     "id": 12012,
                     "name": "Gösteri Başlasın♪",
                     "playcost": [
@@ -369,17 +369,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "3 Elektrik Hasarı verir ve 1 Yıldırım Canavarı Kalkanı oluşturur.",
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 Yıldırım Canavarı Kalkanı oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C114053]</color> oluşturur.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve 1 <color=#FFFFFFFF>Yıldırım Canavarı Kalkanı</color> oluşturur.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Yıldırım Canavarı Kalkanı</color> oluşturur.",
                     "id": 14053,
                     "name": "Fırtına Kıran",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_ELECTRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -390,11 +390,11 @@
                     "typetag": "GCG_SKILL_TAG_Q"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "(1 Tur hazırlanır)\n2 Elektrik Hasarı verir.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "(1 Tur hazırlanır)\n3 Fiziksel Hasar verir.",
                     "descriptionraw": "(1 Tur hazırlanır)\\n$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "(1 Tur hazırlanır)\\n2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir.",
+                    "descriptionreplaced": "(1 Tur hazırlanır)\\n3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 14054,
                     "name": "Deniz Yolcusu",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "3 Ateş Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 13032,
                     "name": "Tutku Patlaması",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "2 Ateş Hasarı verir ve 1 İlham Alanı oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 İlham Alanı oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C113031]</color> oluşturur.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve 1 <color=#FFFFFFFF>İlham Alanı</color> oluşturur.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>İlham Alanı</color> oluşturur.",
                     "id": 13033,
                     "name": "Unutulmaz Serüven",
                     "playcost": [
@@ -494,6 +494,96 @@
                 "Ateş",
                 "Kılıç",
                 "Mondstadt"
+            ]
+        },
+        "candace": {
+            "hp": 10,
+            "id": 1207,
+            "maxenergy": 2,
+            "name": "Candace",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
+                    "id": 12071,
+                    "name": "Işıltılı Mızrak - Muhafız Duruşu",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Saldırı",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Bu karakter bir Balıkçıl Kalkanı kuşanır ve Beceri Hazırlama: Balıkçıl Saldırısı kullanır.",
+                    "descriptionraw": "Bu karakter bir <color=#FFFFFFFF>$[C112071]</color> kuşanır ve $[K53|s1]: <color=#FFFFFFFF>$[S12074]</color> kullanır.",
+                    "descriptionreplaced": "Bu karakter bir <color=#FFFFFFFF>Balıkçıl Kalkanı</color> kuşanır ve <color=#FFFFFFFF>Beceri Hazırlama</color>: <color=#FFFFFFFF>Balıkçıl Saldırısı</color> kullanır.",
+                    "id": 12072,
+                    "name": "Kutsal Ayin: Balıkçıl Kalkanı",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Element Becerisi",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 Kızıl Taç Duası oluşturur.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C112072]</color> oluşturur.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Kızıl Taç Duası</color> oluşturur.",
+                    "id": 12073,
+                    "name": "Kutsal Ayin: Kuyruksallayan Dalgası",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Element Patlaması",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "(1 Tur hazırlanır)\n3 Fiziksel Hasar verir.",
+                    "descriptionraw": "(1 Tur hazırlanır)\\n$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
+                    "descriptionreplaced": "(1 Tur hazırlanır)\\n3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
+                    "id": 12074,
+                    "name": "Balıkçıl Saldırısı",
+                    "playcost": [],
+                    "type": "Element Becerisi",
+                    "typetag": "GCG_SKILL_TAG_E"
+                }
+            ],
+            "source": "Candace'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+            "storytext": "Kızıl kum aktıkça, yeminimizi koruyacağım.",
+            "storytitle": "Altın Yemin: Candace",
+            "tags": [
+                "GCG_TAG_ELEMENT_HYDRO",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU"
+            ],
+            "tagstext": [
+                "Su",
+                "Mızrak",
+                "Sumeru"
             ]
         },
         "chongyun": {
@@ -525,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "3 Buz Hasarı verir ve 1 Chonghua Buz Alanı oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve 1 Chonghua Buz Alanı oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C111041]</color> oluşturur.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve 1 <color=#FFFFFFFF>Chonghua Buz Alanı</color> oluşturur.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Chonghua Buz Alanı</color> oluşturur.",
                     "id": 11042,
                     "name": "Chonghua Buz Katmanı",
                     "playcost": [
@@ -542,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "7 Buz Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "7 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "7 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir.",
+                    "descriptionreplaced": "7 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 11043,
                     "name": "Bulut Yaran Yıldız",
                     "playcost": [
@@ -605,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "3 Doğa Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 17012,
                     "name": "Doğa Temizliği",
                     "playcost": [
@@ -622,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "2 Doğa Hasarı verir ve 1 Cuilein-Anbar çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 Cuilein-Anbar çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C117011]</color> çağırır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir ve 1 <color=#FFFFFFFF>Cuilein-Anbar</color> çağırır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Cuilein-Anbar</color> çağırır.",
                     "id": 17013,
                     "name": "Kedicik Kozu",
                     "playcost": [
@@ -685,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "3 Elektrik Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 14042,
                     "name": "Saklı Ayin: Ahir Rehberi",
                     "playcost": [
@@ -702,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "4 Elektrik Hasarı verir.\nSadık Öncü Yerleşim Seviyesi 2 artar.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir.\nSadık Öncü Yerleşim Seviyesi 2 artar.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.\\n<color=#FFFFFFFF>$[C114041]</color> Yerleşim Seviyesi 2 artar.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir.\\n<color=#FFFFFFFF>Sadık Öncü</color> Yerleşim Seviyesi 2 artar.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.\\n<color=#FFFFFFFF>Sadık Öncü</color> Yerleşim Seviyesi 2 artar.",
                     "id": 14043,
                     "name": "Kutsal Ayin: Kurt Çevikliği",
                     "playcost": [
@@ -775,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "3 Ateş Hasarı verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
                     "id": 13012,
                     "name": "Dağlayan Taarruz",
                     "playcost": [
@@ -792,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "8 Ateş Hasarı verir ve bu karakter Ateş Tesiri kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "8 Fiziksel Hasar verir ve bu karakter Ateş Tesiri kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <color=#FFFFFFFF>$[C113011]</color> kazanır.",
-                    "descriptionreplaced": "8 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve bu karakter <color=#FFFFFFFF>Ateş Tesiri</color> kazanır.",
+                    "descriptionreplaced": "8 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter <color=#FFFFFFFF>Ateş Tesiri</color> kazanır.",
                     "id": 13013,
                     "name": "Şafak",
                     "playcost": [
@@ -855,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "2 Buz Hasarı verir ve 1 Buz Patisi Kalkanı oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 Buz Patisi Kalkanı oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C111021]</color> oluşturur.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve 1 <color=#FFFFFFFF>Buz Patisi Kalkanı</color> oluşturur.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Buz Patisi Kalkanı</color> oluşturur.",
                     "id": 11022,
                     "name": "Buz Patisi",
                     "playcost": [
@@ -872,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "1 Buz Hasarı verir, bu karakterin Canını 2 yeniler ve 1 Sarhoşluk Buharı çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir, bu karakterin Canını 2 yeniler ve 1 Sarhoşluk Buharı çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir, bu karakterin Canını 2 yeniler ve 1 <color=#FFFFFFFF>$[C111023]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir, bu karakterin Canını 2 yeniler ve 1 <color=#FFFFFFFF>Sarhoşluk Buharı</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir, bu karakterin Canını 2 yeniler ve 1 <color=#FFFFFFFF>Sarhoşluk Buharı</color> çağırır.",
                     "id": 11023,
                     "name": "Özel Karışım",
                     "playcost": [
@@ -914,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "1 Elektrik Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 24011,
                     "name": "Elektrik Kristali Yansıması",
                     "playcost": [
@@ -935,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "2 Elektrik Hasarı verir, ardından Taş, Kağıt, Makas Üçlüsü: Makas ve Taş, Kağıt, Makas Üçlüsü: Kağıt için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir, ardından Taş, Kağıt, Makas Üçlüsü: Makas ve Taş, Kağıt, Makas Üçlüsü: Kağıt için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir, ardından <color=#FFFFFFFF>$[S24015]</color> ve <color=#FFFFFFFF>$[S24016]</color> için ayrı ayrı \"$[K53]\" kullanır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir, ardından <color=#FFFFFFFF>Taş, Kağıt, Makas Üçlüsü: Makas</color> ve <color=#FFFFFFFF>Taş, Kağıt, Makas Üçlüsü: Kağıt</color> için ayrı ayrı \"<color=#FFFFFFFF>Beceri Hazırlama</color>\" kullanır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir, ardından <color=#FFFFFFFF>Taş, Kağıt, Makas Üçlüsü: Makas</color> ve <color=#FFFFFFFF>Taş, Kağıt, Makas Üçlüsü: Kağıt</color> için ayrı ayrı \"<color=#FFFFFFFF>Beceri Hazırlama</color>\" kullanır.",
                     "id": 24012,
                     "name": "Taş, Kağıt, Makas Üçlüsü",
                     "playcost": [
@@ -952,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "2 Elektrik Hasarı verir ve Koruyucu Yıldırım Zincirleri çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve Koruyucu Yıldırım Zincirleri çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve <color=#FFFFFFFF>$[C124013]</color> çağırır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve <color=#FFFFFFFF>Koruyucu Yıldırım Zincirleri</color> çağırır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve <color=#FFFFFFFF>Koruyucu Yıldırım Zincirleri</color> çağırır.",
                     "id": 24013,
                     "name": "Yıldırım Hapsi",
                     "playcost": [
@@ -983,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "2 Elektrik Hasarı verir. Ardından Taş, Kağıt, Makas Üçlüsü: Kağıt için \"Beceri Hazırlama\" kullanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir. Ardından Taş, Kağıt, Makas Üçlüsü: Kağıt için \"Beceri Hazırlama\" kullanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. Ardından <color=#FFFFFFFF>$[S24016]</color> için \"$[K53]\" kullanır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir. Ardından <color=#FFFFFFFF>Taş, Kağıt, Makas Üçlüsü: Kağıt</color> için \"<color=#FFFFFFFF>Beceri Hazırlama</color>\" kullanır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir. Ardından <color=#FFFFFFFF>Taş, Kağıt, Makas Üçlüsü: Kağıt</color> için \"<color=#FFFFFFFF>Beceri Hazırlama</color>\" kullanır.",
                     "id": 24015,
                     "name": "Taş, Kağıt, Makas Üçlüsü: Makas",
                     "playcost": [],
@@ -995,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "3 Elektrik Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 24016,
                     "name": "Taş, Kağıt, Makas Üçlüsü: Kağıt",
                     "playcost": [],
@@ -1049,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "2 Buz Hasarı verir ve bu karakter henüz Buz Yürek elde etmediyse Buz Yürek kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve bu karakter henüz Buz Yürek elde etmediyse Buz Yürek kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter henüz <color=#FFFFFFFF>$[C111061]</color> elde etmediyse <color=#FFFFFFFF>$[C111061]</color> kazanır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve bu karakter henüz <color=#FFFFFFFF>Buz Yürek</color> elde etmediyse <color=#FFFFFFFF>Buz Yürek</color> kazanır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter henüz <color=#FFFFFFFF>Buz Yürek</color> elde etmediyse <color=#FFFFFFFF>Buz Yürek</color> kazanır.",
                     "id": 11062,
                     "name": "Buz Dalgası Girdabı",
                     "playcost": [
@@ -1066,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "2 Buz Hasarı verir ve 1 Işıksaçan Kılıcı çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 Işıksaçan Kılıcı çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C111062]</color> çağırır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve 1 <color=#FFFFFFFF>Işıksaçan Kılıcı</color> çağırır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Işıksaçan Kılıcı</color> çağırır.",
                     "id": 11063,
                     "name": "Buzul Aydınlık",
                     "playcost": [
@@ -1108,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "1 Buz Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 21011,
                     "name": "Cicin Sarkıtı",
                     "playcost": [
@@ -1129,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "1 Buz Hasarı verir ve Buz Cicinler çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve Buz Cicinler çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve <color=#FFFFFFFF>$[C121011]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve <color=#FFFFFFFF>Buz Cicinler</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve <color=#FFFFFFFF>Buz Cicinler</color> çağırır.",
                     "id": 21012,
                     "name": "Sisler İçinden Çağrı",
                     "playcost": [
@@ -1146,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "5 Buz Hasarı verir ve bu karaktere Buz Etkisi kazandırarak 1 Sarmalayan Cicin Kalkanı oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "5 Fiziksel Hasar verir ve bu karaktere Buz Etkisi kazandırarak 1 Sarmalayan Cicin Kalkanı oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karaktere $[K201] kazandırarak 1 <color=#FFFFFFFF>$[C121012]</color> oluşturur.",
-                    "descriptionreplaced": "5 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve bu karaktere <color=#99FFFFFF>{SPRITE_PRESET#2101}Buz Etkisi</color> kazandırarak 1 <color=#FFFFFFFF>Sarmalayan Cicin Kalkanı</color> oluşturur.",
+                    "descriptionreplaced": "5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karaktere <color=#99FFFFFF>{SPRITE_PRESET#2101}Buz Etkisi</color> kazandırarak 1 <color=#FFFFFFFF>Sarmalayan Cicin Kalkanı</color> oluşturur.",
                     "id": 21013,
                     "name": "Karlı Dallarda Açan Çiçekler",
                     "playcost": [
@@ -1209,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "1 Ateş Hasarı verir ve bu karakter Gizlilik kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve bu karakter Gizlilik kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <color=#FFFFFFFF>$[C123011]</color> kazanır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve bu karakter <color=#FFFFFFFF>Gizlilik</color> kazanır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter <color=#FFFFFFFF>Gizlilik</color> kazanır.",
                     "id": 23012,
                     "name": "En Doğru An",
                     "playcost": [
@@ -1226,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "5 Ateş Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "5 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "5 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir.",
+                    "descriptionreplaced": "5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 23013,
                     "name": "Kül Edici Kılıçlar",
                     "playcost": [
@@ -1299,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "1 Elektrik Hasarı verir ve 1 Oz çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Oz çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C114011]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve 1 <color=#FFFFFFFF>Oz</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Oz</color> çağırır.",
                     "id": 14012,
                     "name": "Gecekuşu",
                     "playcost": [
@@ -1316,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "4 Elektrik Hasarı verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve rakibin hazırdaki karakterlerine 2 <color=#FFFFFFFF>$[K5]</color> verir.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve rakibin hazırdaki karakterlerine 2 <color=#FFFFFFFF><color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve rakibin hazırdaki karakterlerine 2 <color=#FFFFFFFF><color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
                     "id": 14013,
                     "name": "Gece Yanılsaması",
                     "playcost": [
@@ -1379,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "1 Buz Hasarı verir ve 1 Buz Nilüferi oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Buz Nilüferi oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C111012]</color> oluşturur.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve 1 <color=#FFFFFFFF>Buz Nilüferi</color> oluşturur.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Buz Nilüferi</color> oluşturur.",
                     "id": 11012,
                     "name": "Qilin'in İzi",
                     "playcost": [
@@ -1396,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "2 Buz Hasarı verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve rakibin hazırdaki karakterlerine <color=#FFFFFFFF>2 $[K5]</color> verir.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve rakibin hazırdaki karakterlerine <color=#FFFFFFFF>2 <color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve rakibin hazırdaki karakterlerine <color=#FFFFFFFF>2 <color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
                     "id": 11013,
                     "name": "Buzdan Ok",
                     "playcost": [
@@ -1413,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "2 Buz Hasarı verir, rakibin tüm hazırdaki karakterlerine 1 Delme Hasarı verir ve 1 Kutsal Buz İncisi çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir, rakibin tüm hazırdaki karakterlerine 1 Delme Hasarı verir ve 1 Kutsal Buz İncisi çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir, rakibin tüm hazırdaki karakterlerine <color=#FFFFFFFF>1 $[K5]</color> verir ve 1 <color=#FFFFFFFF>$[C111011]</color> çağırır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir, rakibin tüm hazırdaki karakterlerine <color=#FFFFFFFF>1 <color=#FFFFFFFF>Delme Hasarı</color></color> verir ve 1 <color=#FFFFFFFF>Kutsal Buz İncisi</color> çağırır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir, rakibin tüm hazırdaki karakterlerine <color=#FFFFFFFF>1 <color=#FFFFFFFF>Delme Hasarı</color></color> verir ve 1 <color=#FFFFFFFF>Kutsal Buz İncisi</color> çağırır.",
                     "id": 11014,
                     "name": "Göklerin Görkemi",
                     "playcost": [
@@ -1491,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "4 Ateş Hasarı verir ve kendine 2 Can yeniler. Bu karakterin Canı 6'dan fazla değilse verilen Hasar ve yenilenen Can 1 artar.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve kendine 2 Can yeniler. Bu karakterin Canı 6'dan fazla değilse verilen Hasar ve yenilenen Can 1 artar.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve kendine 2 Can yeniler. Bu karakterin Canı 6'dan fazla değilse verilen Hasar ve yenilenen Can 1 artar.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve kendine 2 Can yeniler. Bu karakterin Canı 6'dan fazla değilse verilen Hasar ve yenilenen Can 1 artar.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve kendine 2 Can yeniler. Bu karakterin Canı 6'dan fazla değilse verilen Hasar ve yenilenen Can 1 artar.",
                     "id": 13073,
                     "name": "Ruh Terbiyecisi",
                     "playcost": [
@@ -1554,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "3 Doğa Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 27012,
                     "name": "Dengesiz Spor Bulutu",
                     "playcost": [
@@ -1571,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "4 Doğa Hasarı verir, Radikal Canlılık kademelerinin tümü harcanır ve her kademe için bu hasar 1 artar.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir, Radikal Canlılık kademelerinin tümü harcanır ve her kademe için bu hasar 1 artar.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir, <color=#FFFFFFFF>$[C127011]</color> kademelerinin tümü harcanır ve her kademe için bu hasar 1 artar.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir, <color=#FFFFFFFF>Radikal Canlılık</color> kademelerinin tümü harcanır ve her kademe için bu hasar 1 artar.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir, <color=#FFFFFFFF>Radikal Canlılık</color> kademelerinin tümü harcanır ve her kademe için bu hasar 1 artar.",
                     "id": 27013,
                     "name": "Görkemli Tüyler",
                     "playcost": [
@@ -1644,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "3 Rüzgar Hasarı verir ve rakibin karakteri zorla bir sonraki karakterle değiştirilir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve rakibin karakteri zorla bir sonraki karakterle değiştirilir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve rakibin karakteri zorla bir sonraki karakterle değiştirilir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir ve rakibin karakteri zorla bir sonraki karakterle değiştirilir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve rakibin karakteri zorla bir sonraki karakterle değiştirilir.",
                     "id": 15022,
                     "name": "Bora Kılıcı",
                     "playcost": [
@@ -1693,6 +1783,96 @@
                 "Mondstadt"
             ]
         },
+        "kaedeharakazuha": {
+            "hp": 10,
+            "id": 1505,
+            "maxenergy": 2,
+            "name": "Kaedehara Kazuha",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
+                    "id": 15051,
+                    "name": "Garyuu Kılıç Tekniği",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Saldırı",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir, bu karakter Midare Ranzan kuşanır.\nBu beceri Girdap tetiklerse Midare Ranzan, Girdaba alınan elemente dönüşür.\nBeceri Hasarı sona erdikten sonra takımın sonraki karaktere geçer.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir, bu karakter <color=#FFFFFFFF>$[C115051]</color> kuşanır.\\nBu beceri Girdap tetiklerse <color=#FFFFFFFF>$[C115051]</color>, Girdaba alınan elemente dönüşür.\\n<color=#FFFFFFFF>Beceri Hasarı sona erdikten sonra</color> takımın sonraki karaktere geçer.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir, bu karakter <color=#FFFFFFFF>Midare Ranzan</color> kuşanır.\\nBu beceri Girdap tetiklerse <color=#FFFFFFFF>Midare Ranzan</color>, Girdaba alınan elemente dönüşür.\\n<color=#FFFFFFFF>Beceri Hasarı sona erdikten sonra</color> takımın sonraki karaktere geçer.",
+                    "id": 15052,
+                    "name": "Chihayaburu",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Element Becerisi",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve Güz Kasırgası çağırır.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve <color=#FFFFFFFF>$[C115052]</color> çağırır.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve <color=#FFFFFFFF>Güz Kasırgası</color> çağırır.",
+                    "id": 15053,
+                    "name": "Bin Yaprak Darbesi",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Element Patlaması",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "description": "",
+                    "descriptionraw": "",
+                    "descriptionreplaced": "",
+                    "id": 15054,
+                    "name": "Chihayaburu",
+                    "playcost": [],
+                    "type": "Pasif Beceri",
+                    "typetag": "GCG_SKILL_TAG_PASSIVE"
+                }
+            ],
+            "source": "Kaedehara Kazuha'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+            "storytext": "Çiçekler ve kuşlar, ay ışığı altında dolanan biri için büyük bir zevktir.",
+            "storytitle": "Hırçın Dalgaları Kovalayan Kızıl Yapraklar: Kaedehara Kazuha",
+            "tags": [
+                "GCG_TAG_ELEMENT_ANEMO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_INAZUMA"
+            ],
+            "tagstext": [
+                "Rüzgar",
+                "Kılıç",
+                "Inazuma"
+            ]
+        },
         "kaeya": {
             "hp": 10,
             "id": 1103,
@@ -1722,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "3 Buz Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 11032,
                     "name": "Buzul Isırığı",
                     "playcost": [
@@ -1739,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "1 Buz Hasarı verir ve 1 Sarkıt oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Sarkıt oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C111031]</color> oluşturur.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve 1 <color=#FFFFFFFF>Sarkıt</color> oluşturur.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Sarkıt</color> oluşturur.",
                     "id": 11033,
                     "name": "Buzul Valsi",
                     "playcost": [
@@ -1802,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "3 Buz Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 11052,
                     "name": "Kamisato Sanatı: Hyouka",
                     "playcost": [
@@ -1819,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "4 Buz Hasarı verir ve 1 Buzdan Seki no To çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve 1 Buzdan Seki no To çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C111051]</color> çağırır.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve 1 <color=#FFFFFFFF>Buzdan Seki no To</color> çağırır.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Buzdan Seki no To</color> çağırır.",
                     "id": 11053,
                     "name": "Kamisato Sanatı: Soumetsu",
                     "playcost": [
@@ -1892,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "2 Su Hasarı verir ve bu karakter Takimeguri Kanka kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve bu karakter Takimeguri Kanka kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <color=#FFFFFFFF>$[C112061]</color> kazanır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir ve bu karakter <color=#FFFFFFFF>Takimeguri Kanka</color> kazanır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter <color=#FFFFFFFF>Takimeguri Kanka</color> kazanır.",
                     "id": 12062,
                     "name": "Kamisato Sanatı: Kyouka",
                     "playcost": [
@@ -1909,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "3 Su Hasarı verir ve 1 Saflık Bahçesi çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve 1 Saflık Bahçesi çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C112062]</color> çağırır.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir ve 1 <color=#FFFFFFFF>Saflık Bahçesi</color> çağırır.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Saflık Bahçesi</color> çağırır.",
                     "id": 12063,
                     "name": "Kamisato Sanatı: Suiyuu",
                     "playcost": [
@@ -1972,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "3 Elektrik Hasarı verir ve 1 Yıldırım Hançeri oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve 1 Yıldırım Hançeri oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C114031]</color> oluşturur.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve 1 <color=#FFFFFFFF>Yıldırım Hançeri</color> oluşturur.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Yıldırım Hançeri</color> oluşturur.",
                     "id": 14032,
                     "name": "Yıldızların Düzeni",
                     "playcost": [
@@ -1989,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "4 Elektrik Hasarı verir ve rakibin hazırdaki tüm karakterlerine 3 Delme Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve rakibin hazırdaki tüm karakterlerine 3 Delme Hasarı verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve rakibin hazırdaki tüm karakterlerine <color=#FFFFFFFF>3 $[K5]</color> verir.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve rakibin hazırdaki tüm karakterlerine <color=#FFFFFFFF>3 <color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve rakibin hazırdaki tüm karakterlerine <color=#FFFFFFFF>3 <color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
                     "id": 14033,
                     "name": "Yıldız Çarpışması",
                     "playcost": [
@@ -2031,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "1 Ateş Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 13061,
                     "name": "Bom!",
                     "playcost": [
@@ -2052,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "3 Ateş Hasarı verir ve bu karakter Patlayıcı Kıvılcım kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve bu karakter Patlayıcı Kıvılcım kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <color=#FFFFFFFF>$[C113061]</color> kazanır.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve bu karakter <color=#FFFFFFFF>Patlayıcı Kıvılcım</color> kazanır.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter <color=#FFFFFFFF>Patlayıcı Kıvılcım</color> kazanır.",
                     "id": 13062,
                     "name": "Zıpzıp Bodur",
                     "playcost": [
@@ -2069,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "3 Ateş Hasarı verir ve rakibin alanında bir Kıvılcımlar ve Patlama oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve rakibin alanında bir Kıvılcımlar ve Patlama oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve rakibin alanında bir <color=#FFFFFFFF>$[C113063]</color> oluşturur.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve rakibin alanında bir <color=#FFFFFFFF>Kıvılcımlar ve Patlama</color> oluşturur.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve rakibin alanında bir <color=#FFFFFFFF>Kıvılcımlar ve Patlama</color> oluşturur.",
                     "id": 13063,
                     "name": "Kıvılcımlar ve Patlama",
                     "playcost": [
@@ -2132,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "1 Elektrik Hasarı verir ve 1 Tengu Juurai: Pusu çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Tengu Juurai: Pusu çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C114061]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve 1 <color=#FFFFFFFF>Tengu Juurai: Pusu</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Tengu Juurai: Pusu</color> çağırır.",
                     "id": 14062,
                     "name": "Fırtına Habercisi Tengu",
                     "playcost": [
@@ -2149,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "1 Elektrik Hasarı verir ve 1 Tengu Juurai: Yıldırım Kümesi çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Tengu Juurai: Yıldırım Kümesi çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C114062]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve 1 <color=#FFFFFFFF>Tengu Juurai: Yıldırım Kümesi</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Tengu Juurai: Yıldırım Kümesi</color> çağırır.",
                     "id": 14063,
                     "name": "Fetih: Koukou Sendou",
                     "playcost": [
@@ -2242,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "4 Rüzgar Hasarı verir ve tüm Gölge Kılıcı Minyonlarının etkilerini tetikler. (Kullanım Hakkı harcamaz.)",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve tüm Gölge Kılıcı Minyonlarının etkilerini tetikler. (Kullanım Hakkı harcamaz.)",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve tüm <color=#FFFFFFFF>Gölge Kılıcı</color> Minyonlarının etkilerini tetikler. (Kullanım Hakkı harcamaz.)",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir ve tüm <color=#FFFFFFFF>Gölge Kılıcı</color> Minyonlarının etkilerini tetikler. (Kullanım Hakkı harcamaz.)",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve tüm <color=#FFFFFFFF>Gölge Kılıcı</color> Minyonlarının etkilerini tetikler. (Kullanım Hakkı harcamaz.)",
                     "id": 25014,
                     "name": "Sahte Tengu Savuran",
                     "playcost": [
@@ -2284,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "1 Su Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 22021,
                     "name": "Su Mermisi",
                     "playcost": [
@@ -2305,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "2 Su Hasarı verir ve hedef karaktere Kırılım eklenir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve hedef karaktere Kırılım eklenir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve hedef karaktere <color=#FFFFFFFF>$[C122021]</color> eklenir.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir ve hedef karaktere <color=#FFFFFFFF>Kırılım</color> eklenir.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve hedef karaktere <color=#FFFFFFFF>Kırılım</color> eklenir.",
                     "id": 22022,
                     "name": "Su Patlaması",
                     "playcost": [
@@ -2322,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "5 Su Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "5 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "5 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir.",
+                    "descriptionreplaced": "5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 22023,
                     "name": "Dalgalı Yansıma",
                     "playcost": [
@@ -2364,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "1 Su Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 12031,
                     "name": "Kader Dalgası",
                     "playcost": [
@@ -2385,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "1 Su Hasarı verir ve 1 Yansıma çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Yansıma çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C112031]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir ve 1 <color=#FFFFFFFF>Yansıma</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Yansıma</color> çağırır.",
                     "id": 12032,
                     "name": "Kıyamet Yansıması",
                     "playcost": [
@@ -2402,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "4 Su Hasarı verir ve 1 Hayali Baloncuk oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve 1 Hayali Baloncuk oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C112032]</color> oluşturur.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir ve 1 <color=#FFFFFFFF>Hayali Baloncuk</color> oluşturur.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Hayali Baloncuk</color> oluşturur.",
                     "id": 12033,
                     "name": "Kaderin Yıldızı",
                     "playcost": [
@@ -2454,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "1 Doğa Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 17031,
                     "name": "Akara",
                     "playcost": [
@@ -2475,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Hedef karaktere 2 Doğa Hasarı verir ve Skandha Tohumu uygular. Hedef karakterde zaten Skandha Tohumu varsa onun dışındaki diğer tüm rakip karakterlere Skandha Tohumu uygular.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Hedef karaktere 2 Fiziksel Hasar verir ve Skandha Tohumu uygular. Hedef karakterde zaten Skandha Tohumu varsa onun dışındaki diğer tüm rakip karakterlere Skandha Tohumu uygular.",
                     "descriptionraw": "Hedef karaktere $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve <color=#FFFFFFFF>$[C117031]</color> uygular. Hedef karakterde zaten <color=#FFFFFFFF>$[C117031]</color> varsa onun dışındaki diğer tüm rakip karakterlere <color=#FFFFFFFF>$[C117031]</color> uygular.",
-                    "descriptionreplaced": "Hedef karaktere 2 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir ve <color=#FFFFFFFF>Skandha Tohumu</color> uygular. Hedef karakterde zaten <color=#FFFFFFFF>Skandha Tohumu</color> varsa onun dışındaki diğer tüm rakip karakterlere <color=#FFFFFFFF>Skandha Tohumu</color> uygular.",
+                    "descriptionreplaced": "Hedef karaktere 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve <color=#FFFFFFFF>Skandha Tohumu</color> uygular. Hedef karakterde zaten <color=#FFFFFFFF>Skandha Tohumu</color> varsa onun dışındaki diğer tüm rakip karakterlere <color=#FFFFFFFF>Skandha Tohumu</color> uygular.",
                     "id": 17032,
                     "name": "Tüm Planları Bilen",
                     "playcost": [
@@ -2492,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "3 Doğa Hasarı verir. Tüm rakip karakterlere Skandha Tohumu uygular.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir. Tüm rakip karakterlere Skandha Tohumu uygular.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. Tüm rakip karakterlere <color=#FFFFFFFF>$[C117031]</color> uygular.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir. Tüm rakip karakterlere <color=#FFFFFFFF>Skandha Tohumu</color> uygular.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir. Tüm rakip karakterlere <color=#FFFFFFFF>Skandha Tohumu</color> uygular.",
                     "id": 17033,
                     "name": "Tüm Planları Bilen: Tathata",
                     "playcost": [
@@ -2509,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "4 Doğa Hasarı verir ve 1 Maya Tapınağı oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve 1 Maya Tapınağı oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C117032]</color> oluşturur.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir ve 1 <color=#FFFFFFFF>Maya Tapınağı</color> oluşturur.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Maya Tapınağı</color> oluşturur.",
                     "id": 17034,
                     "name": "Hayali Kalp",
                     "playcost": [
@@ -2551,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "1 Toprak Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 16011,
                     "name": "Parıldayan Parçacıklar",
                     "playcost": [
@@ -2572,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "2 Toprak Hasarı verir ve 1 Yeşim Tablet oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 Yeşim Tablet oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C116011]</color> oluşturur.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir ve 1 <color=#FFFFFFFF>Yeşim Tablet</color> oluşturur.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Yeşim Tablet</color> oluşturur.",
                     "id": 16012,
                     "name": "Yeşim Tablet",
                     "playcost": [
@@ -2589,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "6 Toprak Hasarı verir. Eğer Yeşim Tablet alandaysa, bu Hasar 2 artar.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "6 Fiziksel Hasar verir. Eğer Yeşim Tablet alandaysa, bu Hasar 2 artar.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. Eğer <color=#FFFFFFFF>$[C116011]</color> alandaysa, bu Hasar 2 artar.",
-                    "descriptionreplaced": "6 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir. Eğer <color=#FFFFFFFF>Yeşim Tablet</color> alandaysa, bu Hasar 2 artar.",
+                    "descriptionreplaced": "6 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir. Eğer <color=#FFFFFFFF>Yeşim Tablet</color> alandaysa, bu Hasar 2 artar.",
                     "id": 16013,
                     "name": "Yıldız Kıran",
                     "playcost": [
@@ -2652,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "1 Toprak Hasarı verir ve 1 Tam Zırh oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Tam Zırh oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C116021]</color> oluşturur.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir ve 1 <color=#FFFFFFFF>Tam Zırh</color> oluşturur.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Tam Zırh</color> oluşturur.",
                     "id": 16022,
                     "name": "Kalbin Zırhı",
                     "playcost": [
@@ -2669,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "4 Toprak Hasarı verir ve bu karakter Süpürme Vakti kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve bu karakter Süpürme Vakti kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <color=#FFFFFFFF>$[C116022]</color> kazanır.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir ve bu karakter <color=#FFFFFFFF>Süpürme Vakti</color> kazanır.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter <color=#FFFFFFFF>Süpürme Vakti</color> kazanır.",
                     "id": 16023,
                     "name": "Süpürme Vakti",
                     "playcost": [
@@ -2747,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "3 Elektrik Hasarı verir ve diğer karakterlerin 2 Enerji kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve diğer karakterlerin 2 Enerji kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve diğer karakterlerin 2 $[K310] kazanır.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve diğer karakterlerin 2 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color> kazanır.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve diğer karakterlerin 2 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color> kazanır.",
                     "id": 14073,
                     "name": "Gizli Sanat: Musou Shinsetsu",
                     "playcost": [
@@ -2794,7 +2974,7 @@
         "razor": {
             "hp": 10,
             "id": 1402,
-            "maxenergy": 3,
+            "maxenergy": 2,
             "name": "Razor",
             "skills": [
                 {
@@ -2820,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "3 Elektrik Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 14022,
                     "name": "Pençe ve Yıldırım",
                     "playcost": [
@@ -2836,11 +3016,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "5 Elektrik Hasarı verir ve bu karakter Kurt Yoldaş kazanır.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve bu karakter Kurt Yoldaş kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <color=#FFFFFFFF>$[C114021]</color> kazanır.",
-                    "descriptionreplaced": "5 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve bu karakter <color=#FFFFFFFF>Kurt Yoldaş</color> kazanır.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter <color=#FFFFFFFF>Kurt Yoldaş</color> kazanır.",
                     "id": 14023,
                     "name": "Şimşek Diş",
                     "playcost": [
@@ -2850,7 +3030,7 @@
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
-                            "count": 3
+                            "count": 2
                         }
                     ],
                     "type": "Element Patlaması",
@@ -2879,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "1 Su Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 22011,
                     "name": "Dalgalanma",
                     "playcost": [
@@ -2930,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "2 Su Hasarı verir ve bu Hasar, alandaki her bir Minyonun için 2 artar.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve bu Hasar, alandaki her bir Minyonun için 2 artar.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu Hasar, alandaki her bir Minyonun için 2 artar.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir ve bu Hasar, alandaki her bir Minyonun için 2 artar.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu Hasar, alandaki her bir Minyonun için 2 artar.",
                     "id": 22014,
                     "name": "Gelgit ve Tufan",
                     "playcost": [
@@ -2972,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "1 Su Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 12051,
                     "name": "Suyun Şekli",
                     "playcost": [
@@ -3008,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "2 Su Hasarı verir. Tüm müttefik karakterler için 1 Can yeniler. Bu karakter Merasim Elbisesi kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir. Tüm müttefik karakterler için 1 Can yeniler. Bu karakter Merasim Elbisesi kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. Tüm müttefik karakterler için 1 Can yeniler. Bu karakter <color=#FFFFFFFF>$[C112052]</color> kazanır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir. Tüm müttefik karakterler için 1 Can yeniler. Bu karakter <color=#FFFFFFFF>Merasim Elbisesi</color> kazanır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir. Tüm müttefik karakterler için 1 Can yeniler. Bu karakter <color=#FFFFFFFF>Merasim Elbisesi</color> kazanır.",
                     "id": 12053,
                     "name": "Nereid'in Yükselişi",
                     "playcost": [
@@ -3071,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "2 Buz Hasarı verir ve 1 Buzdan Tüy oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 Buzdan Tüy oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C111071]</color> oluşturur.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve 1 <color=#FFFFFFFF>Buzdan Tüy</color> oluşturur.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Buzdan Tüy</color> oluşturur.",
                     "id": 11072,
                     "name": "Ruha Çağrı",
                     "playcost": [
@@ -3088,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "1 Buz Hasarı verir ve 1 Tılsım Ruhu çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Tılsım Ruhu çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C111073]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve 1 <color=#FFFFFFFF>Tılsım Ruhu</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Tılsım Ruhu</color> çağırır.",
                     "id": 11073,
                     "name": "Kutsal Kadının Hükmü",
                     "playcost": [
@@ -3222,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "1 Rüzgar Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 15011,
                     "name": "Rüzgar Ruhu Saldırısı",
                     "playcost": [
@@ -3243,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "3 Rüzgar Hasarı verir ve rakibin karakteri zorla bir önceki karakterle değiştirilir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve rakibin karakteri zorla bir önceki karakterle değiştirilir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve rakibin karakteri zorla bir önceki karakterle değiştirilir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir ve rakibin karakteri zorla bir önceki karakterle değiştirilir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve rakibin karakteri zorla bir önceki karakterle değiştirilir.",
                     "id": 15012,
                     "name": "Dengesiz Rüzgar Hipostazı - Denek 6308",
                     "playcost": [
@@ -3260,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "1 Rüzgar Hasarı verir ve 1 Büyük Rüzgar Ruhu çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Büyük Rüzgar Ruhu çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C115011]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir ve 1 <color=#FFFFFFFF>Büyük Rüzgar Ruhu</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Büyük Rüzgar Ruhu</color> çağırır.",
                     "id": 15013,
                     "name": "Yasaklı İcat - İzomer 75 / Tip II",
                     "playcost": [
@@ -3323,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Yakın Saldırı Duruşu durumuna geçer ve 2 Su Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Yakın Saldırı Duruşu durumuna geçer ve 2 Fiziksel Hasar verir.",
                     "descriptionraw": "<color=#FFFFFFFF>$[C112042]</color> durumuna geçer ve $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "<color=#FFFFFFFF>Yakın Saldırı Duruşu</color> durumuna geçer ve 2 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir.",
+                    "descriptionreplaced": "<color=#FFFFFFFF>Yakın Saldırı Duruşu</color> durumuna geçer ve 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 12042,
                     "name": "Kötülüğün Mirası: Dalgaların Öfkesi",
                     "playcost": [
@@ -3340,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Tartaglia, mevcut duruşuna göre farklı saldırılar gerçekleştirir.\nMenzilli Saldırı Duruşu - Yıkım Atışı: 4 Su Hasarı verir, 2 Enerji kazanır ve hedef karaktere Dalga uygular.\nYakın Saldırı Duruşu - Yok Eden Işık: 7 Su Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Tartaglia, mevcut duruşuna göre farklı saldırılar gerçekleştirir.\nMenzilli Saldırı Duruşu - Yıkım Atışı: 4 Fiziksel Hasar verir, 2 Enerji kazanır ve hedef karaktere Dalga uygular.\nYakın Saldırı Duruşu - Yok Eden Işık: 7 Fiziksel Hasar verir.",
                     "descriptionraw": "<color=#FFFFFFFF>$[A1204]</color>, mevcut duruşuna göre farklı saldırılar gerçekleştirir.\\n<color=#FFFFFFFF>Menzilli Saldırı Duruşu - Yıkım Atışı:</color> $[D__KEY__DAMAGE_4] $[D__KEY__ELEMENT] verir, 2 $[K310] kazanır ve hedef karaktere <color=#FFFFFFFF>$[C112043]</color> uygular.\\n<color=#FFFFFFFF>Yakın Saldırı Duruşu - Yok Eden Işık:</color> $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "<color=#FFFFFFFF>Tartaglia</color>, mevcut duruşuna göre farklı saldırılar gerçekleştirir.\\n<color=#FFFFFFFF>Menzilli Saldırı Duruşu - Yıkım Atışı:</color> 4 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir, 2 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color> kazanır ve hedef karaktere <color=#FFFFFFFF>Dalga</color> uygular.\\n<color=#FFFFFFFF>Yakın Saldırı Duruşu - Yok Eden Işık:</color> 7 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir.",
+                    "descriptionreplaced": "<color=#FFFFFFFF>Tartaglia</color>, mevcut duruşuna göre farklı saldırılar gerçekleştirir.\\n<color=#FFFFFFFF>Menzilli Saldırı Duruşu - Yıkım Atışı:</color> 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir, 2 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color> kazanır ve hedef karaktere <color=#FFFFFFFF>Dalga</color> uygular.\\n<color=#FFFFFFFF>Yakın Saldırı Duruşu - Yok Eden Işık:</color> 7 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 12043,
                     "name": "Yıkım: Yok Etme",
                     "playcost": [
@@ -3433,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "2 Doğa Hasarı verir ve bu karakter Vijnana Yayılması kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve bu karakter Vijnana Yayılması kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <color=#FFFFFFFF>$[C117021]</color> kazanır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir ve bu karakter <color=#FFFFFFFF>Vijnana Yayılması</color> kazanır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter <color=#FFFFFFFF>Vijnana Yayılması</color> kazanır.",
                     "id": 17022,
                     "name": "Vijnana-Phala Mayını",
                     "playcost": [
@@ -3450,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "4 Doğa Hasarı verir ve rakibin hazırdaki karakterlerine 1 Delme Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve rakibin hazırdaki karakterlerine 1 Delme Hasarı verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve rakibin hazırdaki karakterlerine 1 <color=#FFFFFFFF>$[K5]</color> verir.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa Hasarı</color> verir ve rakibin hazırdaki karakterlerine 1 <color=#FFFFFFFF><color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve rakibin hazırdaki karakterlerine 1 <color=#FFFFFFFF><color=#FFFFFFFF>Delme Hasarı</color></color> verir.",
                     "id": 17023,
                     "name": "Serseri Sarmaşık Ok",
                     "playcost": [
@@ -3513,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "2 Rüzgar Hasarı verir ve 1 Fırtına Bölgesi oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 Fırtına Bölgesi oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C115031]</color> oluşturur.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir ve 1 <color=#FFFFFFFF>Fırtına Bölgesi</color> oluşturur.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Fırtına Bölgesi</color> oluşturur.",
                     "id": 15032,
                     "name": "Göklerin Sonesi",
                     "playcost": [
@@ -3530,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "2 Rüzgar Hasarı verir ve 1 Fırtına Gözü çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve 1 Fırtına Gözü çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C115034]</color> çağırır.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir ve 1 <color=#FFFFFFFF>Fırtına Gözü</color> çağırır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Fırtına Gözü</color> çağırır.",
                     "id": 15033,
                     "name": "Rüzgarın Büyük Kasidesi",
                     "playcost": [
@@ -3607,11 +3787,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "2 Ateş Hasarı verir ve 1 Ateş Çarkı oluşturur.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve 1 Ateş Çarkı oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C113022]</color> oluşturur.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve 1 <color=#FFFFFFFF>Ateş Çarkı</color> oluşturur.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Ateş Çarkı</color> oluşturur.",
                     "id": 13023,
                     "name": "Ateş Çarkı",
                     "playcost": [
@@ -3671,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "3 Rüzgar Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 15042,
                     "name": "Sonsuz Rüzgar Türbini",
                     "playcost": [
@@ -3688,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "4 Rüzgar Hasarı verir ve bu karakter Yaksha Maskesi kazanır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve bu karakter Yaksha Maskesi kazanır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <color=#FFFFFFFF>$[C115041]</color> kazanır.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir ve bu karakter <color=#FFFFFFFF>Yaksha Maskesi</color> kazanır.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karakter <color=#FFFFFFFF>Yaksha Maskesi</color> kazanır.",
                     "id": 15043,
                     "name": "Tüm Şerlerin Laneti",
                     "playcost": [
@@ -3751,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "2 Su Hasarı verir ve bu karaktere Su Etkisi kazandırarak 1 Yağmur Kılıcı oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir ve bu karaktere Su Etkisi kazandırarak 1 Yağmur Kılıcı oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karaktere $[K202] kazandırarak 1 <color=#FFFFFFFF>$[C112021]</color> oluşturur.",
-                    "descriptionreplaced": "2 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir ve bu karaktere <color=#80C0FFFF>{SPRITE_PRESET#2102}Su Etkisi</color> kazandırarak 1 <color=#FFFFFFFF>Yağmur Kılıcı</color> oluşturur.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karaktere <color=#80C0FFFF>{SPRITE_PRESET#2102}Su Etkisi</color> kazandırarak 1 <color=#FFFFFFFF>Yağmur Kılıcı</color> oluşturur.",
                     "id": 12022,
                     "name": "Ölümcül Yağmur",
                     "playcost": [
@@ -3768,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "1 Su Hasarı verir ve bu karaktere Su Etkisi kazandırarak 1 Gökkuşağı Kılıcı Tekniği oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve bu karaktere Su Etkisi kazandırarak 1 Gökkuşağı Kılıcı Tekniği oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karaktere $[K202] kazandırarak 1 <color=#FFFFFFFF>$[C112022]</color> oluşturur.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir ve bu karaktere <color=#80C0FFFF>{SPRITE_PRESET#2102}Su Etkisi</color> kazandırarak 1 <color=#FFFFFFFF>Gökkuşağı Kılıcı Tekniği</color> oluşturur.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve bu karaktere <color=#80C0FFFF>{SPRITE_PRESET#2102}Su Etkisi</color> kazandırarak 1 <color=#FFFFFFFF>Gökkuşağı Kılıcı Tekniği</color> oluşturur.",
                     "id": 12023,
                     "name": "Yağmurkesici",
                     "playcost": [
@@ -3810,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "1 Elektrik Hasarı verir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
                     "id": 14081,
                     "name": "Günah Yiyen Kitsune",
                     "playcost": [
@@ -3846,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "4 Elektrik Hasarı verir. Senin tarafında bir Ölümcül Kiraz Çiçeği varsa onu yok eder ve Tenko Yıldırımları oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir. Senin tarafında bir Ölümcül Kiraz Çiçeği varsa onu yok eder ve Tenko Yıldırımları oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. Senin tarafında bir <color=#FFFFFFFF>$[C114081]</color> varsa onu yok eder ve <color=#FFFFFFFF>$[C114083]</color> oluşturur.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir. Senin tarafında bir <color=#FFFFFFFF>Ölümcül Kiraz Çiçeği</color> varsa onu yok eder ve <color=#FFFFFFFF>Tenko Yıldırımları</color> oluşturur.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir. Senin tarafında bir <color=#FFFFFFFF>Ölümcül Kiraz Çiçeği</color> varsa onu yok eder ve <color=#FFFFFFFF>Tenko Yıldırımları</color> oluşturur.",
                     "id": 14083,
                     "name": "Gizli Ulvi Büyü: Tenko Kenshin",
                     "playcost": [
@@ -3878,6 +4058,86 @@
                 "Elektrik",
                 "Katalizör",
                 "Inazuma"
+            ]
+        },
+        "yanfei": {
+            "hp": 10,
+            "id": 1308,
+            "maxenergy": 2,
+            "name": "Yanfei",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
+                    "id": 13081,
+                    "name": "Tasdik Mührü",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Saldırı",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir, ayrıca bu karakter Kızıl Mühür kuşanır.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir, ayrıca bu karakter <color=#FFFFFFFF>$[C113081]</color> kuşanır.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir, ayrıca bu karakter <color=#FFFFFFFF>Kızıl Mühür</color> kuşanır.",
+                    "id": 13082,
+                    "name": "Kızıl Ferman",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Element Becerisi",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir, ayrıca karakter Kızıl Mühür ve Parlaklık kuşanır.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir, ayrıca karakter <color=#FFFFFFFF>$[C113081]</color> ve <color=#FFFFFFFF>$[C113082]</color> kuşanır.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir, ayrıca karakter <color=#FFFFFFFF>Kızıl Mühür</color> ve <color=#FFFFFFFF>Parlaklık</color> kuşanır.",
+                    "id": 13083,
+                    "name": "Son Karar",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Element Patlaması",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Yanfei'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+            "storytext": "Klasikleri gözden geçirmeyen kişi, yasaları çiğnemiş olur.",
+            "storytitle": "Masum Bilgelik: Yanfei",
+            "tags": [
+                "GCG_TAG_ELEMENT_PYRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Ateş",
+                "Katalizör",
+                "Liyue"
             ]
         },
         "yoimiya": {
@@ -3923,17 +4183,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "4 Ateş Hasarı verir ve 1 Altın Alev oluşturur.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir ve 1 Altın Alev oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C113052]</color> oluşturur.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş Hasarı</color> verir ve 1 <color=#FFFFFFFF>Altın Alev</color> oluşturur.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Altın Alev</color> oluşturur.",
                     "id": 13053,
                     "name": "Taşkıran Ryuukin",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_PYRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -3987,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "1 Toprak Hasarı verir ve 1 Dikili Taş çağırır.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "1 Fiziksel Hasar verir ve 1 Dikili Taş çağırır.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C116031]</color> çağırır.",
-                    "descriptionreplaced": "1 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir ve 1 <color=#FFFFFFFF>Dikili Taş</color> çağırır.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve 1 <color=#FFFFFFFF>Dikili Taş</color> çağırır.",
                     "id": 16032,
                     "name": "Taşların Efendisi",
                     "playcost": [
@@ -4004,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "3 Toprak Hasarı verir, 1 Dikili Taş çağırır ve 1 Yeşim Kalkan oluşturur.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "3 Fiziksel Hasar verir, 1 Dikili Taş çağırır ve 1 Yeşim Kalkan oluşturur.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir, 1 <color=#FFFFFFFF>$[C116031]</color> çağırır ve 1 <color=#FFFFFFFF>$[C116032]</color> oluşturur.",
-                    "descriptionreplaced": "3 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir, 1 <color=#FFFFFFFF>Dikili Taş</color> çağırır ve 1 <color=#FFFFFFFF>Yeşim Kalkan</color> oluşturur.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir, 1 <color=#FFFFFFFF>Dikili Taş</color> çağırır ve 1 <color=#FFFFFFFF>Yeşim Kalkan</color> oluşturur.",
                     "id": 16033,
                     "name": "Taşların Efendisi: Hüküm Taşı",
                     "playcost": [
@@ -4021,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "4 Toprak Hasarı verir ve hedef karaktere Taşlaşma eklenir.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "4 Fiziksel Hasar verir ve hedef karaktere Taşlaşma eklenir.",
                     "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve hedef karaktere <color=#FFFFFFFF>$[C116033]</color> eklenir.",
-                    "descriptionreplaced": "4 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir ve hedef karaktere <color=#FFFFFFFF>Taşlaşma</color> eklenir.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir ve hedef karaktere <color=#FFFFFFFF>Taşlaşma</color> eklenir.",
                     "id": 16034,
                     "name": "Düşen Gezegen",
                     "playcost": [
@@ -4065,6 +4325,7 @@
                 "barbara",
                 "beidou",
                 "bennett",
+                "candace",
                 "chongyun",
                 "collei",
                 "cyno",
@@ -4078,6 +4339,7 @@
                 "hutao",
                 "jadeplumeterrorshroom",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4103,6 +4365,7 @@
                 "xiao",
                 "xingqiu",
                 "yaemiko",
+                "yanfei",
                 "yoimiya",
                 "zhongli"
             ],
@@ -4110,18 +4373,21 @@
                 "abysslectorfathomlessflames",
                 "amber",
                 "bennett",
+                "candace",
                 "collei",
                 "cyno",
                 "electrohypostasis",
                 "eula",
                 "fatuipyroagent",
                 "jadeplumeterrorshroom",
+                "kaedeharakazuha",
                 "kaeya",
                 "kujousara",
                 "mirrormaiden",
                 "nahida",
                 "noelle",
                 "raidenshogun",
+                "razor",
                 "sangonomiyakokomi",
                 "shenhe",
                 "stonehidelawachurl",
@@ -4131,7 +4397,8 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "3": [
                 "aratakiitto",
@@ -4152,7 +4419,6 @@
                 "maguukenki",
                 "mona",
                 "ningguang",
-                "razor",
                 "rhodeiaofloch",
                 "tartaglia",
                 "yoimiya",
@@ -4184,6 +4450,7 @@
             ],
             "GCG_TAG_ELEMENT_ANEMO": [
                 "jean",
+                "kaedeharakazuha",
                 "maguukenki",
                 "sucrose",
                 "venti",
@@ -4225,6 +4492,7 @@
             ],
             "GCG_TAG_ELEMENT_HYDRO": [
                 "barbara",
+                "candace",
                 "kamisatoayato",
                 "mirrormaiden",
                 "mona",
@@ -4242,10 +4510,12 @@
                 "hutao",
                 "klee",
                 "xiangling",
+                "yanfei",
                 "yoimiya"
             ],
             "GCG_TAG_NATION_INAZUMA": [
                 "aratakiitto",
+                "kaedeharakazuha",
                 "kamisatoayaka",
                 "kamisatoayato",
                 "kujousara",
@@ -4265,6 +4535,7 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
+                "yanfei",
                 "zhongli"
             ],
             "GCG_TAG_NATION_MONDSTADT": [
@@ -4285,6 +4556,7 @@
                 "venti"
             ],
             "GCG_TAG_NATION_SUMERU": [
+                "candace",
                 "collei",
                 "cyno",
                 "nahida",
@@ -4310,7 +4582,8 @@
                 "ningguang",
                 "sangonomiyakokomi",
                 "sucrose",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "GCG_TAG_WEAPON_CLAYMORE": [
                 "aratakiitto",
@@ -4333,6 +4606,7 @@
                 "stonehidelawachurl"
             ],
             "GCG_TAG_WEAPON_POLE": [
+                "candace",
                 "cyno",
                 "hutao",
                 "raidenshogun",
@@ -4344,6 +4618,7 @@
             "GCG_TAG_WEAPON_SWORD": [
                 "bennett",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4358,6 +4633,7 @@
             "barbara": "Barbara",
             "beidou": "Beidou",
             "bennett": "Bennett",
+            "candace": "Candace",
             "chongyun": "Chongyun",
             "collei": "Collei",
             "cyno": "Cyno",
@@ -4372,6 +4648,7 @@
             "hutao": "Hu Tao",
             "jadeplumeterrorshroom": "Yeşimkuyruk Mantar Kuşu",
             "jean": "Jean",
+            "kaedeharakazuha": "Kaedehara Kazuha",
             "kaeya": "Kaeya",
             "kamisatoayaka": "Kamisato Ayaka",
             "kamisatoayato": "Kamisato Ayato",
@@ -4398,6 +4675,7 @@
             "xiao": "Xiao",
             "xingqiu": "Xingqiu",
             "yaemiko": "Yae Miko",
+            "yanfei": "Yanfei",
             "yoimiya": "Yoimiya",
             "zhongli": "Zhongli"
         },
@@ -4408,6 +4686,7 @@
             "Barbara": "barbara",
             "Beidou": "beidou",
             "Bennett": "bennett",
+            "Candace": "candace",
             "Chongyun": "chongyun",
             "Collei": "collei",
             "Cyno": "cyno",
@@ -4422,6 +4701,7 @@
             "Hiçlik Vaizi: Derin Alevler": "abysslectorfathomlessflames",
             "Hu Tao": "hutao",
             "Jean": "jean",
+            "Kaedehara Kazuha": "kaedeharakazuha",
             "Kaeya": "kaeya",
             "Kamisato Ayaka": "kamisatoayaka",
             "Kamisato Ayato": "kamisatoayato",
@@ -4446,6 +4726,7 @@
             "Xiao": "xiao",
             "Xingqiu": "xingqiu",
             "Yae Miko": "yaemiko",
+            "Yanfei": "yanfei",
             "Yeşimkuyruk Mantar Kuşu": "jadeplumeterrorshroom",
             "Yoimiya": "yoimiya",
             "Zhongli": "zhongli",
@@ -4475,10 +4756,10 @@
                 "GCG_TAG_ELEMENT_ELECTRO",
                 "GCG_TAG_NATION_LIYUE",
                 "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU",
                 "GCG_TAG_ELEMENT_CRYO",
                 "GCG_TAG_ELEMENT_DENDRO",
-                "GCG_TAG_NATION_SUMERU",
-                "GCG_TAG_WEAPON_POLE",
                 "GCG_TAG_CAMP_FATUI",
                 "GCG_TAG_ELEMENT_ANEMO",
                 "GCG_TAG_CAMP_HILICHURL"

@@ -360,6 +360,12 @@
                     "titleraw": "{SPRITE_PRESET#4007}Escudo"
                 },
                 {
+                    "content": "Cada jugador solo puede usar 1 carta de técnica secreta por partida.\nLas cartas de técnica secreta aparecerán en tu mano inicial. Si cuentas con más cartas de técnica secreta en tu mazo que el número de cartas en tu mano inicial, se escogerán al azar.",
+                    "contentraw": "Cada jugador solo puede usar 1 carta de {SPRITE_PRESET#3007}técnica secreta por partida.\\nLas cartas de {SPRITE_PRESET#3007}técnica secreta aparecerán en tu mano inicial. Si cuentas con más cartas de {SPRITE_PRESET#3007}técnica secreta en tu mazo que el número de cartas en tu mano inicial, se escogerán al azar.",
+                    "title": "Técnica secreta",
+                    "titleraw": "{SPRITE_PRESET#3007}Técnica secreta"
+                },
+                {
                     "content": "Algunas cartas y estados tienen usos limitados.\nCada vez que se active el efecto de la carta, se consumirá 1 uso.\nCuando se agoten todos los usos, esta carta se descartará inmediatamente.",
                     "contentraw": "Algunas cartas y estados tienen usos limitados.\\nCada vez que se active el efecto de la carta, se consumirá 1 uso.\\nCuando se agoten todos los usos, esta carta se descartará inmediatamente.",
                     "title": "Número de usos",

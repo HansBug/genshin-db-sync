@@ -142,6 +142,29 @@
                 "Yay"
             ]
         },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Etki Kartı",
+            "description": "Silah ya da Yadigar kuşanan bir karakterin olmalıdır. Bu Turda Silah veya Yadigar kartı oynadığın bir sonraki seferde 2 adet daha az Element Zarı harcanır.\n(Düello boyunca yalnızca bir \"Saklı Destan\" kartı oynanabilir. Bu kart başlangıç elinde yer alır.)",
+            "descriptionraw": "<color=#FFFFFFFF>{SPRITE_PRESET#3003}Silah ya da {SPRITE_PRESET#3004}Yadigar kuşanan bir karakterin olmalıdır. Bu Turda {SPRITE_PRESET#3003}Silah veya {SPRITE_PRESET#3004}Yadigar kartı oynadığın bir sonraki seferde</color> 2 adet daha az Element Zarı harcanır.\\n(Düello boyunca yalnızca bir {SPRITE_PRESET#3007}\"Saklı Destan\" kartı oynanabilir. Bu kart başlangıç elinde yer alır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>{SPRITE_PRESET#3003}Silah ya da {SPRITE_PRESET#3004}Yadigar kuşanan bir karakterin olmalıdır. Bu Turda {SPRITE_PRESET#3003}Silah veya {SPRITE_PRESET#3004}Yadigar kartı oynadığın bir sonraki seferde</color> 2 adet daha az Element Zarı harcanır.\\n(Düello boyunca yalnızca bir {SPRITE_PRESET#3007}\"Saklı Destan\" kartı oynanabilir. Bu kart başlangıç elinde yer alır.)",
+            "id": 330001,
+            "name": "Kadim Bahçe",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Ölümlü yaşam, bir rüya gibi boş bir kabuğa benzemiyor mu?\"",
+            "storytitle": "Kadim Bahçe",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Saklı Destan"
+            ]
+        },
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ekipman Kartı",
@@ -385,9 +408,9 @@
         "calxsarts": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Etki Kartı",
-            "description": "En fazla hazırdaki 2 karakterden 1 Enerji alıp aktif karaktere verir.",
-            "descriptionraw": "En fazla hazırdaki 2 karakterden 1 $[K310] alıp aktif karaktere verir.",
-            "descriptionreplaced": "En fazla hazırdaki 2 karakterden 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color> alıp aktif karaktere verir.",
+            "description": "Hazırdaki en fazla 2 karakterden 1 Enerji alıp aktif karaktere verir.",
+            "descriptionraw": "Hazırdaki en fazla 2 karakterden 1 $[K310] alıp aktif karaktere verir.",
+            "descriptionreplaced": "Hazırdaki en fazla 2 karakterden 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color> alıp aktif karaktere verir.",
             "id": 332009,
             "name": "Tebeşir Sanatı",
             "playcost": [
@@ -615,6 +638,29 @@
             "tagstext": [
                 "Yetenek",
                 "Savaş Hamlesi"
+            ]
+        },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Etki Kartı",
+            "description": "Bu kart yalnızca 0 Element Zarın kaldığında kullanılabilir. Kullandığında 2 farklı temel Element Zarı oluşur.\n(Düello boyunca yalnızca bir \"Saklı Destan\" kartı oynanabilir. Bu kart başlangıç elinde yer alır.)",
+            "descriptionraw": "<color=#FFFFFFFF>Bu kart yalnızca 0 Element Zarın kaldığında kullanılabilir.</color> Kullandığında 2 farklı temel Element Zarı oluşur.\\n(Düello boyunca yalnızca bir {SPRITE_PRESET#3007}\"Saklı Destan\" kartı oynanabilir. Bu kart başlangıç elinde yer alır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Bu kart yalnızca 0 Element Zarın kaldığında kullanılabilir.</color> Kullandığında 2 farklı temel Element Zarı oluşur.\\n(Düello boyunca yalnızca bir {SPRITE_PRESET#3007}\"Saklı Destan\" kartı oynanabilir. Bu kart başlangıç elinde yer alır.)",
+            "id": 330002,
+            "name": "Kaya Sözleşmesi",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Rex Lapis ona dünyayı görmesi için bir çift göz bahşetti ve onunla bir anlaşmaya vardı. Ejder daha sonra Toprağın Efendisi'ne eşlik ederek dünyanın dört bir yanında onunla birlikte seferler düzenledi...\"",
+            "storytitle": "Kaya Sözleşmesi",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Saklı Destan"
             ]
         },
         "crimsonwitchofflames": {
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Karakterin verdiği Hasar 1 artar.\n Oynadığında 2 kart çekersin.\n(Yalnızca Katalizör Karakterleri bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir)",
+            "descriptionraw": "<color=#FFFFFFFF>Karakterin verdiği Hasar 1 artar</color>.\\n <color=#FFFFFFFF>Oynadığında</color> 2 kart çekersin.\\n(Yalnızca <color=#FFFFFFFF>{SPRITE_PRESET#3201}Katalizör Karakterleri bunu kuşanabilir</color>. Bir karakter en fazla 1 {SPRITE_PRESET#3003}Silah kuşanabilir)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakterin verdiği Hasar 1 artar</color>.\\n <color=#FFFFFFFF>Oynadığında</color> 2 kart çekersin.\\n(Yalnızca <color=#FFFFFFFF>{SPRITE_PRESET#3201}Katalizör Karakterleri bunu kuşanabilir</color>. Bir karakter en fazla 1 {SPRITE_PRESET#3003}Silah kuşanabilir)",
+            "id": 311105,
+            "name": "Doygunluk Meyvesi",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "\"En acı hikayeler bile cesaret ve güç barındırır... İyi kalpli Altın Naranın bizimle yaşadığı maceralarının hikayesi, ormanı savunmasına yardım edecek.\"",
+            "storytitle": "Dolunay: Doygunluk Meyvesi",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "Silah",
+                "Katalizör"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ekipman Kartı",
-            "description": "Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde aktif karakterse 2 Kararsız Element oluşturur.\n(Bir karakter en fazla 1 Yadigar kuşanabilir.)",
-            "descriptionraw": "<color=#FFFFFFFF>Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde</color> aktif karakterse 2 $[K411] oluşturur.\\n(Bir karakter en fazla 1 {SPRITE_PRESET#3004}Yadigar kuşanabilir.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde</color> aktif karakterse 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> oluşturur.\\n(Bir karakter en fazla 1 {SPRITE_PRESET#3004}Yadigar kuşanabilir.)",
+            "description": "Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde aktif karakterse 2 Kararsız Element oluşturur. (Bir düelloda en fazla 3 defa gerçekleşebilir.)\n(Bir karakter en fazla 1 Yadigar kuşanabilir.)",
+            "descriptionraw": "<color=#FFFFFFFF>Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde</color> aktif karakterse 2 $[K411] oluşturur. (Bir düelloda en fazla 3 defa gerçekleşebilir.)\\n(Bir karakter en fazla 1 {SPRITE_PRESET#3004}Yadigar kuşanabilir.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde</color> aktif karakterse 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> oluşturur. (Bir düelloda en fazla 3 defa gerçekleşebilir.)\\n(Bir karakter en fazla 1 {SPRITE_PRESET#3004}Yadigar kuşanabilir.)",
             "id": 312004,
             "name": "Kumarbazın Küpeleri",
             "playcost": [
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ekipman Kartı",
-            "description": "Savaş Hamlesi: Aktif karakterin Noelle olduğunda bu kartı kuşan.\nNoelle bu kartı kuşandıktan sonra hemen bir defa Kalbin Zırhı kullanır.\nBu kartı kuşanan Noelle, bir Tam Zırh oluşturduğunda Noelle Normal Saldırı yaptıktan sonra tüm karakterlerin için 1 Can yenilenir. (Her Turda bir defa)\n(Bu kartı destene eklemek için destende Noelle olmalıdır.)",
-            "descriptionraw": "$[K1]: Aktif karakterin <color=#FFFFFFFF>$[A1602]</color> olduğunda bu kartı kuşan.\\n$[A1602] bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>$[S16022]</color> kullanır.\\nBu kartı kuşanan $[A1602], bir <color=#FFFFFFFF>$[C116021]</color> oluşturduğunda $[A1602] <color=#FFFFFFFF>Normal Saldırı</color> yaptıktan sonra tüm karakterlerin için 1 Can yenilenir. (Her Turda bir defa)\\n(Bu kartı destene eklemek için destende $[A1602] olmalıdır.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Savaş Hamlesi</color>: Aktif karakterin <color=#FFFFFFFF>Noelle</color> olduğunda bu kartı kuşan.\\nNoelle bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>Kalbin Zırhı</color> kullanır.\\nBu kartı kuşanan Noelle, bir <color=#FFFFFFFF>Tam Zırh</color> oluşturduğunda Noelle <color=#FFFFFFFF>Normal Saldırı</color> yaptıktan sonra tüm karakterlerin için 1 Can yenilenir. (Her Turda bir defa)\\n(Bu kartı destene eklemek için destende Noelle olmalıdır.)",
+            "description": "Savaş Hamlesi: Aktif karakterin Noelle olduğunda bu kartı kuşan.\nNoelle bu kartı kuşandıktan sonra hemen bir defa Kalbin Zırhı kullanır.\n[A1602] bir Normal Saldırı kullandığında hem bu kart hem Tam Zırh oyundaysa tüm karakterlerin için 1 Can yenilenir. (Her Turda bir defa)\n(Bu kartı destene eklemek için destende Noelle olmalıdır.)",
+            "descriptionraw": "$[K1]: Aktif karakterin <color=#FFFFFFFF>$[A1602]</color> olduğunda bu kartı kuşan.\\n$[A1602] bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>$[S16022]</color> kullanır.\\n<color=#FFFFFFFF>[A1602] bir Normal Saldırı kullandığında</color> hem bu kart hem <color=#FFFFFFFF>$[C116021]</color> oyundaysa tüm karakterlerin için 1 Can yenilenir. (Her Turda bir defa)\\n(Bu kartı destene eklemek için destende $[A1602] olmalıdır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Savaş Hamlesi</color>: Aktif karakterin <color=#FFFFFFFF>Noelle</color> olduğunda bu kartı kuşan.\\nNoelle bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>Kalbin Zırhı</color> kullanır.\\n<color=#FFFFFFFF>[A1602] bir Normal Saldırı kullandığında</color> hem bu kart hem <color=#FFFFFFFF>Tam Zırh</color> oyundaysa tüm karakterlerin için 1 Can yenilenir. (Her Turda bir defa)\\n(Bu kartı destene eklemek için destende Noelle olmalıdır.)",
             "id": 216021,
             "name": "Bana Güven",
             "playcost": [
@@ -2541,6 +2612,54 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Karakterin bir Yüklü Saldırı kullandığında verilen Hasar 1 artar. Bittikten sonra 1 kart çekersin.",
+            "descriptionraw": "<color=#FFFFFFFF>Karakterin bir $[K51] kullandığında</color> verilen Hasar 1 artar. Bittikten sonra 1 kart çekersin.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakterin bir <color=#FFFFFFFF>Yüklü Saldırı</color> kullandığında</color> verilen Hasar 1 artar. Bittikten sonra 1 kart çekersin.",
+            "id": 423020,
+            "name": "Ustalık Tılsımı: Bilenmiş Silah, Bilenmiş Zırh",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Hem Silah hem Yadigar kuşanan bir Karakterin Beceri kullandığında 3 adet daha az Element Zarı harcanır. (Her Turda bir defa)",
+            "descriptionraw": "<color=#FFFFFFFF>Hem {SPRITE_PRESET#3003}Silah hem {SPRITE_PRESET#3004}Yadigar kuşanan bir Karakterin Beceri kullandığında</color> 3 adet daha az Element Zarı harcanır. (Her Turda bir defa)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hem {SPRITE_PRESET#3003}Silah hem {SPRITE_PRESET#3004}Yadigar kuşanan bir Karakterin Beceri kullandığında</color> 3 adet daha az Element Zarı harcanır. (Her Turda bir defa)",
+            "id": 423021,
+            "name": "Ustalık Tılsımı: Savaşa Hazır",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Rakip bir karakter yenildiğinde tüm rakip karakterlere 1 Delme Hasarı verilir.",
+            "descriptionraw": "<color=#FFFFFFFF>Rakip bir karakter yenildiğinde</color> tüm rakip karakterlere 1 $[K5] verilir.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Rakip bir karakter yenildiğinde</color> tüm rakip karakterlere 1 <color=#FFFFFFFF>Delme Hasarı</color> verilir.",
+            "id": 423022,
+            "name": "Ustalık Tılsımı: Peş Peşe Yenilgi",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Rakip bir karakter Element Tepkimesi Hasarı aldığında 1 Kararsız Element oluşur. (Her Turda en fazla 3 defa tetiklenebilir)",
+            "descriptionraw": "<color=#FFFFFFFF>Rakip bir karakter Element Tepkimesi Hasarı aldığında</color> 1 $[K411] oluşur. (Her Turda en fazla 3 defa tetiklenebilir)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Rakip bir karakter Element Tepkimesi Hasarı aldığında</color> 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> oluşur. (Her Turda en fazla 3 defa tetiklenebilir)",
+            "id": 423023,
+            "name": "Ustalık Tılsımı: Kaosun Sancakları",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Destek Kartı",
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Zar maliyeti en az 3 olan bir Silah veya Yadigar Ekipman Kartı oynandığında 3 adet daha az Element Zarı harcanır. (Her Turda bir defa)",
+            "descriptionraw": "<color=#FFFFFFFF>Zar maliyeti en az 3 olan bir {SPRITE_PRESET#3003}Silah veya {SPRITE_PRESET#3004}Yadigar Ekipman Kartı oynandığında</color> 3 adet daha az Element Zarı harcanır. (Her Turda bir defa)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Zar maliyeti en az 3 olan bir {SPRITE_PRESET#3003}Silah veya {SPRITE_PRESET#3004}Yadigar Ekipman Kartı oynandığında</color> 3 adet daha az Element Zarı harcanır. (Her Turda bir defa)",
+            "id": 423019,
+            "name": "Ustalık Tılsımı: Uzun Vadeli Plan",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Destek Kartı",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Rakip bir karakter yenildiğinde</color> 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> oluşturur ve 1 kart çekersin.",
             "id": 423007,
             "name": "Ustalık Tılsımı: Hücuma Devam",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Karakterin bir Beceri kullandığında rakibin alanında karakterin kendi elementinde bir Tuzak Mayın oluşur. Rakip güçler oyuna girdiğinde Tuzak Mayın onlara Mayının elementinde 1 Hasar verir.",
+            "descriptionraw": "<color=#FFFFFFFF>Karakterin bir Beceri kullandığında</color> rakibin alanında karakterin kendi elementinde bir Tuzak Mayın oluşur. Rakip güçler oyuna girdiğinde Tuzak Mayın onlara Mayının elementinde 1 Hasar verir.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakterin bir Beceri kullandığında</color> rakibin alanında karakterin kendi elementinde bir Tuzak Mayın oluşur. Rakip güçler oyuna girdiğinde Tuzak Mayın onlara Mayının elementinde 1 Hasar verir.",
+            "id": 423024,
+            "name": "Ustalık Tılsımı: Ani Pusu",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Rakip bir karakter yenildiğinde 1 kart çekersin. Bu düellodaki mevcut aktif karakterin verdiği Hasar 1 artar. (En fazla 3 kademe birikebilir.)",
+            "descriptionraw": "<color=#FFFFFFFF>Rakip bir karakter yenildiğinde</color> 1 kart çekersin. Bu düellodaki mevcut aktif karakterin verdiği Hasar 1 artar. (En fazla 3 kademe birikebilir.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Rakip bir karakter yenildiğinde</color> 1 kart çekersin. Bu düellodaki mevcut aktif karakterin verdiği Hasar 1 artar. (En fazla 3 kademe birikebilir.)",
+            "id": 423018,
+            "name": "Ustalık Tılsımı: Zaferin Şanı",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Bir Silah kartı oynadığında 1 adet daha az Element Zarı harcanır. Buna ek olarak alanda zaten Silah kuşanan her bir karakter başına 1 adet daha az Element Zarı harcanır. (Her Turda bir defa)",
+            "descriptionraw": "<color=#FFFFFFFF>Bir {SPRITE_PRESET#3003}Silah kartı oynadığında</color> 1 adet daha az Element Zarı harcanır. Buna ek olarak alanda zaten {SPRITE_PRESET#3003}Silah kuşanan her bir karakter başına 1 adet daha az Element Zarı harcanır. (Her Turda bir defa)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Bir {SPRITE_PRESET#3003}Silah kartı oynadığında</color> 1 adet daha az Element Zarı harcanır. Buna ek olarak alanda zaten {SPRITE_PRESET#3003}Silah kuşanan her bir karakter başına 1 adet daha az Element Zarı harcanır. (Her Turda bir defa)",
+            "id": 322018,
+            "name": "Zhang Usta",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Elmas nasıl yontulmadan kusursuz olmazsa; insan da acı çekmeden olgunlaşmaz.",
+            "storytitle": "Cephanelik Dövme: Zhang Usta",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Ortak"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -3025,6 +3203,32 @@
                 "Savaş Hamlesi"
             ]
         },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Savaş Hamlesi: Aktif karakterin Kaedehara Kazuha olduğunda bu kartı kuşan.\nKaedehara Kazuha bu kartı kuşandıktan sonra hemen bir defa Chihayaburu kullanır.\nBu kartı kuşanan Kaedehara Kazuha Girdap tetiklediğinde 2 defa Karakterlerinin ve Minyonlarının Girdaba alınan Element Türünde verdikleri Hasar 1 artar. (Her Element Türünün süresi bağımsızdır)\n(Bu kartı destene eklemek için destende Kaedehara Kazuha olmalıdır.)",
+            "descriptionraw": "$[K1]: Aktif karakterin <color=#FFFFFFFF>$[A1505]</color> olduğunda bu kartı kuşan.\\n$[A1505] bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>$[S15052]</color> kullanır.\\nBu kartı kuşanan $[A1505] Girdap tetiklediğinde 2 defa Karakterlerinin ve Minyonlarının Girdaba alınan Element Türünde verdikleri Hasar 1 artar. (Her Element Türünün süresi bağımsızdır)\\n(Bu kartı destene eklemek için destende $[A1505] olmalıdır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Savaş Hamlesi</color>: Aktif karakterin <color=#FFFFFFFF>Kaedehara Kazuha</color> olduğunda bu kartı kuşan.\\nKaedehara Kazuha bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>Chihayaburu</color> kullanır.\\nBu kartı kuşanan Kaedehara Kazuha Girdap tetiklediğinde 2 defa Karakterlerinin ve Minyonlarının Girdaba alınan Element Türünde verdikleri Hasar 1 artar. (Her Element Türünün süresi bağımsızdır)\\n(Bu kartı destene eklemek için destende Kaedehara Kazuha olmalıdır.)",
+            "id": 215051,
+            "name": "Fuubutsu Şiirleri",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "Kaedehara Kazuha'yı Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+            "storytext": "Bu düello ile ilgili hoş bir şey var.\nHiç değilse her iki taraf da pişmanlık duymadan yenilgiye razı olabilir.",
+            "storytitle": "Kaedehara Kazuha: Fuubutsu Şiirleri",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Yetenek",
+                "Savaş Hamlesi"
+            ]
+        },
         "poundingsurprise": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ekipman Kartı",
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "Eşya"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Etki Kartı",
+            "description": "Bir Silah veya Yadigar kartı oynadığın bir sonraki seferde 1 adet daha az Element Zarı harcanır.",
+            "descriptionraw": "<color=#FFFFFFFF>Bir {SPRITE_PRESET#3003}Silah veya {SPRITE_PRESET#3004}Yadigar kartı oynadığın bir sonraki seferde</color> 1 adet daha az Element Zarı harcanır.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Bir {SPRITE_PRESET#3003}Silah veya {SPRITE_PRESET#3004}Yadigar kartı oynadığın bir sonraki seferde</color> 1 adet daha az Element Zarı harcanır.",
+            "id": 332021,
+            "name": "Büyük Hayalin Melodisi",
+            "playcost": [],
+            "storytext": "\"Hayallerimize, dünyamıza girin.\"\n\"İyi, cesur ve dürüst işleri yazın.\"",
+            "storytitle": "Büyük Hayalin Melodisi",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Savaş Hamlesi: Aktif karakterin Yanfei olduğunda bu kartı kuşan.\nYanfei bu kartı kuşandıktan sonra hemen bir defa Tasdik Mührü kullanır.\nYanfei, bu kartı kuşanmışken Yüklü Saldırı kullanırsa 6 veya daha az Canı olan düşmanlara verdiği Hasar 1 artar.\n(Bu kartı destene eklemek için destende Yanfei olmalıdır.)",
+            "descriptionraw": "$[K1]: Aktif karakterin <color=#FFFFFFFF>$[A1308]</color> olduğunda bu kartı kuşan.\\n$[A1308] bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>$[S13081]</color> kullanır.\\n$[A1308], bu kartı kuşanmışken $[K51] kullanırsa 6 veya daha az Canı olan düşmanlara verdiği Hasar 1 artar.\\n(Bu kartı destene eklemek için destende $[A1308] olmalıdır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Savaş Hamlesi</color>: Aktif karakterin <color=#FFFFFFFF>Yanfei</color> olduğunda bu kartı kuşan.\\nYanfei bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>Tasdik Mührü</color> kullanır.\\nYanfei, bu kartı kuşanmışken <color=#FFFFFFFF>Yüklü Saldırı</color> kullanırsa 6 veya daha az Canı olan düşmanlara verdiği Hasar 1 artar.\\n(Bu kartı destene eklemek için destende Yanfei olmalıdır.)",
+            "id": 213081,
+            "name": "Son Karar Hakkı",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "Yanfei'yi Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+            "storytext": "\"İş kartlara geldiğinde... Kurallarla ters düşmediği sürece her şey mübahtır.\"",
+            "storytitle": "Yanfei: Son Karar Hakkı",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Yetenek",
+                "Savaş Hamlesi"
             ]
         },
         "sacrificialbow": {
@@ -4019,6 +4267,36 @@
             "storytitle": "Özgürlük Hayali",
             "tags": [],
             "tagstext": []
+        },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Savaş Hamlesi: Aktif karakterin Candace olduğunda bu kartı kuşan.\nCandace bu kartı kuşandıktan sonra hemen bir defa Kutsal Ayin: Kuyruksallayan Dalgası kullanır.\nCandace bu kartı kuşandığında ortaya çıkan Kızıl Taç Duası şu ek etkiyi kazanır: Karakterin Normal Saldırı kullandıktan sonra 1 Su Hasarı verir. (Her Turda bir defa)\n(Bu kartı destene eklemek için destende Candace olmalıdır.)",
+            "descriptionraw": "$[K1]: Aktif karakterin <color=#FFFFFFFF>$[A1207]</color> olduğunda bu kartı kuşan.\\n$[A1207] bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>$[S12073]</color> kullanır.\\n$[A1207] bu kartı kuşandığında ortaya çıkan <color=#FFFFFFFF>$[C112072]</color> şu ek etkiyi kazanır: <color=#FFFFFFFF>Karakterin Normal Saldırı kullandıktan sonra </color>1 $[K102] verir. (Her Turda bir defa)\\n(Bu kartı destene eklemek için destende $[A1207] olmalıdır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Savaş Hamlesi</color>: Aktif karakterin <color=#FFFFFFFF>Candace</color> olduğunda bu kartı kuşan.\\nCandace bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>Kutsal Ayin: Kuyruksallayan Dalgası</color> kullanır.\\nCandace bu kartı kuşandığında ortaya çıkan <color=#FFFFFFFF>Kızıl Taç Duası</color> şu ek etkiyi kazanır: <color=#FFFFFFFF>Karakterin Normal Saldırı kullandıktan sonra </color>1 {SPRITE_PRESET#2102}<color=#80C0FFFF>Su Hasarı</color> verir. (Her Turda bir defa)\\n(Bu kartı destene eklemek için destende Candace olmalıdır.)",
+            "id": 212071,
+            "name": "Taşkın",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "Candace'ı Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+            "storytext": "Kart oyununda kurallara saygı göstermeyenler...\nOyuna gönül verenlerin düşmanlarıdır.",
+            "storytitle": "Candace: Taşkın",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Yetenek",
+                "Savaş Hamlesi"
+            ]
         },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "Adeptus Doyuran",
             "adventurersbandana": "Maceracının Bandanası",
             "amosbow": "Amos'un Yayı",
+            "ancientcourtyard": "Kadim Bahçe",
             "aquilafavonia": "Favonia Kartalı",
             "aratakiichiban": "Arataki Ichiban",
             "archaicpetra": "Arkaik Taşlar",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "Donduran Cicin Bakışı",
             "coldbloodedstrike": "Soğukkanlı Vuruş",
             "conquerorofevilguardianyaksha": "Şer Fatihi: Muhafız Yaksha",
+            "covenantofrock": "Kaya Sözleşmesi",
             "crimsonwitchofflames": "Kızıl Alev Cadısı",
             "crossfire": "Çapraz Ateş",
             "dawnwinery": "Şafak Şaraphanesi",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "Yandan Uçan Yapraklar",
             "flowingflame": "Akan Alev",
             "friendshipeternal": "Ebedi Dostluk",
+            "fruitoffulfillment": "Doygunluk Meyvesi",
             "gamblersearrings": "Kumarbazın Küpeleri",
             "generalsancienthelm": "Kadim General Miğferi",
             "giantmutationstone": "Dev Mutasyon Taşı",
@@ -5699,6 +6019,10 @@
             "magicguide": "Büyü Rehberi",
             "maskofsolitudebasalt": "Münzevi Bazalt Maskesi",
             "masterofweaponry": "Silah Ustası",
+            "masterytalismanarmsandarmorhoned": "Ustalık Tılsımı: Bilenmiş Silah, Bilenmiş Zırh",
+            "masterytalismanbattleready": "Ustalık Tılsımı: Savaşa Hazır",
+            "masterytalismancascadingdefeat": "Ustalık Tılsımı: Peş Peşe Yenilgi",
+            "masterytalismanchaoticbanners": "Ustalık Tılsımı: Kaosun Sancakları",
             "masterytalismancoldwar": "Ustalık Tılsımı: Soğuk Savaş",
             "masterytalismancyclecharge": "Ustalık Tılsımı: Döngü Yüklemesi",
             "masterytalismandecisivebattle": "Ustalık Tılsımı: Son Çarpışma",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "Ustalık Tılsımı: Genişleyen Patlama",
             "masterytalismanimmovable": "Ustalık Tılsımı: Sarsılmaz",
             "masterytalismanintelligenceupdate": "Ustalık Tılsımı: Üstün Akıl",
+            "masterytalismanplanninglongterm": "Ustalık Tılsımı: Uzun Vadeli Plan",
             "masterytalismanpracticemakesperfect": "Ustalık Tılsımı: İşleyen Demir Işıldar",
             "masterytalismanpresstheattack": "Ustalık Tılsımı: Hücuma Devam",
+            "masterytalismansuddenambush": "Ustalık Tılsımı: Ani Pusu",
             "masterytalismansurgingvigor": "Ustalık Tılsımı: Coşku Dalgası",
             "masterytalismantheelementsentwined": "Ustalık Tılsımı: Element Düğümü",
+            "masterytalismanvictoriousrepute": "Ustalık Tılsımı: Zaferin Şanı",
+            "masterzhang": "Zhang Usta",
             "mintymeatrolls": "Naneli Rosto",
             "mirrorcage": "Aynalı Kafes",
             "mondstadthashbrown": "Mondstadt Usulü Mücver",
@@ -5726,6 +6054,7 @@
             "paimon": "Paimon",
             "parametrictransformer": "Parametrik Dönüştürücü",
             "plungingstrike": "Havadan Darbe",
+            "poeticsoffuubutsu": "Fuubutsu Şiirleri",
             "poundingsurprise": "Ezici Sürpriz",
             "proliferatingspores": "Çoğalan Sporlar",
             "prophecyofsubmersion": "Batışın Kehaneti",
@@ -5733,6 +6062,8 @@
             "rana": "Rana",
             "ravenbow": "Kuzgun Yayı",
             "redfeatherfan": "Kırmızı Tüylü Yelpaze",
+            "rhythmofthegreatdream": "Büyük Hayalin Melodisi",
+            "rightoffinalinterpretation": "Son Karar Hakkı",
             "sacrificialbow": "Kurban Yayı",
             "sacrificialfragments": "Kurban Kanunları",
             "sacrificialgreatsword": "Kurban Büyük Kılıcı",
@@ -5767,6 +6098,7 @@
             "thebell": "Çan",
             "thebestesttravelcompanion": "En İyi Seyahat Arkadaşı!",
             "thelegendofvennessa": "Vennessa Efsanesi",
+            "theoverflow": "Taşkın",
             "thescentremained": "Yağmur Kokusu",
             "theseedofstoredknowledge": "Saklanmış Bilgi Tohumu",
             "theshrinessacredshade": "Tapınağın Kutsal Gölgesi",
@@ -5825,6 +6157,7 @@
             "Burçlar": "starsigns",
             "Buzul Mırlama": "shakennotpurred",
             "Büyü Rehberi": "magicguide",
+            "Büyük Hayalin Melodisi": "rhythmofthegreatdream",
             "Büyük Narukami Tapınağı": "grandnarukamishrine",
             "Büyük Umutlar": "grandexpectation",
             "Cadının Yakıcı Şapkası": "witchsscorchinghat",
@@ -5838,6 +6171,7 @@
             "Dev Mutasyon Taşı": "giantmutationstone",
             "Dokuzuncu Chang": "changtheninth",
             "Donduran Cicin Bakışı": "cicinscoldglare",
+            "Doygunluk Meyvesi": "fruitoffulfillment",
             "Doğa ve Bilgelik": "natureandwisdom",
             "Dunyarzad": "dunyarzad",
             "Ebedi Dostluk": "friendshipeternal",
@@ -5869,6 +6203,7 @@
             "Favonius Katedrali": "favoniuscathedral",
             "Favonius Kılıcı": "favoniussword",
             "Favonius Şövalyeleri Kütüphanesi": "knightsoffavoniuslibrary",
+            "Fuubutsu Şiirleri": "poeticsoffuubutsu",
             "Fırlatma": "tossup",
             "Gezgin Doktorun Mendili": "travelingdoctorshandkerchief",
             "Gezginin Mahir Kılıcı": "travelershandysword",
@@ -5886,12 +6221,14 @@
             "Hiçlik Çağrısı": "abyssalsummons",
             "Hızlı Örgü Sanatı": "quickknit",
             "Jueyun Pilavı": "jueyunguoba",
+            "Kadim Bahçe": "ancientcourtyard",
             "Kadim General Miğferi": "generalsancienthelm",
             "Kanlı Canlı": "sanguinerouge",
             "Kanten Senmyou Lütfu": "kantensenmyoublessing",
             "Kaprisli Surat": "capriciousvisage",
             "Karahindiba Toprakları": "landsofdandelion",
             "Katheryne": "katheryne",
+            "Kaya Sözleşmesi": "covenantofrock",
             "Kesintisiz Dalgalar": "streamingsurge",
             "Keskin Görüş": "keensight",
             "Kibir": "sinofpride",
@@ -5962,6 +6299,7 @@
             "Silah Ustası": "masterofweaponry",
             "Solduran Aşınması": "witheringcorrosion-01",
             "Son Ağıt": "elegyfortheend",
+            "Son Karar Hakkı": "rightoffinalinterpretation",
             "Soğukkanlı Vuruş": "coldbloodedstrike",
             "Soğuran Prizma": "absorbingprism",
             "Strateji Oluştur": "strategize",
@@ -5974,6 +6312,7 @@
             "Tavşan Tetiği": "bunnytriggered",
             "Taş Mızrak": "lithicspear",
             "Taş ve Sözleşmeler": "stoneandcontracts",
+            "Taşkın": "theoverflow",
             "Taşordu'nun Azmi": "tenacityofthemillelith",
             "Tebeşir Sanatı": "calxsarts",
             "Tek Yürek": "undividedheart",
@@ -5987,15 +6326,22 @@
             "Turna Geri Döndüğünde": "whenthecranereturned",
             "Tüy Yargısı": "featherfalljudgment",
             "Unutulmuş Gizem": "mysticalabandon",
+            "Ustalık Tılsımı: Ani Pusu": "masterytalismansuddenambush",
+            "Ustalık Tılsımı: Bilenmiş Silah, Bilenmiş Zırh": "masterytalismanarmsandarmorhoned",
             "Ustalık Tılsımı: Coşku Dalgası": "masterytalismansurgingvigor",
             "Ustalık Tılsımı: Döngü Yüklemesi": "masterytalismancyclecharge",
             "Ustalık Tılsımı: Element Düğümü": "masterytalismantheelementsentwined",
             "Ustalık Tılsımı: Genişleyen Patlama": "masterytalismanextendedexplosion",
             "Ustalık Tılsımı: Hücuma Devam": "masterytalismanpresstheattack",
+            "Ustalık Tılsımı: Kaosun Sancakları": "masterytalismanchaoticbanners",
+            "Ustalık Tılsımı: Peş Peşe Yenilgi": "masterytalismancascadingdefeat",
             "Ustalık Tılsımı: Sarsılmaz": "masterytalismanimmovable",
+            "Ustalık Tılsımı: Savaşa Hazır": "masterytalismanbattleready",
             "Ustalık Tılsımı: Son Çarpışma": "masterytalismandecisivebattle",
             "Ustalık Tılsımı: Soğuk Savaş": "masterytalismancoldwar",
             "Ustalık Tılsımı: Sık Bitkiler": "masterytalismandensevegetation",
+            "Ustalık Tılsımı: Uzun Vadeli Plan": "masterytalismanplanninglongterm",
+            "Ustalık Tılsımı: Zaferin Şanı": "masterytalismanvictoriousrepute",
             "Ustalık Tılsımı: Çift Yönlü Yaklaşım": "masterytalismandualprongedapproach",
             "Ustalık Tılsımı: Üstün Akıl": "masterytalismanintelligenceupdate",
             "Ustalık Tılsımı: İşleyen Demir Işıldar": "masterytalismanpracticemakesperfect",
@@ -6022,6 +6368,7 @@
             "Yıldırım Öfkesi": "thunderingfury",
             "Yıldız Yiyen Kuzgun": "stellarpredator",
             "Zamanın Yakarışı: Topyekun Saldırı": "zerohourinvokationalloutaggression",
+            "Zhang Usta": "masterzhang",
             "Çan": "thebell",
             "Çapraz Ateş": "crossfire",
             "Çiçekli Tavuk": "sweetmadame",
@@ -6047,6 +6394,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6061,6 +6409,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

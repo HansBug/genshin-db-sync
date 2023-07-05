@@ -29,9 +29,9 @@
         "abyssalmayhemhydrospout": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Tartaglia sebagai Karakter aktif.\nTartaglia akan langsung melancarkan Foul Legacy: Raging Tide satu kali setelah mengenakannya.\nTahap Selesai: Mengakibatkan 1 poin Piercing DMG kepada semua Karakter standby lawan yang memiliki status Riptide.\n(Kamu harus punya Tartaglia di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1204]</color> sebagai Karakter aktif.\\n$[A1204] akan langsung melancarkan <color=#FFD780FF>$[S12042]</color> satu kali setelah mengenakannya.\\n<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 1 poin $[K5] kepada semua Karakter standby lawan yang memiliki status <color=#FFFFFFFF>$[C112043]</color>.\\n(Kamu harus punya $[A1204] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Tartaglia</color> sebagai Karakter aktif.\\nTartaglia akan langsung melancarkan <color=#FFD780FF>Foul Legacy: Raging Tide</color> satu kali setelah mengenakannya.\\n<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 1 poin <color=#FFFFFFFF>Piercing DMG</color> kepada semua Karakter standby lawan yang memiliki status <color=#FFFFFFFF>Riptide</color>.\\n(Kamu harus punya Tartaglia di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Tartaglia sebagai Karakter aktif.\nTartaglia akan langsung melancarkan Foul Legacy: Raging Tide satu kali setelah mengenakannya.\nTahap Selesai: Mengakibatkan 1 poin Piercing DMG kepada semua Karakter lawan yang memiliki status Riptide.\n(Kamu harus punya Tartaglia di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1204]</color> sebagai Karakter aktif.\\n$[A1204] akan langsung melancarkan <color=#FFD780FF>$[S12042]</color> satu kali setelah mengenakannya.\\n<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 1 poin $[K5] kepada semua Karakter lawan yang memiliki status <color=#FFFFFFFF>$[C112043]</color>.\\n(Kamu harus punya $[A1204] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Tartaglia</color> sebagai Karakter aktif.\\nTartaglia akan langsung melancarkan <color=#FFD780FF>Foul Legacy: Raging Tide</color> satu kali setelah mengenakannya.\\n<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 1 poin <color=#FFFFFFFF>Piercing DMG</color> kepada semua Karakter lawan yang memiliki status <color=#FFFFFFFF>Riptide</color>.\\n(Kamu harus punya Tartaglia di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
             "id": 212041,
             "name": "Abyssal Mayhem: Hydrospout",
             "playcost": [
@@ -97,9 +97,9 @@
         "adventurersbandana": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Setelah Karakter ini menggunakan Normal Attack: Memulihkan 1 poin HP diri sendiri. (Maksimum 3 kali setiap Ronde)\n(Karakter dapat mengenakan maksimum 1 Artefak)",
-            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter ini menggunakan Normal Attack:</color> Memulihkan 1 poin HP diri sendiri. (Maksimum 3 kali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter ini menggunakan Normal Attack:</color> Memulihkan 1 poin HP diri sendiri. (Maksimum 3 kali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "description": "Setelah Karakter menggunakan Normal Attack: Memulihkan 1 poin HP diri sendiri. (Maksimum 3 kali setiap Ronde)\n(Karakter dapat mengenakan maksimum 1 Artefak)",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter menggunakan Normal Attack:</color> Memulihkan 1 poin HP diri sendiri. (Maksimum 3 kali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter menggunakan Normal Attack:</color> Memulihkan 1 poin HP diri sendiri. (Maksimum 3 kali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
             "id": 312001,
             "name": "Adventurer's Bandana",
             "playcost": [
@@ -140,6 +140,29 @@
             "tagstext": [
                 "Senjata",
                 "Bow"
+            ]
+        },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Kartu Peristiwa",
+            "description": "Dapat dimainkan saat kamu memiliki Karakter yang mengenakan kartu Senjata atau Artefak: Selama Ronde ini berlangsung, akan mengonsumsi 2 Dadu Elemental lebih sedikit saat kamu memainkan kartu Equipment Senjata atau Artefak berikutnya.\n(Hanya dapat memainkan satu kartu Arcana selama duel berlangsung. Kartu ini pasti akan ada di antara Kartu Aksi awal milikmu)",
+            "descriptionraw": "<color=#FFFFFFFF>Dapat dimainkan saat kamu memiliki Karakter yang mengenakan kartu {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak: </color>Selama Ronde ini berlangsung, akan mengonsumsi 2 Dadu Elemental lebih sedikit saat kamu memainkan kartu Equipment {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak berikutnya.\\n(Hanya dapat memainkan satu kartu {SPRITE_PRESET#3007}Arcana selama duel berlangsung. Kartu ini pasti akan ada di antara Kartu Aksi awal milikmu)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Dapat dimainkan saat kamu memiliki Karakter yang mengenakan kartu {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak: </color>Selama Ronde ini berlangsung, akan mengonsumsi 2 Dadu Elemental lebih sedikit saat kamu memainkan kartu Equipment {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak berikutnya.\\n(Hanya dapat memainkan satu kartu {SPRITE_PRESET#3007}Arcana selama duel berlangsung. Kartu ini pasti akan ada di antara Kartu Aksi awal milikmu)",
+            "id": 330001,
+            "name": "Ancient Courtyard",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Kehidupan fana ini sangatlah singkat dan sementara, seperti layaknya mimpi.\"",
+            "storytitle": "Ancient Courtyard",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Arcana"
             ]
         },
         "aquilafavonia": {
@@ -385,9 +408,9 @@
         "calxsarts": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Kartu Peristiwa",
-            "description": "Pindahkan 1 Energy dari maksimal 2 Karakter standby-mu ke Karakter Aktif-mu.",
-            "descriptionraw": "Pindahkan 1 $[K310] dari maksimal 2 Karakter standby-mu ke Karakter Aktif-mu.",
-            "descriptionreplaced": "Pindahkan 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color> dari maksimal 2 Karakter standby-mu ke Karakter Aktif-mu.",
+            "description": "Pindahkan 1 poin Energy dari maksimal 2 Karakter standby-mu ke Karakter Aktif-mu.",
+            "descriptionraw": "Pindahkan 1 poin $[K310] dari maksimal 2 Karakter standby-mu ke Karakter Aktif-mu.",
+            "descriptionreplaced": "Pindahkan 1 poin <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color> dari maksimal 2 Karakter standby-mu ke Karakter Aktif-mu.",
             "id": 332009,
             "name": "Calx's Arts",
             "playcost": [
@@ -495,7 +518,7 @@
             "descriptionraw": "<color=#FFFFFFFF>Setelah memainkan Kartu Peristiwa {SPRITE_PRESET#3101}Makanan:</color> Menciptakan 1 Dadu Elemental secara acak (Sekali setiap Ronde)",
             "descriptionreplaced": "<color=#FFFFFFFF>Setelah memainkan Kartu Peristiwa {SPRITE_PRESET#3101}Makanan:</color> Menciptakan 1 Dadu Elemental secara acak (Sekali setiap Ronde)",
             "id": 322005,
-            "name": "Koki Mao",
+            "name": "Chef Mao",
             "playcost": [
                 {
                     "costtype": "GCG_COST_DICE_SAME",
@@ -617,6 +640,29 @@
                 "Aksi Tempur"
             ]
         },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Kartu Peristiwa",
+            "description": "Dapat dimainkan saat semua Dadu Elemental milikmu sudah habis terpakai: Menciptakan 2 Dadu Elemental dasar dengan jenis elemen yang berbeda.\n(Hanya dapat memainkan satu kartu Arcana selama duel berlangsung. Kartu ini pasti akan ada di antara Kartu Aksi awal milikmu)",
+            "descriptionraw": "<color=#FFFFFFFF>Dapat dimainkan saat semua Dadu Elemental milikmu sudah habis terpakai: </color>Menciptakan 2 Dadu Elemental dasar dengan jenis elemen yang berbeda.\\n(Hanya dapat memainkan satu kartu {SPRITE_PRESET#3007}Arcana selama duel berlangsung. Kartu ini pasti akan ada di antara Kartu Aksi awal milikmu)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Dapat dimainkan saat semua Dadu Elemental milikmu sudah habis terpakai: </color>Menciptakan 2 Dadu Elemental dasar dengan jenis elemen yang berbeda.\\n(Hanya dapat memainkan satu kartu {SPRITE_PRESET#3007}Arcana selama duel berlangsung. Kartu ini pasti akan ada di antara Kartu Aksi awal milikmu)",
+            "id": 330002,
+            "name": "Covenant of Rock",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Rex Lapis memberinya sepasang mata untuk melihat dunia dan mencapai kesepakatan dengannya. Sang Naga kemudian bersedia menemani Lord of Geo, berperang di sisinya di segala penjuru dunia ....\"",
+            "storytitle": "Covenant of Rock",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Arcana"
+            ]
+        },
         "crimsonwitchofflames": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
@@ -643,9 +689,9 @@
         "crossfire": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Xiangling sebagai Karakter aktif.\nXiangling akan langsung melancarkan Guoba Attack satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, Xiangling juga akan mengakibatkan 1 Pyro DMG saat melancarkan Guoba Attack.\n(Kamu harus punya Xiangling di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1302]</color> sebagai Karakter aktif.\\n$[A1302] akan langsung melancarkan <color=#FFD780FF>$[S13022]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, $[A1302] juga akan mengakibatkan 1 $[K103] saat melancarkan <color=#FFFFFFFF>$[S13022]</color>.\\n(Kamu harus punya $[A1302] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Xiangling</color> sebagai Karakter aktif.\\nXiangling akan langsung melancarkan <color=#FFD780FF>Guoba Attack</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, Xiangling juga akan mengakibatkan 1 {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> saat melancarkan <color=#FFFFFFFF>Guoba Attack</color>.\\n(Kamu harus punya Xiangling di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Xiangling sebagai Karakter aktif.\nXiangling akan langsung melancarkan Guoba Attack satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, Xiangling juga akan mengakibatkan 1 poin Pyro DMG saat melancarkan Guoba Attack.\n(Kamu harus punya Xiangling di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1302]</color> sebagai Karakter aktif.\\n$[A1302] akan langsung melancarkan <color=#FFD780FF>$[S13022]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, $[A1302] juga akan mengakibatkan 1 poin $[K103] saat melancarkan <color=#FFFFFFFF>$[S13022]</color>.\\n(Kamu harus punya $[A1302] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Xiangling</color> sebagai Karakter aktif.\\nXiangling akan langsung melancarkan <color=#FFD780FF>Guoba Attack</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, Xiangling juga akan mengakibatkan 1 poin {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color> saat melancarkan <color=#FFFFFFFF>Guoba Attack</color>.\\n(Kamu harus punya Xiangling di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
             "id": 213021,
             "name": "Crossfire",
             "playcost": [
@@ -814,9 +860,9 @@
         "elementalorbenduring": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Saat Tahap Aksi dimulai: seluruh Karakter-mu memperoleh 1 Energy",
-            "descriptionraw": "Saat Tahap Aksi dimulai: seluruh Karakter-mu memperoleh 1 Energy",
-            "descriptionreplaced": "Saat Tahap Aksi dimulai: seluruh Karakter-mu memperoleh 1 Energy",
+            "description": "Saat Tahap Aksi dimulai: seluruh Karakter-mu memperoleh 1 poin Energy",
+            "descriptionraw": "Saat Tahap Aksi dimulai: seluruh Karakter-mu memperoleh 1 poin Energy",
+            "descriptionreplaced": "Saat Tahap Aksi dimulai: seluruh Karakter-mu memperoleh 1 poin Energy",
             "id": 423004,
             "name": "Elemental Orb: Enduring",
             "playcost": [],
@@ -1390,9 +1436,9 @@
         "flowingflame": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Diluc sebagai Karakter aktif.\nDiluc akan langsung melancarkan Searing Onslaught satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, penggunaan Searing Onslaught kedua kalinya pada setiap ronde akan menghabiskan 1  Dadu Pyro lebih sedikit.\n(Kamu harus punya Karakter Diluc di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1301]</color> sebagai Karakter aktif.\\n$[A1301] akan langsung melancarkan <color=#FFD780FF>$[S13012]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, penggunaan <color=#FFFFFFFF>$[S13012]</color> kedua kalinya pada setiap ronde akan menghabiskan 1 {SPRITE_PRESET#1103} <color=#FF9999FF>Dadu Pyro</color> lebih sedikit.\\n(Kamu harus punya Karakter $[A1301] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Diluc</color> sebagai Karakter aktif.\\nDiluc akan langsung melancarkan <color=#FFD780FF>Searing Onslaught</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, penggunaan <color=#FFFFFFFF>Searing Onslaught</color> kedua kalinya pada setiap ronde akan menghabiskan 1 {SPRITE_PRESET#1103} <color=#FF9999FF>Dadu Pyro</color> lebih sedikit.\\n(Kamu harus punya Karakter Diluc di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Diluc sebagai Karakter aktif.\nDiluc akan langsung melancarkan Searing Onslaught satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, penggunaan Searing Onslaught kedua kalinya pada setiap ronde akan menghabiskan 1  Dadu Pyro lebih sedikit.\n(Kamu harus punya Diluc di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1301]</color> sebagai Karakter aktif.\\n$[A1301] akan langsung melancarkan <color=#FFD780FF>$[S13012]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, penggunaan <color=#FFFFFFFF>$[S13012]</color> kedua kalinya pada setiap ronde akan menghabiskan 1 {SPRITE_PRESET#1103} <color=#FF9999FF>Dadu Pyro</color> lebih sedikit.\\n(Kamu harus punya $[A1301] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Diluc</color> sebagai Karakter aktif.\\nDiluc akan langsung melancarkan <color=#FFD780FF>Searing Onslaught</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, penggunaan <color=#FFFFFFFF>Searing Onslaught</color> kedua kalinya pada setiap ronde akan menghabiskan 1 {SPRITE_PRESET#1103} <color=#FF9999FF>Dadu Pyro</color> lebih sedikit.\\n(Kamu harus punya Diluc di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
             "id": 213011,
             "name": "Flowing Flame",
             "playcost": [
@@ -1429,16 +1475,41 @@
             ],
             "source": "Didapatkan dari event \"Duel di Puncak Invokation\"",
             "storytext": "Teman baik tidak akan pernah pergi selamanya. Mereka akan tetap disisimu dalam bentuk yang lain.",
-            "storytitle": "Teman Baik",
+            "storytitle": "Bosom Friends",
             "tags": [],
             "tagstext": []
+        },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Karakter mengakibatkan DMG +1.\nSaat dikenakan: Kamu mengambil 2 Kartu.\n(Hanya Karakter pengguna Catalyst yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 buah Senjata)",
+            "descriptionraw": "<color=#FFFFFFFF>Karakter mengakibatkan DMG +1</color>.\\n<color=#FFFFFFFF>Saat dikenakan: </color>Kamu mengambil 2 Kartu.\\n(<color=#FFFFFFFF>Hanya Karakter pengguna {SPRITE_PRESET#3201}Catalyst</color> yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 buah {SPRITE_PRESET#3003}Senjata)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakter mengakibatkan DMG +1</color>.\\n<color=#FFFFFFFF>Saat dikenakan: </color>Kamu mengambil 2 Kartu.\\n(<color=#FFFFFFFF>Hanya Karakter pengguna {SPRITE_PRESET#3201}Catalyst</color> yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 buah {SPRITE_PRESET#3003}Senjata)",
+            "id": 311105,
+            "name": "Fruit of Fulfillment",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "\"Bahkan kisah terpahit sekalipun mengandung cita keberanian dan kekuatan. Cerita tentang petualangan sang Nara berambut emas bersama kami akan dapat membantu para Nara melindungi hutan.\"",
+            "storytitle": "Moon's Fullness: Fruit of Fulfillment",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "Senjata",
+                "Catalyst"
+            ]
         },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Setelah menggugurkan Karakter lawan: Jika Karakter yang mengenakan Artefak ini sedang digunakan sebagai Karakter Aktif, maka akan menciptakan 2 Elemen Omni.\n(Karakter dapat mengenakan maksimum 1 Artefak)",
-            "descriptionraw": "<color=#FFFFFFFF>Setelah menggugurkan Karakter lawan:</color> Jika Karakter yang mengenakan Artefak ini sedang digunakan sebagai Karakter Aktif, maka akan menciptakan 2 $[K411].\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Setelah menggugurkan Karakter lawan:</color> Jika Karakter yang mengenakan Artefak ini sedang digunakan sebagai Karakter Aktif, maka akan menciptakan 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color>.\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "description": "Setelah menggugurkan Karakter lawan: Jika Karakter yang mengenakan Artefak ini adalah Karakter Aktif, maka akan menciptakan 2 Elemen Omni. (Dapat terpicu maksimum 3 kali selama duel berlangsung)\n(Karakter dapat mengenakan maksimum 1 Artefak)",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah menggugurkan Karakter lawan:</color> Jika Karakter yang mengenakan Artefak ini adalah Karakter Aktif, maka akan menciptakan 2 $[K411]. (Dapat terpicu maksimum 3 kali selama duel berlangsung)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah menggugurkan Karakter lawan:</color> Jika Karakter yang mengenakan Artefak ini adalah Karakter Aktif, maka akan menciptakan 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color>. (Dapat terpicu maksimum 3 kali selama duel berlangsung)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
             "id": 312004,
             "name": "Gambler's Earrings",
             "playcost": [
@@ -1482,9 +1553,9 @@
         "giantmutationstone": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Karakter Aktifmu mengakibatkan +2 poin DMG.\nDimulai dengan 3 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\nSetelah Karaktermu gugur: Kartu ini kehilangan 1 Endurance",
-            "descriptionraw": "Karakter Aktifmu <color=#FFFFFFFF>mengakibatkan +2 poin DMG</color>.\\nDimulai dengan 3 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\\n<color=#FFFFFFFF>Setelah Karaktermu gugur</color>: Kartu ini kehilangan 1 Endurance",
-            "descriptionreplaced": "Karakter Aktifmu <color=#FFFFFFFF>mengakibatkan +2 poin DMG</color>.\\nDimulai dengan 3 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\\n<color=#FFFFFFFF>Setelah Karaktermu gugur</color>: Kartu ini kehilangan 1 Endurance",
+            "description": "Karakter Aktifmu mengakibatkan DMG +2.\nDimulai dengan 3 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\nSetelah Karaktermu gugur: Kartu ini kehilangan 1 Endurance",
+            "descriptionraw": "Karakter Aktifmu <color=#FFFFFFFF>mengakibatkan DMG +2</color>.\\nDimulai dengan 3 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\\n<color=#FFFFFFFF>Setelah Karaktermu gugur</color>: Kartu ini kehilangan 1 Endurance",
+            "descriptionreplaced": "Karakter Aktifmu <color=#FFFFFFFF>mengakibatkan DMG +2</color>.\\nDimulai dengan 3 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\\n<color=#FFFFFFFF>Setelah Karaktermu gugur</color>: Kartu ini kehilangan 1 Endurance",
             "id": 422003,
             "name": "Giant Mutation Stone",
             "playcost": [],
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Noelle sebagai Karakter aktif.\nNoelle akan langsung melancarkan Breastplate satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, Full Plate yang diciptakan Noelle akan memulihkan 1 poin HP seluruh Karakter milikmu saat Noelle melancarkan Normal Attack. (Satu kali setiap Ronde)\n(Kamu harus punya Noelle di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1602]</color> sebagai Karakter aktif.\\n$[A1602] akan langsung melancarkan <color=#FFD780FF>$[S16022]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, <color=#FFFFFFFF>$[C116021]</color> yang diciptakan $[A1602] akan memulihkan 1 poin HP seluruh Karakter milikmu saat $[A1602] melancarkan <color=#FFFFFFFF>Normal Attack</color>. (Satu kali setiap Ronde)\\n(Kamu harus punya $[A1602] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Noelle</color> sebagai Karakter aktif.\\nNoelle akan langsung melancarkan <color=#FFD780FF>Breastplate</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, <color=#FFFFFFFF>Full Plate</color> yang diciptakan Noelle akan memulihkan 1 poin HP seluruh Karakter milikmu saat Noelle melancarkan <color=#FFFFFFFF>Normal Attack</color>. (Satu kali setiap Ronde)\\n(Kamu harus punya Noelle di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Noelle sebagai Karakter aktif.\nNoelle akan langsung melancarkan Breastplate satu kali setelah mengenakannya.\nSetelah Noelle menggunakan Normal Attack: Jika Full Plate dan kartu ini berada di dalam arena, maka akan memulihkan 1 poin HP seluruh Karakter milikmu (Sekali setiap Ronde)\n(Kamu harus punya Noelle di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1602]</color> sebagai Karakter aktif.\\n$[A1602] akan langsung melancarkan <color=#FFD780FF>$[S16022]</color> satu kali setelah mengenakannya.\\nSetelah $[A1602] menggunakan <color=#FFFFFFFF>Normal Attack</color>: Jika <color=#FFFFFFFF>$[C116021]</color> dan kartu ini berada di dalam arena, maka akan memulihkan 1 poin HP seluruh Karakter milikmu (Sekali setiap Ronde)\\n(Kamu harus punya $[A1602] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Noelle</color> sebagai Karakter aktif.\\nNoelle akan langsung melancarkan <color=#FFD780FF>Breastplate</color> satu kali setelah mengenakannya.\\nSetelah Noelle menggunakan <color=#FFFFFFFF>Normal Attack</color>: Jika <color=#FFFFFFFF>Full Plate</color> dan kartu ini berada di dalam arena, maka akan memulihkan 1 poin HP seluruh Karakter milikmu (Sekali setiap Ronde)\\n(Kamu harus punya Noelle di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
             "id": 216021,
             "name": "I Got Your Back",
             "playcost": [
@@ -1706,9 +1777,9 @@
         "instructorscap": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Setelah Karakter yang mengenakannya memicu Reaksi Elemental: Menciptakan 1 Dadu Elemental dengan jenis elemen yang sama dengan Karakter yang mengenakannya. (Maksimum 3 kali setiap Ronde)\n(Karakter dapat mengenakan maksimum 1 Artefak)",
-            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter yang mengenakannya memicu Reaksi Elemental:</color> Menciptakan 1 Dadu Elemental dengan jenis elemen yang sama dengan Karakter yang mengenakannya. (Maksimum 3 kali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter yang mengenakannya memicu Reaksi Elemental:</color> Menciptakan 1 Dadu Elemental dengan jenis elemen yang sama dengan Karakter yang mengenakannya. (Maksimum 3 kali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "description": "Setelah Karakter memicu Reaksi Elemental: Menciptakan 1 Dadu Elemental dengan jenis elemen yang sama dengan Karakter yang mengenakannya. (Maksimum 3 kali setiap Ronde)\n(Karakter dapat mengenakan maksimum 1 Artefak)",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter memicu Reaksi Elemental:</color> Menciptakan 1 Dadu Elemental dengan jenis elemen yang sama dengan Karakter yang mengenakannya. (Maksimum 3 kali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter memicu Reaksi Elemental:</color> Menciptakan 1 Dadu Elemental dengan jenis elemen yang sama dengan Karakter yang mengenakannya. (Maksimum 3 kali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
             "id": 312005,
             "name": "Instructor's Cap",
             "playcost": [
@@ -2041,9 +2112,9 @@
         "leylinedisorderdireechoes": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Tahap Selesai: untuk setiap Karaktermu yang gugur pada Ronde ini, seluruh sisa Karaktermu akan memperoleh 2 poin Perisai (dapat ditumpuk sampai 4 poin), dan DMG yang diakibatkan +1 secara permanen (dapat ditumpuk sampai +2).",
-            "descriptionraw": "<color=#FFFFFFFF>Tahap Selesai:</color> untuk setiap Karaktermu yang gugur pada Ronde ini, seluruh sisa Karaktermu akan memperoleh 2 poin Perisai (dapat ditumpuk sampai 4 poin), dan DMG yang diakibatkan +1 secara permanen (dapat ditumpuk sampai +2).",
-            "descriptionreplaced": "<color=#FFFFFFFF>Tahap Selesai:</color> untuk setiap Karaktermu yang gugur pada Ronde ini, seluruh sisa Karaktermu akan memperoleh 2 poin Perisai (dapat ditumpuk sampai 4 poin), dan DMG yang diakibatkan +1 secara permanen (dapat ditumpuk sampai +2).",
+            "description": "Tahap Selesai: Untuk setiap Karaktermu yang gugur pada Ronde ini, seluruh sisa Karaktermu akan memperoleh 2 poin Perisai (dapat ditumpuk sampai 4 poin), dan DMG yang diakibatkan +1 secara permanen (dapat ditumpuk sampai +2).",
+            "descriptionraw": "<color=#FFFFFFFF>Tahap Selesai:</color> Untuk setiap Karaktermu yang gugur pada Ronde ini, seluruh sisa Karaktermu akan memperoleh 2 poin Perisai (dapat ditumpuk sampai 4 poin), dan DMG yang diakibatkan +1 secara permanen (dapat ditumpuk sampai +2).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Tahap Selesai:</color> Untuk setiap Karaktermu yang gugur pada Ronde ini, seluruh sisa Karaktermu akan memperoleh 2 poin Perisai (dapat ditumpuk sampai 4 poin), dan DMG yang diakibatkan +1 secara permanen (dapat ditumpuk sampai +2).",
             "id": 422005,
             "name": "Ley Line Disorder: Dire Echoes",
             "playcost": [],
@@ -2053,9 +2124,9 @@
         "leylinedisorderdrivingrain": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Saat Tahap Aksi dimulai: memberikan efek Hydro kepada Karakter Aktif kedua pemain.",
+            "description": "Saat Tahap Aksi dimulai: Memberikan efek Hydro kepada Karakter Aktif kedua pemain.",
             "descriptionraw": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> $[K202] kepada Karakter Aktif kedua pemain.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> <color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color> kepada Karakter Aktif kedua pemain.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> <color=#80C0FFFF>Memberikan efek {SPRITE_PRESET#2102}Hydro</color> kepada Karakter Aktif kedua pemain.",
             "id": 421001,
             "name": "Gangguan Ley Line: Driving Rain",
             "playcost": [],
@@ -2077,9 +2148,9 @@
         "leylinedisorderfightorflight": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Setelah Karaktermu memicu Reaksi Elemental: memulihkan 2 poin HP seluruh Karaktermu.",
-            "descriptionraw": "<color=#FFFFFFFF>Setelah Karaktermu memicu Reaksi Elemental:</color> memulihkan 2 poin HP seluruh Karaktermu.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karaktermu memicu Reaksi Elemental:</color> memulihkan 2 poin HP seluruh Karaktermu.",
+            "description": "Setelah Karaktermu memicu Reaksi Elemental: Memulihkan 2 poin HP seluruh Karaktermu.",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karaktermu memicu Reaksi Elemental:</color> Memulihkan 2 poin HP seluruh Karaktermu.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karaktermu memicu Reaksi Elemental:</color> Memulihkan 2 poin HP seluruh Karaktermu.",
             "id": 422004,
             "name": "Ley Line Disorder: Fight or Flight",
             "playcost": [],
@@ -2269,9 +2340,9 @@
         "leylinedisorderwet": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Saat Tahap Aksi dimulai: memberikan efek Hydro kepada Karakter Aktifmu.",
+            "description": "Saat Tahap Aksi dimulai: Memberikan efek Hydro kepada Karakter Aktifmu.",
             "descriptionraw": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> $[K202] kepada Karakter Aktifmu.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> <color=#80C0FFFF>memberikan efek {SPRITE_PRESET#2102}Hydro</color> kepada Karakter Aktifmu.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> <color=#80C0FFFF>Memberikan efek {SPRITE_PRESET#2102}Hydro</color> kepada Karakter Aktifmu.",
             "id": 421003,
             "name": "Gangguan Ley Line: Wet",
             "playcost": [],
@@ -2334,9 +2405,9 @@
         "lightningstorm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Beidou sebagai Karakter aktif.\nBeidou akan langsung melancarkan Tidecaller satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, lalu Beidou melancarkan Wavestrider, maka Normal Attack Beidou dalam Ronde ini akan menghabiskan 1 Elemen Tidak Selaras lebih sedikit jika menerima DMG selama durasi Mempersiapkan Skill berlangsung. (Dapat terpicu maksimum 2 kali)\n(Kamu harus punya Beidou di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1405]</color> sebagai Karakter aktif.\\n$[A1405] akan langsung melancarkan <color=#FFD780FF>$[S14052]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, lalu $[A1405] melancarkan <color=#FFFFFFFF>$[S14054]</color>, maka Normal Attack $[A1405] dalam Ronde ini akan menghabiskan 1 $[K309] lebih sedikit jika menerima DMG selama durasi $[K53] berlangsung. (Dapat terpicu maksimum 2 kali)\\n(Kamu harus punya $[A1405] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Beidou</color> sebagai Karakter aktif.\\nBeidou akan langsung melancarkan <color=#FFD780FF>Tidecaller</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, lalu Beidou melancarkan <color=#FFFFFFFF>Wavestrider</color>, maka Normal Attack Beidou dalam Ronde ini akan menghabiskan 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Elemen Tidak Selaras</color> lebih sedikit jika menerima DMG selama durasi <color=#FFFFFFFF>Mempersiapkan Skill</color> berlangsung. (Dapat terpicu maksimum 2 kali)\\n(Kamu harus punya Beidou di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Beidou sebagai Karakter aktif.\nBeidou akan langsung melancarkan Tidecaller satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, saat Beidou melancarkan Wavestrider: Normal Attack Beidou dalam Ronde tersebut akan mengonsumsi 1 Elemen Tidak Selaras lebih sedikit jika menerima DMG ketika sedang mempersiapkan Skill. (Dapat terpicu maksimum 2 kali)\n(Kamu harus punya Beidou di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1405]</color> sebagai Karakter aktif.\\n$[A1405] akan langsung melancarkan <color=#FFD780FF>$[S14052]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, saat $[A1405] melancarkan <color=#FFFFFFFF>$[S14054]</color>: Normal Attack $[A1405] dalam Ronde tersebut akan mengonsumsi 1 $[K309] lebih sedikit jika menerima DMG ketika sedang $[K53|s1]. (Dapat terpicu maksimum 2 kali)\\n(Kamu harus punya $[A1405] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Beidou</color> sebagai Karakter aktif.\\nBeidou akan langsung melancarkan <color=#FFD780FF>Tidecaller</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, saat Beidou melancarkan <color=#FFFFFFFF>Wavestrider</color>: Normal Attack Beidou dalam Ronde tersebut akan mengonsumsi 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Elemen Tidak Selaras</color> lebih sedikit jika menerima DMG ketika sedang <color=#FFFFFFFF>mempersiapkan Skill</color>. (Dapat terpicu maksimum 2 kali)\\n(Kamu harus punya Beidou di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
             "id": 214051,
             "name": "Lightning Storm",
             "playcost": [
@@ -2456,9 +2527,9 @@
         "luckydogssilvercirclet": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Setelah Karakter ini menggunakan Elemental Skill: Memulihkan 2 poin HP diri sendiri. (Sekali setiap Ronde)\n(Karakter dapat mengenakan maksimum 1 Artefak)",
-            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter ini menggunakan Elemental Skill:</color> Memulihkan 2 poin HP diri sendiri. (Sekali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter ini menggunakan Elemental Skill:</color> Memulihkan 2 poin HP diri sendiri. (Sekali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "description": "Setelah Karakter menggunakan Elemental Skill: Memulihkan 2 poin HP diri sendiri. (Sekali setiap Ronde)\n(Karakter dapat mengenakan maksimum 1 Artefak)",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter menggunakan Elemental Skill:</color> Memulihkan 2 poin HP diri sendiri. (Sekali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter menggunakan Elemental Skill:</color> Memulihkan 2 poin HP diri sendiri. (Sekali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
             "id": 312002,
             "name": "Lucky Dog's Silver Circlet",
             "playcost": [
@@ -2538,6 +2609,54 @@
             "source": "Didapatkan dari Dek Awal",
             "storytext": "\"Lihat dan perhatikan, sobat! Seorang petarung sejati tidak akan pilih-pilih senjata!\"",
             "storytitle": "Master of Weaponry",
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Saat Karaktermu melancarkan Charged Attack: Mengakibatkan DMG +1. Setelah penghitungan selesai, kamu mengambil 1 kartu.",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Karaktermu melancarkan $[K51]: </color>Mengakibatkan DMG +1. Setelah penghitungan selesai, kamu mengambil 1 kartu.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Karaktermu melancarkan <color=#FFFFFFFF>Charged Attack</color>: </color>Mengakibatkan DMG +1. Setelah penghitungan selesai, kamu mengambil 1 kartu.",
+            "id": 423020,
+            "name": "Mastery Talisman: Arms and Armor Honed",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Saat Karaktermu yang mengenakan Senjata dan Artefak menggunakan Skill: Mengonsumsi 3 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Karaktermu yang mengenakan {SPRITE_PRESET#3003}Senjata dan {SPRITE_PRESET#3004}Artefak menggunakan Skill: </color>Mengonsumsi 3 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Karaktermu yang mengenakan {SPRITE_PRESET#3003}Senjata dan {SPRITE_PRESET#3004}Artefak menggunakan Skill: </color>Mengonsumsi 3 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
+            "id": 423021,
+            "name": "Mastery Talisman: Battle-Ready",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Saat Karakter lawan gugur: Mengakibatkan 1 poin Piercing DMG terhadap semua Karakter lawan.",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Karakter lawan gugur: </color>Mengakibatkan 1 poin $[K5] terhadap semua Karakter lawan.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Karakter lawan gugur: </color>Mengakibatkan 1 poin <color=#FFFFFFFF>Piercing DMG</color> terhadap semua Karakter lawan.",
+            "id": 423022,
+            "name": "Mastery Talisman: Cascading Defeat",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Setelah Karakter lawan menerima DMG dari Reaksi Elemental: Menciptakan 1 Elemen Omni. (Dapat terpicu hingga 3 kali setiap Ronde)",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter lawan menerima DMG dari Reaksi Elemental: </color>Menciptakan 1 $[K411]. (Dapat terpicu hingga 3 kali setiap Ronde)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter lawan menerima DMG dari Reaksi Elemental: </color>Menciptakan 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color>. (Dapat terpicu hingga 3 kali setiap Ronde)",
+            "id": 423023,
+            "name": "Mastery Talisman: Chaotic Banners",
+            "playcost": [],
             "tags": [],
             "tagstext": []
         },
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Saat kamu memainkan kartu Equipment Senjata atau Artefak yang memerlukan biaya 3 Dadu atau lebih: Mengonsumsi 3 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
+            "descriptionraw": "<color=#FFFFFFFF>Saat kamu memainkan kartu Equipment {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak yang memerlukan biaya 3 Dadu atau lebih: </color>Mengonsumsi 3 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat kamu memainkan kartu Equipment {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak yang memerlukan biaya 3 Dadu atau lebih: </color>Mengonsumsi 3 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
+            "id": 423019,
+            "name": "Mastery Talisman: Planning Long-Term",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter lawan gugur: </color>Menciptakan 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color> dan mengambil 1 Kartu.",
             "id": 423007,
             "name": "Mastery Talisman: Press the Attack",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Setelah Karaktermu menggunakan Skill: Menciptakan satu Ambuscade Mine sesuai dengan jenis elemen Karakter di Zona lawan. Ambuscade Mine akan mengakibatkan 1 poin Elemental DMG terhadap Karakter pendukung lawan saat memasuki arena.",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karaktermu menggunakan Skill: </color>Menciptakan satu Ambuscade Mine sesuai dengan jenis elemen Karakter di Zona lawan. Ambuscade Mine akan mengakibatkan 1 poin Elemental DMG terhadap Karakter pendukung lawan saat memasuki arena.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karaktermu menggunakan Skill: </color>Menciptakan satu Ambuscade Mine sesuai dengan jenis elemen Karakter di Zona lawan. Ambuscade Mine akan mengakibatkan 1 poin Elemental DMG terhadap Karakter pendukung lawan saat memasuki arena.",
+            "id": 423024,
+            "name": "Mastery Talisman: Sudden Ambush",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Saat Karakter lawan gugur: Ambil 1 kartu dan Karakter aktif yang digunakan saat Karakter lawan gugur akan mengakibatkan DMG +1 selama duel ini berlangsung. (Dapat ditumpuk hingga 3 lapis)",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Karakter lawan gugur: </color>Ambil 1 kartu dan Karakter aktif yang digunakan saat Karakter lawan gugur akan mengakibatkan DMG +1 selama duel ini berlangsung. (Dapat ditumpuk hingga 3 lapis)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Karakter lawan gugur: </color>Ambil 1 kartu dan Karakter aktif yang digunakan saat Karakter lawan gugur akan mengakibatkan DMG +1 selama duel ini berlangsung. (Dapat ditumpuk hingga 3 lapis)",
+            "id": 423018,
+            "name": "Mastery Talisman: Victorious Repute",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Saat kamu memainkan Kartu Senjata: Akan mengonsumsi 1 Dadu Elemental lebih sedikit. Untuk setiap Karaktermu yang sudah mengenakan Senjata, akan mengurangi konsumsi 1 Dadu Elemental lagi. (Sekali setiap Ronde)",
+            "descriptionraw": "<color=#FFFFFFFF>Saat kamu memainkan Kartu {SPRITE_PRESET#3003}Senjata: </color>Akan mengonsumsi 1 Dadu Elemental lebih sedikit. Untuk setiap Karaktermu yang sudah mengenakan {SPRITE_PRESET#3003}Senjata, akan mengurangi konsumsi 1 Dadu Elemental lagi. (Sekali setiap Ronde)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat kamu memainkan Kartu {SPRITE_PRESET#3003}Senjata: </color>Akan mengonsumsi 1 Dadu Elemental lebih sedikit. Untuk setiap Karaktermu yang sudah mengenakan {SPRITE_PRESET#3003}Senjata, akan mengurangi konsumsi 1 Dadu Elemental lagi. (Sekali setiap Ronde)",
+            "id": 322018,
+            "name": "Master Zhang",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Sebatang besi selalu harus melewati banyak rintangan dan halangan sebelum bisa menjadi sebilah pedang.",
+            "storytitle": "Arsenal Forge: Master Zhang",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Teman"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -2785,9 +2963,9 @@
         "mutationstone": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Karakter Aktifmu mengakibatkan +2 poin DMG.\nDimulai dengan 2 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\nSetelah Karaktermu gugur: Kartu ini kehilangan 1 Endurance",
-            "descriptionraw": "Karakter Aktifmu <color=#FFFFFFFF>mengakibatkan +2 poin DMG</color>.\\nDimulai dengan 2 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\\n<color=#FFFFFFFF>Setelah Karaktermu gugur</color>: Kartu ini kehilangan 1 Endurance",
-            "descriptionreplaced": "Karakter Aktifmu <color=#FFFFFFFF>mengakibatkan +2 poin DMG</color>.\\nDimulai dengan 2 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\\n<color=#FFFFFFFF>Setelah Karaktermu gugur</color>: Kartu ini kehilangan 1 Endurance",
+            "description": "Karakter Aktifmu mengakibatkan DMG +2.\nDimulai dengan 2 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\nSetelah Karaktermu gugur: Kartu ini kehilangan 1 Endurance",
+            "descriptionraw": "Karakter Aktifmu <color=#FFFFFFFF>mengakibatkan DMG +2</color>.\\nDimulai dengan 2 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\\n<color=#FFFFFFFF>Setelah Karaktermu gugur</color>: Kartu ini kehilangan 1 Endurance",
+            "descriptionreplaced": "Karakter Aktifmu <color=#FFFFFFFF>mengakibatkan DMG +2</color>.\\nDimulai dengan 2 Endurance saat dimainkan. (Buang kartu ini saat Endurance habis)\\n<color=#FFFFFFFF>Setelah Karaktermu gugur</color>: Kartu ini kehilangan 1 Endurance",
             "id": 422002,
             "name": "Mutation Stone",
             "playcost": [],
@@ -2982,9 +3160,9 @@
         "parametrictransformer": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Setelah salah satu pemain menggunakan Skill: Jika mengakibatkan DMG Elemental, kartu ini memperoleh 1 \"Qualitative Progress\".\nSaat kartu ini memperoleh 3 \"Qualitative Progress\", buang kartu ini, lalu ciptakan 4 Dadu Elemental Dasar dengan jenis elemen yang berbeda secara acak.",
-            "descriptionraw": "<color=#FFFFFFFF>Setelah salah satu pemain menggunakan Skill:</color> Jika mengakibatkan DMG Elemental, kartu ini memperoleh <color=#FFFFFFFF>1 \"Qualitative Progress\"</color>.\\nSaat kartu ini memperoleh <color=#FFFFFFFF>3 \"Qualitative Progress\"</color>, buang kartu ini, lalu ciptakan 4 Dadu Elemental Dasar dengan jenis elemen yang berbeda secara acak.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Setelah salah satu pemain menggunakan Skill:</color> Jika mengakibatkan DMG Elemental, kartu ini memperoleh <color=#FFFFFFFF>1 \"Qualitative Progress\"</color>.\\nSaat kartu ini memperoleh <color=#FFFFFFFF>3 \"Qualitative Progress\"</color>, buang kartu ini, lalu ciptakan 4 Dadu Elemental Dasar dengan jenis elemen yang berbeda secara acak.",
+            "description": "Setelah salah satu pemain menggunakan Skill: Jika mengakibatkan DMG Elemental, kartu ini memperoleh 1 \"Qualitative Progress\".\nSaat kartu ini memperoleh 3 \"Qualitative Progress\", buang kartu ini, lalu ciptakan 3 Dadu Elemental Dasar dengan jenis elemen yang berbeda secara acak.",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah salah satu pemain menggunakan Skill:</color> Jika mengakibatkan DMG Elemental, kartu ini memperoleh <color=#FFFFFFFF>1 \"Qualitative Progress\"</color>.\\nSaat kartu ini memperoleh <color=#FFFFFFFF>3 \"Qualitative Progress\"</color>, buang kartu ini, lalu ciptakan 3 Dadu Elemental Dasar dengan jenis elemen yang berbeda secara acak.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah salah satu pemain menggunakan Skill:</color> Jika mengakibatkan DMG Elemental, kartu ini memperoleh <color=#FFFFFFFF>1 \"Qualitative Progress\"</color>.\\nSaat kartu ini memperoleh <color=#FFFFFFFF>3 \"Qualitative Progress\"</color>, buang kartu ini, lalu ciptakan 3 Dadu Elemental Dasar dengan jenis elemen yang berbeda secara acak.",
             "id": 323001,
             "name": "Parametric Transformer",
             "playcost": [
@@ -3022,6 +3200,32 @@
                 "GCG_TAG_SLOWLY"
             ],
             "tagstext": [
+                "Aksi Tempur"
+            ]
+        },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Kaedehara Kazuha sebagai Karakter aktif.\nKaedehara Kazuha akan langsung melancarkan Chihayaburu satu kali setelah mengenakannya.\nSetelah Kaedehara Kazuha yang mengenakan kartu ini memicu reaksi Swirl: DMG Elemental yang diakibatkan dari reaksi Swirl oleh Karakter dan Panggilan-mu akan mengakibatkan DMG +1 untuk 2 serangan berikutnya. (Penggunaan untuk setiap jenis elemen akan terhitung secara terpisah)\n(Kamu harus punya Kaedehara Kazuha di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1505]</color> sebagai Karakter aktif.\\n$[A1505] akan langsung melancarkan <color=#FFD780FF>$[S15052]</color> satu kali setelah mengenakannya.\\nSetelah $[A1505] yang mengenakan kartu ini memicu reaksi Swirl: DMG Elemental yang diakibatkan dari reaksi Swirl oleh Karakter dan Panggilan-mu akan mengakibatkan DMG +1 untuk 2 serangan berikutnya. (Penggunaan untuk setiap jenis elemen akan terhitung secara terpisah)\\n(Kamu harus punya $[A1505] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Kaedehara Kazuha</color> sebagai Karakter aktif.\\nKaedehara Kazuha akan langsung melancarkan <color=#FFD780FF>Chihayaburu</color> satu kali setelah mengenakannya.\\nSetelah Kaedehara Kazuha yang mengenakan kartu ini memicu reaksi Swirl: DMG Elemental yang diakibatkan dari reaksi Swirl oleh Karakter dan Panggilan-mu akan mengakibatkan DMG +1 untuk 2 serangan berikutnya. (Penggunaan untuk setiap jenis elemen akan terhitung secara terpisah)\\n(Kamu harus punya Kaedehara Kazuha di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "id": 215051,
+            "name": "Poetics of Fuubutsu",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "Hadiah yang didapatkan setelah mengundang Kaedehara Kazuha ke Cat's Tail untuk bertanding dan menyelesaikan target tantangan yang bersangkutan",
+            "storytext": "Ada sesuatu yang elegan dengan duel ini.\nSetidaknya ... kedua belah pihak bisa menerima kekalahan tanpa penyesalan.",
+            "storytitle": "Kaedehara Kazuha: Poetics of Fuubutsu",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talenta",
                 "Aksi Tempur"
             ]
         },
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "Item"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Kartu Peristiwa",
+            "description": "Saat kamu memainkan Kartu Senjata atau Artefak berikutnya: Mengonsumsi 1 Dadu Elemental lebih sedikit.",
+            "descriptionraw": "<color=#FFFFFFFF>Saat kamu memainkan Kartu {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak berikutnya: </color>Mengonsumsi 1 Dadu Elemental lebih sedikit.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat kamu memainkan Kartu {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak berikutnya: </color>Mengonsumsi 1 Dadu Elemental lebih sedikit.",
+            "id": 332021,
+            "name": "Rhythm of the Great Dream",
+            "playcost": [],
+            "storytext": "\"Masuk ke mimpi dan dunia kami.\"\n\"Tuliskan cerita yang baik, berani, dan jujur.\"",
+            "storytitle": "Rhythm of the Great Dream",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Yanfei sebagai Karakter aktif.\nYanfei akan langsung melancarkan Seal of Approval satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, jika Yanfei melancarkan Charged Attack: Mengakibatkan DMG +1 terhadap Karakter lawan yang memiliki 6 poin HP atau lebih sedikit.\n(Kamu harus punya Yanfei di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1308]</color> sebagai Karakter aktif.\\n$[A1308] akan langsung melancarkan <color=#FFD780FF>$[S13081]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, jika $[A1308] melancarkan $[K51]: Mengakibatkan DMG +1 terhadap Karakter lawan yang memiliki 6 poin HP atau lebih sedikit.\\n(Kamu harus punya $[A1308] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Yanfei</color> sebagai Karakter aktif.\\nYanfei akan langsung melancarkan <color=#FFD780FF>Seal of Approval</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, jika Yanfei melancarkan <color=#FFFFFFFF>Charged Attack</color>: Mengakibatkan DMG +1 terhadap Karakter lawan yang memiliki 6 poin HP atau lebih sedikit.\\n(Kamu harus punya Yanfei di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "id": 213081,
+            "name": "Right of Final Interpretation",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "Hadiah yang didapatkan setelah mengundang Yanfei ke Cat's Tail untuk bertanding dan menyelesaikan target tantangan yang bersangkutan",
+            "storytext": "\"Dalam hal permainan kartu, sudah pasti ... tidak ada yang dilarang oleh hukum.\"",
+            "storytitle": "Yanfei: Right of Final Interpretation",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talenta",
+                "Aksi Tempur"
             ]
         },
         "sacrificialbow": {
@@ -3719,9 +3967,9 @@
         "strategicreserve": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Ningguang sebagai Karakter aktif.\nNingguang akan langsung melancarkan Jade Screen satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, Jade Screen akan mengakibatkan +1 Geo DMG selama Ningguang belum gugur.\n(Kamu harus punya Ningguang di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1601]</color> sebagai Karakter aktif.\\n$[A1601] akan langsung melancarkan <color=#FFD780FF>$[S16012]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, <color=#FFFFFFFF>$[C116011]</color> akan mengakibatkan +1 <color=#FFE699FF>$[K106]</color> selama $[A1601] belum gugur.\\n(Kamu harus punya $[A1601] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Ningguang</color> sebagai Karakter aktif.\\nNingguang akan langsung melancarkan <color=#FFD780FF>Jade Screen</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, <color=#FFFFFFFF>Jade Screen</color> akan mengakibatkan +1 <color=#FFE699FF>{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color></color> selama Ningguang belum gugur.\\n(Kamu harus punya Ningguang di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Ningguang sebagai Karakter aktif.\nNingguang akan langsung melancarkan Jade Screen satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, Jade Screen akan mengakibatkan Geo DMG +1 selama Ningguang belum gugur.\n(Kamu harus punya Ningguang di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1601]</color> sebagai Karakter aktif.\\n$[A1601] akan langsung melancarkan <color=#FFD780FF>$[S16012]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, <color=#FFFFFFFF>$[C116011]</color> akan mengakibatkan <color=#FFE699FF>$[K106]</color> +1 selama $[A1601] belum gugur.\\n(Kamu harus punya $[A1601] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Ningguang</color> sebagai Karakter aktif.\\nNingguang akan langsung melancarkan <color=#FFD780FF>Jade Screen</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, <color=#FFFFFFFF>Jade Screen</color> akan mengakibatkan <color=#FFE699FF>{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color></color> +1 selama Ningguang belum gugur.\\n(Kamu harus punya Ningguang di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
             "id": 216011,
             "name": "Strategic Reserve",
             "playcost": [
@@ -4019,6 +4267,36 @@
             "storytitle": "Dream of Freedom Unrelinquished",
             "tags": [],
             "tagstext": []
+        },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Candace sebagai Karakter aktif.\nCandace akan langsung melancarkan Sacred Rite: Wagtail's Tide satu kali setelah mengenakannya.\nPrayer of the Crimson Crown yang diciptakan Candace setelah mengenakan kartu ini akan memiliki efek tambahan berikut:\nSetelah Karaktermu menggunakan Normal Attack: Mengakibatkan 1 poin Hydro DMG. (Sekali setiap Ronde)\n(Kamu harus punya Candace di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1207]</color> sebagai Karakter aktif.\\n$[A1207] akan langsung melancarkan <color=#FFD780FF>$[S12073]</color> satu kali setelah mengenakannya.\\n<color=#FFFFFFFF>$[C112072]</color> yang diciptakan $[A1207] setelah mengenakan kartu ini akan memiliki efek tambahan berikut:\\n<color=#FFFFFFFF>Setelah Karaktermu menggunakan Normal Attack: </color>Mengakibatkan 1 poin $[K102]. (Sekali setiap Ronde)\\n(Kamu harus punya $[A1207] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Candace</color> sebagai Karakter aktif.\\nCandace akan langsung melancarkan <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> satu kali setelah mengenakannya.\\n<color=#FFFFFFFF>Prayer of the Crimson Crown</color> yang diciptakan Candace setelah mengenakan kartu ini akan memiliki efek tambahan berikut:\\n<color=#FFFFFFFF>Setelah Karaktermu menggunakan Normal Attack: </color>Mengakibatkan 1 poin {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>. (Sekali setiap Ronde)\\n(Kamu harus punya Candace di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "id": 212071,
+            "name": "The Overflow",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "Hadiah yang didapatkan setelah mengundang Candace ke Cat's Tail untuk bertanding dan menyelesaikan target tantangan yang bersangkutan",
+            "storytext": "Orang yang tidak mematuhi aturan saat bermain kartu adalah ...\nmusuh dari semua penggemar permainan kartu.",
+            "storytitle": "Candace: The Overflow",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talenta",
+                "Aksi Tempur"
+            ]
         },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -4329,9 +4607,9 @@
         "travelingdoctorshandkerchief": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Setelah Karakter ini menggunakan Elemental Burst: Memulihkan 1 poin HP seluruh Karaktermu. (Sekali setiap Ronde)\n(Karakter dapat mengenakan maksimum 1 Artefak)",
-            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter ini menggunakan Elemental Burst:</color> Memulihkan 1 poin HP seluruh Karaktermu. (Sekali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter ini menggunakan Elemental Burst:</color> Memulihkan 1 poin HP seluruh Karaktermu. (Sekali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "description": "Setelah Karakter menggunakan Elemental Burst: Memulihkan 1 poin HP seluruh Karaktermu. (Sekali setiap Ronde)\n(Karakter dapat mengenakan maksimum 1 Artefak)",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter menggunakan Elemental Burst:</color> Memulihkan 1 poin HP seluruh Karaktermu. (Sekali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter menggunakan Elemental Burst:</color> Memulihkan 1 poin HP seluruh Karaktermu. (Sekali setiap Ronde)\\n(Karakter dapat mengenakan maksimum 1 {SPRITE_PRESET#3004}Artefak)",
             "id": 312003,
             "name": "Traveling Doctor's Handkerchief",
             "playcost": [
@@ -4352,9 +4630,9 @@
         "treasureseekingseelie": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Setelah Karaktermu menggunakan Skill: Kartu ini mendapatkan 1 \"Treasure Clue\".\nSaat kartu ini telah mengumpulkan 3 \"Treasure Clue\", kartu ini akan dibuang dan mengambil 3 kartu.",
-            "descriptionraw": "<color=#FFFFFFFF>Setelah Karaktermu menggunakan Skill: </color>Kartu ini mendapatkan <color=#FFFFFFFF>1 \"Treasure Clue\"</color>.\\nSaat kartu ini telah mengumpulkan <color=#FFFFFFFF>3 \"Treasure Clue\"</color>, kartu ini akan dibuang dan mengambil 3 kartu.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karaktermu menggunakan Skill: </color>Kartu ini mendapatkan <color=#FFFFFFFF>1 \"Treasure Clue\"</color>.\\nSaat kartu ini telah mengumpulkan <color=#FFFFFFFF>3 \"Treasure Clue\"</color>, kartu ini akan dibuang dan mengambil 3 kartu.",
+            "description": "Setelah Karaktermu menggunakan Skill: Kartu ini mendapatkan 1 \"Treasure Clue\".\nSetelah kartu ini mengumpulkan 3 \"Treasure Clue\", kartu ini akan dibuang dan mengambil 3 kartu.",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karaktermu menggunakan Skill: </color>Kartu ini mendapatkan <color=#FFFFFFFF>1 \"Treasure Clue\"</color>.\\nSetelah kartu ini mengumpulkan <color=#FFFFFFFF>3 \"Treasure Clue\"</color>, kartu ini akan dibuang dan mengambil 3 kartu.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karaktermu menggunakan Skill: </color>Kartu ini mendapatkan <color=#FFFFFFFF>1 \"Treasure Clue\"</color>.\\nSetelah kartu ini mengumpulkan <color=#FFFFFFFF>3 \"Treasure Clue\"</color>, kartu ini akan dibuang dan mengambil 3 kartu.",
             "id": 323004,
             "name": "Treasure-Seeking Seelie",
             "playcost": [
@@ -4867,9 +5145,9 @@
         "zerohourinvokationalloutaggression": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
-            "description": "Saat Tahap Aksi dimulai: Semua Karaktermu memperoleh 2 Energy.\nPenggunaan: 1",
-            "descriptionraw": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> Semua Karaktermu memperoleh 2 Energy.\\n<color=#FFFFFFFF>$[K3]: 1</color>",
-            "descriptionreplaced": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> Semua Karaktermu memperoleh 2 Energy.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 1</color>",
+            "description": "Saat Tahap Aksi dimulai: Semua Karaktermu memperoleh 2 poin Energy.\nPenggunaan: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> Semua Karaktermu memperoleh 2 poin Energy.\\n<color=#FFFFFFFF>$[K3]: 1</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> Semua Karaktermu memperoleh 2 poin Energy.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 1</color>",
             "id": 423017,
             "name": "Invokation Impromptu: All-Out Aggression",
             "playcost": [],
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "Adeptus' Temptation",
             "adventurersbandana": "Adventurer's Bandana",
             "amosbow": "Amos' Bow",
+            "ancientcourtyard": "Ancient Courtyard",
             "aquilafavonia": "Aquila Favonia",
             "aratakiichiban": "Arataki Ichiban",
             "archaicpetra": "Archaic Petra",
@@ -5595,11 +5913,12 @@
             "changingshifts": "Changing Shifts",
             "changtheninth": "Chang the Ninth",
             "chaoticentropy": "Chaotic Entropy",
-            "chefmao": "Koki Mao",
+            "chefmao": "Chef Mao",
             "chinjuforest": "Chinju Forest",
             "cicinscoldglare": "Cicin's Cold Glare",
             "coldbloodedstrike": "Cold-Blooded Strike",
             "conquerorofevilguardianyaksha": "Conqueror of Evil: Guardian Yaksha",
+            "covenantofrock": "Covenant of Rock",
             "crimsonwitchofflames": "Crimson Witch of Flames",
             "crossfire": "Crossfire",
             "dawnwinery": "Dawn Winery",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "Floral Sidewinder",
             "flowingflame": "Flowing Flame",
             "friendshipeternal": "Friendship Eternal",
+            "fruitoffulfillment": "Fruit of Fulfillment",
             "gamblersearrings": "Gambler's Earrings",
             "generalsancienthelm": "General's Ancient Helm",
             "giantmutationstone": "Giant Mutation Stone",
@@ -5699,6 +6019,10 @@
             "magicguide": "Magic Guide",
             "maskofsolitudebasalt": "Mask of Solitude Basalt",
             "masterofweaponry": "Master of Weaponry",
+            "masterytalismanarmsandarmorhoned": "Mastery Talisman: Arms and Armor Honed",
+            "masterytalismanbattleready": "Mastery Talisman: Battle-Ready",
+            "masterytalismancascadingdefeat": "Mastery Talisman: Cascading Defeat",
+            "masterytalismanchaoticbanners": "Mastery Talisman: Chaotic Banners",
             "masterytalismancoldwar": "Mastery Talisman: Cold War",
             "masterytalismancyclecharge": "Mastery Talisman: Cycle Charge",
             "masterytalismandecisivebattle": "Mastery Talisman: Decisive Battle",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "Mastery Talisman: Extended Explosion",
             "masterytalismanimmovable": "Mastery Talisman: Immovable",
             "masterytalismanintelligenceupdate": "Mastery Talisman: Intelligence Update",
+            "masterytalismanplanninglongterm": "Mastery Talisman: Planning Long-Term",
             "masterytalismanpracticemakesperfect": "Mastery Talisman: Practice Makes Perfect",
             "masterytalismanpresstheattack": "Mastery Talisman: Press the Attack",
+            "masterytalismansuddenambush": "Mastery Talisman: Sudden Ambush",
             "masterytalismansurgingvigor": "Mastery Talisman: Surging Vigor",
             "masterytalismantheelementsentwined": "Mastery Talisman: The Elements Entwined",
+            "masterytalismanvictoriousrepute": "Mastery Talisman: Victorious Repute",
+            "masterzhang": "Master Zhang",
             "mintymeatrolls": "Minty Meat Rolls",
             "mirrorcage": "Mirror Cage",
             "mondstadthashbrown": "Mondstadt Hash Brown",
@@ -5726,6 +6054,7 @@
             "paimon": "Paimon",
             "parametrictransformer": "Parametric Transformer",
             "plungingstrike": "Plunging Strike",
+            "poeticsoffuubutsu": "Poetics of Fuubutsu",
             "poundingsurprise": "Pounding Surprise",
             "proliferatingspores": "Proliferating Spores",
             "prophecyofsubmersion": "Prophecy of Submersion",
@@ -5733,6 +6062,8 @@
             "rana": "Rana",
             "ravenbow": "Raven Bow",
             "redfeatherfan": "Red Feather Fan",
+            "rhythmofthegreatdream": "Rhythm of the Great Dream",
+            "rightoffinalinterpretation": "Right of Final Interpretation",
             "sacrificialbow": "Sacrificial Bow",
             "sacrificialfragments": "Sacrificial Fragments",
             "sacrificialgreatsword": "Sacrificial Greatsword",
@@ -5767,6 +6098,7 @@
             "thebell": "The Bell",
             "thebestesttravelcompanion": "The Bestest Travel Companion!",
             "thelegendofvennessa": "The Legend of Vennessa",
+            "theoverflow": "The Overflow",
             "thescentremained": "The Scent Remained",
             "theseedofstoredknowledge": "The Seed of Stored Knowledge",
             "theshrinessacredshade": "The Shrine's Sacred Shade",
@@ -5814,6 +6146,7 @@
             "Adeptus' Temptation": "adeptustemptation",
             "Adventurer's Bandana": "adventurersbandana",
             "Amos' Bow": "amosbow",
+            "Ancient Courtyard": "ancientcourtyard",
             "Aquila Favonia": "aquilafavonia",
             "Arataki Ichiban": "aratakiichiban",
             "Archaic Petra": "archaicpetra",
@@ -5828,10 +6161,12 @@
             "Chang the Ninth": "changtheninth",
             "Changing Shifts": "changingshifts",
             "Chaotic Entropy": "chaoticentropy",
+            "Chef Mao": "chefmao",
             "Chinju Forest": "chinjuforest",
             "Cicin's Cold Glare": "cicinscoldglare",
             "Cold-Blooded Strike": "coldbloodedstrike",
             "Conqueror of Evil: Guardian Yaksha": "conquerorofevilguardianyaksha",
+            "Covenant of Rock": "covenantofrock",
             "Crimson Witch of Flames": "crimsonwitchofflames",
             "Crossfire": "crossfire",
             "Dawn Winery": "dawnwinery",
@@ -5855,6 +6190,7 @@
             "Floral Sidewinder": "floralsidewinder",
             "Flowing Flame": "flowingflame",
             "Friendship Eternal": "friendshipeternal",
+            "Fruit of Fulfillment": "fruitoffulfillment",
             "Gambler's Earrings": "gamblersearrings",
             "Gangguan Ley Line: Belligerence Unfettered": "leylinedisorderbelligerenceunfettered",
             "Gangguan Ley Line: Blazing Will": "leylinedisorderblazingwill",
@@ -5899,7 +6235,6 @@
             "Keen Sight": "keensight",
             "Kid Kujirai": "kidkujirai",
             "Knights of Favonius Library": "knightsoffavoniuslibrary",
-            "Koki Mao": "chefmao",
             "Kyouka Fuushi": "kyoukafuushi",
             "Lands of Dandelion": "landsofdandelion",
             "Laurel Coronet": "laurelcoronet",
@@ -5918,7 +6253,12 @@
             "Lucky Dog's Silver Circlet": "luckydogssilvercirclet",
             "Magic Guide": "magicguide",
             "Mask of Solitude Basalt": "maskofsolitudebasalt",
+            "Master Zhang": "masterzhang",
             "Master of Weaponry": "masterofweaponry",
+            "Mastery Talisman: Arms and Armor Honed": "masterytalismanarmsandarmorhoned",
+            "Mastery Talisman: Battle-Ready": "masterytalismanbattleready",
+            "Mastery Talisman: Cascading Defeat": "masterytalismancascadingdefeat",
+            "Mastery Talisman: Chaotic Banners": "masterytalismanchaoticbanners",
             "Mastery Talisman: Cold War": "masterytalismancoldwar",
             "Mastery Talisman: Cycle Charge": "masterytalismancyclecharge",
             "Mastery Talisman: Decisive Battle": "masterytalismandecisivebattle",
@@ -5927,10 +6267,13 @@
             "Mastery Talisman: Extended Explosion": "masterytalismanextendedexplosion",
             "Mastery Talisman: Immovable": "masterytalismanimmovable",
             "Mastery Talisman: Intelligence Update": "masterytalismanintelligenceupdate",
+            "Mastery Talisman: Planning Long-Term": "masterytalismanplanninglongterm",
             "Mastery Talisman: Practice Makes Perfect": "masterytalismanpracticemakesperfect",
             "Mastery Talisman: Press the Attack": "masterytalismanpresstheattack",
+            "Mastery Talisman: Sudden Ambush": "masterytalismansuddenambush",
             "Mastery Talisman: Surging Vigor": "masterytalismansurgingvigor",
             "Mastery Talisman: The Elements Entwined": "masterytalismantheelementsentwined",
+            "Mastery Talisman: Victorious Repute": "masterytalismanvictoriousrepute",
             "Minty Meat Rolls": "mintymeatrolls",
             "Mirror Cage": "mirrorcage",
             "Mondstadt Hash Brown": "mondstadthashbrown",
@@ -5946,6 +6289,7 @@
             "Paimon": "paimon",
             "Parametric Transformer": "parametrictransformer",
             "Plunging Strike": "plungingstrike",
+            "Poetics of Fuubutsu": "poeticsoffuubutsu",
             "Pounding Surprise": "poundingsurprise",
             "Proliferating Spores": "proliferatingspores",
             "Prophecy of Submersion": "prophecyofsubmersion",
@@ -5967,6 +6311,8 @@
             "Resonansi Elemental: Woven Waters": "elementalresonancewovenwaters",
             "Resonansi Elemental: Woven Weeds": "elementalresonancewovenweeds",
             "Resonansi Elemental: Woven Winds": "elementalresonancewovenwinds",
+            "Rhythm of the Great Dream": "rhythmofthegreatdream",
+            "Right of Final Interpretation": "rightoffinalinterpretation",
             "Sacrificial Bow": "sacrificialbow",
             "Sacrificial Fragments": "sacrificialfragments",
             "Sacrificial Greatsword": "sacrificialgreatsword",
@@ -6001,6 +6347,7 @@
             "The Bell": "thebell",
             "The Bestest Travel Companion!": "thebestesttravelcompanion",
             "The Legend of Vennessa": "thelegendofvennessa",
+            "The Overflow": "theoverflow",
             "The Scent Remained": "thescentremained",
             "The Seed of Stored Knowledge": "theseedofstoredknowledge",
             "The Shrine's Sacred Shade": "theshrinessacredshade",
@@ -6048,6 +6395,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6062,6 +6410,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

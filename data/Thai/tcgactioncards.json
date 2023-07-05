@@ -142,6 +142,29 @@
                 "ธนู"
             ]
         },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "การ์ดเหตุการณ์",
+            "description": "จะสามารถใช้ได้ เมื่อฝ่ายเรามีตัวละครที่ติดตั้ง \"อาวุธ\" หรือสวมใส่ \"อาร์ติแฟกต์\": ในเทิร์นนี้ ครั้งต่อไปที่ฝ่ายเราใช้การ์ดอุปกรณ์ \"อาวุธ\" หรือ \"อาร์ติแฟกต์\" จะใช้ Elemental Dice ลดลง 2 ลูก\n(ภายในหนึ่งการดูเอล จะสามารถใช้การ์ด \"เคล็ดลับ\" ได้เพียงใบเดียวเท่านั้น; การ์ดใบนี้จะอยู่ในการ์ดเริ่มต้นของคุณ)",
+            "descriptionraw": "<color=#FFFFFFFF>จะสามารถใช้ได้ เมื่อฝ่ายเรามีตัวละครที่ติดตั้ง \"{SPRITE_PRESET#3003}อาวุธ\" หรือสวมใส่ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\":</color> ในเทิร์นนี้ ครั้งต่อไปที่ฝ่ายเราใช้การ์ดอุปกรณ์ \"{SPRITE_PRESET#3003}อาวุธ\" หรือ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" จะใช้ Elemental Dice ลดลง 2 ลูก\\n(ภายในหนึ่งการดูเอล จะสามารถใช้การ์ด \"{SPRITE_PRESET#3007}เคล็ดลับ\" ได้เพียงใบเดียวเท่านั้น; การ์ดใบนี้จะอยู่ในการ์ดเริ่มต้นของคุณ)",
+            "descriptionreplaced": "<color=#FFFFFFFF>จะสามารถใช้ได้ เมื่อฝ่ายเรามีตัวละครที่ติดตั้ง \"{SPRITE_PRESET#3003}อาวุธ\" หรือสวมใส่ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\":</color> ในเทิร์นนี้ ครั้งต่อไปที่ฝ่ายเราใช้การ์ดอุปกรณ์ \"{SPRITE_PRESET#3003}อาวุธ\" หรือ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" จะใช้ Elemental Dice ลดลง 2 ลูก\\n(ภายในหนึ่งการดูเอล จะสามารถใช้การ์ด \"{SPRITE_PRESET#3007}เคล็ดลับ\" ได้เพียงใบเดียวเท่านั้น; การ์ดใบนี้จะอยู่ในการ์ดเริ่มต้นของคุณ)",
+            "id": 330001,
+            "name": "Ancient Courtyard",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"ชีวิตพริบตาอันมืดมนแสนหลักลอยเช่นนี้ มิใช่ช่วงกึ่งฝันแสนพร่าเลือนหรอกหรือ\"",
+            "storytitle": "ลานสวนในกาลเก่า",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "เคล็ดลับ"
+            ]
+        },
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "การ์ดอุปกรณ์",
@@ -615,6 +638,29 @@
             "tagstext": [
                 "พรสวรรค์",
                 "ดำเนินการต่อสู้"
+            ]
+        },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "การ์ดเหตุการณ์",
+            "description": "จะสามารถใช้ได้ เมื่อจำนวน Elemental Dice ที่เหลือของฝ่ายเราเป็น 0: ทำให้เกิด Elemental Dice พื้นฐานที่แตกต่างกัน 2 ลูก\n(ภายในหนึ่งการดูเอล จะสามารถใช้การ์ด \"เคล็ดลับ\" ได้เพียงใบเดียวเท่านั้น; การ์ดใบนี้จะอยู่ในการ์ดเริ่มต้นของคุณ)",
+            "descriptionraw": "<color=#FFFFFFFF>จะสามารถใช้ได้ เมื่อจำนวน Elemental Dice ที่เหลือของฝ่ายเราเป็น 0:</color> ทำให้เกิด Elemental Dice พื้นฐานที่แตกต่างกัน 2 ลูก\\n(ภายในหนึ่งการดูเอล จะสามารถใช้การ์ด \"{SPRITE_PRESET#3007}เคล็ดลับ\" ได้เพียงใบเดียวเท่านั้น; การ์ดใบนี้จะอยู่ในการ์ดเริ่มต้นของคุณ)",
+            "descriptionreplaced": "<color=#FFFFFFFF>จะสามารถใช้ได้ เมื่อจำนวน Elemental Dice ที่เหลือของฝ่ายเราเป็น 0:</color> ทำให้เกิด Elemental Dice พื้นฐานที่แตกต่างกัน 2 ลูก\\n(ภายในหนึ่งการดูเอล จะสามารถใช้การ์ด \"{SPRITE_PRESET#3007}เคล็ดลับ\" ได้เพียงใบเดียวเท่านั้น; การ์ดใบนี้จะอยู่ในการ์ดเริ่มต้นของคุณ)",
+            "id": 330002,
+            "name": "Covenant of Rock",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"ลอร์ดแห่งหินมอบดวงตาที่จะมองเห็นทุกสรรพสิ่งอย่างชัดเจนให้แก่มัน และทำพันธสัญญาต่อกัน นับแต่นั้นมา มังกรตัวนั้นก็อยู่กับท่านลอร์ดแห่งหินมาโดยตลอด พร้อมออกร่วมเดินทางเคียงบ่าเคียงไหล่ตั้งแต่เหนือจรดใต้...\"",
+            "storytitle": "พันธสัญญาแห่งศิลาหินผา",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "เคล็ดลับ"
             ]
         },
         "crimsonwitchofflames": {
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "ตัวละครสร้างความเสียหาย +1\nเมื่อเข้าสนาม: จั่วการ์ด 2 ใบ\n(สวมใส่ได้กับตัวละครประเภท \"สื่อเวท\" เท่านั้น ตัวละครจะสามารถสวมใส่ \"อาวุธ\" ได้มากสุด 1 ชิ้น)",
+            "descriptionraw": "<color=#FFFFFFFF>ตัวละครสร้างความเสียหาย +1</color>\\n<color=#FFFFFFFF>เมื่อเข้าสนาม:</color> จั่วการ์ด 2 ใบ\\n(สวมใส่ได้กับ<color=#FFFFFFFF>ตัวละครประเภท \"{SPRITE_PRESET#3201}สื่อเวท\"</color> เท่านั้น ตัวละครจะสามารถสวมใส่ \"{SPRITE_PRESET#3003}อาวุธ\" ได้มากสุด 1 ชิ้น)",
+            "descriptionreplaced": "<color=#FFFFFFFF>ตัวละครสร้างความเสียหาย +1</color>\\n<color=#FFFFFFFF>เมื่อเข้าสนาม:</color> จั่วการ์ด 2 ใบ\\n(สวมใส่ได้กับ<color=#FFFFFFFF>ตัวละครประเภท \"{SPRITE_PRESET#3201}สื่อเวท\"</color> เท่านั้น ตัวละครจะสามารถสวมใส่ \"{SPRITE_PRESET#3003}อาวุธ\" ได้มากสุด 1 ชิ้น)",
+            "id": 311105,
+            "name": "Fruit of Fulfillment",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "\"แต่ในเรื่องราวอันขมขื่น ก็ยังแฝงไปด้วยความกล้าหาญและพลัง... เรื่องราวการผจญภัยของ Nara สีทองผู้แสนดีกับพวกเรา จะช่วยปกป้องผืนป่าของ Nara ที่ดีเอง\"",
+            "storytitle": "จันทราเต็มดวง - Fruit of Fulfillment",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "อาวุธ",
+                "สื่อเวท"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "การ์ดอุปกรณ์",
-            "description": "หลังจากตัวละครฝ่ายศัตรูถูกเอาชนะ: หากตัวละครที่มีการ์ดใบนี้เป็น \"ตัวละครที่เข้าต่อสู้\" จะทำให้เกิด ธาตุสารพัดประโยชน์ 2 ลูก\n(ตัวละครจะสามารถสวมใส่ \"อาร์ติแฟกต์\" ได้มากสุด 1 ชิ้น)",
-            "descriptionraw": "<color=#FFFFFFFF>หลังจากตัวละครฝ่ายศัตรูถูกเอาชนะ:</color> หากตัวละครที่มีการ์ดใบนี้เป็น \"ตัวละครที่เข้าต่อสู้\" จะทำให้เกิด $[K411] 2 ลูก\\n(ตัวละครจะสามารถสวมใส่ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ได้มากสุด 1 ชิ้น)",
-            "descriptionreplaced": "<color=#FFFFFFFF>หลังจากตัวละครฝ่ายศัตรูถูกเอาชนะ:</color> หากตัวละครที่มีการ์ดใบนี้เป็น \"ตัวละครที่เข้าต่อสู้\" จะทำให้เกิด <color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color> 2 ลูก\\n(ตัวละครจะสามารถสวมใส่ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ได้มากสุด 1 ชิ้น)",
+            "description": "หลังจากตัวละครฝ่ายศัตรูถูกเอาชนะ: หากตัวละครที่มีการ์ดใบนี้เป็น \"ตัวละครที่เข้าต่อสู้\" จะทำให้เกิด ธาตุสารพัดประโยชน์ 2 ลูก (จำกัด 3 ครั้ง ต่อการดูเอล)\n(ตัวละครจะสามารถสวมใส่ \"อาร์ติแฟกต์\" ได้มากสุด 1 ชิ้น)",
+            "descriptionraw": "<color=#FFFFFFFF>หลังจากตัวละครฝ่ายศัตรูถูกเอาชนะ:</color> หากตัวละครที่มีการ์ดใบนี้เป็น \"ตัวละครที่เข้าต่อสู้\" จะทำให้เกิด $[K411] 2 ลูก (จำกัด 3 ครั้ง ต่อการดูเอล)\\n(ตัวละครจะสามารถสวมใส่ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ได้มากสุด 1 ชิ้น)",
+            "descriptionreplaced": "<color=#FFFFFFFF>หลังจากตัวละครฝ่ายศัตรูถูกเอาชนะ:</color> หากตัวละครที่มีการ์ดใบนี้เป็น \"ตัวละครที่เข้าต่อสู้\" จะทำให้เกิด <color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color> 2 ลูก (จำกัด 3 ครั้ง ต่อการดูเอล)\\n(ตัวละครจะสามารถสวมใส่ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ได้มากสุด 1 ชิ้น)",
             "id": 312004,
             "name": "Gambler's Earrings",
             "playcost": [
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "การ์ดอุปกรณ์",
-            "description": "ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น Noelle และติดตั้งการ์ดใบนี้\nหลังจากที่ Noelle ติดตั้งการ์ดใบนี้ จะใช้ Breastplate หนึ่งครั้งโดยทันที\nFull Plate ของ Noelle ที่มีการ์ดใบนี้สร้าง จะทำการรักษาตัวละครฝ่ายเราทั้งหมด 1 หน่วย หลังจากที่ Noelle ใช้การโจมตีปกติ (เทิร์นละ 1 ครั้ง)\n(เข้าร่วมเด็คได้ต่อเมื่อมี Noelle อยู่ภายในเด็คเท่านั้น)",
-            "descriptionraw": "$[K1]: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>$[A1602]</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ $[A1602] ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>$[S16022]</color> หนึ่งครั้งโดยทันที\\n<color=#FFFFFFFF>$[C116021]</color> ของ $[A1602] ที่มีการ์ดใบนี้สร้าง จะทำการรักษาตัวละครฝ่ายเราทั้งหมด 1 หน่วย หลังจากที่ $[A1602] ใช้<color=#FFFFFFFF>การโจมตีปกติ</color> (เทิร์นละ 1 ครั้ง)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี $[A1602] อยู่ภายในเด็คเท่านั้น)",
-            "descriptionreplaced": "<color=#FFFFFFFF>ดำเนินการต่อสู้</color>: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>Noelle</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ Noelle ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>Breastplate</color> หนึ่งครั้งโดยทันที\\n<color=#FFFFFFFF>Full Plate</color> ของ Noelle ที่มีการ์ดใบนี้สร้าง จะทำการรักษาตัวละครฝ่ายเราทั้งหมด 1 หน่วย หลังจากที่ Noelle ใช้<color=#FFFFFFFF>การโจมตีปกติ</color> (เทิร์นละ 1 ครั้ง)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี Noelle อยู่ภายในเด็คเท่านั้น)",
+            "description": "ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น Noelle และติดตั้งการ์ดใบนี้\nหลังจากที่ Noelle ติดตั้งการ์ดใบนี้ จะใช้ Breastplate หนึ่งครั้งโดยทันที\nหลังจากที่ Noelle ใช้การโจมตีปกติ: หากการ์ดใบนี้และ Full Plate ยังอยู่ในสนาม จะทำการรักษาตัวละครฝ่ายเราทั้งหมด 1 หน่วย (เทิร์นละ 1 ครั้ง)\n(เข้าร่วมเด็คได้ต่อเมื่อมี Noelle อยู่ภายในเด็คเท่านั้น)",
+            "descriptionraw": "$[K1]: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>$[A1602]</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ $[A1602] ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>$[S16022]</color> หนึ่งครั้งโดยทันที\\nหลังจากที่ $[A1602] ใช้<color=#FFFFFFFF>การโจมตีปกติ</color>: หากการ์ดใบนี้และ <color=#FFFFFFFF>$[C116021]</color> ยังอยู่ในสนาม จะทำการรักษาตัวละครฝ่ายเราทั้งหมด 1 หน่วย (เทิร์นละ 1 ครั้ง)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี $[A1602] อยู่ภายในเด็คเท่านั้น)",
+            "descriptionreplaced": "<color=#FFFFFFFF>ดำเนินการต่อสู้</color>: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>Noelle</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ Noelle ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>Breastplate</color> หนึ่งครั้งโดยทันที\\nหลังจากที่ Noelle ใช้<color=#FFFFFFFF>การโจมตีปกติ</color>: หากการ์ดใบนี้และ <color=#FFFFFFFF>Full Plate</color> ยังอยู่ในสนาม จะทำการรักษาตัวละครฝ่ายเราทั้งหมด 1 หน่วย (เทิร์นละ 1 ครั้ง)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี Noelle อยู่ภายในเด็คเท่านั้น)",
             "id": 216021,
             "name": "I Got Your Back",
             "playcost": [
@@ -2541,6 +2612,54 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "เมื่อตัวละครฝ่ายเราชาร์จโจมตี: สร้างความเสียหาย +1 และเมื่อจบเอฟเฟกต์ ฝ่ายเราจะจั่วการ์ด 1 ใบ",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อตัวละครฝ่ายเรา$[K51]:</color> สร้างความเสียหาย +1 และเมื่อจบเอฟเฟกต์ ฝ่ายเราจะจั่วการ์ด 1 ใบ",
+            "descriptionreplaced": "<color=#FFFFFFFF>เมื่อตัวละครฝ่ายเรา<color=#FFFFFFFF>ชาร์จโจมตี</color>:</color> สร้างความเสียหาย +1 และเมื่อจบเอฟเฟกต์ ฝ่ายเราจะจั่วการ์ด 1 ใบ",
+            "id": 423020,
+            "name": "Mastery Talisman: Arms and Armor Honed",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "เมื่อตัวละครฝ่ายเราที่สวมใส่ \"อาวุธ\" และ \"อาร์ติแฟกต์\" ในเวลาเดียวกันใช้สกิล: ใช้ Elemental Dice ลดลง 3 ลูก (เทิร์นละ 1 ครั้ง)",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อตัวละครฝ่ายเราที่สวมใส่ \"{SPRITE_PRESET#3003}อาวุธ\" และ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ในเวลาเดียวกันใช้สกิล:</color> ใช้ Elemental Dice ลดลง 3 ลูก (เทิร์นละ 1 ครั้ง)",
+            "descriptionreplaced": "<color=#FFFFFFFF>เมื่อตัวละครฝ่ายเราที่สวมใส่ \"{SPRITE_PRESET#3003}อาวุธ\" และ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ในเวลาเดียวกันใช้สกิล:</color> ใช้ Elemental Dice ลดลง 3 ลูก (เทิร์นละ 1 ครั้ง)",
+            "id": 423021,
+            "name": "Mastery Talisman: Battle-Ready",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "เมื่อตัวละครฝ่ายศัตรูพ่ายแพ้: สร้างความเสียหายทะลวง แก่ตัวละครฝ่ายศัตรูทั้งหมด 1 หน่วย",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อตัวละครฝ่ายศัตรูพ่ายแพ้:</color> สร้าง$[K5] แก่ตัวละครฝ่ายศัตรูทั้งหมด 1 หน่วย",
+            "descriptionreplaced": "<color=#FFFFFFFF>เมื่อตัวละครฝ่ายศัตรูพ่ายแพ้:</color> สร้าง<color=#FFFFFFFF>ความเสียหายทะลวง</color> แก่ตัวละครฝ่ายศัตรูทั้งหมด 1 หน่วย",
+            "id": 423022,
+            "name": "Mastery Talisman: Cascading Defeat",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "หลังจากที่ตัวละครฝ่ายศัตรู ได้รับความเสียหายจากปฏิกิริยาธาตุ: เกิดธาตุสารพัดประโยชน์ 1 ลูก (ในแต่ละเทิร์น จะเกิดขึ้นได้มากสุด 3 ครั้ง)",
+            "descriptionraw": "<color=#FFFFFFFF>หลังจากที่ตัวละครฝ่ายศัตรู ได้รับความเสียหายจากปฏิกิริยาธาตุ:</color> เกิด$[K411] 1 ลูก (ในแต่ละเทิร์น จะเกิดขึ้นได้มากสุด 3 ครั้ง)",
+            "descriptionreplaced": "<color=#FFFFFFFF>หลังจากที่ตัวละครฝ่ายศัตรู ได้รับความเสียหายจากปฏิกิริยาธาตุ:</color> เกิด<color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color> 1 ลูก (ในแต่ละเทิร์น จะเกิดขึ้นได้มากสุด 3 ครั้ง)",
+            "id": 423023,
+            "name": "Mastery Talisman: Chaotic Banners",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "การ์ดสนับสนุน",
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "เมื่อฝ่ายเราใช้การ์ดอุปกรณ์ \"อาวุธ\" หรือ \"อาร์ติแฟกต์\" ที่มีค่าร่ายรวมอย่างน้อย 3 หน่วย: ใช้ Elemental Dice ลดลง 3 ลูก (เทิร์นละ 1 ครั้ง)",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อฝ่ายเราใช้การ์ดอุปกรณ์ \"{SPRITE_PRESET#3003}อาวุธ\" หรือ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ที่มีค่าร่ายรวมอย่างน้อย 3 หน่วย:</color> ใช้ Elemental Dice ลดลง 3 ลูก (เทิร์นละ 1 ครั้ง)",
+            "descriptionreplaced": "<color=#FFFFFFFF>เมื่อฝ่ายเราใช้การ์ดอุปกรณ์ \"{SPRITE_PRESET#3003}อาวุธ\" หรือ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ที่มีค่าร่ายรวมอย่างน้อย 3 หน่วย:</color> ใช้ Elemental Dice ลดลง 3 ลูก (เทิร์นละ 1 ครั้ง)",
+            "id": 423019,
+            "name": "Mastery Talisman: Planning Long-Term",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "การ์ดสนับสนุน",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>หลังจากที่ตัวละครฝ่ายศัตรูพ่ายแพ้:</color> ก่อให้เกิด<color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color> 1 ลูก และจั่วการ์ด 1 ใบ",
             "id": 423007,
             "name": "Mastery Talisman: Press the Attack",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "หลังจากที่ตัวละครฝ่ายเราใช้สกิล: จะทำให้เกิด \"กับดักซุ่มโจมตี\" ที่มีธาตุชนิดเดียวกันกับตัวละครหนึ่งอันในสนามของฝ่ายตรงข้าม โดยหลังจากที่ตัวละครสนับสนุนของฝ่ายศัตรูเข้าสู่สนาม \"กับดักซุ่มโจมตี\" จะสร้างความเสียหายธาตุที่สอดคล้องกันแก่ตัวละครดังกล่าว 1 หน่วย",
+            "descriptionraw": "<color=#FFFFFFFF>หลังจากที่ตัวละครฝ่ายเราใช้สกิล:</color> จะทำให้เกิด \"กับดักซุ่มโจมตี\" ที่มีธาตุชนิดเดียวกันกับตัวละครหนึ่งอันในสนามของฝ่ายตรงข้าม โดยหลังจากที่ตัวละครสนับสนุนของฝ่ายศัตรูเข้าสู่สนาม \"กับดักซุ่มโจมตี\" จะสร้างความเสียหายธาตุที่สอดคล้องกันแก่ตัวละครดังกล่าว 1 หน่วย",
+            "descriptionreplaced": "<color=#FFFFFFFF>หลังจากที่ตัวละครฝ่ายเราใช้สกิล:</color> จะทำให้เกิด \"กับดักซุ่มโจมตี\" ที่มีธาตุชนิดเดียวกันกับตัวละครหนึ่งอันในสนามของฝ่ายตรงข้าม โดยหลังจากที่ตัวละครสนับสนุนของฝ่ายศัตรูเข้าสู่สนาม \"กับดักซุ่มโจมตี\" จะสร้างความเสียหายธาตุที่สอดคล้องกันแก่ตัวละครดังกล่าว 1 หน่วย",
+            "id": 423024,
+            "name": "Mastery Talisman: Sudden Ambush",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "เมื่อตัวละครฝ่ายศัตรูพ่ายแพ้: ฝ่ายเราจั่วการ์ด 1 ใบ และทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายเราในขณะนั้น สร้างความเสียหาย +1 ในการดูเอลนี้ (ซ้อนทับได้ มากสุด 3 ครั้ง)",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อตัวละครฝ่ายศัตรูพ่ายแพ้:</color> ฝ่ายเราจั่วการ์ด 1 ใบ และทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายเราในขณะนั้น สร้างความเสียหาย +1 ในการดูเอลนี้ (ซ้อนทับได้ มากสุด 3 ครั้ง)",
+            "descriptionreplaced": "<color=#FFFFFFFF>เมื่อตัวละครฝ่ายศัตรูพ่ายแพ้:</color> ฝ่ายเราจั่วการ์ด 1 ใบ และทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายเราในขณะนั้น สร้างความเสียหาย +1 ในการดูเอลนี้ (ซ้อนทับได้ มากสุด 3 ครั้ง)",
+            "id": 423018,
+            "name": "Mastery Talisman: Victorious Repute",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "เมื่อฝ่ายเราใช้การ์ด \"อาวุธ\": ใช้ Elemental Dice น้อยลง 1 ลูก; ตัวละครทุกหนึ่งตัวที่สวมใส่ \"อาวุธ\" ภายในสนามฝ่ายเรา จะทำให้ใช้ Elemental Dice ลดลงเพิ่มอีก 1 ลูก (เทิร์นละ 1 ครั้ง)",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\":</color> ใช้ Elemental Dice น้อยลง 1 ลูก; ตัวละครทุกหนึ่งตัวที่สวมใส่ \"{SPRITE_PRESET#3003}อาวุธ\" ภายในสนามฝ่ายเรา จะทำให้ใช้ Elemental Dice ลดลงเพิ่มอีก 1 ลูก (เทิร์นละ 1 ครั้ง)",
+            "descriptionreplaced": "<color=#FFFFFFFF>เมื่อฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\":</color> ใช้ Elemental Dice น้อยลง 1 ลูก; ตัวละครทุกหนึ่งตัวที่สวมใส่ \"{SPRITE_PRESET#3003}อาวุธ\" ภายในสนามฝ่ายเรา จะทำให้ใช้ Elemental Dice ลดลงเพิ่มอีก 1 ลูก (เทิร์นละ 1 ครั้ง)",
+            "id": 322018,
+            "name": "Master Zhang",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "กว่าจะเป็นดาบแหลมคมได้สักเล่ม ก้อนเหล็กย่อมต้องผ่านการหลอมแผดเผาหลายครั้งหลายครา",
+            "storytitle": "หลอมตีร้อยศาสตราวุธ - Master Zhang",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "เพื่อน"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -3025,6 +3203,32 @@
                 "ดำเนินการต่อสู้"
             ]
         },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น Kaedehara Kazuha และติดตั้งการ์ดใบนี้\nหลังจากที่ Kaedehara Kazuha ติดตั้งการ์ดใบนี้ จะใช้ Chihayaburu หนึ่งครั้งโดยทันที\nหลังจาก Kaedehara Kazuha ที่มีการ์ดใบนี้ทำให้เกิดปฏิกิริยากระจาย: ชนิดธาตุที่ถูกกระจายของตัวละครและสิ่งอัญเชิญใน 2 ครั้งถัดไปของฝ่ายเรา จะสร้างความเสียหาย +1 (ธาตุแต่ละชนิดจะคิดจำนวนครั้งแยกกัน)\n(เข้าร่วมเด็คได้ต่อเมื่อมี Kaedehara Kazuha อยู่ภายในเด็คเท่านั้น)",
+            "descriptionraw": "$[K1]: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>$[A1505]</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ $[A1505] ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>$[S15052]</color> หนึ่งครั้งโดยทันที\\nหลังจาก $[A1505] ที่มีการ์ดใบนี้ทำให้เกิดปฏิกิริยากระจาย: ชนิดธาตุที่ถูกกระจายของตัวละครและสิ่งอัญเชิญใน 2 ครั้งถัดไปของฝ่ายเรา จะสร้างความเสียหาย +1 (ธาตุแต่ละชนิดจะคิดจำนวนครั้งแยกกัน)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี $[A1505] อยู่ภายในเด็คเท่านั้น)",
+            "descriptionreplaced": "<color=#FFFFFFFF>ดำเนินการต่อสู้</color>: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>Kaedehara Kazuha</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ Kaedehara Kazuha ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>Chihayaburu</color> หนึ่งครั้งโดยทันที\\nหลังจาก Kaedehara Kazuha ที่มีการ์ดใบนี้ทำให้เกิดปฏิกิริยากระจาย: ชนิดธาตุที่ถูกกระจายของตัวละครและสิ่งอัญเชิญใน 2 ครั้งถัดไปของฝ่ายเรา จะสร้างความเสียหาย +1 (ธาตุแต่ละชนิดจะคิดจำนวนครั้งแยกกัน)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี Kaedehara Kazuha อยู่ภายในเด็คเท่านั้น)",
+            "id": 215051,
+            "name": "Poetics of Fuubutsu",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Kaedehara Kazuha ทำการดูเอลใน Cat's Tail และสำเร็จเป้าหมายการท้าทายที่เกี่ยวข้อง",
+            "storytext": "ในการดูเอลก็แฝงความสูงสง่าไว้เช่นกัน\nอย่างน้อย... ผู้เข้าดูเอลทั้งสองฝ่ายก็ \"กลับลำหลังลงการ์ด\" ไม่ได้นี่นะ",
+            "storytitle": "Kaedehara Kazuha - Poetics of Fuubutsu",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "พรสวรรค์",
+                "ดำเนินการต่อสู้"
+            ]
+        },
         "poundingsurprise": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "การ์ดอุปกรณ์",
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "ไอเทม"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "การ์ดเหตุการณ์",
+            "description": "ครั้งต่อไปที่ฝ่ายเราใช้การ์ด \"อาวุธ\" หรือ \"อาร์ติแฟกต์\": ใช้ Elemental Dice ลดลง 1 ลูก",
+            "descriptionraw": "<color=#FFFFFFFF>ครั้งต่อไปที่ฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\" หรือ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\":</color> ใช้ Elemental Dice ลดลง 1 ลูก",
+            "descriptionreplaced": "<color=#FFFFFFFF>ครั้งต่อไปที่ฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\" หรือ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\":</color> ใช้ Elemental Dice ลดลง 1 ลูก",
+            "id": 332021,
+            "name": "Rhythm of the Great Dream",
+            "playcost": [],
+            "storytext": "\"เข้าไปสู่ฝันของพวกเรา โลกของพวกเรา\"\n\"จงฝากเรื่องราวอันอ่อนโยน กล้าหาญ และซื่อตรงเอาไว้เถอะ\"",
+            "storytitle": "บทเพลงแห่งความฝัน",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น Yanfei และติดตั้งการ์ดใบนี้\nหลังจาก Yanfei ติดตั้งการ์ดใบนี้ จะใช้ Seal of Approval หนึ่งครั้งโดยทันที\nเมื่อ Yanfei ที่มีการ์ดใบนี้ใช้ชาร์จโจมตี: ความเสียหายที่สร้างแก่ศัตรู ที่มีค่าพลังชีวิตไม่เกิน 6 หน่วย จะ +1\n(เข้าร่วมเด็คได้ต่อเมื่อมี Yanfei อยู่ภายในเด็คเท่านั้น)",
+            "descriptionraw": "$[K1]: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>$[A1308]</color> และติดตั้งการ์ดใบนี้\\nหลังจาก $[A1308] ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>$[S13081]</color> หนึ่งครั้งโดยทันที\\nเมื่อ $[A1308] ที่มีการ์ดใบนี้ใช้$[K51]: ความเสียหายที่สร้างแก่ศัตรู ที่มีค่าพลังชีวิตไม่เกิน 6 หน่วย จะ +1\\n(เข้าร่วมเด็คได้ต่อเมื่อมี $[A1308] อยู่ภายในเด็คเท่านั้น)",
+            "descriptionreplaced": "<color=#FFFFFFFF>ดำเนินการต่อสู้</color>: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>Yanfei</color> และติดตั้งการ์ดใบนี้\\nหลังจาก Yanfei ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>Seal of Approval</color> หนึ่งครั้งโดยทันที\\nเมื่อ Yanfei ที่มีการ์ดใบนี้ใช้<color=#FFFFFFFF>ชาร์จโจมตี</color>: ความเสียหายที่สร้างแก่ศัตรู ที่มีค่าพลังชีวิตไม่เกิน 6 หน่วย จะ +1\\n(เข้าร่วมเด็คได้ต่อเมื่อมี Yanfei อยู่ภายในเด็คเท่านั้น)",
+            "id": 213081,
+            "name": "Right of Final Interpretation",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Yanfei ทำการดูเอลใน Cat's Tail และสำเร็จเป้าหมายการท้าทายที่เกี่ยวข้อง",
+            "storytext": "\"ในด้านการเล่นการ์ดเนี่ย แน่นอนว่า... อะไรที่กติกาไม่ได้ห้ามไว้ ก็ต้องทำได้หมดอยู่แล้ว\"",
+            "storytitle": "Yanfei - Right of Final Interpretation",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "พรสวรรค์",
+                "ดำเนินการต่อสู้"
             ]
         },
         "sacrificialbow": {
@@ -4019,6 +4267,36 @@
             "storytitle": "อย่ายอมแพ้ต่อความหวังแห่งอิสรภาพ",
             "tags": [],
             "tagstext": []
+        },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น Candace และติดตั้งการ์ดใบนี้\nหลังจากที่ Candace ติดตั้งการ์ดใบนี้ จะใช้ Sacred Rite: Wagtail's Tide หนึ่งครั้งโดยทันที\nPrayer of the Crimson Crown ที่ Candace ที่มีการ์ดใบนี้สร้างขึ้น จะมีเอฟเฟกต์ต่อไปนี้เพิ่มเติม: หลังจากที่ตัวละครฝ่ายเรา ใช้การโจมตีปกติ: สร้างความเสียหายน้ำ 1 หน่วย (เทิร์นละ 1 ครั้ง)\n(เข้าร่วมเด็คได้ต่อเมื่อมี Candace อยู่ภายในเด็คเท่านั้น)",
+            "descriptionraw": "$[K1]: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>$[A1207]</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ $[A1207] ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>$[S12073]</color> หนึ่งครั้งโดยทันที\\n<color=#FFFFFFFF>$[C112072]</color> ที่ $[A1207] ที่มีการ์ดใบนี้สร้างขึ้น จะมีเอฟเฟกต์ต่อไปนี้เพิ่มเติม: <color=#FFFFFFFF>หลังจากที่ตัวละครฝ่ายเรา ใช้การโจมตีปกติ:</color> สร้าง$[K102] 1 หน่วย (เทิร์นละ 1 ครั้ง)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี $[A1207] อยู่ภายในเด็คเท่านั้น)",
+            "descriptionreplaced": "<color=#FFFFFFFF>ดำเนินการต่อสู้</color>: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>Candace</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ Candace ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> หนึ่งครั้งโดยทันที\\n<color=#FFFFFFFF>Prayer of the Crimson Crown</color> ที่ Candace ที่มีการ์ดใบนี้สร้างขึ้น จะมีเอฟเฟกต์ต่อไปนี้เพิ่มเติม: <color=#FFFFFFFF>หลังจากที่ตัวละครฝ่ายเรา ใช้การโจมตีปกติ:</color> สร้าง{SPRITE_PRESET#2102}<color=#80C0FFFF>ความเสียหายน้ำ</color> 1 หน่วย (เทิร์นละ 1 ครั้ง)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี Candace อยู่ภายในเด็คเท่านั้น)",
+            "id": 212071,
+            "name": "The Overflow",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Candace ทำการดูเอลใน Cat's Tail และสำเร็จเป้าหมายการท้าทายที่เกี่ยวข้อง",
+            "storytext": "ผู้ที่ไม่รักษากฎเกณฑ์ตอนเล่นการ์ดนั้น นับว่าเป็น...\nศัตรูของผู้ที่ชื่นชอบในเกมการ์ดทั้งหมด",
+            "storytitle": "Candace - The Overflow",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "พรสวรรค์",
+                "ดำเนินการต่อสู้"
+            ]
         },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "Adeptus' Temptation",
             "adventurersbandana": "Adventurer's Bandana",
             "amosbow": "Amos' Bow",
+            "ancientcourtyard": "Ancient Courtyard",
             "aquilafavonia": "Aquila Favonia",
             "aratakiichiban": "Arataki Ichiban",
             "archaicpetra": "Archaic Petra",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "Cicin's Cold Glare",
             "coldbloodedstrike": "Cold-Blooded Strike",
             "conquerorofevilguardianyaksha": "Conqueror of Evil: Guardian Yaksha",
+            "covenantofrock": "Covenant of Rock",
             "crimsonwitchofflames": "Crimson Witch of Flames",
             "crossfire": "Crossfire",
             "dawnwinery": "Dawn Winery",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "Floral Sidewinder",
             "flowingflame": "Flowing Flame",
             "friendshipeternal": "Friendship Eternal",
+            "fruitoffulfillment": "Fruit of Fulfillment",
             "gamblersearrings": "Gambler's Earrings",
             "generalsancienthelm": "General's Ancient Helm",
             "giantmutationstone": "Giant Mutation Stone",
@@ -5699,6 +6019,10 @@
             "magicguide": "Magic Guide",
             "maskofsolitudebasalt": "Mask of Solitude Basalt",
             "masterofweaponry": "Master of Weaponry",
+            "masterytalismanarmsandarmorhoned": "Mastery Talisman: Arms and Armor Honed",
+            "masterytalismanbattleready": "Mastery Talisman: Battle-Ready",
+            "masterytalismancascadingdefeat": "Mastery Talisman: Cascading Defeat",
+            "masterytalismanchaoticbanners": "Mastery Talisman: Chaotic Banners",
             "masterytalismancoldwar": "Mastery Talisman: Cold War",
             "masterytalismancyclecharge": "Mastery Talisman: Cycle Charge",
             "masterytalismandecisivebattle": "Mastery Talisman: Decisive Battle",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "Mastery Talisman: Extended Explosion",
             "masterytalismanimmovable": "Mastery Talisman: Immovable",
             "masterytalismanintelligenceupdate": "Mastery Talisman: Intelligence Update",
+            "masterytalismanplanninglongterm": "Mastery Talisman: Planning Long-Term",
             "masterytalismanpracticemakesperfect": "Mastery Talisman: Practice Makes Perfect",
             "masterytalismanpresstheattack": "Mastery Talisman: Press the Attack",
+            "masterytalismansuddenambush": "Mastery Talisman: Sudden Ambush",
             "masterytalismansurgingvigor": "Mastery Talisman: Surging Vigor",
             "masterytalismantheelementsentwined": "Mastery Talisman: The Elements Entwined",
+            "masterytalismanvictoriousrepute": "Mastery Talisman: Victorious Repute",
+            "masterzhang": "Master Zhang",
             "mintymeatrolls": "Minty Meat Rolls",
             "mirrorcage": "Mirror Cage",
             "mondstadthashbrown": "Mondstadt Hash Brown",
@@ -5726,6 +6054,7 @@
             "paimon": "Paimon",
             "parametrictransformer": "Parametric Transformer",
             "plungingstrike": "Plunging Strike",
+            "poeticsoffuubutsu": "Poetics of Fuubutsu",
             "poundingsurprise": "Pounding Surprise",
             "proliferatingspores": "Proliferating Spores",
             "prophecyofsubmersion": "Prophecy of Submersion",
@@ -5733,6 +6062,8 @@
             "rana": "Rana",
             "ravenbow": "Raven Bow",
             "redfeatherfan": "Red Feather Fan",
+            "rhythmofthegreatdream": "Rhythm of the Great Dream",
+            "rightoffinalinterpretation": "Right of Final Interpretation",
             "sacrificialbow": "Sacrificial Bow",
             "sacrificialfragments": "Sacrificial Fragments",
             "sacrificialgreatsword": "Sacrificial Greatsword",
@@ -5767,6 +6098,7 @@
             "thebell": "The Bell",
             "thebestesttravelcompanion": "The Bestest Travel Companion!",
             "thelegendofvennessa": "The Legend of Vennessa",
+            "theoverflow": "The Overflow",
             "thescentremained": "The Scent Remained",
             "theseedofstoredknowledge": "The Seed of Stored Knowledge",
             "theshrinessacredshade": "The Shrine's Sacred Shade",
@@ -5814,6 +6146,7 @@
             "Adeptus' Temptation": "adeptustemptation",
             "Adventurer's Bandana": "adventurersbandana",
             "Amos' Bow": "amosbow",
+            "Ancient Courtyard": "ancientcourtyard",
             "Aquila Favonia": "aquilafavonia",
             "Arataki Ichiban": "aratakiichiban",
             "Archaic Petra": "archaicpetra",
@@ -5832,6 +6165,7 @@
             "Cicin's Cold Glare": "cicinscoldglare",
             "Cold-Blooded Strike": "coldbloodedstrike",
             "Conqueror of Evil: Guardian Yaksha": "conquerorofevilguardianyaksha",
+            "Covenant of Rock": "covenantofrock",
             "Crimson Witch of Flames": "crimsonwitchofflames",
             "Crossfire": "crossfire",
             "Dawn Winery": "dawnwinery",
@@ -5870,6 +6204,7 @@
             "Floral Sidewinder": "floralsidewinder",
             "Flowing Flame": "flowingflame",
             "Friendship Eternal": "friendshipeternal",
+            "Fruit of Fulfillment": "fruitoffulfillment",
             "Gambler's Earrings": "gamblersearrings",
             "General's Ancient Helm": "generalsancienthelm",
             "Giant Mutation Stone": "giantmutationstone",
@@ -5906,7 +6241,12 @@
             "Lucky Dog's Silver Circlet": "luckydogssilvercirclet",
             "Magic Guide": "magicguide",
             "Mask of Solitude Basalt": "maskofsolitudebasalt",
+            "Master Zhang": "masterzhang",
             "Master of Weaponry": "masterofweaponry",
+            "Mastery Talisman: Arms and Armor Honed": "masterytalismanarmsandarmorhoned",
+            "Mastery Talisman: Battle-Ready": "masterytalismanbattleready",
+            "Mastery Talisman: Cascading Defeat": "masterytalismancascadingdefeat",
+            "Mastery Talisman: Chaotic Banners": "masterytalismanchaoticbanners",
             "Mastery Talisman: Cold War": "masterytalismancoldwar",
             "Mastery Talisman: Cycle Charge": "masterytalismancyclecharge",
             "Mastery Talisman: Decisive Battle": "masterytalismandecisivebattle",
@@ -5915,10 +6255,13 @@
             "Mastery Talisman: Extended Explosion": "masterytalismanextendedexplosion",
             "Mastery Talisman: Immovable": "masterytalismanimmovable",
             "Mastery Talisman: Intelligence Update": "masterytalismanintelligenceupdate",
+            "Mastery Talisman: Planning Long-Term": "masterytalismanplanninglongterm",
             "Mastery Talisman: Practice Makes Perfect": "masterytalismanpracticemakesperfect",
             "Mastery Talisman: Press the Attack": "masterytalismanpresstheattack",
+            "Mastery Talisman: Sudden Ambush": "masterytalismansuddenambush",
             "Mastery Talisman: Surging Vigor": "masterytalismansurgingvigor",
             "Mastery Talisman: The Elements Entwined": "masterytalismantheelementsentwined",
+            "Mastery Talisman: Victorious Repute": "masterytalismanvictoriousrepute",
             "Minty Meat Rolls": "mintymeatrolls",
             "Mirror Cage": "mirrorcage",
             "Mondstadt Hash Brown": "mondstadthashbrown",
@@ -5934,6 +6277,7 @@
             "Paimon": "paimon",
             "Parametric Transformer": "parametrictransformer",
             "Plunging Strike": "plungingstrike",
+            "Poetics of Fuubutsu": "poeticsoffuubutsu",
             "Pounding Surprise": "poundingsurprise",
             "Proliferating Spores": "proliferatingspores",
             "Prophecy of Submersion": "prophecyofsubmersion",
@@ -5941,6 +6285,8 @@
             "Rana": "rana",
             "Raven Bow": "ravenbow",
             "Red Feather Fan": "redfeatherfan",
+            "Rhythm of the Great Dream": "rhythmofthegreatdream",
+            "Right of Final Interpretation": "rightoffinalinterpretation",
             "Sacrificial Bow": "sacrificialbow",
             "Sacrificial Fragments": "sacrificialfragments",
             "Sacrificial Greatsword": "sacrificialgreatsword",
@@ -5975,6 +6321,7 @@
             "The Bell": "thebell",
             "The Bestest Travel Companion!": "thebestesttravelcompanion",
             "The Legend of Vennessa": "thelegendofvennessa",
+            "The Overflow": "theoverflow",
             "The Scent Remained": "thescentremained",
             "The Seed of Stored Knowledge": "theseedofstoredknowledge",
             "The Shrine's Sacred Shade": "theshrinessacredshade",
@@ -6047,6 +6394,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6061,6 +6409,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

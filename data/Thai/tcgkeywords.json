@@ -21,6 +21,13 @@
             "name": "ความเสียหายลม",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>ความเสียหายลม</color>"
         },
+        "arcaneedict": {
+            "description": "ภายในหนึ่งการดูเอล ผู้เล่นแต่ละคนสามารถใช้การ์ด \"เคล็ดลับ\" ได้ 1 ใบ เท่านั้น\nและมีแค่ตอนที่ \"ประกาศิตเคล็ดลับ\" ยังอยู่เท่านั้น จึงจะสามารถใช้การ์ด \"เคล็ดลับ\" ได้ เมื่อใช้งานการ์ด \"เคล็ดลับ\" แล้ว จะเสียโอกาสการใช้งาน \"ประกาศิตเคล็ดลับ\" ในดูเอลปัจจุบัน",
+            "descriptionraw": "ภายในหนึ่งการดูเอล ผู้เล่นแต่ละคนสามารถใช้การ์ด \"{SPRITE_PRESET#3007}เคล็ดลับ\" ได้ 1 ใบ เท่านั้น\\nและมีแค่ตอนที่ \"{SPRITE_PRESET#1112}ประกาศิตเคล็ดลับ\" ยังอยู่เท่านั้น จึงจะสามารถใช้การ์ด \"{SPRITE_PRESET#3007}เคล็ดลับ\" ได้ เมื่อใช้งานการ์ด \"{SPRITE_PRESET#3007}เคล็ดลับ\" แล้ว จะเสียโอกาสการใช้งาน \"{SPRITE_PRESET#1112}ประกาศิตเคล็ดลับ\" ในดูเอลปัจจุบัน",
+            "id": 311,
+            "name": "ประกาศิตเคล็ดลับ",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}ประกาศิตเคล็ดลับ</color>"
+        },
         "bloodblossom": {
             "description": "จบเฟส: สร้างความเสียหายไฟ 1 หน่วย แก่ตัวละครที่มีการ์ดใบนี้\nจำนวนครั้งที่ใช้ได้: 1",
             "descriptionraw": "<color=#FFFFFFFF>จบเฟส:</color> สร้าง{SPRITE_PRESET#2103}<color=#FF9999FF>ความเสียหายไฟ</color> 1 หน่วย แก่ตัวละครที่มีการ์ดใบนี้\\n<color=#FFFFFFFF><color=#FFFFFFFF>จำนวนครั้งที่ใช้ได้</color>: 1</color>",
@@ -266,7 +273,7 @@
             "name": "โจมตีพุ่งลงจากอากาศ",
             "nameraw": "<color=#FFFFFFFF>โจมตีพุ่งลงจากอากาศ</color>"
         },
-        "prepareskill": {
+        "prepareskills1prepares": {
             "description": "สกิลบางส่วนไม่สามารถใช้งานโดยตรงได้ ต้องใช้รอบดำเนินการจำนวนหนึ่ง เพื่อทำการเตรียมสกิล\nเมื่อมาถึงตาดำเนินการของผู้เล่นฝ่ายใดฝ่ายหนึ่ง หาก \"ตัวละครที่เข้าต่อสู้\" ของผู้เล่นคนนั้น ๆ กำลังเตรียมสกิล จะเป็นการข้ามการดำเนินการของผู้เล่นคนนั้น; หากสกิลเตรียมเสร็จแล้ว ตัวละครจะทำการใช้งานสกิลในทันที (สกิลประเภทที่ต้องเตรียมก่อน จะไม่ทำให้เกิดเอฟเฟกต์ \"หลังจากใช้งานสกิล\")\nมีแค่ \"ตัวละครที่เข้าต่อสู้\" เท่านั้นที่จะเตรียมสกิลได้; หาก \"ตัวละครที่เข้าต่อสู้\" ที่กำลังเตรียมสกิล ถูกสลับไปเป็นตัวละครนอกสนาม การเตรียมสกิลจะถูกขัดจังหวะ",
             "descriptionraw": "สกิลบางส่วนไม่สามารถใช้งานโดยตรงได้ ต้องใช้รอบดำเนินการจำนวนหนึ่ง เพื่อทำการ<color=#FFFFFFFF>เตรียมสกิล</color>\\nเมื่อมาถึงตาดำเนินการของผู้เล่นฝ่ายใดฝ่ายหนึ่ง หาก \"ตัวละครที่เข้าต่อสู้\" ของผู้เล่นคนนั้น ๆ กำลัง<color=#FFFFFFFF>เตรียม</color>สกิล จะเป็นการข้ามการดำเนินการของผู้เล่นคนนั้น; หากสกิล<color=#FFFFFFFF>เตรียม</color>เสร็จแล้ว ตัวละครจะทำการใช้งานสกิลในทันที (สกิลประเภทที่ต้อง<color=#FFFFFFFF>เตรียม</color>ก่อน จะไม่ทำให้เกิดเอฟเฟกต์ \"หลังจากใช้งานสกิล\")\\nมีแค่ \"ตัวละครที่เข้าต่อสู้\" เท่านั้นที่จะ<color=#FFFFFFFF>เตรียม</color>สกิลได้; หาก \"ตัวละครที่เข้าต่อสู้\" ที่กำลัง<color=#FFFFFFFF>เตรียม</color>สกิล ถูกสลับไปเป็นตัวละครนอกสนาม การ<color=#FFFFFFFF>เตรียม</color>สกิลจะถูกขัดจังหวะ",
             "id": 53,
@@ -315,6 +322,13 @@
             "name": "Riptide",
             "nameraw": "<color=#FFFFFFFF>Riptide</color>"
         },
+        "scarletseal": {
+            "description": "เมื่อตัวละครใช้ชาร์จโจมตี: จะสร้างความเสียหาย +2\nจำนวนครั้งที่ใช้ได้: 1",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อตัวละครใช้<color=#FFFFFFFF>ชาร์จโจมตี</color>: </color>จะสร้างความเสียหาย +2\\n<color=#FFFFFFFF><color=#FFFFFFFF>จำนวนครั้งที่ใช้ได้</color>: 1</color>",
+            "id": 1010,
+            "name": "Scarlet Seal",
+            "nameraw": "<color=#FFFFFFFF>Scarlet Seal</color>"
+        },
         "shield": {
             "description": "เมื่อตัวละครที่ได้รับการป้องกันจากโล่นี้ถูกโจมตี โล่ป้องกันจะถูกใช้เพื่อลบล้างความเสียหาย",
             "descriptionraw": "เมื่อตัวละครที่ได้รับการป้องกันจากโล่นี้ถูกโจมตี โล่ป้องกันจะถูกใช้เพื่อลบล้างความเสียหาย",
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "โล่ไฟแห่งห้วงเหว",
             "anemo": "ธาตุลม",
             "anemodmg": "ความเสียหายลม",
+            "arcaneedict": "ประกาศิตเคล็ดลับ",
             "bloodblossom": "Blood Blossom",
             "characterclosesttoyourcurrentactivecharacter": "ตัวละครที่อยู่ใกล้ กับตัวละครที่เข้าต่อสู้ของฝ่ายเรามากที่สุด",
             "chargedattack": "ชาร์จโจมตี",
@@ -386,13 +401,14 @@
             "physicaldmg": "ความเสียหายกายภาพ",
             "piercingdmg": "ความเสียหายทะลวง",
             "plungingattack": "โจมตีพุ่งลงจากอากาศ",
-            "prepareskill": "เตรียมสกิล",
+            "prepareskills1prepares": "เตรียมสกิล",
             "pyro": "ธาตุไฟ",
             "pyroapplication": "ติดสถานะธาตุไฟ",
             "pyrodmg": "ความเสียหายไฟ",
             "pyrorelatedreactions": "ปฏิกิริยาที่เกี่ยวกับธาตุไฟ",
             "randomhilichurlsummon": "สิ่งอัญเชิญ \"Hilichurl\" แบบสุ่ม",
             "riptide": "Riptide",
+            "scarletseal": "Scarlet Seal",
             "shield": "โล่ป้องกัน",
             "superlativesuperstrength": "Superlative Superstrength",
             "unalignedelement": "ธาตุไร้สี",
@@ -405,6 +421,7 @@
             "Electro Infusion": "electroinfusion",
             "Fatui Ambusher": "fatuiambusher",
             "Riptide": "riptide",
+            "Scarlet Seal": "scarletseal",
             "Superlative Superstrength": "superlativesuperstrength",
             "ความเสียหายกายภาพ": "physicaldmg",
             "ความเสียหายทะลวง": "piercingdmg",
@@ -440,11 +457,12 @@
             "ปฏิกิริยาที่เกี่ยวกับธาตุน้ำ": "hydrorelatedreactions",
             "ปฏิกิริยาที่เกี่ยวกับธาตุไฟ": "pyrorelatedreactions",
             "ปฏิกิริยาที่เกี่ยวกับธาตุไม้": "dendrorelatedreactions",
+            "ประกาศิตเคล็ดลับ": "arcaneedict",
             "พลังงาน": "energy",
             "สกิลติดตัว": "passiveskill",
             "สิ่งอัญเชิญ \"Hilichurl\" แบบสุ่ม": "randomhilichurlsummon",
             "หลีกเลี่ยงการพ่ายแพ้": "immunitytodefeats1willnotbedefeated",
-            "เตรียมสกิล": "prepareskill",
+            "เตรียมสกิล": "prepareskills1prepares",
             "โจมตีพุ่งลงจากอากาศ": "plungingattack",
             "โล่ป้องกัน": "shield",
             "โล่ไฟแห่งห้วงเหว": "aegisofabyssalflame"

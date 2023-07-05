@@ -21,6 +21,13 @@
             "name": "Dano Anemo",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>"
         },
+        "arcaneedict": {
+            "description": "Você só poderá usar 1 Carta de  Lenda Arcana por duelo.\nVocê só poderá jogar uma Carta de  Lenda Arcana se uma Carta de Édito Arcano ainda estiver presente. Após jogar uma Carta de Lenda Arcana, você gastará o uso de Édito Arcano desse duelo.",
+            "descriptionraw": "Você só poderá usar 1 Carta de {SPRITE_PRESET#3007} Lenda Arcana por duelo.\\nVocê só poderá jogar uma Carta de {SPRITE_PRESET#3007} Lenda Arcana se uma Carta de {SPRITE_PRESET#1112}Édito Arcano ainda estiver presente. Após jogar uma {SPRITE_PRESET#3007}Carta de Lenda Arcana, você gastará o uso de {SPRITE_PRESET#1112}Édito Arcano desse duelo.",
+            "id": 311,
+            "name": "Édito Arcano",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}Édito Arcano</color>"
+        },
         "bloodblossom": {
             "description": "Fase Final: causa 1 de Dano Pyro ao personagem afetado.\nUsos: 1",
             "descriptionraw": "<color=#FFFFFFFF>Fase Final:</color> causa 1 de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color> ao personagem afetado.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usos</color>: 1</color>",
@@ -266,7 +273,7 @@
             "name": "Ataque Imersivo",
             "nameraw": "<color=#FFFFFFFF>Ataque Imersivo</color>"
         },
-        "prepareskill": {
+        "prepareskills1prepares": {
             "description": "Algumas habilidades não podem ser usadas diretamente. Elas requerem um certo número de rodadas de ação para serem preparadas.\nQuando for a vez de um jogador executar suas ações, se o Personagem em Combate do jogador estiver preparando sua habilidade, as ações desse jogador devem ser puladas; se a habilidade já estiver preparada, o personagem usará esta habilidade imediatamente. (Habilidades que requerem preparo não podem ativar o efeito após o uso.)\nSomente o Personagem em Combate pode preparar sua habilidade; se o Personagem em Combate que está preparando sua habilidade for trocado por outro, a preparação de sua habilidade será interrompida.",
             "descriptionraw": "Algumas habilidades não podem ser usadas diretamente. Elas requerem um certo número de rodadas de ação para serem <color=#FFFFFFFF>preparadas</color>.\\nQuando for a vez de um jogador executar suas ações, se o Personagem em Combate do jogador estiver <color=#FFFFFFFF>preparando</color> sua habilidade, as ações desse jogador devem ser puladas; se a habilidade já estiver <color=#FFFFFFFF>preparada</color>, o personagem usará esta habilidade imediatamente. (Habilidades que requerem <color=#FFFFFFFF>preparo</color> não podem ativar o efeito após o uso.)\\nSomente o Personagem em Combate pode <color=#FFFFFFFF>preparar</color> sua habilidade; se o Personagem em Combate que está <color=#FFFFFFFF>preparando</color> sua habilidade for trocado por outro, a <color=#FFFFFFFF>preparação</color> de sua habilidade será interrompida.",
             "id": 53,
@@ -315,6 +322,13 @@
             "name": "Interceptação de Fluxo",
             "nameraw": "<color=#FFFFFFFF>Interceptação de Fluxo</color>"
         },
+        "scarletseal": {
+            "description": "Quando um personagem usa um Ataque Carregado: Dano causado +2.\nUsos: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Quando um personagem usa um <color=#FFFFFFFF>Ataque Carregado</color></color>: Dano causado +2.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usos:</color> 1</color>",
+            "id": 1010,
+            "name": "Insígnia de Chamas",
+            "nameraw": "<color=#FFFFFFFF>Insígnia de Chamas</color>"
+        },
         "shield": {
             "description": "Este Escudo será consumido para que o personagem que equipá-lo se proteja de Dano.",
             "descriptionraw": "Este Escudo será consumido para que o personagem que equipá-lo se proteja de Dano.",
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "Égide das Chamas Abismais",
             "anemo": "Anemo",
             "anemodmg": "Dano Anemo",
+            "arcaneedict": "Édito Arcano",
             "bloodblossom": "Pétalas Sangrentas",
             "characterclosesttoyourcurrentactivecharacter": "Personagem mais próximo do seu personagem ativo atual",
             "chargedattack": "Ataque Carregado",
@@ -386,13 +401,14 @@
             "physicaldmg": "Dano Físico",
             "piercingdmg": "Dano Perfurante",
             "plungingattack": "Ataque Imersivo",
-            "prepareskill": "Preparar Habilidade",
+            "prepareskills1prepares": "Preparar Habilidade",
             "pyro": "Pyro",
             "pyroapplication": "Aplicação Pyro",
             "pyrodmg": "Dano Pyro",
             "pyrorelatedreactions": "Reações Pyro",
             "randomhilichurlsummon": "Invocação Aleatória de Hilichurl",
             "riptide": "Interceptação de Fluxo",
+            "scarletseal": "Insígnia de Chamas",
             "shield": "Escudo",
             "superlativesuperstrength": "Superforça Superlativa",
             "unalignedelement": "Elemento Indefinido",
@@ -434,10 +450,11 @@
             "Geo": "geo",
             "Habilidade Passiva": "passiveskill",
             "Hydro": "hydro",
+            "Insígnia de Chamas": "scarletseal",
             "Interceptação de Fluxo": "riptide",
             "Invocação Aleatória de Hilichurl": "randomhilichurlsummon",
             "Personagem mais próximo do seu personagem ativo atual": "characterclosesttoyourcurrentactivecharacter",
-            "Preparar Habilidade": "prepareskill",
+            "Preparar Habilidade": "prepareskills1prepares",
             "Proteção da Pena do Corvo": "crowfeathercover",
             "Pyro": "pyro",
             "Pétalas Sangrentas": "bloodblossom",
@@ -447,6 +464,7 @@
             "Superforça Superlativa": "superlativesuperstrength",
             "Supremo": "elementalburst",
             "Usos": "usages",
+            "Édito Arcano": "arcaneedict",
             "Égide das Chamas Abismais": "aegisofabyssalflame"
         },
         "properties": {}

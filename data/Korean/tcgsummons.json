@@ -1,5 +1,18 @@
 {
     "items": {
+        "autumnwhirlwind": {
+            "cardtypetext": "소환물",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "종료 단계: 바람 원소 피해를 1pt 가한다.\n사용 가능 횟수: 3\n\n아군 캐릭터 또는 소환물이 확산 반응 발동 후: 해당 카드의 원소 타입을 확산된 원소 타입 피해로 전환한다. (필드를 떠나기 전에 1회만 발동)",
+            "descriptionraw": "<color=#FFFFFFFF>종료 단계:</color> $[K105]를 1pt 가한다.\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>아군 캐릭터 또는 소환물이 확산 반응 발동 후:</color> 해당 카드의 원소 타입을 확산된 원소 타입 피해로 전환한다. (필드를 떠나기 전에 1회만 발동)",
+            "descriptionreplaced": "<color=#FFFFFFFF>종료 단계:</color> {SPRITE_PRESET#2105}<color=#80FFD7FF>바람 원소 피해</color>를 1pt 가한다.\\n<color=#FFFFFFFF><color=#FFFFFFFF>사용 가능 횟수</color>: 3</color>\\n\\n<color=#FFFFFFFF>아군 캐릭터 또는 소환물이 확산 반응 발동 후:</color> 해당 카드의 원소 타입을 확산된 원소 타입 피해로 전환한다. (필드를 떠나기 전에 1회만 발동)",
+            "hinttype": "GCG_HINT_ANEMO",
+            "id": 115052,
+            "name": "바람 부는 가을 들판",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "bakekurage": {
             "cardtypetext": "소환물",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -267,9 +280,9 @@
         "largewindspirit-01": {
             "cardtypetext": "소환물",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "종료 단계: 바람 원소 피해를 2pt 가한다.\n사용 가능 횟수: 3\n\n아군 캐릭터 또는 소환물이 확산 반응 발동 후: 해당 카드의 원소 타입을 확산된 원소 타입 피해로 전환한다. (필드를 떠나기 전에 1회만 발동)",
-            "descriptionraw": "<color=#FFFFFFFF>종료 단계:</color> $[K105]를 2pt 가한다.\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>아군 캐릭터 또는 소환물이 확산 반응 발동 후:</color> 해당 카드의 원소 타입을 확산된 원소 타입 피해로 전환한다. (필드를 떠나기 전에 1회만 발동)",
-            "descriptionreplaced": "<color=#FFFFFFFF>종료 단계:</color> {SPRITE_PRESET#2105}<color=#80FFD7FF>바람 원소 피해</color>를 2pt 가한다.\\n<color=#FFFFFFFF><color=#FFFFFFFF>사용 가능 횟수</color>: 3</color>\\n\\n<color=#FFFFFFFF>아군 캐릭터 또는 소환물이 확산 반응 발동 후:</color> 해당 카드의 원소 타입을 확산된 원소 타입 피해로 전환한다. (필드를 떠나기 전에 1회만 발동)",
+            "description": "종료 단계: 바람 원소 피해를 2pt 가한다.\n사용 가능 횟수: 3\n\n아군 캐릭터 또는 소환물이 확산 반응 발동 후: 해당 카드의 원소 타입을 확산된 원소 타입 피해로 전환한다. (필드를 떠나기 전에 1회만 발동)\n해당 소환물이 필드에 있을 시: 이 카드의 원소 타입이 전환되었을 경우, 아군이 가하는 해당 타입의 원소 피해+1pt",
+            "descriptionraw": "<color=#FFFFFFFF>종료 단계:</color> $[K105]를 2pt 가한다.\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>아군 캐릭터 또는 소환물이 확산 반응 발동 후:</color> 해당 카드의 원소 타입을 확산된 원소 타입 피해로 전환한다. (필드를 떠나기 전에 1회만 발동)\\n<color=#FFFFFFFF>해당 소환물이 필드에 있을 시:</color> 이 카드의 원소 타입이 전환되었을 경우, 아군이 가하는 해당 타입의 원소 피해+1pt",
+            "descriptionreplaced": "<color=#FFFFFFFF>종료 단계:</color> {SPRITE_PRESET#2105}<color=#80FFD7FF>바람 원소 피해</color>를 2pt 가한다.\\n<color=#FFFFFFFF><color=#FFFFFFFF>사용 가능 횟수</color>: 3</color>\\n\\n<color=#FFFFFFFF>아군 캐릭터 또는 소환물이 확산 반응 발동 후:</color> 해당 카드의 원소 타입을 확산된 원소 타입 피해로 전환한다. (필드를 떠나기 전에 1회만 발동)\\n<color=#FFFFFFFF>해당 소환물이 필드에 있을 시:</color> 이 카드의 원소 타입이 전환되었을 경우, 아군이 가하는 해당 타입의 원소 피해+1pt",
             "hinttype": "GCG_HINT_ANEMO",
             "id": 115012,
             "name": "거대 풍령",
@@ -280,9 +293,9 @@
         "lightfallsword": {
             "cardtypetext": "소환물",
             "countingtype": "GCG_TOKEN_COUNTER",
-            "description": "유라가 「일반 공격」 또는 「원소전투 스킬」 사용 시: 해당 카드에 「에너지 스택」을 2pt 누적한다. 단, 유라는 원소 에너지를 획득하지 않는다.\n종료 단계: 이 카드를 버리고 물리 피해를 2pt 가한다. 「에너지 스택」 1pt마다 피해+1pt\n(해당 카드 「사용 가능 횟수」에 영향을 주는 효과는 「에너지 스택」에 반영됨)",
-            "descriptionraw": "<color=#FFFFFFFF>$[A1106]가 「일반 공격」 또는 「원소전투 스킬」 사용 시:</color> 해당 카드에 「에너지 스택」을 2pt 누적한다. 단, $[A1106]는 원소 에너지를 획득하지 않는다.\\n<color=#FFFFFFFF>종료 단계:</color> 이 카드를 버리고 $[K100]를 2pt 가한다. 「에너지 스택」 1pt마다 피해+1pt\\n(해당 카드 「$[K3]」에 영향을 주는 효과는 「<color=#FFFFFFFF>에너지 스택</color>」에 반영됨)",
-            "descriptionreplaced": "<color=#FFFFFFFF>유라가 「일반 공격」 또는 「원소전투 스킬」 사용 시:</color> 해당 카드에 「에너지 스택」을 2pt 누적한다. 단, 유라는 원소 에너지를 획득하지 않는다.\\n<color=#FFFFFFFF>종료 단계:</color> 이 카드를 버리고 {SPRITE_PRESET#2100}<color=#FFFFFFFF>물리 피해</color>를 2pt 가한다. 「에너지 스택」 1pt마다 피해+1pt\\n(해당 카드 「<color=#FFFFFFFF>사용 가능 횟수</color>」에 영향을 주는 효과는 「<color=#FFFFFFFF>에너지 스택</color>」에 반영됨)",
+            "description": "유라가 「일반 공격」 또는 「원소전투 스킬」 사용 시: 해당 카드에 「에너지 스택」을 2pt 누적한다. 단, 유라는 원소 에너지를 획득하지 않는다.\n종료 단계: 이 카드를 버리고 물리 피해를 3pt 가한다. 「에너지 스택」 1pt마다 이번 피해+1pt\n(해당 카드 「사용 가능 횟수」에 영향을 주는 효과는 「에너지 스택」에 반영됨)",
+            "descriptionraw": "<color=#FFFFFFFF>$[A1106]가 「일반 공격」 또는 「원소전투 스킬」 사용 시:</color> 해당 카드에 「에너지 스택」을 2pt 누적한다. 단, $[A1106]는 원소 에너지를 획득하지 않는다.\\n<color=#FFFFFFFF>종료 단계:</color> 이 카드를 버리고 $[K100]를 3pt 가한다. 「에너지 스택」 1pt마다 이번 피해+1pt\\n(해당 카드 「$[K3]」에 영향을 주는 효과는 「<color=#FFFFFFFF>에너지 스택</color>」에 반영됨)",
+            "descriptionreplaced": "<color=#FFFFFFFF>유라가 「일반 공격」 또는 「원소전투 스킬」 사용 시:</color> 해당 카드에 「에너지 스택」을 2pt 누적한다. 단, 유라는 원소 에너지를 획득하지 않는다.\\n<color=#FFFFFFFF>종료 단계:</color> 이 카드를 버리고 {SPRITE_PRESET#2100}<color=#FFFFFFFF>물리 피해</color>를 3pt 가한다. 「에너지 스택」 1pt마다 이번 피해+1pt\\n(해당 카드 「<color=#FFFFFFFF>사용 가능 횟수</color>」에 영향을 주는 효과는 「<color=#FFFFFFFF>에너지 스택</color>」에 반영됨)",
             "hinttype": "GCG_HINT_VOID",
             "id": 111062,
             "name": "빛의 검",
@@ -542,6 +555,7 @@
         "aliases": {},
         "categories": {
             "GCG_HINT_ANEMO": [
+                "autumnwhirlwind",
                 "dandelionfield",
                 "largewindspirit-01",
                 "largewindspirit",
@@ -616,6 +630,7 @@
                 "lightfallsword"
             ],
             "GCG_TOKEN_ICON_HOURGLASS": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -654,6 +669,7 @@
                 "whirlwind"
             ],
             "GCG_TOKEN_LIFE": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -699,6 +715,7 @@
             ]
         },
         "namemap": {
+            "autumnwhirlwind": "바람 부는 가을 들판",
             "bakekurage": "환영 해파리",
             "baronbunny": "토끼 백작",
             "burningflame": "불타는 화염",
@@ -757,6 +774,7 @@
             "물의 환형·다람쥐": "oceanicmimicsquirrel",
             "물의 환형·솔개": "oceanicmimicraptor",
             "민들레 영역": "dandelionfield",
+            "바람 부는 가을 들판": "autumnwhirlwind",
             "번개 사슬 봉인": "chainsofwardingthunder",
             "번개로 엮은 고리": "tangleboltring",
             "불타는 화염": "burningflame",
@@ -789,12 +807,12 @@
                 "GCG_TOKEN_COUNTER"
             ],
             "hinttype": [
+                "GCG_HINT_ANEMO",
                 "GCG_HINT_HYDRO",
                 "GCG_HINT_PYRO",
                 "GCG_HINT_ELECTRO",
                 "GCG_HINT_DENDRO",
                 "GCG_HINT_CRYO",
-                "GCG_HINT_ANEMO",
                 "GCG_HINT_HEAL",
                 "GCG_HINT_VOID",
                 "GCG_HINT_GEO"

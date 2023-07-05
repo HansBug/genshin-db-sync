@@ -142,6 +142,29 @@
                 "Arc"
             ]
         },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carte d'événement",
+            "description": "Jouable si une carte d'arme ou d'artéfact est équipée sur un de vos personnages : Dépense 2 dés élémentaires en moins la prochaine fois que vous jouez une carte d'équipement d'arme ou d'artéfact pendant la manche.\n(Une seule carte d'arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)",
+            "descriptionraw": "<color=#FFFFFFFF>Jouable si une carte d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact est équipée sur un de vos personnages : </color>Dépense 2 dés élémentaires en moins la prochaine fois que vous jouez une carte d'équipement d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact pendant la manche.\\n(Une seule carte d'{SPRITE_PRESET#3007}arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Jouable si une carte d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact est équipée sur un de vos personnages : </color>Dépense 2 dés élémentaires en moins la prochaine fois que vous jouez une carte d'équipement d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact pendant la manche.\\n(Une seule carte d'{SPRITE_PRESET#3007}arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)",
+            "id": 330001,
+            "name": "Jardin d'antan",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "« La vie mortelle n'est-elle pas une coquille vide, comme un rêve ? »",
+            "storytitle": "Jardin d'antan",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Arcane"
+            ]
+        },
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carte d'équipement",
@@ -615,6 +638,29 @@
             "tagstext": [
                 "Aptitude",
                 "Action de combat"
+            ]
+        },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carte d'événement",
+            "description": "Jouable s'il ne vous reste plus aucun dé élémentaire : Crée 2 dés élémentaires de base de types différents.\n(Une seule carte d'arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)",
+            "descriptionraw": "<color=#FFFFFFFF>Jouable s'il ne vous reste plus aucun dé élémentaire : </color>Crée 2 dés élémentaires de base de types différents.\\n(Une seule carte d'{SPRITE_PRESET#3007}arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Jouable s'il ne vous reste plus aucun dé élémentaire : </color>Crée 2 dés élémentaires de base de types différents.\\n(Une seule carte d'{SPRITE_PRESET#3007}arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)",
+            "id": 330002,
+            "name": "Alliance de roche",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "« Le Souverain de la Roche lui a accordé une paire d'yeux pour voir le monde, et a conclu un marché avec lui. Ainsi, le dragon a accompagné le Souverain dans ses combats à travers le monde... »",
+            "storytitle": "Alliance de roche",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Arcane"
             ]
         },
         "crimsonwitchofflames": {
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "DGT infligés par le personnage +1.\nEn arrivant sur le terrain : Pioche 2 cartes.\n(Peut uniquement être équipé par un personnage utilisant un catalyseur, un personnage peut équiper au maximum 1 arme)",
+            "descriptionraw": "<color=#FFFFFFFF>DGT infligés par le personnage +1</color>.\\n<color=#FFFFFFFF>En arrivant sur le terrain : </color>Pioche 2 cartes.\\n(Peut uniquement être équipé par un personnage utilisant un <color=#FFFFFFFF>{SPRITE_PRESET#3201}catalyseur</color>, un personnage peut équiper au maximum 1 {SPRITE_PRESET#3003}arme)",
+            "descriptionreplaced": "<color=#FFFFFFFF>DGT infligés par le personnage +1</color>.\\n<color=#FFFFFFFF>En arrivant sur le terrain : </color>Pioche 2 cartes.\\n(Peut uniquement être équipé par un personnage utilisant un <color=#FFFFFFFF>{SPRITE_PRESET#3201}catalyseur</color>, un personnage peut équiper au maximum 1 {SPRITE_PRESET#3003}arme)",
+            "id": 311105,
+            "name": "Le fruit de l'accomplissement",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "« Même les histoires les plus amères contiennent du courage et de la force... L'histoire des aventures {M#du gentil nara doré}{F#de la gentille nara dorée} à nos côtés l'aidera à défendre la forêt. »",
+            "storytitle": "Plénitude de la lune : Le fruit de l'accomplissement",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "Arme",
+                "Catalyseur"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carte d'équipement",
-            "description": "Lorsqu'un personnage adverse a été éliminé : Si le personnage affecté est actif, crée 2 dés Omni.\n(Un personnage peut équiper au maximum 1 artéfact)",
-            "descriptionraw": "<color=#FFFFFFFF>Lorsqu'un personnage adverse a été éliminé : </color>Si le personnage affecté est actif, crée 2 dés $[K411].\\n(Un personnage peut équiper au maximum 1 {SPRITE_PRESET#3004}artéfact)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Lorsqu'un personnage adverse a été éliminé : </color>Si le personnage affecté est actif, crée 2 dés <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color>.\\n(Un personnage peut équiper au maximum 1 {SPRITE_PRESET#3004}artéfact)",
+            "description": "Lorsqu'un personnage adverse a été éliminé : Si le personnage affecté est actif, crée 2 dés Omni. (Limité à 3 fois par partie)\n(Un personnage peut équiper au maximum 1 artéfact)",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsqu'un personnage adverse a été éliminé : </color>Si le personnage affecté est actif, crée 2 dés $[K411]. (Limité à 3 fois par partie)\\n(Un personnage peut équiper au maximum 1 {SPRITE_PRESET#3004}artéfact)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsqu'un personnage adverse a été éliminé : </color>Si le personnage affecté est actif, crée 2 dés <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color>. (Limité à 3 fois par partie)\\n(Un personnage peut équiper au maximum 1 {SPRITE_PRESET#3004}artéfact)",
             "id": 312004,
             "name": "Boucles d'oreilles du Parieur",
             "playcost": [
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carte d'équipement",
-            "description": "Action de combat : Lorsque votre personnage actif est Noëlle, équipe cette carte.\nUne fois Noëlle équipée de cette carte, utilise immédiatement Armure de cœur une fois.\nLorsque Noëlle, équipée de cette carte, a utilisé une attaque normale : L'armure complète créée par Noëlle soigne tous vos personnages pour 1 pt. (1 fois par manche)\n(Votre deck doit contenir Noëlle pour pouvoir y ajouter cette carte)",
-            "descriptionraw": "$[K1] : Lorsque votre personnage actif est <color=#FFFFFFFF>$[A1602]</color>, équipe cette carte.\\nUne fois $[A1602] équipée de cette carte, utilise immédiatement <color=#FFD780FF>$[S16022]</color> une fois.\\nLorsque $[A1602], équipée de cette carte, a utilisé une <color=#FFFFFFFF>attaque normale</color> : L'<color=#FFFFFFFF>$[C116021|s2]</color> créée par $[A1602] soigne tous vos personnages pour 1 pt. (1 fois par manche)\\n(Votre deck doit contenir $[A1602] pour pouvoir y ajouter cette carte)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Lorsque votre personnage actif est <color=#FFFFFFFF>Noëlle</color>, équipe cette carte.\\nUne fois Noëlle équipée de cette carte, utilise immédiatement <color=#FFD780FF>Armure de cœur</color> une fois.\\nLorsque Noëlle, équipée de cette carte, a utilisé une <color=#FFFFFFFF>attaque normale</color> : L'<color=#FFFFFFFF>armure complète</color> créée par Noëlle soigne tous vos personnages pour 1 pt. (1 fois par manche)\\n(Votre deck doit contenir Noëlle pour pouvoir y ajouter cette carte)",
+            "description": "Action de combat : Lorsque votre personnage actif est Noëlle, équipe cette carte.\nUne fois Noëlle équipée de cette carte, utilise immédiatement Armure de cœur une fois.\nLorsque Noëlle a utilisé une attaque normale : Si cette carte et l'armure complète sont sur le terrain, soigne tous vos personnages pour 1 pt. (1 fois par manche)\n(Votre deck doit contenir Noëlle pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "$[K1] : Lorsque votre personnage actif est <color=#FFFFFFFF>$[A1602]</color>, équipe cette carte.\\nUne fois $[A1602] équipée de cette carte, utilise immédiatement <color=#FFD780FF>$[S16022]</color> une fois.\\nLorsque $[A1602] a utilisé une <color=#FFFFFFFF>attaque normale</color> : Si cette carte et l'<color=#FFFFFFFF>$[C116021|s2]</color> sont sur le terrain, soigne tous vos personnages pour 1 pt. (1 fois par manche)\\n(Votre deck doit contenir $[A1602] pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Lorsque votre personnage actif est <color=#FFFFFFFF>Noëlle</color>, équipe cette carte.\\nUne fois Noëlle équipée de cette carte, utilise immédiatement <color=#FFD780FF>Armure de cœur</color> une fois.\\nLorsque Noëlle a utilisé une <color=#FFFFFFFF>attaque normale</color> : Si cette carte et l'<color=#FFFFFFFF>armure complète</color> sont sur le terrain, soigne tous vos personnages pour 1 pt. (1 fois par manche)\\n(Votre deck doit contenir Noëlle pour pouvoir y ajouter cette carte)",
             "id": 216021,
             "name": "J'assure vos arrières",
             "playcost": [
@@ -1691,9 +1762,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Carte d'événement",
-            "description": "Jouable si un de vos personnages a été éliminé pendant la manche :\nCrée 1 dé Omni et accorde 1 charge à votre personnage actif.",
-            "descriptionraw": "Jouable si un de vos personnages a été éliminé pendant la manche :\\nCrée 1 dé $[K411] et accorde 1 $[K310|s2] à votre personnage actif.",
-            "descriptionreplaced": "Jouable si un de vos personnages a été éliminé pendant la manche :\\nCrée 1 dé <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color> et accorde 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}charge</color> à votre personnage actif.",
+            "description": "Jouable si un de vos personnages a été éliminé pendant la manche :\nCrée 1 dé Omni et accorde 1 charge à votre personnage actif actuel.",
+            "descriptionraw": "Jouable si un de vos personnages a été éliminé pendant la manche :\\nCrée 1 dé $[K411] et accorde 1 $[K310|s2] à votre personnage actif actuel.",
+            "descriptionreplaced": "Jouable si un de vos personnages a été éliminé pendant la manche :\\nCrée 1 dé <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color> et accorde 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}charge</color> à votre personnage actif actuel.",
             "id": 332005,
             "name": "Pas encore perdu!",
             "playcost": [],
@@ -2541,6 +2612,54 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsque votre personnage utilise une attaque chargée : DGT infligés +1. Après le calcul, vous piochez 1 carte.",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque votre personnage utilise une $[K51|s2] : </color>DGT infligés +1. Après le calcul, vous piochez 1 carte.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsque votre personnage utilise une <color=#FFFFFFFF>attaque chargée</color> : </color>DGT infligés +1. Après le calcul, vous piochez 1 carte.",
+            "id": 423020,
+            "name": "Charme de maîtrise : Perfectionnement d'armement",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsque votre personnage équipé à la fois d'une arme et d'un artéfact utilise une capacité : Dépense 3 dés élémentaires en moins. (1 fois par manche)",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque votre personnage équipé à la fois d'une {SPRITE_PRESET#3003}arme et d'un {SPRITE_PRESET#3004}artéfact utilise une capacité : </color>Dépense 3 dés élémentaires en moins. (1 fois par manche)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsque votre personnage équipé à la fois d'une {SPRITE_PRESET#3003}arme et d'un {SPRITE_PRESET#3004}artéfact utilise une capacité : </color>Dépense 3 dés élémentaires en moins. (1 fois par manche)",
+            "id": 423021,
+            "name": "Charme de maîtrise : Belligérance prête",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsqu'un personnage adverse est éliminé : Inflige 1 pt de DGT de perforation à tous les personnages adverses.",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsqu'un personnage adverse est éliminé : </color>Inflige 1 pt de $[K5] à tous les personnages adverses.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsqu'un personnage adverse est éliminé : </color>Inflige 1 pt de <color=#FFFFFFFF>DGT de perforation</color> à tous les personnages adverses.",
+            "id": 423022,
+            "name": "Charme de maîtrise : Défaite en cascade",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsqu'un personnage adverse a subi des DGT d'une réaction élémentaire : Crée 1 dé Omni. (Déclenché 3 fois maximum par manche)",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsqu'un personnage adverse a subi des DGT d'une réaction élémentaire : </color>Crée 1 dé $[K411]. (Déclenché 3 fois maximum par manche)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsqu'un personnage adverse a subi des DGT d'une réaction élémentaire : </color>Crée 1 dé <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color>. (Déclenché 3 fois maximum par manche)",
+            "id": 423023,
+            "name": "Charme de maîtrise : Bannières chaotiques",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carte de soutien",
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsque vous jouez une carte d'équipement d'arme ou d'artéfact dont le coût total est au moins 3 : Dépense 3 dés élémentaires en moins. (1 fois par manche)",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque vous jouez une carte d'équipement d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact dont le coût total est au moins 3 : </color>Dépense 3 dés élémentaires en moins. (1 fois par manche)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsque vous jouez une carte d'équipement d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact dont le coût total est au moins 3 : </color>Dépense 3 dés élémentaires en moins. (1 fois par manche)",
+            "id": 423019,
+            "name": "Charme de maîtrise : Planification à long terme",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carte de soutien",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Lorsqu'un personnage adverse a été éliminé : </color>Crée 1 dé <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color> et pioche 1 carte.",
             "id": 423007,
             "name": "Charme de maîtrise : Percée triomphale",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsque votre personnage a utilisé une capacité : Crée une mine d'embuscade du même élément que le personnage sur le terrain adverse. Lorsqu'un personnage adverse arrive en renfort sur le terrain, la mine d'embuscade lui inflige 1 pt de DGT de l'élément correspondant.",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque votre personnage a utilisé une capacité : </color>Crée une mine d'embuscade du même élément que le personnage sur le terrain adverse. Lorsqu'un personnage adverse arrive en renfort sur le terrain, la mine d'embuscade lui inflige 1 pt de DGT de l'élément correspondant.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsque votre personnage a utilisé une capacité : </color>Crée une mine d'embuscade du même élément que le personnage sur le terrain adverse. Lorsqu'un personnage adverse arrive en renfort sur le terrain, la mine d'embuscade lui inflige 1 pt de DGT de l'élément correspondant.",
+            "id": 423024,
+            "name": "Charme de maîtrise : Embuscade soudaine",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsqu'un personnage adverse est éliminé : Vous permet de piocher 1 carte et augmente les DGT infligés par votre personnage actif actuel de 1 pendant la partie. (Peut être cumulé, 3 cumuls maximum)",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsqu'un personnage adverse est éliminé : </color>Vous permet de piocher 1 carte et augmente les DGT infligés par votre personnage actif actuel de 1 pendant la partie. (Peut être cumulé, 3 cumuls maximum)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsqu'un personnage adverse est éliminé : </color>Vous permet de piocher 1 carte et augmente les DGT infligés par votre personnage actif actuel de 1 pendant la partie. (Peut être cumulé, 3 cumuls maximum)",
+            "id": 423018,
+            "name": "Charme de maîtrise : Renom victorieux",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsque vous jouez une carte d'arme : Dépense 1 dé élémentaire en moins, et 1 dé supplémentaire en moins pour chaque personnage déjà équipé d'une arme sur votre terrain. (1 fois par manche)",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque vous jouez une carte d'{SPRITE_PRESET#3003}arme : </color>Dépense 1 dé élémentaire en moins, et 1 dé supplémentaire en moins pour chaque personnage déjà équipé d'une {SPRITE_PRESET#3003}arme sur votre terrain. (1 fois par manche)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsque vous jouez une carte d'{SPRITE_PRESET#3003}arme : </color>Dépense 1 dé élémentaire en moins, et 1 dé supplémentaire en moins pour chaque personnage déjà équipé d'une {SPRITE_PRESET#3003}arme sur votre terrain. (1 fois par manche)",
+            "id": 322018,
+            "name": "Maître Zhang",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "La frustration brûlante doit transpirer avant qu'un morceau de métal ne devienne une lame acérée.",
+            "storytitle": "Maître Zhang - Forge d'arsenal",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Compagnon"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -2849,9 +3027,9 @@
         "natureandwisdom": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Carte d'événement",
-            "description": "Pioche 1 carte pour l'échanger avec un carte de votre choix dans votre main.\n(Votre deck doit contenir au moins 2 personnages de Sumeru pour pouvoir y ajouter cette carte)",
-            "descriptionraw": "Pioche 1 carte pour l'échanger avec un carte de votre choix dans votre main.\\n(Votre deck doit contenir au moins 2 personnages de {SPRITE_PRESET#3404}Sumeru pour pouvoir y ajouter cette carte)",
-            "descriptionreplaced": "Pioche 1 carte pour l'échanger avec un carte de votre choix dans votre main.\\n(Votre deck doit contenir au moins 2 personnages de {SPRITE_PRESET#3404}Sumeru pour pouvoir y ajouter cette carte)",
+            "description": "Pioche 1 carte pour l'échanger avec une carte de votre choix dans votre main.\n(Votre deck doit contenir au moins 2 personnages de Sumeru pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "Pioche 1 carte pour l'échanger avec une carte de votre choix dans votre main.\\n(Votre deck doit contenir au moins 2 personnages de {SPRITE_PRESET#3404}Sumeru pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "Pioche 1 carte pour l'échanger avec une carte de votre choix dans votre main.\\n(Votre deck doit contenir au moins 2 personnages de {SPRITE_PRESET#3404}Sumeru pour pouvoir y ajouter cette carte)",
             "id": 331804,
             "name": "Flore et sagesse",
             "playcost": [
@@ -3022,6 +3200,32 @@
                 "GCG_TAG_SLOWLY"
             ],
             "tagstext": [
+                "Action de combat"
+            ]
+        },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "Action de combat : Lorsque votre personnage actif est Kaedehara Kazuha, équipe cette carte.\nUne fois Kaedehara Kazuha équipé de cette carte, utilise immédiatement Véhémence divine une fois.\nLorsque Kaedehara Kazuha, équipé de cette carte, a déclenché une réaction de Dispersion : DGT de l'élément dispersé que vos personnages et invocations infligent +1 pour les 2 prochaines utilisations. (Chaque type élémentaire est compté indépendamment)\n(Votre deck doit contenir Kaedehara Kazuha pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "$[K1] : Lorsque votre personnage actif est <color=#FFFFFFFF>$[A1505]</color>, équipe cette carte.\\nUne fois $[A1505] équipé de cette carte, utilise immédiatement <color=#FFD780FF>$[S15052]</color> une fois.\\nLorsque $[A1505], équipé de cette carte, a déclenché une réaction de Dispersion : DGT de l'élément dispersé que vos personnages et invocations infligent +1 pour les 2 prochaines utilisations. (Chaque type élémentaire est compté indépendamment)\\n(Votre deck doit contenir $[A1505] pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Lorsque votre personnage actif est <color=#FFFFFFFF>Kaedehara Kazuha</color>, équipe cette carte.\\nUne fois Kaedehara Kazuha équipé de cette carte, utilise immédiatement <color=#FFD780FF>Véhémence divine</color> une fois.\\nLorsque Kaedehara Kazuha, équipé de cette carte, a déclenché une réaction de Dispersion : DGT de l'élément dispersé que vos personnages et invocations infligent +1 pour les 2 prochaines utilisations. (Chaque type élémentaire est compté indépendamment)\\n(Votre deck doit contenir Kaedehara Kazuha pour pouvoir y ajouter cette carte)",
+            "id": 215051,
+            "name": "Haïku de la brise",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "Récompense pour avoir invité Kaedehara Kazuha à une partie dans La Queue de Chat et terminé les objectifs de défi correspondants",
+            "storytext": "Il y a quelque chose de si élégant dans cette partie.\nLes deux camps pourraient concéder la défaite sans regrets.",
+            "storytitle": "Kaedehara Kazuha : Haïku de la brise",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Aptitude",
                 "Action de combat"
             ]
         },
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "Objet"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carte d'événement",
+            "description": "La prochaine fois que vous jouez une carte d'arme ou d'artéfact : Dépense 1 dé élémentaire en moins.",
+            "descriptionraw": "<color=#FFFFFFFF>La prochaine fois que vous jouez une carte d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact : </color>Dépense 1 dé élémentaire en moins.",
+            "descriptionreplaced": "<color=#FFFFFFFF>La prochaine fois que vous jouez une carte d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact : </color>Dépense 1 dé élémentaire en moins.",
+            "id": 332021,
+            "name": "Mélodie du grand rêve",
+            "playcost": [],
+            "storytext": "« Entrez dans nos rêves, dans notre monde.\nÉcrivez des actions bonnes, courageuses et honnêtes. »",
+            "storytitle": "Mélodie du grand rêve",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "Action de combat : Lorsque votre personnage actif est Yanfei, équipe cette carte.\nUne fois Yanfei équipée de cette carte, utilise immédiatement Sceau embrasé une fois.\nLorsque Yanfei, équipée de cette carte, utilise une attaque chargée : DGT infligés aux ennemis ayant 6 PV ou moins +1.\n(Votre deck doit contenir Yanfei pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "#$[K1] : Lorsque votre personnage actif est <color=#FFFFFFFF>$[A1308]</color>, équipe cette carte.\\nUne fois $[A1308] équipée de cette carte, utilise immédiatement <color=#FFD780FF>$[S13081]</color> une fois.\\nLorsque $[A1308], équipée de cette carte, utilise une $[K51|s2]{NON_BREAK_SPACE}: DGT infligés aux ennemis ayant 6 PV ou moins +1.\\n(Votre deck doit contenir $[A1308] pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "#<color=#FFFFFFFF>Action de combat</color> : Lorsque votre personnage actif est <color=#FFFFFFFF>Yanfei</color>, équipe cette carte.\\nUne fois Yanfei équipée de cette carte, utilise immédiatement <color=#FFD780FF>Sceau embrasé</color> une fois.\\nLorsque Yanfei, équipée de cette carte, utilise une <color=#FFFFFFFF>attaque chargée</color>{NON_BREAK_SPACE}: DGT infligés aux ennemis ayant 6 PV ou moins +1.\\n(Votre deck doit contenir Yanfei pour pouvoir y ajouter cette carte)",
+            "id": 213081,
+            "name": "Verdict final",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "Récompense pour avoir invité Yanfei à une partie dans La Queue de Chat et terminé les objectifs de défi correspondants",
+            "storytext": "« Pour ce qui est des cartes... Eh bien, tout est permis tant que les règles ne l'interdisent pas. »",
+            "storytitle": "Yanfei : Verdict final",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Aptitude",
+                "Action de combat"
             ]
         },
         "sacrificialbow": {
@@ -3618,9 +3866,9 @@
         "steadybreathing": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carte d'équipement",
-            "description": "Action de combat : Lorsque votre personnage actif est Chongyun, équipe cette carte.\nUne fois Chongyun équipé de cette carte, utilise immédiatement Givre superposé une fois.\nLe champ de givre créé par Chongyun équipé de cette carte déclenche les effets suivants :\nDurée en manches de départ du champ de givre +1 et DGT des attaques normales de vos personnages avec une épée à une main, à deux mains ou une arme d'hast +1.\n(Votre deck doit contenir Chongyun pour pouvoir y ajouter cette carte)",
-            "descriptionraw": "$[K1] : Lorsque votre personnage actif est <color=#FFFFFFFF>$[A1104]</color>, équipe cette carte.\\nUne fois $[A1104] équipé de cette carte, utilise immédiatement <color=#FFD780FF>$[S11042]</color> une fois.\\nLe <color=#FFFFFFFF>$[C111041|s2]</color> créé par $[A1104] équipé de cette carte déclenche les effets suivants :\\n$[K4] de départ du $[C111041|s2] +1 et DGT des <color=#FFFFFFFF>attaques normales</color> de vos personnages avec une épée à une main, à deux mains ou une arme d'hast +1.\\n(Votre deck doit contenir $[A1104] pour pouvoir y ajouter cette carte)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Lorsque votre personnage actif est <color=#FFFFFFFF>Chongyun</color>, équipe cette carte.\\nUne fois Chongyun équipé de cette carte, utilise immédiatement <color=#FFD780FF>Givre superposé</color> une fois.\\nLe <color=#FFFFFFFF>champ de givre</color> créé par Chongyun équipé de cette carte déclenche les effets suivants :\\n<color=#FFFFFFFF>Durée en manches</color> de départ du champ de givre +1 et DGT des <color=#FFFFFFFF>attaques normales</color> de vos personnages avec une épée à une main, à deux mains ou une arme d'hast +1.\\n(Votre deck doit contenir Chongyun pour pouvoir y ajouter cette carte)",
+            "description": "Action de combat : Lorsque votre personnage actif est Chongyun, équipe cette carte.\nUne fois Chongyun équipé de cette carte, utilise immédiatement Givre superposé une fois.\nLe champ de givre créé par Chongyun équipé de cette carte déclenche les effets suivants :\nDurée en manches de départ du champ de givre +1 et DGT des attaques normales de vos personnages armés d'une épée à une main, à deux mains ou d'une arme d'hast +1.\n(Votre deck doit contenir Chongyun pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "$[K1] : Lorsque votre personnage actif est <color=#FFFFFFFF>$[A1104]</color>, équipe cette carte.\\nUne fois $[A1104] équipé de cette carte, utilise immédiatement <color=#FFD780FF>$[S11042]</color> une fois.\\nLe <color=#FFFFFFFF>$[C111041|s2]</color> créé par $[A1104] équipé de cette carte déclenche les effets suivants :\\n$[K4] de départ du $[C111041|s2] +1 et DGT des <color=#FFFFFFFF>attaques normales</color> de vos personnages armés d'une épée à une main, à deux mains ou d'une arme d'hast +1.\\n(Votre deck doit contenir $[A1104] pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Lorsque votre personnage actif est <color=#FFFFFFFF>Chongyun</color>, équipe cette carte.\\nUne fois Chongyun équipé de cette carte, utilise immédiatement <color=#FFD780FF>Givre superposé</color> une fois.\\nLe <color=#FFFFFFFF>champ de givre</color> créé par Chongyun équipé de cette carte déclenche les effets suivants :\\n<color=#FFFFFFFF>Durée en manches</color> de départ du champ de givre +1 et DGT des <color=#FFFFFFFF>attaques normales</color> de vos personnages armés d'une épée à une main, à deux mains ou d'une arme d'hast +1.\\n(Votre deck doit contenir Chongyun pour pouvoir y ajouter cette carte)",
             "id": 211041,
             "name": "Respiration stable",
             "playcost": [
@@ -4019,6 +4267,36 @@
             "storytitle": "Rêve préservé de liberté",
             "tags": [],
             "tagstext": []
+        },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "Action de combat : Lorsque votre personnage actif est Candace, équipe cette carte.\nUne fois Candace équipée de cette carte, utilise immédiatement Liturgie : Marée de la bergeronnette une fois.\nLes prières de couronne cramoisie créées par Candace équipée de cette carte possèdent l'effet supplémentaire suivant : Lorsque votre personnage a utilisé une attaque normale, inflige 1 pt de DGT Hydro. (1 fois par manche)\n(Votre deck doit contenir Candace pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "$[K1] : Lorsque votre personnage actif est <color=#FFFFFFFF>$[A1207]</color>, équipe cette carte.\\nUne fois $[A1207] équipée de cette carte, utilise immédiatement <color=#FFD780FF>$[S12073]</color> une fois.\\nLes <color=#FFFFFFFF>$[C112072|s2]</color> créées par $[A1207] équipée de cette carte possèdent l'effet supplémentaire suivant : <color=#FFFFFFFF>Lorsque votre personnage a utilisé une attaque normale, </color>inflige 1 pt de $[K102]. (1 fois par manche)\\n(Votre deck doit contenir $[A1207] pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Lorsque votre personnage actif est <color=#FFFFFFFF>Candace</color>, équipe cette carte.\\nUne fois Candace équipée de cette carte, utilise immédiatement <color=#FFD780FF>Liturgie : Marée de la bergeronnette</color> une fois.\\nLes <color=#FFFFFFFF>prières de couronne cramoisie</color> créées par Candace équipée de cette carte possèdent l'effet supplémentaire suivant : <color=#FFFFFFFF>Lorsque votre personnage a utilisé une attaque normale, </color>inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>. (1 fois par manche)\\n(Votre deck doit contenir Candace pour pouvoir y ajouter cette carte)",
+            "id": 212071,
+            "name": "Débordement",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "Récompense pour avoir invité Candace à une partie dans La Queue de Chat et terminé les objectifs de défi correspondants",
+            "storytext": "Ceux qui ne respectent pas les règlements aux cartes... sont l'ennemi de tous ceux qui aiment le jeu.",
+            "storytitle": "Candace : Débordement",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Aptitude",
+                "Action de combat"
+            ]
         },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -4787,7 +5065,7 @@
             "descriptionraw": "Entre sur le terrain avec 4 pts de bougie de vie.\\n<color=#FFFFFFFF>Lorsque votre personnage a utilisé une capacité :</color> Consomme 1 pt de bougie de vie.\\n<color=#FFFFFFFF>Lorsque les points de bougie de vie sont épuisés, le joueur adverse perd la partie.</color>",
             "descriptionreplaced": "Entre sur le terrain avec 4 pts de bougie de vie.\\n<color=#FFFFFFFF>Lorsque votre personnage a utilisé une capacité :</color> Consomme 1 pt de bougie de vie.\\n<color=#FFFFFFFF>Lorsque les points de bougie de vie sont épuisés, le joueur adverse perd la partie.</color>",
             "id": 422007,
-            "name": "Corrosion de Siccité",
+            "name": "Corrosion de siccité",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "Attrape-Adepte",
             "adventurersbandana": "Bandeau de l'Aventurier",
             "amosbow": "Arc d'Amos",
+            "ancientcourtyard": "Jardin d'antan",
             "aquilafavonia": "Épée du faucon",
             "aratakiichiban": "Arataki au top",
             "archaicpetra": "Roche ancienne",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "Regard de Cryoluciole",
             "coldbloodedstrike": "Épée de la cruauté",
             "conquerorofevilguardianyaksha": "Dompteur de démons : Gardien Yaksha",
+            "covenantofrock": "Alliance de roche",
             "crimsonwitchofflames": "Sorcière des flammes ardentes",
             "crossfire": "Feux croisés",
             "dawnwinery": "Domaine de l'Aurore",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "Retour folié",
             "flowingflame": "Flamme courante",
             "friendshipeternal": "Amitié éternelle",
+            "fruitoffulfillment": "Le fruit de l'accomplissement",
             "gamblersearrings": "Boucles d'oreilles du Parieur",
             "generalsancienthelm": "Ancien heaume de Général",
             "giantmutationstone": "Pierre de mutation géante",
@@ -5699,6 +6019,10 @@
             "magicguide": "Guide de magie",
             "maskofsolitudebasalt": "Masque en basalte inerte",
             "masterofweaponry": "Maîtrise de l'armement",
+            "masterytalismanarmsandarmorhoned": "Charme de maîtrise : Perfectionnement d'armement",
+            "masterytalismanbattleready": "Charme de maîtrise : Belligérance prête",
+            "masterytalismancascadingdefeat": "Charme de maîtrise : Défaite en cascade",
+            "masterytalismanchaoticbanners": "Charme de maîtrise : Bannières chaotiques",
             "masterytalismancoldwar": "Charme de maîtrise : Guerre froide",
             "masterytalismancyclecharge": "Charme de maîtrise : Stratégie de rotation",
             "masterytalismandecisivebattle": "Charme de maîtrise : Bataille décisive",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "Charme de maîtrise : Détonation prolongée",
             "masterytalismanimmovable": "Charme de maîtrise : Immuabilité",
             "masterytalismanintelligenceupdate": "Charme de maîtrise : Synchronisation d'informations",
+            "masterytalismanplanninglongterm": "Charme de maîtrise : Planification à long terme",
             "masterytalismanpracticemakesperfect": "Charme de maîtrise : Pratique améliorative",
             "masterytalismanpresstheattack": "Charme de maîtrise : Percée triomphale",
+            "masterytalismansuddenambush": "Charme de maîtrise : Embuscade soudaine",
             "masterytalismansurgingvigor": "Charme de maîtrise : Vigueur déferlante",
             "masterytalismantheelementsentwined": "Charme de maîtrise : Concaténation d'éléments",
+            "masterytalismanvictoriousrepute": "Charme de maîtrise : Renom victorieux",
+            "masterzhang": "Maître Zhang",
             "mintymeatrolls": "Rouleaux de viande à la menthe",
             "mirrorcage": "Prison de miroir",
             "mondstadthashbrown": "Galette de pomme de terre mondstadtoise",
@@ -5726,6 +6054,7 @@
             "paimon": "Paimon",
             "parametrictransformer": "Transformateur paramétrique",
             "plungingstrike": "Entaille plongeante",
+            "poeticsoffuubutsu": "Haïku de la brise",
             "poundingsurprise": "Cadeau explosif",
             "proliferatingspores": "Spores proliférantes",
             "prophecyofsubmersion": "Prophétie immersive",
@@ -5733,6 +6062,8 @@
             "rana": "Rana",
             "ravenbow": "Arc du corbeau",
             "redfeatherfan": "Éventail à plumes rouges",
+            "rhythmofthegreatdream": "Mélodie du grand rêve",
+            "rightoffinalinterpretation": "Verdict final",
             "sacrificialbow": "Arc rituel",
             "sacrificialfragments": "Mémoires de rituels",
             "sacrificialgreatsword": "Espadon rituel",
@@ -5767,6 +6098,7 @@
             "thebell": "Épée-horloge",
             "thebestesttravelcompanion": "La meilleure des amies !",
             "thelegendofvennessa": "La Légende de Vennessa",
+            "theoverflow": "Débordement",
             "thescentremained": "Parfum persistant",
             "theseedofstoredknowledge": "Graine du savoir emmagasiné",
             "theshrinessacredshade": "Ombre sacrée du sanctuaire",
@@ -5799,7 +6131,7 @@
             "winestainedtricorne": "Calot taché de vin",
             "wishesunnumbered": "Souhaits innombrables",
             "witchsscorchinghat": "Chapeau brûlé de la Sorcière",
-            "witheringcorrosion": "Corrosion de Siccité",
+            "witheringcorrosion": "Corrosion de siccité",
             "witheringcorrosion-01": "Corrosion de siccité",
             "witheringcorrosion-02": "Corrosion de siccité",
             "wolfsgravestone": "Mort-du-loup",
@@ -5810,6 +6142,7 @@
             "Abandon mystique": "mysticalabandon",
             "Adios": "sendoff",
             "Ailes de la Voûte d'Azur": "skywardharp",
+            "Alliance de roche": "covenantofrock",
             "Amitié éternelle": "friendshipeternal",
             "Ancien heaume de Général": "generalsancienthelm",
             "Anomalie énergétique : Averse": "leylinedisorderwet",
@@ -5865,13 +6198,20 @@
             "Chapeau brûlé de la Sorcière": "witchsscorchinghat",
             "Chapeau de l'Instructeur": "instructorscap",
             "Charme de maîtrise : Approche à deux volets": "masterytalismandualprongedapproach",
+            "Charme de maîtrise : Bannières chaotiques": "masterytalismanchaoticbanners",
             "Charme de maîtrise : Bataille décisive": "masterytalismandecisivebattle",
+            "Charme de maîtrise : Belligérance prête": "masterytalismanbattleready",
             "Charme de maîtrise : Concaténation d'éléments": "masterytalismantheelementsentwined",
+            "Charme de maîtrise : Défaite en cascade": "masterytalismancascadingdefeat",
             "Charme de maîtrise : Détonation prolongée": "masterytalismanextendedexplosion",
+            "Charme de maîtrise : Embuscade soudaine": "masterytalismansuddenambush",
             "Charme de maîtrise : Guerre froide": "masterytalismancoldwar",
             "Charme de maîtrise : Immuabilité": "masterytalismanimmovable",
             "Charme de maîtrise : Percée triomphale": "masterytalismanpresstheattack",
+            "Charme de maîtrise : Perfectionnement d'armement": "masterytalismanarmsandarmorhoned",
+            "Charme de maîtrise : Planification à long terme": "masterytalismanplanninglongterm",
             "Charme de maîtrise : Pratique améliorative": "masterytalismanpracticemakesperfect",
+            "Charme de maîtrise : Renom victorieux": "masterytalismanvictoriousrepute",
             "Charme de maîtrise : Stratégie de rotation": "masterytalismancyclecharge",
             "Charme de maîtrise : Synchronisation d'informations": "masterytalismanintelligenceupdate",
             "Charme de maîtrise : Vigueur déferlante": "masterytalismansurgingvigor",
@@ -5881,7 +6221,6 @@
             "Colère de tonnerre": "thunderingfury",
             "Conspiration Fatui": "fatuiconspiracy",
             "Corbeau maléfique": "stellarpredator",
-            "Corrosion de Siccité": "witheringcorrosion",
             "Corrosion de siccité": "witheringcorrosion-01",
             "Couronne de laurier": "laurelcoronet",
             "Crabe au beurre": "buttercrab",
@@ -5894,6 +6233,7 @@
             "Domination de la Terre": "dominanceofearth",
             "Dompteur de démons : Gardien Yaksha": "conquerorofevilguardianyaksha",
             "Dunyarzad": "dunyarzad",
+            "Débordement": "theoverflow",
             "Eileen": "ellin",
             "Emblème du destin brisé": "emblemofseveredfate",
             "Embrasse des vents": "embraceofwinds",
@@ -5913,8 +6253,10 @@
             "Grande épée en fer blanc": "whiteirongreatsword",
             "Guide de magie": "magicguide",
             "Hanachirusato": "hanachirusato",
+            "Haïku de la brise": "poeticsoffuubutsu",
             "Invocation : Heure 0 - Attaque agressive": "zerohourinvokationalloutaggression",
             "J'assure vos arrières": "igotyourback",
+            "Jardin d'antan": "ancientcourtyard",
             "Je m'en charge !": "leaveittome",
             "Jugement des plumes": "featherfalljudgment",
             "Kabuto orné": "ornatekabuto",
@@ -5924,16 +6266,19 @@
             "Lame de la Voûte d'Azur": "skywardblade",
             "Lance des Millelithes": "lithicspear",
             "Lancer en l'air": "tossup",
+            "Le fruit de l'accomplissement": "fruitoffulfillment",
             "Li le fiable": "liben",
             "Liu Su": "liusu",
             "Lumière du faucheur": "engulfinglightning",
             "Maintien fulgurant": "thunderingpoise",
             "Masque en basalte inerte": "maskofsolitudebasalt",
+            "Maître Zhang": "masterzhang",
             "Maîtrise de l'armement": "masterofweaponry",
             "Mille rêves flottants": "athousandfloatingdreams",
             "Monolithe de première ligne": "leylinemonolithfrontlinefulcrum",
             "Mort-du-loup": "wolfsgravestone",
             "Mouchoir du Médecin itinérant": "travelingdoctorshandkerchief",
+            "Mélodie du grand rêve": "rhythmofthegreatdream",
             "Mémoires de rituels": "sacrificialfragments",
             "Obre élémentaire : Abondance": "elementalorbplentiful",
             "Obre élémentaire : Dissipation": "elementalorbdissipated",
@@ -6020,6 +6365,7 @@
             "Ultime soupir": "elegyfortheend",
             "Vanarana": "vanarana",
             "Vent et liberté": "windandfreedom",
+            "Verdict final": "rightoffinalinterpretation",
             "Ville de Sumeru": "sumerucity",
             "Visage capricieux": "capriciousvisage",
             "Vue aiguë": "keensight",
@@ -6048,6 +6394,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6062,6 +6409,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

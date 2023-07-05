@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 23021,
                     "name": "Спасительное пламя",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 23022,
                     "name": "Обжигающее предостережение",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 3 ед. Призывает помощника: Очаг тёмного пламени.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. Призывает помощника: Очаг тёмного пламени.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Призывает помощника: <color=#FFFFFFFF>$[C123021]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 3 ед. Призывает помощника: <color=#FFFFFFFF>Очаг тёмного пламени</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. Призывает помощника: <color=#FFFFFFFF>Очаг тёмного пламени</color>.",
                     "id": 23023,
                     "name": "Зловещая звезда",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 2 ед., наносит Проникающий урон, 2 ед. всем неактивным персонажам противника.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., наносит Проникающий урон, 2 ед. всем неактивным персонажам противника.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., наносит <color=#FFFFFFFF>$[K5], 2 ед.</color> всем неактивным персонажам противника.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 2 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 2 ед.</color> всем неактивным персонажам противника.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 2 ед.</color> всем неактивным персонажам противника.",
                     "id": 13043,
                     "name": "Огненный дождь",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 1 ед. и призывает помощника: Уси. Персонажу достаётся Невероятная сила.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и призывает помощника: Уси. Персонажу достаётся Невероятная сила.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C116051]</color>. Персонажу достаётся <color=#FFFFFFFF>$[C116054]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Уси</color>. Персонажу достаётся <color=#FFFFFFFF>Невероятная сила</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Уси</color>. Персонажу достаётся <color=#FFFFFFFF>Невероятная сила</color>.",
                     "id": 16052,
                     "name": "Масацу дзэцуги: Взрыв акауси!",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 5 ед. Персонажу достаётся Яростный король óни.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 5 ед. Персонажу достаётся Яростный король óни.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Персонажу достаётся <color=#FFFFFFFF>$[C116053]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 5 ед. Персонажу достаётся <color=#FFFFFFFF>Яростный король óни</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 5 ед. Персонажу достаётся <color=#FFFFFFFF>Яростный король óни</color>.",
                     "id": 16053,
                     "name": "Явление короля: Итто Жестокий!",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 12011,
                     "name": "Шёпот воды",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 1 ед. и призывает помощника: Кольцо мелодии.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и призывает помощника: Кольцо мелодии.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C112011]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Кольцо мелодии</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Кольцо мелодии</color>.",
                     "id": 12012,
                     "name": "Да начнётся шоу♪",
                     "playcost": [
@@ -369,17 +369,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 3 ед. и создаёт Громовой щит.",
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. и создаёт Громовой щит.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C114053]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 3 ед. и создаёт <color=#FFFFFFFF>Громовой щит</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Громовой щит</color>.",
                     "id": 14053,
                     "name": "Крушитель бури",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_ELECTRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -390,11 +390,11 @@
                     "typetag": "GCG_SKILL_TAG_Q"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "(На подготовку нужен 1 ход)\nНаносит Электро урон, 2 ед.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "(На подготовку нужен 1 ход)\nНаносит Физический урон, 3 ед.",
                     "descriptionraw": "(На подготовку нужен 1 ход)\\nНаносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "(На подготовку нужен 1 ход)\\nНаносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 2 ед.",
+                    "descriptionreplaced": "(На подготовку нужен 1 ход)\\nНаносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 14054,
                     "name": "Покоритель волн",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 13032,
                     "name": "Чрезмерные стремления",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 2 ед. и создаёт Круг вдохновения.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. и создаёт Круг вдохновения.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C113031]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Круг вдохновения</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Круг вдохновения</color>.",
                     "id": 13033,
                     "name": "Волнительное приключение",
                     "playcost": [
@@ -494,6 +494,96 @@
                 "Пиро",
                 "Одноручное",
                 "Мондштадт"
+            ]
+        },
+        "candace": {
+            "hp": 10,
+            "id": 1207,
+            "maxenergy": 2,
+            "name": "Кандакия",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед.",
+                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед.",
+                    "id": 12071,
+                    "name": "Сверкающее копьё: Оборона",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Обычная атака",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "У персонажа добавляются Защита цапли и Подготовка навыка: Удар цапли.",
+                    "descriptionraw": "У персонажа добавляются <color=#FFFFFFFF>$[C112071]</color> и $[K53]: <color=#FFFFFFFF>$[S12074]</color>.",
+                    "descriptionreplaced": "У персонажа добавляются <color=#FFFFFFFF>Защита цапли</color> и <color=#FFFFFFFF>Подготовка навыка</color>: <color=#FFFFFFFF>Удар цапли</color>.",
+                    "id": 12072,
+                    "name": "Священный обряд: Обитель цапли",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Элементальный навык",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., создаётся Молитва алой короны.",
+                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., создаётся <color=#FFFFFFFF>$[C112072]</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., создаётся <color=#FFFFFFFF>Молитва алой короны</color>.",
+                    "id": 12073,
+                    "name": "Священный обряд: Прилив трясогузки",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Взрыв стихии",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "(На подготовку нужен 1 ход)\nНаносит Физический урон, 3 ед.",
+                    "descriptionraw": "(На подготовку нужен 1 ход)\\nНаносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
+                    "descriptionreplaced": "(На подготовку нужен 1 ход)\\nНаносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
+                    "id": 12074,
+                    "name": "Удар цапли",
+                    "playcost": [],
+                    "type": "Элементальный навык",
+                    "typetag": "GCG_SKILL_TAG_E"
+                }
+            ],
+            "source": "Награда за приглашение Кандакии в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+            "storytext": "Золотом алых песков клянусь нести караул.",
+            "storytitle": "Позолоченная клятва: Кандакия",
+            "tags": [
+                "GCG_TAG_ELEMENT_HYDRO",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU"
+            ],
+            "tagstext": [
+                "Гидро",
+                "Древковое",
+                "Сумеру"
             ]
         },
         "chongyun": {
@@ -525,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 3 ед. и создаёт Область холода Чунхуа.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. и создаёт Область холода Чунхуа.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C111041]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 3 ед. и создаёт <color=#FFFFFFFF>Область холода Чунхуа</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. и создаёт <color=#FFFFFFFF>Область холода Чунхуа</color>.",
                     "id": 11042,
                     "name": "Холод Чунхуа",
                     "playcost": [
@@ -542,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 7 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 7 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 7 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 7 ед.",
                     "id": 11043,
                     "name": "Падение с небес",
                     "playcost": [
@@ -605,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 17012,
                     "name": "Сметающие цветы",
                     "playcost": [
@@ -622,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 2 ед. Призывает помощника: Куйлейн-Анбар.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. Призывает помощника: Куйлейн-Анбар.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Призывает помощника: <color=#FFFFFFFF>$[C117011]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 2 ед. Призывает помощника: <color=#FFFFFFFF>Куйлейн-Анбар</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. Призывает помощника: <color=#FFFFFFFF>Куйлейн-Анбар</color>.",
                     "id": 17013,
                     "name": "Кошачье сокровище",
                     "playcost": [
@@ -685,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 14042,
                     "name": "Тайный обряд: Переправляющий души",
                     "playcost": [
@@ -702,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 4 ед.\nУровень [состояния]Поклявшийся прокладывать путь +2.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед.\nУровень [состояния]Поклявшийся прокладывать путь +2.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.\\nУровень [состояния]<color=#FFFFFFFF>$[C114041]</color> +2.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 4 ед.\\nУровень [состояния]<color=#FFFFFFFF>Поклявшийся прокладывать путь</color> +2.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед.\\nУровень [состояния]<color=#FFFFFFFF>Поклявшийся прокладывать путь</color> +2.",
                     "id": 14043,
                     "name": "Священный обряд: Проворство шакала",
                     "playcost": [
@@ -775,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 3 ед. При третьем использовании этого навыка в каждом раунде наносит дополнительно 2 ед. урона.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. При третьем использовании этого навыка в каждом раунде наносит дополнительно 2 ед. урона.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. При третьем использовании этого навыка в каждом раунде наносит дополнительно 2 ед. урона.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 3 ед. При третьем использовании этого навыка в каждом раунде наносит дополнительно 2 ед. урона.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. При третьем использовании этого навыка в каждом раунде наносит дополнительно 2 ед. урона.",
                     "id": 13012,
                     "name": "Огненный натиск",
                     "playcost": [
@@ -792,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 8 ед. У персонажа возникает Пиро инфузия.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 8 ед. У персонажа возникает Пиро инфузия.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. У персонажа возникает <color=#FFFFFFFF>$[C113011]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 8 ед. У персонажа возникает <color=#FFFFFFFF>Пиро инфузия</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 8 ед. У персонажа возникает <color=#FFFFFFFF>Пиро инфузия</color>.",
                     "id": 13013,
                     "name": "Рассвет",
                     "playcost": [
@@ -855,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 2 ед. и создаёт Щит кошачьих коготочков.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. и создаёт Щит кошачьих коготочков.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C111021]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Щит кошачьих коготочков</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Щит кошачьих коготочков</color>.",
                     "id": 11022,
                     "name": "Морозные коготочки",
                     "playcost": [
@@ -872,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 1 ед., исцеляет 2 HP персонажа, призывает помощника: Пьянящий туман.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед., исцеляет 2 HP персонажа, призывает помощника: Пьянящий туман.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., исцеляет 2 HP персонажа, призывает помощника: <color=#FFFFFFFF>$[C111023]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 1 ед., исцеляет 2 HP персонажа, призывает помощника: <color=#FFFFFFFF>Пьянящий туман</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед., исцеляет 2 HP персонажа, призывает помощника: <color=#FFFFFFFF>Пьянящий туман</color>.",
                     "id": 11023,
                     "name": "Авторский коктейль",
                     "playcost": [
@@ -914,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 24011,
                     "name": "Кристаллическая проекция Электро",
                     "playcost": [
@@ -935,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 2 ед., после чего начинается Подготовка навыка: Тройное комбо: Ножницы и Тройное комбо: Бумага.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., после чего начинается Подготовка навыка: Тройное комбо: Ножницы и Тройное комбо: Бумага.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., после чего начинается $[K53]: <color=#FFFFFFFF>$[S24015]</color> и <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 2 ед., после чего начинается <color=#FFFFFFFF>Подготовка навыка</color>: <color=#FFFFFFFF>Тройное комбо: Ножницы</color> и <color=#FFFFFFFF>Тройное комбо: Бумага</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., после чего начинается <color=#FFFFFFFF>Подготовка навыка</color>: <color=#FFFFFFFF>Тройное комбо: Ножницы</color> и <color=#FFFFFFFF>Тройное комбо: Бумага</color>.",
                     "id": 24012,
                     "name": "Тройное комбо",
                     "playcost": [
@@ -952,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 2 ед. и призывает помощника: Громовые оковы.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. и призывает помощника: Громовые оковы.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C124013]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 2 ед. и призывает помощника: <color=#FFFFFFFF>Громовые оковы</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. и призывает помощника: <color=#FFFFFFFF>Громовые оковы</color>.",
                     "id": 24013,
                     "name": "В тисках молний",
                     "playcost": [
@@ -983,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 2 ед., после чего начинается Подготовка навыка: Тройное комбо: Бумага.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., после чего начинается Подготовка навыка: Тройное комбо: Бумага.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., после чего начинается $[K53]: <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 2 ед., после чего начинается <color=#FFFFFFFF>Подготовка навыка</color>: <color=#FFFFFFFF>Тройное комбо: Бумага</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., после чего начинается <color=#FFFFFFFF>Подготовка навыка</color>: <color=#FFFFFFFF>Тройное комбо: Бумага</color>.",
                     "id": 24015,
                     "name": "Тройное комбо: Ножницы",
                     "playcost": [],
@@ -995,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 24016,
                     "name": "Тройное комбо: Бумага",
                     "playcost": [],
@@ -1033,7 +1123,7 @@
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
                     "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед.",
                     "id": 11061,
-                    "name": "Фехтовальный стиль Фавония: Аристократы",
+                    "name": "Фехтовальный стиль Фавония: Знать",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_CRYO",
@@ -1049,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 2 ед. Если у текущего персонажа нет эффекта Холодное сердце, то даёт эффект Холодное сердце.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. Если у текущего персонажа нет эффекта Холодное сердце, то даёт эффект Холодное сердце.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Если у текущего персонажа нет эффекта <color=#FFFFFFFF>$[C111061]</color>, то даёт эффект <color=#FFFFFFFF>$[C111061]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 2 ед. Если у текущего персонажа нет эффекта <color=#FFFFFFFF>Холодное сердце</color>, то даёт эффект <color=#FFFFFFFF>Холодное сердце</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. Если у текущего персонажа нет эффекта <color=#FFFFFFFF>Холодное сердце</color>, то даёт эффект <color=#FFFFFFFF>Холодное сердце</color>.",
                     "id": 11062,
                     "name": "Ледяной прибой",
                     "playcost": [
@@ -1066,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 2 ед. и призывает помощника: Меч света.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. и призывает помощника: Меч света.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C111062]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 2 ед. и призывает помощника: <color=#FFFFFFFF>Меч света</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. и призывает помощника: <color=#FFFFFFFF>Меч света</color>.",
                     "id": 11063,
                     "name": "Сумеречный меч",
                     "playcost": [
@@ -1108,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 21011,
                     "name": "Лёд цицина",
                     "playcost": [
@@ -1129,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 1 ед. Призывает помощника: Крио цицин.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. Призывает помощника: Крио цицин.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Призывает помощника: <color=#FFFFFFFF>$[C121011]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 1 ед. Призывает помощника: <color=#FFFFFFFF>Крио цицин</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. Призывает помощника: <color=#FFFFFFFF>Крио цицин</color>.",
                     "id": 21012,
                     "name": "Туманный призыв",
                     "playcost": [
@@ -1146,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 5 ед., даёт персонажу Эффект Крио, создаёт 1 Купол цицинов.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 5 ед., даёт персонажу Эффект Крио, создаёт 1 Купол цицинов.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., даёт персонажу $[K201], создаёт 1 <color=#FFFFFFFF>$[C121012]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 5 ед., даёт персонажу <color=#99FFFFFF>Эффект {SPRITE_PRESET#2101}Крио</color>, создаёт 1 <color=#FFFFFFFF>Купол цицинов</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 5 ед., даёт персонажу <color=#99FFFFFF>Эффект {SPRITE_PRESET#2101}Крио</color>, создаёт 1 <color=#FFFFFFFF>Купол цицинов</color>.",
                     "id": 21013,
                     "name": "Цветы и ветви вьюги",
                     "playcost": [
@@ -1209,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 1 ед. Персонаж получает Скрытность.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. Персонаж получает Скрытность.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Персонаж получает <color=#FFFFFFFF>$[C123011]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 1 ед. Персонаж получает <color=#FFFFFFFF>Скрытность</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. Персонаж получает <color=#FFFFFFFF>Скрытность</color>.",
                     "id": 23012,
                     "name": "Подходящий момент",
                     "playcost": [
@@ -1226,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 5 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 5 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 5 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 5 ед.",
                     "id": 23013,
                     "name": "Испепеляющий кинжал",
                     "playcost": [
@@ -1299,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 1 ед. и призывает помощника: Оз.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и призывает помощника: Оз.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C114011]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Оз</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Оз</color>.",
                     "id": 14012,
                     "name": "Тень расправленных крыльев",
                     "playcost": [
@@ -1316,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 4 ед., наносит Проникающий урон, 2 ед. всем неактивным персонажам противника.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед., наносит Проникающий урон, 2 ед. всем неактивным персонажам противника.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., наносит <color=#FFFFFFFF>$[K5], 2 ед.</color> всем неактивным персонажам противника.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 4 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 2 ед.</color> всем неактивным персонажам противника.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 2 ед.</color> всем неактивным персонажам противника.",
                     "id": 14013,
                     "name": "Ночная иллюзия",
                     "playcost": [
@@ -1379,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 1 ед. и создаёт Ледяной лотос.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и создаёт Ледяной лотос.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C111012]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 1 ед. и создаёт <color=#FFFFFFFF>Ледяной лотос</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и создаёт <color=#FFFFFFFF>Ледяной лотос</color>.",
                     "id": 11012,
                     "name": "След цилиня",
                     "playcost": [
@@ -1396,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 2 ед., наносит Проникающий урон, 2 ед. всем неактивным персонажам противника.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., наносит Проникающий урон, 2 ед. всем неактивным персонажам противника.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., наносит <color=#FFFFFFFF>$[K5], 2 ед.</color> всем неактивным персонажам противника.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 2 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 2 ед.</color> всем неактивным персонажам противника.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 2 ед.</color> всем неактивным персонажам противника.",
                     "id": 11013,
                     "name": "Ледяная стрела-цветок",
                     "playcost": [
@@ -1413,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 2 ед., наносит Проникающий урон, 1 ед. всем неактивным персонажам противника, призывает помощника: Священная Крио жемчужина.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., наносит Проникающий урон, 1 ед. всем неактивным персонажам противника, призывает помощника: Священная Крио жемчужина.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., наносит <color=#FFFFFFFF>$[K5], 1 ед.</color> всем неактивным персонажам противника, призывает помощника: <color=#FFFFFFFF>$[C111011]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 2 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 1 ед.</color> всем неактивным персонажам противника, призывает помощника: <color=#FFFFFFFF>Священная Крио жемчужина</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 1 ед.</color> всем неактивным персонажам противника, призывает помощника: <color=#FFFFFFFF>Священная Крио жемчужина</color>.",
                     "id": 11014,
                     "name": "Небесный дождь",
                     "playcost": [
@@ -1491,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 4 ед. Восстанавливает себе 2 HP. Если HP не более 6, то добавляет 1 ед. к наносимому урону и лечению.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед. Восстанавливает себе 2 HP. Если HP не более 6, то добавляет 1 ед. к наносимому урону и лечению.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Восстанавливает себе 2 HP. Если HP не более 6, то добавляет 1 ед. к наносимому урону и лечению.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 4 ед. Восстанавливает себе 2 HP. Если HP не более 6, то добавляет 1 ед. к наносимому урону и лечению.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед. Восстанавливает себе 2 HP. Если HP не более 6, то добавляет 1 ед. к наносимому урону и лечению.",
                     "id": 13073,
                     "name": "Упокоение духов",
                     "playcost": [
@@ -1554,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 27012,
                     "name": "Облако нестабильных спор",
                     "playcost": [
@@ -1571,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 4 ед., затем расходует все уровни Сила оживления. За каждый уровень наносит +1 ед. урона.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед., затем расходует все уровни Сила оживления. За каждый уровень наносит +1 ед. урона.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., затем расходует все уровни <color=#FFFFFFFF>$[C127011]</color>. За каждый уровень наносит +1 ед. урона.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 4 ед., затем расходует все уровни <color=#FFFFFFFF>Сила оживления</color>. За каждый уровень наносит +1 ед. урона.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед., затем расходует все уровни <color=#FFFFFFFF>Сила оживления</color>. За каждый уровень наносит +1 ед. урона.",
                     "id": 27013,
                     "name": "Величественное оперение",
                     "playcost": [
@@ -1644,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Наносит Анемо урон, 3 ед. Принуждает соперника сделать активным следующего персонажа.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. Принуждает соперника сделать активным следующего персонажа.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Принуждает соперника сделать активным следующего персонажа.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2105}<color=#80FFD7FF>Анемо урон</color>, 3 ед. Принуждает соперника сделать активным следующего персонажа.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. Принуждает соперника сделать активным следующего персонажа.",
                     "id": 15022,
                     "name": "Клинок ветра",
                     "playcost": [
@@ -1693,6 +1783,96 @@
                 "Мондштадт"
             ]
         },
+        "kaedeharakazuha": {
+            "hp": 10,
+            "id": 1505,
+            "maxenergy": 2,
+            "name": "Каэдэхара Кадзуха",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед.",
+                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед.",
+                    "id": 15051,
+                    "name": "Фехтовальный стиль Гарю",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Обычная атака",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. У персонажа возникает Мидарэ рандзан.\nЕсли этот навык вызвал Рассеивание, то Мидарэ рандзан наносит урон элементом, соответствующим Рассеиванию.\nПосле подсчёта урона навыка: у вас сменяется персонаж.",
+                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. У персонажа возникает <color=#FFFFFFFF>$[C115051]</color>.\\nЕсли этот навык вызвал Рассеивание, то <color=#FFFFFFFF>$[C115051]</color> наносит урон элементом, соответствующим Рассеиванию.\\n<color=#FFFFFFFF>После подсчёта урона навыка:</color> у вас сменяется персонаж.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. У персонажа возникает <color=#FFFFFFFF>Мидарэ рандзан</color>.\\nЕсли этот навык вызвал Рассеивание, то <color=#FFFFFFFF>Мидарэ рандзан</color> наносит урон элементом, соответствующим Рассеиванию.\\n<color=#FFFFFFFF>После подсчёта урона навыка:</color> у вас сменяется персонаж.",
+                    "id": 15052,
+                    "name": "Тихаяфуру",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Элементальный навык",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. и призывает помощника: Осенний вихрь.",
+                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C115052]</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. и призывает помощника: <color=#FFFFFFFF>Осенний вихрь</color>.",
+                    "id": 15053,
+                    "name": "Удар Кадзухи",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Взрыв стихии",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "description": "",
+                    "descriptionraw": "",
+                    "descriptionreplaced": "",
+                    "id": 15054,
+                    "name": "Тихаяфуру",
+                    "playcost": [],
+                    "type": "Пассивный навык",
+                    "typetag": "GCG_SKILL_TAG_PASSIVE"
+                }
+            ],
+            "source": "Награда за приглашение Каэдэхары Кадзухи в «Кошкин хвост» и победу над ним в Дружеской дуэли",
+            "storytext": "Цветы и птицы радуют взгляд гуляющего под лунным светом.",
+            "storytitle": "Багряные листья и неистовые волны: Каэдэхара Кадзуха",
+            "tags": [
+                "GCG_TAG_ELEMENT_ANEMO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_INAZUMA"
+            ],
+            "tagstext": [
+                "Анемо",
+                "Одноручное",
+                "Инадзума"
+            ]
+        },
         "kaeya": {
             "hp": 10,
             "id": 1103,
@@ -1722,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 11032,
                     "name": "Выпад холода",
                     "playcost": [
@@ -1739,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 1 ед. и создаёт Льдинка.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и создаёт Льдинка.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C111031]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 1 ед. и создаёт <color=#FFFFFFFF>Льдинка</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и создаёт <color=#FFFFFFFF>Льдинка</color>.",
                     "id": 11033,
                     "name": "Ледниковый вальс",
                     "playcost": [
@@ -1802,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 11052,
                     "name": "Искусство Камисато: Хёка",
                     "playcost": [
@@ -1819,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 4 ед. и призывает помощника: Морозный сэки но то.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед. и призывает помощника: Морозный сэки но то.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C111051]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 4 ед. и призывает помощника: <color=#FFFFFFFF>Морозный сэки но то</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед. и призывает помощника: <color=#FFFFFFFF>Морозный сэки но то</color>.",
                     "id": 11053,
                     "name": "Искусство Камисато: Сомэцу",
                     "playcost": [
@@ -1892,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 2 ед. Персонажу достаётся Такимэгури канка.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. Персонажу достаётся Такимэгури канка.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Персонажу достаётся <color=#FFFFFFFF>$[C112061]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 2 ед. Персонажу достаётся <color=#FFFFFFFF>Такимэгури канка</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. Персонажу достаётся <color=#FFFFFFFF>Такимэгури канка</color>.",
                     "id": 12062,
                     "name": "Искусство Камисато: Кёка",
                     "playcost": [
@@ -1909,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 3 ед. и призывает помощника: Безмятежный сад.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. и призывает помощника: Безмятежный сад.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C112062]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 3 ед. и призывает помощника: <color=#FFFFFFFF>Безмятежный сад</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. и призывает помощника: <color=#FFFFFFFF>Безмятежный сад</color>.",
                     "id": 12063,
                     "name": "Искусство Камисато: Суйю",
                     "playcost": [
@@ -1972,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 3 ед. и создаёт в руке Громовой стилет.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. и создаёт в руке Громовой стилет.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт в руке <color=#FFFFFFFF>$[C114031]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 3 ед. и создаёт в руке <color=#FFFFFFFF>Громовой стилет</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. и создаёт в руке <color=#FFFFFFFF>Громовой стилет</color>.",
                     "id": 14032,
                     "name": "Возвращение звезды",
                     "playcost": [
@@ -1989,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 4 ед., наносит Проникающий урон, 3 ед. всем неактивным персонажам противника.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед., наносит Проникающий урон, 3 ед. всем неактивным персонажам противника.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., наносит <color=#FFFFFFFF>$[K5], 3 ед.</color> всем неактивным персонажам противника.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 4 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 3 ед.</color> всем неактивным персонажам противника.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 3 ед.</color> всем неактивным персонажам противника.",
                     "id": 14033,
                     "name": "Меч небесного тракта",
                     "playcost": [
@@ -2031,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 13061,
                     "name": "Бабах!",
                     "playcost": [
@@ -2052,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 3 ед. Персонажу достаётся Взрывная искра.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. Персонажу достаётся Взрывная искра.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Персонажу достаётся <color=#FFFFFFFF>$[C113061]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 3 ед. Персонажу достаётся <color=#FFFFFFFF>Взрывная искра</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. Персонажу достаётся <color=#FFFFFFFF>Взрывная искра</color>.",
                     "id": 13062,
                     "name": "Прыг-скок бомба",
                     "playcost": [
@@ -2069,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 3 ед. Создаёт Грохот и искры в области противника.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. Создаёт Грохот и искры в области противника.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Создаёт <color=#FFFFFFFF>$[C113063]</color> в области противника.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 3 ед. Создаёт <color=#FFFFFFFF>Грохот и искры</color> в области противника.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. Создаёт <color=#FFFFFFFF>Грохот и искры</color> в области противника.",
                     "id": 13063,
                     "name": "Грохот и искры",
                     "playcost": [
@@ -2132,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 1 ед. и призывает помощника: Тэнгу дзюрай: Засада.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и призывает помощника: Тэнгу дзюрай: Засада.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C114061]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Тэнгу дзюрай: Засада</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Тэнгу дзюрай: Засада</color>.",
                     "id": 14062,
                     "name": "Призыв грозы тэнгу",
                     "playcost": [
@@ -2149,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 1 ед. и призывает помощника: Тэнгу дзюрай: Громокластер.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и призывает помощника: Тэнгу дзюрай: Громокластер.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C114062]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Тэнгу дзюрай: Громокластер</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Тэнгу дзюрай: Громокластер</color>.",
                     "id": 14063,
                     "name": "Подчинение: Коко сэндо",
                     "playcost": [
@@ -2242,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Наносит Анемо урон, 4 ед., вызывает эффекты всех Теневых мечей (не расходует их применения).",
-                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., вызывает эффекты всех <color=#FFFFFFFF>Теневых мечей</color> (не расходует их применения).",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2105}<color=#80FFD7FF>Анемо урон</color>, 4 ед., вызывает эффекты всех <color=#FFFFFFFF>Теневых мечей</color> (не расходует их применения).",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед., вызывает эффекты всех Теневых клинков (не расходует их применения).",
+                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., вызывает эффекты всех <color=#FFFFFFFF>Теневых клинков</color> (не расходует их применения).",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед., вызывает эффекты всех <color=#FFFFFFFF>Теневых клинков</color> (не расходует их применения).",
                     "id": 25014,
                     "name": "Ложный тэнгу",
                     "playcost": [
@@ -2284,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 22021,
                     "name": "Водяной снаряд",
                     "playcost": [
@@ -2305,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 2 ед., цель получает Преломление.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., цель получает Преломление.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., цель получает <color=#FFFFFFFF>$[C122021]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 2 ед., цель получает <color=#FFFFFFFF>Преломление</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., цель получает <color=#FFFFFFFF>Преломление</color>.",
                     "id": 22022,
                     "name": "Водяной хлопок",
                     "playcost": [
@@ -2322,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 5 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 5 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 5 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 5 ед.",
                     "id": 22023,
                     "name": "Сверкающее преломление",
                     "playcost": [
@@ -2364,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 12031,
                     "name": "Круги на воде",
                     "playcost": [
@@ -2385,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 1 ед., призывает помощника: Фантом.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед., призывает помощника: Фантом.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., призывает помощника: <color=#FFFFFFFF>$[C112031]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 1 ед., призывает помощника: <color=#FFFFFFFF>Фантом</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед., призывает помощника: <color=#FFFFFFFF>Фантом</color>.",
                     "id": 12032,
                     "name": "Отражение фатума",
                     "playcost": [
@@ -2402,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 4 ед., создаёт Теневой пузырь.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед., создаёт Теневой пузырь.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., создаёт <color=#FFFFFFFF>$[C112032]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 4 ед., создаёт <color=#FFFFFFFF>Теневой пузырь</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед., создаёт <color=#FFFFFFFF>Теневой пузырь</color>.",
                     "id": 12033,
                     "name": "Звёздный фантазм",
                     "playcost": [
@@ -2454,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 17031,
                     "name": "Акара",
                     "playcost": [
@@ -2475,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 2 ед. Цель получит Семя скандхи. Если у цели уже было Семя скандхи, то Семя скандхи применяется ко всем персонажам противника.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. Цель получит Семя скандхи. Если у цели уже было Семя скандхи, то Семя скандхи применяется ко всем персонажам противника.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Цель получит <color=#FFFFFFFF>$[C117031]</color>. Если у цели уже было <color=#FFFFFFFF>$[C117031]</color>, то <color=#FFFFFFFF>$[C117031]</color> применяется ко всем персонажам противника.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 2 ед. Цель получит <color=#FFFFFFFF>Семя скандхи</color>. Если у цели уже было <color=#FFFFFFFF>Семя скандхи</color>, то <color=#FFFFFFFF>Семя скандхи</color> применяется ко всем персонажам противника.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. Цель получит <color=#FFFFFFFF>Семя скандхи</color>. Если у цели уже было <color=#FFFFFFFF>Семя скандхи</color>, то <color=#FFFFFFFF>Семя скандхи</color> применяется ко всем персонажам противника.",
                     "id": 17032,
                     "name": "Пелена знаний",
                     "playcost": [
@@ -2492,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 3 ед. Всем персонажам противника достаётся Семя скандхи.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. Всем персонажам противника достаётся Семя скандхи.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Всем персонажам противника достаётся <color=#FFFFFFFF>$[C117031]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 3 ед. Всем персонажам противника достаётся <color=#FFFFFFFF>Семя скандхи</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. Всем персонажам противника достаётся <color=#FFFFFFFF>Семя скандхи</color>.",
                     "id": 17033,
                     "name": "Пелена знаний: Татхата",
                     "playcost": [
@@ -2509,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 4 ед. и создаёт Святилище Майи.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед. и создаёт Святилище Майи.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C117032]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 4 ед. и создаёт <color=#FFFFFFFF>Святилище Майи</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед. и создаёт <color=#FFFFFFFF>Святилище Майи</color>.",
                     "id": 17034,
                     "name": "Призрачное сердце",
                     "playcost": [
@@ -2551,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 16011,
                     "name": "Сверкающий дождь",
                     "playcost": [
@@ -2572,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 2 ед. и создаёт Нефритовая ширма.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. и создаёт Нефритовая ширма.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C116011]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Нефритовая ширма</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Нефритовая ширма</color>.",
                     "id": 16012,
                     "name": "Нефритовая ширма",
                     "playcost": [
@@ -2589,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 6 ед. Если Нефритовая ширма на поле битвы, урон увеличивается на 2 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 6 ед. Если Нефритовая ширма на поле битвы, урон увеличивается на 2 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Если <color=#FFFFFFFF>$[C116011]</color> на поле битвы, урон увеличивается на 2 ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 6 ед. Если <color=#FFFFFFFF>Нефритовая ширма</color> на поле битвы, урон увеличивается на 2 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 6 ед. Если <color=#FFFFFFFF>Нефритовая ширма</color> на поле битвы, урон увеличивается на 2 ед.",
                     "id": 16013,
                     "name": "Осколки звёзд",
                     "playcost": [
@@ -2652,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 1 ед. и создаёт Полная броня.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и создаёт Полная броня.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C116021]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 1 ед. и создаёт <color=#FFFFFFFF>Полная броня</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и создаёт <color=#FFFFFFFF>Полная броня</color>.",
                     "id": 16022,
                     "name": "Бронефартук",
                     "playcost": [
@@ -2669,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 4 ед. Персонаж получает Генеральная уборка.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед. Персонаж получает Генеральная уборка.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Персонаж получает <color=#FFFFFFFF>$[C116022]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 4 ед. Персонаж получает <color=#FFFFFFFF>Генеральная уборка</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед. Персонаж получает <color=#FFFFFFFF>Генеральная уборка</color>.",
                     "id": 16023,
                     "name": "Генеральная уборка",
                     "playcost": [
@@ -2747,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 3 ед., Энергия всех ваших персонажей увеличивается на 2 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед., Энергия всех ваших персонажей увеличивается на 2 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., $[K310] всех ваших персонажей увеличивается на 2 ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 3 ед., <color=#FFFFFFFF>{SPRITE_PRESET#1110}Энергия</color> всех ваших персонажей увеличивается на 2 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед., <color=#FFFFFFFF>{SPRITE_PRESET#1110}Энергия</color> всех ваших персонажей увеличивается на 2 ед.",
                     "id": 14073,
                     "name": "Тайное искусство: Мусо синсэцу",
                     "playcost": [
@@ -2794,7 +2974,7 @@
         "razor": {
             "hp": 10,
             "id": 1402,
-            "maxenergy": 3,
+            "maxenergy": 2,
             "name": "Рэйзор",
             "skills": [
                 {
@@ -2820,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 14022,
                     "name": "Гром и когти",
                     "playcost": [
@@ -2836,11 +3016,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 5 ед. Персонаж получает Грозовой волк.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. Персонаж получает Грозовой волк.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Персонаж получает <color=#FFFFFFFF>$[C114021]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 5 ед. Персонаж получает <color=#FFFFFFFF>Грозовой волк</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. Персонаж получает <color=#FFFFFFFF>Грозовой волк</color>.",
                     "id": 14023,
                     "name": "Громовой клык",
                     "playcost": [
@@ -2850,7 +3030,7 @@
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
-                            "count": 3
+                            "count": 2
                         }
                     ],
                     "type": "Взрыв стихии",
@@ -2879,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 22011,
                     "name": "Прилив",
                     "playcost": [
@@ -2930,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 2 ед. За каждого помощника наносит 2 ед. урона.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. За каждого помощника наносит 2 ед. урона.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. За каждого помощника наносит 2 ед. урона.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 2 ед. За каждого помощника наносит 2 ед. урона.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. За каждого помощника наносит 2 ед. урона.",
                     "id": 22014,
                     "name": "Приливы и течения",
                     "playcost": [
@@ -2972,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 12051,
                     "name": "Форма воды",
                     "playcost": [
@@ -3008,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 2 ед. Восстанавливает 1 HP всем вашим персонажам. Текущий персонаж получает Церемониальное одеяние.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. Восстанавливает 1 HP всем вашим персонажам. Текущий персонаж получает Церемониальное одеяние.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Восстанавливает 1 HP всем вашим персонажам. Текущий персонаж получает <color=#FFFFFFFF>$[C112052]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 2 ед. Восстанавливает 1 HP всем вашим персонажам. Текущий персонаж получает <color=#FFFFFFFF>Церемониальное одеяние</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. Восстанавливает 1 HP всем вашим персонажам. Текущий персонаж получает <color=#FFFFFFFF>Церемониальное одеяние</color>.",
                     "id": 12053,
                     "name": "Вознесение нереиды",
                     "playcost": [
@@ -3071,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 2 ед. и создаёт Ледяное перо.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. и создаёт Ледяное перо.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C111071]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Ледяное перо</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Ледяное перо</color>.",
                     "id": 11072,
                     "name": "Призыв духа",
                     "playcost": [
@@ -3088,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Наносит Крио урон, 1 ед. и призывает помощника: Дух талисмана.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и призывает помощника: Дух талисмана.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C111073]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Дух талисмана</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Дух талисмана</color>.",
                     "id": 11073,
                     "name": "Таинство освобождения",
                     "playcost": [
@@ -3222,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Наносит Анемо урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2105}<color=#80FFD7FF>Анемо урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 15011,
                     "name": "Базовая эссенция ветра",
                     "playcost": [
@@ -3243,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Наносит Анемо урон, 3 ед. Принуждает соперника сделать активным предыдущего персонажа.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. Принуждает соперника сделать активным предыдущего персонажа.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Принуждает соперника сделать активным предыдущего персонажа.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2105}<color=#80FFD7FF>Анемо урон</color>, 3 ед. Принуждает соперника сделать активным предыдущего персонажа.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. Принуждает соперника сделать активным предыдущего персонажа.",
                     "id": 15012,
                     "name": "Эксперимент №6308",
                     "playcost": [
@@ -3260,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Наносит Анемо урон, 1 ед. и призывает помощника: Большой Воздушный дух.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и призывает помощника: Большой Воздушный дух.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C115011]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2105}<color=#80FFD7FF>Анемо урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Большой Воздушный дух</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Большой Воздушный дух</color>.",
                     "id": 15013,
                     "name": "Запретно! Изомер 75 / Тип II",
                     "playcost": [
@@ -3323,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Активируется Ближняя стойка, затем наносится Гидро урон, 2 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Активируется Ближняя стойка, затем наносится Физический урон, 2 ед.",
                     "descriptionraw": "Активируется <color=#FFFFFFFF>$[C112042]</color>, затем наносится $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Активируется <color=#FFFFFFFF>Ближняя стойка</color>, затем наносится {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 2 ед.",
+                    "descriptionreplaced": "Активируется <color=#FFFFFFFF>Ближняя стойка</color>, затем наносится {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед.",
                     "id": 12042,
                     "name": "Форма духа: Бушующие волны",
                     "playcost": [
@@ -3340,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Проводит разные атаки в зависимости от статуса, в котором находится Тарталья.\nДальняя стойка - Вспышка хаоса: наносит Гидро урон, 4 ед., возвращается Энергия, 2 ед. Целевой персонаж получает Отлив.\nБлижняя стойка - Свет погибели: наносит Гидро урон, 7 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Проводит разные атаки в зависимости от статуса, в котором находится Тарталья.\nДальняя стойка - Вспышка хаоса: наносит Физический урон, 4 ед., возвращается Энергия, 2 ед. Целевой персонаж получает Отлив.\nБлижняя стойка - Свет погибели: наносит Физический урон, 7 ед.",
                     "descriptionraw": "Проводит разные атаки в зависимости от статуса, в котором находится <color=#FFFFFFFF>$[A1204]</color>.\\n<color=#FFFFFFFF>Дальняя стойка - Вспышка хаоса:</color> наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE_4] ед., возвращается $[K310], 2 ед. Целевой персонаж получает <color=#FFFFFFFF>$[C112043]</color>.\\n<color=#FFFFFFFF>Ближняя стойка - Свет погибели:</color> наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Проводит разные атаки в зависимости от статуса, в котором находится <color=#FFFFFFFF>Тарталья</color>.\\n<color=#FFFFFFFF>Дальняя стойка - Вспышка хаоса:</color> наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 4 ед., возвращается <color=#FFFFFFFF>{SPRITE_PRESET#1110}Энергия</color>, 2 ед. Целевой персонаж получает <color=#FFFFFFFF>Отлив</color>.\\n<color=#FFFFFFFF>Ближняя стойка - Свет погибели:</color> наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 7 ед.",
+                    "descriptionreplaced": "Проводит разные атаки в зависимости от статуса, в котором находится <color=#FFFFFFFF>Тарталья</color>.\\n<color=#FFFFFFFF>Дальняя стойка - Вспышка хаоса:</color> наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед., возвращается <color=#FFFFFFFF>{SPRITE_PRESET#1110}Энергия</color>, 2 ед. Целевой персонаж получает <color=#FFFFFFFF>Отлив</color>.\\n<color=#FFFFFFFF>Ближняя стойка - Свет погибели:</color> наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 7 ед.",
                     "id": 12043,
                     "name": "Хаос: Опустошение",
                     "playcost": [
@@ -3433,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 2 ед. Персонажу достаётся Прорыв виджняны.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед. Персонажу достаётся Прорыв виджняны.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Персонажу достаётся <color=#FFFFFFFF>$[C117021]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 2 ед. Персонажу достаётся <color=#FFFFFFFF>Прорыв виджняны</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. Персонажу достаётся <color=#FFFFFFFF>Прорыв виджняны</color>.",
                     "id": 17022,
                     "name": "Мина виджняны-пхалы",
                     "playcost": [
@@ -3450,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Наносит Дендро урон, 4 ед., наносит Проникающий урон, 1 ед. всем неактивным персонажам противника.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед., наносит Проникающий урон, 1 ед. всем неактивным персонажам противника.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., наносит <color=#FFFFFFFF>$[K5], 1 ед.</color> всем неактивным персонажам противника.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2107}<color=#7EC236FF>Дендро урон</color>, 4 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 1 ед.</color> всем неактивным персонажам противника.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед., наносит <color=#FFFFFFFF><color=#FFFFFFFF>Проникающий урон</color>, 1 ед.</color> всем неактивным персонажам противника.",
                     "id": 17023,
                     "name": "Стрела-лиана жизни",
                     "playcost": [
@@ -3513,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Наносит Анемо урон, 2 ед., создаёт Область ветра.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., создаёт Область ветра.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., создаёт <color=#FFFFFFFF>$[C115031]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2105}<color=#80FFD7FF>Анемо урон</color>, 2 ед., создаёт <color=#FFFFFFFF>Область ветра</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., создаёт <color=#FFFFFFFF>Область ветра</color>.",
                     "id": 15032,
                     "name": "Небесная поэзия",
                     "playcost": [
@@ -3530,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Наносит Анемо урон, 2 ед., призывает помощника: Глаз бури.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., призывает помощника: Глаз бури.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., призывает помощника: <color=#FFFFFFFF>$[C115034]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2105}<color=#80FFD7FF>Анемо урон</color>, 2 ед., призывает помощника: <color=#FFFFFFFF>Глаз бури</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., призывает помощника: <color=#FFFFFFFF>Глаз бури</color>.",
                     "id": 15033,
                     "name": "Великая ода ветру",
                     "playcost": [
@@ -3607,11 +3787,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 2 ед. и создаёт Огневихрь.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. и создаёт Огневихрь.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C113022]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 2 ед. и создаёт <color=#FFFFFFFF>Огневихрь</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. и создаёт <color=#FFFFFFFF>Огневихрь</color>.",
                     "id": 13023,
                     "name": "Огневихрь",
                     "playcost": [
@@ -3671,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Наносит Анемо урон, 3 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2105}<color=#80FFD7FF>Анемо урон</color>, 3 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед.",
                     "id": 15042,
                     "name": "Лемниската ветра",
                     "playcost": [
@@ -3688,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Наносит Анемо урон, 4 ед. У персонажа появляется Маска Якса.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед. У персонажа появляется Маска Якса.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. У персонажа появляется <color=#FFFFFFFF>$[C115041]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2105}<color=#80FFD7FF>Анемо урон</color>, 4 ед. У персонажа появляется <color=#FFFFFFFF>Маска Якса</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед. У персонажа появляется <color=#FFFFFFFF>Маска Якса</color>.",
                     "id": 15043,
                     "name": "Истребление всего зла",
                     "playcost": [
@@ -3751,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 2 ед., даёт персонажу Эффект Гидро, создаёт Меч дождя.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 2 ед., даёт персонажу Эффект Гидро, создаёт Меч дождя.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., даёт персонажу $[K202], создаёт <color=#FFFFFFFF>$[C112021]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 2 ед., даёт персонажу <color=#80C0FFFF>Эффект {SPRITE_PRESET#2102}Гидро</color>, создаёт <color=#FFFFFFFF>Меч дождя</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед., даёт персонажу <color=#80C0FFFF>Эффект {SPRITE_PRESET#2102}Гидро</color>, создаёт <color=#FFFFFFFF>Меч дождя</color>.",
                     "id": 12022,
                     "name": "Завеса дождя",
                     "playcost": [
@@ -3768,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Наносит Гидро урон, 1 ед., даёт персонажу Эффект Гидро, создаёт Радужная стойка.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед., даёт персонажу Эффект Гидро, создаёт Радужная стойка.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., даёт персонажу $[K202], создаёт <color=#FFFFFFFF>$[C112022]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2102}<color=#80C0FFFF>Гидро урон</color>, 1 ед., даёт персонажу <color=#80C0FFFF>Эффект {SPRITE_PRESET#2102}Гидро</color>, создаёт <color=#FFFFFFFF>Радужная стойка</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед., даёт персонажу <color=#80C0FFFF>Эффект {SPRITE_PRESET#2102}Гидро</color>, создаёт <color=#FFFFFFFF>Радужная стойка</color>.",
                     "id": 12023,
                     "name": "Радужная стойка",
                     "playcost": [
@@ -3810,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 1 ед.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 1 ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
                     "id": 14081,
                     "name": "Пожирающая грехи кицунэ",
                     "playcost": [
@@ -3846,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Наносит Электро урон, 4 ед. Если у вас на поле боя есть Сакура сэссё, она исчезает, а затем создаются Молнии Небесной кицунэ.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед. Если у вас на поле боя есть Сакура сэссё, она исчезает, а затем создаются Молнии Небесной кицунэ.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Если у вас на поле боя есть <color=#FFFFFFFF>$[C114081]</color>, она исчезает, а затем создаются <color=#FFFFFFFF>$[C114083]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 4 ед. Если у вас на поле боя есть <color=#FFFFFFFF>Сакура сэссё</color>, она исчезает, а затем создаются <color=#FFFFFFFF>Молнии Небесной кицунэ</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед. Если у вас на поле боя есть <color=#FFFFFFFF>Сакура сэссё</color>, она исчезает, а затем создаются <color=#FFFFFFFF>Молнии Небесной кицунэ</color>.",
                     "id": 14083,
                     "name": "Великое тайное искусство: Тэнко кэнсин",
                     "playcost": [
@@ -3878,6 +4058,86 @@
                 "Электро",
                 "Катализатор",
                 "Инадзума"
+            ]
+        },
+        "yanfei": {
+            "hp": 10,
+            "id": 1308,
+            "maxenergy": 2,
+            "name": "Янь Фэй",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед.",
+                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед.",
+                    "id": 13081,
+                    "name": "Печать одобрения",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Обычная атака",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. У персонажа возникает Багровая печать.",
+                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. У персонажа возникает <color=#FFFFFFFF>$[C113081]</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. У персонажа возникает <color=#FFFFFFFF>Багровая печать</color>.",
+                    "id": 13082,
+                    "name": "Подписанный указ",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Элементальный навык",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. У персонажа возникают Багровая печать и Блеск.",
+                    "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. У персонажа возникают <color=#FFFFFFFF>$[C113081]</color> и <color=#FFFFFFFF>$[C113082]</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. У персонажа возникают <color=#FFFFFFFF>Багровая печать</color> и <color=#FFFFFFFF>Блеск</color>.",
+                    "id": 13083,
+                    "name": "По рукам",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Взрыв стихии",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Награда за приглашение Янь Фэй в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+            "storytext": "Закон порой слеп, а наставления старины могут нуждаться в пересмотре.",
+            "storytitle": "Непорочная мудрость: Янь Фэй",
+            "tags": [
+                "GCG_TAG_ELEMENT_PYRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Пиро",
+                "Катализатор",
+                "Ли Юэ"
             ]
         },
         "yoimiya": {
@@ -3923,17 +4183,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Наносит Пиро урон, 4 ед. и создаёт Золотое сияние.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. и создаёт Золотое сияние.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и создаёт <color=#FFFFFFFF>$[C113052]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2103}<color=#FF9999FF>Пиро урон</color>, 4 ед. и создаёт <color=#FFFFFFFF>Золотое сияние</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. и создаёт <color=#FFFFFFFF>Золотое сияние</color>.",
                     "id": 13053,
                     "name": "Камнеломка Рюкин",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_PYRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -3987,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 1 ед. и призывает помощника: Каменная стела.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 1 ед. и призывает помощника: Каменная стела.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <color=#FFFFFFFF>$[C116031]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Каменная стела</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 1 ед. и призывает помощника: <color=#FFFFFFFF>Каменная стела</color>.",
                     "id": 16032,
                     "name": "Власть над камнем",
                     "playcost": [
@@ -4004,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 3 ед. Призывается Каменная стела, создаётся Яшмовый щит.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 3 ед. Призывается Каменная стела, создаётся Яшмовый щит.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Призывается <color=#FFFFFFFF>$[C116031]</color>, создаётся <color=#FFFFFFFF>$[C116032]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 3 ед. Призывается <color=#FFFFFFFF>Каменная стела</color>, создаётся <color=#FFFFFFFF>Яшмовый щит</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 3 ед. Призывается <color=#FFFFFFFF>Каменная стела</color>, создаётся <color=#FFFFFFFF>Яшмовый щит</color>.",
                     "id": 16033,
                     "name": "Власть над камнем: Внушительный удар",
                     "playcost": [
@@ -4021,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Наносит Гео урон, 4 ед., цель получает Окаменение.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Наносит Физический урон, 4 ед., цель получает Окаменение.",
                     "descriptionraw": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., цель получает <color=#FFFFFFFF>$[C116033]</color>.",
-                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 4 ед., цель получает <color=#FFFFFFFF>Окаменение</color>.",
+                    "descriptionreplaced": "Наносит {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 4 ед., цель получает <color=#FFFFFFFF>Окаменение</color>.",
                     "id": 16034,
                     "name": "Падение кометы",
                     "playcost": [
@@ -4065,6 +4325,7 @@
                 "barbara",
                 "beidou",
                 "bennett",
+                "candace",
                 "chongyun",
                 "collei",
                 "cyno",
@@ -4078,6 +4339,7 @@
                 "hutao",
                 "jadeplumeterrorshroom",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4103,6 +4365,7 @@
                 "xiao",
                 "xingqiu",
                 "yaemiko",
+                "yanfei",
                 "yoimiya",
                 "zhongli"
             ],
@@ -4110,18 +4373,21 @@
                 "abysslectorfathomlessflames",
                 "amber",
                 "bennett",
+                "candace",
                 "collei",
                 "cyno",
                 "electrohypostasis",
                 "eula",
                 "fatuipyroagent",
                 "jadeplumeterrorshroom",
+                "kaedeharakazuha",
                 "kaeya",
                 "kujousara",
                 "mirrormaiden",
                 "nahida",
                 "noelle",
                 "raidenshogun",
+                "razor",
                 "sangonomiyakokomi",
                 "shenhe",
                 "stonehidelawachurl",
@@ -4131,7 +4397,8 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "3": [
                 "aratakiitto",
@@ -4152,7 +4419,6 @@
                 "maguukenki",
                 "mona",
                 "ningguang",
-                "razor",
                 "rhodeiaofloch",
                 "tartaglia",
                 "yoimiya",
@@ -4184,6 +4450,7 @@
             ],
             "GCG_TAG_ELEMENT_ANEMO": [
                 "jean",
+                "kaedeharakazuha",
                 "maguukenki",
                 "sucrose",
                 "venti",
@@ -4225,6 +4492,7 @@
             ],
             "GCG_TAG_ELEMENT_HYDRO": [
                 "barbara",
+                "candace",
                 "kamisatoayato",
                 "mirrormaiden",
                 "mona",
@@ -4242,10 +4510,12 @@
                 "hutao",
                 "klee",
                 "xiangling",
+                "yanfei",
                 "yoimiya"
             ],
             "GCG_TAG_NATION_INAZUMA": [
                 "aratakiitto",
+                "kaedeharakazuha",
                 "kamisatoayaka",
                 "kamisatoayato",
                 "kujousara",
@@ -4265,6 +4535,7 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
+                "yanfei",
                 "zhongli"
             ],
             "GCG_TAG_NATION_MONDSTADT": [
@@ -4285,6 +4556,7 @@
                 "venti"
             ],
             "GCG_TAG_NATION_SUMERU": [
+                "candace",
                 "collei",
                 "cyno",
                 "nahida",
@@ -4310,7 +4582,8 @@
                 "ningguang",
                 "sangonomiyakokomi",
                 "sucrose",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "GCG_TAG_WEAPON_CLAYMORE": [
                 "aratakiitto",
@@ -4333,6 +4606,7 @@
                 "stonehidelawachurl"
             ],
             "GCG_TAG_WEAPON_POLE": [
+                "candace",
                 "cyno",
                 "hutao",
                 "raidenshogun",
@@ -4344,6 +4618,7 @@
             "GCG_TAG_WEAPON_SWORD": [
                 "bennett",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4358,6 +4633,7 @@
             "barbara": "Барбара",
             "beidou": "Бэй Доу",
             "bennett": "Беннет",
+            "candace": "Кандакия",
             "chongyun": "Чун Юнь",
             "collei": "Коллеи",
             "cyno": "Сайно",
@@ -4372,6 +4648,7 @@
             "hutao": "Ху Тао",
             "jadeplumeterrorshroom": "Пернатый плесенник",
             "jean": "Джинн",
+            "kaedeharakazuha": "Каэдэхара Кадзуха",
             "kaeya": "Кэйа",
             "kamisatoayaka": "Камисато Аяка",
             "kamisatoayato": "Камисато Аято",
@@ -4398,6 +4675,7 @@
             "xiao": "Сяо",
             "xingqiu": "Син Цю",
             "yaemiko": "Яэ Мико",
+            "yanfei": "Янь Фэй",
             "yoimiya": "Ёимия",
             "zhongli": "Чжун Ли"
         },
@@ -4415,6 +4693,8 @@
             "Зеркальная дева Фатуи": "mirrormaiden",
             "Камисато Аяка": "kamisatoayaka",
             "Камисато Аято": "kamisatoayato",
+            "Кандакия": "candace",
+            "Каэдэхара Кадзуха": "kaedeharakazuha",
             "Кли": "klee",
             "Коллеи": "collei",
             "Кудзё Сара": "kujousara",
@@ -4449,6 +4729,7 @@
             "Электро гипостазис": "electrohypostasis",
             "Эмбер": "amber",
             "Эола": "eula",
+            "Янь Фэй": "yanfei",
             "Яэ Мико": "yaemiko"
         },
         "properties": {
@@ -4475,10 +4756,10 @@
                 "GCG_TAG_ELEMENT_ELECTRO",
                 "GCG_TAG_NATION_LIYUE",
                 "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU",
                 "GCG_TAG_ELEMENT_CRYO",
                 "GCG_TAG_ELEMENT_DENDRO",
-                "GCG_TAG_NATION_SUMERU",
-                "GCG_TAG_WEAPON_POLE",
                 "GCG_TAG_CAMP_FATUI",
                 "GCG_TAG_ELEMENT_ANEMO",
                 "GCG_TAG_CAMP_HILICHURL"

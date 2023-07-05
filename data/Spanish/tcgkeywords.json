@@ -21,6 +21,13 @@
             "name": "Daño Anemo",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color>"
         },
+        "arcaneedict": {
+            "description": "Cada jugador solo puede usar 1 carta de técnica secreta por partida.\nMientras el edicto arcano siga en juego, podrás jugar cartas de técnica secreta. Después de jugar una carta de técnica secreta, desaparecerá el edicto arcano.",
+            "descriptionraw": "Cada jugador solo puede usar 1 carta de {SPRITE_PRESET#3007}técnica secreta por partida.\\nMientras el {SPRITE_PRESET#1112}edicto arcano siga en juego, podrás jugar cartas de {SPRITE_PRESET#3007}técnica secreta. Después de jugar una carta de {SPRITE_PRESET#3007}técnica secreta, desaparecerá el {SPRITE_PRESET#1112}edicto arcano.",
+            "id": 311,
+            "name": "Edicto arcano",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}Edicto arcano</color>|s1:<color=#FFFFFFFF>{SPRITE_PRESET#1112}edicto arcano</color>"
+        },
         "bloodblossom": {
             "description": "Fase final: inflige 1 pt. de Daño Pyro al personaje afectado.\nNúmero de usos: 1.",
             "descriptionraw": "<color=#FFFFFFFF>Fase final:</color> inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> al personaje afectado.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Número de usos: </color>1</color>.",
@@ -266,7 +273,7 @@
             "name": "Ataque Descendente",
             "nameraw": "<color=#FFFFFFFF>Ataque Descendente</color>"
         },
-        "prepareskill": {
+        "prepareskills1prepares": {
             "description": "No todas las habilidades pueden usarse de forma directa. Algunas requieren un cierto número de turnos de preparación.\nAl llegar el turno de un jugador cuyo personaje está preparando la habilidad, se saltará el turno de dicho jugador. Si la habilidad está completamente preparada, el personaje ejecutará dicha habilidad inmediatamente. Las habilidades que necesitan preparación no pueden activar ningún efecto tras ser usadas.\nSolo el personaje en combate puede preparar su habilidad. Si dicho personaje en combate es reemplazado por otro durante la preparación de su habilidad, esta se interrumpirá.",
             "descriptionraw": "No todas las habilidades pueden usarse de forma directa. Algunas requieren un cierto número de turnos de <color=#FFFFFFFF>preparación</color>.\\nAl llegar el turno de un jugador cuyo personaje está <color=#FFFFFFFF>preparando</color> la habilidad, se saltará el turno de dicho jugador. Si la habilidad está <color=#FFFFFFFF>completamente preparada</color>, el personaje ejecutará dicha habilidad inmediatamente. Las habilidades que necesitan <color=#FFFFFFFF>preparación</color> no pueden activar ningún efecto tras ser usadas.\\nSolo el personaje en combate puede <color=#FFFFFFFF>preparar</color> su habilidad. Si dicho personaje en combate es reemplazado por otro durante la <color=#FFFFFFFF>preparación</color> de su habilidad, esta se interrumpirá.",
             "id": 53,
@@ -277,8 +284,8 @@
             "description": "Gasta 1 dado Pyro para pagar su coste.\nTambién se puede pagar con un omnidado.",
             "descriptionraw": "Gasta 1 <color=#FF9999FF>{SPRITE_PRESET#1103}dado Pyro</color> para pagar su coste.\\nTambién se puede pagar con un {SPRITE_PRESET#1111}omnidado.",
             "id": 303,
-            "name": "Pyro",
-            "nameraw": "{SPRITE_PRESET#1103}Pyro"
+            "name": "Dados Pyro",
+            "nameraw": "{SPRITE_PRESET#1103}Dados Pyro|s1:{SPRITE_PRESET#1103}Dado Pyro|s2:{SPRITE_PRESET#1103}dados Pyro|s3:{SPRITE_PRESET#1103}dado Pyro"
         },
         "pyroapplication": {
             "description": "Al aplicar Pyro sin infligir daño, las Reacciones Elementales ignorarán los efectos que causen daño:\nDerretido: sin efecto.\nVaporización: sin efecto.\nSobrecarga: el objetivo se cambia al siguiente personaje.\nQuemadura: al finalizar la ronda crea una llama ardiente que inflige 1 pt. de Daño Pyro. Número de usos: 1. Puede acumularse un máximo de 2 veces.",
@@ -314,6 +321,13 @@
             "id": 1005,
             "name": "Obstrucción del flujo",
             "nameraw": "<color=#FFFFFFFF>Obstrucción del flujo</color>|s1:<color=#FFFFFFFF>obstrucción del flujo</color>"
+        },
+        "scarletseal": {
+            "description": "Cuando el personaje ejecuta un Ataque Cargado, inflige daño +2.\nNúmero de usos: 1",
+            "descriptionraw": "Cuando <color=#FFFFFFFF>el personaje ejecuta un <color=#FFFFFFFF>Ataque Cargado</color></color>, inflige daño +2.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Número de usos</color>: 1</color>",
+            "id": 1010,
+            "name": "Sello escarlata",
+            "nameraw": "<color=#FFFFFFFF>Sello escarlata</color>|s1:sello escarlata"
         },
         "shield": {
             "description": "Este escudo se consumirá para bloquear el daño infligido contra el personaje que esté protegido por él.",
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "Escudo de llamas abismales",
             "anemo": "Anemo",
             "anemodmg": "Daño Anemo",
+            "arcaneedict": "Edicto arcano",
             "bloodblossom": "Pétalos sangrientos",
             "characterclosesttoyourcurrentactivecharacter": "Personaje más cercano a tu personaje en combate",
             "chargedattack": "Ataque Cargado",
@@ -386,13 +401,14 @@
             "physicaldmg": "Daño Físico",
             "piercingdmg": "Daño Penetrante",
             "plungingattack": "Ataque Descendente",
-            "prepareskill": "Preparación de habilidad",
-            "pyro": "Pyro",
+            "prepareskills1prepares": "Preparación de habilidad",
+            "pyro": "Dados Pyro",
             "pyroapplication": "Aplicación Pyro",
             "pyrodmg": "Daño Pyro",
             "pyrorelatedreactions": "Reacciones Elementales Pyro",
             "randomhilichurlsummon": "Invocación de Hilichurl aleatoria",
             "riptide": "Obstrucción del flujo",
+            "scarletseal": "Sello escarlata",
             "shield": "Escudo",
             "superlativesuperstrength": "Fuerza sobrenatural",
             "unalignedelement": "Dado indefinido",
@@ -412,6 +428,7 @@
             "Ataque Descendente": "plungingattack",
             "Cryo": "cryo",
             "Dado indefinido": "unalignedelement",
+            "Dados Pyro": "pyro",
             "Dados unielementales": "matchingelement",
             "Daño Anemo": "anemodmg",
             "Daño Cryo": "cryodmg",
@@ -424,6 +441,7 @@
             "Daño Pyro": "pyrodmg",
             "Dendro": "dendro",
             "Duración de rondas": "durationrounds",
+            "Edicto arcano": "arcaneedict",
             "Electro": "electro",
             "Energía": "energy",
             "Escudo": "shield",
@@ -440,13 +458,13 @@
             "Obstrucción del flujo": "riptide",
             "Omnidado": "omnielement",
             "Personaje más cercano a tu personaje en combate": "characterclosesttoyourcurrentactivecharacter",
-            "Preparación de habilidad": "prepareskill",
+            "Preparación de habilidad": "prepareskills1prepares",
             "Prevención de derrota": "immunitytodefeats1willnotbedefeated",
-            "Pyro": "pyro",
             "Pétalos sangrientos": "bloodblossom",
             "Reacciones Elementales Dendro": "dendrorelatedreactions",
             "Reacciones Elementales Hydro": "hydrorelatedreactions",
             "Reacciones Elementales Pyro": "pyrorelatedreactions",
+            "Sello escarlata": "scarletseal",
             "Usos": "usages"
         },
         "properties": {}

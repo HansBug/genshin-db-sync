@@ -1,5 +1,18 @@
 {
     "items": {
+        "autumnwhirlwind": {
+            "cardtypetext": "Invocation",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Phase finale : Inflige 1 pt de DGT Anémo.\nNombre d'utilisations : 3\n\nLorsqu'un de vos personnages ou invocations ont déclenché une réaction de Dispersion : Convertit le type élémentaire de cette carte et modifie les DGT infligés en l'élément dispersé. (Ne peut être utilisé qu'une seule fois avant de quitter le terrain)",
+            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de $[K105].\\n<color=#FFFFFFFF>$[K3] : 3</color>\\n\\n<color=#FFFFFFFF>Lorsqu'un de vos personnages ou invocations ont déclenché une réaction de Dispersion : </color>Convertit le type élémentaire de cette carte et modifie les DGT infligés en l'élément dispersé. (Ne peut être utilisé qu'une seule fois avant de quitter le terrain)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations</color> : 3</color>\\n\\n<color=#FFFFFFFF>Lorsqu'un de vos personnages ou invocations ont déclenché une réaction de Dispersion : </color>Convertit le type élémentaire de cette carte et modifie les DGT infligés en l'élément dispersé. (Ne peut être utilisé qu'une seule fois avant de quitter le terrain)",
+            "hinttype": "GCG_HINT_ANEMO",
+            "id": 115052,
+            "name": "Vent d'automne",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "bakekurage": {
             "cardtypetext": "Invocation",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -267,9 +280,9 @@
         "largewindspirit-01": {
             "cardtypetext": "Invocation",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "Phase finale : Inflige 2 pts de DGT Anémo.\nNombre d'utilisations : 3\n\nLorsqu'un de vos personnages ou invocations ont déclenché une réaction de Dispersion : Convertit le type élémentaire de cette carte et modifie les DGT infligés en l'élément dispersé. (Ne peut être utilisé qu'une seule fois avant de quitter le terrain)",
-            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 2 pts de $[K105].\\n<color=#FFFFFFFF>$[K3] : 3</color>\\n\\n<color=#FFFFFFFF>Lorsqu'un de vos personnages ou invocations ont déclenché une réaction de Dispersion : </color>Convertit le type élémentaire de cette carte et modifie les DGT infligés en l'élément dispersé. (Ne peut être utilisé qu'une seule fois avant de quitter le terrain)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Phase finale : </color>Inflige 2 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations</color> : 3</color>\\n\\n<color=#FFFFFFFF>Lorsqu'un de vos personnages ou invocations ont déclenché une réaction de Dispersion : </color>Convertit le type élémentaire de cette carte et modifie les DGT infligés en l'élément dispersé. (Ne peut être utilisé qu'une seule fois avant de quitter le terrain)",
+            "description": "Phase finale : Inflige 2 pts de DGT Anémo.\nNombre d'utilisations : 3\n\nLorsqu'un de vos personnages ou invocations ont déclenché une réaction de Dispersion : Convertit le type élémentaire de cette carte et modifie les DGT infligés en l'élément dispersé. (Ne peut être utilisé qu'une seule fois avant de quitter le terrain)\nLorsque cette invocation est sur le terrain : Si le type élémentaire de cette carte a été converti, DGT de ce type élémentaire que vous infligez +1.",
+            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 2 pts de $[K105].\\n<color=#FFFFFFFF>$[K3] : 3</color>\\n\\n<color=#FFFFFFFF>Lorsqu'un de vos personnages ou invocations ont déclenché une réaction de Dispersion : </color>Convertit le type élémentaire de cette carte et modifie les DGT infligés en l'élément dispersé. (Ne peut être utilisé qu'une seule fois avant de quitter le terrain)\\n<color=#FFFFFFFF>Lorsque cette invocation est sur le terrain : </color>Si le type élémentaire de cette carte a été converti, DGT de ce type élémentaire que vous infligez +1.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Phase finale : </color>Inflige 2 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations</color> : 3</color>\\n\\n<color=#FFFFFFFF>Lorsqu'un de vos personnages ou invocations ont déclenché une réaction de Dispersion : </color>Convertit le type élémentaire de cette carte et modifie les DGT infligés en l'élément dispersé. (Ne peut être utilisé qu'une seule fois avant de quitter le terrain)\\n<color=#FFFFFFFF>Lorsque cette invocation est sur le terrain : </color>Si le type élémentaire de cette carte a été converti, DGT de ce type élémentaire que vous infligez +1.",
             "hinttype": "GCG_HINT_ANEMO",
             "id": 115012,
             "name": "Esprit du vent de grande taille",
@@ -280,9 +293,9 @@
         "lightfallsword": {
             "cardtypetext": "Invocation",
             "countingtype": "GCG_TOKEN_COUNTER",
-            "description": "Lorsqu'Eula utilise une attaque normale ou une compétence élémentaire : Cette carte obtient 2 cumuls d'énergie, mais Eula ne peut plus obtenir de charges.\nPhase finale : Défausse la carte et inflige 2 pts de DGT physiques, chaque cumul d'énergie augmentant ces DGT de 1.\n(Les effets affectant le nombre d'utilisations de cette carte s'appliquent aux cumuls d'énergie.)",
-            "descriptionraw": "<color=#FFFFFFFF>Lorsqu'$[A1106] utilise une attaque normale ou une compétence élémentaire : </color>Cette carte obtient 2 cumuls d'énergie, mais $[A1106] ne peut plus obtenir de charges.\\n<color=#FFFFFFFF>Phase finale : </color>Défausse la carte et inflige 2 pts de $[K100], chaque cumul d'énergie augmentant ces DGT de 1.\\n(Les effets affectant le $[K3|s2] de cette carte s'appliquent aux <color=#FFFFFFFF>cumuls d'énergie</color>.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Lorsqu'Eula utilise une attaque normale ou une compétence élémentaire : </color>Cette carte obtient 2 cumuls d'énergie, mais Eula ne peut plus obtenir de charges.\\n<color=#FFFFFFFF>Phase finale : </color>Défausse la carte et inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, chaque cumul d'énergie augmentant ces DGT de 1.\\n(Les effets affectant le <color=#FFFFFFFF>nombre d'utilisations</color> de cette carte s'appliquent aux <color=#FFFFFFFF>cumuls d'énergie</color>.)",
+            "description": "Lorsqu'Eula utilise une attaque normale ou une compétence élémentaire : Cette carte obtient 2 cumuls d'énergie, mais Eula ne peut plus obtenir de charges.\nPhase finale : Défausse la carte et inflige 3 pts de DGT physiques, chaque cumul d'énergie augmentant ces DGT de 1.\n(Les effets affectant le nombre d'utilisations de cette carte s'appliquent aux cumuls d'énergie.)",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsqu'$[A1106] utilise une attaque normale ou une compétence élémentaire : </color>Cette carte obtient 2 cumuls d'énergie, mais $[A1106] ne peut plus obtenir de charges.\\n<color=#FFFFFFFF>Phase finale : </color>Défausse la carte et inflige 3 pts de $[K100], chaque cumul d'énergie augmentant ces DGT de 1.\\n(Les effets affectant le $[K3|s2] de cette carte s'appliquent aux <color=#FFFFFFFF>cumuls d'énergie</color>.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsqu'Eula utilise une attaque normale ou une compétence élémentaire : </color>Cette carte obtient 2 cumuls d'énergie, mais Eula ne peut plus obtenir de charges.\\n<color=#FFFFFFFF>Phase finale : </color>Défausse la carte et inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, chaque cumul d'énergie augmentant ces DGT de 1.\\n(Les effets affectant le <color=#FFFFFFFF>nombre d'utilisations</color> de cette carte s'appliquent aux <color=#FFFFFFFF>cumuls d'énergie</color>.)",
             "hinttype": "GCG_HINT_VOID",
             "id": 111062,
             "name": "Épée de lumière",
@@ -542,6 +555,7 @@
         "aliases": {},
         "categories": {
             "GCG_HINT_ANEMO": [
+                "autumnwhirlwind",
                 "dandelionfield",
                 "largewindspirit-01",
                 "largewindspirit",
@@ -616,6 +630,7 @@
                 "lightfallsword"
             ],
             "GCG_TOKEN_ICON_HOURGLASS": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -654,6 +669,7 @@
                 "whirlwind"
             ],
             "GCG_TOKEN_LIFE": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -699,6 +715,7 @@
             ]
         },
         "namemap": {
+            "autumnwhirlwind": "Vent d'automne",
             "bakekurage": "Méduse fantôme",
             "baronbunny": "Baron Lapinou",
             "burningflame": "Flamme brûlante",
@@ -776,6 +793,7 @@
             "Tornade": "whirlwind",
             "Tourbillon givré": "frostflakesekinoto",
             "Ushi": "ushi",
+            "Vent d'automne": "autumnwhirlwind",
             "Épée d'ombre : Brise": "shadowswordlonegale",
             "Épée d'ombre : Givre": "shadowswordgallopingfrost",
             "Épée de lumière": "lightfallsword",
@@ -789,12 +807,12 @@
                 "GCG_TOKEN_COUNTER"
             ],
             "hinttype": [
+                "GCG_HINT_ANEMO",
                 "GCG_HINT_HYDRO",
                 "GCG_HINT_PYRO",
                 "GCG_HINT_ELECTRO",
                 "GCG_HINT_DENDRO",
                 "GCG_HINT_CRYO",
-                "GCG_HINT_ANEMO",
                 "GCG_HINT_HEAL",
                 "GCG_HINT_VOID",
                 "GCG_HINT_GEO"

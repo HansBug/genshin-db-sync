@@ -25,8 +25,8 @@
             "source": "İlk defa elde et."
         },
         "sumeru": {
-            "description": "Ey bilgelik otu, sil göz yaşlarını!\nBu yakıcı rüzgarlar son bulacak.\nKutsanmış yağmurlar yağacak, açacak çiçekler...\nDinle! Yeşil bahçenin şarkısı yankılanıyor bir kez daha.",
-            "descriptionraw": "Ey bilgelik otu, sil göz yaşlarını!\\nBu yakıcı rüzgarlar son bulacak.\\nKutsanmış yağmurlar yağacak, açacak çiçekler...\\nDinle! Yeşil bahçenin şarkısı yankılanıyor bir kez daha.",
+            "description": "Ey bilgelik otu, sil gözyaşlarını!\nBu yakıcı rüzgarlar son bulacak.\nKutsanmış yağmurlar yağacak, açacak çiçekler...\nDinle! Yeşil bahçenin şarkısı yankılanıyor bir kez daha.",
+            "descriptionraw": "Ey bilgelik otu, sil gözyaşlarını!\\nBu yakıcı rüzgarlar son bulacak.\\nKutsanmış yağmurlar yağacak, açacak çiçekler...\\nDinle! Yeşil bahçenin şarkısı yankılanıyor bir kez daha.",
             "id": 103,
             "name": "Sumeru",
             "rarity": 4,

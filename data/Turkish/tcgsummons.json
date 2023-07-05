@@ -1,5 +1,18 @@
 {
     "items": {
+        "autumnwhirlwind": {
+            "cardtypetext": "Minyon",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Son Aşama: 1 Rüzgar Hasarı verir.\nKullanım Hakkı: 3\n\nKarakterlerin veya Minyonların Girdap tepkimesi tetiklediğinde bu kartın Element Türü değişir ve verdiği Hasar, Girdap tepkimesi tetiklediği elemente dönüşür. (Alanı terk etmeden önce bir defa kullanılabilir.)",
+            "descriptionraw": "<color=#FFFFFFFF>Son Aşama:</color> 1 $[K105] verir.\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Karakterlerin veya Minyonların Girdap tepkimesi tetiklediğinde</color> bu kartın Element Türü değişir ve verdiği Hasar, Girdap tepkimesi tetiklediği elemente dönüşür. (Alanı terk etmeden önce bir defa kullanılabilir.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Son Aşama:</color> 1 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 3</color>\\n\\n<color=#FFFFFFFF>Karakterlerin veya Minyonların Girdap tepkimesi tetiklediğinde</color> bu kartın Element Türü değişir ve verdiği Hasar, Girdap tepkimesi tetiklediği elemente dönüşür. (Alanı terk etmeden önce bir defa kullanılabilir.)",
+            "hinttype": "GCG_HINT_ANEMO",
+            "id": 115052,
+            "name": "Güz Kasırgası",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "bakekurage": {
             "cardtypetext": "Minyon",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -267,9 +280,9 @@
         "largewindspirit-01": {
             "cardtypetext": "Minyon",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "Son Aşama: 2 Rüzgar Hasarı verir.\nKullanım Hakkı: 3\n\nKarakterin veya Minyonun Girdap tepkimesi tetiklediğinde bu kartın Element Türü değişir ve verdiği Hasar, Girdap tepkimesi tetiklediği elemente dönüşür. (Alanı terk etmeden önce bir defa kullanılabilir.)",
-            "descriptionraw": "<color=#FFFFFFFF>Son Aşama:</color> 2 $[K105] verir.\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Karakterin veya Minyonun Girdap tepkimesi tetiklediğinde</color> bu kartın Element Türü değişir ve verdiği Hasar, Girdap tepkimesi tetiklediği elemente dönüşür. (Alanı terk etmeden önce bir defa kullanılabilir.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Son Aşama:</color> 2 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 3</color>\\n\\n<color=#FFFFFFFF>Karakterin veya Minyonun Girdap tepkimesi tetiklediğinde</color> bu kartın Element Türü değişir ve verdiği Hasar, Girdap tepkimesi tetiklediği elemente dönüşür. (Alanı terk etmeden önce bir defa kullanılabilir.)",
+            "description": "Son Aşama: 2 Rüzgar Hasarı verir.\nKullanım Hakkı: 3\n\nKarakterlerin veya Minyonların Girdap tepkimesi tetiklediğinde bu kartın Element Türü değişir ve verdiği Hasar, Girdap tepkimesi tetiklediği elemente dönüşür. (Alanı terk etmeden önce bir defa kullanılabilir.)\nBu Minyon oyundayken bu kartın Element Türü değiştiyse o Elementten verdiği Hasar 1 artar.",
+            "descriptionraw": "<color=#FFFFFFFF>Son Aşama:</color> 2 $[K105] verir.\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>Karakterlerin veya Minyonların Girdap tepkimesi tetiklediğinde</color> bu kartın Element Türü değişir ve verdiği Hasar, Girdap tepkimesi tetiklediği elemente dönüşür. (Alanı terk etmeden önce bir defa kullanılabilir.)\\n<color=#FFFFFFFF>Bu Minyon oyundayken bu kartın Element Türü değiştiyse o Elementten verdiği Hasar 1 artar.</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Son Aşama:</color> 2 {SPRITE_PRESET#2105}<color=#80FFD7FF>Rüzgar Hasarı</color> verir.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 3</color>\\n\\n<color=#FFFFFFFF>Karakterlerin veya Minyonların Girdap tepkimesi tetiklediğinde</color> bu kartın Element Türü değişir ve verdiği Hasar, Girdap tepkimesi tetiklediği elemente dönüşür. (Alanı terk etmeden önce bir defa kullanılabilir.)\\n<color=#FFFFFFFF>Bu Minyon oyundayken bu kartın Element Türü değiştiyse o Elementten verdiği Hasar 1 artar.</color>",
             "hinttype": "GCG_HINT_ANEMO",
             "id": 115012,
             "name": "Büyük Rüzgar Ruhu",
@@ -280,9 +293,9 @@
         "lightfallsword": {
             "cardtypetext": "Minyon",
             "countingtype": "GCG_TOKEN_COUNTER",
-            "description": "Eula, bir Normal Saldırı ya da Element Becerisi kullandığında bu kart 2 kademe Azim biriktirir ancak Eula Enerji kazanmaz.\nSon Aşama: Bu kartı atarak 2 Fiziksel Hasar verebilirsin. Her bir Azim kademesi bu seferki Hasarı 1 artırır.\n(Bu kartın Kullanım Hakkı üzerindeki etkiler Azim için uygulanır.)",
-            "descriptionraw": "<color=#FFFFFFFF>$[A1106], bir Normal Saldırı ya da Element Becerisi kullandığında</color> bu kart 2 kademe Azim biriktirir ancak $[A1106] Enerji kazanmaz.\\n<color=#FFFFFFFF>Son Aşama:</color> Bu kartı atarak 2 $[K100] verebilirsin. Her bir Azim kademesi bu seferki Hasarı 1 artırır.\\n(Bu kartın $[K3] üzerindeki etkiler <color=#FFFFFFFF>Azim</color> için uygulanır.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Eula, bir Normal Saldırı ya da Element Becerisi kullandığında</color> bu kart 2 kademe Azim biriktirir ancak Eula Enerji kazanmaz.\\n<color=#FFFFFFFF>Son Aşama:</color> Bu kartı atarak 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verebilirsin. Her bir Azim kademesi bu seferki Hasarı 1 artırır.\\n(Bu kartın <color=#FFFFFFFF>Kullanım Hakkı</color> üzerindeki etkiler <color=#FFFFFFFF>Azim</color> için uygulanır.)",
+            "description": "Eula, bir Normal Saldırı ya da Element Becerisi kullandığında bu kart 2 kademe Azim biriktirir ancak Eula Enerji kazanmaz.\nSon Aşama: Bu kartı atarak 3 Fiziksel Hasar verebilirsin. Her bir Azim kademesi bu seferki Hasarı 1 artırır.\n(Bu kartın Kullanım Hakkı üzerindeki etkiler Azim için uygulanır.)",
+            "descriptionraw": "<color=#FFFFFFFF>$[A1106], bir Normal Saldırı ya da Element Becerisi kullandığında</color> bu kart 2 kademe Azim biriktirir ancak $[A1106] Enerji kazanmaz.\\n<color=#FFFFFFFF>Son Aşama:</color> Bu kartı atarak 3 $[K100] verebilirsin. Her bir Azim kademesi bu seferki Hasarı 1 artırır.\\n(Bu kartın $[K3] üzerindeki etkiler <color=#FFFFFFFF>Azim</color> için uygulanır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Eula, bir Normal Saldırı ya da Element Becerisi kullandığında</color> bu kart 2 kademe Azim biriktirir ancak Eula Enerji kazanmaz.\\n<color=#FFFFFFFF>Son Aşama:</color> Bu kartı atarak 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verebilirsin. Her bir Azim kademesi bu seferki Hasarı 1 artırır.\\n(Bu kartın <color=#FFFFFFFF>Kullanım Hakkı</color> üzerindeki etkiler <color=#FFFFFFFF>Azim</color> için uygulanır.)",
             "hinttype": "GCG_HINT_VOID",
             "id": 111062,
             "name": "Işıksaçan Kılıcı",
@@ -542,6 +555,7 @@
         "aliases": {},
         "categories": {
             "GCG_HINT_ANEMO": [
+                "autumnwhirlwind",
                 "dandelionfield",
                 "largewindspirit-01",
                 "largewindspirit",
@@ -616,6 +630,7 @@
                 "lightfallsword"
             ],
             "GCG_TOKEN_ICON_HOURGLASS": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -654,6 +669,7 @@
                 "whirlwind"
             ],
             "GCG_TOKEN_LIFE": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -699,6 +715,7 @@
             ]
         },
         "namemap": {
+            "autumnwhirlwind": "Güz Kasırgası",
             "bakekurage": "Bake-Kurage",
             "baronbunny": "Baron Tavşan",
             "burningflame": "Yakıcı Alev",
@@ -754,6 +771,7 @@
             "Guoba": "guoba",
             "Gölge Kılıcı: Doludizgin Ayaz": "shadowswordgallopingfrost",
             "Gölge Kılıcı: Yalnız Rüzgar": "shadowswordlonegale",
+            "Güz Kasırgası": "autumnwhirlwind",
             "Hiddetli Yargının Gözü": "eyeofstormyjudgment",
             "Hortum": "whirlwind",
             "Işıksaçan Kılıcı": "lightfallsword",
@@ -789,12 +807,12 @@
                 "GCG_TOKEN_COUNTER"
             ],
             "hinttype": [
+                "GCG_HINT_ANEMO",
                 "GCG_HINT_HYDRO",
                 "GCG_HINT_PYRO",
                 "GCG_HINT_ELECTRO",
                 "GCG_HINT_DENDRO",
                 "GCG_HINT_CRYO",
-                "GCG_HINT_ANEMO",
                 "GCG_HINT_HEAL",
                 "GCG_HINT_VOID",
                 "GCG_HINT_GEO"

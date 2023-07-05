@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 1 pt. de Daño Pyro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 23021,
                     "name": "Llama de la salvación",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 3 pts. de Daño Pyro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 23022,
                     "name": "Llamada de las ascuas",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 3 pts. de Daño Pyro y crea un horno de llamas oscuras.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y crea un horno de llamas oscuras.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C123021|s1]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> y crea un <color=#FFFFFFFF>horno de llamas oscuras</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>horno de llamas oscuras</color>.",
                     "id": 23023,
                     "name": "Presagio astral",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 2 pts. de Daño Pyro, así como 2 pts. de Daño Penetrante contra todos los personajes en reserva enemigos.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico, así como 2 pts. de Daño Penetrante contra todos los personajes en reserva enemigos.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], así como 2 pts. de <color=#FFFFFFFF>$[K5]</color> contra todos los personajes en reserva enemigos.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>, así como 2 pts. de <color=#FFFFFFFF><color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes en reserva enemigos.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, así como 2 pts. de <color=#FFFFFFFF><color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes en reserva enemigos.",
                     "id": 13043,
                     "name": "Lluvia ardiente",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 1 pt. de Daño Geo e invoca a Ushi. Este personaje obtiene una carga de fuerza sobrenatural.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico e invoca a Ushi. Este personaje obtiene una carga de fuerza sobrenatural.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca a <color=#FFFFFFFF>$[C116051]</color>. Este personaje obtiene una carga de <color=#FFFFFFFF>$[C116054|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color> e invoca a <color=#FFFFFFFF>Ushi</color>. Este personaje obtiene una carga de <color=#FFFFFFFF>fuerza sobrenatural</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca a <color=#FFFFFFFF>Ushi</color>. Este personaje obtiene una carga de <color=#FFFFFFFF>fuerza sobrenatural</color>.",
                     "id": 16052,
                     "name": "Exterminio del mal: ¡Embestida taurina!",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 5 pts. de Daño Geo y este personaje entra en el estado de rey oni enfurecido.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 5 pts. de Daño Físico y este personaje entra en el estado de rey oni enfurecido.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje entra en el estado de <color=#FFFFFFFF>$[C116053|s1]</color>.",
-                    "descriptionreplaced": "Inflige 5 pts. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color> y este personaje entra en el estado de <color=#FFFFFFFF>rey oni enfurecido</color>.",
+                    "descriptionreplaced": "Inflige 5 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje entra en el estado de <color=#FFFFFFFF>rey oni enfurecido</color>.",
                     "id": 16053,
                     "name": "Rey oni maligno: ¡Itto contra todos!",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 1 pt. de Daño Hydro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 12011,
                     "name": "Murmullo del agua",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 1 pt. de Daño Hydro y crea unos círculos melódicos.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico y crea unos círculos melódicos.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea unos <color=#FFFFFFFF>$[C112011|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> y crea unos <color=#FFFFFFFF>círculos melódicos</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea unos <color=#FFFFFFFF>círculos melódicos</color>.",
                     "id": 12012,
                     "name": "Que empiece el concierto ♪",
                     "playcost": [
@@ -369,17 +369,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 3 pts. de Daño Electro y crea un escudo del trueno.",
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y crea un escudo del trueno.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C114053|s2]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> y crea un <color=#FFFFFFFF>escudo del trueno</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>escudo del trueno</color>.",
                     "id": 14053,
                     "name": "Quebrantatormentas",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_ELECTRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -390,11 +390,11 @@
                     "typetag": "GCG_SKILL_TAG_Q"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Necesita prepararse durante 1 turno.\nInflige 2 pts. de Daño Electro.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Necesita prepararse durante 1 turno.\nInflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Necesita prepararse durante 1 turno.\\nInflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Necesita prepararse durante 1 turno.\\nInflige 2 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.",
+                    "descriptionreplaced": "Necesita prepararse durante 1 turno.\\nInflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 14054,
                     "name": "Conquistadora de mareas",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 3 pts. de Daño Pyro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 13032,
                     "name": "Sobrecarga de pasión",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 2 pts. de Daño Pyro y crea un círculo de apoyo moral.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y crea un círculo de apoyo moral.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C113031|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> y crea un <color=#FFFFFFFF>círculo de apoyo moral</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>círculo de apoyo moral</color>.",
                     "id": 13033,
                     "name": "Aventura maravillosa",
                     "playcost": [
@@ -494,6 +494,96 @@
                 "Pyro",
                 "Espada ligera",
                 "Mondstadt"
+            ]
+        },
+        "candace": {
+            "hp": 10,
+            "id": 1207,
+            "maxenergy": 2,
+            "name": "Candace",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
+                    "id": 12071,
+                    "name": "Lanza radiante - En guardia",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Ataque Normal",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Este personaje obtiene un escudo de la garza y prepara la habilidad Golpe de la garza.",
+                    "descriptionraw": "Este personaje obtiene un <color=#FFFFFFFF>$[C112071|s1]</color> y $[K53|s1] <color=#FFFFFFFF>$[S12074]</color>.",
+                    "descriptionreplaced": "Este personaje obtiene un <color=#FFFFFFFF>escudo de la garza</color> y <color=#FFFFFFFF>prepara la habilidad</color> <color=#FFFFFFFF>Golpe de la garza</color>.",
+                    "id": 12072,
+                    "name": "Rito sagrado: Garza guardiana",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Habilidad Elemental",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y otorga el estado de oración de la corona escarlata.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y otorga el estado de <color=#FFFFFFFF>$[C112072|s1]</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y otorga el estado de <color=#FFFFFFFF>oración de la corona escarlata</color>.",
+                    "id": 12073,
+                    "name": "Rito sagrado: Marea de aguzanieves",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Habilidad Definitiva",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Necesita prepararse durante 1 turno.\nInflige 3 pts. de Daño Físico.",
+                    "descriptionraw": "Necesita prepararse durante 1 turno.\\nInflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Necesita prepararse durante 1 turno.\\nInflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
+                    "id": 12074,
+                    "name": "Golpe de la garza",
+                    "playcost": [],
+                    "type": "Habilidad Elemental",
+                    "typetag": "GCG_SKILL_TAG_E"
+                }
+            ],
+            "source": "Se obtiene tras retar y ganar a Candace en un duelo amistoso en la taberna Cola de Gato",
+            "storytext": "Entre arenas granas y doradas, prevalece su juramento de protección.",
+            "storytitle": "Candace - La Devota Áurea",
+            "tags": [
+                "GCG_TAG_ELEMENT_HYDRO",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU"
+            ],
+            "tagstext": [
+                "Hydro",
+                "Lanza",
+                "Sumeru"
             ]
         },
         "chongyun": {
@@ -525,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 3 pts. de Daño Cryo y crea un campo de estratos de escarcha.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y crea un campo de estratos de escarcha.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C111041|s1]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> y crea un <color=#FFFFFFFF>campo de estratos de escarcha</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>campo de estratos de escarcha</color>.",
                     "id": 11042,
                     "name": "Estratos de escarcha",
                     "playcost": [
@@ -542,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 7 pts. de Daño Cryo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 7 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 7 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>.",
+                    "descriptionreplaced": "Inflige 7 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 11043,
                     "name": "Filo espiritual: Estrella cortanubes",
                     "playcost": [
@@ -605,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 3 pts. de Daño Dendro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 17012,
                     "name": "Caricia de las flores",
                     "playcost": [
@@ -622,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 2 pts. de Daño Dendro e invoca a Colleámbar.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico e invoca a Colleámbar.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca a <color=#FFFFFFFF>$[C117011]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color> e invoca a <color=#FFFFFFFF>Colleámbar</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca a <color=#FFFFFFFF>Colleámbar</color>.",
                     "id": 17013,
                     "name": "Secreto miauravilloso",
                     "playcost": [
@@ -685,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 3 pts. de Daño Electro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 14042,
                     "name": "Rito secreto: Guía de las almas abismales",
                     "playcost": [
@@ -702,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 4 pts. de Daño Electro.\nNivel de la posesión de abrecaminos del juramento +2.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico.\nNivel de la posesión de abrecaminos del juramento +2.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].\\nNivel de la posesión de <color=#FFFFFFFF>$[C114041|s1]</color> +2.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.\\nNivel de la posesión de <color=#FFFFFFFF>abrecaminos del juramento</color> +2.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.\\nNivel de la posesión de <color=#FFFFFFFF>abrecaminos del juramento</color> +2.",
                     "id": 14043,
                     "name": "Rito sagrado: Celeridad lupina",
                     "playcost": [
@@ -775,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 3 pts. de Daño Pyro. Por cada tercera vez que se use esta habilidad en una ronda, inflige daño +2.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico. Por cada tercera vez que se use esta habilidad en una ronda, inflige daño +2.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT]. Por cada tercera vez que se use esta habilidad en una ronda, inflige daño +2.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>. Por cada tercera vez que se use esta habilidad en una ronda, inflige daño +2.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>. Por cada tercera vez que se use esta habilidad en una ronda, inflige daño +2.",
                     "id": 13012,
                     "name": "Filo ardiente",
                     "playcost": [
@@ -792,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 8 pts. de Daño Pyro y este personaje obtiene un imbuimiento Pyro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 8 pts. de Daño Físico y este personaje obtiene un imbuimiento Pyro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje obtiene un <color=#FFFFFFFF>$[C113011|s1]</color>.",
-                    "descriptionreplaced": "Inflige 8 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> y este personaje obtiene un <color=#FFFFFFFF>imbuimiento Pyro</color>.",
+                    "descriptionreplaced": "Inflige 8 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje obtiene un <color=#FFFFFFFF>imbuimiento Pyro</color>.",
                     "id": 13013,
                     "name": "Amanecer",
                     "playcost": [
@@ -855,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 2 pts. de Daño Cryo y crea un escudo de zarpas.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y crea un escudo de zarpas.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C111021|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> y crea un <color=#FFFFFFFF>escudo de zarpas</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>escudo de zarpas</color>.",
                     "id": 11022,
                     "name": "Zarpazo helado",
                     "playcost": [
@@ -872,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 1 pt. de Daño Cryo, cura 2 pts. a este personaje y crea un campo de bruma embriagadora.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico, cura 2 pts. a este personaje y crea un campo de bruma embriagadora.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], cura 2 pts. a este personaje y crea un <color=#FFFFFFFF>$[C111023|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>, cura 2 pts. a este personaje y crea un <color=#FFFFFFFF>campo de bruma embriagadora</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, cura 2 pts. a este personaje y crea un <color=#FFFFFFFF>campo de bruma embriagadora</color>.",
                     "id": 11023,
                     "name": "Cóctel asesino",
                     "playcost": [
@@ -914,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 1 pt. de Daño Electro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 24011,
                     "name": "Proyección de cristal Electro",
                     "playcost": [
@@ -935,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 2 pts. de Daño Electro, y prepara las habilidades por separado: triporrazo piedra, papel, tijera y triporrazo piedra, papel, tijera.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico, y prepara las habilidades por separado: triporrazo piedra, papel, tijera y triporrazo piedra, papel, tijera.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], y $[K53|s2] por separado: <color=#FFFFFFFF>$[S24015|s1]</color> y <color=#FFFFFFFF>$[S24016|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>, y <color=#FFFFFFFF>prepara las habilidades</color> por separado: <color=#FFFFFFFF>triporrazo piedra, papel, tijera</color> y <color=#FFFFFFFF>triporrazo piedra, papel, tijera</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, y <color=#FFFFFFFF>prepara las habilidades</color> por separado: <color=#FFFFFFFF>triporrazo piedra, papel, tijera</color> y <color=#FFFFFFFF>triporrazo piedra, papel, tijera</color>.",
                     "id": 24012,
                     "name": "Triporrazo piedra, papel, tijera",
                     "playcost": [
@@ -952,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 2 pts. de Daño Electro e invoca unas cadenas de tormenta inminente.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico e invoca unas cadenas de tormenta inminente.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca unas <color=#FFFFFFFF>$[C124013|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> e invoca unas <color=#FFFFFFFF>cadenas de tormenta inminente</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca unas <color=#FFFFFFFF>cadenas de tormenta inminente</color>.",
                     "id": 24013,
                     "name": "Retención eléctrica",
                     "playcost": [
@@ -983,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 2 pts. de Daño Electro y prepara la habilidad Triporrazo piedra, papel, tijera: papel.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y prepara la habilidad Triporrazo piedra, papel, tijera: papel.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] pts. de $[D__KEY__ELEMENT] y $[K53|s1] <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> y <color=#FFFFFFFF>prepara la habilidad</color> <color=#FFFFFFFF>Triporrazo piedra, papel, tijera: papel</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y <color=#FFFFFFFF>prepara la habilidad</color> <color=#FFFFFFFF>Triporrazo piedra, papel, tijera: papel</color>.",
                     "id": 24015,
                     "name": "Triporrazo piedra, papel, tijera: tijera",
                     "playcost": [],
@@ -995,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 3 pts. de Daño Electro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 24016,
                     "name": "Triporrazo piedra, papel, tijera: papel",
                     "playcost": [],
@@ -1049,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 2 pts. de Daño Cryo y obtiene el efecto de corazón impasible si el personaje aún no lo tiene.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y obtiene el efecto de corazón impasible si el personaje aún no lo tiene.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y obtiene el efecto de <color=#FFFFFFFF>$[C111061|s1]</color> si el personaje aún no lo tiene.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> y obtiene el efecto de <color=#FFFFFFFF>corazón impasible</color> si el personaje aún no lo tiene.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y obtiene el efecto de <color=#FFFFFFFF>corazón impasible</color> si el personaje aún no lo tiene.",
                     "id": 11062,
                     "name": "Vórtice helado",
                     "playcost": [
@@ -1066,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 2 pts. de Daño Cryo e invoca una espada luminosa.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico e invoca una espada luminosa.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca una <color=#FFFFFFFF>$[C111062|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> e invoca una <color=#FFFFFFFF>espada luminosa</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca una <color=#FFFFFFFF>espada luminosa</color>.",
                     "id": 11063,
                     "name": "Fulgor glacial",
                     "playcost": [
@@ -1108,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 1 pt. de Daño Cryo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 21011,
                     "name": "Estocada gélida",
                     "playcost": [
@@ -1129,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 1 pt. de Daño Cryo e invoca un Cicin Cryo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico e invoca un Cicin Cryo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca un <color=#FFFFFFFF>$[C121011]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> e invoca un <color=#FFFFFFFF>Cicin Cryo</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca un <color=#FFFFFFFF>Cicin Cryo</color>.",
                     "id": 21012,
                     "name": "Invocación neblinosa",
                     "playcost": [
@@ -1146,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 5 pts. de Daño Cryo, este personaje recibe una aplicación Cryo y crea un escudo fluyente de Cicin.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 5 pts. de Daño Físico, este personaje recibe una aplicación Cryo y crea un escudo fluyente de Cicin.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], este personaje recibe una $[K201|s1] y crea un <color=#FFFFFFFF>$[C121012|s1]</color>.",
-                    "descriptionreplaced": "Inflige 5 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>, este personaje recibe una <color=#99FFFFFF>{SPRITE_PRESET#2101}aplicación Cryo</color> y crea un <color=#FFFFFFFF>escudo fluyente de Cicin</color>.",
+                    "descriptionreplaced": "Inflige 5 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, este personaje recibe una <color=#99FFFFFF>{SPRITE_PRESET#2101}aplicación Cryo</color> y crea un <color=#FFFFFFFF>escudo fluyente de Cicin</color>.",
                     "id": 21013,
                     "name": "Ventisca de flores",
                     "playcost": [
@@ -1209,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 1 pt. de Daño Pyro y este personaje entra en el estado de sigilo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico y este personaje entra en el estado de sigilo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje entra en el estado de <color=#FFFFFFFF>$[C123011|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> y este personaje entra en el estado de <color=#FFFFFFFF>sigilo</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje entra en el estado de <color=#FFFFFFFF>sigilo</color>.",
                     "id": 23012,
                     "name": "Acecho",
                     "playcost": [
@@ -1226,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 5 pts. de Daño Pyro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 5 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] pts. de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 5 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>.",
+                    "descriptionreplaced": "Inflige 5 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 23013,
                     "name": "Filos incineradores",
                     "playcost": [
@@ -1299,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 1 pt. de Daño Electro e invoca a Oz.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico e invoca a Oz.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca a <color=#FFFFFFFF>$[C114011]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> e invoca a <color=#FFFFFFFF>Oz</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca a <color=#FFFFFFFF>Oz</color>.",
                     "id": 14012,
                     "name": "Vigía de la noche",
                     "playcost": [
@@ -1316,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 4 pts. de Daño Electro, así como 2 pts. de Daño Penetrante contra todos los personajes en reserva enemigos.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico, así como 2 pts. de Daño Penetrante contra todos los personajes en reserva enemigos.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], así como 2 pts. de <color=#FFFFFFFF>$[K5]</color> contra todos los personajes en reserva enemigos.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>, así como 2 pts. de <color=#FFFFFFFF><color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes en reserva enemigos.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, así como 2 pts. de <color=#FFFFFFFF><color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes en reserva enemigos.",
                     "id": 14013,
                     "name": "Ilusión nocturna",
                     "playcost": [
@@ -1379,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 1 pt. de Daño Cryo y crea un loto de hielo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico y crea un loto de hielo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C111012|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> y crea un <color=#FFFFFFFF>loto de hielo</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>loto de hielo</color>.",
                     "id": 11012,
                     "name": "Senda de Chilin",
                     "playcost": [
@@ -1396,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 2 pts. de Daño Cryo, así como 2 pts. de Daño Penetrante contra todos los personajes enemigos en reserva.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico, así como 2 pts. de Daño Penetrante contra todos los personajes enemigos en reserva.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], así como <color=#FFFFFFFF>2 pts. de $[K5]</color> contra todos los personajes enemigos en reserva.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>, así como <color=#FFFFFFFF>2 pts. de <color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes enemigos en reserva.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, así como <color=#FFFFFFFF>2 pts. de <color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes enemigos en reserva.",
                     "id": 11013,
                     "name": "Flecha helada",
                     "playcost": [
@@ -1413,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 2 pts. de Daño Cryo, así como 1 pt. de Daño Penetrante contra todos los personajes enemigos en reserva, y crea una perla de hielo sagrada.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico, así como 1 pt. de Daño Penetrante contra todos los personajes enemigos en reserva, y crea una perla de hielo sagrada.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], así como <color=#FFFFFFFF>1 pt. de $[K5]</color> contra todos los personajes enemigos en reserva, y crea una <color=#FFFFFFFF>$[C111011|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>, así como <color=#FFFFFFFF>1 pt. de <color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes enemigos en reserva, y crea una <color=#FFFFFFFF>perla de hielo sagrada</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, así como <color=#FFFFFFFF>1 pt. de <color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes enemigos en reserva, y crea una <color=#FFFFFFFF>perla de hielo sagrada</color>.",
                     "id": 11014,
                     "name": "Diluvio celestial",
                     "playcost": [
@@ -1491,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 4 pts. de Daño Pyro y obtiene Vida +2. Si el personaje tiene 6 pts. de Vida o menos, inflige daño +1 y obtiene Vida +1 adicional.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico y obtiene Vida +2. Si el personaje tiene 6 pts. de Vida o menos, inflige daño +1 y obtiene Vida +1 adicional.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y obtiene Vida +2. Si el personaje tiene 6 pts. de Vida o menos, inflige daño +1 y obtiene Vida +1 adicional.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> y obtiene Vida +2. Si el personaje tiene 6 pts. de Vida o menos, inflige daño +1 y obtiene Vida +1 adicional.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y obtiene Vida +2. Si el personaje tiene 6 pts. de Vida o menos, inflige daño +1 y obtiene Vida +1 adicional.",
                     "id": 13073,
                     "name": "Calma de los espíritus",
                     "playcost": [
@@ -1554,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 3 pts. de Daño Dendro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] pts. de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 27012,
                     "name": "Nube de esporas inestable",
                     "playcost": [
@@ -1571,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 4 pts. de Daño Dendro y consume todas las cargas de revitalización. Por cada carga: daño actual +1.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico y consume todas las cargas de revitalización. Por cada carga: daño actual +1.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y consume todas las cargas de <color=#FFFFFFFF>$[C127011|s1]</color>. Por cada carga: daño actual +1.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color> y consume todas las cargas de <color=#FFFFFFFF>revitalización</color>. Por cada carga: daño actual +1.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y consume todas las cargas de <color=#FFFFFFFF>revitalización</color>. Por cada carga: daño actual +1.",
                     "id": 27013,
                     "name": "Plumaje majestuoso",
                     "playcost": [
@@ -1644,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Inflige 3 pts. de Daño Anemo y obliga al rival a que su personaje cambie al siguiente.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y obliga al rival a que su personaje cambie al siguiente.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y obliga al rival a que su personaje cambie al siguiente.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color> y obliga al rival a que su personaje cambie al siguiente.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y obliga al rival a que su personaje cambie al siguiente.",
                     "id": 15022,
                     "name": "Filo de ventisca",
                     "playcost": [
@@ -1693,6 +1783,96 @@
                 "Mondstadt"
             ]
         },
+        "kaedeharakazuha": {
+            "hp": 10,
+            "id": 1505,
+            "maxenergy": 2,
+            "name": "Kaedehara Kazuha",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
+                    "id": 15051,
+                    "name": "Técnica de espada Garyuu",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Ataque Normal",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico. Este personaje obtiene el efecto de Contención del caos.\nSi esta habilidad causa una reacción de Torbellino, el efecto de Contención del caos cambiará al elemento de dicho Torbellino.\nTras ejecutar esta habilidad, cambias a tu siguiente personaje.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT]. Este personaje obtiene el efecto de <color=#FFFFFFFF>$[C115051]</color>.\\nSi esta habilidad causa una reacción de Torbellino, el efecto de <color=#FFFFFFFF>$[C115051]</color> cambiará al elemento de dicho Torbellino.\\n<color=#FFFFFFFF>Tras ejecutar esta habilidad</color>, cambias a tu siguiente personaje.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>. Este personaje obtiene el efecto de <color=#FFFFFFFF>Contención del caos</color>.\\nSi esta habilidad causa una reacción de Torbellino, el efecto de <color=#FFFFFFFF>Contención del caos</color> cambiará al elemento de dicho Torbellino.\\n<color=#FFFFFFFF>Tras ejecutar esta habilidad</color>, cambias a tu siguiente personaje.",
+                    "id": 15052,
+                    "name": "Vehemencia estremecedora",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Habilidad Elemental",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico e invoca un viento del otoño.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca un <color=#FFFFFFFF>$[C115052|s1]</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca un <color=#FFFFFFFF>viento del otoño</color>.",
+                    "id": 15053,
+                    "name": "Filo de las diez mil hojas",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Habilidad Definitiva",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "description": "",
+                    "descriptionraw": "",
+                    "descriptionreplaced": "",
+                    "id": 15054,
+                    "name": "Vehemencia estremecedora",
+                    "playcost": [],
+                    "type": "Habilidad pasiva",
+                    "typetag": "GCG_SKILL_TAG_PASSIVE"
+                }
+            ],
+            "source": "Se obtiene tras retar y ganar a Kaedehara Kazuha en un duelo amistoso en la taberna Cola de Gato",
+            "storytext": "Deleitado por las flores y el canto de los pájaros, la luz de la luna ilumina su camino.",
+            "storytitle": "Kaedehara Kazuha - El Mensajero del Viento",
+            "tags": [
+                "GCG_TAG_ELEMENT_ANEMO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_INAZUMA"
+            ],
+            "tagstext": [
+                "Anemo",
+                "Espada ligera",
+                "Inazuma"
+            ]
+        },
         "kaeya": {
             "hp": 10,
             "id": 1103,
@@ -1722,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 3 pts. de Daño Cryo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 11032,
                     "name": "Golpe de escarcha",
                     "playcost": [
@@ -1739,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 1 pt. de Daño Cryo y crea un carámbano.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico y crea un carámbano.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C111031|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> y crea un <color=#FFFFFFFF>carámbano</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>carámbano</color>.",
                     "id": 11033,
                     "name": "Vals gélido",
                     "playcost": [
@@ -1802,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 3 pts. de Daño Cryo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 11052,
                     "name": "Estilo Kamisato: Flor del hielo",
                     "playcost": [
@@ -1819,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 4 pts. de Daño Cryo y crea una ráfaga de ventisca.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico y crea una ráfaga de ventisca.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea una <color=#FFFFFFFF>$[C111051|s1]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> y crea una <color=#FFFFFFFF>ráfaga de ventisca</color>.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea una <color=#FFFFFFFF>ráfaga de ventisca</color>.",
                     "id": 11053,
                     "name": "Estilo Kamisato: Devastación glacial",
                     "playcost": [
@@ -1892,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 2 pts. de Daño Hydro y este personaje entra en el estado de reflejo torrencial.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y este personaje entra en el estado de reflejo torrencial.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje entra en el estado de <color=#FFFFFFFF>$[C112061|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> y este personaje entra en el estado de <color=#FFFFFFFF>reflejo torrencial</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje entra en el estado de <color=#FFFFFFFF>reflejo torrencial</color>.",
                     "id": 12062,
                     "name": "Estilo Kamisato: Belleza reflejada",
                     "playcost": [
@@ -1909,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 3 pts. de Daño Hydro e invoca un jardín de paz.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico e invoca un jardín de paz.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca un <color=#FFFFFFFF>$[C112062|s1]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> e invoca un <color=#FFFFFFFF>jardín de paz</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca un <color=#FFFFFFFF>jardín de paz</color>.",
                     "id": 12063,
                     "name": "Estilo Kamisato: Jardín ácueo",
                     "playcost": [
@@ -1972,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 3 pts. de Daño Electro y crea una carta de Cuña relámpago.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y crea una carta de Cuña relámpago.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea una carta de <color=#FFFFFFFF>$[C114031]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> y crea una carta de <color=#FFFFFFFF>Cuña relámpago</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea una carta de <color=#FFFFFFFF>Cuña relámpago</color>.",
                     "id": 14032,
                     "name": "Retorno estelar",
                     "playcost": [
@@ -1989,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 4 pts. de Daño Electro, así como 3 pts. de Daño Penetrante contra todos los personajes en reserva enemigos.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico, así como 3 pts. de Daño Penetrante contra todos los personajes en reserva enemigos.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], así como <color=#FFFFFFFF>3 pts. de $[K5]</color> contra todos los personajes en reserva enemigos.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>, así como <color=#FFFFFFFF>3 pts. de <color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes en reserva enemigos.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, así como <color=#FFFFFFFF>3 pts. de <color=#FFFFFFFF>Daño Penetrante</color></color> contra todos los personajes en reserva enemigos.",
                     "id": 14033,
                     "name": "Paseo celestial",
                     "playcost": [
@@ -2031,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 1 pt. de Daño Pyro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 13061,
                     "name": "¡Buuum!",
                     "playcost": [
@@ -2052,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 3 pts. de Daño Pyro y este personaje entra en el estado de flor explosiva.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y este personaje entra en el estado de flor explosiva.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje entra en el estado de <color=#FFFFFFFF>$[C113061|s2]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> y este personaje entra en el estado de <color=#FFFFFFFF>flor explosiva</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje entra en el estado de <color=#FFFFFFFF>flor explosiva</color>.",
                     "id": 13062,
                     "name": "Bomba saltarina",
                     "playcost": [
@@ -2069,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 3 pts. de Daño Pyro y crea unas Chispas explosivas en el campo del rival.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y crea unas Chispas explosivas en el campo del rival.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea unas <color=#FFFFFFFF>$[C113063]</color> en el campo del rival.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> y crea unas <color=#FFFFFFFF>Chispas explosivas</color> en el campo del rival.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea unas <color=#FFFFFFFF>Chispas explosivas</color> en el campo del rival.",
                     "id": 13063,
                     "name": "Chispas explosivas",
                     "playcost": [
@@ -2132,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 1 pt. de Daño Electro y causa una maldición tengu.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico y causa una maldición tengu.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y causa una <color=#FFFFFFFF>$[C114061|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> y causa una <color=#FFFFFFFF>maldición tengu</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y causa una <color=#FFFFFFFF>maldición tengu</color>.",
                     "id": 14062,
                     "name": "Electroinvocación tengu",
                     "playcost": [
@@ -2149,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 1 pt. de Daño Electro y causa una maldición tengu.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico y causa una maldición tengu.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y causa una <color=#FFFFFFFF>$[C114062|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> y causa una <color=#FFFFFFFF>maldición tengu</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y causa una <color=#FFFFFFFF>maldición tengu</color>.",
                     "id": 14063,
                     "name": "Aplacamiento: Camino de la luz",
                     "playcost": [
@@ -2242,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Inflige 4 pts. de Daño Anemo y activa los efectos de todas tus invocaciones de Espadachín sombrío (no consume sus usos).",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico y activa los efectos de todas tus invocaciones de Espadachín sombrío (no consume sus usos).",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y activa los efectos de todas tus invocaciones de <color=#FFFFFFFF>Espadachín sombrío</color> (no consume sus usos).",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color> y activa los efectos de todas tus invocaciones de <color=#FFFFFFFF>Espadachín sombrío</color> (no consume sus usos).",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y activa los efectos de todas tus invocaciones de <color=#FFFFFFFF>Espadachín sombrío</color> (no consume sus usos).",
                     "id": 25014,
                     "name": "Emulación de corte Tengu",
                     "playcost": [
@@ -2284,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 1 pt. de Daño Hydro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 22021,
                     "name": "Hidrobomba",
                     "playcost": [
@@ -2305,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 2 pts. de Daño Hydro y el personaje objetivo entra en el estado de refracción.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y el personaje objetivo entra en el estado de refracción.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y el personaje objetivo entra en el estado de <color=#FFFFFFFF>$[C122021|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> y el personaje objetivo entra en el estado de <color=#FFFFFFFF>refracción</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y el personaje objetivo entra en el estado de <color=#FFFFFFFF>refracción</color>.",
                     "id": 22022,
                     "name": "Explosión acuática",
                     "playcost": [
@@ -2322,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 5 pts. de Daño Hydro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 5 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] pts. de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 5 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>.",
+                    "descriptionreplaced": "Inflige 5 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 22023,
                     "name": "Reflejo ondulado",
                     "playcost": [
@@ -2364,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 1 pt. de Daño Hydro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 12031,
                     "name": "Destino revelado",
                     "playcost": [
@@ -2385,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 1 pt. de Daño Hydro y crea una ilusión.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico y crea una ilusión.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea una <color=#FFFFFFFF>$[C112031|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> y crea una <color=#FFFFFFFF>ilusión</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea una <color=#FFFFFFFF>ilusión</color>.",
                     "id": 12032,
                     "name": "Espejismo del agua",
                     "playcost": [
@@ -2402,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 4 pts. de Daño Hydro y crea una burbuja ilusoria.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico y crea una burbuja ilusoria.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea una <color=#FFFFFFFF>$[C112032|s1]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> y crea una <color=#FFFFFFFF>burbuja ilusoria</color>.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea una <color=#FFFFFFFF>burbuja ilusoria</color>.",
                     "id": 12033,
                     "name": "Órbita divina",
                     "playcost": [
@@ -2454,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 1 pt. de Daño Dendro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 17031,
                     "name": "Akara",
                     "playcost": [
@@ -2475,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 2 pts. de Daño Dendro y coloca una semilla skandha en el personaje objetivo. Si el personaje objetivo ya cuenta con una semilla skandha, coloca una semilla skandha en todos los personajes enemigos.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y coloca una semilla skandha en el personaje objetivo. Si el personaje objetivo ya cuenta con una semilla skandha, coloca una semilla skandha en todos los personajes enemigos.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y coloca una <color=#FFFFFFFF>$[C117031|s1]</color> en el personaje objetivo. Si el personaje objetivo ya cuenta con una <color=#FFFFFFFF>$[C117031|s1]</color>, coloca una <color=#FFFFFFFF>$[C117031|s1]</color> en todos los personajes enemigos.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color> y coloca una <color=#FFFFFFFF>semilla skandha</color> en el personaje objetivo. Si el personaje objetivo ya cuenta con una <color=#FFFFFFFF>semilla skandha</color>, coloca una <color=#FFFFFFFF>semilla skandha</color> en todos los personajes enemigos.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y coloca una <color=#FFFFFFFF>semilla skandha</color> en el personaje objetivo. Si el personaje objetivo ya cuenta con una <color=#FFFFFFFF>semilla skandha</color>, coloca una <color=#FFFFFFFF>semilla skandha</color> en todos los personajes enemigos.",
                     "id": 17032,
                     "name": "Omnisciencia",
                     "playcost": [
@@ -2492,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 3 pts. de Daño Dendro y coloca una semilla skandha en todos los personajes enemigos.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y coloca una semilla skandha en todos los personajes enemigos.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y coloca una <color=#FFFFFFFF>$[C117031|s1]</color> en todos los personajes enemigos.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color> y coloca una <color=#FFFFFFFF>semilla skandha</color> en todos los personajes enemigos.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y coloca una <color=#FFFFFFFF>semilla skandha</color> en todos los personajes enemigos.",
                     "id": 17033,
                     "name": "Omnisciencia: Tathata",
                     "playcost": [
@@ -2509,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 4 pts. de Daño Dendro y crea un templo ilusorio.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico y crea un templo ilusorio.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C117032|s1]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color> y crea un <color=#FFFFFFFF>templo ilusorio</color>.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>templo ilusorio</color>.",
                     "id": 17034,
                     "name": "Corazón ilusorio",
                     "playcost": [
@@ -2551,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 1 pt. de Daño Geo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 16011,
                     "name": "Lanzamiento centelleante",
                     "playcost": [
@@ -2572,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 2 pts. de Daño Geo y crea una pantalla de jade.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y crea una pantalla de jade.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea una <color=#FFFFFFFF>$[C116011|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color> y crea una <color=#FFFFFFFF>pantalla de jade</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea una <color=#FFFFFFFF>pantalla de jade</color>.",
                     "id": 16012,
                     "name": "Pantalla de jade",
                     "playcost": [
@@ -2589,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 6 pts. de Daño Geo. Si la pantalla de jade está en combate, daño +2.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 6 pts. de Daño Físico. Si la pantalla de jade está en combate, daño +2.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT]. Si la <color=#FFFFFFFF>$[C116011|s1]</color> está en combate, daño +2.",
-                    "descriptionreplaced": "Inflige 6 pts. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color>. Si la <color=#FFFFFFFF>pantalla de jade</color> está en combate, daño +2.",
+                    "descriptionreplaced": "Inflige 6 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>. Si la <color=#FFFFFFFF>pantalla de jade</color> está en combate, daño +2.",
                     "id": 16013,
                     "name": "Devastaestrellas",
                     "playcost": [
@@ -2652,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 1 pt. de Daño Geo y crea un recubrimiento Geo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico y crea un recubrimiento Geo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C116021|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color> y crea un <color=#FFFFFFFF>recubrimiento Geo</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>recubrimiento Geo</color>.",
                     "id": 16022,
                     "name": "Guardiana del corazón",
                     "playcost": [
@@ -2669,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 4 pts. de Daño Geo y este personaje entra en el estado de Hora de limpiar.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico y este personaje entra en el estado de Hora de limpiar.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje entra en el estado de <color=#FFFFFFFF>$[C116022]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color> y este personaje entra en el estado de <color=#FFFFFFFF>Hora de limpiar</color>.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje entra en el estado de <color=#FFFFFFFF>Hora de limpiar</color>.",
                     "id": 16023,
                     "name": "Hora de limpiar",
                     "playcost": [
@@ -2747,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 3 pts. de Daño Electro y tus demás personajes obtienen Energía +2.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y tus demás personajes obtienen Energía +2.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y tus demás personajes obtienen $[K310] +2.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> y tus demás personajes obtienen <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energía</color> +2.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y tus demás personajes obtienen <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energía</color> +2.",
                     "id": 14073,
                     "name": "Técnica secreta: Verdad onírica",
                     "playcost": [
@@ -2794,7 +2974,7 @@
         "razor": {
             "hp": 10,
             "id": 1402,
-            "maxenergy": 3,
+            "maxenergy": 2,
             "name": "Razor",
             "skills": [
                 {
@@ -2820,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 3 pts. de Daño Electro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 14022,
                     "name": "Garra y trueno",
                     "playcost": [
@@ -2836,11 +3016,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 5 pts. de Daño Electro y este personaje entra en el estado de lobo interior.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y este personaje entra en el estado de lobo interior.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje entra en el estado de <color=#FFFFFFFF>$[C114021|s1]</color>.",
-                    "descriptionreplaced": "Inflige 5 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> y este personaje entra en el estado de <color=#FFFFFFFF>lobo interior</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje entra en el estado de <color=#FFFFFFFF>lobo interior</color>.",
                     "id": 14023,
                     "name": "Colmillo relámpago",
                     "playcost": [
@@ -2850,7 +3030,7 @@
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
-                            "count": 3
+                            "count": 2
                         }
                     ],
                     "type": "Habilidad Definitiva",
@@ -2879,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 1 pt. de Daño Hydro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 22011,
                     "name": "Marejada",
                     "playcost": [
@@ -2930,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 2 pts. de Daño Hydro. Por cada invocación que hayas creado, daño +2.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico. Por cada invocación que hayas creado, daño +2.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT]. Por cada invocación que hayas creado, daño +2.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>. Por cada invocación que hayas creado, daño +2.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>. Por cada invocación que hayas creado, daño +2.",
                     "id": 22014,
                     "name": "Marejada torrencial",
                     "playcost": [
@@ -2972,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 1 pt. de Daño Hydro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 12051,
                     "name": "La forma del agua",
                     "playcost": [
@@ -3008,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 2 pts. de Daño Hydro. Todos tus personajes obtienen Vida +1. Este personaje obtiene el efecto de manto ceremonial.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico. Todos tus personajes obtienen Vida +1. Este personaje obtiene el efecto de manto ceremonial.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT]. Todos tus personajes obtienen Vida +1. Este personaje obtiene el efecto de <color=#FFFFFFFF>$[C112052|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>. Todos tus personajes obtienen Vida +1. Este personaje obtiene el efecto de <color=#FFFFFFFF>manto ceremonial</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>. Todos tus personajes obtienen Vida +1. Este personaje obtiene el efecto de <color=#FFFFFFFF>manto ceremonial</color>.",
                     "id": 12053,
                     "name": "Encarnación de las nereidas",
                     "playcost": [
@@ -3071,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 2 pts. de Daño Cryo y crea una pluma glacial.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y crea una pluma glacial.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea una <color=#FFFFFFFF>$[C111071|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> y crea una <color=#FFFFFFFF>pluma glacial</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea una <color=#FFFFFFFF>pluma glacial</color>.",
                     "id": 11072,
                     "name": "Espíritu exorcizador",
                     "playcost": [
@@ -3088,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "Inflige 1 pt. de Daño Cryo y crea un espíritu hechizado.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico y crea un espíritu hechizado.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C111073|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> y crea un <color=#FFFFFFFF>espíritu hechizado</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>espíritu hechizado</color>.",
                     "id": 11073,
                     "name": "Encantamiento de la damisela divina",
                     "playcost": [
@@ -3222,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Inflige 1 pt. de Daño Anemo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 15011,
                     "name": "Creación del espíritu del viento",
                     "playcost": [
@@ -3243,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Inflige 3 pts. de Daño Anemo y obliga al rival a que su personaje cambie al anterior.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y obliga al rival a que su personaje cambie al anterior.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y obliga al rival a que su personaje cambie al anterior.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color> y obliga al rival a que su personaje cambie al anterior.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y obliga al rival a que su personaje cambie al anterior.",
                     "id": 15012,
                     "name": "Creación del espíritu del viento: Experimento 6308",
                     "playcost": [
@@ -3260,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Inflige 1 pt. de Daño Anemo e invoca un gran espíritu del viento.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico e invoca un gran espíritu del viento.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca un <color=#FFFFFFFF>$[C115011|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color> e invoca un <color=#FFFFFFFF>gran espíritu del viento</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca un <color=#FFFFFFFF>gran espíritu del viento</color>.",
                     "id": 15013,
                     "name": "Creación prohibida del espíritu del viento: Isomorfo 75 tipo II",
                     "playcost": [
@@ -3323,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Cambia al estado de combate cuerpo a cuerpo e inflige 2 pts. de Daño Hydro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Cambia al estado de combate cuerpo a cuerpo e inflige 2 pts. de Daño Físico.",
                     "descriptionraw": "Cambia al estado de <color=#FFFFFFFF>$[C112042|s1]</color> e inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Cambia al estado de <color=#FFFFFFFF>combate cuerpo a cuerpo</color> e inflige 2 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>.",
+                    "descriptionreplaced": "Cambia al estado de <color=#FFFFFFFF>combate cuerpo a cuerpo</color> e inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 12042,
                     "name": "Legado del mal: Olas furiosas",
                     "playcost": [
@@ -3340,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Realiza diferentes ataques dependiendo de la posición de Tartaglia:\nCombate a distancia - Flecha del caos: inflige 4 pts. de Daño Hydro, restaura Energía +2 y aplica en el personaje objetivo el efecto de obstrucción del flujo.\nCombate cuerpo a cuerpo - Luz de obliteración: inflige 7 pts. de Daño Hydro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Realiza diferentes ataques dependiendo de la posición de Tartaglia:\nCombate a distancia - Flecha del caos: inflige 4 pts. de Daño Físico, restaura Energía +2 y aplica en el personaje objetivo el efecto de obstrucción del flujo.\nCombate cuerpo a cuerpo - Luz de obliteración: inflige 7 pts. de Daño Físico.",
                     "descriptionraw": "Realiza diferentes ataques dependiendo <color=#FFFFFFFF>de la posición de $[A1204]</color>:\\n<color=#FFFFFFFF>Combate a distancia - Flecha del caos:</color> inflige $[D__KEY__DAMAGE_4] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], restaura $[K310] +2 y aplica en el personaje objetivo el efecto de <color=#FFFFFFFF>$[C112043|s1]</color>.\\n<color=#FFFFFFFF>Combate cuerpo a cuerpo - Luz de obliteración:</color> inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Realiza diferentes ataques dependiendo <color=#FFFFFFFF>de la posición de Tartaglia</color>:\\n<color=#FFFFFFFF>Combate a distancia - Flecha del caos:</color> inflige 4 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>, restaura <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energía</color> +2 y aplica en el personaje objetivo el efecto de <color=#FFFFFFFF>obstrucción del flujo</color>.\\n<color=#FFFFFFFF>Combate cuerpo a cuerpo - Luz de obliteración:</color> inflige 7 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>.",
+                    "descriptionreplaced": "Realiza diferentes ataques dependiendo <color=#FFFFFFFF>de la posición de Tartaglia</color>:\\n<color=#FFFFFFFF>Combate a distancia - Flecha del caos:</color> inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, restaura <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energía</color> +2 y aplica en el personaje objetivo el efecto de <color=#FFFFFFFF>obstrucción del flujo</color>.\\n<color=#FFFFFFFF>Combate cuerpo a cuerpo - Luz de obliteración:</color> inflige 7 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 12043,
                     "name": "Caos: Obliteración",
                     "playcost": [
@@ -3433,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 2 pts. de Daño Dendro y este personaje entra en el estado de perforación vijñana.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y este personaje entra en el estado de perforación vijñana.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje entra en el estado de <color=#FFFFFFFF>$[C117021|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color> y este personaje entra en el estado de <color=#FFFFFFFF>perforación vijñana</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje entra en el estado de <color=#FFFFFFFF>perforación vijñana</color>.",
                     "id": 17022,
                     "name": "Frutos del vijñana",
                     "playcost": [
@@ -3450,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "Inflige 4 pts. de Daño Dendro, así como Daño Penetrante +1 contra todos los personajes en reserva enemigos.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico, así como Daño Penetrante +1 contra todos los personajes en reserva enemigos.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], así como <color=#FFFFFFFF>$[K5]</color> +1 contra todos los personajes en reserva enemigos.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2107}<color=#7EC236FF>Daño Dendro</color>, así como <color=#FFFFFFFF><color=#FFFFFFFF>Daño Penetrante</color></color> +1 contra todos los personajes en reserva enemigos.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, así como <color=#FFFFFFFF><color=#FFFFFFFF>Daño Penetrante</color></color> +1 contra todos los personajes en reserva enemigos.",
                     "id": 17023,
                     "name": "Flecha enredadora artificial",
                     "playcost": [
@@ -3513,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Inflige 2 pts. de Daño Anemo y crea un campo de viento.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y crea un campo de viento.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] pts. de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C115031|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color> y crea un <color=#FFFFFFFF>campo de viento</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>campo de viento</color>.",
                     "id": 15032,
                     "name": "Sonata celestial",
                     "playcost": [
@@ -3530,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Inflige 2 pts. de Daño Anemo e invoca un Ojo del huracán.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico e invoca un Ojo del huracán.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca un <color=#FFFFFFFF>$[C115034]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color> e invoca un <color=#FFFFFFFF>Ojo del huracán</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca un <color=#FFFFFFFF>Ojo del huracán</color>.",
                     "id": 15033,
                     "name": "Gran Oda del Viento",
                     "playcost": [
@@ -3607,11 +3787,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 2 pts. de Daño Pyro y crea un Pyronado.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y crea un Pyronado.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C113022]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> y crea un <color=#FFFFFFFF>Pyronado</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea un <color=#FFFFFFFF>Pyronado</color>.",
                     "id": 13023,
                     "name": "Pyronado",
                     "playcost": [
@@ -3671,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Inflige 3 pts. de Daño Anemo.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 15042,
                     "name": "Ciclón de viento lemniscático",
                     "playcost": [
@@ -3688,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "Inflige 4 pts. de Daño Anemo y este personaje se equipa la máscara de Yaksha.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico y este personaje se equipa la máscara de Yaksha.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje se equipa la <color=#FFFFFFFF>$[C115041|s1]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2105}<color=#80FFD7FF>Daño Anemo</color> y este personaje se equipa la <color=#FFFFFFFF>máscara de Yaksha</color>.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje se equipa la <color=#FFFFFFFF>máscara de Yaksha</color>.",
                     "id": 15043,
                     "name": "Azote de todos los males",
                     "playcost": [
@@ -3751,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 2 pts. de Daño Hydro y crea unas espadas de lluvia.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico y crea unas espadas de lluvia.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea unas <color=#FFFFFFFF>$[C112021|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> y crea unas <color=#FFFFFFFF>espadas de lluvia</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea unas <color=#FFFFFFFF>espadas de lluvia</color>.",
                     "id": 12022,
                     "name": "Lluvia torrencial mortal",
                     "playcost": [
@@ -3768,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Inflige 1 pt. de Daño Hydro. Recibe una aplicación Hydro y crea una espada arcoíris.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico. Recibe una aplicación Hydro y crea una espada arcoíris.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT]. Recibe una $[K202|s1] y crea una <color=#FFFFFFFF>$[C112022|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color>. Recibe una <color=#80C0FFFF>{SPRITE_PRESET#2102}aplicación Hydro</color> y crea una <color=#FFFFFFFF>espada arcoíris</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>. Recibe una <color=#80C0FFFF>{SPRITE_PRESET#2102}aplicación Hydro</color> y crea una <color=#FFFFFFFF>espada arcoíris</color>.",
                     "id": 12023,
                     "name": "Sable de lluvia",
                     "playcost": [
@@ -3810,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 1 pt. de Daño Electro.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
                     "id": 14081,
                     "name": "Kitsune devorapecados",
                     "playcost": [
@@ -3846,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "Inflige 4 pts. de Daño Electro. Si cuentas con un cerezo kitsune, lo destruye y crea un relámpago de Kitsune Celestial.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico. Si cuentas con un cerezo kitsune, lo destruye y crea un relámpago de Kitsune Celestial.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT]. Si cuentas con un <color=#FFFFFFFF>$[C114081|s1]</color>, lo destruye y crea un <color=#FFFFFFFF>$[C114083|s1]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>. Si cuentas con un <color=#FFFFFFFF>cerezo kitsune</color>, lo destruye y crea un <color=#FFFFFFFF>relámpago de Kitsune Celestial</color>.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>. Si cuentas con un <color=#FFFFFFFF>cerezo kitsune</color>, lo destruye y crea un <color=#FFFFFFFF>relámpago de Kitsune Celestial</color>.",
                     "id": 14083,
                     "name": "Técnica secreta suprema: Encarnación de Kitsune Celestial",
                     "playcost": [
@@ -3878,6 +4058,86 @@
                 "Electro",
                 "Catalizador",
                 "Inazuma"
+            ]
+        },
+        "yanfei": {
+            "hp": 10,
+            "id": 1308,
+            "maxenergy": 2,
+            "name": "Yanfei",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
+                    "id": 13081,
+                    "name": "Sello ígneo",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Ataque Normal",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y este personaje obtiene un sello escarlata.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y este personaje obtiene un <color=#FFFFFFFF>$[C113081|s1]</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y este personaje obtiene un <color=#FFFFFFFF>sello escarlata</color>.",
+                    "id": 13082,
+                    "name": "Trato cerrado",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Habilidad Elemental",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico, este personaje obtiene un sello escarlata y entra en el estado de resplandor.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT], este personaje obtiene un <color=#FFFFFFFF>$[C113081|s1]</color> y entra en el estado de <color=#FFFFFFFF>$[C113082|s1]</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>, este personaje obtiene un <color=#FFFFFFFF>sello escarlata</color> y entra en el estado de <color=#FFFFFFFF>resplandor</color>.",
+                    "id": 13083,
+                    "name": "Contrato vinculante",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Habilidad Definitiva",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Se obtiene tras retar y ganar a Yanfei en un duelo amistoso en la taberna Cola de Gato",
+            "storytext": "No intentes emular el pasado, pues ninguna ley es eterna.",
+            "storytitle": "Yanfei - La Letrada Inocente",
+            "tags": [
+                "GCG_TAG_ELEMENT_PYRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Pyro",
+                "Catalizador",
+                "Liyue"
             ]
         },
         "yoimiya": {
@@ -3923,17 +4183,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "Inflige 4 pts. de Daño Pyro y crea una ascua dorada.",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico y crea una ascua dorada.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea una <color=#FFFFFFFF>$[C113052|s1]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2103}<color=#FF9999FF>Daño Pyro</color> y crea una <color=#FFFFFFFF>ascua dorada</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y crea una <color=#FFFFFFFF>ascua dorada</color>.",
                     "id": 13053,
                     "name": "Saxifraga de oro",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_PYRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -3987,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 1 pt. de Daño Geo e invoca una cresta de piedra.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 1 pt. de Daño Físico e invoca una cresta de piedra.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] e invoca una <color=#FFFFFFFF>$[C116031|s1]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color> e invoca una <color=#FFFFFFFF>cresta de piedra</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> e invoca una <color=#FFFFFFFF>cresta de piedra</color>.",
                     "id": 16032,
                     "name": "Dominus lapidis",
                     "playcost": [
@@ -4004,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 3 pts. de Daño Geo. Invoca una cresta de piedra y crea un escudo de jade.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 3 pts. de Daño Físico. Invoca una cresta de piedra y crea un escudo de jade.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] pts. de $[D__KEY__ELEMENT]. Invoca una <color=#FFFFFFFF>$[C116031|s1]</color> y crea un <color=#FFFFFFFF>$[C116032|s1]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color>. Invoca una <color=#FFFFFFFF>cresta de piedra</color> y crea un <color=#FFFFFFFF>escudo de jade</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>. Invoca una <color=#FFFFFFFF>cresta de piedra</color> y crea un <color=#FFFFFFFF>escudo de jade</color>.",
                     "id": 16033,
                     "name": "Dominus lapidis: Roca aniquiladora",
                     "playcost": [
@@ -4021,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "Inflige 4 pts. de Daño Geo y el personaje objetivo entra en el estado de Petrificación.",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 4 pts. de Daño Físico y el personaje objetivo entra en el estado de Petrificación.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] pts. de $[D__KEY__ELEMENT] y el personaje objetivo entra en el estado de <color=#FFFFFFFF>$[C116033]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color> y el personaje objetivo entra en el estado de <color=#FFFFFFFF>Petrificación</color>.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> y el personaje objetivo entra en el estado de <color=#FFFFFFFF>Petrificación</color>.",
                     "id": 16034,
                     "name": "Lluvia estelar",
                     "playcost": [
@@ -4065,6 +4325,7 @@
                 "barbara",
                 "beidou",
                 "bennett",
+                "candace",
                 "chongyun",
                 "collei",
                 "cyno",
@@ -4078,6 +4339,7 @@
                 "hutao",
                 "jadeplumeterrorshroom",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4103,6 +4365,7 @@
                 "xiao",
                 "xingqiu",
                 "yaemiko",
+                "yanfei",
                 "yoimiya",
                 "zhongli"
             ],
@@ -4110,18 +4373,21 @@
                 "abysslectorfathomlessflames",
                 "amber",
                 "bennett",
+                "candace",
                 "collei",
                 "cyno",
                 "electrohypostasis",
                 "eula",
                 "fatuipyroagent",
                 "jadeplumeterrorshroom",
+                "kaedeharakazuha",
                 "kaeya",
                 "kujousara",
                 "mirrormaiden",
                 "nahida",
                 "noelle",
                 "raidenshogun",
+                "razor",
                 "sangonomiyakokomi",
                 "shenhe",
                 "stonehidelawachurl",
@@ -4131,7 +4397,8 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "3": [
                 "aratakiitto",
@@ -4152,7 +4419,6 @@
                 "maguukenki",
                 "mona",
                 "ningguang",
-                "razor",
                 "rhodeiaofloch",
                 "tartaglia",
                 "yoimiya",
@@ -4184,6 +4450,7 @@
             ],
             "GCG_TAG_ELEMENT_ANEMO": [
                 "jean",
+                "kaedeharakazuha",
                 "maguukenki",
                 "sucrose",
                 "venti",
@@ -4225,6 +4492,7 @@
             ],
             "GCG_TAG_ELEMENT_HYDRO": [
                 "barbara",
+                "candace",
                 "kamisatoayato",
                 "mirrormaiden",
                 "mona",
@@ -4242,10 +4510,12 @@
                 "hutao",
                 "klee",
                 "xiangling",
+                "yanfei",
                 "yoimiya"
             ],
             "GCG_TAG_NATION_INAZUMA": [
                 "aratakiitto",
+                "kaedeharakazuha",
                 "kamisatoayaka",
                 "kamisatoayato",
                 "kujousara",
@@ -4265,6 +4535,7 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
+                "yanfei",
                 "zhongli"
             ],
             "GCG_TAG_NATION_MONDSTADT": [
@@ -4285,6 +4556,7 @@
                 "venti"
             ],
             "GCG_TAG_NATION_SUMERU": [
+                "candace",
                 "collei",
                 "cyno",
                 "nahida",
@@ -4310,7 +4582,8 @@
                 "ningguang",
                 "sangonomiyakokomi",
                 "sucrose",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "GCG_TAG_WEAPON_CLAYMORE": [
                 "aratakiitto",
@@ -4333,6 +4606,7 @@
                 "stonehidelawachurl"
             ],
             "GCG_TAG_WEAPON_POLE": [
+                "candace",
                 "cyno",
                 "hutao",
                 "raidenshogun",
@@ -4344,6 +4618,7 @@
             "GCG_TAG_WEAPON_SWORD": [
                 "bennett",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4358,6 +4633,7 @@
             "barbara": "Bárbara",
             "beidou": "Beidou",
             "bennett": "Bennett",
+            "candace": "Candace",
             "chongyun": "Chongyun",
             "collei": "Collei",
             "cyno": "Cyno",
@@ -4372,6 +4648,7 @@
             "hutao": "Hu Tao",
             "jadeplumeterrorshroom": "Espantohongo Plumaverde",
             "jean": "Jean",
+            "kaedeharakazuha": "Kaedehara Kazuha",
             "kaeya": "Kaeya",
             "kamisatoayaka": "Kamisato Ayaka",
             "kamisatoayato": "Kamisato Ayato",
@@ -4398,6 +4675,7 @@
             "xiao": "Xiao",
             "xingqiu": "Xingchiu",
             "yaemiko": "Yae Miko",
+            "yanfei": "Yanfei",
             "yoimiya": "Yoimiya",
             "zhongli": "Zhongli"
         },
@@ -4408,6 +4686,7 @@
             "Beidou": "beidou",
             "Bennett": "bennett",
             "Bárbara": "barbara",
+            "Candace": "candace",
             "Chongyun": "chongyun",
             "Collei": "collei",
             "Cyno": "cyno",
@@ -4420,6 +4699,7 @@
             "Hipóstasis Electro": "electrohypostasis",
             "Hu Tao": "hutao",
             "Jean": "jean",
+            "Kaedehara Kazuha": "kaedeharakazuha",
             "Kaeya": "kaeya",
             "Kamisato Ayaka": "kamisatoayaka",
             "Kamisato Ayato": "kamisatoayato",
@@ -4448,6 +4728,7 @@
             "Xiao": "xiao",
             "Xingchiu": "xingqiu",
             "Yae Miko": "yaemiko",
+            "Yanfei": "yanfei",
             "Yoimiya": "yoimiya",
             "Zhongli": "zhongli"
         },
@@ -4475,10 +4756,10 @@
                 "GCG_TAG_ELEMENT_ELECTRO",
                 "GCG_TAG_NATION_LIYUE",
                 "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU",
                 "GCG_TAG_ELEMENT_CRYO",
                 "GCG_TAG_ELEMENT_DENDRO",
-                "GCG_TAG_NATION_SUMERU",
-                "GCG_TAG_WEAPON_POLE",
                 "GCG_TAG_CAMP_FATUI",
                 "GCG_TAG_ELEMENT_ANEMO",
                 "GCG_TAG_CAMP_HILICHURL"

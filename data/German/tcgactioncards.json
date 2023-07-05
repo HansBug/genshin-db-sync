@@ -142,6 +142,29 @@
                 "Bogen"
             ]
         },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Ereigniskarte",
+            "description": "Ist eine deiner Figuren mit einer „Waffen“-Ausrüstungskarte oder „Artefakt“-Ausrüstungskarte ausgerüstet, ist diese Karte auszuspielen: Beim nächsten Ausspielen deiner „Waffen“- oder „Artefakt“-Ausrüstungskarte in dieser Runde: Würfel-Verbrauch -2\n(Während des gesamten Duells kann nur 1 „Mysteriums“-Karte ausgespielt werden. Diese Karte ist auf jeden Fall Teil deiner Starthand.)",
+            "descriptionraw": "<color=#FFFFFFFF>Ist eine deiner Figuren mit einer „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte oder „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarte ausgerüstet, ist diese Karte auszuspielen:</color> Beim nächsten Ausspielen deiner „{SPRITE_PRESET#3003}Waffen“- oder „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarte in dieser Runde: Würfel-Verbrauch -2\\n(Während des gesamten Duells kann nur 1 „{SPRITE_PRESET#3007}Mysteriums“-Karte ausgespielt werden. Diese Karte ist auf jeden Fall Teil deiner Starthand.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Ist eine deiner Figuren mit einer „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte oder „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarte ausgerüstet, ist diese Karte auszuspielen:</color> Beim nächsten Ausspielen deiner „{SPRITE_PRESET#3003}Waffen“- oder „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarte in dieser Runde: Würfel-Verbrauch -2\\n(Während des gesamten Duells kann nur 1 „{SPRITE_PRESET#3007}Mysteriums“-Karte ausgespielt werden. Diese Karte ist auf jeden Fall Teil deiner Starthand.)",
+            "id": 330001,
+            "name": "Garten von einst",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "„Ist das Leben nicht wie der Traum einer Zikade? Der huscht lautlos durch diese weite Welt und verweht.“",
+            "storytitle": "Garten von einst",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Mysterium"
+            ]
+        },
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ausrüstungskarte",
@@ -443,9 +466,9 @@
         "changtheninth": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Unterstützungskarte",
-            "description": "Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld: Hat sie phys. SCH oder durchdringenden SCH verursacht oder Elementarreaktionen ausgelöst, sammelt 1 Einfall.\nWenn 3 Einfälle gesammelt, wird diese Karte abgeworfen: Zieht 2 Karten.",
-            "descriptionraw": "<color=#FFFFFFFF>Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld:</color> Hat sie $[K100|s1] oder $[K5|s1] verursacht oder <color=#FFFFFFFF>Elementarreaktionen</color> ausgelöst, sammelt <color=#FFFFFFFF>1 Einfall</color>.\\nWenn <color=#FFFFFFFF>3 Einfälle</color> gesammelt, wird diese Karte abgeworfen: Zieht 2 Karten.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld:</color> Hat sie {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color> oder <color=#FFFFFFFF>durchdringenden SCH</color> verursacht oder <color=#FFFFFFFF>Elementarreaktionen</color> ausgelöst, sammelt <color=#FFFFFFFF>1 Einfall</color>.\\nWenn <color=#FFFFFFFF>3 Einfälle</color> gesammelt, wird diese Karte abgeworfen: Zieht 2 Karten.",
+            "description": "Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld: Hat sie phys. SCH oder durchdringenden SCH verursacht oder Elementarreaktionen ausgelöst, sammelt 1 Einfall.\nWenn 3 Einfälle gesammelt sind, wird diese Karte abgeworfen: Zieht 2 Karten.",
+            "descriptionraw": "<color=#FFFFFFFF>Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld:</color> Hat sie $[K100|s1] oder $[K5|s1] verursacht oder <color=#FFFFFFFF>Elementarreaktionen</color> ausgelöst, sammelt <color=#FFFFFFFF>1 Einfall</color>.\\nWenn <color=#FFFFFFFF>3 Einfälle</color> gesammelt sind, wird diese Karte abgeworfen: Zieht 2 Karten.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld:</color> Hat sie {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color> oder <color=#FFFFFFFF>durchdringenden SCH</color> verursacht oder <color=#FFFFFFFF>Elementarreaktionen</color> ausgelöst, sammelt <color=#FFFFFFFF>1 Einfall</color>.\\nWenn <color=#FFFFFFFF>3 Einfälle</color> gesammelt sind, wird diese Karte abgeworfen: Zieht 2 Karten.",
             "id": 322009,
             "name": "Chang IX.",
             "playcost": [],
@@ -615,6 +638,29 @@
             "tagstext": [
                 "Talent",
                 "Kampfaktion"
+            ]
+        },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Ereigniskarte",
+            "description": "Beträgt die verbleibende Anzahl deiner Würfel 0, ist diese Karte auszuspielen: Erschafft 2 Würfel verschiedener Elemente.\n(Während des gesamten Duells kann nur 1 „Mysteriums“-Karte ausgespielt werden. Diese Karte ist auf jeden Fall Teil deiner Starthand.)",
+            "descriptionraw": "<color=#FFFFFFFF>Beträgt die verbleibende Anzahl deiner Würfel 0, ist diese Karte auszuspielen:</color> Erschafft 2 Würfel verschiedener Elemente.\\n(Während des gesamten Duells kann nur 1 „{SPRITE_PRESET#3007}Mysteriums“-Karte ausgespielt werden. Diese Karte ist auf jeden Fall Teil deiner Starthand.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Beträgt die verbleibende Anzahl deiner Würfel 0, ist diese Karte auszuspielen:</color> Erschafft 2 Würfel verschiedener Elemente.\\n(Während des gesamten Duells kann nur 1 „{SPRITE_PRESET#3007}Mysteriums“-Karte ausgespielt werden. Diese Karte ist auf jeden Fall Teil deiner Starthand.)",
+            "id": 330002,
+            "name": "Felsenbündnis",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "„Herrscher über die Felsen gab ihm Augen, damit er die Welt erblicken konnte, und schloss mit ihm einen Vertrag. Der Drache begleitete den Herrscher über die Felsen sodann und kämpfte an seiner Seite ...“",
+            "storytitle": "Felsenbündnis",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Mysterium"
             ]
         },
         "crimsonwitchofflames": {
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "SCH durch die Figur +1.\nBeim Ausspielen: Zieht 2 Karten.\n(Nur für Katalysatornutzer anlegbar, und zwar max. 1 Waffe.)",
+            "descriptionraw": "<color=#FFFFFFFF>SCH durch die Figur +1</color>.\\n<color=#FFFFFFFF>Beim Ausspielen:</color> Zieht 2 Karten.\\n(Nur für <color=#FFFFFFFF>{SPRITE_PRESET#3201}Katalysatornutzer</color> anlegbar, und zwar max. 1 {SPRITE_PRESET#3003}Waffe.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>SCH durch die Figur +1</color>.\\n<color=#FFFFFFFF>Beim Ausspielen:</color> Zieht 2 Karten.\\n(Nur für <color=#FFFFFFFF>{SPRITE_PRESET#3201}Katalysatornutzer</color> anlegbar, und zwar max. 1 {SPRITE_PRESET#3003}Waffe.)",
+            "id": 311105,
+            "name": "Vollmondfrucht",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "„Doch selbst in den bittersten Geschichten ist Platz für Mut und Stärke ... Unsere Abenteuer mit dem guten goldenen Nara ... Wir werden dem guten Nara helfen, den Wald zu beschützen.“",
+            "storytitle": "Vollkommenheit – Vollmondfrucht",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "Waffe",
+                "Katalysator"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ausrüstungskarte",
-            "description": "Wird eine gegnerische Figur ausgeschaltet: Erschafft 2 Omni-Würfel, wenn die damit ausgerüstete Figur aktiv ist.\n(Jede Figur kann max. 1 Artefakt anlegen.)",
-            "descriptionraw": "<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet:</color> Erschafft 2 $[K411], wenn die damit ausgerüstete Figur aktiv ist.\\n(Jede Figur kann max. 1 {SPRITE_PRESET#3004}Artefakt anlegen.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet:</color> Erschafft 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>, wenn die damit ausgerüstete Figur aktiv ist.\\n(Jede Figur kann max. 1 {SPRITE_PRESET#3004}Artefakt anlegen.)",
+            "description": "Wird eine gegnerische Figur ausgeschaltet: Erschafft 2 Omni-Würfel, wenn die damit ausgerüstete Figur aktiv ist. (Max. 3-mal pro Duell)\n(Jede Figur kann max. 1 Artefakt anlegen.)",
+            "descriptionraw": "<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet:</color> Erschafft 2 $[K411], wenn die damit ausgerüstete Figur aktiv ist. (Max. 3-mal pro Duell)\\n(Jede Figur kann max. 1 {SPRITE_PRESET#3004}Artefakt anlegen.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet:</color> Erschafft 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>, wenn die damit ausgerüstete Figur aktiv ist. (Max. 3-mal pro Duell)\\n(Jede Figur kann max. 1 {SPRITE_PRESET#3004}Artefakt anlegen.)",
             "id": 312004,
             "name": "Glücksspiel-Ohrringe",
             "playcost": [
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ausrüstungskarte",
-            "description": "Kampfaktion: Ist deine aktive Figur Noelle, ist diese Karte anzulegen.\nLegt Noelle sie an, wird sofort 1-mal Brustpanzer angewendet.\nErschafft Noelle ausgerüstet mit dieser Karte 1 Geo-Panzer, wird nach Noelles Standardangriff all deinen Figuren 1 LP wiederhergestellt (1-mal pro Runde).\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Noelle enthält.)",
-            "descriptionraw": "$[K1]: Ist deine aktive Figur <color=#FFFFFFFF>$[A1602]</color>, ist diese Karte anzulegen.\\nLegt $[A1602] sie an, wird sofort 1-mal <color=#FFD780FF>$[S16022]</color> angewendet.\\nErschafft $[A1602] ausgerüstet mit dieser Karte 1 <color=#FFFFFFFF>$[C116021]</color>, wird nach $[A1602]s <color=#FFFFFFFF>Standardangriff</color> all deinen Figuren 1 LP wiederhergestellt (1-mal pro Runde).\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das $[A1602] enthält.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Kampfaktion</color>: Ist deine aktive Figur <color=#FFFFFFFF>Noelle</color>, ist diese Karte anzulegen.\\nLegt Noelle sie an, wird sofort 1-mal <color=#FFD780FF>Brustpanzer</color> angewendet.\\nErschafft Noelle ausgerüstet mit dieser Karte 1 <color=#FFFFFFFF>Geo-Panzer</color>, wird nach Noelles <color=#FFFFFFFF>Standardangriff</color> all deinen Figuren 1 LP wiederhergestellt (1-mal pro Runde).\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Noelle enthält.)",
+            "description": "Kampfaktion: Ist deine aktive Figur Noelle, ist diese Karte anzulegen.\nLegt Noelle sie an, wird sofort 1-mal Brustpanzer angewendet.\nNach dem Standardangriff durch Noelle: Sind diese Karte und Geo-Panzer immer noch auf dem Feld, wird all deinen Figuren 1 LP wiederhergestellt. (1-mal pro Runde)\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Noelle enthält.)",
+            "descriptionraw": "$[K1]: Ist deine aktive Figur <color=#FFFFFFFF>$[A1602]</color>, ist diese Karte anzulegen.\\nLegt $[A1602] sie an, wird sofort 1-mal <color=#FFD780FF>$[S16022]</color> angewendet.\\nNach dem <color=#FFFFFFFF>Standardangriff</color> durch $[A1602]: Sind diese Karte und <color=#FFFFFFFF>$[C116021]</color> immer noch auf dem Feld, wird all deinen Figuren 1 LP wiederhergestellt. (1-mal pro Runde)\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das $[A1602] enthält.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Kampfaktion</color>: Ist deine aktive Figur <color=#FFFFFFFF>Noelle</color>, ist diese Karte anzulegen.\\nLegt Noelle sie an, wird sofort 1-mal <color=#FFD780FF>Brustpanzer</color> angewendet.\\nNach dem <color=#FFFFFFFF>Standardangriff</color> durch Noelle: Sind diese Karte und <color=#FFFFFFFF>Geo-Panzer</color> immer noch auf dem Feld, wird all deinen Figuren 1 LP wiederhergestellt. (1-mal pro Runde)\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Noelle enthält.)",
             "id": 216021,
             "name": "Fürsorgliche Unterstützung",
             "playcost": [
@@ -2293,9 +2364,9 @@
         "liben": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Unterstützungskarte",
-            "description": "Endphase: Sammelt deine unverbrauchten Elementarwürfel auf (max. 1 von jeder Art).\nZu Beginn der Zugphase: Wenn bereits 3 Elementarwürfel aufgesammelt, zieht 2 Karten, erschafft 2 Omni-Würfel, danach wird diese Karte abgeworfen.",
-            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Sammelt deine unverbrauchten Elementarwürfel auf (max. 1 von jeder Art).\\n<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Wenn bereits 3 Elementarwürfel aufgesammelt, zieht 2 Karten, erschafft 2 $[K411], danach wird diese Karte abgeworfen.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Endphase:</color> Sammelt deine unverbrauchten Elementarwürfel auf (max. 1 von jeder Art).\\n<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Wenn bereits 3 Elementarwürfel aufgesammelt, zieht 2 Karten, erschafft 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>, danach wird diese Karte abgeworfen.",
+            "description": "Endphase: Sammelt deine unverbrauchten Elementarwürfel auf (max. 1 von jeder Art).\nZu Beginn der Zugphase: Wenn bereits 3 Elementarwürfel aufgesammelt sind, zieht 2 Karten, erschafft 2 Omni-Würfel, danach wird diese Karte abgeworfen.",
+            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Sammelt deine unverbrauchten Elementarwürfel auf (max. 1 von jeder Art).\\n<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Wenn bereits 3 Elementarwürfel aufgesammelt sind, zieht 2 Karten, erschafft 2 $[K411], danach wird diese Karte abgeworfen.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Endphase:</color> Sammelt deine unverbrauchten Elementarwürfel auf (max. 1 von jeder Art).\\n<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Wenn bereits 3 Elementarwürfel aufgesammelt sind, zieht 2 Karten, erschafft 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>, danach wird diese Karte abgeworfen.",
             "id": 322008,
             "name": "Liben",
             "playcost": [],
@@ -2529,15 +2600,63 @@
         "masterofweaponry": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Ereigniskarte",
-            "description": "Verlegt 1 „Waffe“-Ausrüstungskarte von einer deiner Figuren zu einer deiner anderen Figuren, die denselben Waffentyp verwendet.",
-            "descriptionraw": "Verlegt 1 „{SPRITE_PRESET#3003}Waffe“-Ausrüstungskarte von einer deiner Figuren zu einer deiner anderen Figuren, die denselben Waffentyp verwendet.",
-            "descriptionreplaced": "Verlegt 1 „{SPRITE_PRESET#3003}Waffe“-Ausrüstungskarte von einer deiner Figuren zu einer deiner anderen Figuren, die denselben Waffentyp verwendet.",
+            "description": "Verlegt 1 „Waffen“-Ausrüstungskarte von einer deiner Figuren zu einer deiner anderen Figuren, die denselben Waffentyp verwendet.",
+            "descriptionraw": "Verlegt 1 „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte von einer deiner Figuren zu einer deiner anderen Figuren, die denselben Waffentyp verwendet.",
+            "descriptionreplaced": "Verlegt 1 „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte von einer deiner Figuren zu einer deiner anderen Figuren, die denselben Waffentyp verwendet.",
             "id": 332010,
             "name": "Ausgeklügelte Bewaffnung",
             "playcost": [],
             "source": "Vom anfänglichen Deck zu erhalten",
             "storytext": "„Pass mal auf, mein Freund! Ein wahrer Krieger ist nie wählerisch bei seinen Waffen!“",
             "storytitle": "Ausgeklügelte Bewaffnung",
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Führt deine Figur heftige Schläge aus: SCH +1. Nach Auswertung: Zieht 1 Karte.",
+            "descriptionraw": "<color=#FFFFFFFF>Führt deine Figur $[K51|s1] aus:</color> SCH +1. Nach Auswertung: Zieht 1 Karte.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Führt deine Figur <color=#FFFFFFFF>heftige Schläge</color> aus:</color> SCH +1. Nach Auswertung: Zieht 1 Karte.",
+            "id": 423020,
+            "name": "Talisman der Geschicklichkeit – Waffen und Rüstungen",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Beim Anwenden von Fähigkeiten deiner Figur, während sie gleichzeitig „Waffen“- und „Artefakt“-Ausrüstungskarten ausgerüstet hat: Würfel-Verbrauch -3 (1-mal pro Runde).",
+            "descriptionraw": "<color=#FFFFFFFF>Beim Anwenden von Fähigkeiten deiner Figur, während sie gleichzeitig „{SPRITE_PRESET#3003}Waffen“- und „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarten ausgerüstet hat:</color> Würfel-Verbrauch -3 (1-mal pro Runde).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Beim Anwenden von Fähigkeiten deiner Figur, während sie gleichzeitig „{SPRITE_PRESET#3003}Waffen“- und „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarten ausgerüstet hat:</color> Würfel-Verbrauch -3 (1-mal pro Runde).",
+            "id": 423021,
+            "name": "Talisman der Geschicklichkeit – Bereit für den Kampf",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Wird eine gegnerische Figur ausgeschaltet: Fügt allen Figuren des Gegners 1 Pkt. durchdringenden SCH zu.",
+            "descriptionraw": "<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet:</color> Fügt allen Figuren des Gegners 1 Pkt. $[K5|s1] zu.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet:</color> Fügt allen Figuren des Gegners 1 Pkt. <color=#FFFFFFFF>durchdringenden SCH</color> zu.",
+            "id": 423022,
+            "name": "Talisman der Geschicklichkeit – Niederschmetternde Niederlage",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Nach Erleiden des SCH einer Elementarreaktion durch Figuren des Gegners: Erschafft 1 Omni-Würfel (max. 3-mal pro Runde).",
+            "descriptionraw": "<color=#FFFFFFFF>Nach Erleiden des SCH einer Elementarreaktion durch Figuren des Gegners:</color> Erschafft 1 $[K411] (max. 3-mal pro Runde).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Nach Erleiden des SCH einer Elementarreaktion durch Figuren des Gegners:</color> Erschafft 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color> (max. 3-mal pro Runde).",
+            "id": 423023,
+            "name": "Talisman der Geschicklichkeit – Chaotische Banner",
+            "playcost": [],
             "tags": [],
             "tagstext": []
         },
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Beim Ausspielen von „Waffen“- oder „Artefakt“-Ausrüstungskarte mit Gesamtkosten von mind. 3 Elementarwürfeln: Würfel-Verbrauch -3 (1-mal pro Runde).",
+            "descriptionraw": "<color=#FFFFFFFF>Beim Ausspielen von „{SPRITE_PRESET#3003}Waffen“- oder „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarte mit Gesamtkosten von mind. 3 Elementarwürfeln:</color> Würfel-Verbrauch -3 (1-mal pro Runde).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Beim Ausspielen von „{SPRITE_PRESET#3003}Waffen“- oder „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarte mit Gesamtkosten von mind. 3 Elementarwürfeln:</color> Würfel-Verbrauch -3 (1-mal pro Runde).",
+            "id": 423019,
+            "name": "Talisman der Geschicklichkeit – Langfristige Planung",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Unterstützungskarte",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet:</color> Erschafft 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>; zieht 1 Karte.",
             "id": 423007,
             "name": "Talisman der Geschicklichkeit – Triumphaler Vorstoß",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Nach Anwenden von Fähigkeiten durch deine Figur: Erschafft auf dem Feld des Gegners eine „hinterhältige Sprengfalle“ von dem Element deiner Figur. Die „hinterhältige Sprengfalle“ wird der gegnerischen Verstärkungsfigur, nachdem diese das Spielfeld betreten hat, 1 Pkt. entsprechenden Elementarschaden zufügen.",
+            "descriptionraw": "<color=#FFFFFFFF>Nach Anwenden von Fähigkeiten durch deine Figur:</color> Erschafft auf dem Feld des Gegners eine „hinterhältige Sprengfalle“ von dem Element deiner Figur. Die „hinterhältige Sprengfalle“ wird der gegnerischen Verstärkungsfigur, nachdem diese das Spielfeld betreten hat, 1 Pkt. entsprechenden Elementarschaden zufügen.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Nach Anwenden von Fähigkeiten durch deine Figur:</color> Erschafft auf dem Feld des Gegners eine „hinterhältige Sprengfalle“ von dem Element deiner Figur. Die „hinterhältige Sprengfalle“ wird der gegnerischen Verstärkungsfigur, nachdem diese das Spielfeld betreten hat, 1 Pkt. entsprechenden Elementarschaden zufügen.",
+            "id": 423024,
+            "name": "Talisman der Geschicklichkeit – Überraschungsangriff",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Wird eine gegnerische Figur ausgeschaltet: Zieht 1 Karte, SCH durch deine aktuelle aktive Figur in diesem Duell +1 (max. 3-fach stapelbar).",
+            "descriptionraw": "<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet:</color> Zieht 1 Karte, SCH durch deine aktuelle aktive Figur in diesem Duell +1 (max. 3-fach stapelbar).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet:</color> Zieht 1 Karte, SCH durch deine aktuelle aktive Figur in diesem Duell +1 (max. 3-fach stapelbar).",
+            "id": 423018,
+            "name": "Talisman der Geschicklichkeit – Siegesgewissheit",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Beim Ausspielen einer „Waffen“-Ausrüstungskarte: Würfel-Verbrauch -1. Zusätzlich für jede deiner Figuren, die mit einer „Waffen“-Ausrüstungskarte ausgerüstet ist, Würfel-Verbrauch -1 (1-mal pro Runde).",
+            "descriptionraw": "<color=#FFFFFFFF>Beim Ausspielen einer „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte:</color> Würfel-Verbrauch -1. Zusätzlich für jede deiner Figuren, die mit einer „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte ausgerüstet ist, Würfel-Verbrauch -1 (1-mal pro Runde).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Beim Ausspielen einer „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte:</color> Würfel-Verbrauch -1. Zusätzlich für jede deiner Figuren, die mit einer „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte ausgerüstet ist, Würfel-Verbrauch -1 (1-mal pro Runde).",
+            "id": 322018,
+            "name": "Herr Zhang",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Bevor das Eisenstück zu einem scharfen Schwert wird, muss es viele feurige Schwierigkeiten überwinden.",
+            "storytitle": "Feurig geschmiedetes Schwert – Herr Zhang",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Gefährte"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -2982,9 +3160,9 @@
         "parametrictransformer": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Unterstützungskarte",
-            "description": "Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld: Hat sie Elementar-SCH verursacht, sammelt 1 Wandlungsfortschritt.\nWenn 3 Wandlungsfortschritte gesammelt, wird diese Karte abgeworfen: Erschafft dabei 3 Würfel verschiedener Elemente.",
-            "descriptionraw": "<color=#FFFFFFFF>Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld:</color> Hat sie Elementar-SCH verursacht, sammelt 1 <color=#FFFFFFFF>Wandlungsfortschritt</color>.\\nWenn 3 <color=#FFFFFFFF>Wandlungsfortschritte</color> gesammelt, wird diese Karte abgeworfen: Erschafft dabei 3 Würfel verschiedener Elemente.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld:</color> Hat sie Elementar-SCH verursacht, sammelt 1 <color=#FFFFFFFF>Wandlungsfortschritt</color>.\\nWenn 3 <color=#FFFFFFFF>Wandlungsfortschritte</color> gesammelt, wird diese Karte abgeworfen: Erschafft dabei 3 Würfel verschiedener Elemente.",
+            "description": "Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld: Hat sie Elementar-SCH verursacht, sammelt 1 Wandlungsfortschritt.\nWenn 3 Wandlungsfortschritte gesammelt sind, wird diese Karte abgeworfen: Erschafft dabei 3 Würfel verschiedener Elemente.",
+            "descriptionraw": "<color=#FFFFFFFF>Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld:</color> Hat sie Elementar-SCH verursacht, sammelt 1 <color=#FFFFFFFF>Wandlungsfortschritt</color>.\\nWenn 3 <color=#FFFFFFFF>Wandlungsfortschritte</color> gesammelt sind, wird diese Karte abgeworfen: Erschafft dabei 3 Würfel verschiedener Elemente.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld:</color> Hat sie Elementar-SCH verursacht, sammelt 1 <color=#FFFFFFFF>Wandlungsfortschritt</color>.\\nWenn 3 <color=#FFFFFFFF>Wandlungsfortschritte</color> gesammelt sind, wird diese Karte abgeworfen: Erschafft dabei 3 Würfel verschiedener Elemente.",
             "id": 323001,
             "name": "Parameterwandler",
             "playcost": [
@@ -3022,6 +3200,32 @@
                 "GCG_TAG_SLOWLY"
             ],
             "tagstext": [
+                "Kampfaktion"
+            ]
+        },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "Kampfaktion: Ist deine aktive Figur Kaedehara Kazuha, ist diese Karte anzulegen.\nLegt Kaedehara Kazuha sie an, wird sofort 1-mal Chihayaburu angewendet.\nNach dem Auslösen der Reaktion Verwirbelung durch Kaedehara Kazuha ausgerüstet mit dieser Karte: Elementar-SCH des jeweiligen Elementartyps der Verwirbelung durch deine Figuren und Beschwörungen die nächsten 2 Male +1 (Jeder Elemtartyp wird einzeln berechnet.)\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Kaedehara Kazuha enthält.)",
+            "descriptionraw": "$[K1]: Ist deine aktive Figur <color=#FFFFFFFF>$[A1505]</color>, ist diese Karte anzulegen.\\nLegt $[A1505] sie an, wird sofort 1-mal <color=#FFD780FF>$[S15052]</color> angewendet.\\nNach dem Auslösen der Reaktion Verwirbelung durch $[A1505] ausgerüstet mit dieser Karte: Elementar-SCH des jeweiligen Elementartyps der Verwirbelung durch deine Figuren und Beschwörungen die nächsten 2 Male +1 (Jeder Elemtartyp wird einzeln berechnet.)\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das $[A1505] enthält.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Kampfaktion</color>: Ist deine aktive Figur <color=#FFFFFFFF>Kaedehara Kazuha</color>, ist diese Karte anzulegen.\\nLegt Kaedehara Kazuha sie an, wird sofort 1-mal <color=#FFD780FF>Chihayaburu</color> angewendet.\\nNach dem Auslösen der Reaktion Verwirbelung durch Kaedehara Kazuha ausgerüstet mit dieser Karte: Elementar-SCH des jeweiligen Elementartyps der Verwirbelung durch deine Figuren und Beschwörungen die nächsten 2 Male +1 (Jeder Elemtartyp wird einzeln berechnet.)\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Kaedehara Kazuha enthält.)",
+            "id": 215051,
+            "name": "Poesie von Fuubutsu",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "Nach Erreichen des entsprechenden Ziels in einem Duell mit Kaedehara Kazuha in der Taverne Zum Katzenschwanz zu erhalten.",
+            "storytext": "Dieses Spiel hat auch etwas Elegantes an sich.\nZumindest führen beide Seiten jeden Zug ohne Bereuen aus.",
+            "storytitle": "Kaedehara Kazuha – Poesie von Fuubutsu",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
                 "Kampfaktion"
             ]
         },
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "Objekt"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Ereigniskarte",
+            "description": "Beim nächsten Ausspielen deiner „Waffen“- oder „Artefakt“-Ausrüstungskarte: Würfel-Verbrauch -1.",
+            "descriptionraw": "<color=#FFFFFFFF>Beim nächsten Ausspielen deiner „{SPRITE_PRESET#3003}Waffen“- oder „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarte:</color> Würfel-Verbrauch -1.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Beim nächsten Ausspielen deiner „{SPRITE_PRESET#3003}Waffen“- oder „{SPRITE_PRESET#3004}Artefakt“-Ausrüstungskarte:</color> Würfel-Verbrauch -1.",
+            "id": 332021,
+            "name": "Melodie des großen Traums",
+            "playcost": [],
+            "storytext": "„Betretet unseren Traum, betretet unsere Welt.“\n„Schreibt Geschichten über Herzensgüte, Mut und Aufrichtigkeit.“",
+            "storytitle": "Melodie des großen Traums",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "Kampfaktion: Ist deine aktive Figur Yanfei, ist diese Karte anzulegen.\nLegt Yanfei sie an, wird sofort 1-mal Flammendes Siegel angewendet.\nFührt Yanfei ausgerüstet mit dieser Karte heftige Schläge aus: Erhöht ihren SCH an gegnerischen Figuren mit nicht mehr als 6 LP zusätzlich um 1 Pkt.\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Yanfei enthält.)",
+            "descriptionraw": "$[K1]: Ist deine aktive Figur <color=#FFFFFFFF>$[A1308]</color>, ist diese Karte anzulegen.\\nLegt $[A1308] sie an, wird sofort 1-mal <color=#FFD780FF>$[S13081]</color> angewendet.\\nFührt $[A1308] ausgerüstet mit dieser Karte $[K51|s1] aus: Erhöht ihren SCH an gegnerischen Figuren mit nicht mehr als 6 LP zusätzlich um 1 Pkt.\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das $[A1308] enthält.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Kampfaktion</color>: Ist deine aktive Figur <color=#FFFFFFFF>Yanfei</color>, ist diese Karte anzulegen.\\nLegt Yanfei sie an, wird sofort 1-mal <color=#FFD780FF>Flammendes Siegel</color> angewendet.\\nFührt Yanfei ausgerüstet mit dieser Karte <color=#FFFFFFFF>heftige Schläge</color> aus: Erhöht ihren SCH an gegnerischen Figuren mit nicht mehr als 6 LP zusätzlich um 1 Pkt.\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Yanfei enthält.)",
+            "id": 213081,
+            "name": "Endgültige Auslegung vorbehalten",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "Nach Erreichen des entsprechenden Ziels in einem Duell mit Yanfei in der Taverne Zum Katzenschwanz zu erhalten.",
+            "storytext": "„Beim Kartenspielen gilt natürlich ... die allgemeine Handlungsfreiheit: Alles ist erlaubt, was nicht verboten ist.“",
+            "storytitle": "Yanfei – Endgültige Auslegung vorbehalten",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
+                "Kampfaktion"
             ]
         },
         "sacrificialbow": {
@@ -4020,6 +4268,36 @@
             "tags": [],
             "tagstext": []
         },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "Kampfaktion: Ist deine aktive Figur Candace, ist diese Karte anzulegen.\nLegt Candace sie an, wird sofort 1-mal Heiliger Ritus – Bachstelzenflut angewendet.\nErschafft Candace ausgerüstet mit dieser Karte Gebet der roten Krone: Nach Standardangriffen deiner Figuren: Verursacht 1 Pkt. Hydro-SCH (1-mal pro Runde).\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Candace enthält.)",
+            "descriptionraw": "$[K1]: Ist deine aktive Figur <color=#FFFFFFFF>$[A1207]</color>, ist diese Karte anzulegen.\\nLegt $[A1207] sie an, wird sofort 1-mal <color=#FFD780FF>$[S12073]</color> angewendet.\\nErschafft $[A1207] ausgerüstet mit dieser Karte <color=#FFFFFFFF>$[C112072]</color>: <color=#FFFFFFFF>Nach Standardangriffen deiner Figuren:</color> Verursacht 1 Pkt. $[K102|s1] (1-mal pro Runde).\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das $[A1207] enthält.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Kampfaktion</color>: Ist deine aktive Figur <color=#FFFFFFFF>Candace</color>, ist diese Karte anzulegen.\\nLegt Candace sie an, wird sofort 1-mal <color=#FFD780FF>Heiliger Ritus – Bachstelzenflut</color> angewendet.\\nErschafft Candace ausgerüstet mit dieser Karte <color=#FFFFFFFF>Gebet der roten Krone</color>: <color=#FFFFFFFF>Nach Standardangriffen deiner Figuren:</color> Verursacht 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color> (1-mal pro Runde).\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Candace enthält.)",
+            "id": 212071,
+            "name": "Überlaufende Abendflut",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "Nach Erreichen des entsprechenden Ziels in einem Duell mit Candace in der Taverne Zum Katzenschwanz zu erhalten.",
+            "storytext": "Diejenigen, die die Regeln der Karten nicht respektieren ...\nSie sind die Feinde aller Kartenliebhaber.",
+            "storytitle": "Candace – Überlaufende Abendflut",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
+                "Kampfaktion"
+            ]
+        },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ausrüstungskarte",
@@ -4243,9 +4521,9 @@
         "timmie": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Unterstützungskarte",
-            "description": "Wirkt automatisch 1-mal pro Runde: Sammelt 1 Taube.\nWenn bereits 3 Tauben gesammelt, wird diese Karte abgeworfen: Zieht 1 Karte, erschafft 1 Omni-Würfel.",
-            "descriptionraw": "<color=#FFFFFFFF>Wirkt automatisch 1-mal pro Runde:</color> Sammelt <color=#FFFFFFFF>1 Taube</color>.\\nWenn bereits <color=#FFFFFFFF>3 Tauben</color> gesammelt, wird diese Karte abgeworfen: Zieht 1 Karte, erschafft 1 $[K411].",
-            "descriptionreplaced": "<color=#FFFFFFFF>Wirkt automatisch 1-mal pro Runde:</color> Sammelt <color=#FFFFFFFF>1 Taube</color>.\\nWenn bereits <color=#FFFFFFFF>3 Tauben</color> gesammelt, wird diese Karte abgeworfen: Zieht 1 Karte, erschafft 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>.",
+            "description": "Wirkt automatisch 1-mal pro Runde: Sammelt 1 Taube.\nWenn bereits 3 Tauben gesammelt sind, wird diese Karte abgeworfen: Zieht 1 Karte, erschafft 1 Omni-Würfel.",
+            "descriptionraw": "<color=#FFFFFFFF>Wirkt automatisch 1-mal pro Runde:</color> Sammelt <color=#FFFFFFFF>1 Taube</color>.\\nWenn bereits <color=#FFFFFFFF>3 Tauben</color> gesammelt sind, wird diese Karte abgeworfen: Zieht 1 Karte, erschafft 1 $[K411].",
+            "descriptionreplaced": "<color=#FFFFFFFF>Wirkt automatisch 1-mal pro Runde:</color> Sammelt <color=#FFFFFFFF>1 Taube</color>.\\nWenn bereits <color=#FFFFFFFF>3 Tauben</color> gesammelt sind, wird diese Karte abgeworfen: Zieht 1 Karte, erschafft 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>.",
             "id": 322007,
             "name": "Timmie",
             "playcost": [],
@@ -4537,9 +4815,9 @@
         "wagner": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Unterstützungskarte",
-            "description": "Bringt, sobald er das Feld betritt, 2 unbearbeitete Waffen.\nEndphase: Erzeugt 1 unbearbeitete Waffe.\nBeim Ausspielen von „Waffe“-Ausrüstungskarte: Verbraucht, wenn möglich, unbearbeitete Waffen in Höhe der Gesamtkosten zum Anlegen dieser Waffe, ohne dir dabei Elementarwürfel zu kosten (1-mal pro Runde).",
-            "descriptionraw": "Bringt, sobald er das Feld betritt, 2 unbearbeitete Waffen.\\n<color=#FFFFFFFF>Endphase:</color> Erzeugt 1 unbearbeitete Waffe.\\n<color=#FFFFFFFF>Beim Ausspielen von „{SPRITE_PRESET#3003}Waffe“-Ausrüstungskarte:</color> Verbraucht, wenn möglich, unbearbeitete Waffen in Höhe der Gesamtkosten zum Anlegen dieser {SPRITE_PRESET#3003}Waffe, ohne dir dabei Elementarwürfel zu kosten (1-mal pro Runde).",
-            "descriptionreplaced": "Bringt, sobald er das Feld betritt, 2 unbearbeitete Waffen.\\n<color=#FFFFFFFF>Endphase:</color> Erzeugt 1 unbearbeitete Waffe.\\n<color=#FFFFFFFF>Beim Ausspielen von „{SPRITE_PRESET#3003}Waffe“-Ausrüstungskarte:</color> Verbraucht, wenn möglich, unbearbeitete Waffen in Höhe der Gesamtkosten zum Anlegen dieser {SPRITE_PRESET#3003}Waffe, ohne dir dabei Elementarwürfel zu kosten (1-mal pro Runde).",
+            "description": "Bringt, sobald er das Feld betritt, 2 unbearbeitete Waffen.\nEndphase: Erzeugt 1 unbearbeitete Waffe.\nBeim Ausspielen von „Waffen“-Ausrüstungskarte: Verbraucht, wenn möglich, unbearbeitete Waffen in Höhe der Gesamtkosten zum Anlegen dieser Waffe, ohne dir dabei Elementarwürfel zu kosten (1-mal pro Runde).",
+            "descriptionraw": "Bringt, sobald er das Feld betritt, 2 unbearbeitete Waffen.\\n<color=#FFFFFFFF>Endphase:</color> Erzeugt 1 unbearbeitete Waffe.\\n<color=#FFFFFFFF>Beim Ausspielen von „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte:</color> Verbraucht, wenn möglich, unbearbeitete Waffen in Höhe der Gesamtkosten zum Anlegen dieser {SPRITE_PRESET#3003}Waffe, ohne dir dabei Elementarwürfel zu kosten (1-mal pro Runde).",
+            "descriptionreplaced": "Bringt, sobald er das Feld betritt, 2 unbearbeitete Waffen.\\n<color=#FFFFFFFF>Endphase:</color> Erzeugt 1 unbearbeitete Waffe.\\n<color=#FFFFFFFF>Beim Ausspielen von „{SPRITE_PRESET#3003}Waffen“-Ausrüstungskarte:</color> Verbraucht, wenn möglich, unbearbeitete Waffen in Höhe der Gesamtkosten zum Anlegen dieser {SPRITE_PRESET#3003}Waffe, ohne dir dabei Elementarwürfel zu kosten (1-mal pro Runde).",
             "id": 322004,
             "name": "Wagner",
             "playcost": [
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "Versuchung der Adepten",
             "adventurersbandana": "Kopftuch eines Abenteurers",
             "amosbow": "Amos’ Bogen",
+            "ancientcourtyard": "Garten von einst",
             "aquilafavonia": "Windfalke",
             "aratakiichiban": "Arataki Ichiban",
             "archaicpetra": "Archaischer Fels",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "Des Kryo-Cicin kalter Glanz",
             "coldbloodedstrike": "Grausames Schwert",
             "conquerorofevilguardianyaksha": "Eroberung – Schutz des Yaksha",
+            "covenantofrock": "Felsenbündnis",
             "crimsonwitchofflames": "Brennende Pyro-Hexe",
             "crossfire": "Kreuzfeuer",
             "dawnwinery": "Weingut Morgenröte",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "Wiederkehr des fliegenden Laubs",
             "flowingflame": "Fließende Flamme",
             "friendshipeternal": "Ewig währende Freundschaft",
+            "fruitoffulfillment": "Vollmondfrucht",
             "gamblersearrings": "Glücksspiel-Ohrringe",
             "generalsancienthelm": "Generalshelm",
             "giantmutationstone": "Riesiger Wandelstein",
@@ -5699,6 +6019,10 @@
             "magicguide": "Magieführer",
             "maskofsolitudebasalt": "Maske des starren Gesteins",
             "masterofweaponry": "Ausgeklügelte Bewaffnung",
+            "masterytalismanarmsandarmorhoned": "Talisman der Geschicklichkeit – Waffen und Rüstungen",
+            "masterytalismanbattleready": "Talisman der Geschicklichkeit – Bereit für den Kampf",
+            "masterytalismancascadingdefeat": "Talisman der Geschicklichkeit – Niederschmetternde Niederlage",
+            "masterytalismanchaoticbanners": "Talisman der Geschicklichkeit – Chaotische Banner",
             "masterytalismancoldwar": "Talisman der Geschicklichkeit – Eiskaltes Gefecht",
             "masterytalismancyclecharge": "Talisman der Geschicklichkeit – Karussell-Strategie",
             "masterytalismandecisivebattle": "Talisman der Geschicklichkeit – Entscheidendes Gefecht",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "Talisman der Geschicklichkeit – Explosive Dehnung",
             "masterytalismanimmovable": "Talisman der Geschicklichkeit – Unbezähmbarkeit",
             "masterytalismanintelligenceupdate": "Talisman der Geschicklichkeit – Neuste Information",
+            "masterytalismanplanninglongterm": "Talisman der Geschicklichkeit – Langfristige Planung",
             "masterytalismanpracticemakesperfect": "Talisman der Geschicklichkeit – Befahrenheit",
             "masterytalismanpresstheattack": "Talisman der Geschicklichkeit – Triumphaler Vorstoß",
+            "masterytalismansuddenambush": "Talisman der Geschicklichkeit – Überraschungsangriff",
             "masterytalismansurgingvigor": "Talisman der Geschicklichkeit – Energiebeladen",
             "masterytalismantheelementsentwined": "Talisman der Geschicklichkeit – Verkettung der Elemente",
+            "masterytalismanvictoriousrepute": "Talisman der Geschicklichkeit – Siegesgewissheit",
+            "masterzhang": "Herr Zhang",
             "mintymeatrolls": "Minzröllchen",
             "mirrorcage": "Spiegelkäfig",
             "mondstadthashbrown": "Kartoffelpuffer nach Mondstadt-Art",
@@ -5726,6 +6054,7 @@
             "paimon": "Paimon",
             "parametrictransformer": "Parameterwandler",
             "plungingstrike": "Abwärtshieb",
+            "poeticsoffuubutsu": "Poesie von Fuubutsu",
             "poundingsurprise": "Explosives Geschenk",
             "proliferatingspores": "Sporenvermehrung",
             "prophecyofsubmersion": "Prophezeiung des Untergangs",
@@ -5733,6 +6062,8 @@
             "rana": "Rana",
             "ravenbow": "Rabenbogen",
             "redfeatherfan": "Roter Federfächer",
+            "rhythmofthegreatdream": "Melodie des großen Traums",
+            "rightoffinalinterpretation": "Endgültige Auslegung vorbehalten",
             "sacrificialbow": "Opferbogen",
             "sacrificialfragments": "Opferrituale",
             "sacrificialgreatsword": "Opfergroßschwert",
@@ -5767,6 +6098,7 @@
             "thebell": "Glocke",
             "thebestesttravelcompanion": "Allerbeste Reisegefährtin!",
             "thelegendofvennessa": "Die Sage von Vennessa",
+            "theoverflow": "Überlaufende Abendflut",
             "thescentremained": "Nachgeschmack",
             "theseedofstoredknowledge": "Samen des bewahrten Wissens",
             "theshrinessacredshade": "Heiliger Schatten des Schreins",
@@ -5878,6 +6210,7 @@
             "Elementarkristall – Übergeflossen": "elementalorbdissipated",
             "Elementarmonolith – Stützpunkt": "leylinemonolithfrontlinefulcrum",
             "Ellin": "ellin",
+            "Endgültige Auslegung vorbehalten": "rightoffinalinterpretation",
             "Erinnerungen des tiefen Waldes": "deepwoodmemories",
             "Erneut gehärtet: Steinhaut": "stonehidereforged",
             "Eroberung – Schutz des Yaksha": "conquerorofevilguardianyaksha",
@@ -5887,11 +6220,13 @@
             "Favonius-Kathedrale": "favoniuscathedral",
             "Favonius-Schwert": "favoniussword",
             "Feldjägerhut": "viridescentvenerersdiadem",
+            "Felsenbündnis": "covenantofrock",
             "Feuerrote Wangen": "sanguinerouge",
             "Fließende Flamme": "flowingflame",
             "Fließende Träume von tausend Nächten": "athousandfloatingdreams",
             "Flink, flick, Fleck": "quickknit",
             "Fürsorgliche Unterstützung": "igotyourback",
+            "Garten von einst": "ancientcourtyard",
             "Gasthaus Wangshu": "wangshuinn",
             "Gedenken an Shimenawa": "shimenawasreminiscence",
             "Gelassenheit des Donners": "thunderingpoise",
@@ -5911,6 +6246,7 @@
             "Heftiger Angriff": "heavystrike",
             "Heiliger Schatten des Schreins": "theshrinessacredshade",
             "Heimkehr des Kranichs": "whenthecranereturned",
+            "Herr Zhang": "masterzhang",
             "Hilichurl-Schützenturm": "hilichurlarrowtower",
             "Himmelsatlas": "skywardatlas",
             "Himmelsflügel": "skywardharp",
@@ -5944,6 +6280,7 @@
             "Manuelle Explosion": "bunnytriggered",
             "Maschinelle Geschicklichkeit": "transcendentautomaton",
             "Maske des starren Gesteins": "maskofsolitudebasalt",
+            "Melodie des großen Traums": "rhythmofthegreatdream",
             "Millelithenlanze": "lithicspear",
             "Minzröllchen": "mintymeatrolls",
             "Mystische Verlassenheit": "mysticalabandon",
@@ -5959,6 +6296,7 @@
             "Paimon": "paimon",
             "Parameterwandler": "parametrictransformer",
             "Pilzza": "mushroompizza",
+            "Poesie von Fuubutsu": "poeticsoffuubutsu",
             "Praktischer Nahrungsbeutel": "nre",
             "Prophezeiung des Untergangs": "prophecyofsubmersion",
             "Rabenbogen": "ravenbow",
@@ -5989,17 +6327,24 @@
             "Sünde des Stolzes": "sinofpride",
             "Süß mariniertes Hühnchen": "sweetmadame",
             "Talisman der Geschicklichkeit – Befahrenheit": "masterytalismanpracticemakesperfect",
+            "Talisman der Geschicklichkeit – Bereit für den Kampf": "masterytalismanbattleready",
+            "Talisman der Geschicklichkeit – Chaotische Banner": "masterytalismanchaoticbanners",
             "Talisman der Geschicklichkeit – Eiskaltes Gefecht": "masterytalismancoldwar",
             "Talisman der Geschicklichkeit – Endloses Grün": "masterytalismandensevegetation",
             "Talisman der Geschicklichkeit – Energiebeladen": "masterytalismansurgingvigor",
             "Talisman der Geschicklichkeit – Entscheidendes Gefecht": "masterytalismandecisivebattle",
             "Talisman der Geschicklichkeit – Explosive Dehnung": "masterytalismanextendedexplosion",
             "Talisman der Geschicklichkeit – Karussell-Strategie": "masterytalismancyclecharge",
+            "Talisman der Geschicklichkeit – Langfristige Planung": "masterytalismanplanninglongterm",
             "Talisman der Geschicklichkeit – Neuste Information": "masterytalismanintelligenceupdate",
+            "Talisman der Geschicklichkeit – Niederschmetternde Niederlage": "masterytalismancascadingdefeat",
             "Talisman der Geschicklichkeit – Offensive Abwehr": "masterytalismandualprongedapproach",
+            "Talisman der Geschicklichkeit – Siegesgewissheit": "masterytalismanvictoriousrepute",
             "Talisman der Geschicklichkeit – Triumphaler Vorstoß": "masterytalismanpresstheattack",
             "Talisman der Geschicklichkeit – Unbezähmbarkeit": "masterytalismanimmovable",
             "Talisman der Geschicklichkeit – Verkettung der Elemente": "masterytalismantheelementsentwined",
+            "Talisman der Geschicklichkeit – Waffen und Rüstungen": "masterytalismanarmsandarmorhoned",
+            "Talisman der Geschicklichkeit – Überraschungsangriff": "masterytalismansuddenambush",
             "Tamanooyas Kästchen": "tamakushicasket",
             "Tandoori-Brathähnchen": "tandooriroastchicken",
             "Tenshukaku": "tenshukaku",
@@ -6018,6 +6363,7 @@
             "Vergangenheit des Zinnobers": "vermillionhereafter",
             "Versuchung der Adepten": "adeptustemptation",
             "Verzierter Helm": "ornatekabuto",
+            "Vollmondfrucht": "fruitoffulfillment",
             "Wagner": "wagner",
             "Wandelstein": "mutationstone",
             "Wanderarzttuch": "travelingdoctorshandkerchief",
@@ -6034,7 +6380,8 @@
             "Wolfsgrab": "wolfsgravestone",
             "Xudong": "xudong",
             "Zähigkeit der Millelithen": "tenacityofthemillelith",
-            "Überlass das mir!": "leaveittome"
+            "Überlass das mir!": "leaveittome",
+            "Überlaufende Abendflut": "theoverflow"
         },
         "properties": {
             "cardtype": [
@@ -6047,6 +6394,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6061,6 +6409,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

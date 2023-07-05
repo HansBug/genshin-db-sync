@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 23021,
                     "name": "救いの焔",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 23022,
                     "name": "熾烈なる箴言",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを3与え、黯炎炉心を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、黯炎炉心を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C123021]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を3与え、<color=#FFFFFFFF>黯炎炉心</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、<color=#FFFFFFFF>黯炎炉心</color>を召喚する。",
                     "id": 23023,
                     "name": "天より降りし予兆",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを2与え、相手の待機キャラ全員に貫通ダメージを2与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、相手の待機キャラ全員に貫通ダメージを2与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手の待機キャラ全員に<color=#FFFFFFFF>$[K5]</color>を2与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を2与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color></color>を2与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color></color>を2与える。",
                     "id": 13043,
                     "name": "矢の雨",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを1与え、丑雄を召喚し、本キャラに乱神の怪力を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、丑雄を召喚し、本キャラに乱神の怪力を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C116051]</color>を召喚し、本キャラに<color=#FFFFFFFF>$[C116054]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を1与え、<color=#FFFFFFFF>丑雄</color>を召喚し、本キャラに<color=#FFFFFFFF>乱神の怪力</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>丑雄</color>を召喚し、本キャラに<color=#FFFFFFFF>乱神の怪力</color>を付与する。",
                     "id": 16052,
                     "name": "魔殺絶技·岩牛発破！",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを5与え、本キャラに憤怒の鬼王を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを5与え、本キャラに憤怒の鬼王を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C116053]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を5与え、本キャラに<color=#FFFFFFFF>憤怒の鬼王</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を5与え、本キャラに<color=#FFFFFFFF>憤怒の鬼王</color>を付与する。",
                     "id": 16053,
                     "name": "最凶鬼王·一斗轟臨！！",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 12011,
                     "name": "水の囁き",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを1与え、歌声の輪を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、歌声の輪を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C112011]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を1与え、<color=#FFFFFFFF>歌声の輪</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>歌声の輪</color>を召喚する。",
                     "id": 12012,
                     "name": "公演、開始♪",
                     "playcost": [
@@ -369,17 +369,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを3与え、雷獣の盾を生成する。",
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、雷獣の盾を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C114053]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を3与え、<color=#FFFFFFFF>雷獣の盾</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>雷獣の盾</color>を生成する。",
                     "id": 14053,
                     "name": "雷斫り",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_ELECTRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -390,11 +390,11 @@
                     "typetag": "GCG_SKILL_TAG_Q"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "（1ターン準備必要）\n雷元素ダメージを2与える。",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "（1ターン準備必要）\n物理ダメージを3与える。",
                     "descriptionraw": "（1ターン準備必要）\\n$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "（1ターン準備必要）\\n{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を2与える。",
+                    "descriptionreplaced": "（1ターン準備必要）\\n{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 14054,
                     "name": "潮踏み",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 13032,
                     "name": "溢れる情熱",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを2与え、鼓舞エリアを生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、鼓舞エリアを生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C113031]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を2与え、<color=#FFFFFFFF>鼓舞エリア</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>鼓舞エリア</color>を生成する。",
                     "id": 13033,
                     "name": "素晴らしい旅",
                     "playcost": [
@@ -494,6 +494,96 @@
                 "炎元素",
                 "片手剣",
                 "モンド"
+            ]
+        },
+        "candace": {
+            "hp": 10,
+            "id": 1207,
+            "maxenergy": 2,
+            "name": "キャンディス",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与える。",
+                    "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与える。",
+                    "id": 12071,
+                    "name": "流耀槍術·守勢",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "通常攻撃",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "本キャラに蒼鷺シールドを付与し、スキル準備に入る：蒼鷺盾撃。",
+                    "descriptionraw": "本キャラに<color=#FFFFFFFF>$[C112071]</color>を付与し、$[K53]に入る：<color=#FFFFFFFF>$[S12074]</color>。",
+                    "descriptionreplaced": "本キャラに<color=#FFFFFFFF>蒼鷺シールド</color>を付与し、<color=#FFFFFFFF>スキル準備</color>に入る：<color=#FFFFFFFF>蒼鷺盾撃</color>。",
+                    "id": 12072,
+                    "name": "聖儀·蒼鷺による庇護",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "元素スキル",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、赤冠より授かりし祝福を生成する。",
+                    "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C112072]</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>赤冠より授かりし祝福</color>を生成する。",
+                    "id": 12073,
+                    "name": "聖儀·灰鴒の呼び潮",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_HYDRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "元素爆発",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "（1ターン準備必要）\n物理ダメージを3与える。",
+                    "descriptionraw": "（1ターン準備必要）\\n$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
+                    "descriptionreplaced": "（1ターン準備必要）\\n{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
+                    "id": 12074,
+                    "name": "蒼鷺盾撃",
+                    "playcost": [],
+                    "type": "元素スキル",
+                    "typetag": "GCG_SKILL_TAG_E"
+                }
+            ],
+            "source": "キャッツテールでキャンディスを招待し、友好対戦に勝利することで獲得",
+            "storytext": "赤砂浮金、守護の誓約。",
+            "storytitle": "浮金の誓願·キャンディス",
+            "tags": [
+                "GCG_TAG_ELEMENT_HYDRO",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU"
+            ],
+            "tagstext": [
+                "水元素",
+                "長柄武器",
+                "スメール"
             ]
         },
         "chongyun": {
@@ -525,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを3与え、重華積霜エリアを生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、重華積霜エリアを生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C111041]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を3与え、<color=#FFFFFFFF>重華積霜エリア</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、<color=#FFFFFFFF>重華積霜エリア</color>を生成する。",
                     "id": 11042,
                     "name": "重華積霜",
                     "playcost": [
@@ -542,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを7与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを7与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を7与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を7与える。",
                     "id": 11043,
                     "name": "雲開星落",
                     "playcost": [
@@ -605,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 17012,
                     "name": "花触葉讃",
                     "playcost": [
@@ -622,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを2与え、コレアンバーを召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、コレアンバーを召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C117011]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を2与え、<color=#FFFFFFFF>コレアンバー</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>コレアンバー</color>を召喚する。",
                     "id": 17013,
                     "name": "ニャンコトレジャー",
                     "playcost": [
@@ -685,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 14042,
                     "name": "秘儀·律淵渡魂",
                     "playcost": [
@@ -702,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを4与える。\n啓途誓使の「憑依」レベル+2。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与える。\n啓途誓使の「憑依」レベル+2。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。\\n<color=#FFFFFFFF>$[C114041]</color>の「憑依」レベル+2。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を4与える。\\n<color=#FFFFFFFF>啓途誓使</color>の「憑依」レベル+2。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与える。\\n<color=#FFFFFFFF>啓途誓使</color>の「憑依」レベル+2。",
                     "id": 14043,
                     "name": "聖儀·狼駆憑走",
                     "playcost": [
@@ -775,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを3与える。このスキルが各ラウンド3回目に発動されると、ダメージ+2。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。このスキルが各ラウンド3回目に発動されると、ダメージ+2。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。このスキルが各ラウンド3回目に発動されると、ダメージ+2。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を3与える。このスキルが各ラウンド3回目に発動されると、ダメージ+2。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。このスキルが各ラウンド3回目に発動されると、ダメージ+2。",
                     "id": 13012,
                     "name": "逆焔の刃",
                     "playcost": [
@@ -792,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを8与え、本キャラは炎元素付与状態を獲得する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを8与え、本キャラは炎元素付与状態を獲得する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラは<color=#FFFFFFFF>$[C113011]</color>状態を獲得する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を8与え、本キャラは<color=#FFFFFFFF>炎元素付与</color>状態を獲得する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を8与え、本キャラは<color=#FFFFFFFF>炎元素付与</color>状態を獲得する。",
                     "id": 13013,
                     "name": "黎明",
                     "playcost": [
@@ -855,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを2与え、キャッツクローシールドを生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、キャッツクローシールドを生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C111021]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を2与え、<color=#FFFFFFFF>キャッツクローシールド</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>キャッツクローシールド</color>を生成する。",
                     "id": 11022,
                     "name": "フリーズキャッツクロー",
                     "playcost": [
@@ -872,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを1与え、このキャラのHPを2回復し、酒霧エリアを召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、このキャラのHPを2回復し、酒霧エリアを召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、このキャラのHPを2回復し、<color=#FFFFFFFF>$[C111023]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を1与え、このキャラのHPを2回復し、<color=#FFFFFFFF>酒霧エリア</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、このキャラのHPを2回復し、<color=#FFFFFFFF>酒霧エリア</color>を召喚する。",
                     "id": 11023,
                     "name": "特製スピリッツ",
                     "playcost": [
@@ -914,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 24011,
                     "name": "雷晶発射",
                     "playcost": [
@@ -935,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを2与え、その後スキル準備に入る：ジャンケン三連攻撃·チョキとジャンケン三連攻撃·パー。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、その後スキル準備に入る：ジャンケン三連攻撃·チョキとジャンケン三連攻撃·パー。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、その後$[K53]に入る：<color=#FFFFFFFF>$[S24015]</color>と<color=#FFFFFFFF>$[S24016]</color>。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を2与え、その後<color=#FFFFFFFF>スキル準備</color>に入る：<color=#FFFFFFFF>ジャンケン三連攻撃·チョキ</color>と<color=#FFFFFFFF>ジャンケン三連攻撃·パー</color>。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、その後<color=#FFFFFFFF>スキル準備</color>に入る：<color=#FFFFFFFF>ジャンケン三連攻撃·チョキ</color>と<color=#FFFFFFFF>ジャンケン三連攻撃·パー</color>。",
                     "id": 24012,
                     "name": "ジャンケン三連攻撃",
                     "playcost": [
@@ -952,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを2与え、雷鎖鎮域を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、雷鎖鎮域を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C124013]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を2与え、<color=#FFFFFFFF>雷鎖鎮域</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>雷鎖鎮域</color>を召喚する。",
                     "id": 24013,
                     "name": "霹靂鎮鎖",
                     "playcost": [
@@ -983,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを2与え、スキル準備に入る：ジャンケン三連攻撃·パー。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、スキル準備に入る：ジャンケン三連攻撃·パー。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、$[K53]に入る：<color=#FFFFFFFF>$[S24016]</color>。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を2与え、<color=#FFFFFFFF>スキル準備</color>に入る：<color=#FFFFFFFF>ジャンケン三連攻撃·パー</color>。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>スキル準備</color>に入る：<color=#FFFFFFFF>ジャンケン三連攻撃·パー</color>。",
                     "id": 24015,
                     "name": "ジャンケン三連攻撃·チョキ",
                     "playcost": [],
@@ -995,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 24016,
                     "name": "ジャンケン三連攻撃·パー",
                     "playcost": [],
@@ -1049,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを2与える。本キャラに冷酷な心が付与されていない場合、冷酷な心を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与える。本キャラに冷酷な心が付与されていない場合、冷酷な心を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。本キャラに<color=#FFFFFFFF>$[C111061]</color>が付与されていない場合、<color=#FFFFFFFF>$[C111061]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を2与える。本キャラに<color=#FFFFFFFF>冷酷な心</color>が付与されていない場合、<color=#FFFFFFFF>冷酷な心</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与える。本キャラに<color=#FFFFFFFF>冷酷な心</color>が付与されていない場合、<color=#FFFFFFFF>冷酷な心</color>を付与する。",
                     "id": 11062,
                     "name": "氷潮の渦",
                     "playcost": [
@@ -1066,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを2与え、光臨の剣を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、光臨の剣を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C111062]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を2与え、<color=#FFFFFFFF>光臨の剣</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>光臨の剣</color>を召喚する。",
                     "id": 11063,
                     "name": "氷浪の光剣",
                     "playcost": [
@@ -1108,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 21011,
                     "name": "氷蛍角錐",
                     "playcost": [
@@ -1129,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを1与え、氷蛍を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、氷蛍を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C121011]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を1与え、<color=#FFFFFFFF>氷蛍</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>氷蛍</color>を召喚する。",
                     "id": 21012,
                     "name": "霧虚ろの呼びかけ",
                     "playcost": [
@@ -1146,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを5与え、本キャラは氷元素付着状態になり、流蛍バリアを生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを5与え、本キャラは氷元素付着状態になり、流蛍バリアを生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラは$[K201]状態になり、<color=#FFFFFFFF>$[C121012]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を5与え、本キャラは<color=#99FFFFFF>{SPRITE_PRESET#2101}氷元素付着</color>状態になり、<color=#FFFFFFFF>流蛍バリア</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を5与え、本キャラは<color=#99FFFFFF>{SPRITE_PRESET#2101}氷元素付着</color>状態になり、<color=#FFFFFFFF>流蛍バリア</color>を生成する。",
                     "id": 21013,
                     "name": "氷の枝に白い花",
                     "playcost": [
@@ -1209,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを1与え、本キャラに潜行を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、本キャラに潜行を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C123011]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を1与え、本キャラに<color=#FFFFFFFF>潜行</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、本キャラに<color=#FFFFFFFF>潜行</color>を付与する。",
                     "id": 23012,
                     "name": "隙を狙う",
                     "playcost": [
@@ -1226,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを5与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを5与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を5与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を5与える。",
                     "id": 23013,
                     "name": "焼き払う刃先",
                     "playcost": [
@@ -1299,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを1与え、オズを召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、オズを召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C114011]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を1与え、<color=#FFFFFFFF>オズ</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>オズ</color>を召喚する。",
                     "id": 14012,
                     "name": "夜巡りの翼",
                     "playcost": [
@@ -1316,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを4与え、相手の待機キャラ全員に貫通ダメージを2与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、相手の待機キャラ全員に貫通ダメージを2与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手の待機キャラ全員に<color=#FFFFFFFF>$[K5]</color>を2与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を4与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color></color>を2与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color></color>を2与える。",
                     "id": 14013,
                     "name": "夜の幻現",
                     "playcost": [
@@ -1379,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを1与え、氷蓮を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、氷蓮を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C111012]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を1与え、<color=#FFFFFFFF>氷蓮</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>氷蓮</color>を生成する。",
                     "id": 11012,
                     "name": "山沢麟跡",
                     "playcost": [
@@ -1396,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを2与え、相手の待機キャラ全員に貫通ダメージを2与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、相手の待機キャラ全員に貫通ダメージを2与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手の待機キャラ全員に<color=#FFFFFFFF>$[K5]を2</color>与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を2与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color>を2</color>与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color>を2</color>与える。",
                     "id": 11013,
                     "name": "霜華の矢",
                     "playcost": [
@@ -1413,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを2与え、相手の待機キャラ全員に貫通ダメージを1与える。氷霊珠を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、相手の待機キャラ全員に貫通ダメージを1与える。氷霊珠を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手の待機キャラ全員に<color=#FFFFFFFF>$[K5]を1</color>与える。<color=#FFFFFFFF>$[C111011]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を2与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color>を1</color>与える。<color=#FFFFFFFF>氷霊珠</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color>を1</color>与える。<color=#FFFFFFFF>氷霊珠</color>を召喚する。",
                     "id": 11014,
                     "name": "降衆天華",
                     "playcost": [
@@ -1491,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを4与え、自身のHPを2回復する。本キャラのHPが6以下の場合、与えるダメージと回復量がそれぞれ+1。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、自身のHPを2回復する。本キャラのHPが6以下の場合、与えるダメージと回復量がそれぞれ+1。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、自身のHPを2回復する。本キャラのHPが6以下の場合、与えるダメージと回復量がそれぞれ+1。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を4与え、自身のHPを2回復する。本キャラのHPが6以下の場合、与えるダメージと回復量がそれぞれ+1。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、自身のHPを2回復する。本キャラのHPが6以下の場合、与えるダメージと回復量がそれぞれ+1。",
                     "id": 13073,
                     "name": "安神秘法",
                     "playcost": [
@@ -1554,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 27012,
                     "name": "不安定な胞子雲",
                     "playcost": [
@@ -1571,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを4与える。また、活発激能の層数を全て消費し、層ごとにダメージ+1。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与える。また、活発激能の層数を全て消費し、層ごとにダメージ+1。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。また、<color=#FFFFFFFF>$[C127011]</color>の層数を全て消費し、層ごとにダメージ+1。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を4与える。また、<color=#FFFFFFFF>活発激能</color>の層数を全て消費し、層ごとにダメージ+1。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与える。また、<color=#FFFFFFFF>活発激能</color>の層数を全て消費し、層ごとにダメージ+1。",
                     "id": 27013,
                     "name": "奔放な尾羽",
                     "playcost": [
@@ -1644,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "風元素ダメージを3与え、相手のキャラを次のキャラにチェンジさせる。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、相手のキャラを次のキャラにチェンジさせる。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手のキャラを次のキャラにチェンジさせる。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を3与え、相手のキャラを次のキャラにチェンジさせる。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、相手のキャラを次のキャラにチェンジさせる。",
                     "id": 15022,
                     "name": "風圧剣",
                     "playcost": [
@@ -1693,6 +1783,96 @@
                 "モンド"
             ]
         },
+        "kaedeharakazuha": {
+            "hp": 10,
+            "id": 1505,
+            "maxenergy": 2,
+            "name": "楓原万葉",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与える。",
+                    "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与える。",
+                    "id": 15051,
+                    "name": "我流剣術",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "通常攻撃",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、本キャラに乱れ嵐斬を付与する。\nこのスキルで拡散反応を起こした場合、乱れ嵐斬は拡散された元素に変わる。\nこのスキル処理完了後：味方の次のキャラへとチェンジする。",
+                    "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C115051]</color>を付与する。\\nこのスキルで拡散反応を起こした場合、<color=#FFFFFFFF>$[C115051]</color>は拡散された元素に変わる。\\n<color=#FFFFFFFF>このスキル処理完了後：</color>味方の次のキャラへとチェンジする。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、本キャラに<color=#FFFFFFFF>乱れ嵐斬</color>を付与する。\\nこのスキルで拡散反応を起こした場合、<color=#FFFFFFFF>乱れ嵐斬</color>は拡散された元素に変わる。\\n<color=#FFFFFFFF>このスキル処理完了後：</color>味方の次のキャラへとチェンジする。",
+                    "id": 15052,
+                    "name": "千早振る",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "元素スキル",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、流風秋野を召喚する。",
+                    "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C115052]</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、<color=#FFFFFFFF>流風秋野</color>を召喚する。",
+                    "id": 15053,
+                    "name": "万葉の一刀",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ANEMO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "元素爆発",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                },
+                {
+                    "description": "",
+                    "descriptionraw": "",
+                    "descriptionreplaced": "",
+                    "id": 15054,
+                    "name": "千早振る",
+                    "playcost": [],
+                    "type": "固有スキル",
+                    "typetag": "GCG_SKILL_TAG_PASSIVE"
+                }
+            ],
+            "source": "キャッツテールで楓原万葉を招待し、友好対戦に勝利することで獲得",
+            "storytext": "花鳥の一興を拾い、風月の道を照らさん。",
+            "storytitle": "風波流浪の紅葉·楓原万葉",
+            "tags": [
+                "GCG_TAG_ELEMENT_ANEMO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_INAZUMA"
+            ],
+            "tagstext": [
+                "風元素",
+                "片手剣",
+                "稲妻"
+            ]
+        },
         "kaeya": {
             "hp": 10,
             "id": 1103,
@@ -1722,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 11032,
                     "name": "霜の襲撃",
                     "playcost": [
@@ -1739,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを1与え、氷柱を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、氷柱を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C111031]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を1与え、<color=#FFFFFFFF>氷柱</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>氷柱</color>を生成する。",
                     "id": 11033,
                     "name": "凛冽なる輪舞",
                     "playcost": [
@@ -1802,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 11052,
                     "name": "神里流·氷華",
                     "playcost": [
@@ -1819,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを4与え、霜見雪関扉を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、霜見雪関扉を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C111051]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を4与え、<color=#FFFFFFFF>霜見雪関扉</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、<color=#FFFFFFFF>霜見雪関扉</color>を召喚する。",
                     "id": 11053,
                     "name": "神里流·霜滅",
                     "playcost": [
@@ -1892,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを2与え、本キャラに滝廻鑑花を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、本キャラに滝廻鑑花を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C112061]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を2与え、本キャラに<color=#FFFFFFFF>滝廻鑑花</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、本キャラに<color=#FFFFFFFF>滝廻鑑花</color>を付与する。",
                     "id": 12062,
                     "name": "神里流·鏡花",
                     "playcost": [
@@ -1909,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを3与え、清浄之園囿を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、清浄之園囿を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C112062]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を3与え、<color=#FFFFFFFF>清浄之園囿</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、<color=#FFFFFFFF>清浄之園囿</color>を召喚する。",
                     "id": 12063,
                     "name": "神里流·水囿",
                     "playcost": [
@@ -1972,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを3与え、手札に雷楔を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、手札に雷楔を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、手札に<color=#FFFFFFFF>$[C114031]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を3与え、手札に<color=#FFFFFFFF>雷楔</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、手札に<color=#FFFFFFFF>雷楔</color>を生成する。",
                     "id": 14032,
                     "name": "星辰帰位",
                     "playcost": [
@@ -1989,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを4与え、相手の待機キャラ全員に貫通ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、相手の待機キャラ全員に貫通ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手の待機キャラ全員に<color=#FFFFFFFF>$[K5]を3</color>与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を4与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color>を3</color>与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color>を3</color>与える。",
                     "id": 14033,
                     "name": "天街巡遊",
                     "playcost": [
@@ -2031,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 13061,
                     "name": "バンバン",
                     "playcost": [
@@ -2052,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを3与え、本キャラに爆裂花火を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、本キャラに爆裂花火を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C113061]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を3与え、本キャラに<color=#FFFFFFFF>爆裂花火</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、本キャラに<color=#FFFFFFFF>爆裂花火</color>を付与する。",
                     "id": 13062,
                     "name": "ボンボン爆弾",
                     "playcost": [
@@ -2069,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを3与え、相手のフィールドにドッカン花火を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、相手のフィールドにドッカン花火を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手のフィールドに<color=#FFFFFFFF>$[C113063]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を3与え、相手のフィールドに<color=#FFFFFFFF>ドッカン花火</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、相手のフィールドに<color=#FFFFFFFF>ドッカン花火</color>を生成する。",
                     "id": 13063,
                     "name": "ドッカン花火",
                     "playcost": [
@@ -2132,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを1与え、天狗呪雷·伏を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、天狗呪雷·伏を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C114061]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を1与え、<color=#FFFFFFFF>天狗呪雷·伏</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>天狗呪雷·伏</color>を召喚する。",
                     "id": 14062,
                     "name": "烏天狗雷霆召呪",
                     "playcost": [
@@ -2149,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを1与え、天狗呪雷·雷礫を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、天狗呪雷·雷礫を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C114062]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を1与え、<color=#FFFFFFFF>天狗呪雷·雷礫</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>天狗呪雷·雷礫</color>を召喚する。",
                     "id": 14063,
                     "name": "煌煌千道鎮式",
                     "playcost": [
@@ -2242,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "風元素ダメージを4与え、味方のすべての剣影召喚物の効果を発動する。（使用可能回数は消費しない）",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、味方のすべての剣影召喚物の効果を発動する。（使用可能回数は消費しない）",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、味方のすべての<color=#FFFFFFFF>剣影</color>召喚物の効果を発動する。（使用可能回数は消費しない）",
-                    "descriptionreplaced": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を4与え、味方のすべての<color=#FFFFFFFF>剣影</color>召喚物の効果を発動する。（使用可能回数は消費しない）",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、味方のすべての<color=#FFFFFFFF>剣影</color>召喚物の効果を発動する。（使用可能回数は消費しない）",
                     "id": 25014,
                     "name": "機巧偽天狗抄",
                     "playcost": [
@@ -2284,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 22021,
                     "name": "水弾",
                     "playcost": [
@@ -2305,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを2与え、目標キャラに水光破鏡を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、目標キャラに水光破鏡を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、目標キャラに<color=#FFFFFFFF>$[C122021]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を2与え、目標キャラに<color=#FFFFFFFF>水光破鏡</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、目標キャラに<color=#FFFFFFFF>水光破鏡</color>を付与する。",
                     "id": 22022,
                     "name": "溢れる波の満潮",
                     "playcost": [
@@ -2322,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを5与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを5与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を5与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を5与える。",
                     "id": 22023,
                     "name": "照り返す水鏡",
                     "playcost": [
@@ -2364,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 12031,
                     "name": "因果点破",
                     "playcost": [
@@ -2385,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを1与え、虚影を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、虚影を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C112031]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を1与え、<color=#FFFFFFFF>虚影</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>虚影</color>を召喚する。",
                     "id": 12032,
                     "name": "水中幻願",
                     "playcost": [
@@ -2402,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを4与え、泡影を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、泡影を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C112032]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を4与え、<color=#FFFFFFFF>泡影</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、<color=#FFFFFFFF>泡影</color>を生成する。",
                     "id": 12033,
                     "name": "星命定軌",
                     "playcost": [
@@ -2454,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 17031,
                     "name": "行相",
                     "playcost": [
@@ -2475,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを2与え、目標キャラに蘊種印を付与する。付与する前に、目標キャラにすでに蘊種印が付与されている場合、相手のチーム全員に蘊種印を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、目標キャラに蘊種印を付与する。付与する前に、目標キャラにすでに蘊種印が付与されている場合、相手のチーム全員に蘊種印を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、目標キャラに<color=#FFFFFFFF>$[C117031]</color>を付与する。付与する前に、目標キャラにすでに<color=#FFFFFFFF>$[C117031]</color>が付与されている場合、相手のチーム全員に<color=#FFFFFFFF>$[C117031]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を2与え、目標キャラに<color=#FFFFFFFF>蘊種印</color>を付与する。付与する前に、目標キャラにすでに<color=#FFFFFFFF>蘊種印</color>が付与されている場合、相手のチーム全員に<color=#FFFFFFFF>蘊種印</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、目標キャラに<color=#FFFFFFFF>蘊種印</color>を付与する。付与する前に、目標キャラにすでに<color=#FFFFFFFF>蘊種印</color>が付与されている場合、相手のチーム全員に<color=#FFFFFFFF>蘊種印</color>を付与する。",
                     "id": 17032,
                     "name": "所聞遍計",
                     "playcost": [
@@ -2492,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを3与え、相手のチーム全員に蘊種印を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、相手のチーム全員に蘊種印を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手のチーム全員に<color=#FFFFFFFF>$[C117031]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を3与え、相手のチーム全員に<color=#FFFFFFFF>蘊種印</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、相手のチーム全員に<color=#FFFFFFFF>蘊種印</color>を付与する。",
                     "id": 17033,
                     "name": "所聞遍計·真如",
                     "playcost": [
@@ -2509,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを4与え、摩耶の宮殿を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、摩耶の宮殿を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C117032]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を4与え、<color=#FFFFFFFF>摩耶の宮殿</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、<color=#FFFFFFFF>摩耶の宮殿</color>を生成する。",
                     "id": 17034,
                     "name": "心景幻成",
                     "playcost": [
@@ -2530,7 +2710,7 @@
                 }
             ],
             "source": "キャッツテールでナヒーダを招待し、友好対戦に勝利することで獲得",
-            "storytext": "白草浄華、啓蟄の深宮。",
+            "storytext": "白草浄華、啓蟄の深宮",
             "storytitle": "白草浄華·ナヒーダ",
             "tags": [
                 "GCG_TAG_ELEMENT_DENDRO",
@@ -2551,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 16011,
                     "name": "千金擲",
                     "playcost": [
@@ -2572,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを2与え、璇璣屏を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、璇璣屏を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C116011]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を2与え、<color=#FFFFFFFF>璇璣屏</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>璇璣屏</color>を生成する。",
                     "id": 16012,
                     "name": "璇璣屏",
                     "playcost": [
@@ -2589,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを6与える。もし璇璣屏がフィールドに存在する場合、このダメージ+2。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを6与える。もし璇璣屏がフィールドに存在する場合、このダメージ+2。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。もし<color=#FFFFFFFF>$[C116011]</color>がフィールドに存在する場合、このダメージ+2。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を6与える。もし<color=#FFFFFFFF>璇璣屏</color>がフィールドに存在する場合、このダメージ+2。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を6与える。もし<color=#FFFFFFFF>璇璣屏</color>がフィールドに存在する場合、このダメージ+2。",
                     "id": 16013,
                     "name": "天権崩玉",
                     "playcost": [
@@ -2652,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを1与え、護身の岩鎧を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、護身の岩鎧を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C116021]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を1与え、<color=#FFFFFFFF>護身の岩鎧</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>護身の岩鎧</color>を生成する。",
                     "id": 16022,
                     "name": "護心鎧",
                     "playcost": [
@@ -2669,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを4与え、本キャラに大掃除を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、本キャラに大掃除を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C116022]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を4与え、本キャラに<color=#FFFFFFFF>大掃除</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、本キャラに<color=#FFFFFFFF>大掃除</color>を付与する。",
                     "id": 16023,
                     "name": "大掃除",
                     "playcost": [
@@ -2747,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを3与え、他の味方キャラがチャージを2獲得する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、他の味方キャラがチャージを2獲得する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、他の味方キャラが$[K310]を2獲得する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を3与え、他の味方キャラが<color=#FFFFFFFF>{SPRITE_PRESET#1110}チャージ</color>を2獲得する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、他の味方キャラが<color=#FFFFFFFF>{SPRITE_PRESET#1110}チャージ</color>を2獲得する。",
                     "id": 14073,
                     "name": "奥義·夢想真説",
                     "playcost": [
@@ -2794,7 +2974,7 @@
         "razor": {
             "hp": 10,
             "id": 1402,
-            "maxenergy": 3,
+            "maxenergy": 2,
             "name": "レザー",
             "skills": [
                 {
@@ -2820,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 14022,
                     "name": "鋭い爪と蒼雷",
                     "playcost": [
@@ -2836,11 +3016,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを5与え、本キャラに雷狼を付与する。",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、本キャラに雷狼を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C114021]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を5与え、本キャラに<color=#FFFFFFFF>雷狼</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、本キャラに<color=#FFFFFFFF>雷狼</color>を付与する。",
                     "id": 14023,
                     "name": "雷牙",
                     "playcost": [
@@ -2850,7 +3030,7 @@
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
-                            "count": 3
+                            "count": 2
                         }
                     ],
                     "type": "元素爆発",
@@ -2879,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 22011,
                     "name": "荒波",
                     "playcost": [
@@ -2930,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを2与える。味方の召喚物1つにつき、このダメージ+2。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与える。味方の召喚物1つにつき、このダメージ+2。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。味方の召喚物1つにつき、このダメージ+2。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を2与える。味方の召喚物1つにつき、このダメージ+2。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与える。味方の召喚物1つにつき、このダメージ+2。",
                     "id": 22014,
                     "name": "潮汐と激流",
                     "playcost": [
@@ -2972,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 12051,
                     "name": "水の常形",
                     "playcost": [
@@ -3008,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを2与え、味方のチーム全員のHPを1回復し、本キャラに儀来羽衣を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、味方のチーム全員のHPを1回復し、本キャラに儀来羽衣を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、味方のチーム全員のHPを1回復し、本キャラに<color=#FFFFFFFF>$[C112052]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を2与え、味方のチーム全員のHPを1回復し、本キャラに<color=#FFFFFFFF>儀来羽衣</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、味方のチーム全員のHPを1回復し、本キャラに<color=#FFFFFFFF>儀来羽衣</color>を付与する。",
                     "id": 12053,
                     "name": "海人の羽衣",
                     "playcost": [
@@ -3071,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを2与え、氷翎を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、氷翎を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C111071]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を2与え、<color=#FFFFFFFF>氷翎</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>氷翎</color>を生成する。",
                     "id": 11072,
                     "name": "仰霊威召将役呪",
                     "playcost": [
@@ -3088,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_CRYO",
-                    "description": "氷元素ダメージを1与え、籙霊を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、籙霊を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C111073]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を1与え、<color=#FFFFFFFF>籙霊</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>籙霊</color>を召喚する。",
                     "id": 11073,
                     "name": "神女遣霊真訣",
                     "playcost": [
@@ -3222,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "風元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 15011,
                     "name": "簡式風霊作成",
                     "playcost": [
@@ -3243,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "風元素ダメージを3与え、相手のキャラを一つ前のキャラにチェンジさせる。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、相手のキャラを一つ前のキャラにチェンジさせる。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手のキャラを一つ前のキャラにチェンジさせる。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を3与え、相手のキャラを一つ前のキャラにチェンジさせる。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、相手のキャラを一つ前のキャラにチェンジさせる。",
                     "id": 15012,
                     "name": "風霊作成·六三〇八",
                     "playcost": [
@@ -3260,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "風元素ダメージを1与え、大型風霊を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、大型風霊を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C115011]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を1与え、<color=#FFFFFFFF>大型風霊</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>大型風霊</color>を召喚する。",
                     "id": 15013,
                     "name": "禁·風霊作成·七五同構弐型",
                     "playcost": [
@@ -3323,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "近接モードに切り替え、水元素ダメージを2与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "近接モードに切り替え、物理ダメージを2与える。",
                     "descriptionraw": "<color=#FFFFFFFF>$[C112042]</color>に切り替え、$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "<color=#FFFFFFFF>近接モード</color>に切り替え、{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を2与える。",
+                    "descriptionreplaced": "<color=#FFFFFFFF>近接モード</color>に切り替え、{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与える。",
                     "id": 12042,
                     "name": "魔王の武装·荒波",
                     "playcost": [
@@ -3340,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "タルタリヤの戦闘モードによって、異なる攻撃を発動する。\n遠隔モード·魔弾一閃：水元素ダメージを4与え、チャージが2返還され、目標キャラに断流を付与する。\n近接モード·尽滅の水光：水元素ダメージを7与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "タルタリヤの戦闘モードによって、異なる攻撃を発動する。\n遠隔モード·魔弾一閃：物理ダメージを4与え、チャージが2返還され、目標キャラに断流を付与する。\n近接モード·尽滅の水光：物理ダメージを7与える。",
                     "descriptionraw": "<color=#FFFFFFFF>$[A1204]</color>の戦闘モードによって、異なる攻撃を発動する。\\n<color=#FFFFFFFF>遠隔モード·魔弾一閃：</color>$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE_4]与え、$[K310]が2返還され、目標キャラに<color=#FFFFFFFF>$[C112043]</color>を付与する。\\n<color=#FFFFFFFF>近接モード·尽滅の水光：</color>$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "<color=#FFFFFFFF>タルタリヤ</color>の戦闘モードによって、異なる攻撃を発動する。\\n<color=#FFFFFFFF>遠隔モード·魔弾一閃：</color>{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を4与え、<color=#FFFFFFFF>{SPRITE_PRESET#1110}チャージ</color>が2返還され、目標キャラに<color=#FFFFFFFF>断流</color>を付与する。\\n<color=#FFFFFFFF>近接モード·尽滅の水光：</color>{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を7与える。",
+                    "descriptionreplaced": "<color=#FFFFFFFF>タルタリヤ</color>の戦闘モードによって、異なる攻撃を発動する。\\n<color=#FFFFFFFF>遠隔モード·魔弾一閃：</color>{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、<color=#FFFFFFFF>{SPRITE_PRESET#1110}チャージ</color>が2返還され、目標キャラに<color=#FFFFFFFF>断流</color>を付与する。\\n<color=#FFFFFFFF>近接モード·尽滅の水光：</color>{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を7与える。",
                     "id": 12043,
                     "name": "極悪技·尽滅閃",
                     "playcost": [
@@ -3433,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを2与え、本キャラに通塞識を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、本キャラに通塞識を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C117021]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を2与え、本キャラに<color=#FFFFFFFF>通塞識</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、本キャラに<color=#FFFFFFFF>通塞識</color>を付与する。",
                     "id": 17022,
                     "name": "識果榴弾",
                     "playcost": [
@@ -3450,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_DENDRO",
-                    "description": "草元素ダメージを4与え、相手の待機キャラ全員に貫通ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、相手の待機キャラ全員に貫通ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、相手の待機キャラ全員に<color=#FFFFFFFF>$[K5]</color>を1与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2107}<color=#7EC236FF>草元素ダメージ</color>を4与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color></color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、相手の待機キャラ全員に<color=#FFFFFFFF><color=#FFFFFFFF>貫通ダメージ</color></color>を1与える。",
                     "id": 17023,
                     "name": "造生·蔓纏いの矢",
                     "playcost": [
@@ -3513,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "風元素ダメージを2与え、風域を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、風域を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C115031]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を2与え、<color=#FFFFFFFF>風域</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>風域</color>を生成する。",
                     "id": 15032,
                     "name": "高天の歌",
                     "playcost": [
@@ -3530,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "風元素ダメージを2与え、暴風の目を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、暴風の目を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C115034]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を2与え、<color=#FFFFFFFF>暴風の目</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、<color=#FFFFFFFF>暴風の目</color>を召喚する。",
                     "id": 15033,
                     "name": "風神の詩",
                     "playcost": [
@@ -3607,11 +3787,11 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを2与え、旋火輪を生成する。",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、旋火輪を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C113022]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を2与え、<color=#FFFFFFFF>旋火輪</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、<color=#FFFFFFFF>旋火輪</color>を生成する。",
                     "id": 13023,
                     "name": "旋火輪",
                     "playcost": [
@@ -3671,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "風元素ダメージを3与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を3与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与える。",
                     "id": 15042,
                     "name": "風輪両立",
                     "playcost": [
@@ -3688,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ANEMO",
-                    "description": "風元素ダメージを4与え、本キャラに夜叉の儺面を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、本キャラに夜叉の儺面を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C115041]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>を4与え、本キャラに<color=#FFFFFFFF>夜叉の儺面</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、本キャラに<color=#FFFFFFFF>夜叉の儺面</color>を付与する。",
                     "id": 15043,
                     "name": "靖妖儺舞",
                     "playcost": [
@@ -3751,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを2与え、本キャラは水元素付着状態になり、雨すだれの剣を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを2与え、本キャラは水元素付着状態になり、雨すだれの剣を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラは$[K202]状態になり、<color=#FFFFFFFF>$[C112021]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を2与え、本キャラは<color=#80C0FFFF>{SPRITE_PRESET#2102}水元素付着</color>状態になり、<color=#FFFFFFFF>雨すだれの剣</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与え、本キャラは<color=#80C0FFFF>{SPRITE_PRESET#2102}水元素付着</color>状態になり、<color=#FFFFFFFF>雨すだれの剣</color>を生成する。",
                     "id": 12022,
                     "name": "画雨籠山",
                     "playcost": [
@@ -3768,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "水元素ダメージを1与え、本キャラは水元素付着状態になり、虹剣勢を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、本キャラは水元素付着状態になり、虹剣勢を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラは$[K202]状態になり、<color=#FFFFFFFF>$[C112022]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素ダメージ</color>を1与え、本キャラは<color=#80C0FFFF>{SPRITE_PRESET#2102}水元素付着</color>状態になり、<color=#FFFFFFFF>虹剣勢</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、本キャラは<color=#80C0FFFF>{SPRITE_PRESET#2102}水元素付着</color>状態になり、<color=#FFFFFFFF>虹剣勢</color>を生成する。",
                     "id": 12023,
                     "name": "裁雨留虹",
                     "playcost": [
@@ -3810,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを1与える。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を1与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
                     "id": 14081,
                     "name": "狐霊罪喰い式",
                     "playcost": [
@@ -3846,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_ELECTRO",
-                    "description": "雷元素ダメージを4与える。味方のフィールドに殺生櫻が存在する場合、それを破壊して天狐雷霆を生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与える。味方のフィールドに殺生櫻が存在する場合、それを破壊して天狐雷霆を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。味方のフィールドに<color=#FFFFFFFF>$[C114081]</color>が存在する場合、それを破壊して<color=#FFFFFFFF>$[C114083]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を4与える。味方のフィールドに<color=#FFFFFFFF>殺生櫻</color>が存在する場合、それを破壊して<color=#FFFFFFFF>天狐雷霆</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与える。味方のフィールドに<color=#FFFFFFFF>殺生櫻</color>が存在する場合、それを破壊して<color=#FFFFFFFF>天狐雷霆</color>を生成する。",
                     "id": 14083,
                     "name": "大密法·天狐顕現",
                     "playcost": [
@@ -3878,6 +4058,86 @@
                 "雷元素",
                 "法器",
                 "稲妻"
+            ]
+        },
+        "yanfei": {
+            "hp": 10,
+            "id": 1308,
+            "maxenergy": 2,
+            "name": "煙緋",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与える。",
+                    "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与える。",
+                    "id": 13081,
+                    "name": "封蝋の印",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "通常攻撃",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、本キャラに丹火の印を付与する。",
+                    "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C113081]</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、本キャラに<color=#FFFFFFFF>丹火の印</color>を付与する。",
+                    "id": 13082,
+                    "name": "丹書契約",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "元素スキル",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、本キャラに丹火の印と灼灼を付与する。",
+                    "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、本キャラに<color=#FFFFFFFF>$[C113081]</color>と<color=#FFFFFFFF>$[C113082]</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、本キャラに<color=#FFFFFFFF>丹火の印</color>と<color=#FFFFFFFF>灼灼</color>を付与する。",
+                    "id": 13083,
+                    "name": "契約成立",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_PYRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "元素爆発",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "キャッツテールで煙緋を招待し、友好対戦に勝利することで獲得",
+            "storytext": "修古を期せず、常行に法らず。",
+            "storytitle": "無邪気な知恵·煙緋",
+            "tags": [
+                "GCG_TAG_ELEMENT_PYRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "炎元素",
+                "法器",
+                "璃月"
             ]
         },
         "yoimiya": {
@@ -3923,17 +4183,17 @@
                     "typetag": "GCG_SKILL_TAG_E"
                 },
                 {
-                    "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_PYRO",
-                    "description": "炎元素ダメージを4与え、琉金の炎を生成する。",
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、琉金の炎を生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C113052]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を4与え、<color=#FFFFFFFF>琉金の炎</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、<color=#FFFFFFFF>琉金の炎</color>を生成する。",
                     "id": 13053,
                     "name": "琉金の雲間草",
                     "playcost": [
                         {
                             "costtype": "GCG_COST_DICE_PYRO",
-                            "count": 4
+                            "count": 3
                         },
                         {
                             "costtype": "GCG_COST_ENERGY",
@@ -3987,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを1与え、岩柱を召喚する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを1与え、岩柱を召喚する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C116031]</color>を召喚する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を1与え、<color=#FFFFFFFF>岩柱</color>を召喚する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を1与え、<color=#FFFFFFFF>岩柱</color>を召喚する。",
                     "id": 16032,
                     "name": "地心",
                     "playcost": [
@@ -4004,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを3与え、岩柱を召喚し、玉璋シールドを生成する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを3与え、岩柱を召喚し、玉璋シールドを生成する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<color=#FFFFFFFF>$[C116031]</color>を召喚し、<color=#FFFFFFFF>$[C116032]</color>を生成する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を3与え、<color=#FFFFFFFF>岩柱</color>を召喚し、<color=#FFFFFFFF>玉璋シールド</color>を生成する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を3与え、<color=#FFFFFFFF>岩柱</color>を召喚し、<color=#FFFFFFFF>玉璋シールド</color>を生成する。",
                     "id": 16033,
                     "name": "地心·磅礴",
                     "playcost": [
@@ -4021,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_GEO",
-                    "description": "岩元素ダメージを4与え、目標キャラに石化を付与する。",
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "物理ダメージを4与え、目標キャラに石化を付与する。",
                     "descriptionraw": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、目標キャラに<color=#FFFFFFFF>$[C116033]</color>を付与する。",
-                    "descriptionreplaced": "{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を4与え、目標キャラに<color=#FFFFFFFF>石化</color>を付与する。",
+                    "descriptionreplaced": "{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を4与え、目標キャラに<color=#FFFFFFFF>石化</color>を付与する。",
                     "id": 16034,
                     "name": "天星",
                     "playcost": [
@@ -4065,6 +4325,7 @@
                 "barbara",
                 "beidou",
                 "bennett",
+                "candace",
                 "chongyun",
                 "collei",
                 "cyno",
@@ -4078,6 +4339,7 @@
                 "hutao",
                 "jadeplumeterrorshroom",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4103,6 +4365,7 @@
                 "xiao",
                 "xingqiu",
                 "yaemiko",
+                "yanfei",
                 "yoimiya",
                 "zhongli"
             ],
@@ -4110,18 +4373,21 @@
                 "abysslectorfathomlessflames",
                 "amber",
                 "bennett",
+                "candace",
                 "collei",
                 "cyno",
                 "electrohypostasis",
                 "eula",
                 "fatuipyroagent",
                 "jadeplumeterrorshroom",
+                "kaedeharakazuha",
                 "kaeya",
                 "kujousara",
                 "mirrormaiden",
                 "nahida",
                 "noelle",
                 "raidenshogun",
+                "razor",
                 "sangonomiyakokomi",
                 "shenhe",
                 "stonehidelawachurl",
@@ -4131,7 +4397,8 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "3": [
                 "aratakiitto",
@@ -4152,7 +4419,6 @@
                 "maguukenki",
                 "mona",
                 "ningguang",
-                "razor",
                 "rhodeiaofloch",
                 "tartaglia",
                 "yoimiya",
@@ -4184,6 +4450,7 @@
             ],
             "GCG_TAG_ELEMENT_ANEMO": [
                 "jean",
+                "kaedeharakazuha",
                 "maguukenki",
                 "sucrose",
                 "venti",
@@ -4225,6 +4492,7 @@
             ],
             "GCG_TAG_ELEMENT_HYDRO": [
                 "barbara",
+                "candace",
                 "kamisatoayato",
                 "mirrormaiden",
                 "mona",
@@ -4242,10 +4510,12 @@
                 "hutao",
                 "klee",
                 "xiangling",
+                "yanfei",
                 "yoimiya"
             ],
             "GCG_TAG_NATION_INAZUMA": [
                 "aratakiitto",
+                "kaedeharakazuha",
                 "kamisatoayaka",
                 "kamisatoayato",
                 "kujousara",
@@ -4265,6 +4535,7 @@
                 "xiangling",
                 "xiao",
                 "xingqiu",
+                "yanfei",
                 "zhongli"
             ],
             "GCG_TAG_NATION_MONDSTADT": [
@@ -4285,6 +4556,7 @@
                 "venti"
             ],
             "GCG_TAG_NATION_SUMERU": [
+                "candace",
                 "collei",
                 "cyno",
                 "nahida",
@@ -4310,7 +4582,8 @@
                 "ningguang",
                 "sangonomiyakokomi",
                 "sucrose",
-                "yaemiko"
+                "yaemiko",
+                "yanfei"
             ],
             "GCG_TAG_WEAPON_CLAYMORE": [
                 "aratakiitto",
@@ -4333,6 +4606,7 @@
                 "stonehidelawachurl"
             ],
             "GCG_TAG_WEAPON_POLE": [
+                "candace",
                 "cyno",
                 "hutao",
                 "raidenshogun",
@@ -4344,6 +4618,7 @@
             "GCG_TAG_WEAPON_SWORD": [
                 "bennett",
                 "jean",
+                "kaedeharakazuha",
                 "kaeya",
                 "kamisatoayaka",
                 "kamisatoayato",
@@ -4358,6 +4633,7 @@
             "barbara": "バーバラ",
             "beidou": "北斗",
             "bennett": "ベネット",
+            "candace": "キャンディス",
             "chongyun": "重雲",
             "collei": "コレイ",
             "cyno": "セノ",
@@ -4372,6 +4648,7 @@
             "hutao": "胡桃",
             "jadeplumeterrorshroom": "マッシュラプトル",
             "jean": "ジン",
+            "kaedeharakazuha": "楓原万葉",
             "kaeya": "ガイア",
             "kamisatoayaka": "神里綾華",
             "kamisatoayato": "神里綾人",
@@ -4398,6 +4675,7 @@
             "xiao": "魈",
             "xingqiu": "行秋",
             "yaemiko": "八重神子",
+            "yanfei": "煙緋",
             "yoimiya": "宵宮",
             "zhongli": "鍾離"
         },
@@ -4407,6 +4685,7 @@
             "ウェンティ": "venti",
             "エウルア": "eula",
             "ガイア": "kaeya",
+            "キャンディス": "candace",
             "クレー": "klee",
             "コレイ": "collei",
             "ジン": "jean",
@@ -4434,7 +4713,9 @@
             "刻晴": "keqing",
             "北斗": "beidou",
             "宵宮": "yoimiya",
+            "楓原万葉": "kaedeharakazuha",
             "無相の雷": "electrohypostasis",
+            "煙緋": "yanfei",
             "珊瑚宮心海": "sangonomiyakokomi",
             "甘雨": "ganyu",
             "申鶴": "shenhe",
@@ -4475,10 +4756,10 @@
                 "GCG_TAG_ELEMENT_ELECTRO",
                 "GCG_TAG_NATION_LIYUE",
                 "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_WEAPON_POLE",
+                "GCG_TAG_NATION_SUMERU",
                 "GCG_TAG_ELEMENT_CRYO",
                 "GCG_TAG_ELEMENT_DENDRO",
-                "GCG_TAG_NATION_SUMERU",
-                "GCG_TAG_WEAPON_POLE",
                 "GCG_TAG_CAMP_FATUI",
                 "GCG_TAG_ELEMENT_ANEMO",
                 "GCG_TAG_CAMP_HILICHURL"

@@ -21,6 +21,13 @@
             "name": "風元素ダメージ",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素ダメージ</color>"
         },
+        "arcaneedict": {
+            "description": "1回の対戦で、各プレイヤーは「秘伝」カードを1枚しか使用できません。\n「秘伝勅令」が存在する場合のみ、「秘伝」カードを使用できます。「秘伝」カードを使用すると、その対戦の「秘伝勅令」の使用チャンスが消費されます。",
+            "descriptionraw": "1回の対戦で、各プレイヤーは「{SPRITE_PRESET#3007}秘伝」カードを1枚しか使用できません。\\n「{SPRITE_PRESET#1112}秘伝勅令」が存在する場合のみ、「{SPRITE_PRESET#3007}秘伝」カードを使用できます。「{SPRITE_PRESET#3007}秘伝」カードを使用すると、その対戦の「{SPRITE_PRESET#1112}秘伝勅令」の使用チャンスが消費されます。",
+            "id": 311,
+            "name": "秘伝勅令",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}秘伝勅令</color>"
+        },
         "bloodblossom": {
             "description": "エンドフェーズ：付与されたキャラに炎元素ダメージを1与える。\n使用可能回数：1",
             "descriptionraw": "<color=#FFFFFFFF>エンドフェーズ：</color>付与されたキャラに{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素ダメージ</color>を1与える。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>：1</color>",
@@ -266,7 +273,7 @@
             "name": "落下攻撃",
             "nameraw": "<color=#FFFFFFFF>落下攻撃</color>"
         },
-        "prepareskill": {
+        "prepareskills1prepares": {
             "description": "スキルの中には、直接発動のできないものもあります。発動するには、一定のターン数準備する必要があります。\nプレイヤーがアクションするとき、もし該当プレイヤーの「出撃キャラ」がスキルを準備している場合、該当プレイヤーのアクションはスキップされます。もしスキルの準備が完了した場合、そのスキルは直ちに発動されます（このような準備を必要とするスキルは、「スキルを発動した後」に生じる効果を発動させることができません）。\nスキルを準備できるのは「出撃キャラ」のみとなります。スキルを準備している「出撃キャラ」が待機キャラにチェンジすると、スキルの準備は中断されます。",
             "descriptionraw": "スキルの中には、直接発動のできないものもあります。発動するには、一定のターン数<color=#FFFFFFFF>準備</color>する必要があります。\\nプレイヤーがアクションするとき、もし該当プレイヤーの「出撃キャラ」がスキルを<color=#FFFFFFFF>準備</color>している場合、該当プレイヤーのアクションはスキップされます。もしスキルの<color=#FFFFFFFF>準備</color>が完了した場合、そのスキルは直ちに発動されます（このような<color=#FFFFFFFF>準備</color>を必要とするスキルは、「スキルを発動した後」に生じる効果を発動させることができません）。\\nスキルを<color=#FFFFFFFF>準備</color>できるのは「出撃キャラ」のみとなります。スキルを<color=#FFFFFFFF>準備</color>している「出撃キャラ」が待機キャラにチェンジすると、スキルの<color=#FFFFFFFF>準備</color>は中断されます。",
             "id": 53,
@@ -315,6 +322,13 @@
             "name": "断流",
             "nameraw": "<color=#FFFFFFFF>断流</color>"
         },
+        "scarletseal": {
+            "description": "キャラが重撃を行う時、与えるダメージ+2。\n使用可能回数：1",
+            "descriptionraw": "<color=#FFFFFFFF>キャラが<color=#FFFFFFFF>重撃</color>を行う時</color>、与えるダメージ+2。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>：1</color>",
+            "id": 1010,
+            "name": "丹火の印",
+            "nameraw": "<color=#FFFFFFFF>丹火の印</color>"
+        },
         "shield": {
             "description": "該当シールドに守られたキャラがダメージを受けた時、シールドを消費してダメージと相殺することができます。",
             "descriptionraw": "該当シールドに守られたキャラがダメージを受けた時、シールドを消費してダメージと相殺することができます。",
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "淵炎の加護",
             "anemo": "風元素",
             "anemodmg": "風元素ダメージ",
+            "arcaneedict": "秘伝勅令",
             "bloodblossom": "血梅香",
             "characterclosesttoyourcurrentactivecharacter": "味方の出撃キャラと最も距離が近いキャラ",
             "chargedattack": "重撃",
@@ -386,13 +401,14 @@
             "physicaldmg": "物理ダメージ",
             "piercingdmg": "貫通ダメージ",
             "plungingattack": "落下攻撃",
-            "prepareskill": "スキル準備",
+            "prepareskills1prepares": "スキル準備",
             "pyro": "炎元素",
             "pyroapplication": "炎元素付着",
             "pyrodmg": "炎元素ダメージ",
             "pyrorelatedreactions": "炎元素関連反応",
             "randomhilichurlsummon": "ランダム召喚物「ヒルチャール」",
             "riptide": "断流",
+            "scarletseal": "丹火の印",
             "shield": "シールド",
             "superlativesuperstrength": "乱神の怪力",
             "unalignedelement": "無色元素",
@@ -401,11 +417,12 @@
         "names": {
             "クイックアクション": "fastaction",
             "シールド": "shield",
-            "スキル準備": "prepareskill",
+            "スキル準備": "prepareskills1prepares",
             "チャージ": "energy",
             "ファデュイの伏兵": "fatuiambusher",
             "ランダム召喚物「ヒルチャール」": "randomhilichurlsummon",
             "万能元素": "omnielement",
+            "丹火の印": "scarletseal",
             "乱神の怪力": "superlativesuperstrength",
             "使用可能回数": "usages",
             "倒されずに残る": "immunitytodefeats1willnotbedefeated",
@@ -431,6 +448,7 @@
             "炎元素関連反応": "pyrorelatedreactions",
             "無色元素": "unalignedelement",
             "物理ダメージ": "physicaldmg",
+            "秘伝勅令": "arcaneedict",
             "継続ラウンド数": "durationrounds",
             "草元素": "dendro",
             "草元素ダメージ": "dendrodmg",

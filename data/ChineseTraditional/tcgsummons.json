@@ -1,5 +1,18 @@
 {
     "items": {
+        "autumnwhirlwind": {
+            "cardtypetext": "召喚物",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "結束階段：造成1點風元素傷害。\n可用次數：3\n\n我方角色或召喚物引發擴散反應後：轉換此牌的元素類型，改為造成被擴散的元素類型的傷害。（離場前僅限一次）",
+            "descriptionraw": "<color=#FFFFFFFF>結束階段：</color>造成1點$[K105]。\\n<color=#FFFFFFFF>$[K3]：3</color>\\n\\n<color=#FFFFFFFF>我方角色或召喚物引發擴散反應後：</color>轉換此牌的元素類型，改為造成被擴散的元素類型的傷害。（離場前僅限一次）",
+            "descriptionreplaced": "<color=#FFFFFFFF>結束階段：</color>造成1點{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素傷害</color>。\\n<color=#FFFFFFFF><color=#FFFFFFFF>可用次數</color>：3</color>\\n\\n<color=#FFFFFFFF>我方角色或召喚物引發擴散反應後：</color>轉換此牌的元素類型，改為造成被擴散的元素類型的傷害。（離場前僅限一次）",
+            "hinttype": "GCG_HINT_ANEMO",
+            "id": 115052,
+            "name": "流風秋野",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "bakekurage": {
             "cardtypetext": "召喚物",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -267,9 +280,9 @@
         "largewindspirit-01": {
             "cardtypetext": "召喚物",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "結束階段：造成2點風元素傷害。\n可用次數：3\n\n我方角色或召喚物引發擴散反應後：轉換此牌的元素類型，改為造成被擴散的元素類型的傷害。（離場前僅限一次）",
-            "descriptionraw": "<color=#FFFFFFFF>結束階段：</color>造成2點$[K105]。\\n<color=#FFFFFFFF>$[K3]：3</color>\\n\\n<color=#FFFFFFFF>我方角色或召喚物引發擴散反應後：</color>轉換此牌的元素類型，改為造成被擴散的元素類型的傷害。（離場前僅限一次）",
-            "descriptionreplaced": "<color=#FFFFFFFF>結束階段：</color>造成2點{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素傷害</color>。\\n<color=#FFFFFFFF><color=#FFFFFFFF>可用次數</color>：3</color>\\n\\n<color=#FFFFFFFF>我方角色或召喚物引發擴散反應後：</color>轉換此牌的元素類型，改為造成被擴散的元素類型的傷害。（離場前僅限一次）",
+            "description": "結束階段：造成2點風元素傷害。\n可用次數：3\n\n我方角色或召喚物引發擴散反應後：轉換此牌的元素類型，改為造成被擴散的元素類型的傷害。（離場前僅限一次）\n此召喚物在場時：如果此牌的元素類型已轉換，則使我方造成的此類元素傷害+1。",
+            "descriptionraw": "<color=#FFFFFFFF>結束階段：</color>造成2點$[K105]。\\n<color=#FFFFFFFF>$[K3]：3</color>\\n\\n<color=#FFFFFFFF>我方角色或召喚物引發擴散反應後：</color>轉換此牌的元素類型，改為造成被擴散的元素類型的傷害。（離場前僅限一次）\\n<color=#FFFFFFFF>此召喚物在場時：</color>如果此牌的元素類型已轉換，則使我方造成的此類元素傷害+1。",
+            "descriptionreplaced": "<color=#FFFFFFFF>結束階段：</color>造成2點{SPRITE_PRESET#2105}<color=#80FFD7FF>風元素傷害</color>。\\n<color=#FFFFFFFF><color=#FFFFFFFF>可用次數</color>：3</color>\\n\\n<color=#FFFFFFFF>我方角色或召喚物引發擴散反應後：</color>轉換此牌的元素類型，改為造成被擴散的元素類型的傷害。（離場前僅限一次）\\n<color=#FFFFFFFF>此召喚物在場時：</color>如果此牌的元素類型已轉換，則使我方造成的此類元素傷害+1。",
             "hinttype": "GCG_HINT_ANEMO",
             "id": 115012,
             "name": "大型風靈",
@@ -280,9 +293,9 @@
         "lightfallsword": {
             "cardtypetext": "召喚物",
             "countingtype": "GCG_TOKEN_COUNTER",
-            "description": "優菈使用「普通攻擊」或「元素戰技」時：此牌累積2點「能量層數」，但是優菈不會獲得充能。\n結束階段：棄置此牌，造成2點物理傷害；每有1點「能量層數」，都使此傷害+1。\n（影響此牌「可用次數」的效果會作用於「能量層數」。）",
-            "descriptionraw": "<color=#FFFFFFFF>$[A1106]使用「普通攻擊」或「元素戰技」時：</color>此牌累積2點「能量層數」，但是$[A1106]不會獲得充能。\\n<color=#FFFFFFFF>結束階段：</color>棄置此牌，造成2點$[K100]；每有1點「能量層數」，都使此傷害+1。\\n（影響此牌「$[K3]」的效果會作用於「<color=#FFFFFFFF>能量層數</color>」。）",
-            "descriptionreplaced": "<color=#FFFFFFFF>優菈使用「普通攻擊」或「元素戰技」時：</color>此牌累積2點「能量層數」，但是優菈不會獲得充能。\\n<color=#FFFFFFFF>結束階段：</color>棄置此牌，造成2點{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理傷害</color>；每有1點「能量層數」，都使此傷害+1。\\n（影響此牌「<color=#FFFFFFFF>可用次數</color>」的效果會作用於「<color=#FFFFFFFF>能量層數</color>」。）",
+            "description": "優菈使用「普通攻擊」或「元素戰技」時：此牌累積2點「能量層數」，但是優菈不會獲得充能。\n結束階段：棄置此牌，造成3點物理傷害；每有1點「能量層數」，都使此傷害+1。\n（影響此牌「可用次數」的效果會作用於「能量層數」。）",
+            "descriptionraw": "<color=#FFFFFFFF>$[A1106]使用「普通攻擊」或「元素戰技」時：</color>此牌累積2點「能量層數」，但是$[A1106]不會獲得充能。\\n<color=#FFFFFFFF>結束階段：</color>棄置此牌，造成3點$[K100]；每有1點「能量層數」，都使此傷害+1。\\n（影響此牌「$[K3]」的效果會作用於「<color=#FFFFFFFF>能量層數</color>」。）",
+            "descriptionreplaced": "<color=#FFFFFFFF>優菈使用「普通攻擊」或「元素戰技」時：</color>此牌累積2點「能量層數」，但是優菈不會獲得充能。\\n<color=#FFFFFFFF>結束階段：</color>棄置此牌，造成3點{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理傷害</color>；每有1點「能量層數」，都使此傷害+1。\\n（影響此牌「<color=#FFFFFFFF>可用次數</color>」的效果會作用於「<color=#FFFFFFFF>能量層數</color>」。）",
             "hinttype": "GCG_HINT_VOID",
             "id": 111062,
             "name": "光降之劍",
@@ -542,6 +555,7 @@
         "aliases": {},
         "categories": {
             "GCG_HINT_ANEMO": [
+                "autumnwhirlwind",
                 "dandelionfield",
                 "largewindspirit-01",
                 "largewindspirit",
@@ -616,6 +630,7 @@
                 "lightfallsword"
             ],
             "GCG_TOKEN_ICON_HOURGLASS": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -654,6 +669,7 @@
                 "whirlwind"
             ],
             "GCG_TOKEN_LIFE": [
+                "autumnwhirlwind",
                 "bakekurage",
                 "burningflame",
                 "chainsofwardingthunder",
@@ -699,6 +715,7 @@
             ]
         },
         "namemap": {
+            "autumnwhirlwind": "流風秋野",
             "bakekurage": "化海月",
             "baronbunny": "兔兔伯爵",
             "burningflame": "燃燒烈焰",
@@ -762,6 +779,7 @@
             "殺生櫻": "sesshousakura",
             "水丘丘薩滿": "hydrosamachurl",
             "治療之雨": "healingrain",
+            "流風秋野": "autumnwhirlwind",
             "清淨之園囿": "gardenofpurity",
             "燃燒烈焰": "burningflame",
             "籙靈": "talismanspirit",
@@ -789,12 +807,12 @@
                 "GCG_TOKEN_COUNTER"
             ],
             "hinttype": [
+                "GCG_HINT_ANEMO",
                 "GCG_HINT_HYDRO",
                 "GCG_HINT_PYRO",
                 "GCG_HINT_ELECTRO",
                 "GCG_HINT_DENDRO",
                 "GCG_HINT_CRYO",
-                "GCG_HINT_ANEMO",
                 "GCG_HINT_HEAL",
                 "GCG_HINT_VOID",
                 "GCG_HINT_GEO"

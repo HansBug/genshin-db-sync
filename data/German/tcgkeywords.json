@@ -21,6 +21,13 @@
             "name": "Anemo-Schaden",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-Schaden</color>|s1:{SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>"
         },
+        "arcaneedict": {
+            "description": "Jeder Kartenbeschwörer kann pro Duell nur eine „Mysteriums“-Karte ausspielen.\nDie „Mysteriums“-Karte kann nur ausgespielt werden, wenn der „Erlass des Mysteriums“ vorhanden ist. Der „Erlass des Mysteriums“ des aktuellen Duells wird verbraucht, wenn die „Mysteriums“-Karte ausgespielt wird.",
+            "descriptionraw": "Jeder Kartenbeschwörer kann pro Duell nur eine „{SPRITE_PRESET#3007}Mysteriums“-Karte ausspielen.\\nDie „{SPRITE_PRESET#3007}Mysteriums“-Karte kann nur ausgespielt werden, wenn der „{SPRITE_PRESET#1112}Erlass des Mysteriums“ vorhanden ist. Der „{SPRITE_PRESET#1112}Erlass des Mysteriums“ des aktuellen Duells wird verbraucht, wenn die „{SPRITE_PRESET#3007}Mysteriums“-Karte ausgespielt wird.",
+            "id": 311,
+            "name": "Erlass des Mysteriums",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}Erlass des Mysteriums</color>"
+        },
         "bloodblossom": {
             "description": "Endphase: Fügt der davon betroffenen Figur 1 Pkt. Pyro-SCH zu.\nEinsatzmöglichkeit: 1",
             "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Fügt der davon betroffenen Figur 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color> zu.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 1</color>",
@@ -266,7 +273,7 @@
             "name": "Angriff aus dem Fall",
             "nameraw": "<color=#FFFFFFFF>Angriff aus dem Fall</color>"
         },
-        "prepareskill": {
+        "prepareskills1prepares": {
             "description": "Einige Fähigkeiten können nicht direkt angewendet werden. Sie benötigen eine bestimmte Anzahl von Zügen zum Vorbereiten.\nIst ein Kartenbeschwörer am Zug, während seine aktive Figur eine Fähigkeit vorbereitet, wird der aktuelle Zug dieses Kartenbeschwörers übersprungen; ist das Vorbereiten dieser Fähigkeit der Figur bereits abgeschlossen, wird sie sofort angewendet. (Diese Art von Fähigkeit, die vorbereitet werden muss, kann keinen Effekt auslösen, der „nach Anwenden einer Fähigkeit“ aktiv werden kann.)\nNur die aktive Figur kann Fähigkeiten vorbereiten; wenn sie aber beim Vorbereiten ihrer Fähigkeit ausgewechselt wird, wird das Vorbereiten ihrer Fähigkeit unterbrochen.",
             "descriptionraw": "Einige Fähigkeiten können nicht direkt angewendet werden. Sie benötigen eine bestimmte Anzahl von Zügen zum <color=#FFFFFFFF>Vorbereiten</color>.\\nIst ein Kartenbeschwörer am Zug, während seine aktive Figur eine Fähigkeit <color=#FFFFFFFF>vorbereitet</color>, wird der aktuelle Zug dieses Kartenbeschwörers übersprungen; ist das <color=#FFFFFFFF>Vorbereiten</color> dieser Fähigkeit der Figur bereits abgeschlossen, wird sie sofort angewendet. (Diese Art von Fähigkeit, die <color=#FFFFFFFF>vorbereitet</color> werden muss, kann keinen Effekt auslösen, der „nach Anwenden einer Fähigkeit“ aktiv werden kann.)\\nNur die aktive Figur kann Fähigkeiten <color=#FFFFFFFF>vorbereiten</color>; wenn sie aber beim <color=#FFFFFFFF>Vorbereiten</color> ihrer Fähigkeit ausgewechselt wird, wird das <color=#FFFFFFFF>Vorbereiten</color> ihrer Fähigkeit unterbrochen.",
             "id": 53,
@@ -315,6 +322,13 @@
             "name": "Versiegen",
             "nameraw": "<color=#FFFFFFFF>Versiegen</color>"
         },
+        "scarletseal": {
+            "description": "Führt die Figur heftige Schläge aus: Verursachter SCH +2.\nEinsatzmöglichkeit: 1",
+            "descriptionraw": "<color=#FFFFFFFF>Führt die Figur <color=#FFFFFFFF>heftige Schläge</color> aus:</color> Verursachter SCH +2.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 1</color>",
+            "id": 1010,
+            "name": "Flammensiegel",
+            "nameraw": "<color=#FFFFFFFF>Flammensiegel</color>"
+        },
         "shield": {
             "description": "Dieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen.",
             "descriptionraw": "Dieser Schild wird verbraucht, um die Figur, die ihn trägt, vor Schaden zu schützen.",
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "Schutz der Abgrundflammen",
             "anemo": "Anemo",
             "anemodmg": "Anemo-Schaden",
+            "arcaneedict": "Erlass des Mysteriums",
             "bloodblossom": "Blutblüten",
             "characterclosesttoyourcurrentactivecharacter": "Figur, die deiner aktiven Figur am nächsten ist",
             "chargedattack": "Heftiger Schlag",
@@ -386,13 +401,14 @@
             "physicaldmg": "Physischer Schaden",
             "piercingdmg": "Durchdringender Schaden",
             "plungingattack": "Angriff aus dem Fall",
-            "prepareskill": "Vorbereiten der Fähigkeiten",
+            "prepareskills1prepares": "Vorbereiten der Fähigkeiten",
             "pyro": "Pyro",
             "pyroapplication": "Pyro-Attribut",
             "pyrodmg": "Pyro-Schaden",
             "pyrorelatedreactions": "Pyro-Reaktionen",
             "randomhilichurlsummon": "Zufällige Hilichurl-Beschwörung",
             "riptide": "Versiegen",
+            "scarletseal": "Flammensiegel",
             "shield": "Schild",
             "superlativesuperstrength": "Superstarke Superkraft",
             "unalignedelement": "Würfel (beliebig)",
@@ -415,8 +431,10 @@
             "Elektro-Attribut": "electroapplication",
             "Elektro-Kraft": "electroinfusion",
             "Elektro-Schaden": "electrodmg",
+            "Erlass des Mysteriums": "arcaneedict",
             "Fatui-Wegelagerer": "fatuiambusher",
             "Figur, die deiner aktiven Figur am nächsten ist": "characterclosesttoyourcurrentactivecharacter",
+            "Flammensiegel": "scarletseal",
             "Geo": "geo",
             "Geo-Schaden": "geodmg",
             "Heftiger Schlag": "chargedattack",
@@ -444,7 +462,7 @@
             "Superstarke Superkraft": "superlativesuperstrength",
             "Versiegen": "riptide",
             "Vor Ausscheiden gefeit": "immunitytodefeats1willnotbedefeated",
-            "Vorbereiten der Fähigkeiten": "prepareskill",
+            "Vorbereiten der Fähigkeiten": "prepareskills1prepares",
             "Würfel (beliebig)": "unalignedelement",
             "Würfel (gleich)": "matchingelement",
             "Zufällige Hilichurl-Beschwörung": "randomhilichurlsummon"

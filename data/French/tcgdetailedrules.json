@@ -345,7 +345,7 @@
         },
         "specialentry": {
             "id": 8,
-            "name": "Entrée spéciale",
+            "name": "Divers",
             "rules": [
                 {
                     "content": "Lorsqu'une carte d'événement de plat a pris effet sur un personnage, ce dernier entre dans l'état Satiété.\nLes personnages ainsi rassasiés ne peuvent pas être ciblés par une autre carte d'événement de plat, ni bénéficier des effets d'une autre carte d'événement de plat.\nL'état Satiété prend fin à la fin de la manche ou lorsque le personnage est éliminé.\nDe plus, après avoir joué une carte d'événement de plat avec un effet de résurrection, aucune autre carte d'événement de plat avec un tel effet ne peut être jouée.",
@@ -358,6 +358,12 @@
                     "contentraw": "Certains effets fournissent des boucliers qui peuvent protéger des personnages spécifiques.\\nLorsqu'un personnage avec un bouclier subit des DGT, les points du bouclier sont diminués afin de bloquer tout ou partie des DGT.",
                     "title": "Boucliers",
                     "titleraw": "{SPRITE_PRESET#4007}Boucliers"
+                },
+                {
+                    "content": "Chaque joueur ne peut utiliser qu'une seule carte d'arcane pendant une partie.\nLes cartes d'arcane seront obligatoirement dans votre main de départ. (Si le nombre de cartes d'arcane dans votre deck dépasse la quantité de cartes d'une main de départ, les cartes d'arcane sont sélectionnées aléatoirement.)",
+                    "contentraw": "Chaque joueur ne peut utiliser qu'une seule carte d'{SPRITE_PRESET#3007}arcane pendant une partie.\\nLes cartes d'{SPRITE_PRESET#3007}arcane seront obligatoirement dans votre main de départ. (Si le nombre de cartes d'{SPRITE_PRESET#3007}arcane dans votre deck dépasse la quantité de cartes d'une main de départ, les cartes d'arcane sont sélectionnées aléatoirement.)",
+                    "title": "Arcane",
+                    "titleraw": "{SPRITE_PRESET#3007}Arcane"
                 },
                 {
                     "content": "Certaines cartes ont un nombre d'utilisations limité.\nChaque fois que l'effet d'une telle carte est déclenché, le nombre d'utilisations diminue de 1.\nLorsque les utilisations d'une carte sont épuisées, elle est immédiatement défaussée.",
@@ -450,13 +456,13 @@
             "geniusinvokationtcg": "Invocation des Sept : JCC",
             "otherrules": "Autres règles",
             "roundflow": "Déroulement de manche",
-            "specialentry": "Entrée spéciale",
+            "specialentry": "Divers",
             "takeaction": "Prise d'action"
         },
         "names": {
             "Autres règles": "otherrules",
+            "Divers": "specialentry",
             "Déroulement de manche": "roundflow",
-            "Entrée spéciale": "specialentry",
             "Invocation des Sept : JCC": "geniusinvokationtcg",
             "Prise d'action": "takeaction",
             "Réactions élémentaires : Effets": "elementalreactionseffects",

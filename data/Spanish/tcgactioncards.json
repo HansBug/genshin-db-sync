@@ -142,6 +142,29 @@
                 "Arco"
             ]
         },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Evento",
+            "description": "Puedes jugar esta carta cuando alguno de tus personajes cuenta con una carta de arma o una carta de artefacto equipada. La próxima vez que juegues una carta de arma o de artefacto en esta ronda, gastarás 2 dados elementales menos.\nSolo puedes jugar una carta de técnica secreta durante toda la partida. Esta carta aparecerá en tu mano inicial.",
+            "descriptionraw": "<color=#FFFFFFFF>Puedes jugar esta carta cuando alguno de tus personajes cuenta con una carta de {SPRITE_PRESET#3003}arma o una carta de {SPRITE_PRESET#3004}artefacto equipada</color>. La próxima vez que juegues una carta de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto en esta ronda, gastarás 2 dados elementales menos.\\nSolo puedes jugar una carta de {SPRITE_PRESET#3007}técnica secreta durante toda la partida. Esta carta aparecerá en tu mano inicial.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Puedes jugar esta carta cuando alguno de tus personajes cuenta con una carta de {SPRITE_PRESET#3003}arma o una carta de {SPRITE_PRESET#3004}artefacto equipada</color>. La próxima vez que juegues una carta de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto en esta ronda, gastarás 2 dados elementales menos.\\nSolo puedes jugar una carta de {SPRITE_PRESET#3007}técnica secreta durante toda la partida. Esta carta aparecerá en tu mano inicial.",
+            "id": 330001,
+            "name": "Jardines de antaño",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "“¿Acaso es esto el lejano sueño de una cigarra que revoloteaba por el mundo?”.",
+            "storytitle": "Jardines de antaño",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Técnica secreta"
+            ]
+        },
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de equipamiento",
@@ -615,6 +638,29 @@
             "tagstext": [
                 "Talento",
                 "Acción de combate"
+            ]
+        },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Evento",
+            "description": "Puedes jugar esta carta solo si has agotado todos los dados elementales: crea 2 dados elementales distintos.\nSolo puedes jugar una carta de técnica secreta durante toda la partida. Esta carta aparecerá en tu mano inicial.",
+            "descriptionraw": "<color=#FFFFFFFF>Puedes jugar esta carta solo si has agotado todos los dados elementales</color>: crea 2 dados elementales distintos.\\nSolo puedes jugar una carta de {SPRITE_PRESET#3007}técnica secreta durante toda la partida. Esta carta aparecerá en tu mano inicial.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Puedes jugar esta carta solo si has agotado todos los dados elementales</color>: crea 2 dados elementales distintos.\\nSolo puedes jugar una carta de {SPRITE_PRESET#3007}técnica secreta durante toda la partida. Esta carta aparecerá en tu mano inicial.",
+            "id": 330002,
+            "name": "Pacto rocoso",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "“Rex Lapis le concedió ojos para que viera el mundo e hizo un trato con él. Entonces, el dragón acompañó al Rey Geo en sus luchas a lo largo y ancho del mundo”.",
+            "storytitle": "Pacto rocoso",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Técnica secreta"
             ]
         },
         "crimsonwitchofflames": {
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Daño +1.\nAl entrar en juego, tomas 2 cartas.\nSolo pueden llevarla equipada los personajes que usan catalizador. Cada personaje solo puede llevar equipada 1 arma.",
+            "descriptionraw": "<color=#FFFFFFFF>Daño +1</color>.\\n<color=#FFFFFFFF>Al entrar en juego</color>, tomas 2 cartas.\\nSolo pueden llevarla equipada los <color=#FFFFFFFF>personajes que usan {SPRITE_PRESET#3201}catalizador</color>. Cada personaje solo puede llevar equipada 1 {SPRITE_PRESET#3003}arma.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Daño +1</color>.\\n<color=#FFFFFFFF>Al entrar en juego</color>, tomas 2 cartas.\\nSolo pueden llevarla equipada los <color=#FFFFFFFF>personajes que usan {SPRITE_PRESET#3201}catalizador</color>. Cada personaje solo puede llevar equipada 1 {SPRITE_PRESET#3003}arma.",
+            "id": 311105,
+            "name": "Fruto de la Culminación",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "“Aun en historias amargas hay coraje y fuerza... Historia de aventuras entre nosotros y nara rubi{F#a}{M#o} se encargarán de proteger bosque”.",
+            "storytitle": "Luna llena: Fruto de la Culminación",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "Arma",
+                "Catalizador"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de equipamiento",
-            "description": "Cuando el personaje enemigo es derrotado, si el personaje que tiene esta carta equipada es el personaje en combate, crea 2 omnidados.\nCada personaje solo puede llevar equipado 1 artefacto.",
-            "descriptionraw": "<color=#FFFFFFFF>Cuando el personaje enemigo es derrotado</color>, si el personaje que tiene esta carta equipada es el personaje en combate, crea 2 $[K411|s3].\\nCada personaje solo puede llevar equipado 1 {SPRITE_PRESET#3004}artefacto.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Cuando el personaje enemigo es derrotado</color>, si el personaje que tiene esta carta equipada es el personaje en combate, crea 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidados</color>.\\nCada personaje solo puede llevar equipado 1 {SPRITE_PRESET#3004}artefacto.",
+            "description": "Cuando el personaje enemigo es derrotado, si el personaje que tiene esta carta equipada es el personaje en combate, crea 2 omnidados (solo se puede usar 3 veces por partida).\nCada personaje solo puede llevar equipado 1 artefacto.",
+            "descriptionraw": "<color=#FFFFFFFF>Cuando el personaje enemigo es derrotado</color>, si el personaje que tiene esta carta equipada es el personaje en combate, crea 2 $[K411|s3] (solo se puede usar 3 veces por partida).\\nCada personaje solo puede llevar equipado 1 {SPRITE_PRESET#3004}artefacto.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Cuando el personaje enemigo es derrotado</color>, si el personaje que tiene esta carta equipada es el personaje en combate, crea 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidados</color> (solo se puede usar 3 veces por partida).\\nCada personaje solo puede llevar equipado 1 {SPRITE_PRESET#3004}artefacto.",
             "id": 312004,
             "name": "Aretes de la Jugadora",
             "playcost": [
@@ -1593,9 +1664,9 @@
         "hanachirusato": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carta de apoyo",
-            "description": "Cuando una invocación desaparezca, esta carta acumulará 1 pt. de progreso de la purificación (acumulable hasta 3 veces).\nAl jugar una carta de arma o de artefacto, si el progreso de la purificación llega a 3 pts. de progreso, descarta esta carta y gasta 2 dados elementales menos al jugar la próxima carta.",
-            "descriptionraw": "<color=#FFFFFFFF>Cuando una invocación desaparezca</color>, esta carta acumulará 1 pt. de <color=#FFFFFFFF>progreso de la purificación</color> (acumulable hasta 3 veces).\\n<color=#FFFFFFFF>Al jugar una carta de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto</color>, si el <color=#FFFFFFFF>progreso de la purificación</color> llega a 3 pts. de progreso, descarta esta carta y gasta 2 dados elementales menos al jugar la próxima carta.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Cuando una invocación desaparezca</color>, esta carta acumulará 1 pt. de <color=#FFFFFFFF>progreso de la purificación</color> (acumulable hasta 3 veces).\\n<color=#FFFFFFFF>Al jugar una carta de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto</color>, si el <color=#FFFFFFFF>progreso de la purificación</color> llega a 3 pts. de progreso, descarta esta carta y gasta 2 dados elementales menos al jugar la próxima carta.",
+            "description": "Cuando una invocación desaparezca, esta carta acumulará 1 pt. de progreso de la purificación (acumulable hasta 3 veces).\nAl jugar una carta de arma o de artefacto, si el progreso de la purificación llega a 3 pts. de progreso, descarta esta carta y gastas 2 dados elementales menos al jugar la próxima carta.",
+            "descriptionraw": "<color=#FFFFFFFF>Cuando una invocación desaparezca</color>, esta carta acumulará 1 pt. de <color=#FFFFFFFF>progreso de la purificación</color> (acumulable hasta 3 veces).\\n<color=#FFFFFFFF>Al jugar una carta de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto</color>, si el <color=#FFFFFFFF>progreso de la purificación</color> llega a 3 pts. de progreso, descarta esta carta y gastas 2 dados elementales menos al jugar la próxima carta.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Cuando una invocación desaparezca</color>, esta carta acumulará 1 pt. de <color=#FFFFFFFF>progreso de la purificación</color> (acumulable hasta 3 veces).\\n<color=#FFFFFFFF>Al jugar una carta de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto</color>, si el <color=#FFFFFFFF>progreso de la purificación</color> llega a 3 pts. de progreso, descarta esta carta y gastas 2 dados elementales menos al jugar la próxima carta.",
             "id": 322013,
             "name": "Hanachirusato",
             "playcost": [],
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de equipamiento",
-            "description": "Acción de combate: esta carta se equipa cuando el personaje en combate es Noelle.\nTras ello, Noelle usa una vez Guardiana del corazón de inmediato.\nCuando Noelle crea un recubrimiento Geo mientras tiene esta carta equipada y usa un Ataque Normal, todos tus personajes obtienen Vida +1 (1 vez por ronda).\nSolo puedes añadir esta carta al mazo si tienes a Noelle en él.",
-            "descriptionraw": "$[K1]: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>$[A1602]</color>.\\nTras ello, $[A1602] usa una vez <color=#FFD780FF>$[S16022]</color> de inmediato.\\nCuando $[A1602] crea un <color=#FFFFFFFF>$[C116021|s1]</color> mientras tiene esta carta equipada y usa un <color=#FFFFFFFF>Ataque Normal</color>, todos tus personajes obtienen Vida +1 (1 vez por ronda).\\nSolo puedes añadir esta carta al mazo si tienes a $[A1602] en él.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Acción de combate</color>: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>Noelle</color>.\\nTras ello, Noelle usa una vez <color=#FFD780FF>Guardiana del corazón</color> de inmediato.\\nCuando Noelle crea un <color=#FFFFFFFF>recubrimiento Geo</color> mientras tiene esta carta equipada y usa un <color=#FFFFFFFF>Ataque Normal</color>, todos tus personajes obtienen Vida +1 (1 vez por ronda).\\nSolo puedes añadir esta carta al mazo si tienes a Noelle en él.",
+            "description": "Acción de combate: esta carta se equipa cuando el personaje en combate es Noelle.\nTras ello, Noelle usa una vez Guardiana del corazón de inmediato.\nCuando Noelle usa un Ataque Normal mientras el recubrimiento Geo y esta carta están en juego, todos tus personajes obtienen Vida +1 (1 vez por ronda).\nSolo puedes añadir esta carta al mazo si tienes a Noelle en él.",
+            "descriptionraw": "$[K1]: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>$[A1602]</color>.\\nTras ello, $[A1602] usa una vez <color=#FFD780FF>$[S16022]</color> de inmediato.\\nCuando $[A1602] usa un <color=#FFFFFFFF>Ataque Normal</color> mientras el <color=#FFFFFFFF>$[C116021|s1]</color> y esta carta están en juego, todos tus personajes obtienen Vida +1 (1 vez por ronda).\\nSolo puedes añadir esta carta al mazo si tienes a $[A1602] en él.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Acción de combate</color>: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>Noelle</color>.\\nTras ello, Noelle usa una vez <color=#FFD780FF>Guardiana del corazón</color> de inmediato.\\nCuando Noelle usa un <color=#FFFFFFFF>Ataque Normal</color> mientras el <color=#FFFFFFFF>recubrimiento Geo</color> y esta carta están en juego, todos tus personajes obtienen Vida +1 (1 vez por ronda).\\nSolo puedes añadir esta carta al mazo si tienes a Noelle en él.",
             "id": 216021,
             "name": "Yo te cubro",
             "playcost": [
@@ -2541,6 +2612,54 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Cuando tus personajes ejecuten un Ataque Cargado, infligen daño +1. Tomas 1 carta después de resolver este efecto.",
+            "descriptionraw": "<color=#FFFFFFFF>Cuando tus personajes ejecuten un $[K51]</color>, infligen daño +1. Tomas 1 carta después de resolver este efecto.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Cuando tus personajes ejecuten un <color=#FFFFFFFF>Ataque Cargado</color></color>, infligen daño +1. Tomas 1 carta después de resolver este efecto.",
+            "id": 423020,
+            "name": "Amuleto de la destreza: Perfeccionamiento de armamento",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Cuando tus personajes que tienen equipados un arma y un artefacto a la vez usen una habilidad, gastas 3 dados elementales menos (1 vez por ronda).",
+            "descriptionraw": "<color=#FFFFFFFF>Cuando tus personajes que tienen equipados un {SPRITE_PRESET#3003}arma y un {SPRITE_PRESET#3004}artefacto</color> a la vez usen una habilidad, gastas 3 dados elementales menos (1 vez por ronda).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Cuando tus personajes que tienen equipados un {SPRITE_PRESET#3003}arma y un {SPRITE_PRESET#3004}artefacto</color> a la vez usen una habilidad, gastas 3 dados elementales menos (1 vez por ronda).",
+            "id": 423021,
+            "name": "Amuleto de la destreza: Preparación para la batalla",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Al derrotar a un personaje enemigo, infliges 1 pt. de Daño Penetrante a todos los personajes enemigos.",
+            "descriptionraw": "<color=#FFFFFFFF>Al derrotar a un personaje enemigo</color>, infliges 1 pt. de $[K5] a todos los personajes enemigos.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Al derrotar a un personaje enemigo</color>, infliges 1 pt. de <color=#FFFFFFFF>Daño Penetrante</color> a todos los personajes enemigos.",
+            "id": 423022,
+            "name": "Amuleto de la destreza: Derrota en cascada",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Después de que un personaje enemigo reciba daño de una Reacción Elemental, creas 1 omnidado (hasta 3 veces por ronda).",
+            "descriptionraw": "<color=#FFFFFFFF>Después de que un personaje enemigo reciba daño de una Reacción Elemental</color>, creas 1 $[K411|s2] (hasta 3 veces por ronda).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Después de que un personaje enemigo reciba daño de una Reacción Elemental</color>, creas 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidado</color> (hasta 3 veces por ronda).",
+            "id": 423023,
+            "name": "Amuleto de la destreza: Estandartes dispersos",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carta de apoyo",
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Al tener que gastar al menos 3 dados elementales en cartas de arma o de artefacto, gastas 3 dados elementales menos (1 vez por ronda).",
+            "descriptionraw": "<color=#FFFFFFFF>Al tener que gastar al menos 3 dados elementales en cartas de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto</color>, gastas 3 dados elementales menos (1 vez por ronda).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Al tener que gastar al menos 3 dados elementales en cartas de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto</color>, gastas 3 dados elementales menos (1 vez por ronda).",
+            "id": 423019,
+            "name": "Amuleto de la destreza: Planificación a largo plazo",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carta de apoyo",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Cuando un personaje enemigo es derrotado</color>, crea 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidado</color> y tomas 1 carta.",
             "id": 423007,
             "name": "Amuleto de la destreza: Avance triunfante",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Después de que alguno de tus personajes use una habilidad, creará en el campo enemigo una mina emboscadora correspondiente al elemento del personaje. Cuando entren refuerzos del enemigo, dicha mina emboscadora infligirá 1 pt. del Daño Elemental correspondiente.",
+            "descriptionraw": "<color=#FFFFFFFF>Después de que alguno de tus personajes use una habilidad</color>, creará en el campo enemigo una mina emboscadora correspondiente al elemento del personaje. Cuando entren refuerzos del enemigo, dicha mina emboscadora infligirá 1 pt. del Daño Elemental correspondiente.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Después de que alguno de tus personajes use una habilidad</color>, creará en el campo enemigo una mina emboscadora correspondiente al elemento del personaje. Cuando entren refuerzos del enemigo, dicha mina emboscadora infligirá 1 pt. del Daño Elemental correspondiente.",
+            "id": 423024,
+            "name": "Amuleto de la destreza: Emboscada inesperada",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Cuando un personaje enemigo es derrotado, tomas 1 carta. Tu personaje en combate actual inflige daño +1 durante el duelo (acumulable hasta 3 puntos).",
+            "descriptionraw": "<color=#FFFFFFFF>Cuando un personaje enemigo es derrotado</color>, tomas 1 carta. Tu personaje en combate actual inflige daño +1 durante el duelo (acumulable hasta 3 puntos).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Cuando un personaje enemigo es derrotado</color>, tomas 1 carta. Tu personaje en combate actual inflige daño +1 durante el duelo (acumulable hasta 3 puntos).",
+            "id": 423018,
+            "name": "Amuleto de la destreza: Renombre de la victoria",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Al jugar una carta de arma, gastas 1 dado elemental menos. Por cada personaje que tengas con un arma equipada, gastas 1 dado elemental menos adicional (1 vez por ronda).",
+            "descriptionraw": "<color=#FFFFFFFF>Al jugar una carta de {SPRITE_PRESET#3003}arma</color>, gastas 1 dado elemental menos. Por cada personaje que tengas con un {SPRITE_PRESET#3003}arma equipada, gastas 1 dado elemental menos adicional (1 vez por ronda).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Al jugar una carta de {SPRITE_PRESET#3003}arma</color>, gastas 1 dado elemental menos. Por cada personaje que tengas con un {SPRITE_PRESET#3003}arma equipada, gastas 1 dado elemental menos adicional (1 vez por ronda).",
+            "id": 322018,
+            "name": "Maestro Zhang",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Antes de convertirse en una afilada espada, los pedazos de hierro han de superar muchas ardientes dificultades.",
+            "storytitle": "Maestro Zhang - Forjador de arsenales",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Acompañante"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -2982,9 +3160,9 @@
         "parametrictransformer": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carta de apoyo",
-            "description": "Después de que algún personaje de cualquiera de los jugadores usen una habilidad, si infligen Daño Elemental, esta carta acumula 1 carga de transmutación.\nSi esta carta ha acumulado 3 cargas de transmutación, crea 3 dados elementales distintos y se descarta.",
-            "descriptionraw": "<color=#FFFFFFFF>Después de que algún personaje de cualquiera de los jugadores usen una habilidad</color>, si infligen Daño Elemental, esta carta acumula <color=#FFFFFFFF>1 carga de transmutación</color>.\\nSi esta carta ha acumulado <color=#FFFFFFFF>3 cargas de transmutación</color>, crea 3 dados elementales distintos y se descarta.",
-            "descriptionreplaced": "<color=#FFFFFFFF>Después de que algún personaje de cualquiera de los jugadores usen una habilidad</color>, si infligen Daño Elemental, esta carta acumula <color=#FFFFFFFF>1 carga de transmutación</color>.\\nSi esta carta ha acumulado <color=#FFFFFFFF>3 cargas de transmutación</color>, crea 3 dados elementales distintos y se descarta.",
+            "description": "Después de que algún personaje de cualquiera de los jugadores use una habilidad, si inflige Daño Elemental, esta carta acumula 1 carga de transmutación.\nSi esta carta ha acumulado 3 cargas de transmutación, crea 3 dados elementales distintos y se descarta.",
+            "descriptionraw": "<color=#FFFFFFFF>Después de que algún personaje de cualquiera de los jugadores use una habilidad</color>, si inflige Daño Elemental, esta carta acumula <color=#FFFFFFFF>1 carga de transmutación</color>.\\nSi esta carta ha acumulado <color=#FFFFFFFF>3 cargas de transmutación</color>, crea 3 dados elementales distintos y se descarta.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Después de que algún personaje de cualquiera de los jugadores use una habilidad</color>, si inflige Daño Elemental, esta carta acumula <color=#FFFFFFFF>1 carga de transmutación</color>.\\nSi esta carta ha acumulado <color=#FFFFFFFF>3 cargas de transmutación</color>, crea 3 dados elementales distintos y se descarta.",
             "id": 323001,
             "name": "Transmutador paramétrico",
             "playcost": [
@@ -3022,6 +3200,32 @@
                 "GCG_TAG_SLOWLY"
             ],
             "tagstext": [
+                "Acción de combate"
+            ]
+        },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Acción de combate: esta carta se equipa cuando el personaje en combate es Kaedehara Kazuha.\nAl hacerlo, Kaedehara Kazuha usa una vez Vehemencia estremecedora de inmediato.\nDespués de que Kaedehara Kazuha provoque una reacción de Torbellino mientras tiene esta carta equipada, tus personajes e invocaciones infligen daño +1 del elemento con el que se produjo el Torbellino en los 2 próximos ataques (el número de usos de cada tipo elemental se calcula por separado).\nSolo puedes añadir esta carta al mazo si tienes a Kaedehara Kazuha en él.",
+            "descriptionraw": "$[K1]: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>$[A1505]</color>.\\nAl hacerlo, $[A1505] usa una vez <color=#FFD780FF>$[S15052]</color> de inmediato.\\nDespués de que $[A1505] provoque una reacción de Torbellino mientras tiene esta carta equipada, tus personajes e invocaciones infligen daño +1 del elemento con el que se produjo el Torbellino en los 2 próximos ataques (el número de usos de cada tipo elemental se calcula por separado).\\nSolo puedes añadir esta carta al mazo si tienes a $[A1505] en él.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Acción de combate</color>: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>Kaedehara Kazuha</color>.\\nAl hacerlo, Kaedehara Kazuha usa una vez <color=#FFD780FF>Vehemencia estremecedora</color> de inmediato.\\nDespués de que Kaedehara Kazuha provoque una reacción de Torbellino mientras tiene esta carta equipada, tus personajes e invocaciones infligen daño +1 del elemento con el que se produjo el Torbellino en los 2 próximos ataques (el número de usos de cada tipo elemental se calcula por separado).\\nSolo puedes añadir esta carta al mazo si tienes a Kaedehara Kazuha en él.",
+            "id": 215051,
+            "name": "Haiku de la brisa",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "Se obtiene tras retar a Kaedehara Kazuha a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
+            "storytext": "En los duelos también hay ocultos regalos muy sofisticados.\nEstos se pueden ver cuando ambos jugadores han puesto las cartas sobre la mesa.",
+            "storytitle": "Kaedehara Kazuha: Haiku de la brisa",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
                 "Acción de combate"
             ]
         },
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "Objeto"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Evento",
+            "description": "La próxima vez que juegues una carta de arma o de artefacto, gastarás 1 dado elemental menos.",
+            "descriptionraw": "<color=#FFFFFFFF>La próxima vez que juegues una carta de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto</color>, gastarás 1 dado elemental menos.",
+            "descriptionreplaced": "<color=#FFFFFFFF>La próxima vez que juegues una carta de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto</color>, gastarás 1 dado elemental menos.",
+            "id": 332021,
+            "name": "Melodía del gran sueño",
+            "playcost": [],
+            "storytext": "“Entrar en nuestro sueño, en nuestro mundo”.\n“Escribir historia de bondad, valor y justicia”.",
+            "storytitle": "Melodía del gran sueño",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Acción de combate: esta carta se equipa cuando el personaje en combate es Yanfei.\nTras ello, Yanfei usa una vez Sello ígneo de inmediato.\nCuando Yanfei ejecuta un Ataque Cargado mientras tiene esta carta equipada, inflige daño +1 en enemigos con 6 pts. o menos de Vida.\nSolo puedes añadir esta carta al mazo si tienes a Yanfei en él.",
+            "descriptionraw": "$[K1]: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>$[A1308]</color>.\\nTras ello, $[A1308] usa una vez <color=#FFD780FF>$[S13081]</color> de inmediato.\\nCuando $[A1308] ejecuta un $[K51] mientras tiene esta carta equipada, inflige daño +1 en enemigos con 6 pts. o menos de Vida.\\nSolo puedes añadir esta carta al mazo si tienes a $[A1308] en él.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Acción de combate</color>: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>Yanfei</color>.\\nTras ello, Yanfei usa una vez <color=#FFD780FF>Sello ígneo</color> de inmediato.\\nCuando Yanfei ejecuta un <color=#FFFFFFFF>Ataque Cargado</color> mientras tiene esta carta equipada, inflige daño +1 en enemigos con 6 pts. o menos de Vida.\\nSolo puedes añadir esta carta al mazo si tienes a Yanfei en él.",
+            "id": 213081,
+            "name": "Derecho de interpretación final",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "Se obtiene tras retar a Yanfei a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
+            "storytext": "“Todo está permitido en las cartas, siempre que las normas no lo prohíban”.",
+            "storytitle": "Yanfei: Derecho de interpretación final",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
+                "Acción de combate"
             ]
         },
         "sacrificialbow": {
@@ -4019,6 +4267,36 @@
             "storytitle": "Un deseo imposible de abandonar",
             "tags": [],
             "tagstext": []
+        },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Acción de combate: esta carta se equipa cuando el personaje en combate es Candace.\nTras ello, Candace usa una vez Rito sagrado: Marea de aguzanieves de inmediato.\nEl estado de oración de la corona escarlata otorgado por Candace mientras tiene esta carta equipada, obtiene el siguiente efecto adicional: tras ejecutar un Ataque Normal, tu personaje inflige 1 pt. de Daño Hydro (1 vez por ronda).\nSolo puedes añadir esta carta al mazo si tienes a Candace en él.",
+            "descriptionraw": "$[K1]: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>$[A1207]</color>.\\nTras ello, $[A1207] usa una vez <color=#FFD780FF>$[S12073]</color> de inmediato.\\nEl estado de <color=#FFFFFFFF>$[C112072|s1]</color> otorgado por $[A1207] mientras tiene esta carta equipada, obtiene el siguiente efecto adicional: <color=#FFFFFFFF>tras ejecutar un Ataque Normal</color>, tu personaje inflige 1 pt. de $[K102] (1 vez por ronda).\\nSolo puedes añadir esta carta al mazo si tienes a $[A1207] en él.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Acción de combate</color>: esta carta se equipa cuando el personaje en combate es <color=#FFFFFFFF>Candace</color>.\\nTras ello, Candace usa una vez <color=#FFD780FF>Rito sagrado: Marea de aguzanieves</color> de inmediato.\\nEl estado de <color=#FFFFFFFF>oración de la corona escarlata</color> otorgado por Candace mientras tiene esta carta equipada, obtiene el siguiente efecto adicional: <color=#FFFFFFFF>tras ejecutar un Ataque Normal</color>, tu personaje inflige 1 pt. de {SPRITE_PRESET#2102}<color=#80C0FFFF>Daño Hydro</color> (1 vez por ronda).\\nSolo puedes añadir esta carta al mazo si tienes a Candace en él.",
+            "id": 212071,
+            "name": "Marea inundatoria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "Se obtiene tras retar a Candace a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
+            "storytext": "Aquellos que no respetan las normas de las cartas son... los enemigos de los aficionados a las cartas.",
+            "storytitle": "Candace: Marea inundatoria",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
+                "Acción de combate"
+            ]
         },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "Tentación de Adeptus",
             "adventurersbandana": "Bandana del Aventurero",
             "amosbow": "Arco de Amos",
+            "ancientcourtyard": "Jardines de antaño",
             "aquilafavonia": "Aquila Favonia",
             "aratakiichiban": "Itto, el ónico e inimitable",
             "archaicpetra": "Petra Arcaica",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "Mirada helada de Cicin",
             "coldbloodedstrike": "Espada de sangre fría",
             "conquerorofevilguardianyaksha": "Conquista del mal: Guardián Yaksha",
+            "covenantofrock": "Pacto rocoso",
             "crimsonwitchofflames": "Bruja Carmesí en Llamas",
             "crossfire": "Fuego cruzado",
             "dawnwinery": "Viñedo del Amanecer",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "Retorno foliáceo",
             "flowingflame": "Flujo llameante",
             "friendshipeternal": "Amistad sempiterna",
+            "fruitoffulfillment": "Fruto de la Culminación",
             "gamblersearrings": "Aretes de la Jugadora",
             "generalsancienthelm": "Yelmo Vetusto del General",
             "giantmutationstone": "Piedra de mutación gigante",
@@ -5699,6 +6019,10 @@
             "magicguide": "Guía Mágica",
             "maskofsolitudebasalt": "Máscara de Basalto Inerte",
             "masterofweaponry": "Maestro de armas",
+            "masterytalismanarmsandarmorhoned": "Amuleto de la destreza: Perfeccionamiento de armamento",
+            "masterytalismanbattleready": "Amuleto de la destreza: Preparación para la batalla",
+            "masterytalismancascadingdefeat": "Amuleto de la destreza: Derrota en cascada",
+            "masterytalismanchaoticbanners": "Amuleto de la destreza: Estandartes dispersos",
             "masterytalismancoldwar": "Amuleto de la destreza: Guerra fría",
             "masterytalismancyclecharge": "Amuleto de la destreza: Estrategia rotatoria",
             "masterytalismandecisivebattle": "Amuleto de la destreza: Combate decisivo",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "Amuleto de la destreza: Explosión prolongada",
             "masterytalismanimmovable": "Amuleto de la destreza: Inamovible",
             "masterytalismanintelligenceupdate": "Amuleto de la destreza: Últimas novedades",
+            "masterytalismanplanninglongterm": "Amuleto de la destreza: Planificación a largo plazo",
             "masterytalismanpracticemakesperfect": "Amuleto de la destreza: La práctica hace el maestro",
             "masterytalismanpresstheattack": "Amuleto de la destreza: Avance triunfante",
+            "masterytalismansuddenambush": "Amuleto de la destreza: Emboscada inesperada",
             "masterytalismansurgingvigor": "Amuleto de la destreza: Vigor emergente",
             "masterytalismantheelementsentwined": "Amuleto de la destreza: Unión elemental",
+            "masterytalismanvictoriousrepute": "Amuleto de la destreza: Renombre de la victoria",
+            "masterzhang": "Maestro Zhang",
             "mintymeatrolls": "Rollitos de carne y menta",
             "mirrorcage": "Jaula de espejos",
             "mondstadthashbrown": "Tortilla de papas de Mondstadt",
@@ -5726,6 +6054,7 @@
             "paimon": "Paimon",
             "parametrictransformer": "Transmutador paramétrico",
             "plungingstrike": "Corte Descendente",
+            "poeticsoffuubutsu": "Haiku de la brisa",
             "poundingsurprise": "Regalo explosivo",
             "proliferatingspores": "Propagaesporas",
             "prophecyofsubmersion": "Profecía de sumersión",
@@ -5733,6 +6062,8 @@
             "rana": "Rhana",
             "ravenbow": "Arco de Cuervo",
             "redfeatherfan": "Abanico de plumas rojas",
+            "rhythmofthegreatdream": "Melodía del gran sueño",
+            "rightoffinalinterpretation": "Derecho de interpretación final",
             "sacrificialbow": "Arco del Sacrificio",
             "sacrificialfragments": "Memorias de Sacrificios",
             "sacrificialgreatsword": "Gran Espada de Sacrificio",
@@ -5767,6 +6098,7 @@
             "thebell": "Espada del Tiempo",
             "thebestesttravelcompanion": "¡La mejor compañera de viaje!",
             "thelegendofvennessa": "La leyenda de Vennessa",
+            "theoverflow": "Marea inundatoria",
             "thescentremained": "Lluvia sobre mojado",
             "theseedofstoredknowledge": "Semillas del conocimiento",
             "theshrinessacredshade": "Sombra sagrada",
@@ -5814,6 +6146,9 @@
             "Amistad sempiterna": "friendshipeternal",
             "Amuleto de la destreza: Avance triunfante": "masterytalismanpresstheattack",
             "Amuleto de la destreza: Combate decisivo": "masterytalismandecisivebattle",
+            "Amuleto de la destreza: Derrota en cascada": "masterytalismancascadingdefeat",
+            "Amuleto de la destreza: Emboscada inesperada": "masterytalismansuddenambush",
+            "Amuleto de la destreza: Estandartes dispersos": "masterytalismanchaoticbanners",
             "Amuleto de la destreza: Estrategia rotatoria": "masterytalismancyclecharge",
             "Amuleto de la destreza: Explosión prolongada": "masterytalismanextendedexplosion",
             "Amuleto de la destreza: Flora sin fin": "masterytalismandensevegetation",
@@ -5821,6 +6156,10 @@
             "Amuleto de la destreza: Inamovible": "masterytalismanimmovable",
             "Amuleto de la destreza: La práctica hace el maestro": "masterytalismanpracticemakesperfect",
             "Amuleto de la destreza: Ofensiva y defensiva": "masterytalismandualprongedapproach",
+            "Amuleto de la destreza: Perfeccionamiento de armamento": "masterytalismanarmsandarmorhoned",
+            "Amuleto de la destreza: Planificación a largo plazo": "masterytalismanplanninglongterm",
+            "Amuleto de la destreza: Preparación para la batalla": "masterytalismanbattleready",
+            "Amuleto de la destreza: Renombre de la victoria": "masterytalismanvictoriousrepute",
             "Amuleto de la destreza: Unión elemental": "masterytalismantheelementsentwined",
             "Amuleto de la destreza: Vigor emergente": "masterytalismansurgingvigor",
             "Amuleto de la destreza: Últimas novedades": "masterytalismanintelligenceupdate",
@@ -5876,6 +6215,7 @@
             "Cuña relámpago": "lightningstiletto",
             "Cámara de Jade": "jadechamber",
             "Deceso del Cinabrio": "vermillionhereafter",
+            "Derecho de interpretación final": "rightoffinalinterpretation",
             "Despedida": "sendoff",
             "Despertar": "awakening",
             "Diadema del Exiliado": "exilescirclet",
@@ -5896,6 +6236,7 @@
             "Espada del Viajero": "travelershandysword",
             "Estrellitas de loto": "lotusflowercrisp",
             "Flujo llameante": "flowingflame",
+            "Fruto de la Culminación": "fruitoffulfillment",
             "Fuego cruzado": "crossfire",
             "Furia del Trueno": "thunderingfury",
             "Gordi": "tubby",
@@ -5905,11 +6246,13 @@
             "Gran Santuario Narukami": "grandnarukamishrine",
             "Guoba de Jueyun": "jueyunguoba",
             "Guía Mágica": "magicguide",
+            "Haiku de la brisa": "poeticsoffuubutsu",
             "Hanachirusato": "hanachirusato",
             "Hoja Afilada Celestial": "skywardblade",
             "Huevo frito de Teyvat": "teyvatfriedegg",
             "Invocación: Hora cero - Ofensiva despiadada": "zerohourinvokationalloutaggression",
             "Itto, el ónico e inimitable": "aratakiichiban",
+            "Jardines de antaño": "ancientcourtyard",
             "Jaula de espejos": "mirrorcage",
             "Juicio de la pluma": "featherfalljudgment",
             "Juramento protector": "guardiansoath",
@@ -5947,7 +6290,10 @@
             "Línea ley anómala: Trueno": "leylinedisorderthunderstorm",
             "Línea ley anómala: Vientos impetuosos": "leylinedisordersoaringwinds",
             "Línea ley anómala: Voluntad ardiente": "leylinedisorderblazingwill",
+            "Maestro Zhang": "masterzhang",
             "Maestro de armas": "masterofweaponry",
+            "Marea inundatoria": "theoverflow",
+            "Melodía del gran sueño": "rhythmofthegreatdream",
             "Memorias de Sacrificios": "sacrificialfragments",
             "Mirada helada de Cicin": "cicinscoldglare",
             "Momento de gloria": "gloriousseason",
@@ -5961,6 +6307,7 @@
             "Orbe elemental: Disipación": "elementalorbdissipated",
             "Orbe elemental: Perseverancia": "elementalorbenduring",
             "Orgullo Celestial": "skywardpride",
+            "Pacto rocoso": "covenantofrock",
             "Paimon": "paimon",
             "Pañuelo de la Médica Itinerante": "travelingdoctorshandkerchief",
             "Pecado del orgullo": "sinofpride",
@@ -6047,6 +6394,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6061,6 +6409,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

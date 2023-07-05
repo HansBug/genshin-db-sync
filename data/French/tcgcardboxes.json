@@ -6,7 +6,7 @@
             "id": 102,
             "name": "Inazuma",
             "rarity": 4,
-            "source": "Récompense pour avoir atteint le Niv. de joueur 5"
+            "source": "Récompense pour avoir atteint un Niv. de joueur de 5"
         },
         "liyue": {
             "description": "Éternelle comme la lune, durable comme le soleil.\nPar la terre, la colline et le roc, toutes choses prospéreront.",
@@ -14,7 +14,7 @@
             "id": 101,
             "name": "Liyue",
             "rarity": 4,
-            "source": "Récompense pour avoir atteint le Niv. de joueur 3"
+            "source": "Récompense pour avoir atteint un Niv. de joueur de 3"
         },
         "mondstadt": {
             "description": "Le murmure incessant de la brise joue sur les cordes, créant une belle mélodie.\nLa conversation passionnée du vent et des fleurs est soufflée, tombant au cœur de la source claire.",
@@ -30,7 +30,7 @@
             "id": 103,
             "name": "Sumeru",
             "rarity": 4,
-            "source": "Récompense pour avoir atteint le Niv. de joueur 7"
+            "source": "Récompense pour avoir atteint un Niv. de joueur de 7"
         }
     },
     "meta": {

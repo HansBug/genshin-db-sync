@@ -142,6 +142,29 @@
                 "Cung"
             ]
         },
+        "ancientcourtyard": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Thẻ Sự Kiện",
+            "description": "Khi phe ta có nhân vật đã trang bị Vũ Khí hoặc Thánh Di Vật mới có thể đánh ra: Trong hiệp này, phe ta lần sau đánh ra Thẻ Trang Bị Vũ Khí hoặc Thánh Di Vật sẽ giảm tiêu hao 2 Xúc Xắc Nguyên Tố.\n(Cả ván đấu chỉ có thể đánh ra 1 Thẻ Bí Truyền; Thẻ bài này sẽ ở trong những lá bài đầu tiên trong tay bạn)",
+            "descriptionraw": "<color=#FFFFFFFF>Khi phe ta có nhân vật đã trang bị {SPRITE_PRESET#3003}Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật mới có thể đánh ra:</color> Trong hiệp này, phe ta lần sau đánh ra Thẻ Trang Bị {SPRITE_PRESET#3003}Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật sẽ giảm tiêu hao 2 Xúc Xắc Nguyên Tố.\\n(Cả ván đấu chỉ có thể đánh ra 1 Thẻ {SPRITE_PRESET#3007}Bí Truyền; Thẻ bài này sẽ ở trong những lá bài đầu tiên trong tay bạn)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi phe ta có nhân vật đã trang bị {SPRITE_PRESET#3003}Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật mới có thể đánh ra:</color> Trong hiệp này, phe ta lần sau đánh ra Thẻ Trang Bị {SPRITE_PRESET#3003}Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật sẽ giảm tiêu hao 2 Xúc Xắc Nguyên Tố.\\n(Cả ván đấu chỉ có thể đánh ra 1 Thẻ {SPRITE_PRESET#3007}Bí Truyền; Thẻ bài này sẽ ở trong những lá bài đầu tiên trong tay bạn)",
+            "id": 330001,
+            "name": "Sân Vườn Cổ Xưa",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Thế gian rỗng tuếch giữa cõi đời, lẽ nào chẳng phải khi nhập mộng.\"",
+            "storytitle": "Sân Vườn Cổ Xưa",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Bí Truyền"
+            ]
+        },
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Thẻ Trang Bị",
@@ -615,6 +638,29 @@
             "tagstext": [
                 "Thiên Phú",
                 "Hành Động Chiến Đấu"
+            ]
+        },
+        "covenantofrock": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Thẻ Sự Kiện",
+            "description": "Khi số lượng Xúc Xắc Nguyên Tố còn lại của phe ta là 0 mới có thể đánh ra: Sinh ra 2 Xúc Xắc Nguyên Tố khác loại.\n(Cả ván đấu chỉ có thể đánh ra 1 Thẻ Bí Truyền; Thẻ bài này sẽ ở trong những lá bài đầu tiên trong tay bạn)",
+            "descriptionraw": "<color=#FFFFFFFF>Khi số lượng Xúc Xắc Nguyên Tố còn lại của phe ta là 0 mới có thể đánh ra:</color> Sinh ra 2 Xúc Xắc Nguyên Tố khác loại.\\n(Cả ván đấu chỉ có thể đánh ra 1 Thẻ {SPRITE_PRESET#3007}Bí Truyền; Thẻ bài này sẽ ở trong những lá bài đầu tiên trong tay bạn)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi số lượng Xúc Xắc Nguyên Tố còn lại của phe ta là 0 mới có thể đánh ra:</color> Sinh ra 2 Xúc Xắc Nguyên Tố khác loại.\\n(Cả ván đấu chỉ có thể đánh ra 1 Thẻ {SPRITE_PRESET#3007}Bí Truyền; Thẻ bài này sẽ ở trong những lá bài đầu tiên trong tay bạn)",
+            "id": 330002,
+            "name": "Khế Ước Bàn Nham",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Nham Vương Gia ban cho y đôi mắt để nhìn rõ sự vật, quy định rõ ràng với y. Từ đó về sau, con rồng đó đã ở bên cạnh Nham Vương Gia, theo người chinh chiến nam bắc...\"",
+            "storytitle": "Khế Ước Bàn Nham",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Bí Truyền"
             ]
         },
         "crimsonwitchofflames": {
@@ -1433,12 +1479,37 @@
             "tags": [],
             "tagstext": []
         },
+        "fruitoffulfillment": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Sát thương nhân vật tạo ra +1.\nKhi vào trận: Rút 2 thẻ bài.\n(Nhân vật dùng Pháp Khí mới có thể trang bị. Nhân vật tối đa trang bị 1 vũ khí)",
+            "descriptionraw": "<color=#FFFFFFFF>Sát thương nhân vật tạo ra +1</color>.\\n<color=#FFFFFFFF>Khi vào trận:</color> Rút 2 thẻ bài.\\n(<color=#FFFFFFFF>Nhân vật dùng {SPRITE_PRESET#3201}Pháp Khí</color> mới có thể trang bị. Nhân vật tối đa trang bị 1 {SPRITE_PRESET#3003}vũ khí)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Sát thương nhân vật tạo ra +1</color>.\\n<color=#FFFFFFFF>Khi vào trận:</color> Rút 2 thẻ bài.\\n(<color=#FFFFFFFF>Nhân vật dùng {SPRITE_PRESET#3201}Pháp Khí</color> mới có thể trang bị. Nhân vật tối đa trang bị 1 {SPRITE_PRESET#3003}vũ khí)",
+            "id": 311105,
+            "name": "Quả Mọng",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 3
+                }
+            ],
+            "storytext": "\"Cho dù là câu chuyện có khổ đau đến đâu đi nữa, trong đó cũng có dũng khí, cũng có sức mạnh... Câu chuyện về Nara tốt tóc vàng cùng mạo hiểm với chúng tôi, sẽ thay mặt cho Nara tốt bảo vệ khu rừng.\"",
+            "storytitle": "Mặt Trăng Tròn Trĩnh - Quả Mọng",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_CATALYST"
+            ],
+            "tagstext": [
+                "Vũ Khí",
+                "Pháp Khí"
+            ]
+        },
         "gamblersearrings": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Thẻ Trang Bị",
-            "description": "Sau khi nhân vật phe địch bị đánh bại: Nếu nhân vật áp dụng là nhân vật xuất chiến, sẽ sinh ra 2 Nguyên Tố Vạn Năng.\n(Nhân vật tối đa trang bị 1 Thánh Di Vật)",
-            "descriptionraw": "<color=#FFFFFFFF>Sau khi nhân vật phe địch bị đánh bại:</color> Nếu nhân vật áp dụng là nhân vật xuất chiến, sẽ sinh ra 2 $[K411].\\n(Nhân vật tối đa trang bị 1 {SPRITE_PRESET#3004}Thánh Di Vật)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Sau khi nhân vật phe địch bị đánh bại:</color> Nếu nhân vật áp dụng là nhân vật xuất chiến, sẽ sinh ra 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>.\\n(Nhân vật tối đa trang bị 1 {SPRITE_PRESET#3004}Thánh Di Vật)",
+            "description": "Sau khi nhân vật phe địch bị đánh bại: Nếu nhân vật áp dụng là nhân vật xuất chiến, sẽ sinh ra 2 Nguyên Tố Vạn Năng. (Giới hạn 3 lần trong cả ván bài)\n(Nhân vật tối đa trang bị 1 Thánh Di Vật)",
+            "descriptionraw": "<color=#FFFFFFFF>Sau khi nhân vật phe địch bị đánh bại:</color> Nếu nhân vật áp dụng là nhân vật xuất chiến, sẽ sinh ra 2 $[K411]. (Giới hạn 3 lần trong cả ván bài)\\n(Nhân vật tối đa trang bị 1 {SPRITE_PRESET#3004}Thánh Di Vật)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Sau khi nhân vật phe địch bị đánh bại:</color> Nếu nhân vật áp dụng là nhân vật xuất chiến, sẽ sinh ra 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>. (Giới hạn 3 lần trong cả ván bài)\\n(Nhân vật tối đa trang bị 1 {SPRITE_PRESET#3004}Thánh Di Vật)",
             "id": 312004,
             "name": "Hoa Tai Con Bạc",
             "playcost": [
@@ -1665,9 +1736,9 @@
         "igotyourback": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Thẻ Trang Bị",
-            "description": "Hành Động Chiến Đấu: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là Noelle.\nNoelle sau khi trang bị thẻ bài này, lập tức dùng 1 lần Giáp Hộ Tâm.\nNoelle có trang bị thẻ bài này sinh ra Giáp Nham Hộ Thể, sau khi Noelle dùng tấn công thường, sẽ chữa trị 1 điểm cho tất cả nhân vật phe ta. (Mỗi hiệp 1 lần)\n(Bộ bài có Noelle mới có thể thêm)",
-            "descriptionraw": "$[K1]: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>$[A1602]</color>.\\n$[A1602] sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>$[S16022]</color>.\\n$[A1602] có trang bị thẻ bài này sinh ra <color=#FFFFFFFF>$[C116021]</color>, sau khi $[A1602] dùng <color=#FFFFFFFF>tấn công thường</color>, sẽ chữa trị 1 điểm cho tất cả nhân vật phe ta. (Mỗi hiệp 1 lần)\\n(Bộ bài có $[A1602] mới có thể thêm)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Hành Động Chiến Đấu</color>: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>Noelle</color>.\\nNoelle sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>Giáp Hộ Tâm</color>.\\nNoelle có trang bị thẻ bài này sinh ra <color=#FFFFFFFF>Giáp Nham Hộ Thể</color>, sau khi Noelle dùng <color=#FFFFFFFF>tấn công thường</color>, sẽ chữa trị 1 điểm cho tất cả nhân vật phe ta. (Mỗi hiệp 1 lần)\\n(Bộ bài có Noelle mới có thể thêm)",
+            "description": "Hành Động Chiến Đấu: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là Noelle.\nNoelle sau khi trang bị thẻ bài này, lập tức dùng 1 lần Giáp Hộ Tâm.\nSau khi NoelleTấn Công Thường: Nếu thẻ bài này và Giáp Nham Hộ Thể vẫn ở trong trận, sẽ chữa trị 1 điểm cho tất cả nhân vật phe ta. (Mỗi hiệp 1 lần)\n(Bộ bài có Noelle mới có thể thêm)",
+            "descriptionraw": "$[K1]: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>$[A1602]</color>.\\n$[A1602] sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>$[S16022]</color>.\\nSau khi $[A1602]<color=#FFFFFFFF>Tấn Công Thường</color>: Nếu thẻ bài này và <color=#FFFFFFFF>$[C116021]</color> vẫn ở trong trận, sẽ chữa trị 1 điểm cho tất cả nhân vật phe ta. (Mỗi hiệp 1 lần)\\n(Bộ bài có $[A1602] mới có thể thêm)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hành Động Chiến Đấu</color>: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>Noelle</color>.\\nNoelle sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>Giáp Hộ Tâm</color>.\\nSau khi Noelle<color=#FFFFFFFF>Tấn Công Thường</color>: Nếu thẻ bài này và <color=#FFFFFFFF>Giáp Nham Hộ Thể</color> vẫn ở trong trận, sẽ chữa trị 1 điểm cho tất cả nhân vật phe ta. (Mỗi hiệp 1 lần)\\n(Bộ bài có Noelle mới có thể thêm)",
             "id": 216021,
             "name": "Chi Viện Cứ Giao Cho Tôi",
             "playcost": [
@@ -2541,6 +2612,54 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanarmsandarmorhoned": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Khi nhân vật phe ta tiến hành Trọng Kích: +1 sát thương gây ra. Sau khi tổng kết, phe ta rút 1 thẻ bài.",
+            "descriptionraw": "<color=#FFFFFFFF>Khi nhân vật phe ta tiến hành $[K51]:</color> +1 sát thương gây ra. Sau khi tổng kết, phe ta rút 1 thẻ bài.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi nhân vật phe ta tiến hành <color=#FFFFFFFF>Trọng Kích</color>:</color> +1 sát thương gây ra. Sau khi tổng kết, phe ta rút 1 thẻ bài.",
+            "id": 423020,
+            "name": "Bùa Thuật Khéo Léo - Rèn Binh",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanbattleready": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Khi nhân vật phe ta đồng thời trang bị Vũ Khí và Thánh Di Vật dùng kỹ năng: Giảm tiêu hao 3 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)",
+            "descriptionraw": "<color=#FFFFFFFF>Khi nhân vật phe ta đồng thời trang bị {SPRITE_PRESET#3003}Vũ Khí và {SPRITE_PRESET#3004}Thánh Di Vật dùng kỹ năng:</color> Giảm tiêu hao 3 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi nhân vật phe ta đồng thời trang bị {SPRITE_PRESET#3003}Vũ Khí và {SPRITE_PRESET#3004}Thánh Di Vật dùng kỹ năng:</color> Giảm tiêu hao 3 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)",
+            "id": 423021,
+            "name": "Bùa Thuật Khéo Léo - Nghênh Chiến",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismancascadingdefeat": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Khi nhân vật phe địch bị đánh bại: Gây 1 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật phe địch.",
+            "descriptionraw": "<color=#FFFFFFFF>Khi nhân vật phe địch bị đánh bại:</color> Gây 1 điểm $[K5] cho tất cả nhân vật phe địch.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi nhân vật phe địch bị đánh bại:</color> Gây 1 điểm <color=#FFFFFFFF>Sát Thương Xuyên Thấu</color> cho tất cả nhân vật phe địch.",
+            "id": 423022,
+            "name": "Bùa Thuật Khéo Léo - Còi Hiệu",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismanchaoticbanners": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Sau khi nhân vật phe địch chịu phải sát thương phản ứng nguyên tố: Sinh ra 1 Nguyên Tố Vạn Năng. (Mỗi hiệp tối đa kích hoạt 3 lần)",
+            "descriptionraw": "<color=#FFFFFFFF>Sau khi nhân vật phe địch chịu phải sát thương phản ứng nguyên tố:</color> Sinh ra 1 $[K411]. (Mỗi hiệp tối đa kích hoạt 3 lần)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Sau khi nhân vật phe địch chịu phải sát thương phản ứng nguyên tố:</color> Sinh ra 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>. (Mỗi hiệp tối đa kích hoạt 3 lần)",
+            "id": 423023,
+            "name": "Bùa Thuật Khéo Léo - La Liệt",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Thẻ Hỗ Trợ",
@@ -2637,6 +2756,18 @@
             "tags": [],
             "tagstext": []
         },
+        "masterytalismanplanninglongterm": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Khi phe ta đánh ra Thẻ Trang Bị Vũ Khí hoặc Thánh Di Vật có tổng chi phí tối thiểu là 3: Giảm tiêu hao 3 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)",
+            "descriptionraw": "<color=#FFFFFFFF>Khi phe ta đánh ra Thẻ Trang Bị {SPRITE_PRESET#3003}Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật có tổng chi phí tối thiểu là 3:</color> Giảm tiêu hao 3 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi phe ta đánh ra Thẻ Trang Bị {SPRITE_PRESET#3003}Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật có tổng chi phí tối thiểu là 3:</color> Giảm tiêu hao 3 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)",
+            "id": 423019,
+            "name": "Bùa Thuật Khéo Léo - Đường Dài",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Thẻ Hỗ Trợ",
@@ -2657,6 +2788,18 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Sau khi nhân vật phe địch bị đánh bại:</color> Sinh ra 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>, rút 1 thẻ bài.",
             "id": 423007,
             "name": "Bùa Thuật Khéo Léo - Khúc Hát Tiến Công",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterytalismansuddenambush": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Sau khi nhân vật phe ta dùng kỹ năng: Trong trận đối phương sẽ sinh ra 1 \"Bom Mai Phục\" cùng loại với nguyên tố của nhân vật. Sau khi nhân vật chi viện của phe địch vào trận, Bom Mai Phục sẽ gây 1 điểm sát thương nguyên tố tương ứng cho nhân vật này.",
+            "descriptionraw": "<color=#FFFFFFFF>Sau khi nhân vật phe ta dùng kỹ năng:</color> Trong trận đối phương sẽ sinh ra 1 \"Bom Mai Phục\" cùng loại với nguyên tố của nhân vật. Sau khi nhân vật chi viện của phe địch vào trận, Bom Mai Phục sẽ gây 1 điểm sát thương nguyên tố tương ứng cho nhân vật này.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Sau khi nhân vật phe ta dùng kỹ năng:</color> Trong trận đối phương sẽ sinh ra 1 \"Bom Mai Phục\" cùng loại với nguyên tố của nhân vật. Sau khi nhân vật chi viện của phe địch vào trận, Bom Mai Phục sẽ gây 1 điểm sát thương nguyên tố tương ứng cho nhân vật này.",
+            "id": 423024,
+            "name": "Bùa Thuật Khéo Léo - Phục Kích",
             "playcost": [],
             "tags": [],
             "tagstext": []
@@ -2684,6 +2827,41 @@
             "playcost": [],
             "tags": [],
             "tagstext": []
+        },
+        "masterytalismanvictoriousrepute": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Khi nhân vật phe địch bị đánh bại: Phe ta rút 1 thẻ bài, và +1 sát thương do nhân vật xuất chiến hiện tại của phe ta gây ra trong trận này (Có thể cộng dồn, tối đa +3).",
+            "descriptionraw": "<color=#FFFFFFFF>Khi nhân vật phe địch bị đánh bại:</color> Phe ta rút 1 thẻ bài, và +1 sát thương do nhân vật xuất chiến hiện tại của phe ta gây ra trong trận này (Có thể cộng dồn, tối đa +3).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi nhân vật phe địch bị đánh bại:</color> Phe ta rút 1 thẻ bài, và +1 sát thương do nhân vật xuất chiến hiện tại của phe ta gây ra trong trận này (Có thể cộng dồn, tối đa +3).",
+            "id": 423018,
+            "name": "Bùa Thuật Khéo Léo - Vẻ Vang",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "masterzhang": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Khi phe ta đánh ra thẻ Vũ Khí: Giảm tiêu hao 1 Xúc Xắc Nguyên Tố; Trong trận phe ta mỗi một nhân vật đã trang bị Vũ Khí, sẽ giảm tiêu hao thêm 1 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)",
+            "descriptionraw": "<color=#FFFFFFFF>Khi phe ta đánh ra thẻ {SPRITE_PRESET#3003}Vũ Khí:</color> Giảm tiêu hao 1 Xúc Xắc Nguyên Tố; Trong trận phe ta mỗi một nhân vật đã trang bị {SPRITE_PRESET#3003}Vũ Khí, sẽ giảm tiêu hao thêm 1 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi phe ta đánh ra thẻ {SPRITE_PRESET#3003}Vũ Khí:</color> Giảm tiêu hao 1 Xúc Xắc Nguyên Tố; Trong trận phe ta mỗi một nhân vật đã trang bị {SPRITE_PRESET#3003}Vũ Khí, sẽ giảm tiêu hao thêm 1 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)",
+            "id": 322018,
+            "name": "Lão Zhang",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Trước khi trở thành một thanh kiếm tốt, khối sắt luôn phải trải qua rất nhiều trắc trở rèn giũa.",
+            "storytitle": "Bách Luyện Xuất Bảo Binh - Lão Zhang",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Đồng Đội"
+            ]
         },
         "mintymeatrolls": {
             "cardtype": "GCG_CARD_EVENT",
@@ -3025,6 +3203,32 @@
                 "Hành Động Chiến Đấu"
             ]
         },
+        "poeticsoffuubutsu": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Hành Động Chiến Đấu: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là Kaedehara Kazuha.\nKaedehara Kazuha sau khi trang bị thẻ bài này, lập tức dùng 1 lần Chihayaburu.\nKaedehara Kazuha có trang bị thẻ bài này sau khi kích hoạt phản ứng Khuếch Tán: Sẽ +1 sát thương loại nguyên tố bị Khuếch Tán do vật triệu hồi và nhân vật phe ta gây ra trong 2 lần tới. (Mỗi loại nguyên tố sẽ tính số lần duy trì riêng)\n(Bộ bài có Kaedehara Kazuha mới có thể thêm)",
+            "descriptionraw": "$[K1]: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>$[A1505]</color>.\\n$[A1505] sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>$[S15052]</color>.\\n$[A1505] có trang bị thẻ bài này sau khi kích hoạt phản ứng Khuếch Tán: Sẽ +1 sát thương loại nguyên tố bị Khuếch Tán do vật triệu hồi và nhân vật phe ta gây ra trong 2 lần tới. (Mỗi loại nguyên tố sẽ tính số lần duy trì riêng)\\n(Bộ bài có $[A1505] mới có thể thêm)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hành Động Chiến Đấu</color>: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>Kaedehara Kazuha</color>.\\nKaedehara Kazuha sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>Chihayaburu</color>.\\nKaedehara Kazuha có trang bị thẻ bài này sau khi kích hoạt phản ứng Khuếch Tán: Sẽ +1 sát thương loại nguyên tố bị Khuếch Tán do vật triệu hồi và nhân vật phe ta gây ra trong 2 lần tới. (Mỗi loại nguyên tố sẽ tính số lần duy trì riêng)\\n(Bộ bài có Kaedehara Kazuha mới có thể thêm)",
+            "id": 215051,
+            "name": "Cảnh Vật Thì Thầm",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ANEMO",
+                    "count": 3
+                }
+            ],
+            "source": "Nhận được sau khi mời Kaedehara Kazuha giao đấu trong Quán Rượu Đuôi Mèo, và hoàn thành mục tiêu khiêu chiến tương ứng",
+            "storytext": "Trong ván đấu, cũng ẩn chứa lễ nghi tao nhã.\nChí ít... cả hai bên trong ván đấu đều \"ra bài không hối hận\".",
+            "storytitle": "Kaedehara Kazuha - Cảnh Vật Thì Thầm",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Thiên Phú",
+                "Hành Động Chiến Đấu"
+            ]
+        },
         "poundingsurprise": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Thẻ Trang Bị",
@@ -3197,6 +3401,50 @@
             ],
             "tagstext": [
                 "Đạo Cụ"
+            ]
+        },
+        "rhythmofthegreatdream": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Thẻ Sự Kiện",
+            "description": "Phe ta lần sau đánh ra thẻ Vũ Khí hoặc Thánh Di Vật: Giảm tiêu hao 1 Xúc Xắc Nguyên Tố.",
+            "descriptionraw": "<color=#FFFFFFFF>Phe ta lần sau đánh ra thẻ {SPRITE_PRESET#3003}Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật:</color> Giảm tiêu hao 1 Xúc Xắc Nguyên Tố.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Phe ta lần sau đánh ra thẻ {SPRITE_PRESET#3003}Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật:</color> Giảm tiêu hao 1 Xúc Xắc Nguyên Tố.",
+            "id": 332021,
+            "name": "Giai Điệu Giấc Mơ",
+            "playcost": [],
+            "storytext": "\"Bước vào giấc mơ của chúng tôi, thế giới của chúng tôi.\"\n\"Viết nên câu chuyện lương thiện, dũng cảm và chính trực.\"",
+            "storytitle": "Giai Điệu Giấc Mơ",
+            "tags": [],
+            "tagstext": []
+        },
+        "rightoffinalinterpretation": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Hành Động Chiến Đấu: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là Yanfei.\nYanfei sau khi trang bị thẻ bài này, lập tức dùng 1 lần Hỏa Ấn.\nKhi Yanfei có trang bị thẻ bài này tiến hành Trọng Kích: +1 sát thương gây ra cho kẻ địch có HP không hơn 6.\n(Bộ bài có Yanfei mới có thể thêm)",
+            "descriptionraw": "$[K1]: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>$[A1308]</color>.\\n$[A1308] sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>$[S13081]</color>.\\nKhi $[A1308] có trang bị thẻ bài này tiến hành $[K51]: +1 sát thương gây ra cho kẻ địch có HP không hơn 6.\\n(Bộ bài có $[A1308] mới có thể thêm)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hành Động Chiến Đấu</color>: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>Yanfei</color>.\\nYanfei sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>Hỏa Ấn</color>.\\nKhi Yanfei có trang bị thẻ bài này tiến hành <color=#FFFFFFFF>Trọng Kích</color>: +1 sát thương gây ra cho kẻ địch có HP không hơn 6.\\n(Bộ bài có Yanfei mới có thể thêm)",
+            "id": 213081,
+            "name": "Quyền Quyết Định Cuối Cùng",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_PYRO",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_DICE_VOID",
+                    "count": 2
+                }
+            ],
+            "source": "Nhận được sau khi mời Yanfei giao đấu trong Quán Rượu Đuôi Mèo, và hoàn thành mục tiêu khiêu chiến tương ứng",
+            "storytext": "\"Về mặt chơi bài, đương nhiên là... không phạm luật cấm là được thôi.\"",
+            "storytitle": "Yanfei - Quyền Quyết Định Cuối Cùng",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Thiên Phú",
+                "Hành Động Chiến Đấu"
             ]
         },
         "sacrificialbow": {
@@ -4019,6 +4267,36 @@
             "storytitle": "Đừng Từ Bỏ Hy Vọng Tự Do",
             "tags": [],
             "tagstext": []
+        },
+        "theoverflow": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Hành Động Chiến Đấu: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là Candace.\nCandace sau khi trang bị thẻ bài này, lập tức dùng 1 lần Nghi Thức Thần Thánh - Thủy Triều Chìa Vôi.\nCandace có trang bị thẻ bài này sinh ra Lời Chúc Vương Miện Đỏ có thêm hiệu quả sau: Sau khi phe ta tấn công thường: Gây 1 điểm Sát Thương Nguyên Tố Thủy. (Mỗi hiệp 1 lần)\n(Bộ bài có Candace mới có thể thêm)",
+            "descriptionraw": "$[K1]: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>$[A1207]</color>.\\n$[A1207] sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>$[S12073]</color>.\\n$[A1207] có trang bị thẻ bài này sinh ra <color=#FFFFFFFF>$[C112072]</color> có thêm hiệu quả sau: <color=#FFFFFFFF>Sau khi phe ta tấn công thường:</color> Gây 1 điểm $[K102]. (Mỗi hiệp 1 lần)\\n(Bộ bài có $[A1207] mới có thể thêm)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hành Động Chiến Đấu</color>: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>Candace</color>.\\nCandace sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>Nghi Thức Thần Thánh - Thủy Triều Chìa Vôi</color>.\\nCandace có trang bị thẻ bài này sinh ra <color=#FFFFFFFF>Lời Chúc Vương Miện Đỏ</color> có thêm hiệu quả sau: <color=#FFFFFFFF>Sau khi phe ta tấn công thường:</color> Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>. (Mỗi hiệp 1 lần)\\n(Bộ bài có Candace mới có thể thêm)",
+            "id": 212071,
+            "name": "Thủy Triều Dâng Trào",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_HYDRO",
+                    "count": 4
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 2
+                }
+            ],
+            "source": "Nhận được sau khi mời Candace giao đấu trong Quán Rượu Đuôi Mèo, và hoàn thành mục tiêu khiêu chiến tương ứng",
+            "storytext": "Người không tuân thủ kỷ luật khi chơi bài...\nLà kẻ địch của tất cả người yêu thích chơi bài.",
+            "storytitle": "Candace - Thủy Triều Dâng Trào",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Thiên Phú",
+                "Hành Động Chiến Đấu"
+            ]
         },
         "thescentremained": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -4928,6 +5206,10 @@
                 "liben",
                 "liusu",
                 "liyueharborwharf",
+                "masterytalismanarmsandarmorhoned",
+                "masterytalismanbattleready",
+                "masterytalismancascadingdefeat",
+                "masterytalismanchaoticbanners",
                 "masterytalismancoldwar",
                 "masterytalismancyclecharge",
                 "masterytalismandecisivebattle",
@@ -4936,10 +5218,14 @@
                 "masterytalismanextendedexplosion",
                 "masterytalismanimmovable",
                 "masterytalismanintelligenceupdate",
+                "masterytalismanplanninglongterm",
                 "masterytalismanpracticemakesperfect",
                 "masterytalismanpresstheattack",
+                "masterytalismansuddenambush",
                 "masterytalismansurgingvigor",
                 "masterytalismantheelementsentwined",
+                "masterytalismanvictoriousrepute",
+                "masterzhang",
                 "mutationstone",
                 "nre",
                 "paimon",
@@ -4966,10 +5252,12 @@
                 "absorbingprism",
                 "abyssalsummons",
                 "adeptustemptation",
+                "ancientcourtyard",
                 "blessingofthedivinerelicsinstallation",
                 "buttercrab",
                 "calxsarts",
                 "changingshifts",
+                "covenantofrock",
                 "elementalresonanceenduringrock",
                 "elementalresonanceferventflames",
                 "elementalresonancehighvoltage",
@@ -5001,6 +5289,7 @@
                 "northernsmokedchicken",
                 "plungingstrike",
                 "quickknit",
+                "rhythmofthegreatdream",
                 "sashimiplatter",
                 "sendoff",
                 "starsigns",
@@ -5047,6 +5336,7 @@
                 "featherfalljudgment",
                 "floralsidewinder",
                 "flowingflame",
+                "fruitoffulfillment",
                 "gamblersearrings",
                 "generalsancienthelm",
                 "gloriousseason",
@@ -5069,10 +5359,12 @@
                 "naganoharameteorswarm",
                 "ornatekabuto",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
                 "ravenbow",
+                "rightoffinalinterpretation",
                 "sacrificialbow",
                 "sacrificialfragments",
                 "sacrificialgreatsword",
@@ -5094,6 +5386,7 @@
                 "tamakushicasket",
                 "tenacityofthemillelith",
                 "thebell",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5123,6 +5416,7 @@
                 "elementalresonanceimpetuouswinds",
                 "embraceofwinds",
                 "landsofdandelion",
+                "poeticsoffuubutsu",
                 "transcendentautomaton"
             ],
             "GCG_COST_DICE_CRYO": [
@@ -5173,6 +5467,7 @@
                 "prophecyofsubmersion",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained"
             ],
             "GCG_COST_DICE_PYRO": [
@@ -5185,6 +5480,7 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "poundingsurprise",
+                "rightoffinalinterpretation",
                 "sanguinerouge"
             ],
             "GCG_COST_DICE_SAME": [
@@ -5222,6 +5518,7 @@
                 "lotusflowercrisp",
                 "magicguide",
                 "maskofsolitudebasalt",
+                "masterzhang",
                 "mintymeatrolls",
                 "mondstadthashbrown",
                 "mushroompizza",
@@ -5282,6 +5579,7 @@
                 "deepwoodmemories",
                 "emblemofseveredfate",
                 "exilescirclet",
+                "fruitoffulfillment",
                 "heartofdepth",
                 "instructorscap",
                 "irontonguetian",
@@ -5289,6 +5587,7 @@
                 "nre",
                 "ornatekabuto",
                 "parametrictransformer",
+                "rightoffinalinterpretation",
                 "starsigns",
                 "stoneandcontracts",
                 "tandooriroastchicken",
@@ -5307,10 +5606,15 @@
                 "stonehidereforged",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
                 "wellspringofwarlust",
                 "wishesunnumbered"
+            ],
+            "GCG_COST_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_ALLY": [
                 "changtheninth",
@@ -5323,6 +5627,7 @@
                 "kidkujirai",
                 "liben",
                 "liusu",
+                "masterzhang",
                 "paimon",
                 "rana",
                 "timaeus",
@@ -5380,6 +5685,10 @@
                 "parametrictransformer",
                 "redfeatherfan",
                 "treasureseekingseelie"
+            ],
+            "GCG_TAG_LEGEND": [
+                "ancientcourtyard",
+                "covenantofrock"
             ],
             "GCG_TAG_PLACE": [
                 "chinjuforest",
@@ -5440,9 +5749,11 @@
                 "naganoharameteorswarm",
                 "paidinfull",
                 "plungingstrike",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5452,6 +5763,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5491,9 +5803,11 @@
                 "mysticalabandon",
                 "naganoharameteorswarm",
                 "paidinfull",
+                "poeticsoffuubutsu",
                 "poundingsurprise",
                 "proliferatingspores",
                 "prophecyofsubmersion",
+                "rightoffinalinterpretation",
                 "sanguinerouge",
                 "shakennotpurred",
                 "sinofpride",
@@ -5503,6 +5817,7 @@
                 "strategicreserve",
                 "streamingsurge",
                 "tamakushicasket",
+                "theoverflow",
                 "thescentremained",
                 "theseedofstoredknowledge",
                 "theshrinessacredshade",
@@ -5519,6 +5834,7 @@
                 "elegyfortheend",
                 "engulfinglightning",
                 "favoniussword",
+                "fruitoffulfillment",
                 "lithicspear",
                 "magicguide",
                 "ravenbow",
@@ -5547,6 +5863,7 @@
             ],
             "GCG_TAG_WEAPON_CATALYST": [
                 "athousandfloatingdreams",
+                "fruitoffulfillment",
                 "magicguide",
                 "sacrificialfragments",
                 "skywardatlas"
@@ -5580,6 +5897,7 @@
             "adeptustemptation": "Tiên Nhảy Tường",
             "adventurersbandana": "Khăn Nhà Mạo Hiểm",
             "amosbow": "Cung Amos",
+            "ancientcourtyard": "Sân Vườn Cổ Xưa",
             "aquilafavonia": "Phong Ưng Kiếm",
             "aratakiichiban": "Arataki Đệ Nhất",
             "archaicpetra": "Phiến Đá Lâu Đời",
@@ -5600,6 +5918,7 @@
             "cicinscoldglare": "Tia Lạnh Cicin Băng",
             "coldbloodedstrike": "Lãnh Huyết Kiếm",
             "conquerorofevilguardianyaksha": "Hàng Ma - Hộ Pháp Dạ Xoa",
+            "covenantofrock": "Khế Ước Bàn Nham",
             "crimsonwitchofflames": "Diệm Liệt Ma Nữ Cháy Rực",
             "crossfire": "Hỏa Lực Đan Chéo",
             "dawnwinery": "Tửu Trang Dawn",
@@ -5638,6 +5957,7 @@
             "floralsidewinder": "Lá Khẽ Bay Nghiêng",
             "flowingflame": "Lòng Như Lửa Đốt",
             "friendshipeternal": "Sức Mạnh Tình Bạn",
+            "fruitoffulfillment": "Quả Mọng",
             "gamblersearrings": "Hoa Tai Con Bạc",
             "generalsancienthelm": "Nón Nguyên Soái",
             "giantmutationstone": "Đá Đột Biến Cỡ Lớn",
@@ -5699,6 +6019,10 @@
             "magicguide": "Tóm Tắt Ma Pháp",
             "maskofsolitudebasalt": "Mặt Nạ Huyền Thạch",
             "masterofweaponry": "Tinh Thông Võ Thuật",
+            "masterytalismanarmsandarmorhoned": "Bùa Thuật Khéo Léo - Rèn Binh",
+            "masterytalismanbattleready": "Bùa Thuật Khéo Léo - Nghênh Chiến",
+            "masterytalismancascadingdefeat": "Bùa Thuật Khéo Léo - Còi Hiệu",
+            "masterytalismanchaoticbanners": "Bùa Thuật Khéo Léo - La Liệt",
             "masterytalismancoldwar": "Bùa Thuật Khéo Léo - Cuộc Chiến Lạnh Lẽo",
             "masterytalismancyclecharge": "Bùa Thuật Khéo Léo - Chiến Pháp Luân Chuyển",
             "masterytalismandecisivebattle": "Bùa Thuật Khéo Léo - Thế Trận Quyết Chiến",
@@ -5707,10 +6031,14 @@
             "masterytalismanextendedexplosion": "Bùa Thuật Khéo Léo - Vụ Nổ Liên Hoàn",
             "masterytalismanimmovable": "Bùa Thuật Khéo Léo - Hùng Vĩ Bất Động",
             "masterytalismanintelligenceupdate": "Bùa Thuật Khéo Léo - Đồng Bộ Tình Báo",
+            "masterytalismanplanninglongterm": "Bùa Thuật Khéo Léo - Đường Dài",
             "masterytalismanpracticemakesperfect": "Bùa Thuật Khéo Léo - Quen Thuộc Nhẹ Nhàng",
             "masterytalismanpresstheattack": "Bùa Thuật Khéo Léo - Khúc Hát Tiến Công",
+            "masterytalismansuddenambush": "Bùa Thuật Khéo Léo - Phục Kích",
             "masterytalismansurgingvigor": "Bùa Thuật Khéo Léo - Sức Sống Tràn Trề",
             "masterytalismantheelementsentwined": "Bùa Thuật Khéo Léo - Nguyên Tố Liên Đới",
+            "masterytalismanvictoriousrepute": "Bùa Thuật Khéo Léo - Vẻ Vang",
+            "masterzhang": "Lão Zhang",
             "mintymeatrolls": "Thịt Rừng Cuộn Bạc Hà",
             "mirrorcage": "Lồng Kính",
             "mondstadthashbrown": "Bánh Khoai Tây Mondstadt",
@@ -5726,6 +6054,7 @@
             "paimon": "Paimon",
             "parametrictransformer": "Máy Biến Đổi Tham Số",
             "plungingstrike": "Chém Rơi",
+            "poeticsoffuubutsu": "Cảnh Vật Thì Thầm",
             "poundingsurprise": "Món Quà Bằng Bằng",
             "proliferatingspores": "Bào Tử Sinh Sôi",
             "prophecyofsubmersion": "Tiên Tri Chìm Đắm",
@@ -5733,6 +6062,8 @@
             "rana": "Rana",
             "ravenbow": "Cung Lông Quạ",
             "redfeatherfan": "Quạt Lông Đỏ",
+            "rhythmofthegreatdream": "Giai Điệu Giấc Mơ",
+            "rightoffinalinterpretation": "Quyền Quyết Định Cuối Cùng",
             "sacrificialbow": "Cung Tế Lễ",
             "sacrificialfragments": "Mảnh Chương Tế Lễ",
             "sacrificialgreatsword": "Đại Kiếm Tế Lễ",
@@ -5767,6 +6098,7 @@
             "thebell": "Kiếm Chuông",
             "thebestesttravelcompanion": "Đồng Đội Tốt Nhất!",
             "thelegendofvennessa": "Vennessa Truyền Kỳ",
+            "theoverflow": "Thủy Triều Dâng Trào",
             "thescentremained": "Mùi Hương Vương Vấn",
             "theseedofstoredknowledge": "Hạt Giống Ẩn Chứa Tri Thức",
             "theshrinessacredshade": "Bóng Râm Đền Thần",
@@ -5816,15 +6148,22 @@
             "Bóng Râm Đền Thần": "theshrinessacredshade",
             "Bùa Thuật Khéo Léo - Chiến Pháp Luân Chuyển": "masterytalismancyclecharge",
             "Bùa Thuật Khéo Léo - Cuộc Chiến Lạnh Lẽo": "masterytalismancoldwar",
+            "Bùa Thuật Khéo Léo - Còi Hiệu": "masterytalismancascadingdefeat",
             "Bùa Thuật Khéo Léo - Công Thủ Lưỡng Toàn": "masterytalismandualprongedapproach",
             "Bùa Thuật Khéo Léo - Hùng Vĩ Bất Động": "masterytalismanimmovable",
             "Bùa Thuật Khéo Léo - Khúc Hát Tiến Công": "masterytalismanpresstheattack",
+            "Bùa Thuật Khéo Léo - La Liệt": "masterytalismanchaoticbanners",
+            "Bùa Thuật Khéo Léo - Nghênh Chiến": "masterytalismanbattleready",
             "Bùa Thuật Khéo Léo - Nguyên Tố Liên Đới": "masterytalismantheelementsentwined",
+            "Bùa Thuật Khéo Léo - Phục Kích": "masterytalismansuddenambush",
             "Bùa Thuật Khéo Léo - Quen Thuộc Nhẹ Nhàng": "masterytalismanpracticemakesperfect",
+            "Bùa Thuật Khéo Léo - Rèn Binh": "masterytalismanarmsandarmorhoned",
             "Bùa Thuật Khéo Léo - Rừng Sâu Rậm Rạp": "masterytalismandensevegetation",
             "Bùa Thuật Khéo Léo - Sức Sống Tràn Trề": "masterytalismansurgingvigor",
             "Bùa Thuật Khéo Léo - Thế Trận Quyết Chiến": "masterytalismandecisivebattle",
+            "Bùa Thuật Khéo Léo - Vẻ Vang": "masterytalismanvictoriousrepute",
             "Bùa Thuật Khéo Léo - Vụ Nổ Liên Hoàn": "masterytalismanextendedexplosion",
+            "Bùa Thuật Khéo Léo - Đường Dài": "masterytalismanplanninglongterm",
             "Bùa Thuật Khéo Léo - Đồng Bộ Tình Báo": "masterytalismanintelligenceupdate",
             "Bản Ngã": "sinofpride",
             "Bến Cảng Liyue": "liyueharborwharf",
@@ -5841,6 +6180,7 @@
             "Cõi Mộng Ngàn Đêm": "athousandfloatingdreams",
             "Cơ Xảo Thần Thông": "transcendentautomaton",
             "Cơm Cháy Tuyệt Vân": "jueyunguoba",
+            "Cảnh Vật Thì Thầm": "poeticsoffuubutsu",
             "Cộng Hưởng Nguyên Tố: Băng Giao Thoa": "elementalresonancewovenice",
             "Cộng Hưởng Nguyên Tố: Băng Vụn Vỡ": "elementalresonanceshatteringice",
             "Cộng Hưởng Nguyên Tố: Hỏa Giao Thoa": "elementalresonancewovenflames",
@@ -5864,6 +6204,7 @@
             "Dũng Sĩ Trong Băng Giá": "blizzardstrayer",
             "Dấu Ấn Ngăn Cách": "emblemofseveredfate",
             "Ellin": "ellin",
+            "Giai Điệu Giấc Mơ": "rhythmofthegreatdream",
             "Giáo Nịnh Thần": "vortexvanquisher",
             "Gà Nướng Tandoori": "tandooriroastchicken",
             "Gà Nấu Hoa Ngọt": "sweetmadame",
@@ -5879,6 +6220,7 @@
             "Khi Hạc Quay Về": "whenthecranereturned",
             "Khăn Nhà Mạo Hiểm": "adventurersbandana",
             "Khăn Thầy Thuốc": "travelingdoctorshandkerchief",
+            "Khế Ước Bàn Nham": "covenantofrock",
             "Kiếm Bạch Thiết": "whiteirongreatsword",
             "Kiếm Chuông": "thebell",
             "Kiếm Củi Ba Năm Thiêu Một Giờ": "strategicreserve",
@@ -5891,6 +6233,7 @@
             "Lá Khẽ Bay Nghiêng": "floralsidewinder",
             "Lãnh Huyết Kiếm": "coldbloodedstrike",
             "Lãnh Thổ Bồ Công Anh": "landsofdandelion",
+            "Lão Zhang": "masterzhang",
             "Lòng Hiếu Chiến Trỗi Dậy": "wellspringofwarlust",
             "Lòng Như Lửa Đốt": "flowingflame",
             "Lôi Vĩnh Hằng": "thunderandeternity",
@@ -5927,14 +6270,17 @@
             "Phong Tự Do": "windandfreedom",
             "Phong Ưng Kiếm": "aquilafavonia",
             "Pizza Nấm Rơm Nướng": "mushroompizza",
+            "Quyền Quyết Định Cuối Cùng": "rightoffinalinterpretation",
             "Quyển Thiên Không": "skywardatlas",
             "Quạt Lông Đỏ": "redfeatherfan",
+            "Quả Mọng": "fruitoffulfillment",
             "Quần Ngọc Các": "jadechamber",
             "Rana": "rana",
             "Rương Báu Tamakushi": "tamakushicasket",
             "Rừng Chinju": "chinjuforest",
             "Sangonomiya": "sangonomiyashrine",
             "Sashimi": "sashimiplatter",
+            "Sân Vườn Cổ Xưa": "ancientcourtyard",
             "Sấm Sét Đầy Trời": "lightningstorm",
             "Sức Mạnh Tình Bạn": "friendshipeternal",
             "Sự Trừng Phạt Sấm Sét": "thunderingpenance",
@@ -5957,6 +6303,7 @@
             "Thịt Rừng Cuộn Bạc Hà": "mintymeatrolls",
             "Thỏ Xông Lên": "bunnytriggered",
             "Thời Gian Thay Ca": "changingshifts",
+            "Thủy Triều Dâng Trào": "theoverflow",
             "Thức Tỉnh": "awakening",
             "Tia Lạnh Cicin Băng": "cicinscoldglare",
             "Tian Miệng Sắt": "irontonguetian",
@@ -6047,6 +6394,7 @@
                 "GCG_COST_DICE_HYDRO",
                 "GCG_COST_DICE_SAME",
                 "GCG_COST_DICE_VOID",
+                "GCG_COST_LEGEND",
                 "GCG_COST_DICE_GEO",
                 "GCG_COST_DICE_PYRO",
                 "GCG_COST_DICE_ANEMO",
@@ -6061,6 +6409,7 @@
                 "GCG_TAG_ARTIFACT",
                 "GCG_TAG_WEAPON",
                 "GCG_TAG_WEAPON_BOW",
+                "GCG_TAG_LEGEND",
                 "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ALLY",

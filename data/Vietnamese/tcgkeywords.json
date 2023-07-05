@@ -21,6 +21,13 @@
             "name": "Sát Thương Nguyên Tố Phong",
             "nameraw": "{SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>"
         },
+        "arcaneedict": {
+            "description": "Trong một ván đấu, mỗi một bài thủ chỉ được dùng 1 thẻ bài Bí Truyền.\nChỉ khi Lệnh Bí Truyền còn tồn tại thì mới có thể đánh ra thẻ Bí Truyền. Sau khi đánh ra thẻ Bí Truyền, sẽ tiêu hao cơ hội dùng Lệnh Bí Truyền ở ván đấu này.",
+            "descriptionraw": "Trong một ván đấu, mỗi một bài thủ chỉ được dùng 1 thẻ bài {SPRITE_PRESET#3007}Bí Truyền.\\nChỉ khi {SPRITE_PRESET#1112}Lệnh Bí Truyền còn tồn tại thì mới có thể đánh ra thẻ {SPRITE_PRESET#3007}Bí Truyền. Sau khi đánh ra thẻ {SPRITE_PRESET#3007}Bí Truyền, sẽ tiêu hao cơ hội dùng {SPRITE_PRESET#1112}Lệnh Bí Truyền ở ván đấu này.",
+            "id": 311,
+            "name": "Lệnh Bí Truyền",
+            "nameraw": "<color=#FFFFFFFF>{SPRITE_PRESET#1112}Lệnh Bí Truyền</color>"
+        },
         "bloodblossom": {
             "description": "Giai Đoạn Kết Thúc: Gây 1 điểm Sát Thương Nguyên Tố Hỏa cho nhân vật áp dụng.\nSố lần sử dụng: 1",
             "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color> cho nhân vật áp dụng.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số lần sử dụng</color>: 1</color>",
@@ -266,7 +273,7 @@
             "name": "Tấn Công Khi Đáp",
             "nameraw": "<color=#FFFFFFFF>Tấn Công Khi Đáp</color>"
         },
-        "prepareskill": {
+        "prepareskills1prepares": {
             "description": "Có một số kỹ năng không thể sử dụng trực tiếp, mà cần một số lượt hành động nhất định để tiến hành chuẩn bị.\nKhi đến lượt của một bài thủ hành động, nếu như \"nhân vật xuất chiến\" của bài thủ này đang chuẩn bị kỹ năng, thì sẽ bỏ qua lượt hành động của bài thủ; Nếu như đã chuẩn bị xong, nhân vật sẽ trực tiếp dùng kỹ năng đó vào lúc này. (Loại kỹ năng cần chuẩn bị này không thể kích hoạt hiệu quả \"sau khi sử dụng\".)\nChỉ có \"nhân vật xuất chiến\" mới có thể chuẩn bị kỹ năng; Nếu như \"nhân vật xuất chiến\" đang chuẩn bị kỹ năng mà bị cho rời trận, thì quá trình chuẩn bị của kỹ năng sẽ bị gián đoạn.",
             "descriptionraw": "Có một số kỹ năng không thể sử dụng trực tiếp, mà cần một số lượt hành động nhất định để tiến hành <color=#FFFFFFFF>chuẩn bị</color>.\\nKhi đến lượt của một bài thủ hành động, nếu như \"nhân vật xuất chiến\" của bài thủ này đang <color=#FFFFFFFF>chuẩn bị</color> kỹ năng, thì sẽ bỏ qua lượt hành động của bài thủ; Nếu như đã <color=#FFFFFFFF>chuẩn bị</color> xong, nhân vật sẽ trực tiếp dùng kỹ năng đó vào lúc này. (Loại kỹ năng cần <color=#FFFFFFFF>chuẩn bị</color> này không thể kích hoạt hiệu quả \"sau khi sử dụng\".)\\nChỉ có \"nhân vật xuất chiến\" mới có thể <color=#FFFFFFFF>chuẩn bị</color> kỹ năng; Nếu như \"nhân vật xuất chiến\" đang <color=#FFFFFFFF>chuẩn bị</color> kỹ năng mà bị cho rời trận, thì quá trình <color=#FFFFFFFF>chuẩn bị</color> của kỹ năng sẽ bị gián đoạn.",
             "id": 53,
@@ -315,6 +322,13 @@
             "name": "Đoạn Lưu",
             "nameraw": "<color=#FFFFFFFF>Đoạn Lưu</color>"
         },
+        "scarletseal": {
+            "description": "Khi nhân vật tiến hành Trọng Kích: +2 sát thương gây ra.\nSố lần sử dụng: 1",
+            "descriptionraw": "Khi <color=#FFFFFFFF>nhân vật tiến hành <color=#FFFFFFFF>Trọng Kích</color>:</color> +2 sát thương gây ra.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số lần sử dụng</color>: 1</color>",
+            "id": 1010,
+            "name": "Đan Hỏa Ấn",
+            "nameraw": "<color=#FFFFFFFF>Đan Hỏa Ấn</color>"
+        },
         "shield": {
             "description": "Nhân vật được Khiên bảo vệ khi chịu sát thương sẽ tiêu hao Khiên trước.",
             "descriptionraw": "Nhân vật được Khiên bảo vệ khi chịu sát thương sẽ tiêu hao Khiên trước.",
@@ -351,6 +365,7 @@
             "aegisofabyssalflame": "Uyên Hỏa Bảo Hộ",
             "anemo": "Nguyên Tố Phong",
             "anemodmg": "Sát Thương Nguyên Tố Phong",
+            "arcaneedict": "Lệnh Bí Truyền",
             "bloodblossom": "Huyết Mai Hương",
             "characterclosesttoyourcurrentactivecharacter": "Nhân Vật Gần Với Nhân Vật Xuất Chiến Phe Ta Nhất",
             "chargedattack": "Trọng Kích",
@@ -386,20 +401,21 @@
             "physicaldmg": "Sát Thương Vật Lý",
             "piercingdmg": "Sát Thương Xuyên Thấu",
             "plungingattack": "Tấn Công Khi Đáp",
-            "prepareskill": "Chuẩn Bị Kỹ Năng",
+            "prepareskills1prepares": "Chuẩn Bị Kỹ Năng",
             "pyro": "Nguyên Tố Hỏa",
             "pyroapplication": "Gán ấn Nguyên Tố Hỏa",
             "pyrodmg": "Sát Thương Nguyên Tố Hỏa",
             "pyrorelatedreactions": "Phản Ứng Nguyên Tố Hỏa",
             "randomhilichurlsummon": "Vật triệu hồi \"Hilichurl\" ngẫu nhiên",
             "riptide": "Đoạn Lưu",
+            "scarletseal": "Đan Hỏa Ấn",
             "shield": "Khiên",
             "superlativesuperstrength": "Quỷ Lực Vô Song",
             "unalignedelement": "Nguyên Tố Không Màu",
             "usages": "Số Lần Khả Dụng"
         },
         "names": {
-            "Chuẩn Bị Kỹ Năng": "prepareskill",
+            "Chuẩn Bị Kỹ Năng": "prepareskills1prepares",
             "Gán ấn Nguyên Tố Băng": "cryoapplication",
             "Gán ấn Nguyên Tố Hỏa": "pyroapplication",
             "Gán ấn Nguyên Tố Lôi": "electroapplication",
@@ -412,6 +428,7 @@
             "Kỹ Năng Bị Động": "passiveskill",
             "Kỹ Năng Nộ": "elementalburst",
             "Lông Quạ Bao Phủ": "crowfeathercover",
+            "Lệnh Bí Truyền": "arcaneedict",
             "Mũi Tên Bung Tỏa": "clusterbloomarrow",
             "Nguyên Tố Băng": "cryo",
             "Nguyên Tố Hỏa": "pyro",
@@ -446,6 +463,7 @@
             "Uyên Hỏa Bảo Hộ": "aegisofabyssalflame",
             "Vật triệu hồi \"Hilichurl\" ngẫu nhiên": "randomhilichurlsummon",
             "không bị đánh bại": "immunitytodefeats1willnotbedefeated",
+            "Đan Hỏa Ấn": "scarletseal",
             "Đoạn Lưu": "riptide",
             "Đính kèm nguyên tố Lôi": "electroinfusion"
         },
