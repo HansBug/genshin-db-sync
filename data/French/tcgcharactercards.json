@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 1 pt de DGT Pyro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color>.",
                     "id": 23021,
                     "name": "Flamme du salut",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color>.",
                     "id": 23022,
                     "name": "Précepte enflammé",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et invoque un fourneau de feu noir.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro et invoque un fourneau de feu noir.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C123021|s2]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>fourneau de feu noir</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et invoque un <color=#FFFFFFFF>fourneau de feu noir</color>.",
                     "id": 23023,
                     "name": "Présage astral",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et inflige 2 pts de DGT de perforation à tous les personnages adverses en attente.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 2 pts de DGT Pyro et inflige 2 pts de DGT de perforation à tous les personnages adverses en attente.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et inflige <color=#FFFFFFFF>2 pts de $[K5]</color> à tous les personnages adverses en attente.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et inflige <color=#FFFFFFFF>2 pts de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et inflige <color=#FFFFFFFF>2 pts de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
                     "id": 13043,
                     "name": "Pluie de flèches",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques, invoque Ushi et accorde une mégaforce superlative au personnage.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 1 pt de DGT Géo, invoque Ushi et accorde une mégaforce superlative au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT], invoque <color=#FFFFFFFF>$[C116051]</color> et accorde une <color=#FFFFFFFF>$[C116054|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, invoque <color=#FFFFFFFF>Ushi</color> et accorde une <color=#FFFFFFFF>mégaforce superlative</color> au personnage.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color>, invoque <color=#FFFFFFFF>Ushi</color> et accorde une <color=#FFFFFFFF>mégaforce superlative</color> au personnage.",
                     "id": 16052,
                     "name": "Zetsugi anti-démon : Catapultage d'akaushi",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 5 pts de DGT physiques et accorde un état de Roi oni courroucé au personnage.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 5 pts de DGT Géo et accorde un état de Roi oni courroucé au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde un état de <color=#FFFFFFFF>$[C116053]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 5 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde un état de <color=#FFFFFFFF>Roi oni courroucé</color> au personnage.",
+                    "descriptionreplaced": "Inflige 5 pts de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color> et accorde un état de <color=#FFFFFFFF>Roi oni courroucé</color> au personnage.",
                     "id": 16053,
                     "name": "Roi oni maléfique : Avènement d'Itto",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 1 pt de DGT Hydro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>.",
                     "id": 12011,
                     "name": "Murmure de l'eau",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et invoque un cercle de mélodie.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 1 pt de DGT Hydro et invoque un cercle de mélodie.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C112011|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>cercle de mélodie</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> et invoque un <color=#FFFFFFFF>cercle de mélodie</color>.",
                     "id": 12012,
                     "name": "C'est parti pour le show ♪",
                     "playcost": [
@@ -370,10 +370,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et crée un bouclier de foudre.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 2 pts de DGT Électro et crée un bouclier de foudre.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée un <color=#FFFFFFFF>$[C114053|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée un <color=#FFFFFFFF>bouclier de foudre</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et crée un <color=#FFFFFFFF>bouclier de foudre</color>.",
                     "id": 14053,
                     "name": "Brisure d'orage",
                     "playcost": [
@@ -391,10 +391,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "(À préparer pendant 1 tour)\nInflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "(À préparer pendant 1 tour)\nInflige 3 pts de DGT Électro.",
                     "descriptionraw": "(À préparer pendant 1 tour)\\nInflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "(À préparer pendant 1 tour)\\nInflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "(À préparer pendant 1 tour)\\nInflige 3 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.",
                     "id": 14054,
                     "name": "Conquête des marées",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color>.",
                     "id": 13032,
                     "name": "Surpassion",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et crée un champ vertueux.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 2 pts de DGT Pyro et crée un champ vertueux.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée un <color=#FFFFFFFF>$[C113031|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée un <color=#FFFFFFFF>champ vertueux</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et crée un <color=#FFFFFFFF>champ vertueux</color>.",
                     "id": 13033,
                     "name": "Merveilleux voyage",
                     "playcost": [
@@ -540,10 +540,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et crée une prière de couronne cramoisie.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 2 pts de DGT Hydro et crée une prière de couronne cramoisie.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée une <color=#FFFFFFFF>$[C112072|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée une <color=#FFFFFFFF>prière de couronne cramoisie</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> et crée une <color=#FFFFFFFF>prière de couronne cramoisie</color>.",
                     "id": 12073,
                     "name": "Liturgie : Marée de la bergeronnette",
                     "playcost": [
@@ -561,10 +561,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "(À préparer pendant 1 tour)\nInflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "(À préparer pendant 1 tour)\nInflige 3 pts de DGT Hydro.",
                     "descriptionraw": "(À préparer pendant 1 tour)\\nInflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "(À préparer pendant 1 tour)\\nInflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "(À préparer pendant 1 tour)\\nInflige 3 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>.",
                     "id": 12074,
                     "name": "Frappe de la héronne",
                     "playcost": [],
@@ -615,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et crée un champ de givre.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 3 pts de DGT Cryo et crée un champ de givre.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée un <color=#FFFFFFFF>$[C111041|s2]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée un <color=#FFFFFFFF>champ de givre</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et crée un <color=#FFFFFFFF>champ de givre</color>.",
                     "id": 11042,
                     "name": "Givre superposé",
                     "playcost": [
@@ -632,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 7 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 7 pts de DGT Cryo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 7 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 7 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>.",
                     "id": 11043,
                     "name": "Chute d'étoiles",
                     "playcost": [
@@ -695,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 3 pts de DGT Dendro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color>.",
                     "id": 17012,
                     "name": "Brosse florale",
                     "playcost": [
@@ -712,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et invoque un Cuilein-Anbar.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 2 pts de DGT Dendro et invoque un Cuilein-Anbar.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C117011]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>Cuilein-Anbar</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color> et invoque un <color=#FFFFFFFF>Cuilein-Anbar</color>.",
                     "id": 17013,
                     "name": "Atout félin",
                     "playcost": [
@@ -775,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 3 pts de DGT Électro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.",
                     "id": 14042,
                     "name": "Rite : Traversée abyssale",
                     "playcost": [
@@ -792,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques.\nNiv. de Possession d'éclaireur sermenté +2.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 4 pts de DGT Électro.\nNiv. de Possession d'éclaireur sermenté +2.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].\\nNiv. de Possession d'<color=#FFFFFFFF>$[C114041|s2]</color> +2.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.\\nNiv. de Possession d'<color=#FFFFFFFF>éclaireur sermenté</color> +2.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.\\nNiv. de Possession d'<color=#FFFFFFFF>éclaireur sermenté</color> +2.",
                     "id": 14043,
                     "name": "Liturgie : Rapidité lupine",
                     "playcost": [
@@ -865,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques. Lors de la troisième utilisation de cette capacité à chaque manche, DGT +2.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro. Lors de la troisième utilisation de cette capacité à chaque manche, DGT +2.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT]. Lors de la troisième utilisation de cette capacité à chaque manche, DGT +2.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>. Lors de la troisième utilisation de cette capacité à chaque manche, DGT +2.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color>. Lors de la troisième utilisation de cette capacité à chaque manche, DGT +2.",
                     "id": 13012,
                     "name": "Assaut brûlant",
                     "playcost": [
@@ -882,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 8 pts de DGT physiques et accorde un enchantement Pyro au personnage.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 8 pts de DGT Pyro et accorde un enchantement Pyro au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde un <color=#FFFFFFFF>$[C113011|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 8 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde un <color=#FFFFFFFF>enchantement Pyro</color> au personnage.",
+                    "descriptionreplaced": "Inflige 8 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et accorde un <color=#FFFFFFFF>enchantement Pyro</color> au personnage.",
                     "id": 13013,
                     "name": "Aurore",
                     "playcost": [
@@ -945,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et crée un bouclier de griffes.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 2 pts de DGT Cryo et crée un bouclier de griffes.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée un <color=#FFFFFFFF>$[C111021|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée un <color=#FFFFFFFF>bouclier de griffes</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et crée un <color=#FFFFFFFF>bouclier de griffes</color>.",
                     "id": 11022,
                     "name": "Griffes Cryo",
                     "playcost": [
@@ -962,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques, soigne ce personnage pour 2 pts et invoque un champ de vapeur d'alcool.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 1 pt de DGT Cryo, soigne ce personnage pour 2 pts et invoque un champ de vapeur d'alcool.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT], soigne ce personnage pour 2 pts et invoque un <color=#FFFFFFFF>$[C111023|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, soigne ce personnage pour 2 pts et invoque un <color=#FFFFFFFF>champ de vapeur d'alcool</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>, soigne ce personnage pour 2 pts et invoque un <color=#FFFFFFFF>champ de vapeur d'alcool</color>.",
                     "id": 11023,
                     "name": "Cuvée spéciale",
                     "playcost": [
@@ -1004,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 1 pt de DGT Électro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.",
                     "id": 24011,
                     "name": "Projection de cristal Électro",
                     "playcost": [
@@ -1025,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et prépare séparément les capacités : Pierre-feuille-ciseaux : Ciseaux et Pierre-feuille-ciseaux : Feuille.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 2 pts de DGT Électro et prépare séparément les capacités : Pierre-feuille-ciseaux : Ciseaux et Pierre-feuille-ciseaux : Feuille.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et $[K53|s2] : <color=#FFFFFFFF>$[S24015]</color> et <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et <color=#FFFFFFFF>prépare séparément les capacités</color> : <color=#FFFFFFFF>Pierre-feuille-ciseaux : Ciseaux</color> et <color=#FFFFFFFF>Pierre-feuille-ciseaux : Feuille</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et <color=#FFFFFFFF>prépare séparément les capacités</color> : <color=#FFFFFFFF>Pierre-feuille-ciseaux : Ciseaux</color> et <color=#FFFFFFFF>Pierre-feuille-ciseaux : Feuille</color>.",
                     "id": 24012,
                     "name": "Pierre-feuille-ciseaux",
                     "playcost": [
@@ -1042,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et invoque une chaîne du tonnerre protecteur.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 2 pts de DGT Électro et invoque une chaîne du tonnerre protecteur.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque une <color=#FFFFFFFF>$[C124013|s1]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque une <color=#FFFFFFFF>chaîne du tonnerre protecteur</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et invoque une <color=#FFFFFFFF>chaîne du tonnerre protecteur</color>.",
                     "id": 24013,
                     "name": "Verrou de foudre",
                     "playcost": [
@@ -1073,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et prépare la capacité : Pierre-feuille-ciseaux : Feuille.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 2 pts de DGT Électro et prépare la capacité : Pierre-feuille-ciseaux : Feuille.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et $[K53|s1] : <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et <color=#FFFFFFFF>prépare la capacité</color> : <color=#FFFFFFFF>Pierre-feuille-ciseaux : Feuille</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et <color=#FFFFFFFF>prépare la capacité</color> : <color=#FFFFFFFF>Pierre-feuille-ciseaux : Feuille</color>.",
                     "id": 24015,
                     "name": "Pierre-feuille-ciseaux : Ciseaux",
                     "playcost": [],
@@ -1085,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 3 pts de DGT Électro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.",
                     "id": 24016,
                     "name": "Pierre-feuille-ciseaux : Feuille",
                     "playcost": [],
@@ -1139,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques. Si le personnage n'est pas affecté par un cœur de glace, il obtient un cœur de glace.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 2 pts de DGT Cryo. Si le personnage n'est pas affecté par un cœur de glace, il obtient un cœur de glace.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT]. Si le personnage n'est pas affecté par un <color=#FFFFFFFF>$[C111061|s2]</color>, il obtient un <color=#FFFFFFFF>$[C111061|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>. Si le personnage n'est pas affecté par un <color=#FFFFFFFF>cœur de glace</color>, il obtient un <color=#FFFFFFFF>cœur de glace</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>. Si le personnage n'est pas affecté par un <color=#FFFFFFFF>cœur de glace</color>, il obtient un <color=#FFFFFFFF>cœur de glace</color>.",
                     "id": 11062,
                     "name": "Vortex des mers glacées",
                     "playcost": [
@@ -1156,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et invoque une épée de lumière.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 2 pts de DGT Cryo et invoque une épée de lumière.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque une <color=#FFFFFFFF>$[C111062|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque une <color=#FFFFFFFF>épée de lumière</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et invoque une <color=#FFFFFFFF>épée de lumière</color>.",
                     "id": 11063,
                     "name": "Lame de fond",
                     "playcost": [
@@ -1198,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 1 pt de DGT Cryo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>.",
                     "id": 21011,
                     "name": "Pyramide cryoluciole",
                     "playcost": [
@@ -1219,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et invoque une Cryoluciole.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 1 pt de DGT Cryo et invoque une Cryoluciole.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque une <color=#FFFFFFFF>$[C121011]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque une <color=#FFFFFFFF>Cryoluciole</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et invoque une <color=#FFFFFFFF>Cryoluciole</color>.",
                     "id": 21012,
                     "name": "Appel brumeux",
                     "playcost": [
@@ -1236,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 5 pts de DGT physiques, applique l'élément Cryo au personnage et crée un bouclier de luciole.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 5 pts de DGT Cryo, applique l'élément Cryo au personnage et crée un bouclier de luciole.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT], $[K201|s5] au personnage et crée un <color=#FFFFFFFF>$[C121012|s1]</color>.",
-                    "descriptionreplaced": "Inflige 5 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, <color=#99FFFFFF>applique l'élément {SPRITE_PRESET#2101}Cryo</color> au personnage et crée un <color=#FFFFFFFF>bouclier de luciole</color>.",
+                    "descriptionreplaced": "Inflige 5 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>, <color=#99FFFFFF>applique l'élément {SPRITE_PRESET#2101}Cryo</color> au personnage et crée un <color=#FFFFFFFF>bouclier de luciole</color>.",
                     "id": 21013,
                     "name": "Givre de fleurs blanches",
                     "playcost": [
@@ -1299,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et accorde une infiltration au personnage.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 1 pt de DGT Pyro et accorde une infiltration au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde une <color=#FFFFFFFF>$[C123011|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde une <color=#FFFFFFFF>infiltration</color> au personnage.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et accorde une <color=#FFFFFFFF>infiltration</color> au personnage.",
                     "id": 23012,
                     "name": "Opportunité",
                     "playcost": [
@@ -1316,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 5 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 5 pts de DGT Pyro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 5 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 5 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color>.",
                     "id": 23013,
                     "name": "Lame incinératrice",
                     "playcost": [
@@ -1389,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et invoque un Oz.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 1 pt de DGT Électro et invoque un Oz.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C114011]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>Oz</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et invoque un <color=#FFFFFFFF>Oz</color>.",
                     "id": 14012,
                     "name": "Ailes de surveillance nocturne",
                     "playcost": [
@@ -1406,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et inflige 2 pts de DGT de perforation à tous les personnages adverses en attente.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 4 pts de DGT Électro et inflige 2 pts de DGT de perforation à tous les personnages adverses en attente.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et inflige <color=#FFFFFFFF>2 pts de $[K5]</color> à tous les personnages adverses en attente.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et inflige <color=#FFFFFFFF>2 pts de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et inflige <color=#FFFFFFFF>2 pts de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
                     "id": 14013,
                     "name": "Incarnation de la nuit",
                     "playcost": [
@@ -1469,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et crée un lotus de glace.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 1 pt de DGT Cryo et crée un lotus de glace.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée un <color=#FFFFFFFF>$[C111012|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée un <color=#FFFFFFFF>lotus de glace</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et crée un <color=#FFFFFFFF>lotus de glace</color>.",
                     "id": 11012,
                     "name": "Trace de Qilin",
                     "playcost": [
@@ -1486,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et inflige 2 pts de DGT de perforation à tous les personnages adverses en attente.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 2 pts de DGT Cryo et inflige 2 pts de DGT de perforation à tous les personnages adverses en attente.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et inflige <color=#FFFFFFFF>2 pts de $[K5]</color> à tous les personnages adverses en attente.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et inflige <color=#FFFFFFFF>2 pts de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et inflige <color=#FFFFFFFF>2 pts de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
                     "id": 11013,
                     "name": "Flèche de givre",
                     "playcost": [
@@ -1503,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et invoque une perle de glace.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 2 pts de DGT Cryo, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et invoque une perle de glace.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT], inflige <color=#FFFFFFFF>1 pt de $[K5]</color> à tous les personnages adverses en attente et invoque une <color=#FFFFFFFF>$[C111011|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, inflige <color=#FFFFFFFF>1 pt de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente et invoque une <color=#FFFFFFFF>perle de glace</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>, inflige <color=#FFFFFFFF>1 pt de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente et invoque une <color=#FFFFFFFF>perle de glace</color>.",
                     "id": 11014,
                     "name": "Baptême céleste",
                     "playcost": [
@@ -1581,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et soigne pour 2 pts. Si le personnage a 6 PV ou moins, DGT infligés et soins +1.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 4 pts de DGT Pyro et soigne pour 2 pts. Si le personnage a 6 PV ou moins, DGT infligés et soins +1.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et soigne pour 2 pts. Si le personnage a 6 PV ou moins, DGT infligés et soins +1.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et soigne pour 2 pts. Si le personnage a 6 PV ou moins, DGT infligés et soins +1.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et soigne pour 2 pts. Si le personnage a 6 PV ou moins, DGT infligés et soins +1.",
                     "id": 13073,
                     "name": "Apaisement divin",
                     "playcost": [
@@ -1644,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 3 pts de DGT Dendro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color>.",
                     "id": 27012,
                     "name": "Nuage de spores instables",
                     "playcost": [
@@ -1661,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et consomme tous les cumuls de vitalité radicale pour augmenter ces DGT de 1 par cumul consommé.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 4 pts de DGT Dendro et consomme tous les cumuls de vitalité radicale pour augmenter ces DGT de 1 par cumul consommé.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et consomme tous les cumuls de <color=#FFFFFFFF>$[C127011|s2]</color> pour augmenter ces DGT de 1 par cumul consommé.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et consomme tous les cumuls de <color=#FFFFFFFF>vitalité radicale</color> pour augmenter ces DGT de 1 par cumul consommé.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color> et consomme tous les cumuls de <color=#FFFFFFFF>vitalité radicale</color> pour augmenter ces DGT de 1 par cumul consommé.",
                     "id": 27013,
                     "name": "Épandage de plumes",
                     "playcost": [
@@ -1734,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et bascule de force la cible pour le personnage suivant.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 3 pts de DGT Anémo et bascule de force la cible pour le personnage suivant.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et bascule de force la cible pour le personnage suivant.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et bascule de force la cible pour le personnage suivant.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color> et bascule de force la cible pour le personnage suivant.",
                     "id": 15022,
                     "name": "Épée de tourbillon",
                     "playcost": [
@@ -1812,10 +1812,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et accorde un contrôle du chaos au personnage.\nSi cette capacité déclenche une Dispersion, le contrôle du chaos est converti en l'élément dispersé.\nAprès le calcul de la capacité : Vous basculez pour le personnage suivant.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 3 pts de DGT Anémo et accorde un contrôle du chaos au personnage.\nSi cette capacité déclenche une Dispersion, le contrôle du chaos est converti en l'élément dispersé.\nAprès le calcul de la capacité : Vous basculez pour le personnage suivant.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde un <color=#FFFFFFFF>$[C115051|s1]</color> au personnage.\\nSi cette capacité déclenche une Dispersion, le <color=#FFFFFFFF>$[C115051|s1]</color> est converti en l'élément dispersé.\\n<color=#FFFFFFFF>Après le calcul de la capacité : </color>Vous basculez pour le personnage suivant.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde un <color=#FFFFFFFF>contrôle du chaos</color> au personnage.\\nSi cette capacité déclenche une Dispersion, le <color=#FFFFFFFF>contrôle du chaos</color> est converti en l'élément dispersé.\\n<color=#FFFFFFFF>Après le calcul de la capacité : </color>Vous basculez pour le personnage suivant.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color> et accorde un <color=#FFFFFFFF>contrôle du chaos</color> au personnage.\\nSi cette capacité déclenche une Dispersion, le <color=#FFFFFFFF>contrôle du chaos</color> est converti en l'élément dispersé.\\n<color=#FFFFFFFF>Après le calcul de la capacité : </color>Vous basculez pour le personnage suivant.",
                     "id": 15052,
                     "name": "Véhémence divine",
                     "playcost": [
@@ -1829,10 +1829,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et invoque un vent d'automne.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 3 pts de DGT Anémo et invoque un vent d'automne.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C115052|s1]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>vent d'automne</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color> et invoque un <color=#FFFFFFFF>vent d'automne</color>.",
                     "id": 15053,
                     "name": "Coupure de mille feuilles",
                     "playcost": [
@@ -1902,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 3 pts de DGT Cryo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>.",
                     "id": 11032,
                     "name": "Attaque givrée",
                     "playcost": [
@@ -1919,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et crée une stalactite.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 1 pt de DGT Cryo et crée une stalactite.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée une <color=#FFFFFFFF>$[C111031|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée une <color=#FFFFFFFF>stalactite</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et crée une <color=#FFFFFFFF>stalactite</color>.",
                     "id": 11033,
                     "name": "Valse glaciale",
                     "playcost": [
@@ -1982,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 3 pts de DGT Cryo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>.",
                     "id": 11052,
                     "name": "École Kamisato : Fleur de glace",
                     "playcost": [
@@ -1999,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et invoque un tourbillon givré.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 4 pts de DGT Cryo et invoque un tourbillon givré.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C111051|s2]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>tourbillon givré</color>.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et invoque un <color=#FFFFFFFF>tourbillon givré</color>.",
                     "id": 11053,
                     "name": "École Kamisato : Givre mortel",
                     "playcost": [
@@ -2072,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et accorde une réflexion torrentielle au personnage.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 2 pts de DGT Hydro et accorde une réflexion torrentielle au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde une <color=#FFFFFFFF>$[C112061|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde une <color=#FFFFFFFF>réflexion torrentielle</color> au personnage.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> et accorde une <color=#FFFFFFFF>réflexion torrentielle</color> au personnage.",
                     "id": 12062,
                     "name": "École Kamisato : Beauté réfléchie",
                     "playcost": [
@@ -2089,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et invoque un jardin de pureté.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 3 pts de DGT Hydro et invoque un jardin de pureté.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C112062|s2]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>jardin de pureté</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> et invoque un <color=#FFFFFFFF>jardin de pureté</color>.",
                     "id": 12063,
                     "name": "École Kamisato : Jardin d'eau",
                     "playcost": [
@@ -2152,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et crée une lame de foudre.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 3 pts de DGT Électro et crée une lame de foudre.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée une <color=#FFFFFFFF>$[C114031|s2]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée une <color=#FFFFFFFF>lame de foudre</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et crée une <color=#FFFFFFFF>lame de foudre</color>.",
                     "id": 14032,
                     "name": "Retour des étoiles",
                     "playcost": [
@@ -2169,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et inflige 3 pts de DGT de perforation à tous les personnages adverses en attente.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 4 pts de DGT Électro et inflige 3 pts de DGT de perforation à tous les personnages adverses en attente.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et inflige <color=#FFFFFFFF>3 pts de $[K5]</color> à tous les personnages adverses en attente.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et inflige <color=#FFFFFFFF>3 pts de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et inflige <color=#FFFFFFFF>3 pts de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
                     "id": 14033,
                     "name": "Promenade céleste",
                     "playcost": [
@@ -2211,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 1 pt de DGT Pyro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color>.",
                     "id": 13061,
                     "name": "Boum ! Boum !",
                     "playcost": [
@@ -2232,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et accorde une étincelle explosive au personnage.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro et accorde une étincelle explosive au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde une <color=#FFFFFFFF>$[C113061|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde une <color=#FFFFFFFF>étincelle explosive</color> au personnage.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et accorde une <color=#FFFFFFFF>étincelle explosive</color> au personnage.",
                     "id": 13062,
                     "name": "Bombe rebondissante",
                     "playcost": [
@@ -2249,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et crée une fleur bombardier sur le terrain adverse.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro et crée une fleur bombardier sur le terrain adverse.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée une <color=#FFFFFFFF>$[C113063|s2]</color> sur le terrain adverse.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée une <color=#FFFFFFFF>fleur bombardier</color> sur le terrain adverse.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et crée une <color=#FFFFFFFF>fleur bombardier</color> sur le terrain adverse.",
                     "id": 13063,
                     "name": "Fleur bombardier",
                     "playcost": [
@@ -2312,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et invoque un #Tengu Juurai : Embuscade.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 1 pt de DGT Électro et invoque un #Tengu Juurai : Embuscade.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C114061]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>#Tengu Juurai{NON_BREAK_SPACE}: Embuscade</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et invoque un <color=#FFFFFFFF>#Tengu Juurai{NON_BREAK_SPACE}: Embuscade</color>.",
                     "id": 14062,
                     "name": "Tempestrier tengu",
                     "playcost": [
@@ -2329,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et invoque un #Tengu Juurai : Tempête de pierres.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 1 pt de DGT Électro et invoque un #Tengu Juurai : Tempête de pierres.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C114062]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>#Tengu Juurai{NON_BREAK_SPACE}: Tempête de pierres</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et invoque un <color=#FFFFFFFF>#Tengu Juurai{NON_BREAK_SPACE}: Tempête de pierres</color>.",
                     "id": 14063,
                     "name": "Soumission : Chemin de lumière",
                     "playcost": [
@@ -2422,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et déclenche les effets de toutes vos invocations de type Épée d'ombre. (Ne consomme pas d'utilisation)",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 4 pts de DGT Anémo et déclenche les effets de toutes vos invocations de type Épée d'ombre. (Ne consomme pas d'utilisation)",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et déclenche les effets de toutes vos invocations de type <color=#FFFFFFFF>Épée d'ombre</color>. (Ne consomme pas d'utilisation)",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et déclenche les effets de toutes vos invocations de type <color=#FFFFFFFF>Épée d'ombre</color>. (Ne consomme pas d'utilisation)",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color> et déclenche les effets de toutes vos invocations de type <color=#FFFFFFFF>Épée d'ombre</color>. (Ne consomme pas d'utilisation)",
                     "id": 25014,
                     "name": "Balayage tengu falsifié",
                     "playcost": [
@@ -2464,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 1 pt de DGT Hydro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>.",
                     "id": 22021,
                     "name": "Boule d'eau",
                     "playcost": [
@@ -2485,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et inflige un éclat de miroir d'eau au personnage choisi.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 2 pts de DGT Hydro et inflige un éclat de miroir d'eau au personnage choisi.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et inflige un <color=#FFFFFFFF>$[C122021|s2]</color> au personnage choisi.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et inflige un <color=#FFFFFFFF>éclat de miroir d'eau</color> au personnage choisi.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> et inflige un <color=#FFFFFFFF>éclat de miroir d'eau</color> au personnage choisi.",
                     "id": 22022,
                     "name": "Explosion d'afflux",
                     "playcost": [
@@ -2502,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 5 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 5 pts de DGT Hydro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 5 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 5 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>.",
                     "id": 22023,
                     "name": "Réflexion ondulée",
                     "playcost": [
@@ -2544,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 1 pt de DGT Hydro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>.",
                     "id": 12031,
                     "name": "Ondes du destin",
                     "playcost": [
@@ -2565,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et invoque un mirage.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 1 pt de DGT Hydro et invoque un mirage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C112031|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>mirage</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> et invoque un <color=#FFFFFFFF>mirage</color>.",
                     "id": 12032,
                     "name": "Mirage aqueux",
                     "playcost": [
@@ -2582,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et crée une bulle nocturne.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 4 pts de DGT Hydro et crée une bulle nocturne.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée une <color=#FFFFFFFF>$[C112032|s2]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée une <color=#FFFFFFFF>bulle nocturne</color>.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color> et crée une <color=#FFFFFFFF>bulle nocturne</color>.",
                     "id": 12033,
                     "name": "Voie divine",
                     "playcost": [
@@ -2634,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 1 pt de DGT Dendro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color>.",
                     "id": 17031,
                     "name": "Akara",
                     "playcost": [
@@ -2655,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et inflige une graine de Skandha au personnage choisi. Si le personnage choisi est déjà affecté par une graine de Skandha, inflige une graine de Skandha à tous les personnages adverses.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 2 pts de DGT Dendro et inflige une graine de Skandha au personnage choisi. Si le personnage choisi est déjà affecté par une graine de Skandha, inflige une graine de Skandha à tous les personnages adverses.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et inflige une <color=#FFFFFFFF>$[C117031|s2]</color> au personnage choisi. Si le personnage choisi est déjà affecté par une <color=#FFFFFFFF>$[C117031|s2]</color>, inflige une <color=#FFFFFFFF>$[C117031|s2]</color> à tous les personnages adverses.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et inflige une <color=#FFFFFFFF>graine de Skandha</color> au personnage choisi. Si le personnage choisi est déjà affecté par une <color=#FFFFFFFF>graine de Skandha</color>, inflige une <color=#FFFFFFFF>graine de Skandha</color> à tous les personnages adverses.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color> et inflige une <color=#FFFFFFFF>graine de Skandha</color> au personnage choisi. Si le personnage choisi est déjà affecté par une <color=#FFFFFFFF>graine de Skandha</color>, inflige une <color=#FFFFFFFF>graine de Skandha</color> à tous les personnages adverses.",
                     "id": 17032,
                     "name": "Omniscience des plans",
                     "playcost": [
@@ -2672,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et inflige une graine de Skandha à tous les personnages adverses.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 3 pts de DGT Dendro et inflige une graine de Skandha à tous les personnages adverses.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et inflige une <color=#FFFFFFFF>$[C117031|s2]</color> à tous les personnages adverses.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et inflige une <color=#FFFFFFFF>graine de Skandha</color> à tous les personnages adverses.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color> et inflige une <color=#FFFFFFFF>graine de Skandha</color> à tous les personnages adverses.",
                     "id": 17033,
                     "name": "Omniscience des plans : Tathata",
                     "playcost": [
@@ -2689,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et crée un sanctuaire de Maya.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 4 pts de DGT Dendro et crée un sanctuaire de Maya.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée un <color=#FFFFFFFF>$[C117032|s2]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée un <color=#FFFFFFFF>sanctuaire de Maya</color>.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color> et crée un <color=#FFFFFFFF>sanctuaire de Maya</color>.",
                     "id": 17034,
                     "name": "Cœur illusoire",
                     "playcost": [
@@ -2731,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 1 pt de DGT Géo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color>.",
                     "id": 16011,
                     "name": "Géo-dispersion",
                     "playcost": [
@@ -2752,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et crée un paravent d'astrolabe.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 2 pts de DGT Géo et crée un paravent d'astrolabe.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée un <color=#FFFFFFFF>$[C116011|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée un <color=#FFFFFFFF>paravent d'astrolabe</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color> et crée un <color=#FFFFFFFF>paravent d'astrolabe</color>.",
                     "id": 16012,
                     "name": "Paravent d'astrolabe",
                     "playcost": [
@@ -2769,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 6 pts de DGT physiques. Si un paravent d'astrolabe est sur le terrain, DGT +2.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 6 pts de DGT Géo. Si un paravent d'astrolabe est sur le terrain, DGT +2.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT]. Si un <color=#FFFFFFFF>$[C116011|s2]</color> est sur le terrain, DGT +2.",
-                    "descriptionreplaced": "Inflige 6 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>. Si un <color=#FFFFFFFF>paravent d'astrolabe</color> est sur le terrain, DGT +2.",
+                    "descriptionreplaced": "Inflige 6 pts de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color>. Si un <color=#FFFFFFFF>paravent d'astrolabe</color> est sur le terrain, DGT +2.",
                     "id": 16013,
                     "name": "Éclatement des étoiles",
                     "playcost": [
@@ -2832,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et crée une armure complète.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 1 pt de DGT Géo et crée une armure complète.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée une <color=#FFFFFFFF>$[C116021|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée une <color=#FFFFFFFF>armure complète</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color> et crée une <color=#FFFFFFFF>armure complète</color>.",
                     "id": 16022,
                     "name": "Armure de cœur",
                     "playcost": [
@@ -2849,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et accorde un grand ménage au personnage.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 4 pts de DGT Géo et accorde un grand ménage au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde un <color=#FFFFFFFF>$[C116022|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde un <color=#FFFFFFFF>grand ménage</color> au personnage.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color> et accorde un <color=#FFFFFFFF>grand ménage</color> au personnage.",
                     "id": 16023,
                     "name": "Grand ménage",
                     "playcost": [
@@ -2927,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et accorde 2 charges à vos autres personnages.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 3 pts de DGT Électro et accorde 2 charges à vos autres personnages.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde 2 $[K310|s3] à vos autres personnages.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde 2 <color=#FFFFFFFF>{SPRITE_PRESET#1110}charges</color> à vos autres personnages.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et accorde 2 <color=#FFFFFFFF>{SPRITE_PRESET#1110}charges</color> à vos autres personnages.",
                     "id": 14073,
                     "name": "Art secret : Dogme d'idéal",
                     "playcost": [
@@ -3000,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 3 pts de DGT Électro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.",
                     "id": 14022,
                     "name": "Griffe et tonnerre",
                     "playcost": [
@@ -3017,10 +3017,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et accorde un loup de tonnerre au personnage.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 3 pts de DGT Électro et accorde un loup de tonnerre au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde un <color=#FFFFFFFF>$[C114021|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde un <color=#FFFFFFFF>loup de tonnerre</color> au personnage.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et accorde un <color=#FFFFFFFF>loup de tonnerre</color> au personnage.",
                     "id": 14023,
                     "name": "Croc éclair",
                     "playcost": [
@@ -3059,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 1 pt de DGT Hydro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>.",
                     "id": 22011,
                     "name": "Déferlante",
                     "playcost": [
@@ -3110,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques. Pour chacune de vos invocations, DGT +2.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 2 pts de DGT Hydro. Pour chacune de vos invocations, DGT +2.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT]. Pour chacune de vos invocations, DGT +2.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>. Pour chacune de vos invocations, DGT +2.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>. Pour chacune de vos invocations, DGT +2.",
                     "id": 22014,
                     "name": "Marée et torrent",
                     "playcost": [
@@ -3152,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 1 pt de DGT Hydro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>.",
                     "id": 12051,
                     "name": "Forme de l'eau",
                     "playcost": [
@@ -3188,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques, soigne tous vos personnages pour 1 pt et accorde une parure cérémoniale au personnage.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 2 pts de DGT Hydro, soigne tous vos personnages pour 1 pt et accorde une parure cérémoniale au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT], soigne tous vos personnages pour 1 pt et accorde une <color=#FFFFFFFF>$[C112052|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, soigne tous vos personnages pour 1 pt et accorde une <color=#FFFFFFFF>parure cérémoniale</color> au personnage.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>, soigne tous vos personnages pour 1 pt et accorde une <color=#FFFFFFFF>parure cérémoniale</color> au personnage.",
                     "id": 12053,
                     "name": "Ascension de la néréide",
                     "playcost": [
@@ -3251,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et crée un pennage glacé.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 2 pts de DGT Cryo et crée un pennage glacé.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée un <color=#FFFFFFFF>$[C111071|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée un <color=#FFFFFFFF>pennage glacé</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et crée un <color=#FFFFFFFF>pennage glacé</color>.",
                     "id": 11072,
                     "name": "Invocation d'esprit printanier",
                     "playcost": [
@@ -3268,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et invoque un esprit talismanique.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 1 pt de DGT Cryo et invoque un esprit talismanique.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C111073|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>esprit talismanique</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et invoque un <color=#FFFFFFFF>esprit talismanique</color>.",
                     "id": 11073,
                     "name": "Délivrance de la demoiselle divine",
                     "playcost": [
@@ -3402,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 1 pt de DGT Anémo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color>.",
                     "id": 15011,
                     "name": "Esprit du vent",
                     "playcost": [
@@ -3423,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et bascule de force la cible pour le personnage précédent.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 3 pts de DGT Anémo et bascule de force la cible pour le personnage précédent.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et bascule de force la cible pour le personnage précédent.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et bascule de force la cible pour le personnage précédent.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color> et bascule de force la cible pour le personnage précédent.",
                     "id": 15012,
                     "name": "Esprit du vent : Sujet 6308",
                     "playcost": [
@@ -3440,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et invoque un Esprit du vent de grande taille.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 1 pt de DGT Anémo et invoque un Esprit du vent de grande taille.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C115011]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>Esprit du vent de grande taille</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color> et invoque un <color=#FFFFFFFF>Esprit du vent de grande taille</color>.",
                     "id": 15013,
                     "name": "Esprit du vent : Isomorphe 75 TypeII",
                     "playcost": [
@@ -3503,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Fait passer en état de mêlée et inflige 2 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Fait passer en état de mêlée et inflige 2 pts de DGT Hydro.",
                     "descriptionraw": "Fait passer en <color=#FFFFFFFF>$[C112042|s1]</color> et inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Fait passer en <color=#FFFFFFFF>état de mêlée</color> et inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Fait passer en <color=#FFFFFFFF>état de mêlée</color> et inflige 2 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>.",
                     "id": 12042,
                     "name": "Posture du démon: Marée déchaînée",
                     "playcost": [
@@ -3520,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Effectue différentes attaques selon l'état actuel de Tartaglia :\nEn état à distance, déclenche Éclair de balle maléfique : Inflige 4 pts de DGT physiques, restaure 2 charges et inflige l'effet Contre-courant au personnage choisi.\nEn état de mêlée, déclenche Lumière d'élimination : Inflige 7 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Effectue différentes attaques selon l'état actuel de Tartaglia :\nEn état à distance, déclenche Éclair de balle maléfique : Inflige 4 pts de DGT Hydro, restaure 2 charges et inflige l'effet Contre-courant au personnage choisi.\nEn état de mêlée, déclenche Lumière d'élimination : Inflige 7 pts de DGT Hydro.",
                     "descriptionraw": "#Effectue différentes attaques selon l'état actuel de <color=#FFFFFFFF>$[A1204]</color> :\\n<color=#FFFFFFFF>En état à distance, déclenche Éclair de balle maléfique{NON_BREAK_SPACE}: </color>Inflige $[D__KEY__DAMAGE_4] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT], restaure 2 $[K310|s3] et inflige l'effet <color=#FFFFFFFF>$[C112043]</color> au personnage choisi.\\n<color=#FFFFFFFF>En état de mêlée, déclenche Lumière d'élimination : </color>Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "#Effectue différentes attaques selon l'état actuel de <color=#FFFFFFFF>Tartaglia</color> :\\n<color=#FFFFFFFF>En état à distance, déclenche Éclair de balle maléfique{NON_BREAK_SPACE}: </color>Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, restaure 2 <color=#FFFFFFFF>{SPRITE_PRESET#1110}charges</color> et inflige l'effet <color=#FFFFFFFF>Contre-courant</color> au personnage choisi.\\n<color=#FFFFFFFF>En état de mêlée, déclenche Lumière d'élimination : </color>Inflige 7 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "#Effectue différentes attaques selon l'état actuel de <color=#FFFFFFFF>Tartaglia</color> :\\n<color=#FFFFFFFF>En état à distance, déclenche Éclair de balle maléfique{NON_BREAK_SPACE}: </color>Inflige 4 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>, restaure 2 <color=#FFFFFFFF>{SPRITE_PRESET#1110}charges</color> et inflige l'effet <color=#FFFFFFFF>Contre-courant</color> au personnage choisi.\\n<color=#FFFFFFFF>En état de mêlée, déclenche Lumière d'élimination : </color>Inflige 7 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>.",
                     "id": 12043,
                     "name": "Ravage : Oblitération",
                     "playcost": [
@@ -3613,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et accorde une suffusion de vijnana au personnage.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 2 pts de DGT Dendro et accorde une suffusion de vijnana au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde une <color=#FFFFFFFF>$[C117021|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde une <color=#FFFFFFFF>suffusion de vijnana</color> au personnage.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color> et accorde une <color=#FFFFFFFF>suffusion de vijnana</color> au personnage.",
                     "id": 17022,
                     "name": "Mine de vijnana-phala",
                     "playcost": [
@@ -3630,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et inflige 1 pt de DGT de perforation à tous les personnages adverses en attente.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Inflige 4 pts de DGT Dendro et inflige 1 pt de DGT de perforation à tous les personnages adverses en attente.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et inflige <color=#FFFFFFFF>1 pt de $[K5]</color> à tous les personnages adverses en attente.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et inflige <color=#FFFFFFFF>1 pt de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2107}<color=#7EC236FF>DGT Dendro</color> et inflige <color=#FFFFFFFF>1 pt de <color=#FFFFFFFF>DGT de perforation</color></color> à tous les personnages adverses en attente.",
                     "id": 17023,
                     "name": "Flèche de liane artificielle",
                     "playcost": [
@@ -3693,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et crée une bourrasque.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 2 pts de DGT Anémo et crée une bourrasque.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée une <color=#FFFFFFFF>$[C115031|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée une <color=#FFFFFFFF>bourrasque</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color> et crée une <color=#FFFFFFFF>bourrasque</color>.",
                     "id": 15032,
                     "name": "Sonnet des Vents célestes",
                     "playcost": [
@@ -3710,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques et invoque un œil de la tempête.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 2 pts de DGT Anémo et invoque un œil de la tempête.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <color=#FFFFFFFF>$[C115034|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque un <color=#FFFFFFFF>œil de la tempête</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color> et invoque un <color=#FFFFFFFF>œil de la tempête</color>.",
                     "id": 15033,
                     "name": "Ode au Vent",
                     "playcost": [
@@ -3788,10 +3788,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et crée une Pyrotation.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro et crée une Pyrotation.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée une <color=#FFFFFFFF>$[C113022]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée une <color=#FFFFFFFF>Pyrotation</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et crée une <color=#FFFFFFFF>Pyrotation</color>.",
                     "id": 13023,
                     "name": "Pyrotation",
                     "playcost": [
@@ -3851,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 3 pts de DGT Anémo.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color>.",
                     "id": 15042,
                     "name": "Cycle du vent lemniscatique",
                     "playcost": [
@@ -3868,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et accorde un masque du Yaksha au personnage.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Inflige 4 pts de DGT Anémo et accorde un masque du Yaksha au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde un <color=#FFFFFFFF>$[C115041|s2]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde un <color=#FFFFFFFF>masque du Yaksha</color> au personnage.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2105}<color=#80FFD7FF>DGT Anémo</color> et accorde un <color=#FFFFFFFF>masque du Yaksha</color> au personnage.",
                     "id": 15043,
                     "name": "Fléau du mal",
                     "playcost": [
@@ -3931,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 2 pts de DGT physiques, applique l'élément Hydro au personnage et crée une épée de pluie.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 2 pts de DGT Hydro, applique l'élément Hydro au personnage et crée une épée de pluie.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT], $[K202|s5] au personnage et crée une <color=#FFFFFFFF>$[C112021|s2]</color>.",
-                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, <color=#80C0FFFF>applique l'élément {SPRITE_PRESET#2102}Hydro</color> au personnage et crée une <color=#FFFFFFFF>épée de pluie</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>, <color=#80C0FFFF>applique l'élément {SPRITE_PRESET#2102}Hydro</color> au personnage et crée une <color=#FFFFFFFF>épée de pluie</color>.",
                     "id": 12022,
                     "name": "Pluie battante",
                     "playcost": [
@@ -3948,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques, applique l'élément Hydro au personnage et crée une lame arc-en-ciel.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Inflige 1 pt de DGT Hydro, applique l'élément Hydro au personnage et crée une lame arc-en-ciel.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT], $[K202|s5] au personnage et crée une <color=#FFFFFFFF>$[C112022|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, <color=#80C0FFFF>applique l'élément {SPRITE_PRESET#2102}Hydro</color> au personnage et crée une <color=#FFFFFFFF>lame arc-en-ciel</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2102}<color=#80C0FFFF>DGT Hydro</color>, <color=#80C0FFFF>applique l'élément {SPRITE_PRESET#2102}Hydro</color> au personnage et crée une <color=#FFFFFFFF>lame arc-en-ciel</color>.",
                     "id": 12023,
                     "name": "Pluie et arc-en-ciel",
                     "playcost": [
@@ -3990,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 1 pt de DGT Électro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.",
                     "id": 14081,
                     "name": "Vulpes mangeur de péchés",
                     "playcost": [
@@ -4026,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques. Si un sakura dévastateur est sur votre terrain, le détruit et crée un éclair de tenko.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 4 pts de DGT Électro. Si un sakura dévastateur est sur votre terrain, le détruit et crée un éclair de tenko.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT]. Si un <color=#FFFFFFFF>$[C114081|s2]</color> est sur votre terrain, le détruit et crée un <color=#FFFFFFFF>$[C114083|s1]</color>.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>. Si un <color=#FFFFFFFF>sakura dévastateur</color> est sur votre terrain, le détruit et crée un <color=#FFFFFFFF>éclair de tenko</color>.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>. Si un <color=#FFFFFFFF>sakura dévastateur</color> est sur votre terrain, le détruit et crée un <color=#FFFFFFFF>éclair de tenko</color>.",
                     "id": 14083,
                     "name": "Technique secrète: Incarnation de tenko",
                     "playcost": [
@@ -4068,10 +4068,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 1 pt de DGT Pyro.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color>.",
                     "id": 13081,
                     "name": "Sceau embrasé",
                     "playcost": [
@@ -4089,10 +4089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et accorde un sceau écarlate au personnage.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro et accorde un sceau écarlate au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde un <color=#FFFFFFFF>$[C113081|s1]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde un <color=#FFFFFFFF>sceau écarlate</color> au personnage.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et accorde un <color=#FFFFFFFF>sceau écarlate</color> au personnage.",
                     "id": 13082,
                     "name": "Pacte des flammes",
                     "playcost": [
@@ -4106,10 +4106,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et accorde un sceau écarlate et une brillance au personnage.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro et accorde un sceau écarlate et une brillance au personnage.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et accorde un <color=#FFFFFFFF>$[C113081|s1]</color> et une <color=#FFFFFFFF>$[C113082|s1]</color> au personnage.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et accorde un <color=#FFFFFFFF>sceau écarlate</color> et une <color=#FFFFFFFF>brillance</color> au personnage.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et accorde un <color=#FFFFFFFF>sceau écarlate</color> et une <color=#FFFFFFFF>brillance</color> au personnage.",
                     "id": 13083,
                     "name": "Application des peines",
                     "playcost": [
@@ -4184,10 +4184,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques et crée une Flamme Ryuukin.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Inflige 3 pts de DGT Pyro et crée une Flamme Ryuukin.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée une <color=#FFFFFFFF>$[C113052]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et crée une <color=#FFFFFFFF>Flamme Ryuukin</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2103}<color=#FF9999FF>DGT Pyro</color> et crée une <color=#FFFFFFFF>Flamme Ryuukin</color>.",
                     "id": 13053,
                     "name": "Saxifrage Ryuukin",
                     "playcost": [
@@ -4247,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 1 pt de DGT physiques et invoque une dorsale rocheuse.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 1 pt de DGT Géo et invoque une dorsale rocheuse.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque une <color=#FFFFFFFF>$[C116031|s2]</color>.",
-                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et invoque une <color=#FFFFFFFF>dorsale rocheuse</color>.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color> et invoque une <color=#FFFFFFFF>dorsale rocheuse</color>.",
                     "id": 16032,
                     "name": "Dominus Lapidis",
                     "playcost": [
@@ -4264,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 3 pts de DGT physiques, invoque une dorsale rocheuse et crée un bouclier de jade.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 3 pts de DGT Géo, invoque une dorsale rocheuse et crée un bouclier de jade.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT], invoque une <color=#FFFFFFFF>$[C116031|s2]</color> et crée un <color=#FFFFFFFF>$[C116032|s2]</color>.",
-                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>, invoque une <color=#FFFFFFFF>dorsale rocheuse</color> et crée un <color=#FFFFFFFF>bouclier de jade</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color>, invoque une <color=#FFFFFFFF>dorsale rocheuse</color> et crée un <color=#FFFFFFFF>bouclier de jade</color>.",
                     "id": 16033,
                     "name": "Dominus Lapidis : Roc destructeur",
                     "playcost": [
@@ -4281,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Inflige 4 pts de DGT physiques et inflige une pétrification au personnage choisi.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 4 pts de DGT Géo et inflige une pétrification au personnage choisi.",
                     "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et inflige une <color=#FFFFFFFF>$[C116033|s2]</color> au personnage choisi.",
-                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> et inflige une <color=#FFFFFFFF>pétrification</color> au personnage choisi.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color> et inflige une <color=#FFFFFFFF>pétrification</color> au personnage choisi.",
                     "id": 16034,
                     "name": "Chute de météore",
                     "playcost": [

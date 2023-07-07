@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 1 ponto de Dano Pyro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>.",
                     "id": 23021,
                     "name": "Chama da Salvação",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>.",
                     "id": 23022,
                     "name": "Chamado das Chamas",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, invoca Forno Negro.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro, invoca Forno Negro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C123021]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Forno Negro</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, invoca <color=#FFFFFFFF>Forno Negro</color>.",
                     "id": 23023,
                     "name": "Presságio Astral",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico e causa 2 pontos de Dano Perfurante a todos os Personagens Inativos do oponente.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 2 pontos de Dano Pyro e causa 2 pontos de Dano Perfurante a todos os Personagens Inativos do oponente.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT] e causa 2 pontos de <color=#FFFFFFFF>$[K5]</color> a todos os Personagens Inativos do oponente.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color> e causa 2 pontos de <color=#FFFFFFFF><color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color> e causa 2 pontos de <color=#FFFFFFFF><color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
                     "id": 13043,
                     "name": "Chuva Ardente",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 de Dano Físico, invoca Ushi e este personagem é afetado por Superforça Superlativa.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 1 de Dano Geo, invoca Ushi e este personagem é afetado por Superforça Superlativa.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C116051]</color> e este personagem é afetado por <color=#FFFFFFFF>$[C116054]</color>.",
-                    "descriptionreplaced": "Causa 1 de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Ushi</color> e este personagem é afetado por <color=#FFFFFFFF>Superforça Superlativa</color>.",
+                    "descriptionreplaced": "Causa 1 de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>, invoca <color=#FFFFFFFF>Ushi</color> e este personagem é afetado por <color=#FFFFFFFF>Superforça Superlativa</color>.",
                     "id": 16052,
                     "name": "Masatsu Zetsugi: Explosão Akaushi!",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 5 pontos de Dano Físico, este personagem é afetado por Rei Oni Furioso.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 5 pontos de Dano Geo, este personagem é afetado por Rei Oni Furioso.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C116053]</color>.",
-                    "descriptionreplaced": "Causa 5 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Rei Oni Furioso</color>.",
+                    "descriptionreplaced": "Causa 5 pontos de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>, este personagem é afetado por <color=#FFFFFFFF>Rei Oni Furioso</color>.",
                     "id": 16053,
                     "name": "Descendência Real: Contemplem, Itto, o Maligno!",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 1 ponto de Dano Hydro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>.",
                     "id": 12011,
                     "name": "Suspiro da Água",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, invoca Círculo Melódico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 1 ponto de Dano Hydro, invoca Círculo Melódico.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C112011]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Círculo Melódico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, invoca <color=#FFFFFFFF>Círculo Melódico</color>.",
                     "id": 12012,
                     "name": "Que Comece o Espetáculo ♪",
                     "playcost": [
@@ -370,10 +370,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, gera Escudo do Trovão.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 2 pontos de Dano Electro, gera Escudo do Trovão.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C114053]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Escudo do Trovão</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, gera <color=#FFFFFFFF>Escudo do Trovão</color>.",
                     "id": 14053,
                     "name": "Quebrador de Tempestades",
                     "playcost": [
@@ -391,10 +391,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "(Precisa de 1 rodada de ação para preparação)\nCausa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "(Precisa de 1 rodada de ação para preparação)\nCausa 3 pontos de Dano Electro.",
                     "descriptionraw": "(Precisa de 1 rodada de ação para preparação)\\nCausa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "(Precisa de 1 rodada de ação para preparação)\\nCausa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "(Precisa de 1 rodada de ação para preparação)\\nCausa 3 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>.",
                     "id": 14054,
                     "name": "Conquistadora das Marés",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>.",
                     "id": 13032,
                     "name": "Sobrecarga de Paixão",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, gera Área Estimulada.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 2 pontos de Dano Pyro, gera Área Estimulada.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C113031]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Área Estimulada</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, gera <color=#FFFFFFFF>Área Estimulada</color>.",
                     "id": 13033,
                     "name": "Viagem Fantástica",
                     "playcost": [
@@ -540,10 +540,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, gera Súplica da Coroa Escarlate.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 2 pontos de Dano Hydro, gera Súplica da Coroa Escarlate.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C112072]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Súplica da Coroa Escarlate</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, gera <color=#FFFFFFFF>Súplica da Coroa Escarlate</color>.",
                     "id": 12073,
                     "name": "Ritual Sagrado: Maré dos Alvéolas",
                     "playcost": [
@@ -561,10 +561,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "(Precisa de 1 rodada de ação para preparação)\nCausa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "(Precisa de 1 rodada de ação para preparação)\nCausa 3 pontos de Dano Hydro.",
                     "descriptionraw": "(Precisa de 1 rodada de ação para preparação)\\nCausa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "(Precisa de 1 rodada de ação para preparação)\\nCausa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "(Precisa de 1 rodada de ação para preparação)\\nCausa 3 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>.",
                     "id": 12074,
                     "name": "Golpe da Garça",
                     "playcost": [],
@@ -615,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, gera Área de Geada de Chongyun.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 3 pontos de Dano Cryo, gera Área de Geada de Chongyun.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C111041]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Área de Geada de Chongyun</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, gera <color=#FFFFFFFF>Área de Geada de Chongyun</color>.",
                     "id": 11042,
                     "name": "Geada de Chongyun",
                     "playcost": [
@@ -632,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 7 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 7 pontos de Dano Cryo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 7 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 7 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>.",
                     "id": 11043,
                     "name": "Estrela Cadente",
                     "playcost": [
@@ -695,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 3 pontos de Dano Dendro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>.",
                     "id": 17012,
                     "name": "Carícia das Flores",
                     "playcost": [
@@ -712,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, invoca Collambei.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 2 pontos de Dano Dendro, invoca Collambei.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C117011]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Collambei</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>, invoca <color=#FFFFFFFF>Collambei</color>.",
                     "id": 17013,
                     "name": "Segredo Miauvilhoso",
                     "playcost": [
@@ -775,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 3 pontos de Dano Electro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>.",
                     "id": 14042,
                     "name": "Ritual Secreto: Travessia Abissal",
                     "playcost": [
@@ -792,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico,\nAumenta [Possuído] de Juramento Desbravador em 2 pontos.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 4 pontos de Dano Electro,\nAumenta [Possuído] de Juramento Desbravador em 2 pontos.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT],\\nAumenta [Possuído] de <color=#FFFFFFFF>$[C114041]</color> em 2 pontos.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>,\\nAumenta [Possuído] de <color=#FFFFFFFF>Juramento Desbravador</color> em 2 pontos.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>,\\nAumenta [Possuído] de <color=#FFFFFFFF>Juramento Desbravador</color> em 2 pontos.",
                     "id": 14043,
                     "name": "Ritual Sagrado: Agilidade Lupina",
                     "playcost": [
@@ -865,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico. Ao usar essa habilidade pela 3ª vez em cada turno, aumenta o Dano em 2 pontos.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro. Ao usar essa habilidade pela 3ª vez em cada turno, aumenta o Dano em 2 pontos.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT]. Ao usar essa habilidade pela 3ª vez em cada turno, aumenta o Dano em 2 pontos.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>. Ao usar essa habilidade pela 3ª vez em cada turno, aumenta o Dano em 2 pontos.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>. Ao usar essa habilidade pela 3ª vez em cada turno, aumenta o Dano em 2 pontos.",
                     "id": 13012,
                     "name": "Investida Ardente",
                     "playcost": [
@@ -882,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 8 pontos de Dano Físico, este personagem é afetado por Encantamento Pyro.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 8 pontos de Dano Pyro, este personagem é afetado por Encantamento Pyro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C113011]</color>.",
-                    "descriptionreplaced": "Causa 8 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Encantamento Pyro</color>.",
+                    "descriptionreplaced": "Causa 8 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, este personagem é afetado por <color=#FFFFFFFF>Encantamento Pyro</color>.",
                     "id": 13013,
                     "name": "Alvorecer",
                     "playcost": [
@@ -945,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, gera Escudo Garra de Gato.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 2 pontos de Dano Cryo, gera Escudo Garra de Gato.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C111021]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Escudo Garra de Gato</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, gera <color=#FFFFFFFF>Escudo Garra de Gato</color>.",
                     "id": 11022,
                     "name": "Garra de Gato Gelada",
                     "playcost": [
@@ -962,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, cura 2 pontos de Vida deste personagem, invoca Névoa Embriagada.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 1 ponto de Dano Cryo, cura 2 pontos de Vida deste personagem, invoca Névoa Embriagada.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], cura 2 pontos de Vida deste personagem, invoca <color=#FFFFFFFF>$[C111023]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, cura 2 pontos de Vida deste personagem, invoca <color=#FFFFFFFF>Névoa Embriagada</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, cura 2 pontos de Vida deste personagem, invoca <color=#FFFFFFFF>Névoa Embriagada</color>.",
                     "id": 11023,
                     "name": "Coquetel Assassino",
                     "playcost": [
@@ -1004,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 1 ponto de Dano Electro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>.",
                     "id": 24011,
                     "name": "Disparo de Cristal Electro",
                     "playcost": [
@@ -1025,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, então separadamente Preparar Habilidade: Combo Pedra, Papel e Tesoura - Tesoura e Combo Pedra, Papel e Tesoura - Papel.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 2 pontos de Dano Electro, então separadamente Preparar Habilidade: Combo Pedra, Papel e Tesoura - Tesoura e Combo Pedra, Papel e Tesoura - Papel.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT], então separadamente $[K53]: <color=#FFFFFFFF>$[S24015]</color> e <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, então separadamente <color=#FFFFFFFF>Preparar Habilidade</color>: <color=#FFFFFFFF>Combo Pedra, Papel e Tesoura - Tesoura</color> e <color=#FFFFFFFF>Combo Pedra, Papel e Tesoura - Papel</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, então separadamente <color=#FFFFFFFF>Preparar Habilidade</color>: <color=#FFFFFFFF>Combo Pedra, Papel e Tesoura - Tesoura</color> e <color=#FFFFFFFF>Combo Pedra, Papel e Tesoura - Papel</color>.",
                     "id": 24012,
                     "name": "Combo Pedra-Papel-Tesoura",
                     "playcost": [
@@ -1042,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, invoca Correntes do Trovão Protetor.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 2 pontos de Dano Electro, invoca Correntes do Trovão Protetor.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C124013]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Correntes do Trovão Protetor</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, invoca <color=#FFFFFFFF>Correntes do Trovão Protetor</color>.",
                     "id": 24013,
                     "name": "Retenção Elétrica",
                     "playcost": [
@@ -1073,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico e depois Preparar Habilidade: Combo Pedra, Papel e Tesoura - Papel.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 2 pontos de Dano Electro e depois Preparar Habilidade: Combo Pedra, Papel e Tesoura - Papel.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT] e depois $[K53]: <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color> e depois <color=#FFFFFFFF>Preparar Habilidade</color>: <color=#FFFFFFFF>Combo Pedra, Papel e Tesoura - Papel</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color> e depois <color=#FFFFFFFF>Preparar Habilidade</color>: <color=#FFFFFFFF>Combo Pedra, Papel e Tesoura - Papel</color>.",
                     "id": 24015,
                     "name": "Combo Pedra, Papel e Tesoura - Tesoura",
                     "playcost": [],
@@ -1085,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 3 pontos de Dano Electro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>.",
                     "id": 24016,
                     "name": "Combo Pedra, Papel e Tesoura - Papel",
                     "playcost": [],
@@ -1139,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, caso este personagem não esteja afetado por Coração Impassível, afeta-o com Coração Impassível.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 2 pontos de Dano Cryo, caso este personagem não esteja afetado por Coração Impassível, afeta-o com Coração Impassível.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], caso este personagem não esteja afetado por <color=#FFFFFFFF>$[C111061]</color>, afeta-o com <color=#FFFFFFFF>$[C111061]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, caso este personagem não esteja afetado por <color=#FFFFFFFF>Coração Impassível</color>, afeta-o com <color=#FFFFFFFF>Coração Impassível</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, caso este personagem não esteja afetado por <color=#FFFFFFFF>Coração Impassível</color>, afeta-o com <color=#FFFFFFFF>Coração Impassível</color>.",
                     "id": 11062,
                     "name": "Vórtice Gelado",
                     "playcost": [
@@ -1156,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, invoca Espada Luminosa.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 2 pontos de Dano Cryo, invoca Espada Luminosa.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C111062]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Espada Luminosa</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, invoca <color=#FFFFFFFF>Espada Luminosa</color>.",
                     "id": 11063,
                     "name": "Espada das Ondas Congeladas",
                     "playcost": [
@@ -1198,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 1 ponto de Dano Cryo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>.",
                     "id": 21011,
                     "name": "Estalactite Cicin",
                     "playcost": [
@@ -1219,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, invoca Cicin Cryo.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 1 ponto de Dano Cryo, invoca Cicin Cryo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C121011]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Cicin Cryo</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, invoca <color=#FFFFFFFF>Cicin Cryo</color>.",
                     "id": 21012,
                     "name": "Invocação Neblinosa",
                     "playcost": [
@@ -1236,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 5 pontos de Dano Físico, concede Aplicação Cryo a esse personagem e gera Escudo Cicin Fluente.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 5 pontos de Dano Cryo, concede Aplicação Cryo a esse personagem e gera Escudo Cicin Fluente.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT], concede $[K201] a esse personagem e gera <color=#FFFFFFFF>$[C121012]</color>.",
-                    "descriptionreplaced": "Causa 5 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, concede <color=#99FFFFFF>Aplicação {SPRITE_PRESET#2101}Cryo</color> a esse personagem e gera <color=#FFFFFFFF>Escudo Cicin Fluente</color>.",
+                    "descriptionreplaced": "Causa 5 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, concede <color=#99FFFFFF>Aplicação {SPRITE_PRESET#2101}Cryo</color> a esse personagem e gera <color=#FFFFFFFF>Escudo Cicin Fluente</color>.",
                     "id": 21013,
                     "name": "Nevasca de Flores Brancas",
                     "playcost": [
@@ -1299,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, este personagem é afetado por Furtividade.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 1 ponto de Dano Pyro, este personagem é afetado por Furtividade.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C123011]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Furtividade</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, este personagem é afetado por <color=#FFFFFFFF>Furtividade</color>.",
                     "id": 23012,
                     "name": "Ataque Oportuno",
                     "playcost": [
@@ -1316,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 5 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 5 pontos de Dano Pyro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 5 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 5 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>.",
                     "id": 23013,
                     "name": "Lança Incineradora",
                     "playcost": [
@@ -1389,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, invoca Oz.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 1 ponto de Dano Electro, invoca Oz.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C114011]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Oz</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, invoca <color=#FFFFFFFF>Oz</color>.",
                     "id": 14012,
                     "name": "Asas da Vigilância Noturna",
                     "playcost": [
@@ -1406,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, causa 2 pontos de Dano Perfurante a todos os Personagens Inativos do oponente.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 4 pontos de Dano Electro, causa 2 pontos de Dano Perfurante a todos os Personagens Inativos do oponente.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], causa 2 pontos de <color=#FFFFFFFF>$[K5]</color> a todos os Personagens Inativos do oponente.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, causa 2 pontos de <color=#FFFFFFFF><color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, causa 2 pontos de <color=#FFFFFFFF><color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
                     "id": 14013,
                     "name": "Ilusão Noturna",
                     "playcost": [
@@ -1469,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, gera Lótus de Gelo.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 1 ponto de Dano Cryo, gera Lótus de Gelo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C111012]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Lótus de Gelo</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, gera <color=#FFFFFFFF>Lótus de Gelo</color>.",
                     "id": 11012,
                     "name": "Rastros de Qilin",
                     "playcost": [
@@ -1486,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, causa 2 pontos de Dano Perfurante a todos os Personagens Inativos do oponente.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 2 pontos de Dano Cryo, causa 2 pontos de Dano Perfurante a todos os Personagens Inativos do oponente.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], causa <color=#FFFFFFFF>2 pontos de $[K5]</color> a todos os Personagens Inativos do oponente.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, causa <color=#FFFFFFFF>2 pontos de <color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, causa <color=#FFFFFFFF>2 pontos de <color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
                     "id": 11013,
                     "name": "Flecha Congelante",
                     "playcost": [
@@ -1503,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, causa 1 ponto de Dano Perfurante a todos os Personagens Inativos do oponente, invoca Gema Cryo Sagrada.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 2 pontos de Dano Cryo, causa 1 ponto de Dano Perfurante a todos os Personagens Inativos do oponente, invoca Gema Cryo Sagrada.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], causa <color=#FFFFFFFF>1 ponto de $[K5]</color> a todos os Personagens Inativos do oponente, invoca <color=#FFFFFFFF>$[C111011]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, causa <color=#FFFFFFFF>1 ponto de <color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente, invoca <color=#FFFFFFFF>Gema Cryo Sagrada</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, causa <color=#FFFFFFFF>1 ponto de <color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente, invoca <color=#FFFFFFFF>Gema Cryo Sagrada</color>.",
                     "id": 11014,
                     "name": "Chuva Celestial",
                     "playcost": [
@@ -1581,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, cura a si em 2 pontos. Se a Vida desse personagem não for maior que 6, causa +1 de Dano e Cura.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 4 pontos de Dano Pyro, cura a si em 2 pontos. Se a Vida desse personagem não for maior que 6, causa +1 de Dano e Cura.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT], cura a si em 2 pontos. Se a Vida desse personagem não for maior que 6, causa +1 de Dano e Cura.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, cura a si em 2 pontos. Se a Vida desse personagem não for maior que 6, causa +1 de Dano e Cura.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, cura a si em 2 pontos. Se a Vida desse personagem não for maior que 6, causa +1 de Dano e Cura.",
                     "id": 13073,
                     "name": "Pacificadora de Espíritos",
                     "playcost": [
@@ -1644,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 3 pontos de Dano Dendro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>.",
                     "id": 27012,
                     "name": "Nuvem Instável de Esporos",
                     "playcost": [
@@ -1661,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, consome todos os acúmulos de Estímulo de Ativação, cada acúmulo aumenta o Dano deste ataque em 1.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 4 pontos de Dano Dendro, consome todos os acúmulos de Estímulo de Ativação, cada acúmulo aumenta o Dano deste ataque em 1.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], consome todos os acúmulos de <color=#FFFFFFFF>$[C127011]</color>, cada acúmulo aumenta o Dano deste ataque em 1.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, consome todos os acúmulos de <color=#FFFFFFFF>Estímulo de Ativação</color>, cada acúmulo aumenta o Dano deste ataque em 1.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>, consome todos os acúmulos de <color=#FFFFFFFF>Estímulo de Ativação</color>, cada acúmulo aumenta o Dano deste ataque em 1.",
                     "id": 27013,
                     "name": "Cauda Majestosa",
                     "playcost": [
@@ -1734,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, força o oponente a trocar para o próximo Personagem.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 3 pontos de Dano Anemo, força o oponente a trocar para o próximo Personagem.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], força o oponente a trocar para o próximo Personagem.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, força o oponente a trocar para o próximo Personagem.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>, força o oponente a trocar para o próximo Personagem.",
                     "id": 15022,
                     "name": "Espada do Temporal",
                     "playcost": [
@@ -1812,10 +1812,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, aplica Ranzan Aéreo ao seu personagem. Se esta habilidade desencadear Redemoinho, Ranzan Aéreo é convertido ao elemento espalhado pelo Redemoinho.\nApós o Dano da Habilidade ser finalizado: Sua equipe troca para o próximo personagem.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 3 pontos de Dano Anemo, aplica Ranzan Aéreo ao seu personagem. Se esta habilidade desencadear Redemoinho, Ranzan Aéreo é convertido ao elemento espalhado pelo Redemoinho.\nApós o Dano da Habilidade ser finalizado: Sua equipe troca para o próximo personagem.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], aplica <color=#FFFFFFFF>$[C115051]</color> ao seu personagem. Se esta habilidade desencadear Redemoinho, <color=#FFFFFFFF>$[C115051]</color> é convertido ao elemento espalhado pelo Redemoinho.\\n<color=#FFFFFFFF>Após o Dano da Habilidade ser finalizado:</color> Sua equipe troca para o próximo personagem.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, aplica <color=#FFFFFFFF>Ranzan Aéreo</color> ao seu personagem. Se esta habilidade desencadear Redemoinho, <color=#FFFFFFFF>Ranzan Aéreo</color> é convertido ao elemento espalhado pelo Redemoinho.\\n<color=#FFFFFFFF>Após o Dano da Habilidade ser finalizado:</color> Sua equipe troca para o próximo personagem.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>, aplica <color=#FFFFFFFF>Ranzan Aéreo</color> ao seu personagem. Se esta habilidade desencadear Redemoinho, <color=#FFFFFFFF>Ranzan Aéreo</color> é convertido ao elemento espalhado pelo Redemoinho.\\n<color=#FFFFFFFF>Após o Dano da Habilidade ser finalizado:</color> Sua equipe troca para o próximo personagem.",
                     "id": 15052,
                     "name": "Chihayaburu",
                     "playcost": [
@@ -1829,10 +1829,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, invoca Redemoinho do Outono.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 3 pontos de Dano Anemo, invoca Redemoinho do Outono.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C115052]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Redemoinho do Outono</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>, invoca <color=#FFFFFFFF>Redemoinho do Outono</color>.",
                     "id": 15053,
                     "name": "Lâmina de Kazuha",
                     "playcost": [
@@ -1902,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 3 pontos de Dano Cryo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>.",
                     "id": 11032,
                     "name": "Mordida Congelante",
                     "playcost": [
@@ -1919,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, gera Aresta Gélida.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 1 ponto de Dano Cryo, gera Aresta Gélida.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C111031]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Aresta Gélida</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, gera <color=#FFFFFFFF>Aresta Gélida</color>.",
                     "id": 11033,
                     "name": "Valsa Glacial",
                     "playcost": [
@@ -1982,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 3 pontos de Dano Cryo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>.",
                     "id": 11052,
                     "name": "Arte Kamisato: Hyouka",
                     "playcost": [
@@ -1999,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, invoca Granizo Seki no To.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 4 pontos de Dano Cryo, invoca Granizo Seki no To.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C111051]</color>.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Granizo Seki no To</color>.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, invoca <color=#FFFFFFFF>Granizo Seki no To</color>.",
                     "id": 11053,
                     "name": "Arte Kamisato: Soumetsu",
                     "playcost": [
@@ -2072,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, este personagem é afetado por Reflexão Torrencial.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 2 pontos de Dano Hydro, este personagem é afetado por Reflexão Torrencial.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C112061]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Reflexão Torrencial</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, este personagem é afetado por <color=#FFFFFFFF>Reflexão Torrencial</color>.",
                     "id": 12062,
                     "name": "Arte Kamisato: Beleza Refletida",
                     "playcost": [
@@ -2089,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, invoca um Jardim Puro.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 3 pontos de Dano Hydro, invoca um Jardim Puro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca um <color=#FFFFFFFF>$[C112062]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca um <color=#FFFFFFFF>Jardim Puro</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, invoca um <color=#FFFFFFFF>Jardim Puro</color>.",
                     "id": 12063,
                     "name": "Arte Kamisato: Jardim Aquático",
                     "playcost": [
@@ -2152,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, gera a carta Relâmpago Stiletto.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 3 pontos de Dano Electro, gera a carta Relâmpago Stiletto.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera a carta <color=#FFFFFFFF>$[C114031]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera a carta <color=#FFFFFFFF>Relâmpago Stiletto</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, gera a carta <color=#FFFFFFFF>Relâmpago Stiletto</color>.",
                     "id": 14032,
                     "name": "Restauração Estelar",
                     "playcost": [
@@ -2169,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, causa 3 pontos de Dano Perfurante a todos os Personagens Inativos do oponente.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 4 pontos de Dano Electro, causa 3 pontos de Dano Perfurante a todos os Personagens Inativos do oponente.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], causa <color=#FFFFFFFF>3 pontos de $[K5]</color> a todos os Personagens Inativos do oponente.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, causa <color=#FFFFFFFF>3 pontos de <color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, causa <color=#FFFFFFFF>3 pontos de <color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
                     "id": 14033,
                     "name": "Passeio Celestial",
                     "playcost": [
@@ -2211,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 1 ponto de Dano Pyro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] ponto de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>.",
                     "id": 13061,
                     "name": "Caboom",
                     "playcost": [
@@ -2232,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, este personagem é afetado por Lampejo Explosivo.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro, este personagem é afetado por Lampejo Explosivo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C113061]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Lampejo Explosivo</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, este personagem é afetado por <color=#FFFFFFFF>Lampejo Explosivo</color>.",
                     "id": 13062,
                     "name": "Bomba Saltitante",
                     "playcost": [
@@ -2249,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, gera Faíscas Explosivas no campo do oponente.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro, gera Faíscas Explosivas no campo do oponente.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C113063] no campo do oponente</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Faíscas Explosivas no campo do oponente</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, gera <color=#FFFFFFFF>Faíscas Explosivas no campo do oponente</color>.",
                     "id": 13063,
                     "name": "Faíscas Explosivas",
                     "playcost": [
@@ -2312,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, invoca Tengu Juurai: Emboscada.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 1 ponto de Dano Electro, invoca Tengu Juurai: Emboscada.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C114061]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Tengu Juurai: Emboscada</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, invoca <color=#FFFFFFFF>Tengu Juurai: Emboscada</color>.",
                     "id": 14062,
                     "name": "Invocação da Tempestade Tengu",
                     "playcost": [
@@ -2329,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, invoca Tengu Juurai: Aglomerado de Tempestades.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 1 ponto de Dano Electro, invoca Tengu Juurai: Aglomerado de Tempestades.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C114062]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Tengu Juurai: Aglomerado de Tempestades</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, invoca <color=#FFFFFFFF>Tengu Juurai: Aglomerado de Tempestades</color>.",
                     "id": 14063,
                     "name": "Subjugação: Koukou Sendou",
                     "playcost": [
@@ -2422,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, desencadeia o efeito de invocação de todas as suas Espadas Sombra. (Não consome o seu número de Usos)",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 4 pontos de Dano Anemo, desencadeia o efeito de invocação de todas as suas Espadas Sombra. (Não consome o seu número de Usos)",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], desencadeia o efeito de invocação de todas as suas <color=#FFFFFFFF>Espadas Sombra</color>. (Não consome o seu número de Usos)",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, desencadeia o efeito de invocação de todas as suas <color=#FFFFFFFF>Espadas Sombra</color>. (Não consome o seu número de Usos)",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>, desencadeia o efeito de invocação de todas as suas <color=#FFFFFFFF>Espadas Sombra</color>. (Não consome o seu número de Usos)",
                     "id": 25014,
                     "name": "Clone Tengu",
                     "playcost": [
@@ -2464,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 1 ponto de Dano Hydro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>.",
                     "id": 22021,
                     "name": "Bomba de Água",
                     "playcost": [
@@ -2485,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, o personagem alvo é afetado por Refração.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 2 pontos de Dano Hydro, o personagem alvo é afetado por Refração.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], o personagem alvo é afetado por <color=#FFFFFFFF>$[C122021]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, o personagem alvo é afetado por <color=#FFFFFFFF>Refração</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, o personagem alvo é afetado por <color=#FFFFFFFF>Refração</color>.",
                     "id": 22022,
                     "name": "Romper das Ondas",
                     "playcost": [
@@ -2502,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 5 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 5 pontos de Dano Hydro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 5 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 5 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>.",
                     "id": 22023,
                     "name": "Reflexo Transparente",
                     "playcost": [
@@ -2544,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 1 ponto de Dano Hydro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>.",
                     "id": 12031,
                     "name": "Destino Desencapado",
                     "playcost": [
@@ -2565,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, invoca Sombra Vazia.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 1 ponto de Dano Hydro, invoca Sombra Vazia.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C112031]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Sombra Vazia</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, invoca <color=#FFFFFFFF>Sombra Vazia</color>.",
                     "id": 12032,
                     "name": "Água Ilusória",
                     "playcost": [
@@ -2582,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, gera Bolha Ilusória.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 4 pontos de Dano Hydro, gera Bolha Ilusória.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C112032]</color>.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Bolha Ilusória</color>.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, gera <color=#FFFFFFFF>Bolha Ilusória</color>.",
                     "id": 12033,
                     "name": "Órbita Divina",
                     "playcost": [
@@ -2634,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 1 ponto de Dano Dendro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>.",
                     "id": 17031,
                     "name": "Akara",
                     "playcost": [
@@ -2655,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico. O personagem alvo é afetado por Semente Skandha; se o personagem alvo antes de ser afetado já estava afetado por Semente Skandha, mudará para afetar todos os personagens inimigos com Semente Skandha.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 2 pontos de Dano Dendro. O personagem alvo é afetado por Semente Skandha; se o personagem alvo antes de ser afetado já estava afetado por Semente Skandha, mudará para afetar todos os personagens inimigos com Semente Skandha.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT]. O personagem alvo é afetado por <color=#FFFFFFFF>$[C117031]</color>; se o personagem alvo antes de ser afetado já estava afetado por <color=#FFFFFFFF>$[C117031]</color>, mudará para afetar todos os personagens inimigos com <color=#FFFFFFFF>$[C117031]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>. O personagem alvo é afetado por <color=#FFFFFFFF>Semente Skandha</color>; se o personagem alvo antes de ser afetado já estava afetado por <color=#FFFFFFFF>Semente Skandha</color>, mudará para afetar todos os personagens inimigos com <color=#FFFFFFFF>Semente Skandha</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>. O personagem alvo é afetado por <color=#FFFFFFFF>Semente Skandha</color>; se o personagem alvo antes de ser afetado já estava afetado por <color=#FFFFFFFF>Semente Skandha</color>, mudará para afetar todos os personagens inimigos com <color=#FFFFFFFF>Semente Skandha</color>.",
                     "id": 17032,
                     "name": "Esquemas Universais",
                     "playcost": [
@@ -2672,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, afeta todos os personagens inimigos com Semente Skandha.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 3 pontos de Dano Dendro, afeta todos os personagens inimigos com Semente Skandha.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT], afeta todos os personagens inimigos com <color=#FFFFFFFF>$[C117031]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, afeta todos os personagens inimigos com <color=#FFFFFFFF>Semente Skandha</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>, afeta todos os personagens inimigos com <color=#FFFFFFFF>Semente Skandha</color>.",
                     "id": 17033,
                     "name": "Esquemas Universais: Tathata",
                     "playcost": [
@@ -2689,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, gera Santuário de Maya.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 4 pontos de Dano Dendro, gera Santuário de Maya.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C117032]</color>.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Santuário de Maya</color>.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>, gera <color=#FFFFFFFF>Santuário de Maya</color>.",
                     "id": 17034,
                     "name": "Coração Ilusório",
                     "playcost": [
@@ -2731,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 1 ponto de Dano Geo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>.",
                     "id": 16011,
                     "name": "Dispersão Espumante",
                     "playcost": [
@@ -2752,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, gera Tela de Jade.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 2 pontos de Dano Geo, gera Tela de Jade.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C116011]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Tela de Jade</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>, gera <color=#FFFFFFFF>Tela de Jade</color>.",
                     "id": 16012,
                     "name": "Tela de Jade",
                     "playcost": [
@@ -2769,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 6 pontos de Dano Físico, caso Tela de Jade esteja em campo, aumenta o Dano deste ataque em 2 pontos.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 6 pontos de Dano Geo, caso Tela de Jade esteja em campo, aumenta o Dano deste ataque em 2 pontos.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], caso <color=#FFFFFFFF>$[C116011]</color> esteja em campo, aumenta o Dano deste ataque em 2 pontos.",
-                    "descriptionreplaced": "Causa 6 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, caso <color=#FFFFFFFF>Tela de Jade</color> esteja em campo, aumenta o Dano deste ataque em 2 pontos.",
+                    "descriptionreplaced": "Causa 6 pontos de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>, caso <color=#FFFFFFFF>Tela de Jade</color> esteja em campo, aumenta o Dano deste ataque em 2 pontos.",
                     "id": 16013,
                     "name": "Quebrador de Estrelas",
                     "playcost": [
@@ -2832,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, gera Armadura Protetora.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 1 ponto de Dano Geo, gera Armadura Protetora.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C116021]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Armadura Protetora</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>, gera <color=#FFFFFFFF>Armadura Protetora</color>.",
                     "id": 16022,
                     "name": "Guardião do Coração",
                     "playcost": [
@@ -2849,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, este personagem é afetado por Grande Limpeza.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 4 pontos de Dano Geo, este personagem é afetado por Grande Limpeza.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C116022]</color>.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Grande Limpeza</color>.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>, este personagem é afetado por <color=#FFFFFFFF>Grande Limpeza</color>.",
                     "id": 16023,
                     "name": "Grande Limpeza",
                     "playcost": [
@@ -2927,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico. Outros personagens obtêm 2 pontos adicionais de Carga.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 3 pontos de Dano Electro. Outros personagens obtêm 2 pontos adicionais de Carga.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT]. Outros personagens obtêm 2 pontos adicionais de $[K310].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>. Outros personagens obtêm 2 pontos adicionais de <color=#FFFFFFFF>{SPRITE_PRESET#1110}Carga</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>. Outros personagens obtêm 2 pontos adicionais de <color=#FFFFFFFF>{SPRITE_PRESET#1110}Carga</color>.",
                     "id": 14073,
                     "name": "Arte Secreta: Musou Shinsetsu",
                     "playcost": [
@@ -3000,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 3 pontos de Dano Electro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>.",
                     "id": 14022,
                     "name": "Garra e Trovão",
                     "playcost": [
@@ -3017,10 +3017,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, este personagem é afetado por Lobo do Trovão.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 3 pontos de Dano Electro, este personagem é afetado por Lobo do Trovão.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C114021]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Lobo do Trovão</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>, este personagem é afetado por <color=#FFFFFFFF>Lobo do Trovão</color>.",
                     "id": 14023,
                     "name": "Dente de Relâmpago",
                     "playcost": [
@@ -3059,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 1 ponto de Dano Hydro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>.",
                     "id": 22011,
                     "name": "Ataque de Ondas",
                     "playcost": [
@@ -3110,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico; para cada invocação sua, o Dano deste ataque aumenta em 2.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 2 pontos de Dano Hydro; para cada invocação sua, o Dano deste ataque aumenta em 2.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT]; para cada invocação sua, o Dano deste ataque aumenta em 2.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>; para cada invocação sua, o Dano deste ataque aumenta em 2.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>; para cada invocação sua, o Dano deste ataque aumenta em 2.",
                     "id": 22014,
                     "name": "Correnteza Avassaladora",
                     "playcost": [
@@ -3152,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 1 ponto de Dano Hydro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>.",
                     "id": 12051,
                     "name": "Forma da Água",
                     "playcost": [
@@ -3188,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 de Dano Físico, cura todos os seus personagens em 1 ponto, este personagem é afetado por Vestimenta Cerimonial.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 2 de Dano Hydro, cura todos os seus personagens em 1 ponto, este personagem é afetado por Vestimenta Cerimonial.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] de $[D__KEY__ELEMENT], cura todos os seus personagens em 1 ponto, este personagem é afetado por <color=#FFFFFFFF>$[C112052]</color>.",
-                    "descriptionreplaced": "Causa 2 de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, cura todos os seus personagens em 1 ponto, este personagem é afetado por <color=#FFFFFFFF>Vestimenta Cerimonial</color>.",
+                    "descriptionreplaced": "Causa 2 de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, cura todos os seus personagens em 1 ponto, este personagem é afetado por <color=#FFFFFFFF>Vestimenta Cerimonial</color>.",
                     "id": 12053,
                     "name": "Cerimônia Kaijin",
                     "playcost": [
@@ -3251,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, gera Pena Gelada.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 2 pontos de Dano Cryo, gera Pena Gelada.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C111071]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Pena Gelada</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, gera <color=#FFFFFFFF>Pena Gelada</color>.",
                     "id": 11072,
                     "name": "Invocação Espiritual",
                     "playcost": [
@@ -3268,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, invoca Talismã de Espírito.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Causa 1 ponto de Dano Cryo, invoca Talismã de Espírito.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C111073]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Talismã de Espírito</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2101}<color=#99FFFFFF>Dano Cryo</color>, invoca <color=#FFFFFFFF>Talismã de Espírito</color>.",
                     "id": 11073,
                     "name": "Encantamento da Donzela Divina",
                     "playcost": [
@@ -3402,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 1 ponto de Dano Anemo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>.",
                     "id": 15011,
                     "name": "Criação do Espírito do Vento",
                     "playcost": [
@@ -3423,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, força o oponente a trocar para o Personagem anterior.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 3 pontos de Dano Anemo, força o oponente a trocar para o Personagem anterior.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], força o oponente a trocar para o Personagem anterior.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, força o oponente a trocar para o Personagem anterior.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>, força o oponente a trocar para o Personagem anterior.",
                     "id": 15012,
                     "name": "Criação do Espírito do Vento: Experimento 6308",
                     "playcost": [
@@ -3440,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, invoca Grande Espírito do Vento.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 1 ponto de Dano Anemo, invoca Grande Espírito do Vento.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C115011]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Grande Espírito do Vento</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>, invoca <color=#FFFFFFFF>Grande Espírito do Vento</color>.",
                     "id": 15013,
                     "name": "Criação Proibida do Espírito do Vento: Isomórfico-75 Tipo II",
                     "playcost": [
@@ -3503,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Troca para Posição Corpo-a-Corpo e causa 2 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Troca para Posição Corpo-a-Corpo e causa 2 pontos de Dano Hydro.",
                     "descriptionraw": "Troca para <color=#FFFFFFFF>$[C112042]</color> e causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Troca para <color=#FFFFFFFF>Posição Corpo-a-Corpo</color> e causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Troca para <color=#FFFFFFFF>Posição Corpo-a-Corpo</color> e causa 2 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>.",
                     "id": 12042,
                     "name": "Legado do Mal - Ondas de Fúria",
                     "playcost": [
@@ -3520,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Realiza diferentes ataques baseado na posição atual de Tartaglia.\nPosição à Distância - Clarão da Devastação: Causa 4 de Dano Físico, recupera 2 de Carga e aplica Interceptação de Fluxo ao alvo.\nPosição Corpo-a-Corpo - Luz da Obliteração causa 7 de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Realiza diferentes ataques baseado na posição atual de Tartaglia.\nPosição à Distância - Clarão da Devastação: Causa 4 de Dano Hydro, recupera 2 de Carga e aplica Interceptação de Fluxo ao alvo.\nPosição Corpo-a-Corpo - Luz da Obliteração causa 7 de Dano Hydro.",
                     "descriptionraw": "Realiza diferentes ataques baseado na posição atual de <color=#FFFFFFFF>$[A1204]</color>.\\n<color=#FFFFFFFF>Posição à Distância - Clarão da Devastação:</color> Causa $[D__KEY__DAMAGE_4] de $[D__KEY__ELEMENT], recupera 2 de $[K310] e aplica <color=#FFFFFFFF>$[C112043]</color> ao alvo.\\n<color=#FFFFFFFF>Posição Corpo-a-Corpo - Luz da Obliteração</color> causa $[D__KEY__DAMAGE] de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Realiza diferentes ataques baseado na posição atual de <color=#FFFFFFFF>Tartaglia</color>.\\n<color=#FFFFFFFF>Posição à Distância - Clarão da Devastação:</color> Causa 4 de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, recupera 2 de <color=#FFFFFFFF>{SPRITE_PRESET#1110}Carga</color> e aplica <color=#FFFFFFFF>Interceptação de Fluxo</color> ao alvo.\\n<color=#FFFFFFFF>Posição Corpo-a-Corpo - Luz da Obliteração</color> causa 7 de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Realiza diferentes ataques baseado na posição atual de <color=#FFFFFFFF>Tartaglia</color>.\\n<color=#FFFFFFFF>Posição à Distância - Clarão da Devastação:</color> Causa 4 de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, recupera 2 de <color=#FFFFFFFF>{SPRITE_PRESET#1110}Carga</color> e aplica <color=#FFFFFFFF>Interceptação de Fluxo</color> ao alvo.\\n<color=#FFFFFFFF>Posição Corpo-a-Corpo - Luz da Obliteração</color> causa 7 de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>.",
                     "id": 12043,
                     "name": "Devastação: Obliteracão",
                     "playcost": [
@@ -3613,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, este personagem é afetado por Perfurador Vijnana.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 2 pontos de Dano Dendro, este personagem é afetado por Perfurador Vijnana.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C117021]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Perfurador Vijnana</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>, este personagem é afetado por <color=#FFFFFFFF>Perfurador Vijnana</color>.",
                     "id": 17022,
                     "name": "Mina Vijnana-Phala",
                     "playcost": [
@@ -3630,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, causa 1 ponto de Dano Perfurante a todos os Personagens Inativos do oponente.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Causa 4 pontos de Dano Dendro, causa 1 ponto de Dano Perfurante a todos os Personagens Inativos do oponente.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], causa 1 ponto de <color=#FFFFFFFF>$[K5]</color> a todos os Personagens Inativos do oponente.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, causa 1 ponto de <color=#FFFFFFFF><color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2107}<color=#7EC236FF>Dano Dendro</color>, causa 1 ponto de <color=#FFFFFFFF><color=#FFFFFFFF>Dano Perfurante</color></color> a todos os Personagens Inativos do oponente.",
                     "id": 17023,
                     "name": "Flecha Enraizadora Artificial",
                     "playcost": [
@@ -3693,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, gera Zona de Ventania.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 2 pontos de Dano Anemo, gera Zona de Ventania.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C115031]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Zona de Ventania</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>, gera <color=#FFFFFFFF>Zona de Ventania</color>.",
                     "id": 15032,
                     "name": "Sonata Celestial",
                     "playcost": [
@@ -3710,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, invoca Olho da Tempestade.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 2 pontos de Dano Anemo, invoca Olho da Tempestade.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C115034]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Olho da Tempestade</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>, invoca <color=#FFFFFFFF>Olho da Tempestade</color>.",
                     "id": 15033,
                     "name": "Grande Ode do Vento",
                     "playcost": [
@@ -3788,10 +3788,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, gera Pyronado.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro, gera Pyronado.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C113022]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Pyronado</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, gera <color=#FFFFFFFF>Pyronado</color>.",
                     "id": 13023,
                     "name": "Pyronado",
                     "playcost": [
@@ -3851,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 3 pontos de Dano Anemo.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>.",
                     "id": 15042,
                     "name": "Vento Lemniscático",
                     "playcost": [
@@ -3868,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, este personagem é afetado por Máscara Yaksha.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Causa 4 pontos de Dano Anemo, este personagem é afetado por Máscara Yaksha.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C115041]</color>.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Máscara Yaksha</color>.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2105}<color=#80FFD7FF>Dano Anemo</color>, este personagem é afetado por <color=#FFFFFFFF>Máscara Yaksha</color>.",
                     "id": 15043,
                     "name": "Dança Nuo da Conquista do Mal",
                     "playcost": [
@@ -3931,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 2 pontos de Dano Físico, este personagem recebe Aplicação Hydro, gera Chuva das Espadas.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 2 pontos de Dano Hydro, este personagem recebe Aplicação Hydro, gera Chuva das Espadas.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem recebe $[K202], gera <color=#FFFFFFFF>$[C112021]</color>.",
-                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem recebe <color=#80C0FFFF>Aplicação {SPRITE_PRESET#2102}Hydro</color>, gera <color=#FFFFFFFF>Chuva das Espadas</color>.",
+                    "descriptionreplaced": "Causa 2 pontos de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, este personagem recebe <color=#80C0FFFF>Aplicação {SPRITE_PRESET#2102}Hydro</color>, gera <color=#FFFFFFFF>Chuva das Espadas</color>.",
                     "id": 12022,
                     "name": "Chuva Torrencial",
                     "playcost": [
@@ -3948,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, este personagem recebe Aplicação Hydro, gera Poder das Lâminas do Arco-íris.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Causa 1 ponto de Dano Hydro, este personagem recebe Aplicação Hydro, gera Poder das Lâminas do Arco-íris.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem recebe $[K202], gera <color=#FFFFFFFF>$[C112022]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem recebe <color=#80C0FFFF>Aplicação {SPRITE_PRESET#2102}Hydro</color>, gera <color=#FFFFFFFF>Poder das Lâminas do Arco-íris</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2102}<color=#80C0FFFF>Dano Hydro</color>, este personagem recebe <color=#80C0FFFF>Aplicação {SPRITE_PRESET#2102}Hydro</color>, gera <color=#FFFFFFFF>Poder das Lâminas do Arco-íris</color>.",
                     "id": 12023,
                     "name": "Retalhador de Chuva",
                     "playcost": [
@@ -3990,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 1 ponto de Dano Electro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>.",
                     "id": 14081,
                     "name": "Kitsune Devora-pecados",
                     "playcost": [
@@ -4026,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico. Se houver Sesshou Sakura ativo, desaparecerá e então gerará Relâmpago de Kitsune Celestial.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Causa 4 pontos de Dano Electro. Se houver Sesshou Sakura ativo, desaparecerá e então gerará Relâmpago de Kitsune Celestial.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT]. Se houver <color=#FFFFFFFF>$[C114081]</color> ativo, desaparecerá e então gerará <color=#FFFFFFFF>$[C114083]</color>.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>. Se houver <color=#FFFFFFFF>Sesshou Sakura</color> ativo, desaparecerá e então gerará <color=#FFFFFFFF>Relâmpago de Kitsune Celestial</color>.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2104}<color=#FFACFFFF>Dano Electro</color>. Se houver <color=#FFFFFFFF>Sesshou Sakura</color> ativo, desaparecerá e então gerará <color=#FFFFFFFF>Relâmpago de Kitsune Celestial</color>.",
                     "id": 14083,
                     "name": "Grande Arte Secreta: Tenko Kenshin",
                     "playcost": [
@@ -4068,10 +4068,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 1 ponto de Dano Pyro.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>.",
                     "id": 13081,
                     "name": "Selo Ardente",
                     "playcost": [
@@ -4089,10 +4089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, este personagem é afetado por Insígnia de Chamas.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro, este personagem é afetado por Insígnia de Chamas.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], este personagem é afetado por <color=#FFFFFFFF>$[C113081]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, este personagem é afetado por <color=#FFFFFFFF>Insígnia de Chamas</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, este personagem é afetado por <color=#FFFFFFFF>Insígnia de Chamas</color>.",
                     "id": 13082,
                     "name": "Édito Assinado",
                     "playcost": [
@@ -4106,10 +4106,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, aplica Insígnia de Chamas e Clarão ao seu personagem.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro, aplica Insígnia de Chamas e Clarão ao seu personagem.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], aplica <color=#FFFFFFFF>$[C113081]</color> e <color=#FFFFFFFF>$[C113082]</color> ao seu personagem.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, aplica <color=#FFFFFFFF>Insígnia de Chamas</color> e <color=#FFFFFFFF>Clarão</color> ao seu personagem.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, aplica <color=#FFFFFFFF>Insígnia de Chamas</color> e <color=#FFFFFFFF>Clarão</color> ao seu personagem.",
                     "id": 13083,
                     "name": "Contrato Vinculativo",
                     "playcost": [
@@ -4184,10 +4184,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, gera Flama Dourada.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Causa 3 pontos de Dano Pyro, gera Flama Dourada.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], gera <color=#FFFFFFFF>$[C113052]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, gera <color=#FFFFFFFF>Flama Dourada</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2103}<color=#FF9999FF>Dano Pyro</color>, gera <color=#FFFFFFFF>Flama Dourada</color>.",
                     "id": 13053,
                     "name": "Saxifraga Ryuukin",
                     "playcost": [
@@ -4247,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 1 ponto de Dano Físico, invoca Estela de Pedra.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 1 ponto de Dano Geo, invoca Estela de Pedra.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C116031]</color>.",
-                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Estela de Pedra</color>.",
+                    "descriptionreplaced": "Causa 1 ponto de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>, invoca <color=#FFFFFFFF>Estela de Pedra</color>.",
                     "id": 16032,
                     "name": "Dominus Lapidis",
                     "playcost": [
@@ -4264,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 3 pontos de Dano Físico, invoca Estela de Pedra, gera Escudo de Jade.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 3 pontos de Dano Geo, invoca Estela de Pedra, gera Escudo de Jade.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C116031]</color>, gera <color=#FFFFFFFF>$[C116032]</color>.",
-                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, invoca <color=#FFFFFFFF>Estela de Pedra</color>, gera <color=#FFFFFFFF>Escudo de Jade</color>.",
+                    "descriptionreplaced": "Causa 3 pontos de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>, invoca <color=#FFFFFFFF>Estela de Pedra</color>, gera <color=#FFFFFFFF>Escudo de Jade</color>.",
                     "id": 16033,
                     "name": "Dominus Lapidis: Rocha Aniquiladora",
                     "playcost": [
@@ -4281,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Causa 4 pontos de Dano Físico, o personagem alvo é afetado por Petrificação.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Causa 4 pontos de Dano Geo, o personagem alvo é afetado por Petrificação.",
                     "descriptionraw": "Causa $[D__KEY__DAMAGE] pontos de $[D__KEY__ELEMENT], o personagem alvo é afetado por <color=#FFFFFFFF>$[C116033]</color>.",
-                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color>, o personagem alvo é afetado por <color=#FFFFFFFF>Petrificação</color>.",
+                    "descriptionreplaced": "Causa 4 pontos de {SPRITE_PRESET#2106}<color=#FFE699FF>Dano Geo</color>, o personagem alvo é afetado por <color=#FFFFFFFF>Petrificação</color>.",
                     "id": 16034,
                     "name": "Chuva Estelar",
                     "playcost": [

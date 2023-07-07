@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>.",
                     "id": 23021,
                     "name": "Ngọn Lửa Cứu Rỗi",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>.",
                     "id": 23022,
                     "name": "Châm Ngôn Rực Lửa",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, triệu hồi Ám Hỏa Lư Tâm.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, triệu hồi Ám Hỏa Lư Tâm.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C123021]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Ám Hỏa Lư Tâm</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, triệu hồi <color=#FFFFFFFF>Ám Hỏa Lư Tâm</color>.",
                     "id": 23023,
                     "name": "Điềm Báo Sao Băng",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, gây 2 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của phe địch.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Hỏa, gây 2 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của phe địch.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], gây 2 điểm <color=#FFFFFFFF>$[K5]</color> cho tất cả nhân vật dự bị của phe địch.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, gây 2 điểm <color=#FFFFFFFF><color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của phe địch.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, gây 2 điểm <color=#FFFFFFFF><color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của phe địch.",
                     "id": 13043,
                     "name": "Mưa Tên",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Ushi, nhân vật này áp dụng Quỷ Lực Vô Song.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Nham, triệu hồi Ushi, nhân vật này áp dụng Quỷ Lực Vô Song.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C116051]</color>, nhân vật này áp dụng <color=#FFFFFFFF>$[C116054]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Ushi</color>, nhân vật này áp dụng <color=#FFFFFFFF>Quỷ Lực Vô Song</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>, triệu hồi <color=#FFFFFFFF>Ushi</color>, nhân vật này áp dụng <color=#FFFFFFFF>Quỷ Lực Vô Song</color>.",
                     "id": 16052,
                     "name": "Tuyệt Kỹ Masatsu - Akaushi Công Phá!",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 5 điểm Sát Thương Vật Lý, nhân vật này áp dụng Nộ Mục Quỷ Vương.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 5 điểm Sát Thương Nguyên Tố Nham, nhân vật này áp dụng Nộ Mục Quỷ Vương.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này áp dụng <color=#FFFFFFFF>$[C116053]</color>.",
-                    "descriptionreplaced": "Gây 5 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này áp dụng <color=#FFFFFFFF>Nộ Mục Quỷ Vương</color>.",
+                    "descriptionreplaced": "Gây 5 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>, nhân vật này áp dụng <color=#FFFFFFFF>Nộ Mục Quỷ Vương</color>.",
                     "id": 16053,
                     "name": "Siêu Cấp Quỷ Vương - Itto Giáng Lâm!",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Thủy.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.",
                     "id": 12011,
                     "name": "Giọng Ca Của Nước",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Vòng Âm Thanh.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Thủy, triệu hồi Vòng Âm Thanh.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C112011]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Vòng Âm Thanh</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, triệu hồi <color=#FFFFFFFF>Vòng Âm Thanh</color>.",
                     "id": 12012,
                     "name": "Buổi Diễn, Bắt Đầu♪",
                     "playcost": [
@@ -370,10 +370,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, tạo ra Tấm Khiên Lôi Thú.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Lôi, tạo ra Tấm Khiên Lôi Thú.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo ra <color=#FFFFFFFF>$[C114053]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo ra <color=#FFFFFFFF>Tấm Khiên Lôi Thú</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, tạo ra <color=#FFFFFFFF>Tấm Khiên Lôi Thú</color>.",
                     "id": 14053,
                     "name": "Chước Lôi",
                     "playcost": [
@@ -391,10 +391,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "(Cần chuẩn bị 1 lượt hành động)\nGây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "(Cần chuẩn bị 1 lượt hành động)\nGây 3 điểm Sát Thương Nguyên Tố Lôi.",
                     "descriptionraw": "(Cần chuẩn bị 1 lượt hành động)\\nGây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "(Cần chuẩn bị 1 lượt hành động)\\nGây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "(Cần chuẩn bị 1 lượt hành động)\\nGây 3 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.",
                     "id": 14054,
                     "name": "Sóng Vỗ",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>.",
                     "id": 13032,
                     "name": "Nhiệt Tình Quá Độ",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, tạo ra Khu Vực Cổ Vũ.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Hỏa, tạo ra Khu Vực Cổ Vũ.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo ra <color=#FFFFFFFF>$[C113031]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo ra <color=#FFFFFFFF>Khu Vực Cổ Vũ</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, tạo ra <color=#FFFFFFFF>Khu Vực Cổ Vũ</color>.",
                     "id": 13033,
                     "name": "Hành Trình Kỳ Diệu",
                     "playcost": [
@@ -540,10 +540,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, tạo 1 Lời Chúc Vương Miện Đỏ.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Thủy, tạo 1 Lời Chúc Vương Miện Đỏ.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo 1 <color=#FFFFFFFF>$[C112072]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo 1 <color=#FFFFFFFF>Lời Chúc Vương Miện Đỏ</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, tạo 1 <color=#FFFFFFFF>Lời Chúc Vương Miện Đỏ</color>.",
                     "id": 12073,
                     "name": "Nghi Thức Thần Thánh - Thủy Triều Chìa Vôi",
                     "playcost": [
@@ -561,10 +561,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "(Cần chuẩn bị 1 lượt hành động)\nGây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "(Cần chuẩn bị 1 lượt hành động)\nGây 3 điểm Sát Thương Nguyên Tố Thủy.",
                     "descriptionraw": "(Cần chuẩn bị 1 lượt hành động)\\nGây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "(Cần chuẩn bị 1 lượt hành động)\\nGây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "(Cần chuẩn bị 1 lượt hành động)\\nGây 3 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.",
                     "id": 12074,
                     "name": "Vạc Trời Công Kích",
                     "playcost": [],
@@ -615,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, tạo 1 Vùng Sương Bạc Trùng Điệp.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Băng, tạo 1 Vùng Sương Bạc Trùng Điệp.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo 1 <color=#FFFFFFFF>$[C111041]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo 1 <color=#FFFFFFFF>Vùng Sương Bạc Trùng Điệp</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, tạo 1 <color=#FFFFFFFF>Vùng Sương Bạc Trùng Điệp</color>.",
                     "id": 11042,
                     "name": "Sương Bạc Trùng Điệp",
                     "playcost": [
@@ -632,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 7 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 7 điểm Sát Thương Nguyên Tố Băng.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 7 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 7 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>.",
                     "id": 11043,
                     "name": "Vân Khai Tinh Lạc",
                     "playcost": [
@@ -695,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Thảo.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>.",
                     "id": 17012,
                     "name": "Xua Hoa Quét Lá",
                     "playcost": [
@@ -712,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, triệu hồi Cuilein-Anbar.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Thảo, triệu hồi Cuilein-Anbar.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C117011]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Cuilein-Anbar</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>, triệu hồi <color=#FFFFFFFF>Cuilein-Anbar</color>.",
                     "id": 17013,
                     "name": "Báu Vật Meo Meo",
                     "playcost": [
@@ -775,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Lôi.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.",
                     "id": 14042,
                     "name": "Nghi Thức Bí Ẩn - Dẫn Hồn Đáy Vực",
                     "playcost": [
@@ -792,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý.\nCấp [Hộ Thể] của Sứ Giả Dẫn Lối +2.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Lôi.\nCấp [Hộ Thể] của Sứ Giả Dẫn Lối +2.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].\\nCấp [Hộ Thể] của <color=#FFFFFFFF>$[C114041]</color> +2.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.\\nCấp [Hộ Thể] của <color=#FFFFFFFF>Sứ Giả Dẫn Lối</color> +2.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.\\nCấp [Hộ Thể] của <color=#FFFFFFFF>Sứ Giả Dẫn Lối</color> +2.",
                     "id": 14043,
                     "name": "Nghi Thức Thần Thánh - Nhanh Như Sói",
                     "playcost": [
@@ -865,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý. Khi dùng kỹ năng này lần thứ 3 ở mỗi hiệp, sát thương +2.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa. Khi dùng kỹ năng này lần thứ 3 ở mỗi hiệp, sát thương +2.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT]. Khi dùng kỹ năng này lần thứ 3 ở mỗi hiệp, sát thương +2.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>. Khi dùng kỹ năng này lần thứ 3 ở mỗi hiệp, sát thương +2.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>. Khi dùng kỹ năng này lần thứ 3 ở mỗi hiệp, sát thương +2.",
                     "id": 13012,
                     "name": "Lưỡi Đao Rực Lửa",
                     "playcost": [
@@ -882,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 8 điểm Sát Thương Vật Lý, nhân vật này nhận Đính Kèm Nguyên Tố Hỏa.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 8 điểm Sát Thương Nguyên Tố Hỏa, nhân vật này nhận Đính Kèm Nguyên Tố Hỏa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C113011]</color>.",
-                    "descriptionreplaced": "Gây 8 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Đính Kèm Nguyên Tố Hỏa</color>.",
+                    "descriptionreplaced": "Gây 8 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, nhân vật này nhận <color=#FFFFFFFF>Đính Kèm Nguyên Tố Hỏa</color>.",
                     "id": 13013,
                     "name": "Bình Minh",
                     "playcost": [
@@ -945,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, tạo 1 Khiên Vuốt Mèo.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Băng, tạo 1 Khiên Vuốt Mèo.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo 1 <color=#FFFFFFFF>$[C111021]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo 1 <color=#FFFFFFFF>Khiên Vuốt Mèo</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, tạo 1 <color=#FFFFFFFF>Khiên Vuốt Mèo</color>.",
                     "id": 11022,
                     "name": "Móng Mèo Lạnh Giá",
                     "playcost": [
@@ -962,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, chữa trị cho nhân vật này 2 điểm, triệu hồi Vùng Sương Rượu.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Băng, chữa trị cho nhân vật này 2 điểm, triệu hồi Vùng Sương Rượu.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], chữa trị cho nhân vật này 2 điểm, triệu hồi <color=#FFFFFFFF>$[C111023]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, chữa trị cho nhân vật này 2 điểm, triệu hồi <color=#FFFFFFFF>Vùng Sương Rượu</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, chữa trị cho nhân vật này 2 điểm, triệu hồi <color=#FFFFFFFF>Vùng Sương Rượu</color>.",
                     "id": 11023,
                     "name": "Đặc Chế Mãnh Liệt",
                     "playcost": [
@@ -1004,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Lôi.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.",
                     "id": 24011,
                     "name": "Lôi Tinh Chiếu Rọi",
                     "playcost": [
@@ -1025,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, sau đó lần lượt Chuẩn Bị Kỹ Năng: Tam Liên Kích Oẳn Tù Tì - Kéo và Tam Liên Kích Oẳn Tù Tì - Bao.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Lôi, sau đó lần lượt Chuẩn Bị Kỹ Năng: Tam Liên Kích Oẳn Tù Tì - Kéo và Tam Liên Kích Oẳn Tù Tì - Bao.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], sau đó lần lượt $[K53]: <color=#FFFFFFFF>$[S24015]</color> và <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, sau đó lần lượt <color=#FFFFFFFF>Chuẩn Bị Kỹ Năng</color>: <color=#FFFFFFFF>Tam Liên Kích Oẳn Tù Tì - Kéo</color> và <color=#FFFFFFFF>Tam Liên Kích Oẳn Tù Tì - Bao</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, sau đó lần lượt <color=#FFFFFFFF>Chuẩn Bị Kỹ Năng</color>: <color=#FFFFFFFF>Tam Liên Kích Oẳn Tù Tì - Kéo</color> và <color=#FFFFFFFF>Tam Liên Kích Oẳn Tù Tì - Bao</color>.",
                     "id": 24012,
                     "name": "Tam Liên Kích Oẳn Tù Tì",
                     "playcost": [
@@ -1042,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, triệu hồi Lôi Tỏa Trấn Vực.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Lôi, triệu hồi Lôi Tỏa Trấn Vực.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C124013]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Lôi Tỏa Trấn Vực</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, triệu hồi <color=#FFFFFFFF>Lôi Tỏa Trấn Vực</color>.",
                     "id": 24013,
                     "name": "Tích Lịch Trấn Tỏa",
                     "playcost": [
@@ -1073,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, sau đó Chuẩn Bị Kỹ Năng: Tam Liên Kích Oẳn Tù Tì - Bao.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Lôi, sau đó Chuẩn Bị Kỹ Năng: Tam Liên Kích Oẳn Tù Tì - Bao.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], sau đó $[K53]: <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, sau đó <color=#FFFFFFFF>Chuẩn Bị Kỹ Năng</color>: <color=#FFFFFFFF>Tam Liên Kích Oẳn Tù Tì - Bao</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, sau đó <color=#FFFFFFFF>Chuẩn Bị Kỹ Năng</color>: <color=#FFFFFFFF>Tam Liên Kích Oẳn Tù Tì - Bao</color>.",
                     "id": 24015,
                     "name": "Tam Liên Kích Oẳn Tù Tì - Kéo",
                     "playcost": [],
@@ -1085,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Lôi.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.",
                     "id": 24016,
                     "name": "Tam Liên Kích Oẳn Tù Tì - Bao",
                     "playcost": [],
@@ -1139,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, nếu nhân vật này chưa có Trái Tim Băng Giá, sẽ khiến nhân vật này nhận Trái Tim Băng Giá.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Băng, nếu nhân vật này chưa có Trái Tim Băng Giá, sẽ khiến nhân vật này nhận Trái Tim Băng Giá.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nếu nhân vật này chưa có <color=#FFFFFFFF>$[C111061]</color>, sẽ khiến nhân vật này nhận <color=#FFFFFFFF>$[C111061]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nếu nhân vật này chưa có <color=#FFFFFFFF>Trái Tim Băng Giá</color>, sẽ khiến nhân vật này nhận <color=#FFFFFFFF>Trái Tim Băng Giá</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, nếu nhân vật này chưa có <color=#FFFFFFFF>Trái Tim Băng Giá</color>, sẽ khiến nhân vật này nhận <color=#FFFFFFFF>Trái Tim Băng Giá</color>.",
                     "id": 11062,
                     "name": "Lốc Xoáy Băng Hàn",
                     "playcost": [
@@ -1156,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, triệu hồi Kiếm Ánh Sáng.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Băng, triệu hồi Kiếm Ánh Sáng.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C111062]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Kiếm Ánh Sáng</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, triệu hồi <color=#FFFFFFFF>Kiếm Ánh Sáng</color>.",
                     "id": 11063,
                     "name": "Thanh Kiếm Sóng Nước",
                     "playcost": [
@@ -1198,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Băng.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>.",
                     "id": 21011,
                     "name": "Cicin Chóp Băng",
                     "playcost": [
@@ -1219,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Cicin Băng.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Băng, triệu hồi Cicin Băng.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C121011]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Cicin Băng</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, triệu hồi <color=#FFFFFFFF>Cicin Băng</color>.",
                     "id": 21012,
                     "name": "Kêu Gọi Sương Mù",
                     "playcost": [
@@ -1236,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 5 điểm Sát Thương Vật Lý, nhân vật này bị Gán ấn Nguyên Tố Băng, tạo ra Lá Chắn Cicin.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 5 điểm Sát Thương Nguyên Tố Băng, nhân vật này bị Gán ấn Nguyên Tố Băng, tạo ra Lá Chắn Cicin.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này bị $[K201], tạo ra <color=#FFFFFFFF>$[C121012]</color>.",
-                    "descriptionreplaced": "Gây 5 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này bị <color=#99FFFFFF>Gán ấn {SPRITE_PRESET#2101}Nguyên Tố Băng</color>, tạo ra <color=#FFFFFFFF>Lá Chắn Cicin</color>.",
+                    "descriptionreplaced": "Gây 5 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, nhân vật này bị <color=#99FFFFFF>Gán ấn {SPRITE_PRESET#2101}Nguyên Tố Băng</color>, tạo ra <color=#FFFFFFFF>Lá Chắn Cicin</color>.",
                     "id": 21013,
                     "name": "Cành Băng Hoa Trắng",
                     "playcost": [
@@ -1299,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, nhân vật này nhận Hành Động Lén Lút.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa, nhân vật này nhận Hành Động Lén Lút.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C123011]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Hành Động Lén Lút</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, nhân vật này nhận <color=#FFFFFFFF>Hành Động Lén Lút</color>.",
                     "id": 23012,
                     "name": "Đợi Thời Cơ",
                     "playcost": [
@@ -1316,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 5 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 5 điểm Sát Thương Nguyên Tố Hỏa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 5 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 5 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>.",
                     "id": 23013,
                     "name": "Mũi Nhọn Thiêu Đốt",
                     "playcost": [
@@ -1389,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Oz.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Lôi, triệu hồi Oz.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C114011]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Oz</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, triệu hồi <color=#FFFFFFFF>Oz</color>.",
                     "id": 14012,
                     "name": "Cánh Chim Đêm",
                     "playcost": [
@@ -1406,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, gây 2 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của kẻ địch.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Lôi, gây 2 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của kẻ địch.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], gây 2 điểm <color=#FFFFFFFF>$[K5]</color> cho tất cả nhân vật dự bị của kẻ địch.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, gây 2 điểm <color=#FFFFFFFF><color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của kẻ địch.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, gây 2 điểm <color=#FFFFFFFF><color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của kẻ địch.",
                     "id": 14013,
                     "name": "Ảo Ảnh Bóng Đêm",
                     "playcost": [
@@ -1469,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, tạo 1 Sen Băng.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Băng, tạo 1 Sen Băng.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo 1 <color=#FFFFFFFF>$[C111012]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo 1 <color=#FFFFFFFF>Sen Băng</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, tạo 1 <color=#FFFFFFFF>Sen Băng</color>.",
                     "id": 11012,
                     "name": "Sơn Trạch Lân Tích",
                     "playcost": [
@@ -1486,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, gây 2 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của kẻ địch.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Băng, gây 2 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của kẻ địch.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], gây <color=#FFFFFFFF>2 điểm $[K5]</color> cho tất cả nhân vật dự bị của kẻ địch.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, gây <color=#FFFFFFFF>2 điểm <color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của kẻ địch.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, gây <color=#FFFFFFFF>2 điểm <color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của kẻ địch.",
                     "id": 11013,
                     "name": "Cung Sương Hoa",
                     "playcost": [
@@ -1503,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, gây cho tất cả kẻ địch dự bị 1 điểm Sát Thương Xuyên Thấu, triệu hồi Băng Linh Châu.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Băng, gây cho tất cả kẻ địch dự bị 1 điểm Sát Thương Xuyên Thấu, triệu hồi Băng Linh Châu.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], gây cho tất cả kẻ địch dự bị <color=#FFFFFFFF>1 điểm $[K5]</color>, triệu hồi <color=#FFFFFFFF>$[C111011]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, gây cho tất cả kẻ địch dự bị <color=#FFFFFFFF>1 điểm <color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color>, triệu hồi <color=#FFFFFFFF>Băng Linh Châu</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, gây cho tất cả kẻ địch dự bị <color=#FFFFFFFF>1 điểm <color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color>, triệu hồi <color=#FFFFFFFF>Băng Linh Châu</color>.",
                     "id": 11014,
                     "name": "Thiên Hoa Hạ Phàm",
                     "playcost": [
@@ -1581,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, chữa trị 2 điểm cho bản thân. Nếu nhân vật này HP không quá 6, thì sát thương và chữa trị gây ra đều sẽ +1.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Hỏa, chữa trị 2 điểm cho bản thân. Nếu nhân vật này HP không quá 6, thì sát thương và chữa trị gây ra đều sẽ +1.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], chữa trị 2 điểm cho bản thân. Nếu nhân vật này HP không quá 6, thì sát thương và chữa trị gây ra đều sẽ +1.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, chữa trị 2 điểm cho bản thân. Nếu nhân vật này HP không quá 6, thì sát thương và chữa trị gây ra đều sẽ +1.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, chữa trị 2 điểm cho bản thân. Nếu nhân vật này HP không quá 6, thì sát thương và chữa trị gây ra đều sẽ +1.",
                     "id": 13073,
                     "name": "An Thần Bí Pháp",
                     "playcost": [
@@ -1644,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Thảo.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>.",
                     "id": 27012,
                     "name": "Mây Bào Tử Bất Ổn",
                     "playcost": [
@@ -1661,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, tiêu hao tất cả số tầng Sức Sống Cấp Tiến, mỗi tầng khiến sát thương này +1.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Thảo, tiêu hao tất cả số tầng Sức Sống Cấp Tiến, mỗi tầng khiến sát thương này +1.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tiêu hao tất cả số tầng <color=#FFFFFFFF>$[C127011]</color>, mỗi tầng khiến sát thương này +1.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tiêu hao tất cả số tầng <color=#FFFFFFFF>Sức Sống Cấp Tiến</color>, mỗi tầng khiến sát thương này +1.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>, tiêu hao tất cả số tầng <color=#FFFFFFFF>Sức Sống Cấp Tiến</color>, mỗi tầng khiến sát thương này +1.",
                     "id": 27013,
                     "name": "Lông Vũ Tung Bay",
                     "playcost": [
@@ -1734,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, khiến đối phương đổi sang nhân vật tiếp theo.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Phong, khiến đối phương đổi sang nhân vật tiếp theo.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], khiến đối phương đổi sang nhân vật tiếp theo.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, khiến đối phương đổi sang nhân vật tiếp theo.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, khiến đối phương đổi sang nhân vật tiếp theo.",
                     "id": 15022,
                     "name": "Gió Cuộn Kiếm",
                     "playcost": [
@@ -1812,10 +1812,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, nhân vật này áp dụng Xua Tan Mây Mù.\nNếu kỹ năng này kích hoạt Khuếch Tán, sẽ chuyển Xua Tan Mây Mù thành loại nguyên tố bị Khuếch Tán.\nSau khi tổng kết kỹ năng này: Phe ta đổi sang nhân vật kế tiếp.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Phong, nhân vật này áp dụng Xua Tan Mây Mù.\nNếu kỹ năng này kích hoạt Khuếch Tán, sẽ chuyển Xua Tan Mây Mù thành loại nguyên tố bị Khuếch Tán.\nSau khi tổng kết kỹ năng này: Phe ta đổi sang nhân vật kế tiếp.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này áp dụng <color=#FFFFFFFF>$[C115051]</color>.\\nNếu kỹ năng này kích hoạt Khuếch Tán, sẽ chuyển <color=#FFFFFFFF>$[C115051]</color> thành loại nguyên tố bị Khuếch Tán.\\n<color=#FFFFFFFF>Sau khi tổng kết kỹ năng này:</color> Phe ta đổi sang nhân vật kế tiếp.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này áp dụng <color=#FFFFFFFF>Xua Tan Mây Mù</color>.\\nNếu kỹ năng này kích hoạt Khuếch Tán, sẽ chuyển <color=#FFFFFFFF>Xua Tan Mây Mù</color> thành loại nguyên tố bị Khuếch Tán.\\n<color=#FFFFFFFF>Sau khi tổng kết kỹ năng này:</color> Phe ta đổi sang nhân vật kế tiếp.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, nhân vật này áp dụng <color=#FFFFFFFF>Xua Tan Mây Mù</color>.\\nNếu kỹ năng này kích hoạt Khuếch Tán, sẽ chuyển <color=#FFFFFFFF>Xua Tan Mây Mù</color> thành loại nguyên tố bị Khuếch Tán.\\n<color=#FFFFFFFF>Sau khi tổng kết kỹ năng này:</color> Phe ta đổi sang nhân vật kế tiếp.",
                     "id": 15052,
                     "name": "Chihayaburu",
                     "playcost": [
@@ -1829,10 +1829,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, triệu hồi Một Khắc Gió Thu.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Phong, triệu hồi Một Khắc Gió Thu.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C115052]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Một Khắc Gió Thu</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, triệu hồi <color=#FFFFFFFF>Một Khắc Gió Thu</color>.",
                     "id": 15053,
                     "name": "Kazuha Nhất Đao Trảm",
                     "playcost": [
@@ -1902,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Băng.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>.",
                     "id": 11032,
                     "name": "Đột Kích Băng Giá",
                     "playcost": [
@@ -1919,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, tạo 1 Nhũ Băng Lạnh Giá.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Băng, tạo 1 Nhũ Băng Lạnh Giá.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo 1 <color=#FFFFFFFF>$[C111031]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo 1 <color=#FFFFFFFF>Nhũ Băng Lạnh Giá</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, tạo 1 <color=#FFFFFFFF>Nhũ Băng Lạnh Giá</color>.",
                     "id": 11033,
                     "name": "Vũ Điệu Giá Rét",
                     "playcost": [
@@ -1982,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Băng.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>.",
                     "id": 11052,
                     "name": "Trường Phái Kamisato - Hyouka",
                     "playcost": [
@@ -1999,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, triệu hồi Cổng Băng Tuyết.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Băng, triệu hồi Cổng Băng Tuyết.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C111051]</color>.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Cổng Băng Tuyết</color>.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, triệu hồi <color=#FFFFFFFF>Cổng Băng Tuyết</color>.",
                     "id": 11053,
                     "name": "Trường Phái Kamisato - Soumetsu",
                     "playcost": [
@@ -2072,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, nhân vật này nhận Takimeguri Kanka.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Thủy, nhân vật này nhận Takimeguri Kanka.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C112061]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Takimeguri Kanka</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, nhân vật này nhận <color=#FFFFFFFF>Takimeguri Kanka</color>.",
                     "id": 12062,
                     "name": "Trường Phái Kamisato - Kyouka",
                     "playcost": [
@@ -2089,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, triệu hồi Khu Vườn Thanh Tịnh.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Thủy, triệu hồi Khu Vườn Thanh Tịnh.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C112062]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Khu Vườn Thanh Tịnh</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, triệu hồi <color=#FFFFFFFF>Khu Vườn Thanh Tịnh</color>.",
                     "id": 12063,
                     "name": "Trường Phái Kamisato - Suiyuu",
                     "playcost": [
@@ -2152,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, tạo thẻ bài Đá Lôi.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Lôi, tạo thẻ bài Đá Lôi.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo thẻ bài <color=#FFFFFFFF>$[C114031]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo thẻ bài <color=#FFFFFFFF>Đá Lôi</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, tạo thẻ bài <color=#FFFFFFFF>Đá Lôi</color>.",
                     "id": 14032,
                     "name": "Tinh Đẩu Quy Vị",
                     "playcost": [
@@ -2169,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, gây 3 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của kẻ địch.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Lôi, gây 3 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của kẻ địch.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], gây <color=#FFFFFFFF>3 điểm $[K5]</color> cho tất cả nhân vật dự bị của kẻ địch.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, gây <color=#FFFFFFFF>3 điểm <color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của kẻ địch.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, gây <color=#FFFFFFFF>3 điểm <color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của kẻ địch.",
                     "id": 14033,
                     "name": "Tuần Du Thiên Nhai",
                     "playcost": [
@@ -2211,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>.",
                     "id": 13061,
                     "name": "Bằng Bằng",
                     "playcost": [
@@ -2232,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, nhân vật này nhận Hoa Tia Lửa.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, nhân vật này nhận Hoa Tia Lửa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C113061]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Hoa Tia Lửa</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, nhân vật này nhận <color=#FFFFFFFF>Hoa Tia Lửa</color>.",
                     "id": 13062,
                     "name": "Bom Nảy",
                     "playcost": [
@@ -2249,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, tạo ra Tia Lửa Mãnh Liệt trên sân đối phương.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, tạo ra Tia Lửa Mãnh Liệt trên sân đối phương.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo ra <color=#FFFFFFFF>$[C113063]</color> trên sân đối phương.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo ra <color=#FFFFFFFF>Tia Lửa Mãnh Liệt</color> trên sân đối phương.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, tạo ra <color=#FFFFFFFF>Tia Lửa Mãnh Liệt</color> trên sân đối phương.",
                     "id": 13063,
                     "name": "Tia Lửa Mãnh Liệt",
                     "playcost": [
@@ -2312,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Tengu Juurai - Phục Kích.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Lôi, triệu hồi Tengu Juurai - Phục Kích.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C114061]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Tengu Juurai - Phục Kích</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, triệu hồi <color=#FFFFFFFF>Tengu Juurai - Phục Kích</color>.",
                     "id": 14062,
                     "name": "Bão Sét Tengu",
                     "playcost": [
@@ -2329,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Tengu Juurai - Tụ Sấm.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Lôi, triệu hồi Tengu Juurai - Tụ Sấm.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C114062]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Tengu Juurai - Tụ Sấm</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, triệu hồi <color=#FFFFFFFF>Tengu Juurai - Tụ Sấm</color>.",
                     "id": 14063,
                     "name": "Bí Thức - Koukou Sendou",
                     "playcost": [
@@ -2422,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, kích hoạt tất cả hiệu quả vật triệu hồi của Kiếm Ảnh phe ta. (Không tiêu hao Số Lần Khả Dụng)",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Phong, kích hoạt tất cả hiệu quả vật triệu hồi của Kiếm Ảnh phe ta. (Không tiêu hao Số Lần Khả Dụng)",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], kích hoạt tất cả hiệu quả vật triệu hồi của <color=#FFFFFFFF>Kiếm Ảnh</color> phe ta. (Không tiêu hao Số Lần Khả Dụng)",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, kích hoạt tất cả hiệu quả vật triệu hồi của <color=#FFFFFFFF>Kiếm Ảnh</color> phe ta. (Không tiêu hao Số Lần Khả Dụng)",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, kích hoạt tất cả hiệu quả vật triệu hồi của <color=#FFFFFFFF>Kiếm Ảnh</color> phe ta. (Không tiêu hao Số Lần Khả Dụng)",
                     "id": 25014,
                     "name": "Tengu Càn Quét Giả Mạo",
                     "playcost": [
@@ -2464,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Thủy.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.",
                     "id": 22021,
                     "name": "Bóng Nước",
                     "playcost": [
@@ -2485,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, nhân vật mục tiêu nhận Gương Vỡ Phản Chiếu.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Thủy, nhân vật mục tiêu nhận Gương Vỡ Phản Chiếu.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật mục tiêu nhận <color=#FFFFFFFF>$[C122021]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật mục tiêu nhận <color=#FFFFFFFF>Gương Vỡ Phản Chiếu</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, nhân vật mục tiêu nhận <color=#FFFFFFFF>Gương Vỡ Phản Chiếu</color>.",
                     "id": 22022,
                     "name": "Sóng Nước Lan Tràn",
                     "playcost": [
@@ -2502,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 5 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 5 điểm Sát Thương Nguyên Tố Thủy.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 5 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 5 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.",
                     "id": 22023,
                     "name": "Phản Chiếu Gợn Sóng",
                     "playcost": [
@@ -2544,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Thủy.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.",
                     "id": 12031,
                     "name": "Điểm Hóa Nhân Quả",
                     "playcost": [
@@ -2565,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Hư Ảnh.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Thủy, triệu hồi Hư Ảnh.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C112031]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Hư Ảnh</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, triệu hồi <color=#FFFFFFFF>Hư Ảnh</color>.",
                     "id": 12032,
                     "name": "Ảo Vọng Dưới Nước",
                     "playcost": [
@@ -2582,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, tạo ra Hư Vô.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Thủy, tạo ra Hư Vô.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo ra <color=#FFFFFFFF>$[C112032]</color>.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo ra <color=#FFFFFFFF>Hư Vô</color>.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, tạo ra <color=#FFFFFFFF>Hư Vô</color>.",
                     "id": 12033,
                     "name": "Quỹ Đạo Tinh Mệnh",
                     "playcost": [
@@ -2634,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Thảo.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>.",
                     "id": 17031,
                     "name": "Akara",
                     "playcost": [
@@ -2655,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, nhân vật mục tiêu bị áp dụng Hạt Giống Skandha; Nếu trước đó mà nhân vật mục tiêu đã bị áp dụng Hạt Giống Skandha, thì sẽ đổi thành áp dụng Hạt Giống Skandha cho tất cả nhân vật phe địch.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Thảo, nhân vật mục tiêu bị áp dụng Hạt Giống Skandha; Nếu trước đó mà nhân vật mục tiêu đã bị áp dụng Hạt Giống Skandha, thì sẽ đổi thành áp dụng Hạt Giống Skandha cho tất cả nhân vật phe địch.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật mục tiêu bị áp dụng <color=#FFFFFFFF>$[C117031]</color>; Nếu trước đó mà nhân vật mục tiêu đã bị áp dụng <color=#FFFFFFFF>$[C117031]</color>, thì sẽ đổi thành áp dụng <color=#FFFFFFFF>$[C117031]</color> cho tất cả nhân vật phe địch.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật mục tiêu bị áp dụng <color=#FFFFFFFF>Hạt Giống Skandha</color>; Nếu trước đó mà nhân vật mục tiêu đã bị áp dụng <color=#FFFFFFFF>Hạt Giống Skandha</color>, thì sẽ đổi thành áp dụng <color=#FFFFFFFF>Hạt Giống Skandha</color> cho tất cả nhân vật phe địch.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>, nhân vật mục tiêu bị áp dụng <color=#FFFFFFFF>Hạt Giống Skandha</color>; Nếu trước đó mà nhân vật mục tiêu đã bị áp dụng <color=#FFFFFFFF>Hạt Giống Skandha</color>, thì sẽ đổi thành áp dụng <color=#FFFFFFFF>Hạt Giống Skandha</color> cho tất cả nhân vật phe địch.",
                     "id": 17032,
                     "name": "Lắng Nghe Thế Gian",
                     "playcost": [
@@ -2672,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, tất cả nhân vật phe địch bị áp dụng Hạt Giống Skandha.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Thảo, tất cả nhân vật phe địch bị áp dụng Hạt Giống Skandha.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tất cả nhân vật phe địch bị áp dụng <color=#FFFFFFFF>$[C117031]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tất cả nhân vật phe địch bị áp dụng <color=#FFFFFFFF>Hạt Giống Skandha</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>, tất cả nhân vật phe địch bị áp dụng <color=#FFFFFFFF>Hạt Giống Skandha</color>.",
                     "id": 17033,
                     "name": "Lắng Nghe Thế Gian - Tathata",
                     "playcost": [
@@ -2689,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, tạo 1 Cung Điện Maya.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Thảo, tạo 1 Cung Điện Maya.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo 1 <color=#FFFFFFFF>$[C117032]</color>.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo 1 <color=#FFFFFFFF>Cung Điện Maya</color>.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>, tạo 1 <color=#FFFFFFFF>Cung Điện Maya</color>.",
                     "id": 17034,
                     "name": "Ảo Ảnh Tâm Can",
                     "playcost": [
@@ -2731,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Nham.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>.",
                     "id": 16011,
                     "name": "Ngàn Vàng Lấp Lánh",
                     "playcost": [
@@ -2752,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, tạo ra Vách Toàn Cơ.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Nham, tạo ra Vách Toàn Cơ.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo ra <color=#FFFFFFFF>$[C116011]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo ra <color=#FFFFFFFF>Vách Toàn Cơ</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>, tạo ra <color=#FFFFFFFF>Vách Toàn Cơ</color>.",
                     "id": 16012,
                     "name": "Vách Toàn Cơ",
                     "playcost": [
@@ -2769,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 6 điểm Sát Thương Vật Lý; Nếu Vách Toàn Cơ trong trận sẽ khiến sát thương này +2.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 6 điểm Sát Thương Nguyên Tố Nham; Nếu Vách Toàn Cơ trong trận sẽ khiến sát thương này +2.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT]; Nếu <color=#FFFFFFFF>$[C116011]</color> trong trận sẽ khiến sát thương này +2.",
-                    "descriptionreplaced": "Gây 6 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>; Nếu <color=#FFFFFFFF>Vách Toàn Cơ</color> trong trận sẽ khiến sát thương này +2.",
+                    "descriptionreplaced": "Gây 6 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>; Nếu <color=#FFFFFFFF>Vách Toàn Cơ</color> trong trận sẽ khiến sát thương này +2.",
                     "id": 16013,
                     "name": "Thiên Quyền Băng Ngọc",
                     "playcost": [
@@ -2832,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, tạo 1 Giáp Nham Hộ Thể.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Nham, tạo 1 Giáp Nham Hộ Thể.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo 1 <color=#FFFFFFFF>$[C116021]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo 1 <color=#FFFFFFFF>Giáp Nham Hộ Thể</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>, tạo 1 <color=#FFFFFFFF>Giáp Nham Hộ Thể</color>.",
                     "id": 16022,
                     "name": "Giáp Hộ Tâm",
                     "playcost": [
@@ -2849,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, nhân vật này nhận Quét Sạch.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Nham, nhân vật này nhận Quét Sạch.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C116022]</color>.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Quét Sạch</color>.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>, nhân vật này nhận <color=#FFFFFFFF>Quét Sạch</color>.",
                     "id": 16023,
                     "name": "Quét Sạch",
                     "playcost": [
@@ -2927,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, các nhân vật khác của phe ta nhận 2 điểm Năng Lượng.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Lôi, các nhân vật khác của phe ta nhận 2 điểm Năng Lượng.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], các nhân vật khác của phe ta nhận 2 điểm $[K310].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, các nhân vật khác của phe ta nhận 2 điểm <color=#FFFFFFFF>{SPRITE_PRESET#1110}Năng Lượng</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, các nhân vật khác của phe ta nhận 2 điểm <color=#FFFFFFFF>{SPRITE_PRESET#1110}Năng Lượng</color>.",
                     "id": 14073,
                     "name": "Bí Kỹ - Mộng Tưởng Chân Thuyết",
                     "playcost": [
@@ -3000,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Lôi.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.",
                     "id": 14022,
                     "name": "Vuốt Và Sấm",
                     "playcost": [
@@ -3017,10 +3017,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, nhân vật này nhận Lôi Lang.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Lôi, nhân vật này nhận Lôi Lang.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C114021]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Lôi Lang</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, nhân vật này nhận <color=#FFFFFFFF>Lôi Lang</color>.",
                     "id": 14023,
                     "name": "Răng Sét",
                     "playcost": [
@@ -3059,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Thủy.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.",
                     "id": 22011,
                     "name": "Dâng Trào",
                     "playcost": [
@@ -3110,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý; Phe ta mỗi có 1 vật triệu hồi sẽ khiến sát thương này +2.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Thủy; Phe ta mỗi có 1 vật triệu hồi sẽ khiến sát thương này +2.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT]; Phe ta mỗi có 1 vật triệu hồi sẽ khiến sát thương này +2.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>; Phe ta mỗi có 1 vật triệu hồi sẽ khiến sát thương này +2.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>; Phe ta mỗi có 1 vật triệu hồi sẽ khiến sát thương này +2.",
                     "id": 22014,
                     "name": "Dâng Trào Và Kích Lưu",
                     "playcost": [
@@ -3152,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Thủy.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.",
                     "id": 12051,
                     "name": "Hình Dạng Nước Trong",
                     "playcost": [
@@ -3188,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, chữa trị 1 điểm cho tất cả nhân vật phe ta, nhân vật này áp dụng Lễ Phục Nghi Thức.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Thủy, chữa trị 1 điểm cho tất cả nhân vật phe ta, nhân vật này áp dụng Lễ Phục Nghi Thức.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], chữa trị 1 điểm cho tất cả nhân vật phe ta, nhân vật này áp dụng <color=#FFFFFFFF>$[C112052]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, chữa trị 1 điểm cho tất cả nhân vật phe ta, nhân vật này áp dụng <color=#FFFFFFFF>Lễ Phục Nghi Thức</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, chữa trị 1 điểm cho tất cả nhân vật phe ta, nhân vật này áp dụng <color=#FFFFFFFF>Lễ Phục Nghi Thức</color>.",
                     "id": 12053,
                     "name": "Nghi Lễ Nereid",
                     "playcost": [
@@ -3251,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, tạo 1 Băng Linh.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Băng, tạo 1 Băng Linh.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo 1 <color=#FFFFFFFF>$[C111071]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo 1 <color=#FFFFFFFF>Băng Linh</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, tạo 1 <color=#FFFFFFFF>Băng Linh</color>.",
                     "id": 11072,
                     "name": "Triệu Tướng Dịch Chú",
                     "playcost": [
@@ -3268,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Lục Linh.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Băng, triệu hồi Lục Linh.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C111073]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Lục Linh</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, triệu hồi <color=#FFFFFFFF>Lục Linh</color>.",
                     "id": 11073,
                     "name": "Thần Nữ Khiển Linh Quyết",
                     "playcost": [
@@ -3402,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Phong.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.",
                     "id": 15011,
                     "name": "Gió Thần Sáng Tạo",
                     "playcost": [
@@ -3423,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, khiến đối phương đổi đến nhân vật trước đó.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Phong, khiến đối phương đổi đến nhân vật trước đó.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], khiến đối phương đổi đến nhân vật trước đó.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, khiến đối phương đổi đến nhân vật trước đó.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, khiến đối phương đổi đến nhân vật trước đó.",
                     "id": 15012,
                     "name": "Gió Thần Sáng Tạo 6308",
                     "playcost": [
@@ -3440,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Phong Linh Cỡ Lớn.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Phong, triệu hồi Phong Linh Cỡ Lớn.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C115011]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Phong Linh Cỡ Lớn</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, triệu hồi <color=#FFFFFFFF>Phong Linh Cỡ Lớn</color>.",
                     "id": 15013,
                     "name": "Cấm-Gió Thần Sáng Tạo-75 Loại 2",
                     "playcost": [
@@ -3503,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Đổi thành Cận Chiến, sau đó gây 2 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Đổi thành Cận Chiến, sau đó gây 2 điểm Sát Thương Nguyên Tố Thủy.",
                     "descriptionraw": "Đổi thành <color=#FFFFFFFF>$[C112042]</color>, sau đó gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Đổi thành <color=#FFFFFFFF>Cận Chiến</color>, sau đó gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Đổi thành <color=#FFFFFFFF>Cận Chiến</color>, sau đó gây 2 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.",
                     "id": 12042,
                     "name": "Trang Phục Ma Vương - Thủy Triều",
                     "playcost": [
@@ -3520,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Căn cứ trạng thái hiện tại của Tartaglia, tiến hành các loại tấn công khác nhau:\nTrạng thái đánh xa - Đạn Ma: Gây 4 điểm Sát Thương Vật Lý, hoàn trả 2 điểm Năng Lượng, áp dụng Đoạn Lưu cho nhân vật mục tiêu.\nTrạng thái cận chiến - Tận Diệt Thủy Quang: Gây 7 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Căn cứ trạng thái hiện tại của Tartaglia, tiến hành các loại tấn công khác nhau:\nTrạng thái đánh xa - Đạn Ma: Gây 4 điểm Sát Thương Nguyên Tố Thủy, hoàn trả 2 điểm Năng Lượng, áp dụng Đoạn Lưu cho nhân vật mục tiêu.\nTrạng thái cận chiến - Tận Diệt Thủy Quang: Gây 7 điểm Sát Thương Nguyên Tố Thủy.",
                     "descriptionraw": "Căn cứ trạng thái hiện tại của <color=#FFFFFFFF>$[A1204]</color>, tiến hành các loại tấn công khác nhau:\\n<color=#FFFFFFFF>Trạng thái đánh xa - Đạn Ma:</color> Gây $[D__KEY__DAMAGE_4] điểm $[D__KEY__ELEMENT], hoàn trả 2 điểm $[K310], áp dụng <color=#FFFFFFFF>$[C112043]</color> cho nhân vật mục tiêu.\\n<color=#FFFFFFFF>Trạng thái cận chiến - Tận Diệt Thủy Quang:</color> Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Căn cứ trạng thái hiện tại của <color=#FFFFFFFF>Tartaglia</color>, tiến hành các loại tấn công khác nhau:\\n<color=#FFFFFFFF>Trạng thái đánh xa - Đạn Ma:</color> Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, hoàn trả 2 điểm <color=#FFFFFFFF>{SPRITE_PRESET#1110}Năng Lượng</color>, áp dụng <color=#FFFFFFFF>Đoạn Lưu</color> cho nhân vật mục tiêu.\\n<color=#FFFFFFFF>Trạng thái cận chiến - Tận Diệt Thủy Quang:</color> Gây 7 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Căn cứ trạng thái hiện tại của <color=#FFFFFFFF>Tartaglia</color>, tiến hành các loại tấn công khác nhau:\\n<color=#FFFFFFFF>Trạng thái đánh xa - Đạn Ma:</color> Gây 4 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, hoàn trả 2 điểm <color=#FFFFFFFF>{SPRITE_PRESET#1110}Năng Lượng</color>, áp dụng <color=#FFFFFFFF>Đoạn Lưu</color> cho nhân vật mục tiêu.\\n<color=#FFFFFFFF>Trạng thái cận chiến - Tận Diệt Thủy Quang:</color> Gây 7 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>.",
                     "id": 12043,
                     "name": "Kỹ Năng Thượng Thừa - Ánh Sáng Tận Diệt",
                     "playcost": [
@@ -3613,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, nhân vật này nhận Vijnana Lan Tràn.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Thảo, nhân vật này nhận Vijnana Lan Tràn.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C117021]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Vijnana Lan Tràn</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>, nhân vật này nhận <color=#FFFFFFFF>Vijnana Lan Tràn</color>.",
                     "id": 17022,
                     "name": "Hạt Giống Vijnana-Phala",
                     "playcost": [
@@ -3630,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, gây 1 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của kẻ địch.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Thảo, gây 1 điểm Sát Thương Xuyên Thấu cho tất cả nhân vật dự bị của kẻ địch.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], gây 1 điểm <color=#FFFFFFFF>$[K5]</color> cho tất cả nhân vật dự bị của kẻ địch.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, gây 1 điểm <color=#FFFFFFFF><color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của kẻ địch.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2107}<color=#7EC236FF>Sát Thương Nguyên Tố Thảo</color>, gây 1 điểm <color=#FFFFFFFF><color=#FFFFFFFF>Sát Thương Xuyên Thấu</color></color> cho tất cả nhân vật dự bị của kẻ địch.",
                     "id": 17023,
                     "name": "Dây Leo Sinh Trưởng",
                     "playcost": [
@@ -3693,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, tạo 1 Vùng Gió.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Phong, tạo 1 Vùng Gió.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo 1 <color=#FFFFFFFF>$[C115031]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo 1 <color=#FFFFFFFF>Vùng Gió</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, tạo 1 <color=#FFFFFFFF>Vùng Gió</color>.",
                     "id": 15032,
                     "name": "Bài Ca Trời Cao",
                     "playcost": [
@@ -3710,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý, triệu hồi Mắt Bão.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Phong, triệu hồi Mắt Bão.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C115034]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Mắt Bão</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, triệu hồi <color=#FFFFFFFF>Mắt Bão</color>.",
                     "id": 15033,
                     "name": "Bài Thơ Thần Gió",
                     "playcost": [
@@ -3788,10 +3788,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, tạo ra Bánh Xe Lửa.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, tạo ra Bánh Xe Lửa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo ra <color=#FFFFFFFF>$[C113022]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo ra <color=#FFFFFFFF>Bánh Xe Lửa</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, tạo ra <color=#FFFFFFFF>Bánh Xe Lửa</color>.",
                     "id": 13023,
                     "name": "Bánh Xe Lửa",
                     "playcost": [
@@ -3851,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Phong.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>.",
                     "id": 15042,
                     "name": "Đôi Bánh Xe Gió",
                     "playcost": [
@@ -3868,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, nhân vật này nhận Mặt Nạ Dạ Xoa.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Phong, nhân vật này nhận Mặt Nạ Dạ Xoa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C115041]</color>.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Mặt Nạ Dạ Xoa</color>.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2105}<color=#80FFD7FF>Sát Thương Nguyên Tố Phong</color>, nhân vật này nhận <color=#FFFFFFFF>Mặt Nạ Dạ Xoa</color>.",
                     "id": 15043,
                     "name": "Vũ Điệu Trừ Yêu",
                     "playcost": [
@@ -3931,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 2 điểm Sát Thương Vật Lý，nhân vật này nhận Gán ấn Nguyên Tố Thủy, tạo 1 Vũ Liêm Kiếm.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Thủy，nhân vật này nhận Gán ấn Nguyên Tố Thủy, tạo 1 Vũ Liêm Kiếm.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT]，nhân vật này nhận $[K202], tạo 1 <color=#FFFFFFFF>$[C112021]</color>.",
-                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>，nhân vật này nhận <color=#80C0FFFF>Gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy</color>, tạo 1 <color=#FFFFFFFF>Vũ Liêm Kiếm</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>，nhân vật này nhận <color=#80C0FFFF>Gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy</color>, tạo 1 <color=#FFFFFFFF>Vũ Liêm Kiếm</color>.",
                     "id": 12022,
                     "name": "Họa Vũ Lung Sơn",
                     "playcost": [
@@ -3948,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, nhân vật này nhận Gán ấn Nguyên Tố Thủy, tạo ra Kiếm Cầu Vồng.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Thủy, nhân vật này nhận Gán ấn Nguyên Tố Thủy, tạo ra Kiếm Cầu Vồng.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận $[K202], tạo ra <color=#FFFFFFFF>$[C112022]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#80C0FFFF>Gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy</color>, tạo ra <color=#FFFFFFFF>Kiếm Cầu Vồng</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2102}<color=#80C0FFFF>Sát Thương Nguyên Tố Thủy</color>, nhân vật này nhận <color=#80C0FFFF>Gán ấn {SPRITE_PRESET#2102}Nguyên Tố Thủy</color>, tạo ra <color=#FFFFFFFF>Kiếm Cầu Vồng</color>.",
                     "id": 12023,
                     "name": "Tài Vũ Lưu Hồng",
                     "playcost": [
@@ -3990,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Lôi.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.",
                     "id": 14081,
                     "name": "Hồ Linh Thực Tội Thức",
                     "playcost": [
@@ -4026,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý; Nếu khu vực phe ta có Sesshou Sakura, sẽ tiêu diệt nó, sau đó sinh ra Thiên Hồ Lôi Đình.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Lôi; Nếu khu vực phe ta có Sesshou Sakura, sẽ tiêu diệt nó, sau đó sinh ra Thiên Hồ Lôi Đình.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT]; Nếu khu vực phe ta có <color=#FFFFFFFF>$[C114081]</color>, sẽ tiêu diệt nó, sau đó sinh ra <color=#FFFFFFFF>$[C114083]</color>.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>; Nếu khu vực phe ta có <color=#FFFFFFFF>Sesshou Sakura</color>, sẽ tiêu diệt nó, sau đó sinh ra <color=#FFFFFFFF>Thiên Hồ Lôi Đình</color>.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>; Nếu khu vực phe ta có <color=#FFFFFFFF>Sesshou Sakura</color>, sẽ tiêu diệt nó, sau đó sinh ra <color=#FFFFFFFF>Thiên Hồ Lôi Đình</color>.",
                     "id": 14083,
                     "name": "Đại Bí Pháp - Tenko Kenshin",
                     "playcost": [
@@ -4068,10 +4068,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>.",
                     "id": 13081,
                     "name": "Hỏa Ấn",
                     "playcost": [
@@ -4089,10 +4089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, nhân vật này nhận Đan Hỏa Ấn.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, nhân vật này nhận Đan Hỏa Ấn.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C113081]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Đan Hỏa Ấn</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, nhân vật này nhận <color=#FFFFFFFF>Đan Hỏa Ấn</color>.",
                     "id": 13082,
                     "name": "Sắc Lệnh Đã Ký",
                     "playcost": [
@@ -4106,10 +4106,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, nhân vật này nhận Đan Hỏa Ấn và Bỏng Cháy.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, nhân vật này nhận Đan Hỏa Ấn và Bỏng Cháy.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật này nhận <color=#FFFFFFFF>$[C113081]</color> và <color=#FFFFFFFF>$[C113082]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật này nhận <color=#FFFFFFFF>Đan Hỏa Ấn</color> và <color=#FFFFFFFF>Bỏng Cháy</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, nhân vật này nhận <color=#FFFFFFFF>Đan Hỏa Ấn</color> và <color=#FFFFFFFF>Bỏng Cháy</color>.",
                     "id": 13083,
                     "name": "Khế Ước Đã Định",
                     "playcost": [
@@ -4184,10 +4184,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, tạo ra Lưu Kim Hoả Quang.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, tạo ra Lưu Kim Hoả Quang.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo ra <color=#FFFFFFFF>$[C113052]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, tạo ra <color=#FFFFFFFF>Lưu Kim Hoả Quang</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2103}<color=#FF9999FF>Sát Thương Nguyên Tố Hỏa</color>, tạo ra <color=#FFFFFFFF>Lưu Kim Hoả Quang</color>.",
                     "id": 13053,
                     "name": "Cỏ Ryuukin",
                     "playcost": [
@@ -4247,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 1 điểm Sát Thương Vật Lý, triệu hồi Vách Đá.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Nham, triệu hồi Vách Đá.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C116031]</color>.",
-                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Vách Đá</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>, triệu hồi <color=#FFFFFFFF>Vách Đá</color>.",
                     "id": 16032,
                     "name": "Tâm Trái Đất",
                     "playcost": [
@@ -4264,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 3 điểm Sát Thương Vật Lý, triệu hồi Vách Đá, tạo ra Khiên Ngọc.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Nham, triệu hồi Vách Đá, tạo ra Khiên Ngọc.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C116031]</color>, tạo ra <color=#FFFFFFFF>$[C116032]</color>.",
-                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, triệu hồi <color=#FFFFFFFF>Vách Đá</color>, tạo ra <color=#FFFFFFFF>Khiên Ngọc</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>, triệu hồi <color=#FFFFFFFF>Vách Đá</color>, tạo ra <color=#FFFFFFFF>Khiên Ngọc</color>.",
                     "id": 16033,
                     "name": "Tâm Trái Đất - Hùng Vĩ",
                     "playcost": [
@@ -4281,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Gây 4 điểm Sát Thương Vật Lý, nhân vật mục tiêu bị Hóa Thạch.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Nham, nhân vật mục tiêu bị Hóa Thạch.",
                     "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nhân vật mục tiêu bị <color=#FFFFFFFF>$[C116033]</color>.",
-                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>, nhân vật mục tiêu bị <color=#FFFFFFFF>Hóa Thạch</color>.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>, nhân vật mục tiêu bị <color=#FFFFFFFF>Hóa Thạch</color>.",
                     "id": 16034,
                     "name": "Thiên Tinh",
                     "playcost": [

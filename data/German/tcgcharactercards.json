@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 1 Pkt. Pyro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>.",
                     "id": 23021,
                     "name": "Erlösende Flamme",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>.",
                     "id": 23022,
                     "name": "Glühendes Gebot",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erschafft 1 Ofen des Dunkelfeuers.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-SCH, erschafft 1 Ofen des Dunkelfeuers.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C123021]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Ofen des Dunkelfeuers</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Ofen des Dunkelfeuers</color>.",
                     "id": 23023,
                     "name": "Omen des Himmelstods",
                     "playcost": [
@@ -134,10 +134,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. durchdringenden SCH zu.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 2 Pkt. Pyro-SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. durchdringenden SCH zu.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren des Gegners 2 Pkt. <color=#FFFFFFFF>$[K5|s1]</color> zu.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, fügt allen inaktiven Figuren des Gegners 2 Pkt. <color=#FFFFFFFF><color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, fügt allen inaktiven Figuren des Gegners 2 Pkt. <color=#FFFFFFFF><color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
                     "id": 13043,
                     "name": "Pfeilregen",
                     "playcost": [
@@ -197,10 +197,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Ushi, erhält selbst Superstarke Superkraft.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 1 Pkt. Geo-SCH, erschafft 1 Ushi, erhält selbst Superstarke Superkraft.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C116051]</color>, erhält selbst <color=#FFFFFFFF>$[C116054]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Ushi</color>, erhält selbst <color=#FFFFFFFF>Superstarke Superkraft</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Ushi</color>, erhält selbst <color=#FFFFFFFF>Superstarke Superkraft</color>.",
                     "id": 16052,
                     "name": "Masatsu Zetsugi – Akaushi-Wurf!",
                     "playcost": [
@@ -214,10 +214,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 5 Pkt. phys. SCH, erhält selbst Wütender Oni-König.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 5 Pkt. Geo-SCH, erhält selbst Wütender Oni-König.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C116053]</color>.",
-                    "descriptionreplaced": "Verursacht 5 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Wütender Oni-König</color>.",
+                    "descriptionreplaced": "Verursacht 5 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>, erhält selbst <color=#FFFFFFFF>Wütender Oni-König</color>.",
                     "id": 16053,
                     "name": "Schrecklicher Oni-König – Itto bricht vor!",
                     "playcost": [
@@ -256,10 +256,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 1 Pkt. Hydro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>.",
                     "id": 12011,
                     "name": "Stille Wasser",
                     "playcost": [
@@ -277,10 +277,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Singender Kreis.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 1 Pkt. Hydro-SCH, erschafft 1 Singender Kreis.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C112011]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Singender Kreis</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Singender Kreis</color>.",
                     "id": 12012,
                     "name": "Die Darbietung beginnt ♪",
                     "playcost": [
@@ -370,10 +370,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Donnerschild.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 2 Pkt. Elektro-SCH, erschafft 1 Donnerschild.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C114053]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Donnerschild</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Donnerschild</color>.",
                     "id": 14053,
                     "name": "Blitzbrecher",
                     "playcost": [
@@ -391,10 +391,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "(Die Vorbereitung dauert 1 Zug)\nVerursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "(Die Vorbereitung dauert 1 Zug)\nVerursacht 3 Pkt. Elektro-SCH.",
                     "descriptionraw": "(Die Vorbereitung dauert 1 Zug)\\nVerursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "(Die Vorbereitung dauert 1 Zug)\\nVerursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "(Die Vorbereitung dauert 1 Zug)\\nVerursacht 3 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>.",
                     "id": 14054,
                     "name": "Gebieter der Gezeiten",
                     "playcost": [],
@@ -445,10 +445,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>.",
                     "id": 13032,
                     "name": "Überschwänglichkeit",
                     "playcost": [
@@ -462,10 +462,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Feld der Aufmunterung.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 2 Pkt. Pyro-SCH, erschafft 1 Feld der Aufmunterung.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C113031]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Feld der Aufmunterung</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Feld der Aufmunterung</color>.",
                     "id": 13033,
                     "name": "Fantastische Reise",
                     "playcost": [
@@ -540,10 +540,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Gebet der roten Krone.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 2 Pkt. Hydro-SCH, erschafft 1 Gebet der roten Krone.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C112072]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Gebet der roten Krone</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Gebet der roten Krone</color>.",
                     "id": 12073,
                     "name": "Heiliger Ritus – Bachstelzenflut",
                     "playcost": [
@@ -561,10 +561,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "(Die Vorbereitung dauert 1 Zug)\nVerursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "(Die Vorbereitung dauert 1 Zug)\nVerursacht 3 Pkt. Hydro-SCH.",
                     "descriptionraw": "(Die Vorbereitung dauert 1 Zug)\\nVerursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "(Die Vorbereitung dauert 1 Zug)\\nVerursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "(Die Vorbereitung dauert 1 Zug)\\nVerursacht 3 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>.",
                     "id": 12074,
                     "name": "Angriff des Reihers",
                     "playcost": [],
@@ -615,10 +615,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erschafft 1 Schichtfrost-Feld.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 3 Pkt. Kryo-SCH, erschafft 1 Schichtfrost-Feld.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C111041]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Schichtfrost-Feld</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Schichtfrost-Feld</color>.",
                     "id": 11042,
                     "name": "Schichtfrost",
                     "playcost": [
@@ -632,10 +632,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 7 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 7 Pkt. Kryo-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 7 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 7 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>.",
                     "id": 11043,
                     "name": "Wolken teilender Stern",
                     "playcost": [
@@ -695,10 +695,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 3 Pkt. Dendro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>.",
                     "id": 17012,
                     "name": "Der Kämpferin Laub",
                     "playcost": [
@@ -712,10 +712,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Cuilein-Anbar.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 2 Pkt. Dendro-SCH, erschafft 1 Cuilein-Anbar.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C117011]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Cuilein-Anbar</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Cuilein-Anbar</color>.",
                     "id": 17013,
                     "name": "Geheimer Katzenschatz",
                     "playcost": [
@@ -775,10 +775,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 3 Pkt. Elektro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>.",
                     "id": 14042,
                     "name": "Geheimer Ritus – Abgründiger Seelenwanderer",
                     "playcost": [
@@ -792,10 +792,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH,\nVerwandlungstufe von Paktverschworener Pfadklärer +2.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 4 Pkt. Elektro-SCH,\nVerwandlungstufe von Paktverschworener Pfadklärer +2.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1],\\nVerwandlungstufe von <color=#FFFFFFFF>$[C114041]</color> +2.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>,\\nVerwandlungstufe von <color=#FFFFFFFF>Paktverschworener Pfadklärer</color> +2.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>,\\nVerwandlungstufe von <color=#FFFFFFFF>Paktverschworener Pfadklärer</color> +2.",
                     "id": 14043,
                     "name": "Heiliger Ritus – Schnelligkeit des Wolfs",
                     "playcost": [
@@ -865,10 +865,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH. Schaden +2, wenn diese Fähigkeit zum 3. Mal in 1 Runde angewendet wird.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-SCH. Schaden +2, wenn diese Fähigkeit zum 3. Mal in 1 Runde angewendet wird.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1]. Schaden +2, wenn diese Fähigkeit zum 3. Mal in 1 Runde angewendet wird.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>. Schaden +2, wenn diese Fähigkeit zum 3. Mal in 1 Runde angewendet wird.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>. Schaden +2, wenn diese Fähigkeit zum 3. Mal in 1 Runde angewendet wird.",
                     "id": 13012,
                     "name": "Sengende Klinge",
                     "playcost": [
@@ -882,10 +882,10 @@
                 },
                 {
                     "basedamage": 8,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 8 Pkt. phys. SCH, verleiht der Figur die Pyro-Kraft.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 8 Pkt. Pyro-SCH, verleiht der Figur die Pyro-Kraft.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], verleiht der Figur die <color=#FFFFFFFF>$[C113011]</color>.",
-                    "descriptionreplaced": "Verursacht 8 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, verleiht der Figur die <color=#FFFFFFFF>Pyro-Kraft</color>.",
+                    "descriptionreplaced": "Verursacht 8 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, verleiht der Figur die <color=#FFFFFFFF>Pyro-Kraft</color>.",
                     "id": 13013,
                     "name": "Dämmerung",
                     "playcost": [
@@ -945,10 +945,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Pfoten-Schild.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 2 Pkt. Kryo-SCH, erschafft 1 Pfoten-Schild.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C111021]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Pfoten-Schild</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Pfoten-Schild</color>.",
                     "id": 11022,
                     "name": "Eistatzen",
                     "playcost": [
@@ -962,10 +962,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, stellt 2 LP der Figur wieder her, erschafft 1 Kältedunstfeld.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 1 Pkt. Kryo-SCH, stellt 2 LP der Figur wieder her, erschafft 1 Kältedunstfeld.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], stellt 2 LP der Figur wieder her, erschafft 1 <color=#FFFFFFFF>$[C111023]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, stellt 2 LP der Figur wieder her, erschafft 1 <color=#FFFFFFFF>Kältedunstfeld</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, stellt 2 LP der Figur wieder her, erschafft 1 <color=#FFFFFFFF>Kältedunstfeld</color>.",
                     "id": 11023,
                     "name": "Eisgekühlter Branntwein",
                     "playcost": [
@@ -1004,10 +1004,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 1 Pkt. Elektro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>.",
                     "id": 24011,
                     "name": "Elektro-Kristall-Projektion",
                     "playcost": [
@@ -1025,10 +1025,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, bereitet folgende Fähigkeit vor: Schnick-Schnack-Schnuck – Schere und Schnick-Schnack-Schnuck – Papier.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 2 Pkt. Elektro-SCH, bereitet folgende Fähigkeit vor: Schnick-Schnack-Schnuck – Schere und Schnick-Schnack-Schnuck – Papier.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], $[K53|s1]: <color=#FFFFFFFF>$[S24015]</color> und <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, <color=#FFFFFFFF>bereitet folgende Fähigkeit vor</color>: <color=#FFFFFFFF>Schnick-Schnack-Schnuck – Schere</color> und <color=#FFFFFFFF>Schnick-Schnack-Schnuck – Papier</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, <color=#FFFFFFFF>bereitet folgende Fähigkeit vor</color>: <color=#FFFFFFFF>Schnick-Schnack-Schnuck – Schere</color> und <color=#FFFFFFFF>Schnick-Schnack-Schnuck – Papier</color>.",
                     "id": 24012,
                     "name": "Schnick-Schnack-Schnuck",
                     "playcost": [
@@ -1042,10 +1042,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Reich der Donnerketten.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 2 Pkt. Elektro-SCH, erschafft 1 Reich der Donnerketten.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C124013]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Reich der Donnerketten</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Reich der Donnerketten</color>.",
                     "id": 24013,
                     "name": "Donnernde Ketten",
                     "playcost": [
@@ -1073,10 +1073,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, bereitet folgende Fähigkeit vor: Schnick-Schnack-Schnuck – Papier.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 2 Pkt. Elektro-SCH, bereitet folgende Fähigkeit vor: Schnick-Schnack-Schnuck – Papier.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], $[K53|s1]: <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, <color=#FFFFFFFF>bereitet folgende Fähigkeit vor</color>: <color=#FFFFFFFF>Schnick-Schnack-Schnuck – Papier</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, <color=#FFFFFFFF>bereitet folgende Fähigkeit vor</color>: <color=#FFFFFFFF>Schnick-Schnack-Schnuck – Papier</color>.",
                     "id": 24015,
                     "name": "Schnick-Schnack-Schnuck – Schere",
                     "playcost": [],
@@ -1085,10 +1085,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 3 Pkt. Elektro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>.",
                     "id": 24016,
                     "name": "Schnick-Schnack-Schnuck – Papier",
                     "playcost": [],
@@ -1139,10 +1139,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH. Verleiht der Figur Kaltes Herz, wenn sie nicht damit ausgerüstet ist.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 2 Pkt. Kryo-SCH. Verleiht der Figur Kaltes Herz, wenn sie nicht damit ausgerüstet ist.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1]. Verleiht der Figur <color=#FFFFFFFF>$[C111061]</color>, wenn sie nicht damit ausgerüstet ist.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>. Verleiht der Figur <color=#FFFFFFFF>Kaltes Herz</color>, wenn sie nicht damit ausgerüstet ist.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>. Verleiht der Figur <color=#FFFFFFFF>Kaltes Herz</color>, wenn sie nicht damit ausgerüstet ist.",
                     "id": 11062,
                     "name": "Eisiger Strudel",
                     "playcost": [
@@ -1156,10 +1156,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Schwert des Lichtfalls.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 2 Pkt. Kryo-SCH, erschafft 1 Schwert des Lichtfalls.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C111062]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Schwert des Lichtfalls</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Schwert des Lichtfalls</color>.",
                     "id": 11063,
                     "name": "Schwert der Brandung",
                     "playcost": [
@@ -1198,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 1 Pkt. Kryo-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>.",
                     "id": 21011,
                     "name": "Cicin-Eiszapfen",
                     "playcost": [
@@ -1219,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Kryo-Cicin.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 1 Pkt. Kryo-SCH, erschafft 1 Kryo-Cicin.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C121011]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Kryo-Cicin</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Kryo-Cicin</color>.",
                     "id": 21012,
                     "name": "Neblige Beschwörung",
                     "playcost": [
@@ -1236,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 5 Pkt. phys. SCH, verleiht der Figur das Kryo-Attribut, erschafft 1 Fließende Cicin-Ummantelung.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 5 Pkt. Kryo-SCH, verleiht der Figur das Kryo-Attribut, erschafft 1 Fließende Cicin-Ummantelung.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], verleiht der Figur das $[K201], erschafft 1 <color=#FFFFFFFF>$[C121012]</color>.",
-                    "descriptionreplaced": "Verursacht 5 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, verleiht der Figur das <color=#99FFFFFF>{SPRITE_PRESET#2101}Kryo-Attribut</color>, erschafft 1 <color=#FFFFFFFF>Fließende Cicin-Ummantelung</color>.",
+                    "descriptionreplaced": "Verursacht 5 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, verleiht der Figur das <color=#99FFFFFF>{SPRITE_PRESET#2101}Kryo-Attribut</color>, erschafft 1 <color=#FFFFFFFF>Fließende Cicin-Ummantelung</color>.",
                     "id": 21013,
                     "name": "Flora, Frost, Frier!",
                     "playcost": [
@@ -1299,10 +1299,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erhält selbst Einschleichen.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 1 Pkt. Pyro-SCH, erhält selbst Einschleichen.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C123011]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Einschleichen</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, erhält selbst <color=#FFFFFFFF>Einschleichen</color>.",
                     "id": 23012,
                     "name": "Zeitlicher Angriff",
                     "playcost": [
@@ -1316,10 +1316,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 5 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 5 Pkt. Pyro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 5 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 5 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>.",
                     "id": 23013,
                     "name": "Flammende Klinge",
                     "playcost": [
@@ -1389,10 +1389,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Oz.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 1 Pkt. Elektro-SCH, erschafft 1 Oz.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C114011]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Oz</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Oz</color>.",
                     "id": 14012,
                     "name": "Schutz der Dunkelheit",
                     "playcost": [
@@ -1406,10 +1406,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. durchdringenden SCH zu.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 4 Pkt. Elektro-SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. durchdringenden SCH zu.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren des Gegners 2 Pkt. <color=#FFFFFFFF>$[K5|s1]</color> zu.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, fügt allen inaktiven Figuren des Gegners 2 Pkt. <color=#FFFFFFFF><color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, fügt allen inaktiven Figuren des Gegners 2 Pkt. <color=#FFFFFFFF><color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
                     "id": 14013,
                     "name": "Mitternachtstraum",
                     "playcost": [
@@ -1469,10 +1469,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Eislotos.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 1 Pkt. Kryo-SCH, erschafft 1 Eislotos.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C111012]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Eislotos</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Eislotos</color>.",
                     "id": 11012,
                     "name": "Spuren des Qilins",
                     "playcost": [
@@ -1486,10 +1486,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. durchdringenden SCH zu.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 2 Pkt. Kryo-SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. durchdringenden SCH zu.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren des Gegners <color=#FFFFFFFF>2 Pkt. $[K5|s1]</color> zu.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, fügt allen inaktiven Figuren des Gegners <color=#FFFFFFFF>2 Pkt. <color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, fügt allen inaktiven Figuren des Gegners <color=#FFFFFFFF>2 Pkt. <color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
                     "id": 11013,
                     "name": "Frostblütenpfeil",
                     "playcost": [
@@ -1503,10 +1503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, fügt allen inaktiven Figuren deines Gegners 1 Pkt. durchdringenden SCH zu, erschafft 1 Eisseelenperle.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 2 Pkt. Kryo-SCH, fügt allen inaktiven Figuren deines Gegners 1 Pkt. durchdringenden SCH zu, erschafft 1 Eisseelenperle.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren deines Gegners <color=#FFFFFFFF>1 Pkt. $[K5|s1]</color> zu, erschafft 1 <color=#FFFFFFFF>$[C111011]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, fügt allen inaktiven Figuren deines Gegners <color=#FFFFFFFF>1 Pkt. <color=#FFFFFFFF>durchdringenden SCH</color></color> zu, erschafft 1 <color=#FFFFFFFF>Eisseelenperle</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, fügt allen inaktiven Figuren deines Gegners <color=#FFFFFFFF>1 Pkt. <color=#FFFFFFFF>durchdringenden SCH</color></color> zu, erschafft 1 <color=#FFFFFFFF>Eisseelenperle</color>.",
                     "id": 11014,
                     "name": "Bändigender Niederschlag",
                     "playcost": [
@@ -1581,10 +1581,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, stellt selbst 2 LP wieder her. Sind die LP dieser Figur nicht mehr als 6, werden SCH und Heilung durch sie um je 1 Pkt. erhöht.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 4 Pkt. Pyro-SCH, stellt selbst 2 LP wieder her. Sind die LP dieser Figur nicht mehr als 6, werden SCH und Heilung durch sie um je 1 Pkt. erhöht.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], stellt selbst 2 LP wieder her. Sind die LP dieser Figur nicht mehr als 6, werden SCH und Heilung durch sie um je 1 Pkt. erhöht.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, stellt selbst 2 LP wieder her. Sind die LP dieser Figur nicht mehr als 6, werden SCH und Heilung durch sie um je 1 Pkt. erhöht.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, stellt selbst 2 LP wieder her. Sind die LP dieser Figur nicht mehr als 6, werden SCH und Heilung durch sie um je 1 Pkt. erhöht.",
                     "id": 13073,
                     "name": "Geheime Kunst der Besänftigung",
                     "playcost": [
@@ -1644,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 3 Pkt. Dendro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>.",
                     "id": 27012,
                     "name": "Instabile Sporenwolke",
                     "playcost": [
@@ -1661,10 +1661,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, verbraucht alle Stapelungen von Aktivierungsstimulus, jede Stapelung erhöht den diesmaligen Schaden um 1.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 4 Pkt. Dendro-SCH, verbraucht alle Stapelungen von Aktivierungsstimulus, jede Stapelung erhöht den diesmaligen Schaden um 1.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], verbraucht alle Stapelungen von <color=#FFFFFFFF>$[C127011]</color>, jede Stapelung erhöht den diesmaligen Schaden um 1.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, verbraucht alle Stapelungen von <color=#FFFFFFFF>Aktivierungsstimulus</color>, jede Stapelung erhöht den diesmaligen Schaden um 1.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>, verbraucht alle Stapelungen von <color=#FFFFFFFF>Aktivierungsstimulus</color>, jede Stapelung erhöht den diesmaligen Schaden um 1.",
                     "id": 27013,
                     "name": "Majestätische Schwanzfedern",
                     "playcost": [
@@ -1734,10 +1734,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 3 Pkt. Anemo-SCH, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.",
                     "id": 15022,
                     "name": "Luftdruckschwert",
                     "playcost": [
@@ -1812,10 +1812,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erhält selbst Midare Ranzan.\nWenn Verwirbelung ausgelöst wird, wird Midare Ranzan zum von der Verwirbelung betroffenen Element.\nNach Auswertung der Fähigkeit: Wechselt deine nächste Figur zur aktiven Figur.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 3 Pkt. Anemo-SCH, erhält selbst Midare Ranzan.\nWenn Verwirbelung ausgelöst wird, wird Midare Ranzan zum von der Verwirbelung betroffenen Element.\nNach Auswertung der Fähigkeit: Wechselt deine nächste Figur zur aktiven Figur.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C115051]</color>.\\nWenn Verwirbelung ausgelöst wird, wird <color=#FFFFFFFF>$[C115051]</color> zum von der Verwirbelung betroffenen Element.\\n<color=#FFFFFFFF>Nach Auswertung der Fähigkeit:</color> Wechselt deine nächste Figur zur aktiven Figur.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Midare Ranzan</color>.\\nWenn Verwirbelung ausgelöst wird, wird <color=#FFFFFFFF>Midare Ranzan</color> zum von der Verwirbelung betroffenen Element.\\n<color=#FFFFFFFF>Nach Auswertung der Fähigkeit:</color> Wechselt deine nächste Figur zur aktiven Figur.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>, erhält selbst <color=#FFFFFFFF>Midare Ranzan</color>.\\nWenn Verwirbelung ausgelöst wird, wird <color=#FFFFFFFF>Midare Ranzan</color> zum von der Verwirbelung betroffenen Element.\\n<color=#FFFFFFFF>Nach Auswertung der Fähigkeit:</color> Wechselt deine nächste Figur zur aktiven Figur.",
                     "id": 15052,
                     "name": "Chihayaburu",
                     "playcost": [
@@ -1829,10 +1829,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erschafft 1 Wirbelndes Herbstfeld.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 3 Pkt. Anemo-SCH, erschafft 1 Wirbelndes Herbstfeld.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C115052]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Wirbelndes Herbstfeld</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Wirbelndes Herbstfeld</color>.",
                     "id": 15053,
                     "name": "Kazuha-Schlag",
                     "playcost": [
@@ -1902,10 +1902,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 3 Pkt. Kryo-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>.",
                     "id": 11032,
                     "name": "Kälteatem",
                     "playcost": [
@@ -1919,10 +1919,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Eiszapfen.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 1 Pkt. Kryo-SCH, erschafft 1 Eiszapfen.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C111031]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Eiszapfen</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Eiszapfen</color>.",
                     "id": 11033,
                     "name": "Kreis aus Eis",
                     "playcost": [
@@ -1982,10 +1982,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 3 Pkt. Kryo-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>.",
                     "id": 11052,
                     "name": "Kamisato-Stil – Hyouka",
                     "playcost": [
@@ -1999,10 +1999,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, erschafft 1 Frostflocke Seki no To.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 4 Pkt. Kryo-SCH, erschafft 1 Frostflocke Seki no To.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C111051]</color>.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Frostflocke Seki no To</color>.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Frostflocke Seki no To</color>.",
                     "id": 11053,
                     "name": "Kamisato-Stil – Soumetsu",
                     "playcost": [
@@ -2072,10 +2072,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erhält selbst Takimeguri Kanka.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 2 Pkt. Hydro-SCH, erhält selbst Takimeguri Kanka.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C112061]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Takimeguri Kanka</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, erhält selbst <color=#FFFFFFFF>Takimeguri Kanka</color>.",
                     "id": 12062,
                     "name": "Kamisato-Stil – Kyouka",
                     "playcost": [
@@ -2089,10 +2089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erschafft 1 Garten der Reinheit.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 3 Pkt. Hydro-SCH, erschafft 1 Garten der Reinheit.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C112062]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Garten der Reinheit</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Garten der Reinheit</color>.",
                     "id": 12063,
                     "name": "Kamisato-Stil – Suiyuu",
                     "playcost": [
@@ -2152,10 +2152,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erschafft die Karte Donnerkeil.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 3 Pkt. Elektro-SCH, erschafft die Karte Donnerkeil.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft die Karte <color=#FFFFFFFF>$[C114031]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft die Karte <color=#FFFFFFFF>Donnerkeil</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, erschafft die Karte <color=#FFFFFFFF>Donnerkeil</color>.",
                     "id": 14032,
                     "name": "Rückkehr der Sterne",
                     "playcost": [
@@ -2169,10 +2169,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, fügt allen inaktiven Figuren des Gegners 3 Pkt. durchdringenden SCH zu.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 4 Pkt. Elektro-SCH, fügt allen inaktiven Figuren des Gegners 3 Pkt. durchdringenden SCH zu.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren des Gegners <color=#FFFFFFFF>3 Pkt. $[K5|s1]</color> zu.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, fügt allen inaktiven Figuren des Gegners <color=#FFFFFFFF>3 Pkt. <color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, fügt allen inaktiven Figuren des Gegners <color=#FFFFFFFF>3 Pkt. <color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
                     "id": 14033,
                     "name": "Himmelswanderung",
                     "playcost": [
@@ -2211,10 +2211,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 1 Pkt. Pyro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>.",
                     "id": 13061,
                     "name": "Bumm-Bumm",
                     "playcost": [
@@ -2232,10 +2232,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. Physischer Schaden, erhält selbst Explosiver Funke.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-Schaden, erhält selbst Explosiver Funke.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT], erhält selbst <color=#FFFFFFFF>$[C113061]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physischer Schaden</color>, erhält selbst <color=#FFFFFFFF>Explosiver Funke</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-Schaden</color>, erhält selbst <color=#FFFFFFFF>Explosiver Funke</color>.",
                     "id": 13062,
                     "name": "Bimm-Bamm-Bombe",
                     "playcost": [
@@ -2249,10 +2249,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erschafft auf dem Feld deines Gegners Funkelfunken.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-SCH, erschafft auf dem Feld deines Gegners Funkelfunken.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft auf dem Feld deines Gegners <color=#FFFFFFFF>$[C113063]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft auf dem Feld deines Gegners <color=#FFFFFFFF>Funkelfunken</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, erschafft auf dem Feld deines Gegners <color=#FFFFFFFF>Funkelfunken</color>.",
                     "id": 13063,
                     "name": "Funkelfunken",
                     "playcost": [
@@ -2312,10 +2312,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Tengu Juurai – Hinterhalt.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 1 Pkt. Elektro-SCH, erschafft 1 Tengu Juurai – Hinterhalt.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C114061]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Tengu Juurai – Hinterhalt</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Tengu Juurai – Hinterhalt</color>.",
                     "id": 14062,
                     "name": "Tengu-Sturmbeschwörung",
                     "playcost": [
@@ -2329,10 +2329,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Tengu Juurai – Blitzbündel.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 1 Pkt. Elektro-SCH, erschafft 1 Tengu Juurai – Blitzbündel.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C114062]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Tengu Juurai – Blitzbündel</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Tengu Juurai – Blitzbündel</color>.",
                     "id": 14063,
                     "name": "Unterwerfung – Koukou Sendou",
                     "playcost": [
@@ -2422,10 +2422,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, löst den Effekt aller eigenen Beschwörungen von Schwertschatten aus (Kein Verbrauch ihrer Einsatzmöglichkeiten).",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 4 Pkt. Anemo-SCH, löst den Effekt aller eigenen Beschwörungen von Schwertschatten aus (Kein Verbrauch ihrer Einsatzmöglichkeiten).",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], löst den Effekt aller eigenen Beschwörungen von <color=#FFFFFFFF>Schwertschatten</color> aus (Kein Verbrauch ihrer Einsatzmöglichkeiten).",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, löst den Effekt aller eigenen Beschwörungen von <color=#FFFFFFFF>Schwertschatten</color> aus (Kein Verbrauch ihrer Einsatzmöglichkeiten).",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>, löst den Effekt aller eigenen Beschwörungen von <color=#FFFFFFFF>Schwertschatten</color> aus (Kein Verbrauch ihrer Einsatzmöglichkeiten).",
                     "id": 25014,
                     "name": "Maschineller Tengu-Feger",
                     "playcost": [
@@ -2464,10 +2464,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 1 Pkt. Hydro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>.",
                     "id": 22021,
                     "name": "Wassergeschosse",
                     "playcost": [
@@ -2485,10 +2485,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, verleiht dem Ziel den Zustand Wasserspiegelscherben.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 2 Pkt. Hydro-SCH, verleiht dem Ziel den Zustand Wasserspiegelscherben.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], verleiht dem Ziel den Zustand <color=#FFFFFFFF>$[C122021]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, verleiht dem Ziel den Zustand <color=#FFFFFFFF>Wasserspiegelscherben</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, verleiht dem Ziel den Zustand <color=#FFFFFFFF>Wasserspiegelscherben</color>.",
                     "id": 22022,
                     "name": "Wasserschwapp",
                     "playcost": [
@@ -2502,10 +2502,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 5 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 5 Pkt. Hydro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 5 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 5 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>.",
                     "id": 22023,
                     "name": "Spiegelbrechung",
                     "playcost": [
@@ -2544,10 +2544,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 1 Pkt. Hydro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>.",
                     "id": 12031,
                     "name": "Unumgängliches Schicksal",
                     "playcost": [
@@ -2565,10 +2565,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Trugbild.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 1 Pkt. Hydro-SCH, erschafft 1 Trugbild.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C112031]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Trugbild</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Trugbild</color>.",
                     "id": 12032,
                     "name": "Trugbilder im Wasser",
                     "playcost": [
@@ -2582,10 +2582,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, erschafft 1 Blasenschatten.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 4 Pkt. Hydro-SCH, erschafft 1 Blasenschatten.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C112032]</color>.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Blasenschatten</color>.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Blasenschatten</color>.",
                     "id": 12033,
                     "name": "Vorbestimmte Laufbahn",
                     "playcost": [
@@ -2634,10 +2634,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 1 Pkt. Dendro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>.",
                     "id": 17031,
                     "name": "Akara",
                     "playcost": [
@@ -2655,10 +2655,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, verleiht dem Ziel Samen von Skandha; ist das Ziel allerdings bereits von Samen von Skandha betroffen, verleiht dann allen Figuren des Gegners Samen von Skandha.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 2 Pkt. Dendro-SCH, verleiht dem Ziel Samen von Skandha; ist das Ziel allerdings bereits von Samen von Skandha betroffen, verleiht dann allen Figuren des Gegners Samen von Skandha.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], verleiht dem Ziel <color=#FFFFFFFF>$[C117031]</color>; ist das Ziel allerdings bereits von <color=#FFFFFFFF>$[C117031]</color> betroffen, verleiht dann allen Figuren des Gegners <color=#FFFFFFFF>$[C117031]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, verleiht dem Ziel <color=#FFFFFFFF>Samen von Skandha</color>; ist das Ziel allerdings bereits von <color=#FFFFFFFF>Samen von Skandha</color> betroffen, verleiht dann allen Figuren des Gegners <color=#FFFFFFFF>Samen von Skandha</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>, verleiht dem Ziel <color=#FFFFFFFF>Samen von Skandha</color>; ist das Ziel allerdings bereits von <color=#FFFFFFFF>Samen von Skandha</color> betroffen, verleiht dann allen Figuren des Gegners <color=#FFFFFFFF>Samen von Skandha</color>.",
                     "id": 17032,
                     "name": "Kennerin aller Tricks",
                     "playcost": [
@@ -2672,10 +2672,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, verleiht allen Figuren des Gegners Samen von Skandha.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 3 Pkt. Dendro-SCH, verleiht allen Figuren des Gegners Samen von Skandha.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], verleiht allen Figuren des Gegners <color=#FFFFFFFF>$[C117031]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, verleiht allen Figuren des Gegners <color=#FFFFFFFF>Samen von Skandha</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>, verleiht allen Figuren des Gegners <color=#FFFFFFFF>Samen von Skandha</color>.",
                     "id": 17033,
                     "name": "Kennerin aller Tricks – Tathata",
                     "playcost": [
@@ -2689,10 +2689,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, erschafft 1 Schrein von Maya.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 4 Pkt. Dendro-SCH, erschafft 1 Schrein von Maya.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C117032]</color>.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Schrein von Maya</color>.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Schrein von Maya</color>.",
                     "id": 17034,
                     "name": "Illusorisches Herz",
                     "playcost": [
@@ -2731,10 +2731,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 1 Pkt. Geo-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>.",
                     "id": 16011,
                     "name": "Teure Geschosse",
                     "playcost": [
@@ -2752,10 +2752,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Jadeschirm.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 2 Pkt. Geo-SCH, erschafft 1 Jadeschirm.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C116011]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Jadeschirm</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Jadeschirm</color>.",
                     "id": 16012,
                     "name": "Jadeschirm",
                     "playcost": [
@@ -2769,10 +2769,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 6 Pkt. phys. SCH; diesmaliger Schaden +2, wenn Jadeschirm auf dem Feld ist.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 6 Pkt. Geo-SCH; diesmaliger Schaden +2, wenn Jadeschirm auf dem Feld ist.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1]; diesmaliger Schaden +2, wenn <color=#FFFFFFFF>$[C116011]</color> auf dem Feld ist.",
-                    "descriptionreplaced": "Verursacht 6 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>; diesmaliger Schaden +2, wenn <color=#FFFFFFFF>Jadeschirm</color> auf dem Feld ist.",
+                    "descriptionreplaced": "Verursacht 6 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>; diesmaliger Schaden +2, wenn <color=#FFFFFFFF>Jadeschirm</color> auf dem Feld ist.",
                     "id": 16013,
                     "name": "Sternensplitter",
                     "playcost": [
@@ -2832,10 +2832,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Geo-Panzer.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 1 Pkt. Geo-SCH, erschafft 1 Geo-Panzer.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C116021]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Geo-Panzer</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Geo-Panzer</color>.",
                     "id": 16022,
                     "name": "Brustpanzer",
                     "playcost": [
@@ -2849,10 +2849,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, erhält selbst Großreinigung.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 4 Pkt. Geo-SCH, erhält selbst Großreinigung.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C116022]</color>.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Großreinigung</color>.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>, erhält selbst <color=#FFFFFFFF>Großreinigung</color>.",
                     "id": 16023,
                     "name": "Großreinigung",
                     "playcost": [
@@ -2927,10 +2927,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, stellt all deinen anderen Figuren 2 Pkt. Aufladung wieder her.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 3 Pkt. Elektro-SCH, stellt all deinen anderen Figuren 2 Pkt. Aufladung wieder her.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], stellt all deinen anderen Figuren 2 Pkt. $[K310] wieder her.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, stellt all deinen anderen Figuren 2 Pkt. <color=#FFFFFFFF>{SPRITE_PRESET#1110}Aufladung</color> wieder her.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, stellt all deinen anderen Figuren 2 Pkt. <color=#FFFFFFFF>{SPRITE_PRESET#1110}Aufladung</color> wieder her.",
                     "id": 14073,
                     "name": "Geheime Kunst – Musou Shinsetsu",
                     "playcost": [
@@ -3000,10 +3000,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 3 Pkt. Elektro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>.",
                     "id": 14022,
                     "name": "Klauen und Donner",
                     "playcost": [
@@ -3017,10 +3017,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erhält selbst Blitzwolf.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 3 Pkt. Elektro-SCH, erhält selbst Blitzwolf.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C114021]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Blitzwolf</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>, erhält selbst <color=#FFFFFFFF>Blitzwolf</color>.",
                     "id": 14023,
                     "name": "Blitzklauen",
                     "playcost": [
@@ -3059,10 +3059,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 1 Pkt. Hydro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>.",
                     "id": 22011,
                     "name": "Anstieg",
                     "playcost": [
@@ -3110,10 +3110,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH. Jede eigene Beschwörung erhöht den diesmaligen Schaden um 2 Pkt.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 2 Pkt. Hydro-SCH. Jede eigene Beschwörung erhöht den diesmaligen Schaden um 2 Pkt.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1]. Jede eigene Beschwörung erhöht den diesmaligen Schaden um 2 Pkt.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>. Jede eigene Beschwörung erhöht den diesmaligen Schaden um 2 Pkt.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>. Jede eigene Beschwörung erhöht den diesmaligen Schaden um 2 Pkt.",
                     "id": 22014,
                     "name": "Gezeiten und Sintflut",
                     "playcost": [
@@ -3152,10 +3152,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 1 Pkt. Hydro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>.",
                     "id": 12051,
                     "name": "Form des Wassers",
                     "playcost": [
@@ -3188,10 +3188,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, stellt all deinen Figuren 1 LP wieder her und erhält selbst Rituelles Federkleid.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 2 Pkt. Hydro-SCH, stellt all deinen Figuren 1 LP wieder her und erhält selbst Rituelles Federkleid.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], stellt all deinen Figuren 1 LP wieder her und erhält selbst <color=#FFFFFFFF>$[C112052]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, stellt all deinen Figuren 1 LP wieder her und erhält selbst <color=#FFFFFFFF>Rituelles Federkleid</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, stellt all deinen Figuren 1 LP wieder her und erhält selbst <color=#FFFFFFFF>Rituelles Federkleid</color>.",
                     "id": 12053,
                     "name": "Nereidenaufstieg",
                     "playcost": [
@@ -3251,10 +3251,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Eisfeder.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 2 Pkt. Kryo-SCH, erschafft 1 Eisfeder.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C111071]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Eisfeder</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Eisfeder</color>.",
                     "id": 11072,
                     "name": "Mantra der Geisterbeschwörung",
                     "playcost": [
@@ -3268,10 +3268,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Talismangeist.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Verursacht 1 Pkt. Kryo-SCH, erschafft 1 Talismangeist.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C111073]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Talismangeist</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Talismangeist</color>.",
                     "id": 11073,
                     "name": "Geisterbefehligung der göttlichen Jungfrau",
                     "playcost": [
@@ -3402,10 +3402,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 1 Pkt. Anemo-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>.",
                     "id": 15011,
                     "name": "Vereinfachte Windseelenschaffung",
                     "playcost": [
@@ -3423,10 +3423,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, wechselt die vorige Figur deines Gegners zwangsweise zur aktiven Figur.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 3 Pkt. Anemo-SCH, wechselt die vorige Figur deines Gegners zwangsweise zur aktiven Figur.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], wechselt die vorige Figur deines Gegners zwangsweise zur aktiven Figur.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, wechselt die vorige Figur deines Gegners zwangsweise zur aktiven Figur.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>, wechselt die vorige Figur deines Gegners zwangsweise zur aktiven Figur.",
                     "id": 15012,
                     "name": "Windseelenschaffung – Experiment 6308",
                     "playcost": [
@@ -3440,10 +3440,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Große Windseele.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 1 Pkt. Anemo-SCH, erschafft 1 Große Windseele.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C115011]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Große Windseele</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Große Windseele</color>.",
                     "id": 15013,
                     "name": "Verbotene Windseelenschaffung – Isomorpher Typ 75-II",
                     "playcost": [
@@ -3503,10 +3503,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Wechselt zum Nahkampfmodus, verursacht daraufhin 2 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Wechselt zum Nahkampfmodus, verursacht daraufhin 2 Pkt. Hydro-SCH.",
                     "descriptionraw": "Wechselt zum <color=#FFFFFFFF>$[C112042]</color>, verursacht daraufhin $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Wechselt zum <color=#FFFFFFFF>Nahkampfmodus</color>, verursacht daraufhin 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Wechselt zum <color=#FFFFFFFF>Nahkampfmodus</color>, verursacht daraufhin 2 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>.",
                     "id": 12042,
                     "name": "Dämonengewand – Stürmische Gezeiten",
                     "playcost": [
@@ -3520,10 +3520,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Führt unterschiedliche Angriffe aus, je nach dem aktuellen Modus von Tartaglia:\nFernkampf: Teufelsschuss\nVerursacht 4 Pkt. phys. SCH; stellt 2 Pkt. Aufladung wieder her; verleiht dem Ziel 1 Versiegen.\nNahkampf: Tödliches Glitzern\nVerursacht 7 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Führt unterschiedliche Angriffe aus, je nach dem aktuellen Modus von Tartaglia:\nFernkampf: Teufelsschuss\nVerursacht 4 Pkt. Hydro-SCH; stellt 2 Pkt. Aufladung wieder her; verleiht dem Ziel 1 Versiegen.\nNahkampf: Tödliches Glitzern\nVerursacht 7 Pkt. Hydro-SCH.",
                     "descriptionraw": "Führt unterschiedliche Angriffe aus, je nach dem aktuellen Modus von <color=#FFFFFFFF>$[A1204]</color>:\\n<color=#FFFFFFFF>Fernkampf: Teufelsschuss</color>\\nVerursacht $[D__KEY__DAMAGE_4] Pkt. $[D__KEY__ELEMENT|s1]; stellt 2 Pkt. $[K310] wieder her; verleiht dem Ziel 1 <color=#FFFFFFFF>$[C112043]</color>.\\n<color=#FFFFFFFF>Nahkampf: Tödliches Glitzern</color>\\nVerursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Führt unterschiedliche Angriffe aus, je nach dem aktuellen Modus von <color=#FFFFFFFF>Tartaglia</color>:\\n<color=#FFFFFFFF>Fernkampf: Teufelsschuss</color>\\nVerursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>; stellt 2 Pkt. <color=#FFFFFFFF>{SPRITE_PRESET#1110}Aufladung</color> wieder her; verleiht dem Ziel 1 <color=#FFFFFFFF>Versiegen</color>.\\n<color=#FFFFFFFF>Nahkampf: Tödliches Glitzern</color>\\nVerursacht 7 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Führt unterschiedliche Angriffe aus, je nach dem aktuellen Modus von <color=#FFFFFFFF>Tartaglia</color>:\\n<color=#FFFFFFFF>Fernkampf: Teufelsschuss</color>\\nVerursacht 4 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>; stellt 2 Pkt. <color=#FFFFFFFF>{SPRITE_PRESET#1110}Aufladung</color> wieder her; verleiht dem Ziel 1 <color=#FFFFFFFF>Versiegen</color>.\\n<color=#FFFFFFFF>Nahkampf: Tödliches Glitzern</color>\\nVerursacht 7 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>.",
                     "id": 12043,
                     "name": "Spezialangriff – Totale Vernichtung",
                     "playcost": [
@@ -3613,10 +3613,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erhält selbst Vijnana-Durchbruch.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 2 Pkt. Dendro-SCH, erhält selbst Vijnana-Durchbruch.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C117021]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Vijnana-Durchbruch</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>, erhält selbst <color=#FFFFFFFF>Vijnana-Durchbruch</color>.",
                     "id": 17022,
                     "name": "Vijnana-Phala-Mine",
                     "playcost": [
@@ -3630,10 +3630,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, fügt allen inaktiven Figuren des Gegners 1 Pkt. durchdringenden SCH zu.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Verursacht 4 Pkt. Dendro-SCH, fügt allen inaktiven Figuren des Gegners 1 Pkt. durchdringenden SCH zu.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren des Gegners 1 Pkt. <color=#FFFFFFFF>$[K5|s1]</color> zu.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, fügt allen inaktiven Figuren des Gegners 1 Pkt. <color=#FFFFFFFF><color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro-SCH</color>, fügt allen inaktiven Figuren des Gegners 1 Pkt. <color=#FFFFFFFF><color=#FFFFFFFF>durchdringenden SCH</color></color> zu.",
                     "id": 17023,
                     "name": "Des Erschaffers Schlingstängel-Pfeil",
                     "playcost": [
@@ -3693,10 +3693,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. Physischer Schaden, erschafft 1 Sturm.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 2 Pkt. Anemo-Schaden, erschafft 1 Sturm.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT], erschafft 1 <color=#FFFFFFFF>$[C115031]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physischer Schaden</color>, erschafft 1 <color=#FFFFFFFF>Sturm</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-Schaden</color>, erschafft 1 <color=#FFFFFFFF>Sturm</color>.",
                     "id": 15032,
                     "name": "Sonett vom Himmel",
                     "playcost": [
@@ -3710,10 +3710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Zentrum des Sturms.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 2 Pkt. Anemo-SCH, erschafft 1 Zentrum des Sturms.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C115034]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Zentrum des Sturms</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Zentrum des Sturms</color>.",
                     "id": 15033,
                     "name": "Ode vom Anemo-Archon",
                     "playcost": [
@@ -3788,10 +3788,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erschafft 1 Feuerrad.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-SCH, erschafft 1 Feuerrad.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C113022]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Feuerrad</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Feuerrad</color>.",
                     "id": 13023,
                     "name": "Feuerrad",
                     "playcost": [
@@ -3851,10 +3851,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 3 Pkt. Anemo-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>.",
                     "id": 15042,
                     "name": "Doppeltes Windrad",
                     "playcost": [
@@ -3868,10 +3868,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, erhält selbst Yaksha-Maske.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Verursacht 4 Pkt. Anemo-SCH, erhält selbst Yaksha-Maske.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C115041]</color>.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Yaksha-Maske</color>.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2105}<color=#80FFD7FF>Anemo-SCH</color>, erhält selbst <color=#FFFFFFFF>Yaksha-Maske</color>.",
                     "id": 15043,
                     "name": "Geistervertreibung",
                     "playcost": [
@@ -3931,10 +3931,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 2 Pkt. phys. SCH, verleiht der Figur das Hydro-Attribut, erschafft 1 Regenschwert.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 2 Pkt. Hydro-SCH, verleiht der Figur das Hydro-Attribut, erschafft 1 Regenschwert.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], verleiht der Figur das $[K202], erschafft 1 <color=#FFFFFFFF>$[C112021]</color>.",
-                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, verleiht der Figur das <color=#80C0FFFF>{SPRITE_PRESET#2102}Hydro-Attribut</color>, erschafft 1 <color=#FFFFFFFF>Regenschwert</color>.",
+                    "descriptionreplaced": "Verursacht 2 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, verleiht der Figur das <color=#80C0FFFF>{SPRITE_PRESET#2102}Hydro-Attribut</color>, erschafft 1 <color=#FFFFFFFF>Regenschwert</color>.",
                     "id": 12022,
                     "name": "Wolkenbruch",
                     "playcost": [
@@ -3948,10 +3948,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, verleiht der Figur das Hydro-Attribut, erschafft 1 Regenbogentechnik.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Verursacht 1 Pkt. Hydro-SCH, verleiht der Figur das Hydro-Attribut, erschafft 1 Regenbogentechnik.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], verleiht der Figur das $[K202], erschafft 1 <color=#FFFFFFFF>$[C112022]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, verleiht der Figur das <color=#80C0FFFF>{SPRITE_PRESET#2102}Hydro-Attribut</color>, erschafft 1 <color=#FFFFFFFF>Regenbogentechnik</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro-SCH</color>, verleiht der Figur das <color=#80C0FFFF>{SPRITE_PRESET#2102}Hydro-Attribut</color>, erschafft 1 <color=#FFFFFFFF>Regenbogentechnik</color>.",
                     "id": 12023,
                     "name": "Regen und Bogen",
                     "playcost": [
@@ -3990,10 +3990,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 1 Pkt. Elektro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>.",
                     "id": 14081,
                     "name": "Sündenverschlinger",
                     "playcost": [
@@ -4026,10 +4026,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH; besteht auf deinem Feld 1 Sesshou-Sakura, wird sie zerstört, daraufhin wird 1 Tenko-Blitzschlag erschaffen.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Verursacht 4 Pkt. Elektro-SCH; besteht auf deinem Feld 1 Sesshou-Sakura, wird sie zerstört, daraufhin wird 1 Tenko-Blitzschlag erschaffen.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1]; besteht auf deinem Feld 1 <color=#FFFFFFFF>$[C114081]</color>, wird sie zerstört, daraufhin wird 1 <color=#FFFFFFFF>$[C114083]</color> erschaffen.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>; besteht auf deinem Feld 1 <color=#FFFFFFFF>Sesshou-Sakura</color>, wird sie zerstört, daraufhin wird 1 <color=#FFFFFFFF>Tenko-Blitzschlag</color> erschaffen.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro-SCH</color>; besteht auf deinem Feld 1 <color=#FFFFFFFF>Sesshou-Sakura</color>, wird sie zerstört, daraufhin wird 1 <color=#FFFFFFFF>Tenko-Blitzschlag</color> erschaffen.",
                     "id": 14083,
                     "name": "Große Geheimkunst – Tenko Kenshin",
                     "playcost": [
@@ -4068,10 +4068,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 1 Pkt. Pyro-SCH.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1].",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>.",
                     "id": 13081,
                     "name": "Flammendes Siegel",
                     "playcost": [
@@ -4089,10 +4089,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erhält selbst Flammensiegel.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-SCH, erhält selbst Flammensiegel.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C113081]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Flammensiegel</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, erhält selbst <color=#FFFFFFFF>Flammensiegel</color>.",
                     "id": 13082,
                     "name": "Pakt des Feuers",
                     "playcost": [
@@ -4106,10 +4106,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erhält selbst Flammensiegel und Sengende Hitze.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-SCH, erhält selbst Flammensiegel und Sengende Hitze.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <color=#FFFFFFFF>$[C113081]</color> und <color=#FFFFFFFF>$[C113082]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erhält selbst <color=#FFFFFFFF>Flammensiegel</color> und <color=#FFFFFFFF>Sengende Hitze</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, erhält selbst <color=#FFFFFFFF>Flammensiegel</color> und <color=#FFFFFFFF>Sengende Hitze</color>.",
                     "id": 13083,
                     "name": "Pakt des flammenden Infernos",
                     "playcost": [
@@ -4184,10 +4184,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erschafft 1 Ryuukin-Lohe.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Verursacht 3 Pkt. Pyro-SCH, erschafft 1 Ryuukin-Lohe.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C113052]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Ryuukin-Lohe</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro-SCH</color>, erschafft 1 <color=#FFFFFFFF>Ryuukin-Lohe</color>.",
                     "id": 13053,
                     "name": "Ryuukin-Steinbrech",
                     "playcost": [
@@ -4247,10 +4247,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 1 Pkt. phys. SCH, erschafft 1 Hügelkamm.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 1 Pkt. Geo-SCH, erschafft 1 Hügelkamm.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C116031]</color>.",
-                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Hügelkamm</color>.",
+                    "descriptionreplaced": "Verursacht 1 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Hügelkamm</color>.",
                     "id": 16032,
                     "name": "Dominus Lapidis",
                     "playcost": [
@@ -4264,10 +4264,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 3 Pkt. phys. SCH, erschafft 1 Hügelkamm und 1 Jadeblock.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 3 Pkt. Geo-SCH, erschafft 1 Hügelkamm und 1 Jadeblock.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <color=#FFFFFFFF>$[C116031]</color> und 1 <color=#FFFFFFFF>$[C116032]</color>.",
-                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, erschafft 1 <color=#FFFFFFFF>Hügelkamm</color> und 1 <color=#FFFFFFFF>Jadeblock</color>.",
+                    "descriptionreplaced": "Verursacht 3 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>, erschafft 1 <color=#FFFFFFFF>Hügelkamm</color> und 1 <color=#FFFFFFFF>Jadeblock</color>.",
                     "id": 16033,
                     "name": "Dominus Lapidis – Felsenfest",
                     "playcost": [
@@ -4281,10 +4281,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Verursacht 4 Pkt. phys. SCH, verleiht dem Ziel den Zustand Versteinert.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Verursacht 4 Pkt. Geo-SCH, verleiht dem Ziel den Zustand Versteinert.",
                     "descriptionraw": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], verleiht dem Ziel den Zustand <color=#FFFFFFFF>$[C116033]</color>.",
-                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color>, verleiht dem Ziel den Zustand <color=#FFFFFFFF>Versteinert</color>.",
+                    "descriptionreplaced": "Verursacht 4 Pkt. {SPRITE_PRESET#2106}<color=#FFE699FF>Geo-SCH</color>, verleiht dem Ziel den Zustand <color=#FFFFFFFF>Versteinert</color>.",
                     "id": 16034,
                     "name": "Einstürzender Himmel",
                     "playcost": [

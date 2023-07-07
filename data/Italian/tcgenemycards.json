@@ -8,10 +8,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 1 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 23021,
                     "name": "Fiamma della salvezza",
                     "playcost": [
@@ -29,10 +29,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 3 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 23022,
                     "name": "Precetto rovente",
                     "playcost": [
@@ -46,10 +46,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici, invoca 1 Fornace di fuoco oscuro.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 3 DAN da Pyro, invoca 1 Fornace di fuoco oscuro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca 1 <color=#FFFFFFFF>$[C123021]</color>.",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca 1 <color=#FFFFFFFF>Fornace di fuoco oscuro</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>, invoca 1 <color=#FFFFFFFF>Fornace di fuoco oscuro</color>.",
                     "id": 23023,
                     "name": "Stella nefasta",
                     "playcost": [
@@ -115,10 +115,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 1 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 23021,
                     "name": "Fiamma della salvezza",
                     "playcost": [
@@ -136,10 +136,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 3 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 23022,
                     "name": "Precetto rovente",
                     "playcost": [
@@ -153,10 +153,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici, invoca 1 Fornace di fuoco oscuro.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 3 DAN da Pyro, invoca 1 Fornace di fuoco oscuro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca 1 <color=#FFFFFFFF>$[C123021]</color>.",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca 1 <color=#FFFFFFFF>Fornace di fuoco oscuro</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>, invoca 1 <color=#FFFFFFFF>Fornace di fuoco oscuro</color>.",
                     "id": 23023,
                     "name": "Stella nefasta",
                     "playcost": [
@@ -239,10 +239,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, invoca 1 Vortice.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Infligge 2 DAN da Anemo, invoca 1 Vortice.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca 1 <color=#FFFFFFFF>$[C135011]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca 1 <color=#FFFFFFFF>Vortice</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2105}<color=#80FFD7FF>DAN da Anemo</color>, invoca 1 <color=#FFFFFFFF>Vortice</color>.",
                     "id": 35012,
                     "name": "Preghiera ai venti",
                     "playcost": [
@@ -256,10 +256,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Infligge 5 DAN da Anemo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2105}<color=#80FFD7FF>DAN da Anemo</color>.",
                     "id": 35013,
                     "name": "Ciclone devastante",
                     "playcost": [
@@ -475,10 +475,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 1 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 31031,
                     "name": "Penetrazione glaciale",
                     "playcost": [
@@ -496,10 +496,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 3 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 31032,
                     "name": "Rituale della sublimazione",
                     "playcost": [
@@ -513,10 +513,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 5 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 31033,
                     "name": "Rito della tempesta glaciale",
                     "playcost": [
@@ -572,10 +572,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 1 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 31021,
                     "name": "Freccia gelida",
                     "playcost": [
@@ -593,10 +593,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 4 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 31022,
                     "name": "Raffica di frecce",
                     "playcost": [
@@ -661,10 +661,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici, genera 1 Rampicanti nel campo avversario.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 1 DAN da Dendro, genera 1 Rampicanti nel campo avversario.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], genera 1 <color=#FFFFFFFF>$[C137031]</color> nel campo avversario.",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, genera 1 <color=#FFFFFFFF>Rampicanti</color> nel campo avversario.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>, genera 1 <color=#FFFFFFFF>Rampicanti</color> nel campo avversario.",
                     "id": 37032,
                     "name": "Rampicanti velenosi",
                     "playcost": [
@@ -678,10 +678,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 5 DAN da Dendro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>.",
                     "id": 37033,
                     "name": "Campo di Dendro",
                     "playcost": [
@@ -719,10 +719,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 1 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 34041,
                     "name": "Saetta",
                     "playcost": [
@@ -755,10 +755,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici, invoca 1 Anello avviluppante.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 4 DAN da Electro, invoca 1 Anello avviluppante.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca 1 <color=#FFFFFFFF>$[C134041]</color>.",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca 1 <color=#FFFFFFFF>Anello avviluppante</color>.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>, invoca 1 <color=#FFFFFFFF>Anello avviluppante</color>.",
                     "id": 34043,
                     "name": "Rito del Tuono ondulatorio",
                     "playcost": [
@@ -814,10 +814,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 1 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 34021,
                     "name": "Freccia folgorante",
                     "playcost": [
@@ -835,10 +835,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 4 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 34022,
                     "name": "Raffica di frecce",
                     "playcost": [
@@ -886,10 +886,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 1 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 24011,
                     "name": "Proiezione del Cristallo di Electro",
                     "playcost": [
@@ -907,10 +907,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici e poi, separatamente, Prepara abilità per Combo carta, forbice, sasso: Forbice e Combo carta, forbice, sasso: Carta.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro e poi, separatamente, Prepara abilità per Combo carta, forbice, sasso: Forbice e Combo carta, forbice, sasso: Carta.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] e poi, separatamente, $[K53] per <color=#FFFFFFFF>$[S24015]</color> e <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color> e poi, separatamente, <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Forbice</color> e <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color> e poi, separatamente, <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Forbice</color> e <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
                     "id": 24012,
                     "name": "Combo carta, forbice, sasso",
                     "playcost": [
@@ -924,10 +924,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, invoca Catene del Tuono tutelare.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro, invoca Catene del Tuono tutelare.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C124013]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca <color=#FFFFFFFF>Catene del Tuono tutelare</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>, invoca <color=#FFFFFFFF>Catene del Tuono tutelare</color>.",
                     "id": 24013,
                     "name": "Blocco fulmineo",
                     "playcost": [
@@ -955,10 +955,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, poi Prepara abilità per Combo carta, forbice, sasso: Carta.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro, poi Prepara abilità per Combo carta, forbice, sasso: Carta.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], poi $[K53] per <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, poi <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>, poi <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
                     "id": 24015,
                     "name": "Combo carta, forbice, sasso: Forbice",
                     "playcost": [],
@@ -967,10 +967,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 3 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 24016,
                     "name": "Combo carta, forbice, sasso: Carta",
                     "playcost": [],
@@ -1007,10 +1007,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 1 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 24011,
                     "name": "Proiezione del Cristallo di Electro",
                     "playcost": [
@@ -1028,10 +1028,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici e poi, separatamente, Prepara abilità per Combo carta, forbice, sasso: Forbice e Combo carta, forbice, sasso: Carta.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro e poi, separatamente, Prepara abilità per Combo carta, forbice, sasso: Forbice e Combo carta, forbice, sasso: Carta.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] e poi, separatamente, $[K53] per <color=#FFFFFFFF>$[S24015]</color> e <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color> e poi, separatamente, <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Forbice</color> e <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color> e poi, separatamente, <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Forbice</color> e <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
                     "id": 24012,
                     "name": "Combo carta, forbice, sasso",
                     "playcost": [
@@ -1045,10 +1045,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, invoca Catene del Tuono tutelare.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro, invoca Catene del Tuono tutelare.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C124013]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca <color=#FFFFFFFF>Catene del Tuono tutelare</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>, invoca <color=#FFFFFFFF>Catene del Tuono tutelare</color>.",
                     "id": 24013,
                     "name": "Blocco fulmineo",
                     "playcost": [
@@ -1076,10 +1076,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, poi Prepara abilità per Combo carta, forbice, sasso: Carta.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro, poi Prepara abilità per Combo carta, forbice, sasso: Carta.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], poi $[K53] per <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, poi <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>, poi <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
                     "id": 24015,
                     "name": "Combo carta, forbice, sasso: Forbice",
                     "playcost": [],
@@ -1088,10 +1088,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 3 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 24016,
                     "name": "Combo carta, forbice, sasso: Carta",
                     "playcost": [],
@@ -1128,10 +1128,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 1 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 34061,
                     "name": "Rimbalzo",
                     "playcost": [
@@ -1149,10 +1149,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 4 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 34062,
                     "name": "Caduta violenta",
                     "playcost": [
@@ -1198,10 +1198,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 1 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 21011,
                     "name": "Stalattite Cicin",
                     "playcost": [
@@ -1219,10 +1219,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici, invoca Cicin di Cryo.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 1 DAN da Cryo, invoca Cicin di Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C121011]</color>.",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca <color=#FFFFFFFF>Cicin di Cryo</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>, invoca <color=#FFFFFFFF>Cicin di Cryo</color>.",
                     "id": 21012,
                     "name": "Invocazioni offuscate",
                     "playcost": [
@@ -1236,10 +1236,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici, questo personaggio riceve Applicazione di Cryo e genera 1 Scudo fluttuante Cicin.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 5 DAN da Cryo, questo personaggio riceve Applicazione di Cryo e genera 1 Scudo fluttuante Cicin.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], questo personaggio riceve $[K201] e genera 1 <color=#FFFFFFFF>$[C121012]</color>.",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, questo personaggio riceve <color=#99FFFFFF>{SPRITE_PRESET#2101}Applicazione di Cryo</color> e genera 1 <color=#FFFFFFFF>Scudo fluttuante Cicin</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>, questo personaggio riceve <color=#99FFFFFF>{SPRITE_PRESET#2101}Applicazione di Cryo</color> e genera 1 <color=#FFFFFFFF>Scudo fluttuante Cicin</color>.",
                     "id": 21013,
                     "name": "Tormenta, ramo, fioritura",
                     "playcost": [
@@ -1275,10 +1275,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 1 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 21011,
                     "name": "Stalattite Cicin",
                     "playcost": [
@@ -1296,10 +1296,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici, invoca Cicin di Cryo.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 1 DAN da Cryo, invoca Cicin di Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C121011]</color>.",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca <color=#FFFFFFFF>Cicin di Cryo</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>, invoca <color=#FFFFFFFF>Cicin di Cryo</color>.",
                     "id": 21012,
                     "name": "Invocazioni offuscate",
                     "playcost": [
@@ -1313,10 +1313,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici, questo personaggio riceve Applicazione di Cryo e genera 1 Scudo fluttuante Cicin.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 5 DAN da Cryo, questo personaggio riceve Applicazione di Cryo e genera 1 Scudo fluttuante Cicin.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], questo personaggio riceve $[K201] e genera 1 <color=#FFFFFFFF>$[C121012]</color>.",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, questo personaggio riceve <color=#99FFFFFF>{SPRITE_PRESET#2101}Applicazione di Cryo</color> e genera 1 <color=#FFFFFFFF>Scudo fluttuante Cicin</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>, questo personaggio riceve <color=#99FFFFFF>{SPRITE_PRESET#2101}Applicazione di Cryo</color> e genera 1 <color=#FFFFFFFF>Scudo fluttuante Cicin</color>.",
                     "id": 21013,
                     "name": "Tormenta, ramo, fioritura",
                     "playcost": [
@@ -1373,10 +1373,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici, questo personaggio ottiene l'effetto Furtività.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 1 DAN da Pyro, questo personaggio ottiene l'effetto Furtività.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], questo personaggio ottiene l'effetto <color=#FFFFFFFF>$[C123011]</color>.",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, questo personaggio ottiene l'effetto <color=#FFFFFFFF>Furtività</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>, questo personaggio ottiene l'effetto <color=#FFFFFFFF>Furtività</color>.",
                     "id": 23012,
                     "name": "Attacco pianificato",
                     "playcost": [
@@ -1390,10 +1390,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 5 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 23013,
                     "name": "Fiamme incineranti",
                     "playcost": [
@@ -1460,10 +1460,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici, questo personaggio ottiene l'effetto Furtività.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 1 DAN da Pyro, questo personaggio ottiene l'effetto Furtività.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], questo personaggio ottiene l'effetto <color=#FFFFFFFF>$[C123011]</color>.",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, questo personaggio ottiene l'effetto <color=#FFFFFFFF>Furtività</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>, questo personaggio ottiene l'effetto <color=#FFFFFFFF>Furtività</color>.",
                     "id": 23012,
                     "name": "Attacco pianificato",
                     "playcost": [
@@ -1477,10 +1477,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 5 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 23013,
                     "name": "Fiamme incineranti",
                     "playcost": [
@@ -1562,10 +1562,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici. Tutti gli altri personaggi Fatui che controlli ottengono 1 punto Energia.",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Infligge 3 DAN da Anemo. Tutti gli altri personaggi Fatui che controlli ottengono 1 punto Energia.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. Tutti gli altri personaggi Fatui che controlli ottengono 1 punto $[K310].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>. Tutti gli altri personaggi Fatui che controlli ottengono 1 punto <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energia</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2105}<color=#80FFD7FF>DAN da Anemo</color>. Tutti gli altri personaggi Fatui che controlli ottengono 1 punto <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energia</color>.",
                     "id": 35023,
                     "name": "Istigazione della tempesta",
                     "playcost": [
@@ -1644,10 +1644,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 3 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 31042,
                     "name": "Spray congelante",
                     "playcost": [
@@ -1661,10 +1661,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici, questo personaggio ottiene Equipaggiamento elementale di Cryo.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 3 DAN da Cryo, questo personaggio ottiene Equipaggiamento elementale di Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], questo personaggio ottiene <color=#FFFFFFFF>$[C131041]</color>.",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, questo personaggio ottiene <color=#FFFFFFFF>Equipaggiamento elementale di Cryo</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>, questo personaggio ottiene <color=#FFFFFFFF>Equipaggiamento elementale di Cryo</color>.",
                     "id": 31043,
                     "name": "Cannongelo",
                     "playcost": [
@@ -1741,10 +1741,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 3 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 34072,
                     "name": "Assalto furente",
                     "playcost": [
@@ -1758,10 +1758,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici, questo personaggio ottiene Equipaggiamento elementale di Electro.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 3 DAN da Electro, questo personaggio ottiene Equipaggiamento elementale di Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], questo personaggio ottiene <color=#FFFFFFFF>$[C134071]</color>.",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, questo personaggio ottiene <color=#FFFFFFFF>Equipaggiamento elementale di Electro</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>, questo personaggio ottiene <color=#FFFFFFFF>Equipaggiamento elementale di Electro</color>.",
                     "id": 34073,
                     "name": "Martello rombotuono",
                     "playcost": [
@@ -1817,10 +1817,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 1 DAN da Geo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>.",
                     "id": 36041,
                     "name": "Proiettile di roccia",
                     "playcost": [
@@ -1838,10 +1838,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 3 DAN da Geo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>.",
                     "id": 36042,
                     "name": "Raggio Geocristallino",
                     "playcost": [
@@ -1855,10 +1855,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici, questo personaggio ottiene l'effetto Equipaggiamento elementale di Geo. Genera 1 Scudo cristallino.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 3 DAN da Geo, questo personaggio ottiene l'effetto Equipaggiamento elementale di Geo. Genera 1 Scudo cristallino.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], questo personaggio ottiene l'effetto <color=#FFFFFFFF>$[C136041]</color>. Genera 1 <color=#FFFFFFFF>$[C136042]</color>.",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, questo personaggio ottiene l'effetto <color=#FFFFFFFF>Equipaggiamento elementale di Geo</color>. Genera 1 <color=#FFFFFFFF>Scudo cristallino</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>, questo personaggio ottiene l'effetto <color=#FFFFFFFF>Equipaggiamento elementale di Geo</color>. Genera 1 <color=#FFFFFFFF>Scudo cristallino</color>.",
                     "id": 36043,
                     "name": "Asta di Geo",
                     "playcost": [
@@ -1925,10 +1925,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici. Ripristina 1 PS di 2 personaggi inattivi.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 2 DAN da Hydro. Ripristina 1 PS di 2 personaggi inattivi.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. Ripristina 1 PS di 2 personaggi inattivi.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>. Ripristina 1 PS di 2 personaggi inattivi.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>. Ripristina 1 PS di 2 personaggi inattivi.",
                     "id": 32032,
                     "name": "Bomba terapeutica",
                     "playcost": [
@@ -1942,10 +1942,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici, questo personaggio ottiene Equipaggiamento elementale di Hydro.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 3 DAN da Hydro, questo personaggio ottiene Equipaggiamento elementale di Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], questo personaggio ottiene <color=#FFFFFFFF>$[C132031]</color>.",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, questo personaggio ottiene <color=#FFFFFFFF>Equipaggiamento elementale di Hydro</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, questo personaggio ottiene <color=#FFFFFFFF>Equipaggiamento elementale di Hydro</color>.",
                     "id": 32033,
                     "name": "Potenziamento elementale di Hydro",
                     "playcost": [
@@ -2001,10 +2001,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 1 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33061,
                     "name": "Proiettile singolo",
                     "playcost": [
@@ -2022,10 +2022,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 3 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33062,
                     "name": "Raffica ustionante",
                     "playcost": [
@@ -2039,10 +2039,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici, questo personaggio ottiene Equipaggiamento elementale di Pyro.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 3 DAN da Pyro, questo personaggio ottiene Equipaggiamento elementale di Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], questo personaggio ottiene <color=#FFFFFFFF>$[C133061]</color>.",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, questo personaggio ottiene <color=#FFFFFFFF>Equipaggiamento elementale di Pyro</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>, questo personaggio ottiene <color=#FFFFFFFF>Equipaggiamento elementale di Pyro</color>.",
                     "id": 33063,
                     "name": "Cannonfiamma",
                     "playcost": [
@@ -2115,10 +2115,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, genera 1 Piedistallo di roccia.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 2 DAN da Geo, genera 1 Piedistallo di roccia.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], genera 1 <color=#FFFFFFFF>$[C136031]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, genera 1 <color=#FFFFFFFF>Piedistallo di roccia</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>, genera 1 <color=#FFFFFFFF>Piedistallo di roccia</color>.",
                     "id": 36032,
                     "name": "Pietre evocate",
                     "playcost": [
@@ -2132,10 +2132,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 5 DAN da Geo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>.",
                     "id": 36033,
                     "name": "Schianto d'urto",
                     "playcost": [
@@ -2173,10 +2173,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 1 DAN da Geo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>.",
                     "id": 36051,
                     "name": "Bomba di spore",
                     "playcost": [
@@ -2194,10 +2194,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 3 DAN da Geo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>.",
                     "id": 36052,
                     "name": "Furialito",
                     "playcost": [
@@ -2211,10 +2211,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 5 DAN da Geo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>.",
                     "id": 36053,
                     "name": "Assalto esplosivo",
                     "playcost": [
@@ -2260,10 +2260,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 32051,
                     "name": "Bomba di spore",
                     "playcost": [
@@ -2281,10 +2281,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 3 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 32052,
                     "name": "Furialito",
                     "playcost": [
@@ -2298,10 +2298,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 5 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 32053,
                     "name": "Assalto esplosivo",
                     "playcost": [
@@ -2347,10 +2347,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 1 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33041,
                     "name": "Colpo di torcia",
                     "playcost": [
@@ -2368,10 +2368,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 2 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33042,
                     "name": "Corri e colpisci",
                     "playcost": [
@@ -2385,10 +2385,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 4 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33043,
                     "name": "Combo rovente",
                     "playcost": [
@@ -2569,10 +2569,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 32011,
                     "name": "Hydrobomba",
                     "playcost": [
@@ -2590,10 +2590,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici, il personaggio bersaglio subisce Bolla di nebbia.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro, il personaggio bersaglio subisce Bolla di nebbia.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], il personaggio bersaglio subisce <color=#FFFFFFFF>$[C132011]</color>.",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, il personaggio bersaglio subisce <color=#FFFFFFFF>Bolla di nebbia</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, il personaggio bersaglio subisce <color=#FFFFFFFF>Bolla di nebbia</color>.",
                     "id": 32012,
                     "name": "Rituale della bolla assassina",
                     "playcost": [
@@ -2607,10 +2607,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici, il personaggio bersaglio subisce Bolla di nebbia.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 4 DAN da Hydro, il personaggio bersaglio subisce Bolla di nebbia.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], il personaggio bersaglio subisce <color=#FFFFFFFF>$[C132011]</color>.",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, il personaggio bersaglio subisce <color=#FFFFFFFF>Bolla di nebbia</color>.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, il personaggio bersaglio subisce <color=#FFFFFFFF>Bolla di nebbia</color>.",
                     "id": 32013,
                     "name": "Rito delle acque mortali",
                     "playcost": [
@@ -2666,10 +2666,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 32011,
                     "name": "Hydrobomba",
                     "playcost": [
@@ -2687,10 +2687,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici, il personaggio bersaglio subisce Bolla di nebbia.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro, il personaggio bersaglio subisce Bolla di nebbia.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], il personaggio bersaglio subisce <color=#FFFFFFFF>$[C132011]</color>.",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, il personaggio bersaglio subisce <color=#FFFFFFFF>Bolla di nebbia</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, il personaggio bersaglio subisce <color=#FFFFFFFF>Bolla di nebbia</color>.",
                     "id": 32012,
                     "name": "Rituale della bolla assassina",
                     "playcost": [
@@ -2704,10 +2704,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici, il personaggio bersaglio subisce Bolla di nebbia.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 4 DAN da Hydro, il personaggio bersaglio subisce Bolla di nebbia.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], il personaggio bersaglio subisce <color=#FFFFFFFF>$[C132011]</color>.",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, il personaggio bersaglio subisce <color=#FFFFFFFF>Bolla di nebbia</color>.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, il personaggio bersaglio subisce <color=#FFFFFFFF>Bolla di nebbia</color>.",
                     "id": 32013,
                     "name": "Rito delle acque mortali",
                     "playcost": [
@@ -2790,10 +2790,10 @@
                 },
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici, invoca 1 Pioggia curativa.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro, invoca 1 Pioggia curativa.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca 1 <color=#FFFFFFFF>$[C132021]</color>.",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca 1 <color=#FFFFFFFF>Pioggia curativa</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, invoca 1 <color=#FFFFFFFF>Pioggia curativa</color>.",
                     "id": 32022,
                     "name": "Danza della pioggia",
                     "playcost": [
@@ -2807,10 +2807,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 5 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 32023,
                     "name": "Raffica acquatica",
                     "playcost": [
@@ -2848,10 +2848,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 32041,
                     "name": "Rimbalzo",
                     "playcost": [
@@ -2869,10 +2869,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 4 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 32042,
                     "name": "Caduta violenta",
                     "playcost": [
@@ -3038,10 +3038,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 3 DAN da Dendro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>.",
                     "id": 27012,
                     "name": "Nube di spore volatili",
                     "playcost": [
@@ -3055,10 +3055,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici, consuma tutti gli accumuli di Vitalità radicale, ogni accumulo conferisce DAN +1 a questo attacco.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 4 DAN da Dendro, consuma tutti gli accumuli di Vitalità radicale, ogni accumulo conferisce DAN +1 a questo attacco.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], consuma tutti gli accumuli di <color=#FFFFFFFF>$[C127011]</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, consuma tutti gli accumuli di <color=#FFFFFFFF>Vitalità radicale</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>, consuma tutti gli accumuli di <color=#FFFFFFFF>Vitalità radicale</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
                     "id": 27013,
                     "name": "Piume maestose",
                     "playcost": [
@@ -3125,10 +3125,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 3 DAN da Dendro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>.",
                     "id": 27012,
                     "name": "Nube di spore volatili",
                     "playcost": [
@@ -3142,10 +3142,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici, consuma tutti gli accumuli di Vitalità radicale, ogni accumulo conferisce DAN +1 a questo attacco.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 4 DAN da Dendro, consuma tutti gli accumuli di Vitalità radicale, ogni accumulo conferisce DAN +1 a questo attacco.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], consuma tutti gli accumuli di <color=#FFFFFFFF>$[C127011]</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, consuma tutti gli accumuli di <color=#FFFFFFFF>Vitalità radicale</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>, consuma tutti gli accumuli di <color=#FFFFFFFF>Vitalità radicale</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
                     "id": 27013,
                     "name": "Piume maestose",
                     "playcost": [
@@ -3212,10 +3212,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 3 DAN da Dendro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>.",
                     "id": 27012,
                     "name": "Nube di spore volatili",
                     "playcost": [
@@ -3229,10 +3229,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici, consuma tutti gli accumuli di Vitalità radicale, ogni accumulo conferisce DAN +1 a questo attacco.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 4 DAN da Dendro, consuma tutti gli accumuli di Vitalità radicale, ogni accumulo conferisce DAN +1 a questo attacco.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], consuma tutti gli accumuli di <color=#FFFFFFFF>$[C127011]</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, consuma tutti gli accumuli di <color=#FFFFFFFF>Vitalità radicale</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>, consuma tutti gli accumuli di <color=#FFFFFFFF>Vitalità radicale</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
                     "id": 27013,
                     "name": "Piume maestose",
                     "playcost": [
@@ -3299,10 +3299,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 3 DAN da Dendro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>.",
                     "id": 27012,
                     "name": "Nube di spore volatili",
                     "playcost": [
@@ -3316,10 +3316,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici, consuma tutti gli accumuli di Vitalità radicale, ogni accumulo conferisce DAN +1 a questo attacco.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 4 DAN da Dendro, consuma tutti gli accumuli di Vitalità radicale, ogni accumulo conferisce DAN +1 a questo attacco.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], consuma tutti gli accumuli di <color=#FFFFFFFF>$[C127011]</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, consuma tutti gli accumuli di <color=#FFFFFFFF>Vitalità radicale</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>, consuma tutti gli accumuli di <color=#FFFFFFFF>Vitalità radicale</color>, ogni accumulo conferisce DAN +1 a questo attacco.",
                     "id": 27013,
                     "name": "Piume maestose",
                     "playcost": [
@@ -3650,10 +3650,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici, attiva l'effetto d'invocazione di tutte le tue Spade d'Ombra (non influisce sul numero di Utilizzi).",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Infligge 4 DAN da Anemo, attiva l'effetto d'invocazione di tutte le tue Spade d'Ombra (non influisce sul numero di Utilizzi).",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], attiva l'effetto d'invocazione di tutte le tue <color=#FFFFFFFF>Spade d'Ombra</color> (non influisce sul numero di Utilizzi).",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, attiva l'effetto d'invocazione di tutte le tue <color=#FFFFFFFF>Spade d'Ombra</color> (non influisce sul numero di Utilizzi).",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2105}<color=#80FFD7FF>DAN da Anemo</color>, attiva l'effetto d'invocazione di tutte le tue <color=#FFFFFFFF>Spade d'Ombra</color> (non influisce sul numero di Utilizzi).",
                     "id": 25014,
                     "name": "Clone Tengu",
                     "playcost": [
@@ -3740,10 +3740,10 @@
                 },
                 {
                     "basedamage": 4,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 4 DAN fisici, attiva l'effetto d'invocazione di tutte le tue Spade d'Ombra (non influisce sul numero di Utilizzi).",
+                    "baseelement": "GCG_ELEMENT_ANEMO",
+                    "description": "Infligge 4 DAN da Anemo, attiva l'effetto d'invocazione di tutte le tue Spade d'Ombra (non influisce sul numero di Utilizzi).",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], attiva l'effetto d'invocazione di tutte le tue <color=#FFFFFFFF>Spade d'Ombra</color> (non influisce sul numero di Utilizzi).",
-                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, attiva l'effetto d'invocazione di tutte le tue <color=#FFFFFFFF>Spade d'Ombra</color> (non influisce sul numero di Utilizzi).",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2105}<color=#80FFD7FF>DAN da Anemo</color>, attiva l'effetto d'invocazione di tutte le tue <color=#FFFFFFFF>Spade d'Ombra</color> (non influisce sul numero di Utilizzi).",
                     "id": 25014,
                     "name": "Clone Tengu",
                     "playcost": [
@@ -3779,10 +3779,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 22021,
                     "name": "Hydrobomba",
                     "playcost": [
@@ -3800,10 +3800,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, il personaggio bersaglio ottiene Rifrazione.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 2 DAN da Hydro, il personaggio bersaglio ottiene Rifrazione.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], il personaggio bersaglio ottiene <color=#FFFFFFFF>$[C122021]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, il personaggio bersaglio ottiene <color=#FFFFFFFF>Rifrazione</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, il personaggio bersaglio ottiene <color=#FFFFFFFF>Rifrazione</color>.",
                     "id": 22022,
                     "name": "Spezzaonde",
                     "playcost": [
@@ -3817,10 +3817,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 5 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 22023,
                     "name": "Rifrazione scintillante",
                     "playcost": [
@@ -3856,10 +3856,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 22021,
                     "name": "Hydrobomba",
                     "playcost": [
@@ -3877,10 +3877,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, il personaggio bersaglio ottiene Rifrazione.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 2 DAN da Hydro, il personaggio bersaglio ottiene Rifrazione.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], il personaggio bersaglio ottiene <color=#FFFFFFFF>$[C122021]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, il personaggio bersaglio ottiene <color=#FFFFFFFF>Rifrazione</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, il personaggio bersaglio ottiene <color=#FFFFFFFF>Rifrazione</color>.",
                     "id": 22022,
                     "name": "Spezzaonde",
                     "playcost": [
@@ -3894,10 +3894,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 5 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 22023,
                     "name": "Rifrazione scintillante",
                     "playcost": [
@@ -3954,10 +3954,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici, passa al prossimo personaggio.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 3 DAN da Pyro, passa al prossimo personaggio.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], passa al prossimo personaggio.",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, passa al prossimo personaggio.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>, passa al prossimo personaggio.",
                     "id": 33052,
                     "name": "Scoppio pirico",
                     "playcost": [
@@ -4160,10 +4160,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 3 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 34052,
                     "name": "Arco di tuono meccanico",
                     "playcost": [
@@ -4244,10 +4244,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 1 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 24011,
                     "name": "Proiezione del Cristallo di Electro",
                     "playcost": [
@@ -4265,10 +4265,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici e poi, separatamente, Prepara abilità per Combo carta, forbice, sasso: Forbice e Combo carta, forbice, sasso: Carta.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro e poi, separatamente, Prepara abilità per Combo carta, forbice, sasso: Forbice e Combo carta, forbice, sasso: Carta.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] e poi, separatamente, $[K53] per <color=#FFFFFFFF>$[S24015]</color> e <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color> e poi, separatamente, <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Forbice</color> e <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color> e poi, separatamente, <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Forbice</color> e <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
                     "id": 24012,
                     "name": "Combo carta, forbice, sasso",
                     "playcost": [
@@ -4282,10 +4282,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, invoca Catene del Tuono tutelare.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro, invoca Catene del Tuono tutelare.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca <color=#FFFFFFFF>$[C124013]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, invoca <color=#FFFFFFFF>Catene del Tuono tutelare</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>, invoca <color=#FFFFFFFF>Catene del Tuono tutelare</color>.",
                     "id": 24013,
                     "name": "Blocco fulmineo",
                     "playcost": [
@@ -4303,10 +4303,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, poi Prepara abilità per Combo carta, forbice, sasso: Carta.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro, poi Prepara abilità per Combo carta, forbice, sasso: Carta.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], poi $[K53] per <color=#FFFFFFFF>$[S24016]</color>.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, poi <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>, poi <color=#FFFFFFFF>Prepara abilità</color> per <color=#FFFFFFFF>Combo carta, forbice, sasso: Carta</color>.",
                     "id": 24015,
                     "name": "Combo carta, forbice, sasso: Forbice",
                     "playcost": [],
@@ -4315,10 +4315,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 3 DAN da Electro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.",
                     "id": 24016,
                     "name": "Combo carta, forbice, sasso: Carta",
                     "playcost": [],
@@ -4355,10 +4355,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 1 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33011,
                     "name": "Ondata fiammante",
                     "playcost": [
@@ -4376,10 +4376,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 3 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33012,
                     "name": "Rituale della fiamma",
                     "playcost": [
@@ -4393,10 +4393,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 7 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 7 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 7 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 7 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33013,
                     "name": "Rito dell'eruzione lavica",
                     "playcost": [
@@ -4452,10 +4452,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 1 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33011,
                     "name": "Ondata fiammante",
                     "playcost": [
@@ -4473,10 +4473,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 3 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33012,
                     "name": "Rituale della fiamma",
                     "playcost": [
@@ -4490,10 +4490,10 @@
                 },
                 {
                     "basedamage": 7,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 7 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_PYRO",
+                    "description": "Infligge 7 DAN da Pyro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 7 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 7 {SPRITE_PRESET#2103}<color=#FF9999FF>DAN da Pyro</color>.",
                     "id": 33013,
                     "name": "Rito dell'eruzione lavica",
                     "playcost": [
@@ -4559,10 +4559,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 22011,
                     "name": "Sovratensione",
                     "playcost": [
@@ -4610,10 +4610,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 2 DAN da Hydro. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
                     "id": 22014,
                     "name": "Correnti e maree",
                     "playcost": [
@@ -4659,10 +4659,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 1 DAN da Hydro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 22011,
                     "name": "Sovratensione",
                     "playcost": [
@@ -4710,10 +4710,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
+                    "baseelement": "GCG_ELEMENT_HYDRO",
+                    "description": "Infligge 2 DAN da Hydro. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>. Infligge ulteriori DAN +2 per ogni invocazione in tuo possesso.",
                     "id": 22014,
                     "name": "Correnti e maree",
                     "playcost": [
@@ -4759,10 +4759,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici, genera 1 Corrosione nel campo avversario.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 1 DAN da Geo, genera 1 Corrosione nel campo avversario.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], genera 1 <color=#FFFFFFFF>$[C136021]</color> nel campo avversario.",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, genera 1 <color=#FFFFFFFF>Corrosione</color> nel campo avversario.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>, genera 1 <color=#FFFFFFFF>Corrosione</color> nel campo avversario.",
                     "id": 36021,
                     "name": "Artigli corrosivi",
                     "playcost": [
@@ -4780,10 +4780,10 @@
                 },
                 {
                     "basedamage": 2,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 2 DAN fisici, genera 1 Corrosione nel campo avversario.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 2 DAN da Geo, genera 1 Corrosione nel campo avversario.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], genera 1 <color=#FFFFFFFF>$[C136021]</color> nel campo avversario.",
-                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, genera 1 <color=#FFFFFFFF>Corrosione</color> nel campo avversario.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>, genera 1 <color=#FFFFFFFF>Corrosione</color> nel campo avversario.",
                     "id": 36022,
                     "name": "Sbriciolacristalli",
                     "playcost": [
@@ -4797,10 +4797,10 @@
                 },
                 {
                     "basedamage": 6,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 6 DAN fisici, genera 1 Corrosione nel campo avversario.",
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 6 DAN da Geo, genera 1 Corrosione nel campo avversario.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], genera 1 <color=#FFFFFFFF>$[C136021]</color> nel campo avversario.",
-                    "descriptionreplaced": "Infligge 6 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>, genera 1 <color=#FFFFFFFF>Corrosione</color> nel campo avversario.",
+                    "descriptionreplaced": "Infligge 6 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>, genera 1 <color=#FFFFFFFF>Corrosione</color> nel campo avversario.",
                     "id": 36023,
                     "name": "Segno dell'inseguitore",
                     "playcost": [
@@ -5281,10 +5281,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 1 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 31051,
                     "name": "Bomba di spore",
                     "playcost": [
@@ -5302,10 +5302,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 3 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 31052,
                     "name": "Turbine fungino",
                     "playcost": [
@@ -5319,10 +5319,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 5 DAN da Cryo.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>.",
                     "id": 31053,
                     "name": "Esplosione fungina",
                     "playcost": [
@@ -5368,10 +5368,10 @@
             "skills": [
                 {
                     "basedamage": 1,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 1 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 1 DAN da Dendro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>.",
                     "id": 37011,
                     "name": "Bomba di spore",
                     "playcost": [
@@ -5389,10 +5389,10 @@
                 },
                 {
                     "basedamage": 3,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 3 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 3 DAN da Dendro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>.",
                     "id": 37012,
                     "name": "Turbine fungino",
                     "playcost": [
@@ -5406,10 +5406,10 @@
                 },
                 {
                     "basedamage": 5,
-                    "baseelement": "GCG_ELEMENT_NONE",
-                    "description": "Infligge 5 DAN fisici.",
+                    "baseelement": "GCG_ELEMENT_DENDRO",
+                    "description": "Infligge 5 DAN da Dendro.",
                     "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "descriptionreplaced": "Infligge 5 {SPRITE_PRESET#2107}<color=#7EC236FF>DAN da Dendro</color>.",
                     "id": 37013,
                     "name": "Esplosione fungina",
                     "playcost": [
