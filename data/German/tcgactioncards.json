@@ -230,8 +230,8 @@
             "name": "Archaischer Fels",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "„Millelithen solln sein der Stadt Schild und Schwert.“",
@@ -319,8 +319,8 @@
             "name": "Im Schnee irrender Recke",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "„Dann bitte, lebe weiter. Begleite uns nicht in unser Verhängnis, in diesem Schnee in Vergessenheit zu geraten.“",
@@ -342,7 +342,7 @@
             "name": "Echo des Eisbrechers",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "Wechselhafte Maske",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "Brennende Pyro-Hexe",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "„Dem Klagelied verweiger ich mich, verweiger mich dem Wehklagen, verweiger mich dem Seufzen und auch all dem Lärm.\nWem soll ich Erlösung bieten, wenn Gerechtigkeit schon lang vergangen ist?“",
@@ -746,8 +746,8 @@
             "name": "Erinnerungen des tiefen Waldes",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "„Denn jene, die die Natur achten, werden letztendlich das Labyrinth des Waldes durchqueren und zu einer grenzenlosen Wildnis gelangen können.“",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "Artefakt"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "Kampfaktion: Ist deine aktive Figur Albedo, ist diese Karte anzulegen.\nLegt Albedo sie an, wird sofort 1-mal Chemische Evolution – Sonnennachbildung angewendet.\nIst Albedo ausgerüstet mit dieser Karte deine aktive Figur und besteht auf deinem Feld Sonnennachbildung: SCH vom Angriff aus dem Fall durch deine eigenen Figuren +1.\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Albedo enthält.)",
+            "descriptionraw": "$[K1]: Ist deine aktive Figur <color=#FFFFFFFF>$[A1604]</color>, ist diese Karte anzulegen.\\nLegt $[A1604] sie an, wird sofort 1-mal <color=#FFD780FF>$[S16042]</color> angewendet.\\nIst $[A1604] ausgerüstet mit dieser Karte deine aktive Figur und besteht auf deinem Feld <color=#FFFFFFFF>$[C116041]</color>: SCH vom $[K52] durch deine eigenen Figuren +1.\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das $[A1604] enthält.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Kampfaktion</color>: Ist deine aktive Figur <color=#FFFFFFFF>Albedo</color>, ist diese Karte anzulegen.\\nLegt Albedo sie an, wird sofort 1-mal <color=#FFD780FF>Chemische Evolution – Sonnennachbildung</color> angewendet.\\nIst Albedo ausgerüstet mit dieser Karte deine aktive Figur und besteht auf deinem Feld <color=#FFFFFFFF>Sonnennachbildung</color>: SCH vom <color=#FFFFFFFF>Angriff aus dem Fall</color> durch deine eigenen Figuren +1.\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Albedo enthält.)",
+            "id": 216041,
+            "name": "Gefallene Gottheit",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "Nach Erreichen des entsprechenden Ziels in einem Duell mit Albedo in der Taverne Zum Katzenschwanz zu erhalten.",
+            "storytext": "„Die Festlegung der Strategie für ein Duell erfordert genaue Berechnungen.“",
+            "storytitle": "Albedo – Gefallene Gottheit",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
+                "Kampfaktion"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "Wappen des getrennten Schicksals",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "Diese dreizehn Jahre des Lebens flogen wie ein Traum vorbei.\nDer rote Schnee wirbelt wie Rauch durch den schattigen Pass.\nDu aber bist in die Ferne gegangen.",
@@ -1527,6 +1553,42 @@
                 "Artefakt"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Bringt 2 Pkt. „Sieg-Countdown“ aufs Feld.\nEndphase: „Sieg-Countdown“ -1. Wenn der „Sieg-Countdown“ 0 erreicht und keine deiner Figuren ohnmächtig geworden ist, gewinnst du das Duell.\nZu Beginn der Zugphase: Wenn der „Sieg-Countdown“ gerade noch 1 Pkt. hat, werden 4 Omni-Würfel erschaffen.",
+            "descriptionraw": "Bringt 2 Pkt. „Sieg-Countdown“ aufs Feld.\\n<color=#FFFFFFFF>Endphase:</color> „Sieg-Countdown“ -1. Wenn der „Sieg-Countdown“ 0 erreicht und keine deiner Figuren ohnmächtig geworden ist, gewinnst du das Duell.\\n<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Wenn der „Sieg-Countdown“ gerade noch 1 Pkt. hat, werden 4 $[K411] erschaffen.",
+            "descriptionreplaced": "Bringt 2 Pkt. „Sieg-Countdown“ aufs Feld.\\n<color=#FFFFFFFF>Endphase:</color> „Sieg-Countdown“ -1. Wenn der „Sieg-Countdown“ 0 erreicht und keine deiner Figuren ohnmächtig geworden ist, gewinnst du das Duell.\\n<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Wenn der „Sieg-Countdown“ gerade noch 1 Pkt. hat, werden 4 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color> erschaffen.",
+            "id": 423025,
+            "name": "Spiel der Strategie – Sicherer Sieg",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Zu Beginn der Zugphase: Erschafft 1 Brandbombe auf der Seite des Kartenbeschwörers, der die Vorhand hat.\nEndphase: Wenn der Effekt von Brandbombe auf der gegnerischen Seite ausgewertet wird, verliert der Gegner das Duell.",
+            "descriptionraw": "<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Erschafft 1 $[C401001] auf der Seite des Kartenbeschwörers, der die Vorhand hat.\\n<color=#FFFFFFFF>Endphase:</color> Wenn der Effekt von $[C401001] auf der gegnerischen Seite ausgewertet wird, verliert der Gegner das Duell.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Erschafft 1 Brandbombe auf der Seite des Kartenbeschwörers, der die Vorhand hat.\\n<color=#FFFFFFFF>Endphase:</color> Wenn der Effekt von Brandbombe auf der gegnerischen Seite ausgewertet wird, verliert der Gegner das Duell.",
+            "id": 421011,
+            "name": "Spiel der Strategie – Bombentrigger",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Zu Beginn der Zugphase: Erschafft 2 Omni-Würfel. Du wirst aber in der Endphase dieser Runde das Duell verlieren.\nWird eine gegnerische Figur ausgeschaltet oder nach Anwenden von Spezialfähigkeiten durch deine Figuren: Erschafft 3 Omni-Würfel. Zieht 1 Karte. Du bist weiter am Zug, bis du 1 Kampfaktion durchführst.",
+            "descriptionraw": "<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Erschafft 2 $[K411]. Du wirst aber in der Endphase dieser Runde das Duell verlieren.\\n<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet oder nach Anwenden von Spezialfähigkeiten durch deine Figuren:</color> Erschafft 3 $[K411]. Zieht 1 Karte. Du bist weiter am Zug, bis du 1 Kampfaktion durchführst.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Zu Beginn der Zugphase:</color> Erschafft 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>. Du wirst aber in der Endphase dieser Runde das Duell verlieren.\\n<color=#FFFFFFFF>Wird eine gegnerische Figur ausgeschaltet oder nach Anwenden von Spezialfähigkeiten durch deine Figuren:</color> Erschafft 3 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>. Zieht 1 Karte. Du bist weiter am Zug, bis du 1 Kampfaktion durchführst.",
+            "id": 423026,
+            "name": "Spiel der Strategie – Gnadenloser Ansturm",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ausrüstungskarte",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "Talent",
                 "Kampfaktion"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Beim Ausspielen von „Waffen“- oder „Artefakt“-Karte mit ursprünglichen Kosten von mind. 3 Elementarwürfeln: Würfel-Verbrauch -1 (1-mal pro Runde).\nEinsatzmöglichkeit: 2",
+            "descriptionraw": "<color=#FFFFFFFF>Beim Ausspielen von „{SPRITE_PRESET#3003}Waffen“- oder „{SPRITE_PRESET#3004}Artefakt“-Karte mit ursprünglichen Kosten von mind. 3 Elementarwürfeln:</color> Würfel-Verbrauch -1 (1-mal pro Runde).\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Beim Ausspielen von „{SPRITE_PRESET#3003}Waffen“- oder „{SPRITE_PRESET#3004}Artefakt“-Karte mit ursprünglichen Kosten von mind. 3 Elementarwürfeln:</color> Würfel-Verbrauch -1 (1-mal pro Runde).\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 2</color>",
+            "id": 321013,
+            "name": "Goldstube",
+            "playcost": [],
+            "storytext": "Alle Verträge, die in dieser Welt im Umlauf sind, wurden hier „geschmiedet“.",
+            "storytitle": "Goldstube",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "Spielfeld"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "Tief im Herzen",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "„... Denn alle Tode sind vergeblich. Es gibt keine Rettung für diejenigen, die in der Vergangenheit schwelgen.“",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Ereigniskarte",
-            "description": "Wird eine deiner Figuren in dieser Runde ausgeschaltet, ist diese Karte auszuspielen:\nErschafft 1 Omni-Würfel, deine aktuelle Figur erhält 1 Pkt. Aufladung.",
-            "descriptionraw": "Wird eine deiner Figuren in dieser Runde ausgeschaltet, ist diese Karte auszuspielen:\\nErschafft 1 $[K411], deine aktuelle Figur erhält 1 Pkt. $[K310].",
-            "descriptionreplaced": "Wird eine deiner Figuren in dieser Runde ausgeschaltet, ist diese Karte auszuspielen:\\nErschafft 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>, deine aktuelle Figur erhält 1 Pkt. <color=#FFFFFFFF>{SPRITE_PRESET#1110}Aufladung</color>.",
+            "description": "Wird eine deiner Figuren in dieser Runde ausgeschaltet, ist diese Karte auszuspielen: Erschafft 1 Omni-Würfel, deine aktuelle Figur erhält 1 Pkt. Aufladung. („Noch nicht verloren!“ kann jede Runde nur einmal ausgespielt werden.)",
+            "descriptionraw": "<color=#FFFFFFFF>Wird eine deiner Figuren in dieser Runde ausgeschaltet, ist diese Karte auszuspielen:</color> Erschafft 1 $[K411], deine aktuelle Figur erhält 1 Pkt. $[K310]. („Noch nicht verloren!“ kann jede Runde nur einmal ausgespielt werden.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Wird eine deiner Figuren in dieser Runde ausgeschaltet, ist diese Karte auszuspielen:</color> Erschafft 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color>, deine aktuelle Figur erhält 1 Pkt. <color=#FFFFFFFF>{SPRITE_PRESET#1110}Aufladung</color>. („Noch nicht verloren!“ kann jede Runde nur einmal ausgespielt werden.)",
             "id": 332005,
             "name": "Noch nicht verloren!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Würfelphase:</color> Garantiert 2 Würfel vom Element deiner aktiven Figur im 1. Würfelergebnis.",
             "id": 321003,
             "name": "Jadegemach",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "Nach Erreichen des entsprechenden Ziels in der Abenteuer-Herausforderung beim Kartenbeschwörer Buyun in der offenen Welt zu erhalten.",
             "storytext": "„Es heißt, in seinem Innern lagern tausende Schätze, welche die Augen zum Leuchten bringen.“",
             "storytitle": "Sterne auf den Wolken sehen",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "Spielfeld"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Ereigniskarte",
+            "description": "Ist der Elementartyp deiner aktiven Figur Kryo, Hydro, Pyro, Elektro oder Dendro, ist diese Karte auszuspielen: Verleiht all deinen Figuren das Element-Attribut deiner aktiven Figur.\n(Während des gesamten Duells kann nur 1 „Mysteriums“-Karte ausgespielt werden. Diese Karte ist Teil deiner Starthand.)",
+            "descriptionraw": "<color=#FFFFFFFF>Ist der Elementartyp deiner aktiven Figur {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro</color> oder {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>, ist diese Karte auszuspielen: </color>Verleiht all deinen Figuren das Element-Attribut deiner aktiven Figur.\\n(Während des gesamten Duells kann nur 1 „{SPRITE_PRESET#3007}Mysteriums“-Karte ausgespielt werden. Diese Karte ist Teil deiner Starthand.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Ist der Elementartyp deiner aktiven Figur {SPRITE_PRESET#2101}<color=#99FFFFFF>Kryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektro</color> oder {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>, ist diese Karte auszuspielen: </color>Verleiht all deinen Figuren das Element-Attribut deiner aktiven Figur.\\n(Während des gesamten Duells kann nur 1 „{SPRITE_PRESET#3007}Mysteriums“-Karte ausgespielt werden. Diese Karte ist Teil deiner Starthand.)",
+            "id": 330003,
+            "name": "Freudige Feier",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "„Die Freude sollte mit allen geteilt werden.“",
+            "storytitle": "Freudige Feier",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Mysterium"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "Gefährte"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "SCH durch die Figur +1.\nBeim Ausspielen dieser Karte: Für die nächste Elementarfähigkeit oder das nächste Anlegen von „Talent“ durch die hiermit ausgerüstete Figur in dieser Runde werden 2 Elementarwürfel weniger verbraucht.\n(Nur für Bogennutzer anlegbar, und zwar max. 1 Waffe.)",
+            "descriptionraw": "<color=#FFFFFFFF>SCH durch die Figur +1</color>.\\n<color=#FFFFFFFF>Beim Ausspielen dieser Karte:</color> Für die nächste Elementarfähigkeit oder das nächste Anlegen von „{SPRITE_PRESET#3006}Talent“ durch die hiermit ausgerüstete Figur in dieser Runde werden 2 Elementarwürfel weniger verbraucht.\\n(Nur für <color=#FFFFFFFF>{SPRITE_PRESET#3202}Bogennutzer</color> anlegbar, und zwar max. 1 {SPRITE_PRESET#3003}Waffe.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>SCH durch die Figur +1</color>.\\n<color=#FFFFFFFF>Beim Ausspielen dieser Karte:</color> Für die nächste Elementarfähigkeit oder das nächste Anlegen von „{SPRITE_PRESET#3006}Talent“ durch die hiermit ausgerüstete Figur in dieser Runde werden 2 Elementarwürfel weniger verbraucht.\\n(Nur für <color=#FFFFFFFF>{SPRITE_PRESET#3202}Bogennutzer</color> anlegbar, und zwar max. 1 {SPRITE_PRESET#3003}Waffe.)",
+            "id": 311206,
+            "name": "Gefolgsfrau des Königs",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "Eine Waffe, die du aus einer Geschichte über die Aranara erhalten hast. Sie hat die Form eines Bogens angenommen.\n„Vergiss nicht, dass diese Welt nur ein Traum des Waldes ist ... Gib bitte die Sprache des Waldes und die Verantwortung, das Land des Königs zu beschützen, an noch mehr Menschen weiter.“",
+            "storytitle": "Waldlehre – Gefolgsfrau des Königs",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "Waffe",
+                "Bogen"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Unterstützungskarte",
@@ -2044,7 +2171,7 @@
             "name": "Unschätzbarer Lorbeerkranz",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "Maske des starren Gesteins",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "Verzierter Helm",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "„Diese dreizehn Jahre des Lebens flogen wie ein Traum vorbei. Der rote Schnee wirbelt wie Rauch durch den schattigen Pass. Du aber bist in die Ferne gegangen.“",
@@ -3311,6 +3438,30 @@
                 "Kampfaktion"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "Nach Einwechseln von Lisa ausgerüstet mit dieser Karte: Verleiht der aktiven Figur deines Gegners den Zustand Blitzleiter (1-mal pro Runde).\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Lisa enthält.)",
+            "descriptionraw": "Nach Einwechseln von <color=#FFFFFFFF>$[A1409]</color> ausgerüstet mit dieser Karte: Verleiht der aktiven Figur deines Gegners den Zustand <color=#FFFFFFFF>$[C114091]</color> (1-mal pro Runde).\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das $[A1409] enthält.)",
+            "descriptionreplaced": "Nach Einwechseln von <color=#FFFFFFFF>Lisa</color> ausgerüstet mit dieser Karte: Verleiht der aktiven Figur deines Gegners den Zustand <color=#FFFFFFFF>Blitzleiter</color> (1-mal pro Runde).\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Lisa enthält.)",
+            "id": 214091,
+            "name": "Pulsierende Hexe",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "Nach Erreichen des entsprechenden Ziels in einem Duell mit Lisa in der Taverne Zum Katzenschwanz zu erhalten.",
+            "storytext": "Als Bibliothekarin, die Hunderte von Büchern gelesen hat, ist es nur natürlich, dass sie die Techniken beherrscht, mit denen man den Sieg erringen kann ...",
+            "storytitle": "Lisa – Pulsierende Hexe",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "Talent"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Ereigniskarte",
@@ -3438,6 +3589,36 @@
             "source": "Nach Erreichen des entsprechenden Ziels in einem Duell mit Yanfei in der Taverne Zum Katzenschwanz zu erhalten.",
             "storytext": "„Beim Kartenspielen gilt natürlich ... die allgemeine Handlungsfreiheit: Alles ist erlaubt, was nicht verboten ist.“",
             "storytitle": "Yanfei – Endgültige Auslegung vorbehalten",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
+                "Kampfaktion"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "Kampfaktion: Ist deine aktive Figur Qiqi, ist diese Karte anzulegen.\nLegt Qiqi sie an, wird sofort 1-mal Adeptenkunst – Befreiung vom Leid angewendet.\nWendet Qiqi ausgerüstet mit dieser Karte Adeptenkunst – Befreiung vom Leid an: Belebt alle deiner ohnmächtig gewordenen Figuren wieder und stellt ihnen 2 LP wieder her (max. 2-mal pro Duell).\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Qiqi enthält.)",
+            "descriptionraw": "$[K1]: Ist deine aktive Figur <color=#FFFFFFFF>$[A1108]</color>, ist diese Karte anzulegen.\\nLegt $[A1108] sie an, wird sofort 1-mal <color=#FFD780FF>$[S11083]</color> angewendet.\\nWendet $[A1108] ausgerüstet mit dieser Karte <color=#FFFFFFFF>$[S11083]</color> an: Belebt alle deiner ohnmächtig gewordenen Figuren wieder und stellt ihnen 2 LP wieder her (max. 2-mal pro Duell).\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das $[A1108] enthält.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Kampfaktion</color>: Ist deine aktive Figur <color=#FFFFFFFF>Qiqi</color>, ist diese Karte anzulegen.\\nLegt Qiqi sie an, wird sofort 1-mal <color=#FFD780FF>Adeptenkunst – Befreiung vom Leid</color> angewendet.\\nWendet Qiqi ausgerüstet mit dieser Karte <color=#FFFFFFFF>Adeptenkunst – Befreiung vom Leid</color> an: Belebt alle deiner ohnmächtig gewordenen Figuren wieder und stellt ihnen 2 LP wieder her (max. 2-mal pro Duell).\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das Qiqi enthält.)",
+            "id": 211081,
+            "name": "Auferstehung",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "Nach Erreichen des entsprechenden Ziels in einem Duell mit Qiqi in der Taverne Zum Katzenschwanz zu erhalten.",
+            "storytext": "„Ich ... muss weiterleben ...“",
+            "storytitle": "Qiqi – Auferstehung",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Unterstützungskarte",
+            "description": "Wenn du nach einer beliebigen Aktion deiner Seite 0 Karten auf der Hand hast: Zieht 1 Karte.\nEinsatzmöglichkeit: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Wenn du nach einer beliebigen Aktion deiner Seite 0 Karten auf der Hand hast:</color> Zieht 1 Karte.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Wenn du nach einer beliebigen Aktion deiner Seite 0 Karten auf der Hand hast:</color> Zieht 1 Karte.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 3</color>",
+            "id": 322019,
+            "name": "Setaria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Ein Genie aus der Wüste, eine außergewöhnliche Gelehrte in den Tiefen des Regenwaldes ...",
+            "storytitle": "Überschreiten der Mauer – Setaria",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Gefährte"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ausrüstungskarte",
@@ -3675,7 +3879,7 @@
             "name": "Gedenken an Shimenawa",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Ereigniskarte",
-            "description": "Wandelt all deine Würfel in den Elementartyp deiner aktiven Figur um.\n(Diese Karte kann nur einem Deck hinzugefügt werden, das mind. 2 „Inazuma“-Figuren enthält.)",
-            "descriptionraw": "Wandelt all deine Würfel in den Elementartyp deiner aktiven Figur um.\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das mind. 2 „{SPRITE_PRESET#3403}Inazuma“-Figuren enthält.)",
-            "descriptionreplaced": "Wandelt all deine Würfel in den Elementartyp deiner aktiven Figur um.\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das mind. 2 „{SPRITE_PRESET#3403}Inazuma“-Figuren enthält.)",
+            "description": "Wandelt all deine Würfel in Omni-Würfel um.\n(Diese Karte kann nur einem Deck hinzugefügt werden, das mind. 2 „Inazuma“-Figuren enthält.)",
+            "descriptionraw": "Wandelt all deine Würfel in $[K411] um.\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das mind. 2 „{SPRITE_PRESET#3403}Inazuma“-Figuren enthält.)",
+            "descriptionreplaced": "Wandelt all deine Würfel in <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni-Würfel</color> um.\\n(Diese Karte kann nur einem Deck hinzugefügt werden, das mind. 2 „{SPRITE_PRESET#3403}Inazuma“-Figuren enthält.)",
             "id": 331803,
             "name": "Donner und Ewigkeit",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "Donnernder Zorn",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "„Dann, wenn du wieder mit dem Gewitter kommst, singe ich dir ein anderes Lied.“",
@@ -4457,7 +4661,7 @@
             "name": "Gelassenheit des Donners",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "Donnerkrone",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "Vergangenheit des Zinnobers",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "Grünlicher Schatten",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "„Eines Tages ... werden wir uns in diesen endlosen Jagdgründen wiedersehen.“",
@@ -4773,7 +4977,7 @@
             "name": "Feldjägerhut",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Ereigniskarte",
+            "description": "Lass die Waffe einer deinen Figuren zurück auf deine Hand kommen.\nBeim nächsten Ausspielen deiner „Waffen“-Karte in dieser Runde: Würfel-Verbrauch -2",
+            "descriptionraw": "Lass die {SPRITE_PRESET#3003}Waffe einer deinen Figuren zurück auf deine Hand kommen.\\n<color=#FFFFFFFF>Beim nächsten Ausspielen deiner „{SPRITE_PRESET#3003}Waffen“-Karte in dieser Runde:</color> Würfel-Verbrauch -2",
+            "descriptionreplaced": "Lass die {SPRITE_PRESET#3003}Waffe einer deinen Figuren zurück auf deine Hand kommen.\\n<color=#FFFFFFFF>Beim nächsten Ausspielen deiner „{SPRITE_PRESET#3003}Waffen“-Karte in dieser Runde:</color> Würfel-Verbrauch -2",
+            "id": 332022,
+            "name": "Versteckte Klinge, wo bist du?",
+            "playcost": [],
+            "storytext": "Die Herkunft dieser Leiterin der Niederlassung der Abenteurergilde ist geheimnisumwittert, doch sie hat ihre Suche nach Hinweisen auf ein Schwert nie aufgegeben und sich dabei mächtigen Gegnern gestellt.",
+            "storytitle": "Versteckte Klinge, wo bist du?",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ausrüstungskarte",
@@ -4990,7 +5208,7 @@
             "name": "Weinverschmierte Kapitänsmütze",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "Brennender Hexenhut",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

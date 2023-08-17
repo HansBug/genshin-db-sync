@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Status",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "This status starts with 2 stacks of Conductive. When attached repeatedly, Conductive stack +1. Conductive can be stacked to a maximum of 4 stacks.\nEnd Phase: Accumulate 1 stack of Conductive.\n\nWhen the character attached with Conductive takes DMG from Violet Arc: Remove this status and DMG +1 for each stack of Conductive.",
+            "descriptionraw": "This status starts with 2 stacks of Conductive. When attached repeatedly, Conductive stack +1. Conductive can be stacked to a maximum of 4 stacks.\\n<color=#FFFFFFFF>End Phase: </color>Accumulate 1 stack of Conductive.\\n\\n<color=#FFFFFFFF>When the character attached with Conductive takes DMG from $[S14092]: </color>Remove this status and DMG +1 for each stack of Conductive.",
+            "descriptionreplaced": "This status starts with 2 stacks of Conductive. When attached repeatedly, Conductive stack +1. Conductive can be stacked to a maximum of 4 stacks.\\n<color=#FFFFFFFF>End Phase: </color>Accumulate 1 stack of Conductive.\\n\\n<color=#FFFFFFFF>When the character attached with Conductive takes DMG from Violet Arc: </color>Remove this status and DMG +1 for each stack of Conductive.",
+            "id": 114091,
+            "name": "Conductive",
+            "statustypetext": "Character Status",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
@@ -743,6 +755,20 @@
             "statustypetext": "Team Combat Status",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "When you have Albedo on the field with this card equipped, if there is Solar Isotoma on your side, your characters' Plunging Attack deals +1 DMG.",
+            "descriptionraw": "When you have $[A1604] on the field with this card equipped, if there is <color=#FFFFFFFF>$[C116041]</color> on your side, your characters' $[K52] deals +1 DMG.",
+            "descriptionreplaced": "When you have Albedo on the field with this card equipped, if there is <color=#FFFFFFFF>Solar Isotoma</color> on your side, your characters' <color=#FFFFFFFF>Plunging Attack</color> deals +1 DMG.",
+            "id": 216041,
+            "name": "Descent of Divinity",
+            "statustypetext": "Character Equipment",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Combat Status",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "After your character uses a Skill: If that character does not have full HP, heal that character for 2 HP.\nUsage(s): 3",
+            "descriptionraw": "<color=#FFFFFFFF>After your character uses a Skill: </color>If that character does not have full HP, heal that character for 2 HP.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>After your character uses a Skill: </color>If that character does not have full HP, heal that character for 2 HP.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 3</color>",
+            "id": 111082,
+            "name": "Fortune-Preserving Talisman",
+            "statustypetext": "Team Combat Status",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Hoarfrost Greatshield",
             "statustypetext": "Character Status",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Combat Status",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "After your character uses Skill: This effect will be transferred to the opposing side and accumulate 1 point of Piping Hot (max 4 points). End Phase: Remove this effect and deal 2 Physical DMG to the side where this effect is attached to. Each point of Piping Hot grants +1 DMG to this effect.",
+            "descriptionraw": "<color=#FFFFFFFF>After your character uses Skill: </color>This effect will be transferred to the opposing side and accumulate 1 point of Piping Hot (max 4 points). <color=#FFFFFFFF>End Phase: </color>Remove this effect and deal 2 $[K100] to the side where this effect is attached to. Each point of Piping Hot grants +1 DMG to this effect.",
+            "descriptionreplaced": "<color=#FFFFFFFF>After your character uses Skill: </color>This effect will be transferred to the opposing side and accumulate 1 point of Piping Hot (max 4 points). <color=#FFFFFFFF>End Phase: </color>Remove this effect and deal 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> to the side where this effect is attached to. Each point of Piping Hot grants +1 DMG to this effect.",
+            "id": 401001,
+            "name": "Hot Potato",
+            "statustypetext": "Team Combat Status",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Combat Status",
+            "description": "You cannot play \"I Haven't Lost Yet!\" again this round",
+            "descriptionraw": "You cannot play \"I Haven't Lost Yet!\" again this round",
+            "descriptionreplaced": "You cannot play \"I Haven't Lost Yet!\" again this round",
+            "id": 303205,
+            "name": "I Haven't Lost Yet! (On Cooldown)",
+            "statustypetext": "Team Combat Status",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "Character deals +1 DMG.",
+            "descriptionraw": "<color=#FFFFFFFF>Character deals +1 DMG</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Character deals +1 DMG</color>.",
+            "id": 311206,
+            "name": "King's Squire",
+            "statustypetext": "Character Equipment",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Status",
+            "description": "During this Round, spend 2 less Elemental Dice the next time the character uses an Elemental Skill or equips a Talent card.",
+            "descriptionraw": "During this Round, spend 2 less Elemental Dice <color=#FFFFFFFF>the next time the character uses an Elemental Skill or equips a {SPRITE_PRESET#3006}Talent card.</color>",
+            "descriptionreplaced": "During this Round, spend 2 less Elemental Dice <color=#FFFFFFFF>the next time the character uses an Elemental Skill or equips a {SPRITE_PRESET#3006}Talent card.</color>",
+            "id": 301103,
+            "name": "King's Squire (In Effect)",
+            "statustypetext": "Character Status",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "Team Combat Status",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Combat Status",
+            "description": "End Phase: You lose the match.",
+            "descriptionraw": "<color=#FFFFFFFF>End Phase: </color>You lose the match.",
+            "descriptionreplaced": "<color=#FFFFFFFF>End Phase: </color>You lose the match.",
+            "id": 403016,
+            "name": "Price of Unrelenting Assault",
+            "statustypetext": "Team Combat Status",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "After you switch to Lisa, who has this card equipped: Attach Conductive to the opposing active character. (Once per Round)",
+            "descriptionraw": "After you switch to <color=#FFFFFFFF>$[A1409]</color>, who has this card equipped: Attach <color=#FFFFFFFF>$[C114091]</color> to the opposing active character. (Once per Round)",
+            "descriptionreplaced": "After you switch to <color=#FFFFFFFF>Lisa</color>, who has this card equipped: Attach <color=#FFFFFFFF>Conductive</color> to the opposing active character. (Once per Round)",
+            "id": 214091,
+            "name": "Pulsating Witch",
+            "statustypetext": "Character Equipment",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Rite of Dispatch",
             "statustypetext": "Character Status",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "When your Qiqi, who has this card equipped, uses Adeptus Art: Preserver of Fortune, she revives all your fallen characters and heals them for 2 HP. (Can happen 2 times per match)",
+            "descriptionraw": "When your $[A1108], who has this card equipped, uses <color=#FFFFFFFF>$[S11083]</color>, she revives all your fallen characters and heals them for 2 HP. (Can happen 2 times per match)",
+            "descriptionreplaced": "When your Qiqi, who has this card equipped, uses <color=#FFFFFFFF>Adeptus Art: Preserver of Fortune</color>, she revives all your fallen characters and heals them for 2 HP. (Can happen 2 times per match)",
+            "id": 211081,
+            "name": "Rite of Resurrection",
+            "statustypetext": "Character Equipment",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>The next time you use a Skill:</color> Switch your next character in to be the active character.",
             "id": 303207,
             "name": "When the Crane Returned (In Effect)",
+            "statustypetext": "Team Combat Status",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Combat Status",
+            "description": "During this Round, the next time you play a Weapon card: Spend 2 less Elemental Dice.",
+            "descriptionraw": "<color=#FFFFFFFF>During this Round, the next time you play a {SPRITE_PRESET#3003}Weapon card: </color>Spend 2 less Elemental Dice.",
+            "descriptionreplaced": "<color=#FFFFFFFF>During this Round, the next time you play a {SPRITE_PRESET#3003}Weapon card: </color>Spend 2 less Elemental Dice.",
+            "id": 303222,
+            "name": "Where Is the Unseen Razor? (In Effect)",
             "statustypetext": "Team Combat Status",
             "tags": []
         },

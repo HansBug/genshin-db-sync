@@ -90,6 +90,84 @@
                 "Canavar"
             ]
         },
+        "albedo": {
+            "hp": 10,
+            "id": 1604,
+            "maxenergy": 2,
+            "name": "Albedo",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
+                    "id": 16041,
+                    "name": "Favonius Kılıç Tekniği - Weiss",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Saldırı",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Güneş Çiçeği çağırır.",
+                    "descriptionraw": "<color=#FFFFFFFF>$[C116041]</color> çağırır.",
+                    "descriptionreplaced": "<color=#FFFFFFFF>Güneş Çiçeği</color> çağırır.",
+                    "id": 16042,
+                    "name": "Yaratılış: Güneş Çiçeği",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Element Becerisi",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 4,
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "4 Toprak Hasarı verir. Eğer Güneş Çiçeği alandaysa, bu Hasar 2 artar.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. Eğer <color=#FFFFFFFF>$[C116041]</color> alandaysa, bu Hasar 2 artar.",
+                    "descriptionreplaced": "4 {SPRITE_PRESET#2106}<color=#FFE699FF>Toprak Hasarı</color> verir. Eğer <color=#FFFFFFFF>Güneş Çiçeği</color> alandaysa, bu Hasar 2 artar.",
+                    "id": 16043,
+                    "name": "Varoluş Ayini: Tektonik Dalga",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Element Patlaması",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Albedo'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+            "storytext": "Siyahlık ve beyazlık, sarılık ve kızıllık.",
+            "storytitle": "\"Kreideprinz\" Albedo",
+            "tags": [
+                "GCG_TAG_ELEMENT_GEO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Toprak",
+                "Kılıç",
+                "Mondstadt"
+            ]
+        },
         "amber": {
             "hp": 10,
             "id": 1304,
@@ -2363,6 +2441,86 @@
                 "Inazuma"
             ]
         },
+        "lisa": {
+            "hp": 10,
+            "id": 1409,
+            "maxenergy": 2,
+            "name": "Lisa",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "1 Elektrik Hasarı verir.\nBu Beceri Yüklü Saldırı olarak kullanıldığında rakibin aktif karakterine İletken eklenir.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.\\nBu Beceri $[K51] olarak kullanıldığında rakibin aktif karakterine <color=#FFFFFFFF>$[C114091]</color> eklenir.",
+                    "descriptionreplaced": "1 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir.\\nBu Beceri <color=#FFFFFFFF>Yüklü Saldırı</color> olarak kullanıldığında rakibin aktif karakterine <color=#FFFFFFFF>İletken</color> eklenir.",
+                    "id": 14091,
+                    "name": "Yıldırım Dokunuşu",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Saldırı",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "2 Elektrik Hasarı verir. Rakibin aktif karakterine İletken eklenmediyse eklenir.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. Rakibin aktif karakterine <color=#FFFFFFFF>$[C114091]</color> eklenmediyse eklenir.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir. Rakibin aktif karakterine <color=#FFFFFFFF>İletken</color> eklenmediyse eklenir.",
+                    "id": 14092,
+                    "name": "Mor Akım",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Element Becerisi",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "2 Elektrik Hasarı verir ve Şimşek Gülü çağırır.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve <color=#FFFFFFFF>$[C114092]</color> çağırır.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik Hasarı</color> verir ve <color=#FFFFFFFF>Şimşek Gülü</color> çağırır.",
+                    "id": 14093,
+                    "name": "Şimşek Gülü",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Element Patlaması",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Lisa'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+            "storytext": "Sihrin sırlarının peşinden gidip sessizce gerçekle karşılaşmayı bekliyorum.",
+            "storytitle": "\"Mor Gül Cadısı\" Lisa",
+            "tags": [
+                "GCG_TAG_ELEMENT_ELECTRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Elektrik",
+                "Katalizör",
+                "Mondstadt"
+            ]
+        },
         "maguukenki": {
             "hp": 10,
             "id": 2501,
@@ -2881,6 +3039,84 @@
                 "Toprak",
                 "Çift Elli Kılıç",
                 "Mondstadt"
+            ]
+        },
+        "qiqi": {
+            "hp": 10,
+            "id": 1108,
+            "maxenergy": 3,
+            "name": "Qiqi",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "2 Fiziksel Hasar verir.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir.",
+                    "descriptionreplaced": "2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verir.",
+                    "id": 11081,
+                    "name": "Kadim Kılıç Sanatı",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Saldırı",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Ayazın Habercisi çağırır.",
+                    "descriptionraw": "<color=#FFFFFFFF>$[C111081]</color> çağırır.",
+                    "descriptionreplaced": "<color=#FFFFFFFF>Ayazın Habercisi</color> çağırır.",
+                    "id": 11082,
+                    "name": "Adeptus Büyüsü: Ayazın Habercisi",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Element Becerisi",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "3 Buz Hasarı verir ve 1 Nazar Tılsımı oluşturur.",
+                    "descriptionraw": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <color=#FFFFFFFF>$[C111082]</color> oluşturur.",
+                    "descriptionreplaced": "3 {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz Hasarı</color> verir ve 1 <color=#FFFFFFFF>Nazar Tılsımı</color> oluşturur.",
+                    "id": 11083,
+                    "name": "Adeptus Büyüsü: Nazar",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Element Patlaması",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Qiqi'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+            "storytext": "Sonsuz bir döngü bu, hayat devam ediyor.",
+            "storytitle": "\"Buzul Diriliş\" Qiqi",
+            "tags": [
+                "GCG_TAG_ELEMENT_CRYO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Buz",
+                "Kılıç",
+                "Liyue"
             ]
         },
         "raidenshogun": {

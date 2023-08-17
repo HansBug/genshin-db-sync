@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Stato",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Questo stato inizia con 2 accumuli di Conduzione. Quando viene associato più volte, gli accumuli di Conduzione aumentano di 1. L'effetto di Conduzione può essere accumulato fino a 4 volte. \nFase finale: ottieni 1 accumulo di Conduzione. \n\nQuando il personaggio associato a Conduzione subisce DAN da Tuono violetto: rimuovi questo stato e infliggi DAN +1 per ogni accumulo di Conduzione.",
+            "descriptionraw": "Questo stato inizia con 2 accumuli di Conduzione. Quando viene associato più volte, gli accumuli di Conduzione aumentano di 1. L'effetto di Conduzione può essere accumulato fino a 4 volte. \\n<color=#FFFFFFFF>Fase finale: </color>ottieni 1 accumulo di Conduzione. \\n\\n<color=#FFFFFFFF>Quando il personaggio associato a Conduzione subisce DAN da $[S14092]: </color>rimuovi questo stato e infliggi DAN +1 per ogni accumulo di Conduzione.",
+            "descriptionreplaced": "Questo stato inizia con 2 accumuli di Conduzione. Quando viene associato più volte, gli accumuli di Conduzione aumentano di 1. L'effetto di Conduzione può essere accumulato fino a 4 volte. \\n<color=#FFFFFFFF>Fase finale: </color>ottieni 1 accumulo di Conduzione. \\n\\n<color=#FFFFFFFF>Quando il personaggio associato a Conduzione subisce DAN da Tuono violetto: </color>rimuovi questo stato e infliggi DAN +1 per ogni accumulo di Conduzione.",
+            "id": 114091,
+            "name": "Conduzione",
+            "statustypetext": "Stato del personaggio",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta equipaggiamento",
@@ -743,6 +755,20 @@
             "statustypetext": "Stato di combattimento della squadra",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta equipaggiamento",
+            "description": "Quando sul campo c'è Albedo, che ha questa carta equipaggiata, e sul tuo lato è presente un'Isotoma solare, l'Attacco in picchiata dei tuoi personaggi infligge DAN +1.",
+            "descriptionraw": "Quando sul campo c'è $[A1604], che ha questa carta equipaggiata, e sul tuo lato è presente un'<color=#FFFFFFFF>$[C116041]</color>, l'$[K52] dei tuoi personaggi infligge DAN +1.",
+            "descriptionreplaced": "Quando sul campo c'è Albedo, che ha questa carta equipaggiata, e sul tuo lato è presente un'<color=#FFFFFFFF>Isotoma solare</color>, l'<color=#FFFFFFFF>Attacco in picchiata</color> dei tuoi personaggi infligge DAN +1.",
+            "id": 216041,
+            "name": "Discesa divina",
+            "statustypetext": "Equipaggiamento personaggio",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Stato di combattimento",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Quando il tuo personaggio usa un'abilità: se i PS di quel personaggio non sono al massimo, ripristina 2 PS del personaggio. \nUtilizzi: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Quando il tuo personaggio usa un'abilità: </color>se i PS di quel personaggio non sono al massimo, ripristina 2 PS del personaggio. \\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando il tuo personaggio usa un'abilità: </color>se i PS di quel personaggio non sono al massimo, ripristina 2 PS del personaggio. \\n<color=#FFFFFFFF><color=#FFFFFFFF>Utilizzi</color>: 3</color>",
+            "id": 111082,
+            "name": "Talismano proteggi fortuna",
+            "statustypetext": "Stato di combattimento della squadra",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1271,9 +1310,9 @@
             "cardtype": "GCG_CARD_ONSTAGE",
             "cardtypetext": "Stato di combattimento",
             "countingtype": "GCG_TOKEN_LIFE",
-            "description": "Conferisce 2 punti di Scudo al tuo personaggio attivo.\nPrima che lo Scudo si consumi completamente, i DAN fisici che subisci vengono dimezzati (quantità arrotondata per eccesso).",
-            "descriptionraw": "Conferisce <color=#FFFFFFFF>2 punti di $[K6]</color> al tuo personaggio attivo.\\nPrima che lo $[K6] si consumi completamente, i $[K100] che subisci vengono dimezzati (quantità arrotondata per eccesso).",
-            "descriptionreplaced": "Conferisce <color=#FFFFFFFF>2 punti di {SPRITE_PRESET#4007}<color=#FFFFFFFF>Scudo</color></color> al tuo personaggio attivo.\\nPrima che lo {SPRITE_PRESET#4007}<color=#FFFFFFFF>Scudo</color> si consumi completamente, i {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color> che subisci vengono dimezzati (quantità arrotondata per eccesso).",
+            "description": "Conferisce 2 punti Scudo al tuo personaggio attivo.\nPrima che lo Scudo si consumi completamente, i DAN fisici che subisci vengono dimezzati (quantità arrotondata per eccesso).",
+            "descriptionraw": "Conferisce <color=#FFFFFFFF>2 punti $[K6]</color> al tuo personaggio attivo.\\nPrima che lo $[K6] si consumi completamente, i $[K100] che subisci vengono dimezzati (quantità arrotondata per eccesso).",
+            "descriptionreplaced": "Conferisce <color=#FFFFFFFF>2 punti {SPRITE_PRESET#4007}<color=#FFFFFFFF>Scudo</color></color> al tuo personaggio attivo.\\nPrima che lo {SPRITE_PRESET#4007}<color=#FFFFFFFF>Scudo</color> si consumi completamente, i {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color> che subisci vengono dimezzati (quantità arrotondata per eccesso).",
             "id": 116021,
             "name": "Corazza completa",
             "statustypetext": "Stato di combattimento della squadra",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Granscudo glaciale",
             "statustypetext": "Stato del personaggio",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Stato di combattimento",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Dopo che il tuo personaggio usa le abilità: questo effetto si trasferisce all'avversario e accumula 1 punto di Scotta di brutto (max 4 punti). Fase finale: rimuovi quest'effetto e infliggi 2 DAN fisici al lato a cui questo effetto è associato. Ogni punto di Scotta di brutto conferisce DAN +1 a questo effetto.",
+            "descriptionraw": "<color=#FFFFFFFF>Dopo che il tuo personaggio usa le abilità: </color>questo effetto si trasferisce all'avversario e accumula 1 punto di Scotta di brutto (max 4 punti). <color=#FFFFFFFF>Fase finale: </color>rimuovi quest'effetto e infliggi 2 $[K100] al lato a cui questo effetto è associato. Ogni punto di Scotta di brutto conferisce DAN +1 a questo effetto.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Dopo che il tuo personaggio usa le abilità: </color>questo effetto si trasferisce all'avversario e accumula 1 punto di Scotta di brutto (max 4 punti). <color=#FFFFFFFF>Fase finale: </color>rimuovi quest'effetto e infliggi 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color> al lato a cui questo effetto è associato. Ogni punto di Scotta di brutto conferisce DAN +1 a questo effetto.",
+            "id": 401001,
+            "name": "Patata bollente",
+            "statustypetext": "Stato di combattimento della squadra",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Stato di combattimento",
+            "description": "Non puoi giocare di nuovo \"Non ho ancora perso!\" in questo turno.",
+            "descriptionraw": "Non puoi giocare di nuovo \"Non ho ancora perso!\" in questo turno.",
+            "descriptionreplaced": "Non puoi giocare di nuovo \"Non ho ancora perso!\" in questo turno.",
+            "id": 303205,
+            "name": "Non ho ancora perso! (In ricarica)",
+            "statustypetext": "Stato di combattimento della squadra",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta equipaggiamento",
+            "description": "Il personaggio infligge DAN +1.",
+            "descriptionraw": "<color=#FFFFFFFF>Il personaggio infligge DAN +1</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Il personaggio infligge DAN +1</color>.",
+            "id": 311206,
+            "name": "Scudiere del re",
+            "statustypetext": "Equipaggiamento personaggio",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Stato",
+            "description": "In questo turno, la volta successiva che il personaggio usa un'abilità elementale o equipaggia una carta talento spendi 2 dadi elementali in meno.",
+            "descriptionraw": "In questo turno, <color=#FFFFFFFF>la volta successiva che il personaggio usa un'abilità elementale o equipaggia una {SPRITE_PRESET#3006}carta talento</color> spendi 2 dadi elementali in meno.",
+            "descriptionreplaced": "In questo turno, <color=#FFFFFFFF>la volta successiva che il personaggio usa un'abilità elementale o equipaggia una {SPRITE_PRESET#3006}carta talento</color> spendi 2 dadi elementali in meno.",
+            "id": 301103,
+            "name": "Scudiere del re (in uso)",
+            "statustypetext": "Stato del personaggio",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "Stato di combattimento della squadra",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Stato di combattimento",
+            "description": "Fase finale: perdi la partita.",
+            "descriptionraw": "<color=#FFFFFFFF>Fase finale:</color> perdi la partita.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Fase finale:</color> perdi la partita.",
+            "id": 403016,
+            "name": "Prezzo dell'Assalto implacabile",
+            "statustypetext": "Stato di combattimento della squadra",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta equipaggiamento",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta equipaggiamento",
+            "description": "Dopo che cambi personaggio in Lisa, che ha questa carta equipaggiata: associa Conduzione al personaggio attivo avversario (una volta per turno).",
+            "descriptionraw": "Dopo che cambi personaggio in <color=#FFFFFFFF>$[A1409]</color>, che ha questa carta equipaggiata: associa <color=#FFFFFFFF>$[C114091]</color> al personaggio attivo avversario (una volta per turno).",
+            "descriptionreplaced": "Dopo che cambi personaggio in <color=#FFFFFFFF>Lisa</color>, che ha questa carta equipaggiata: associa <color=#FFFFFFFF>Conduzione</color> al personaggio attivo avversario (una volta per turno).",
+            "id": 214091,
+            "name": "Strega pulsante",
+            "statustypetext": "Equipaggiamento personaggio",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Rito del commiato",
             "statustypetext": "Stato del personaggio",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta equipaggiamento",
+            "description": "Quando Qiqi, che ha questa carta equipaggiata, usa Arte dell'Adeptus: Protettrice della fortuna, rianima tutti i tuoi personaggi sconfitti e ne ripristina 2 PS (Fino a 2 volte per ogni partita).",
+            "descriptionraw": "Quando $[A1108], che ha questa carta equipaggiata, usa <color=#FFFFFFFF>$[S11083]</color>, rianima tutti i tuoi personaggi sconfitti e ne ripristina 2 PS (Fino a 2 volte per ogni partita).",
+            "descriptionreplaced": "Quando Qiqi, che ha questa carta equipaggiata, usa <color=#FFFFFFFF>Arte dell'Adeptus: Protettrice della fortuna</color>, rianima tutti i tuoi personaggi sconfitti e ne ripristina 2 PS (Fino a 2 volte per ogni partita).",
+            "id": 211081,
+            "name": "Rito della rinascita",
+            "statustypetext": "Equipaggiamento personaggio",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>La prossima volta che usi un'abilità:</color> passa al personaggio successivo come personaggio attivo.",
             "id": 303207,
             "name": "Quando ritornò la gru (in uso)",
+            "statustypetext": "Stato di combattimento della squadra",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Stato di combattimento",
+            "description": "In questo turno, la volta successiva che giochi una carta arma: spendi 2 dadi elementali in meno.",
+            "descriptionraw": "<color=#FFFFFFFF>In questo turno, la volta successiva che giochi una carta {SPRITE_PRESET#3003}arma:</color> spendi 2 dadi elementali in meno.",
+            "descriptionreplaced": "<color=#FFFFFFFF>In questo turno, la volta successiva che giochi una carta {SPRITE_PRESET#3003}arma:</color> spendi 2 dadi elementali in meno.",
+            "id": 303222,
+            "name": "Dov'è la Lama nascosta? (in uso)",
             "statustypetext": "Stato di combattimento della squadra",
             "tags": []
         },

@@ -230,8 +230,8 @@
             "name": "Petra Arcaica",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "“Duros como la roca, inamovibles como un peñasco”.",
@@ -319,8 +319,8 @@
             "name": "Nómada del Invierno",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "“... entonces sigue viviendo, te lo suplico. No nos acompañes a nuestra perdición... a marchitarnos en el silencio helado”.",
@@ -342,7 +342,7 @@
             "name": "Eco de la Escarcha",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "Máscara de la Mutabilidad",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "Bruja Carmesí en Llamas",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "“No cantaré elegías ni sucumbiré ante el duelo. No me lamentaré, ni romperé en un llanto sin sentido.\nSi la justicia murió hace tiempo, ¿ante quién debo redimirme?”.",
@@ -746,8 +746,8 @@
             "name": "Recuerdos del Bosque",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "“Porque siempre y cuando sigamos las leyes de la naturaleza, estas nos guiarán por el laberinto del bosque y podremos llegar a la más vasta de las praderas”.",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "Artefacto"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Acción de combate: esta carta se equipa cuando tu personaje en combate es Albedo.\nTras ello, Albedo usa una vez Abiogénesis: Isotoma solar de inmediato.\nMientras Albedo tenga esta carta equipada y esté en combate, si en tu zona hay alguna isotoma solar, tu personaje inflige daño +1 al ejecutar un Ataque Descendente.\nSolo puedes añadir esta carta al mazo si tienes a Albedo en él.",
+            "descriptionraw": "$[K1]: esta carta se equipa cuando tu personaje en combate es <color=#FFFFFFFF>$[A1604]</color>.\\nTras ello, $[A1604] usa una vez <color=#FFD780FF>$[S16042]</color> de inmediato.\\nMientras $[A1604] tenga esta carta equipada y esté en combate, si en tu zona hay alguna <color=#FFFFFFFF>$[C116041|s1]</color>, tu personaje inflige daño +1 al ejecutar un $[K52].\\nSolo puedes añadir esta carta al mazo si tienes a $[A1604] en él.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Acción de combate</color>: esta carta se equipa cuando tu personaje en combate es <color=#FFFFFFFF>Albedo</color>.\\nTras ello, Albedo usa una vez <color=#FFD780FF>Abiogénesis: Isotoma solar</color> de inmediato.\\nMientras Albedo tenga esta carta equipada y esté en combate, si en tu zona hay alguna <color=#FFFFFFFF>isotoma solar</color>, tu personaje inflige daño +1 al ejecutar un <color=#FFFFFFFF>Ataque Descendente</color>.\\nSolo puedes añadir esta carta al mazo si tienes a Albedo en él.",
+            "id": 216041,
+            "name": "Caída divina",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "Se obtiene tras retar a Albedo a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
+            "storytext": "“Determinar la estrategia de un duelo requiere unos cálculos meticulosos”.",
+            "storytitle": "Albedo: Caída divina",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
+                "Acción de combate"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "Emblema del Destino",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "Estos trece años pasaron tan rápido...\nLas hojas de los cerezos flotaban por la Montaña Yougou como copos de nieve.\nEra como observar a un ser querido alejándose...",
@@ -1527,6 +1553,42 @@
                 "Artefacto"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Empieza con 2 pts. de “contador de la victoria”.\nFase final: contador de la victoria -1 pt. Si ninguno de tus personajes ha sido derrotado cuando el contador llegue a cero, ganarás inmediatamente la partida.\nAl comienzo de la fase de acciones, si al contador de la victoria le queda 1 pt., se crean 4 omnidados.",
+            "descriptionraw": "#Empieza con 2 pts. de “contador de la victoria”.\\n<color=#FFFFFFFF>Fase final:</color> contador de la victoria -1{NON_BREAK_SPACE}pt. Si ninguno de tus personajes ha sido derrotado cuando el contador llegue a cero, ganarás inmediatamente la partida.\\n<color=#FFFFFFFF>Al comienzo de la fase de acciones</color>, si al contador de la victoria le queda 1{NON_BREAK_SPACE}pt., se crean 4 $[K411|s3].",
+            "descriptionreplaced": "#Empieza con 2 pts. de “contador de la victoria”.\\n<color=#FFFFFFFF>Fase final:</color> contador de la victoria -1{NON_BREAK_SPACE}pt. Si ninguno de tus personajes ha sido derrotado cuando el contador llegue a cero, ganarás inmediatamente la partida.\\n<color=#FFFFFFFF>Al comienzo de la fase de acciones</color>, si al contador de la victoria le queda 1{NON_BREAK_SPACE}pt., se crean 4 <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidados</color>.",
+            "id": 423025,
+            "name": "Guerra de ingenio: victoria segura",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Al comenzar la fase de acciones, crea una Bomba calcinadora para el jugador que actúa primero.\nFase final: si la Bomba calcinadora se libera en el lado del rival, este jugador pierde la partida.",
+            "descriptionraw": "<color=#FFFFFFFF>Al comenzar la fase de acciones</color>, crea una $[C401001] para el jugador que actúa primero.\\n<color=#FFFFFFFF>Fase final:</color> si la $[C401001] se libera en el lado del rival, este jugador pierde la partida.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Al comenzar la fase de acciones</color>, crea una Bomba calcinadora para el jugador que actúa primero.\\n<color=#FFFFFFFF>Fase final:</color> si la Bomba calcinadora se libera en el lado del rival, este jugador pierde la partida.",
+            "id": 421011,
+            "name": "Guerra de ingenio: mecanismos explosivos",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Al comienzo de la fase de acciones, se crean 2 omnidados, pero perderás la partida en la fase final de la ronda.\nCuando el personaje enemigo sea derrotado o cuando tu personaje use la Habilidad Definitiva, se crean 3 omnidados, obtienes 1 carta y, tras completar tu acción actual, podrás volver a realizar una acción.",
+            "descriptionraw": "<color=#FFFFFFFF>Al comienzo de la fase de acciones</color>, se crean 2 $[K411|s3], pero perderás la partida en la fase final de la ronda.\\n<color=#FFFFFFFF>Cuando el personaje enemigo sea derrotado o cuando tu personaje use la Habilidad Definitiva</color>, se crean 3 $[K411|s3], obtienes 1 carta y, tras completar tu acción actual, podrás volver a realizar una acción.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Al comienzo de la fase de acciones</color>, se crean 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidados</color>, pero perderás la partida en la fase final de la ronda.\\n<color=#FFFFFFFF>Cuando el personaje enemigo sea derrotado o cuando tu personaje use la Habilidad Definitiva</color>, se crean 3 <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidados</color>, obtienes 1 carta y, tras completar tu acción actual, podrás volver a realizar una acción.",
+            "id": 423026,
+            "name": "Guerra de ingenio: Ofensiva presta",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de equipamiento",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "Talento",
                 "Acción de combate"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Al tener que gastar dados elementales en cartas de arma o de artefacto cuyo coste original es de 3 dados, gastas 1 dado elemental menos (1 vez por ronda).\nNúmero de usos: 2.",
+            "descriptionraw": "<color=#FFFFFFFF>Al tener que gastar dados elementales en cartas de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto cuyo coste original es de 3 dados</color>, gastas 1 dado elemental menos (1 vez por ronda).\\n<color=#FFFFFFFF>Número de $[K3|s3]: 2</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Al tener que gastar dados elementales en cartas de {SPRITE_PRESET#3003}arma o de {SPRITE_PRESET#3004}artefacto cuyo coste original es de 3 dados</color>, gastas 1 dado elemental menos (1 vez por ronda).\\n<color=#FFFFFFFF>Número de <color=#FFFFFFFF>usos</color>: 2</color>.",
+            "id": 321013,
+            "name": "Casa Dorada",
+            "playcost": [],
+            "storytext": "Todos los contratos que circulan por este mundo fueron forjados aquí.",
+            "storytitle": "Casa Dorada",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "Ubicación"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "Corazón de las Profundidades",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "“Todas las muertes son en vano, y ahondar en el pasado no sirve de nada”.",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Evento",
-            "description": "Solo se puede jugar si alguno de tus personajes ha sido derrotado en esta ronda .\nCrea 1 omnidado y tu personaje en combate actual obtiene Energía +1.",
-            "descriptionraw": "Solo se puede jugar si alguno de tus personajes ha sido derrotado en esta ronda .\\nCrea 1 $[K411|s2] y tu personaje en combate actual obtiene $[K310] +1.",
-            "descriptionreplaced": "Solo se puede jugar si alguno de tus personajes ha sido derrotado en esta ronda .\\nCrea 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidado</color> y tu personaje en combate actual obtiene <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energía</color> +1.",
+            "description": "Esta carta solo se puede jugar si alguno de tus personajes ha sido derrotado en esta ronda. Crea 1 omnidado y tu personaje en combate actual obtiene Energía +1. Por cada ronda, solo se puede jugar 1 carta de “¡No oí la campana!”.",
+            "descriptionraw": "<color=#FFFFFFFF>Esta carta solo se puede jugar si alguno de tus personajes ha sido derrotado en esta ronda</color>. Crea 1 $[K411|s2] y tu personaje en combate actual obtiene $[K310] +1. Por cada ronda, solo se puede jugar 1 carta de “¡No oí la campana!”.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Esta carta solo se puede jugar si alguno de tus personajes ha sido derrotado en esta ronda</color>. Crea 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidado</color> y tu personaje en combate actual obtiene <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energía</color> +1. Por cada ronda, solo se puede jugar 1 carta de “¡No oí la campana!”.",
             "id": 332005,
             "name": "¡No oí la campana!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Fase de lanzamiento:</color> 2 de los dados elementales iniciales que lances siempre serán del mismo tipo elemental que tu personaje en combate.",
             "id": 321003,
             "name": "Cámara de Jade",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "Se obtiene tras completar los objetivos del duelo de aventura de Buyun en el mundo abierto",
             "storytext": "“Dicen que contiene miles de tesoros radiantes”.",
             "storytitle": "Contemplación estelar en las nubes",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "Ubicación"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Evento",
+            "description": "Esta carta solo se puede jugar cuando el tipo elemental de tu personaje en combate es Cryo, Hydro, Pyro, Electro o Dendro. Aplica a todos tus personajes el elemento que coincide con el tipo elemental de tu personaje en combate.\nEn toda la partida solo se puede jugar una carta de técnica secreta, y esta debe estar en tu mano inicial.",
+            "descriptionraw": "<color=#FFFFFFFF>Esta carta solo se puede jugar cuando el tipo elemental de tu personaje en combate es</color> {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color> o {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>. Aplica a todos tus personajes el elemento que coincide con el tipo elemental de tu personaje en combate.\\nEn toda la partida solo se puede jugar una carta de {SPRITE_PRESET#3007}técnica secreta, y esta debe estar en tu mano inicial.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Esta carta solo se puede jugar cuando el tipo elemental de tu personaje en combate es</color> {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color> o {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>. Aplica a todos tus personajes el elemento que coincide con el tipo elemental de tu personaje en combate.\\nEn toda la partida solo se puede jugar una carta de {SPRITE_PRESET#3007}técnica secreta, y esta debe estar en tu mano inicial.",
+            "id": 330003,
+            "name": "Danza jocosa",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "“Comparte la felicidad con los demás”.",
+            "storytitle": "Danza jocosa",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Técnica secreta"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "Acompañante"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Daño +1.\nAl entrar en combate, el personaje que lleve esta carta equipada gasta 2 dados elementales menos en esta ronda la próxima vez que use la Habilidad Elemental o se equipe un talento.\nSolo pueden llevarla equipada los personajes que usan arco. Cada personaje solo puede llevar equipada 1 arma.",
+            "descriptionraw": "<color=#FFFFFFFF>Daño +1</color>.\\n<color=#FFFFFFFF>Al entrar en combate</color>, el personaje que lleve esta carta equipada gasta 2 dados elementales menos en esta ronda la próxima vez que use la Habilidad Elemental o se equipe un {SPRITE_PRESET#3006}talento.\\nSolo pueden llevarla equipada los <color=#FFFFFFFF>personajes que usan {SPRITE_PRESET#3202}arco</color>. Cada personaje solo puede llevar equipada 1 {SPRITE_PRESET#3003}arma.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Daño +1</color>.\\n<color=#FFFFFFFF>Al entrar en combate</color>, el personaje que lleve esta carta equipada gasta 2 dados elementales menos en esta ronda la próxima vez que use la Habilidad Elemental o se equipe un {SPRITE_PRESET#3006}talento.\\nSolo pueden llevarla equipada los <color=#FFFFFFFF>personajes que usan {SPRITE_PRESET#3202}arco</color>. Cada personaje solo puede llevar equipada 1 {SPRITE_PRESET#3003}arma.",
+            "id": 311206,
+            "name": "Vasalla del Rey",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "Un arma con forma de arco obtenida a través de una de las historias de los aranara.\n“No olvides que este mundo es tan solo recuerdo de bosque... Por favor, transmite lengua y responsabilidad de proteger tierras de Rey a todo mundo”.",
+            "storytitle": "Enseñanzas del bosque: Vasalla del Rey",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "Arma",
+                "Arco"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carta de apoyo",
@@ -2044,7 +2171,7 @@
             "name": "Corona Láurea",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "Máscara de Basalto Inerte",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "Casco Ornamentado",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "“Estos trece años pasaron tan rápido... Las hojas de los cerezos flotaban por la Montaña Yougou como copos de nieve. Era como observar a un ser querido alejándose...”.",
@@ -3311,6 +3438,30 @@
                 "Acción de combate"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Tras cambiar a Lisa mientras tiene esta carta equipada, el personaje en combate enemigo es afectado por conducción (1 vez por ronda).\nSolo puedes añadir esta carta al mazo si tienes a Lisa en él.",
+            "descriptionraw": "Tras cambiar a <color=#FFFFFFFF>$[A1409]</color> mientras tiene esta carta equipada, el personaje en combate enemigo es afectado por <color=#FFFFFFFF>$[C114091|s1]</color> (1 vez por ronda).\\nSolo puedes añadir esta carta al mazo si tienes a $[A1409] en él.",
+            "descriptionreplaced": "Tras cambiar a <color=#FFFFFFFF>Lisa</color> mientras tiene esta carta equipada, el personaje en combate enemigo es afectado por <color=#FFFFFFFF>conducción</color> (1 vez por ronda).\\nSolo puedes añadir esta carta al mazo si tienes a Lisa en él.",
+            "id": 214091,
+            "name": "Bruja palpitante",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "Se obtiene tras retar a Lisa a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
+            "storytext": "Como bibliotecaria que ha leído cientos de libros, es normal que domine las técnicas con las que obtener la victoria.",
+            "storytitle": "Lisa: Bruja palpitante",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "Talento"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Evento",
@@ -3438,6 +3589,36 @@
             "source": "Se obtiene tras retar a Yanfei a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
             "storytext": "“Todo está permitido en las cartas, siempre que las normas no lo prohíban”.",
             "storytitle": "Yanfei: Derecho de interpretación final",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
+                "Acción de combate"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Acción de combate: esta carta se equipa cuando tu personaje en combate es Qiqi.\nTras ello, Qiqi usa una vez Magia Adeptus: Preservadora de la fortuna de inmediato.\nCuando Qiqi usa Magia Adeptus: Preservadora de la fortuna mientras tiene esta carta equipada, revive a todos tus personajes derrotados del equipo y les regenera Vida +2 (solo se puede usar 2 veces por partida).\nSolo puedes añadir esta carta al mazo si tienes a Qiqi en él.",
+            "descriptionraw": "$[K1]: esta carta se equipa cuando tu personaje en combate es <color=#FFFFFFFF>$[A1108]</color>.\\nTras ello, $[A1108] usa una vez <color=#FFD780FF>$[S11083]</color> de inmediato.\\nCuando $[A1108] usa <color=#FFFFFFFF>$[S11083]</color> mientras tiene esta carta equipada, revive a todos tus personajes derrotados del equipo y les regenera Vida +2 (solo se puede usar 2 veces por partida).\\nSolo puedes añadir esta carta al mazo si tienes a $[A1108] en él.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Acción de combate</color>: esta carta se equipa cuando tu personaje en combate es <color=#FFFFFFFF>Qiqi</color>.\\nTras ello, Qiqi usa una vez <color=#FFD780FF>Magia Adeptus: Preservadora de la fortuna</color> de inmediato.\\nCuando Qiqi usa <color=#FFFFFFFF>Magia Adeptus: Preservadora de la fortuna</color> mientras tiene esta carta equipada, revive a todos tus personajes derrotados del equipo y les regenera Vida +2 (solo se puede usar 2 veces por partida).\\nSolo puedes añadir esta carta al mazo si tienes a Qiqi en él.",
+            "id": 211081,
+            "name": "Rito de la resurrección",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "Se obtiene tras retar a Qiqi a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
+            "storytext": "“Tengo que... seguir viviendo...”.",
+            "storytitle": "Qiqi: Rito de la resurrección",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta de apoyo",
+            "description": "Al realizar cualquier acción cuando no tienes ninguna carta, obtienes 1 carta.\nNúmero de usos: 3.",
+            "descriptionraw": "<color=#FFFFFFFF>Al realizar cualquier acción cuando no tienes ninguna carta</color>, obtienes 1 carta.\\n<color=#FFFFFFFF>Número de $[K3|s3]: 3</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Al realizar cualquier acción cuando no tienes ninguna carta</color>, obtienes 1 carta.\\n<color=#FFFFFFFF>Número de <color=#FFFFFFFF>usos</color>: 3</color>.",
+            "id": 322019,
+            "name": "Setaria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Entra en el complejo selvático como una extraordinaria erudita del desierto.",
+            "storytitle": "Setaria - Superando los límites",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Acompañante"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de equipamiento",
@@ -3675,7 +3879,7 @@
             "name": "Reminiscencia de la Purificación",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Evento",
-            "description": "Todos tus dados elementales cambian al tipo elemental del personaje en combate actual.\nSolo puedes añadir esta carta al mazo si en él hay al menos 2 personajes de Inazuma.",
-            "descriptionraw": "Todos tus dados elementales cambian al tipo elemental del personaje en combate actual.\\nSolo puedes añadir esta carta al mazo si en él hay al menos 2 personajes de {SPRITE_PRESET#3403}Inazuma.",
-            "descriptionreplaced": "Todos tus dados elementales cambian al tipo elemental del personaje en combate actual.\\nSolo puedes añadir esta carta al mazo si en él hay al menos 2 personajes de {SPRITE_PRESET#3403}Inazuma.",
+            "description": "Todos tus dados elementales se convierten en omnidados.\nSolo puedes añadir esta carta al mazo si en él hay al menos 2 personajes de Inazuma.",
+            "descriptionraw": "Todos tus dados elementales se convierten en $[K411|s3].\\nSolo puedes añadir esta carta al mazo si en él hay al menos 2 personajes de {SPRITE_PRESET#3403}Inazuma.",
+            "descriptionreplaced": "Todos tus dados elementales se convierten en <color=#FFFFFFFF>{SPRITE_PRESET#1111}omnidados</color>.\\nSolo puedes añadir esta carta al mazo si en él hay al menos 2 personajes de {SPRITE_PRESET#3403}Inazuma.",
             "id": 331803,
             "name": "Trueno y eternidad",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "Furia del Trueno",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "“¡Cuando traigas de nuevo los truenos y la lluvia te cantaré otra canción!”.",
@@ -4457,7 +4661,7 @@
             "name": "Máscara Atronadora",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "Corona del Invocador de Truenos",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "Deceso del Cinabrio",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "Sombra Verde Esmeralda",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "“Algún día nos volveremos a ver en el interminable campo de caza”.",
@@ -4773,7 +4977,7 @@
             "name": "Sombrero de la Cazadora Verde Esmeralda",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Evento",
+            "description": "Te devuelve un arma que está equipada en tu personaje.\nLa próxima vez que juegues una carta de arma en esta ronda, gastarás 2 dados elementales menos.",
+            "descriptionraw": "Te devuelve un {SPRITE_PRESET#3003}arma que está equipada en tu personaje.\\n<color=#FFFFFFFF>La próxima vez que juegues una carta de {SPRITE_PRESET#3003}arma en esta ronda</color>, gastarás 2 dados elementales menos.",
+            "descriptionreplaced": "Te devuelve un {SPRITE_PRESET#3003}arma que está equipada en tu personaje.\\n<color=#FFFFFFFF>La próxima vez que juegues una carta de {SPRITE_PRESET#3003}arma en esta ronda</color>, gastarás 2 dados elementales menos.",
+            "id": 332022,
+            "name": "¿A dónde fue la Cuchilla Oculta?",
+            "playcost": [],
+            "storytext": "La maestra de división del Gremio de Aventureros de orígenes desconocidos nunca ha cejado en su empeño de buscar pistas sobre la cuchilla y de retar a poderosos enemigos en el camino.",
+            "storytitle": "¿A dónde fue la Cuchilla Oculta?",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de equipamiento",
@@ -4990,7 +5208,7 @@
             "name": "Gorro de Capitán Manchado de Vino",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "Sombrero Abrasador de la Bruja",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

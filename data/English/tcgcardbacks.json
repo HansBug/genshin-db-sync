@@ -64,6 +64,14 @@
             "rarity": 3,
             "source": "Purchased at the Card Shop"
         },
+        "fontaine": {
+            "description": "One must remember the various \"systems\" of card games by heart, before they can nimbly utilize the \"rules\" reasonably to put on a most spectacular \"performance.\"",
+            "descriptionraw": "One must remember the various \"systems\" of card games by heart, before they can nimbly utilize the \"rules\" reasonably to put on a most spectacular \"performance.\"",
+            "id": 123,
+            "name": "Fontaine",
+            "rarity": 3,
+            "source": "Fontaine Reputation Level Reward"
+        },
         "glazelily": {
             "description": "The ancient tales of mortal realms have passed away. Now, only the fragrant name of the flowers remains.",
             "descriptionraw": "The ancient tales of mortal realms have passed away. Now, only the fragrant name of the flowers remains.",

@@ -90,6 +90,84 @@
                 "Mostro"
             ]
         },
+        "albedo": {
+            "hp": 10,
+            "id": 1604,
+            "maxenergy": 2,
+            "name": "Albedo",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Infligge 2 DAN fisici.",
+                    "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "id": 16041,
+                    "name": "Tecnica di Favonius - Weiss",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Attacco normale",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Invoca 1 Isotoma solare.",
+                    "descriptionraw": "Invoca 1 <color=#FFFFFFFF>$[C116041]</color>.",
+                    "descriptionreplaced": "Invoca 1 <color=#FFFFFFFF>Isotoma solare</color>.",
+                    "id": 16042,
+                    "name": "Abiogenesi: Isotoma solare",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Abilità elementale",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 4,
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Infligge 4 DAN da Geo, se Isotoma solare è sul campo, DAN inflitti da questo attacco +2.",
+                    "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], se <color=#FFFFFFFF>$[C116041]</color> è sul campo, DAN inflitti da questo attacco +2.",
+                    "descriptionreplaced": "Infligge 4 {SPRITE_PRESET#2106}<color=#FFE699FF>DAN da Geo</color>, se <color=#FFFFFFFF>Isotoma solare</color> è sul campo, DAN inflitti da questo attacco +2.",
+                    "id": 16043,
+                    "name": "Rito della discendenza: Ondata tettonica",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Tripudio elementale",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Ricompensa ottenuta sfidando Albedo a duello alla Coda di Gatto e battendolo in un duello amichevole",
+            "storytext": "Nigredo e calx, rubedo e citrinitas.",
+            "storytitle": "Albedo, Kreideprinz",
+            "tags": [
+                "GCG_TAG_ELEMENT_GEO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Geo",
+                "Spada",
+                "Mondstadt"
+            ]
+        },
         "amber": {
             "hp": 10,
             "id": 1304,
@@ -156,7 +234,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando Amber a duello alla Coda di Gatto e battendola in un duello amichevole",
             "storytext": "Se vuoi essere un bravo giocatore...\nDevi innanzitutto avere il coraggio di sederti a giocare.",
-            "storytitle": "Amber: Vigilante",
+            "storytitle": "Amber, Vigilante",
             "tags": [
                 "GCG_TAG_ELEMENT_PYRO",
                 "GCG_TAG_WEAPON_BOW",
@@ -236,7 +314,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando Arataki Itto a duello alla Coda di Gatto e battendolo in un duello amichevole",
             "storytext": "Arataki Itto \"Campione indiscusso dei GCC\"",
-            "storytitle": "Arataki Itto Eroe di Hanamizaka",
+            "storytitle": "Arataki Itto, Eroe di Hanamizaka",
             "tags": [
                 "GCG_TAG_ELEMENT_GEO",
                 "GCG_TAG_WEAPON_CLAYMORE",
@@ -2363,6 +2441,86 @@
                 "Inazuma"
             ]
         },
+        "lisa": {
+            "hp": 10,
+            "id": 1409,
+            "maxenergy": 2,
+            "name": "Lisa",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 1 DAN da Electro.\nQuando quest'abilità è un Attacco caricato: associa Conduzione al personaggio attivo avversario.",
+                    "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].\\nQuando quest'abilità è un $[K51]: associa <color=#FFFFFFFF>$[C114091]</color> al personaggio attivo avversario.",
+                    "descriptionreplaced": "Infligge 1 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>.\\nQuando quest'abilità è un <color=#FFFFFFFF>Attacco caricato</color>: associa <color=#FFFFFFFF>Conduzione</color> al personaggio attivo avversario.",
+                    "id": 14091,
+                    "name": "Tocco di fulmine",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Attacco normale",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro. Se Conduzione non è associata al personaggio attivo avversario, associala.",
+                    "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. Se <color=#FFFFFFFF>$[C114091]</color> non è associata al personaggio attivo avversario, associala.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color>. Se <color=#FFFFFFFF>Conduzione</color> non è associata al personaggio attivo avversario, associala.",
+                    "id": 14092,
+                    "name": "Tuono violetto",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Abilità elementale",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Infligge 2 DAN da Electro e invoca 1 Rosa fulminante.",
+                    "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] e invoca 1 <color=#FFFFFFFF>$[C114092]</color>.",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>DAN da Electro</color> e invoca 1 <color=#FFFFFFFF>Rosa fulminante</color>.",
+                    "id": 14093,
+                    "name": "Rosa fulminante",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Tripudio elementale",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Ricompensa ottenuta sfidando Lisa a duello alla Coda di Gatto e battendola in un duello amichevole",
+            "storytext": "Perseguendo i misteri arcani della magia e aspettando in silenzio un incontro con la verità.",
+            "storytitle": "Lisa, Strega della Rosa purpurea",
+            "tags": [
+                "GCG_TAG_ELEMENT_ELECTRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Electro",
+                "Catalizzatore",
+                "Mondstadt"
+            ]
+        },
         "maguukenki": {
             "hp": 10,
             "id": 2501,
@@ -2711,7 +2869,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando Nahida a duello alla Coda di Gatto e battendola in un duello amichevole",
             "storytext": "La panacea porta purezza, e dalle profondità del palazzo la primavera è rinata.",
-            "storytitle": "Nahida: Fisica della purezza",
+            "storytitle": "Nahida, Fisica della purezza",
             "tags": [
                 "GCG_TAG_ELEMENT_DENDRO",
                 "GCG_TAG_WEAPON_CATALYST",
@@ -2883,6 +3041,84 @@
                 "Mondstadt"
             ]
         },
+        "qiqi": {
+            "hp": 10,
+            "id": 1108,
+            "maxenergy": 3,
+            "name": "Qiqi",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Infligge 2 DAN fisici.",
+                    "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Infligge 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>DAN fisici</color>.",
+                    "id": 11081,
+                    "name": "Antica arte della spada",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Attacco normale",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Invoca 1 Messaggero del gelo.",
+                    "descriptionraw": "Invoca 1 <color=#FFFFFFFF>$[C111081]</color>.",
+                    "descriptionreplaced": "Invoca 1 <color=#FFFFFFFF>Messaggero del gelo</color>.",
+                    "id": 11082,
+                    "name": "Arte dell'Adeptus: Messaggero del gelo",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Abilità elementale",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Infligge 3 DAN da Cryo, genera 1 Talismano proteggi fortuna.",
+                    "descriptionraw": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], genera 1 <color=#FFFFFFFF>$[C111082]</color>.",
+                    "descriptionreplaced": "Infligge 3 {SPRITE_PRESET#2101}<color=#99FFFFFF>DAN da Cryo</color>, genera 1 <color=#FFFFFFFF>Talismano proteggi fortuna</color>.",
+                    "id": 11083,
+                    "name": "Arte dell'Adeptus: Protettrice della fortuna",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Tripudio elementale",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Ricompensa ottenuta sfidando Qiqi a duello alla Coda di Gatto e battendola in un duello amichevole",
+            "storytext": "Come un circolo senza fine, la vita continua.",
+            "storytitle": "Qiqi \"Rinascita glaciale\"",
+            "tags": [
+                "GCG_TAG_ELEMENT_CRYO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Cryo",
+                "Spada",
+                "Liyue"
+            ]
+        },
         "raidenshogun": {
             "hp": 10,
             "id": 1407,
@@ -2959,7 +3195,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando la Shogun Raiden a duello alla Coda di gatto e battendola in un duello amichevole",
             "storytext": "Il tuono pacato disperderà questo mondo effimero.",
-            "storytitle": "Shogun Raiden: Piano dell'eutimia",
+            "storytitle": "Shogun Raiden, Piano dell'eutimia",
             "tags": [
                 "GCG_TAG_ELEMENT_ELECTRO",
                 "GCG_TAG_WEAPON_POLE",
@@ -3521,9 +3757,9 @@
                 {
                     "basedamage": 7,
                     "baseelement": "GCG_ELEMENT_HYDRO",
-                    "description": "Esegue diversi attacchi in base alla posizione attuale in cui si trova Tartaglia.\nPosizione a distanza: Lampo di caos, infligge 4 DAN da Hydro, recupera 2 punti di Energia, e applica Risacca al personaggio bersaglio.\nPosizione da mischia: Luce d'annientamento, infligge 7 DAN da Hydro.",
-                    "descriptionraw": "Esegue diversi attacchi in base alla posizione attuale in cui si trova <color=#FFFFFFFF>$[A1204]</color>.\\n<color=#FFFFFFFF>Posizione a distanza: Lampo di caos</color>, infligge $[D__KEY__DAMAGE_4] $[D__KEY__ELEMENT], recupera 2 punti di $[K310], e applica <color=#FFFFFFFF>$[C112043]</color> al personaggio bersaglio.\\n<color=#FFFFFFFF>Posizione da mischia: Luce d'annientamento</color>, infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
-                    "descriptionreplaced": "Esegue diversi attacchi in base alla posizione attuale in cui si trova <color=#FFFFFFFF>Tartaglia</color>.\\n<color=#FFFFFFFF>Posizione a distanza: Lampo di caos</color>, infligge 4 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, recupera 2 punti di <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energia</color>, e applica <color=#FFFFFFFF>Risacca</color> al personaggio bersaglio.\\n<color=#FFFFFFFF>Posizione da mischia: Luce d'annientamento</color>, infligge 7 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
+                    "description": "Esegue diversi attacchi in base alla posizione attuale in cui si trova Tartaglia.\nPosizione a distanza: Lampo di caos, infligge 4 DAN da Hydro, recupera 2 punti Energia, e applica Risacca al personaggio bersaglio.\nPosizione da mischia: Luce d'annientamento, infligge 7 DAN da Hydro.",
+                    "descriptionraw": "Esegue diversi attacchi in base alla posizione attuale in cui si trova <color=#FFFFFFFF>$[A1204]</color>.\\n<color=#FFFFFFFF>Posizione a distanza: Lampo di caos</color>, infligge $[D__KEY__DAMAGE_4] $[D__KEY__ELEMENT], recupera 2 punti $[K310], e applica <color=#FFFFFFFF>$[C112043]</color> al personaggio bersaglio.\\n<color=#FFFFFFFF>Posizione da mischia: Luce d'annientamento</color>, infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Esegue diversi attacchi in base alla posizione attuale in cui si trova <color=#FFFFFFFF>Tartaglia</color>.\\n<color=#FFFFFFFF>Posizione a distanza: Lampo di caos</color>, infligge 4 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>, recupera 2 punti <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energia</color>, e applica <color=#FFFFFFFF>Risacca</color> al personaggio bersaglio.\\n<color=#FFFFFFFF>Posizione da mischia: Luce d'annientamento</color>, infligge 7 {SPRITE_PRESET#2102}<color=#80C0FFFF>DAN da Hydro</color>.",
                     "id": 12043,
                     "name": "Caos: Distruzione",
                     "playcost": [
@@ -3572,7 +3808,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando Tartaglia a duello alla Coda di Gatto e battendolo in un duello amichevole",
             "storytext": "Se questo tavolo è come un campo di battaglia, che vinca il migliore.",
-            "storytitle": "Il Principe Tartaglia",
+            "storytitle": "Tartaglia, Principe",
             "tags": [
                 "GCG_TAG_ELEMENT_HYDRO",
                 "GCG_TAG_WEAPON_BOW",
@@ -3652,7 +3888,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando Tighnari a duello alla Coda di Gatto e battendolo in un duello amichevole",
             "storytext": "Da un certo punto di vista, l'esperienza non equivale alla saggezza.",
-            "storytitle": "Tighnari Vagabondo verdeggiante",
+            "storytitle": "Tighnari, Vagabondo verdeggiante",
             "tags": [
                 "GCG_TAG_ELEMENT_DENDRO",
                 "GCG_TAG_WEAPON_BOW",
@@ -3732,7 +3968,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando Venti a duello alla Coda di Gatto e battendolo in un duello amichevole",
             "storytext": "\"All'alternarsi delle stagioni, i quattro venti alitano le loro canzoni.\nIl merito, però, non è il loro, bensì il mio.\nSe non ci fossero i bardi, chi mai le ascolterebbe?\"",
-            "storytitle": "Il Bardo itinerante Venti",
+            "storytitle": "Venti, Bardo itinerante",
             "tags": [
                 "GCG_TAG_ELEMENT_ANEMO",
                 "GCG_TAG_WEAPON_BOW",
@@ -3890,7 +4126,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando Xiao a duello alla Coda di Gatto e battendolo in un duello amichevole",
             "storytext": "Custode Yaksha, il flagello di ogni male.",
-            "storytitle": "Il Custode Yaksha Xiao",
+            "storytitle": "Xiao, Custode Yaksha",
             "tags": [
                 "GCG_TAG_ELEMENT_ANEMO",
                 "GCG_TAG_WEAPON_POLE",
@@ -4048,7 +4284,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando Yae Miko a duello alla Coda di Gatto e battendola in un duello amichevole",
             "storytext": "\"La saggia e avvenente Yae Miko.\"",
-            "storytitle": "Yae Miko: Divertimento astuto",
+            "storytitle": "Yae Miko, Divertimento astuto",
             "tags": [
                 "GCG_TAG_ELEMENT_ELECTRO",
                 "GCG_TAG_WEAPON_CATALYST",
@@ -4303,7 +4539,7 @@
             ],
             "source": "Ricompensa ottenuta sfidando Zhongli a duello alla Coda di Gatto e battendolo in un duello amichevole",
             "storytext": "Una gemma nascosta può illuminare il mondo intero, splendente e ineguagliabile come una stella.",
-            "storytitle": "Zhongli: Vago mundo",
+            "storytitle": "Zhongli, Vago mundo",
             "tags": [
                 "GCG_TAG_ELEMENT_GEO",
                 "GCG_TAG_WEAPON_POLE",

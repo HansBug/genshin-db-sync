@@ -230,8 +230,8 @@
             "name": "Archaic Petra",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Millelith อันแข็งแกร่ง ผู้แสนหนักแน่นไม่หวั่นไหว\"",
@@ -319,8 +319,8 @@
             "name": "Blizzard Strayer",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"...ขอให้คุณมีชีวิตต่อไป อย่าได้มุ่งสู่หนทางแห่งความพินาศ และจมลงสู่การถูกลืมเลือนอันแสนเย็นยะเยือกเฉกเช่นพวกเรา...\"",
@@ -342,7 +342,7 @@
             "name": "Broken Rime's Echo",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "Capricious Visage",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "Crimson Witch of Flames",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"ฉันปฏิเสธที่จะไว้อาลัย ปฏิเสธที่จะคร่ำครวญ ปฏิเสธที่จะเศร้าระทม และปฏิเสธเสียงอึกทึกอันไร้ประโยชน์ทุกสิ่ง\nหากความชอบธรรมไม่มีวันย้อนคืน งั้นควรไถ่บาปให้แก่ผู้ใดกัน?\"",
@@ -746,8 +746,8 @@
             "name": "Deepwood Memories",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"เพราะกฎแห่งธรรมชาติ จะชี้นำเราเดินผ่านเขาวงกตในป่าหลวง และไปถึงทุ่งหญ้าที่กว้างใหญ่ไพศาลในที่สุด\"",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "อาร์ติแฟกต์"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น Albedo และติดตั้งการ์ดใบนี้\nหลังจากที่ Albedo ติดตั้งการ์ดใบนี้ จะใช้ Abiogenesis: Solar Isotoma หนึ่งครั้งโดยทันที\nเมื่อ Albedo ที่มีการ์ดใบนี้อยู่ในสนาม หากในสนามของฝ่ายเรามี Solar Isotoma เมื่อใช้โจมตีพุ่งลงจากอากาศ จะสร้างความเสียหาย +1\n(เข้าร่วมเด็คได้ต่อเมื่อมี Albedo อยู่ภายในเด็คเท่านั้น)",
+            "descriptionraw": "$[K1]: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>$[A1604]</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ $[A1604] ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>$[S16042]</color> หนึ่งครั้งโดยทันที\\nเมื่อ $[A1604] ที่มีการ์ดใบนี้อยู่ในสนาม หากในสนามของฝ่ายเรามี <color=#FFFFFFFF>$[C116041]</color> เมื่อใช้$[K52] จะสร้างความเสียหาย +1\\n(เข้าร่วมเด็คได้ต่อเมื่อมี $[A1604] อยู่ภายในเด็คเท่านั้น)",
+            "descriptionreplaced": "<color=#FFFFFFFF>ดำเนินการต่อสู้</color>: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>Albedo</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ Albedo ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> หนึ่งครั้งโดยทันที\\nเมื่อ Albedo ที่มีการ์ดใบนี้อยู่ในสนาม หากในสนามของฝ่ายเรามี <color=#FFFFFFFF>Solar Isotoma</color> เมื่อใช้<color=#FFFFFFFF>โจมตีพุ่งลงจากอากาศ</color> จะสร้างความเสียหาย +1\\n(เข้าร่วมเด็คได้ต่อเมื่อมี Albedo อยู่ภายในเด็คเท่านั้น)",
+            "id": 216041,
+            "name": "Descent of Divinity",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Albedo ทำการดูเอลใน Cat's Tail และสำเร็จเป้าหมายการท้าทายที่เกี่ยวข้อง",
+            "storytext": "\"ขั้นตอนการยืนยันกลยุทธ์เกม ก็เป็นการคำนวณที่ต้องใช้ความรอบคอบเช่นกัน...\"",
+            "storytitle": "Albedo - Descent of Divinity",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "พรสวรรค์",
+                "ดำเนินการต่อสู้"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "Emblem of Severed Fate",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "ชีวิตสิบสามปีลอยผ่านไปเหมือนความฝัน\nโบยบินข้ามทิวเขาและหิมะ\nแต่เจ้านั้นได้จากลาไปแสนไกลแล้ว",
@@ -1527,6 +1553,42 @@
                 "อาร์ติแฟกต์"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "ในตอนเริ่มแรกจะมี \"Victory Countdown\" 2 หน่วย\nจบเฟส: \"Victory Countdown\" -1 หาก \"Victory Countdown\" ถูกใช้จนหมด และไม่มีตัวละครในฝ่ายเราถูกกำจัด ผู้เล่นฝ่ายเราจะชนะการดูเอลทันที\nเมื่อแอ็กชันเฟสเริ่มต้น: หาก \"Victory Countdown\" เหลือ 1 หน่วยพอดี จะทำให้เกิดธาตุสารพัดประโยชน์ 4 ลูก",
+            "descriptionraw": "ในตอนเริ่มแรกจะมี \"Victory Countdown\" 2 หน่วย\\n<color=#FFFFFFFF>จบเฟส:</color> \"Victory Countdown\" -1 หาก \"Victory Countdown\" ถูกใช้จนหมด และไม่มีตัวละครในฝ่ายเราถูกกำจัด ผู้เล่นฝ่ายเราจะชนะการดูเอลทันที\\n<color=#FFFFFFFF>เมื่อแอ็กชันเฟสเริ่มต้น: </color>หาก \"Victory Countdown\" เหลือ 1 หน่วยพอดี จะทำให้เกิด$[K411] 4 ลูก",
+            "descriptionreplaced": "ในตอนเริ่มแรกจะมี \"Victory Countdown\" 2 หน่วย\\n<color=#FFFFFFFF>จบเฟส:</color> \"Victory Countdown\" -1 หาก \"Victory Countdown\" ถูกใช้จนหมด และไม่มีตัวละครในฝ่ายเราถูกกำจัด ผู้เล่นฝ่ายเราจะชนะการดูเอลทันที\\n<color=#FFFFFFFF>เมื่อแอ็กชันเฟสเริ่มต้น: </color>หาก \"Victory Countdown\" เหลือ 1 หน่วยพอดี จะทำให้เกิด<color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color> 4 ลูก",
+            "id": 423025,
+            "name": "กลยุทธ์อันชาญฉลาด - Enduring Victory",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "เมื่อแอ็กชันเฟสเริ่มต้น: Hot Potato จะถูกสร้างขึ้นในฝ่ายผู้เริ่มเล่น\nจบเฟส: หาก Hot Potato อยู่ในสนามของฝ่ายตรงข้ามเมื่อคำนวณเอฟเฟกต์สกิล ผู้เล่นฝ่ายตรงข้ามจะแพ้การดูเอล",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อแอ็กชันเฟสเริ่มต้น: </color>$[C401001] จะถูกสร้างขึ้นในฝ่ายผู้เริ่มเล่น\\n<color=#FFFFFFFF>จบเฟส: </color>หาก $[C401001] อยู่ในสนามของฝ่ายตรงข้ามเมื่อคำนวณเอฟเฟกต์สกิล ผู้เล่นฝ่ายตรงข้ามจะแพ้การดูเอล",
+            "descriptionreplaced": "<color=#FFFFFFFF>เมื่อแอ็กชันเฟสเริ่มต้น: </color>Hot Potato จะถูกสร้างขึ้นในฝ่ายผู้เริ่มเล่น\\n<color=#FFFFFFFF>จบเฟส: </color>หาก Hot Potato อยู่ในสนามของฝ่ายตรงข้ามเมื่อคำนวณเอฟเฟกต์สกิล ผู้เล่นฝ่ายตรงข้ามจะแพ้การดูเอล",
+            "id": 421011,
+            "name": "กลยุทธ์อันชาญฉลาด - Hot Pod Mechanism",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "แอ็กชันเฟส: ก่อให้เกิด ธาตุสารพัดประโยชน์ 2 ลูก แต่ผู้เล่นฝ่ายเราจะพ่ายแพ้เมื่อจบเทิร์นนี้\nหลังจากตัวละครฝ่ายศัตรูถูกกำจัด หรือตัวละครฝ่ายเราใช้ \"ท่าไม้ตาย\": สร้างธาตุสารพัดประโยชน์ 3 ลูก พร้อมจั่วการ์ด 1 ใบ และเมื่อการดำเนินการในครั้งนี้สิ้นสุดลง ฝ่ายเราจะสามารถดำเนินการต่อได้อีกหนึ่งครั้ง",
+            "descriptionraw": "<color=#FFFFFFFF>แอ็กชันเฟส: </color>ก่อให้เกิด $[K411] 2 ลูก แต่ผู้เล่นฝ่ายเราจะพ่ายแพ้เมื่อจบเทิร์นนี้\\n<color=#FFFFFFFF>หลังจากตัวละครฝ่ายศัตรูถูกกำจัด หรือตัวละครฝ่ายเราใช้ \"ท่าไม้ตาย\": </color>สร้าง$[K411] 3 ลูก พร้อมจั่วการ์ด 1 ใบ และเมื่อการดำเนินการในครั้งนี้สิ้นสุดลง ฝ่ายเราจะสามารถดำเนินการต่อได้อีกหนึ่งครั้ง",
+            "descriptionreplaced": "<color=#FFFFFFFF>แอ็กชันเฟส: </color>ก่อให้เกิด <color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color> 2 ลูก แต่ผู้เล่นฝ่ายเราจะพ่ายแพ้เมื่อจบเทิร์นนี้\\n<color=#FFFFFFFF>หลังจากตัวละครฝ่ายศัตรูถูกกำจัด หรือตัวละครฝ่ายเราใช้ \"ท่าไม้ตาย\": </color>สร้าง<color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color> 3 ลูก พร้อมจั่วการ์ด 1 ใบ และเมื่อการดำเนินการในครั้งนี้สิ้นสุดลง ฝ่ายเราจะสามารถดำเนินการต่อได้อีกหนึ่งครั้ง",
+            "id": 423026,
+            "name": "กลยุทธ์อันชาญฉลาด - Unrelenting Assault",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "การ์ดอุปกรณ์",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "พรสวรรค์",
                 "ดำเนินการต่อสู้"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "เมื่อฝ่ายเราใช้การ์ด \"อาวุธ\" หรือ \"อาร์ติแฟกต์\" ที่แต่เดิมต้องใช้ค่าร่าย Elemental Dice อย่างน้อย 3 ลูก:  ใช้ Elemental Dice ลดลง 1 ลูก (เทิร์นละ 1 ครั้ง)\nจำนวนครั้งที่ใช้ได้: 2",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\" หรือ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ที่แต่เดิมต้องใช้ค่าร่าย Elemental Dice อย่างน้อย 3 ลูก: </color> ใช้ Elemental Dice ลดลง 1 ลูก (เทิร์นละ 1 ครั้ง)\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>เมื่อฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\" หรือ \"{SPRITE_PRESET#3004}อาร์ติแฟกต์\" ที่แต่เดิมต้องใช้ค่าร่าย Elemental Dice อย่างน้อย 3 ลูก: </color> ใช้ Elemental Dice ลดลง 1 ลูก (เทิร์นละ 1 ครั้ง)\\n<color=#FFFFFFFF><color=#FFFFFFFF>จำนวนครั้งที่ใช้ได้</color>: 2</color>",
+            "id": 321013,
+            "name": "Golden House",
+            "playcost": [],
+            "storytext": "\"สัญญา\" ที่หมุนเวียนไปทั่วโลกกว้าง ล้วนแต่ถูกสร้างขึ้นที่นี่",
+            "storytitle": "คฤหาสน์ทองคำ",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "สถานที่"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "Heart of Depth",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"...ความตายทั้งหมดนั้นเปล่าประโยชน์ ไม่มีทางที่จะช่วยเหลือผู้ที่จมดิ่งอยู่กับอดีตได้\"",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "การ์ดเหตุการณ์",
-            "description": "จะสามารถใช้ได้ เมื่อมีตัวละครของฝ่ายเราพ่ายแพ้ในเทิร์นนี้:\nจะทำให้เกิดธาตุสารพัดประโยชน์ 1 ลูก และตัวละครที่เข้าต่อสู้ของฝ่ายเราในขณะนั้น จะได้รับ พลังงาน 1 หน่วย",
-            "descriptionraw": "จะสามารถใช้ได้ เมื่อมีตัวละครของฝ่ายเราพ่ายแพ้ในเทิร์นนี้:\\nจะทำให้เกิด$[K411] 1 ลูก และตัวละครที่เข้าต่อสู้ของฝ่ายเราในขณะนั้น จะได้รับ $[K310] 1 หน่วย",
-            "descriptionreplaced": "จะสามารถใช้ได้ เมื่อมีตัวละครของฝ่ายเราพ่ายแพ้ในเทิร์นนี้:\\nจะทำให้เกิด<color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color> 1 ลูก และตัวละครที่เข้าต่อสู้ของฝ่ายเราในขณะนั้น จะได้รับ <color=#FFFFFFFF>{SPRITE_PRESET#1110}พลังงาน</color> 1 หน่วย",
+            "description": "จะสามารถใช้ได้ เมื่อมีตัวละครของฝ่ายเราพ่ายแพ้ในเทิร์นนี้: จะทำให้เกิดธาตุสารพัดประโยชน์ 1 ลูก และตัวละครที่เข้าต่อสู้ของฝ่ายเราในขณะนั้น จะได้รับ พลังงาน 1 หน่วย (ในแต่ละเทิร์น จะสามารถใช้ \"I Haven't Lost Yet!\" ได้สูงสุดเพียง 1 ใบ)",
+            "descriptionraw": "<color=#FFFFFFFF>จะสามารถใช้ได้ เมื่อมีตัวละครของฝ่ายเราพ่ายแพ้ในเทิร์นนี้:</color> จะทำให้เกิด$[K411] 1 ลูก และตัวละครที่เข้าต่อสู้ของฝ่ายเราในขณะนั้น จะได้รับ $[K310] 1 หน่วย (ในแต่ละเทิร์น จะสามารถใช้ \"I Haven't Lost Yet!\" ได้สูงสุดเพียง 1 ใบ)",
+            "descriptionreplaced": "<color=#FFFFFFFF>จะสามารถใช้ได้ เมื่อมีตัวละครของฝ่ายเราพ่ายแพ้ในเทิร์นนี้:</color> จะทำให้เกิด<color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color> 1 ลูก และตัวละครที่เข้าต่อสู้ของฝ่ายเราในขณะนั้น จะได้รับ <color=#FFFFFFFF>{SPRITE_PRESET#1110}พลังงาน</color> 1 หน่วย (ในแต่ละเทิร์น จะสามารถใช้ \"I Haven't Lost Yet!\" ได้สูงสุดเพียง 1 ใบ)",
             "id": 332005,
             "name": "I Haven't Lost Yet!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>เฟสทอยลูกเต๋า:</color> Elemental Dice 2 ลูก ในตอนเริ่มทอย จะออกเป็นชนิดธาตุเดียวกันกับตัวละครที่เข้าต่อสู้ของฝ่ายเราเสมอ",
             "id": 321003,
             "name": "Jade Chamber",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "ได้รับเมื่อสำเร็จเป้าหมายการท้าทายทั้งหมด หลังจากเข้าท้าทายผจญภัยกับผู้เล่น Bu'yun ในโลกกว้าง",
             "storytext": "\"ว่ากันว่ามีสมบัติมากมายระยิบระยับอยู่ในนั้น\"",
             "storytitle": "นั่งชมดวงดาราในศาลาสูงเทียบเมฆ",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "สถานที่"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "การ์ดเหตุการณ์",
+            "description": "จะสามารถใช้ได้ เมื่อชนิดธาตุตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็นธาตุ น้ำแข็ง, น้ำ, ไฟ, ไฟฟ้าหรือไม้: ติดสถานะธาตุของตัวละครที่เข้าต่อสู้ ให้กับตัวละครทั้งหมดของฝ่ายเรา\n(ภายในหนึ่งการดูเอล จะสามารถใช้การ์ด \"เคล็ดลับ\" ได้เพียงใบเดียวเท่านั้น; การ์ดใบนี้จะอยู่ในการ์ดเริ่มต้นของคุณ)",
+            "descriptionraw": "<color=#FFFFFFFF>จะสามารถใช้ได้ เมื่อชนิดธาตุตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็นธาตุ {SPRITE_PRESET#2101}<color=#99FFFFFF>น้ำแข็ง</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>น้ำ</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>ไฟ</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>ไฟฟ้า</color>หรือ{SPRITE_PRESET#2107}<color=#7EC236FF>ไม้</color>:</color> ติดสถานะธาตุของตัวละครที่เข้าต่อสู้ ให้กับตัวละครทั้งหมดของฝ่ายเรา\\n(ภายในหนึ่งการดูเอล จะสามารถใช้การ์ด \"{SPRITE_PRESET#3007}เคล็ดลับ\" ได้เพียงใบเดียวเท่านั้น; การ์ดใบนี้จะอยู่ในการ์ดเริ่มต้นของคุณ)",
+            "descriptionreplaced": "<color=#FFFFFFFF>จะสามารถใช้ได้ เมื่อชนิดธาตุตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็นธาตุ {SPRITE_PRESET#2101}<color=#99FFFFFF>น้ำแข็ง</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>น้ำ</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>ไฟ</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>ไฟฟ้า</color>หรือ{SPRITE_PRESET#2107}<color=#7EC236FF>ไม้</color>:</color> ติดสถานะธาตุของตัวละครที่เข้าต่อสู้ ให้กับตัวละครทั้งหมดของฝ่ายเรา\\n(ภายในหนึ่งการดูเอล จะสามารถใช้การ์ด \"{SPRITE_PRESET#3007}เคล็ดลับ\" ได้เพียงใบเดียวเท่านั้น; การ์ดใบนี้จะอยู่ในการ์ดเริ่มต้นของคุณ)",
+            "id": 330003,
+            "name": "Joyous Celebration",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"แบ่งปันความสุขร่วมกับทุกคน\"",
+            "storytitle": "ระบำสุขสำราญ",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "เคล็ดลับ"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "เพื่อน"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "ตัวละครสร้างความเสียหาย +1\nเมื่อเข้าสู่สนาม:  ในเทิร์นนี้ เมื่อตัวละครที่มีการ์ดใบนี้ใช้ \"สกิลธาตุ\" หรือติดตั้ง (พรสวรรค์) ในรอบถัดไป จะใช้ Elemental Dice น้อยลง 2 ลูก\n(สวมใส่ได้กับตัวละครประเภท \"ธนู\" เท่านั้น ตัวละครจะสามารถสวมใส่ \"อาวุธ\" ได้มากสุด 1 ชิ้น)",
+            "descriptionraw": "<color=#FFFFFFFF>ตัวละครสร้างความเสียหาย +1</color>\\n<color=#FFFFFFFF>เมื่อเข้าสู่สนาม: </color> ในเทิร์นนี้ เมื่อตัวละครที่มีการ์ดใบนี้ใช้ \"สกิลธาตุ\" หรือติดตั้ง ({SPRITE_PRESET#3006}พรสวรรค์) ในรอบถัดไป จะใช้ Elemental Dice น้อยลง 2 ลูก\\n(สวมใส่ได้กับ<color=#FFFFFFFF>ตัวละครประเภท \"{SPRITE_PRESET#3202}ธนู\"</color> เท่านั้น ตัวละครจะสามารถสวมใส่ \"{SPRITE_PRESET#3003}อาวุธ\" ได้มากสุด 1 ชิ้น)",
+            "descriptionreplaced": "<color=#FFFFFFFF>ตัวละครสร้างความเสียหาย +1</color>\\n<color=#FFFFFFFF>เมื่อเข้าสู่สนาม: </color> ในเทิร์นนี้ เมื่อตัวละครที่มีการ์ดใบนี้ใช้ \"สกิลธาตุ\" หรือติดตั้ง ({SPRITE_PRESET#3006}พรสวรรค์) ในรอบถัดไป จะใช้ Elemental Dice น้อยลง 2 ลูก\\n(สวมใส่ได้กับ<color=#FFFFFFFF>ตัวละครประเภท \"{SPRITE_PRESET#3202}ธนู\"</color> เท่านั้น ตัวละครจะสามารถสวมใส่ \"{SPRITE_PRESET#3003}อาวุธ\" ได้มากสุด 1 ชิ้น)",
+            "id": 311206,
+            "name": "King's Squire",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "อาวุธที่ได้รับมาจากเรื่องเล่าของ Aranara ซึ่งมีรูปร่างเหมือนธนู\n\"จำไว้นะ โลกนี้เป็นเพียงความฝันของป่า ได้โปรดถ่ายทอดภาษาของป่า รวมถึงหน้าที่ในการรักษาดินแดนของราชาให้แก่เหล่าผู้คน\"",
+            "storytitle": "Teachings of the Forest - King's Squire",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "อาวุธ",
+                "ธนู"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "การ์ดสนับสนุน",
@@ -2044,7 +2171,7 @@
             "name": "Laurel Coronet",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "Mask of Solitude Basalt",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "Ornate Kabuto",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "\"ชีวิตสิบสามปีลอยผ่านไปเหมือนความฝัน โบยบินข้ามทิวเขาและหิมะ แต่เจ้านั้นได้จากลาไปแสนไกลแล้ว\"",
@@ -3311,6 +3438,30 @@
                 "ดำเนินการต่อสู้"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "เมื่อเปลี่ยนเป็น Lisa ที่มีการ์ดใบนี้: จะทำให้เกิด Conductive กับตัวละครที่เข้าต่อสู้ของฝ่ายศัตรู (เทิร์นละ 1 ครั้ง)\n(เข้าร่วมเด็คได้ต่อเมื่อมี Lisa อยู่ภายในเด็คเท่านั้น)",
+            "descriptionraw": "เมื่อเปลี่ยนเป็น <color=#FFFFFFFF>$[A1409]</color> ที่มีการ์ดใบนี้: จะทำให้เกิด <color=#FFFFFFFF>$[C114091]</color> กับตัวละครที่เข้าต่อสู้ของฝ่ายศัตรู (เทิร์นละ 1 ครั้ง)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี $[A1409] อยู่ภายในเด็คเท่านั้น)",
+            "descriptionreplaced": "เมื่อเปลี่ยนเป็น <color=#FFFFFFFF>Lisa</color> ที่มีการ์ดใบนี้: จะทำให้เกิด <color=#FFFFFFFF>Conductive</color> กับตัวละครที่เข้าต่อสู้ของฝ่ายศัตรู (เทิร์นละ 1 ครั้ง)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี Lisa อยู่ภายในเด็คเท่านั้น)",
+            "id": 214091,
+            "name": "Pulsating Witch",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Lisa ทำการดูเอลใน Cat's Tail และสำเร็จเป้าหมายการท้าทายที่เกี่ยวข้อง",
+            "storytext": "ในฐานะผู้ดูแลห้องสมุดที่มากประสบการณ์ แน่นอนว่าต้องจำเทคนิคการเอาชนะได้อย่างง่ายดายอยู่แล้ว...",
+            "storytitle": "Lisa - Pulsating Witch",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "พรสวรรค์"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "การ์ดเหตุการณ์",
@@ -3438,6 +3589,36 @@
             "source": "ได้รับหลังจากเชิญ Yanfei ทำการดูเอลใน Cat's Tail และสำเร็จเป้าหมายการท้าทายที่เกี่ยวข้อง",
             "storytext": "\"ในด้านการเล่นการ์ดเนี่ย แน่นอนว่า... อะไรที่กติกาไม่ได้ห้ามไว้ ก็ต้องทำได้หมดอยู่แล้ว\"",
             "storytitle": "Yanfei - Right of Final Interpretation",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "พรสวรรค์",
+                "ดำเนินการต่อสู้"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น Qiqi และติดตั้งการ์ดใบนี้\nหลังจากที่ Qiqi ติดตั้งการ์ดใบนี้ จะใช้ Adeptus Art: Preserver of Fortune หนึ่งครั้งโดยทันที\nเมื่อ Qiqi ที่มีการ์ดใบนี้ใช้ Adeptus Art: Preserver of Fortune จะฟื้นชีวิตตัวละครที่หมดสติทั้งหมดของฝ่ายเรา และทำการรักษาให้ 2 หน่วย (จำกัด 2 ครั้ง ต่อการดูเอล)\n(เข้าร่วมเด็คได้ต่อเมื่อมี Qiqi อยู่ภายในเด็คเท่านั้น)",
+            "descriptionraw": "$[K1]: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>$[A1108]</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ $[A1108] ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>$[S11083]</color> หนึ่งครั้งโดยทันที\\nเมื่อ $[A1108] ที่มีการ์ดใบนี้ใช้ <color=#FFFFFFFF>$[S11083]</color> จะฟื้นชีวิตตัวละครที่หมดสติทั้งหมดของฝ่ายเรา และทำการรักษาให้ 2 หน่วย (จำกัด 2 ครั้ง ต่อการดูเอล)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี $[A1108] อยู่ภายในเด็คเท่านั้น)",
+            "descriptionreplaced": "<color=#FFFFFFFF>ดำเนินการต่อสู้</color>: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <color=#FFFFFFFF>Qiqi</color> และติดตั้งการ์ดใบนี้\\nหลังจากที่ Qiqi ติดตั้งการ์ดใบนี้ จะใช้ <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> หนึ่งครั้งโดยทันที\\nเมื่อ Qiqi ที่มีการ์ดใบนี้ใช้ <color=#FFFFFFFF>Adeptus Art: Preserver of Fortune</color> จะฟื้นชีวิตตัวละครที่หมดสติทั้งหมดของฝ่ายเรา และทำการรักษาให้ 2 หน่วย (จำกัด 2 ครั้ง ต่อการดูเอล)\\n(เข้าร่วมเด็คได้ต่อเมื่อมี Qiqi อยู่ภายในเด็คเท่านั้น)",
+            "id": 211081,
+            "name": "Rite of Resurrection",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Qiqi ทำการดูเอลใน Cat's Tail และสำเร็จเป้าหมายการท้าทายที่เกี่ยวข้อง",
+            "storytext": "\"จะต้อง... มีชีวิตอยู่ต่อไป...\"",
+            "storytitle": "Qiqi - Rite of Resurrection",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "การ์ดสนับสนุน",
+            "description": "หลังจากฝ่ายเราดำเนินการใด ๆ จนมีจำนวนการ์ดในมือเป็น 0: จั่วการ์ด 1 ใบ\nจำนวนครั้งที่ใช้ได้: 3",
+            "descriptionraw": "<color=#FFFFFFFF>หลังจากฝ่ายเราดำเนินการใด ๆ จนมีจำนวนการ์ดในมือเป็น 0: </color>จั่วการ์ด 1 ใบ\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>หลังจากฝ่ายเราดำเนินการใด ๆ จนมีจำนวนการ์ดในมือเป็น 0: </color>จั่วการ์ด 1 ใบ\\n<color=#FFFFFFFF><color=#FFFFFFFF>จำนวนครั้งที่ใช้ได้</color>: 3</color>",
+            "id": 322019,
+            "name": "Setaria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "ก้าวเข้าสู่วิหารในป่าฝน ในฐานะอัจฉริยะแห่งทะเลทราย...",
+            "storytitle": "ก้าวข้ามกำแพงสูง - Setaria",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "เพื่อน"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "การ์ดอุปกรณ์",
@@ -3675,7 +3879,7 @@
             "name": "Shimenawa's Reminiscence",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "การ์ดเหตุการณ์",
-            "description": "เปลี่ยนชนิด Elemental Dice ทั้งหมดของฝ่ายเรา ให้เป็นชนิดเดียวกับตัวละครที่เข้าต่อสู้ในขณะนั้น\n(ต้องมีตัวละคร \"Inazuma\" อย่างน้อย 2 ตัว อยู่ภายในเด็ค จึงจะสามารถเข้าสู่เด็คได้)",
-            "descriptionraw": "เปลี่ยนชนิด Elemental Dice ทั้งหมดของฝ่ายเรา ให้เป็นชนิดเดียวกับตัวละครที่เข้าต่อสู้ในขณะนั้น\\n(ต้องมีตัวละคร \"{SPRITE_PRESET#3403}Inazuma\" อย่างน้อย 2 ตัว อยู่ภายในเด็ค จึงจะสามารถเข้าสู่เด็คได้)",
-            "descriptionreplaced": "เปลี่ยนชนิด Elemental Dice ทั้งหมดของฝ่ายเรา ให้เป็นชนิดเดียวกับตัวละครที่เข้าต่อสู้ในขณะนั้น\\n(ต้องมีตัวละคร \"{SPRITE_PRESET#3403}Inazuma\" อย่างน้อย 2 ตัว อยู่ภายในเด็ค จึงจะสามารถเข้าสู่เด็คได้)",
+            "description": "เปลี่ยนชนิด Elemental Dice ทั้งหมดของฝ่ายเรา ให้เป็นธาตุสารพัดประโยชน์\n(ต้องมีตัวละคร \"Inazuma\" อย่างน้อย 2 ตัว อยู่ภายในเด็ค จึงจะสามารถเข้าสู่เด็คได้)",
+            "descriptionraw": "เปลี่ยนชนิด Elemental Dice ทั้งหมดของฝ่ายเรา ให้เป็น$[K411]\\n(ต้องมีตัวละคร \"{SPRITE_PRESET#3403}Inazuma\" อย่างน้อย 2 ตัว อยู่ภายในเด็ค จึงจะสามารถเข้าสู่เด็คได้)",
+            "descriptionreplaced": "เปลี่ยนชนิด Elemental Dice ทั้งหมดของฝ่ายเรา ให้เป็น<color=#FFFFFFFF>{SPRITE_PRESET#1111}ธาตุสารพัดประโยชน์</color>\\n(ต้องมีตัวละคร \"{SPRITE_PRESET#3403}Inazuma\" อย่างน้อย 2 ตัว อยู่ภายในเด็ค จึงจะสามารถเข้าสู่เด็คได้)",
             "id": 331803,
             "name": "Thunder and Eternity",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "Thundering Fury",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"เมื่อไหร่ที่ท่านมาพร้อมกับสายฟ้าและเมฆฝน ผมจะร้องเพลงอื่นให้ท่านฟัง\"",
@@ -4457,7 +4661,7 @@
             "name": "Thundering Poise",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "Thunder Summoner's Crown",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "Vermillion Hereafter",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "Viridescent Venerer",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"สักวันหนึ่ง... พวกเราจะพบกันอีกในพื้นที่ล่าสัตว์อันไร้ขอบเขต\"",
@@ -4773,7 +4977,7 @@
             "name": "Viridescent Venerer's Diadem",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "การ์ดเหตุการณ์",
+            "description": "คืนการ์ด \"อาวุธ\" ที่ตัวละครฝ่ายเราติดตั้งกลับเข้าการ์ดในมือ 1 ใบ\nในเทิร์นนี้ ครั้งต่อไปที่ฝ่ายเราใช้การ์ด \"อาวุธ\": จะใช้ Elemental Dice ลดลง 2 ลูก",
+            "descriptionraw": "คืนการ์ด \"{SPRITE_PRESET#3003}อาวุธ\" ที่ตัวละครฝ่ายเราติดตั้งกลับเข้าการ์ดในมือ 1 ใบ\\n<color=#FFFFFFFF>ในเทิร์นนี้ ครั้งต่อไปที่ฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\": </color>จะใช้ Elemental Dice ลดลง 2 ลูก",
+            "descriptionreplaced": "คืนการ์ด \"{SPRITE_PRESET#3003}อาวุธ\" ที่ตัวละครฝ่ายเราติดตั้งกลับเข้าการ์ดในมือ 1 ใบ\\n<color=#FFFFFFFF>ในเทิร์นนี้ ครั้งต่อไปที่ฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\": </color>จะใช้ Elemental Dice ลดลง 2 ลูก",
+            "id": 332022,
+            "name": "Where Is the Unseen Razor?",
+            "playcost": [],
+            "storytext": "หัวหน้าสาขากิลด์นักผจญภัยผู้มีชาติกำเนิดเป็นปริศนา คอยเสาะหาเบาะแสเกี่ยวกับ \"ดาบ\" อยู่เสมอ และคอยท้าทายศัตรูที่ทรงพลังมาโดยตลอด...",
+            "storytitle": "ดาบเร้นคมอยู่แห่งหนใด",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "การ์ดอุปกรณ์",
@@ -4990,7 +5208,7 @@
             "name": "Wine-Stained Tricorne",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "Witch's Scorching Hat",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

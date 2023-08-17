@@ -64,6 +64,14 @@
             "rarity": 3,
             "source": "Beim Kartenhändler zu erstehen"
         },
+        "fontaine": {
+            "description": "Eine außergewöhnliche „Schau“ ist nur dann möglich, wenn man alle „Regeln“ dieses Duells kennt und weiß, wie man sie in einem Duell am besten einsetzt.",
+            "descriptionraw": "Eine außergewöhnliche „Schau“ ist nur dann möglich, wenn man alle „Regeln“ dieses Duells kennt und weiß, wie man sie in einem Duell am besten einsetzt.",
+            "id": 123,
+            "name": "Fontaine",
+            "rarity": 3,
+            "source": "Belohnung für Ansehensstufe in Fontaine"
+        },
         "glazelily": {
             "description": "Die alten Erzählungen der Sterblichen sind verklungen. Jetzt bleibt nur noch der duftende Name der Blumen.",
             "descriptionraw": "Die alten Erzählungen der Sterblichen sind verklungen. Jetzt bleibt nur noch der duftende Name der Blumen.",

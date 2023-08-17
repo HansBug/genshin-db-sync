@@ -230,8 +230,8 @@
             "name": "Arkaik Taşlar",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Taşordu burada olduğu sürece kötülük asla kazanamayacak!\"",
@@ -319,8 +319,8 @@
             "name": "Kış Gezgini",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"O halde lütfen hayatına devam et. Kıyametimize ilerlerken eşlik etme bize. Sen de karların arasında solup gitme.\"",
@@ -342,7 +342,7 @@
             "name": "Kırağının Yankısı",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "Kaprisli Surat",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "Kızıl Alev Cadısı",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Ağıt yakmayacağım. Yas tutmayacağım. İç çekmeyeceğim. Bunlar hiçbir işe yaramaz.\nAdalet çoktan öldüyse kimi kurtarabilirim ki?\"",
@@ -746,8 +746,8 @@
             "name": "Derin Orman Hatıraları",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Çünkü doğanın izinden gidenler ormanın labirentinden geçip o uçsuz bucaksız ovaya ulaşmalıdır.\"",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "Yadigar"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Savaş Hamlesi: Aktif karakterin Albedo olduğunda bu kartı kuşan.\nAlbedo bu kartı kuşandıktan sonra hemen bir defa Yaratılış: Güneş Çiçeği kullanır.\nBu kartı kuşanan Albedo alandayken senin tarafında bir Güneş Çiçeği varsa karakterlerin fazladan 1 Havadan Saldırı Hasarı verir.\n(Bu kartı destene eklemek için destende Albedo olmalıdır.)",
+            "descriptionraw": "$[K1]: Aktif karakterin <color=#FFFFFFFF>$[A1604]</color> olduğunda bu kartı kuşan.\\n$[A1604] bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>$[S16042]</color> kullanır.\\nBu kartı kuşanan $[A1604] alandayken senin tarafında bir <color=#FFFFFFFF>$[C116041]</color> varsa karakterlerin fazladan 1 $[K52] Hasarı verir.\\n(Bu kartı destene eklemek için destende $[A1604] olmalıdır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Savaş Hamlesi</color>: Aktif karakterin <color=#FFFFFFFF>Albedo</color> olduğunda bu kartı kuşan.\\nAlbedo bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>Yaratılış: Güneş Çiçeği</color> kullanır.\\nBu kartı kuşanan Albedo alandayken senin tarafında bir <color=#FFFFFFFF>Güneş Çiçeği</color> varsa karakterlerin fazladan 1 <color=#FFFFFFFF>Havadan Saldırı</color> Hasarı verir.\\n(Bu kartı destene eklemek için destende Albedo olmalıdır.)",
+            "id": 216041,
+            "name": "Kutsallığın Çöküşü",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "Albedo'yu Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+            "storytext": "\"Bir düello için uygulanacak taktikleri belirleme süreci de çok ince hesaplamalar gerektirir...\"",
+            "storytitle": "Albedo: Kutsallığın Çöküşü",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Yetenek",
+                "Savaş Hamlesi"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "Parçalanan Kader Amblemi",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "On üç yıl bir rüya gibi gelip geçti.\nGölge düşmüş bu geçidin üzerine bir duman gibi kızıl kar taneleri yağıyor.\nArtık sen de çok uzaklardasın.",
@@ -1482,9 +1508,9 @@
         "fruitoffulfillment": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ekipman Kartı",
-            "description": "Karakterin verdiği Hasar 1 artar.\n Oynadığında 2 kart çekersin.\n(Yalnızca Katalizör Karakterleri bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir)",
-            "descriptionraw": "<color=#FFFFFFFF>Karakterin verdiği Hasar 1 artar</color>.\\n <color=#FFFFFFFF>Oynadığında</color> 2 kart çekersin.\\n(Yalnızca <color=#FFFFFFFF>{SPRITE_PRESET#3201}Katalizör Karakterleri bunu kuşanabilir</color>. Bir karakter en fazla 1 {SPRITE_PRESET#3003}Silah kuşanabilir)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Karakterin verdiği Hasar 1 artar</color>.\\n <color=#FFFFFFFF>Oynadığında</color> 2 kart çekersin.\\n(Yalnızca <color=#FFFFFFFF>{SPRITE_PRESET#3201}Katalizör Karakterleri bunu kuşanabilir</color>. Bir karakter en fazla 1 {SPRITE_PRESET#3003}Silah kuşanabilir)",
+            "description": "Karakterin verdiği Hasar 1 artar.\nOynadığında 2 kart çekersin.\n(Yalnızca Katalizör Karakterleri bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir)",
+            "descriptionraw": "<color=#FFFFFFFF>Karakterin verdiği Hasar 1 artar</color>.\\n<color=#FFFFFFFF>Oynadığında</color> 2 kart çekersin.\\n(Yalnızca <color=#FFFFFFFF>{SPRITE_PRESET#3201}Katalizör Karakterleri bunu kuşanabilir</color>. Bir karakter en fazla 1 {SPRITE_PRESET#3003}Silah kuşanabilir)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakterin verdiği Hasar 1 artar</color>.\\n<color=#FFFFFFFF>Oynadığında</color> 2 kart çekersin.\\n(Yalnızca <color=#FFFFFFFF>{SPRITE_PRESET#3201}Katalizör Karakterleri bunu kuşanabilir</color>. Bir karakter en fazla 1 {SPRITE_PRESET#3003}Silah kuşanabilir)",
             "id": 311105,
             "name": "Doygunluk Meyvesi",
             "playcost": [
@@ -1526,6 +1552,42 @@
             "tagstext": [
                 "Yadigar"
             ]
+        },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "2 Zafere Doğru puanı ile başlanır.\nSon Aşama: 1 Zafere Doğru puanı silinir. Zafere Doğru puanları tükendiğinde hiçbir karakterin yenilmediyse düelloyu anında kazanırsın.\nHamle Aşaması Başlangıcı: 1 Zafere Doğru puanı varsa 4 Kararsız Element oluşur.",
+            "descriptionraw": "2 Zafere Doğru puanı ile başlanır.\\n<color=#FFFFFFFF>Son Aşama:</color> 1 Zafere Doğru puanı silinir. Zafere Doğru puanları tükendiğinde hiçbir karakterin yenilmediyse düelloyu anında kazanırsın.\\n<color=#FFFFFFFF>Hamle Aşaması Başlangıcı:</color> 1 Zafere Doğru puanı varsa 4 $[K411] oluşur.",
+            "descriptionreplaced": "2 Zafere Doğru puanı ile başlanır.\\n<color=#FFFFFFFF>Son Aşama:</color> 1 Zafere Doğru puanı silinir. Zafere Doğru puanları tükendiğinde hiçbir karakterin yenilmediyse düelloyu anında kazanırsın.\\n<color=#FFFFFFFF>Hamle Aşaması Başlangıcı:</color> 1 Zafere Doğru puanı varsa 4 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> oluşur.",
+            "id": 423025,
+            "name": "Akıl Oyunları: Sağlam Zafer",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Hamle Aşaması Başlangıcı: ilk oynayan oyuncunun tarafında Çetin Ceviz oluşur.\nSon Aşama: Eğer Çetin Ceviz etkisi rakip tarafta hesaplanırsa rakip oyuncu düelloyu kaybeder.",
+            "descriptionraw": "<color=#FFFFFFFF>Hamle Aşaması Başlangıcı:</color> ilk oynayan oyuncunun tarafında $[C401001] oluşur.\\n<color=#FFFFFFFF>Son Aşama:</color> Eğer $[C401001] etkisi rakip tarafta hesaplanırsa rakip oyuncu düelloyu kaybeder.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hamle Aşaması Başlangıcı:</color> ilk oynayan oyuncunun tarafında Çetin Ceviz oluşur.\\n<color=#FFFFFFFF>Son Aşama:</color> Eğer Çetin Ceviz etkisi rakip tarafta hesaplanırsa rakip oyuncu düelloyu kaybeder.",
+            "id": 421011,
+            "name": "Akıl Oyunları: Yakıcı Bomba Mekanizması",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Hamle Aşaması Başlangıcı: 2 Kararsız Element oluşur. Ancak bu Turun Son Aşamasında düelloyu kaybedersin.\nRakip bir karakter yenildiğinde ya da senin karakterin Element Patlaması kullandığında 3 Kararsız Element oluşur, 1 kart çekersin ve mevcut hamlenden sonra bir hamle daha kazanırsın.",
+            "descriptionraw": "<color=#FFFFFFFF>Hamle Aşaması Başlangıcı:</color> 2 $[K411] oluşur. Ancak bu Turun Son Aşamasında düelloyu kaybedersin.\\n<color=#FFFFFFFF>Rakip bir karakter yenildiğinde ya da senin karakterin Element Patlaması kullandığında</color> 3 $[K411] oluşur, 1 kart çekersin ve mevcut hamlenden sonra bir hamle daha kazanırsın.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hamle Aşaması Başlangıcı:</color> 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> oluşur. Ancak bu Turun Son Aşamasında düelloyu kaybedersin.\\n<color=#FFFFFFFF>Rakip bir karakter yenildiğinde ya da senin karakterin Element Patlaması kullandığında</color> 3 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> oluşur, 1 kart çekersin ve mevcut hamlenden sonra bir hamle daha kazanırsın.",
+            "id": 423026,
+            "name": "Akıl Oyunları: Amansız Saldırı",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
         },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "Yetenek",
                 "Savaş Hamlesi"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Maliyeti en az 3 olan bir Silah kartı ya da Yadigar kartı oynadığında 1 adet daha az Element Zarı harcanır. (Her Turda bir defa)\nKullanım Hakkı: 2",
+            "descriptionraw": "<color=#FFFFFFFF>Maliyeti en az 3 olan bir {SPRITE_PRESET#3003}Silah kartı ya da {SPRITE_PRESET#3004}Yadigar kartı oynadığında</color> 1 adet daha az Element Zarı harcanır. (Her Turda bir defa)\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Maliyeti en az 3 olan bir {SPRITE_PRESET#3003}Silah kartı ya da {SPRITE_PRESET#3004}Yadigar kartı oynadığında</color> 1 adet daha az Element Zarı harcanır. (Her Turda bir defa)\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 2</color>",
+            "id": 321013,
+            "name": "Altın Ev",
+            "playcost": [],
+            "storytext": "Ülkenin dört bir yanındaki sözleşmelerin hepsi buradan çıkar.",
+            "storytitle": "Altın Ev",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "Konum"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "Derinliğin Kalbi",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Tüm ölümler boşadır. Geçmişe kapılıp gidenleri kurtaramazsın.\"",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Etki Kartı",
-            "description": "Ancak bu turda yenilen bir karakterin olduğunda oynanabilir.\n1 Kararsız Element oluşturur ve aktif karakterin 1 Enerji kazanır.",
-            "descriptionraw": "Ancak bu turda yenilen bir karakterin olduğunda oynanabilir.\\n1 $[K411] oluşturur ve aktif karakterin 1 $[K310] kazanır.",
-            "descriptionreplaced": "Ancak bu turda yenilen bir karakterin olduğunda oynanabilir.\\n1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> oluşturur ve aktif karakterin 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color> kazanır.",
+            "description": "Ancak bu turda yenilen bir karakterin olduğunda oynanabilir. 1 Kararsız Element oluşur ve aktif karakterin 1 Enerji kazanır. (Her turda yalnızca bir defa \"Henüz Kaybetmedim!\" oynanabilir.)",
+            "descriptionraw": "<color=#FFFFFFFF>Ancak bu turda yenilen bir karakterin olduğunda oynanabilir.</color> 1 $[K411] oluşur ve aktif karakterin 1 $[K310] kazanır. (Her turda yalnızca bir defa \"Henüz Kaybetmedim!\" oynanabilir.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Ancak bu turda yenilen bir karakterin olduğunda oynanabilir.</color> 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> oluşur ve aktif karakterin 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Enerji</color> kazanır. (Her turda yalnızca bir defa \"Henüz Kaybetmedim!\" oynanabilir.)",
             "id": 332005,
             "name": "Henüz Kaybetmedim!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Zar Atma Aşaması:</color> Başlangıçta attığın Element Zarlarından 2 tanesi her zaman aktif karakterinin Element Türüyle aynı olur.",
             "id": 321003,
             "name": "Yeşim Konak",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "Açık dünyada Bu'yun'nun Macera Mücadelesini kabul etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
             "storytext": "\"Binlerce göz kamaştırıcı mücevher içerdiği söylenir.\"",
             "storytitle": "Bulutların Arasında Yıldız Gözlemleme",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "Konum"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Etki Kartı",
+            "description": "Bu kartı oynayabilmek için aktif karakterin Buz, Su, Ateş, Elektrik ya da Doğa karakteri olmalıdır. Aktif karakterinin Element Türü tüm karakterlerine uygulanır.\n(Her düelloda yalnızca bir \"Saklı Destan\" kartı oynanabilir. Bu kart başlangıç elinde yer alır.)",
+            "descriptionraw": "<color=#FFFFFFFF>Bu kartı oynayabilmek için aktif karakterin {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Su</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik</color> ya da {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa</color> karakteri olmalıdır.</color> Aktif karakterinin Element Türü tüm karakterlerine uygulanır.\\n(Her düelloda yalnızca bir \"{SPRITE_PRESET#3007}Saklı Destan\" kartı oynanabilir. Bu kart başlangıç elinde yer alır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Bu kartı oynayabilmek için aktif karakterin {SPRITE_PRESET#2101}<color=#99FFFFFF>Buz</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Su</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Ateş</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Elektrik</color> ya da {SPRITE_PRESET#2107}<color=#7EC236FF>Doğa</color> karakteri olmalıdır.</color> Aktif karakterinin Element Türü tüm karakterlerine uygulanır.\\n(Her düelloda yalnızca bir \"{SPRITE_PRESET#3007}Saklı Destan\" kartı oynanabilir. Bu kart başlangıç elinde yer alır.)",
+            "id": 330003,
+            "name": "Neşe Dolu Kutlama",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Kutlama dediğin herkesle paylaşılmalı.\"",
+            "storytitle": "Neşe Dolu Kutlama",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Saklı Destan"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "Ortak"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Karakter fazladan 1 Hasar verir.\nOynandığında bu kartı kuşanan karakterin Element Becerisi kullandığı veya bir Yetenek Kartı kuşandığı bir sonraki seferde 2 adet daha az Element Zarı harcanır.\n(Yalnızca Yay Karakterleri bu kartı kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir.)",
+            "descriptionraw": "<color=#FFFFFFFF>Karakter fazladan 1 Hasar verir.</color>\\n<color=#FFFFFFFF>Oynandığında</color> bu kartı kuşanan karakterin Element Becerisi kullandığı veya bir {SPRITE_PRESET#3006}Yetenek Kartı kuşandığı bir sonraki seferde 2 adet daha az Element Zarı harcanır.\\n(Yalnızca <color=#FFFFFFFF>{SPRITE_PRESET#3202}Yay Karakterleri</color> bu kartı kuşanabilir. Bir karakter en fazla 1 {SPRITE_PRESET#3003}Silah kuşanabilir.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakter fazladan 1 Hasar verir.</color>\\n<color=#FFFFFFFF>Oynandığında</color> bu kartı kuşanan karakterin Element Becerisi kullandığı veya bir {SPRITE_PRESET#3006}Yetenek Kartı kuşandığı bir sonraki seferde 2 adet daha az Element Zarı harcanır.\\n(Yalnızca <color=#FFFFFFFF>{SPRITE_PRESET#3202}Yay Karakterleri</color> bu kartı kuşanabilir. Bir karakter en fazla 1 {SPRITE_PRESET#3003}Silah kuşanabilir.)",
+            "id": 311206,
+            "name": "Kralın Yaveri",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "Aranara hikayesinden elde ettiğin yay şeklinde bir silah.\n\"Unutma, bu dünya yalnızca ormanın bir rüyası... Ormanın sözlerini ve Kralın topraklarını koruma sorumluluğunu gelecek nesillere aktar.\"",
+            "storytitle": "Ormanın Öğretileri: Kralın Yaveri",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "Silah",
+                "Yay"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Destek Kartı",
@@ -2044,7 +2171,7 @@
             "name": "Defne Tacı",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "Münzevi Bazalt Maskesi",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "İşlemeli Kabuto",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "\"On üç yıl bir rüya gibi gelip geçti. Gölge düşmüş bu geçidin üzerine bir duman gibi kızıl kar taneleri yağıyor. Artık sen de çok uzaklardasın.\"",
@@ -3311,6 +3438,30 @@
                 "Savaş Hamlesi"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Bu kartı kuşanan Lisa karakterine geçtikten sonra: Rakip aktif karaktere İletken eklenir. (Her Turda bir defa)\n(Bu kartı destene eklemek için destende Lisa olmalıdır.)",
+            "descriptionraw": "Bu kartı kuşanan <color=#FFFFFFFF>$[A1409]</color> karakterine geçtikten sonra: Rakip aktif karaktere <color=#FFFFFFFF>$[C114091]</color> eklenir. (Her Turda bir defa)\\n(Bu kartı destene eklemek için destende $[A1409] olmalıdır.)",
+            "descriptionreplaced": "Bu kartı kuşanan <color=#FFFFFFFF>Lisa</color> karakterine geçtikten sonra: Rakip aktif karaktere <color=#FFFFFFFF>İletken</color> eklenir. (Her Turda bir defa)\\n(Bu kartı destene eklemek için destende Lisa olmalıdır.)",
+            "id": 214091,
+            "name": "Titreşen Cadı",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "Lisa'yı Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+            "storytext": "Binlerce ciltlik kitapları okumuş bir Kütüphaneci olarak nasıl kazanılacağını hatırlamak benim için mesele bile değil...",
+            "storytitle": "Lisa: Titreşen Cadı",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "Yetenek"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Etki Kartı",
@@ -3438,6 +3589,36 @@
             "source": "Yanfei'yi Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
             "storytext": "\"İş kartlara geldiğinde... Kurallarla ters düşmediği sürece her şey mübahtır.\"",
             "storytitle": "Yanfei: Son Karar Hakkı",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Yetenek",
+                "Savaş Hamlesi"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Savaş Hamlesi: Aktif karakterin Qiqi olduğunda bu kartı kuşan.\nQiqi bu kartı kuşandıktan sonra hemen bir defa Adeptus Büyüsü: Nazar kullanır.\nBu kartı kuşanan Qiqi, Adeptus Büyüsü: Nazar kullandığında saf dışı bırakılan tüm karakterlerini canlandırır ve onlar için 2 Can yeniler. (Bir düelloda en fazla 2 defa gerçekleşebilir.)\n(Bu kartı destene eklemek için destende Qiqi olmalıdır.)",
+            "descriptionraw": "$[K1]: Aktif karakterin <color=#FFFFFFFF>$[A1108]</color> olduğunda bu kartı kuşan.\\n$[A1108] bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>$[S11083]</color> kullanır.\\nBu kartı kuşanan $[A1108], <color=#FFFFFFFF>$[S11083]</color> kullandığında saf dışı bırakılan tüm karakterlerini canlandırır ve onlar için 2 Can yeniler. (Bir düelloda en fazla 2 defa gerçekleşebilir.)\\n(Bu kartı destene eklemek için destende $[A1108] olmalıdır.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Savaş Hamlesi</color>: Aktif karakterin <color=#FFFFFFFF>Qiqi</color> olduğunda bu kartı kuşan.\\nQiqi bu kartı kuşandıktan sonra hemen bir defa <color=#FFD780FF>Adeptus Büyüsü: Nazar</color> kullanır.\\nBu kartı kuşanan Qiqi, <color=#FFFFFFFF>Adeptus Büyüsü: Nazar</color> kullandığında saf dışı bırakılan tüm karakterlerini canlandırır ve onlar için 2 Can yeniler. (Bir düelloda en fazla 2 defa gerçekleşebilir.)\\n(Bu kartı destene eklemek için destende Qiqi olmalıdır.)",
+            "id": 211081,
+            "name": "Canlandırma Ayini",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "Qiqi'yi Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+            "storytext": "\"Devam etmeliyim...\"",
+            "storytitle": "Qiqi: Canlandırma Ayini",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Destek Kartı",
+            "description": "Herhangi bir hamle yaptığında elinde hiç kart yoksa 1 kart çekersin.\nKullanım Hakkı: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Herhangi bir hamle yaptığında elinde hiç kart yoksa</color> 1 kart çekersin.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Herhangi bir hamle yaptığında elinde hiç kart yoksa</color> 1 kart çekersin.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 3</color>",
+            "id": 322019,
+            "name": "Setaria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Çölden, yağmur ormanı tapınağının derinliklerinden bir dahi...",
+            "storytitle": "Duvarın Ötesi: Setaria",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Ortak"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ekipman Kartı",
@@ -3675,7 +3879,7 @@
             "name": "Shimenawa'nın Hatırası",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Etki Kartı",
-            "description": "Tüm Element Zarların aktif karakterin Element Türüne dönüşür.\n(Bu kartı destene eklemek için destende en az 2 Inazumalı karakter olmalıdır.)",
-            "descriptionraw": "Tüm Element Zarların aktif karakterin Element Türüne dönüşür.\\n(Bu kartı destene eklemek için destende en az 2 {SPRITE_PRESET#3403}Inazumalı karakter olmalıdır.)",
-            "descriptionreplaced": "Tüm Element Zarların aktif karakterin Element Türüne dönüşür.\\n(Bu kartı destene eklemek için destende en az 2 {SPRITE_PRESET#3403}Inazumalı karakter olmalıdır.)",
+            "description": "Tüm Element Zarların Kararsız Element olur.\n(Bu kartı destene eklemek için destende en az 2 Inazumalı karakter olmalıdır.)",
+            "descriptionraw": "Tüm Element Zarların $[K411] olur.\\n(Bu kartı destene eklemek için destende en az 2 {SPRITE_PRESET#3403}Inazumalı karakter olmalıdır.)",
+            "descriptionreplaced": "Tüm Element Zarların <color=#FFFFFFFF>{SPRITE_PRESET#1111}Kararsız Element</color> olur.\\n(Bu kartı destene eklemek için destende en az 2 {SPRITE_PRESET#3403}Inazumalı karakter olmalıdır.)",
             "id": 331803,
             "name": "Yıldırım ve Sonsuzluk",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "Yıldırım Öfkesi",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Yıldırım ve yağmurlarla geldiğinde sana bir şarkı daha söyleyeyim o halde!\"",
@@ -4457,7 +4661,7 @@
             "name": "Yıldırım Duruşu",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "Yıldırım Sihirdarı Tacı",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "Öbür Dünya Zincifresi",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "Yeşil Gölge",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Bir gün, o sonsuz av bölgelerinde... Yeniden karşılaşacağız.\"",
@@ -4773,7 +4977,7 @@
             "name": "Yeşil Gölge Tacı",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Etki Kartı",
+            "description": "Karakterin tarafından kuşanılan bir Silah kartı tekrar eline eklenir.\nBu Turda Silah kartı oynadığın bir sonraki seferde 2 adet daha az Element Zarı harcanır.",
+            "descriptionraw": "Karakterin tarafından kuşanılan bir {SPRITE_PRESET#3003}Silah kartı tekrar eline eklenir.\\n<color=#FFFFFFFF>Bu Turda {SPRITE_PRESET#3003}Silah kartı oynadığın bir sonraki seferde</color> 2 adet daha az Element Zarı harcanır.",
+            "descriptionreplaced": "Karakterin tarafından kuşanılan bir {SPRITE_PRESET#3003}Silah kartı tekrar eline eklenir.\\n<color=#FFFFFFFF>Bu Turda {SPRITE_PRESET#3003}Silah kartı oynadığın bir sonraki seferde</color> 2 adet daha az Element Zarı harcanır.",
+            "id": 332022,
+            "name": "Görünmez Ustura Nerede?",
+            "playcost": [],
+            "storytext": "Bu Maceracılar Loncası Şube Başkanının geçmişi gizem dolu. Kendisi sürekli kılıçla ilgili ipucu aramaya devam eder ve yolda önüne çıkan düşmanlarla savaşır.",
+            "storytitle": "Görünmez Ustura Nerede?",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ekipman Kartı",
@@ -4990,7 +5208,7 @@
             "name": "Şarap Lekeli Denizci Şapkası",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "Cadının Yakıcı Şapkası",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

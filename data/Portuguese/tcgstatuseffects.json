@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Estado",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Este estado começa com 2 acúmulos de Condutor. Quando aplicado repetidamente, Condutor pode ter um máximo de 4 acúmulos.\nFase Final: Ganha 1 acúmulo de Condutor.\n\nQuando o personagem com o efeito Condutor recebe Dano de Arco Violeta: Remove este estado e causa +1 de Dano para cada acúmulo de Condutor.",
+            "descriptionraw": "Este estado começa com 2 acúmulos de Condutor. Quando aplicado repetidamente, Condutor pode ter um máximo de 4 acúmulos.\\n<color=#FFFFFFFF>Fase Final:</color> Ganha 1 acúmulo de Condutor.\\n\\n<color=#FFFFFFFF>Quando o personagem com o efeito Condutor recebe Dano de $[S14092]: </color>Remove este estado e causa +1 de Dano para cada acúmulo de Condutor.",
+            "descriptionreplaced": "Este estado começa com 2 acúmulos de Condutor. Quando aplicado repetidamente, Condutor pode ter um máximo de 4 acúmulos.\\n<color=#FFFFFFFF>Fase Final:</color> Ganha 1 acúmulo de Condutor.\\n\\n<color=#FFFFFFFF>Quando o personagem com o efeito Condutor recebe Dano de Arco Violeta: </color>Remove este estado e causa +1 de Dano para cada acúmulo de Condutor.",
+            "id": 114091,
+            "name": "Condutor",
+            "statustypetext": "Estado do Personagem",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de Equipamento",
@@ -743,6 +755,20 @@
             "statustypetext": "Estado de Combate da Equipe",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de Equipamento",
+            "description": "Quando Albedo que estiver com esta carta estiver no campo de batalha, se você tiver Radiação Solar no campo de batalha, ao fazer Ataque Imersivo seus personagens causarão Dano +1.",
+            "descriptionraw": "Quando $[A1604] que estiver com esta carta estiver no campo de batalha, se você tiver <color=#FFFFFFFF>$[C116041]</color> no campo de batalha, ao fazer $[K52] seus personagens causarão Dano +1.",
+            "descriptionreplaced": "Quando Albedo que estiver com esta carta estiver no campo de batalha, se você tiver <color=#FFFFFFFF>Radiação Solar</color> no campo de batalha, ao fazer <color=#FFFFFFFF>Ataque Imersivo</color> seus personagens causarão Dano +1.",
+            "id": 216041,
+            "name": "Queda Divina",
+            "statustypetext": "Equipamentos do Personagem",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado de Combate",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Após seu personagem usar uma Habilidade: Se esse personagem não tiver a Vida cheia, cura esse personagem em 2 de Vida.\nUsos: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Após seu personagem usar uma Habilidade:</color> Se esse personagem não tiver a Vida cheia, cura esse personagem em 2 de Vida.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Após seu personagem usar uma Habilidade:</color> Se esse personagem não tiver a Vida cheia, cura esse personagem em 2 de Vida.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usos</color>: 3</color>",
+            "id": 111082,
+            "name": "Talismã da Preservação da Fortuna",
+            "statustypetext": "Estado de Combate da Equipe",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Escudo Gélido",
             "statustypetext": "Estado do Personagem",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado de Combate",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Após seu personagem usar uma Habilidade: Este efeito será transferido ao lado adversário e acumulará 1 ponto de Pegando Fogo (máximo de 4 pontos). Fase Final: Remove este efeito e causa 2 de Dano Físico ao lado em que este efeito está aplicado. Cada ponto de Pegando Fogo concede +1 de Dano a este efeito.",
+            "descriptionraw": "<color=#FFFFFFFF>Após seu personagem usar uma Habilidade:</color> Este efeito será transferido ao lado adversário e acumulará 1 ponto de Pegando Fogo (máximo de 4 pontos). <color=#FFFFFFFF>Fase Final:</color> Remove este efeito e causa 2 de $[K100] ao lado em que este efeito está aplicado. Cada ponto de Pegando Fogo concede +1 de Dano a este efeito.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Após seu personagem usar uma Habilidade:</color> Este efeito será transferido ao lado adversário e acumulará 1 ponto de Pegando Fogo (máximo de 4 pontos). <color=#FFFFFFFF>Fase Final:</color> Remove este efeito e causa 2 de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Dano Físico</color> ao lado em que este efeito está aplicado. Cada ponto de Pegando Fogo concede +1 de Dano a este efeito.",
+            "id": 401001,
+            "name": "Bomba Queimante",
+            "statustypetext": "Estado de Combate da Equipe",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado de Combate",
+            "description": "Você não pode jogar \"Ainda não fui derrotado!\" novamente neste turno",
+            "descriptionraw": "Você não pode jogar \"Ainda não fui derrotado!\" novamente neste turno",
+            "descriptionreplaced": "Você não pode jogar \"Ainda não fui derrotado!\" novamente neste turno",
+            "id": 303205,
+            "name": "Ainda não fui derrotado! (Recarga)",
+            "statustypetext": "Estado de Combate da Equipe",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de Equipamento",
+            "description": "Personagem causa +1 de Dano.",
+            "descriptionraw": "<color=#FFFFFFFF>Personagem causa +1 de Dano</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Personagem causa +1 de Dano</color>.",
+            "id": 311206,
+            "name": "Vassalo do Rei",
+            "statustypetext": "Equipamentos do Personagem",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Estado",
+            "description": "Durante este Turno, o personagem gastará 2 Dados Elementais a menos na próxima vez que usar uma Habilidade Elemental ou equipar uma carta de Talento.",
+            "descriptionraw": "Durante este Turno, o personagem gastará 2 Dados Elementais a menos <color=#FFFFFFFF>na próxima vez que usar uma Habilidade Elemental ou equipar uma carta de {SPRITE_PRESET#3006}Talento.</color>",
+            "descriptionreplaced": "Durante este Turno, o personagem gastará 2 Dados Elementais a menos <color=#FFFFFFFF>na próxima vez que usar uma Habilidade Elemental ou equipar uma carta de {SPRITE_PRESET#3006}Talento.</color>",
+            "id": 301103,
+            "name": "Vassalo do Rei (Efeito)",
+            "statustypetext": "Estado do Personagem",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "Estado de Combate da Equipe",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado de Combate",
+            "description": "Fase Final: Você perde a partida.",
+            "descriptionraw": "<color=#FFFFFFFF>Fase Final:</color> Você perde a partida.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Fase Final:</color> Você perde a partida.",
+            "id": 403016,
+            "name": "Preço do Ataque Feroz",
+            "statustypetext": "Estado de Combate da Equipe",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de Equipamento",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de Equipamento",
+            "description": "Após você trocar para Lisa com esta carta equipada: Aplica Condutor ao Personagem em Combate adversário. (Uma vez por Turno).",
+            "descriptionraw": "Após você trocar para <color=#FFFFFFFF>$[A1409]</color> com esta carta equipada: Aplica <color=#FFFFFFFF>$[C114091]</color> ao Personagem em Combate adversário. (Uma vez por Turno).",
+            "descriptionreplaced": "Após você trocar para <color=#FFFFFFFF>Lisa</color> com esta carta equipada: Aplica <color=#FFFFFFFF>Condutor</color> ao Personagem em Combate adversário. (Uma vez por Turno).",
+            "id": 214091,
+            "name": "Bruxa Pulsante",
+            "statustypetext": "Equipamentos do Personagem",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Rito de Expedição",
             "statustypetext": "Estado do Personagem",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de Equipamento",
+            "description": "Quando Qiqi, com esta carta equipada, usar Arte do Adeptus: Preservador da Fortuna, ela revive todos os seus personagens derrotados e cura eles em 2 de Vida. (Pode acontecer 2 vezes por partida)",
+            "descriptionraw": "Quando $[A1108], com esta carta equipada, usar <color=#FFFFFFFF>$[S11083]</color>, ela revive todos os seus personagens derrotados e cura eles em 2 de Vida. (Pode acontecer 2 vezes por partida)",
+            "descriptionreplaced": "Quando Qiqi, com esta carta equipada, usar <color=#FFFFFFFF>Arte do Adeptus: Preservador da Fortuna</color>, ela revive todos os seus personagens derrotados e cura eles em 2 de Vida. (Pode acontecer 2 vezes por partida)",
+            "id": 211081,
+            "name": "Ritual de Ressurreição",
+            "statustypetext": "Equipamentos do Personagem",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Da próxima vez que você usar uma Habilidade:</color> Coloca o seu próximo Personagem Inativo em campo.",
             "id": 303207,
             "name": "O Retorno da Garça (Efeito)",
+            "statustypetext": "Estado de Combate da Equipe",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado de Combate",
+            "description": "Durante este Turno, na próxima vez que você jogar uma carta de Arma: Gaste 2 Dados Elementais a menos.",
+            "descriptionraw": "<color=#FFFFFFFF>Durante este Turno, na próxima vez que você jogar uma carta de {SPRITE_PRESET#3003}Arma:</color> Gaste 2 Dados Elementais a menos.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Durante este Turno, na próxima vez que você jogar uma carta de {SPRITE_PRESET#3003}Arma:</color> Gaste 2 Dados Elementais a menos.",
+            "id": 303222,
+            "name": "Onde está a Lâmina Oculta? (Efeito)",
             "statustypetext": "Estado de Combate da Equipe",
             "tags": []
         },

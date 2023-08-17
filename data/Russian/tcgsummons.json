@@ -238,6 +238,19 @@
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
+        "heraldoffrost": {
+            "cardtypetext": "Помощник",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Финальная фаза: наносит Крио урон, 1 ед.\nКол-во применений: 3\nЕсли этот помощник на поле боя и Ци Ци использует обычную атаку: ваш персонаж, получивший наибольший урон, восстанавливает 1 HP.",
+            "descriptionraw": "<color=#FFFFFFFF>Финальная фаза:</color> наносит $[K101], 1 ед.\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>Если этот помощник на поле боя и $[A1108] использует обычную атаку:</color> ваш персонаж, получивший наибольший урон, восстанавливает 1 HP.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Финальная фаза:</color> наносит {SPRITE_PRESET#2101}<color=#99FFFFFF>Крио урон</color>, 1 ед.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Кол-во применений</color>: 3</color>\\n<color=#FFFFFFFF>Если этот помощник на поле боя и Ци Ци использует обычную атаку:</color> ваш персонаж, получивший наибольший урон, восстанавливает 1 HP.",
+            "hinttype": "GCG_HINT_CRYO",
+            "id": 111081,
+            "name": "Вестник стужи",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "hilichurlberserker": {
             "cardtypetext": "Помощник",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -302,6 +315,19 @@
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_CLOCK"
+        },
+        "lightningrose": {
+            "cardtypetext": "Помощник",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Финальная фаза: наносит Электро урон, 2 ед.\nКол-во применений: 2",
+            "descriptionraw": "<color=#FFFFFFFF>Финальная фаза:</color> наносит $[K104], 2 ед.\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Финальная фаза:</color> наносит {SPRITE_PRESET#2104}<color=#FFACFFFF>Электро урон</color>, 2 ед.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Кол-во применений</color>: 2</color>",
+            "hinttype": "GCG_HINT_ELECTRO",
+            "id": 114092,
+            "name": "Громовая роза",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
         "melodyloop": {
             "cardtypetext": "Помощник",
@@ -442,6 +468,19 @@
             "hinttype": "GCG_HINT_ANEMO",
             "id": 125011,
             "name": "Теневой клинок: Одинокий ветер",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
+        "solarisotoma": {
+            "cardtypetext": "Помощник",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Финальная фаза: наносит Гео урон, 1 ед.\nКол-во применений: 3\nКогда этот помощник на поле боя: Атака в падении вашего персонажа расходует на 1 Неопределённый элемент меньше. Только 1 раз за раунд.",
+            "descriptionraw": "<color=#FFFFFFFF>Финальная фаза:</color> наносит $[K106], 1 ед.\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>Когда этот помощник на поле боя:</color> $[K52] вашего персонажа расходует на 1 $[K309] меньше. Только 1 раз за раунд.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Финальная фаза:</color> наносит {SPRITE_PRESET#2106}<color=#FFE699FF>Гео урон</color>, 1 ед.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Кол-во применений</color>: 3</color>\\n<color=#FFFFFFFF>Когда этот помощник на поле боя:</color> <color=#FFFFFFFF>Атака в падении</color> вашего персонажа расходует на 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Неопределённый элемент</color> меньше. Только 1 раз за раунд.",
+            "hinttype": "GCG_HINT_GEO",
+            "id": 116041,
+            "name": "Цветок солнца",
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"

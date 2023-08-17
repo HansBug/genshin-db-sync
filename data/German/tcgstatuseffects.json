@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Status",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Dieser Zustand hat anfänglich 2 Stapelungen „Blitzleiter“. Bei erneutem Zufügen erhält der Zustand zusätzlich 1 Stapelung „Blitzleiter“. 4-fach stapelbar.\nEndphase: Erhält 1 Stapelung „Blitzleiter“.\n\nWenn die davon betroffene Figur den SCH von Lila Lichtbogen erleidet: Entfernt diesen Zustand, erhöht diesen SCH für jede Stapelung von „Blitzleiter“ um 1 Pkt.",
+            "descriptionraw": "Dieser Zustand hat anfänglich 2 Stapelungen „Blitzleiter“. Bei erneutem Zufügen erhält der Zustand zusätzlich 1 Stapelung „Blitzleiter“. 4-fach stapelbar.\\n<color=#FFFFFFFF>Endphase:</color> Erhält 1 Stapelung „Blitzleiter“.\\n\\n<color=#FFFFFFFF>Wenn die davon betroffene Figur den SCH von $[S14092] erleidet:</color> Entfernt diesen Zustand, erhöht diesen SCH für jede Stapelung von „Blitzleiter“ um 1 Pkt.",
+            "descriptionreplaced": "Dieser Zustand hat anfänglich 2 Stapelungen „Blitzleiter“. Bei erneutem Zufügen erhält der Zustand zusätzlich 1 Stapelung „Blitzleiter“. 4-fach stapelbar.\\n<color=#FFFFFFFF>Endphase:</color> Erhält 1 Stapelung „Blitzleiter“.\\n\\n<color=#FFFFFFFF>Wenn die davon betroffene Figur den SCH von Lila Lichtbogen erleidet:</color> Entfernt diesen Zustand, erhöht diesen SCH für jede Stapelung von „Blitzleiter“ um 1 Pkt.",
+            "id": 114091,
+            "name": "Blitzleiter",
+            "statustypetext": "Figurenstatus",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ausrüstungskarte",
@@ -743,6 +755,20 @@
             "statustypetext": "Kampfstatus der Truppe",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "Ist Albedo ausgerüstet mit dieser Karte deine aktive Figur und besteht auf deinem Feld Sonnennachbildung: SCH vom Angriff aus dem Fall durch deine eigenen Figuren +1.",
+            "descriptionraw": "Ist $[A1604] ausgerüstet mit dieser Karte deine aktive Figur und besteht auf deinem Feld <color=#FFFFFFFF>$[C116041]</color>: SCH vom $[K52] durch deine eigenen Figuren +1.",
+            "descriptionreplaced": "Ist Albedo ausgerüstet mit dieser Karte deine aktive Figur und besteht auf deinem Feld <color=#FFFFFFFF>Sonnennachbildung</color>: SCH vom <color=#FFFFFFFF>Angriff aus dem Fall</color> durch deine eigenen Figuren +1.",
+            "id": 216041,
+            "name": "Gefallene Gottheit",
+            "statustypetext": "Figurenausrüstung",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Kampfstatus",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Nach Anwenden einer Fähigkeit deiner Figur: Stellt dieser Figur 2 LP wieder her, wenn ihre LP nicht voll sind.\nEinsatzmöglichkeit: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Nach Anwenden einer Fähigkeit deiner Figur:</color> Stellt dieser Figur 2 LP wieder her, wenn ihre LP nicht voll sind.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Nach Anwenden einer Fähigkeit deiner Figur:</color> Stellt dieser Figur 2 LP wieder her, wenn ihre LP nicht voll sind.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Einsatzmöglichkeit</color>: 3</color>",
+            "id": 111082,
+            "name": "Leidbefreiungs-Talisman",
+            "statustypetext": "Kampfstatus der Truppe",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Schild des Eises",
             "statustypetext": "Figurenstatus",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Kampfstatus",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Nach Anwenden einer Fähigkeit deiner Figur: Dieser Effekt geht an die gegnerische Seite und erhält 1 Pkt. „Brenzligkeit“. (Max. 4-fach stapelbar) Endphase: Entfernt diesen Effekt und fügt der aktiven Figur der betroffenen Seite 2 Pkt. phys. SCH zu. Erhöht diesen SCH für jeden Pkt. „Brenzligkeit“ um 1 Pkt.",
+            "descriptionraw": "<color=#FFFFFFFF>Nach Anwenden einer Fähigkeit deiner Figur:</color> Dieser Effekt geht an die gegnerische Seite und erhält 1 Pkt. „Brenzligkeit“. (Max. 4-fach stapelbar) <color=#FFFFFFFF>Endphase:</color> Entfernt diesen Effekt und fügt der aktiven Figur der betroffenen Seite 2 Pkt. $[K100|s1] zu. Erhöht diesen SCH für jeden Pkt. „Brenzligkeit“ um 1 Pkt.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Nach Anwenden einer Fähigkeit deiner Figur:</color> Dieser Effekt geht an die gegnerische Seite und erhält 1 Pkt. „Brenzligkeit“. (Max. 4-fach stapelbar) <color=#FFFFFFFF>Endphase:</color> Entfernt diesen Effekt und fügt der aktiven Figur der betroffenen Seite 2 Pkt. {SPRITE_PRESET#2100}<color=#FFFFFFFF>phys. SCH</color> zu. Erhöht diesen SCH für jeden Pkt. „Brenzligkeit“ um 1 Pkt.",
+            "id": 401001,
+            "name": "Brandbombe",
+            "statustypetext": "Kampfstatus der Truppe",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Kampfstatus",
+            "description": "„Noch nicht verloren!“ kann in dieser Runde nicht erneut ausgespielt werden.",
+            "descriptionraw": "„Noch nicht verloren!“ kann in dieser Runde nicht erneut ausgespielt werden.",
+            "descriptionreplaced": "„Noch nicht verloren!“ kann in dieser Runde nicht erneut ausgespielt werden.",
+            "id": 303205,
+            "name": "Noch nicht verloren! (In der Abklingphase)",
+            "statustypetext": "Kampfstatus der Truppe",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "SCH durch die Figur +1.",
+            "descriptionraw": "<color=#FFFFFFFF>SCH durch die Figur +1</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>SCH durch die Figur +1</color>.",
+            "id": 311206,
+            "name": "Gefolgsfrau des Königs",
+            "statustypetext": "Figurenausrüstung",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Status",
+            "description": "Beim nächsten Anwenden der Elementarfähigkeit oder Anlegen von „Talent“ durch die Figur in dieser Runde: Würfel-Verbrauch -2.",
+            "descriptionraw": "<color=#FFFFFFFF>Beim nächsten Anwenden der Elementarfähigkeit oder Anlegen von „{SPRITE_PRESET#3006}Talent“ durch die Figur in dieser Runde:</color> Würfel-Verbrauch -2.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Beim nächsten Anwenden der Elementarfähigkeit oder Anlegen von „{SPRITE_PRESET#3006}Talent“ durch die Figur in dieser Runde:</color> Würfel-Verbrauch -2.",
+            "id": 301103,
+            "name": "Gefolgsfrau des Königs (aktiv)",
+            "statustypetext": "Figurenstatus",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "Kampfstatus der Truppe",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Kampfstatus",
+            "description": "Endphase: Du verlierst das Duell.",
+            "descriptionraw": "<color=#FFFFFFFF>Endphase:</color> Du verlierst das Duell.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Endphase:</color> Du verlierst das Duell.",
+            "id": 403016,
+            "name": "Kosten des Ansturms",
+            "statustypetext": "Kampfstatus der Truppe",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ausrüstungskarte",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "Nach Einwechseln von Lisa ausgerüstet mit dieser Karte: Verleiht der aktiven Figur deines Gegners den Zustand Blitzleiter (1-mal pro Runde).",
+            "descriptionraw": "Nach Einwechseln von <color=#FFFFFFFF>$[A1409]</color> ausgerüstet mit dieser Karte: Verleiht der aktiven Figur deines Gegners den Zustand <color=#FFFFFFFF>$[C114091]</color> (1-mal pro Runde).",
+            "descriptionreplaced": "Nach Einwechseln von <color=#FFFFFFFF>Lisa</color> ausgerüstet mit dieser Karte: Verleiht der aktiven Figur deines Gegners den Zustand <color=#FFFFFFFF>Blitzleiter</color> (1-mal pro Runde).",
+            "id": 214091,
+            "name": "Pulsierende Hexe",
+            "statustypetext": "Figurenausrüstung",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Ritus des Abschieds",
             "statustypetext": "Figurenstatus",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ausrüstungskarte",
+            "description": "Wendet Qiqi ausgerüstet mit dieser Karte Adeptenkunst – Befreiung vom Leid an: Belebt alle deiner ohnmächtig gewordenen Figuren wieder und stellt ihnen 2 LP wieder her (max. 2-mal pro Duell).",
+            "descriptionraw": "Wendet $[A1108] ausgerüstet mit dieser Karte <color=#FFFFFFFF>$[S11083]</color> an: Belebt alle deiner ohnmächtig gewordenen Figuren wieder und stellt ihnen 2 LP wieder her (max. 2-mal pro Duell).",
+            "descriptionreplaced": "Wendet Qiqi ausgerüstet mit dieser Karte <color=#FFFFFFFF>Adeptenkunst – Befreiung vom Leid</color> an: Belebt alle deiner ohnmächtig gewordenen Figuren wieder und stellt ihnen 2 LP wieder her (max. 2-mal pro Duell).",
+            "id": 211081,
+            "name": "Auferstehung",
+            "statustypetext": "Figurenausrüstung",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Das nächste Mal, wenn du eine Fähigkeit angewendet hast:</color> Wechselt danach deine nächste inaktive Figur zur aktiven.",
             "id": 303207,
             "name": "Heimkehr des Kranichs (aktiv)",
+            "statustypetext": "Kampfstatus der Truppe",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Kampfstatus",
+            "description": "Beim nächsten Ausspielen deiner „Waffen“-Karte in dieser Runde: Würfel-Verbrauch -2",
+            "descriptionraw": "<color=#FFFFFFFF>Beim nächsten Ausspielen deiner „{SPRITE_PRESET#3003}Waffen“-Karte in dieser Runde:</color> Würfel-Verbrauch -2",
+            "descriptionreplaced": "<color=#FFFFFFFF>Beim nächsten Ausspielen deiner „{SPRITE_PRESET#3003}Waffen“-Karte in dieser Runde:</color> Würfel-Verbrauch -2",
+            "id": 303222,
+            "name": "Versteckte Klinge, wo bist du? (aktiv)",
             "statustypetext": "Kampfstatus der Truppe",
             "tags": []
         },

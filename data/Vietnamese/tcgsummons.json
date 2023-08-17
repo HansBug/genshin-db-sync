@@ -238,6 +238,19 @@
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
+        "heraldoffrost": {
+            "cardtypetext": "Vật Triệu Hồi",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Giai Đoạn Kết Thúc: Gây 1 điểm Sát Thương Nguyên Tố Băng.\nSố Lần Khả Dụng: 3\nKhi vật triệu hồi này trong trận, sau khi Qiqi dùng Tấn Công Thường: Chữa trị 1 điểm cho nhân vật chịu sát thương nhiều nhất của phe ta.",
+            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm $[K101].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>Khi vật triệu hồi này trong trận, sau khi $[A1108] dùng Tấn Công Thường:</color> Chữa trị 1 điểm cho nhân vật chịu sát thương nhiều nhất của phe ta.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số Lần Khả Dụng</color>: 3</color>\\n<color=#FFFFFFFF>Khi vật triệu hồi này trong trận, sau khi Qiqi dùng Tấn Công Thường:</color> Chữa trị 1 điểm cho nhân vật chịu sát thương nhiều nhất của phe ta.",
+            "hinttype": "GCG_HINT_CRYO",
+            "id": 111081,
+            "name": "Hàn Bệnh Quỷ Sai",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "hilichurlberserker": {
             "cardtypetext": "Vật Triệu Hồi",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -302,6 +315,19 @@
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_CLOCK"
+        },
+        "lightningrose": {
+            "cardtypetext": "Vật Triệu Hồi",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Giai Đoạn Kết Thúc: Gây 2 điểm Sát Thương Nguyên Tố Lôi.\nSố Lần Khả Dụng: 2",
+            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 2 điểm $[K104].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 2 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số Lần Khả Dụng</color>: 2</color>",
+            "hinttype": "GCG_HINT_ELECTRO",
+            "id": 114092,
+            "name": "Tường Vi Sấm Sét",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
         "melodyloop": {
             "cardtypetext": "Vật Triệu Hồi",
@@ -442,6 +468,19 @@
             "hinttype": "GCG_HINT_ANEMO",
             "id": 125011,
             "name": "Kiếm Ảnh - Cô Phong",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
+        "solarisotoma": {
+            "cardtypetext": "Vật Triệu Hồi",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Giai Đoạn Kết Thúc: Gây 1 điểm Sát Thương Nguyên Tố Nham.\nSố Lần Khả Dụng: 3\nKhi vật triệu hồi này trong trận: Nhân vật phe ta tiến hành Tấn Công Khi Đáp sẽ giảm tiêu hao 1 Nguyên Tố Không Màu. (Mỗi hiệp 1 lần).",
+            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm $[K106].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>Khi vật triệu hồi này trong trận:</color> Nhân vật phe ta tiến hành $[K52] sẽ giảm tiêu hao 1 $[K309]. (Mỗi hiệp 1 lần).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Gây 1 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số Lần Khả Dụng</color>: 3</color>\\n<color=#FFFFFFFF>Khi vật triệu hồi này trong trận:</color> Nhân vật phe ta tiến hành <color=#FFFFFFFF>Tấn Công Khi Đáp</color> sẽ giảm tiêu hao 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Nguyên Tố Không Màu</color>. (Mỗi hiệp 1 lần).",
+            "hinttype": "GCG_HINT_GEO",
+            "id": 116041,
+            "name": "Hoa Mặt Trời",
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"

@@ -230,8 +230,8 @@
             "name": "Archaic Petra",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"While the Millelith stands guard, evil shall never prevail!\"",
@@ -319,8 +319,8 @@
             "name": "Blizzard Strayer",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"...Then please, live on. Do not accompany us unto our doom — to languish forgotten in the snow.\"",
@@ -342,7 +342,7 @@
             "name": "Broken Rime's Echo",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "Capricious Visage",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "Crimson Witch of Flames",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"I will sing no elegies. I refuse laments. I shall not sigh. I have no use for pointless noise.\nIf justice is long dead, then to whom can I offer redemption?\"",
@@ -746,8 +746,8 @@
             "name": "Deepwood Memories",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"For all those who follow nature must pass through the maze of the forest and reach that endless plain.\"",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "Artifact"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "Combat Action: When your active character is Albedo, equip this card.\nAfter Albedo equips this card, immediately use Abiogenesis: Solar Isotoma.\nWhen there is Albedo on the field who has this card equipped, if your side of the field has Solar Isotoma, then your characters' Plunging Attack deals +1 DMG.\n(You must have Albedo in your deck to add this card to your deck.)",
+            "descriptionraw": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1604]</color>, equip this card.\\nAfter $[A1604] equips this card, immediately use <color=#FFD780FF>$[S16042]</color>.\\nWhen there is $[A1604] on the field who has this card equipped, if your side of the field has <color=#FFFFFFFF>$[C116041]</color>, then your characters' $[K52] deals +1 DMG.\\n(You must have $[A1604] in your deck to add this card to your deck.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Combat Action</color>: When your active character is <color=#FFFFFFFF>Albedo</color>, equip this card.\\nAfter Albedo equips this card, immediately use <color=#FFD780FF>Abiogenesis: Solar Isotoma</color>.\\nWhen there is Albedo on the field who has this card equipped, if your side of the field has <color=#FFFFFFFF>Solar Isotoma</color>, then your characters' <color=#FFFFFFFF>Plunging Attack</color> deals +1 DMG.\\n(You must have Albedo in your deck to add this card to your deck.)",
+            "id": 216041,
+            "name": "Descent of Divinity",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "Reward for inviting Albedo to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
+            "storytext": "\"The process of confirming the strategy for a duel also requires meticulous calculations...\"",
+            "storytitle": "Albedo: Descent of Divinity",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
+                "Combat Action"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "Emblem of Severed Fate",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "Thirteen years went by like a dream.\nThe scarlet snow flies through the shadowed pass like smoke.\nYou have now gone afar.",
@@ -1527,6 +1553,42 @@
                 "Artifact"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "Start with 2 points of Victory Countdown.\nEnd Phase: Remove 1 point of Victory Countdown. If none of your characters are defeated when Victory Countdown points run out, you instantly win the match.\nWhen Action Phase begins: If there is exactly 1 point of Victory Countdown, create 4 Omni Element.",
+            "descriptionraw": "Start with 2 points of Victory Countdown.\\n<color=#FFFFFFFF>End Phase: </color>Remove 1 point of Victory Countdown. If none of your characters are defeated when Victory Countdown points run out, you instantly win the match.\\n<color=#FFFFFFFF>When Action Phase begins: </color>If there is exactly 1 point of Victory Countdown, create 4 $[K411].",
+            "descriptionreplaced": "Start with 2 points of Victory Countdown.\\n<color=#FFFFFFFF>End Phase: </color>Remove 1 point of Victory Countdown. If none of your characters are defeated when Victory Countdown points run out, you instantly win the match.\\n<color=#FFFFFFFF>When Action Phase begins: </color>If there is exactly 1 point of Victory Countdown, create 4 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color>.",
+            "id": 423025,
+            "name": "Game of Wits: Enduring Victory",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "When Action Phase begins: Create Hot Potato on the side of the player who goes first.\nEnd Phase: If the effect of Hot Potato is calculated on the opposing side, player on the opposing side will lose the match.",
+            "descriptionraw": "<color=#FFFFFFFF>When Action Phase begins: </color>Create $[C401001] on the side of the player who goes first.\\n<color=#FFFFFFFF>End Phase: </color>If the effect of $[C401001] is calculated on the opposing side, player on the opposing side will lose the match.",
+            "descriptionreplaced": "<color=#FFFFFFFF>When Action Phase begins: </color>Create Hot Potato on the side of the player who goes first.\\n<color=#FFFFFFFF>End Phase: </color>If the effect of Hot Potato is calculated on the opposing side, player on the opposing side will lose the match.",
+            "id": 421011,
+            "name": "Game of Wits: Hot Pod Mechanism",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "When Action Phase begins: Create 2 Omni Element. However, you will lose this match in the End Phase of this Round.\nAfter an opposing character is defeated or your character uses Elemental Burst: Create 3 Omni Element, draw 1 card, and you gain an extra move upon the completion of your current action.",
+            "descriptionraw": "<color=#FFFFFFFF>When Action Phase begins: </color>Create 2 $[K411]. However, you will lose this match in the End Phase of this Round.\\n<color=#FFFFFFFF>After an opposing character is defeated or your character uses Elemental Burst: </color>Create 3 $[K411], draw 1 card, and you gain an extra move upon the completion of your current action.",
+            "descriptionreplaced": "<color=#FFFFFFFF>When Action Phase begins: </color>Create 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color>. However, you will lose this match in the End Phase of this Round.\\n<color=#FFFFFFFF>After an opposing character is defeated or your character uses Elemental Burst: </color>Create 3 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color>, draw 1 card, and you gain an extra move upon the completion of your current action.",
+            "id": 423026,
+            "name": "Game of Wits: Unrelenting Assault",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "Talent",
                 "Combat Action"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "When you play a Weapon card or an Artifact card with an original cost of at least 3: Spend 1 less Elemental Die. (Once per Round)\nUsage(s): 2",
+            "descriptionraw": "<color=#FFFFFFFF>When you play a {SPRITE_PRESET#3003}Weapon card or an {SPRITE_PRESET#3004}Artifact card with an original cost of at least 3: </color>Spend 1 less Elemental Die. (Once per Round)\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>When you play a {SPRITE_PRESET#3003}Weapon card or an {SPRITE_PRESET#3004}Artifact card with an original cost of at least 3: </color>Spend 1 less Elemental Die. (Once per Round)\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 2</color>",
+            "id": 321013,
+            "name": "Golden House",
+            "playcost": [],
+            "storytext": "All the contracts that circulate throughout the land are forged here.",
+            "storytitle": "Golden House",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "Location"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "Heart of Depth",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"For all deaths are in vain. There is no saving those who indulge in the past.\"",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Event Card",
-            "description": "Only playable if one of your characters is defeated this Round:\nCreate Omni Element ×1 and your current active character gains 1 Energy.",
-            "descriptionraw": "Only playable if one of your characters is defeated this Round:\\nCreate $[K411] ×1 and your current active character gains 1 $[K310].",
-            "descriptionreplaced": "Only playable if one of your characters is defeated this Round:\\nCreate <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color> ×1 and your current active character gains 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color>.",
+            "description": "Only playable if one of your characters is defeated this Round: Create Omni Element ×1 and your current active character gains 1 Energy. (Only one copy of I Haven't Lost Yet! can be played each round.)",
+            "descriptionraw": "<color=#FFFFFFFF>Only playable if one of your characters is defeated this Round:</color> Create $[K411] ×1 and your current active character gains 1 $[K310]. (Only one copy of I Haven't Lost Yet! can be played each round.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Only playable if one of your characters is defeated this Round:</color> Create <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color> ×1 and your current active character gains 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color>. (Only one copy of I Haven't Lost Yet! can be played each round.)",
             "id": 332005,
             "name": "I Haven't Lost Yet!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Roll Phase:</color> 2 of the starting Elemental Dice you roll are always guaranteed to match the Elemental Type of your active character.",
             "id": 321003,
             "name": "Jade Chamber",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "Reward for accepting Bu'yun's Adventure Challenge in the open world and achieving all corresponding challenge objectives",
             "storytext": "\"They say that it contains a thousand dazzling jewels.\"",
             "storytitle": "Stargazing Amidst Clouds",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "Location"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Event Card",
+            "description": "Your active character must be one of the following elemental types to play this card:Cryo/Hydro/Pyro/Electro/Dendro The element corresponding to your active character's Elemental Type will be applied to all your characters.\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+            "descriptionraw": "<color=#FFFFFFFF>Your active character must be one of the following elemental types to play this card:</color>{SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> The element corresponding to your active character's Elemental Type will be applied to all your characters.\\n(Only one \"{SPRITE_PRESET#3007}Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Your active character must be one of the following elemental types to play this card:</color>{SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> The element corresponding to your active character's Elemental Type will be applied to all your characters.\\n(Only one \"{SPRITE_PRESET#3007}Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+            "id": 330003,
+            "name": "Joyous Celebration",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Celebration should be shared with everyone.\"",
+            "storytitle": "Joyous Celebration",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Arcane Legend"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "Companion"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "Character deals +1 DMG.\nWhen played: The character to which this is attached will spend 2 less Elemental Dice next time they use an Elemental Skill or equip a Talent card.\n(Only Bow Characters can equip this. A character can equip a maximum of 1 Weapon.)",
+            "descriptionraw": "<color=#FFFFFFFF>Character deals +1 DMG</color>.\\n<color=#FFFFFFFF>When played: </color>The character to which this is attached will spend 2 less Elemental Dice next time they use an Elemental Skill or equip a {SPRITE_PRESET#3006}Talent card.\\n(Only <color=#FFFFFFFF>{SPRITE_PRESET#3202}Bow Characters</color> can equip this. A character can equip a maximum of 1 {SPRITE_PRESET#3003}Weapon.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Character deals +1 DMG</color>.\\n<color=#FFFFFFFF>When played: </color>The character to which this is attached will spend 2 less Elemental Dice next time they use an Elemental Skill or equip a {SPRITE_PRESET#3006}Talent card.\\n(Only <color=#FFFFFFFF>{SPRITE_PRESET#3202}Bow Characters</color> can equip this. A character can equip a maximum of 1 {SPRITE_PRESET#3003}Weapon.)",
+            "id": 311206,
+            "name": "King's Squire",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow.\n\"Remember, this whole world is but a dream of the forest... Please pass on the forest's language and the responsibility of protecting the King's land to future successors.\"",
+            "storytitle": "Teachings of the Forest: King's Squire",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "Weapon",
+                "Bow"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Support Card",
@@ -2044,7 +2171,7 @@
             "name": "Laurel Coronet",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "Mask of Solitude Basalt",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "Ornate Kabuto",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "\"Thirteen years went by like a dream. The scarlet snow flies through the shadowed pass like smoke. You have now gone afar.\"",
@@ -3311,6 +3438,30 @@
                 "Combat Action"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "After you switch to Lisa, who has this card equipped: Attach Conductive to the opposing active character. (Once per Round)\n(You must have Lisa in your deck to add this card to your deck.)",
+            "descriptionraw": "After you switch to <color=#FFFFFFFF>$[A1409]</color>, who has this card equipped: Attach <color=#FFFFFFFF>$[C114091]</color> to the opposing active character. (Once per Round)\\n(You must have $[A1409] in your deck to add this card to your deck.)",
+            "descriptionreplaced": "After you switch to <color=#FFFFFFFF>Lisa</color>, who has this card equipped: Attach <color=#FFFFFFFF>Conductive</color> to the opposing active character. (Once per Round)\\n(You must have Lisa in your deck to add this card to your deck.)",
+            "id": 214091,
+            "name": "Pulsating Witch",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "Reward for inviting Lisa to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
+            "storytext": "As a Librarian who has read through tens of thousands of volumes, of course it's trivial for me to remember how to win...",
+            "storytitle": "Lisa: Pulsating Witch",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "Talent"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Event Card",
@@ -3438,6 +3589,36 @@
             "source": "Reward for inviting Yanfei to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
             "storytext": "\"When it comes to cards... Well, anything is permissible, so long as the rules don't forbid it.\"",
             "storytitle": "Yanfei: Right of Final Interpretation",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talent",
+                "Combat Action"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Equipment Card",
+            "description": "Combat Action: When your active character is Qiqi, equip this card.\nAfter Qiqi equips this card, immediately use Adeptus Art: Preserver of Fortune once.\nAfter your Qiqi, who has this card equipped, uses Adeptus Art: Preserver of Fortune, she revives all your fallen characters and heals them for 2 HP. (Can happen 2 times per match)\n(You must have Qiqi in your deck to add this card to your deck.)",
+            "descriptionraw": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1108]</color>, equip this card.\\nAfter $[A1108] equips this card, immediately use <color=#FFD780FF>$[S11083]</color> once.\\nAfter your $[A1108], who has this card equipped, uses <color=#FFFFFFFF>$[S11083]</color>, she revives all your fallen characters and heals them for 2 HP. (Can happen 2 times per match)\\n(You must have $[A1108] in your deck to add this card to your deck.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Combat Action</color>: When your active character is <color=#FFFFFFFF>Qiqi</color>, equip this card.\\nAfter Qiqi equips this card, immediately use <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> once.\\nAfter your Qiqi, who has this card equipped, uses <color=#FFFFFFFF>Adeptus Art: Preserver of Fortune</color>, she revives all your fallen characters and heals them for 2 HP. (Can happen 2 times per match)\\n(You must have Qiqi in your deck to add this card to your deck.)",
+            "id": 211081,
+            "name": "Rite of Resurrection",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "Reward for inviting Qiqi to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
+            "storytext": "\"I must... live on...\"",
+            "storytitle": "Qiqi: Rite of Resurrection",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Support Card",
+            "description": "After you perform any action, if you have 0 cards in your hand: Draw 1 card.\nUsage(s): 3",
+            "descriptionraw": "<color=#FFFFFFFF>After you perform any action, if you have 0 cards in your hand: </color>Draw 1 card.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>After you perform any action, if you have 0 cards in your hand: </color>Draw 1 card.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 3</color>",
+            "id": 322019,
+            "name": "Setaria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "A genius from the desert, deep within the rainforest's temple...",
+            "storytitle": "Crossing the Wall: Setaria",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Companion"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
@@ -3675,7 +3879,7 @@
             "name": "Shimenawa's Reminiscence",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Event Card",
-            "description": "Convert all your Elemental Dice to the Type of the active character.\n(You must have at least 2 Inazuman characters in your deck to add this card to your deck.)",
-            "descriptionraw": "Convert all your Elemental Dice to the Type of the active character.\\n(You must have at least 2 {SPRITE_PRESET#3403}Inazuman characters in your deck to add this card to your deck.)",
-            "descriptionreplaced": "Convert all your Elemental Dice to the Type of the active character.\\n(You must have at least 2 {SPRITE_PRESET#3403}Inazuman characters in your deck to add this card to your deck.)",
+            "description": "Convert all your Elemental Dice to Omni Element.\n(You must have at least 2 Inazuman characters in your deck to add this card to your deck.)",
+            "descriptionraw": "Convert all your Elemental Dice to $[K411].\\n(You must have at least 2 {SPRITE_PRESET#3403}Inazuman characters in your deck to add this card to your deck.)",
+            "descriptionreplaced": "Convert all your Elemental Dice to <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni Element</color>.\\n(You must have at least 2 {SPRITE_PRESET#3403}Inazuman characters in your deck to add this card to your deck.)",
             "id": 331803,
             "name": "Thunder and Eternity",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "Thundering Fury",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Then I shall sing you another tune — when you come again with thunder and rain!\"",
@@ -4457,7 +4661,7 @@
             "name": "Thundering Poise",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "Thunder Summoner's Crown",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "Vermillion Hereafter",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "Viridescent Venerer",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"One day, in those boundless hunting grounds... we will meet again.\"",
@@ -4773,7 +4977,7 @@
             "name": "Viridescent Venerer's Diadem",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Event Card",
+            "description": "Return a Weapon card equipped by your character to your Hand.\nDuring this Round, the next time you play a Weapon card: Spend 2 less Elemental Dice.",
+            "descriptionraw": "Return a {SPRITE_PRESET#3003}Weapon card equipped by your character to your Hand.\\n<color=#FFFFFFFF>During this Round, the next time you play a {SPRITE_PRESET#3003}Weapon card: </color>Spend 2 less Elemental Dice.",
+            "descriptionreplaced": "Return a {SPRITE_PRESET#3003}Weapon card equipped by your character to your Hand.\\n<color=#FFFFFFFF>During this Round, the next time you play a {SPRITE_PRESET#3003}Weapon card: </color>Spend 2 less Elemental Dice.",
+            "id": 332022,
+            "name": "Where Is the Unseen Razor?",
+            "playcost": [],
+            "storytext": "The origins of this Branch Master of the Adventurers' Guild are shrouded in mystery, yet she keeps looking for clues about the sword, constantly challenging powerful enemies along the way...",
+            "storytitle": "Where Is the Unseen Razor?",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Equipment Card",
@@ -4990,7 +5208,7 @@
             "name": "Wine-Stained Tricorne",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "Witch's Scorching Hat",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

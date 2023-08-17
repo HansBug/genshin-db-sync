@@ -238,6 +238,19 @@
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
+        "heraldoffrost": {
+            "cardtypetext": "Panggilan",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Tahap Selesai: Mengakibatkan 1 poin Cryo DMG. \nPenggunaan: 3\nSaat panggilan ini berada dalam arena, jika Qiqi menggunakan Normal Attack: Memulihkan 1 poin HP kepada Karaktermu yang telah menerima DMG paling banyak.",
+            "descriptionraw": "<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 1 poin $[K101]. \\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>Saat panggilan ini berada dalam arena, jika $[A1108] menggunakan Normal Attack: </color>Memulihkan 1 poin HP kepada Karaktermu yang telah menerima DMG paling banyak.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 1 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>. \\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 3</color>\\n<color=#FFFFFFFF>Saat panggilan ini berada dalam arena, jika Qiqi menggunakan Normal Attack: </color>Memulihkan 1 poin HP kepada Karaktermu yang telah menerima DMG paling banyak.",
+            "hinttype": "GCG_HINT_CRYO",
+            "id": 111081,
+            "name": "Herald of Frost",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "hilichurlberserker": {
             "cardtypetext": "Panggilan",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -302,6 +315,19 @@
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_CLOCK"
+        },
+        "lightningrose": {
+            "cardtypetext": "Panggilan",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Tahap Selesai: Mengakibatkan 2 poin Electro DMG.\nPenggunaan: 2",
+            "descriptionraw": "<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 2 poin $[K104].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 2 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 2</color>",
+            "hinttype": "GCG_HINT_ELECTRO",
+            "id": 114092,
+            "name": "Lightning Rose",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
         "melodyloop": {
             "cardtypetext": "Panggilan",
@@ -442,6 +468,19 @@
             "hinttype": "GCG_HINT_ANEMO",
             "id": 125011,
             "name": "Shadowsword: Lone Gale",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
+        "solarisotoma": {
+            "cardtypetext": "Panggilan",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Tahap Selesai: Mengakibatkan 1 poin Geo DMG.\nPenggunaan: 3\nSaat Panggilan ini berada dalam arena: Karaktermu mengonsumsi 1 Elemen Tidak Selaras lebih sedikit saat melancarkan Plunging Attack. (Sekali setiap Ronde)",
+            "descriptionraw": "<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 1 poin $[K106].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>Saat Panggilan ini berada dalam arena:</color> Karaktermu mengonsumsi 1 $[K309] lebih sedikit saat melancarkan $[K52]. (Sekali setiap Ronde)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Tahap Selesai:</color> Mengakibatkan 1 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 3</color>\\n<color=#FFFFFFFF>Saat Panggilan ini berada dalam arena:</color> Karaktermu mengonsumsi 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}Elemen Tidak Selaras</color> lebih sedikit saat melancarkan <color=#FFFFFFFF>Plunging Attack</color>. (Sekali setiap Ronde)",
+            "hinttype": "GCG_HINT_GEO",
+            "id": 116041,
+            "name": "Solar Isotoma",
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"

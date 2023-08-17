@@ -230,8 +230,8 @@
             "name": "Roche ancienne",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "« Durs comme le roc, puissants comme la montagne. »",
@@ -319,8 +319,8 @@
             "name": "Briseur de glace",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "« ... Alors, je t'en conjure, vis. Ne t'éteins pas à notre suite, languissant pour toujours sous le silence gelé. »",
@@ -342,7 +342,7 @@
             "name": "Écho de l'hiver",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "Visage capricieux",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -526,7 +526,7 @@
                 }
             ],
             "source": "Récompense pour avoir terminé les objectifs de défi lors d'un défi d'aventure dans le monde ouvert contre le chef Mao",
-            "storytext": "« Faire la meilleure cuisine possible avec des ingrédients simples et des saveurs appréciées de tout le monde. ! »\n",
+            "storytext": "« Faire la meilleure cuisine possible avec des ingrédients simples et des saveurs appréciées de tout le monde ! »\n",
             "storytitle": "Chef Mao - Gourmet ingénieux",
             "tags": [
                 "GCG_TAG_ALLY"
@@ -673,8 +673,8 @@
             "name": "Sorcière des flammes ardentes",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "« Je ne chanterai point d'élégie, je refuserai toute lamentation, je ne soupirerai pas... Je n'ai point besoin de bruit inutile.\nSi la justice est morte depuis longtemps, alors à qui puis-je offrir la rédemption ? »",
@@ -746,8 +746,8 @@
             "name": "Souvenir de forêt",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "« Car c'est en respectant la nature que l'on finira par traverser le labyrinthe de la forêt royale et arriver jusqu'à des champs à perte de vue. »",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "Artéfact"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "Action de combat : Lorsque votre personnage actif est Albedo, équipe cette carte.\nUne fois Albedo équipé de cette carte, utilise immédiatement Genèse : Aura solaire une fois.\nLorsque Albedo, équipé de cette carte, est sur le terrain : Si une aura solaire est sur votre terrain, DGT des attaques plongeantes de vos personnages +1.\n(Votre deck doit contenir Albedo pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "$[K1] : Lorsque votre personnage actif est <color=#FFFFFFFF>$[A1604]</color>, équipe cette carte.\\nUne fois $[A1604] équipé de cette carte, utilise immédiatement <color=#FFD780FF>$[S16042]</color> une fois.\\nLorsque $[A1604], équipé de cette carte, est sur le terrain : Si une <color=#FFFFFFFF>$[C116041|s1]</color> est sur votre terrain, DGT des $[K52|s3] de vos personnages +1.\\n(Votre deck doit contenir $[A1604] pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Lorsque votre personnage actif est <color=#FFFFFFFF>Albedo</color>, équipe cette carte.\\nUne fois Albedo équipé de cette carte, utilise immédiatement <color=#FFD780FF>Genèse : Aura solaire</color> une fois.\\nLorsque Albedo, équipé de cette carte, est sur le terrain : Si une <color=#FFFFFFFF>aura solaire</color> est sur votre terrain, DGT des <color=#FFFFFFFF>attaques plongeantes</color> de vos personnages +1.\\n(Votre deck doit contenir Albedo pour pouvoir y ajouter cette carte)",
+            "id": 216041,
+            "name": "Chute divine",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "Récompense pour avoir invité Albedo à une partie dans La Queue de Chat et terminé les objectifs de défi correspondants",
+            "storytext": "« Le processus de confirmation de la stratégie d'un duel nécessite également des calculs minutieux... »",
+            "storytitle": "Albedo : Chute divine",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Aptitude",
+                "Action de combat"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "Emblème du destin brisé",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "Ces treize années se sont écoulées comme un rêve.\nLa neige écarlate vola à travers le col ombragé comme de la fumée.\nC'était comme regarder un être cher s'éloigner...",
@@ -1527,6 +1553,42 @@
                 "Artéfact"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Entre sur le terrain avec 2 pts de décompte victorieux.\nPhase finale : Décompte victorieux -1 pt. Si aucun de vos personnages n'est éliminé lorsque les points de décompte victorieux sont épuisés, vous gagnez la partie.\nAu début de la phase d'action : S'il reste 1 pt de décompte victorieux, crée 4 dés Omni.",
+            "descriptionraw": "Entre sur le terrain avec 2 pts de décompte victorieux.\\n<color=#FFFFFFFF>Phase finale : </color>Décompte victorieux -1 pt. Si aucun de vos personnages n'est éliminé lorsque les points de décompte victorieux sont épuisés, vous gagnez la partie.\\n<color=#FFFFFFFF>Au début de la phase d'action : </color>S'il reste 1 pt de décompte victorieux, crée 4 dés $[K411].",
+            "descriptionreplaced": "Entre sur le terrain avec 2 pts de décompte victorieux.\\n<color=#FFFFFFFF>Phase finale : </color>Décompte victorieux -1 pt. Si aucun de vos personnages n'est éliminé lorsque les points de décompte victorieux sont épuisés, vous gagnez la partie.\\n<color=#FFFFFFFF>Au début de la phase d'action : </color>S'il reste 1 pt de décompte victorieux, crée 4 dés <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color>.",
+            "id": 423025,
+            "name": "Jeux d'esprit : Victoire d'endurance",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Au début de la phase d'action : Le joueur qui joue en premier génère une bombe brûlante.\nPhase finale : Si la bombe brûlante est dans le camp adverse lors du calcul, le joueur du camp adverse perd la partie.",
+            "descriptionraw": "<color=#FFFFFFFF>Au début de la phase d'action : </color>Le joueur qui joue en premier génère une $[C401001|s1].\\n<color=#FFFFFFFF>Phase finale : </color>Si la $[C401001|s1] est dans le camp adverse lors du calcul, le joueur du camp adverse perd la partie.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Au début de la phase d'action : </color>Le joueur qui joue en premier génère une bombe brûlante.\\n<color=#FFFFFFFF>Phase finale : </color>Si la bombe brûlante est dans le camp adverse lors du calcul, le joueur du camp adverse perd la partie.",
+            "id": 421011,
+            "name": "Jeux d'esprit : Mécanisme dynamité",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Au début de la phase d'action : Crée 2 dés Omni, mais vous perdrez la partie lors de la phase finale de la manche.\nLorsqu'un personnage adverse a été vaincu ou qu'un de vos personnages a utilisé un déchaînement élémentaire : Vous créez 3 dés Omni, piochez 1 carte, et pouvez continuer à faire une action une fois l'action en cours terminée.",
+            "descriptionraw": "<color=#FFFFFFFF>Au début de la phase d'action : </color>Crée 2 dés $[K411], mais vous perdrez la partie lors de la phase finale de la manche.\\n<color=#FFFFFFFF>Lorsqu'un personnage adverse a été vaincu ou qu'un de vos personnages a utilisé un déchaînement élémentaire : </color>Vous créez 3 dés $[K411], piochez 1 carte, et pouvez continuer à faire une action une fois l'action en cours terminée.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Au début de la phase d'action : </color>Crée 2 dés <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color>, mais vous perdrez la partie lors de la phase finale de la manche.\\n<color=#FFFFFFFF>Lorsqu'un personnage adverse a été vaincu ou qu'un de vos personnages a utilisé un déchaînement élémentaire : </color>Vous créez 3 dés <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color>, piochez 1 carte, et pouvez continuer à faire une action une fois l'action en cours terminée.",
+            "id": 423026,
+            "name": "Jeux d'esprit : Assaut implacable",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carte d'équipement",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "Aptitude",
                 "Action de combat"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsque vous jouez une carte d'arme ou d'artéfact dont le coût original de dés élémentaires est de 3 ou plus : Dépense 1 dé élémentaire en moins. (1 fois par manche)\nNombre d'utilisations : 2",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque vous jouez une carte d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact dont le coût original de dés élémentaires est de 3 ou plus : </color>Dépense 1 dé élémentaire en moins. (1 fois par manche)\\n<color=#FFFFFFFF>$[K3] : 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsque vous jouez une carte d'{SPRITE_PRESET#3003}arme ou d'{SPRITE_PRESET#3004}artéfact dont le coût original de dés élémentaires est de 3 ou plus : </color>Dépense 1 dé élémentaire en moins. (1 fois par manche)\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations</color> : 2</color>",
+            "id": 321013,
+            "name": "Chambre d'Or",
+            "playcost": [],
+            "storytext": "Tous les contrats qui circulent à travers le pays sont forgés ici.",
+            "storytitle": "Chambre d'Or",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "Terrain"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "Âme des profondeurs",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "« ... Car toutes les morts sont vaines. Il n'y a pas de salut pour ceux qui se livrent au passé. »",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Carte d'événement",
-            "description": "Jouable si un de vos personnages a été éliminé pendant la manche :\nCrée 1 dé Omni et accorde 1 charge à votre personnage actif actuel.",
-            "descriptionraw": "Jouable si un de vos personnages a été éliminé pendant la manche :\\nCrée 1 dé $[K411] et accorde 1 $[K310|s2] à votre personnage actif actuel.",
-            "descriptionreplaced": "Jouable si un de vos personnages a été éliminé pendant la manche :\\nCrée 1 dé <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color> et accorde 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}charge</color> à votre personnage actif actuel.",
+            "description": "Jouable si un de vos personnages a été éliminé pendant la manche : Crée 1 dé Omni et accorde 1 charge à votre personnage actif. (Une seule carte [Pas encore perdu !] peut être jouée à chaque manche)",
+            "descriptionraw": "<color=#FFFFFFFF>Jouable si un de vos personnages a été éliminé pendant la manche : </color>Crée 1 dé $[K411] et accorde 1 $[K310|s2] à votre personnage actif. (Une seule carte [Pas encore perdu !] peut être jouée à chaque manche)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Jouable si un de vos personnages a été éliminé pendant la manche : </color>Crée 1 dé <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color> et accorde 1 <color=#FFFFFFFF>{SPRITE_PRESET#1110}charge</color> à votre personnage actif. (Une seule carte [Pas encore perdu !] peut être jouée à chaque manche)",
             "id": 332005,
             "name": "Pas encore perdu!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Phase de lancer : </color>2 des dés élémentaires lancés au début sont du type élémentaire de votre personnage actif.",
             "id": 321003,
             "name": "Chambre de Jade",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "Récompense pour avoir terminé les objectifs de défi lors d'un défi d'aventure dans le monde ouvert contre Buyun",
             "storytext": "« Il est dit qu'ils contiennent mille joyaux éblouissants. »",
             "storytitle": "Contemplation parmi les nuages",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "Terrain"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carte d'événement",
+            "description": "Jouable si votre personnage actif est de l'élément Cryo, Hydro, Pyro, Électro ou Dendro : Applique le type élémentaire de votre personnage actif à tous vos personnages.\n(Une seule carte d'arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)",
+            "descriptionraw": "<color=#FFFFFFFF>Jouable si votre personnage actif est de l'élément </color>{SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Électro</color> ou {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> : Applique le type élémentaire de votre personnage actif à tous vos personnages.\\n(Une seule carte d'{SPRITE_PRESET#3007}arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Jouable si votre personnage actif est de l'élément </color>{SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>, {SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>, {SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>, {SPRITE_PRESET#2104}<color=#FFACFFFF>Électro</color> ou {SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> : Applique le type élémentaire de votre personnage actif à tous vos personnages.\\n(Une seule carte d'{SPRITE_PRESET#3007}arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)",
+            "id": 330003,
+            "name": "Joyeuse célébration",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "« Une célébration doit être partagée avec tout le monde. »",
+            "storytitle": "Joyeuse célébration",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Arcane"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "Compagnon"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "DGT infligés par le personnage +1.\nEn arrivant sur le terrain : La prochaine fois que le personnage affecté utilise une compétence élémentaire ou équipe une aptitude pendant la manche, il dépense 2 dés élémentaires en moins.\n(Peut uniquement être équipé par un personnage utilisant un arc, un personnage peut équiper au maximum 1 arme)",
+            "descriptionraw": "<color=#FFFFFFFF>DGT infligés par le personnage +1</color>.\\n<color=#FFFFFFFF>En arrivant sur le terrain : </color>La prochaine fois que le personnage affecté utilise une compétence élémentaire ou équipe une {SPRITE_PRESET#3006}aptitude pendant la manche, il dépense 2 dés élémentaires en moins.\\n(Peut uniquement être équipé par un personnage utilisant un <color=#FFFFFFFF>{SPRITE_PRESET#3202}arc</color>, un personnage peut équiper au maximum 1 {SPRITE_PRESET#3003}arme)",
+            "descriptionreplaced": "<color=#FFFFFFFF>DGT infligés par le personnage +1</color>.\\n<color=#FFFFFFFF>En arrivant sur le terrain : </color>La prochaine fois que le personnage affecté utilise une compétence élémentaire ou équipe une {SPRITE_PRESET#3006}aptitude pendant la manche, il dépense 2 dés élémentaires en moins.\\n(Peut uniquement être équipé par un personnage utilisant un <color=#FFFFFFFF>{SPRITE_PRESET#3202}arc</color>, un personnage peut équiper au maximum 1 {SPRITE_PRESET#3003}arme)",
+            "id": 311206,
+            "name": "Le valet du roi",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "Une arme que vous avez obtenue dans un conte d'aranara, qui a pris la forme d'un arc.\n« Souviens-toi que ce monde n'est qu'un rêve de la forêt... Souviens-toi des mots de la forêt, et transmets la responsabilité de protéger la terre du roi. »",
+            "storytitle": "Enseignements de la forêt : Le valet du roi",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "Arme",
+                "Arc"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carte de soutien",
@@ -2044,7 +2171,7 @@
             "name": "Couronne de laurier",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2384,7 +2511,7 @@
             "cardtypetext": "Carte d'événement",
             "description": "Action de combat : Déploie Keqing sur le terrain pour utiliser Retour des étoiles immédiatement. Cette fois, Retour des étoiles accorde à Keqing un enchantement Électro, mais ne crée pas de lame de foudre.\n(Lorsque Keqing utilise Retour des étoiles, si cette carte est dans votre main : Au lieu de créer une autre lame de foudre, défausse la carte pour accorder à Keqing un enchantement Électro)",
             "descriptionraw": "$[K1] : Déploie $[A1403] sur le terrain pour utiliser $[S14032] immédiatement. Cette fois, $[S14032] accorde à $[A1403] un <color=#FFFFFFFF>$[K1002|s2]</color>, mais ne crée pas de lame de foudre.\\n(Lorsque $[A1403] utilise $[S14032], si cette carte est dans votre main : Au lieu de créer une autre lame de foudre, défausse la carte pour accorder à $[A1403] un <color=#FFFFFFFF>$[K1002|s2]</color>)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Déploie Keqing sur le terrain pour utiliser Retour des étoiles immédiatement. Cette fois, Retour des étoiles accorde à Keqing un <color=#FFFFFFFF>enchantement Électro</color>, mais ne crée pas de lame de foudre.\\n(Lorsque Keqing utilise Retour des étoiles, si cette carte est dans votre main : Au lieu de créer une autre lame de foudre, défausse la carte pour accorder à Keqing un <color=#FFFFFFFF>enchantement Électro</color>)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Déploie Keqing sur le terrain pour utiliser Retour des étoiles immédiatement. Cette fois, Retour des étoiles accorde à Keqing un <color=#FFFFFFFF><color=#FFFFFFFF>enchantement Électro</color></color>, mais ne crée pas de lame de foudre.\\n(Lorsque Keqing utilise Retour des étoiles, si cette carte est dans votre main : Au lieu de créer une autre lame de foudre, défausse la carte pour accorder à Keqing un <color=#FFFFFFFF><color=#FFFFFFFF>enchantement Électro</color></color>)",
             "id": 114031,
             "name": "Lame de foudre",
             "playcost": [
@@ -2583,7 +2710,7 @@
             "name": "Masque en basalte inerte",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "Kabuto orné",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "« ... Ces treize années se sont écoulées comme un rêve. La neige écarlate vola à travers le col ombragé comme de la fumée. C'était comme regarder un être cher s'éloigner... »",
@@ -3311,6 +3438,30 @@
                 "Action de combat"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "En basculant pour Lisa équipée de cette carte : Inflige l'état Conductivité au personnage actif adverse. (1 fois par manche)\n(Votre deck doit contenir Lisa pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "En basculant pour <color=#FFFFFFFF>$[A1409]</color> équipée de cette carte : Inflige l'état <color=#FFFFFFFF>$[C114091]</color> au personnage actif adverse. (1 fois par manche)\\n(Votre deck doit contenir $[A1409] pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "En basculant pour <color=#FFFFFFFF>Lisa</color> équipée de cette carte : Inflige l'état <color=#FFFFFFFF>Conductivité</color> au personnage actif adverse. (1 fois par manche)\\n(Votre deck doit contenir Lisa pour pouvoir y ajouter cette carte)",
+            "id": 214091,
+            "name": "Sorcière de pulse",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "Récompense pour avoir invité Lisa à une partie dans La Queue de Chat et terminé les objectifs de défi correspondants",
+            "storytext": "En tant que bibliothécaire ayant lu des dizaines de milliers de volumes, il est bien sûr trivial pour moi de me rappeler comment gagner...",
+            "storytitle": "Lisa : Sorcière de pulse",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "Aptitude"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Carte d'événement",
@@ -3438,6 +3589,36 @@
             "source": "Récompense pour avoir invité Yanfei à une partie dans La Queue de Chat et terminé les objectifs de défi correspondants",
             "storytext": "« Pour ce qui est des cartes... Eh bien, tout est permis tant que les règles ne l'interdisent pas. »",
             "storytitle": "Yanfei : Verdict final",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Aptitude",
+                "Action de combat"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "Action de combat : Lorsque votre personnage actif est Qiqi, équipe cette carte.\nUne fois Qiqi équipée de cette carte, utilise immédiatement Arcane d'Adepte : Talisman sacré une fois.\nLorsque Qiqi, équipée de cette carte, utilise Arcane d'Adepte : Talisman sacré : Ressuscite tous vos personnages éliminés et les soigne pour 2 pts. (Limité à 2 fois par partie)\n(Votre deck doit contenir Qiqi pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "$[K1] : Lorsque votre personnage actif est <color=#FFFFFFFF>$[A1108]</color>, équipe cette carte.\\nUne fois $[A1108] équipée de cette carte, utilise immédiatement <color=#FFD780FF>$[S11083]</color> une fois.\\nLorsque $[A1108], équipée de cette carte, utilise <color=#FFFFFFFF>$[S11083]</color> : Ressuscite tous vos personnages éliminés et les soigne pour 2 pts. (Limité à 2 fois par partie)\\n(Votre deck doit contenir $[A1108] pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Action de combat</color> : Lorsque votre personnage actif est <color=#FFFFFFFF>Qiqi</color>, équipe cette carte.\\nUne fois Qiqi équipée de cette carte, utilise immédiatement <color=#FFD780FF>Arcane d'Adepte : Talisman sacré</color> une fois.\\nLorsque Qiqi, équipée de cette carte, utilise <color=#FFFFFFFF>Arcane d'Adepte : Talisman sacré</color> : Ressuscite tous vos personnages éliminés et les soigne pour 2 pts. (Limité à 2 fois par partie)\\n(Votre deck doit contenir Qiqi pour pouvoir y ajouter cette carte)",
+            "id": 211081,
+            "name": "Symbole de la renaissance",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "Récompense pour avoir invité Qiqi à une partie dans La Queue de Chat et terminé les objectifs de défi correspondants",
+            "storytext": "Je dois vivre...",
+            "storytitle": "Qiqi : Symbole de la renaissance",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carte de soutien",
+            "description": "Lorsque vous n'avez plus de carte en main après avoir effectué une action : Pioche 1 carte.\nNombre d'utilisations : 3",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque vous n'avez plus de carte en main après avoir effectué une action : </color>Pioche 1 carte.\\n<color=#FFFFFFFF>$[K3] : 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsque vous n'avez plus de carte en main après avoir effectué une action : </color>Pioche 1 carte.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations</color> : 3</color>",
+            "id": 322019,
+            "name": "Setaria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Une génie du désert, au plus profond du temple de la forêt tropicale...",
+            "storytitle": "Setaria - À travers les murs",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Compagnon"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carte d'équipement",
@@ -3675,7 +3879,7 @@
             "name": "Réminiscence nostalgique",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Carte d'événement",
-            "description": "Convertit tous vos dés en dés du même type élémentaire que le personnage actif.\n(Votre deck doit contenir au moins 2 personnages d'Inazuma pour pouvoir y ajouter cette carte)",
-            "descriptionraw": "Convertit tous vos dés en dés du même type élémentaire que le personnage actif.\\n(Votre deck doit contenir au moins 2 personnages d'{SPRITE_PRESET#3403}Inazuma pour pouvoir y ajouter cette carte)",
-            "descriptionreplaced": "Convertit tous vos dés en dés du même type élémentaire que le personnage actif.\\n(Votre deck doit contenir au moins 2 personnages d'{SPRITE_PRESET#3403}Inazuma pour pouvoir y ajouter cette carte)",
+            "description": "Convertit tous vos dés en dés Omni.\n(Votre deck doit contenir au moins 2 personnages d'Inazuma pour pouvoir y ajouter cette carte)",
+            "descriptionraw": "Convertit tous vos dés en dés $[K411].\\n(Votre deck doit contenir au moins 2 personnages d'{SPRITE_PRESET#3403}Inazuma pour pouvoir y ajouter cette carte)",
+            "descriptionreplaced": "Convertit tous vos dés en dés <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omni</color>.\\n(Votre deck doit contenir au moins 2 personnages d'{SPRITE_PRESET#3403}Inazuma pour pouvoir y ajouter cette carte)",
             "id": 331803,
             "name": "Tonnerre et éternité",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "Colère de tonnerre",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "« Je te chanterai une autre chanson quand tu reviendras avec l'orage. »",
@@ -4457,7 +4661,7 @@
             "name": "Maintien fulgurant",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "Diadème de l'invocateur de tonnerre",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "Au-delà cinabrin",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "Ombre de la Verte Chasseuse",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "« Un jour, dans ces terrains de chasse sans limites... Nous nous reverrons. »",
@@ -4773,7 +4977,7 @@
             "name": "Diadème de la Verte Chasseuse",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carte d'événement",
+            "description": "Renvoie une carte d'arme équipée par votre personnage dans votre main.\nLa prochaine fois que vous jouez une carte d'arme pendant la manche : Dépense 2 dés élémentaires en moins.",
+            "descriptionraw": "Renvoie une carte d'{SPRITE_PRESET#3003}arme équipée par votre personnage dans votre main.\\n<color=#FFFFFFFF>La prochaine fois que vous jouez une carte d'{SPRITE_PRESET#3003}arme pendant la manche : </color>Dépense 2 dés élémentaires en moins.",
+            "descriptionreplaced": "Renvoie une carte d'{SPRITE_PRESET#3003}arme équipée par votre personnage dans votre main.\\n<color=#FFFFFFFF>La prochaine fois que vous jouez une carte d'{SPRITE_PRESET#3003}arme pendant la manche : </color>Dépense 2 dés élémentaires en moins.",
+            "id": 332022,
+            "name": "Où est le Glaive occulte ?",
+            "playcost": [],
+            "storytext": "Les origines de la présidente de la Guilde locale des aventuriers sont entourées de mystère, mais elle continue de chercher des indices sur l'épée, défiant constamment de puissants ennemis en chemin...",
+            "storytitle": "Où est le Glaive occulte ?",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carte d'équipement",
@@ -4990,7 +5208,7 @@
             "name": "Calot taché de vin",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "Chapeau brûlé de la Sorcière",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

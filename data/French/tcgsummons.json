@@ -238,6 +238,19 @@
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
+        "heraldoffrost": {
+            "cardtypetext": "Invocation",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Phase finale : Inflige 1 pt de DGT Cryo.\nNombre d'utilisations : 3\nLorsque cette invocation est sur le terrain et que Qiqi a utilisé une attaque normale : Soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
+            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de $[K101].\\n<color=#FFFFFFFF>$[K3] : 3</color>\\n<color=#FFFFFFFF>Lorsque cette invocation est sur le terrain et que $[A1108] a utilisé une attaque normale : </color>Soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations</color> : 3</color>\\n<color=#FFFFFFFF>Lorsque cette invocation est sur le terrain et que Qiqi a utilisé une attaque normale : </color>Soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
+            "hinttype": "GCG_HINT_CRYO",
+            "id": 111081,
+            "name": "Héraut de givre",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "hilichurlberserker": {
             "cardtypetext": "Invocation",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -302,6 +315,19 @@
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_CLOCK"
+        },
+        "lightningrose": {
+            "cardtypetext": "Invocation",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Phase finale : Inflige 2 pts de DGT Électro.\nNombre d'utilisations : 2",
+            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 2 pts de $[K104].\\n<color=#FFFFFFFF>$[K3] : 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Phase finale : </color>Inflige 2 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations</color> : 2</color>",
+            "hinttype": "GCG_HINT_ELECTRO",
+            "id": 114092,
+            "name": "Rose de foudre",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
         "melodyloop": {
             "cardtypetext": "Invocation",
@@ -442,6 +468,19 @@
             "hinttype": "GCG_HINT_ANEMO",
             "id": 125011,
             "name": "Épée d'ombre : Brise",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
+        "solarisotoma": {
+            "cardtypetext": "Invocation",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Phase finale : Inflige 1 pt de DGT Géo.\nNombre d'utilisations : 3\nLorsque cette invocation est sur le terrain : L'attaque plongeante de votre personnage dépense 1 dé d'élément neutre en moins. (1 fois par manche)",
+            "descriptionraw": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de $[K106].\\n<color=#FFFFFFFF>$[K3] : 3</color>\\n<color=#FFFFFFFF>Lorsque cette invocation est sur le terrain : </color>L'$[K52|s2] de votre personnage dépense 1 dé d'$[K309|s2] en moins. (1 fois par manche)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Phase finale : </color>Inflige 1 pt de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations</color> : 3</color>\\n<color=#FFFFFFFF>Lorsque cette invocation est sur le terrain : </color>L'<color=#FFFFFFFF>attaque plongeante</color> de votre personnage dépense 1 dé d'<color=#FFFFFFFF>{SPRITE_PRESET#1109}élément neutre</color> en moins. (1 fois par manche)",
+            "hinttype": "GCG_HINT_GEO",
+            "id": 116041,
+            "name": "Aura solaire",
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"

@@ -64,6 +64,14 @@
             "rarity": 3,
             "source": "Kart Dükkanından satın alarak elde edilir."
         },
+        "fontaine": {
+            "description": "Kişi, kart oyunlarının çeşitli \"sistemlerini\" aklında tutarak makul \"kuralları\" çevik bir şekilde uygular ve ortaya mükemmel bir \"performans\" koyabilir.",
+            "descriptionraw": "Kişi, kart oyunlarının çeşitli \"sistemlerini\" aklında tutarak makul \"kuralları\" çevik bir şekilde uygular ve ortaya mükemmel bir \"performans\" koyabilir.",
+            "id": 123,
+            "name": "Fontaine",
+            "rarity": 3,
+            "source": "Fontaine İtibar Seviyesi Ödülü."
+        },
         "glazelily": {
             "description": "Ölümlüler diyarının kadim hikayeleri geldi geçti. Şimdi geriye yalnızca çiçeklerin kokulu isimleri kaldı.",
             "descriptionraw": "Ölümlüler diyarının kadim hikayeleri geldi geçti. Şimdi geriye yalnızca çiçeklerin kokulu isimleri kaldı.",

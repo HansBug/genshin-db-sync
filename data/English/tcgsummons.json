@@ -238,6 +238,19 @@
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
+        "heraldoffrost": {
+            "cardtypetext": "Summon",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "End Phase: Deal 1 Cryo DMG.\nUsage(s): 3\nWhen this Summon is on the field, after Qiqi uses Normal Attack: Heals your character that took the most DMG for 1 HP.",
+            "descriptionraw": "<color=#FFFFFFFF>End Phase:</color> Deal 1 $[K101].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>When this Summon is on the field, after $[A1108] uses Normal Attack: </color>Heals your character that took the most DMG for 1 HP.",
+            "descriptionreplaced": "<color=#FFFFFFFF>End Phase:</color> Deal 1 {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 3</color>\\n<color=#FFFFFFFF>When this Summon is on the field, after Qiqi uses Normal Attack: </color>Heals your character that took the most DMG for 1 HP.",
+            "hinttype": "GCG_HINT_CRYO",
+            "id": 111081,
+            "name": "Herald of Frost",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "hilichurlberserker": {
             "cardtypetext": "Summon",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -302,6 +315,19 @@
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_CLOCK"
+        },
+        "lightningrose": {
+            "cardtypetext": "Summon",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "End Phase: Deal 2 Electro DMG.\nUsage(s): 2",
+            "descriptionraw": "<color=#FFFFFFFF>End Phase: </color>Deal 2 $[K104].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>End Phase: </color>Deal 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 2</color>",
+            "hinttype": "GCG_HINT_ELECTRO",
+            "id": 114092,
+            "name": "Lightning Rose",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
         "melodyloop": {
             "cardtypetext": "Summon",
@@ -442,6 +468,19 @@
             "hinttype": "GCG_HINT_ANEMO",
             "id": 125011,
             "name": "Shadowsword: Lone Gale",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
+        "solarisotoma": {
+            "cardtypetext": "Summon",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "End Phase: Deal 1 Geo DMG.\nUsage(s): 3\nWhen this Summon is on the field: Your character's Plunging Attack spends 1 less Unaligned Element. (Once per Round)",
+            "descriptionraw": "<color=#FFFFFFFF>End Phase: </color>Deal 1 $[K106].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>When this Summon is on the field: </color>Your character's $[K52] spends 1 less $[K309]. (Once per Round)",
+            "descriptionreplaced": "<color=#FFFFFFFF>End Phase: </color>Deal 1 {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Usage(s)</color>: 3</color>\\n<color=#FFFFFFFF>When this Summon is on the field: </color>Your character's <color=#FFFFFFFF>Plunging Attack</color> spends 1 less <color=#FFFFFFFF>{SPRITE_PRESET#1109}Unaligned Element</color>. (Once per Round)",
+            "hinttype": "GCG_HINT_GEO",
+            "id": 116041,
+            "name": "Solar Isotoma",
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"

@@ -238,6 +238,19 @@
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
+        "heraldoffrost": {
+            "cardtypetext": "สิ่งอัญเชิญ",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "จบเฟส: สร้างความเสียหายน้ำแข็ง 1 หน่วย\nจำนวนครั้งที่ใช้ได้: 3\n\nเมื่อสิ่งอัญเชิญนี้อยู่ในสนาม หลังจาก Qiqi ใช้ \"การโจมตีปกติ\": จะรักษาตัวละครของฝ่ายเรา ที่ได้รับความเสียหายมากที่สุด 1 หน่วย",
+            "descriptionraw": "<color=#FFFFFFFF>จบเฟส:</color> สร้าง$[K101] 1 หน่วย\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n\\n<color=#FFFFFFFF>เมื่อสิ่งอัญเชิญนี้อยู่ในสนาม หลังจาก $[A1108] ใช้ \"การโจมตีปกติ\":</color> จะรักษาตัวละครของฝ่ายเรา ที่ได้รับความเสียหายมากที่สุด 1 หน่วย",
+            "descriptionreplaced": "<color=#FFFFFFFF>จบเฟส:</color> สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 1 หน่วย\\n<color=#FFFFFFFF><color=#FFFFFFFF>จำนวนครั้งที่ใช้ได้</color>: 3</color>\\n\\n<color=#FFFFFFFF>เมื่อสิ่งอัญเชิญนี้อยู่ในสนาม หลังจาก Qiqi ใช้ \"การโจมตีปกติ\":</color> จะรักษาตัวละครของฝ่ายเรา ที่ได้รับความเสียหายมากที่สุด 1 หน่วย",
+            "hinttype": "GCG_HINT_CRYO",
+            "id": 111081,
+            "name": "Herald of Frost",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "hilichurlberserker": {
             "cardtypetext": "สิ่งอัญเชิญ",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -302,6 +315,19 @@
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_CLOCK"
+        },
+        "lightningrose": {
+            "cardtypetext": "สิ่งอัญเชิญ",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "จบเฟส: สร้างความเสียหายไฟฟ้า 2 หน่วย\nจำนวนครั้งที่ใช้ได้: 2",
+            "descriptionraw": "<color=#FFFFFFFF>จบเฟส:</color> สร้าง$[K104] 2 หน่วย\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>จบเฟส:</color> สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 2 หน่วย\\n<color=#FFFFFFFF><color=#FFFFFFFF>จำนวนครั้งที่ใช้ได้</color>: 2</color>",
+            "hinttype": "GCG_HINT_ELECTRO",
+            "id": 114092,
+            "name": "Lightning Rose",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
         "melodyloop": {
             "cardtypetext": "สิ่งอัญเชิญ",
@@ -442,6 +468,19 @@
             "hinttype": "GCG_HINT_ANEMO",
             "id": 125011,
             "name": "Shadowsword: Lone Gale",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
+        "solarisotoma": {
+            "cardtypetext": "สิ่งอัญเชิญ",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "จบเฟส: สร้าง ความเสียหายหิน 1 หน่วย\nจำนวนครั้งที่ใช้ได้: 3\nเมื่อสิ่งอัญเชิญนี้อยู่ในสนาม: เมื่อตัวละครฝ่ายเราทำการโจมตีพุ่งลงจากอากาศ จะใช้ ธาตุไร้สี น้อยลง 1 ลูก (เทิร์นละ 1 ครั้ง)",
+            "descriptionraw": "<color=#FFFFFFFF>จบเฟส:</color> สร้าง $[K106] 1 หน่วย\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>เมื่อสิ่งอัญเชิญนี้อยู่ในสนาม:</color> เมื่อตัวละครฝ่ายเราทำการ$[K52] จะใช้ $[K309] น้อยลง 1 ลูก (เทิร์นละ 1 ครั้ง)",
+            "descriptionreplaced": "<color=#FFFFFFFF>จบเฟส:</color> สร้าง {SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 1 หน่วย\\n<color=#FFFFFFFF><color=#FFFFFFFF>จำนวนครั้งที่ใช้ได้</color>: 3</color>\\n<color=#FFFFFFFF>เมื่อสิ่งอัญเชิญนี้อยู่ในสนาม:</color> เมื่อตัวละครฝ่ายเราทำการ<color=#FFFFFFFF>โจมตีพุ่งลงจากอากาศ</color> จะใช้ <color=#FFFFFFFF>{SPRITE_PRESET#1109}ธาตุไร้สี</color> น้อยลง 1 ลูก (เทิร์นละ 1 ครั้ง)",
+            "hinttype": "GCG_HINT_GEO",
+            "id": 116041,
+            "name": "Solar Isotoma",
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"

@@ -64,6 +64,14 @@
             "rarity": 3,
             "source": "Mua tại Cửa Hàng Thẻ Bài"
         },
+        "fontaine": {
+            "description": "Ghi nhớ các hạng mục \"quy định\" của trò chơi, mới có thể dùng \"phép tắc\" linh hoạt mà hợp lý để trình diễn màn \"diễn xuất\" đặc sắc nhất trong ván đấu.",
+            "descriptionraw": "Ghi nhớ các hạng mục \"quy định\" của trò chơi, mới có thể dùng \"phép tắc\" linh hoạt mà hợp lý để trình diễn màn \"diễn xuất\" đặc sắc nhất trong ván đấu.",
+            "id": 123,
+            "name": "Fontaine",
+            "rarity": 3,
+            "source": "Nhận được từ phần thưởng cấp danh vọng Fontaine"
+        },
         "glazelily": {
             "description": "Tất cả những gì đã cũ trên đời đều đã tiêu tan, chỉ còn lại tên gọi của những loài hoa.",
             "descriptionraw": "Tất cả những gì đã cũ trên đời đều đã tiêu tan, chỉ còn lại tên gọi của những loài hoa.",

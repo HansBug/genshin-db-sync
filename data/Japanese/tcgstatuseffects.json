@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "状態",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "この状態は初期に「導雷」を2層有する。「導雷」を重複して装備する際、「導雷」を1層追加する。「導雷」は、最大4層まで重ね掛け可能。\nエンドフェーズ:「導雷」を1層追加。\n\n付与されたキャラが蒼雷ダメージを受ける際、該当状態を解除し、「導雷」1層ごとに与えるダメージ+1。",
+            "descriptionraw": "この状態は初期に「導雷」を2層有する。「導雷」を重複して装備する際、「導雷」を1層追加する。「導雷」は、最大4層まで重ね掛け可能。\\n<color=#FFFFFFFF>エンドフェーズ:</color>「導雷」を1層追加。\\n\\n<color=#FFFFFFFF>付与されたキャラが$[S14092]ダメージを受ける際</color>、該当状態を解除し、「導雷」1層ごとに与えるダメージ+1。",
+            "descriptionreplaced": "この状態は初期に「導雷」を2層有する。「導雷」を重複して装備する際、「導雷」を1層追加する。「導雷」は、最大4層まで重ね掛け可能。\\n<color=#FFFFFFFF>エンドフェーズ:</color>「導雷」を1層追加。\\n\\n<color=#FFFFFFFF>付与されたキャラが蒼雷ダメージを受ける際</color>、該当状態を解除し、「導雷」1層ごとに与えるダメージ+1。",
+            "id": 114091,
+            "name": "導雷",
+            "statustypetext": "キャラ状態",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "装備カード",
@@ -743,6 +755,20 @@
             "statustypetext": "チームの出撃状態",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "このカードを装備したアルベドがフィールド上に存在する時、味方のフィールドに陽華が存在する場合、味方キャラの落下攻撃の与えるダメージ+1。",
+            "descriptionraw": "このカードを装備した$[A1604]がフィールド上に存在する時、味方のフィールドに<color=#FFFFFFFF>$[C116041]</color>が存在する場合、味方キャラの$[K52]の与えるダメージ+1。",
+            "descriptionreplaced": "このカードを装備したアルベドがフィールド上に存在する時、味方のフィールドに<color=#FFFFFFFF>陽華</color>が存在する場合、味方キャラの<color=#FFFFFFFF>落下攻撃</color>の与えるダメージ+1。",
+            "id": 216041,
+            "name": "聖なる堕落",
+            "statustypetext": "キャラ装備",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出撃状態",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "味方のキャラがスキルを発動した後、該当キャラのHPがMAXではない場合、該当キャラのHPを2回復する。\n使用可能回数：3",
+            "descriptionraw": "<color=#FFFFFFFF>味方のキャラがスキルを発動した後</color>、該当キャラのHPがMAXではない場合、該当キャラのHPを2回復する。\\n<color=#FFFFFFFF>$[K3]：3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方のキャラがスキルを発動した後</color>、該当キャラのHPがMAXではない場合、該当キャラのHPを2回復する。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>：3</color>",
+            "id": 111082,
+            "name": "度厄のお札",
+            "statustypetext": "チームの出撃状態",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "寒氷大盾",
             "statustypetext": "キャラ状態",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出撃状態",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "味方キャラがスキルを発動した後、該当効果を相手のチームに移し、「アツアツ度」を1蓄積する（最大4まで蓄積可能）。エンドフェーズ：この効果を解除し、チームの出撃キャラに物理ダメージを2与える。「アツアツ度」1につき、このダメージ+1。",
+            "descriptionraw": "<color=#FFFFFFFF>味方キャラがスキルを発動した後</color>、該当効果を相手のチームに移し、「アツアツ度」を1蓄積する（最大4まで蓄積可能）。<color=#FFFFFFFF>エンドフェーズ：</color>この効果を解除し、チームの出撃キャラに$[K100]を2与える。「アツアツ度」1につき、このダメージ+1。",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方キャラがスキルを発動した後</color>、該当効果を相手のチームに移し、「アツアツ度」を1蓄積する（最大4まで蓄積可能）。<color=#FFFFFFFF>エンドフェーズ：</color>この効果を解除し、チームの出撃キャラに{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理ダメージ</color>を2与える。「アツアツ度」1につき、このダメージ+1。",
+            "id": 401001,
+            "name": "アツアツ爆弾",
+            "statustypetext": "チームの出撃状態",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出撃状態",
+            "description": "本ラウンドではもう「俺様はまだ負けちゃいねぇ！」を使用できません。",
+            "descriptionraw": "本ラウンドではもう「俺様はまだ負けちゃいねぇ！」を使用できません。",
+            "descriptionreplaced": "本ラウンドではもう「俺様はまだ負けちゃいねぇ！」を使用できません。",
+            "id": 303205,
+            "name": "俺様はまだ負けちゃいねぇ！（クールダウン中）",
+            "statustypetext": "チームの出撃状態",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "キャラの与えるダメージ+1。",
+            "descriptionraw": "<color=#FFFFFFFF>キャラの与えるダメージ+1</color>。",
+            "descriptionreplaced": "<color=#FFFFFFFF>キャラの与えるダメージ+1</color>。",
+            "id": 311206,
+            "name": "王の近侍",
+            "statustypetext": "キャラ装備",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "状態",
+            "description": "装備キャラは本ラウンドで次に「元素スキル」を発動、あるいは「天賦」を装備する時、必要な元素サイコロの数-2。",
+            "descriptionraw": "<color=#FFFFFFFF>装備キャラは本ラウンドで次に「元素スキル」を発動、あるいは「{SPRITE_PRESET#3006}天賦」を装備する時</color>、必要な元素サイコロの数-2。",
+            "descriptionreplaced": "<color=#FFFFFFFF>装備キャラは本ラウンドで次に「元素スキル」を発動、あるいは「{SPRITE_PRESET#3006}天賦」を装備する時</color>、必要な元素サイコロの数-2。",
+            "id": 301103,
+            "name": "王の近侍（発動中）",
+            "statustypetext": "キャラ状態",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "チームの出撃状態",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出撃状態",
+            "description": "エンドフェーズ：味方プレイヤーが対戦に負ける。",
+            "descriptionraw": "<color=#FFFFFFFF>エンドフェーズ：</color>味方プレイヤーが対戦に負ける。",
+            "descriptionreplaced": "<color=#FFFFFFFF>エンドフェーズ：</color>味方プレイヤーが対戦に負ける。",
+            "id": 403016,
+            "name": "猛攻の代価",
+            "statustypetext": "チームの出撃状態",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "装備カード",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "このカードを装備したリサに切り替えると、敵の出撃キャラに導雷を付与する。（各ラウンドで1回のみ）",
+            "descriptionraw": "このカードを装備した<color=#FFFFFFFF>$[A1409]</color>に切り替えると、敵の出撃キャラに<color=#FFFFFFFF>$[C114091]を付与する。</color>（各ラウンドで1回のみ）",
+            "descriptionreplaced": "このカードを装備した<color=#FFFFFFFF>リサ</color>に切り替えると、敵の出撃キャラに<color=#FFFFFFFF>導雷を付与する。</color>（各ラウンドで1回のみ）",
+            "id": 214091,
+            "name": "パルスの魔女",
+            "statustypetext": "キャラ装備",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "遣役の儀",
             "statustypetext": "キャラ状態",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "このカードを装備した七七が仙法·救苦度厄を使用する際、戦闘不能状態のキャラを全て復活させ、HPを2回復する。（各対戦ごとに2回まで）",
+            "descriptionraw": "このカードを装備した$[A1108]が<color=#FFFFFFFF>$[S11083]</color>を使用する際、戦闘不能状態のキャラを全て復活させ、HPを2回復する。（各対戦ごとに2回まで）",
+            "descriptionreplaced": "このカードを装備した七七が<color=#FFFFFFFF>仙法·救苦度厄</color>を使用する際、戦闘不能状態のキャラを全て復活させ、HPを2回復する。（各対戦ごとに2回まで）",
+            "id": 211081,
+            "name": "起死回骸",
+            "statustypetext": "キャラ装備",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>次回、味方がスキルを発動した後</color>、味方の次の待機キャラを出撃キャラにチェンジする。",
             "id": 303207,
             "name": "鶴の帰郷（発動中）",
+            "statustypetext": "チームの出撃状態",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出撃状態",
+            "description": "本ラウンドで、味方が次に手札の「武器」を使用する時、必要な元素サイコロの数-2。",
+            "descriptionraw": "<color=#FFFFFFFF>本ラウンドで、味方が次に手札の「{SPRITE_PRESET#3003}武器」を使用する時</color>、必要な元素サイコロの数-2。",
+            "descriptionreplaced": "<color=#FFFFFFFF>本ラウンドで、味方が次に手札の「{SPRITE_PRESET#3003}武器」を使用する時</color>、必要な元素サイコロの数-2。",
+            "id": 303222,
+            "name": "剣はいずこ（発動中）",
             "statustypetext": "チームの出撃状態",
             "tags": []
         },

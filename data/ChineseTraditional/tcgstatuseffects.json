@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "狀態",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "此狀態初始具有2層「引雷」；重複附屬時，疊加1層「引雷」。「引雷」最多可以疊加到4層。\n結束階段：疊加1層「引雷」。\n\n所附屬角色受到蒼雷傷害時：移除此狀態，每層「引雷」使此傷害+1。",
+            "descriptionraw": "此狀態初始具有2層「引雷」；重複附屬時，疊加1層「引雷」。「引雷」最多可以疊加到4層。\\n<color=#FFFFFFFF>結束階段：</color>疊加1層「引雷」。\\n\\n<color=#FFFFFFFF>所附屬角色受到$[S14092]傷害時：</color>移除此狀態，每層「引雷」使此傷害+1。",
+            "descriptionreplaced": "此狀態初始具有2層「引雷」；重複附屬時，疊加1層「引雷」。「引雷」最多可以疊加到4層。\\n<color=#FFFFFFFF>結束階段：</color>疊加1層「引雷」。\\n\\n<color=#FFFFFFFF>所附屬角色受到蒼雷傷害時：</color>移除此狀態，每層「引雷」使此傷害+1。",
+            "id": 114091,
+            "name": "引雷",
+            "statustypetext": "角色狀態",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "裝備牌",
@@ -743,6 +755,20 @@
             "statustypetext": "陣營出戰狀態",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "裝備牌",
+            "description": "裝備有此牌的阿貝多在場時，如果我方場上存在陽華，則我方角色進行下落攻擊時造成的傷害+1。",
+            "descriptionraw": "裝備有此牌的$[A1604]在場時，如果我方場上存在<color=#FFFFFFFF>$[C116041]</color>，則我方角色進行$[K52]時造成的傷害+1。",
+            "descriptionreplaced": "裝備有此牌的阿貝多在場時，如果我方場上存在<color=#FFFFFFFF>陽華</color>，則我方角色進行<color=#FFFFFFFF>下落攻擊</color>時造成的傷害+1。",
+            "id": 216041,
+            "name": "神性之隕",
+            "statustypetext": "角色裝備",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出戰狀態",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "我方角色使用技能後：如果該角色生命值未滿，則治療該角色2點。\n可用次數：3",
+            "descriptionraw": "<color=#FFFFFFFF>我方角色使用技能後：</color>如果該角色生命值未滿，則治療該角色2點。\\n<color=#FFFFFFFF>$[K3]：3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>我方角色使用技能後：</color>如果該角色生命值未滿，則治療該角色2點。\\n<color=#FFFFFFFF><color=#FFFFFFFF>可用次數</color>：3</color>",
+            "id": 111082,
+            "name": "度厄真符",
+            "statustypetext": "陣營出戰狀態",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "寒冰大盾",
             "statustypetext": "角色狀態",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出戰狀態",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "我方角色使用技能後：將此效果轉移到對方陣營，並累積1點「燙燙熱度」（最多累積到4點）。結束階段：移除此效果，對所在陣營的出戰角色造成2點物理傷害；每有1點「燙燙熱度」，都使此傷害+1。",
+            "descriptionraw": "<color=#FFFFFFFF>我方角色使用技能後：</color>將此效果轉移到對方陣營，並累積1點「燙燙熱度」（最多累積到4點）。<color=#FFFFFFFF>結束階段：</color>移除此效果，對所在陣營的出戰角色造成2點$[K100]；每有1點「燙燙熱度」，都使此傷害+1。",
+            "descriptionreplaced": "<color=#FFFFFFFF>我方角色使用技能後：</color>將此效果轉移到對方陣營，並累積1點「燙燙熱度」（最多累積到4點）。<color=#FFFFFFFF>結束階段：</color>移除此效果，對所在陣營的出戰角色造成2點{SPRITE_PRESET#2100}<color=#FFFFFFFF>物理傷害</color>；每有1點「燙燙熱度」，都使此傷害+1。",
+            "id": 401001,
+            "name": "燙燙爆彈",
+            "statustypetext": "陣營出戰狀態",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出戰狀態",
+            "description": "本回合無法再打出「本大爺還沒有輸！」。",
+            "descriptionraw": "本回合無法再打出「本大爺還沒有輸！」。",
+            "descriptionreplaced": "本回合無法再打出「本大爺還沒有輸！」。",
+            "id": 303205,
+            "name": "本大爺還沒有輸！（冷卻中）",
+            "statustypetext": "陣營出戰狀態",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "裝備牌",
+            "description": "角色造成的傷害+1。",
+            "descriptionraw": "<color=#FFFFFFFF>角色造成的傷害+1</color>。",
+            "descriptionreplaced": "<color=#FFFFFFFF>角色造成的傷害+1</color>。",
+            "id": 311206,
+            "name": "王下近侍",
+            "statustypetext": "角色裝備",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "狀態",
+            "description": "角色在本回合中，下次使用「元素戰技」或裝備「天賦」時：少花費2個元素骰。",
+            "descriptionraw": "<color=#FFFFFFFF>角色在本回合中，下次使用「元素戰技」或裝備「{SPRITE_PRESET#3006}天賦」時：</color>少花費2個元素骰。",
+            "descriptionreplaced": "<color=#FFFFFFFF>角色在本回合中，下次使用「元素戰技」或裝備「{SPRITE_PRESET#3006}天賦」時：</color>少花費2個元素骰。",
+            "id": 301103,
+            "name": "王下近侍（生效中）",
+            "statustypetext": "角色狀態",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "陣營出戰狀態",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出戰狀態",
+            "description": "結束階段：我方牌手輸掉牌局。",
+            "descriptionraw": "<color=#FFFFFFFF>結束階段：</color>我方牌手輸掉牌局。",
+            "descriptionreplaced": "<color=#FFFFFFFF>結束階段：</color>我方牌手輸掉牌局。",
+            "id": 403016,
+            "name": "猛攻的代價",
+            "statustypetext": "陣營出戰狀態",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "裝備牌",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "裝備牌",
+            "description": "切換到裝備有此牌的麗莎後：使敵方出戰角色附屬引雷。（每回合1次）",
+            "descriptionraw": "切換到裝備有此牌的<color=#FFFFFFFF>$[A1409]</color>後：使敵方出戰角色附屬<color=#FFFFFFFF>$[C114091]</color>。（每回合1次）",
+            "descriptionreplaced": "切換到裝備有此牌的<color=#FFFFFFFF>麗莎</color>後：使敵方出戰角色附屬<color=#FFFFFFFF>引雷</color>。（每回合1次）",
+            "id": 214091,
+            "name": "脈衝的魔女",
+            "statustypetext": "角色裝備",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "遣役之儀",
             "statustypetext": "角色狀態",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "裝備牌",
+            "description": "裝備有此牌的七七使用仙法·救苦度厄時，復甦我方所有倒下的角色，並治療其2點。（整場牌局限制2次）",
+            "descriptionraw": "裝備有此牌的$[A1108]使用<color=#FFFFFFFF>$[S11083]</color>時，復甦我方所有倒下的角色，並治療其2點。（整場牌局限制2次）",
+            "descriptionreplaced": "裝備有此牌的七七使用<color=#FFFFFFFF>仙法·救苦度厄</color>時，復甦我方所有倒下的角色，並治療其2點。（整場牌局限制2次）",
+            "id": 211081,
+            "name": "起死回骸",
+            "statustypetext": "角色裝備",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>我方下一次使用技能後：</color>將下一個我方後臺角色切換到場上。",
             "id": 303207,
             "name": "鶴歸之時（生效中）",
+            "statustypetext": "陣營出戰狀態",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "出戰狀態",
+            "description": "本回合中，我方下次打出「武器」手牌時：少花費2個元素骰。",
+            "descriptionraw": "<color=#FFFFFFFF>本回合中，我方下次打出「{SPRITE_PRESET#3003}武器」手牌時：</color>少花費2個元素骰。",
+            "descriptionreplaced": "<color=#FFFFFFFF>本回合中，我方下次打出「{SPRITE_PRESET#3003}武器」手牌時：</color>少花費2個元素骰。",
+            "id": 303222,
+            "name": "藏鋒何處（生效中）",
             "statustypetext": "陣營出戰狀態",
             "tags": []
         },

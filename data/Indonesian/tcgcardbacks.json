@@ -64,6 +64,14 @@
             "rarity": 3,
             "source": "Dibeli di Toko Kartu"
         },
+        "fontaine": {
+            "description": "Untuk bisa memanfaatkan \"peraturan\" dan melangsungkan \"pertunjukan\" yang indah saat duel berlangsung, wajib untuk mengingat setiap \"struktur\" dalam permainan.",
+            "descriptionraw": "Untuk bisa memanfaatkan \"peraturan\" dan melangsungkan \"pertunjukan\" yang indah saat duel berlangsung, wajib untuk mengingat setiap \"struktur\" dalam permainan.",
+            "id": 123,
+            "name": "Fontaine",
+            "rarity": 3,
+            "source": "Didapatkan dari hadiah Reputasi Fontaine"
+        },
         "glazelily": {
             "description": "Kisah-kisah kuno tentang alam fana telah berlalu. Sekarang, hanya nama bunga-bunga harum yang tersisa.",
             "descriptionraw": "Kisah-kisah kuno tentang alam fana telah berlalu. Sekarang, hanya nama bunga-bunga harum yang tersisa.",

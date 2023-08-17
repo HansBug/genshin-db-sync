@@ -230,8 +230,8 @@
             "name": "Phiến Đá Lâu Đời",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Thiên Nham vững chắc, núi vững khó dời.\"",
@@ -319,8 +319,8 @@
             "name": "Dũng Sĩ Trong Băng Giá",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Hãy sống tiếp, xin đừng bị diệt vong và chìm trong quên lãng lạnh giá như chúng tôi...\"",
@@ -342,7 +342,7 @@
             "name": "Tiếng Vọng Băng Vỡ Tuyết Rơi",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "Mặt Nạ Vô Thường",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "Diệm Liệt Ma Nữ Cháy Rực",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Ta từ chối bi ca, từ chối ai oán, từ chối than thở, và từ chối mọi tiếng ồn vô dụng.\nNếu công bằng từ lâu đã không còn nữa, vậy thì biết cầu cứu ai đây?\"",
@@ -746,8 +746,8 @@
             "name": "Ký Ức Rừng Sâu",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Vì tuân theo tự nhiên, cuối cùng sẽ xuyên qua mê cung rừng rậm, đến được vùng đồng bằng bao la.\"",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "Thánh Di Vật"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Hành Động Chiến Đấu: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là Albedo.\nAlbedo sau khi trang bị thẻ bài này, lập tức dùng 1 lần Thuật Sáng Thế - Chế Tạo Mặt Trời.\nKhi Albedo có trang bị thẻ bài này ở trong trận, nếu trong trận phe ta có Hoa Mặt Trời, thì khi nhân vật phe ta tiến hành Tấn Công Khi Đáp sẽ +1 sát thương gây ra.\n(Bộ bài có Albedo mới có thể thêm)",
+            "descriptionraw": "$[K1]: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>$[A1604]</color>.\\n$[A1604] sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>$[S16042]</color>.\\nKhi $[A1604] có trang bị thẻ bài này ở trong trận, nếu trong trận phe ta có <color=#FFFFFFFF>$[C116041]</color>, thì khi nhân vật phe ta tiến hành $[K52] sẽ +1 sát thương gây ra.\\n(Bộ bài có $[A1604] mới có thể thêm)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hành Động Chiến Đấu</color>: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>Albedo</color>.\\nAlbedo sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>Thuật Sáng Thế - Chế Tạo Mặt Trời</color>.\\nKhi Albedo có trang bị thẻ bài này ở trong trận, nếu trong trận phe ta có <color=#FFFFFFFF>Hoa Mặt Trời</color>, thì khi nhân vật phe ta tiến hành <color=#FFFFFFFF>Tấn Công Khi Đáp</color> sẽ +1 sát thương gây ra.\\n(Bộ bài có Albedo mới có thể thêm)",
+            "id": 216041,
+            "name": "Sự Giáng Thế Của Thần",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "Nhận được sau khi mời Albedo giao đấu trong Quán Rượu Đuôi Mèo, và hoàn thành mục tiêu khiêu chiến tương ứng",
+            "storytext": "\"Xác nhận quá trình của chiến lược, cũng là một dạng tính toán cẩn mật...\"",
+            "storytitle": "Albedo - Sự Giáng Thế Của Thần",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Thiên Phú",
+                "Hành Động Chiến Đấu"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "Dấu Ấn Ngăn Cách",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "Mười ba năm cuộc đời tựa như một giấc mộng,\nAnh đào hòa vào tuyết, nhẹ nhàng như làn khói,\nNhìn lại người đã rời xa.",
@@ -1527,6 +1553,42 @@
                 "Thánh Di Vật"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Ban đầu có 2 điểm \"Đếm Ngược Đến Chiến Thắng\".\nGiai Đoạn Kết Thúc: \"Đếm Ngược Đến Chiến Thắng\" -1. Nếu tiêu hao hết \"Đếm Ngược Đến Chiến Thắng\" mà phe ta không có nhân vật bị đánh bại, thì phe ta sẽ lập tức thắng trận này.\nKhi bắt đầu Giai Đoạn Hành Động: Nếu \"Đếm Ngược Đến Chiến Thắng\" vừa khớp còn đúng 1 điểm, sẽ sinh ra 4 Nguyên Tố Vạn Năng.",
+            "descriptionraw": "Ban đầu có 2 điểm \"Đếm Ngược Đến Chiến Thắng\".\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> \"Đếm Ngược Đến Chiến Thắng\" -1. Nếu tiêu hao hết \"Đếm Ngược Đến Chiến Thắng\" mà phe ta không có nhân vật bị đánh bại, thì phe ta sẽ lập tức thắng trận này.\\n<color=#FFFFFFFF>Khi bắt đầu Giai Đoạn Hành Động:</color> Nếu \"Đếm Ngược Đến Chiến Thắng\" vừa khớp còn đúng 1 điểm, sẽ sinh ra 4 $[K411].",
+            "descriptionreplaced": "Ban đầu có 2 điểm \"Đếm Ngược Đến Chiến Thắng\".\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> \"Đếm Ngược Đến Chiến Thắng\" -1. Nếu tiêu hao hết \"Đếm Ngược Đến Chiến Thắng\" mà phe ta không có nhân vật bị đánh bại, thì phe ta sẽ lập tức thắng trận này.\\n<color=#FFFFFFFF>Khi bắt đầu Giai Đoạn Hành Động:</color> Nếu \"Đếm Ngược Đến Chiến Thắng\" vừa khớp còn đúng 1 điểm, sẽ sinh ra 4 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>.",
+            "id": 423025,
+            "name": "Trận Chiến Khéo Léo - Chiến Thắng Vững Chắc",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Khi bắt đầu Giai Đoạn Hành Động: Sinh ra Đạn Nổ Nóng Rực ở phía bài thủ đi trước.\nGiai Đoạn Kết Thúc: Nếu Đạn Nổ Nóng Rực ở trong phe đối phương, sẽ khiến phe đối phương thua trận này.",
+            "descriptionraw": "<color=#FFFFFFFF>Khi bắt đầu Giai Đoạn Hành Động:</color> Sinh ra $[C401001] ở phía bài thủ đi trước.\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Nếu $[C401001] ở trong phe đối phương, sẽ khiến phe đối phương thua trận này.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi bắt đầu Giai Đoạn Hành Động:</color> Sinh ra Đạn Nổ Nóng Rực ở phía bài thủ đi trước.\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Nếu Đạn Nổ Nóng Rực ở trong phe đối phương, sẽ khiến phe đối phương thua trận này.",
+            "id": 421011,
+            "name": "Trận Chiến Khéo Léo - Cơ Quan Bom Nổ",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Khi bắt đầu Giai Đoạn Hành Động: Sinh ra 2 Nguyên Tố Vạn Năng. Nhưng phe ta sẽ thua trận ở Giai Đoạn Kết Thúc của hiệp này.\nSau khi nhân vật phe địch bị đánh bại hoặc nhân vật phe ta dùng Kỹ Năng Nộ: Sinh ra 3 Nguyên Tố Vạn Năng, rút 1 thẻ bài, đồng thời sau khi kết thúc hành động lần này phe ta sẽ tiếp tục hành động thêm 1 lần.",
+            "descriptionraw": "<color=#FFFFFFFF>Khi bắt đầu Giai Đoạn Hành Động:</color> Sinh ra 2 $[K411]. Nhưng phe ta sẽ thua trận ở Giai Đoạn Kết Thúc của hiệp này.\\n<color=#FFFFFFFF>Sau khi nhân vật phe địch bị đánh bại hoặc nhân vật phe ta dùng Kỹ Năng Nộ:</color> Sinh ra 3 $[K411], rút 1 thẻ bài, đồng thời sau khi kết thúc hành động lần này phe ta sẽ tiếp tục hành động thêm 1 lần.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi bắt đầu Giai Đoạn Hành Động:</color> Sinh ra 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>. Nhưng phe ta sẽ thua trận ở Giai Đoạn Kết Thúc của hiệp này.\\n<color=#FFFFFFFF>Sau khi nhân vật phe địch bị đánh bại hoặc nhân vật phe ta dùng Kỹ Năng Nộ:</color> Sinh ra 3 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>, rút 1 thẻ bài, đồng thời sau khi kết thúc hành động lần này phe ta sẽ tiếp tục hành động thêm 1 lần.",
+            "id": 423026,
+            "name": "Trận Chiến Khéo Léo - Nhanh Chóng Công Kích",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Thẻ Trang Bị",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "Thiên Phú",
                 "Hành Động Chiến Đấu"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Khi phe ta đánh ra Thẻ Vũ Khí hoặc Thánh Di Vật nếu có chi phí tối thiểu là 3 Xúc Xắc Nguyên Tố: Giảm tiêu hao 1 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)\nSố Lần Khả Dụng: 2",
+            "descriptionraw": "<color=#FFFFFFFF>Khi phe ta đánh ra {SPRITE_PRESET#3003}Thẻ Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật nếu có chi phí tối thiểu là 3 Xúc Xắc Nguyên Tố:</color> Giảm tiêu hao 1 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi phe ta đánh ra {SPRITE_PRESET#3003}Thẻ Vũ Khí hoặc {SPRITE_PRESET#3004}Thánh Di Vật nếu có chi phí tối thiểu là 3 Xúc Xắc Nguyên Tố:</color> Giảm tiêu hao 1 Xúc Xắc Nguyên Tố. (Mỗi hiệp 1 lần)\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số Lần Khả Dụng</color>: 2</color>",
+            "id": 321013,
+            "name": "Hoàng Kim Ốc",
+            "playcost": [],
+            "storytext": "\"Khế ước\" lưu thông trên đại lục, đều được đúc thành từ đây.",
+            "storytitle": "Hoàng Kim Ốc",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "Địa Danh"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "Trái Tim Trầm Luân",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"...Bởi vì tất cả cái chết đều oan uổng, người đắm chìm trong quá khứ chẳng có ích gì.\"",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Thẻ Sự Kiện",
-            "description": "Trong hiệp này khi có nhân vật phe ta bị đánh bại, mới có thể đánh ra:\nSinh ra 1 Nguyên Tố Vạn Năng, nhân vật xuất chiến hiện tại của phe ta nhận 1 điểm Năng Lượng.",
-            "descriptionraw": "Trong hiệp này khi có nhân vật phe ta bị đánh bại, mới có thể đánh ra:\\nSinh ra 1 $[K411], nhân vật xuất chiến hiện tại của phe ta nhận 1 điểm $[K310].",
-            "descriptionreplaced": "Trong hiệp này khi có nhân vật phe ta bị đánh bại, mới có thể đánh ra:\\nSinh ra 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>, nhân vật xuất chiến hiện tại của phe ta nhận 1 điểm <color=#FFFFFFFF>{SPRITE_PRESET#1110}Năng Lượng</color>.",
+            "description": "Trong hiệp này khi có nhân vật phe ta bị đánh bại mới có thể đánh ra: Sinh ra 1 Nguyên Tố Vạn Năng, nhân vật xuất chiến hiện tại của phe ta nhận 1 điểm Năng Lượng. (Trong mỗi hiệp, tối đa chỉ đánh ra 1 thẻ \"Bổn Đại Gia Chưa Thua Đâu!\")",
+            "descriptionraw": "<color=#FFFFFFFF>Trong hiệp này khi có nhân vật phe ta bị đánh bại mới có thể đánh ra:</color> Sinh ra 1 $[K411], nhân vật xuất chiến hiện tại của phe ta nhận 1 điểm $[K310]. (Trong mỗi hiệp, tối đa chỉ đánh ra 1 thẻ \"Bổn Đại Gia Chưa Thua Đâu!\")",
+            "descriptionreplaced": "<color=#FFFFFFFF>Trong hiệp này khi có nhân vật phe ta bị đánh bại mới có thể đánh ra:</color> Sinh ra 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>, nhân vật xuất chiến hiện tại của phe ta nhận 1 điểm <color=#FFFFFFFF>{SPRITE_PRESET#1110}Năng Lượng</color>. (Trong mỗi hiệp, tối đa chỉ đánh ra 1 thẻ \"Bổn Đại Gia Chưa Thua Đâu!\")",
             "id": 332005,
             "name": "Bổn Đại Gia Chưa Thua Đâu!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Giai Đoạn Gieo Xúc Xắc:</color> 2 Xúc Xắc Nguyên Tố ban đầu luôn ra loại nguyên tố theo nhân vật xuất chiến phe ta.",
             "id": 321003,
             "name": "Quần Ngọc Các",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "Nhận được sau khi hoàn thành mục tiêu khiêu chiến trong Khiêu Chiến Khám Phá với Bu'yun ở đại thế giới",
             "storytext": "\"Nghe nói bên trong có hàng ngàn loại châu báu rực rỡ.\"",
             "storytitle": "Ngắm Sao Giữa Trùng Mây",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "Địa Danh"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Thẻ Sự Kiện",
+            "description": "Khi loại nguyên tố của nhân vật xuất chiến phe ta là Băng/Thủy/Hỏa/Lôi/Thảo mới có thể đánh ra: Áp dụng nguyên tố cùng loại với nguyên tố của nhân vật xuất chiến phe ta cho tất cả nhân vật phe ta.\n(Cả ván đấu chỉ có thể đánh ra 1 Thẻ Bí Truyền; Thẻ bài này sẽ ở trong những lá bài đầu tiên trong tay bạn)",
+            "descriptionraw": "<color=#FFFFFFFF>Khi loại nguyên tố của nhân vật xuất chiến phe ta là {SPRITE_PRESET#2101}<color=#99FFFFFF>Băng</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>Thủy</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>Hỏa</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>Lôi</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>Thảo</color> mới có thể đánh ra:</color> Áp dụng nguyên tố cùng loại với nguyên tố của nhân vật xuất chiến phe ta cho tất cả nhân vật phe ta.\\n(Cả ván đấu chỉ có thể đánh ra 1 Thẻ {SPRITE_PRESET#3007}Bí Truyền; Thẻ bài này sẽ ở trong những lá bài đầu tiên trong tay bạn)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Khi loại nguyên tố của nhân vật xuất chiến phe ta là {SPRITE_PRESET#2101}<color=#99FFFFFF>Băng</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>Thủy</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>Hỏa</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>Lôi</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>Thảo</color> mới có thể đánh ra:</color> Áp dụng nguyên tố cùng loại với nguyên tố của nhân vật xuất chiến phe ta cho tất cả nhân vật phe ta.\\n(Cả ván đấu chỉ có thể đánh ra 1 Thẻ {SPRITE_PRESET#3007}Bí Truyền; Thẻ bài này sẽ ở trong những lá bài đầu tiên trong tay bạn)",
+            "id": 330003,
+            "name": "Vũ Điệu Vui Vẻ",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Vui vẻ, chia sẻ với mọi người.\"",
+            "storytitle": "Vũ Điệu Vui Vẻ",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Bí Truyền"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "Đồng Đội"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Sát thương nhân vật tạo ra +1.\nKhi vào trận: Nhân vật áp dụng trong hiệp này khi sử dụng Kỹ Năng Nguyên Tố hoặc trang bị Thẻ Thiên Phú lần kế tiếp sẽ giảm tiêu hao 2 Xúc Xắc Nguyên Tố.\n(Nhân vật sử dụng Cung mới có thể trang bị. Nhân vật tối đa trang bị 1 Vũ Khí)",
+            "descriptionraw": "<color=#FFFFFFFF>Sát thương nhân vật tạo ra +1</color>.\\n<color=#FFFFFFFF>Khi vào trận:</color> Nhân vật áp dụng trong hiệp này khi sử dụng Kỹ Năng Nguyên Tố hoặc trang bị {SPRITE_PRESET#3006}Thẻ Thiên Phú lần kế tiếp sẽ giảm tiêu hao 2 Xúc Xắc Nguyên Tố.\\n(<color=#FFFFFFFF>Nhân vật sử dụng {SPRITE_PRESET#3202}Cung</color> mới có thể trang bị. Nhân vật tối đa trang bị 1 {SPRITE_PRESET#3003}Vũ Khí)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Sát thương nhân vật tạo ra +1</color>.\\n<color=#FFFFFFFF>Khi vào trận:</color> Nhân vật áp dụng trong hiệp này khi sử dụng Kỹ Năng Nguyên Tố hoặc trang bị {SPRITE_PRESET#3006}Thẻ Thiên Phú lần kế tiếp sẽ giảm tiêu hao 2 Xúc Xắc Nguyên Tố.\\n(<color=#FFFFFFFF>Nhân vật sử dụng {SPRITE_PRESET#3202}Cung</color> mới có thể trang bị. Nhân vật tối đa trang bị 1 {SPRITE_PRESET#3003}Vũ Khí)",
+            "id": 311206,
+            "name": "Cận Vệ Nhà Vua",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "Vũ khí có được từ câu chuyện của Aranara, có dạng cung.\n\"Hãy nhớ lấy, thế giới này chỉ có giấc mộng của rừng sâu... Hãy đem ngôn ngữ của rừng sâu, chức trách bảo vệ vương thổ truyền cho nhiều người hơn.\"",
+            "storytitle": "Chỉ Dẫn Của Rừng Sâu - Cận Vệ Nhà Vua",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "Vũ Khí",
+                "Cung"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Thẻ Hỗ Trợ",
@@ -2044,7 +2171,7 @@
             "name": "Vương Miện Của Nguyệt Quế",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "Mặt Nạ Huyền Thạch",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "Nón Hoa Mỹ",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "\"Mười ba năm cuộc đời tựa như một giấc mộng, anh đào hòa vào tuyết, nhẹ nhàng như làn khói, nhìn lại người đã rời xa.\"",
@@ -3311,6 +3438,30 @@
                 "Hành Động Chiến Đấu"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Sau khi đổi sang Lisa có trang bị thẻ bài này: Khiến nhân vật xuất chiến phe địch áp dụng Dẫn Lôi. (Mỗi hiệp 1 lần)\n(Bộ bài có Lisa mới có thể thêm)",
+            "descriptionraw": "Sau khi đổi sang <color=#FFFFFFFF>$[A1409]</color> có trang bị thẻ bài này: Khiến nhân vật xuất chiến phe địch áp dụng <color=#FFFFFFFF>$[C114091]</color>. (Mỗi hiệp 1 lần)\\n(Bộ bài có $[A1409] mới có thể thêm)",
+            "descriptionreplaced": "Sau khi đổi sang <color=#FFFFFFFF>Lisa</color> có trang bị thẻ bài này: Khiến nhân vật xuất chiến phe địch áp dụng <color=#FFFFFFFF>Dẫn Lôi</color>. (Mỗi hiệp 1 lần)\\n(Bộ bài có Lisa mới có thể thêm)",
+            "id": 214091,
+            "name": "Rung Động Của Ma Nữ",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "Nhận được sau khi mời Lisa giao đấu trong Quán Rượu Đuôi Mèo, và hoàn thành mục tiêu khiêu chiến tương ứng",
+            "storytext": "Là một thủ thư đã đọc qua hàng ngàn quyển sách, đương nhiên có thể dễ dàng nhớ được kỹ xảo giành chiến thắng...",
+            "storytitle": "Lisa - Rung Động Của Ma Nữ",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "Thiên Phú"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Thẻ Sự Kiện",
@@ -3438,6 +3589,36 @@
             "source": "Nhận được sau khi mời Yanfei giao đấu trong Quán Rượu Đuôi Mèo, và hoàn thành mục tiêu khiêu chiến tương ứng",
             "storytext": "\"Về mặt chơi bài, đương nhiên là... không phạm luật cấm là được thôi.\"",
             "storytitle": "Yanfei - Quyền Quyết Định Cuối Cùng",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Thiên Phú",
+                "Hành Động Chiến Đấu"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Hành Động Chiến Đấu: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là Qiqi.\nQiqi sau khi trang bị thẻ bài này, lập tức dùng 1 lần Tiên Pháp - Cứu Khổ Độ Ách.\nQiqi trang bị thẻ bài này, khi dùng Tiên Pháp - Cứu Khổ Độ Ách sẽ hồi sinh tất cả nhân vật đã ngã xuống của phe ta, và chữa trị 2 điểm cho nhân vật đó. (Chỉ được dùng 2 lần trong cả ván đấu)\n(Bộ bài có Qiqi mới có thể thêm)",
+            "descriptionraw": "$[K1]: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>$[A1108]</color>.\\n$[A1108] sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>$[S11083]</color>.\\n$[A1108] trang bị thẻ bài này, khi dùng <color=#FFFFFFFF>$[S11083]</color> sẽ hồi sinh tất cả nhân vật đã ngã xuống của phe ta, và chữa trị 2 điểm cho nhân vật đó. (Chỉ được dùng 2 lần trong cả ván đấu)\\n(Bộ bài có $[A1108] mới có thể thêm)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hành Động Chiến Đấu</color>: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <color=#FFFFFFFF>Qiqi</color>.\\nQiqi sau khi trang bị thẻ bài này, lập tức dùng 1 lần <color=#FFD780FF>Tiên Pháp - Cứu Khổ Độ Ách</color>.\\nQiqi trang bị thẻ bài này, khi dùng <color=#FFFFFFFF>Tiên Pháp - Cứu Khổ Độ Ách</color> sẽ hồi sinh tất cả nhân vật đã ngã xuống của phe ta, và chữa trị 2 điểm cho nhân vật đó. (Chỉ được dùng 2 lần trong cả ván đấu)\\n(Bộ bài có Qiqi mới có thể thêm)",
+            "id": 211081,
+            "name": "Khởi Tử Hồi Sinh",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "Nhận được sau khi mời Qiqi giao đấu trong Quán Rượu Đuôi Mèo, và hoàn thành mục tiêu khiêu chiến tương ứng",
+            "storytext": "\"Phải... sống tiếp...\"",
+            "storytitle": "Qiqi - Khởi Tử Hồi Sinh",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Thẻ Hỗ Trợ",
+            "description": "Sau khi phe ta chấp hành hành động bất kỳ, nếu số lượng thẻ bài trong tay là 0: Rút 1 thẻ bài.\nSố Lần Khả Dụng: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Sau khi phe ta chấp hành hành động bất kỳ, nếu số lượng thẻ bài trong tay là 0:</color> Rút 1 thẻ bài.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Sau khi phe ta chấp hành hành động bất kỳ, nếu số lượng thẻ bài trong tay là 0:</color> Rút 1 thẻ bài.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số Lần Khả Dụng</color>: 3</color>",
+            "id": 322019,
+            "name": "Setaria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Là thiên tài của sa mạc, dấn sâu vào sảnh đường của rừng mưa...",
+            "storytitle": "Vượt Qua Tường Cao - Setaria",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Đồng Đội"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Thẻ Trang Bị",
@@ -3675,7 +3879,7 @@
             "name": "Dòng Hồi Ức Bất Tận",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Thẻ Sự Kiện",
-            "description": "Đổi tất cả Xúc Xắc Nguyên Tố của phe ta thành loại nguyên tố của nhân vật xuất chiến hiện tại.\n(Bộ bài có tối thiểu 2 nhân vật Inazuma mới có thể thêm)",
-            "descriptionraw": "Đổi tất cả Xúc Xắc Nguyên Tố của phe ta thành loại nguyên tố của nhân vật xuất chiến hiện tại.\\n(Bộ bài có tối thiểu 2 nhân vật {SPRITE_PRESET#3403}Inazuma mới có thể thêm)",
-            "descriptionreplaced": "Đổi tất cả Xúc Xắc Nguyên Tố của phe ta thành loại nguyên tố của nhân vật xuất chiến hiện tại.\\n(Bộ bài có tối thiểu 2 nhân vật {SPRITE_PRESET#3403}Inazuma mới có thể thêm)",
+            "description": "Đổi tất cả Xúc Xắc Nguyên Tố của phe ta thành Nguyên Tố Vạn Năng.\n(Bộ bài có tối thiểu 2 nhân vật Inazuma mới có thể thêm)",
+            "descriptionraw": "Đổi tất cả Xúc Xắc Nguyên Tố của phe ta thành $[K411].\\n(Bộ bài có tối thiểu 2 nhân vật {SPRITE_PRESET#3403}Inazuma mới có thể thêm)",
+            "descriptionreplaced": "Đổi tất cả Xúc Xắc Nguyên Tố của phe ta thành <color=#FFFFFFFF>{SPRITE_PRESET#1111}Nguyên Tố Vạn Năng</color>.\\n(Bộ bài có tối thiểu 2 nhân vật {SPRITE_PRESET#3403}Inazuma mới có thể thêm)",
             "id": 331803,
             "name": "Lôi Vĩnh Hằng",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "Như Sấm Thịnh Nộ",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Khi ngài lại đến cùng mưa chớp, tôi sẽ hát bài khác cho ngài nghe.\"",
@@ -4457,7 +4661,7 @@
             "name": "Diện Mạo Sấm Sét",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "Vương Miện Gọi Sét",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "Thần Sa Vãng Sinh Lục",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "Bóng Hình Màu Xanh",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Rồi sẽ có một ngày... trong bãi săn vô tận, chúng ta sẽ gặp lại nhau.\"",
@@ -4773,7 +4977,7 @@
             "name": "Nón Thợ Săn",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Thẻ Sự Kiện",
+            "description": "Hoàn trả Thẻ Vũ Khí mà nhân vật phe ta đã trang bị về bộ bài.\nTrong hiệp này, lần tiếp theo phe ta đánh ra Thẻ Vũ Khí: Giảm tiêu hao 2 Xúc Xắc Nguyên Tố.",
+            "descriptionraw": "Hoàn trả {SPRITE_PRESET#3003}Thẻ Vũ Khí mà nhân vật phe ta đã trang bị về bộ bài.\\n<color=#FFFFFFFF>Trong hiệp này, lần tiếp theo phe ta đánh ra {SPRITE_PRESET#3003}Thẻ Vũ Khí:</color> Giảm tiêu hao 2 Xúc Xắc Nguyên Tố.",
+            "descriptionreplaced": "Hoàn trả {SPRITE_PRESET#3003}Thẻ Vũ Khí mà nhân vật phe ta đã trang bị về bộ bài.\\n<color=#FFFFFFFF>Trong hiệp này, lần tiếp theo phe ta đánh ra {SPRITE_PRESET#3003}Thẻ Vũ Khí:</color> Giảm tiêu hao 2 Xúc Xắc Nguyên Tố.",
+            "id": 332022,
+            "name": "Tàng Phong Nơi Nào",
+            "playcost": [],
+            "storytext": "Phân hội trưởng Hiệp Hội Nhà Mạo Hiểm không rõ thân thế, không ngừng tìm kiếm manh mối liên quan đến \"kiếm\", không ngừng khiêu chiến với cường địch trên đường...",
+            "storytitle": "Tàng Phong Nơi Nào",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Thẻ Trang Bị",
@@ -4990,7 +5208,7 @@
             "name": "Mũ Đượm Rượu",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "Nón Ma Nữ Lo Lắng",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

@@ -238,6 +238,19 @@
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
+        "heraldoffrost": {
+            "cardtypetext": "Invocación",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Fase final: inflige 1 pt. de Daño Cryo.\nNúmero de usos: 3.\n\nCuando Qiqi usa el Ataque Normal mientras esta invocación está en juego, tu personaje más herido obtiene Vida +1.",
+            "descriptionraw": "#<color=#FFFFFFFF>Fase final:</color> inflige 1{NON_BREAK_SPACE}pt. de $[K101].\\n<color=#FFFFFFFF>Número de $[K3|s3]: 3</color>.\\n\\n<color=#FFFFFFFF>Cuando $[A1108] usa el Ataque Normal mientras esta invocación está en juego</color>, tu personaje más herido obtiene Vida +1.",
+            "descriptionreplaced": "#<color=#FFFFFFFF>Fase final:</color> inflige 1{NON_BREAK_SPACE}pt. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color>.\\n<color=#FFFFFFFF>Número de <color=#FFFFFFFF>usos</color>: 3</color>.\\n\\n<color=#FFFFFFFF>Cuando Qiqi usa el Ataque Normal mientras esta invocación está en juego</color>, tu personaje más herido obtiene Vida +1.",
+            "hinttype": "GCG_HINT_CRYO",
+            "id": 111081,
+            "name": "Heraldo de la escarcha",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "hilichurlberserker": {
             "cardtypetext": "Invocación",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -302,6 +315,19 @@
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_CLOCK"
+        },
+        "lightningrose": {
+            "cardtypetext": "Invocación",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Fase final: inflige 2 pts. de Daño Electro.\nNúmero de usos: 2.",
+            "descriptionraw": "<color=#FFFFFFFF>Fase final:</color> inflige 2 pts. de $[K104].\\n<color=#FFFFFFFF>Número de $[K3|s3]: 2</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Fase final:</color> inflige 2 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.\\n<color=#FFFFFFFF>Número de <color=#FFFFFFFF>usos</color>: 2</color>.",
+            "hinttype": "GCG_HINT_ELECTRO",
+            "id": 114092,
+            "name": "Rosa devastadora",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
         "melodyloop": {
             "cardtypetext": "Invocación",
@@ -442,6 +468,19 @@
             "hinttype": "GCG_HINT_ANEMO",
             "id": 125011,
             "name": "Espadachín sombrío: Viento solitario",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
+        "solarisotoma": {
+            "cardtypetext": "Invocación",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Fase final: inflige 1 pt. de Daño Geo.\nNúmero de usos: 2.\nMientras esta invocación esté en juego, tu personaje gasta 1 dado indefinido menos al ejecutar un Ataque Descendente (1 vez por ronda).",
+            "descriptionraw": "<color=#FFFFFFFF>Fase final:</color> inflige 1 pt. de $[K106].\\n<color=#FFFFFFFF>Número de $[K3|s3]: 2</color>.\\n<color=#FFFFFFFF>Mientras esta invocación esté en juego</color>, tu personaje gasta 1 $[K309|s2] menos al ejecutar un $[K52] (1 vez por ronda).",
+            "descriptionreplaced": "<color=#FFFFFFFF>Fase final:</color> inflige 1 pt. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color>.\\n<color=#FFFFFFFF>Número de <color=#FFFFFFFF>usos</color>: 2</color>.\\n<color=#FFFFFFFF>Mientras esta invocación esté en juego</color>, tu personaje gasta 1 <color=#FFFFFFFF>{SPRITE_PRESET#1109}dado indefinido</color> menos al ejecutar un <color=#FFFFFFFF>Ataque Descendente</color> (1 vez por ronda).",
+            "hinttype": "GCG_HINT_GEO",
+            "id": 116041,
+            "name": "Isotoma solar",
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"

@@ -64,6 +64,14 @@
             "rarity": 3,
             "source": "Se compra en la Tienda de cartas"
         },
+        "fontaine": {
+            "description": "Solo es posible llevar a cabo un espectáculo extraordinario si recuerdas todas las reglas de este juego de cartas y sabes aprovecharlas al máximo durante el duelo.",
+            "descriptionraw": "Solo es posible llevar a cabo un espectáculo extraordinario si recuerdas todas las reglas de este juego de cartas y sabes aprovecharlas al máximo durante el duelo.",
+            "id": 123,
+            "name": "Fontaine",
+            "rarity": 3,
+            "source": "Recompensa de Nivel de reputación en Fontaine"
+        },
         "glazelily": {
             "description": "Los relatos antiguos del mundo mortal han desaparecido. Solo queda el fragante nombre de las flores.",
             "descriptionraw": "Los relatos antiguos del mundo mortal han desaparecido. Solo queda el fragante nombre de las flores.",

@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Статус",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "В этом состоянии в начале даётся 2 уровня «Проводника». Повторное применение даёт ещё 1 уровень. Всего можно накопить 4 уровня.\nФинальная фаза: добавляется 1 уровень «Проводника».\n\nКогда Пурпурная дуга наносит урон персонажу в этом состоянии: состояние снимается, за каждый уровень «Проводника» добавляется 1 ед. урона.",
+            "descriptionraw": "В этом состоянии в начале даётся 2 уровня «Проводника». Повторное применение даёт ещё 1 уровень. Всего можно накопить 4 уровня.\\n<color=#FFFFFFFF>Финальная фаза:</color> добавляется 1 уровень «Проводника».\\n\\n<color=#FFFFFFFF>Когда $[S14092] наносит урон персонажу в этом состоянии:</color> состояние снимается, за каждый уровень «Проводника» добавляется 1 ед. урона.",
+            "descriptionreplaced": "В этом состоянии в начале даётся 2 уровня «Проводника». Повторное применение даёт ещё 1 уровень. Всего можно накопить 4 уровня.\\n<color=#FFFFFFFF>Финальная фаза:</color> добавляется 1 уровень «Проводника».\\n\\n<color=#FFFFFFFF>Когда Пурпурная дуга наносит урон персонажу в этом состоянии:</color> состояние снимается, за каждый уровень «Проводника» добавляется 1 ед. урона.",
+            "id": 114091,
+            "name": "Проводник",
+            "statustypetext": "Статус персонажа",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Карты экипировки",
@@ -743,6 +755,20 @@
             "statustypetext": "Боевой статус команды",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Карты экипировки",
+            "description": "Когда на поле боя находится Альбедо с этой картой и на вашей стороне есть Цветок солнца, тогда Атака в падении вашего персонажа наносит на 1 ед. урона больше.",
+            "descriptionraw": "Когда на поле боя находится $[A1604] с этой картой и на вашей стороне есть <color=#FFFFFFFF>$[C116041]</color>, тогда $[K52] вашего персонажа наносит на 1 ед. урона больше.",
+            "descriptionreplaced": "Когда на поле боя находится Альбедо с этой картой и на вашей стороне есть <color=#FFFFFFFF>Цветок солнца</color>, тогда <color=#FFFFFFFF>Атака в падении</color> вашего персонажа наносит на 1 ед. урона больше.",
+            "id": 216041,
+            "name": "Сошествие духовности",
+            "statustypetext": "Экипировка персонажа",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Боевой статус",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Когда ваш персонаж использует навык: если у персонажа не полное здоровье, то он восстанавливает 2 HP.\nКол-во применений: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Когда ваш персонаж использует навык:</color> если у персонажа не полное здоровье, то он восстанавливает 2 HP.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Когда ваш персонаж использует навык:</color> если у персонажа не полное здоровье, то он восстанавливает 2 HP.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Кол-во применений</color>: 3</color>",
+            "id": 111082,
+            "name": "Талисман Фортуны",
+            "statustypetext": "Боевой статус команды",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Ледяной щит",
             "statustypetext": "Статус персонажа",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Боевой статус",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Когда ваш персонаж использует навык: эффект переносится на противника, накапливая 1 единицу кипучего жара (можно накопить до 4 единиц).Финальная фаза: Когда эффект снимается, активный персонаж в отряде, на чьей стороне осталась картошка, получает Физический урон, 2 ед. За каждую единицу кипучего жара урон увеличивается ещё на 1 ед.",
+            "descriptionraw": "<color=#FFFFFFFF>Когда ваш персонаж использует навык:</color> эффект переносится на противника, накапливая 1 единицу кипучего жара (можно накопить до 4 единиц).<color=#FFFFFFFF>Финальная фаза:</color> Когда эффект снимается, активный персонаж в отряде, на чьей стороне осталась картошка, получает $[K100], 2 ед. За каждую единицу кипучего жара урон увеличивается ещё на 1 ед.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Когда ваш персонаж использует навык:</color> эффект переносится на противника, накапливая 1 единицу кипучего жара (можно накопить до 4 единиц).<color=#FFFFFFFF>Финальная фаза:</color> Когда эффект снимается, активный персонаж в отряде, на чьей стороне осталась картошка, получает {SPRITE_PRESET#2100}<color=#FFFFFFFF>Физический урон</color>, 2 ед. За каждую единицу кипучего жара урон увеличивается ещё на 1 ед.",
+            "id": 401001,
+            "name": "Горячая картошка",
+            "statustypetext": "Боевой статус команды",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Боевой статус",
+            "description": "«Это ещё не конец!» нельзя разыграть в этом раунде снова.",
+            "descriptionraw": "«Это ещё не конец!» нельзя разыграть в этом раунде снова.",
+            "descriptionreplaced": "«Это ещё не конец!» нельзя разыграть в этом раунде снова.",
+            "id": 303205,
+            "name": "Это ещё не конец! (откат)",
+            "statustypetext": "Боевой статус команды",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Карты экипировки",
+            "description": "Персонаж наносит на 1 ед. урона больше.",
+            "descriptionraw": "<color=#FFFFFFFF>Персонаж наносит на 1 ед. урона больше</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Персонаж наносит на 1 ед. урона больше</color>.",
+            "id": 311206,
+            "name": "Приближённый короля",
+            "statustypetext": "Экипировка персонажа",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Статус",
+            "description": "Следующее использование персонажем элементального навыка или экипировка таланта в этом раунде стоят на 2 дайса меньше.",
+            "descriptionraw": "<color=#FFFFFFFF>Следующее использование персонажем элементального навыка или экипировка {SPRITE_PRESET#3006}таланта</color> в этом раунде стоят на 2 дайса меньше.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Следующее использование персонажем элементального навыка или экипировка {SPRITE_PRESET#3006}таланта</color> в этом раунде стоят на 2 дайса меньше.",
+            "id": 301103,
+            "name": "Приближённый короля (активно)",
+            "statustypetext": "Статус персонажа",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "Боевой статус команды",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Боевой статус",
+            "description": "Финальная фаза: вы проигрываете дуэль.",
+            "descriptionraw": "<color=#FFFFFFFF>Финальная фаза:</color> вы проигрываете дуэль.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Финальная фаза:</color> вы проигрываете дуэль.",
+            "id": 403016,
+            "name": "Цена ярости",
+            "statustypetext": "Боевой статус команды",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Карты экипировки",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Карты экипировки",
+            "description": "Когда активным персонажем с этой картой становится Лиза: вражеский активный персонаж получает состояние Проводник (1 раз за раунд).",
+            "descriptionraw": "Когда активным персонажем с этой картой становится <color=#FFFFFFFF>$[A1409]</color>: вражеский активный персонаж получает состояние <color=#FFFFFFFF>$[C114091]</color> (1 раз за раунд).",
+            "descriptionreplaced": "Когда активным персонажем с этой картой становится <color=#FFFFFFFF>Лиза</color>: вражеский активный персонаж получает состояние <color=#FFFFFFFF>Проводник</color> (1 раз за раунд).",
+            "id": 214091,
+            "name": "Импульс ведьмы",
+            "statustypetext": "Экипировка персонажа",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Обряд отправления",
             "statustypetext": "Статус персонажа",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Карты экипировки",
+            "description": "Когда Ци Ци с этой картой использует Искусство Адепта: Хранитель Фортуны, все ваши поверженные персонажи возвращаются в строй и восстанавливают по 2 HP. В течение одной игры может использоваться не более 2 раз.",
+            "descriptionraw": "Когда $[A1108] с этой картой использует <color=#FFFFFFFF>$[S11083]</color>, все ваши поверженные персонажи возвращаются в строй и восстанавливают по 2 HP. В течение одной игры может использоваться не более 2 раз.",
+            "descriptionreplaced": "Когда Ци Ци с этой картой использует <color=#FFFFFFFF>Искусство Адепта: Хранитель Фортуны</color>, все ваши поверженные персонажи возвращаются в строй и восстанавливают по 2 HP. В течение одной игры может использоваться не более 2 раз.",
+            "id": 211081,
+            "name": "Возвращение к жизни",
+            "statustypetext": "Экипировка персонажа",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Когда вы используете навык в следующий раз: </color>ваш следующий персонаж становится активным персонажем.",
             "id": 303207,
             "name": "Журавль после возвращенья (активно)",
+            "statustypetext": "Боевой статус команды",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Боевой статус",
+            "description": "Ваш следующий розыгрыш оружия из руки в текущем раунде стоит на 2 дайса меньше.",
+            "descriptionraw": "<color=#FFFFFFFF>Ваш следующий розыгрыш {SPRITE_PRESET#3003}оружия из руки в текущем раунде</color> стоит на 2 дайса меньше.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Ваш следующий розыгрыш {SPRITE_PRESET#3003}оружия из руки в текущем раунде</color> стоит на 2 дайса меньше.",
+            "id": 303222,
+            "name": "Где же Скрытый клинок? (активно)",
             "statustypetext": "Боевой статус команды",
             "tags": []
         },

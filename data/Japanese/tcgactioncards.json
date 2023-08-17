@@ -145,9 +145,9 @@
         "ancientcourtyard": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "イベントカード",
-            "description": "味方にすでに「武器」、または「聖遺物」を装備しているキャラがいる時、使用可能：本ラウンドで、味方が次に装備カードの「武器」、または「聖遺物」を使用する時、必要な元素サイコロの数-2。\n（「秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
-            "descriptionraw": "<color=#FFFFFFFF>味方にすでに「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を装備しているキャラがいる時、使用可能</color>：本ラウンドで、味方が次に装備カードの「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を使用する時、必要な元素サイコロの数-2。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
-            "descriptionreplaced": "<color=#FFFFFFFF>味方にすでに「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を装備しているキャラがいる時、使用可能</color>：本ラウンドで、味方が次に装備カードの「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を使用する時、必要な元素サイコロの数-2。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "description": "味方にすでに「武器」、または「聖遺物」を装備しているキャラがいる場合のみ使用可能：本ラウンドで、味方が次に装備カードの「武器」、または「聖遺物」を使用する時、必要な元素サイコロの数-2。\n（「秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "descriptionraw": "<color=#FFFFFFFF>味方にすでに「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を装備しているキャラがいる場合のみ使用可能</color>：本ラウンドで、味方が次に装備カードの「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を使用する時、必要な元素サイコロの数-2。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方にすでに「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を装備しているキャラがいる場合のみ使用可能</color>：本ラウンドで、味方が次に装備カードの「{SPRITE_PRESET#3003}武器」、または「{SPRITE_PRESET#3004}聖遺物」を使用する時、必要な元素サイコロの数-2。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
             "id": 330001,
             "name": "旧時の庭園",
             "playcost": [
@@ -230,8 +230,8 @@
             "name": "悠久の磐岩",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「千岩牢固、揺るぎない。」",
@@ -319,8 +319,8 @@
             "name": "氷風を彷徨う勇士",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「…生き延びるのです。私たちと共に滅び、冷たき意志に飲み込まれてはなりません…」",
@@ -342,7 +342,7 @@
             "name": "氷雪を踏む音",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "無常の面",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "燃え盛る炎の魔女",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「私は挽歌を拒み、哀怨を拒み、悲嘆を拒み、そして無用な喧騒をすべて拒んだ。\n正義がなくなったなら、誰に救いを捧げればいいの？」",
@@ -746,8 +746,8 @@
             "name": "深林の記憶",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「自然に従うものは、いずれ偉大なる森の迷宮を通り抜けて、果てなき野原へと辿り着くのだから。」",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "聖遺物"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "戦闘アクション：味方の出撃キャラがアルベドの時、このカードを装備できる。\nアルベドがこのカードを装備した後、直ちに創生術·擬似陽華を1回発動する。\nこのカードを装備したアルベドがフィールド上に存在する時、味方のフィールドに陽華が存在する場合、味方キャラの落下攻撃の与えるダメージ+1。\n（このカードはデッキにアルベドが含まれている場合のみ、デッキに追加できる）",
+            "descriptionraw": "$[K1]：味方の出撃キャラが<color=#FFFFFFFF>$[A1604]</color>の時、このカードを装備できる。\\n$[A1604]がこのカードを装備した後、直ちに<color=#FFD780FF>$[S16042]</color>を1回発動する。\\nこのカードを装備した$[A1604]がフィールド上に存在する時、味方のフィールドに<color=#FFFFFFFF>$[C116041]</color>が存在する場合、味方キャラの$[K52]の与えるダメージ+1。\\n（このカードはデッキに$[A1604]が含まれている場合のみ、デッキに追加できる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>戦闘アクション</color>：味方の出撃キャラが<color=#FFFFFFFF>アルベド</color>の時、このカードを装備できる。\\nアルベドがこのカードを装備した後、直ちに<color=#FFD780FF>創生術·擬似陽華</color>を1回発動する。\\nこのカードを装備したアルベドがフィールド上に存在する時、味方のフィールドに<color=#FFFFFFFF>陽華</color>が存在する場合、味方キャラの<color=#FFFFFFFF>落下攻撃</color>の与えるダメージ+1。\\n（このカードはデッキにアルベドが含まれている場合のみ、デッキに追加できる）",
+            "id": 216041,
+            "name": "聖なる堕落",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "キャッツテールでアルベドを招待して対戦し、対応する挑戦目標をクリアすることで獲得",
+            "storytext": "「対戦の戦略を確認する過程も、緻密な計算のうちだよ…」",
+            "storytitle": "アルベド·聖なる堕落",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "天賦",
+                "戦闘アクション"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "絶縁の旗印",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "夢のような十三年、\n櫻吹雪のように舞い、\n気が付いたら、君がいない。",
@@ -1527,6 +1553,42 @@
                 "聖遺物"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "デフォルトで「勝利へのカウントダウン」を2持つ。\nエンドフェーズ：「勝利へのカウントダウン」-1。「勝利へのカウントダウン」が尽きた際、味方側に戦闘不能になったキャラがいない場合、味方プレイヤーは直ちに勝利する。\nアクションフェーズ開始時、「勝利へのカウントダウン」が残り1の場合、万能元素を4個生成する。",
+            "descriptionraw": "デフォルトで「勝利へのカウントダウン」を2持つ。\\n<color=#FFFFFFFF>エンドフェーズ：</color>「勝利へのカウントダウン」-1。「勝利へのカウントダウン」が尽きた際、味方側に戦闘不能になったキャラがいない場合、味方プレイヤーは直ちに勝利する。\\n<color=#FFFFFFFF>アクションフェーズ開始時</color>、「勝利へのカウントダウン」が残り1の場合、$[K411]を4個生成する。",
+            "descriptionreplaced": "デフォルトで「勝利へのカウントダウン」を2持つ。\\n<color=#FFFFFFFF>エンドフェーズ：</color>「勝利へのカウントダウン」-1。「勝利へのカウントダウン」が尽きた際、味方側に戦闘不能になったキャラがいない場合、味方プレイヤーは直ちに勝利する。\\n<color=#FFFFFFFF>アクションフェーズ開始時</color>、「勝利へのカウントダウン」が残り1の場合、<color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>を4個生成する。",
+            "id": 423025,
+            "name": "巧妙なる思考の戦い·勝利は着実に",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "アクションフェーズ開始時、先手プレイヤーにアツアツ爆弾を生成する。\nエンドフェーズ：アツアツ爆弾が相手のフィールドで処理されると、相手のプレイヤーは対戦に負ける。",
+            "descriptionraw": "<color=#FFFFFFFF>アクションフェーズ開始時</color>、先手プレイヤーに$[C401001]を生成する。\\n<color=#FFFFFFFF>エンドフェーズ：</color>$[C401001]が相手のフィールドで処理されると、相手のプレイヤーは対戦に負ける。",
+            "descriptionreplaced": "<color=#FFFFFFFF>アクションフェーズ開始時</color>、先手プレイヤーにアツアツ爆弾を生成する。\\n<color=#FFFFFFFF>エンドフェーズ：</color>アツアツ爆弾が相手のフィールドで処理されると、相手のプレイヤーは対戦に負ける。",
+            "id": 421011,
+            "name": "巧妙なる思考の戦い·爆弾装置",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "アクションフェーズ開始時、万能元素を2個生成する。しかし、味方プレイヤーは、このラウンドのエンドフェーズで、対局に負ける。\n相手キャラが倒される、または味方キャラが「元素爆発」を発動するした後、万能元素を3個生成し、カードを1枚引く。さらに、今回のアクション終了後、味方は引き続きアクションを1回行える。",
+            "descriptionraw": "<color=#FFFFFFFF>アクションフェーズ開始時</color>、$[K411]を2個生成する。しかし、味方プレイヤーは、このラウンドのエンドフェーズで、対局に負ける。\\n<color=#FFFFFFFF>相手キャラが倒される、または味方キャラが「元素爆発」を発動するした後</color>、$[K411]を3個生成し、カードを1枚引く。さらに、今回のアクション終了後、味方は引き続きアクションを1回行える。",
+            "descriptionreplaced": "<color=#FFFFFFFF>アクションフェーズ開始時</color>、<color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>を2個生成する。しかし、味方プレイヤーは、このラウンドのエンドフェーズで、対局に負ける。\\n<color=#FFFFFFFF>相手キャラが倒される、または味方キャラが「元素爆発」を発動するした後</color>、<color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>を3個生成し、カードを1枚引く。さらに、今回のアクション終了後、味方は引き続きアクションを1回行える。",
+            "id": 423026,
+            "name": "巧妙なる思考の戦い·素早い猛攻",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "装備カード",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "天賦",
                 "戦闘アクション"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "味方が元素サイコロのコストが初期状態で3以上の「武器」または「聖遺物」を手札から出す時、必要な元素サイコロの数-1。（各ラウンドで1回のみ）\n使用可能回数：2",
+            "descriptionraw": "<color=#FFFFFFFF>味方が元素サイコロのコストが初期状態で3以上の「{SPRITE_PRESET#3003}武器」または「{SPRITE_PRESET#3004}聖遺物」を手札から出す時</color>、必要な元素サイコロの数-1。（各ラウンドで1回のみ）\\n<color=#FFFFFFFF>$[K3]：2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方が元素サイコロのコストが初期状態で3以上の「{SPRITE_PRESET#3003}武器」または「{SPRITE_PRESET#3004}聖遺物」を手札から出す時</color>、必要な元素サイコロの数-1。（各ラウンドで1回のみ）\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>：2</color>",
+            "id": 321013,
+            "name": "黄金屋",
+            "playcost": [],
+            "storytext": "大陸に流通する「契約」は、すべてここで鋳出される。",
+            "storytitle": "黄金屋",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "フィールド"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "沈淪の心",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「…すべての死は無駄であり、過去に浸る者に救いはないのだから。」",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "イベントカード",
-            "description": "本ラウンドで味方のキャラが倒された場合のみ使用できる。\n万能元素を1個生成する。また、味方の現在の出撃キャラはチャージを1獲得する。",
-            "descriptionraw": "本ラウンドで味方のキャラが倒された場合のみ使用できる。\\n$[K411]を1個生成する。また、味方の現在の出撃キャラは$[K310]を1獲得する。",
-            "descriptionreplaced": "本ラウンドで味方のキャラが倒された場合のみ使用できる。\\n<color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>を1個生成する。また、味方の現在の出撃キャラは<color=#FFFFFFFF>{SPRITE_PRESET#1110}チャージ</color>を1獲得する。",
+            "description": "本ラウンドで味方のキャラが倒された場合のみ使用できる。万能元素を1個生成する。また、味方の現在の出撃キャラはチャージを1獲得する。（各ラウンドで、1回のみ「俺様はまだ負けちゃいねぇ！」を使用できる。）",
+            "descriptionraw": "<color=#FFFFFFFF>本ラウンドで味方のキャラが倒された場合のみ使用できる。</color>$[K411]を1個生成する。また、味方の現在の出撃キャラは$[K310]を1獲得する。（各ラウンドで、1回のみ「俺様はまだ負けちゃいねぇ！」を使用できる。）",
+            "descriptionreplaced": "<color=#FFFFFFFF>本ラウンドで味方のキャラが倒された場合のみ使用できる。</color><color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>を1個生成する。また、味方の現在の出撃キャラは<color=#FFFFFFFF>{SPRITE_PRESET#1110}チャージ</color>を1獲得する。（各ラウンドで、1回のみ「俺様はまだ負けちゃいねぇ！」を使用できる。）",
             "id": 332005,
             "name": "俺様はまだ負けちゃいねぇ！",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>ロールフェーズ：</color>初期元素サイコロのうち、常に2個が味方の出撃キャラの元素タイプとなる。",
             "id": 321003,
             "name": "群玉閣",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "世界探索でプレイヤー「歩雲」との冒険挑戦において対応する挑戦目標をクリアすることで獲得",
             "storytext": "「その中には千もの珍宝がめいっぱい並んでいる。」",
             "storytitle": "雲に入る高閣にて星を見る",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "フィールド"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "イベントカード",
+            "description": "味方の出撃キャラの元素タイプが氷元素、水元素、炎元素、雷元素または草元素の時のみ、このカードを使用できる。味方キャラ全員に出撃キャラの元素タイプを付与する。\n（「秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "descriptionraw": "<color=#FFFFFFFF>味方の出撃キャラの元素タイプが{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素</color>、{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素</color>、{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素</color>、{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素</color>または{SPRITE_PRESET#2107}<color=#7EC236FF>草元素</color>の時のみ、このカードを使用できる。</color>味方キャラ全員に出撃キャラの元素タイプを付与する。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方の出撃キャラの元素タイプが{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素</color>、{SPRITE_PRESET#2102}<color=#80C0FFFF>水元素</color>、{SPRITE_PRESET#2103}<color=#FF9999FF>炎元素</color>、{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素</color>または{SPRITE_PRESET#2107}<color=#7EC236FF>草元素</color>の時のみ、このカードを使用できる。</color>味方キャラ全員に出撃キャラの元素タイプを付与する。\\n（「{SPRITE_PRESET#3007}秘伝」カードは各対戦ごとに1枚しか使用できない。このカードは必ず初期手札に含まれる）",
+            "id": 330003,
+            "name": "雀躍のパレード",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "「この喜びを、みんなで分かち合おう。」",
+            "storytitle": "雀躍のパレード",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "秘伝"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "仲間"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "キャラの与えるダメージ+1。\n登場時、装備キャラは本ラウンドで次に「元素スキル」を発動、あるいは「天賦」を装備する時、必要な元素サイコロの数-2。\n（「弓」キャラのみ装備可能。キャラが装備できる「武器」は最大1つまで）",
+            "descriptionraw": "<color=#FFFFFFFF>キャラの与えるダメージ+1</color>。\\n<color=#FFFFFFFF>登場時、</color>装備キャラは本ラウンドで次に「元素スキル」を発動、あるいは「{SPRITE_PRESET#3006}天賦」を装備する時、必要な元素サイコロの数-2。\\n（<color=#FFFFFFFF>「{SPRITE_PRESET#3202}弓」</color>キャラのみ装備可能。キャラが装備できる「{SPRITE_PRESET#3003}武器」は最大1つまで）",
+            "descriptionreplaced": "<color=#FFFFFFFF>キャラの与えるダメージ+1</color>。\\n<color=#FFFFFFFF>登場時、</color>装備キャラは本ラウンドで次に「元素スキル」を発動、あるいは「{SPRITE_PRESET#3006}天賦」を装備する時、必要な元素サイコロの数-2。\\n（<color=#FFFFFFFF>「{SPRITE_PRESET#3202}弓」</color>キャラのみ装備可能。キャラが装備できる「{SPRITE_PRESET#3003}武器」は最大1つまで）",
+            "id": 311206,
+            "name": "王の近侍",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "アランナラの物語で入手した武器。弓の形をしている。\n「覚えておけ——この世界は森の夢に過ぎない…森の言葉と王国の責任を、より多くの人に伝えてくれ。」",
+            "storytitle": "森の教え·王の近侍",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "武器",
+                "弓"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "支援カード",
@@ -2044,7 +2171,7 @@
             "name": "月桂の宝冠",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "不動玄石の相",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2663,9 +2790,9 @@
         "masterytalismancoldwar": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "支援カード",
-            "description": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または「天賦カード」の装備に必要な元素サイコロの数-1。\n味方が引き起こした氷元素関連反応のダメージ+2。",
-            "descriptionraw": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または「天賦カード」の装備に必要な元素サイコロの数-1。\\n味方が引き起こした氷元素関連反応のダメージ+2。",
-            "descriptionreplaced": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または「天賦カード」の装備に必要な元素サイコロの数-1。\\n味方が引き起こした氷元素関連反応のダメージ+2。",
+            "description": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または最初の「天賦カード」の装備に必要な元素サイコロの数-1。\n味方が引き起こした氷元素関連反応のダメージ+2。",
+            "descriptionraw": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または最初の「天賦カード」の装備に必要な元素サイコロの数-1。\\n味方が引き起こした氷元素関連反応のダメージ+2。",
+            "descriptionreplaced": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または最初の「天賦カード」の装備に必要な元素サイコロの数-1。\\n味方が引き起こした氷元素関連反応のダメージ+2。",
             "id": 423010,
             "name": "機巧符呪·輝く兵戈",
             "playcost": [],
@@ -2771,9 +2898,9 @@
         "masterytalismanpracticemakesperfect": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "支援カード",
-            "description": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または「天賦カード」の装備に必要な元素サイコロの数-1。",
-            "descriptionraw": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または「天賦カード」の装備に必要な元素サイコロの数-1。",
-            "descriptionreplaced": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または「天賦カード」の装備に必要な元素サイコロの数-1。",
+            "description": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または最初の「天賦カード」の装備に必要な元素サイコロの数-1。",
+            "descriptionraw": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または最初の「天賦カード」の装備に必要な元素サイコロの数-1。",
+            "descriptionreplaced": "味方のキャラカードはそれぞれ、各ラウンドにおける初回のスキル発動、または最初の「天賦カード」の装備に必要な元素サイコロの数-1。",
             "id": 423013,
             "name": "機巧符呪·経験豊富",
             "playcost": [],
@@ -3094,8 +3221,8 @@
             "name": "華飾の兜",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "「夢のような十三年、櫻吹雪のように舞い、気が付いたら、君がいない」",
@@ -3311,6 +3438,30 @@
                 "戦闘アクション"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "このカードを装備したリサに切り替えると、敵の出撃キャラに導雷を付与する。（各ラウンドで1回のみ）\n（このカードはデッキにリサが含まれている場合のみ、デッキに追加できる）",
+            "descriptionraw": "このカードを装備した<color=#FFFFFFFF>$[A1409]</color>に切り替えると、敵の出撃キャラに<color=#FFFFFFFF>$[C114091]</color>を付与する。（各ラウンドで1回のみ）\\n（このカードはデッキに$[A1409]が含まれている場合のみ、デッキに追加できる）",
+            "descriptionreplaced": "このカードを装備した<color=#FFFFFFFF>リサ</color>に切り替えると、敵の出撃キャラに<color=#FFFFFFFF>導雷</color>を付与する。（各ラウンドで1回のみ）\\n（このカードはデッキにリサが含まれている場合のみ、デッキに追加できる）",
+            "id": 214091,
+            "name": "パルスの魔女",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "キャッツテールでリサを招待して対戦し、対応する挑戦目標をクリアすることで獲得",
+            "storytext": "数え切れないほどの書籍を読んできた図書館司書にとって、勝利の技を覚えることは当然容易い…",
+            "storytitle": "リサ·パルスの魔女",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "天賦"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "イベントカード",
@@ -3438,6 +3589,36 @@
             "source": "キャッツテールで煙緋を招待して対戦し、対応する挑戦目標をクリアすることで獲得",
             "storytext": "「札遊びに関してはもちろん…法律に禁止されていない限りはしてよし。」",
             "storytitle": "煙緋·最終解釈権",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "天賦",
+                "戦闘アクション"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "装備カード",
+            "description": "戦闘アクション：味方の出撃キャラが七七の時、このカードを装備できる。\n七七がこのカードを装備した後、直ちに仙法·救苦度厄を1回発動する。\nこのカードを装備した七七が仙法·救苦度厄を使用する際、味方の戦闘不能状態のキャラを全て復活させ、HPを2回復する。（各対戦ごとに2回まで）\n（このカードはデッキに七七が含まれている場合のみ、デッキに追加できる）",
+            "descriptionraw": "$[K1]：味方の出撃キャラが<color=#FFFFFFFF>$[A1108]</color>の時、このカードを装備できる。\\n$[A1108]がこのカードを装備した後、直ちに<color=#FFD780FF>$[S11083]</color>を1回発動する。\\nこのカードを装備した$[A1108]が<color=#FFFFFFFF>$[S11083]</color>を使用する際、味方の戦闘不能状態のキャラを全て復活させ、HPを2回復する。（各対戦ごとに2回まで）\\n（このカードはデッキに$[A1108]が含まれている場合のみ、デッキに追加できる）",
+            "descriptionreplaced": "<color=#FFFFFFFF>戦闘アクション</color>：味方の出撃キャラが<color=#FFFFFFFF>七七</color>の時、このカードを装備できる。\\n七七がこのカードを装備した後、直ちに<color=#FFD780FF>仙法·救苦度厄</color>を1回発動する。\\nこのカードを装備した七七が<color=#FFFFFFFF>仙法·救苦度厄</color>を使用する際、味方の戦闘不能状態のキャラを全て復活させ、HPを2回復する。（各対戦ごとに2回まで）\\n（このカードはデッキに七七が含まれている場合のみ、デッキに追加できる）",
+            "id": 211081,
+            "name": "起死回骸",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "キャッツテールで七七を招待して対戦し、対応する挑戦目標をクリアすることで獲得",
+            "storytext": "「生きて…いかないと…」",
+            "storytitle": "七七·起死回骸",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援カード",
+            "description": "味方が任意のアクションをした後、手札の数が0の場合、手札を1枚引く。\n使用可能回数:3",
+            "descriptionraw": "<color=#FFFFFFFF>味方が任意のアクションをした後、手札の数が0の場合</color>、手札を1枚引く。\\n<color=#FFFFFFFF>$[K3]:3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>味方が任意のアクションをした後、手札の数が0の場合</color>、手札を1枚引く。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>:3</color>",
+            "id": 322019,
+            "name": "セタレ",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "砂漠の天才は、雨林の殿堂の奥へと向かう…",
+            "storytitle": "高き壁を越えて·セタレ",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "仲間"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "装備カード",
@@ -3675,7 +3879,7 @@
             "name": "追憶のしめ縄",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "イベントカード",
-            "description": "味方のすべての元素サイコロを現在の出撃キャラの元素タイプに転換する。\n（デッキに「稲妻」のキャラが2体以上含まれている場合のみ、デッキに追加できる）",
-            "descriptionraw": "味方のすべての元素サイコロを現在の出撃キャラの元素タイプに転換する。\\n（デッキに「{SPRITE_PRESET#3403}稲妻」のキャラが2体以上含まれている場合のみ、デッキに追加できる）",
-            "descriptionreplaced": "味方のすべての元素サイコロを現在の出撃キャラの元素タイプに転換する。\\n（デッキに「{SPRITE_PRESET#3403}稲妻」のキャラが2体以上含まれている場合のみ、デッキに追加できる）",
+            "description": "味方のすべての元素サイコロを万能元素に転換する。\n（デッキに「稲妻」のキャラが2体以上含まれている場合のみ、デッキに追加できる）",
+            "descriptionraw": "味方のすべての元素サイコロを$[K411]に転換する。\\n（デッキに「{SPRITE_PRESET#3403}稲妻」のキャラが2体以上含まれている場合のみ、デッキに追加できる）",
+            "descriptionreplaced": "味方のすべての元素サイコロを<color=#FFFFFFFF>{SPRITE_PRESET#1111}万能元素</color>に転換する。\\n（デッキに「{SPRITE_PRESET#3403}稲妻」のキャラが2体以上含まれている場合のみ、デッキに追加できる）",
             "id": 331803,
             "name": "雷と永遠",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "雷のような怒り",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「君が雷雨と一緒にまた来た時、他の歌を歌ってあげるよ！」",
@@ -4457,7 +4661,7 @@
             "name": "虺雷の姿",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "雷を呼ぶ冠",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "辰砂往生録",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "翠緑の影",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「いつかきっと…果てのない猟場で、私たちは再び出会う。」",
@@ -4773,7 +4977,7 @@
             "name": "緑の狩人の冠",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "イベントカード",
+            "description": "味方キャラが装備している「武器」を手札に戻す。\n本ラウンドで、味方が次に手札の「武器」を使用する時、必要な元素サイコロの数-2。",
+            "descriptionraw": "味方キャラが装備している「{SPRITE_PRESET#3003}武器」を手札に戻す。\\n<color=#FFFFFFFF>本ラウンドで、味方が次に手札の「{SPRITE_PRESET#3003}武器」を使用する時</color>、必要な元素サイコロの数-2。",
+            "descriptionreplaced": "味方キャラが装備している「{SPRITE_PRESET#3003}武器」を手札に戻す。\\n<color=#FFFFFFFF>本ラウンドで、味方が次に手札の「{SPRITE_PRESET#3003}武器」を使用する時</color>、必要な元素サイコロの数-2。",
+            "id": 332022,
+            "name": "剣はいずこ",
+            "playcost": [],
+            "storytext": "出自不明の冒険者協会支部長。「剣」に関する手がかりを探し続け、道ゆく強敵に挑戦を挑み続ける…",
+            "storytitle": "剣はいずこ",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "装備カード",
@@ -4990,7 +5208,7 @@
             "name": "酒に漬けた帽子",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "焦げた魔女の帽子",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

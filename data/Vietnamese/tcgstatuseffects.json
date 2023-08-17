@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Trạng Thái",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Trạng thái này ban đầu có 2 tầng \"Dẫn Lôi\"; khi áp dụng trùng lặp sẽ cộng dồn 1 tầng \"Dẫn Lôi\". \"Dẫn Lôi\" tối đa có thể cộng dồn đến 4 tầng.\nGiai Đoạn Kết Thúc: Cộng dồn 1 tầng \"Dẫn Lôi\".\n\nKhi nhân vật áp dụng chịu sát thương Sấm Giội: Xóa trạng thái này, mỗi tầng \"Dẫn Lôi\" sẽ +1 sát thương lần đó.",
+            "descriptionraw": "Trạng thái này ban đầu có 2 tầng \"Dẫn Lôi\"; khi áp dụng trùng lặp sẽ cộng dồn 1 tầng \"Dẫn Lôi\". \"Dẫn Lôi\" tối đa có thể cộng dồn đến 4 tầng.\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Cộng dồn 1 tầng \"Dẫn Lôi\".\\n\\n<color=#FFFFFFFF>Khi nhân vật áp dụng chịu sát thương $[S14092]:</color> Xóa trạng thái này, mỗi tầng \"Dẫn Lôi\" sẽ +1 sát thương lần đó.",
+            "descriptionreplaced": "Trạng thái này ban đầu có 2 tầng \"Dẫn Lôi\"; khi áp dụng trùng lặp sẽ cộng dồn 1 tầng \"Dẫn Lôi\". \"Dẫn Lôi\" tối đa có thể cộng dồn đến 4 tầng.\\n<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Cộng dồn 1 tầng \"Dẫn Lôi\".\\n\\n<color=#FFFFFFFF>Khi nhân vật áp dụng chịu sát thương Sấm Giội:</color> Xóa trạng thái này, mỗi tầng \"Dẫn Lôi\" sẽ +1 sát thương lần đó.",
+            "id": 114091,
+            "name": "Dẫn Lôi",
+            "statustypetext": "Trạng Thái Nhân Vật",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Thẻ Trang Bị",
@@ -743,6 +755,20 @@
             "statustypetext": "Hiệu Ứng Xuất Chiến Đội",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Khi Albedo có trang bị thẻ bài này ở trong trận, nếu trong trận phe ta có Hoa Mặt Trời, thì khi nhân vật phe ta tiến hành Tấn Công Khi Đáp sẽ +1 sát thương gây ra.",
+            "descriptionraw": "Khi $[A1604] có trang bị thẻ bài này ở trong trận, nếu trong trận phe ta có <color=#FFFFFFFF>$[C116041]</color>, thì khi nhân vật phe ta tiến hành $[K52] sẽ +1 sát thương gây ra.",
+            "descriptionreplaced": "Khi Albedo có trang bị thẻ bài này ở trong trận, nếu trong trận phe ta có <color=#FFFFFFFF>Hoa Mặt Trời</color>, thì khi nhân vật phe ta tiến hành <color=#FFFFFFFF>Tấn Công Khi Đáp</color> sẽ +1 sát thương gây ra.",
+            "id": 216041,
+            "name": "Sự Giáng Thế Của Thần",
+            "statustypetext": "Trang Bị Nhân Vật",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Hiệu Ứng Xuất Chiến",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Sau khi nhân vật phe ta dùng kỹ năng: Nếu nhân vật này chưa đầy HP, sẽ chữa trị 2 điểm cho nhân vật này.\nSố Lần Khả Dụng: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Sau khi nhân vật phe ta dùng kỹ năng:</color> Nếu nhân vật này chưa đầy HP, sẽ chữa trị 2 điểm cho nhân vật này.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Sau khi nhân vật phe ta dùng kỹ năng:</color> Nếu nhân vật này chưa đầy HP, sẽ chữa trị 2 điểm cho nhân vật này.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Số Lần Khả Dụng</color>: 3</color>",
+            "id": 111082,
+            "name": "Bùa Độ Ách Chân",
+            "statustypetext": "Hiệu Ứng Xuất Chiến Đội",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Khiên Hàn Băng",
             "statustypetext": "Trạng Thái Nhân Vật",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Hiệu Ứng Xuất Chiến",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Sau khi nhân vật phe ta dùng kỹ năng: Chuyển hiệu quả này sang phe đối phương, và tích lũy 1 điểm \"Độ Nóng\" (Tối đa tích lũy đến 4 điểm). Giai Đoạn Kết Thúc: Xóa hiệu quả này, gây 2 điểm Sát Thương Vật Lý cho nhân vật xuất chiến của phe sở tại; Mỗi 1 điểm \"Độ Nóng\" sẽ +1 sát thương này.",
+            "descriptionraw": "<color=#FFFFFFFF>Sau khi nhân vật phe ta dùng kỹ năng:</color> Chuyển hiệu quả này sang phe đối phương, và tích lũy 1 điểm \"Độ Nóng\" (Tối đa tích lũy đến 4 điểm). <color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Xóa hiệu quả này, gây 2 điểm $[K100] cho nhân vật xuất chiến của phe sở tại; Mỗi 1 điểm \"Độ Nóng\" sẽ +1 sát thương này.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Sau khi nhân vật phe ta dùng kỹ năng:</color> Chuyển hiệu quả này sang phe đối phương, và tích lũy 1 điểm \"Độ Nóng\" (Tối đa tích lũy đến 4 điểm). <color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Xóa hiệu quả này, gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color> cho nhân vật xuất chiến của phe sở tại; Mỗi 1 điểm \"Độ Nóng\" sẽ +1 sát thương này.",
+            "id": 401001,
+            "name": "Đạn Nổ Nóng Rực",
+            "statustypetext": "Hiệu Ứng Xuất Chiến Đội",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Hiệu Ứng Xuất Chiến",
+            "description": "Hiệp này không thể tiếp tục đánh ra \"Bổn Đại Gia Chưa Thua Đâu!\".",
+            "descriptionraw": "Hiệp này không thể tiếp tục đánh ra \"Bổn Đại Gia Chưa Thua Đâu!\".",
+            "descriptionreplaced": "Hiệp này không thể tiếp tục đánh ra \"Bổn Đại Gia Chưa Thua Đâu!\".",
+            "id": 303205,
+            "name": "Bổn Đại Gia Chưa Thua Đâu! (Đang CD)",
+            "statustypetext": "Hiệu Ứng Xuất Chiến Đội",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Sát thương nhân vật gây ra +1.",
+            "descriptionraw": "<color=#FFFFFFFF>Sát thương nhân vật gây ra +1</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Sát thương nhân vật gây ra +1</color>.",
+            "id": 311206,
+            "name": "Cận Vệ Nhà Vua",
+            "statustypetext": "Trang Bị Nhân Vật",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Trạng Thái",
+            "description": "Nhân vật áp dụng trong hiệp này khi sử dụng Kỹ Năng Nguyên Tố hoặc trang bị Thẻ Thiên Phú: Giảm tiêu hao 2 Xúc Xắc Nguyên Tố.",
+            "descriptionraw": "<color=#FFFFFFFF>Nhân vật áp dụng trong hiệp này khi sử dụng Kỹ Năng Nguyên Tố hoặc trang bị {SPRITE_PRESET#3006}Thẻ Thiên Phú:</color> Giảm tiêu hao 2 Xúc Xắc Nguyên Tố.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Nhân vật áp dụng trong hiệp này khi sử dụng Kỹ Năng Nguyên Tố hoặc trang bị {SPRITE_PRESET#3006}Thẻ Thiên Phú:</color> Giảm tiêu hao 2 Xúc Xắc Nguyên Tố.",
+            "id": 301103,
+            "name": "Cận Vệ Nhà Vua (Đang Hiệu Lực)",
+            "statustypetext": "Trạng Thái Nhân Vật",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "Hiệu Ứng Xuất Chiến Đội",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Hiệu Ứng Xuất Chiến",
+            "description": "Giai Đoạn Kết Thúc: Bài thủ phe ta thua trận này.",
+            "descriptionraw": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Bài thủ phe ta thua trận này.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Giai Đoạn Kết Thúc:</color> Bài thủ phe ta thua trận này.",
+            "id": 403016,
+            "name": "Cái Giá Của Mãnh Kích",
+            "statustypetext": "Hiệu Ứng Xuất Chiến Đội",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Thẻ Trang Bị",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Sau khi đổi sang Lisa có trang bị thẻ bài này: Khiến nhân vật xuất chiến phe địch áp dụng Dẫn Lôi. (Mỗi hiệp 1 lần)",
+            "descriptionraw": "Sau khi đổi sang <color=#FFFFFFFF>$[A1409]</color> có trang bị thẻ bài này: Khiến nhân vật xuất chiến phe địch áp dụng <color=#FFFFFFFF>$[C114091]</color>. (Mỗi hiệp 1 lần)",
+            "descriptionreplaced": "Sau khi đổi sang <color=#FFFFFFFF>Lisa</color> có trang bị thẻ bài này: Khiến nhân vật xuất chiến phe địch áp dụng <color=#FFFFFFFF>Dẫn Lôi</color>. (Mỗi hiệp 1 lần)",
+            "id": 214091,
+            "name": "Rung Động Của Ma Nữ",
+            "statustypetext": "Trang Bị Nhân Vật",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Nghi Thức Điều Khiển",
             "statustypetext": "Trạng Thái Nhân Vật",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Thẻ Trang Bị",
+            "description": "Qiqi trang bị thẻ bài này, khi dùng Tiên Pháp - Cứu Khổ Độ Ách sẽ hồi sinh tất cả nhân vật đã ngã xuống của phe ta, và chữa trị 2 điểm cho nhân vật đó. (Chỉ được dùng 2 lần trong cả ván đấu)",
+            "descriptionraw": "$[A1108] trang bị thẻ bài này, khi dùng <color=#FFFFFFFF>$[S11083]</color> sẽ hồi sinh tất cả nhân vật đã ngã xuống của phe ta, và chữa trị 2 điểm cho nhân vật đó. (Chỉ được dùng 2 lần trong cả ván đấu)",
+            "descriptionreplaced": "Qiqi trang bị thẻ bài này, khi dùng <color=#FFFFFFFF>Tiên Pháp - Cứu Khổ Độ Ách</color> sẽ hồi sinh tất cả nhân vật đã ngã xuống của phe ta, và chữa trị 2 điểm cho nhân vật đó. (Chỉ được dùng 2 lần trong cả ván đấu)",
+            "id": 211081,
+            "name": "Khởi Tử Hồi Sinh",
+            "statustypetext": "Trang Bị Nhân Vật",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Sau khi phe ta sử dụng kỹ năng lần sau:</color> Sẽ đổi nhân vật dự bị tiếp theo của phe ta ra trận.",
             "id": 303207,
             "name": "Khi Hạc Quay Về (Đang có hiệu lực)",
+            "statustypetext": "Hiệu Ứng Xuất Chiến Đội",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Hiệu Ứng Xuất Chiến",
+            "description": "Trong hiệp này, lần tiếp theo phe ta đánh ra Thẻ Vũ Khí: Giảm tiêu hao 2 Xúc Xắc Nguyên Tố.",
+            "descriptionraw": "<color=#FFFFFFFF>Trong hiệp này, lần tiếp theo phe ta đánh ra {SPRITE_PRESET#3003}Thẻ Vũ Khí:</color> Giảm tiêu hao 2 Xúc Xắc Nguyên Tố.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Trong hiệp này, lần tiếp theo phe ta đánh ra {SPRITE_PRESET#3003}Thẻ Vũ Khí:</color> Giảm tiêu hao 2 Xúc Xắc Nguyên Tố.",
+            "id": 303222,
+            "name": "Tàng Phong Nơi Nào (Đang Hiệu Lực)",
             "statustypetext": "Hiệu Ứng Xuất Chiến Đội",
             "tags": []
         },

@@ -64,6 +64,14 @@
             "rarity": 3,
             "source": "À acheter dans la boutique de cartes"
         },
+        "fontaine": {
+            "description": "Il faut mémoriser les différents « systèmes » d'un jeu de cartes, avant de pouvoir utiliser habilement ses « règles » pour réaliser une « performance » des plus spectaculaires.",
+            "descriptionraw": "Il faut mémoriser les différents « systèmes » d'un jeu de cartes, avant de pouvoir utiliser habilement ses « règles » pour réaliser une « performance » des plus spectaculaires.",
+            "id": 123,
+            "name": "Fontaine",
+            "rarity": 3,
+            "source": "Récompense de réputation à Fontaine"
+        },
         "glazelily": {
             "description": "Les anciens contes des royaumes mortels ont disparu, et maintenant, seul le nom parfumé des fleurs reste.",
             "descriptionraw": "Les anciens contes des royaumes mortels ont disparu, et maintenant, seul le nom parfumé des fleurs reste.",

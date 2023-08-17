@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "สถานะ",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "ในตอนเริ่ม สถานะนี้จะมี \"Conductive\" 2 ชั้น; เมื่อได้รับสถานะนี้ซ้ำ จะซ้อนทับ \"Conductive\" เพิ่ม 1 ชั้น สามารถซ้อนทับได้สูงสุด 4 ชั้น\nจบเฟส: ซ้อนทับ \"Conductive\" เพิ่ม 1 ชั้น\n\nเมื่อตัวละครที่มีการ์ดใบนี้ ได้รับความเสียหายจาก Violet Arc: ลบล้างสถานะนี้ และแต่ละชั้นของ \"Conductive\" จะสร้างความเสียหายดังกล่าว +1",
+            "descriptionraw": "ในตอนเริ่ม สถานะนี้จะมี \"Conductive\" 2 ชั้น; เมื่อได้รับสถานะนี้ซ้ำ จะซ้อนทับ \"Conductive\" เพิ่ม 1 ชั้น สามารถซ้อนทับได้สูงสุด 4 ชั้น\\n<color=#FFFFFFFF>จบเฟส: </color>ซ้อนทับ \"Conductive\" เพิ่ม 1 ชั้น\\n\\n<color=#FFFFFFFF>เมื่อตัวละครที่มีการ์ดใบนี้ ได้รับความเสียหายจาก $[S14092]: </color>ลบล้างสถานะนี้ และแต่ละชั้นของ \"Conductive\" จะสร้างความเสียหายดังกล่าว +1",
+            "descriptionreplaced": "ในตอนเริ่ม สถานะนี้จะมี \"Conductive\" 2 ชั้น; เมื่อได้รับสถานะนี้ซ้ำ จะซ้อนทับ \"Conductive\" เพิ่ม 1 ชั้น สามารถซ้อนทับได้สูงสุด 4 ชั้น\\n<color=#FFFFFFFF>จบเฟส: </color>ซ้อนทับ \"Conductive\" เพิ่ม 1 ชั้น\\n\\n<color=#FFFFFFFF>เมื่อตัวละครที่มีการ์ดใบนี้ ได้รับความเสียหายจาก Violet Arc: </color>ลบล้างสถานะนี้ และแต่ละชั้นของ \"Conductive\" จะสร้างความเสียหายดังกล่าว +1",
+            "id": 114091,
+            "name": "Conductive",
+            "statustypetext": "สถานะของตัวละคร",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "การ์ดอุปกรณ์",
@@ -743,6 +755,20 @@
             "statustypetext": "สถานะการต่อสู้ของทีม",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "เมื่อ Albedo ที่มีการ์ดใบนี้อยู่ในสนาม หากในสนามของฝ่ายเรามี Solar Isotoma เมื่อใช้โจมตีพุ่งลงจากอากาศ จะสร้างความเสียหาย +1",
+            "descriptionraw": "เมื่อ $[A1604] ที่มีการ์ดใบนี้อยู่ในสนาม หากในสนามของฝ่ายเรามี <color=#FFFFFFFF>$[C116041]</color> เมื่อใช้$[K52] จะสร้างความเสียหาย +1",
+            "descriptionreplaced": "เมื่อ Albedo ที่มีการ์ดใบนี้อยู่ในสนาม หากในสนามของฝ่ายเรามี <color=#FFFFFFFF>Solar Isotoma</color> เมื่อใช้<color=#FFFFFFFF>โจมตีพุ่งลงจากอากาศ</color> จะสร้างความเสียหาย +1",
+            "id": 216041,
+            "name": "Descent of Divinity",
+            "statustypetext": "อุปกรณ์ของตัวละคร",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "สถานะการต่อสู้",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "หลังจากตัวละครฝ่ายเราใช้สกิล: หากตัวละครดังกล่าว มีค่าพลังชีวิตไม่เต็ม จะทำการรักษาตัวละครนี้ 2 หน่วย\nจำนวนครั้งที่ใช้ได้: 3",
+            "descriptionraw": "<color=#FFFFFFFF>หลังจากตัวละครฝ่ายเราใช้สกิล:</color> หากตัวละครดังกล่าว มีค่าพลังชีวิตไม่เต็ม จะทำการรักษาตัวละครนี้ 2 หน่วย\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>หลังจากตัวละครฝ่ายเราใช้สกิล:</color> หากตัวละครดังกล่าว มีค่าพลังชีวิตไม่เต็ม จะทำการรักษาตัวละครนี้ 2 หน่วย\\n<color=#FFFFFFFF><color=#FFFFFFFF>จำนวนครั้งที่ใช้ได้</color>: 3</color>",
+            "id": 111082,
+            "name": "Fortune-Preserving Talisman",
+            "statustypetext": "สถานะการต่อสู้ของทีม",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Hoarfrost Greatshield",
             "statustypetext": "สถานะของตัวละคร",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "สถานะการต่อสู้",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "หลังจากที่ตัวละครฝ่ายเราใช้สกิล: ย้ายเอฟเฟกต์นี้ไปยังฝ่ายตรงข้าม และสะสม \"Piping Hot\" 1 หน่วย (สะสมได้สูงสุด 4 หน่วย)\nจบเฟส: ลบล้างเอฟเฟกต์นี้ และสร้างความเสียหายกายภาพ 2 หน่วย แก่ตัวละครที่เข้าต่อสู้ของฝ่ายที่มีเอฟเฟกต์นี้อยู่; \"Piping Hot\" ทุก 1 หน่วย จะทำให้ความเสียหาย +1",
+            "descriptionraw": "<color=#FFFFFFFF>หลังจากที่ตัวละครฝ่ายเราใช้สกิล:</color> ย้ายเอฟเฟกต์นี้ไปยังฝ่ายตรงข้าม และสะสม \"Piping Hot\" 1 หน่วย (สะสมได้สูงสุด 4 หน่วย)\\n<color=#FFFFFFFF>จบเฟส:</color> ลบล้างเอฟเฟกต์นี้ และสร้าง$[K100] 2 หน่วย แก่ตัวละครที่เข้าต่อสู้ของฝ่ายที่มีเอฟเฟกต์นี้อยู่; \"Piping Hot\" ทุก 1 หน่วย จะทำให้ความเสียหาย +1",
+            "descriptionreplaced": "<color=#FFFFFFFF>หลังจากที่ตัวละครฝ่ายเราใช้สกิล:</color> ย้ายเอฟเฟกต์นี้ไปยังฝ่ายตรงข้าม และสะสม \"Piping Hot\" 1 หน่วย (สะสมได้สูงสุด 4 หน่วย)\\n<color=#FFFFFFFF>จบเฟส:</color> ลบล้างเอฟเฟกต์นี้ และสร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย แก่ตัวละครที่เข้าต่อสู้ของฝ่ายที่มีเอฟเฟกต์นี้อยู่; \"Piping Hot\" ทุก 1 หน่วย จะทำให้ความเสียหาย +1",
+            "id": 401001,
+            "name": "Hot Potato",
+            "statustypetext": "สถานะการต่อสู้ของทีม",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "สถานะการต่อสู้",
+            "description": "ไม่สามารถใช้ \"I Haven't Lost Yet!\" ในเทิร์นนี้ได้อีก",
+            "descriptionraw": "ไม่สามารถใช้ \"I Haven't Lost Yet!\" ในเทิร์นนี้ได้อีก",
+            "descriptionreplaced": "ไม่สามารถใช้ \"I Haven't Lost Yet!\" ในเทิร์นนี้ได้อีก",
+            "id": 303205,
+            "name": "I Haven't Lost Yet! (กำลังคูลดาวน์)",
+            "statustypetext": "สถานะการต่อสู้ของทีม",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "ตัวละครสร้างความเสียหาย +1",
+            "descriptionraw": "<color=#FFFFFFFF>ตัวละครสร้างความเสียหาย +1</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>ตัวละครสร้างความเสียหาย +1</color>",
+            "id": 311206,
+            "name": "King's Squire",
+            "statustypetext": "อุปกรณ์ของตัวละคร",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "สถานะ",
+            "description": "เมื่อตัวละครใช้ \"สกิลธาตุ\" หรือสวมใส่ \"พรสวรรค์\": ใช้ Elemental Dice น้อยลง 2 ลูก",
+            "descriptionraw": "<color=#FFFFFFFF>เมื่อตัวละครใช้ \"สกิลธาตุ\" หรือสวมใส่ \"{SPRITE_PRESET#3006}พรสวรรค์\":</color> ใช้ Elemental Dice น้อยลง 2 ลูก",
+            "descriptionreplaced": "<color=#FFFFFFFF>เมื่อตัวละครใช้ \"สกิลธาตุ\" หรือสวมใส่ \"{SPRITE_PRESET#3006}พรสวรรค์\":</color> ใช้ Elemental Dice น้อยลง 2 ลูก",
+            "id": 301103,
+            "name": "King's Squire (ระหว่างเกิดผล)",
+            "statustypetext": "สถานะของตัวละคร",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "สถานะการต่อสู้ของทีม",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "สถานะการต่อสู้",
+            "description": "จบเฟส: ผู้เล่นฝ่ายเราพ่ายแพ้",
+            "descriptionraw": "<color=#FFFFFFFF>จบเฟส:</color> ผู้เล่นฝ่ายเราพ่ายแพ้",
+            "descriptionreplaced": "<color=#FFFFFFFF>จบเฟส:</color> ผู้เล่นฝ่ายเราพ่ายแพ้",
+            "id": 403016,
+            "name": "Price of Unrelenting Assault",
+            "statustypetext": "สถานะการต่อสู้ของทีม",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "การ์ดอุปกรณ์",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "เมื่อเปลี่ยนเป็น Lisa ที่มีการ์ดใบนี้: จะทำให้เกิด Conductive กับตัวละครที่เข้าต่อสู้ของฝ่ายศัตรู (เทิร์นละ 1 ครั้ง)",
+            "descriptionraw": "เมื่อเปลี่ยนเป็น <color=#FFFFFFFF>$[A1409]</color> ที่มีการ์ดใบนี้: จะทำให้เกิด <color=#FFFFFFFF>$[C114091]</color> กับตัวละครที่เข้าต่อสู้ของฝ่ายศัตรู (เทิร์นละ 1 ครั้ง)",
+            "descriptionreplaced": "เมื่อเปลี่ยนเป็น <color=#FFFFFFFF>Lisa</color> ที่มีการ์ดใบนี้: จะทำให้เกิด <color=#FFFFFFFF>Conductive</color> กับตัวละครที่เข้าต่อสู้ของฝ่ายศัตรู (เทิร์นละ 1 ครั้ง)",
+            "id": 214091,
+            "name": "Pulsating Witch",
+            "statustypetext": "อุปกรณ์ของตัวละคร",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Rite of Dispatch",
             "statustypetext": "สถานะของตัวละคร",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "การ์ดอุปกรณ์",
+            "description": "เมื่อ Qiqi ที่มีการ์ดใบนี้ใช้ Adeptus Art: Preserver of Fortune จะฟื้นชีวิตตัวละครที่หมดสติทั้งหมดของฝ่ายเรา และทำการรักษาให้ 2 หน่วย (จำกัด 2 ครั้ง ต่อการดูเอล)",
+            "descriptionraw": "เมื่อ $[A1108] ที่มีการ์ดใบนี้ใช้ <color=#FFFFFFFF>$[S11083]</color> จะฟื้นชีวิตตัวละครที่หมดสติทั้งหมดของฝ่ายเรา และทำการรักษาให้ 2 หน่วย (จำกัด 2 ครั้ง ต่อการดูเอล)",
+            "descriptionreplaced": "เมื่อ Qiqi ที่มีการ์ดใบนี้ใช้ <color=#FFFFFFFF>Adeptus Art: Preserver of Fortune</color> จะฟื้นชีวิตตัวละครที่หมดสติทั้งหมดของฝ่ายเรา และทำการรักษาให้ 2 หน่วย (จำกัด 2 ครั้ง ต่อการดูเอล)",
+            "id": 211081,
+            "name": "Rite of Resurrection",
+            "statustypetext": "อุปกรณ์ของตัวละคร",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>หลังจากที่ฝ่ายเราใช้สกิลครั้งต่อไป:</color> จะทำการเปลี่ยนตัวละครนอกสนามตัวต่อไปของฝ่ายเราเข้าสู่สนาม",
             "id": 303207,
             "name": "When the Crane Returned (ระหว่างเกิดผล)",
+            "statustypetext": "สถานะการต่อสู้ของทีม",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "สถานะการต่อสู้",
+            "description": "ในเทิร์นนี้ ครั้งต่อไปที่ฝ่ายเราใช้การ์ด \"อาวุธ\": จะใช้ Elemental Dice ลดลง 2 ลูก",
+            "descriptionraw": "<color=#FFFFFFFF>ในเทิร์นนี้ ครั้งต่อไปที่ฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\":</color> จะใช้ Elemental Dice ลดลง 2 ลูก",
+            "descriptionreplaced": "<color=#FFFFFFFF>ในเทิร์นนี้ ครั้งต่อไปที่ฝ่ายเราใช้การ์ด \"{SPRITE_PRESET#3003}อาวุธ\":</color> จะใช้ Elemental Dice ลดลง 2 ลูก",
+            "id": 303222,
+            "name": "Where Is the Unseen Razor? (ระหว่างเกิดผล)",
             "statustypetext": "สถานะการต่อสู้ของทีม",
             "tags": []
         },

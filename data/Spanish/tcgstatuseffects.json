@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Estado",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Este estado comienza con 2 cargas de conducción. Al volver a aplicarlo, se añadirá otra carga, hasta un máximo de 4.\nFase final: +1 carga de conducción.\n\nCuando el personaje afectado por este estado recibe daño por medio de Arco violeta, dicho estado se elimina y cada carga de conducción otorga daño +1 a dicha habilidad.",
+            "descriptionraw": "Este estado comienza con 2 cargas de conducción. Al volver a aplicarlo, se añadirá otra carga, hasta un máximo de 4.\\n<color=#FFFFFFFF>Fase final:</color> +1 carga de conducción.\\n\\n<color=#FFFFFFFF>Cuando el personaje afectado por este estado recibe daño por medio de $[S14092]</color>, dicho estado se elimina y cada carga de conducción otorga daño +1 a dicha habilidad.",
+            "descriptionreplaced": "Este estado comienza con 2 cargas de conducción. Al volver a aplicarlo, se añadirá otra carga, hasta un máximo de 4.\\n<color=#FFFFFFFF>Fase final:</color> +1 carga de conducción.\\n\\n<color=#FFFFFFFF>Cuando el personaje afectado por este estado recibe daño por medio de Arco violeta</color>, dicho estado se elimina y cada carga de conducción otorga daño +1 a dicha habilidad.",
+            "id": 114091,
+            "name": "Conducción|s1:conducción",
+            "statustypetext": "Estados del personaje",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de equipamiento",
@@ -743,6 +755,20 @@
             "statustypetext": "Estados en combate del equipo",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Mientras Albedo tenga esta carta equipada y esté en combate, si en tu zona hay alguna isotoma solar, tu personaje inflige daño +1 al ejecutar un Ataque Descendente.",
+            "descriptionraw": "Mientras $[A1604] tenga esta carta equipada y esté en combate, si en tu zona hay alguna <color=#FFFFFFFF>$[C116041|s1]</color>, tu personaje inflige daño +1 al ejecutar un $[K52].",
+            "descriptionreplaced": "Mientras Albedo tenga esta carta equipada y esté en combate, si en tu zona hay alguna <color=#FFFFFFFF>isotoma solar</color>, tu personaje inflige daño +1 al ejecutar un <color=#FFFFFFFF>Ataque Descendente</color>.",
+            "id": 216041,
+            "name": "Caída divina",
+            "statustypetext": "Equipamiento del personaje",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado en combate",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Cuando tu personaje usa una habilidad, si la Vida de dicho personaje no está al máximo, Vida +2.\nNúmero de usos: 3.",
+            "descriptionraw": "<color=#FFFFFFFF>Cuando tu personaje usa una habilidad</color>, si la Vida de dicho personaje no está al máximo, Vida +2.\\n<color=#FFFFFFFF>Número de $[K3|s3]: 3</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Cuando tu personaje usa una habilidad</color>, si la Vida de dicho personaje no está al máximo, Vida +2.\\n<color=#FFFFFFFF>Número de <color=#FFFFFFFF>usos</color>: 3</color>.",
+            "id": 111082,
+            "name": "Talismán de conservación de la fortuna|s1:talismán de conservación de la fortuna",
+            "statustypetext": "Estados en combate del equipo",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Gran escudo de escarcha|s1:gran escudo de escarcha",
             "statustypetext": "Estados del personaje",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado en combate",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Después de que tu personaje use una habilidad, este efecto se pasa al equipo contrario y acumula 1 pt. de “intensidad calcinadora” (máx. 4 pts.). Fase final: elimina este efecto e inflige 2 pts. de Daño Físico al personaje en combate de dicho equipo. Daño +1 por cada punto de intensidad calcinadora.",
+            "descriptionraw": "#<color=#FFFFFFFF>Después de que tu personaje use una habilidad</color>, este efecto se pasa al equipo contrario y acumula 1{NON_BREAK_SPACE}pt. de “intensidad calcinadora” (máx. 4{NON_BREAK_SPACE}pts.). <color=#FFFFFFFF>Fase final:</color> elimina este efecto e inflige 2{NON_BREAK_SPACE}pts. de $[K100] al personaje en combate de dicho equipo. Daño +1 por cada punto de intensidad calcinadora.",
+            "descriptionreplaced": "#<color=#FFFFFFFF>Después de que tu personaje use una habilidad</color>, este efecto se pasa al equipo contrario y acumula 1{NON_BREAK_SPACE}pt. de “intensidad calcinadora” (máx. 4{NON_BREAK_SPACE}pts.). <color=#FFFFFFFF>Fase final:</color> elimina este efecto e inflige 2{NON_BREAK_SPACE}pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color> al personaje en combate de dicho equipo. Daño +1 por cada punto de intensidad calcinadora.",
+            "id": 401001,
+            "name": "Bomba calcinadora",
+            "statustypetext": "Estados en combate del equipo",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado en combate",
+            "description": "No puedes volver a usar “¡No oí la campana!” en esta ronda.",
+            "descriptionraw": "No puedes volver a usar “¡No oí la campana!” en esta ronda.",
+            "descriptionreplaced": "No puedes volver a usar “¡No oí la campana!” en esta ronda.",
+            "id": 303205,
+            "name": "¡No oí la campana! (En TdE)",
+            "statustypetext": "Estados en combate del equipo",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Daño +1.",
+            "descriptionraw": "<color=#FFFFFFFF>Daño +1</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Daño +1</color>.",
+            "id": 311206,
+            "name": "Vasalla del Rey",
+            "statustypetext": "Equipamiento del personaje",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Estado",
+            "description": "La próxima vez que el personaje use la Habilidad Elemental o se equipe un talento en esta ronda, gastará 2 dados elementales menos.",
+            "descriptionraw": "<color=#FFFFFFFF>La próxima vez que el personaje use la Habilidad Elemental o se equipe un {SPRITE_PRESET#3006}talento en esta ronda</color>, gastará 2 dados elementales menos.",
+            "descriptionreplaced": "<color=#FFFFFFFF>La próxima vez que el personaje use la Habilidad Elemental o se equipe un {SPRITE_PRESET#3006}talento en esta ronda</color>, gastará 2 dados elementales menos.",
+            "id": 301103,
+            "name": "Vasalla del Rey (efecto activado)",
+            "statustypetext": "Estados del personaje",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "Estados en combate del equipo",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado en combate",
+            "description": "Fase final: pierdes la partida.",
+            "descriptionraw": "<color=#FFFFFFFF>Fase final:</color> pierdes la partida.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Fase final:</color> pierdes la partida.",
+            "id": 403016,
+            "name": "El precio de un asalto",
+            "statustypetext": "Estados en combate del equipo",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta de equipamiento",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Tras cambiar a Lisa mientras tiene esta carta equipada, el personaje en combate enemigo es afectado por conducción (1 vez por ronda).",
+            "descriptionraw": "Tras cambiar a <color=#FFFFFFFF>$[A1409]</color> mientras tiene esta carta equipada, el personaje en combate enemigo es afectado por <color=#FFFFFFFF>$[C114091|s1]</color> (1 vez por ronda).",
+            "descriptionreplaced": "Tras cambiar a <color=#FFFFFFFF>Lisa</color> mientras tiene esta carta equipada, el personaje en combate enemigo es afectado por <color=#FFFFFFFF>conducción</color> (1 vez por ronda).",
+            "id": 214091,
+            "name": "Bruja palpitante",
+            "statustypetext": "Equipamiento del personaje",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Rito de la expedición|s1:rito de la expedición",
             "statustypetext": "Estados del personaje",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta de equipamiento",
+            "description": "Cuando Qiqi usa Magia Adeptus: Preservadora de la fortuna mientras tiene esta carta equipada, revive a todos tus personajes derrotados del equipo y les regenera Vida +2 (solo se puede usar 2 veces por partida).",
+            "descriptionraw": "Cuando $[A1108] usa <color=#FFFFFFFF>$[S11083]</color> mientras tiene esta carta equipada, revive a todos tus personajes derrotados del equipo y les regenera Vida +2 (solo se puede usar 2 veces por partida).",
+            "descriptionreplaced": "Cuando Qiqi usa <color=#FFFFFFFF>Magia Adeptus: Preservadora de la fortuna</color> mientras tiene esta carta equipada, revive a todos tus personajes derrotados del equipo y les regenera Vida +2 (solo se puede usar 2 veces por partida).",
+            "id": 211081,
+            "name": "Rito de la resurrección",
+            "statustypetext": "Equipamiento del personaje",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>La próxima vez que uses una habilidad</color>, tu siguiente personaje en reserva entrará en el campo de batalla.",
             "id": 303207,
             "name": "Retorno de la grulla (efecto activado)",
+            "statustypetext": "Estados en combate del equipo",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Estado en combate",
+            "description": "La próxima vez que juegues una carta de arma en esta ronda, gastarás 2 dados elementales menos.",
+            "descriptionraw": "<color=#FFFFFFFF>La próxima vez que juegues una carta de {SPRITE_PRESET#3003}arma en esta ronda</color>, gastarás 2 dados elementales menos.",
+            "descriptionreplaced": "<color=#FFFFFFFF>La próxima vez que juegues una carta de {SPRITE_PRESET#3003}arma en esta ronda</color>, gastarás 2 dados elementales menos.",
+            "id": 303222,
+            "name": "¿A dónde fue la Cuchilla Oculta? (efecto activado)",
             "statustypetext": "Estados en combate del equipo",
             "tags": []
         },

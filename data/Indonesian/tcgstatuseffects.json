@@ -445,9 +445,9 @@
             "cardtype": "GCG_CARD_STATE",
             "cardtypetext": "Status",
             "countingtype": "GCG_TOKEN_ROUND_COUNT",
-            "description": "Normal Attack Karakter yang terpengaruh mengakibatkan DMG +2.\nSetelah Karakter yang terpengaruh melancarkan Normal ATK: Memulihkan 1 poin HP untuk seluruh Karakter milikmu.\nDurasi (Ronde): 2",
-            "descriptionraw": "<color=#FFFFFFFF>Normal Attack</color> Karakter yang terpengaruh mengakibatkan DMG +2.\\n<color=#FFFFFFFF>Setelah Karakter yang terpengaruh melancarkan Normal ATK:</color> Memulihkan 1 poin HP untuk seluruh Karakter milikmu.\\n<color=#FFFFFFFF>$[K4]: 2</color>",
-            "descriptionreplaced": "<color=#FFFFFFFF>Normal Attack</color> Karakter yang terpengaruh mengakibatkan DMG +2.\\n<color=#FFFFFFFF>Setelah Karakter yang terpengaruh melancarkan Normal ATK:</color> Memulihkan 1 poin HP untuk seluruh Karakter milikmu.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Durasi (Ronde)</color>: 2</color>",
+            "description": "Normal Attack Karakter yang terpengaruh mengakibatkan DMG +1.\nSetelah Karakter yang terpengaruh melancarkan Normal ATK: Memulihkan 1 poin HP untuk seluruh Karakter milikmu.\nDurasi (Ronde): 2",
+            "descriptionraw": "<color=#FFFFFFFF>Normal Attack</color> Karakter yang terpengaruh mengakibatkan DMG +1.\\n<color=#FFFFFFFF>Setelah Karakter yang terpengaruh melancarkan Normal ATK:</color> Memulihkan 1 poin HP untuk seluruh Karakter milikmu.\\n<color=#FFFFFFFF>$[K4]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Normal Attack</color> Karakter yang terpengaruh mengakibatkan DMG +1.\\n<color=#FFFFFFFF>Setelah Karakter yang terpengaruh melancarkan Normal ATK:</color> Memulihkan 1 poin HP untuk seluruh Karakter milikmu.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Durasi (Ronde)</color>: 2</color>",
             "id": 112052,
             "name": "Ceremonial Garment",
             "statustypetext": "Status Karakter",
@@ -541,6 +541,18 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Status",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Status ini dimulai dengan 2 lapis \"Conductive\". Akan menambah 1 lapisan \"Conductive\" saat menerima status berulang kali. \"Conductive\" dapat ditumpuk hingga 4 lapis.\nTahap Selesai: Menambah 1 lapisan \"Conductive\".\n\nSaat Karakter yang terpengaruh menerima serangan Violet Arc: Hapus status ini; Setiap lapisan Conductive mengakibatkan DMG +1.",
+            "descriptionraw": "Status ini dimulai dengan 2 lapis \"Conductive\". Akan menambah 1 lapisan \"Conductive\" saat menerima status berulang kali. \"Conductive\" dapat ditumpuk hingga 4 lapis.\\n<color=#FFFFFFFF>Tahap Selesai:</color> Menambah 1 lapisan \"Conductive\".\\n\\n<color=#FFFFFFFF>Saat Karakter yang terpengaruh menerima serangan $[S14092]:</color> Hapus status ini; Setiap lapisan Conductive mengakibatkan DMG +1.",
+            "descriptionreplaced": "Status ini dimulai dengan 2 lapis \"Conductive\". Akan menambah 1 lapisan \"Conductive\" saat menerima status berulang kali. \"Conductive\" dapat ditumpuk hingga 4 lapis.\\n<color=#FFFFFFFF>Tahap Selesai:</color> Menambah 1 lapisan \"Conductive\".\\n\\n<color=#FFFFFFFF>Saat Karakter yang terpengaruh menerima serangan Violet Arc:</color> Hapus status ini; Setiap lapisan Conductive mengakibatkan DMG +1.",
+            "id": 114091,
+            "name": "Conductive",
+            "statustypetext": "Status Karakter",
+            "tags": []
         },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -743,6 +755,20 @@
             "statustypetext": "Status Pertempuran Tim",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Saat Albedo yang mengenakan kartu ini berada di dalam arena dan Solar Isotoma berada di Zona Panggilan-mu, maka Karaktermu akan mengakibatkan DMG +1 saat melancarkan Plunging Attack.",
+            "descriptionraw": "Saat $[A1604] yang mengenakan kartu ini berada di dalam arena dan <color=#FFFFFFFF>$[C116041]</color> berada di Zona Panggilan-mu, maka Karaktermu akan mengakibatkan DMG +1 saat melancarkan $[K52].",
+            "descriptionreplaced": "Saat Albedo yang mengenakan kartu ini berada di dalam arena dan <color=#FFFFFFFF>Solar Isotoma</color> berada di Zona Panggilan-mu, maka Karaktermu akan mengakibatkan DMG +1 saat melancarkan <color=#FFFFFFFF>Plunging Attack</color>.",
+            "id": 216041,
+            "name": "Descent of Divinity",
+            "statustypetext": "Equipment Karakter",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Status Pertempuran",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Saat Karaktermu menggunakan Skill: Jika Karakter tersebut HP-nya tidak penuh, maka akan memulihkan 2 poin HP kepada Karakter tersebut.\nPenggunaan: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Karaktermu menggunakan Skill:</color> Jika Karakter tersebut HP-nya tidak penuh, maka akan memulihkan 2 poin HP kepada Karakter tersebut.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Karaktermu menggunakan Skill:</color> Jika Karakter tersebut HP-nya tidak penuh, maka akan memulihkan 2 poin HP kepada Karakter tersebut.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 3</color>",
+            "id": 111082,
+            "name": "Fortune-Preserving Talisman",
+            "statustypetext": "Status Pertempuran Tim",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Hoarfrost Greatshield",
             "statustypetext": "Status Karakter",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Status Pertempuran",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Setelah Karakter-mu menggunakan skill: Status ini akan berpindah ke pihak lawan dan menambahkan 1 poin \"Piping Hot\" (Maksimum 4 poin).\nTahap Selesai: Hapus status ini dan mengakibatkan 2 poin Physical DMG pada Karakter Aktif milik pemain yang memiliki status ini. Setiap 1 poin \"Piping Hot\" akan mengakibatkan DMG +1.",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah Karakter-mu menggunakan skill: </color>Status ini akan berpindah ke pihak lawan dan menambahkan 1 poin \"Piping Hot\" (Maksimum 4 poin).\\n<color=#FFFFFFFF>Tahap Selesai:</color> Hapus status ini dan mengakibatkan 2 poin $[K100] pada Karakter Aktif milik pemain yang memiliki status ini. Setiap 1 poin \"Piping Hot\" akan mengakibatkan DMG +1.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah Karakter-mu menggunakan skill: </color>Status ini akan berpindah ke pihak lawan dan menambahkan 1 poin \"Piping Hot\" (Maksimum 4 poin).\\n<color=#FFFFFFFF>Tahap Selesai:</color> Hapus status ini dan mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color> pada Karakter Aktif milik pemain yang memiliki status ini. Setiap 1 poin \"Piping Hot\" akan mengakibatkan DMG +1.",
+            "id": 401001,
+            "name": "Hot Potato",
+            "statustypetext": "Status Pertempuran Tim",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Status Pertempuran",
+            "description": "Tidak dapat memainkan kartu \"I Haven't Lost Yet!\" lagi pada Ronde ini.",
+            "descriptionraw": "Tidak dapat memainkan kartu \"I Haven't Lost Yet!\" lagi pada Ronde ini.",
+            "descriptionreplaced": "Tidak dapat memainkan kartu \"I Haven't Lost Yet!\" lagi pada Ronde ini.",
+            "id": 303205,
+            "name": "I Haven't Lost Yet! (Sedang Cooldown)",
+            "statustypetext": "Status Pertempuran Tim",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1695,9 +1758,9 @@
         "kantensenmyoublessing": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
-            "description": "Setelah Kamisato Ayaka mengenakan kartu ini,  Cryo Elemental Infusion yang diciptakan akan membuat Karakter yang terpengaruh mengakibatkan +1 Cryo DMG.\nSaat bertukar Karakter ke Kamisato Ayaka yang mengenakan kartu ini: Akan menghabiskan 1 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
-            "descriptionraw": "Setelah <color=#FFFFFFFF>$[A1105]</color> mengenakan kartu ini,  <color=#FFFFFFFF>$[C111052]</color> yang diciptakan akan membuat Karakter yang terpengaruh mengakibatkan +1 <color=#99FFFFFF>$[K101]</color>.\\nSaat bertukar Karakter ke $[A1105] yang mengenakan kartu ini: Akan menghabiskan 1 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
-            "descriptionreplaced": "Setelah <color=#FFFFFFFF>Kamisato Ayaka</color> mengenakan kartu ini,  <color=#FFFFFFFF>Cryo Elemental Infusion</color> yang diciptakan akan membuat Karakter yang terpengaruh mengakibatkan +1 <color=#99FFFFFF>{SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color></color>.\\nSaat bertukar Karakter ke Kamisato Ayaka yang mengenakan kartu ini: Akan menghabiskan 1 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
+            "description": "Setelah Kamisato Ayaka mengenakan kartu ini, Cryo Elemental Infusion yang diciptakan akan membuat Karakter yang terpengaruh mengakibatkan +1 Cryo DMG.\nSaat bertukar Karakter ke Kamisato Ayaka yang mengenakan kartu ini: Akan menghabiskan 1 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
+            "descriptionraw": "Setelah <color=#FFFFFFFF>$[A1105]</color> mengenakan kartu ini, <color=#FFFFFFFF>$[C111052]</color> yang diciptakan akan membuat Karakter yang terpengaruh mengakibatkan +1 <color=#99FFFFFF>$[K101]</color>.\\nSaat bertukar Karakter ke $[A1105] yang mengenakan kartu ini: Akan menghabiskan 1 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
+            "descriptionreplaced": "Setelah <color=#FFFFFFFF>Kamisato Ayaka</color> mengenakan kartu ini, <color=#FFFFFFFF>Cryo Elemental Infusion</color> yang diciptakan akan membuat Karakter yang terpengaruh mengakibatkan +1 <color=#99FFFFFF>{SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color></color>.\\nSaat bertukar Karakter ke Kamisato Ayaka yang mengenakan kartu ini: Akan menghabiskan 1 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)",
             "id": 211051,
             "name": "Kanten Senmyou Blessing",
             "statustypetext": "Equipment Karakter",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Karakter mengakibatkan DMG +1.",
+            "descriptionraw": "<color=#FFFFFFFF>Karakter mengakibatkan DMG +1</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakter mengakibatkan DMG +1</color>.",
+            "id": 311206,
+            "name": "King's Squire",
+            "statustypetext": "Equipment Karakter",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Status",
+            "description": "Selama Ronde ini, saat Karakter mengenakan kartu Talenta atau menggunakan Elemental Skill berikutnya:  Mengonsumsi 2 Dadu Elemental lebih sedikit.",
+            "descriptionraw": "<color=#FFFFFFFF>Selama Ronde ini, saat Karakter mengenakan kartu {SPRITE_PRESET#3006}Talenta atau menggunakan Elemental Skill berikutnya: </color> Mengonsumsi 2 Dadu Elemental lebih sedikit.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Selama Ronde ini, saat Karakter mengenakan kartu {SPRITE_PRESET#3006}Talenta atau menggunakan Elemental Skill berikutnya: </color> Mengonsumsi 2 Dadu Elemental lebih sedikit.",
+            "id": 301103,
+            "name": "King's Squire (Sedang Berfungsi)",
+            "statustypetext": "Status Karakter",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "Status Pertempuran Tim",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Status Pertempuran",
+            "description": "Tahap Selesai: Kamu kalah dalam duel.",
+            "descriptionraw": "<color=#FFFFFFFF>Tahap Selesai:</color> Kamu kalah dalam duel.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Tahap Selesai:</color> Kamu kalah dalam duel.",
+            "id": 403016,
+            "name": "Price of Unrelenting Assault",
+            "statustypetext": "Status Pertempuran Tim",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Saat bertukar Karakter ke Lisa yang mengenakan kartu ini: Memberikan status Conductive pada Karakter aktif lawan. (Sekali setiap Ronde)",
+            "descriptionraw": "Saat bertukar Karakter ke <color=#FFFFFFFF>$[A1409]</color> yang mengenakan kartu ini: Memberikan status <color=#FFFFFFFF>$[C114091]</color> pada Karakter aktif lawan. (Sekali setiap Ronde)",
+            "descriptionreplaced": "Saat bertukar Karakter ke <color=#FFFFFFFF>Lisa</color> yang mengenakan kartu ini: Memberikan status <color=#FFFFFFFF>Conductive</color> pada Karakter aktif lawan. (Sekali setiap Ronde)",
+            "id": 214091,
+            "name": "Pulsating Witch",
+            "statustypetext": "Equipment Karakter",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Rite of Dispatch",
             "statustypetext": "Status Karakter",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Ketika mengenakan kartu ini, Qiqi akan membangkitkan semua Karaktermu yang telah gugur dan memulihkan HP mereka sebesar 2 poin saat melancarkan Adeptus Art: Preserver of Fortune. (Maksimum 2 kali selama duel)",
+            "descriptionraw": "Ketika mengenakan kartu ini, $[A1108] akan membangkitkan semua Karaktermu yang telah gugur dan memulihkan HP mereka sebesar 2 poin saat melancarkan <color=#FFFFFFFF>$[S11083]</color>. (Maksimum 2 kali selama duel)",
+            "descriptionreplaced": "Ketika mengenakan kartu ini, Qiqi akan membangkitkan semua Karaktermu yang telah gugur dan memulihkan HP mereka sebesar 2 poin saat melancarkan <color=#FFFFFFFF>Adeptus Art: Preserver of Fortune</color>. (Maksimum 2 kali selama duel)",
+            "id": 211081,
+            "name": "Rite of Resurrection",
+            "statustypetext": "Equipment Karakter",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Setelah kali berikutnya kamu menggunakan Skill:</color> Membuat Karakter standby-mu berikutnya menjadi Karakter aktif.",
             "id": 303207,
             "name": "When the Crane Returned (Sedang Berfungsi)",
+            "statustypetext": "Status Pertempuran Tim",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Status Pertempuran",
+            "description": "Selama Ronde ini, saat kamu memainkan Kartu Equipment Senjata berikutnya: Mengonsumsi 2 Dadu Elemental lebih sedikit.",
+            "descriptionraw": "<color=#FFFFFFFF>Selama Ronde ini, saat kamu memainkan Kartu Equipment {SPRITE_PRESET#3003}Senjata berikutnya: </color>Mengonsumsi 2 Dadu Elemental lebih sedikit.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Selama Ronde ini, saat kamu memainkan Kartu Equipment {SPRITE_PRESET#3003}Senjata berikutnya: </color>Mengonsumsi 2 Dadu Elemental lebih sedikit.",
+            "id": 303222,
+            "name": "Where Is the Unseen Razor? (Sedang Berlangsung)",
             "statustypetext": "Status Pertempuran Tim",
             "tags": []
         },

@@ -90,6 +90,84 @@
                 "Monstre"
             ]
         },
+        "albedo": {
+            "hp": 10,
+            "id": 1604,
+            "maxenergy": 2,
+            "name": "Albedo",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts de DGT physiques.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "id": 16041,
+                    "name": "Escrime de Favonius - Blanche",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Attaque normale",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Invoque une aura solaire.",
+                    "descriptionraw": "Invoque une <color=#FFFFFFFF>$[C116041|s1]</color>.",
+                    "descriptionreplaced": "Invoque une <color=#FFFFFFFF>aura solaire</color>.",
+                    "id": 16042,
+                    "name": "Genèse : Aura solaire",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Compétence élémentaire",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 4,
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 4 pts de DGT Géo. Si une aura solaire est sur le terrain, DGT +2.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT]. Si une <color=#FFFFFFFF>$[C116041|s1]</color> est sur le terrain, DGT +2.",
+                    "descriptionreplaced": "Inflige 4 pts de {SPRITE_PRESET#2106}<color=#FFE699FF>DGT Géo</color>. Si une <color=#FFFFFFFF>aura solaire</color> est sur le terrain, DGT +2.",
+                    "id": 16043,
+                    "name": "Transformation : Reflux Géo",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Déchaînement élémentaire",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Récompense pour avoir invité Albedo à une partie amicale dans La Queue de Chat et remporté la victoire",
+            "storytext": "Nigredo et calx, rubedo et citrinitas.",
+            "storytitle": "Albedo · Kreideprinz",
+            "tags": [
+                "GCG_TAG_ELEMENT_GEO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Géo",
+                "Épée à une main",
+                "Mondstadt"
+            ]
+        },
         "amber": {
             "hp": 10,
             "id": 1304,
@@ -2363,6 +2441,86 @@
                 "Inazuma"
             ]
         },
+        "lisa": {
+            "hp": 10,
+            "id": 1409,
+            "maxenergy": 2,
+            "name": "Lisa",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 1 pt de DGT Électro.\nSi cette capacité est une attaque chargée : Inflige l'état Conductivité au personnage actif adverse.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].\\nSi cette capacité est une $[K51|s2] : Inflige l'état <color=#FFFFFFFF>$[C114091]</color> au personnage actif adverse.",
+                    "descriptionreplaced": "Inflige 1 pt de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>.\\nSi cette capacité est une <color=#FFFFFFFF>attaque chargée</color> : Inflige l'état <color=#FFFFFFFF>Conductivité</color> au personnage actif adverse.",
+                    "id": 14091,
+                    "name": "Touche d'éclair",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Attaque normale",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 2 pts de DGT Électro. Si le personnage actif adverse n'est pas affecté par l'effet Conductivité, il subit l'effet Conductivité.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT]. Si le personnage actif adverse n'est pas affecté par l'effet <color=#FFFFFFFF>$[C114091]</color>, il subit l'effet <color=#FFFFFFFF>$[C114091]</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color>. Si le personnage actif adverse n'est pas affecté par l'effet <color=#FFFFFFFF>Conductivité</color>, il subit l'effet <color=#FFFFFFFF>Conductivité</color>.",
+                    "id": 14092,
+                    "name": "Arc fulminant",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Compétence élémentaire",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 2 pts de DGT Électro et invoque une rose de foudre.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque une <color=#FFFFFFFF>$[C114092|s1]</color>.",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2104}<color=#FFACFFFF>DGT Électro</color> et invoque une <color=#FFFFFFFF>rose de foudre</color>.",
+                    "id": 14093,
+                    "name": "Rose de foudre",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Déchaînement élémentaire",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Récompense pour avoir invité Lisa à une partie amicale dans La Queue de Chat et remporté la victoire",
+            "storytext": "La poursuite des mystères arcaniques de la magie et l'attente d'une rencontre avec la vérité...",
+            "storytitle": "Lisa · Sorcière à la rose",
+            "tags": [
+                "GCG_TAG_ELEMENT_ELECTRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Électro",
+                "Catalyseur",
+                "Mondstadt"
+            ]
+        },
         "maguukenki": {
             "hp": 10,
             "id": 2501,
@@ -2881,6 +3039,84 @@
                 "Géo",
                 "Épée à deux mains",
                 "Mondstadt"
+            ]
+        },
+        "qiqi": {
+            "hp": 10,
+            "id": 1108,
+            "maxenergy": 3,
+            "name": "Qiqi",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts de DGT physiques.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color>.",
+                    "id": 11081,
+                    "name": "Escrime ancienne des nuages",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Attaque normale",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Invoque un héraut de givre.",
+                    "descriptionraw": "Invoque un <color=#FFFFFFFF>$[C111081|s1]</color>.",
+                    "descriptionreplaced": "Invoque un <color=#FFFFFFFF>héraut de givre</color>.",
+                    "id": 11082,
+                    "name": "Arcane d'Adepte : Héraut de givre",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Compétence élémentaire",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 3 pts de DGT Cryo et crée un talisman de fortune.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et crée un <color=#FFFFFFFF>$[C111082|s1]</color>.",
+                    "descriptionreplaced": "Inflige 3 pts de {SPRITE_PRESET#2101}<color=#99FFFFFF>DGT Cryo</color> et crée un <color=#FFFFFFFF>talisman de fortune</color>.",
+                    "id": 11083,
+                    "name": "Arcane d'Adepte : Talisman sacré",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Déchaînement élémentaire",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Récompense pour avoir invité Qiqi à une partie amicale dans La Queue de Chat et remporté la victoire",
+            "storytext": "C'est le cycle de la vie, la vie continue.",
+            "storytitle": "Qiqi · Renaissance gelée",
+            "tags": [
+                "GCG_TAG_ELEMENT_CRYO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Cryo",
+                "Épée à une main",
+                "Liyue"
             ]
         },
         "raidenshogun": {

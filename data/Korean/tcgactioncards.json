@@ -74,9 +74,9 @@
         "adeptustemptation": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "대상 캐릭터가 이번 턴에서 가하는 다음번 「원소폭발」 피해+3pt\n(각 캐릭터는 턴마다 「요리」를 최대 1회 섭취할 수 있다)",
-            "descriptionraw": "대상 캐릭터가 이번 턴에서 가하는 다음번 <color=#FFFFFFFF>「원소폭발」</color> 피해+3pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
-            "descriptionreplaced": "대상 캐릭터가 이번 턴에서 가하는 다음번 <color=#FFFFFFFF>「원소폭발」</color> 피해+3pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
+            "description": "대상 캐릭터가 이번 턴에서 주는 다음번 「원소폭발」 피해+3pt\n(각 캐릭터는 턴마다 「요리」를 최대 1회 섭취할 수 있다)",
+            "descriptionraw": "대상 캐릭터가 이번 턴에서 주는 다음번 <color=#FFFFFFFF>「원소폭발」</color> 피해+3pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
+            "descriptionreplaced": "대상 캐릭터가 이번 턴에서 주는 다음번 <color=#FFFFFFFF>「원소폭발」</color> 피해+3pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
             "id": 333002,
             "name": "선도장",
             "playcost": [
@@ -120,9 +120,9 @@
         "amosbow": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시 추가로 2pt의 피해를 가한다. (턴당 1회)\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시</color> 추가로 2pt의 피해를 가한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시</color> 추가로 2pt의 피해를 가한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시 추가로 2pt의 피해를 준다. (턴당 1회)\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시</color> 추가로 2pt의 피해를 준다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 원래 원소 주사위 코스트와 원소 에너지 코스트 합이 최소 5pt인 스킬을 사용 시</color> 추가로 2pt의 피해를 준다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311204,
             "name": "아모스의 활",
             "playcost": [
@@ -168,9 +168,9 @@
         "aquilafavonia": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n상대방이 스킬 사용 후: 부착 캐릭터가 「출전 캐릭터」일 경우, 해당 캐릭터의 HP를 1pt 치유한다. (턴당 최대 2회)\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>상대방이 스킬 사용 후:</color> 부착 캐릭터가 「출전 캐릭터」일 경우, 해당 캐릭터의 HP를 1pt 치유한다. (턴당 최대 2회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>상대방이 스킬 사용 후:</color> 부착 캐릭터가 「출전 캐릭터」일 경우, 해당 캐릭터의 HP를 1pt 치유한다. (턴당 최대 2회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n상대방이 스킬 사용 후: 부착 캐릭터가 「출전 캐릭터」일 경우, 해당 캐릭터의 HP를 1pt 치유한다. (턴당 최대 2회)\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>상대방이 스킬 사용 후:</color> 부착 캐릭터가 「출전 캐릭터」일 경우, 해당 캐릭터의 HP를 1pt 치유한다. (턴당 최대 2회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>상대방이 스킬 사용 후:</color> 부착 캐릭터가 「출전 캐릭터」일 경우, 해당 캐릭터의 HP를 1pt 치유한다. (턴당 최대 2회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311503,
             "name": "매의 검",
             "playcost": [
@@ -193,9 +193,9 @@
         "aratakiichiban": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 아라타키 이토일 때 해당 카드를 장착할 수 있다.\n아라타키 이토가 해당 카드를 장착하면 즉시 싸움꾼 전설을 1회 사용한다.\n해당 카드를 장착한 아라타키 이토가 한 턴에 두 번 이상 싸움꾼 전설 발동 시: 난신의 괴력을 발동할 경우 가하는 피해가 추가로 1pt 증가한다.\n(카드 덱에 아라타키 이토가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1605]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1605]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S16051]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1605]가 한 턴에 두 번 이상 <color=#FFFFFFFF>$[S16051]</color> 발동 시: $[K1007]을 발동할 경우 가하는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 $[A1605]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>아라타키 이토</color>일 때 해당 카드를 장착할 수 있다.\\n아라타키 이토가 해당 카드를 장착하면 즉시 <color=#FFD780FF>싸움꾼 전설</color>을 1회 사용한다.\\n해당 카드를 장착한 아라타키 이토가 한 턴에 두 번 이상 <color=#FFFFFFFF>싸움꾼 전설</color> 발동 시: <color=#FFFFFFFF>난신의 괴력</color>을 발동할 경우 가하는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 아라타키 이토가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 아라타키 이토일 때 해당 카드를 장착할 수 있다.\n아라타키 이토가 해당 카드를 장착하면 즉시 싸움꾼 전설을 1회 사용한다.\n해당 카드를 장착한 아라타키 이토가 한 턴에 두 번 이상 싸움꾼 전설 발동 시: 난신의 괴력을 발동할 경우 주는 피해가 추가로 1pt 증가한다.\n(카드 덱에 아라타키 이토가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1605]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1605]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S16051]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1605]가 한 턴에 두 번 이상 <color=#FFFFFFFF>$[S16051]</color> 발동 시: $[K1007]을 발동할 경우 주는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 $[A1605]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>아라타키 이토</color>일 때 해당 카드를 장착할 수 있다.\\n아라타키 이토가 해당 카드를 장착하면 즉시 <color=#FFD780FF>싸움꾼 전설</color>을 1회 사용한다.\\n해당 카드를 장착한 아라타키 이토가 한 턴에 두 번 이상 <color=#FFFFFFFF>싸움꾼 전설</color> 발동 시: <color=#FFFFFFFF>난신의 괴력</color>을 발동할 경우 주는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 아라타키 이토가 있어야만 카드 덱에 추가 가능)",
             "id": 216051,
             "name": "아라타키 제일",
             "playcost": [
@@ -230,8 +230,8 @@
             "name": "유구한 반암",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「귀신 잡는 천암군, 드높은 위상은 변치 않지」",
@@ -246,9 +246,9 @@
         "athousandfloatingdreams": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n아군 캐릭터가 원소 반응 발동 시: 가하는 피해+1pt (턴당 최대 2회 발동)\n(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>아군 캐릭터가 원소 반응 발동 시:</color> 가하는 피해+1pt (턴당 최대 2회 발동)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>아군 캐릭터가 원소 반응 발동 시:</color> 가하는 피해+1pt (턴당 최대 2회 발동)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n아군 캐릭터가 원소 반응 발동 시: 주는 피해+1pt (턴당 최대 2회 발동)\n(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>아군 캐릭터가 원소 반응 발동 시:</color> 주는 피해+1pt (턴당 최대 2회 발동)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>아군 캐릭터가 원소 반응 발동 시:</color> 주는 피해+1pt (턴당 최대 2회 발동)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311104,
             "name": "떠오르는 천일 밤의 꿈",
             "playcost": [
@@ -319,8 +319,8 @@
             "name": "얼음바람 속에서 길잃은 용사",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「…끝까지 살아가 주세요. 우리와 함께 멸망의 길을 걸어 차갑게 잊히지 말고…」",
@@ -342,7 +342,7 @@
             "name": "빙설을 밟는 소리",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "무상의 가면",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -484,9 +484,9 @@
         "chaoticentropy": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 설탕일 때 해당 카드를 장착할 수 있다.\n설탕이 해당 카드를 장착하면 즉시 금기·풍령 작성·칠오 동구 이형을 1회 사용한다.\n해당 카드를 장착한 설탕이 생성한 거대 풍령이 다른 원소로 전환된 후: 아군이 해당 원소 타입으로 가하는 피해+1pt\n(카드 덱에 설탕이 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1501]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1501]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S15013]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1501]이 생성한 <color=#FFFFFFFF>$[C115011]</color>이 다른 원소로 전환된 후: 아군이 해당 원소 타입으로 가하는 피해+1pt\\n(카드 덱에 $[A1501]이 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>설탕</color>일 때 해당 카드를 장착할 수 있다.\\n설탕이 해당 카드를 장착하면 즉시 <color=#FFD780FF>금기·풍령 작성·칠오 동구 이형</color>을 1회 사용한다.\\n해당 카드를 장착한 설탕이 생성한 <color=#FFFFFFFF>거대 풍령</color>이 다른 원소로 전환된 후: 아군이 해당 원소 타입으로 가하는 피해+1pt\\n(카드 덱에 설탕이 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 설탕일 때 해당 카드를 장착할 수 있다.\n설탕이 해당 카드를 장착하면 즉시 금기·풍령 작성·칠오 동구 이형을 1회 사용한다.\n해당 카드를 장착한 설탕이 생성한 거대 풍령이 다른 원소로 전환된 후: 아군이 해당 원소 타입으로 주는 피해+1pt\n(카드 덱에 설탕이 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1501]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1501]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S15013]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1501]이 생성한 <color=#FFFFFFFF>$[C115011]</color>이 다른 원소로 전환된 후: 아군이 해당 원소 타입으로 주는 피해+1pt\\n(카드 덱에 $[A1501]이 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>설탕</color>일 때 해당 카드를 장착할 수 있다.\\n설탕이 해당 카드를 장착하면 즉시 <color=#FFD780FF>금기·풍령 작성·칠오 동구 이형</color>을 1회 사용한다.\\n해당 카드를 장착한 설탕이 생성한 <color=#FFFFFFFF>거대 풍령</color>이 다른 원소로 전환된 후: 아군이 해당 원소 타입으로 주는 피해+1pt\\n(카드 덱에 설탕이 있어야만 카드 덱에 추가 가능)",
             "id": 215011,
             "name": "혼돈의 엔트로피",
             "playcost": [
@@ -673,8 +673,8 @@
             "name": "불타오르는 화염의 마녀",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「나는 애가를 거부한다. 애원을, 비탄을, 무의미한 그 모든 소란을 거부한다.\n만약 정의가 사라졌다면 누구에게 구원을 청해야 하는 것인가?」",
@@ -746,8 +746,8 @@
             "name": "숲의 기억",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「자연의 법칙이 숲의 미궁을 지나 끝없는 들판으로 인도해줄 것이기 때문이다」",
@@ -759,12 +759,38 @@
                 "성유물"
             ]
         },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "장비 카드",
+            "description": "전투 행동: 아군 출전 캐릭터가 알베도일 때 해당 카드를 장착할 수 있다.\n알베도가 해당 카드를 장착 후 즉시 창생법·모조 태양꽃을 1회 사용한다.\n해당 카드를 장착한 알베도가 필드에 있을 시, 아군 필드에 태양꽃이 있을 경우 아군 캐릭터가 낙하 공격으로 주는 피해+1pt\n(카드 덱에 알베도가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1604]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1604]가 해당 카드를 장착 후 즉시 <color=#FFD780FF>$[S16042]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1604]가 필드에 있을 시, 아군 필드에 <color=#FFFFFFFF>$[C116041]</color>이 있을 경우 아군 캐릭터가 $[K52]으로 주는 피해+1pt\\n(카드 덱에 $[A1604]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>알베도</color>일 때 해당 카드를 장착할 수 있다.\\n알베도가 해당 카드를 장착 후 즉시 <color=#FFD780FF>창생법·모조 태양꽃</color>을 1회 사용한다.\\n해당 카드를 장착한 알베도가 필드에 있을 시, 아군 필드에 <color=#FFFFFFFF>태양꽃</color>이 있을 경우 아군 캐릭터가 <color=#FFFFFFFF>낙하 공격</color>으로 주는 피해+1pt\\n(카드 덱에 알베도가 있어야만 카드 덱에 추가 가능)",
+            "id": 216041,
+            "name": "신성의 추락",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "캣테일 술집에서 알베도를 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
+            "storytext": "「대전 전략을 확인하는 과정 역시 정밀한 계산을 거쳐야만 해…」",
+            "storytitle": "알베도·신성의 추락",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "특성",
+                "전투 행동"
+            ]
+        },
         "dominanceofearth": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 종려일 때 해당 카드를 장착할 수 있다.\n종려가 해당 카드를 장착하면 즉시 지핵·드높은 반석을 1회 사용한다.\n아군 출전 캐릭터가 보호막 캐릭터 상태 또는 보호막 출전 상태의 보호를 받고 있을 시, 아군 소환물이 가하는 바위 원소 피해+1pt\n(카드 덱에 종려가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1603]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1603]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S16033]</color>을 1회 사용한다.\\n아군 출전 캐릭터가 $[K6] 캐릭터 상태 또는 $[K6] 출전 상태의 보호를 받고 있을 시, 아군 소환물이 가하는 $[K106]+1pt\\n(카드 덱에 $[A1603]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>종려</color>일 때 해당 카드를 장착할 수 있다.\\n종려가 해당 카드를 장착하면 즉시 <color=#FFD780FF>지핵·드높은 반석</color>을 1회 사용한다.\\n아군 출전 캐릭터가 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color> 캐릭터 상태 또는 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color> 출전 상태의 보호를 받고 있을 시, 아군 소환물이 가하는 {SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소 피해</color>+1pt\\n(카드 덱에 종려가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 종려일 때 해당 카드를 장착할 수 있다.\n종려가 해당 카드를 장착하면 즉시 지핵·드높은 반석을 1회 사용한다.\n아군 출전 캐릭터가 보호막 캐릭터 상태 또는 보호막 출전 상태의 보호를 받고 있을 시, 아군 소환물이 주는 바위 원소 피해+1pt\n(카드 덱에 종려가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1603]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1603]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S16033]</color>을 1회 사용한다.\\n아군 출전 캐릭터가 $[K6] 캐릭터 상태 또는 $[K6] 출전 상태의 보호를 받고 있을 시, 아군 소환물이 주는 $[K106]+1pt\\n(카드 덱에 $[A1603]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>종려</color>일 때 해당 카드를 장착할 수 있다.\\n종려가 해당 카드를 장착하면 즉시 <color=#FFD780FF>지핵·드높은 반석</color>을 1회 사용한다.\\n아군 출전 캐릭터가 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color> 캐릭터 상태 또는 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color> 출전 상태의 보호를 받고 있을 시, 아군 소환물이 주는 {SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소 피해</color>+1pt\\n(카드 덱에 종려가 있어야만 카드 덱에 추가 가능)",
             "id": 216031,
             "name": "호의호식",
             "playcost": [
@@ -811,9 +837,9 @@
         "elegyfortheend": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n캐릭터가 「원소폭발」 사용 후: 「천년의 대악장·이별의 노래」를 생성한다. (아군 캐릭터가 가하는 피해+1pt, 지속 턴: 2)\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소폭발」 사용 후:</color> <color=#FFFFFFFF>「$[C301102]」</color>를 생성한다. (아군 캐릭터가 가하는 피해+1pt, $[K4]: 2)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소폭발」 사용 후:</color> <color=#FFFFFFFF>「천년의 대악장·이별의 노래」</color>를 생성한다. (아군 캐릭터가 가하는 피해+1pt, <color=#FFFFFFFF>지속 턴</color>: 2)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n캐릭터가 「원소폭발」 사용 후: 「천년의 대악장·이별의 노래」를 생성한다. (아군 캐릭터가 주는 피해+1pt, 지속 턴: 2)\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소폭발」 사용 후:</color> <color=#FFFFFFFF>「$[C301102]」</color>를 생성한다. (아군 캐릭터가 주는 피해+1pt, $[K4]: 2)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소폭발」 사용 후:</color> <color=#FFFFFFFF>「천년의 대악장·이별의 노래」</color>를 생성한다. (아군 캐릭터가 주는 피해+1pt, <color=#FFFFFFFF>지속 턴</color>: 2)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311205,
             "name": "종말 탄식의 노래",
             "playcost": [
@@ -884,9 +910,9 @@
         "elementalresonanceenduringrock": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "아군 캐릭터가 이번 턴에서 다음번에 바위 원소 피해를 가한 후: 아군에 「보호막」을 제공하는 출전 상태가 존재하는 경우, 해당 유형의 출전 상태 1개에 「보호막」을 3pt 보충한다.\n(카드 덱에 바위 원소 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "아군 캐릭터가 이번 턴에서 다음번에 $[K106]를 가한 후: 아군에 「$[K6]」을 제공하는 출전 상태가 존재하는 경우, 해당 유형의 출전 상태 1개에 「$[K6]」을 3pt 보충한다.\\n(카드 덱에 {SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "아군 캐릭터가 이번 턴에서 다음번에 {SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소 피해</color>를 가한 후: 아군에 「{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>」을 제공하는 출전 상태가 존재하는 경우, 해당 유형의 출전 상태 1개에 「{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>」을 3pt 보충한다.\\n(카드 덱에 {SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "description": "아군 캐릭터가 이번 턴에서 다음번에 바위 원소 피해를 준 후: 아군에 「보호막」을 제공하는 출전 상태가 존재하는 경우, 해당 유형의 출전 상태 1개에 「보호막」을 3pt 보충한다.\n(카드 덱에 바위 원소 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "아군 캐릭터가 이번 턴에서 다음번에 $[K106]를 준 후: 아군에 「$[K6]」을 제공하는 출전 상태가 존재하는 경우, 해당 유형의 출전 상태 1개에 「$[K6]」을 3pt 보충한다.\\n(카드 덱에 {SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "아군 캐릭터가 이번 턴에서 다음번에 {SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소 피해</color>를 준 후: 아군에 「{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>」을 제공하는 출전 상태가 존재하는 경우, 해당 유형의 출전 상태 1개에 「{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>」을 3pt 보충한다.\\n(카드 덱에 {SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
             "id": 331602,
             "name": "원소 공명: 부동의 바위",
             "playcost": [
@@ -907,9 +933,9 @@
         "elementalresonanceferventflames": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "현재 아군 출전 캐릭터가 이번 턴에서 다음번에 불 원소 관련 반응을 발동하면 가하는 피해+3pt\n(카드 덱에 불 원소 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "현재 아군 출전 캐릭터가 이번 턴에서 다음번에 $[K213]을 발동하면 가하는 피해+3pt\\n(카드 덱에 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "현재 아군 출전 캐릭터가 이번 턴에서 다음번에 <color=#FF9999FF>{SPRITE_PRESET#2103}불 원소 관련 반응</color>을 발동하면 가하는 피해+3pt\\n(카드 덱에 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "description": "현재 아군 출전 캐릭터가 이번 턴에서 다음번에 불 원소 관련 반응을 발동하면 주는 피해+3pt\n(카드 덱에 불 원소 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "현재 아군 출전 캐릭터가 이번 턴에서 다음번에 $[K213]을 발동하면 주는 피해+3pt\\n(카드 덱에 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "현재 아군 출전 캐릭터가 이번 턴에서 다음번에 <color=#FF9999FF>{SPRITE_PRESET#2103}불 원소 관련 반응</color>을 발동하면 주는 피해+3pt\\n(카드 덱에 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
             "id": 331302,
             "name": "원소 공명: 열정의 불",
             "playcost": [
@@ -976,9 +1002,9 @@
         "elementalresonanceshatteringice": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "이번 턴에서 현재 아군 출전 캐릭터가 다음번에 가하는 피해+2pt\n(카드 덱에 얼음 원소 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "이번 턴에서 현재 아군 출전 캐릭터가 다음번에 가하는 피해+2pt\\n(카드 덱에 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "이번 턴에서 현재 아군 출전 캐릭터가 다음번에 가하는 피해+2pt\\n(카드 덱에 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "description": "이번 턴에서 현재 아군 출전 캐릭터가 다음번에 주는 피해+2pt\n(카드 덱에 얼음 원소 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "이번 턴에서 현재 아군 출전 캐릭터가 다음번에 주는 피해+2pt\\n(카드 덱에 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "이번 턴에서 현재 아군 출전 캐릭터가 다음번에 주는 피해+2pt\\n(카드 덱에 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
             "id": 331102,
             "name": "원소 공명: 분쇄의 얼음",
             "playcost": [
@@ -1022,9 +1048,9 @@
         "elementalresonancesprawlinggreenery": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "아군이 이번 턴에서 다음번에 원소 반응 발동 시 가하는 피해+2pt\n아군 필드 위의 불타는 화염, 풀 원핵, 격화 영역의 「사용 가능 횟수」+1\n(카드 덱에 풀 원소 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "아군이 이번 턴에서 다음번에 원소 반응 발동 시 가하는 피해+2pt\\n아군 필드 위의 <color=#FFFFFFFF>$[C115], $[C116], $[C117]</color>의 「$[K3]」+1\\n(카드 덱에 {SPRITE_PRESET#2107}<color=#99FF88FF>풀 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "아군이 이번 턴에서 다음번에 원소 반응 발동 시 가하는 피해+2pt\\n아군 필드 위의 <color=#FFFFFFFF>불타는 화염, 풀 원핵, 격화 영역</color>의 「<color=#FFFFFFFF>사용 가능 횟수</color>」+1\\n(카드 덱에 {SPRITE_PRESET#2107}<color=#99FF88FF>풀 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "description": "아군이 이번 턴에서 다음번에 원소 반응 발동 시 주는 피해+2pt\n아군 필드 위의 불타는 화염, 풀 원핵, 격화 영역의 「사용 가능 횟수」+1\n(카드 덱에 풀 원소 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "아군이 이번 턴에서 다음번에 원소 반응 발동 시 주는 피해+2pt\\n아군 필드 위의 <color=#FFFFFFFF>$[C115], $[C116], $[C117]</color>의 「$[K3]」+1\\n(카드 덱에 {SPRITE_PRESET#2107}<color=#99FF88FF>풀 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "아군이 이번 턴에서 다음번에 원소 반응 발동 시 주는 피해+2pt\\n아군 필드 위의 <color=#FFFFFFFF>불타는 화염, 풀 원핵, 격화 영역</color>의 「<color=#FFFFFFFF>사용 가능 횟수</color>」+1\\n(카드 덱에 {SPRITE_PRESET#2107}<color=#99FF88FF>풀 원소</color> 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
             "id": 331702,
             "name": "원소 공명: 만생의 풀",
             "playcost": [
@@ -1219,15 +1245,15 @@
         "emblemofseveredfate": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "다른 아군 캐릭터가 「원소폭발」 사용 후: 부착 캐릭터가 원소 에너지를 1pt 획득한다.\n캐릭터가 「원소폭발」로 가하는 피해+2pt\n(캐릭터는 「성유물」을 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>다른 아군 캐릭터가 「원소폭발」 사용 후:</color> 부착 캐릭터가 $[K310]를 1pt 획득한다.\\n캐릭터가 「원소폭발」로 가하는 피해+2pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>다른 아군 캐릭터가 「원소폭발」 사용 후:</color> 부착 캐릭터가 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 1pt 획득한다.\\n캐릭터가 「원소폭발」로 가하는 피해+2pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
+            "description": "다른 아군 캐릭터가 「원소폭발」 사용 후: 부착 캐릭터가 원소 에너지를 1pt 획득한다.\n캐릭터가 「원소폭발」로 주는 피해+2pt\n(캐릭터는 「성유물」을 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>다른 아군 캐릭터가 「원소폭발」 사용 후:</color> 부착 캐릭터가 $[K310]를 1pt 획득한다.\\n캐릭터가 「원소폭발」로 주는 피해+2pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>다른 아군 캐릭터가 「원소폭발」 사용 후:</color> 부착 캐릭터가 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 1pt 획득한다.\\n캐릭터가 「원소폭발」로 주는 피해+2pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
             "id": 312008,
             "name": "절연의 기치",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "꿈과 같이 덧없던 13년,\n요고우산의 벚꽃과 흰 눈이 나풀나풀 내리네.\n님은 멀어졌구나",
@@ -1268,9 +1294,9 @@
         "engulfinglightning": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n턴마다 자동으로 1회 발동: 부착 캐릭터에게 원소 에너지가 없을 시, 해당 캐릭터에게 원소 에너지를 1pt 제공한다.\n(「장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴마다 자동으로 1회 발동:</color> 부착 캐릭터에게 $[K310]가 없을 시, 해당 캐릭터에게 $[K310]를 1pt 제공한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴마다 자동으로 1회 발동:</color> 부착 캐릭터에게 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>가 없을 시, 해당 캐릭터에게 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 1pt 제공한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n턴마다 자동으로 1회 발동: 부착 캐릭터에게 원소 에너지가 없을 시, 해당 캐릭터에게 원소 에너지를 1pt 제공한다.\n(「장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴마다 자동으로 1회 발동:</color> 부착 캐릭터에게 $[K310]가 없을 시, 해당 캐릭터에게 $[K310]를 1pt 제공한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴마다 자동으로 1회 발동:</color> 부착 캐릭터에게 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>가 없을 시, 해당 캐릭터에게 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 1pt 제공한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311405,
             "name": "예초의 번개",
             "playcost": [
@@ -1359,9 +1385,9 @@
         "favoniussword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 캐릭터가 추가로 원소 에너지를 1pt 획득한다. (턴당 1회)\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 캐릭터가 추가로 $[K310]를 1pt 획득한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 캐릭터가 추가로 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 1pt 획득한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 캐릭터가 추가로 원소 에너지를 1pt 획득한다. (턴당 1회)\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 캐릭터가 추가로 $[K310]를 1pt 획득한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 캐릭터가 추가로 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 1pt 획득한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311505,
             "name": "페보니우스 검",
             "playcost": [
@@ -1384,9 +1410,9 @@
         "featherfalljudgment": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 사이노일 때 해당 카드를 장착할 수 있다.\n사이노가 해당 카드를 장착하면 즉시 비밀스러운 의식·명계의 인도자를 1회 사용한다.\n해당 카드를 장착한 사이노의 길을 여는 사자 「빙의」가 Lv.3 혹은 Lv.5일 때 비밀스러운 의식·명계의 인도자를 발동하면 가하는 피해+1pt\n(카드 덱에 사이노가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1404]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1404]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S14042]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1404]의 <color=#FFFFFFFF>$[C114041]</color> 「빙의」가 Lv.3 혹은 Lv.5일 때 <color=#FFFFFFFF>$[S14042]</color>를 발동하면 가하는 피해+1pt\\n(카드 덱에 $[A1404]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>사이노</color>일 때 해당 카드를 장착할 수 있다.\\n사이노가 해당 카드를 장착하면 즉시 <color=#FFD780FF>비밀스러운 의식·명계의 인도자</color>를 1회 사용한다.\\n해당 카드를 장착한 사이노의 <color=#FFFFFFFF>길을 여는 사자</color> 「빙의」가 Lv.3 혹은 Lv.5일 때 <color=#FFFFFFFF>비밀스러운 의식·명계의 인도자</color>를 발동하면 가하는 피해+1pt\\n(카드 덱에 사이노가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 사이노일 때 해당 카드를 장착할 수 있다.\n사이노가 해당 카드를 장착하면 즉시 비밀스러운 의식·명계의 인도자를 1회 사용한다.\n해당 카드를 장착한 사이노의 길을 여는 사자 「빙의」가 Lv.3 혹은 Lv.5일 때 비밀스러운 의식·명계의 인도자를 발동하면 주는 피해+1pt\n(카드 덱에 사이노가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1404]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1404]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S14042]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1404]의 <color=#FFFFFFFF>$[C114041]</color> 「빙의」가 Lv.3 혹은 Lv.5일 때 <color=#FFFFFFFF>$[S14042]</color>를 발동하면 주는 피해+1pt\\n(카드 덱에 $[A1404]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>사이노</color>일 때 해당 카드를 장착할 수 있다.\\n사이노가 해당 카드를 장착하면 즉시 <color=#FFD780FF>비밀스러운 의식·명계의 인도자</color>를 1회 사용한다.\\n해당 카드를 장착한 사이노의 <color=#FFFFFFFF>길을 여는 사자</color> 「빙의」가 Lv.3 혹은 Lv.5일 때 <color=#FFFFFFFF>비밀스러운 의식·명계의 인도자</color>를 발동하면 주는 피해+1pt\\n(카드 덱에 사이노가 있어야만 카드 덱에 추가 가능)",
             "id": 214041,
             "name": "낙하하는 깃털의 심판",
             "playcost": [
@@ -1482,9 +1508,9 @@
         "fruitoffulfillment": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n필드 입장 시: 카드를 2장 드로우한다.\n(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 카드를 2장 드로우한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 카드를 2장 드로우한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n필드 입장 시: 카드를 2장 드로우한다.\n(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 카드를 2장 드로우한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 카드를 2장 드로우한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311105,
             "name": "충만의 열매",
             "playcost": [
@@ -1527,6 +1553,42 @@
                 "성유물"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "시작 시 「승리의 카운트다운」을 2pt 보유한다.\n종료 단계: 「승리의 카운트다운」-1pt. 만약 「승리의 카운트다운」이 전부 소진되었을 때 아군 캐릭터가 모두 생존한 상태면 아군 플레이어는 즉시 대전에서 승리한다.\n행동 단계 시작 시: 만약 「승리의 카운트다운」이 1pt 남았을 경우, 만능 원소를 4개 생성한다",
+            "descriptionraw": "시작 시 「승리의 카운트다운」을 2pt 보유한다.\\n<color=#FFFFFFFF>종료 단계:</color> 「승리의 카운트다운」-1pt. 만약 「승리의 카운트다운」이 전부 소진되었을 때 아군 캐릭터가 모두 생존한 상태면 아군 플레이어는 즉시 대전에서 승리한다.\\n<color=#FFFFFFFF>행동 단계 시작 시:</color> 만약 「승리의 카운트다운」이 1pt 남았을 경우, $[K411]를 4개 생성한다",
+            "descriptionreplaced": "시작 시 「승리의 카운트다운」을 2pt 보유한다.\\n<color=#FFFFFFFF>종료 단계:</color> 「승리의 카운트다운」-1pt. 만약 「승리의 카운트다운」이 전부 소진되었을 때 아군 캐릭터가 모두 생존한 상태면 아군 플레이어는 즉시 대전에서 승리한다.\\n<color=#FFFFFFFF>행동 단계 시작 시:</color> 만약 「승리의 카운트다운」이 1pt 남았을 경우, <color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>를 4개 생성한다",
+            "id": 423025,
+            "name": "묘수풀이·안전제일",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "행동 단계 시작 시: 선제 플레이어 측에 화끈화끈 폭탄을 생성한다.\n종료 단계: 화끈화끈 폭탄이 상대 측에서 결산될 경우, 상대 플레이어는 대전에서 패배한다",
+            "descriptionraw": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 선제 플레이어 측에 $[C401001]을 생성한다.\\n<color=#FFFFFFFF>종료 단계: </color>$[C401001]이 상대 측에서 결산될 경우, 상대 플레이어는 대전에서 패배한다",
+            "descriptionreplaced": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 선제 플레이어 측에 화끈화끈 폭탄을 생성한다.\\n<color=#FFFFFFFF>종료 단계: </color>화끈화끈 폭탄이 상대 측에서 결산될 경우, 상대 플레이어는 대전에서 패배한다",
+            "id": 421011,
+            "name": "묘수풀이·폭탄 장치",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "행동 단계 시작 시: 만능 원소를 2개 생성한다. 단, 아군 플레이어는 이번 턴 종료 단계에 대전에서 패배한다.\n적 캐릭터가 처치되거나 아군 캐릭터가 「원소폭발」 사용 후: 만능 원소를 3개 생성하고 카드를 1장 드로우한다. 또한, 이번 행동 종료 후 아군은 연속으로 한 번 더 행동할 수 있다",
+            "descriptionraw": "<color=#FFFFFFFF>행동 단계 시작 시:</color> $[K411]를 2개 생성한다. 단, 아군 플레이어는 이번 턴 종료 단계에 대전에서 패배한다.\\n<color=#FFFFFFFF>적 캐릭터가 처치되거나 아군 캐릭터가 「원소폭발」 사용 후:</color> $[K411]를 3개 생성하고 카드를 1장 드로우한다. 또한, 이번 행동 종료 후 아군은 연속으로 한 번 더 행동할 수 있다",
+            "descriptionreplaced": "<color=#FFFFFFFF>행동 단계 시작 시:</color> <color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>를 2개 생성한다. 단, 아군 플레이어는 이번 턴 종료 단계에 대전에서 패배한다.\\n<color=#FFFFFFFF>적 캐릭터가 처치되거나 아군 캐릭터가 「원소폭발」 사용 후:</color> <color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>를 3개 생성하고 카드를 1장 드로우한다. 또한, 이번 행동 종료 후 아군은 연속으로 한 번 더 행동할 수 있다",
+            "id": 423026,
+            "name": "묘수풀이·속전속결",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
@@ -1553,9 +1615,9 @@
         "giantmutationstone": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "아군 출전 캐릭터가 가하는 피해+2pt\n필드 진입 시 처음에 「내구성」 3pt를 획득한다. (소진 후 해당 카드를 버린다)\n아군 캐릭터가 전투 불능이 될 경우: 해당 카드가 「내구성」을 1pt 잃는다.",
-            "descriptionraw": "아군 출전 캐릭터가 <color=#FFFFFFFF>가하는 피해+2pt</color>\\n필드 진입 시 처음에 「내구성」 3pt를 획득한다. (소진 후 해당 카드를 버린다)\\n<color=#FFFFFFFF>아군 캐릭터가 전투 불능이 될 경우</color>: 해당 카드가 「내구성」을 1pt 잃는다.",
-            "descriptionreplaced": "아군 출전 캐릭터가 <color=#FFFFFFFF>가하는 피해+2pt</color>\\n필드 진입 시 처음에 「내구성」 3pt를 획득한다. (소진 후 해당 카드를 버린다)\\n<color=#FFFFFFFF>아군 캐릭터가 전투 불능이 될 경우</color>: 해당 카드가 「내구성」을 1pt 잃는다.",
+            "description": "아군 출전 캐릭터가 주는 피해+2pt\n필드 진입 시 처음에 「내구성」 3pt를 획득한다. (소진 후 해당 카드를 버린다)\n아군 캐릭터가 전투 불능이 될 경우: 해당 카드가 「내구성」을 1pt 잃는다.",
+            "descriptionraw": "아군 출전 캐릭터가 <color=#FFFFFFFF>주는 피해+2pt</color>\\n필드 진입 시 처음에 「내구성」 3pt를 획득한다. (소진 후 해당 카드를 버린다)\\n<color=#FFFFFFFF>아군 캐릭터가 전투 불능이 될 경우</color>: 해당 카드가 「내구성」을 1pt 잃는다.",
+            "descriptionreplaced": "아군 출전 캐릭터가 <color=#FFFFFFFF>주는 피해+2pt</color>\\n필드 진입 시 처음에 「내구성」 3pt를 획득한다. (소진 후 해당 카드를 버린다)\\n<color=#FFFFFFFF>아군 캐릭터가 전투 불능이 될 경우</color>: 해당 카드가 「내구성」을 1pt 잃는다.",
             "id": 422003,
             "name": "거대 이변의 돌",
             "playcost": [],
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "특성",
                 "전투 행동"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "아군이 기존 원소 주사위 코스트가 3 이상인 「무기」 또는 「성유물」 카드 사용 시: 원소 주사위 소모 개수-1 (턴당 1회)\n사용 가능 횟수: 2",
+            "descriptionraw": "<color=#FFFFFFFF>아군이 기존 원소 주사위 코스트가 3 이상인 「{SPRITE_PRESET#3003}무기」 또는 「{SPRITE_PRESET#3004}성유물」 카드 사용 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군이 기존 원소 주사위 코스트가 3 이상인 「{SPRITE_PRESET#3003}무기」 또는 「{SPRITE_PRESET#3004}성유물」 카드 사용 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF><color=#FFFFFFFF>사용 가능 횟수</color>: 2</color>",
+            "id": 321013,
+            "name": "황금옥",
+            "playcost": [],
+            "storytext": "대륙에 유통되는 「계약」은 모두 이곳에서 만들어진다",
+            "storytitle": "황금옥",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "필드"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "몰락한 마음",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「…모든 죽음은 헛되기에, 과거 속에 잠긴 자에게 구원이란 없다」",
@@ -1705,9 +1785,9 @@
         "heavystrike": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "이번 턴에서 현재 아군 출전 캐릭터의 다음번 「일반 공격」이 가하는 피해+1pt\n해당 「일반 공격」이 강공격일 시: 피해 추가+1pt",
-            "descriptionraw": "이번 턴에서 현재 아군 출전 캐릭터의 다음번 <color=#FFFFFFFF>「일반 공격」</color>이 가하는 피해+1pt\\n<color=#FFFFFFFF>해당 「일반 공격」이 $[K51]일 시:</color> 피해 추가+1pt",
-            "descriptionreplaced": "이번 턴에서 현재 아군 출전 캐릭터의 다음번 <color=#FFFFFFFF>「일반 공격」</color>이 가하는 피해+1pt\\n<color=#FFFFFFFF>해당 「일반 공격」이 <color=#FFFFFFFF>강공격</color>일 시:</color> 피해 추가+1pt",
+            "description": "이번 턴에서 현재 아군 출전 캐릭터의 다음번 「일반 공격」이 주는 피해+1pt\n해당 「일반 공격」이 강공격일 시: 피해 추가+1pt",
+            "descriptionraw": "이번 턴에서 현재 아군 출전 캐릭터의 다음번 <color=#FFFFFFFF>「일반 공격」</color>이 주는 피해+1pt\\n<color=#FFFFFFFF>해당 「일반 공격」이 $[K51]일 시:</color> 피해 추가+1pt",
+            "descriptionreplaced": "이번 턴에서 현재 아군 출전 캐릭터의 다음번 <color=#FFFFFFFF>「일반 공격」</color>이 주는 피해+1pt\\n<color=#FFFFFFFF>해당 「일반 공격」이 <color=#FFFFFFFF>강공격</color>일 시:</color> 피해 추가+1pt",
             "id": 332018,
             "name": "강한 공격",
             "playcost": [
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "이번 턴에 아군 캐릭터가 처치됐을 경우 사용 가능:\n만능 원소를 1개 생성하고 아군 출전 캐릭터가 원소 에너지 1pt를 획득한다.",
-            "descriptionraw": "이번 턴에 아군 캐릭터가 처치됐을 경우 사용 가능:\\n$[K411]를 1개 생성하고 아군 출전 캐릭터가 $[K310] 1pt를 획득한다.",
-            "descriptionreplaced": "이번 턴에 아군 캐릭터가 처치됐을 경우 사용 가능:\\n<color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>를 1개 생성하고 아군 출전 캐릭터가 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color> 1pt를 획득한다.",
+            "description": "이번 턴에 아군 캐릭터가 처치됐을 경우 사용 가능: 만능 원소를 1개 생성하고 아군 출전 캐릭터가 원소 에너지를 1pt 획득한다. (「이 몸은 아직 지지 않았어!」는 턴마다 최대 1장 사용 가능)",
+            "descriptionraw": "<color=#FFFFFFFF>이번 턴에 아군 캐릭터가 처치됐을 경우 사용 가능:</color> $[K411]를 1개 생성하고 아군 출전 캐릭터가 $[K310]를 1pt 획득한다. (「이 몸은 아직 지지 않았어!」는 턴마다 최대 1장 사용 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>이번 턴에 아군 캐릭터가 처치됐을 경우 사용 가능:</color> <color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>를 1개 생성하고 아군 출전 캐릭터가 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 1pt 획득한다. (「이 몸은 아직 지지 않았어!」는 턴마다 최대 1장 사용 가능)",
             "id": 332005,
             "name": "이 몸은 아직 지지 않았어!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>주사위 단계:</color> 처음 주사위를 굴릴 때 확정으로 아군 출전 캐릭터와 같은 원소 타입을 2개 획득한다.",
             "id": 321003,
             "name": "군옥각",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "월드 플레이어 보운의 모험 도전에서 목표 달성 후 획득",
             "storytext": "「그곳에는 수천 개에 달하는 눈부신 보석이 빛을 발하고 있다고 한다」",
             "storytitle": "구름 속에서 바라본 별",
@@ -1845,12 +1920,39 @@
                 "필드"
             ]
         },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "이벤트 카드",
+            "description": "아군 출전 캐릭터의 원소 타입이 얼음/물/불/번개/풀일 경우 사용 가능: 모든 아군 캐릭터에게 아군 출전 캐릭터 타입의 원소를 부착한다.\n(「비기」 카드는 한 번의 대전에 한 장만 사용 가능하며, 해당 카드는 시작 카드에 반드시 포함된다)",
+            "descriptionraw": "<color=#FFFFFFFF>아군 출전 캐릭터의 원소 타입이 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>물</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>불</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>번개</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>풀</color>일 경우 사용 가능:</color> 모든 아군 캐릭터에게 아군 출전 캐릭터 타입의 원소를 부착한다.\\n(「{SPRITE_PRESET#3007}비기」 카드는 한 번의 대전에 한 장만 사용 가능하며, 해당 카드는 시작 카드에 반드시 포함된다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군 출전 캐릭터의 원소 타입이 {SPRITE_PRESET#2101}<color=#99FFFFFF>얼음</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>물</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>불</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>번개</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>풀</color>일 경우 사용 가능:</color> 모든 아군 캐릭터에게 아군 출전 캐릭터 타입의 원소를 부착한다.\\n(「{SPRITE_PRESET#3007}비기」 카드는 한 번의 대전에 한 장만 사용 가능하며, 해당 카드는 시작 카드에 반드시 포함된다)",
+            "id": 330003,
+            "name": "기쁨의 축제",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "「이 기쁨을 모두와 나누고 싶어」",
+            "storytitle": "기쁨의 축제",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "비기"
+            ]
+        },
         "jueyunguoba": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "대상 캐릭터가 이번 턴에서 가하는 다음번 「일반 공격」 피해+1pt\n(각 캐릭터는 턴마다 「요리」를 최대 1회 섭취할 수 있다)",
-            "descriptionraw": "대상 캐릭터가 이번 턴에서 가하는 다음번 <color=#FFFFFFFF>「일반 공격」</color> 피해+1pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
-            "descriptionreplaced": "대상 캐릭터가 이번 턴에서 가하는 다음번 <color=#FFFFFFFF>「일반 공격」</color> 피해+1pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
+            "description": "대상 캐릭터가 이번 턴에서 주는 다음번 「일반 공격」 피해+1pt\n(각 캐릭터는 턴마다 「요리」를 최대 1회 섭취할 수 있다)",
+            "descriptionraw": "대상 캐릭터가 이번 턴에서 주는 다음번 <color=#FFFFFFFF>「일반 공격」</color> 피해+1pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
+            "descriptionreplaced": "대상 캐릭터가 이번 턴에서 주는 다음번 <color=#FFFFFFFF>「일반 공격」</color> 피해+1pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
             "id": 333001,
             "name": "절운 누룽지",
             "playcost": [],
@@ -1866,9 +1968,9 @@
         "kantensenmyoublessing": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "해당 카드를 장착한 카미사토 아야카가 얼음 원소 부여를 발동 시: 부착 캐릭터가 가하는 얼음 원소 피해+1pt\n해당 카드를 장착한 카미사토 아야카로 교체 시: 원소 주사위 소모 개수-1 (턴당 1회)\n(카드 덱에 카미사토 아야카가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "해당 카드를 장착한 <color=#FFFFFFFF>$[A1105]</color>가 <color=#FFFFFFFF>$[C111052]</color>를 발동 시: 부착 캐릭터가 가하는 <color=#99FFFFFF>$[K101]</color>+1pt\\n해당 카드를 장착한 $[A1105]로 교체 시: 원소 주사위 소모 개수-1 (턴당 1회)\\n(카드 덱에 $[A1105]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "해당 카드를 장착한 <color=#FFFFFFFF>카미사토 아야카</color>가 <color=#FFFFFFFF>얼음 원소 부여</color>를 발동 시: 부착 캐릭터가 가하는 <color=#99FFFFFF>{SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소 피해</color></color>+1pt\\n해당 카드를 장착한 카미사토 아야카로 교체 시: 원소 주사위 소모 개수-1 (턴당 1회)\\n(카드 덱에 카미사토 아야카가 있어야만 카드 덱에 추가 가능)",
+            "description": "해당 카드를 장착한 카미사토 아야카가 얼음 원소 부여를 발동 시: 부착 캐릭터가 주는 얼음 원소 피해+1pt\n해당 카드를 장착한 카미사토 아야카로 교체 시: 원소 주사위 소모 개수-1 (턴당 1회)\n(카드 덱에 카미사토 아야카가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "해당 카드를 장착한 <color=#FFFFFFFF>$[A1105]</color>가 <color=#FFFFFFFF>$[C111052]</color>를 발동 시: 부착 캐릭터가 주는 <color=#99FFFFFF>$[K101]</color>+1pt\\n해당 카드를 장착한 $[A1105]로 교체 시: 원소 주사위 소모 개수-1 (턴당 1회)\\n(카드 덱에 $[A1105]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "해당 카드를 장착한 <color=#FFFFFFFF>카미사토 아야카</color>가 <color=#FFFFFFFF>얼음 원소 부여</color>를 발동 시: 부착 캐릭터가 주는 <color=#99FFFFFF>{SPRITE_PRESET#2101}<color=#99FFFFFF>얼음 원소 피해</color></color>+1pt\\n해당 카드를 장착한 카미사토 아야카로 교체 시: 원소 주사위 소모 개수-1 (턴당 1회)\\n(카드 덱에 카미사토 아야카가 있어야만 카드 덱에 추가 가능)",
             "id": 211051,
             "name": "한천선명 축사",
             "playcost": [
@@ -1955,6 +2057,31 @@
                 "동료"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "장비 카드",
+            "description": "캐릭터가 주는 피해+1pt\n입장 시: 부착 캐릭터가 이번 턴에서 다음번에 「원소전투 스킬」 사용 또는 「특성」 카드 장착 시 원소 주사위 소모 개수-2\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>입장 시:</color> 부착 캐릭터가 이번 턴에서 다음번에 「원소전투 스킬」 사용 또는 「{SPRITE_PRESET#3006}특성」 카드 장착 시 원소 주사위 소모 개수-2\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>입장 시:</color> 부착 캐릭터가 이번 턴에서 다음번에 「원소전투 스킬」 사용 또는 「{SPRITE_PRESET#3006}특성」 카드 장착 시 원소 주사위 소모 개수-2\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "id": 311206,
+            "name": "왕의 측근",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "아란나라의 이야기에서 나온 무기. 활의 형상을 하고 있다.\n「잊지 마, 이 세계는 숲의 꿈일 뿐이야…. 숲의 언어와 왕국 수호의 사명을 더 많은 사람에게 전해줘」",
+            "storytitle": "숲의 가르침·왕의 측근",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "무기",
+                "활"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
@@ -2007,9 +2134,9 @@
         "landsofdandelion": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 진일 때 해당 카드를 장착할 수 있다.\n진이 해당 카드를 장착 후 즉시 민들레 바람을 1회 사용한다.\n해당 카드를 장착한 진이 필드에 있을 시, 민들레 영역은 아군이 가하는 바람 원소 피해를 1pt 증가시킨다.\n(카드 덱에 진이 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1502]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1502]이 해당 카드를 장착 후 즉시 <color=#FFD780FF>$[S15023]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1502]이 필드에 있을 시, <color=#FFFFFFFF>$[C115021]</color>은 아군이 가하는 <color=#80FFD7FF>$[K105]</color>를 1pt 증가시킨다.\\n(카드 덱에 $[A1502]이 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>진</color>일 때 해당 카드를 장착할 수 있다.\\n진이 해당 카드를 장착 후 즉시 <color=#FFD780FF>민들레 바람</color>을 1회 사용한다.\\n해당 카드를 장착한 진이 필드에 있을 시, <color=#FFFFFFFF>민들레 영역</color>은 아군이 가하는 <color=#80FFD7FF>{SPRITE_PRESET#2105}<color=#80FFD7FF>바람 원소 피해</color></color>를 1pt 증가시킨다.\\n(카드 덱에 진이 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 진일 때 해당 카드를 장착할 수 있다.\n진이 해당 카드를 장착 후 즉시 민들레 바람을 1회 사용한다.\n해당 카드를 장착한 진이 필드에 있을 시, 민들레 영역은 아군이 주는 바람 원소 피해를 1pt 증가시킨다.\n(카드 덱에 진이 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1502]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1502]이 해당 카드를 장착 후 즉시 <color=#FFD780FF>$[S15023]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1502]이 필드에 있을 시, <color=#FFFFFFFF>$[C115021]</color>은 아군이 주는 <color=#80FFD7FF>$[K105]</color>를 1pt 증가시킨다.\\n(카드 덱에 $[A1502]이 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>진</color>일 때 해당 카드를 장착할 수 있다.\\n진이 해당 카드를 장착 후 즉시 <color=#FFD780FF>민들레 바람</color>을 1회 사용한다.\\n해당 카드를 장착한 진이 필드에 있을 시, <color=#FFFFFFFF>민들레 영역</color>은 아군이 주는 <color=#80FFD7FF>{SPRITE_PRESET#2105}<color=#80FFD7FF>바람 원소 피해</color></color>를 1pt 증가시킨다.\\n(카드 덱에 진이 있어야만 카드 덱에 추가 가능)",
             "id": 215021,
             "name": "민들레의 국토",
             "playcost": [
@@ -2044,7 +2171,7 @@
             "name": "월계수 왕관",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2112,9 +2239,9 @@
         "leylinedisorderdireechoes": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "종료 단계: 이번 턴에 아군 캐릭터가 전투 불능이 될 때마다 남아있는 모든 아군은 보호막을 2pt 획득한다. (중첩 가능, 최대 4pt) 또한, 가하는 피해가 영구적으로 1pt 증가한다. (중첩 가능, 최대 2pt)",
-            "descriptionraw": "<color=#FFFFFFFF>종료 단계:</color> 이번 턴에 아군 캐릭터가 전투 불능이 될 때마다 남아있는 모든 아군은 보호막을 2pt 획득한다. (중첩 가능, 최대 4pt) 또한, 가하는 피해가 영구적으로 1pt 증가한다. (중첩 가능, 최대 2pt)",
-            "descriptionreplaced": "<color=#FFFFFFFF>종료 단계:</color> 이번 턴에 아군 캐릭터가 전투 불능이 될 때마다 남아있는 모든 아군은 보호막을 2pt 획득한다. (중첩 가능, 최대 4pt) 또한, 가하는 피해가 영구적으로 1pt 증가한다. (중첩 가능, 최대 2pt)",
+            "description": "종료 단계: 이번 턴에 아군 캐릭터가 전투 불능이 될 때마다 남아있는 모든 아군은 보호막을 2pt 획득한다. (중첩 가능, 최대 4pt) 또한, 주는 피해가 영구적으로 1pt 증가한다. (중첩 가능, 최대 2pt)",
+            "descriptionraw": "<color=#FFFFFFFF>종료 단계:</color> 이번 턴에 아군 캐릭터가 전투 불능이 될 때마다 남아있는 모든 아군은 보호막을 2pt 획득한다. (중첩 가능, 최대 4pt) 또한, 주는 피해가 영구적으로 1pt 증가한다. (중첩 가능, 최대 2pt)",
+            "descriptionreplaced": "<color=#FFFFFFFF>종료 단계:</color> 이번 턴에 아군 캐릭터가 전투 불능이 될 때마다 남아있는 모든 아군은 보호막을 2pt 획득한다. (중첩 가능, 최대 4pt) 또한, 주는 피해가 영구적으로 1pt 증가한다. (중첩 가능, 최대 2pt)",
             "id": 422005,
             "name": "지맥 이상·역경의 메아리",
             "playcost": [],
@@ -2136,9 +2263,9 @@
         "leylinedisorderengulfingstorm": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "행동 단계 시작 시: 양측의 출전 캐릭터에게 번개 원소 부착 효과를 준다. 번개 원소가 부착된 캐릭터에게는 원소 에너지를 1pt 가하는 걸로 변경된다.",
-            "descriptionraw": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 양측의 출전 캐릭터에게 $[K204] 효과를 준다. <color=#FFACFFFF>{SPRITE_PRESET#2104}번개 원소가 부착된</color> 캐릭터에게는 $[K310]를 1pt 가하는 걸로 변경된다.",
-            "descriptionreplaced": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 양측의 출전 캐릭터에게 <color=#FFACFFFF>{SPRITE_PRESET#2104}번개 원소 부착</color> 효과를 준다. <color=#FFACFFFF>{SPRITE_PRESET#2104}번개 원소가 부착된</color> 캐릭터에게는 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 1pt 가하는 걸로 변경된다.",
+            "description": "행동 단계 시작 시: 양측의 출전 캐릭터에게 번개 원소 부착 효과를 준다. 번개 원소가 부착된 캐릭터에게는 원소 에너지를 1pt 주는 걸로 변경된다.",
+            "descriptionraw": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 양측의 출전 캐릭터에게 $[K204] 효과를 준다. <color=#FFACFFFF>{SPRITE_PRESET#2104}번개 원소가 부착된</color> 캐릭터에게는 $[K310]를 1pt 주는 걸로 변경된다.",
+            "descriptionreplaced": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 양측의 출전 캐릭터에게 <color=#FFACFFFF>{SPRITE_PRESET#2104}번개 원소 부착</color> 효과를 준다. <color=#FFACFFFF>{SPRITE_PRESET#2104}번개 원소가 부착된</color> 캐릭터에게는 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 1pt 주는 걸로 변경된다.",
             "id": 421004,
             "name": "지맥 이상·흡능의 번개",
             "playcost": [],
@@ -2196,9 +2323,9 @@
         "leylinedisorderhonedfactor": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "아군이 보호막의 보호를 받지 않는 적 캐릭터에게 가하는 피해+1pt",
-            "descriptionraw": "아군이 $[K6]의 보호를 받지 않는 적 캐릭터에게 <color=#FFFFFFFF>가하는 피해+1pt</color>",
-            "descriptionreplaced": "아군이 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>의 보호를 받지 않는 적 캐릭터에게 <color=#FFFFFFFF>가하는 피해+1pt</color>",
+            "description": "아군이 보호막의 보호를 받지 않는 적 캐릭터에게 주는 피해+1pt",
+            "descriptionraw": "아군이 $[K6]의 보호를 받지 않는 적 캐릭터에게 <color=#FFFFFFFF>주는 피해+1pt</color>",
+            "descriptionreplaced": "아군이 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>의 보호를 받지 않는 적 캐릭터에게 <color=#FFFFFFFF>주는 피해+1pt</color>",
             "id": 422013,
             "name": "지맥 이상·날카로운 요소",
             "playcost": [],
@@ -2232,9 +2359,9 @@
         "leylinedisordermechanicsofpenetration": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "아군이 보호막의 보호를 받지 않는 적 캐릭터에게 가하는 피해+2pt",
-            "descriptionraw": "아군이 $[K6]의 보호를 받지 않는 적 캐릭터에게 <color=#FFFFFFFF>가하는 피해+2pt</color>",
-            "descriptionreplaced": "아군이 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>의 보호를 받지 않는 적 캐릭터에게 <color=#FFFFFFFF>가하는 피해+2pt</color>",
+            "description": "아군이 보호막의 보호를 받지 않는 적 캐릭터에게 주는 피해+2pt",
+            "descriptionraw": "아군이 $[K6]의 보호를 받지 않는 적 캐릭터에게 <color=#FFFFFFFF>주는 피해+2pt</color>",
+            "descriptionreplaced": "아군이 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>의 보호를 받지 않는 적 캐릭터에게 <color=#FFFFFFFF>주는 피해+2pt</color>",
             "id": 422014,
             "name": "지맥 이상·관통 매커니즘",
             "playcost": [],
@@ -2280,9 +2407,9 @@
         "leylinedisordersmolderingflames": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "행동 단계 시작 시: 양측의 출전 캐릭터에게 불 원소 부착 효과를 준다. 불 원소가 부착된 캐릭터에게는 불 원소 피해를 2pt 가하는 걸로 변경된다.",
-            "descriptionraw": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 양측의 출전 캐릭터에게 $[K203] 효과를 준다. <color=#FF9999FF>{SPRITE_PRESET#2103}불 원소가 부착된</color> 캐릭터에게는 $[K103]를 2pt 가하는 걸로 변경된다.",
-            "descriptionreplaced": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 양측의 출전 캐릭터에게 <color=#FF9999FF>{SPRITE_PRESET#2103}불 원소 부착</color> 효과를 준다. <color=#FF9999FF>{SPRITE_PRESET#2103}불 원소가 부착된</color> 캐릭터에게는 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 2pt 가하는 걸로 변경된다.",
+            "description": "행동 단계 시작 시: 양측의 출전 캐릭터에게 불 원소 부착 효과를 준다. 불 원소가 부착된 캐릭터에게는 불 원소 피해를 2pt 주는 걸로 변경된다.",
+            "descriptionraw": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 양측의 출전 캐릭터에게 $[K203] 효과를 준다. <color=#FF9999FF>{SPRITE_PRESET#2103}불 원소가 부착된</color> 캐릭터에게는 $[K103]를 2pt 주는 걸로 변경된다.",
+            "descriptionreplaced": "<color=#FFFFFFFF>행동 단계 시작 시:</color> 양측의 출전 캐릭터에게 <color=#FF9999FF>{SPRITE_PRESET#2103}불 원소 부착</color> 효과를 준다. <color=#FF9999FF>{SPRITE_PRESET#2103}불 원소가 부착된</color> 캐릭터에게는 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>를 2pt 주는 걸로 변경된다.",
             "id": 421002,
             "name": "지맥 이상·무형의 불",
             "playcost": [],
@@ -2431,9 +2558,9 @@
         "lithicspear": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n필드 입장 시: 아군의 파티에 「리월」 캐릭터가 1명 존재할 때마다 해당 카드는 부착 캐릭터에게 보호막을 1pt 제공한다. (최대 3pt)\n(「장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 아군의 파티에 「{SPRITE_PRESET#3402}리월」 캐릭터가 1명 존재할 때마다 해당 카드는 부착 캐릭터에게 <color=#FFFFFFFF>$[K6]을 1pt 제공한다</color>. (최대 3pt)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 아군의 파티에 「{SPRITE_PRESET#3402}리월」 캐릭터가 1명 존재할 때마다 해당 카드는 부착 캐릭터에게 <color=#FFFFFFFF>{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>을 1pt 제공한다</color>. (최대 3pt)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n필드 입장 시: 아군의 파티에 「리월」 캐릭터가 1명 존재할 때마다 해당 카드는 부착 캐릭터에게 보호막을 1pt 제공한다. (최대 3pt)\n(「장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 아군의 파티에 「{SPRITE_PRESET#3402}리월」 캐릭터가 1명 존재할 때마다 해당 카드는 부착 캐릭터에게 <color=#FFFFFFFF>$[K6]을 1pt 제공한다</color>. (최대 3pt)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>필드 입장 시:</color> 아군의 파티에 「{SPRITE_PRESET#3402}리월」 캐릭터가 1명 존재할 때마다 해당 카드는 부착 캐릭터에게 <color=#FFFFFFFF>{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>을 1pt 제공한다</color>. (최대 3pt)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311402,
             "name": "천암장창",
             "playcost": [
@@ -2550,9 +2677,9 @@
         "magicguide": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311101,
             "name": "마도 서론",
             "playcost": [
@@ -2583,7 +2710,7 @@
             "name": "부동현석의 상",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2615,9 +2742,9 @@
         "masterytalismanarmsandarmorhoned": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "아군이 강공격 발동 시: 가하는 피해+1pt. 결산 후, 카드 1장을 드로우한다.",
-            "descriptionraw": "<color=#FFFFFFFF>아군이 $[K51] 발동 시:</color> 가하는 피해+1pt. 결산 후, 카드 1장을 드로우한다.",
-            "descriptionreplaced": "<color=#FFFFFFFF>아군이 <color=#FFFFFFFF>강공격</color> 발동 시:</color> 가하는 피해+1pt. 결산 후, 카드 1장을 드로우한다.",
+            "description": "아군이 강공격 발동 시: 주는 피해+1pt. 결산 후, 카드 1장을 드로우한다.",
+            "descriptionraw": "<color=#FFFFFFFF>아군이 $[K51] 발동 시:</color> 주는 피해+1pt. 결산 후, 카드 1장을 드로우한다.",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군이 <color=#FFFFFFFF>강공격</color> 발동 시:</color> 주는 피해+1pt. 결산 후, 카드 1장을 드로우한다.",
             "id": 423020,
             "name": "노련한 부적술·장비 보수",
             "playcost": [],
@@ -2675,9 +2802,9 @@
         "masterytalismancyclecharge": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "아군이 「캐릭터 교체」 행동 진행 시: 원소 주사위 소모 개수-1 (턴당 2회)\n아군이 낙하 공격 시: 가하는 피해+2pt",
-            "descriptionraw": "<color=#FFFFFFFF>아군이 「캐릭터 교체」 행동 진행 시:</color> 원소 주사위 소모 개수-1 (턴당 2회)\\n<color=#FFFFFFFF>아군이 낙하 공격 시: </color>가하는 피해+2pt",
-            "descriptionreplaced": "<color=#FFFFFFFF>아군이 「캐릭터 교체」 행동 진행 시:</color> 원소 주사위 소모 개수-1 (턴당 2회)\\n<color=#FFFFFFFF>아군이 낙하 공격 시: </color>가하는 피해+2pt",
+            "description": "아군이 「캐릭터 교체」 행동 진행 시: 원소 주사위 소모 개수-1 (턴당 2회)\n아군이 낙하 공격 시: 주는 피해+2pt",
+            "descriptionraw": "<color=#FFFFFFFF>아군이 「캐릭터 교체」 행동 진행 시:</color> 원소 주사위 소모 개수-1 (턴당 2회)\\n<color=#FFFFFFFF>아군이 낙하 공격 시: </color>주는 피해+2pt",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군이 「캐릭터 교체」 행동 진행 시:</color> 원소 주사위 소모 개수-1 (턴당 2회)\\n<color=#FFFFFFFF>아군이 낙하 공격 시: </color>주는 피해+2pt",
             "id": 423009,
             "name": "노련한 부적술·차륜전",
             "playcost": [],
@@ -2687,9 +2814,9 @@
         "masterytalismandecisivebattle": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "HP가 6pt 이하인 아군 캐릭터가 가하는 피해+2pt",
-            "descriptionraw": "HP가 6pt 이하인 아군 캐릭터가 가하는 피해+2pt",
-            "descriptionreplaced": "HP가 6pt 이하인 아군 캐릭터가 가하는 피해+2pt",
+            "description": "HP가 6pt 이하인 아군 캐릭터가 주는 피해+2pt",
+            "descriptionraw": "HP가 6pt 이하인 아군 캐릭터가 주는 피해+2pt",
+            "descriptionreplaced": "HP가 6pt 이하인 아군 캐릭터가 주는 피해+2pt",
             "id": 423011,
             "name": "노련한 부적술·결전 태세",
             "playcost": [],
@@ -2831,9 +2958,9 @@
         "masterytalismanvictoriousrepute": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "적 캐릭터 처치 시: 아군이 카드 1장을 드로우하며, 현재 아군 출전 캐릭터가 이번 대전에서 가하는 피해+1pt (최대 3pt까지 중첩 가능)",
-            "descriptionraw": "<color=#FFFFFFFF>적 캐릭터 처치 시:</color> 아군이 카드 1장을 드로우하며, 현재 아군 출전 캐릭터가 이번 대전에서 가하는 피해+1pt (최대 3pt까지 중첩 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>적 캐릭터 처치 시:</color> 아군이 카드 1장을 드로우하며, 현재 아군 출전 캐릭터가 이번 대전에서 가하는 피해+1pt (최대 3pt까지 중첩 가능)",
+            "description": "적 캐릭터 처치 시: 아군이 카드 1장을 드로우하며, 현재 아군 출전 캐릭터가 이번 대전에서 주는 피해+1pt (최대 3pt까지 중첩 가능)",
+            "descriptionraw": "<color=#FFFFFFFF>적 캐릭터 처치 시:</color> 아군이 카드 1장을 드로우하며, 현재 아군 출전 캐릭터가 이번 대전에서 주는 피해+1pt (최대 3pt까지 중첩 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>적 캐릭터 처치 시:</color> 아군이 카드 1장을 드로우하며, 현재 아군 출전 캐릭터가 이번 대전에서 주는 피해+1pt (최대 3pt까지 중첩 가능)",
             "id": 423018,
             "name": "노련한 부적술·승기 잡기",
             "playcost": [],
@@ -2963,9 +3090,9 @@
         "mutationstone": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "아군 출전 캐릭터가 가하는 피해+2pt\n필드 진입 시 처음에 「내구성」 2pt를 획득한다. (소진 후 해당 카드를 버린다)\n아군 캐릭터가 전투 불능이 될 경우: 해당 카드가 「내구성」을 1pt 잃는다.",
-            "descriptionraw": "아군 출전 캐릭터가 <color=#FFFFFFFF>가하는 피해+2pt</color>\\n필드 진입 시 처음에 「내구성」 2pt를 획득한다. (소진 후 해당 카드를 버린다)\\n<color=#FFFFFFFF>아군 캐릭터가 전투 불능이 될 경우</color>: 해당 카드가 「내구성」을 1pt 잃는다.",
-            "descriptionreplaced": "아군 출전 캐릭터가 <color=#FFFFFFFF>가하는 피해+2pt</color>\\n필드 진입 시 처음에 「내구성」 2pt를 획득한다. (소진 후 해당 카드를 버린다)\\n<color=#FFFFFFFF>아군 캐릭터가 전투 불능이 될 경우</color>: 해당 카드가 「내구성」을 1pt 잃는다.",
+            "description": "아군 출전 캐릭터가 주는 피해+2pt\n필드 진입 시 처음에 「내구성」 2pt를 획득한다. (소진 후 해당 카드를 버린다)\n아군 캐릭터가 전투 불능이 될 경우: 해당 카드가 「내구성」을 1pt 잃는다.",
+            "descriptionraw": "아군 출전 캐릭터가 <color=#FFFFFFFF>주는 피해+2pt</color>\\n필드 진입 시 처음에 「내구성」 2pt를 획득한다. (소진 후 해당 카드를 버린다)\\n<color=#FFFFFFFF>아군 캐릭터가 전투 불능이 될 경우</color>: 해당 카드가 「내구성」을 1pt 잃는다.",
+            "descriptionreplaced": "아군 출전 캐릭터가 <color=#FFFFFFFF>주는 피해+2pt</color>\\n필드 진입 시 처음에 「내구성」 2pt를 획득한다. (소진 후 해당 카드를 버린다)\\n<color=#FFFFFFFF>아군 캐릭터가 전투 불능이 될 경우</color>: 해당 카드가 「내구성」을 1pt 잃는다.",
             "id": 422002,
             "name": "이변의 돌",
             "playcost": [],
@@ -3094,8 +3221,8 @@
             "name": "화려한 투구",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "「꿈과 같이 덧없던 13년, 요고우산의 벚꽃과 흰 눈이 나풀나풀 내리네, 님은 멀어졌구나」",
@@ -3110,9 +3237,9 @@
         "paidinfull": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 우인단·화염 채무 처리인일 때 해당 카드를 장착할 수 있다.\n우인단·화염 채무 처리인이 해당 카드를 장착하면 즉시 기회 포착을 1회 사용한다.\n해당 카드를 장착한 우인단·화염 채무 처리인이 생성한 잠행이 아래의 효과를 획득한다.\n기본 사용 가능 횟수+1 및 부착 캐릭터가 가하는 물리 피해가 불 원소 피해로 전환된다.\n(카드 덱에 우인단·화염 채무 처리인이 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A2301]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A2301]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S23012]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A2301]이 생성한 <color=#FFFFFFFF>$[C123012]</color>이 아래의 효과를 획득한다.\\n기본 $[K3]+1 및 부착 캐릭터가 가하는 $[K100]가 $[K103]로 전환된다.\\n(카드 덱에 $[A2301]이 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>우인단·화염 채무 처리인</color>일 때 해당 카드를 장착할 수 있다.\\n우인단·화염 채무 처리인이 해당 카드를 장착하면 즉시 <color=#FFD780FF>기회 포착</color>을 1회 사용한다.\\n해당 카드를 장착한 우인단·화염 채무 처리인이 생성한 <color=#FFFFFFFF>잠행</color>이 아래의 효과를 획득한다.\\n기본 <color=#FFFFFFFF>사용 가능 횟수</color>+1 및 부착 캐릭터가 가하는 {SPRITE_PRESET#2100}<color=#FFFFFFFF>물리 피해</color>가 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>로 전환된다.\\n(카드 덱에 우인단·화염 채무 처리인이 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 우인단·화염 채무 처리인일 때 해당 카드를 장착할 수 있다.\n우인단·화염 채무 처리인이 해당 카드를 장착하면 즉시 기회 포착을 1회 사용한다.\n해당 카드를 장착한 우인단·화염 채무 처리인이 생성한 잠행이 아래의 효과를 획득한다.\n기본 사용 가능 횟수+1 및 부착 캐릭터가 주는 물리 피해가 불 원소 피해로 전환된다.\n(카드 덱에 우인단·화염 채무 처리인이 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A2301]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A2301]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S23012]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A2301]이 생성한 <color=#FFFFFFFF>$[C123012]</color>이 아래의 효과를 획득한다.\\n기본 $[K3]+1 및 부착 캐릭터가 주는 $[K100]가 $[K103]로 전환된다.\\n(카드 덱에 $[A2301]이 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>우인단·화염 채무 처리인</color>일 때 해당 카드를 장착할 수 있다.\\n우인단·화염 채무 처리인이 해당 카드를 장착하면 즉시 <color=#FFD780FF>기회 포착</color>을 1회 사용한다.\\n해당 카드를 장착한 우인단·화염 채무 처리인이 생성한 <color=#FFFFFFFF>잠행</color>이 아래의 효과를 획득한다.\\n기본 <color=#FFFFFFFF>사용 가능 횟수</color>+1 및 부착 캐릭터가 주는 {SPRITE_PRESET#2100}<color=#FFFFFFFF>물리 피해</color>가 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>로 전환된다.\\n(카드 덱에 우인단·화염 채무 처리인이 있어야만 카드 덱에 추가 가능)",
             "id": 223011,
             "name": "전부 되돌려주지",
             "playcost": [
@@ -3160,9 +3287,9 @@
         "parametrictransformer": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "서포트 카드",
-            "description": "양측 캐릭터가 스킬 사용 후: 원소 피해를 가할 경우 해당 카드는 「질적 변화 진도」를 1개 누적한다.\n해당 카드로 「질적 변화 진도」 3개 누적 시 이 카드를 버린 후: 각각 다른 타입의 일반 원소 주사위를 3개 생성한다.",
-            "descriptionraw": "<color=#FFFFFFFF>양측 캐릭터가 스킬 사용 후:</color> 원소 피해를 가할 경우 해당 카드는 <color=#FFFFFFFF>「질적 변화 진도」를 1개</color> 누적한다.\\n해당 카드로 <color=#FFFFFFFF>「질적 변화 진도」 3개</color> 누적 시 이 카드를 버린 후: 각각 다른 타입의 일반 원소 주사위를 3개 생성한다.",
-            "descriptionreplaced": "<color=#FFFFFFFF>양측 캐릭터가 스킬 사용 후:</color> 원소 피해를 가할 경우 해당 카드는 <color=#FFFFFFFF>「질적 변화 진도」를 1개</color> 누적한다.\\n해당 카드로 <color=#FFFFFFFF>「질적 변화 진도」 3개</color> 누적 시 이 카드를 버린 후: 각각 다른 타입의 일반 원소 주사위를 3개 생성한다.",
+            "description": "양측 캐릭터가 스킬 사용 후: 원소 피해를 줄 경우 해당 카드는 「질적 변화 진도」를 1개 누적한다.\n해당 카드로 「질적 변화 진도」 3개 누적 시 이 카드를 버린 후: 각각 다른 타입의 일반 원소 주사위를 3개 생성한다.",
+            "descriptionraw": "<color=#FFFFFFFF>양측 캐릭터가 스킬 사용 후:</color> 원소 피해를 줄 경우 해당 카드는 <color=#FFFFFFFF>「질적 변화 진도」를 1개</color> 누적한다.\\n해당 카드로 <color=#FFFFFFFF>「질적 변화 진도」 3개</color> 누적 시 이 카드를 버린 후: 각각 다른 타입의 일반 원소 주사위를 3개 생성한다.",
+            "descriptionreplaced": "<color=#FFFFFFFF>양측 캐릭터가 스킬 사용 후:</color> 원소 피해를 줄 경우 해당 카드는 <color=#FFFFFFFF>「질적 변화 진도」를 1개</color> 누적한다.\\n해당 카드로 <color=#FFFFFFFF>「질적 변화 진도」 3개</color> 누적 시 이 카드를 버린 후: 각각 다른 타입의 일반 원소 주사위를 3개 생성한다.",
             "id": 323001,
             "name": "매개 변수 변환기",
             "playcost": [
@@ -3206,9 +3333,9 @@
         "poeticsoffuubutsu": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 카에데하라 카즈하일 때 해당 카드를 장착할 수 있다.\n카에데하라 카즈하가 해당 카드를 장착하면 즉시 치하야부루를 1회 사용한다.\n해당 카드를 장착한 카에데하라 카즈하가 확산 반응 발동 후: 아군 캐릭터와 소환물이 가하는 다음 2회의 확산된 원소 타입 피해+1pt (원소 타입마다 별도 카운트)\n(카드 덱에 카에데하라 카즈하가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1505]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1505]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S15052]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1505]가 확산 반응 발동 후: 아군 캐릭터와 소환물이 가하는 다음 2회의 확산된 원소 타입 피해+1pt (원소 타입마다 별도 카운트)\\n(카드 덱에 $[A1505]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>카에데하라 카즈하</color>일 때 해당 카드를 장착할 수 있다.\\n카에데하라 카즈하가 해당 카드를 장착하면 즉시 <color=#FFD780FF>치하야부루</color>를 1회 사용한다.\\n해당 카드를 장착한 카에데하라 카즈하가 확산 반응 발동 후: 아군 캐릭터와 소환물이 가하는 다음 2회의 확산된 원소 타입 피해+1pt (원소 타입마다 별도 카운트)\\n(카드 덱에 카에데하라 카즈하가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 카에데하라 카즈하일 때 해당 카드를 장착할 수 있다.\n카에데하라 카즈하가 해당 카드를 장착하면 즉시 치하야부루를 1회 사용한다.\n해당 카드를 장착한 카에데하라 카즈하가 확산 반응 발동 후: 아군 캐릭터와 소환물이 주는 다음 2회의 확산된 원소 타입 피해+1pt (원소 타입마다 별도 카운트)\n(카드 덱에 카에데하라 카즈하가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1505]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1505]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S15052]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1505]가 확산 반응 발동 후: 아군 캐릭터와 소환물이 주는 다음 2회의 확산된 원소 타입 피해+1pt (원소 타입마다 별도 카운트)\\n(카드 덱에 $[A1505]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>카에데하라 카즈하</color>일 때 해당 카드를 장착할 수 있다.\\n카에데하라 카즈하가 해당 카드를 장착하면 즉시 <color=#FFD780FF>치하야부루</color>를 1회 사용한다.\\n해당 카드를 장착한 카에데하라 카즈하가 확산 반응 발동 후: 아군 캐릭터와 소환물이 주는 다음 2회의 확산된 원소 타입 피해+1pt (원소 타입마다 별도 카운트)\\n(카드 덱에 카에데하라 카즈하가 있어야만 카드 덱에 추가 가능)",
             "id": 215051,
             "name": "바람 속 시 낭송",
             "playcost": [
@@ -3311,6 +3438,30 @@
                 "전투 행동"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "장비 카드",
+            "description": "해당 카드를 장착한 리사로 교체한 후: 적 출전 캐릭터에게 전기 전도를 부착한다. (턴당 1회)\n(카드 덱에 리사가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "해당 카드를 장착한 <color=#FFFFFFFF>$[A1409]</color>로 교체한 후: 적 출전 캐릭터에게 <color=#FFFFFFFF>$[C114091]</color>를 부착한다. (턴당 1회)\\n(카드 덱에 $[A1409]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "해당 카드를 장착한 <color=#FFFFFFFF>리사</color>로 교체한 후: 적 출전 캐릭터에게 <color=#FFFFFFFF>전기 전도</color>를 부착한다. (턴당 1회)\\n(카드 덱에 리사가 있어야만 카드 덱에 추가 가능)",
+            "id": 214091,
+            "name": "펄스의 마녀",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "캣테일 술집에서 리사를 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
+            "storytext": "수천 권의 책을 읽은 도서관 사서에게 승리의 공식을 외우는 건 식은 죽 먹기와도 같은 일이다…",
+            "storytitle": "리사·펄스의 마녀",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "특성"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
@@ -3357,9 +3508,9 @@
         "ravenbow": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311201,
             "name": "까마귀깃 활",
             "playcost": [
@@ -3420,9 +3571,9 @@
         "rightoffinalinterpretation": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 연비일 때 해당 카드를 장착할 수 있다.\n연비가 해당 카드를 장착하면 즉시 봉랍 인장을 1회 사용한다.\n해당 카드를 장착한 연비가 강공격 발동 시: HP가 6pt 이하인 적에게 가하는 피해+1pt\n(카드 덱에 연비가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1308]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1308]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S13081]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1308]가 $[K51] 발동 시: HP가 6pt 이하인 적에게 가하는 피해+1pt\\n(카드 덱에 $[A1308]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>연비</color>일 때 해당 카드를 장착할 수 있다.\\n연비가 해당 카드를 장착하면 즉시 <color=#FFD780FF>봉랍 인장</color>을 1회 사용한다.\\n해당 카드를 장착한 연비가 <color=#FFFFFFFF>강공격</color> 발동 시: HP가 6pt 이하인 적에게 가하는 피해+1pt\\n(카드 덱에 연비가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 연비일 때 해당 카드를 장착할 수 있다.\n연비가 해당 카드를 장착하면 즉시 봉랍 인장을 1회 사용한다.\n해당 카드를 장착한 연비가 강공격 발동 시: HP가 6pt 이하인 적에게 주는 피해+1pt\n(카드 덱에 연비가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1308]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1308]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S13081]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1308]가 $[K51] 발동 시: HP가 6pt 이하인 적에게 주는 피해+1pt\\n(카드 덱에 $[A1308]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>연비</color>일 때 해당 카드를 장착할 수 있다.\\n연비가 해당 카드를 장착하면 즉시 <color=#FFD780FF>봉랍 인장</color>을 1회 사용한다.\\n해당 카드를 장착한 연비가 <color=#FFFFFFFF>강공격</color> 발동 시: HP가 6pt 이하인 적에게 주는 피해+1pt\\n(카드 덱에 연비가 있어야만 카드 덱에 추가 가능)",
             "id": 213081,
             "name": "최종 해석권",
             "playcost": [
@@ -3447,12 +3598,42 @@
                 "전투 행동"
             ]
         },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "장비 카드",
+            "description": "전투 행동: 아군 출전 캐릭터가 치치일 때 해당 카드를 장착할 수 있다.\n치치가 해당 카드를 장착하면 즉시 선법·구고도액을 1회 사용한다.\n해당 카드를 장착한 치치가 선법·구고도액 사용 시, 전투 불능 상태의 모든 아군 캐릭터를 부활시키고 부활한 캐릭터의 HP를 2pt 치유한다. (대전당 2회 제한)\n(카드 덱에 치치가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1108]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1108]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S11083]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1108]가 <color=#FFFFFFFF>$[S11083]</color> 사용 시, 전투 불능 상태의 모든 아군 캐릭터를 부활시키고 부활한 캐릭터의 HP를 2pt 치유한다. (대전당 2회 제한)\\n(카드 덱에 $[A1108]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>치치</color>일 때 해당 카드를 장착할 수 있다.\\n치치가 해당 카드를 장착하면 즉시 <color=#FFD780FF>선법·구고도액</color>을 1회 사용한다.\\n해당 카드를 장착한 치치가 <color=#FFFFFFFF>선법·구고도액</color> 사용 시, 전투 불능 상태의 모든 아군 캐릭터를 부활시키고 부활한 캐릭터의 HP를 2pt 치유한다. (대전당 2회 제한)\\n(카드 덱에 치치가 있어야만 카드 덱에 추가 가능)",
+            "id": 211081,
+            "name": "기사회해",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "캣테일 술집에서 치치를 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
+            "storytext": "「살아…남아야 해…」",
+            "storytitle": "치치·기사회해",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "특성",
+                "전투 행동"
+            ]
+        },
         "sacrificialbow": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\n(「활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311202,
             "name": "제례활",
             "playcost": [
@@ -3475,9 +3656,9 @@
         "sacrificialfragments": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\n(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\n(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311102,
             "name": "제례의 악장",
             "playcost": [
@@ -3500,9 +3681,9 @@
         "sacrificialgreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311302,
             "name": "제례 대검",
             "playcost": [
@@ -3525,9 +3706,9 @@
         "sacrificialsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311502,
             "name": "제례검",
             "playcost": [
@@ -3573,9 +3754,9 @@
         "sanguinerouge": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 호두일 때 해당 카드를 장착할 수 있다.\n호두가 해당 카드를 장착하면 즉시 나비의 서를 1회 사용한다.\n해당 카드를 장착한 호두의 HP가 6pt 이하일 때, 가하는 불 원소 피해+1pt\n(카드 덱에 호두가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1307]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1307]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S13072]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1307]의 HP가 6pt 이하일 때, 가하는 $[K103]+1pt\\n(카드 덱에 $[A1307]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>호두</color>일 때 해당 카드를 장착할 수 있다.\\n호두가 해당 카드를 장착하면 즉시 <color=#FFD780FF>나비의 서</color>를 1회 사용한다.\\n해당 카드를 장착한 호두의 HP가 6pt 이하일 때, 가하는 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>+1pt\\n(카드 덱에 호두가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 호두일 때 해당 카드를 장착할 수 있다.\n호두가 해당 카드를 장착하면 즉시 나비의 서를 1회 사용한다.\n해당 카드를 장착한 호두의 HP가 6pt 이하일 때, 주는 불 원소 피해+1pt\n(카드 덱에 호두가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1307]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1307]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S13072]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1307]의 HP가 6pt 이하일 때, 주는 $[K103]+1pt\\n(카드 덱에 $[A1307]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>호두</color>일 때 해당 카드를 장착할 수 있다.\\n호두가 해당 카드를 장착하면 즉시 <color=#FFD780FF>나비의 서</color>를 1회 사용한다.\\n해당 카드를 장착한 호두의 HP가 6pt 이하일 때, 주는 {SPRITE_PRESET#2103}<color=#FF9999FF>불 원소 피해</color>+1pt\\n(카드 덱에 호두가 있어야만 카드 덱에 추가 가능)",
             "id": 213071,
             "name": "핏빛 분장",
             "playcost": [
@@ -3599,9 +3780,9 @@
         "sashimiplatter": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "대상 캐릭터가 이번 턴이 종료되기 전까지 「일반 공격」으로 가하는 피해+1pt\n(각 캐릭터는 턴마다 「요리」를 최대 1회 섭취할 수 있다)",
-            "descriptionraw": "대상 캐릭터가 이번 턴이 종료되기 전까지 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
-            "descriptionreplaced": "대상 캐릭터가 이번 턴이 종료되기 전까지 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
+            "description": "대상 캐릭터가 이번 턴이 종료되기 전까지 「일반 공격」으로 주는 피해+1pt\n(각 캐릭터는 턴마다 「요리」를 최대 1회 섭취할 수 있다)",
+            "descriptionraw": "대상 캐릭터가 이번 턴이 종료되기 전까지 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
+            "descriptionreplaced": "대상 캐릭터가 이번 턴이 종료되기 전까지 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
             "id": 333010,
             "name": "모둠 회",
             "playcost": [
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "서포트 카드",
+            "description": "아군이 임의의 행동을 한 후, 핸드 카드 수량이 0일 경우: 카드를 1장 드로우한다.\n사용 가능 횟수: 3",
+            "descriptionraw": "<color=#FFFFFFFF>아군이 임의의 행동을 한 후, 핸드 카드 수량이 0일 경우:</color> 카드를 1장 드로우한다.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>아군이 임의의 행동을 한 후, 핸드 카드 수량이 0일 경우:</color> 카드를 1장 드로우한다.\\n<color=#FFFFFFFF><color=#FFFFFFFF>사용 가능 횟수</color>: 3</color>",
+            "id": 322019,
+            "name": "세타르",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "사막의 천재로서, 우림의 전당 깊은 곳을 향해…",
+            "storytitle": "장벽을 넘어·세타르",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "동료"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
@@ -3668,14 +3872,14 @@
         "shimenawasreminiscence": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 「원소전투 스킬」 사용 혹은 「특성」 장착 시: 원소 주사위 소모 개수-1 (턴당 1회)\n만약 캐릭터가 원소 에너지를 2pt 이상 보유했을 시, 캐릭터의 「일반 공격」과 「원소전투 스킬」로 가하는 피해+1pt\n(캐릭터는 「성유물」을 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 혹은 「{SPRITE_PRESET#3006}특성」 장착 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF>만약 캐릭터가 $[K310]를 2pt 이상 보유했을 시,</color> 캐릭터의 「일반 공격」과 「원소전투 스킬」로 가하는 피해+1pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 혹은 「{SPRITE_PRESET#3006}특성」 장착 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF>만약 캐릭터가 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 2pt 이상 보유했을 시,</color> 캐릭터의 「일반 공격」과 「원소전투 스킬」로 가하는 피해+1pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
+            "description": "캐릭터가 「원소전투 스킬」 사용 혹은 「특성」 장착 시: 원소 주사위 소모 개수-1 (턴당 1회)\n만약 캐릭터가 원소 에너지를 2pt 이상 보유했을 시, 캐릭터의 「일반 공격」과 「원소전투 스킬」로 주는 피해+1pt\n(캐릭터는 「성유물」을 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 혹은 「{SPRITE_PRESET#3006}특성」 장착 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF>만약 캐릭터가 $[K310]를 2pt 이상 보유했을 시,</color> 캐릭터의 「일반 공격」과 「원소전투 스킬」로 주는 피해+1pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 혹은 「{SPRITE_PRESET#3006}특성」 장착 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF>만약 캐릭터가 <color=#FFFFFFFF>{SPRITE_PRESET#1110}원소 에너지</color>를 2pt 이상 보유했을 시,</color> 캐릭터의 「일반 공격」과 「원소전투 스킬」로 주는 피해+1pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
             "id": 312014,
             "name": "추억의 시메나와",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -3691,9 +3895,9 @@
         "sinofpride": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 쿠죠 사라일 때 해당 카드를 장착할 수 있다.\n쿠죠 사라가 해당 카드를 장착하면 즉시 빛나는 천도의 진법을 1회 사용한다.\n해당 카드를 장착한 쿠죠 사라가 필드에 있을 경우, 빛나는 깃털의 수호가 부착된 아군 번개 원소 캐릭터의 원소전투 스킬 및 원소폭발로 가하는 피해가 추가로 1pt 증가한다.\n(카드 덱에 쿠죠 사라가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1406]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1406]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S14063]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1406]가 필드에 있을 경우, <color=#FFFFFFFF>$[C114063]</color>가 부착된 아군 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소</color> 캐릭터의 <color=#FFFFFFFF>원소전투 스킬</color> 및 <color=#FFFFFFFF>원소폭발</color>로 가하는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 $[A1406]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>쿠죠 사라</color>일 때 해당 카드를 장착할 수 있다.\\n쿠죠 사라가 해당 카드를 장착하면 즉시 <color=#FFD780FF>빛나는 천도의 진법</color>을 1회 사용한다.\\n해당 카드를 장착한 쿠죠 사라가 필드에 있을 경우, <color=#FFFFFFFF>빛나는 깃털의 수호</color>가 부착된 아군 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소</color> 캐릭터의 <color=#FFFFFFFF>원소전투 스킬</color> 및 <color=#FFFFFFFF>원소폭발</color>로 가하는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 쿠죠 사라가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 쿠죠 사라일 때 해당 카드를 장착할 수 있다.\n쿠죠 사라가 해당 카드를 장착하면 즉시 빛나는 천도의 진법을 1회 사용한다.\n해당 카드를 장착한 쿠죠 사라가 필드에 있을 경우, 빛나는 깃털의 수호가 부착된 아군 번개 원소 캐릭터의 원소전투 스킬 및 원소폭발로 주는 피해가 추가로 1pt 증가한다.\n(카드 덱에 쿠죠 사라가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1406]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1406]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S14063]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1406]가 필드에 있을 경우, <color=#FFFFFFFF>$[C114063]</color>가 부착된 아군 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소</color> 캐릭터의 <color=#FFFFFFFF>원소전투 스킬</color> 및 <color=#FFFFFFFF>원소폭발</color>로 주는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 $[A1406]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>쿠죠 사라</color>일 때 해당 카드를 장착할 수 있다.\\n쿠죠 사라가 해당 카드를 장착하면 즉시 <color=#FFD780FF>빛나는 천도의 진법</color>을 1회 사용한다.\\n해당 카드를 장착한 쿠죠 사라가 필드에 있을 경우, <color=#FFFFFFFF>빛나는 깃털의 수호</color>가 부착된 아군 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소</color> 캐릭터의 <color=#FFFFFFFF>원소전투 스킬</color> 및 <color=#FFFFFFFF>원소폭발</color>로 주는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 쿠죠 사라가 있어야만 카드 덱에 추가 가능)",
             "id": 214061,
             "name": "아계(我界)",
             "playcost": [
@@ -3721,9 +3925,9 @@
         "skywardatlas": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 가하는 피해+1pt\n(법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 주는 피해+1pt\n(법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3201}법구」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311103,
             "name": "천공의 두루마리",
             "playcost": [
@@ -3746,9 +3950,9 @@
         "skywardblade": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 가하는 피해+1pt\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3205}「한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3205}「한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 주는 피해+1pt\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3205}「한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3205}「한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311504,
             "name": "천공의 검",
             "playcost": [
@@ -3771,9 +3975,9 @@
         "skywardharp": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 가하는 피해+1pt\n(활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 주는 피해+1pt\n(활」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3202}활」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311203,
             "name": "천공의 날개",
             "playcost": [
@@ -3796,9 +4000,9 @@
         "skywardpride": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 가하는 피해+1pt\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 주는 피해+1pt\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311304,
             "name": "천공의 긍지",
             "playcost": [
@@ -3821,9 +4025,9 @@
         "skywardspine": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 가하는 피해+1pt\n(장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 가하는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n턴당 1회: 캐릭터가 「일반 공격」으로 주는 피해+1pt\n(장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>턴당 1회:</color> 캐릭터가 <color=#FFFFFFFF>「일반 공격」</color>으로 주는 피해+1pt\\n(<color=#FFFFFFFF>{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311403,
             "name": "천공의 마루",
             "playcost": [
@@ -3866,9 +4070,9 @@
         "steadybreathing": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 중운일 때 해당 카드를 장착할 수 있다.\n중운이 해당 카드를 장착하면 즉시 중첩의 서리를 1회 사용한다.\n해당 카드를 장착한 중운이 생성한 중첩의 서리 영역이 아래의 효과를 획득한다.\n기본 지속 턴+1 및 아군의 한손검, 양손검 혹은 장병기 캐릭터가 가하는 일반 공격 피해+1pt\n(카드 덱에 중운이 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1104]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1104]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S11042]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1104]이 생성한 <color=#FFFFFFFF>$[C111041]</color>이 아래의 효과를 획득한다.\\n기본 $[K4]+1 및 아군의 한손검, 양손검 혹은 장병기 캐릭터가 가하는 <color=#FFFFFFFF>일반 공격</color> 피해+1pt\\n(카드 덱에 $[A1104]이 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>중운</color>일 때 해당 카드를 장착할 수 있다.\\n중운이 해당 카드를 장착하면 즉시 <color=#FFD780FF>중첩의 서리</color>를 1회 사용한다.\\n해당 카드를 장착한 중운이 생성한 <color=#FFFFFFFF>중첩의 서리 영역</color>이 아래의 효과를 획득한다.\\n기본 <color=#FFFFFFFF>지속 턴</color>+1 및 아군의 한손검, 양손검 혹은 장병기 캐릭터가 가하는 <color=#FFFFFFFF>일반 공격</color> 피해+1pt\\n(카드 덱에 중운이 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 중운일 때 해당 카드를 장착할 수 있다.\n중운이 해당 카드를 장착하면 즉시 중첩의 서리를 1회 사용한다.\n해당 카드를 장착한 중운이 생성한 중첩의 서리 영역이 아래의 효과를 획득한다.\n기본 지속 턴+1 및 아군의 한손검, 양손검 혹은 장병기 캐릭터가 주는 일반 공격 피해+1pt\n(카드 덱에 중운이 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1104]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1104]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S11042]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1104]이 생성한 <color=#FFFFFFFF>$[C111041]</color>이 아래의 효과를 획득한다.\\n기본 $[K4]+1 및 아군의 한손검, 양손검 혹은 장병기 캐릭터가 주는 <color=#FFFFFFFF>일반 공격</color> 피해+1pt\\n(카드 덱에 $[A1104]이 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>중운</color>일 때 해당 카드를 장착할 수 있다.\\n중운이 해당 카드를 장착하면 즉시 <color=#FFD780FF>중첩의 서리</color>를 1회 사용한다.\\n해당 카드를 장착한 중운이 생성한 <color=#FFFFFFFF>중첩의 서리 영역</color>이 아래의 효과를 획득한다.\\n기본 <color=#FFFFFFFF>지속 턴</color>+1 및 아군의 한손검, 양손검 혹은 장병기 캐릭터가 주는 <color=#FFFFFFFF>일반 공격</color> 피해+1pt\\n(카드 덱에 중운이 있어야만 카드 덱에 추가 가능)",
             "id": 211041,
             "name": "진기 토납",
             "playcost": [
@@ -3967,9 +4171,9 @@
         "strategicreserve": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 응광일 때 해당 카드를 장착할 수 있다.\n응광이 해당 카드를 장착 후 즉시 선기 병풍을 1회 사용한다.\n해당 카드를 장착한 응광이 필드에 있을 시, 선기 병풍은 아군이 가하는 바위 원소 피해를 1pt 증가시킨다.\n(카드 덱에 응광이 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1601]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1601]이 해당 카드를 장착 후 즉시 <color=#FFD780FF>$[S16012]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1601]이 필드에 있을 시, <color=#FFFFFFFF>$[C116011]</color>은 아군이 가하는 <color=#FFE699FF>$[K106]</color>를 1pt 증가시킨다.\\n(카드 덱에 $[A1601]이 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>응광</color>일 때 해당 카드를 장착할 수 있다.\\n응광이 해당 카드를 장착 후 즉시 <color=#FFD780FF>선기 병풍</color>을 1회 사용한다.\\n해당 카드를 장착한 응광이 필드에 있을 시, <color=#FFFFFFFF>선기 병풍</color>은 아군이 가하는 <color=#FFE699FF>{SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소 피해</color></color>를 1pt 증가시킨다.\\n(카드 덱에 응광이 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 응광일 때 해당 카드를 장착할 수 있다.\n응광이 해당 카드를 장착 후 즉시 선기 병풍을 1회 사용한다.\n해당 카드를 장착한 응광이 필드에 있을 시, 선기 병풍은 아군이 주는 바위 원소 피해를 1pt 증가시킨다.\n(카드 덱에 응광이 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1601]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1601]이 해당 카드를 장착 후 즉시 <color=#FFD780FF>$[S16012]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1601]이 필드에 있을 시, <color=#FFFFFFFF>$[C116011]</color>은 아군이 주는 <color=#FFE699FF>$[K106]</color>를 1pt 증가시킨다.\\n(카드 덱에 $[A1601]이 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>응광</color>일 때 해당 카드를 장착할 수 있다.\\n응광이 해당 카드를 장착 후 즉시 <color=#FFD780FF>선기 병풍</color>을 1회 사용한다.\\n해당 카드를 장착한 응광이 필드에 있을 시, <color=#FFFFFFFF>선기 병풍</color>은 아군이 주는 <color=#FFE699FF>{SPRITE_PRESET#2106}<color=#FFE699FF>바위 원소 피해</color></color>를 1pt 증가시킨다.\\n(카드 덱에 응광이 있어야만 카드 덱에 추가 가능)",
             "id": 216011,
             "name": "사전 준비",
             "playcost": [
@@ -4085,9 +4289,9 @@
         "tamakushicasket": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 산고노미야 코코미일 때 해당 카드를 장착할 수 있다.\n산고노미야 코코미가 해당 카드를 장착하면 즉시 해인화우(海人化羽)를 1회 사용한다.\n해당 카드를 장착한 산고노미야 코코미가 해인화우(海人化羽)를 사용 시: 환영 해파리가 필드에 있을 경우 사용 가능 횟수가 갱신된다.\n의식의 날개옷이 존재하는 동안 환영 해파리가 가하는 피해+1pt\n(카드 덱에 산고노미야 코코미가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1205]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1205]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S12053]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1205]가 <color=#FFFFFFFF>$[S12053]</color>를 사용 시: <color=#FFFFFFFF>$[C112051]</color>가 필드에 있을 경우 $[K3]가 갱신된다.\\n<color=#FFFFFFFF>$[C112052]</color>이 존재하는 동안 <color=#FFFFFFFF>$[C112051]</color>가 가하는 피해+1pt\\n(카드 덱에 $[A1205]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>산고노미야 코코미</color>일 때 해당 카드를 장착할 수 있다.\\n산고노미야 코코미가 해당 카드를 장착하면 즉시 <color=#FFD780FF>해인화우(海人化羽)</color>를 1회 사용한다.\\n해당 카드를 장착한 산고노미야 코코미가 <color=#FFFFFFFF>해인화우(海人化羽)</color>를 사용 시: <color=#FFFFFFFF>환영 해파리</color>가 필드에 있을 경우 <color=#FFFFFFFF>사용 가능 횟수</color>가 갱신된다.\\n<color=#FFFFFFFF>의식의 날개옷</color>이 존재하는 동안 <color=#FFFFFFFF>환영 해파리</color>가 가하는 피해+1pt\\n(카드 덱에 산고노미야 코코미가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 산고노미야 코코미일 때 해당 카드를 장착할 수 있다.\n산고노미야 코코미가 해당 카드를 장착하면 즉시 해인화우(海人化羽)를 1회 사용한다.\n해당 카드를 장착한 산고노미야 코코미가 해인화우(海人化羽)를 사용 시: 환영 해파리가 필드에 있을 경우 사용 가능 횟수가 갱신된다.\n의식의 날개옷이 존재하는 동안 환영 해파리가 주는 피해+1pt\n(카드 덱에 산고노미야 코코미가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1205]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1205]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S12053]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1205]가 <color=#FFFFFFFF>$[S12053]</color>를 사용 시: <color=#FFFFFFFF>$[C112051]</color>가 필드에 있을 경우 $[K3]가 갱신된다.\\n<color=#FFFFFFFF>$[C112052]</color>이 존재하는 동안 <color=#FFFFFFFF>$[C112051]</color>가 주는 피해+1pt\\n(카드 덱에 $[A1205]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>산고노미야 코코미</color>일 때 해당 카드를 장착할 수 있다.\\n산고노미야 코코미가 해당 카드를 장착하면 즉시 <color=#FFD780FF>해인화우(海人化羽)</color>를 1회 사용한다.\\n해당 카드를 장착한 산고노미야 코코미가 <color=#FFFFFFFF>해인화우(海人化羽)</color>를 사용 시: <color=#FFFFFFFF>환영 해파리</color>가 필드에 있을 경우 <color=#FFFFFFFF>사용 가능 횟수</color>가 갱신된다.\\n<color=#FFFFFFFF>의식의 날개옷</color>이 존재하는 동안 <color=#FFFFFFFF>환영 해파리</color>가 주는 피해+1pt\\n(카드 덱에 산고노미야 코코미가 있어야만 카드 덱에 추가 가능)",
             "id": 212051,
             "name": "함 속의 타마쿠시",
             "playcost": [
@@ -4115,9 +4319,9 @@
         "tandooriroastchicken": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "모든 아군 캐릭터가 이번 턴에서 가하는 다음번 「원소전투 스킬」 피해+2pt\n(각 캐릭터는 턴마다 「요리」를 최대 1회 섭취할 수 있다)",
-            "descriptionraw": "모든 아군 캐릭터가 이번 턴에서 가하는 다음번 <color=#FFFFFFFF>「원소전투 스킬」</color> 피해+2pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
-            "descriptionreplaced": "모든 아군 캐릭터가 이번 턴에서 가하는 다음번 <color=#FFFFFFFF>「원소전투 스킬」</color> 피해+2pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
+            "description": "모든 아군 캐릭터가 이번 턴에서 주는 다음번 「원소전투 스킬」 피해+2pt\n(각 캐릭터는 턴마다 「요리」를 최대 1회 섭취할 수 있다)",
+            "descriptionraw": "모든 아군 캐릭터가 이번 턴에서 주는 다음번 <color=#FFFFFFFF>「원소전투 스킬」</color> 피해+2pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
+            "descriptionreplaced": "모든 아군 캐릭터가 이번 턴에서 주는 다음번 <color=#FFFFFFFF>「원소전투 스킬」</color> 피해+2pt\\n(각 캐릭터는 턴마다 「{SPRITE_PRESET#3101}요리」를 최대 1회 섭취할 수 있다)",
             "id": 333011,
             "name": "탄두리 치킨",
             "playcost": [
@@ -4207,9 +4411,9 @@
         "thebell": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n캐릭터 스킬 사용 후: 아군 출전 캐릭터에게 보호막을 1pt 제공한다. (턴당 1회, 최대 2pt)\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터 스킬 사용 후:</color> 아군 출전 캐릭터에게 $[K6]을 1pt 제공한다. (턴당 1회, 최대 2pt)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터 스킬 사용 후:</color> 아군 출전 캐릭터에게 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>을 1pt 제공한다. (턴당 1회, 최대 2pt)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n캐릭터 스킬 사용 후: 아군 출전 캐릭터에게 보호막을 1pt 제공한다. (턴당 1회, 최대 2pt)\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터 스킬 사용 후:</color> 아군 출전 캐릭터에게 $[K6]을 1pt 제공한다. (턴당 1회, 최대 2pt)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n<color=#FFFFFFFF>캐릭터 스킬 사용 후:</color> 아군 출전 캐릭터에게 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>을 1pt 제공한다. (턴당 1회, 최대 2pt)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311305,
             "name": "시간의 검",
             "playcost": [
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "이벤트 카드",
-            "description": "아군의 모든 원소 주사위를 현재 출전 중인 캐릭터의 원소 타입으로 전환한다.\n(카드 덱에 「이나즈마」 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "아군의 모든 원소 주사위를 현재 출전 중인 캐릭터의 원소 타입으로 전환한다.\\n(카드 덱에 「{SPRITE_PRESET#3403}이나즈마」 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "아군의 모든 원소 주사위를 현재 출전 중인 캐릭터의 원소 타입으로 전환한다.\\n(카드 덱에 「{SPRITE_PRESET#3403}이나즈마」 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "description": "아군의 모든 원소 주사위를 만능 원소로 전환한다.\n(카드 덱에 「이나즈마」 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "아군의 모든 원소 주사위를 $[K411]로 전환한다.\\n(카드 덱에 「{SPRITE_PRESET#3403}이나즈마」 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "아군의 모든 원소 주사위를 <color=#FFFFFFFF>{SPRITE_PRESET#1111}만능 원소</color>로 전환한다.\\n(카드 덱에 「{SPRITE_PRESET#3403}이나즈마」 캐릭터가 2명 이상 있어야만 카드 덱에 추가 가능)",
             "id": 331803,
             "name": "번개와 영원",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "번개 같은 분노",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「다음에 뇌우와 함께 돌아오면 다른 노래도 불러 줄게」",
@@ -4424,9 +4628,9 @@
         "thunderingpenance": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 각청일 때 해당 카드를 장착할 수 있다.\n각청이 해당 카드를 장착하면 즉시 성신 회귀를 1회 사용한다.\n해당 카드를 장착한 각청이 생성한 번개 원소 부여가 아래의 효과를 획득한다.\n기본 지속 턴+1 및 부착 캐릭터가 가하는 번개 원소 피해+1pt\n(카드 덱에 각청이 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1403]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1403]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S14032]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1403]이 생성한 <color=#FFFFFFFF>$[C114032]</color>가 아래의 효과를 획득한다.\\n기본 $[K4]+1 및 부착 캐릭터가 가하는 $[K104]+1pt\\n(카드 덱에 $[A1403]이 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>각청</color>일 때 해당 카드를 장착할 수 있다.\\n각청이 해당 카드를 장착하면 즉시 <color=#FFD780FF>성신 회귀</color>를 1회 사용한다.\\n해당 카드를 장착한 각청이 생성한 <color=#FFFFFFFF>번개 원소 부여</color>가 아래의 효과를 획득한다.\\n기본 <color=#FFFFFFFF>지속 턴</color>+1 및 부착 캐릭터가 가하는 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소 피해</color>+1pt\\n(카드 덱에 각청이 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 각청일 때 해당 카드를 장착할 수 있다.\n각청이 해당 카드를 장착하면 즉시 성신 회귀를 1회 사용한다.\n해당 카드를 장착한 각청이 생성한 번개 원소 부여가 아래의 효과를 획득한다.\n기본 지속 턴+1 및 부착 캐릭터가 주는 번개 원소 피해+1pt\n(카드 덱에 각청이 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1403]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1403]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S14032]</color>를 1회 사용한다.\\n해당 카드를 장착한 $[A1403]이 생성한 <color=#FFFFFFFF>$[C114032]</color>가 아래의 효과를 획득한다.\\n기본 $[K4]+1 및 부착 캐릭터가 주는 $[K104]+1pt\\n(카드 덱에 $[A1403]이 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>각청</color>일 때 해당 카드를 장착할 수 있다.\\n각청이 해당 카드를 장착하면 즉시 <color=#FFD780FF>성신 회귀</color>를 1회 사용한다.\\n해당 카드를 장착한 각청이 생성한 <color=#FFFFFFFF>번개 원소 부여</color>가 아래의 효과를 획득한다.\\n기본 <color=#FFFFFFFF>지속 턴</color>+1 및 부착 캐릭터가 주는 {SPRITE_PRESET#2104}<color=#FFACFFFF>번개 원소 피해</color>+1pt\\n(카드 덱에 각청이 있어야만 카드 덱에 추가 가능)",
             "id": 214031,
             "name": "하늘에 닿은 뇌벌",
             "playcost": [
@@ -4457,7 +4661,7 @@
             "name": "번개의 자태",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "번개를 부르는 모자",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4581,9 +4785,9 @@
         "travelershandysword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n(「한손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3205}한손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311501,
             "name": "여행자의 검",
             "playcost": [
@@ -4676,9 +4880,9 @@
         "undividedheart": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 감우일 때 해당 카드를 장착할 수 있다.\n감우가 해당 카드를 장착하면 즉시 서리꽃 화살을 1회 사용한다.\n해당 카드를 장착한 감우가 서리꽃 화살 사용 시: 만약 이번 대전에서 해당 스킬을 사용한 적이 있으면 적의 대기 캐릭터에게 가하는 관통 피해가 3pt로 전환된다.\n(카드 덱에 감우가 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1101]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1101]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S11013]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1101]가 <color=#FFFFFFFF>$[S11013]</color> 사용 시: 만약 이번 대전에서 해당 스킬을 사용한 적이 있으면 적의 대기 캐릭터에게 가하는 $[K5]가 3pt로 전환된다.\\n(카드 덱에 $[A1101]가 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>감우</color>일 때 해당 카드를 장착할 수 있다.\\n감우가 해당 카드를 장착하면 즉시 <color=#FFD780FF>서리꽃 화살</color>을 1회 사용한다.\\n해당 카드를 장착한 감우가 <color=#FFFFFFFF>서리꽃 화살</color> 사용 시: 만약 이번 대전에서 해당 스킬을 사용한 적이 있으면 적의 대기 캐릭터에게 가하는 <color=#FFFFFFFF>관통 피해</color>가 3pt로 전환된다.\\n(카드 덱에 감우가 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 감우일 때 해당 카드를 장착할 수 있다.\n감우가 해당 카드를 장착하면 즉시 서리꽃 화살을 1회 사용한다.\n해당 카드를 장착한 감우가 서리꽃 화살 사용 시: 만약 이번 대전에서 해당 스킬을 사용한 적이 있으면 적의 대기 캐릭터에게 주는 관통 피해가 3pt로 전환된다.\n(카드 덱에 감우가 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1101]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1101]가 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S11013]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1101]가 <color=#FFFFFFFF>$[S11013]</color> 사용 시: 만약 이번 대전에서 해당 스킬을 사용한 적이 있으면 적의 대기 캐릭터에게 주는 $[K5]가 3pt로 전환된다.\\n(카드 덱에 $[A1101]가 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>감우</color>일 때 해당 카드를 장착할 수 있다.\\n감우가 해당 카드를 장착하면 즉시 <color=#FFD780FF>서리꽃 화살</color>을 1회 사용한다.\\n해당 카드를 장착한 감우가 <color=#FFFFFFFF>서리꽃 화살</color> 사용 시: 만약 이번 대전에서 해당 스킬을 사용한 적이 있으면 적의 대기 캐릭터에게 주는 <color=#FFFFFFFF>관통 피해</color>가 3pt로 전환된다.\\n(카드 덱에 감우가 있어야만 카드 덱에 추가 가능)",
             "id": 211011,
             "name": "단 하나의 마음",
             "playcost": [
@@ -4720,14 +4924,14 @@
         "vermillionhereafter": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 「일반 공격」 사용 혹은 「특성」 장착 시: 원소 주사위 소모 개수-1 (턴당 1회)\n캐릭터가 「출전 캐릭터」로 교체된 후: 이번 턴에서 캐릭터의 「일반 공격」이 가하는 피해+1pt\n(캐릭터는 「성유물」을 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 「일반 공격」 사용 혹은 「{SPRITE_PRESET#3006}특성」 장착 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF>캐릭터가 「출전 캐릭터」로 교체된 후:</color> 이번 턴에서 캐릭터의 「일반 공격」이 가하는 피해+1pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 「일반 공격」 사용 혹은 「{SPRITE_PRESET#3006}특성」 장착 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF>캐릭터가 「출전 캐릭터」로 교체된 후:</color> 이번 턴에서 캐릭터의 「일반 공격」이 가하는 피해+1pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
+            "description": "캐릭터가 「일반 공격」 사용 혹은 「특성」 장착 시: 원소 주사위 소모 개수-1 (턴당 1회)\n캐릭터가 「출전 캐릭터」로 교체된 후: 이번 턴에서 캐릭터의 「일반 공격」이 주는 피해+1pt\n(캐릭터는 「성유물」을 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 「일반 공격」 사용 혹은 「{SPRITE_PRESET#3006}특성」 장착 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF>캐릭터가 「출전 캐릭터」로 교체된 후:</color> 이번 턴에서 캐릭터의 「일반 공격」이 주는 피해+1pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 「일반 공격」 사용 혹은 「{SPRITE_PRESET#3006}특성」 장착 시:</color> 원소 주사위 소모 개수-1 (턴당 1회)\\n<color=#FFFFFFFF>캐릭터가 「출전 캐릭터」로 교체된 후:</color> 이번 턴에서 캐릭터의 「일반 공격」이 주는 피해+1pt\\n(캐릭터는 「{SPRITE_PRESET#3004}성유물」을 1개만 장착할 수 있다)",
             "id": 312012,
             "name": "진사 왕생록",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "청록색 그림자",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「언젠가, 드넓은 사냥터에서… 우리는 다시 만날 거야」",
@@ -4773,7 +4977,7 @@
             "name": "청록색 사냥꾼의 모자",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4790,9 +4994,9 @@
         "vortexvanquisher": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n만약 캐릭터가 보호막 캐릭터 상태 또는 보호막 출전 상태의 보호를 받고 있으면 가하는 피해가 1pt 추가된다.\n캐릭터가 「원소전투 스킬」 사용 후: 아군에 「보호막」을 제공하는 출전 상태가 존재할 경우, 해당 유형의 출전 상태 1개에 「보호막」을 1pt 보충한다. (턴당 1회)\n(「장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n만약 캐릭터가 $[K6] 캐릭터 상태 또는 $[K6] 출전 상태의 보호를 받고 있으면 가하는 피해가 1pt 추가된다.\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 아군에 「$[K6]」을 제공하는 출전 상태가 존재할 경우, 해당 유형의 출전 상태 1개에 「$[K6]」을 1pt 보충한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n만약 캐릭터가 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color> 캐릭터 상태 또는 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color> 출전 상태의 보호를 받고 있으면 가하는 피해가 1pt 추가된다.\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 아군에 「{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>」을 제공하는 출전 상태가 존재할 경우, 해당 유형의 출전 상태 1개에 「{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>」을 1pt 보충한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n만약 캐릭터가 보호막 캐릭터 상태 또는 보호막 출전 상태의 보호를 받고 있으면 주는 피해가 1pt 추가된다.\n캐릭터가 「원소전투 스킬」 사용 후: 아군에 「보호막」을 제공하는 출전 상태가 존재할 경우, 해당 유형의 출전 상태 1개에 「보호막」을 1pt 보충한다. (턴당 1회)\n(「장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n만약 캐릭터가 $[K6] 캐릭터 상태 또는 $[K6] 출전 상태의 보호를 받고 있으면 주는 피해가 1pt 추가된다.\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 아군에 「$[K6]」을 제공하는 출전 상태가 존재할 경우, 해당 유형의 출전 상태 1개에 「$[K6]」을 1pt 보충한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n만약 캐릭터가 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color> 캐릭터 상태 또는 {SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color> 출전 상태의 보호를 받고 있으면 주는 피해가 1pt 추가된다.\\n<color=#FFFFFFFF>캐릭터가 「원소전투 스킬」 사용 후:</color> 아군에 「{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>」을 제공하는 출전 상태가 존재할 경우, 해당 유형의 출전 상태 1개에 「{SPRITE_PRESET#4007}<color=#FFFFFFFF>보호막</color>」을 1pt 보충한다. (턴당 1회)\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311404,
             "name": "관홍의 창",
             "playcost": [
@@ -4909,12 +5113,26 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "이벤트 카드",
+            "description": "아군 캐릭터가 장착한 「무기」 카드 1장이 핸드 카드로 반환된다.\n이번 턴에서 아군이 다음번에 「무기」 카드 사용 시: 원소 주사위 소모 개수-2",
+            "descriptionraw": "아군 캐릭터가 장착한 「{SPRITE_PRESET#3003}무기」 카드 1장이 핸드 카드로 반환된다.\\n<color=#FFFFFFFF>이번 턴에서 아군이 다음번에 「{SPRITE_PRESET#3003}무기」 카드 사용 시:</color> 원소 주사위 소모 개수-2",
+            "descriptionreplaced": "아군 캐릭터가 장착한 「{SPRITE_PRESET#3003}무기」 카드 1장이 핸드 카드로 반환된다.\\n<color=#FFFFFFFF>이번 턴에서 아군이 다음번에 「{SPRITE_PRESET#3003}무기」 카드 사용 시:</color> 원소 주사위 소모 개수-2",
+            "id": 332022,
+            "name": "장봉은 어디 있는 거야",
+            "playcost": [],
+            "storytext": "모험가 길드 지부장은 아무런 단서도 없음에도 불구하고 계속해서 「검」에 대한 단서를 찾으며 끊임없이 강적에게 도전하고 있다…",
+            "storytitle": "장봉은 어디 있는 거야",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311301,
             "name": "백철 대검",
             "playcost": [
@@ -4938,9 +5156,9 @@
         "whitetassel": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\n(「장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\n(「장병기」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3204}장병기」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311401,
             "name": "백술창",
             "playcost": [
@@ -4990,7 +5208,7 @@
             "name": "술로 얼룩진 수병모",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5007,9 +5225,9 @@
         "wishesunnumbered": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "전투 행동: 아군 출전 캐릭터가 라이덴 쇼군일 때 해당 카드를 장착할 수 있다.\n라이덴 쇼군이 해당 카드를 장착하면 즉시 오의·몽상진설을 1회 사용한다.\n해당 카드를 장착한 라이덴 쇼군이 오의·몽상진설을 사용할 시, 「원력」을 1pt 소모할 때마다 가하는 피해가 추가로 1pt 증가한다.\n(카드 덱에 라이덴 쇼군이 있어야만 카드 덱에 추가 가능)",
-            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1407]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1407]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S14073]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1407]이 <color=#FFFFFFFF>$[S14073]</color>을 사용할 시, 「원력」을 1pt 소모할 때마다 가하는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 $[A1407]이 있어야만 카드 덱에 추가 가능)",
-            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>라이덴 쇼군</color>일 때 해당 카드를 장착할 수 있다.\\n라이덴 쇼군이 해당 카드를 장착하면 즉시 <color=#FFD780FF>오의·몽상진설</color>을 1회 사용한다.\\n해당 카드를 장착한 라이덴 쇼군이 <color=#FFFFFFFF>오의·몽상진설</color>을 사용할 시, 「원력」을 1pt 소모할 때마다 가하는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 라이덴 쇼군이 있어야만 카드 덱에 추가 가능)",
+            "description": "전투 행동: 아군 출전 캐릭터가 라이덴 쇼군일 때 해당 카드를 장착할 수 있다.\n라이덴 쇼군이 해당 카드를 장착하면 즉시 오의·몽상진설을 1회 사용한다.\n해당 카드를 장착한 라이덴 쇼군이 오의·몽상진설을 사용할 시, 「원력」을 1pt 소모할 때마다 주는 피해가 추가로 1pt 증가한다.\n(카드 덱에 라이덴 쇼군이 있어야만 카드 덱에 추가 가능)",
+            "descriptionraw": "$[K1]: 아군 출전 캐릭터가 <color=#FFFFFFFF>$[A1407]</color>일 때 해당 카드를 장착할 수 있다.\\n$[A1407]이 해당 카드를 장착하면 즉시 <color=#FFD780FF>$[S14073]</color>을 1회 사용한다.\\n해당 카드를 장착한 $[A1407]이 <color=#FFFFFFFF>$[S14073]</color>을 사용할 시, 「원력」을 1pt 소모할 때마다 주는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 $[A1407]이 있어야만 카드 덱에 추가 가능)",
+            "descriptionreplaced": "<color=#FFFFFFFF>전투 행동</color>: 아군 출전 캐릭터가 <color=#FFFFFFFF>라이덴 쇼군</color>일 때 해당 카드를 장착할 수 있다.\\n라이덴 쇼군이 해당 카드를 장착하면 즉시 <color=#FFD780FF>오의·몽상진설</color>을 1회 사용한다.\\n해당 카드를 장착한 라이덴 쇼군이 <color=#FFFFFFFF>오의·몽상진설</color>을 사용할 시, 「원력」을 1pt 소모할 때마다 주는 피해가 추가로 1pt 증가한다.\\n(카드 덱에 라이덴 쇼군이 있어야만 카드 덱에 추가 가능)",
             "id": 214071,
             "name": "수천수만의 염원",
             "playcost": [
@@ -5044,7 +5262,7 @@
             "name": "불타오르는 마녀 모자",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5097,9 +5315,9 @@
         "wolfsgravestone": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "장비 카드",
-            "description": "캐릭터가 가하는 피해+1pt\nHP가 6pt 이하인 대상을 공격 시 추가로 2pt의 피해를 가한다.\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
-            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\nHP가 6pt 이하인 대상을 공격 시 추가로 2pt의 피해를 가한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
-            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 가하는 피해+1pt</color>\\nHP가 6pt 이하인 대상을 공격 시 추가로 2pt의 피해를 가한다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "description": "캐릭터가 주는 피해+1pt\nHP가 6pt 이하인 대상을 공격 시 추가로 2pt의 피해를 준다.\n(「양손검」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)",
+            "descriptionraw": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\nHP가 6pt 이하인 대상을 공격 시 추가로 2pt의 피해를 준다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
+            "descriptionreplaced": "<color=#FFFFFFFF>캐릭터가 주는 피해+1pt</color>\\nHP가 6pt 이하인 대상을 공격 시 추가로 2pt의 피해를 준다.\\n(<color=#FFFFFFFF>「{SPRITE_PRESET#3203}양손검」 캐릭터</color>만 장착 가능. 캐릭터는 「{SPRITE_PRESET#3003}무기」를 1개만 장착할 수 있다)",
             "id": 311303,
             "name": "늑대의 말로",
             "playcost": [

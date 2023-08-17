@@ -230,8 +230,8 @@
             "name": "Archaic Petra",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Selama Millelith tak gentar, keadilan akan tetap berdiri tegak!\"",
@@ -319,8 +319,8 @@
             "name": "Blizzard Strayer",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Kumohon, tetaplah hidup. Jangan binasa bersama kami, lenyap dan terlupakan di dalam salju ....\"",
@@ -342,7 +342,7 @@
             "name": "Broken Rime's Echo",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "Capricious Visage",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "Crimson Witch of Flames",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Tidak akan ada nyanyian yang akan kulantunkan. Aku menolak untuk meratap. Aku menolak untuk mengeluh. Aku tidak akan menggunakan kebisingan yang tak berguna.\nJika keadilan telah lama mati, lalu kepada siapa aku bisa menawarkan penebusan?\"",
@@ -746,8 +746,8 @@
             "name": "Deepwood Memories",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Karena mengikuti alam, mereka pada akhirnya, tetap akan melewati labirin hutan kerajaan dan akan mencapai dataran tak berujung itu.\"",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "Artefak"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Albedo sebagai Karakter aktif.\nAlbedo akan langsung melancarkan Abiogenesis: Solar Isotoma satu kali setelah mengenakannya.\nSaat Albedo yang mengenakan kartu ini berada di dalam arena dan Solar Isotoma berada di Zona Panggilan-mu, maka Karaktermu akan mengakibatkan DMG +1 saat melancarkan Plunging Attack.\n(Kamu harus punya Albedo di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1604]</color> sebagai Karakter aktif.\\n$[A1604] akan langsung melancarkan <color=#FFD780FF>$[S16042]</color> satu kali setelah mengenakannya.\\nSaat $[A1604] yang mengenakan kartu ini berada di dalam arena dan <color=#FFFFFFFF>$[C116041]</color> berada di Zona Panggilan-mu, maka Karaktermu akan mengakibatkan DMG +1 saat melancarkan $[K52].\\n(Kamu harus punya $[A1604] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Albedo</color> sebagai Karakter aktif.\\nAlbedo akan langsung melancarkan <color=#FFD780FF>Abiogenesis: Solar Isotoma</color> satu kali setelah mengenakannya.\\nSaat Albedo yang mengenakan kartu ini berada di dalam arena dan <color=#FFFFFFFF>Solar Isotoma</color> berada di Zona Panggilan-mu, maka Karaktermu akan mengakibatkan DMG +1 saat melancarkan <color=#FFFFFFFF>Plunging Attack</color>.\\n(Kamu harus punya Albedo di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "id": 216041,
+            "name": "Descent of Divinity",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "Hadiah yang didapatkan setelah mengundang Albedo ke Cat's Tail untuk bertanding dan menyelesaikan target tantangan yang bersangkutan",
+            "storytext": "\"Proses untuk menentukan strategi dalam menjalankan duel juga memerlukan penghitungan yang cermat ....\"",
+            "storytitle": "Albedo: Descent of Divinity",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talenta",
+                "Aksi Tempur"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "Emblem of Severed Fate",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "Tiga belas tahun ini lewat begitu saja bagaikan mimpi. \nSalju-salju merah terbang melewati jurang bagaikan asap.\nKini kamu pun sudah pergi jauh.",
@@ -1527,6 +1553,42 @@
                 "Artefak"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Dimulai dengan 2 poin \"Victory Countdown\".\nTahap Selesai: \"Victory Countdown\" berkurang 1 poin. Jika tidak ada Karakter-mu yang gugur saat \"Victory Countdown\" habis, maka kamu akan langsung memenangkan duel.\nSaat Tahap Aksi dimulai: Jika \"Victory Countdown\" tersisa 1 poin, akan menciptakan 4 Elemen Omni.",
+            "descriptionraw": "Dimulai dengan 2 poin \"Victory Countdown\".\\n<color=#FFFFFFFF>Tahap Selesai: </color>\"Victory Countdown\" berkurang 1 poin. Jika tidak ada Karakter-mu yang gugur saat \"Victory Countdown\" habis, maka kamu akan langsung memenangkan duel.\\n<color=#FFFFFFFF>Saat Tahap Aksi dimulai: </color>Jika \"Victory Countdown\" tersisa 1 poin, akan menciptakan 4 $[K411].",
+            "descriptionreplaced": "Dimulai dengan 2 poin \"Victory Countdown\".\\n<color=#FFFFFFFF>Tahap Selesai: </color>\"Victory Countdown\" berkurang 1 poin. Jika tidak ada Karakter-mu yang gugur saat \"Victory Countdown\" habis, maka kamu akan langsung memenangkan duel.\\n<color=#FFFFFFFF>Saat Tahap Aksi dimulai: </color>Jika \"Victory Countdown\" tersisa 1 poin, akan menciptakan 4 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color>.",
+            "id": 423025,
+            "name": "Game of Wits: Enduring Victory",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Saat Tahap Aksi dimulai: Menciptakan Hot Potato kepada pemain yang mulai lebih dulu.\nTahap Selesai: Jika status Hot Potato berakhir di pihak lawan, maka pihak lawan akan langsung kalah.",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> Menciptakan $[C401001] kepada pemain yang mulai lebih dulu.\\n<color=#FFFFFFFF>Tahap Selesai:</color> Jika status $[C401001] berakhir di pihak lawan, maka pihak lawan akan langsung kalah.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai:</color> Menciptakan Hot Potato kepada pemain yang mulai lebih dulu.\\n<color=#FFFFFFFF>Tahap Selesai:</color> Jika status Hot Potato berakhir di pihak lawan, maka pihak lawan akan langsung kalah.",
+            "id": 421011,
+            "name": "Game of Wits: Hot Pod Mechanism",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Saat Tahap Aksi dimulai: Menciptakan 2 Elemen Omni. Akan tetapi, kamu akan kalah setelah Ronde ini berakhir.\nSetelah Karakter lawan gugur atau Karakter-mu melancarkan Elemental Burst: Menciptakan 3 Elemen Omni dan mengambil 1 Kartu. Setelah melakukan Aksi ini, kamu dapat melakukan Aksi sekali lagi.",
+            "descriptionraw": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai: </color>Menciptakan 2 $[K411]. Akan tetapi, kamu akan kalah setelah Ronde ini berakhir.\\n<color=#FFFFFFFF>Setelah Karakter lawan gugur atau Karakter-mu melancarkan Elemental Burst: </color>Menciptakan 3 $[K411] dan mengambil 1 Kartu. Setelah melakukan Aksi ini, kamu dapat melakukan Aksi sekali lagi.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat Tahap Aksi dimulai: </color>Menciptakan 2 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color>. Akan tetapi, kamu akan kalah setelah Ronde ini berakhir.\\n<color=#FFFFFFFF>Setelah Karakter lawan gugur atau Karakter-mu melancarkan Elemental Burst: </color>Menciptakan 3 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color> dan mengambil 1 Kartu. Setelah melakukan Aksi ini, kamu dapat melakukan Aksi sekali lagi.",
+            "id": 423026,
+            "name": "Game of Wits: Unrelenting Assault",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "Talenta",
                 "Aksi Tempur"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Saat kamu memainkan kartu Equipment Senjata atau Artefak yang memerlukan biaya awal 3 Dadu atau lebih: Mengonsumsi 1 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)\nPenggunaan: 2",
+            "descriptionraw": "<color=#FFFFFFFF>Saat kamu memainkan kartu Equipment {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak yang memerlukan biaya awal 3 Dadu atau lebih:</color> Mengonsumsi 1 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Saat kamu memainkan kartu Equipment {SPRITE_PRESET#3003}Senjata atau {SPRITE_PRESET#3004}Artefak yang memerlukan biaya awal 3 Dadu atau lebih:</color> Mengonsumsi 1 Dadu Elemental lebih sedikit. (Sekali setiap Ronde)\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 2</color>",
+            "id": 321013,
+            "name": "Golden House",
+            "playcost": [],
+            "storytext": "Semua kontrak yang tersebar di dunia, terlahir di tempat ini.",
+            "storytitle": "Golden House",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "Lokasi"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "Heart of Depth",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Karena semua kematian adalah sia-sia, tidak ada gunanya menyelamatkan orang yang tenggelam dalam masa lalu.\"",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Kartu Peristiwa",
-            "description": "Hanya dapat dimainkan jika salah satu Karaktermu dikalahkan di Ronde ini:\nMenciptakan 1 Elemen Omni dan Karakter Aktifmu saat ini memperoleh 1 poin Energy.",
-            "descriptionraw": "Hanya dapat dimainkan jika salah satu Karaktermu dikalahkan di Ronde ini:\\nMenciptakan 1 $[K411] dan Karakter Aktifmu saat ini memperoleh 1 poin $[K310].",
-            "descriptionreplaced": "Hanya dapat dimainkan jika salah satu Karaktermu dikalahkan di Ronde ini:\\nMenciptakan 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color> dan Karakter Aktifmu saat ini memperoleh 1 poin <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color>.",
+            "description": "Hanya dapat dimainkan jika ada Karaktermu yang gugur di Ronde ini: Menciptakan 1 Elemen Omni dan Karakter Aktifmu mendapatkan 1 poin Energy. (Setiap Ronde hanya dapat memainkan 1 kartu \"I Haven't Lost Yet!\")",
+            "descriptionraw": "<color=#FFFFFFFF>Hanya dapat dimainkan jika ada Karaktermu yang gugur di Ronde ini:</color> Menciptakan 1 $[K411] dan Karakter Aktifmu mendapatkan 1 poin $[K310]. (Setiap Ronde hanya dapat memainkan 1 kartu \"I Haven't Lost Yet!\")",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hanya dapat dimainkan jika ada Karaktermu yang gugur di Ronde ini:</color> Menciptakan 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color> dan Karakter Aktifmu mendapatkan 1 poin <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energy</color>. (Setiap Ronde hanya dapat memainkan 1 kartu \"I Haven't Lost Yet!\")",
             "id": 332005,
             "name": "I Haven't Lost Yet!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Tahap Melempar:</color> 2 Dadu Elemental awal yang kamu lempar akan selalu sesuai dengan Tipe Elemen Karakter Aktifmu.",
             "id": 321003,
             "name": "Jade Chamber",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "Didapatkan setelah menyelesaikan target tantangan pada Tantangan Petualangan melawan Bu'yun di Dunia Terbuka",
             "storytext": "\"Konon katanya ada ribuan permata yang memesona dari dalamnya.\"",
             "storytitle": "Stargazing Amidst Clouds",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "Lokasi"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Kartu Peristiwa",
+            "description": "Hanya dapat dimainkan saat menggunakan Karakter Aktif dengan elemen Cryo/Hydro/Pyro/Electro/Dendro: Memberikan efek elemen yang sesuai dengan Karakter Aktif-mu saat ini kepada seluruh Karakter milikmu.\n(Selama pertandingan berlangsung, hanya dapat memainkan 1 kartu Arcana; Kartu ini pasti ada di antara Kartu Aksi awal milikmu)",
+            "descriptionraw": "<color=#FFFFFFFF>Hanya dapat dimainkan saat menggunakan Karakter Aktif dengan elemen {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>:</color> Memberikan efek elemen yang sesuai dengan Karakter Aktif-mu saat ini kepada seluruh Karakter milikmu.\\n(Selama pertandingan berlangsung, hanya dapat memainkan 1 kartu {SPRITE_PRESET#3007}Arcana; Kartu ini pasti ada di antara Kartu Aksi awal milikmu)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Hanya dapat dimainkan saat menggunakan Karakter Aktif dengan elemen {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>:</color> Memberikan efek elemen yang sesuai dengan Karakter Aktif-mu saat ini kepada seluruh Karakter milikmu.\\n(Selama pertandingan berlangsung, hanya dapat memainkan 1 kartu {SPRITE_PRESET#3007}Arcana; Kartu ini pasti ada di antara Kartu Aksi awal milikmu)",
+            "id": 330003,
+            "name": "Joyous Celebration",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"Kebahagiaan harus dibagikan dengan semua orang.\"",
+            "storytitle": "Joyous Celebration",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Arcana"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "Teman"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Karakter mengakibatkan DMG +1.\nSaat dimainkan: Selama Ronde ini, Karakter yang mengenakannya akan mengonsumsi 2 Dadu Elemental lebih sedikit saat mengenakan kartu Talenta atau melancarkan Elemental Skill berikutnya.\n(Hanya Karakter pengguna Bow yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 Senjata)",
+            "descriptionraw": "<color=#FFFFFFFF>Karakter mengakibatkan DMG +1</color>.\\n<color=#FFFFFFFF>Saat dimainkan: </color>Selama Ronde ini, Karakter yang mengenakannya akan mengonsumsi 2 Dadu Elemental lebih sedikit saat mengenakan kartu {SPRITE_PRESET#3006}Talenta atau melancarkan Elemental Skill berikutnya.\\n(<color=#FFFFFFFF>Hanya Karakter pengguna {SPRITE_PRESET#3202}Bow</color> yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 {SPRITE_PRESET#3003}Senjata)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakter mengakibatkan DMG +1</color>.\\n<color=#FFFFFFFF>Saat dimainkan: </color>Selama Ronde ini, Karakter yang mengenakannya akan mengonsumsi 2 Dadu Elemental lebih sedikit saat mengenakan kartu {SPRITE_PRESET#3006}Talenta atau melancarkan Elemental Skill berikutnya.\\n(<color=#FFFFFFFF>Hanya Karakter pengguna {SPRITE_PRESET#3202}Bow</color> yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 {SPRITE_PRESET#3003}Senjata)",
+            "id": 311206,
+            "name": "King's Squire",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "Senjata yang didapatkan dari kisah Aranara, yang berbentuk seperti busur.\n\"Ingatlah, dunia ini hanyalah mimpi sang hutan ... Tolong sebarkan bahasa sang hutan, dan juga bagikan tanggung jawab untuk melindungi kerajaan ini kepada orang banyak.\"",
+            "storytitle": "Teachings of the Forest: King's Squire",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "Senjata",
+                "Bow"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Kartu Pendukung",
@@ -2044,7 +2171,7 @@
             "name": "Laurel Coronet",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "Mask of Solitude Basalt",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "Ornate Kabuto",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "\"... Tiga belas tahun ini lewat begitu saja bagaikan mimpi. Salju-salju merah terbang melewati jurang bagaikan asap. Kini kamu pun sudah pergi jauh.\"",
@@ -3311,6 +3438,30 @@
                 "Aksi Tempur"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Saat bertukar Karakter ke Lisa yang mengenakan kartu ini: Memberikan status Conductive pada Karakter aktif lawan. (Sekali setiap Ronde)\n(Kamu harus punya Lisa di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "Saat bertukar Karakter ke <color=#FFFFFFFF>$[A1409]</color> yang mengenakan kartu ini: Memberikan status <color=#FFFFFFFF>$[C114091]</color> pada Karakter aktif lawan. (Sekali setiap Ronde)\\n(Kamu harus punya $[A1409] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "Saat bertukar Karakter ke <color=#FFFFFFFF>Lisa</color> yang mengenakan kartu ini: Memberikan status <color=#FFFFFFFF>Conductive</color> pada Karakter aktif lawan. (Sekali setiap Ronde)\\n(Kamu harus punya Lisa di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "id": 214091,
+            "name": "Pulsating Witch",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "Hadiah yang didapatkan setelah mengundang Lisa ke Cat's Tail untuk bertanding dan menyelesaikan target tantangan yang bersangkutan",
+            "storytext": "Sebagai seorang pustakawan yang telah membaca puluhan ribu buku, tentu saja aku tahu caranya menang dengan mudah ....",
+            "storytitle": "Lisa: Pulsating Witch",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "Talenta"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Kartu Peristiwa",
@@ -3438,6 +3589,36 @@
             "source": "Hadiah yang didapatkan setelah mengundang Yanfei ke Cat's Tail untuk bertanding dan menyelesaikan target tantangan yang bersangkutan",
             "storytext": "\"Dalam hal permainan kartu, sudah pasti ... tidak ada yang dilarang oleh hukum.\"",
             "storytitle": "Yanfei: Right of Final Interpretation",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talenta",
+                "Aksi Tempur"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Kartu Equipment",
+            "description": "Aksi Tempur: Kartu ini dapat dikenakan saat menggunakan Qiqi sebagai Karakter aktif.\nQiqi akan langsung melancarkan Adeptus Art: Preserver of Fortune satu kali setelah mengenakannya.\nKetika mengenakan kartu ini, Qiqi akan membangkitkan semua Karaktermu yang telah gugur dan memulihkan HP mereka sebesar 2 poin saat melancarkan Adeptus Art: Preserver of Fortune. (Maksimum 2 kali selama duel)\n(Kamu harus punya Qiqi di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionraw": "$[K1]: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>$[A1108]</color> sebagai Karakter aktif.\\n$[A1108] akan langsung melancarkan <color=#FFD780FF>$[S11083]</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, $[A1108] akan membangkitkan semua Karaktermu yang telah gugur dan memulihkan HP mereka sebesar 2 poin saat melancarkan <color=#FFFFFFFF>$[S11083]</color>. (Maksimum 2 kali selama duel)\\n(Kamu harus punya $[A1108] di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Aksi Tempur</color>: Kartu ini dapat dikenakan saat menggunakan <color=#FFFFFFFF>Qiqi</color> sebagai Karakter aktif.\\nQiqi akan langsung melancarkan <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> satu kali setelah mengenakannya.\\nKetika mengenakan kartu ini, Qiqi akan membangkitkan semua Karaktermu yang telah gugur dan memulihkan HP mereka sebesar 2 poin saat melancarkan <color=#FFFFFFFF>Adeptus Art: Preserver of Fortune</color>. (Maksimum 2 kali selama duel)\\n(Kamu harus punya Qiqi di dalam Dek-mu untuk menambahkan kartu ini ke dalam Dek)",
+            "id": 211081,
+            "name": "Rite of Resurrection",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "Hadiah yang didapatkan setelah mengundang Qiqi ke Cat's Tail untuk bertanding dan menyelesaikan target tantangan yang bersangkutan",
+            "storytext": "Harus ... terus hidup ....",
+            "storytitle": "Qiqi: Rite of Resurrection",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Kartu Pendukung",
+            "description": "Setelah kamu melakukan aksi, jika jumlah kartu aksi-mu 0: Ambil 1 Kartu. (Sekali setiap Ronde)\nPenggunaan: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Setelah kamu melakukan aksi, jika jumlah kartu aksi-mu 0: </color>Ambil 1 Kartu. (Sekali setiap Ronde)\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Setelah kamu melakukan aksi, jika jumlah kartu aksi-mu 0: </color>Ambil 1 Kartu. (Sekali setiap Ronde)\\n<color=#FFFFFFFF><color=#FFFFFFFF>Penggunaan</color>: 3</color>",
+            "id": 322019,
+            "name": "Setaria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Seorang genius yang berasal dari padang pasir, masuk ke dalam kuil di pedalaman hutan ....",
+            "storytitle": "Crossing the Wall: Setaria",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Teman"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
@@ -3675,7 +3879,7 @@
             "name": "Shimenawa's Reminiscence",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Kartu Peristiwa",
-            "description": "Mengubah semua Dadu Elemental milikmu menjadi elemen yang sama dengan Karakter aktifmu saat ini.\n(Kartu ini hanya dapat ditambahkan jika terdapat minimal 2 Karakter Inazuma dalam Dek-mu)",
-            "descriptionraw": "Mengubah semua Dadu Elemental milikmu menjadi elemen yang sama dengan Karakter aktifmu saat ini.\\n(Kartu ini hanya dapat ditambahkan jika terdapat minimal 2 Karakter {SPRITE_PRESET#3403}Inazuma dalam Dek-mu)",
-            "descriptionreplaced": "Mengubah semua Dadu Elemental milikmu menjadi elemen yang sama dengan Karakter aktifmu saat ini.\\n(Kartu ini hanya dapat ditambahkan jika terdapat minimal 2 Karakter {SPRITE_PRESET#3403}Inazuma dalam Dek-mu)",
+            "description": "Mengubah semua Dadu Elemental milikmu menjadi Elemen Omni.\n(Kartu ini hanya dapat ditambahkan jika terdapat minimal 2 Karakter Inazuma dalam Dek-mu)",
+            "descriptionraw": "Mengubah semua Dadu Elemental milikmu menjadi $[K411].\\n(Kartu ini hanya dapat ditambahkan jika terdapat minimal 2 Karakter {SPRITE_PRESET#3403}Inazuma dalam Dek-mu)",
+            "descriptionreplaced": "Mengubah semua Dadu Elemental milikmu menjadi <color=#FFFFFFFF>{SPRITE_PRESET#1111}Elemen Omni</color>.\\n(Kartu ini hanya dapat ditambahkan jika terdapat minimal 2 Karakter {SPRITE_PRESET#3403}Inazuma dalam Dek-mu)",
             "id": 331803,
             "name": "Thunder and Eternity",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "Thundering Fury",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Biar kunyanyikan melodi lain untukmu — saat kamu kembali lagi dengan petir dan hujan!\"",
@@ -4457,7 +4661,7 @@
             "name": "Thundering Poise",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "Thunder Summoner's Crown",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "Vermillion Hereafter",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "Viridescent Venerer",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Suatu hari, di tempat berburu yang tak berbatas itu ... kita akan bertemu lagi.\"",
@@ -4773,7 +4977,7 @@
             "name": "Viridescent Venerer's Diadem",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Kartu Peristiwa",
+            "description": "Mengambil kembali satu Kartu Equipment Senjata yang sudah dikenakan Karaktermu.\nSelama Ronde ini, saat kamu memainkan Kartu Equipment Senjata berikutnya: Mengonsumsi 2 Dadu Elemental lebih sedikit.",
+            "descriptionraw": "Mengambil kembali satu Kartu Equipment {SPRITE_PRESET#3003}Senjata yang sudah dikenakan Karaktermu.\\n<color=#FFFFFFFF>Selama Ronde ini, saat kamu memainkan Kartu Equipment {SPRITE_PRESET#3003}Senjata berikutnya: </color>Mengonsumsi 2 Dadu Elemental lebih sedikit.",
+            "descriptionreplaced": "Mengambil kembali satu Kartu Equipment {SPRITE_PRESET#3003}Senjata yang sudah dikenakan Karaktermu.\\n<color=#FFFFFFFF>Selama Ronde ini, saat kamu memainkan Kartu Equipment {SPRITE_PRESET#3003}Senjata berikutnya: </color>Mengonsumsi 2 Dadu Elemental lebih sedikit.",
+            "id": 332022,
+            "name": "Where Is the Unseen Razor?",
+            "playcost": [],
+            "storytext": "Ketua cabang Adventurers' Guild yang asal-usulnya masih menjadi misteri, terus mencari petunjuk tentang sebilah \"pedang\" dan tanpa henti menantang musuh kuat yang menghalanginya ....",
+            "storytitle": "Where Is the Unseen Razor?",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Kartu Equipment",
@@ -4990,7 +5208,7 @@
             "name": "Wine-Stained Tricorne",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "Witch's Scorching Hat",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

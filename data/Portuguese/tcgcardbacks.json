@@ -64,6 +64,14 @@
             "rarity": 3,
             "source": "Pode ser comprado na Loja de Cartas"
         },
+        "fontaine": {
+            "description": "Deve-se lembrar os vários \"sistemas\" de jogos de carta de cor, antes que possam usar agilmente as \"regras\" razoavelmente para fazer uma \"apresentação\" espetacular.",
+            "descriptionraw": "Deve-se lembrar os vários \"sistemas\" de jogos de carta de cor, antes que possam usar agilmente as \"regras\" razoavelmente para fazer uma \"apresentação\" espetacular.",
+            "id": 123,
+            "name": "Fontaine",
+            "rarity": 3,
+            "source": "Recompensa de Nv. de Reputação de Fontaine"
+        },
         "glazelily": {
             "description": "As velhas histórias do mundo mortal se foram todas. Permanece apenas o perfumado nome das flores.",
             "descriptionraw": "As velhas histórias do mundo mortal se foram todas. Permanece apenas o perfumado nome das flores.",

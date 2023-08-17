@@ -238,6 +238,19 @@
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
+        "heraldoffrost": {
+            "cardtypetext": "召喚物",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "エンドフェーズ：氷元素ダメージを1与える。\n使用可能回数：3\nこの召喚物がフィールドに存在する時、七七が「通常攻撃」を使用した後、味方の残りHPが最も低いキャラに対して、HPを1回復する。",
+            "descriptionraw": "<color=#FFFFFFFF>エンドフェーズ：</color>$[K101]を1与える。\\n<color=#FFFFFFFF>$[K3]：3</color>\\n<color=#FFFFFFFF>この召喚物がフィールドに存在する時、$[A1108]が「通常攻撃」を使用した後</color>、味方の残りHPが最も低いキャラに対して、HPを1回復する。",
+            "descriptionreplaced": "<color=#FFFFFFFF>エンドフェーズ：</color>{SPRITE_PRESET#2101}<color=#99FFFFFF>氷元素ダメージ</color>を1与える。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>：3</color>\\n<color=#FFFFFFFF>この召喚物がフィールドに存在する時、七七が「通常攻撃」を使用した後</color>、味方の残りHPが最も低いキャラに対して、HPを1回復する。",
+            "hinttype": "GCG_HINT_CRYO",
+            "id": 111081,
+            "name": "寒病鬼差",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
         "hilichurlberserker": {
             "cardtypetext": "召喚物",
             "countingtype": "GCG_TOKEN_LIFE",
@@ -302,6 +315,19 @@
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_CLOCK"
+        },
+        "lightningrose": {
+            "cardtypetext": "召喚物",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "エンドフェーズ：雷元素ダメージを2与える。\n使用可能回数：2",
+            "descriptionraw": "<color=#FFFFFFFF>エンドフェーズ：</color>$[K104]を2与える。\\n<color=#FFFFFFFF>$[K3]：2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>エンドフェーズ：</color>{SPRITE_PRESET#2104}<color=#FFACFFFF>雷元素ダメージ</color>を2与える。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>：2</color>",
+            "hinttype": "GCG_HINT_ELECTRO",
+            "id": 114092,
+            "name": "薔薇雷光",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
         },
         "melodyloop": {
             "cardtypetext": "召喚物",
@@ -442,6 +468,19 @@
             "hinttype": "GCG_HINT_ANEMO",
             "id": 125011,
             "name": "剣影·孤風",
+            "tags": [],
+            "tagstext": [],
+            "tokentype": "GCG_TOKEN_ICON_HOURGLASS"
+        },
+        "solarisotoma": {
+            "cardtypetext": "召喚物",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "エンドフェーズ：岩元素ダメージを1与える。\n使用可能回数:3\nこの召喚物がフィールドに存在する時、味方のキャラが落下攻撃を発動する際、必要な無色元素-1。（各ラウンドで1回のみ）",
+            "descriptionraw": "<color=#FFFFFFFF>エンドフェーズ：</color>$[K106]を1与える。\\n<color=#FFFFFFFF>$[K3]:3</color>\\n<color=#FFFFFFFF>この召喚物がフィールドに存在する時</color>、味方のキャラが$[K52]を発動する際、必要な$[K309]-1。（各ラウンドで1回のみ）",
+            "descriptionreplaced": "<color=#FFFFFFFF>エンドフェーズ：</color>{SPRITE_PRESET#2106}<color=#FFE699FF>岩元素ダメージ</color>を1与える。\\n<color=#FFFFFFFF><color=#FFFFFFFF>使用可能回数</color>:3</color>\\n<color=#FFFFFFFF>この召喚物がフィールドに存在する時</color>、味方のキャラが<color=#FFFFFFFF>落下攻撃</color>を発動する際、必要な<color=#FFFFFFFF>{SPRITE_PRESET#1109}無色元素</color>-1。（各ラウンドで1回のみ）",
+            "hinttype": "GCG_HINT_GEO",
+            "id": 116041,
+            "name": "陽華",
             "tags": [],
             "tagstext": [],
             "tokentype": "GCG_TOKEN_ICON_HOURGLASS"

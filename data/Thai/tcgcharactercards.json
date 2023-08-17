@@ -90,6 +90,84 @@
                 "มอนสเตอร์"
             ]
         },
+        "albedo": {
+            "hp": 10,
+            "id": 1604,
+            "maxenergy": 2,
+            "name": "Albedo",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย",
+                    "id": 16041,
+                    "name": "Favonius Bladework - Weiss",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "โจมตีปกติ",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "เรียก Solar Isotoma",
+                    "descriptionraw": "เรียก <color=#FFFFFFFF>$[C116041]</color>",
+                    "descriptionreplaced": "เรียก <color=#FFFFFFFF>Solar Isotoma</color>",
+                    "id": 16042,
+                    "name": "Abiogenesis: Solar Isotoma",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "สกิลธาตุ",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 4,
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "สร้างความเสียหายหิน 4 หน่วย หากมี Solar Isotoma อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย หากมี <color=#FFFFFFFF>$[C116041]</color> อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2106}<color=#FFE699FF>ความเสียหายหิน</color> 4 หน่วย หากมี <color=#FFFFFFFF>Solar Isotoma</color> อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
+                    "id": 16043,
+                    "name": "Rite of Progeniture: Tectonic Tide",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "ท่าไม้ตาย",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Albedo ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+            "storytext": "ดินดำและชอล์กขาว สีแดงชาดและสีเหลืองทอง",
+            "storytitle": "องค์ชายชอล์กขาว - Albedo",
+            "tags": [
+                "GCG_TAG_ELEMENT_GEO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "ธาตุหิน",
+                "ดาบ",
+                "Mondstadt"
+            ]
+        },
         "amber": {
             "hp": 10,
             "id": 1304,
@@ -2363,6 +2441,86 @@
                 "Inazuma"
             ]
         },
+        "lisa": {
+            "hp": 10,
+            "id": 1409,
+            "maxenergy": 2,
+            "name": "Lisa",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "สร้างความเสียหายไฟฟ้า 1 หน่วย\nหากสกิลนี้เป็นชาร์จโจมตี จะทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายศัตรูได้รับ Conductive",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย\\nหากสกิลนี้เป็น$[K51] จะทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายศัตรูได้รับ <color=#FFFFFFFF>$[C114091]</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 1 หน่วย\\nหากสกิลนี้เป็น<color=#FFFFFFFF>ชาร์จโจมตี</color> จะทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายศัตรูได้รับ <color=#FFFFFFFF>Conductive</color>",
+                    "id": 14091,
+                    "name": "Lightning Touch",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "โจมตีปกติ",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "สร้างความเสียหายไฟฟ้า 2 หน่วย; หากตัวละครที่เข้าต่อสู้ยังไม่ได้รับ Conductive จะทำให้ได้รับ Conductive",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย; หากตัวละครที่เข้าต่อสู้ยังไม่ได้รับ <color=#FFFFFFFF>$[C114091]</color> จะทำให้ได้รับ <color=#FFFFFFFF>$[C114091]</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 2 หน่วย; หากตัวละครที่เข้าต่อสู้ยังไม่ได้รับ <color=#FFFFFFFF>Conductive</color> จะทำให้ได้รับ <color=#FFFFFFFF>Conductive</color>",
+                    "id": 14092,
+                    "name": "Violet Arc",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "สกิลธาตุ",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "สร้างความเสียหายไฟฟ้า 2 หน่วย และเรียก Lightning Rose",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และเรียก <color=#FFFFFFFF>$[C114092]</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2104}<color=#FFACFFFF>ความเสียหายไฟฟ้า</color> 2 หน่วย และเรียก <color=#FFFFFFFF>Lightning Rose</color>",
+                    "id": 14093,
+                    "name": "Lightning Rose",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "ท่าไม้ตาย",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Lisa ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+            "storytext": "แสวงหาความลึกลับแห่งเวทมนตร์ รอคอยโอกาสแห่งความจริง",
+            "storytitle": "แม่มดกุหลาบ - Lisa",
+            "tags": [
+                "GCG_TAG_ELEMENT_ELECTRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "ธาตุไฟฟ้า",
+                "สื่อเวท",
+                "Mondstadt"
+            ]
+        },
         "maguukenki": {
             "hp": 10,
             "id": 2501,
@@ -2881,6 +3039,84 @@
                 "ธาตุหิน",
                 "ดาบใหญ่",
                 "Mondstadt"
+            ]
+        },
+        "qiqi": {
+            "hp": 10,
+            "id": 1108,
+            "maxenergy": 3,
+            "name": "Qiqi",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "สร้างความเสียหายกายภาพ 2 หน่วย",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2100}<color=#FFFFFFFF>ความเสียหายกายภาพ</color> 2 หน่วย",
+                    "id": 11081,
+                    "name": "Ancient Sword Art",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "โจมตีปกติ",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "เรียก Herald of Frost",
+                    "descriptionraw": "เรียก <color=#FFFFFFFF>$[C111081]</color>",
+                    "descriptionreplaced": "เรียก <color=#FFFFFFFF>Herald of Frost</color>",
+                    "id": 11082,
+                    "name": "Adeptus Art: Herald of Frost",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "สกิลธาตุ",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "สร้างความเสียหายน้ำแข็ง 3 หน่วย และสร้าง Fortune-Preserving Talisman",
+                    "descriptionraw": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <color=#FFFFFFFF>$[C111082]</color>",
+                    "descriptionreplaced": "สร้าง{SPRITE_PRESET#2101}<color=#99FFFFFF>ความเสียหายน้ำแข็ง</color> 3 หน่วย และสร้าง <color=#FFFFFFFF>Fortune-Preserving Talisman</color>",
+                    "id": 11083,
+                    "name": "Adeptus Art: Preserver of Fortune",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 3
+                        }
+                    ],
+                    "type": "ท่าไม้ตาย",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "ได้รับหลังจากเชิญ Qiqi ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+            "storytext": "หมุนเวียนผันเปลี่ยน ไม่มีที่สิ้นสุด",
+            "storytitle": "ความหนาวเย็นคืนชีพ - Qiqi",
+            "tags": [
+                "GCG_TAG_ELEMENT_CRYO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "ธาตุน้ำแข็ง",
+                "ดาบ",
+                "Liyue"
             ]
         },
         "raidenshogun": {

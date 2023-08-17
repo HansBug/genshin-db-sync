@@ -90,6 +90,84 @@
                 "Monster"
             ]
         },
+        "albedo": {
+            "hp": 10,
+            "id": 1604,
+            "maxenergy": 2,
+            "name": "Albedo",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
+                    "id": 16041,
+                    "name": "Favonius Bladework - Weiss",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Attack",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Memanggil Solar Isotoma.",
+                    "descriptionraw": "Memanggil <color=#FFFFFFFF>$[C116041]</color>.",
+                    "descriptionreplaced": "Memanggil <color=#FFFFFFFF>Solar Isotoma</color>.",
+                    "id": 16042,
+                    "name": "Abiogenesis: Solar Isotoma",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Elemental Skill",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 4,
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Mengakibatkan 4 poin Geo DMG. Jika Solar Isotoma berada di arena, mengakibatkan DMG +2.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Jika <color=#FFFFFFFF>$[C116041]</color> berada di arena, mengakibatkan DMG +2.",
+                    "descriptionreplaced": "Mengakibatkan 4 poin {SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>. Jika <color=#FFFFFFFF>Solar Isotoma</color> berada di arena, mengakibatkan DMG +2.",
+                    "id": 16043,
+                    "name": "Rite of Progeniture: Tectonic Tide",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Elemental Burst",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Didapatkan setelah mengundang Albedo ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+            "storytext": "Nigredo dan Calx, Rubedo dan Citrinitas.",
+            "storytitle": "\"Kreideprinz\" Albedo",
+            "tags": [
+                "GCG_TAG_ELEMENT_GEO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Geo",
+                "Sword",
+                "Mondstadt"
+            ]
+        },
         "amber": {
             "hp": 10,
             "id": 1304,
@@ -2363,6 +2441,86 @@
                 "Inazuma"
             ]
         },
+        "lisa": {
+            "hp": 10,
+            "id": 1409,
+            "maxenergy": 2,
+            "name": "Lisa",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Mengakibatkan 1 poin Electro DMG.\nJika skill ini dilancarkan sebagai Charged Attack: Memberikan status Conductive kepada Karakter Aktif lawan.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].\\nJika skill ini dilancarkan sebagai $[K51]: Memberikan status <color=#FFFFFFFF>$[C114091]</color> kepada Karakter Aktif lawan.",
+                    "descriptionreplaced": "Mengakibatkan 1 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>.\\nJika skill ini dilancarkan sebagai <color=#FFFFFFFF>Charged Attack</color>: Memberikan status <color=#FFFFFFFF>Conductive</color> kepada Karakter Aktif lawan.",
+                    "id": 14091,
+                    "name": "Lightning Touch",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Attack",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Mengakibatkan 2 poin Electro DMG. Jika Karakter Aktif lawan belum terpengaruh status Conductive, maka akan memberikan status Conductive pada Karakter tersebut.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT]. Jika Karakter Aktif lawan belum terpengaruh status <color=#FFFFFFFF>$[C114091]</color>, maka akan memberikan status <color=#FFFFFFFF>$[C114091]</color> pada Karakter tersebut.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>. Jika Karakter Aktif lawan belum terpengaruh status <color=#FFFFFFFF>Conductive</color>, maka akan memberikan status <color=#FFFFFFFF>Conductive</color> pada Karakter tersebut.",
+                    "id": 14092,
+                    "name": "Violet Arc",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Elemental Skill",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Mengakibatkan 2 poin Electro DMG dan memanggil Lightning Rose.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memanggil <color=#FFFFFFFF>$[C114092]</color>.",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> dan memanggil <color=#FFFFFFFF>Lightning Rose</color>.",
+                    "id": 14093,
+                    "name": "Lightning Rose",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Elemental Burst",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Didapatkan setelah mengundang Lisa ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+            "storytext": "Mencari rahasia misteri kekuatan sihir dan menanti kesempatan demi menemukan kebenaran.",
+            "storytitle": "\"Witch of Purple Rose\" Lisa",
+            "tags": [
+                "GCG_TAG_ELEMENT_ELECTRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Electro",
+                "Catalyst",
+                "Mondstadt"
+            ]
+        },
         "maguukenki": {
             "hp": 10,
             "id": 2501,
@@ -2881,6 +3039,84 @@
                 "Geo",
                 "Claymore",
                 "Mondstadt"
+            ]
+        },
+        "qiqi": {
+            "hp": 10,
+            "id": 1108,
+            "maxenergy": 3,
+            "name": "Qiqi",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Mengakibatkan 2 poin Physical DMG.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Mengakibatkan 2 poin {SPRITE_PRESET#2100}<color=#FFFFFFFF>Physical DMG</color>.",
+                    "id": 11081,
+                    "name": "Ancient Sword Art",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Normal Attack",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Memanggil Herald of Frost.",
+                    "descriptionraw": "Memanggil <color=#FFFFFFFF>$[C111081]</color>.",
+                    "descriptionreplaced": "Memanggil <color=#FFFFFFFF>Herald of Frost</color>.",
+                    "id": 11082,
+                    "name": "Adeptus Art: Herald of Frost",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Elemental Skill",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Mengakibatkan 3 poin Cryo DMG dan menciptakan Fortune-Preserving Talisman.",
+                    "descriptionraw": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan menciptakan <color=#FFFFFFFF>$[C111082]</color>.",
+                    "descriptionreplaced": "Mengakibatkan 3 poin {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo DMG</color> dan menciptakan <color=#FFFFFFFF>Fortune-Preserving Talisman</color>.",
+                    "id": 11083,
+                    "name": "Adeptus Art: Preserver of Fortune",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Elemental Burst",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Didapatkan setelah mengundang Qiqi ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+            "storytext": "Roda kehidupan, terus berjalan.",
+            "storytitle": "\"Icy Resurrection\" Qiqi",
+            "tags": [
+                "GCG_TAG_ELEMENT_CRYO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Cryo",
+                "Sword",
+                "Liyue"
             ]
         },
         "raidenshogun": {

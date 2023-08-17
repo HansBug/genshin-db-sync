@@ -64,6 +64,14 @@
             "rarity": 3,
             "source": "Acquistato al Negozio di carte"
         },
+        "fontaine": {
+            "description": "È necessario ricordare a memoria i diversi \"sistemi\" dei giochi di carte prima di poter sfruttare le regole al massimo, riuscendo così a dar vita a una partita \"spettacolare\".",
+            "descriptionraw": "È necessario ricordare a memoria i diversi \"sistemi\" dei giochi di carte prima di poter sfruttare le regole al massimo, riuscendo così a dar vita a una partita \"spettacolare\".",
+            "id": 123,
+            "name": "Fontaine",
+            "rarity": 3,
+            "source": "Ricompensa reputazione a Fontaine"
+        },
         "glazelily": {
             "description": "I racconti antichi sui regni mortali sono svaniti. Ora resta solo il nome fragrante dei fiori.",
             "descriptionraw": "I racconti antichi sui regni mortali sono svaniti. Ora resta solo il nome fragrante dei fiori.",

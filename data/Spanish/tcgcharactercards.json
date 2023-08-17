@@ -90,6 +90,84 @@
                 "Monstruo"
             ]
         },
+        "albedo": {
+            "hp": 10,
+            "id": 1604,
+            "maxenergy": 2,
+            "name": "Albedo",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
+                    "id": 16041,
+                    "name": "Técnica de espada Favonius: Albor",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Ataque Normal",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Crea una isotoma solar.",
+                    "descriptionraw": "Crea una <color=#FFFFFFFF>$[C116041|s1]</color>.",
+                    "descriptionreplaced": "Crea una <color=#FFFFFFFF>isotoma solar</color>.",
+                    "id": 16042,
+                    "name": "Abiogénesis: Isotoma solar",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Habilidad Elemental",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 4,
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Inflige 4 pts. de Daño Geo. Si la isotoma solar está en juego, daño +2.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT]. Si la <color=#FFFFFFFF>$[C116041|s1]</color> está en juego, daño +2.",
+                    "descriptionreplaced": "Inflige 4 pts. de {SPRITE_PRESET#2106}<color=#FFE699FF>Daño Geo</color>. Si la <color=#FFFFFFFF>isotoma solar</color> está en juego, daño +2.",
+                    "id": 16043,
+                    "name": "Creación: Marea tectónica",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Habilidad Definitiva",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Se obtiene tras retar y ganar a Albedo en un duelo amistoso en la taberna Cola de Gato",
+            "storytext": "La tierra negra y la roca caliza, la rubedo y el oro.",
+            "storytitle": "Albedo - El Príncipe de la Roca Caliza",
+            "tags": [
+                "GCG_TAG_ELEMENT_GEO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Geo",
+                "Espada ligera",
+                "Mondstadt"
+            ]
+        },
         "amber": {
             "hp": 10,
             "id": 1304,
@@ -2363,6 +2441,86 @@
                 "Inazuma"
             ]
         },
+        "lisa": {
+            "hp": 10,
+            "id": 1409,
+            "maxenergy": 2,
+            "name": "Lisa",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 1 pt. de Daño Electro.\nSi esta habilidad se ejecuta en forma de Ataque Cargado, el personaje en combate enemigo será afectado por conducción.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].\\nSi esta habilidad se ejecuta en forma de $[K51], el personaje en combate enemigo será afectado por <color=#FFFFFFFF>$[C114091|s1]</color>.",
+                    "descriptionreplaced": "Inflige 1 pt. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color>.\\nSi esta habilidad se ejecuta en forma de <color=#FFFFFFFF>Ataque Cargado</color>, el personaje en combate enemigo será afectado por <color=#FFFFFFFF>conducción</color>.",
+                    "id": 14091,
+                    "name": "Toque de relámpago",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Ataque Normal",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 2 pts. de Daño Electro y aplica el estado de conducción al personaje en combate enemigo si este aún no estaba afectado por él.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y aplica el estado de <color=#FFFFFFFF>$[C114091|s1]</color> al personaje en combate enemigo si este aún no estaba afectado por él.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> y aplica el estado de <color=#FFFFFFFF>conducción</color> al personaje en combate enemigo si este aún no estaba afectado por él.",
+                    "id": 14092,
+                    "name": "Arco violeta",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Habilidad Elemental",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Inflige 2 pts. de Daño Electro y crea una rosa devastadora.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] pts. de $[D__KEY__ELEMENT] y crea una <color=#FFFFFFFF>$[C114092|s1]</color>.",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2104}<color=#FFACFFFF>Daño Electro</color> y crea una <color=#FFFFFFFF>rosa devastadora</color>.",
+                    "id": 14093,
+                    "name": "Rayo de la rosa",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Habilidad Definitiva",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Se obtiene tras retar y ganar a Lisa en un duelo amistoso en la taberna Cola de Gato",
+            "storytext": "Busca los secretos de la magia y espera a que la verdad se revele.",
+            "storytitle": "Lisa - La Bruja de las Rosas",
+            "tags": [
+                "GCG_TAG_ELEMENT_ELECTRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Electro",
+                "Catalizador",
+                "Mondstadt"
+            ]
+        },
         "maguukenki": {
             "hp": 10,
             "id": 2501,
@@ -2881,6 +3039,84 @@
                 "Geo",
                 "Mandoble",
                 "Mondstadt"
+            ]
+        },
+        "qiqi": {
+            "hp": 10,
+            "id": 1108,
+            "maxenergy": 3,
+            "name": "Qiqi",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Inflige 2 pts. de Daño Físico.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Inflige 2 pts. de {SPRITE_PRESET#2100}<color=#FFFFFFFF>Daño Físico</color>.",
+                    "id": 11081,
+                    "name": "Técnica de espada antigua",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Ataque Normal",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Invoca un Heraldo de la escarcha.",
+                    "descriptionraw": "Invoca un <color=#FFFFFFFF>$[C111081]</color>.",
+                    "descriptionreplaced": "Invoca un <color=#FFFFFFFF>Heraldo de la escarcha</color>.",
+                    "id": 11082,
+                    "name": "Magia Adeptus: Heraldo de la escarcha",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Habilidad Elemental",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Inflige 3 pts. de Daño Cryo y crea un talismán de conservación de la fortuna.",
+                    "descriptionraw": "Inflige $[D__KEY__DAMAGE] pts. de $[D__KEY__ELEMENT] y crea un <color=#FFFFFFFF>$[C111082|s1]</color>.",
+                    "descriptionreplaced": "Inflige 3 pts. de {SPRITE_PRESET#2101}<color=#99FFFFFF>Daño Cryo</color> y crea un <color=#FFFFFFFF>talismán de conservación de la fortuna</color>.",
+                    "id": 11083,
+                    "name": "Magia Adeptus: Preservadora de la fortuna",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Habilidad Definitiva",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Se obtiene tras retar y ganar a Qiqi en un duelo amistoso en la taberna Cola de Gato",
+            "storytext": "El ciclo de la vida... La vida sigue.",
+            "storytitle": "Qiqi - La Resurrección del Hielo",
+            "tags": [
+                "GCG_TAG_ELEMENT_CRYO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Cryo",
+                "Espada ligera",
+                "Liyue"
             ]
         },
         "raidenshogun": {

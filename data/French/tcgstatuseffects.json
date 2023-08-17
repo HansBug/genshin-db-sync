@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "État",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Cet état commence avec 2 cumuls de conductivité, et chaque nouvelle application rajoute 1 cumul. La conductivité peut être cumulée 4 fois maximum.\nPhase finale : Rajoute 1 cumul de conductivité.\n\nLorsque le personnage affecté subit des DGT d'Arc fulminant : Annule l'état et augmente les DGT de 1 pour chaque cumul de conductivité.",
+            "descriptionraw": "Cet état commence avec 2 cumuls de conductivité, et chaque nouvelle application rajoute 1 cumul. La conductivité peut être cumulée 4 fois maximum.\\n<color=#FFFFFFFF>Phase finale : </color>Rajoute 1 cumul de conductivité.\\n\\n<color=#FFFFFFFF>Lorsque le personnage affecté subit des DGT d'$[S14092] : </color>Annule l'état et augmente les DGT de 1 pour chaque cumul de conductivité.",
+            "descriptionreplaced": "Cet état commence avec 2 cumuls de conductivité, et chaque nouvelle application rajoute 1 cumul. La conductivité peut être cumulée 4 fois maximum.\\n<color=#FFFFFFFF>Phase finale : </color>Rajoute 1 cumul de conductivité.\\n\\n<color=#FFFFFFFF>Lorsque le personnage affecté subit des DGT d'Arc fulminant : </color>Annule l'état et augmente les DGT de 1 pour chaque cumul de conductivité.",
+            "id": 114091,
+            "name": "Conductivité",
+            "statustypetext": "État de personnage",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carte d'équipement",
@@ -743,6 +755,20 @@
             "statustypetext": "État de déploiement d'équipe",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "Lorsque Albedo, équipé de cette carte, est sur le terrain : Si une aura solaire est sur votre terrain, DGT des attaques plongeantes de vos personnages +1.",
+            "descriptionraw": "Lorsque $[A1604], équipé de cette carte, est sur le terrain : Si une <color=#FFFFFFFF>$[C116041|s1]</color> est sur votre terrain, DGT des $[K52|s3] de vos personnages +1.",
+            "descriptionreplaced": "Lorsque Albedo, équipé de cette carte, est sur le terrain : Si une <color=#FFFFFFFF>aura solaire</color> est sur votre terrain, DGT des <color=#FFFFFFFF>attaques plongeantes</color> de vos personnages +1.",
+            "id": 216041,
+            "name": "Chute divine",
+            "statustypetext": "Équipement de personnage",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "État de déploiement",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Lorsque votre personnage a utilisé une capacité : Si ses PV ne sont pas au maximum, soigne le personnage pour 2 pts.\nNombre d'utilisations : 3",
+            "descriptionraw": "<color=#FFFFFFFF>Lorsque votre personnage a utilisé une capacité : </color>Si ses PV ne sont pas au maximum, soigne le personnage pour 2 pts.\\n<color=#FFFFFFFF>$[K3] : 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Lorsque votre personnage a utilisé une capacité : </color>Si ses PV ne sont pas au maximum, soigne le personnage pour 2 pts.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Nombre d'utilisations</color> : 3</color>",
+            "id": 111082,
+            "name": "Talisman de fortune|s1:talisman de fortune",
+            "statustypetext": "État de déploiement d'équipe",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Grand bouclier de givre|s1:Grands boucliers de givre|s2:grand bouclier de givre|s3:grands boucliers de givre",
             "statustypetext": "État de personnage",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "État de déploiement",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Lorsque votre personnage a utilisé une capacité : L'effet passe dans le camp adverse et cumule 1 pt de « chaud bouillant » (Peut être cumulé jusqu'à 4 pts). Phase finale : Annule l'effet et inflige 2 pts de DGT physiques au personnage actif du camp où se trouve la bombe, ces DGT augmentant de 1 pour chaque cumul de « chaud bouillant ».",
+            "descriptionraw": "#<color=#FFFFFFFF>Lorsque votre personnage a utilisé une capacité : </color>L'effet passe dans le camp adverse et cumule 1 pt de «{NON_BREAK_SPACE}chaud bouillant » (Peut être cumulé jusqu'à 4 pts). <color=#FFFFFFFF>Phase finale : </color>Annule l'effet et inflige 2 pts de $[K100] au personnage actif du camp où se trouve la bombe, ces DGT augmentant de 1 pour chaque cumul de « chaud bouillant ».",
+            "descriptionreplaced": "#<color=#FFFFFFFF>Lorsque votre personnage a utilisé une capacité : </color>L'effet passe dans le camp adverse et cumule 1 pt de «{NON_BREAK_SPACE}chaud bouillant » (Peut être cumulé jusqu'à 4 pts). <color=#FFFFFFFF>Phase finale : </color>Annule l'effet et inflige 2 pts de {SPRITE_PRESET#2100}<color=#FFFFFFFF>DGT physiques</color> au personnage actif du camp où se trouve la bombe, ces DGT augmentant de 1 pour chaque cumul de « chaud bouillant ».",
+            "id": 401001,
+            "name": "Bombe brûlante|s1:bombe brûlante",
+            "statustypetext": "État de déploiement d'équipe",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "État de déploiement",
+            "description": "Vous ne pouvez pas jouer de carte [Pas encore perdu !] une nouvelle fois pendant la manche.",
+            "descriptionraw": "Vous ne pouvez pas jouer de carte [Pas encore perdu !] une nouvelle fois pendant la manche.",
+            "descriptionreplaced": "Vous ne pouvez pas jouer de carte [Pas encore perdu !] une nouvelle fois pendant la manche.",
+            "id": 303205,
+            "name": "Pas encore perdu ! (En TdR)",
+            "statustypetext": "État de déploiement d'équipe",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "DGT infligés par le personnage +1.",
+            "descriptionraw": "<color=#FFFFFFFF>DGT infligés par le personnage +1</color>.",
+            "descriptionreplaced": "<color=#FFFFFFFF>DGT infligés par le personnage +1</color>.",
+            "id": 311206,
+            "name": "Le valet du roi",
+            "statustypetext": "Équipement de personnage",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "État",
+            "description": "La prochaine fois que le personnage utilise une compétence élémentaire ou équipe une aptitude pendant la manche :  Il dépense 2 dés élémentaires en moins.",
+            "descriptionraw": "<color=#FFFFFFFF>La prochaine fois que le personnage utilise une compétence élémentaire ou équipe une {SPRITE_PRESET#3006}aptitude pendant la manche : </color> Il dépense 2 dés élémentaires en moins.",
+            "descriptionreplaced": "<color=#FFFFFFFF>La prochaine fois que le personnage utilise une compétence élémentaire ou équipe une {SPRITE_PRESET#3006}aptitude pendant la manche : </color> Il dépense 2 dés élémentaires en moins.",
+            "id": 301103,
+            "name": "Le valet du roi (En effet)",
+            "statustypetext": "État de personnage",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "État de déploiement d'équipe",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "État de déploiement",
+            "description": " Phase finale : Vous perdez la partie.",
+            "descriptionraw": "<color=#FFFFFFFF> Phase finale : </color>Vous perdez la partie.",
+            "descriptionreplaced": "<color=#FFFFFFFF> Phase finale : </color>Vous perdez la partie.",
+            "id": 403016,
+            "name": "Prix d'un violent assaut",
+            "statustypetext": "État de déploiement d'équipe",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carte d'équipement",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "En basculant pour Lisa équipée de cette carte : Inflige l'état Conductivité au personnage actif adverse. (1 fois par manche)",
+            "descriptionraw": "En basculant pour <color=#FFFFFFFF>$[A1409]</color> équipée de cette carte : Inflige l'état <color=#FFFFFFFF>$[C114091]</color> au personnage actif adverse. (1 fois par manche)",
+            "descriptionreplaced": "En basculant pour <color=#FFFFFFFF>Lisa</color> équipée de cette carte : Inflige l'état <color=#FFFFFFFF>Conductivité</color> au personnage actif adverse. (1 fois par manche)",
+            "id": 214091,
+            "name": "Sorcière de pulse",
+            "statustypetext": "Équipement de personnage",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Rite d'expédition|s1:rite d'expédition",
             "statustypetext": "État de personnage",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carte d'équipement",
+            "description": "Lorsque Qiqi, équipée de cette carte, utilise Arcane d'Adepte : Talisman sacré : Ressuscite tous vos personnages éliminés et les soigne pour 2 pts. (Limité à 2 fois par partie)",
+            "descriptionraw": "Lorsque $[A1108], équipée de cette carte, utilise <color=#FFFFFFFF>$[S11083]</color> : Ressuscite tous vos personnages éliminés et les soigne pour 2 pts. (Limité à 2 fois par partie)",
+            "descriptionreplaced": "Lorsque Qiqi, équipée de cette carte, utilise <color=#FFFFFFFF>Arcane d'Adepte : Talisman sacré</color> : Ressuscite tous vos personnages éliminés et les soigne pour 2 pts. (Limité à 2 fois par partie)",
+            "id": 211081,
+            "name": "Symbole de la renaissance",
+            "statustypetext": "Équipement de personnage",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>La prochaine fois que vous avez utilisé une capacité : </color>Bascule pour votre prochain personnage en attente sur le terrain.",
             "id": 303207,
             "name": "Retour de la grue (En effet)",
+            "statustypetext": "État de déploiement d'équipe",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "État de déploiement",
+            "description": "La prochaine fois que vous jouez une carte d'arme pendant la manche : Dépense 2 dés élémentaires en moins.",
+            "descriptionraw": "<color=#FFFFFFFF>La prochaine fois que vous jouez une carte d'{SPRITE_PRESET#3003}arme pendant la manche : </color>Dépense 2 dés élémentaires en moins.",
+            "descriptionreplaced": "<color=#FFFFFFFF>La prochaine fois que vous jouez une carte d'{SPRITE_PRESET#3003}arme pendant la manche : </color>Dépense 2 dés élémentaires en moins.",
+            "id": 303222,
+            "name": "Où est le Glaive occulte ? (En effet)",
             "statustypetext": "État de déploiement d'équipe",
             "tags": []
         },

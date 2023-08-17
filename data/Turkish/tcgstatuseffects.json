@@ -542,6 +542,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "conductive": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Durum",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Bu durum 2 kademe İletken ile başlar. Üst üste eklendiğinde 1 kademe kazanılır. İletken 4 kademeye kadar birikebilir.\nSon Aşama: 1 kademe İletken birikir.\n\nEklenen karakter Mor Akım tarafından Hasar aldığında: Bu durum kalkar ve her İletken kademesi için fazladan 1 Hasar verir.",
+            "descriptionraw": "Bu durum 2 kademe İletken ile başlar. Üst üste eklendiğinde 1 kademe kazanılır. İletken 4 kademeye kadar birikebilir.\\n<color=#FFFFFFFF>Son Aşama:</color> 1 kademe İletken birikir.\\n\\n<color=#FFFFFFFF>Eklenen karakter $[S14092] tarafından Hasar aldığında:</color> Bu durum kalkar ve her İletken kademesi için fazladan 1 Hasar verir.",
+            "descriptionreplaced": "Bu durum 2 kademe İletken ile başlar. Üst üste eklendiğinde 1 kademe kazanılır. İletken 4 kademeye kadar birikebilir.\\n<color=#FFFFFFFF>Son Aşama:</color> 1 kademe İletken birikir.\\n\\n<color=#FFFFFFFF>Eklenen karakter Mor Akım tarafından Hasar aldığında:</color> Bu durum kalkar ve her İletken kademesi için fazladan 1 Hasar verir.",
+            "id": 114091,
+            "name": "İletken",
+            "statustypetext": "Karakter Durumu",
+            "tags": []
+        },
         "conquerorofevilguardianyaksha": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ekipman Kartı",
@@ -743,6 +755,20 @@
             "statustypetext": "Grup Savaş Durumu",
             "tags": [
                 "GCG_TAG_DENDRO_PRODUCE"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Bu kartı kuşanan Albedo alandayken senin tarafında bir Güneş Çiçeği varsa karakterin Havadan Saldırı ile fazladan 1 Hasar verir.",
+            "descriptionraw": "Bu kartı kuşanan $[A1604] alandayken senin tarafında bir <color=#FFFFFFFF>$[C116041]</color> varsa karakterin $[K52] ile fazladan 1 Hasar verir.",
+            "descriptionreplaced": "Bu kartı kuşanan Albedo alandayken senin tarafında bir <color=#FFFFFFFF>Güneş Çiçeği</color> varsa karakterin <color=#FFFFFFFF>Havadan Saldırı</color> ile fazladan 1 Hasar verir.",
+            "id": 216041,
+            "name": "Kutsallığın Çöküşü",
+            "statustypetext": "Karakter Ekipmanı",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
             ]
         },
         "dominanceofearth": {
@@ -1239,6 +1265,19 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "fortunepreservingtalisman": {
+            "bufftype": "GCG_STATE_BUFF_CRYO",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Savaş Durumu",
+            "countingtype": "GCG_TOKEN_LIFE",
+            "description": "Karakterin bir Beceri kullandıktan sonra Canı tam değilse karakterine 2 Can yeniler.\nKullanım Hakkı: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Karakterin bir Beceri kullandıktan sonra</color> Canı tam değilse karakterine 2 Can yeniler.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakterin bir Beceri kullandıktan sonra</color> Canı tam değilse karakterine 2 Can yeniler.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Kullanım Hakkı</color>: 3</color>",
+            "id": 111082,
+            "name": "Nazar Tılsımı",
+            "statustypetext": "Grup Savaş Durumu",
+            "tags": []
+        },
         "frozen": {
             "bufftype": "GCG_STATE_BUFF_NEGATIVE",
             "cardtype": "GCG_CARD_STATE",
@@ -1406,6 +1445,18 @@
             "id": 131011,
             "name": "Buzul Büyük Kalkan",
             "statustypetext": "Karakter Durumu",
+            "tags": []
+        },
+        "hotpotato": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Savaş Durumu",
+            "countingtype": "GCG_TOKEN_COUNTER",
+            "description": "Karakterin Beceri kullandıktan sonra: Bu etki rakip tarafa aktarılır ve 1 Aşırı Kızgın puanı birikir (4 puana kadar birikir). Son Aşama: Bu etki kaldırılır ve bu etkinin olduğu tarafa 2 Fiziksel Hasar verilir. Her Aşırı Kızgın puanı için fazladan 1 Hasar verilir.",
+            "descriptionraw": "<color=#FFFFFFFF>Karakterin Beceri kullandıktan sonra:</color> Bu etki rakip tarafa aktarılır ve 1 Aşırı Kızgın puanı birikir (4 puana kadar birikir). <color=#FFFFFFFF>Son Aşama:</color> Bu etki kaldırılır ve bu etkinin olduğu tarafa 2 $[K100] verilir. Her Aşırı Kızgın puanı için fazladan 1 Hasar verilir.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakterin Beceri kullandıktan sonra:</color> Bu etki rakip tarafa aktarılır ve 1 Aşırı Kızgın puanı birikir (4 puana kadar birikir). <color=#FFFFFFFF>Son Aşama:</color> Bu etki kaldırılır ve bu etkinin olduğu tarafa 2 {SPRITE_PRESET#2100}<color=#FFFFFFFF>Fiziksel Hasar</color> verilir. Her Aşırı Kızgın puanı için fazladan 1 Hasar verilir.",
+            "id": 401001,
+            "name": "Çetin Ceviz",
+            "statustypetext": "Grup Savaş Durumu",
             "tags": []
         },
         "hydroelementalequipment": {
@@ -1580,6 +1631,18 @@
                 "GCG_TAG_SLOWLY"
             ]
         },
+        "ihaventlostyetoncooldown": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Savaş Durumu",
+            "description": "Bu turda tekrar \"Henüz Kaybetmedim!\" oynayamazsın.",
+            "descriptionraw": "Bu turda tekrar \"Henüz Kaybetmedim!\" oynayamazsın.",
+            "descriptionreplaced": "Bu turda tekrar \"Henüz Kaybetmedim!\" oynayamazsın.",
+            "id": 303205,
+            "name": "Henüz Kaybetmedim! (Beklemede)",
+            "statustypetext": "Grup Savaş Durumu",
+            "tags": []
+        },
         "illusorybubble": {
             "bufftype": "GCG_STATE_BUFF_HYDRO",
             "cardtype": "GCG_CARD_ONSTAGE",
@@ -1718,6 +1781,31 @@
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
             ]
+        },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Karakter fazladan 1 Hasar verir.",
+            "descriptionraw": "<color=#FFFFFFFF>Karakter fazladan 1 Hasar verir.</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Karakter fazladan 1 Hasar verir.</color>",
+            "id": 311206,
+            "name": "Kralın Yaveri",
+            "statustypetext": "Karakter Ekipmanı",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ]
+        },
+        "kingssquireineffect": {
+            "cardtype": "GCG_CARD_STATE",
+            "cardtypetext": "Durum",
+            "description": "Bu Turda karakterin Element Becerisi kullandığı veya bir Yetenek Kartı kuşandığı bir sonraki seferde 2 adet daha az Element Zarı harcanır.",
+            "descriptionraw": "Bu Turda <color=#FFFFFFFF>karakterin Element Becerisi kullandığı veya bir {SPRITE_PRESET#3006}Yetenek Kartı kuşandığı bir sonraki seferde</color> 2 adet daha az Element Zarı harcanır.",
+            "descriptionreplaced": "Bu Turda <color=#FFFFFFFF>karakterin Element Becerisi kullandığı veya bir {SPRITE_PRESET#3006}Yetenek Kartı kuşandığı bir sonraki seferde</color> 2 adet daha az Element Zarı harcanır.",
+            "id": 301103,
+            "name": "Kralın Yaveri (Etkin)",
+            "statustypetext": "Karakter Durumu",
+            "tags": []
         },
         "kyoukafuushi": {
             "cardtype": "GCG_CARD_MODIFY",
@@ -2279,6 +2367,18 @@
             "statustypetext": "Grup Savaş Durumu",
             "tags": []
         },
+        "priceofunrelentingassault": {
+            "bufftype": "GCG_STATE_BUFF_NEGATIVE",
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Savaş Durumu",
+            "description": "Son Aşama: Düelloyu kaybedersin.",
+            "descriptionraw": "<color=#FFFFFFFF>Son Aşama:</color> Düelloyu kaybedersin.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Son Aşama:</color> Düelloyu kaybedersin.",
+            "id": 403016,
+            "name": "Amansız Saldırının Bedeli",
+            "statustypetext": "Grup Savaş Durumu",
+            "tags": []
+        },
         "proliferatingspores": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Ekipman Kartı",
@@ -2305,6 +2405,19 @@
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
+            ]
+        },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Bu kartı kuşanan Lisa karakterine geçtikten sonra: Rakip aktif karaktere İletken eklenir. (Her Turda bir defa)",
+            "descriptionraw": "Bu kartı kuşanan <color=#FFFFFFFF>$[A1409]</color> karakterine geçtikten sonra: Rakip aktif karaktere <color=#FFFFFFFF>$[C114091]</color> eklenir. (Her Turda bir defa)",
+            "descriptionreplaced": "Bu kartı kuşanan <color=#FFFFFFFF>Lisa</color> karakterine geçtikten sonra: Rakip aktif karaktere <color=#FFFFFFFF>İletken</color> eklenir. (Her Turda bir defa)",
+            "id": 214091,
+            "name": "Titreşen Cadı",
+            "statustypetext": "Karakter Ekipmanı",
+            "tags": [
+                "GCG_TAG_TALENT"
             ]
         },
         "pyroelementalequipment": {
@@ -2655,6 +2768,20 @@
             "name": "Sevk Ayini",
             "statustypetext": "Karakter Durumu",
             "tags": []
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Ekipman Kartı",
+            "description": "Bu kartı kuşanan Qiqi, Adeptus Büyüsü: Nazar kullandığında saf dışı bırakılan tüm karakterlerini canlandırır ve onlar için 2 Can yeniler. (Bir düelloda en fazla 2 defa gerçekleşebilir.)",
+            "descriptionraw": "Bu kartı kuşanan $[A1108], <color=#FFFFFFFF>$[S11083]</color> kullandığında saf dışı bırakılan tüm karakterlerini canlandırır ve onlar için 2 Can yeniler. (Bir düelloda en fazla 2 defa gerçekleşebilir.)",
+            "descriptionreplaced": "Bu kartı kuşanan Qiqi, <color=#FFFFFFFF>Adeptus Büyüsü: Nazar</color> kullandığında saf dışı bırakılan tüm karakterlerini canlandırır ve onlar için 2 Can yeniler. (Bir düelloda en fazla 2 defa gerçekleşebilir.)",
+            "id": 211081,
+            "name": "Canlandırma Ayini",
+            "statustypetext": "Karakter Ekipmanı",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ]
         },
         "rockpaperscissorscombopaper": {
             "cardtype": "GCG_CARD_STATE",
@@ -3669,6 +3796,17 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Bir sonraki Beceri kullanışında:</color> Sonraki karakterini aktif karakter olarak değiştirebilirsin.",
             "id": 303207,
             "name": "Turna Geri Döndüğünde (Etkin)",
+            "statustypetext": "Grup Savaş Durumu",
+            "tags": []
+        },
+        "whereistheunseenrazorineffect": {
+            "cardtype": "GCG_CARD_ONSTAGE",
+            "cardtypetext": "Savaş Durumu",
+            "description": "Bu Turda Silah kartı oynadığın bir sonraki seferde 2 adet daha az Element Zarı harcanır.",
+            "descriptionraw": "<color=#FFFFFFFF>Bu Turda {SPRITE_PRESET#3003}Silah kartı oynadığın bir sonraki seferde</color> 2 adet daha az Element Zarı harcanır.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Bu Turda {SPRITE_PRESET#3003}Silah kartı oynadığın bir sonraki seferde</color> 2 adet daha az Element Zarı harcanır.",
+            "id": 303222,
+            "name": "Görünmez Ustura Nerede? (Etkin)",
             "statustypetext": "Grup Savaş Durumu",
             "tags": []
         },

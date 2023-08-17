@@ -230,8 +230,8 @@
             "name": "Roccia arcaica",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Il male non trionferà sotto lo sguardo dei Milleliti!\"",
@@ -319,8 +319,8 @@
             "name": "Nomade della tormenta",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Allora ti prego, continua a vivere. Non accompagnarci nella nostra sventura di languire dimenticati tra la neve.\"",
@@ -342,7 +342,7 @@
             "name": "Eco dell'inverno",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "Maschera capricciosa",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "Strega cremisi delle fiamme",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Non canterò elegie. Rifiuto i lamenti. Non sospirerò. Non mi servono rumori inutili.\nSe la giustizia è morta da tempo, allora a chi posso offrire la redenzione?\"",
@@ -746,8 +746,8 @@
             "name": "Memorie di Boscoprofondo",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Poiché tutti coloro che seguono la natura devono attraversare il labirinto della foresta, raggiungendo l'infinita pianura.\"",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "Manufatto"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta equipaggiamento",
+            "description": "Azione di combattimento: se il tuo personaggio attivo è Albedo, equipaggia questa carta.\nDopo che Albedo viene equipaggiato con questa carta, utilizza immediatamente Abiogenesi: Isotoma solare una volta.\nQuando sul campo c'è Albedo, che ha questa carta equipaggiata, e sul tuo lato è presente un'Isotoma solare, l'Attacco in picchiata dei tuoi personaggi infligge DAN +1.\n(Per aggiungere questa carta, il tuo mazzo deve contenere Albedo.)",
+            "descriptionraw": "$[K1]: se il tuo personaggio attivo è <color=#FFFFFFFF>$[A1604]</color>, equipaggia questa carta.\\nDopo che $[A1604] viene equipaggiato con questa carta, utilizza immediatamente <color=#FFD780FF>$[S16042]</color> una volta.\\nQuando sul campo c'è $[A1604], che ha questa carta equipaggiata, e sul tuo lato è presente un'<color=#FFFFFFFF>$[C116041]</color>, l'$[K52] dei tuoi personaggi infligge DAN +1.\\n(Per aggiungere questa carta, il tuo mazzo deve contenere $[A1604].)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Azione di combattimento</color>: se il tuo personaggio attivo è <color=#FFFFFFFF>Albedo</color>, equipaggia questa carta.\\nDopo che Albedo viene equipaggiato con questa carta, utilizza immediatamente <color=#FFD780FF>Abiogenesi: Isotoma solare</color> una volta.\\nQuando sul campo c'è Albedo, che ha questa carta equipaggiata, e sul tuo lato è presente un'<color=#FFFFFFFF>Isotoma solare</color>, l'<color=#FFFFFFFF>Attacco in picchiata</color> dei tuoi personaggi infligge DAN +1.\\n(Per aggiungere questa carta, il tuo mazzo deve contenere Albedo.)",
+            "id": 216041,
+            "name": "Discesa divina",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "Ricompensa ottenuta sfidando Albedo a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
+            "storytext": "\"Il processo di confermare la strategia per un duello richiede anche calcoli meticolosi...\"",
+            "storytitle": "Albedo, Discesa divina",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
+                "Azione di combattimento"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "Emblema del fato spezzato",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "Tredici anni trascorsero come in un sogno. La neve scarlatta vola come fumo sul valico ombroso.\nTi sei allontanato tanto.",
@@ -1527,6 +1553,42 @@
                 "Manufatto"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta di supporto",
+            "description": "Inizia con 2 punti di Conto alla rovescia vittorioso.\nFase finale: rimuovi 1 punto di Conto alla rovescia vittorioso. Se nessun tuo personaggio è stato sconfitto quando i punti di Conto alla rovescia vittorioso si esauriscono, vinci immediatamente la partita. \nQuando inizia la fase di azione: se c'è esattamente 1 punto di Conto alla rovescia vittorioso, crea Omnielemento ×4.",
+            "descriptionraw": "Inizia con 2 punti di Conto alla rovescia vittorioso.\\n<color=#FFFFFFFF>Fase finale: </color>rimuovi 1 punto di Conto alla rovescia vittorioso. Se nessun tuo personaggio è stato sconfitto quando i punti di Conto alla rovescia vittorioso si esauriscono, vinci immediatamente la partita. \\n<color=#FFFFFFFF>Quando inizia la fase di azione: </color>se c'è esattamente 1 punto di Conto alla rovescia vittorioso, crea $[K411] ×4.",
+            "descriptionreplaced": "Inizia con 2 punti di Conto alla rovescia vittorioso.\\n<color=#FFFFFFFF>Fase finale: </color>rimuovi 1 punto di Conto alla rovescia vittorioso. Se nessun tuo personaggio è stato sconfitto quando i punti di Conto alla rovescia vittorioso si esauriscono, vinci immediatamente la partita. \\n<color=#FFFFFFFF>Quando inizia la fase di azione: </color>se c'è esattamente 1 punto di Conto alla rovescia vittorioso, crea <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnielemento</color> ×4.",
+            "id": 423025,
+            "name": "Grandarguzia: Vittoria imperitura",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta di supporto",
+            "description": "All'inizio della fase di azione:  crea una Patata bollente dal lato del giocatore che agisce per primo.\nFase finale: se l'effetto di Patata bollente viene applicato sul lato opposto, il giocatore dal lato opposto perderà la partita.",
+            "descriptionraw": "<color=#FFFFFFFF>All'inizio della fase di azione: </color> crea una $[C401001] dal lato del giocatore che agisce per primo.\\n<color=#FFFFFFFF>Fase finale: </color>se l'effetto di $[C401001] viene applicato sul lato opposto, il giocatore dal lato opposto perderà la partita.",
+            "descriptionreplaced": "<color=#FFFFFFFF>All'inizio della fase di azione: </color> crea una Patata bollente dal lato del giocatore che agisce per primo.\\n<color=#FFFFFFFF>Fase finale: </color>se l'effetto di Patata bollente viene applicato sul lato opposto, il giocatore dal lato opposto perderà la partita.",
+            "id": 421011,
+            "name": "Grandarguzia: Bomba calcinatrice",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta di supporto",
+            "description": "Quando inizia la fase di azione:  crea Omnielemento ×2. Tuttavia, perderai questa partita nella fase finale di questo turno. \nQuando un personaggio avversario viene sconfitto o il tuo personaggio usa un Tripudio elementale: crea Omnielemento ×3, pesca 1 carta, e ottieni un'azione aggiuntiva dopo aver completato le tue azioni attuali.",
+            "descriptionraw": "<color=#FFFFFFFF>Quando inizia la fase di azione: </color> crea $[K411] ×2. Tuttavia, perderai questa partita nella fase finale di questo turno. \\n<color=#FFFFFFFF>Quando un personaggio avversario viene sconfitto o il tuo personaggio usa un Tripudio elementale: </color>crea $[K411] ×3, pesca 1 carta, e ottieni un'azione aggiuntiva dopo aver completato le tue azioni attuali.",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando inizia la fase di azione: </color> crea <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnielemento</color> ×2. Tuttavia, perderai questa partita nella fase finale di questo turno. \\n<color=#FFFFFFFF>Quando un personaggio avversario viene sconfitto o il tuo personaggio usa un Tripudio elementale: </color>crea <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnielemento</color> ×3, pesca 1 carta, e ottieni un'azione aggiuntiva dopo aver completato le tue azioni attuali.",
+            "id": 423026,
+            "name": "Grandarguzia: Assalto implacabile",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta equipaggiamento",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "Talento",
                 "Azione di combattimento"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta di supporto",
+            "description": "Quando giochi una carta arma o manufatto con un costo originale di almeno 3: spendi 1 dado elementale in meno (una volta per turno).\nUtilizzi: 2",
+            "descriptionraw": "<color=#FFFFFFFF>Quando giochi una carta {SPRITE_PRESET#3003}arma o {SPRITE_PRESET#3004}manufatto con un costo originale di almeno 3: </color>spendi 1 dado elementale in meno (una volta per turno).\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando giochi una carta {SPRITE_PRESET#3003}arma o {SPRITE_PRESET#3004}manufatto con un costo originale di almeno 3: </color>spendi 1 dado elementale in meno (una volta per turno).\\n<color=#FFFFFFFF><color=#FFFFFFFF>Utilizzi</color>: 2</color>",
+            "id": 321013,
+            "name": "Palazzo dorato",
+            "playcost": [],
+            "storytext": "Tutti i contratti che circondano questa terra sono forgiati qui.",
+            "storytitle": "Palazzo dorato",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "Posizione"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "Cuore profondo",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Tutte le morti sono vane. È impossibile salvare coloro che sguazzano nel passato.\"",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Carta evento",
-            "description": "Giocabile solo se uno dei tuoi personaggi viene sconfitto in questo turno:\nCrea 1 Omnielemento e il tuo personaggio attivo ottiene 1 punto Energia.",
-            "descriptionraw": "Giocabile solo se uno dei tuoi personaggi viene sconfitto in questo turno:\\nCrea 1 $[K411] e il tuo personaggio attivo ottiene 1 punto $[K310].",
-            "descriptionreplaced": "Giocabile solo se uno dei tuoi personaggi viene sconfitto in questo turno:\\nCrea 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnielemento</color> e il tuo personaggio attivo ottiene 1 punto <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energia</color>.",
+            "description": "Giocabile solo se uno dei tuoi personaggi viene sconfitto in questo turno: crea 1 Omnielemento e il tuo personaggio attivo ottiene 1 punto Energia. (È possibile giocare la carta \"Non ho ancora perso!\" una sola volta per turno.)",
+            "descriptionraw": "<color=#FFFFFFFF>Giocabile solo se uno dei tuoi personaggi viene sconfitto in questo turno:</color> crea 1 $[K411] e il tuo personaggio attivo ottiene 1 punto $[K310]. (È possibile giocare la carta \"Non ho ancora perso!\" una sola volta per turno.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Giocabile solo se uno dei tuoi personaggi viene sconfitto in questo turno:</color> crea 1 <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnielemento</color> e il tuo personaggio attivo ottiene 1 punto <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energia</color>. (È possibile giocare la carta \"Non ho ancora perso!\" una sola volta per turno.)",
             "id": 332005,
             "name": "Non ho ancora perso!",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>Fase di lancio:</color> al momento del lancio, 2 dadi elementali corrispondono sempre al tipo elementale del personaggio attivo.",
             "id": 321003,
             "name": "Dimora di giada",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "Ricompensa ottenuta accettando la sfida avventura di Bu'yun nel mondo di gioco e completando tutti gli obiettivi della sfida corrispondente",
             "storytext": "\"Dicono che contenga migliaia di gioielli abbaglianti.\"",
             "storytitle": "Ammirare le stelle fra le nuvole",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "Posizione"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carta evento",
+            "description": "Questa carta può essere giocata solo se il tuo personaggio attivo appartiene a uno dei seguenti tipi elementali:Cryo/Hydro/Pyro/Electro/Dendro Il tipo elementale del tuo personaggio attivo verrà applicato a tutti i tuoi personaggi.\n(È possibile giocare una sola carta Leggenda arcana per l'intera partita. Questa carta si troverà nella tua mano iniziale.)",
+            "descriptionraw": "<color=#FFFFFFFF>Questa carta può essere giocata solo se il tuo personaggio attivo appartiene a uno dei seguenti tipi elementali:</color>{SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> Il tipo elementale del tuo personaggio attivo verrà applicato a tutti i tuoi personaggi.\\n(È possibile giocare una sola carta {SPRITE_PRESET#3007}Leggenda arcana per l'intera partita. Questa carta si troverà nella tua mano iniziale.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Questa carta può essere giocata solo se il tuo personaggio attivo appartiene a uno dei seguenti tipi elementali:</color>{SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color> Il tipo elementale del tuo personaggio attivo verrà applicato a tutti i tuoi personaggi.\\n(È possibile giocare una sola carta {SPRITE_PRESET#3007}Leggenda arcana per l'intera partita. Questa carta si troverà nella tua mano iniziale.)",
+            "id": 330003,
+            "name": "Celebrazione gioiosa",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "\"I festeggiamenti dovrebbero essere condivisi con tutti.\"",
+            "storytitle": "Celebrazione gioiosa",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "Leggenda arcana"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "Compagno"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta equipaggiamento",
+            "description": "Il personaggio infligge DAN +1.\nSe giocata: la volta successiva che il personaggio associato usa un'abilità elementale o equipaggia una carta talento spendi 2 dadi elementali in meno.\n(Equipaggiabile solo da personaggi con arco. Il personaggio può equipaggiare un massimo di 1 arma.)",
+            "descriptionraw": "<color=#FFFFFFFF>Il personaggio infligge DAN +1</color>.\\n<color=#FFFFFFFF>Se giocata: </color>la volta successiva che il personaggio associato usa un'abilità elementale o equipaggia una {SPRITE_PRESET#3006}carta talento spendi 2 dadi elementali in meno.\\n(Equipaggiabile <color=#FFFFFFFF>solo da personaggi con {SPRITE_PRESET#3202}arco</color>. Il personaggio può equipaggiare un massimo di 1 {SPRITE_PRESET#3003}arma.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Il personaggio infligge DAN +1</color>.\\n<color=#FFFFFFFF>Se giocata: </color>la volta successiva che il personaggio associato usa un'abilità elementale o equipaggia una {SPRITE_PRESET#3006}carta talento spendi 2 dadi elementali in meno.\\n(Equipaggiabile <color=#FFFFFFFF>solo da personaggi con {SPRITE_PRESET#3202}arco</color>. Il personaggio può equipaggiare un massimo di 1 {SPRITE_PRESET#3003}arma.)",
+            "id": 311206,
+            "name": "Scudiere del re",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "Un'arma delle storie degli Aranara, ha la forma di un arco.\n\"Ricorda, questo mondo è solo il sogno della foresta... Ricorda le parole della foresta e trasmetti ad altri la responsabilità di proteggere la terra del Re alle generazioni future\".",
+            "storytitle": "Insegnamenti della foresta: Scudiere del re",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "Arma",
+                "Arco"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "Carta di supporto",
@@ -2044,7 +2171,7 @@
             "name": "Corona d'alloro",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "Maschera di basalto inerte",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "Kabuto decorato",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "\"Tredici anni trascorsero come in un sogno. La neve scarlatta vola come fumo sul valico ombroso. Ti sei allontanato tanto.\"",
@@ -3311,6 +3438,30 @@
                 "Azione di combattimento"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta equipaggiamento",
+            "description": "Dopo che cambi personaggio in Lisa, che ha questa carta equipaggiata: associa Conduzione al personaggio attivo avversario (una volta per turno).\n(Per aggiungere questa carta, il tuo mazzo deve contenere Lisa.)",
+            "descriptionraw": "Dopo che cambi personaggio in <color=#FFFFFFFF>$[A1409]</color>, che ha questa carta equipaggiata: associa <color=#FFFFFFFF>$[C114091]</color> al personaggio attivo avversario (una volta per turno).\\n(Per aggiungere questa carta, il tuo mazzo deve contenere $[A1409].)",
+            "descriptionreplaced": "Dopo che cambi personaggio in <color=#FFFFFFFF>Lisa</color>, che ha questa carta equipaggiata: associa <color=#FFFFFFFF>Conduzione</color> al personaggio attivo avversario (una volta per turno).\\n(Per aggiungere questa carta, il tuo mazzo deve contenere Lisa.)",
+            "id": 214091,
+            "name": "Strega pulsante",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "Ricompensa ottenuta sfidando Lisa a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
+            "storytext": "In quanto bibliotecaria che ha letto decine di migliaia di volumi, naturalmente è triviale per me ricordare come vincere...",
+            "storytitle": "Lisa, Strega pulsante",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "Talento"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Carta evento",
@@ -3438,6 +3589,36 @@
             "source": "Ricompensa ottenuta sfidando Yanfei a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
             "storytext": "\"Quando si tratta delle carte... beh, tutto è concesso, purché non sia proibito dal regolamento.\"",
             "storytitle": "Yanfei: Verdetto finale",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "Talento",
+                "Azione di combattimento"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "Carta equipaggiamento",
+            "description": "Azione di combattimento: se il tuo personaggio attivo è Qiqi, equipaggia questa carta.\nDopo che Qiqi viene equipaggiata con questa carta, utilizza immediatamente Arte dell'Adeptus: Protettrice della fortuna una volta.\nDopo che Qiqi, che ha questa carta equipaggiata, utilizza Arte dell'Adeptus: Protettrice della fortuna, rianima tutti i tuoi personaggi sconfitti e ne ripristina 2 PS (fino a 2 volte per ogni partita).\n(Per aggiungere questa carta, il tuo mazzo deve contenere Qiqi.)",
+            "descriptionraw": "$[K1]: se il tuo personaggio attivo è <color=#FFFFFFFF>$[A1108]</color>, equipaggia questa carta.\\nDopo che $[A1108] viene equipaggiata con questa carta, utilizza immediatamente <color=#FFD780FF>$[S11083]</color> una volta.\\nDopo che $[A1108], che ha questa carta equipaggiata, utilizza <color=#FFFFFFFF>$[S11083]</color>, rianima tutti i tuoi personaggi sconfitti e ne ripristina 2 PS (fino a 2 volte per ogni partita).\\n(Per aggiungere questa carta, il tuo mazzo deve contenere $[A1108].)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Azione di combattimento</color>: se il tuo personaggio attivo è <color=#FFFFFFFF>Qiqi</color>, equipaggia questa carta.\\nDopo che Qiqi viene equipaggiata con questa carta, utilizza immediatamente <color=#FFD780FF>Arte dell'Adeptus: Protettrice della fortuna</color> una volta.\\nDopo che Qiqi, che ha questa carta equipaggiata, utilizza <color=#FFFFFFFF>Arte dell'Adeptus: Protettrice della fortuna</color>, rianima tutti i tuoi personaggi sconfitti e ne ripristina 2 PS (fino a 2 volte per ogni partita).\\n(Per aggiungere questa carta, il tuo mazzo deve contenere Qiqi.)",
+            "id": 211081,
+            "name": "Rito della rinascita",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "Ricompensa ottenuta sfidando Qiqi a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
+            "storytext": "\"Devo... continuare a vivere...\"",
+            "storytitle": "Qiqi, Rito della rinascita",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "Carta di supporto",
+            "description": "Dopo aver svolto una qualsiasi azione, se hai 0 carte nella mano: pesca 1 carta.\nUtilizzi: 3",
+            "descriptionraw": "<color=#FFFFFFFF>Dopo aver svolto una qualsiasi azione, se hai 0 carte nella mano: </color>pesca 1 carta.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>Dopo aver svolto una qualsiasi azione, se hai 0 carte nella mano: </color>pesca 1 carta.\\n<color=#FFFFFFFF><color=#FFFFFFFF>Utilizzi</color>: 3</color>",
+            "id": 322019,
+            "name": "Setaria",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "Un genio del deserto, nelle profondità del tempio della foresta pluviale...",
+            "storytitle": "Scavalcare il muro: Setaria",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "Compagno"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta equipaggiamento",
@@ -3668,14 +3872,14 @@
         "shimenawasreminiscence": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta equipaggiamento",
-            "description": "Quando il personaggio utilizza un'abilità elementale o viene equipaggiato con una carta talento: consuma 1 dado elementale in meno (una volta per turno).\nSe il personaggio ha almeno 2 punti di Energia, i suoi attacchi normali e le sue abilità elementali infliggono DAN +1.\n(Il personaggio può equipaggiare un massimo di 1 manufatto.)",
-            "descriptionraw": "<color=#FFFFFFFF>Quando il personaggio utilizza un'abilità elementale o viene equipaggiato con una {SPRITE_PRESET#3006}carta talento:</color> consuma 1 dado elementale in meno (una volta per turno).\\n<color=#FFFFFFFF>Se il personaggio ha almeno 2 punti di $[K310]</color>, i suoi attacchi normali e le sue abilità elementali infliggono DAN +1.\\n(Il personaggio può equipaggiare un massimo di 1 {SPRITE_PRESET#3004}manufatto.)",
-            "descriptionreplaced": "<color=#FFFFFFFF>Quando il personaggio utilizza un'abilità elementale o viene equipaggiato con una {SPRITE_PRESET#3006}carta talento:</color> consuma 1 dado elementale in meno (una volta per turno).\\n<color=#FFFFFFFF>Se il personaggio ha almeno 2 punti di <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energia</color></color>, i suoi attacchi normali e le sue abilità elementali infliggono DAN +1.\\n(Il personaggio può equipaggiare un massimo di 1 {SPRITE_PRESET#3004}manufatto.)",
+            "description": "Quando il personaggio utilizza un'abilità elementale o viene equipaggiato con una carta talento: consuma 1 dado elementale in meno (una volta per turno).\nSe il personaggio ha almeno 2 punti Energia, i suoi attacchi normali e le sue abilità elementali infliggono DAN +1.\n(Il personaggio può equipaggiare un massimo di 1 manufatto.)",
+            "descriptionraw": "<color=#FFFFFFFF>Quando il personaggio utilizza un'abilità elementale o viene equipaggiato con una {SPRITE_PRESET#3006}carta talento:</color> consuma 1 dado elementale in meno (una volta per turno).\\n<color=#FFFFFFFF>Se il personaggio ha almeno 2 punti $[K310]</color>, i suoi attacchi normali e le sue abilità elementali infliggono DAN +1.\\n(Il personaggio può equipaggiare un massimo di 1 {SPRITE_PRESET#3004}manufatto.)",
+            "descriptionreplaced": "<color=#FFFFFFFF>Quando il personaggio utilizza un'abilità elementale o viene equipaggiato con una {SPRITE_PRESET#3006}carta talento:</color> consuma 1 dado elementale in meno (una volta per turno).\\n<color=#FFFFFFFF>Se il personaggio ha almeno 2 punti <color=#FFFFFFFF>{SPRITE_PRESET#1110}Energia</color></color>, i suoi attacchi normali e le sue abilità elementali infliggono DAN +1.\\n(Il personaggio può equipaggiare un massimo di 1 {SPRITE_PRESET#3004}manufatto.)",
             "id": 312014,
             "name": "Reminiscenza di Shimenawa",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "Carta evento",
-            "description": "Converte tutti i dadi elementali nel tipo del tuo personaggio attivo.\n(Questa carta può essere aggiunta solo se ci sono almeno 2 personaggi di Inazuma nel tuo mazzo.)",
-            "descriptionraw": "Converte tutti i dadi elementali nel tipo del tuo personaggio attivo.\\n(Questa carta può essere aggiunta solo se ci sono almeno 2 personaggi di {SPRITE_PRESET#3403}Inazuma nel tuo mazzo.)",
-            "descriptionreplaced": "Converte tutti i dadi elementali nel tipo del tuo personaggio attivo.\\n(Questa carta può essere aggiunta solo se ci sono almeno 2 personaggi di {SPRITE_PRESET#3403}Inazuma nel tuo mazzo.)",
+            "description": "Converte tutti i tuoi dadi elementali in Omnielemento.\n(Questa carta può essere aggiunta solo se ci sono almeno 2 personaggi di Inazuma nel tuo mazzo.)",
+            "descriptionraw": "Converte tutti i tuoi dadi elementali in $[K411].\\n(Questa carta può essere aggiunta solo se ci sono almeno 2 personaggi di {SPRITE_PRESET#3403}Inazuma nel tuo mazzo.)",
+            "descriptionreplaced": "Converte tutti i tuoi dadi elementali in <color=#FFFFFFFF>{SPRITE_PRESET#1111}Omnielemento</color>.\\n(Questa carta può essere aggiunta solo se ci sono almeno 2 personaggi di {SPRITE_PRESET#3403}Inazuma nel tuo mazzo.)",
             "id": 331803,
             "name": "Fulmine ed eternità",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "Furia tonante",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Allora ti canterò un'altra melodia, quando tornerai con tuoni e pioggia!\"",
@@ -4457,7 +4661,7 @@
             "name": "Portamento tonante",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "Corona dell'invocatore di fulmini",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "Aldilà vermiglio",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "Cacciatrice smeraldo",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "\"Un giorno, su quegli sterminati terreni da caccia... Ci incontreremo di nuovo.\"",
@@ -4773,7 +4977,7 @@
             "name": "Diadema della Cacciatrice smeraldo",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "Carta evento",
+            "description": "Prendi una carta arma equipaggiata da uno dei tuoi personaggi e rimettila nella mano.\nIn questo turno, la volta successiva che giochi una carta arma: spendi 2 dadi elementali in meno.",
+            "descriptionraw": "Prendi una {SPRITE_PRESET#3003}carta arma equipaggiata da uno dei tuoi personaggi e rimettila nella mano.\\n<color=#FFFFFFFF>In questo turno, la volta successiva che giochi una carta {SPRITE_PRESET#3003}arma:</color> spendi 2 dadi elementali in meno.",
+            "descriptionreplaced": "Prendi una {SPRITE_PRESET#3003}carta arma equipaggiata da uno dei tuoi personaggi e rimettila nella mano.\\n<color=#FFFFFFFF>In questo turno, la volta successiva che giochi una carta {SPRITE_PRESET#3003}arma:</color> spendi 2 dadi elementali in meno.",
+            "id": 332022,
+            "name": "Dov'è la Lama nascosta?",
+            "playcost": [],
+            "storytext": "Le origini di questa Presidentessa della Gilda degli avventurieri locale sono avvolte nel mistero. Tuttavia, continua a cercare indizi sulla spada, sfidando costantemente svariati avversari potenti...",
+            "storytitle": "Dov'è la Lama nascosta?",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "Carta equipaggiamento",
@@ -4990,7 +5208,7 @@
             "name": "Tricorno macchiato di vino",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "Cappello infuocato della strega",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],

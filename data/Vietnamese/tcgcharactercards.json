@@ -90,6 +90,84 @@
                 "Ma Vật"
             ]
         },
+        "albedo": {
+            "hp": 10,
+            "id": 1604,
+            "maxenergy": 2,
+            "name": "Albedo",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Gây 2 điểm Sát Thương Vật Lý.",
+                    "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "id": 16041,
+                    "name": "Tây Phong Kiếm Thuật - Bạch",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Tấn Công Thường",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Triệu hồi Hoa Mặt Trời.",
+                    "descriptionraw": "Triệu hồi <color=#FFFFFFFF>$[C116041]</color>.",
+                    "descriptionreplaced": "Triệu hồi <color=#FFFFFFFF>Hoa Mặt Trời</color>.",
+                    "id": 16042,
+                    "name": "Thuật Sáng Thế - Chế Tạo Mặt Trời",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Kỹ Năng Nguyên Tố",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 4,
+                    "baseelement": "GCG_ELEMENT_GEO",
+                    "description": "Gây 4 điểm Sát Thương Nguyên Tố Nham, nếu Hoa Mặt Trời trong trận, sẽ +2 sát thương này.",
+                    "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], nếu <color=#FFFFFFFF>$[C116041]</color> trong trận, sẽ +2 sát thương này.",
+                    "descriptionreplaced": "Gây 4 điểm {SPRITE_PRESET#2106}<color=#FFE699FF>Sát Thương Nguyên Tố Nham</color>, nếu <color=#FFFFFFFF>Hoa Mặt Trời</color> trong trận, sẽ +2 sát thương này.",
+                    "id": 16043,
+                    "name": "Chiêu Giáng Sinh - Sóng Vỗ Đại Lục",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_GEO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Kỹ Năng Nộ",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Nhận được sau khi mời Albedo giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
+            "storytext": "Đất đen và vôi trắng, xích thành và hoàng kim.",
+            "storytitle": "Kreideprinz - Albedo",
+            "tags": [
+                "GCG_TAG_ELEMENT_GEO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Nguyên Tố Nham",
+                "Kiếm Đơn",
+                "Mondstadt"
+            ]
+        },
         "amber": {
             "hp": 10,
             "id": 1304,
@@ -2363,6 +2441,86 @@
                 "Inazuma"
             ]
         },
+        "lisa": {
+            "hp": 10,
+            "id": 1409,
+            "maxenergy": 2,
+            "name": "Lisa",
+            "skills": [
+                {
+                    "basedamage": 1,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 1 điểm Sát Thương Nguyên Tố Lôi;\nNếu kỹ năng này là Trọng Kích, sẽ khiến nhân vật xuất chiến phe địch áp dụng Dẫn Lôi.",
+                    "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT];\\nNếu kỹ năng này là $[K51], sẽ khiến nhân vật xuất chiến phe địch áp dụng <color=#FFFFFFFF>$[C114091]</color>.",
+                    "descriptionreplaced": "Gây 1 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>;\\nNếu kỹ năng này là <color=#FFFFFFFF>Trọng Kích</color>, sẽ khiến nhân vật xuất chiến phe địch áp dụng <color=#FFFFFFFF>Dẫn Lôi</color>.",
+                    "id": 14091,
+                    "name": "Sấm Sét Cảm Ứng",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Tấn Công Thường",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Lôi; Nếu nhân vật xuất chiến phe địch chưa áp dụng Dẫn Lôi, sẽ khiến mục tiêu áp dụng Dẫn Lôi.",
+                    "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT]; Nếu nhân vật xuất chiến phe địch chưa áp dụng <color=#FFFFFFFF>$[C114091]</color>, sẽ khiến mục tiêu áp dụng <color=#FFFFFFFF>$[C114091]</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>; Nếu nhân vật xuất chiến phe địch chưa áp dụng <color=#FFFFFFFF>Dẫn Lôi</color>, sẽ khiến mục tiêu áp dụng <color=#FFFFFFFF>Dẫn Lôi</color>.",
+                    "id": 14092,
+                    "name": "Sấm Giội",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Kỹ Năng Nguyên Tố",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_ELECTRO",
+                    "description": "Gây 2 điểm Sát Thương Nguyên Tố Lôi, triệu hồi Tường Vi Sấm Sét.",
+                    "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], triệu hồi <color=#FFFFFFFF>$[C114092]</color>.",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2104}<color=#FFACFFFF>Sát Thương Nguyên Tố Lôi</color>, triệu hồi <color=#FFFFFFFF>Tường Vi Sấm Sét</color>.",
+                    "id": 14093,
+                    "name": "Tường Vi Sấm Sét",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_ELECTRO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Kỹ Năng Nộ",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Nhận được sau khi mời Lisa giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
+            "storytext": "Theo đuổi huyền cơ của ma pháp, yên lặng chờ đợi cơ duyên của chân tướng.",
+            "storytitle": "Ma Nữ Tường Vi - Lisa",
+            "tags": [
+                "GCG_TAG_ELEMENT_ELECTRO",
+                "GCG_TAG_WEAPON_CATALYST",
+                "GCG_TAG_NATION_MONDSTADT"
+            ],
+            "tagstext": [
+                "Nguyên Tố Lôi",
+                "Pháp Khí",
+                "Mondstadt"
+            ]
+        },
         "maguukenki": {
             "hp": 10,
             "id": 2501,
@@ -2881,6 +3039,84 @@
                 "Nguyên Tố Nham",
                 "Trọng Kiếm",
                 "Mondstadt"
+            ]
+        },
+        "qiqi": {
+            "hp": 10,
+            "id": 1108,
+            "maxenergy": 3,
+            "name": "Qiqi",
+            "skills": [
+                {
+                    "basedamage": 2,
+                    "baseelement": "GCG_ELEMENT_NONE",
+                    "description": "Gây 2 điểm Sát Thương Vật Lý.",
+                    "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT].",
+                    "descriptionreplaced": "Gây 2 điểm {SPRITE_PRESET#2100}<color=#FFFFFFFF>Sát Thương Vật Lý</color>.",
+                    "id": 11081,
+                    "name": "Vân Lai Cổ Kiếm Pháp",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 1
+                        },
+                        {
+                            "costtype": "GCG_COST_DICE_VOID",
+                            "count": 2
+                        }
+                    ],
+                    "type": "Tấn Công Thường",
+                    "typetag": "GCG_SKILL_TAG_A"
+                },
+                {
+                    "description": "Triệu hồi Hàn Bệnh Quỷ Sai.",
+                    "descriptionraw": "Triệu hồi <color=#FFFFFFFF>$[C111081]</color>.",
+                    "descriptionreplaced": "Triệu hồi <color=#FFFFFFFF>Hàn Bệnh Quỷ Sai</color>.",
+                    "id": 11082,
+                    "name": "Tiên Pháp - Hàn Bệnh Quỷ Sai",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Kỹ Năng Nguyên Tố",
+                    "typetag": "GCG_SKILL_TAG_E"
+                },
+                {
+                    "basedamage": 3,
+                    "baseelement": "GCG_ELEMENT_CRYO",
+                    "description": "Gây 3 điểm Sát Thương Nguyên Tố Băng, tạo ra Bùa Độ Ách Chân.",
+                    "descriptionraw": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], tạo ra <color=#FFFFFFFF>$[C111082]</color>.",
+                    "descriptionreplaced": "Gây 3 điểm {SPRITE_PRESET#2101}<color=#99FFFFFF>Sát Thương Nguyên Tố Băng</color>, tạo ra <color=#FFFFFFFF>Bùa Độ Ách Chân</color>.",
+                    "id": 11083,
+                    "name": "Tiên Pháp - Cứu Khổ Độ Ách",
+                    "playcost": [
+                        {
+                            "costtype": "GCG_COST_DICE_CRYO",
+                            "count": 3
+                        },
+                        {
+                            "costtype": "GCG_COST_ENERGY",
+                            "count": 3
+                        }
+                    ],
+                    "type": "Kỹ Năng Nộ",
+                    "typetag": "GCG_SKILL_TAG_Q"
+                }
+            ],
+            "source": "Nhận được sau khi mời Qiqi giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
+            "storytext": "Bôn ba không nghỉ, sinh sinh bất tuyệt.",
+            "storytitle": "Đêm Hồn Về Lạnh Giá - Qiqi",
+            "tags": [
+                "GCG_TAG_ELEMENT_CRYO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_LIYUE"
+            ],
+            "tagstext": [
+                "Nguyên Tố Băng",
+                "Kiếm Đơn",
+                "Liyue"
             ]
         },
         "raidenshogun": {

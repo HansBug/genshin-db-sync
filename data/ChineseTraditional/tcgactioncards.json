@@ -230,8 +230,8 @@
             "name": "悠古的磐岩",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「千岩牢固，重嶂不移。」",
@@ -319,8 +319,8 @@
             "name": "冰風迷途的勇士",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「…請你活下去。請不要與我們共同走向滅亡，湮沒於冰冷的遺忘…」",
@@ -342,7 +342,7 @@
             "name": "破冰踏雪的回音",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -435,7 +435,7 @@
             "name": "無常之面",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -673,8 +673,8 @@
             "name": "熾烈的炎之魔女",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「我拒絕挽歌、拒絕哀怨、拒絕悲嘆，也拒絕一切無用的噪喧。\n若是公義早已不復，又該向誰獻上救贖？」",
@@ -746,8 +746,8 @@
             "name": "深林的記憶",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「因為遵循自然的，終會穿過御林的迷宮，抵達漫無邊際的原野。」",
@@ -757,6 +757,32 @@
             ],
             "tagstext": [
                 "聖遺物"
+            ]
+        },
+        "descentofdivinity": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "裝備牌",
+            "description": "戰鬥行動：我方出戰角色為阿貝多時，裝備此牌。\n阿貝多裝備此牌後，立刻使用一次創生法·擬造陽華。\n裝備有此牌的阿貝多在場時，如果我方場上存在陽華，則我方角色進行下落攻擊時造成的傷害+1。\n（牌組中包含阿貝多，才能加入牌組）",
+            "descriptionraw": "$[K1]：我方出戰角色為<color=#FFFFFFFF>$[A1604]</color>時，裝備此牌。\\n$[A1604]裝備此牌後，立刻使用一次<color=#FFD780FF>$[S16042]</color>。\\n裝備有此牌的$[A1604]在場時，如果我方場上存在<color=#FFFFFFFF>$[C116041]</color>，則我方角色進行$[K52]時造成的傷害+1。\\n（牌組中包含$[A1604]，才能加入牌組）",
+            "descriptionreplaced": "<color=#FFFFFFFF>戰鬥行動</color>：我方出戰角色為<color=#FFFFFFFF>阿貝多</color>時，裝備此牌。\\n阿貝多裝備此牌後，立刻使用一次<color=#FFD780FF>創生法·擬造陽華</color>。\\n裝備有此牌的阿貝多在場時，如果我方場上存在<color=#FFFFFFFF>陽華</color>，則我方角色進行<color=#FFFFFFFF>下落攻擊</color>時造成的傷害+1。\\n（牌組中包含阿貝多，才能加入牌組）",
+            "id": 216041,
+            "name": "神性之隕",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_GEO",
+                    "count": 3
+                }
+            ],
+            "source": "在貓尾酒館中邀請阿貝多進行對局，完成相應挑戰目標後獲得",
+            "storytext": "「確認對局策略的過程，也是一種縝密的計算…」",
+            "storytitle": "阿貝多·神性之隕",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "天賦",
+                "戰鬥行動"
             ]
         },
         "dominanceofearth": {
@@ -1226,8 +1252,8 @@
             "name": "絕緣之旗印",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "浮生若夢十三年，\n影峠緋雪翩躚煙，\n再顧君已遠。",
@@ -1527,6 +1553,42 @@
                 "聖遺物"
             ]
         },
+        "gameofwitsenduringvictory": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援牌",
+            "description": "初始具有2點「勝利倒數計時」。\n結束階段：「勝利倒計時」-1。如果「勝利倒計時」耗盡時我方沒有角色被擊倒，則我方牌手立刻贏得牌局。\n行動階段開始時：如果「勝利倒數計時」剛好剩餘1點，則生成4個萬能元素。",
+            "descriptionraw": "初始具有2點「勝利倒數計時」。\\n<color=#FFFFFFFF>結束階段：</color>「勝利倒計時」-1。如果「勝利倒計時」耗盡時我方沒有角色被擊倒，則我方牌手立刻贏得牌局。\\n<color=#FFFFFFFF>行動階段開始時：</color>如果「勝利倒數計時」剛好剩餘1點，則生成4個$[K411]。",
+            "descriptionreplaced": "初始具有2點「勝利倒數計時」。\\n<color=#FFFFFFFF>結束階段：</color>「勝利倒計時」-1。如果「勝利倒計時」耗盡時我方沒有角色被擊倒，則我方牌手立刻贏得牌局。\\n<color=#FFFFFFFF>行動階段開始時：</color>如果「勝利倒數計時」剛好剩餘1點，則生成4個<color=#FFFFFFFF>{SPRITE_PRESET#1111}萬能元素</color>。",
+            "id": 423025,
+            "name": "奕思巧戰·穩穩求勝",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitshotpodmechanism": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援牌",
+            "description": "行動階段開始時：在先手牌手方生成燙燙爆彈。\n結束階段：如果燙燙爆彈在對方場上結算，則使對方牌手輸掉對局。",
+            "descriptionraw": "<color=#FFFFFFFF>行動階段開始時：</color>在先手牌手方生成$[C401001]。\\n<color=#FFFFFFFF>結束階段：</color>如果$[C401001]在對方場上結算，則使對方牌手輸掉對局。",
+            "descriptionreplaced": "<color=#FFFFFFFF>行動階段開始時：</color>在先手牌手方生成燙燙爆彈。\\n<color=#FFFFFFFF>結束階段：</color>如果燙燙爆彈在對方場上結算，則使對方牌手輸掉對局。",
+            "id": 421011,
+            "name": "奕思巧戰·爆彈機關",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
+        "gameofwitsunrelentingassault": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援牌",
+            "description": "行動階段開始時：生成2個萬能元素。但是，我方牌手會在本回合結束階段輸掉牌局。\n敵方角色被擊倒或我方角色使用「元素爆發」後：生成3個萬能元素，抽1張牌，並且本次行動結束後我方可以再連續行動一次。",
+            "descriptionraw": "<color=#FFFFFFFF>行動階段開始時：</color>生成2個$[K411]。但是，我方牌手會在本回合結束階段輸掉牌局。\\n<color=#FFFFFFFF>敵方角色被擊倒或我方角色使用「元素爆發」後：</color>生成3個$[K411]，抽1張牌，並且本次行動結束後我方可以再連續行動一次。",
+            "descriptionreplaced": "<color=#FFFFFFFF>行動階段開始時：</color>生成2個<color=#FFFFFFFF>{SPRITE_PRESET#1111}萬能元素</color>。但是，我方牌手會在本回合結束階段輸掉牌局。\\n<color=#FFFFFFFF>敵方角色被擊倒或我方角色使用「元素爆發」後：</color>生成3個<color=#FFFFFFFF>{SPRITE_PRESET#1111}萬能元素</color>，抽1張牌，並且本次行動結束後我方可以再連續行動一次。",
+            "id": 423026,
+            "name": "奕思巧戰·快快猛攻",
+            "playcost": [],
+            "tags": [],
+            "tagstext": []
+        },
         "generalsancienthelm": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "裝備牌",
@@ -1586,6 +1648,24 @@
             "tagstext": [
                 "天賦",
                 "戰鬥行動"
+            ]
+        },
+        "goldenhouse": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援牌",
+            "description": "我方打出原本元素骰費用至少為3的「武器」或「聖遺物」手牌時：少花費1個元素骰。（每回合1次）\n可用次數：2",
+            "descriptionraw": "<color=#FFFFFFFF>我方打出原本元素骰費用至少為3的「{SPRITE_PRESET#3003}武器」或「{SPRITE_PRESET#3004}聖遺物」手牌時：</color>少花費1個元素骰。（每回合1次）\\n<color=#FFFFFFFF>$[K3]：2</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>我方打出原本元素骰費用至少為3的「{SPRITE_PRESET#3003}武器」或「{SPRITE_PRESET#3004}聖遺物」手牌時：</color>少花費1個元素骰。（每回合1次）\\n<color=#FFFFFFFF><color=#FFFFFFFF>可用次數</color>：2</color>",
+            "id": 321013,
+            "name": "黃金屋",
+            "playcost": [],
+            "storytext": "流通大陸的「契約」，無不在此鑄成。",
+            "storytitle": "黃金屋",
+            "tags": [
+                "GCG_TAG_PLACE"
+            ],
+            "tagstext": [
+                "場地"
             ]
         },
         "grandexpectation": {
@@ -1689,8 +1769,8 @@
             "name": "沉淪之心",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「…因一切死都是枉死，沉湎過往沒有救贖。」",
@@ -1762,9 +1842,9 @@
         "ihaventlostyet": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "事件牌",
-            "description": "本回合有我方角色被擊倒，才能打出：\n生成1個萬能元素，我方目前出戰角色獲得1點充能。",
-            "descriptionraw": "本回合有我方角色被擊倒，才能打出：\\n生成1個$[K411]，我方目前出戰角色獲得1點$[K310]。",
-            "descriptionreplaced": "本回合有我方角色被擊倒，才能打出：\\n生成1個<color=#FFFFFFFF>{SPRITE_PRESET#1111}萬能元素</color>，我方目前出戰角色獲得1點<color=#FFFFFFFF>{SPRITE_PRESET#1110}充能</color>。",
+            "description": "本回合有我方角色被擊倒，才能打出：生成1個萬能元素，我方目前出戰角色獲得1點充能。（每回合中，最多只能打出1張「本大爺還沒有輸！」。）",
+            "descriptionraw": "<color=#FFFFFFFF>本回合有我方角色被擊倒，才能打出：</color>生成1個$[K411]，我方目前出戰角色獲得1點$[K310]。（每回合中，最多只能打出1張「本大爺還沒有輸！」。）",
+            "descriptionreplaced": "<color=#FFFFFFFF>本回合有我方角色被擊倒，才能打出：</color>生成1個<color=#FFFFFFFF>{SPRITE_PRESET#1111}萬能元素</color>，我方目前出戰角色獲得1點<color=#FFFFFFFF>{SPRITE_PRESET#1110}充能</color>。（每回合中，最多只能打出1張「本大爺還沒有輸！」。）",
             "id": 332005,
             "name": "本大爺還沒有輸！",
             "playcost": [],
@@ -1829,12 +1909,7 @@
             "descriptionreplaced": "<color=#FFFFFFFF>擲骰階段：</color>2個元素骰初始總是擲出我方出戰角色類型的元素。",
             "id": 321003,
             "name": "群玉閣",
-            "playcost": [
-                {
-                    "costtype": "GCG_COST_DICE_SAME",
-                    "count": 1
-                }
-            ],
+            "playcost": [],
             "source": "在大世界與牌手步雲的冒險挑戰中完成挑戰目標後獲得",
             "storytext": "「據說其中有千種珍寶，琳琅滿目。」",
             "storytitle": "高閣入雲坐看星",
@@ -1843,6 +1918,33 @@
             ],
             "tagstext": [
                 "場地"
+            ]
+        },
+        "joyouscelebration": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "事件牌",
+            "description": "我方出戰角色的元素類型為冰/水/火/雷/草時，才能打出：對我方所有角色附著我方出戰角色類型的元素。\n（整局遊戲只能打出一張「秘傳」卡牌；這張牌一定在{F#妳}{M#你}的起始手牌中）",
+            "descriptionraw": "#<color=#FFFFFFFF>我方出戰角色的元素類型為{SPRITE_PRESET#2101}<color=#99FFFFFF>冰</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>水</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>火</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>雷</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>草</color>時，才能打出：</color>對我方所有角色附著我方出戰角色類型的元素。\\n（整局遊戲只能打出一張「{SPRITE_PRESET#3007}秘傳」卡牌；這張牌一定在{F#妳}{M#你}的起始手牌中）",
+            "descriptionreplaced": "#<color=#FFFFFFFF>我方出戰角色的元素類型為{SPRITE_PRESET#2101}<color=#99FFFFFF>冰</color>/{SPRITE_PRESET#2102}<color=#80C0FFFF>水</color>/{SPRITE_PRESET#2103}<color=#FF9999FF>火</color>/{SPRITE_PRESET#2104}<color=#FFACFFFF>雷</color>/{SPRITE_PRESET#2107}<color=#7EC236FF>草</color>時，才能打出：</color>對我方所有角色附著我方出戰角色類型的元素。\\n（整局遊戲只能打出一張「{SPRITE_PRESET#3007}秘傳」卡牌；這張牌一定在{F#妳}{M#你}的起始手牌中）",
+            "id": 330003,
+            "name": "愉舞歡遊",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                },
+                {
+                    "costtype": "GCG_COST_LEGEND",
+                    "count": 1
+                }
+            ],
+            "storytext": "「歡欣，與大家分享。」",
+            "storytitle": "愉舞歡遊",
+            "tags": [
+                "GCG_TAG_LEGEND"
+            ],
+            "tagstext": [
+                "秘傳"
             ]
         },
         "jueyunguoba": {
@@ -1955,6 +2057,31 @@
                 "夥伴"
             ]
         },
+        "kingssquire": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "裝備牌",
+            "description": "角色造成的傷害+1。\n入場時：所附屬角色在本回合中，下次使用「元素戰技」或裝備「天賦」時少花費2個元素骰。\n（「弓」角色才能裝備。角色最多裝備1件「武器」）",
+            "descriptionraw": "<color=#FFFFFFFF>角色造成的傷害+1</color>。\\n<color=#FFFFFFFF>入場時：</color>所附屬角色在本回合中，下次使用「元素戰技」或裝備「{SPRITE_PRESET#3006}天賦」時少花費2個元素骰。\\n（<color=#FFFFFFFF>「{SPRITE_PRESET#3202}弓」角色</color>才能裝備。角色最多裝備1件「{SPRITE_PRESET#3003}武器」）",
+            "descriptionreplaced": "<color=#FFFFFFFF>角色造成的傷害+1</color>。\\n<color=#FFFFFFFF>入場時：</color>所附屬角色在本回合中，下次使用「元素戰技」或裝備「{SPRITE_PRESET#3006}天賦」時少花費2個元素骰。\\n（<color=#FFFFFFFF>「{SPRITE_PRESET#3202}弓」角色</color>才能裝備。角色最多裝備1件「{SPRITE_PRESET#3003}武器」）",
+            "id": 311206,
+            "name": "王下近侍",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 3
+                }
+            ],
+            "storytext": "從蘭那羅的故事中得到的武器，具有弓的形制。\n「記住，這個世界只是森林的夢…請將森林的語言、保護王土的責任傳給更多人。」",
+            "storytitle": "森林教誨·王下近侍",
+            "tags": [
+                "GCG_TAG_WEAPON",
+                "GCG_TAG_WEAPON_BOW"
+            ],
+            "tagstext": [
+                "武器",
+                "弓"
+            ]
+        },
         "knightsoffavoniuslibrary": {
             "cardtype": "GCG_CARD_ASSIST",
             "cardtypetext": "支援牌",
@@ -2044,7 +2171,7 @@
             "name": "月桂的寶冠",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -2583,7 +2710,7 @@
             "name": "不動玄石之相",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -3094,8 +3221,8 @@
             "name": "華飾之兜",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 2
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
                 }
             ],
             "storytext": "「浮生若夢十三年，影峠緋雪翩躚煙，再顧君已遠。」",
@@ -3311,6 +3438,30 @@
                 "戰鬥行動"
             ]
         },
+        "pulsatingwitch": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "裝備牌",
+            "description": "切換到裝備有此牌的麗莎後：使敵方出戰角色附屬引雷。（每回合1次）\n（牌組中包含麗莎，才能加入牌組）",
+            "descriptionraw": "切換到裝備有此牌的<color=#FFFFFFFF>$[A1409]</color>後：使敵方出戰角色附屬<color=#FFFFFFFF>$[C114091]</color>。（每回合1次）\\n（牌組中包含$[A1409]，才能加入牌組）",
+            "descriptionreplaced": "切換到裝備有此牌的<color=#FFFFFFFF>麗莎</color>後：使敵方出戰角色附屬<color=#FFFFFFFF>引雷</color>。（每回合1次）\\n（牌組中包含麗莎，才能加入牌組）",
+            "id": 214091,
+            "name": "脈衝的魔女",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_ELECTRO",
+                    "count": 1
+                }
+            ],
+            "source": "在貓尾酒館中邀請麗莎進行對局，完成相應挑戰目標後獲得",
+            "storytext": "作為遍歷萬千卷藏的圖書管理員，當然能輕鬆記住致勝的技巧…",
+            "storytitle": "麗莎·脈衝的魔女",
+            "tags": [
+                "GCG_TAG_TALENT"
+            ],
+            "tagstext": [
+                "天賦"
+            ]
+        },
         "quickknit": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "事件牌",
@@ -3438,6 +3589,36 @@
             "source": "在貓尾酒館中邀請煙緋進行對局，完成相應挑戰目標後獲得",
             "storytext": "「在打牌這方面，自然是…律無禁止即可為呀。」",
             "storytitle": "煙緋·最終解釋權",
+            "tags": [
+                "GCG_TAG_TALENT",
+                "GCG_TAG_SLOWLY"
+            ],
+            "tagstext": [
+                "天賦",
+                "戰鬥行動"
+            ]
+        },
+        "riteofresurrection": {
+            "cardtype": "GCG_CARD_MODIFY",
+            "cardtypetext": "裝備牌",
+            "description": "戰鬥行動：我方出戰角色為七七時，裝備此牌。\n七七裝備此牌後，立刻使用一次仙法·救苦度厄。\n裝備有此牌的七七使用仙法·救苦度厄時，復甦我方所有倒下的角色，並治療其2點。（整場牌局限制2次）\n（牌組中包含七七，才能加入牌組）",
+            "descriptionraw": "$[K1]：我方出戰角色為<color=#FFFFFFFF>$[A1108]</color>時，裝備此牌。\\n$[A1108]裝備此牌後，立刻使用一次<color=#FFD780FF>$[S11083]</color>。\\n裝備有此牌的$[A1108]使用<color=#FFFFFFFF>$[S11083]</color>時，復甦我方所有倒下的角色，並治療其2點。（整場牌局限制2次）\\n（牌組中包含$[A1108]，才能加入牌組）",
+            "descriptionreplaced": "<color=#FFFFFFFF>戰鬥行動</color>：我方出戰角色為<color=#FFFFFFFF>七七</color>時，裝備此牌。\\n七七裝備此牌後，立刻使用一次<color=#FFD780FF>仙法·救苦度厄</color>。\\n裝備有此牌的七七使用<color=#FFFFFFFF>仙法·救苦度厄</color>時，復甦我方所有倒下的角色，並治療其2點。（整場牌局限制2次）\\n（牌組中包含七七，才能加入牌組）",
+            "id": 211081,
+            "name": "起死回骸",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_CRYO",
+                    "count": 5
+                },
+                {
+                    "costtype": "GCG_COST_ENERGY",
+                    "count": 3
+                }
+            ],
+            "source": "在貓尾酒館中邀請七七進行對局，完成相應挑戰目標後獲得",
+            "storytext": "「要…活下去…」",
+            "storytitle": "七七·起死回骸",
             "tags": [
                 "GCG_TAG_TALENT",
                 "GCG_TAG_SLOWLY"
@@ -3639,6 +3820,29 @@
             "tags": [],
             "tagstext": []
         },
+        "setaria": {
+            "cardtype": "GCG_CARD_ASSIST",
+            "cardtypetext": "支援牌",
+            "description": "我方執行任意行動後，手牌數量為0時：抽1張牌。\n可用次數：3",
+            "descriptionraw": "<color=#FFFFFFFF>我方執行任意行動後，手牌數量為0時：</color>抽1張牌。\\n<color=#FFFFFFFF>$[K3]：3</color>",
+            "descriptionreplaced": "<color=#FFFFFFFF>我方執行任意行動後，手牌數量為0時：</color>抽1張牌。\\n<color=#FFFFFFFF><color=#FFFFFFFF>可用次數</color>：3</color>",
+            "id": 322019,
+            "name": "塞塔蕾",
+            "playcost": [
+                {
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 1
+                }
+            ],
+            "storytext": "身為沙漠的天才，深入雨林的殿堂…",
+            "storytitle": "翻越高牆·塞塔蕾",
+            "tags": [
+                "GCG_TAG_ALLY"
+            ],
+            "tagstext": [
+                "夥伴"
+            ]
+        },
         "shakennotpurred": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "裝備牌",
@@ -3675,7 +3879,7 @@
             "name": "追憶之注連",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4387,9 +4591,9 @@
         "thunderandeternity": {
             "cardtype": "GCG_CARD_EVENT",
             "cardtypetext": "事件牌",
-            "description": "將我方所有元素骰轉換為目前出戰角色的類型。\n（牌組包含至少2個「稻妻」角色，才能加入牌組）",
-            "descriptionraw": "將我方所有元素骰轉換為目前出戰角色的類型。\\n（牌組包含至少2個「{SPRITE_PRESET#3403}稻妻」角色，才能加入牌組）",
-            "descriptionreplaced": "將我方所有元素骰轉換為目前出戰角色的類型。\\n（牌組包含至少2個「{SPRITE_PRESET#3403}稻妻」角色，才能加入牌組）",
+            "description": "將我方所有元素骰轉換為萬能元素。\n（牌組包含至少2個「稻妻」角色，才能加入牌組）",
+            "descriptionraw": "將我方所有元素骰轉換為$[K411]。\\n（牌組包含至少2個「{SPRITE_PRESET#3403}稻妻」角色，才能加入牌組）",
+            "descriptionreplaced": "將我方所有元素骰轉換為<color=#FFFFFFFF>{SPRITE_PRESET#1111}萬能元素</color>。\\n（牌組包含至少2個「{SPRITE_PRESET#3403}稻妻」角色，才能加入牌組）",
             "id": 331803,
             "name": "雷與永恆",
             "playcost": [],
@@ -4408,8 +4612,8 @@
             "name": "如雷的盛怒",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「當妳同雷雨再來時，我唱別的歌給妳聽！」",
@@ -4457,7 +4661,7 @@
             "name": "虺雷之姿",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4480,7 +4684,7 @@
             "name": "喚雷的頭冠",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4727,7 +4931,7 @@
             "name": "辰砂往生錄",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 3
                 }
             ],
@@ -4750,8 +4954,8 @@
             "name": "翠綠之影",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_VOID",
-                    "count": 3
+                    "costtype": "GCG_COST_DICE_SAME",
+                    "count": 2
                 }
             ],
             "storytext": "「終有一日…在無邊無際的獵場中，我們將再度相逢。」",
@@ -4773,7 +4977,7 @@
             "name": "翠綠的獵人之冠",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -4909,6 +5113,20 @@
             "tags": [],
             "tagstext": []
         },
+        "whereistheunseenrazor": {
+            "cardtype": "GCG_CARD_EVENT",
+            "cardtypetext": "事件牌",
+            "description": "將一個我方角色所裝備的「武器」返回手牌。\n本回合中，我方下次打出「武器」手牌時：少花費2個元素骰。",
+            "descriptionraw": "將一個我方角色所裝備的「{SPRITE_PRESET#3003}武器」返回手牌。\\n<color=#FFFFFFFF>本回合中，我方下次打出「{SPRITE_PRESET#3003}武器」手牌時：</color>少花費2個元素骰。",
+            "descriptionreplaced": "將一個我方角色所裝備的「{SPRITE_PRESET#3003}武器」返回手牌。\\n<color=#FFFFFFFF>本回合中，我方下次打出「{SPRITE_PRESET#3003}武器」手牌時：</color>少花費2個元素骰。",
+            "id": 332022,
+            "name": "藏鋒何處",
+            "playcost": [],
+            "storytext": "不知身世的冒險家協會分會長，不斷尋找著有關「劍」的線索，不停向沿途的強敵發起挑戰…",
+            "storytitle": "藏鋒何處",
+            "tags": [],
+            "tagstext": []
+        },
         "whiteirongreatsword": {
             "cardtype": "GCG_CARD_MODIFY",
             "cardtypetext": "裝備牌",
@@ -4990,7 +5208,7 @@
             "name": "酒漬船帽",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
@@ -5044,7 +5262,7 @@
             "name": "焦灼的魔女帽",
             "playcost": [
                 {
-                    "costtype": "GCG_COST_DICE_SAME",
+                    "costtype": "GCG_COST_DICE_VOID",
                     "count": 2
                 }
             ],
