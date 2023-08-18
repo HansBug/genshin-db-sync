@@ -173,6 +173,7 @@
                 "dendrobium",
                 "electrocrystal",
                 "flamingflowerstamen",
+                "fontaine",
                 "glazelily",
                 "inazuma",
                 "lazuriteswirl",
@@ -195,6 +196,7 @@
             "dendrobium": "Hoa Lan Máu",
             "electrocrystal": "Pha Lê Điện",
             "flamingflowerstamen": "Nhụy Hoa Liệt Hỏa",
+            "fontaine": "Fontaine",
             "glazelily": "Bách Hợp Lưu Ly",
             "inazuma": "Inazuma",
             "lazuriteswirl": "Thanh Kim Lưu Chuyển",
@@ -210,6 +212,7 @@
         "names": {
             "Bách Hợp Lưu Ly": "glazelily",
             "Báu Vật Trong Bài": "treasuresofthedeck",
+            "Fontaine": "fontaine",
             "Hoa Cecilia": "cecilia",
             "Hoa Lan Máu": "dendrobium",
             "Huyền Thoại": "legend",

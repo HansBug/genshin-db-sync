@@ -173,6 +173,7 @@
                 "dendrobium",
                 "electrocrystal",
                 "flamingflowerstamen",
+                "fontaine",
                 "glazelily",
                 "inazuma",
                 "lazuriteswirl",
@@ -195,6 +196,7 @@
             "dendrobium": "혈곡",
             "electrocrystal": "전기 수정",
             "flamingflowerstamen": "화염꽃 꽃술",
+            "fontaine": "폰타인",
             "glazelily": "유리백합",
             "inazuma": "이나즈마",
             "lazuriteswirl": "청금색 소용돌이",
@@ -225,6 +227,7 @@
             "전기 수정": "electrocrystal",
             "청금색 소용돌이": "lazuriteswirl",
             "태초": "origin",
+            "폰타인": "fontaine",
             "혈곡": "dendrobium",
             "화염꽃 꽃술": "flamingflowerstamen"
         },

@@ -4556,6 +4556,7 @@
         "aliases": {},
         "categories": {
             "10": [
+                "albedo",
                 "amber",
                 "aratakiitto",
                 "barbara",
@@ -4582,12 +4583,14 @@
                 "keqing",
                 "klee",
                 "kujousara",
+                "lisa",
                 "maguukenki",
                 "mirrormaiden",
                 "mona",
                 "nahida",
                 "ningguang",
                 "noelle",
+                "qiqi",
                 "raidenshogun",
                 "razor",
                 "rhodeiaofloch",
@@ -4607,6 +4610,7 @@
             ],
             "2": [
                 "abysslectorfathomlessflames",
+                "albedo",
                 "amber",
                 "bennett",
                 "candace",
@@ -4619,6 +4623,7 @@
                 "kaedeharakazuha",
                 "kaeya",
                 "kujousara",
+                "lisa",
                 "mirrormaiden",
                 "nahida",
                 "noelle",
@@ -4655,6 +4660,7 @@
                 "maguukenki",
                 "mona",
                 "ningguang",
+                "qiqi",
                 "rhodeiaofloch",
                 "tartaglia",
                 "yoimiya",
@@ -4700,6 +4706,7 @@
                 "ganyu",
                 "kaeya",
                 "kamisatoayaka",
+                "qiqi",
                 "shenhe"
             ],
             "GCG_TAG_ELEMENT_DENDRO": [
@@ -4715,11 +4722,13 @@
                 "fischl",
                 "keqing",
                 "kujousara",
+                "lisa",
                 "raidenshogun",
                 "razor",
                 "yaemiko"
             ],
             "GCG_TAG_ELEMENT_GEO": [
+                "albedo",
                 "aratakiitto",
                 "ningguang",
                 "noelle",
@@ -4767,6 +4776,7 @@
                 "hutao",
                 "keqing",
                 "ningguang",
+                "qiqi",
                 "shenhe",
                 "xiangling",
                 "xiao",
@@ -4775,6 +4785,7 @@
                 "zhongli"
             ],
             "GCG_TAG_NATION_MONDSTADT": [
+                "albedo",
                 "amber",
                 "barbara",
                 "bennett",
@@ -4785,6 +4796,7 @@
                 "jean",
                 "kaeya",
                 "klee",
+                "lisa",
                 "mona",
                 "noelle",
                 "razor",
@@ -4813,6 +4825,7 @@
             "GCG_TAG_WEAPON_CATALYST": [
                 "barbara",
                 "klee",
+                "lisa",
                 "mona",
                 "nahida",
                 "ningguang",
@@ -4852,6 +4865,7 @@
                 "zhongli"
             ],
             "GCG_TAG_WEAPON_SWORD": [
+                "albedo",
                 "bennett",
                 "jean",
                 "kaedeharakazuha",
@@ -4859,11 +4873,13 @@
                 "kamisatoayaka",
                 "kamisatoayato",
                 "keqing",
+                "qiqi",
                 "xingqiu"
             ]
         },
         "namemap": {
             "abysslectorfathomlessflames": "深淵詠者·淵火",
+            "albedo": "阿貝多",
             "amber": "安柏",
             "aratakiitto": "荒瀧一斗",
             "barbara": "芭芭拉",
@@ -4891,12 +4907,14 @@
             "keqing": "刻晴",
             "klee": "可莉",
             "kujousara": "九條裟羅",
+            "lisa": "麗莎",
             "maguukenki": "魔偶劍鬼",
             "mirrormaiden": "愚人眾·藏鏡仕女",
             "mona": "莫娜",
             "nahida": "納西妲",
             "ningguang": "凝光",
             "noelle": "諾艾爾",
+            "qiqi": "七七",
             "raidenshogun": "雷電將軍",
             "razor": "雷澤",
             "rhodeiaofloch": "純水精靈·洛蒂婭",
@@ -4916,6 +4934,7 @@
             "zhongli": "鍾離"
         },
         "names": {
+            "七七": "qiqi",
             "丘丘岩盔王": "stonehidelawachurl",
             "九條裟羅": "kujousara",
             "優菈": "eula",
@@ -4962,11 +4981,13 @@
             "達達利亞": "tartaglia",
             "重雲": "chongyun",
             "鍾離": "zhongli",
+            "阿貝多": "albedo",
             "雷澤": "razor",
             "雷電將軍": "raidenshogun",
             "香菱": "xiangling",
             "魈": "xiao",
-            "魔偶劍鬼": "maguukenki"
+            "魔偶劍鬼": "maguukenki",
+            "麗莎": "lisa"
         },
         "properties": {
             "hp": [
@@ -4982,16 +5003,16 @@
                 "GCG_TAG_ELEMENT_PYRO",
                 "GCG_TAG_WEAPON_NONE",
                 "GCG_TAG_CAMP_MONSTER",
-                "GCG_TAG_WEAPON_BOW",
-                "GCG_TAG_NATION_MONDSTADT",
                 "GCG_TAG_ELEMENT_GEO",
+                "GCG_TAG_WEAPON_SWORD",
+                "GCG_TAG_NATION_MONDSTADT",
+                "GCG_TAG_WEAPON_BOW",
                 "GCG_TAG_WEAPON_CLAYMORE",
                 "GCG_TAG_NATION_INAZUMA",
                 "GCG_TAG_ELEMENT_HYDRO",
                 "GCG_TAG_WEAPON_CATALYST",
                 "GCG_TAG_ELEMENT_ELECTRO",
                 "GCG_TAG_NATION_LIYUE",
-                "GCG_TAG_WEAPON_SWORD",
                 "GCG_TAG_WEAPON_POLE",
                 "GCG_TAG_NATION_SUMERU",
                 "GCG_TAG_ELEMENT_CRYO",

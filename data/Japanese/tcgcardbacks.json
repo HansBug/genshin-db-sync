@@ -173,6 +173,7 @@
                 "dendrobium",
                 "electrocrystal",
                 "flamingflowerstamen",
+                "fontaine",
                 "glazelily",
                 "inazuma",
                 "lazuriteswirl",
@@ -195,6 +196,7 @@
             "dendrobium": "血石華",
             "electrocrystal": "電気水晶",
             "flamingflowerstamen": "烈焔花の花蕊",
+            "fontaine": "フォンテーヌ",
             "glazelily": "琉璃百合",
             "inazuma": "稲妻",
             "lazuriteswirl": "ラピスラズリワール",
@@ -210,6 +212,7 @@
         "names": {
             "スメール": "sumeru",
             "セシリアの花": "cecilia",
+            "フォンテーヌ": "fontaine",
             "モンド": "mondstadt",
             "ラピスラズリワール": "lazuriteswirl",
             "レジェンド": "legend",

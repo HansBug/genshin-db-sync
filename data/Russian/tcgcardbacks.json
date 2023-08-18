@@ -173,6 +173,7 @@
                 "dendrobium",
                 "electrocrystal",
                 "flamingflowerstamen",
+                "fontaine",
                 "glazelily",
                 "inazuma",
                 "lazuriteswirl",
@@ -195,6 +196,7 @@
             "dendrobium": "Кровоцвет",
             "electrocrystal": "Электро кристалл",
             "flamingflowerstamen": "Тычинка пылающего цветка",
+            "fontaine": "Фонтейн",
             "glazelily": "Глазурная лилия",
             "inazuma": "Инадзума",
             "lazuriteswirl": "Лазуритовый вихрь",
@@ -225,6 +227,7 @@
             "Семена одуванчика": "dandelionseed",
             "Сумеру": "sumeru",
             "Тычинка пылающего цветка": "flamingflowerstamen",
+            "Фонтейн": "fontaine",
             "Цветок сесилии": "cecilia",
             "Электро кристалл": "electrocrystal"
         },

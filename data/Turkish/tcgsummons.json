@@ -607,6 +607,7 @@
                 "cryohilichurlshooter",
                 "drunkenmist",
                 "frostflakesekinoto",
+                "heraldoffrost",
                 "sacredcryopearl",
                 "shadowswordgallopingfrost",
                 "talismanspirit"
@@ -619,6 +620,7 @@
                 "chainsofwardingthunder",
                 "electrohilichurlshooter",
                 "eyeofstormyjudgment",
+                "lightningrose",
                 "oz-01",
                 "oz",
                 "sesshousakura",
@@ -627,6 +629,7 @@
                 "tengujuuraistormcluster"
             ],
             "GCG_HINT_GEO": [
+                "solarisotoma",
                 "stonestele",
                 "ushi"
             ],
@@ -686,10 +689,12 @@
                 "gardenofpurity",
                 "guoba",
                 "healingrain",
+                "heraldoffrost",
                 "hilichurlberserker",
                 "hydrosamachurl",
                 "largewindspirit-01",
                 "largewindspirit",
+                "lightningrose",
                 "melodyloop",
                 "oceanicmimicraptor",
                 "oceanicmimicsquirrel",
@@ -699,6 +704,7 @@
                 "sesshousakura",
                 "shadowswordgallopingfrost",
                 "shadowswordlonegale",
+                "solarisotoma",
                 "stonestele",
                 "stormeye",
                 "talismanspirit",
@@ -725,10 +731,12 @@
                 "gardenofpurity",
                 "guoba",
                 "healingrain",
+                "heraldoffrost",
                 "hilichurlberserker",
                 "hydrosamachurl",
                 "largewindspirit-01",
                 "largewindspirit",
+                "lightningrose",
                 "melodyloop",
                 "oceanicmimicraptor",
                 "oceanicmimicsquirrel",
@@ -738,6 +746,7 @@
                 "sesshousakura",
                 "shadowswordgallopingfrost",
                 "shadowswordlonegale",
+                "solarisotoma",
                 "stonestele",
                 "stormeye",
                 "talismanspirit",
@@ -772,11 +781,13 @@
             "gardenofpurity": "Saflık Bahçesi",
             "guoba": "Guoba",
             "healingrain": "İyileştirici Yağmur",
+            "heraldoffrost": "Ayazın Habercisi",
             "hilichurlberserker": "Vahşi Savaşçı Dağ Yabanisi",
             "hydrosamachurl": "Su Dağ Şamanı",
             "largewindspirit": "Büyük Rüzgar Ruhu",
             "largewindspirit-01": "Büyük Rüzgar Ruhu",
             "lightfallsword": "Işıksaçan Kılıcı",
+            "lightningrose": "Şimşek Gülü",
             "melodyloop": "Melodi Döngüsü",
             "oceanicmimicfrog": "Okeanid Taklitçisi: Kurbağa",
             "oceanicmimicraptor": "Okeanid Taklitçisi: Avcı",
@@ -788,6 +799,7 @@
             "sesshousakura": "Ölümcül Kiraz Çiçeği",
             "shadowswordgallopingfrost": "Gölge Kılıcı: Doludizgin Ayaz",
             "shadowswordlonegale": "Gölge Kılıcı: Yalnız Rüzgar",
+            "solarisotoma": "Güneş Çiçeği",
             "stonestele": "Dikili Taş",
             "stormeye": "Fırtına Gözü",
             "talismanspirit": "Tılsım Ruhu",
@@ -798,6 +810,7 @@
             "whirlwind": "Hortum"
         },
         "names": {
+            "Ayazın Habercisi": "heraldoffrost",
             "Bake-Kurage": "bakekurage",
             "Baron Tavşan": "baronbunny",
             "Buz Cicinler": "cryocicins",
@@ -810,6 +823,7 @@
             "Guoba": "guoba",
             "Gölge Kılıcı: Doludizgin Ayaz": "shadowswordgallopingfrost",
             "Gölge Kılıcı: Yalnız Rüzgar": "shadowswordlonegale",
+            "Güneş Çiçeği": "solarisotoma",
             "Güz Kasırgası": "autumnwhirlwind",
             "Hiddetli Yargının Gözü": "eyeofstormyjudgment",
             "Hortum": "whirlwind",
@@ -837,7 +851,8 @@
             "Yansıma": "reflection",
             "Çiçeklenen Ok": "clusterbloomarrow",
             "Ölümcül Kiraz Çiçeği": "sesshousakura",
-            "İyileştirici Yağmur": "healingrain"
+            "İyileştirici Yağmur": "healingrain",
+            "Şimşek Gülü": "lightningrose"
         },
         "properties": {
             "countingtype": [
